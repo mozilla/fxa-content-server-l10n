@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-11-07 11:53+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,31 @@ msgstr "பாயர்பாக்ஸ் ஒத்திசைவு சிற�
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "மற்ற பயர்பாஃசு சாதனங்களில் உங்களின் புதிய கடவுச்சொல்லை உள்ளிட்டு அமைத்தலை முடிக்கவும்."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "மின்னஞ்சல் உறுதிச்செய்யப்பட்டது"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "உள்நுழைவு உறுதி செய்யப்பட்டது"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "தாங்கள் இப்பொழுது %(serviceName)s சேவையை பயன்படுத்தலாம்"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "கணக்கு சரிபார்க்கப்பட்டது"
 
@@ -95,40 +107,88 @@ msgstr "கேட்பதற்கு சங்கடமாக உள்ளத�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. நீங்கள் நம்பக்கூடிய சாதனமாக இல்லையெனில்  உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை கணடிப்பாக மாற்றுவதுடன் பயர்பாஃசில் சேமித்த கடவுச்சொற்களையும் மாற்றவும்."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "வலை அமர்வு, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "வலை அமர்வு"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "வலை அமர்வு, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "வலை அமர்வு"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
 msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
@@ -139,21 +199,29 @@ msgstr "வெற்றிகரமாக சந்தாபடுத்தப�
 msgid "Account deleted successfully"
 msgstr "கணக்கு வெற்றிகரமாக நீக்கப்பட்டது"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "காட்சி பெயர் புதுப்பிக்கப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "இரண்டாம் நிலை மின்னஞ்சல் நீககப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "சரிபார்த்தல் மின்னஞ்சல் அனுப்பப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr ""
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "இரண்டாம்பட்ச மின்னஞ்சல்"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -187,7 +255,11 @@ msgstr "ரெஸ்ட்மடலைத் திற"
 msgid "Email resent"
 msgstr "மின்னஞ்சல் மீண்டும் அனுப்பப்பட்டது"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
@@ -227,12 +299,16 @@ msgstr "கடன் அட்டைகள்"
 msgid "Firefox Sync"
 msgstr "பயர்பாக்ஸ் ஒத்திசைவு"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "எதிர்பாராத பிழை"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "உங்கள் மின்னஞ்சலை சரிபார்க்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
@@ -440,7 +516,7 @@ msgstr "ஒரு சரியான மின்னஞ்சல் முகவ
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "பயர்பாக்ஸ் கணக்குகள் IFRAME மட்டும் அனுமதிக்கப்பட்ட தளங்களில் பயன்படுத்தலாம்"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "சரிபார்ப்பு இணைப்பு சேதமாகியுள்ளது "
 
@@ -476,7 +552,7 @@ msgstr "தவறான தரவு பண்பு: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "தரவு பண்பு காணவில்லை: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
@@ -601,7 +677,9 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -684,7 +762,7 @@ msgstr ""
 msgid "Reset password link damaged"
 msgstr "கடவுச்சொல்லை மீட்டமைக்கும் தொடுப்பு சேதமடைந்தது"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr ""
 
@@ -713,18 +791,22 @@ msgid "Submit new password"
 msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "உள்நுழைவு ஏற்கனவே உறுதிச்செய்யப்பட்டது"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "சரிபார்ப்பு இணைப்பு காலாவதியானது"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr ""
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr ""
 
@@ -745,7 +827,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
 
@@ -773,9 +855,9 @@ msgstr "மற்றொரு சாதனத்தை இணை"
 msgid "This Firefox is connected"
 msgstr "இந்தப் பயர்பாஃசு இணைந்தது"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "மின்னஞ்சல் உறுதிச்செய்யப்பட்டது"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -916,11 +998,7 @@ msgstr ""
 msgid "Cancel"
 msgstr "ரத்து செய்"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr ""
 
@@ -1056,17 +1134,13 @@ msgstr ""
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
@@ -1131,7 +1205,7 @@ msgid "Clear"
 msgstr "துடை"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "முடிந்தது"
 
@@ -1196,16 +1270,16 @@ msgid "Show"
 msgstr "காண்பி"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "தற்போதைய சாதனம்"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "துண்டி…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "தற்போதைய அமர்வு"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1216,8 +1290,8 @@ msgid "Firefox for iOS"
 msgstr "iOS தளத்திற்கான பயர்பாஃசு"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "எதுவும் இணயவில்லை"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1231,7 +1305,7 @@ msgstr "ஆண்ட்ராய்டுக்கான பயர்பாஃ�
 msgid "Missing or duplicate items?"
 msgstr "காணாமல் போன (அ) போலியான உருப்படிகள்?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "புதுப்பி"
 
@@ -1271,10 +1345,6 @@ msgstr "உங்கள் கணக்கை அழிக்க வேண்ட
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "உங்கள் கணக்கை நிர்வகிக்கும் போது பயர்பாஃசில் தோன்றும் பெயரைத் தேர்வு செய்யவும்."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "இரண்டாம்பட்ச மின்னஞ்சல்"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "பாதுகாப்பு அறிக்கை புதிய ஒத்திசைவு சாதனங்களை உறுதிப்படுத்தல் போன்றவற்றிற்கான மின்னஞ்சல்களைப் பெற கூடுதலாக இரண்டாம்பட்ச மின்னஞ்சல் தேவை."
@@ -1298,6 +1368,14 @@ msgstr "நீக்கு"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "சேர்"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1334,6 +1412,18 @@ msgstr "புகுப்பதிகை"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
+
+#~ msgid "current device"
+#~ msgstr "தற்போதைய சாதனம்"
+
+#~ msgid "current session"
+#~ msgstr "தற்போதைய அமர்வு"
+
+#~ msgid "none connected"
+#~ msgstr "எதுவும் இணயவில்லை"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "%(phoneNumber)s எண்ணிற்கு செயலித் தொடுப்பு மீண்டும் அனுப்பியுள்ளோம்"

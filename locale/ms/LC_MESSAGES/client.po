@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-27 22:36+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,19 +50,31 @@ msgstr "Firefox Sync akan diteruskan sebentar"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Lengkapkan set-up dengan memasukkan kata laluan baru pada peranti Firefox anda yang lain."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Emel disahkan"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Daftar masuk disahkan"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Anda kini sedia untuk menggunakan %(serviceName)s"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Akaun disahkan"
 
@@ -94,41 +106,89 @@ msgstr "Maaf di atas kesulitan ini. Anda perlu mengubah kata laluan Akaun Firfeo
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Maaf di atas kesulitan ini. Jika ini merupakan peranti yang tidak anda percayai, anda perlu menukar kata laluan Akaun Firefox, dan menukar sebarang kata laluan yang tersimpan di Firefox."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "Sesi Web, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Sesi Web"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Terakhir aktif pada %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
-msgstr "melebihi %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "sync terakhir %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
-msgstr "sync terakhir melebihi %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "kali terakhir aktif %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
-msgstr "aktif terakhir melebihi %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "masa sync terakhir tidak diketahui"
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "Sesi Web, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Sesi Web"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -138,21 +198,29 @@ msgstr "Langganan berjaya"
 msgid "Account deleted successfully"
 msgstr "Akaun berjaya dihapuskan"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Nama paparan dikemaskini"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "E-mel sekunder dibuang"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "E-mel pengesahan telah dihantar"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "E-mel utama ditetapkan ke %(email)s"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "Emel kedua"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -186,7 +254,11 @@ msgstr "Buka Restmail"
 msgid "Email resent"
 msgstr "E-mel telah dihantar semula"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Akaun berjaya disahkan"
 
@@ -226,12 +298,16 @@ msgstr "Kad kredit"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Ralat di luar jangkaan"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Pautan yang anda klik untuk mengesahkan e-mel anda telah luput."
 
@@ -439,7 +515,7 @@ msgstr "Masukkan alamat e-mel yang sah. firefox.com tidak menawarkan e-mel."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Akaun Firefox hanya boleh diletakkan di IFRAME pada laman yang dibenarkan sahaja"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Pautan pengesahan telah rosak"
 
@@ -475,7 +551,7 @@ msgstr "Data atribut tidak sah: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Data atribut tidak dijumpai: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Pautan pengesahan telah digunakan, ia hanya boleh digunakan sekali sahaja."
 
@@ -600,8 +676,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS tidak dihantar, sila cuba lagi"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -683,7 +763,7 @@ msgstr "Menerima pautan baru"
 msgid "Reset password link damaged"
 msgstr "Pautan set semula kata laluan rosak"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Pautan yang anda klik tidak mencukupi aksara, dan mungkin telah rosak disebabkan klien emel anda. Salin alamat dengan berhati-hati, dan cuba lagi."
 
@@ -712,18 +792,22 @@ msgid "Submit new password"
 msgstr "Hantar kata laluan baru"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "Daftar masuk sudah disahkan"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Pautan pengesahan tamat tempoh"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Klik sini untuk menerima pautan pengesahan baru"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Pengesahan gagal"
 
@@ -744,7 +828,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Semak e-mel anda untuk mendapatkan pautan pengesahan daftar masuk yang dihantar ke %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Tiada dalam peti masuk atau folder spam? Hantar semula"
 
@@ -772,9 +856,9 @@ msgstr "Sambungkan peranti lain"
 msgid "This Firefox is connected"
 msgstr "Firefox ini telah bersambung"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Daftar masuk disahkan"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Emel disahkan"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -843,7 +927,8 @@ msgstr "Lupa kata laluan?"
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -915,11 +1000,7 @@ msgstr "Terima"
 msgid "Cancel"
 msgstr "Batal"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Notifikasi akaun akan juga dihantar ke %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Akaun anda sudah sedia!"
 
@@ -1055,7 +1136,7 @@ msgstr "Hantar Firefox secara terus ke telefon pintar anda dan daftar masuk untu
 msgid "Mobile phone number"
 msgstr "Nombor telefon mudah alih"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Hantar"
 
@@ -1065,10 +1146,6 @@ msgid ""
 msgstr ""
 "Perkhidmatan SMS hanya terdapat di negara-negara tertentu. Kadar data SMS&amp; boleh dikenakan. Penerima e-mel atau SMS mesti memberi kebenaran. <a %(escapedLearnMoreAttributes)s>Ketahui "
 "selanjutnya</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Lain kali"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1132,7 +1209,7 @@ msgid "Clear"
 msgstr "Buang"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Selesai"
 
@@ -1197,16 +1274,16 @@ msgid "Show"
 msgstr "Papar"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "peranti semasa"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Memutuskan…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "sesi semasa"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1217,8 +1294,8 @@ msgid "Firefox for iOS"
 msgstr "Firefox untuk iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "tiada bersambung"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1232,7 +1309,7 @@ msgstr "Firefox untuk Android"
 msgid "Missing or duplicate items?"
 msgstr "Item hilang atau diduplikasi?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Muat semula"
 
@@ -1272,10 +1349,6 @@ msgstr "Anda pasti mahu menghapuskan akaun anda? Tindakan ini tidak boleh dibata
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Pilih nama anda yang anda ingin paparkan di Firefox dan apabila menguruskan akaun anda."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "Emel kedua"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "Emel kedua adalah alamat tambahan untuk menerima notis keselamatan dan mengesahkan peranti baru Sync."
@@ -1299,6 +1372,14 @@ msgstr "Buang"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Tambah"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1336,14 +1417,47 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Daftar masuk"
 
+#~ msgid "over %(translatedTimeAgo)s"
+#~ msgstr "melebihi %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "sync terakhir %(translatedTimeAgo)s"
+
+#~ msgid "last sync over %(translatedTimeAgo)s"
+#~ msgstr "sync terakhir melebihi %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "kali terakhir aktif %(translatedTimeAgo)s"
+
+#~ msgid "last active over %(translatedTimeAgo)s"
+#~ msgstr "aktif terakhir melebihi %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "masa sync terakhir tidak diketahui"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Daftar masuk disahkan"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Notifikasi akaun akan juga dihantar ke %(secondaryEmailVerified)s"
+
+#~ msgid "Maybe later"
+#~ msgstr "Lain kali"
+
+#~ msgid "current device"
+#~ msgstr "peranti semasa"
+
+#~ msgid "current session"
+#~ msgstr "sesi semasa"
+
+#~ msgid "none connected"
+#~ msgstr "tiada bersambung"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Pautan aplikasi telah dihantar semula ke %(phoneNumber)s"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Ihsan daripada <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Terakhir aktif pada %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Berjaya membatalkan langganan"
@@ -1411,18 +1525,18 @@ msgstr "Daftar masuk"
 #~ msgstr "Kenapa Sync dua (atau lebih!) peranti?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon atau "
-#~ "tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
+#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon "
+#~ "atau tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam satu "
-#~ "peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
+#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam "
+#~ "satu peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"

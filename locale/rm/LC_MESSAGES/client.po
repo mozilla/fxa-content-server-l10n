@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-09-30 15:04+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,31 @@ msgstr "Firefox Sync cuntinuescha immediatamain"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Cumplettar l'installaziun entras endatar il nov pled-clav en tes auters apparats da Firefox."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Verifitgà l'adressa dad e-mail"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Confermà l'annunzia"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ti es ussa pront per utilisar %(serviceName)s"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Verifitgà il conto"
 
@@ -96,41 +108,89 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Nus stain mal dad udir quai. Sche ti na ta fidas propi betg da quest apparat ta recumandain nus da midar tes pled-clav dal conto da Firefox e da midar tut ils pleds-clav memorisads en Firefox."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "Sesida da web, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Sesida web"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Ultima activitad %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "ultima sincronisaziun: %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "ultima activitad %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "temp da l'ultima sincronisaziun betg enconuschent"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "Sesida da web, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Sesida web"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -140,21 +200,29 @@ msgstr "Abunnà cun success"
 msgid "Account deleted successfully"
 msgstr "Stizzà cun success il conto"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Actualisà il num per visualisar"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "Allontanà l'adressa dad e-mail alternativa"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Tramess l'e-mail da verificaziun"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "L'adressa dad e-mail principala è %(email)s"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "Adressa dad e-mail alternativa"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -188,7 +256,11 @@ msgstr "Avrir Restmail"
 msgid "Email resent"
 msgstr "Tramess danovamain l'e-mail"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Reussì da verifitgar il conto"
 
@@ -228,12 +300,16 @@ msgstr "Cartas da credit"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Errur nunspitgada"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "La colliaziun che ti has cliccà per confermar tia adressa dad e-mail è scrudada."
 
@@ -441,7 +517,7 @@ msgstr "Endatescha ina adressa dad e-mail valida. firefox.com na porscha naginas
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "La pagina dal conto da Firefox po be vegnir plazzada en iframes sin paginas approvadas"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Errur en la colliaziun da verificaziun"
 
@@ -477,7 +553,7 @@ msgstr "Attribut da data nunvalid: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Attribut da data mancant: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Quest link da confirmaziun è gia vegnì duvrà e po be vegnir duvrà ina giada."
 
@@ -689,7 +765,7 @@ msgstr "Ma trametter ina nova colliaziun"
 msgid "Reset password link damaged"
 msgstr "La colliaziun per redefinir il pled-clav è donnegiada"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain l'entira adressa ed emprova anc ina giada."
 
@@ -718,18 +794,22 @@ msgid "Submit new password"
 msgstr "Trametter il nov pled-clav"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "L'annunzia è gia confermada"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Colliaziun da verificaziun scrudada"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Clicca qua per retschaiver ina nova colliaziun da verificaziun"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Errur da verificaziun"
 
@@ -750,7 +830,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Controllescha tes e-mails per chattar la colliaziun per l'annunzia, tramessa a %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Betg en la posta entrada u en l'ordinatur da spam? Trametter anc ina giada"
 
@@ -778,9 +858,9 @@ msgstr "Connectar in auter apparat"
 msgid "This Firefox is connected"
 msgstr "Quest Firefox è connectà"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Confermà l'annunzia"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Verifitgà l'adressa dad e-mail"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -923,11 +1003,7 @@ msgstr "Acceptar"
 msgid "Cancel"
 msgstr "Interrumper"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Las communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Tes conto è pront!"
 
@@ -1063,7 +1139,7 @@ msgstr "Trametta Firefox directamain a tes smartphone e t'annunzia per cumpletta
 msgid "Mobile phone number"
 msgstr "Numer dal telefonin"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Trametter"
 
@@ -1073,10 +1149,6 @@ msgid ""
 msgstr ""
 "Il servetsch dad SMS è mo disponibel en tscherts pajais. Eventualmain custan ils SMS e la transmissiun da datas. Il destinatur da l'e-mail u dal SMS sto esser d'accord. <a "
 "%(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Forsa pli tard"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1142,7 +1214,7 @@ msgid "Clear"
 msgstr "Allontanar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Finì"
 
@@ -1207,16 +1279,16 @@ msgid "Show"
 msgstr "Mussar"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "apparat actual"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Deconnectar…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "sesida actuala"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1227,8 +1299,8 @@ msgid "Firefox for iOS"
 msgstr "Firefox per iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "nagins connectads"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1242,7 +1314,7 @@ msgstr "Firefox per Android"
 msgid "Missing or duplicate items?"
 msgstr "Datti elements dublegiads u mancan elements?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Actualisar"
 
@@ -1282,10 +1354,6 @@ msgstr "Es ti segir che ti vuls stizzar quest conto? Questa acziun na po betg ve
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Tscherna il num che ti vuls ch'el cumpara en Firefox e sche ti administreschas tes conto."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "Adressa dad e-mail alternativa"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "In'adressa dad e-mail alternativa è in'adressa supplementara per retschaiver avis da segirezza e confermar la sincronisaziun da novs apparats."
@@ -1309,6 +1377,14 @@ msgstr "Allontanar"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Agiuntar"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1346,14 +1422,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "S'annunziar"
 
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "ultima sincronisaziun: %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "ultima activitad %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "temp da l'ultima sincronisaziun betg enconuschent"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Confermà l'annunzia"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Las communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmailVerified)s"
+
+#~ msgid "Maybe later"
+#~ msgstr "Forsa pli tard"
+
+#~ msgid "current device"
+#~ msgstr "apparat actual"
+
+#~ msgid "current session"
+#~ msgstr "sesida actuala"
+
+#~ msgid "none connected"
+#~ msgstr "nagins connectads"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "La colliaziun da l'applicaziun è vegnida tramessa anc ina giada a %(phoneNumber)s"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Furnì da <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Ultima activitad %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Deabunnà cun success"

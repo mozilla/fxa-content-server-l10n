@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-23 20:10+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -51,19 +51,31 @@ msgstr "Firefox Sync maa jokku ko leelaani"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Timmin teeltol so naatnude finnde hesere ndee e kaɓirɗi maa Firefox goɗɗe."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Iimeel ƴeewtaama"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Ceŋagol teeŋtinaama"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "A hebiima haŋkadi huutoraade %(serviceName)s"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Konte ƴeewtaama"
 
@@ -95,40 +107,88 @@ msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefo
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Rogere Geese"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Rogere Geese"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
 msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
@@ -139,20 +199,28 @@ msgstr "Lulniima no haaniri"
 msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Innde jaytino hesɗitinaama"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Ƴeewndagol iimeel neldaama"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
 msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
@@ -187,7 +255,11 @@ msgstr "Uddit Restmail"
 msgid "Email resent"
 msgstr "Iimeel neltiraama"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Konte ƴeewtoraama no haaniri"
 
@@ -227,12 +299,16 @@ msgstr ""
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Juumre nde heftinaaka"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Jokkol ndobi-ɗaa ngam ƴeewtaade finnde maa ngol hiiɗtii."
 
@@ -440,7 +516,7 @@ msgstr "Naatnu ñiiɓirde iimeel moƴƴere. firefox.com hokkataa ñiiɓirɗe."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Konte Firefox mbaawi wonde tan ko e IFRAME e lowe jamiraaɗe"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Jokkol ƴeewtagol koko boni"
 
@@ -476,7 +552,7 @@ msgstr "Joopol keɓe dagnaaka: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Joopol keɓe ena ŋakki: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ngol jokkol teeŋtinol koko huutoraa kisa, tee huutortee tan ko gootol."
 
@@ -687,7 +763,7 @@ msgstr ""
 msgid "Reset password link damaged"
 msgstr "Jokkol pirlitgol finnde moƴƴaani"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Jokkol ndobi-ɗaa ngol ena ŋakki alkule, tee ena waawi tawa ngol bonnaama e tarorde iimeeliiji maa. Nattoro ñiiɓirde ndee hakkille, eto-ɗaa kadi."
 
@@ -716,18 +792,22 @@ msgid "Submit new password"
 msgstr "Naatnu finnde hesere"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "Binnditagol teeŋtinaama kisa"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Jokkol ƴeewtagol hiiɗtii"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Dobo ɗoo ngam heɓde jokkol ƴeewtagol kesol"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Juumre ƴeewtagol"
 
@@ -748,7 +828,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
 
@@ -776,9 +856,9 @@ msgstr "Seŋ kaɓirgol goɗngol"
 msgid "This Firefox is connected"
 msgstr "Oo ɗoo Firefox ko ceŋiiɗo"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Iimeel ƴeewtaama"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -919,11 +999,7 @@ msgstr "Jaɓ"
 msgid "Cancel"
 msgstr "Haaytu"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Tintine konte maa nelde jooni e %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Konte maa keblaama!"
 
@@ -1059,7 +1135,7 @@ msgstr ""
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Neldu"
 
@@ -1067,10 +1143,6 @@ msgstr "Neldu"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Ina waawi wonde ɗoo e ɓooyde"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1134,7 +1206,7 @@ msgid "Clear"
 msgstr "Momtu"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gasii"
 
@@ -1199,16 +1271,16 @@ msgid "Show"
 msgstr "Hollu"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "kaɓirgol gonangol"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Seŋtondir…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "rogere jooni nde"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1219,8 +1291,8 @@ msgid "Firefox for iOS"
 msgstr "Firefox mo iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "seŋaaki"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1234,7 +1306,7 @@ msgstr "Firefox mo Android"
 msgid "Missing or duplicate items?"
 msgstr "Teme ŋakkuɗe walla puniiɗe?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Hesɗitin"
 
@@ -1274,10 +1346,6 @@ msgstr "Aɗa yenanaa yiɗde momtude konte maa? Ngal baɗal firtotaako."
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Suɓo innde njiɗ-ɗaa yoo yaltu e Firefox e so aɗa toppitoo konte maa."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr ""
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr ""
@@ -1301,6 +1369,14 @@ msgstr "Ittu"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Ɓeydu"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1338,11 +1414,23 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Seŋo"
 
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Tintine konte maa nelde jooni e %(secondaryEmailVerified)s"
+
+#~ msgid "Maybe later"
+#~ msgstr "Ina waawi wonde ɗoo e ɓooyde"
+
+#~ msgid "current device"
+#~ msgstr "kaɓirgol gonangol"
+
+#~ msgid "current session"
+#~ msgstr "rogere jooni nde"
+
+#~ msgid "none connected"
+#~ msgstr "seŋaaki"
+
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "E wnume <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Lultiniima no haaniri"

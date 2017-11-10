@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-27 20:47+0000\n"
 "Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,31 @@ msgstr "Firefox Sync akan dilanjutkan kembali"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Lengkapi persiapan dengan memasukkan sandi yang baru di perangkat Firefox Anda yang lain."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Surel telah diverifikasi"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Proses masuk dikonfirmasi"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Kini Anda siap menggunakan %(serviceName)s"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Akun diverifikasi"
 
@@ -95,41 +107,89 @@ msgstr "Kami minta maaf atas hal ini. Anda harus mengubah sandi Firefox Account 
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Kami minta maaf atas hal ini. Jika perangkat ini tidak Anda percayai, kami sarankan untuk mengganti sandi Firefox Account dan ubah semua sandi yang disimpan di Firefox."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "Sesi Web, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Sesi Web"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Terakhir aktif %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "terakhir disinkronkan %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "terakhir aktif %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "waktu terakhir sinkronisasi tidak diketahui"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "Sesi Web, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Sesi Web"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -139,21 +199,29 @@ msgstr "Sukses berlangganan"
 msgid "Account deleted successfully"
 msgstr "Akun berhasil dihapus"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Tampilan nama telah diperbarui"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "Surel sekunder dihapus"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Surel verifikasi terkirim"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "Surel utama di atur ke %(email)s"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "Surel kedua"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -187,7 +255,11 @@ msgstr "Buka Restmail"
 msgid "Email resent"
 msgstr "Email dikirimkan ulang"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Akun sukses terverifikasi"
 
@@ -227,12 +299,16 @@ msgstr "Kartu kredit"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Galat tidak diharapkan"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Tautan yang Anda klik untuk memeriksa email telah kedaluwarsa."
 
@@ -440,7 +516,7 @@ msgstr "Masukkan alamat surel yang valid. firefox.com tidak menawarkan surel."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Account hanya bisa ditempatkan pada IFRAME pada situs yang telah disetujui"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Tautan verifikasi rusak"
 
@@ -476,7 +552,7 @@ msgstr "Atribut data tidak valid: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut data hilang: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tautan konfirmasi sudah digunakan, dan hanya bisa digunakan sekali."
 
@@ -601,8 +677,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS tidak terkirim, silakan coba lagi"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -684,7 +764,7 @@ msgstr "Terima tautan baru"
 msgid "Reset password link damaged"
 msgstr "Tautan untuk menyetel ulang sandi rusak"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Ada karakter yang hilang pada tautan yang Anda klik dan mungkin disebabkan oleh aplikasi email Anda. Salin alamatnya dengan benar, lalu coba lagi."
 
@@ -713,18 +793,22 @@ msgid "Submit new password"
 msgstr "Masukkan sandi baru"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "Sudah dikonfirmasi masuk"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Tautan verifikasi kedaluwarsa"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Klik di sini untuk mendapatkan tautan verifikasi yang baru"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Kesalahan verifikasi"
 
@@ -745,7 +829,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Periksa surel Anda untuk tautan konfirmasi masuk dikirim ke %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Tak ada di kotak masuk atau folder spam? Kirim ulang"
 
@@ -773,9 +857,9 @@ msgstr "Hubungan perangkat lainnya"
 msgid "This Firefox is connected"
 msgstr "Firefox ini telah terhubung"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Proses masuk dikonfirmasi"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Surel telah diverifikasi"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -844,7 +928,8 @@ msgstr "Lupa sandi?"
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+msgstr ""
+"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -916,11 +1001,7 @@ msgstr "Terima"
 msgid "Cancel"
 msgstr "Batal"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Pemberitahuan akun akan dikirimkan ke %(secondaryEmailVerified)s sekarang juga"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Akun Anda siap!"
 
@@ -1056,7 +1137,7 @@ msgstr "Kirim Firefox langsung ke ponsel pintar Anda dan masuk untuk melengkapi 
 msgid "Mobile phone number"
 msgstr "Nomor ponsel"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Kirim"
 
@@ -1066,10 +1147,6 @@ msgid ""
 msgstr ""
 "Layanan SMS hanya tersedia di negara tertentu. Bisa dikenakan tarif SMS &amp; data. Penerima surel atau SMS yang dimaksudkan harus telah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari lebih "
 "lanjut</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Mungkin nanti"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1133,7 +1210,7 @@ msgid "Clear"
 msgstr "Bersihkan"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Selesai"
 
@@ -1198,16 +1275,16 @@ msgid "Show"
 msgstr "Tampilkan"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "perangkat saat ini"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Putuskan…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "sesi terkini"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1218,8 +1295,8 @@ msgid "Firefox for iOS"
 msgstr "Firefox untuk iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "tidak ada yang terhubung"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1233,7 +1310,7 @@ msgstr "Firefox untuk Android"
 msgid "Missing or duplicate items?"
 msgstr "Item hilang atau terduplikasi?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Segarkan"
 
@@ -1273,10 +1350,6 @@ msgstr "Yakin akan menghapus akun Anda? Aksi ini tidak dapat diurungkan."
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Pilih nama yang Anda inginkan tampil pada Firefox dan saat mengelola akun Anda."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "Surel kedua"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "Surel sekunder adalah alamat tambahan untuk menerima pemberitahuan keamanan dan mengonfirmasi sinkronisasi peranti baru."
@@ -1300,6 +1373,14 @@ msgstr "Hapus"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Tambah"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1337,14 +1418,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Masuk"
 
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "terakhir disinkronkan %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "terakhir aktif %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "waktu terakhir sinkronisasi tidak diketahui"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Proses masuk dikonfirmasi"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Pemberitahuan akun akan dikirimkan ke %(secondaryEmailVerified)s sekarang juga"
+
+#~ msgid "Maybe later"
+#~ msgstr "Mungkin nanti"
+
+#~ msgid "current device"
+#~ msgstr "perangkat saat ini"
+
+#~ msgid "current session"
+#~ msgstr "sesi terkini"
+
+#~ msgid "none connected"
+#~ msgstr "tidak ada yang terhubung"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Tautan aplikasi dikirim ulang ke %(phoneNumber)s"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Dibuat oleh <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Terakhir aktif %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Sukses berhenti langganan"
@@ -1413,18 +1518,19 @@ msgstr "Masuk"
 #~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah Anda "
-#~ "simpan di Firefox desktop akan muncul."
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
+#~ "Anda simpan di Firefox desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
-#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu perangkat."
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
+#~ "perangkat."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1509,9 +1615,11 @@ msgstr "Masuk"
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -1667,7 +1775,8 @@ msgstr "Masuk"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr ""
+#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -1724,7 +1833,8 @@ msgstr "Masuk"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
+#~ "sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"

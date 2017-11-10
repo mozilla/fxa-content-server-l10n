@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-18 21:15+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,31 @@ msgstr "Firefox Sync ən qısa zamanda təkrar başlayacaq"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Digər Firefox cihazlarınızda yeni parolu daxil etməklə qurulumu tamamlayın."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "E-poçt təsdiqlənib"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Daxil olma təsdiqləndi"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Artıq %(serviceName)s işlətməyə hazırsınız"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Hesab təsdiqləndi"
 
@@ -95,41 +107,89 @@ msgstr "Bunu eşitdiyimizə üzüldük. Firefox Hesabınızın parolunu dəyişd
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Bunu eşitdiyimizə üzüldük. Əgər bu heç güvənmədiyiniz cihazdırsa Firefox Hesabınızın parolunu dəyişdirin və Firefox-da saxlanılmış parollarınızı dəyişdirin."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "Web Sessiya, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Web Sessiya"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Son aktivlik %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "son sinxronlaşdırma %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "son aktivlik: %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "son sinxronlaşdırma vaxtı bilinmir"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "Web Sessiya, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Web Sessiya"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -139,21 +199,29 @@ msgstr "Uğurla abunə olundu"
 msgid "Account deleted successfully"
 msgstr "Hesab uğurla silindi"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Görüntülənmə adı yeniləndi"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "İkinci e-poçt silindi"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Təsdiqləmə e-poçtu göndərildi"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "%(email)s əsas e-poçt olaraq quruldu"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "İkinci e-poçt"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -187,7 +255,11 @@ msgstr "Restmail aç"
 msgid "Email resent"
 msgstr "E-poçt təkrar göndərildi"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Hesab uğurla təsdiqləndi"
 
@@ -227,12 +299,16 @@ msgstr "Kredit Kartları"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Gözlənilməz xəta"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "E-poçtunuzu təsdiq etmək üçün açdığınız keçidin vaxtı keçib."
 
@@ -440,7 +516,7 @@ msgstr "Doğru e-poçt ünvanı daxil edin. firefox.com e-poçt xidməti vermir.
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Hesabları ancaq təsdiqlənmiş saytlarda IFRAME içərisinə qoyula bilərlər"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Təsdiq keçidi zədələnib"
 
@@ -476,7 +552,7 @@ msgstr "Səhv məlumat atributu: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Əksik məlumat atributu: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Bu təsdiqləmə keçidi artıq istifadə edilib və ancaq bir dəfə işlədilə bilər."
 
@@ -688,7 +764,7 @@ msgstr "Yeni keçid al"
 msgid "Reset password link damaged"
 msgstr "Şifrə sıfırlama keçidi zədələnib"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Açdığınız keçiddə işarətlər çatışmır və ola bilsin e-poçt klientiniz tərəfindən xarab edilib. Ünvanı diqqətlə köçürün və təkrar yoxlayın."
 
@@ -717,18 +793,22 @@ msgid "Submit new password"
 msgstr "Yeni parol göndər"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "Daxil olma artıq təsdiqlənib"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Təsdiq keçidinin vaxtı keçib"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Yeni təsdiq keçidi almaq üçün bura klikləyin"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Təsdiq səhvi"
 
@@ -749,7 +829,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "%(email)s ünvanına göndərilmiş daxil olma təsdiqi keçidi üçün e-poçtunuzu yoxlayın"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Daxil olanlarda və spam qovluğunda yoxdur? Təkrar göndər"
 
@@ -777,9 +857,9 @@ msgstr "Başqa cihazı qoş"
 msgid "This Firefox is connected"
 msgstr "Firefox qoşuludur"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Daxil olma təsdiqləndi"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "E-poçt təsdiqlənib"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -921,11 +1001,7 @@ msgstr "Qəbul et"
 msgid "Cancel"
 msgstr "Ləğv et"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Hesab bildirişləri artıq həmçinin %(secondaryEmailVerified)s ünvanına göndəriləcək"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Hesabınız hazırdır!"
 
@@ -1061,7 +1137,7 @@ msgstr "Firefox-u birbaşa telefonunuza göndərin və quraşdırmanı tamamlama
 msgid "Mobile phone number"
 msgstr "Mobil telefon nömrəsi"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Göndər"
 
@@ -1069,10 +1145,6 @@ msgstr "Göndər"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS xidməti ancaq müəyyən ölkələrdə aktivdir. SMS və data qiymətləri tətbiq edilə bilər. E-poçt və ya SMS alıcısının icazəsi olmalıdır. <a %(escapedLearnMoreAttributes)s>Ətraflı Öyrən</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Bəlkə sonra"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1136,7 +1208,7 @@ msgid "Clear"
 msgstr "Təmizlə"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Hazır"
 
@@ -1201,16 +1273,16 @@ msgid "Show"
 msgstr "Göstər"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "hazırki cihaz"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Ayrıl…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "mövcud sessiya"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1221,8 +1293,8 @@ msgid "Firefox for iOS"
 msgstr "iOS üçün Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "heç biri qoşulmayıb"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1236,7 +1308,7 @@ msgstr "Android üçün Firefox"
 msgid "Missing or duplicate items?"
 msgstr "Əksik və ya dublikat element?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Yenilə"
 
@@ -1276,10 +1348,6 @@ msgstr "Hesabınızı silmək istədiyinizə əminsiniz? Bu addım bərpa edilə
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Firefox və idarə panelində göstərilməsini istədiyiniz adı seçin."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "İkinci e-poçt"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "İkinci e-poçt təhlükəsizlik bildirişləri və yeni Sync cihazlarını təsdiqləməq üçün işlədilən əlavə ünvandır."
@@ -1303,6 +1371,14 @@ msgstr "Sil"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Əlavə et"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1340,14 +1416,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Daxil ol"
 
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "son sinxronlaşdırma %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "son aktivlik: %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "son sinxronlaşdırma vaxtı bilinmir"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Daxil olma təsdiqləndi"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Hesab bildirişləri artıq həmçinin %(secondaryEmailVerified)s ünvanına göndəriləcək"
+
+#~ msgid "Maybe later"
+#~ msgstr "Bəlkə sonra"
+
+#~ msgid "current device"
+#~ msgstr "hazırki cihaz"
+
+#~ msgid "current session"
+#~ msgstr "mövcud sessiya"
+
+#~ msgid "none connected"
+#~ msgstr "heç biri qoşulmayıb"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Tətbiq keçidi %(phoneNumber)s üçün təkrar göndərildi"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> təmini ilə"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Son aktivlik %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Abunəlikdən çıxıldı"

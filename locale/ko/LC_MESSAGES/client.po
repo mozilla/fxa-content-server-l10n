@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-14 16:25+0000\n"
 "Last-Translator: Jinkyu Yi <jincreator@jincreator.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,31 @@ msgstr "Firefox Sync가 곧 다시 계속됩니다."
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "다른 Firefox 장치에서 암호를 입력해 설정을 완료하세요."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "이메일 인증됨"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "로그인 확인"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "계정 확인"
 
@@ -95,41 +107,89 @@ msgstr "죄송합니다. Firefox 계정의 비밀번호가 바꾸고, 원격으�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "죄송합니다. 이 기기를 신뢰하지 못한다면, Firefox 계정의 비밀번호를 바꾸고, Firefox에 저장된 비밀번호를 바꿔야 합니다."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "웹 세션, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "웹 세션"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "마지막 사용시간 %(translatedTimeAgo)s 전"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 마지막 동기화"
-
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 전 마지막 활성화"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "마지막 동기화 시간 알 수 없음"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "웹 세션, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "웹 세션"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -139,21 +199,29 @@ msgstr "구독 성공"
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "표시 이름 갱신됨"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "두 번째 이메일 삭제됨"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "인증 이메일이 전송됨"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "주 이메일을 %(email)s로 설정"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "보조 이메일"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -187,7 +255,11 @@ msgstr "Restmail 열기"
 msgid "Email resent"
 msgstr "이메일 재전송"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "계정 확인 성공"
 
@@ -227,12 +299,16 @@ msgstr "신용 카드"
 msgid "Firefox Sync"
 msgstr "Firefox 동기화"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "알수없는 에러"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니다."
 
@@ -440,7 +516,7 @@ msgstr "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "확인 링크가 손상됨"
 
@@ -476,7 +552,7 @@ msgstr "유효하지 않은 데이터 속성: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "누락된 데이터 속성: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "이 승인 링크는 벌써 사용되어 졌고, 한번만 사용할 수 있습니다."
 
@@ -688,7 +764,7 @@ msgstr "새 링크 받기"
 msgid "Reset password link damaged"
 msgstr "암호 재설정 링크 문제 있음"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
 
@@ -717,18 +793,22 @@ msgid "Submit new password"
 msgstr "새로운 비밀번호 제출"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "이 로그인은 이미 승인됨"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "확인 링크가 만료됨"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "새로운 확인 링크 받기"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "확인 오류"
 
@@ -749,7 +829,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "%(email)s으로 전송된 로그인 확인 링크를 확인하시기 바랍니다."
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "메일함과 스팸메일함에도 없나요? 다시 받기"
 
@@ -777,9 +857,9 @@ msgstr "다른 장치에 연결"
 msgid "This Firefox is connected"
 msgstr "이 Firefox는 연결되었습니다"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "로그인 확인됨"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "이메일 인증됨"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -921,11 +1001,7 @@ msgstr "동의"
 msgid "Cancel"
 msgstr "취소"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "계정 알림은 이제 %(secondaryEmailVerified)s로도 보내집니다"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "계정이 준비되어 있습니다!"
 
@@ -1061,7 +1137,7 @@ msgstr "Firefox를 스마트폰에 전송하고, 로그인하여 설정을 완�
 msgid "Mobile phone number"
 msgstr "핸드폰 번호"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "보내기"
 
@@ -1069,10 +1145,6 @@ msgstr "보내기"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS 서비스는 특정 국가에서만 사용가능합니다. SMS와 데이터 요금이 적용될 수 있습니다. 이메일 또는 SMS 수신자가 동의해야합니다. <a %(escapedLearnMoreAttributes)s>자세히 알아보기</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "나중에요"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1136,7 +1208,7 @@ msgid "Clear"
 msgstr "지우기"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "완료"
 
@@ -1201,16 +1273,16 @@ msgid "Show"
 msgstr "보이기"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "현재 기기"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "연결끊기…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "현재 세션"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1221,8 +1293,8 @@ msgid "Firefox for iOS"
 msgstr "iOS용 Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "연결된 것 없음"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1236,7 +1308,7 @@ msgstr "Android용 Firefox"
 msgid "Missing or duplicate items?"
 msgstr "누락되었거나 중복된 항목이 있나요?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "새로고침"
 
@@ -1276,10 +1348,6 @@ msgstr "계정을 삭제하겠습니까? 이 작업은 취소할 수 없습니�
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Firefox 또는 계정 관리시 표시할 이름을 선택해주세요."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "보조 이메일"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "보조 이메일은 보안 알림을 받거나 새로운 Sync 기기를 확인하기 위한 추가 주소입니다."
@@ -1303,6 +1371,14 @@ msgstr "삭제"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "추가"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1340,14 +1416,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "로그인"
 
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 전 마지막 활성화"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "마지막 동기화 시간 알 수 없음"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "로그인 확인됨"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "계정 알림은 이제 %(secondaryEmailVerified)s로도 보내집니다"
+
+#~ msgid "Maybe later"
+#~ msgstr "나중에요"
+
+#~ msgid "current device"
+#~ msgstr "현재 기기"
+
+#~ msgid "current session"
+#~ msgstr "현재 세션"
+
+#~ msgid "none connected"
+#~ msgstr "연결된 것 없음"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "%(phoneNumber)s로 앱 링크 재전송"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "무료 <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "마지막 사용시간 %(translatedTimeAgo)s 전"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "구독 해제 성공"

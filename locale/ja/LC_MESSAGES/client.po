@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-10-27 17:07+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -51,20 +51,32 @@ msgstr "Firefox Sync はすぐに再開されます"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "他の端末上の Firefox でも新しいパスワードを入力して、設定を完了してください。"
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "メールアドレスが確認されました"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "ログインが確認されました"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "アカウントの確認が完了しました"
 
@@ -96,41 +108,89 @@ msgstr "それは残念です。Firefox アカウントのパスワードを変�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "それは残念です。もしこれが本当に信頼できない端末なら、Firefox アカウントのパスワードを変更するとともに、Firefox に保存されているすべてのパスワードを変更してください。"
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "ウェブセッション、%(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "ウェブセッション"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "最終アクティブ日時 %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 以上"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "最終同期 %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
-msgstr "最終同期 %(translatedTimeAgo)s 以上"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "最終アクティブ日時 %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
-msgstr "最終アクティブ %(translatedTimeAgo)s 以上"
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "最終同期日時は不明です"
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "ウェブセッション、%(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "ウェブセッション"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -140,21 +200,29 @@ msgstr "購読を開始しました"
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "表示名が更新されました"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "予備アドレスが削除されました"
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "確認メールを送信しました"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "メインアドレスが %(email)s に設定されました"
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "予備アドレス"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -188,7 +256,11 @@ msgstr "Restmail を開く"
 msgid "Email resent"
 msgstr "メールが再送されました"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "アカウントの確認が完了しました"
 
@@ -228,12 +300,16 @@ msgstr "クレジットカード"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "予期しないエラー"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "クリックされたメールアドレス確認リンクの有効期限が切れています。"
 
@@ -441,7 +517,7 @@ msgstr "正しいメールアドレスを入力してください。firefox.com 
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox アカウントは承認済みサイトの IFRAME 内にのみ設置できます。"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "確認リンクが壊れています"
 
@@ -477,7 +553,7 @@ msgstr "不正なデータ属性: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "不足しているデータ属性: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "確認リンクは一度のみ使用でき、このリンクは既に使用されています。"
 
@@ -602,8 +678,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS は送信されませんでした。もう一度試してください"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -687,7 +767,7 @@ msgstr "新しいリンクを受け取る"
 msgid "Reset password link damaged"
 msgstr "パスワードをリセットするリンクが壊れています"
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。"
 
@@ -716,18 +796,22 @@ msgid "Submit new password"
 msgstr "新しいパスワードを送信"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "ログインは既に確認されています"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "確認リンクの有効期限が切れています"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "クリックすると確認リンクを再発行できます"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "確認エラー"
 
@@ -748,7 +832,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "ログイン確認リンクを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信"
 
@@ -776,9 +860,9 @@ msgstr "他の端末を接続"
 msgid "This Firefox is connected"
 msgstr "この Firefox は接続されています"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "ログインが確認されました"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "メールアドレスが確認されました"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -823,7 +907,8 @@ msgstr "Cookie とローカルストレージが必要です"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
+msgstr ""
+"Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -920,11 +1005,7 @@ msgstr "承認"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "今後アカウント通知は %(secondaryEmailVerified)s にもお送りします"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "アカウントの準備が整いました。"
 
@@ -1061,7 +1142,7 @@ msgstr "Firefox をお使いのスマートフォンへ直接送り、ログイ�
 msgid "Mobile phone number"
 msgstr "携帯電話番号"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "送信"
 
@@ -1069,10 +1150,6 @@ msgstr "送信"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS サービスは特定の国でのみ利用可能です。SMS およびデータ料金がかかる場合があります。メールまたは SMS の受信者による同意が必要です。<a %(escapedLearnMoreAttributes)s>詳細はこちら</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "後で考えます"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1136,7 +1213,7 @@ msgid "Clear"
 msgstr "消去"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "完了"
 
@@ -1201,16 +1278,16 @@ msgid "Show"
 msgstr "表示"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "現在の端末"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "接続を解除..."
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "現在のセッション"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1221,8 +1298,8 @@ msgid "Firefox for iOS"
 msgstr "iOS 版 Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "接続されている端末はありません"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1236,7 +1313,7 @@ msgstr "Android 版 Firefox"
 msgid "Missing or duplicate items?"
 msgstr "行方不明あるいは重複した項目がありますか？"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "再読み込み"
 
@@ -1276,10 +1353,6 @@ msgstr "本当にアカウントを削除してもよろしいですか？ こ�
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "予備アドレス"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr "予備アドレスはセキュリティ通知を受け取ったり新たな Sync 端末を確認したりするための追加のアドレスです。"
@@ -1303,6 +1376,14 @@ msgstr "削除"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "追加"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1340,14 +1421,47 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "ログイン"
 
+#~ msgid "over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 以上"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "最終同期 %(translatedTimeAgo)s"
+
+#~ msgid "last sync over %(translatedTimeAgo)s"
+#~ msgstr "最終同期 %(translatedTimeAgo)s 以上"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "最終アクティブ日時 %(translatedTimeAgo)s"
+
+#~ msgid "last active over %(translatedTimeAgo)s"
+#~ msgstr "最終アクティブ %(translatedTimeAgo)s 以上"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "最終同期日時は不明です"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "ログインが確認されました"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "今後アカウント通知は %(secondaryEmailVerified)s にもお送りします"
+
+#~ msgid "Maybe later"
+#~ msgstr "後で考えます"
+
+#~ msgid "current device"
+#~ msgstr "現在の端末"
+
+#~ msgid "current session"
+#~ msgstr "現在のセッション"
+
+#~ msgid "none connected"
+#~ msgstr "接続されている端末はありません"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "アプリのリンクを %(phoneNumber)s へ再送信しました"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "最終アクティブ日時 %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "購読を解除しました"
@@ -1405,7 +1519,8 @@ msgstr "ログイン"
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
+#~ msgstr ""
+#~ "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "アプリのリンクを %(escapedPhoneNumber)s へ送信しました。<a %(escapedBackLinkAttrs)s>番号を間違えた場合</a>"
@@ -1414,14 +1529,18 @@ msgstr "ログイン"
 #~ msgstr "2 つ (あるいはそれ以上) の端末を同期する理由"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 Firefox に保存した情報が表示されます。"
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 "
+#~ "Firefox に保存した情報が表示されます。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
+#~ msgstr ""
+#~ "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場"
+#~ "合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1526,16 +1645,21 @@ msgstr "ログイン"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync 設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してください</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してくだ"
+#~ "さい</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "別のメールアドレスでアカウントをお持ちですか？ <a href=\"%(signinUri)s\">ログイン</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s\">Linux</a> に対応しています。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> に対応しています。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最終アクティブ日時: %(translatedTimeAgo)s"
@@ -1703,7 +1827,9 @@ msgstr "ログイン"
 #~ msgstr "本当にアカウントのパスワードをリセットしますか？"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してください。"
+#~ msgstr ""
+#~ "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してくだ"
+#~ "さい。"
 
 #~ msgid "a day"
 #~ msgstr "1 日"
