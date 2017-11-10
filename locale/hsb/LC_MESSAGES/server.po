@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-10 19:10+0000\n"
+"PO-Revision-Date: 2017-11-10 19:19+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -190,6 +190,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Sće swoju primarnu e-mejlowu adresu wuspěšnje do %(email)s změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta Firefox a zo byšće wěstotne powěsće a přizjewjenske "
+"wobkrućenja dóstał."
 
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -344,7 +346,7 @@ msgstr "Hdyž su wobkrućene, su kontowe změny móžne, kaž na přikład přid
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "To je awtomatiska e-mejlka; jeli sće ju mylnje dóstał, jeli njejsće tutu akciju awtorizował, <a %(passwordChangeLinkAttributes)s>změńće prošu swoje hesło</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -440,7 +442,7 @@ msgstr "Druha e-mejlowa adresa konta Firefox je so přidała"
 
 #: lib/senders/email.js:800
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Nowa primarna e-mejlowa adresa konta Firefox"
 
 #: lib/senders/email.js:832
 msgid "Secondary Firefox Account email removed"
