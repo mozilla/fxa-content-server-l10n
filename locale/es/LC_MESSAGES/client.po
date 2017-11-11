@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 11:31+0000\n"
+"PO-Revision-Date: 2017-11-11 11:43+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -53,7 +53,7 @@ msgstr "Completa la configuración introduciendo la nueva contraseña en tus otr
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Ya estás preparado para hacer cambios en tu cuenta de Firefox."
+msgstr "Ya puedes hacer cambios en tu cuenta de Firefox."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
@@ -173,11 +173,11 @@ msgstr "Hace %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s cerca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Hace %(translatedTimeAgo)s cerca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -189,7 +189,7 @@ msgstr "Sesión web"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Última sincronización desconocida"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -217,7 +217,7 @@ msgstr "Correo principal establecido como %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "Un correo secundario es una dirección alternativa para recibir avisos de seguridad y confirmar los nuevos dispositivos agregados a Sync"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -257,7 +257,7 @@ msgstr "Se ha reenviado el correo electrónico"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Se verificó con éxito el correo principal"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Se verificó con éxito el correo secundario"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -792,7 +792,7 @@ msgstr "Enviar nueva contraseña"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Ya se confirmó el correo principal"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1275,7 +1275,7 @@ msgstr "Mostrar"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Dispositivo actual"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1283,7 +1283,7 @@ msgstr "Desconectar…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Sesión actual"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1295,7 +1295,7 @@ msgstr "Firefox para iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "Ninguno conectado"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1375,11 +1375,11 @@ msgstr "Añadir"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "Desbloquear…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "comprobar para desbloquear sección"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
