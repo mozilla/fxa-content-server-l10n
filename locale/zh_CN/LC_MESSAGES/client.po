@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 00:11+0000\n"
+"PO-Revision-Date: 2017-11-11 00:12+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -174,11 +174,11 @@ msgstr "早于 %(translatedTimeAgo)s 在 %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s 在 %(translatedCountry)s %(translatedState)s %(translatedCity)s 附近"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "早于 %(translatedTimeAgo)s 在 %(translatedCountry)s %(translatedState)s %(translatedCity)s 附近"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -190,7 +190,7 @@ msgstr "网络会话"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "上次同步时间未知"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -218,7 +218,7 @@ msgstr "主邮箱设为 %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "次要电子邮件地址可以用于接收安全通知和确认新的同步设备"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -258,7 +258,7 @@ msgstr "邮件已重发"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "主要邮件地址验证成功"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -302,7 +302,7 @@ msgstr "Firefox 同步"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "次要邮件地址验证成功"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -791,7 +791,7 @@ msgstr "提交新密码"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "主要邮件地址已经确认"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1270,7 +1270,7 @@ msgstr "显示"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "当前设备"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1278,7 +1278,7 @@ msgstr "断开…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "当前会话"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1290,7 +1290,7 @@ msgstr "Firefox for iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "没有连接"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1370,11 +1370,11 @@ msgstr "添加"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "解锁…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "验证以解锁会话"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
