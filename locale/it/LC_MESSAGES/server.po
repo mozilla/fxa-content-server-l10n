@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 11:50+0000\n"
-"Last-Translator: Sav22999 <savemore99.sm@gmail.com>\n"
+"PO-Revision-Date: 2017-11-11 13:25+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -193,6 +193,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Hai modificato correttamente il tuo indirizzo email primario in %(email)s. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’account Firefox, ricevere le notifiche di "
+"sicurezza e autorizzare l’accesso da nuovi dispositivi."
 
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -351,6 +353,8 @@ msgstr "Una volta verificata la richiesta, sarà possibile modificare le imposta
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
+"Questo messaggio è stato inviato da un servizio automatico. Se lo hai ricevuto per errore e non hai autorizzato l’operazione, <a %(passwordChangeLinkAttributes)s>modifica immediatamente la "
+"password</a> associata all’account."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
