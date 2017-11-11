@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 16:49+0000\n"
+"PO-Revision-Date: 2017-11-11 16:52+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -85,7 +85,7 @@ msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬ�
 
 #: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "ਅਣਪਛਾਤਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ। ਆਪਣੇ ਐਡ-ਆਨ ਡਾਟੇ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਪਿਛਲੇ ਐਡ-ਆਨ ਖਾਤਾ ਈਮੇਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ <a href=\"/signup\">ਸਾਈਨ ਅੱਪ</a> ਕਰੋ।"
 
 #: app/scripts/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
