@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 05:30+0000\n"
+"PO-Revision-Date: 2017-11-11 05:33+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -183,7 +183,7 @@ msgstr "新增主要電子郵件地址"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr ""
+msgstr "您已成功將主要電子郵件地址更改為 %(email)s。現在起，請使用此信箱來登入 Firefox 帳號，也會在這個信箱中收到安全性通知、登入確認信等等。"
 
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -331,7 +331,7 @@ msgstr "驗證完成後，即可從此裝置進行新增次要電子郵件地址
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "這是一封自動寄出的郵件，若您意外收到此郵件或並未要求進行此操作，請<a %(passwordChangeLinkAttributes)s>修改密碼</a>。"
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -427,7 +427,7 @@ msgstr "已加入次要 Firefox 帳號地址"
 
 #: lib/senders/email.js:800
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "新的 Firefox 帳號主要電子郵件地址"
 
 #: lib/senders/email.js:832
 msgid "Secondary Firefox Account email removed"
