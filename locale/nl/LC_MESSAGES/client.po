@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 13:37+0000\n"
+"PO-Revision-Date: 2017-11-12 12:02+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -109,27 +109,27 @@ msgstr "Het spijt ons dit te horen. Als dit een apparaat was dat u echt niet ver
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Laatste synchronisatie: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Laatste synchronisatie: %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Laatste synchronisatie: %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -137,23 +137,23 @@ msgstr "Laatst actief: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Laatst actief: meer dan %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Laatst actief: %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Laatst actief: meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Laatst actief: %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Laatst actief: meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -161,23 +161,23 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Meer dan %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -1374,11 +1374,11 @@ msgstr "Toevoegen"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "Ontgrendelen…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "verifieer om sectie te ontgrendelen"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
