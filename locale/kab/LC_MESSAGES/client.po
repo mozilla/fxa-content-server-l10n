@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-12 08:50+0000\n"
+"PO-Revision-Date: 2017-11-12 08:52+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1276,7 +1276,7 @@ msgstr "Tuffɣa…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Tiγimit tamirant"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1288,7 +1288,7 @@ msgstr "Firefox i iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "Ula d yiwen ur iqqin"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
