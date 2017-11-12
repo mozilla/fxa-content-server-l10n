@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-12 07:40+0000\n"
+"PO-Revision-Date: 2017-11-12 08:50+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1268,7 +1268,7 @@ msgstr "Sken"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "ibenk amiran"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
