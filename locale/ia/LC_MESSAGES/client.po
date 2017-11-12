@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-12 20:10+0000\n"
+"PO-Revision-Date: 2017-11-12 20:25+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -114,23 +114,23 @@ msgstr "Ultime synchronisation %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Ultime synchronisation le %(translatedTimeAgo)s"
+msgstr "Ultime synchronisation del %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime synchronisation %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime synchronisation del %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime synchronisation %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime synchronisation del %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -138,23 +138,23 @@ msgstr "Ultime activitate: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ultime activitate del %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime activitate %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime activitate del %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime activitate %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ultime activitate del %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -162,19 +162,19 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Terminate %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Terminate %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
