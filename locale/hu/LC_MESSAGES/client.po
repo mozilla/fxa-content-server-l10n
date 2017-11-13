@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-13 08:50+0000\n"
+"PO-Revision-Date: 2017-11-13 08:52+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -137,23 +137,23 @@ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Legutóbb aktív: %(translatedTimeAgo)s itt: %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Legutóbb aktív: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -161,7 +161,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -169,7 +169,7 @@ msgstr "%(translatedTimeAgo)s itt: %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -177,7 +177,7 @@ msgstr "%(translatedTimeAgo)s e közelében: %(translatedCity)s, %(translatedSta
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
