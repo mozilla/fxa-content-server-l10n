@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-10-01 10:36+0000\n"
+"PO-Revision-Date: 2017-11-14 15:25+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -56,15 +56,15 @@ msgstr ""
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "อีเมลหลักได้รับการยืนยันแล้ว"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "การแจ้งเตือนบัญชีจะถูกส่งไปยัง %(secondaryEmailVerified)s ด้วย"
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "อีเมลสำรองได้รับการยืนยันแล้ว"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -108,19 +108,19 @@ msgstr "เราเสียใจที่ได้ยินเกี่ยว
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s ใน %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s ใน %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -160,19 +160,19 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "นานกว่า %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ใน %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "นานกว่า %(translatedTimeAgo)s ใน %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ใกล้ ๆ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -188,7 +188,7 @@ msgstr "เว็บเซสชัน"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "ไม่ทราบเวลาซิงค์ครั้งสุดท้าย"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -256,7 +256,7 @@ msgstr "ได้ส่งอีเมลอีกครั้งแล้ว"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "อีเมลหลักได้รับการยืนยันสำเร็จแล้ว"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -300,7 +300,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "อีเมลสำรองได้รับการยืนยันสำเร็จแล้ว"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -676,11 +676,8 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ไม่สามารถส่งได้ โปรดลองอีกครั้ง"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -756,7 +753,7 @@ msgstr "ลิงก์ที่คุณได้คลิกเพื่อต
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "รับลิงก์ใหม่"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -792,7 +789,7 @@ msgstr "ส่งรหัสผ่านใหม่"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "อีเมลหลักได้รับการยืนยันไปแล้ว"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -820,7 +817,7 @@ msgstr "ยืนยันการลงชื่อเข้านี้"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "ตรวจสอบอีเมลของคุณสำหรับลิงก์ยืนยันที่ส่ง&nbsp;ไปยัง %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
@@ -829,7 +826,7 @@ msgstr "ตรวจสอบอีเมลของคุณสำหรับ
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่"
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -894,7 +891,7 @@ msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ iOS �
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "ทำไมต้องใช้อุปกรณ์มากกว่าหนึ่ง?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1271,7 +1268,7 @@ msgstr "แสดง"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "อุปกรณ์ปัจจุบัน"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1327,7 +1324,7 @@ msgstr "บอกรับ"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "จัดการการบอกรับสมาชิก"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1359,7 +1356,7 @@ msgstr "ต้องการการยืนยัน"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "ทำให้เป็นหลัก"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1505,17 +1502,18 @@ msgstr "ลงชื่อเข้า"
 #~ msgstr "ทำไมต้องซิงค์สองอุปกรณ์ (หรือมากกว่า!) ?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
+#~ "ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox "
+#~ "บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง "
-#~ "Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
+#~ "ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง "
+#~ "คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1595,19 +1593,18 @@ msgstr "ลงชื่อเข้า"
 #~ msgid "Sync preferences"
 #~ msgstr "การตั้งค่า Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "กำลังมองหา Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">เริ่มต้นที่นี่</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "มีบัญชีที่ใช้อีเมลอื่น? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a href="
-#~ "\"%(linkLinux)s\">Linux</a>"
+#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "ใช้งานล่าสุด: %(translatedTimeAgo)s"
