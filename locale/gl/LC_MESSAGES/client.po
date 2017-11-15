@@ -1,14 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-11-15 22:22+0000\n"
+"Last-Translator: Keko <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -672,9 +676,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1042,9 +1044,8 @@ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
-#, fuzzy
 msgid "Use a different account"
-msgstr "Conta sen comprobar"
+msgstr "Usar unha conta diferente"
 
 #: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
@@ -1442,7 +1443,6 @@ msgstr ""
 #~ msgid "Missing parameter in request body: %(param)s"
 #~ msgstr "Falta un parámetro no corpo da solicitude: %(param)s"
 
-#, fuzzy
 #~ msgid "Sign up"
 #~ msgstr "Saír"
 
@@ -1509,7 +1509,6 @@ msgstr ""
 #~ msgid "Year of birth required"
 #~ msgstr "Requírese o ano de nacemento"
 
-#, fuzzy
 #~ msgid "Valid birthday required"
 #~ msgstr "Requírese o ano de nacemento"
 
@@ -1543,8 +1542,7 @@ msgstr ""
 #~ msgstr "Xa ten unha conta? Identifíquese."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Ao continuar, eu acepto os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do servizo</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos servizos na nube de Firefox."
+#~ msgstr "Ao continuar, eu acepto os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do servizo</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos servizos na nube de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Subscribirse aos consellos e novas do Firefox"
