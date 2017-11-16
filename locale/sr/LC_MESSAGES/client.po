@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-12 11:38+0000\n"
-"Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"PO-Revision-Date: 2017-11-16 15:15+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -113,19 +113,19 @@ msgstr "Последње синхронизовање %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последња синхронизација пре %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последња синхронизација %(translatedTimeAgo)s у држави %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последња синхронизација пре %(translatedTimeAgo)s у држави %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Последња синхронизација %(translatedTimeAgo)s у близини града %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
