@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-16 05:50+0000\n"
+"PO-Revision-Date: 2017-11-17 02:10+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -53,7 +53,7 @@ msgstr "다른 Firefox 장치에서 암호를 입력해 설정을 완료하세�
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Firefox Account를 변경할 수 있는 준비가 다 되었습니다."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
@@ -113,39 +113,39 @@ msgstr "%(translatedTimeAgo)s 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s 넘어 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
-msgstr "마지막 사용시간 %(translatedTimeAgo)s 전"
+msgstr "%(translatedTimeAgo)s 마지막 사용"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s 넘어 마지막 사용"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 사용"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 사용"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -257,7 +257,7 @@ msgstr "이메일 재전송"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "기본 이메일 인증 성공"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "Firefox 동기화"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "보조 이메일 확인 성공"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
