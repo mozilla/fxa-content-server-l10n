@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-14 12:07+0000\n"
+"PO-Revision-Date: 2017-11-20 15:10+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -57,15 +57,15 @@ msgstr "Artık Firefox Hesabınızda değişiklik yapmaya hazırsınız."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "Ana e-posta onaylandı"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Hesap bildirimleri artık %(secondaryEmailVerified)s adresine de gönderilecek."
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "İkinci e-posta onaylandı"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -113,7 +113,7 @@ msgstr "Son eşitleme %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Son eşitleme en az %(translatedTimeAgo)s önce"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -121,15 +121,15 @@ msgstr "Son eşitleme %(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Son eşitleme en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Son eşitleme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Son eşitleme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -137,23 +137,23 @@ msgstr "Son etkinlik: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Son etkinlik en az %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Son etkinlik %(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Son etkinlik en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Son etkinlik %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Son etkinlik en az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -169,15 +169,15 @@ msgstr "%(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "En az %(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "En az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -257,7 +257,7 @@ msgstr "E-posta tekrar gönderildi"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Ana e-posta başarıyla doğrulandı"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "İkinci e-posta başarıyla doğrulandı"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -792,7 +792,7 @@ msgstr "Yeni parolayı gönder"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Ana e-posta zaten onaylanmış"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1373,11 +1373,11 @@ msgstr "Ekle"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "Kilidi aç…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "bölümün kilidini açmak için doğrula"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
