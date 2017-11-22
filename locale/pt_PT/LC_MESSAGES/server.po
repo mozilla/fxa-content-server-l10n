@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-10 19:49+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"PO-Revision-Date: 2017-11-22 16:37+0000\n"
+"Last-Translator: albertdcastro <albertdcastro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr "Ainda aqui?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "À algum tempo atrás, criou uma Conta Firefox, mas nunca a confirmou. Clique na ligação abaixo para ativar a sua conta."
+msgstr "Há algum tempo atrás, criou uma Conta Firefox mas nunca a confirmou. Clique na hiperligação abaixo para ativar a sua conta."
 
 #: lib/senders/templates/_pending.txt:3
 msgid ""
@@ -309,15 +309,15 @@ msgstr "Criou uma conta Firefox à uma semana, mas nunca a confirmou. Estamos pr
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
-msgstr "Bem-vindo!"
+msgstr "Bem-vindo(a)!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr "Por favor ative a sua conta confirmando este endereço de email."
+msgstr "Por favor, ative a sua conta confirmando este endereço de email."
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Para uma segurança adicional, por favor confirme este início de sessão para começar a sincronização com este dispositivo:"
+msgstr "Para uma segurança adicional, por favor, confirme este início de sessão para iniciar a sincronização com este dispositivo:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
