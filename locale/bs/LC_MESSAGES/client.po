@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 17:10+0000\n"
+"PO-Revision-Date: 2017-11-23 17:27+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -48,55 +48,55 @@ msgstr "Firefox sinhronizacija će se nastaviti momentalno"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Završi postavljanje unosom nove lozinke na druge Firefox uređaje."
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Sada ste spremni da vršite izmjene na vašem Firefox korisničkom računu."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "Primarna email adresa potvrđena"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Notifikacije korisničkog računa će sada također slati na %(secondaryEmailVerified)s."
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Sekundarna email adresa potvrđena"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Prijava potvrđena"
 
 #: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Spremni ste za korištenje %(serviceName)s"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
-msgstr ""
+msgstr "Korisnički račun verifikovan"
 
 #: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Nepoznat račun. <a href=\"/signup\">prijavi se</a>"
 
 #: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Nepoznat Firefox račun. <a href=\"/signup\">Prijavite se</a> koristeći prethodnu email adresu računa dodataka za pristup vašim podacima dodataka."
 
 #: app/scripts/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Račun više ne postoji. Kreirajte ponovo?"
 
 #: app/scripts/views/sign_up.js:314
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Račun već postoji. <a href=\"/signin\">Prijavi se</a>"
 
 #: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Promjena lozinke uspješna"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
