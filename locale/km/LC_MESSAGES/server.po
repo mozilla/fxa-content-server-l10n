@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 08:34+0000\n"
-"Last-Translator: Rethiya Khan <rethiyakhan@gmail.com>\n"
+"PO-Revision-Date: 2017-11-23 10:37+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "អាសយដ្ឋាន IP៖ %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​អនុញ្ញាតិ​សកម្មភាព​នេះ <%(passwordChangeLinkAttributes)s>សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក</a>"
+msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​អនុញ្ញាតិ​សកម្មភាព​នេះ <a %(passwordChangeLinkAttributes)s>សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
