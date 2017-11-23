@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 14:51+0000\n"
+"PO-Revision-Date: 2017-11-23 14:57+0000\n"
 "Last-Translator: Yogi (ಯೋಗಿ) <csyogech@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kn\n"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "ಜಾಲ ಅಧಿವೇಶನ, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:116
 msgid "Web Session"
@@ -204,15 +204,15 @@ msgstr "ಕಾಣಿಸುವ ಹೆಸರನ್ನು ಪರಿಷ್ಕರಿ�
 
 #: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
-msgstr ""
+msgstr "ದ್ವಿತೀಯ ಮಿಂಚಂಚೆಯನ್ನು ತೆಗೆಯಲಾಗಿದೆ"
 
 #: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
-msgstr ""
+msgstr "ಪರಿಶೀಲನೆಗಾಗಿ ಮಿಂಚಂಚೆಯನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "%(email)s ವು ಪ್ರಾಥಮಿಕ ಮಿಂಚಂಚೆಯಾಗಿದೆ"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
@@ -220,7 +220,7 @@ msgstr ""
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "ದ್ವಿತೀಯ ಮಿಂಚಂಚೆ"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -292,7 +292,7 @@ msgstr "ವಿಳಾಸಗಳು"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್‌ಗಳು"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
