@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-10-19 18:17+0000\n"
+"PO-Revision-Date: 2017-11-23 14:51+0000\n"
 "Last-Translator: Yogi (ಯೋಗಿ) <csyogech@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kn\n"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "ಪ್ರಥಮ ಮಿಂಚಂಚೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -64,7 +64,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "ದ್ವಿತೀಯ ಮಿಂಚಂಚೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -72,7 +72,7 @@ msgstr "ಸೈನ್-ಇನ್ ಖಾತ್ರಿಯಾಗಿದೆ"
 
 #: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s ಅನ್ನು ಬಳಸಲು ಈಗ ನೀವು ಸಿದ್ಧರಾಗಿದ್ದೀರಿ"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -108,11 +108,11 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ಕೊನೆಯದಾಗಿ ಸಿಂಕ್‌ಮಾಡಿದ್ದು %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ಕೊನೆಯದಾಗಿ ಸಿಂಕ್‌ಮಾಡಲಾಗಿದ್ದು %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -676,9 +676,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ಕಳಿಸಲಾಗಿಲ್ಲ, ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
