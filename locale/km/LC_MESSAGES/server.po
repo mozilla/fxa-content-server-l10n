@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 08:29+0000\n"
+"PO-Revision-Date: 2017-11-23 08:34+0000\n"
 "Last-Translator: Rethiya Khan <rethiyakhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
@@ -151,15 +151,15 @@ msgstr "យើង​បាន​​រក​ឃើញ​សកម្មភាព
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "ដើម្បី​បង្ការ​ការ​លួច​ចូល​ទៅ​កាន់​គណនី Firefox របស់​អ្នក​នា​ពេល​អនាគត យើង​បាន​កំណត់​ពាក្យ​សម្ងាត់​របស់​អ្នក​ឡើង​វិញ និង​ជូន​ដំណឹង​ដល់​អ្នកជាមុន។"
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "តើ​អ្នក​គួរ​តែ​ធ្វើ​អ្វី?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "ជា​បឋម សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក។"
 
 #: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
@@ -172,11 +172,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "ល្អ​បំផុត"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "ក្រុម​គណនី Firefox"
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
