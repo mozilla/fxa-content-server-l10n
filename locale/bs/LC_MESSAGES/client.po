@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 17:35+0000\n"
+"PO-Revision-Date: 2017-11-23 20:50+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -124,192 +124,192 @@ msgstr "Posljednja sinkronizacija preko %(translatedTimeAgo)s u %(translatedCoun
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja sinhronizacija %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja sinhronizacija preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednja aktivnost %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Preko %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Preko %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Web sesija, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:116
 msgid "Web Session"
-msgstr ""
+msgstr "Web sesija"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Nepoznato vrijeme posljednje sinhronizacije"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Pretplata uspješna"
 
 #: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Račun je uspješno izbrisan"
 
 #: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
-msgstr ""
+msgstr "Ime prikaza ažurirano"
 
 #: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Sekundarna email adresa uklonjena"
 
 #: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
-msgstr ""
+msgstr "Email za verifikaciju je poslat"
 
 #: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Primarni email postavljen na %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "Sekundarna email adresa je dodatna adresa za primanje sigurnosnih poruka i potvrda za nove sinhronizacije uređaja"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundarna email adresa"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Vaš korisnički račun je zaključan zbog sigurnosnih razloga"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "Resetuj lozinku"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Otvori Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Otvori Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Otvori Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Otvori Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Otvori Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "Email ponovo poslan"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Primarna email adresa uspješno verificirana"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Korisnički račun je uspješno verificiran"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
-msgstr ""
+msgstr "Otvori tabove"
 
 #: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zabilješke"
 
 #: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
-msgstr ""
+msgstr "Dodaci"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
-msgstr ""
+msgstr "Lozinke"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
-msgstr ""
+msgstr "Historija"
 
 #: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
-msgstr ""
+msgstr "Postavke"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "Adrese"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "Kreditne kartice"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sinhronizacija"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Sekundarna email adresa uspješno verificirana"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr ""
+msgstr "Neočekivana greška"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Link koji ste kliknuli za verifikaciju email je istekao."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
