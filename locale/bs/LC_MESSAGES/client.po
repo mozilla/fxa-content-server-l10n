@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 21:12+0000\n"
+"PO-Revision-Date: 2017-11-23 21:21+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -381,63 +381,63 @@ msgstr "Zahtjevano tijelo je preveliko"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Zahtjev je blokiran zbog sigurnosnih razloga"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Neispravan kod autorizacije"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Neispravan broj telefona"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Nije moguće poslati u ovu zemlju"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Nije bilo moguće poslati poruku na taj broj"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Vaš email je upravo vraćen"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Vaš email je upravo vraćen. Pogrešno napisan email?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Nije moguće dostaviti email"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Ovaj email je već verifikovan od strane drugog korisnika"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundarni email mora biti drugačiji od vašeg korisničkog emaila"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Primarni email korisničkog računa potreban za prijavu"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adresu koristi drugi račun"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Primarni email korisničkog računa potreban za reset"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Neispravan kod prijave"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server zauzet, pokušajte ponovo kasnije"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
