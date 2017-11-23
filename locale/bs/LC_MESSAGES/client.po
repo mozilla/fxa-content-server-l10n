@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 21:21+0000\n"
+"PO-Revision-Date: 2017-11-23 21:50+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -441,115 +441,115 @@ msgstr "Server zauzet, pokušajte ponovo kasnije"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Ovaj endpoint više nije podržan"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem nije dostupan, pokušajte ponovo kasnije"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Pokušaj prijave otkazan"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Sesija istekla. Prijavite se za nastavak."
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kolačići su i dalje onemogućeni"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Lozinke se ne poklapaju"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
-msgstr ""
+msgstr "U toku..."
 
 #: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Nije bilo moguće dobiti obavijest o privatnosti"
 
 #: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Nije bilo moguće dobiti Uvjete pružanja usluge"
 
 #: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Vaša nova lozinka mora biti drugačija"
 
 #: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Mora biti najmanje 8 znakova"
 
 #: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
-msgstr ""
+msgstr "Potrebna ispravna lozinka"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
-msgstr ""
+msgstr "Potreban ispravan email"
 
 #: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Upotrebljiva slika nije pronađena"
 
 #: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Ne može se pokrenuti kameru"
 
 #: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
-msgstr ""
+msgstr "Ispravan URL potreban"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Vaš email za verifikaciju je upravo vraćen. Pogrešno napisan email?"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Unesite važeću email adresu. firefox.com ne nudi email opciju."
 
 #: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox računi mogu samo biti ubačeni u IFRAME na odobrenim stranicama"
 
 #: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Link za verifikaciju oštećen"
 
 #: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Dimenzije slike moraju biti najmanje 100x100px"
 
 #: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Prijava uskoro dolazi za Firefox za iOS"
 
 #: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Morate unijeti vaše godine za prijavu"
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Račun više ne postoji."
 
 #: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Nevažeća svojstva u tokenu nastavi: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Fali svojstvo u tokenu nastavi: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Nevažeći atribut podataka: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Fali atribut podataka: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
