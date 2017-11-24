@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-10-31 20:04+0000\n"
-"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"PO-Revision-Date: 2017-08-12 06:05+0000\n"
+"Last-Translator: vivek.chirania01 <vivek.chirania01@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "खाते की तस्वीर"
 
 #: app/scripts/views/ready.js:35
 msgid "Welcome back"
-msgstr "आपका फिर स्वागत है"
+msgstr "आपका फिर से स्वागत है"
 
 #: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
@@ -55,19 +55,19 @@ msgstr "अपने अन्य Firefox उपकरणों पर नया
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "आप अपने Firefox खाते में बदलाव करने के लिए अब तैयार हैं."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "प्राथमिक ईमेल सत्यापित"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "खाता अधिसूचनाएँ अब %(secondaryEmailVerified)s पर भी भेजी जाएँगी."
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "द्वितीयक ईमेल सत्यापित"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -107,7 +107,7 @@ msgstr "हमें इस बारे में सुन के खेद �
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "वेब सत्र, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:116
 msgid "Web Session"
@@ -211,11 +211,11 @@ msgstr "द्वितीय ईमेल हटा दिया गया"
 
 #: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
-msgstr ""
+msgstr "सत्यापन ईमेल भेज दिया गया है"
 
 #: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "प्राथमिक ईमेल को %(email)s सेट किया गया है"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "द्वितीयक मेल"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -259,7 +259,7 @@ msgstr "ईमेल फिर से प्रेषित"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "प्राथमिक ईमेल सफलतापूर्वक सत्यापित"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -291,7 +291,7 @@ msgstr "प्राथमिकता"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "पता"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
@@ -303,9 +303,9 @@ msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
@@ -314,7 +314,7 @@ msgstr "अप्रत्याशित त्रुटि"
 msgid "The link you clicked to verify your email is expired."
 msgstr "ईमेल सत्यापन के लिए चुने हुए लिंक की वैधता समाप्त हो चुकी है."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "आपने बहुत बार की कोशिश की है. बाद में पुन: प्रयास करें."
 
@@ -382,11 +382,11 @@ msgstr "गुम सामग्री-लंबाई शीर्ष ले�
 msgid "Request body too large"
 msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "अनुरोध सुरक्षा कारणों से अवरुद्ध किया गया था"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
 msgstr "अवैध अधिकृत कूट"
 
@@ -438,139 +438,160 @@ msgstr ""
 msgid "Invalid signin code"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:183
+msgid "Can not change primary email to an unverified email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:191
+msgid "This email can not currently be used to login"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:199
+msgid "Failed to send email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
 msgstr "सर्वर व्यस्त, जल्द ही पुन: प्रयास करें"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:208
+msgid "Feature not enabled"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
 msgstr "यह समापन बिंदु अब समर्थित नहीं है"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:220
 msgid "Login attempt cancelled"
 msgstr "लॉगिन का प्रयास रद्द कर दिया"
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:224
 msgid "Session expired. Sign in to continue."
 msgstr "सत्र समाप्त. जारी रखने के लिए साइन इन करें."
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:228
 msgid "Cookies are still disabled"
 msgstr "कुकीज़ अभी भी अक्षम हैं"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:232
 msgid "Passwords do not match"
 msgstr "कूटशब्द मेल नहीं खाते"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:236
 msgid "Working…"
 msgstr "क्रियाशील…"
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:240
 msgid "Could not get Privacy Notice"
 msgstr "गोपनीयता सूचना प्राप्त नहीं हुई"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:244
 msgid "Could not get Terms of Service"
 msgstr "सेवा की शर्तें प्राप्त नहीं हुई"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:248
 msgid "Your new password must be different"
 msgstr "आपका नया कूटशब्द भिन्न होना चाहिए"
 
-#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "कम से कम 8 अक्षरों का होना चाहिए"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:256
 msgid "Valid password required"
 msgstr "वैध कूटशब्द आवश्यक"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
 msgid "Valid email required"
 msgstr "वैध ईमेल आवश्यक"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:271
 msgid "A usable image was not found"
 msgstr "एक प्रयोग करने योग्य छवि नहीं मिली"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:275
 msgid "Could not initialize camera"
 msgstr "कैमरे को प्रारंभ नहीं किया जा सका"
 
-#: app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
 msgstr "मान्य URL आवश्यक"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "आपका सत्यापन ईमेल वापस लौटाया गया. ईमेल गलत टाइप?"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:302
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "एक वैध ईमेल प्रविष्ट करें. firefox.com ईमेल प्रदान नही करता."
 
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:310
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता है"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "सत्यापन लिंक क्षतिग्रस्त"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:337
 msgid "The image dimensions must be at least 100x100px"
 msgstr "छवि का आयाम कम से कम 100x100px होना चाहिए"
 
-#: app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:341
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "फॉयरफॉक्स के आईओस के लिए पंजीकरण जल्द ही आ रहा है "
 
-#: app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:352
 msgid "You must enter your age to sign up"
 msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:367
 msgid "Account no longer exists."
 msgstr "खाता अब मौजूद नहीं हैं."
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:371
 msgid "Invalid property in resume token: %(property)s"
 msgstr "रिज्यूम टोकन में अवैध संपत्ति: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:375
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid data attribute: %(property)s"
 msgstr "अमान्य डेटा विशेषता: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing data attribute: %(property)s"
 msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:400
 msgid "This is a required field"
 msgstr "यह एक ज़रूरी जगह हैं"
 
-#: app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:404
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
-#: app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:435
 msgid "Phone number required"
 msgstr ""
 
@@ -582,7 +603,7 @@ msgstr "लापता विन्यास"
 msgid "Invalid configuration"
 msgstr "अवैध विन्यास"
 
-#: app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "क्या आप का मतलब है <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
@@ -618,7 +639,7 @@ msgstr "गतावधिक कूटभाषा"
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "अमान्य OAuth मापदण्ड: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "अनधिकृत"
 
@@ -626,33 +647,37 @@ msgstr "अनधिकृत"
 msgid "Forbidden"
 msgstr "निषिद्ध"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: app/scripts/lib/oauth-errors.js:80
+msgid "Expired token"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "कुछ गलती हुई. कृपया इस टैब को बंद कर पुनः प्रयास करें."
 
-#: app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/oauth-errors.js:120
 msgid "no message"
 msgstr "संदेश नहीं"
 
-#: app/scripts/lib/oauth-errors.js:108
+#: app/scripts/lib/oauth-errors.js:124
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
-msgid "Invalid Token"
-msgstr "अमान्य टोकन"
-
-#: app/scripts/lib/profile-errors.js:27
+#: app/scripts/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "अनुरोध शरीर में अमान्य मापदण्ड: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "असंपुष्ट चित्र प्रबन्धक"
 
-#: app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "चित्र प्रक्रमण त्रुटि"
+
+#: app/scripts/lib/profile-errors.js:45
+msgid "Invalid Token"
+msgstr "अमान्य टोकन"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
@@ -737,16 +762,21 @@ msgid "Learn more"
 msgstr "अधिक जानें"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s पंजीकृत. <a %(escapedBackLinkParams)s>ग़लत ईमेल?</a>"
+msgid "%(email)s registered."
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "चुनें क्या साथ करना है"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "सेटिंग्स सहेजें"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "पीछे"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -784,7 +814,7 @@ msgstr "जानें कैसे सिंक काम करता है.
 msgid "New password"
 msgstr "नया कूटशब्द"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:20
 msgid "Repeat password"
 msgstr "कूटशब्द आवृत्ति"
 
@@ -832,10 +862,6 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
-
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "पीछे"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -915,7 +941,7 @@ msgid "Sign in to continue"
 msgstr "जारी रखने के लिए साइन इन करें"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "कूटशब्द"
@@ -925,7 +951,7 @@ msgstr "कूटशब्द"
 msgid "Forgot password?"
 msgstr "कूटशब्द भूल गए?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
@@ -939,7 +965,7 @@ msgstr ""
 msgid "Continue to %(serviceName)s"
 msgstr "जारी रखें %(serviceName)s"
 
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "ईमेल"
 
@@ -1108,19 +1134,19 @@ msgstr "नए फॉयरफॉक्स तथा nbsp खाते बना
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "एक मजबूत, अद्वितीय पासवर्ड अपने Firefox डेटा घुसपैठियों से सुरक्षित रखना होगा."
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla और Firefox के विषय में नवीनतम समाचार प्राप्त करें"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "खाता बनाएँ"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in"
 msgstr "खाता है? साइन इन कीजिये"
 
@@ -1273,7 +1299,7 @@ msgstr "दिखाएं"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "वर्तमान उपकरण"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1281,7 +1307,7 @@ msgstr "संपर्क तोड़ें…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "वर्तमान सत्र"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1348,7 +1374,7 @@ msgid "Choose the name you would like to appear in Firefox and when managing you
 msgstr "नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित करना चाहते हैं."
 
 #: app/scripts/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
@@ -1377,7 +1403,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "अनुभाग अनवरोधित करने के लिए सत्यापित करें"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1414,6 +1440,9 @@ msgstr "साइन इन"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "साइन इन"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s पंजीकृत. <a %(escapedBackLinkParams)s>ग़लत ईमेल?</a>"
 
 #~ msgid "Signin confirmed"
 #~ msgstr "साइन इन की पुष्टि हो गई"

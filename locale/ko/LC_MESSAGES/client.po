@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
 "PO-Revision-Date: 2017-11-17 02:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,7 +303,7 @@ msgstr "Firefox 동기화"
 msgid "Secondary email verified successfully"
 msgstr "보조 이메일 확인 성공"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "알수없는 에러"
@@ -312,7 +312,7 @@ msgstr "알수없는 에러"
 msgid "The link you clicked to verify your email is expired."
 msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니다."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "너무 많이 시도하였습니다. 잠시 후에 다시 시도하세요."
 
@@ -380,11 +380,11 @@ msgstr "누락된 content-length 헤더"
 msgid "Request body too large"
 msgstr "요청 본문이 너무 큼"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "보안상의 이유로 요청이 차단 되었습니다"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
 msgstr "잘못된 인증 코드"
 
@@ -436,139 +436,160 @@ msgstr "재설정을 위한 기본 계정 이메일"
 msgid "Invalid signin code"
 msgstr "유효하지않은 로그인 코드"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:183
+msgid "Can not change primary email to an unverified email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:191
+msgid "This email can not currently be used to login"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:199
+msgid "Failed to send email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:208
+msgid "Feature not enabled"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
 msgstr "더 이상 지원하지 않음"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:220
 msgid "Login attempt cancelled"
 msgstr "로그인 시도 취소됨"
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:224
 msgid "Session expired. Sign in to continue."
 msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:228
 msgid "Cookies are still disabled"
 msgstr "쿠키가 여전히 꺼져있음"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:232
 msgid "Passwords do not match"
 msgstr "암호가 일치하지 않음"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:236
 msgid "Working…"
 msgstr "진행중..."
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:240
 msgid "Could not get Privacy Notice"
 msgstr "개인 정보 보호 정책 없음"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:244
 msgid "Could not get Terms of Service"
 msgstr "서비스 약관 없음"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:248
 msgid "Your new password must be different"
 msgstr "새 암호는 이전 것과 달라야 함"
 
-#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "적어도 8글자 이상이 필요함"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:256
 msgid "Valid password required"
 msgstr "올바른 암호 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
 msgid "Valid email required"
 msgstr "올바른 이메일을 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:271
 msgid "A usable image was not found"
 msgstr "사용 할 이미지를 찾을 수 없음"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:275
 msgid "Could not initialize camera"
 msgstr "카메라를 초기화할 수 없음"
 
-#: app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
 msgstr "올바른 URL 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "확인 이메일이 반송되었습니다. 이메일을 잘못 입력하셨나요?"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:302
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이메일을 제공하지 않습니다."
 
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:310
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "확인 링크가 손상됨"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:337
 msgid "The image dimensions must be at least 100x100px"
 msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
-#: app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:341
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS용 Firefox를 위한 회원가입이 곧 제공됩니다"
 
-#: app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:352
 msgid "You must enter your age to sign up"
 msgstr "회원가입을 하려면 나이를 기입해야 합니다"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:367
 msgid "Account no longer exists."
 msgstr "계정이 더이상 존재하지 않습니다."
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:371
 msgid "Invalid property in resume token: %(property)s"
 msgstr "이력서 토근의 유효하지 않은 속성: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:375
 msgid "Missing property in resume token: %(property)s"
 msgstr "이력서 토큰의 누락된 속성: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid data attribute: %(property)s"
 msgstr "유효하지 않은 데이터 속성: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing data attribute: %(property)s"
 msgstr "누락된 데이터 속성: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "이 승인 링크는 벌써 사용되어 졌고, 한번만 사용할 수 있습니다."
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:400
 msgid "This is a required field"
 msgstr "필수 필드입니다"
 
-#: app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:404
 msgid "Authorization code required"
 msgstr "인증 코드 필요"
 
-#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "손상된 링크"
 
-#: app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:435
 msgid "Phone number required"
 msgstr "전화번호를 입력하세요"
 
@@ -580,7 +601,7 @@ msgstr "누락된 설정"
 msgid "Invalid configuration"
 msgstr "잘못된 설정"
 
-#: app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "혹시 <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> 주소를 넣으시려고 하셨나요?"
 
@@ -616,7 +637,7 @@ msgstr "만료된 코드"
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "유효하지 않은 OAuth 파라메터: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "권한 없음"
 
@@ -624,33 +645,37 @@ msgstr "권한 없음"
 msgid "Forbidden"
 msgstr "금지됨"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: app/scripts/lib/oauth-errors.js:80
+msgid "Expired token"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "잘못 실행되었습니다. 현재 탭을 닫고 다시 실행해주세요."
 
-#: app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/oauth-errors.js:120
 msgid "no message"
 msgstr "메시지 없음"
 
-#: app/scripts/lib/oauth-errors.js:108
+#: app/scripts/lib/oauth-errors.js:124
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth 파라메터 누락: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
-msgid "Invalid Token"
-msgstr "유효하지 않은 토큰"
-
-#: app/scripts/lib/profile-errors.js:27
+#: app/scripts/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "요청 본문에 잘못된 파라미터: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "입증되지 않은 이미지 제공자"
 
-#: app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "이미지 프로세싱 오류"
+
+#: app/scripts/lib/profile-errors.js:45
+msgid "Invalid Token"
+msgstr "유효하지 않은 토큰"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
@@ -677,8 +702,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS 전송에 실패했습니다. 다시 시도해주세요"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 "
+"합니다."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -733,16 +762,21 @@ msgid "Learn more"
 msgstr "자세히 보기"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s 주소가 등록되었습니다. <a %(escapedBackLinkParams)s>잘못 입력하셨나요?</a>"
+msgid "%(email)s registered."
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "동기화할 대상 선택"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "설정 저장"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "뒤로"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -780,7 +814,7 @@ msgstr "동기화 작동법을 배워봅시다."
 msgid "New password"
 msgstr "새 암호"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:20
 msgid "Repeat password"
 msgstr "암호 재입력"
 
@@ -828,10 +862,6 @@ msgstr "%(email)s으로 전송된 로그인 확인 링크를 확인하시기 바
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "메일함과 스팸메일함에도 없나요? 다시 받기"
-
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "뒤로"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -911,7 +941,7 @@ msgid "Sign in to continue"
 msgstr "계속하려면 로그인"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "암호"
@@ -921,10 +951,11 @@ msgstr "암호"
 msgid "Forgot password?"
 msgstr "암호를 잊어버리셨습니까?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+msgstr ""
+"계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -935,7 +966,7 @@ msgstr "이메일을 입력"
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s으로 계속"
 
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "이메일"
 
@@ -1104,19 +1135,19 @@ msgstr "새 Firefox&nbsp;계정을 생성해서 동기화 데이터를 이전하
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "부가 기능 데이터를 찾고 계세요? 부가 기능을 쓰던 이메일 주소로 Firefox 계정에 가입하세요."
 
-#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "강력하고, 고유한 암호를 사용하시면 침입자로 부터 여러분의 Firefox 데이터를 지킬 수 있습니다."
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla와 Firefox에 대한 소식을 받기"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "계정 생성"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in"
 msgstr "계정을 가지고 계신가요? 로그인"
 
@@ -1344,8 +1375,8 @@ msgid "Choose the name you would like to appear in Firefox and when managing you
 msgstr "Firefox 또는 계정 관리시 표시할 이름을 선택해주세요."
 
 #: app/scripts/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "보조 이메일은 보안 알림을 받거나 새로운 Sync 기기를 확인하기 위한 추가 주소입니다."
+msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1410,6 +1441,12 @@ msgstr "로그인"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "로그인"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s 주소가 등록되었습니다. <a %(escapedBackLinkParams)s>잘못 입력하셨나요?</a>"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "보조 이메일은 보안 알림을 받거나 새로운 Sync 기기를 확인하기 위한 추가 주소입니다."
 
 #~ msgid "last sync %(translatedTimeAgo)s"
 #~ msgstr "%(translatedTimeAgo)s 마지막 동기화"
@@ -1500,7 +1537,8 @@ msgstr "로그인"
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS 서비스는 미국 휴대폰 번호로만 사용이 가능합니다. SMS &amp; 데이터 요금이 부과될 수 있습니다. SMS 혹은 이메일의 수신자도 동의해야 합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
+#~ msgstr ""
+#~ "SMS 서비스는 미국 휴대폰 번호로만 사용이 가능합니다. SMS &amp; 데이터 요금이 부과될 수 있습니다. SMS 혹은 이메일의 수신자도 동의해야 합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "%(escapedPhoneNumber)s로 앱 링크를 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력한 번호인가요?</a>"
@@ -1509,14 +1547,16 @@ msgstr "로그인"
 #~ msgstr "여러 개의 장치에 동기화를 사용하는 이유가 있나요?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "동기화를 사용하면 동기화를 사용하는 스마트폰이나 태블릿, 심지어 데스크탑의 북마크와 방문 기록, 그리고 비밀번호를 공유할 수 있습니다. Firefox에 로그인하여 동기화를 시작하세요."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
+#~ msgstr ""
+#~ "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 "
+#~ "정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1609,9 +1649,11 @@ msgstr "로그인"
 #~ msgstr "다른 이메일을 사용하는 계정을 가지고 있나요? <a href=\"%(signinUri)s\">로그인</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>를 지원합니다."
 
 #~ msgid "Delete"
 #~ msgstr "삭제"

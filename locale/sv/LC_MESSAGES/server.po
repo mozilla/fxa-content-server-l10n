@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-10-29 17:56+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"PO-Revision-Date: 2017-11-11 10:36+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1437572463.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:860
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
 msgid "Still there?"
 msgstr "Fortfarande där?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox-konton"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:705
+#: lib/senders/email.js:690
 msgid "New sign-in to Firefox"
 msgstr "Ny inloggning till Firefox"
 
@@ -182,13 +182,15 @@ msgstr "Gruppen Firefox-konto"
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Ny primär e-post"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Du har framgångsrikt ändrat ditt primära e-post till %(email)s. Den här adressen används som ditt användarnamn för att logga in på ditt Firefox-konto, samt ta emot säkerhetsaviseringar och "
+"inloggningsbekräftelser."
 
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -271,7 +273,7 @@ msgstr "Om nej, hjälpa oss att avvärja inkräktare och <a %(reportSignInLinkAt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:857
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
 msgstr "Hej igen."
 
@@ -323,7 +325,7 @@ msgstr "Bekräfta inloggning"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Om du misstänker att någon försöker få åtkomst till ditt konto, <a %(passwordChangeLinkAttributes)s=\"\">ändra ditt lösenord</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:498
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
 msgid "Verify primary email"
 msgstr "Verifiera primär e-post"
 
@@ -341,13 +343,13 @@ msgstr "När du har verifierat, kommer kontoändringar som att lägga till en se
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Det här är ett automatiserat e-postmeddelande; om du har fått det felaktigt, om du inte godkände den här åtgärden, så vänligen <a %(passwordChangeLinkAttributes)s>ändra ditt lösenord</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "Verifiera e-post: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:545
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
 msgid "Verify secondary email"
 msgstr "Verifiera sekundär e-post"
 
@@ -371,75 +373,75 @@ msgstr "Bekräfta att du har fått det här e-postmeddelandet och vi kommer att 
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:174
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:201
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:203
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:216
+#: lib/senders/email.js:205
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:207
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (uppskattad)"
 
-#: lib/senders/email.js:341
+#: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
-#: lib/senders/email.js:363
+#: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
 msgstr "Bekräfta din e-post och börja synkronisera!"
 
-#: lib/senders/email.js:409
+#: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto behörighetskod"
 
-#: lib/senders/email.js:451
+#: lib/senders/email.js:436
 msgid "Confirm new sign-in to Firefox"
 msgstr "Bekräfta ny inloggning till Firefox"
 
-#: lib/senders/email.js:592
+#: lib/senders/email.js:577
 msgid "Reset your Firefox Account password"
 msgstr "Återställ lösenordet för ditt Firefox-konto"
 
-#: lib/senders/email.js:624
+#: lib/senders/email.js:609
 msgid "Your Firefox Account password has been changed"
 msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:639
 msgid "Your Firefox Account password has been reset"
 msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
-#: lib/senders/email.js:680
+#: lib/senders/email.js:665
 msgid "Firefox Account password reset required"
 msgstr "Återställning av lösenord för Firefox-konto krävs"
 
-#: lib/senders/email.js:737
+#: lib/senders/email.js:722
 msgid "Firefox Account verified"
 msgstr "Firefox-konto verifierat"
 
-#: lib/senders/email.js:768
+#: lib/senders/email.js:753
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundär e-post för Firefox-konto tillagd"
 
-#: lib/senders/email.js:800
+#: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Firefox-konto, ny primär e-post"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundär e-postadress för Firefox-konto borttagen"
 

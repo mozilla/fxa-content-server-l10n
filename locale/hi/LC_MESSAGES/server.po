@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
-"PO-Revision-Date: 2017-10-31 20:04+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"PO-Revision-Date: 2017-11-18 05:39+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438539709.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:860
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
 msgid "Still there?"
 msgstr "वहाँ अभी भी?"
 
@@ -54,7 +54,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox खाता"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:705
+#: lib/senders/email.js:690
 msgid "New sign-in to Firefox"
 msgstr "Firefox के लिए नया साइन-इन करें"
 
@@ -179,7 +179,7 @@ msgstr "Firefox विवरण टीम"
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "नया प्राथमिक ईमेल"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
@@ -265,7 +265,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:857
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
 msgstr "फिर से हैलो."
 
@@ -317,7 +317,7 @@ msgstr "साइन-इन की पुष्टि करें"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "यदि आपको संदेह है कि कोई को आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदलें</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:498
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
 msgid "Verify primary email"
 msgstr "प्राथमिक ईमेल सत्यापित करें"
 
@@ -341,7 +341,7 @@ msgstr ""
 msgid "Verify email: "
 msgstr "ईमेल सत्यापित करें: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:545
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
 msgid "Verify secondary email"
 msgstr "द्वितीयक ई-मेल सत्यापित करें"
 
@@ -365,75 +365,75 @@ msgstr ""
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr ""
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:174
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:201
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:203
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:216
+#: lib/senders/email.js:205
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:207
 msgid "%(country)s (estimated)"
 msgstr "%(country)s(अनुमानित)"
 
-#: lib/senders/email.js:341
+#: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
 msgstr "अपना फ़ायरफ़ॉक्स खाता सत्यापित करें"
 
-#: lib/senders/email.js:363
+#: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
 msgstr "अपने ईमेल की पुष्टि करें और संकालन करना प्रारंभ करें!"
 
-#: lib/senders/email.js:409
+#: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
 msgstr "Firefox खाता प्राधिकरण कोड"
 
-#: lib/senders/email.js:451
+#: lib/senders/email.js:436
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox के लिए नए साइन-इन की पुष्टि करें"
 
-#: lib/senders/email.js:592
+#: lib/senders/email.js:577
 msgid "Reset your Firefox Account password"
 msgstr "अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार करें"
 
-#: lib/senders/email.js:624
+#: lib/senders/email.js:609
 msgid "Your Firefox Account password has been changed"
 msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द परिवर्तित कर दिया गया है"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:639
 msgid "Your Firefox Account password has been reset"
 msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार कर दिया गया है"
 
-#: lib/senders/email.js:680
+#: lib/senders/email.js:665
 msgid "Firefox Account password reset required"
 msgstr "Firefox खाते का पासवर्ड पुनः तैयार करने की आवश्यकता है"
 
-#: lib/senders/email.js:737
+#: lib/senders/email.js:722
 msgid "Firefox Account verified"
 msgstr "Firefox खाता सत्यापित"
 
-#: lib/senders/email.js:768
+#: lib/senders/email.js:753
 msgid "Secondary Firefox Account email added"
 msgstr "द्वितीयक Firefox खाता ई-मेल जोड़ा गया"
 
-#: lib/senders/email.js:800
+#: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
 msgstr ""
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
 msgstr "द्वितीयक Firefox खाता ई-मेल हटाया गया"
 
