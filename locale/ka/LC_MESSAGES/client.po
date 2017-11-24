@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 18:26+0000\n"
+"PO-Revision-Date: 2017-11-24 20:11+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -744,7 +744,7 @@ msgstr "500 შეცდომა"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "ო, არა, რაღაც ისე არ გამოვიდა. ჩვენ პრობლემაზე უკვე შევიტყვეთ და მის აღმოფხვრაზე ვიმუშავებთ."
+msgstr "ოჰ, არა, რაღაც ისე არ გამოვიდა. ჩვენ ამ ხარვეზის შესახებ უკვე შევიტყვეთ და მის აღმოფხვრაზე ვიმუშავებთ."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
