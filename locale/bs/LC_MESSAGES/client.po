@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 19:59+0000\n"
+"PO-Revision-Date: 2017-11-24 20:30+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -1109,80 +1109,82 @@ msgstr "Naš tim je obavješten. Ovakve prijave nam pomažu da se odbranimo od u
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Potvrdite ovu prijavu"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Provjerite vaš email za kod autorizacije poslan na %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Upiši kod autorizacije"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Kreirajte Firefox račun"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migrirajte svoje podatke o sinhronizaciji tako što ćete napraviti novi Firefox&nbsp;račun."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Tražite podatke dodataka? Prijavite se za Firefox račun sa starim emailom za račun dodataka."
 
 #: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Jaka, jedinstvena lozinka čuva vaše Firefox podatke sigurnim od uljeza."
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Saznajte najnovije vijesti o Mozilli i Firefoxu"
 
 #: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
-msgstr ""
+msgstr "Kreiraj račun"
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Imate račun? Prijavite se"
 
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Primite mjesečni Firefox newsletter"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Pošaljite FIrefox direktno na vaš pametni telefon i prijavite se da završite postavke"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Broj mobitela"
 
 #: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
-msgstr ""
+msgstr "Pošalji"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS servis je dostupan samo u određenim zemljama. SMS &amp; cijena za podake se može primijeniti. Primarni primalac emaila ili SMS-a mora da je pristao. <a %(escapedLearnMoreAttributes)s>Saznajte "
+"više</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Instalirajte FIrefox na vaš pametni telefon i prijavite se da završite postavke"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Link aplikacije poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan&nbsp;brojr?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Link aplikacije ponovo poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan&nbsp;brojr?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Ako ne primate tekstualnu poruku, možete takođe preuzeti aplikacije ručno."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
