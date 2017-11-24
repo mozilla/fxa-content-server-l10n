@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 09:55+0000\n"
+"PO-Revision-Date: 2017-11-24 18:30+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -701,9 +701,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS nije poslan, molimo pokušajte ponovo"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -835,27 +833,27 @@ msgstr "Link za verifikaciju istekao"
 
 #: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Kliknite ovdje da biste dobili novi verifikacijski link"
 
 #: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Greška verifikacije"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Potvrdite račun"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Potvrdi prijavu"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Provjerite vaš email za verifikacijski link &nbsp;na %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Provjerite vaš email za link potvrde prijave poslan na %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
