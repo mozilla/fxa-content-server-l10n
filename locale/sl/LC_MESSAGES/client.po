@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 18:27+0000\n"
+"PO-Revision-Date: 2017-11-24 19:10+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -438,11 +438,11 @@ msgstr "Neveljavna koda za prijavo"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Glavnega e-poštnega naslova ni mogoče spremeniti na nepotrjen naslov"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Glavnega e-poštnega naslova ni mogoče spremeniti na naslov, ki ne pripada temu računu"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
@@ -647,7 +647,7 @@ msgstr "Prepovedano"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Pretečen žeton"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -759,7 +759,7 @@ msgstr "Več o tem"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s registriran."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
