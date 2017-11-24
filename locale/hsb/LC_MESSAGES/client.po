@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 19:30+0000\n"
+"PO-Revision-Date: 2017-11-24 19:32+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1375,7 +1375,7 @@ msgstr "Wubjerće mjeno, kotrež ma so w Firefox jewić a hdyž swoje konto rjad
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Sekundarna e-mejlowa adreesa je přidatna adresa za přijimanje wěstotnych pokazkow a wobkrućenje nowych gratow."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
