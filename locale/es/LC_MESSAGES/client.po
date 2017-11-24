@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
 "PO-Revision-Date: 2017-11-11 11:43+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,7 +303,7 @@ msgstr "Firefox Sync"
 msgid "Secondary email verified successfully"
 msgstr "Se verificó con éxito el correo secundario"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Se ha producido un error inesperado"
@@ -312,7 +312,7 @@ msgstr "Se ha producido un error inesperado"
 msgid "The link you clicked to verify your email is expired."
 msgstr "El enlace al que accediste para confirmar tu correo electrónico ha caducado."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "Has probado demasiadas veces. Inténtalo más tarde."
 
@@ -380,11 +380,11 @@ msgstr "Falta encabezado de longitud del contenido"
 msgid "Request body too large"
 msgstr "Cuerpo de la solicitud muy extenso"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "Se bloqueó la solicitud por motivos de seguridad"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
 msgstr "Código de autorización no válido"
 
@@ -436,139 +436,160 @@ msgstr "Se requiere el correo electrónico principal para reiniciar"
 msgid "Invalid signin code"
 msgstr "Código de firma inválido"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:183
+msgid "Can not change primary email to an unverified email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:191
+msgid "This email can not currently be used to login"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:199
+msgid "Failed to send email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
 msgstr "El servidor está ocupado, inténtalo más tarde"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:208
+msgid "Feature not enabled"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
 msgstr "Este extremo ya no se admite"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "El sistema no está disponible, vuelve a intentarlo más tarde"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:220
 msgid "Login attempt cancelled"
 msgstr "Se ha cancelado el inicio de sesión"
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:224
 msgid "Session expired. Sign in to continue."
 msgstr "La sesión ha caducado. Identifícate para continuar."
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:228
 msgid "Cookies are still disabled"
 msgstr "Las cookies siguen estando desactivadas"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:232
 msgid "Passwords do not match"
 msgstr "Las contraseñas no coinciden"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:236
 msgid "Working…"
 msgstr "Trabajando…"
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:240
 msgid "Could not get Privacy Notice"
 msgstr "No se pudo acceder al Aviso sobre privacidad"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:244
 msgid "Could not get Terms of Service"
 msgstr "No se pudo acceder a los Términos del servicio"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:248
 msgid "Your new password must be different"
 msgstr "La nueva contraseña debe ser diferente"
 
-#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Debe contener al menos 8 caracteres"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:256
 msgid "Valid password required"
 msgstr "Se necesita una contraseña válida"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
 msgid "Valid email required"
 msgstr "Se necesita una dirección de correo electrónico válida"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:271
 msgid "A usable image was not found"
 msgstr "No se encontró ninguna imagen utilizable"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:275
 msgid "Could not initialize camera"
 msgstr "No se pudo iniciar la cámara"
 
-#: app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
 msgstr "Se necesita una URL válida"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Tu email de verificación fue devuelto. ¿Escribiste mal la dirección?"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:302
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Indica una dirección de email válida. firefox.com no ofrece email."
 
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:310
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts solo puede incluirse en un IFRAME o sitios aprobados"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "El enlace de verificación está dañado"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:337
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Las dimensiones de la imagen deben ser de al menos 100x100px"
 
-#: app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:341
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "El registro llegará próximamente a Firefox para iOS"
 
-#: app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:352
 msgid "You must enter your age to sign up"
 msgstr "Debe introducir su edad para inscribirse"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:367
 msgid "Account no longer exists."
 msgstr "La cuenta ya no existe."
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:371
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Propiedad no válida en la clave de continuación: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:375
 msgid "Missing property in resume token: %(property)s"
 msgstr "Falta la propiedad en la clave de continuación: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atributo de datos no válido: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing data attribute: %(property)s"
 msgstr "Falta atributo de datos: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ya se ha usado ese enlace de confirmación y es de un solo uso."
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:400
 msgid "This is a required field"
 msgstr "Este campo es obligatorio"
 
-#: app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:404
 msgid "Authorization code required"
 msgstr "El código de autorización es obligatorio"
 
-#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Enlace dañado"
 
-#: app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:435
 msgid "Phone number required"
 msgstr "Número de teléfono obligatorio"
 
@@ -580,7 +601,7 @@ msgstr "Falta la configuración"
 msgid "Invalid configuration"
 msgstr "Configuración no válida"
 
-#: app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "¿Quisiste decir <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
@@ -616,7 +637,7 @@ msgstr "Código caducado"
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Parámetro OAuth inválido: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "No autorizado"
 
@@ -624,33 +645,37 @@ msgstr "No autorizado"
 msgid "Forbidden"
 msgstr "Prohibido"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: app/scripts/lib/oauth-errors.js:80
+msgid "Expired token"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Algo salió mal. Cierra esta pestaña e inténtalo de nuevo."
 
-#: app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/oauth-errors.js:120
 msgid "no message"
 msgstr "sin mensaje"
 
-#: app/scripts/lib/oauth-errors.js:108
+#: app/scripts/lib/oauth-errors.js:124
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Falta parámetro OAuth: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
-msgid "Invalid Token"
-msgstr "Token no válido"
-
-#: app/scripts/lib/profile-errors.js:27
+#: app/scripts/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parámetro no válido en el cuerpo de la solicitud: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "Proveedor de imágenes incompatible"
 
-#: app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "Error al procesar imagen"
+
+#: app/scripts/lib/profile-errors.js:45
+msgid "Invalid Token"
+msgstr "Token no válido"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
@@ -677,7 +702,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS no enviado, vuelve a intentarlo"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Al continuar, estás de acuerdo con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso sobre privacidad</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -735,16 +762,21 @@ msgid "Learn more"
 msgstr "Descubre más"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s registrado. <a %(escapedBackLinkParams)s>¿Correo incorrecto?</a>"
+msgid "%(email)s registered."
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "Elige qué quieres sincronizar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Guardar configuración"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Atrás"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -782,7 +814,7 @@ msgstr "Descubre cómo funciona Sync."
 msgid "New password"
 msgstr "Contraseña nueva"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:20
 msgid "Repeat password"
 msgstr "Repetir contraseña"
 
@@ -830,10 +862,6 @@ msgstr "Comprueba en tu correo electrónico el enlace de confirmación enviado a
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "¿No lo recibiste, ni siquiera en Spam? Volver a enviar"
-
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Atrás"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -913,7 +941,7 @@ msgid "Sign in to continue"
 msgstr "Identifícate para continuar"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Contraseña"
@@ -923,7 +951,7 @@ msgstr "Contraseña"
 msgid "Forgot password?"
 msgstr "¿Olvidaste la contraseña?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
@@ -939,7 +967,7 @@ msgstr "Escribe tu correo"
 msgid "Continue to %(serviceName)s"
 msgstr "Continuar en %(serviceName)s"
 
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -1108,19 +1136,19 @@ msgstr "Migra tus datos de Sync creando una cuenta de Firefox nueva."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "¿Buscas tus datos de Complementos? Crea una cuenta de Firefox con la dirección de correo de tu cuenta de Complementos."
 
-#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Una contraseña segura y única evitará que otros roben tu información de Firefox."
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Obtén las últimas noticias de Mozilla y Firefox"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Crear cuenta"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in"
 msgstr "¿Ya tienes una cuenta? Inicia sesión"
 
@@ -1350,8 +1378,8 @@ msgid "Choose the name you would like to appear in Firefox and when managing you
 msgstr "Elige el nombre que deseas que aparezca en Firefox y cuando administres tu cuenta."
 
 #: app/scripts/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "Un correo electrónico secundario es una dirección adicional para recibir avisos de seguridad y confirmar nuevos dispositivos a sincronizar."
+msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1416,6 +1444,12 @@ msgstr "Iniciar sesión"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sesión"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s registrado. <a %(escapedBackLinkParams)s>¿Correo incorrecto?</a>"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Un correo electrónico secundario es una dirección adicional para recibir avisos de seguridad y confirmar nuevos dispositivos a sincronizar."
 
 #~ msgid "over %(translatedTimeAgo)s"
 #~ msgstr "hace %(translatedTimeAgo)s"
@@ -1516,8 +1550,8 @@ msgstr "Iniciar sesión"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "El servicio SMS solo está disponible para teléfonos de USA. Puede que se apliquen tarifas SMS &amp;. El destinatario del correo o SMS debe haber dado su permiso. <a %(escapedLearnMoreAttributes)s> "
-#~ "Descubre más</a>"
+#~ "El servicio SMS solo está disponible para teléfonos de USA. Puede que se apliquen tarifas SMS &amp;. El destinatario del correo o SMS debe haber dado su permiso. <a "
+#~ "%(escapedLearnMoreAttributes)s> Descubre más</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "El enlace de la aplicación se ha enviado a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Te has confundido de número?</a>"
@@ -1526,18 +1560,18 @@ msgstr "Iniciar sesión"
 #~ msgstr "¿Por qué sincronizar dos (o más) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync te permite compartir en otros dispositivos los marcadores, historial y contraseñas que guardas en un dispositivo con Firefox. Inicia sesión en Firefox desde tu teléfono o tableta y aparecerá "
-#~ "todo lo que hayas guardado desde tu Firefox de escritorio."
+#~ "Sync te permite compartir en otros dispositivos los marcadores, historial y contraseñas que guardas en un dispositivo con Firefox. Inicia sesión en Firefox desde tu teléfono o tableta y "
+#~ "aparecerá todo lo que hayas guardado desde tu Firefox de escritorio."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync no está diseñado como una copia de seguridad permanente, es solo una forma de compartir lo que has guardado localmente. Si reinicias tu contraseña y los datos no están almacenados al menos en "
-#~ "otro dispositivo, puedes perder toda la información asociada a la antigua contraseña. Por eso deberías instalar Firefox y usar Sync en más de un dispositivo."
+#~ "Sync no está diseñado como una copia de seguridad permanente, es solo una forma de compartir lo que has guardado localmente. Si reinicias tu contraseña y los datos no están almacenados al menos "
+#~ "en otro dispositivo, puedes perder toda la información asociada a la antigua contraseña. Por eso deberías instalar Firefox y usar Sync en más de un dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1642,18 +1676,19 @@ msgstr "Iniciar sesión"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencias de Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Buscas Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empieza por aquí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con un correo diferente? <a href=\"%(signinUri)s\">Regístrate</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Últ. vez activo: %(translatedTimeAgo)s"
@@ -1824,7 +1859,8 @@ msgstr "Iniciar sesión"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Restablecer la contraseña borrará tus datos de navegación de nuestros servidores. Los datos de tus dispositivos permanecerán intactos. Comienza el proceso escribiendo debajo tu correo electrónico."
+#~ "Restablecer la contraseña borrará tus datos de navegación de nuestros servidores. Los datos de tus dispositivos permanecerán intactos. Comienza el proceso escribiendo debajo tu correo "
+#~ "electrónico."
 
 #~ msgid "a day"
 #~ msgstr "un día"
@@ -2025,11 +2061,17 @@ msgstr "Iniciar sesión"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "¿Ya tienes una cuenta? Identifícate."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Al continuar, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Al continuar, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Al continuar, aceptas los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso sobre privacidad</a> de los servicios en la nube de Firefox."
+#~ msgstr ""
+#~ "Al continuar, aceptas los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso sobre privacidad</a> de los servicios en la nube "
+#~ "de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscríbete a noticias y consejos de Firefox"

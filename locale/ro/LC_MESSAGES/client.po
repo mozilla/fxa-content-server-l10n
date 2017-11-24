@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
 "PO-Revision-Date: 2017-11-18 17:36+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,7 +303,7 @@ msgstr "Sincronizare Firefox"
 msgid "Secondary email verified successfully"
 msgstr "E-mail secundar verificat cu succes"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Eroare neașteptată"
@@ -312,7 +312,7 @@ msgstr "Eroare neașteptată"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linkul pe care ai dat clic pentru verificarea e-mailului a expirat."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "Ai încercat de prea multe ori. Încearcă din nou mai târziu."
 
@@ -387,11 +387,11 @@ msgstr "Antetul lipsă content-length"
 msgid "Request body too large"
 msgstr "Corpul cererii este prea mare"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "Cererea a fost blocată din motive de securitate"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
 msgstr "Cod de autorizare invalid"
 
@@ -443,142 +443,163 @@ msgstr "Este necesar e-mailul principal pentru resetare"
 msgid "Invalid signin code"
 msgstr "Codul de autentificare este invalid"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:183
+msgid "Can not change primary email to an unverified email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:191
+msgid "This email can not currently be used to login"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:199
+msgid "Failed to send email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
 msgstr "Serverul este ocupat, încearcă din nou mai târziu"
 
+#: app/scripts/lib/auth-errors.js:208
+msgid "Feature not enabled"
+msgstr ""
+
 # „Endpoint” are o semnificație precisă, e o denumire de metodă pentru un API
 # Web (de regulă REST) și nu se traduce
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
 msgstr "Acest endpoint nu mai este suportat"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "Sistem indisponibil, încearcă din nou mai târziu"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:220
 msgid "Login attempt cancelled"
 msgstr "Încercare de autentificare anulată"
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:224
 msgid "Session expired. Sign in to continue."
 msgstr "Sesiune expirată. Autentifică-te pentru a continua."
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:228
 msgid "Cookies are still disabled"
 msgstr "Cookie-urile sunt încă dezactivate"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:232
 msgid "Passwords do not match"
 msgstr "Parolele nu se potrivesc"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:236
 msgid "Working…"
 msgstr "Se lucrează…"
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:240
 msgid "Could not get Privacy Notice"
 msgstr "Nu s-a putut găsi nota privind politica de confidențialitate"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:244
 msgid "Could not get Terms of Service"
 msgstr "Nu s-au putut găsi termenii de utilizare a serviciului"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:248
 msgid "Your new password must be different"
 msgstr "Noua ta parolă trebuie să fie diferită"
 
-#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Trebuie să fie de cel puțin 8 caractere"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:256
 msgid "Valid password required"
 msgstr "Parolă validă necesară"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
 msgid "Valid email required"
 msgstr "E-mail valid necesar"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:271
 msgid "A usable image was not found"
 msgstr "Nu s-a găsit o imagine utilizabilă"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:275
 msgid "Could not initialize camera"
 msgstr "Camera nu a putut fi inițializată"
 
-#: app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
 msgstr "URL valid necesar"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-mailul de verificare a fost trimis înapoi. Ai scris corect adresa?"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:302
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă e-mail."
 
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:310
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Link de verificare deteriorat"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:337
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensiunile imaginii trebuie să fie cel puțin 100x100px"
 
 # Signup poate fi un nume de serviciu
-#: app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:341
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Înregistrarea vine în curând și pe Firefox pentru iOS"
 
-#: app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:352
 msgid "You must enter your age to sign up"
 msgstr "Trebuie să introduci vârsta pentru a te înregistra"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:367
 msgid "Account no longer exists."
 msgstr "Contul nu mai există."
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:371
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietate invalidă în tokenul resume: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:375
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate lipsă în tokenul resume: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut de date invalid: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut de date lipsă: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Acel link de confirmare a fost folosit deja și poate fi folosit o singură dată."
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:400
 msgid "This is a required field"
 msgstr "Acesta este un câmp necesar"
 
-#: app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:404
 msgid "Authorization code required"
 msgstr "Cod de autorizare necesar"
 
-#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Link avariat"
 
-#: app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:435
 msgid "Phone number required"
 msgstr "Numărul de telefon este necesar"
 
@@ -590,7 +611,7 @@ msgstr "Configurație lipsă"
 msgid "Invalid configuration"
 msgstr "Configurație invalidă"
 
-#: app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Doreai să scrii <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
@@ -626,7 +647,7 @@ msgstr "Cod expirat"
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Parametru OAuth invalid: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "Neautorizat"
 
@@ -634,33 +655,37 @@ msgstr "Neautorizat"
 msgid "Forbidden"
 msgstr "Nepermis"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: app/scripts/lib/oauth-errors.js:80
+msgid "Expired token"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Ceva a mers prost. Închide această filă și încearcă din nou."
 
-#: app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/oauth-errors.js:120
 msgid "no message"
 msgstr "niciun mesaj"
 
-#: app/scripts/lib/oauth-errors.js:108
+#: app/scripts/lib/oauth-errors.js:124
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Parametru lipsă OAuth: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
-msgid "Invalid Token"
-msgstr "Token invalid"
-
-#: app/scripts/lib/profile-errors.js:27
+#: app/scripts/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametru invalid în corpul cererii: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "Furnizor de imagine nesuportat"
 
-#: app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "Eroare la procesarea imaginii"
+
+#: app/scripts/lib/profile-errors.js:45
+msgid "Invalid Token"
+msgstr "Token invalid"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
@@ -687,7 +712,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS netrimis, te rugăm să încerci din nou"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
 "%(serviceName)s (%(serviceUri)s)."
@@ -745,16 +772,21 @@ msgid "Learn more"
 msgstr "Află mai multe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s înregistrat. <a %(escapedBackLinkParams)s>Ai scris corect adresa?</a>"
+msgid "%(email)s registered."
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "Alege ce să sincronizezi"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Salvează setările"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Înapoi"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -792,7 +824,7 @@ msgstr "Află cum funcționează Sincronizare."
 msgid "New password"
 msgstr "Parola nouă"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:20
 msgid "Repeat password"
 msgstr "Repetă parola"
 
@@ -840,10 +872,6 @@ msgstr "Verifică-ți e-mailul pentru linkul de verificare trimis la %(email)s"
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Lipsește din mesaje primite sau nesolicitate? Retrimite"
-
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Înapoi"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -924,7 +952,7 @@ msgid "Sign in to continue"
 msgstr "Autentifică-te pentru a continua"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Parola"
@@ -934,7 +962,7 @@ msgstr "Parola"
 msgid "Forgot password?"
 msgstr "Ai pierdut parola?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
@@ -950,7 +978,7 @@ msgstr "Introdu e-mailul tău"
 msgid "Continue to %(serviceName)s"
 msgstr "Continuă la %(serviceName)s"
 
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "E-mailul"
 
@@ -1120,19 +1148,19 @@ msgstr "Migrează datele de sincronizare prin crearea unui cont&nbsp;Firefox."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Cauți datele suplimentelor? Înregistrează-te pentru un cont Firefox cu adresa de e-mail a contului tău de Add-onuri vechi."
 
-#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "O parolă puternică, unică va păstra datele tale Firefox în siguranță de intruși."
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Obține ultimele știri despre Mozilla și Firefox"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Creează cont"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in"
 msgstr "Ai un cont? Autentifică-te"
 
@@ -1362,8 +1390,8 @@ msgid "Choose the name you would like to appear in Firefox and when managing you
 msgstr "Alege numele pe care îl dorești să apară în Firefox și în momentul în care gestionezi contul."
 
 #: app/scripts/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "Un e-mail secundar este o adresă suplimentară pentru primirea înștiințăriilor de securitate și confirmarea noilor dispozitive cu Sincronizare."
+msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1428,6 +1456,12 @@ msgstr "Autentificare"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Autentificare"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s înregistrat. <a %(escapedBackLinkParams)s>Ai scris corect adresa?</a>"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Un e-mail secundar este o adresă suplimentară pentru primirea înștiințăriilor de securitate și confirmarea noilor dispozitive cu Sincronizare."
 
 #~ msgid "over %(translatedTimeAgo)s"
 #~ msgstr "peste %(translatedTimeAgo)s"
@@ -1526,11 +1560,11 @@ msgstr "Autentificare"
 #~ msgstr "De ce să sincronizezi două (sau mai multe) dispozitive?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe telefon"
-#~ " sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
+#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe "
+#~ "telefon sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1617,18 +1651,19 @@ msgstr "Autentificare"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferințe de sincronizare"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Cauți Sincronizare Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Începe aici</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">Autentifică-te</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Activ ultima dată: %(translatedTimeAgo)s"

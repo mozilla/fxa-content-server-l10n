@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 16:09+0000\n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
 "PO-Revision-Date: 2017-11-11 21:18+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442258677.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:860
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
 msgid "Still there?"
 msgstr "Jste tu ještě?"
 
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Úspěšně jste připojili své první zařízení ke svému účtu Firefoxu. Abyste využili služby Sync co nejlépe, připojte se k ní také z aplikace Firefox pro <a href='%(androidUrl)s'>Android</a> nebo <a "
 "href='%(iosUrl)s'>iOS</a>."
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Účty Firefoxu"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:705
+#: lib/senders/email.js:690
 msgid "New sign-in to Firefox"
 msgstr "Nové přihlášení k Firefoxu"
 
@@ -81,13 +81,13 @@ msgstr "Pro více informací navštivte stránky <a %(supportLinkAttributes)s>Po
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5
-#: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5
-#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.html:7
-#: lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7
-#: lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9
-#: lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7
+#: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7
+#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Zásady ochrany soukromí"
 
@@ -273,14 +273,14 @@ msgstr "Pokud ne, pomozte nám odrazit útočníky a <a %(reportSignInLinkAttrib
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:857
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
 msgstr "Vítejte zpět."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Před pár dny jste si vytvořili účet Firefoxu, ale zatím jste jej neověřili. Díky ověřenému účtu budete moct přistupovat ke svém panelům, záložkám, historii a uloženým heslům z jakéhokoli zařízení, "
 "které k němu připojíte. Pro aktivaci vašeho účtu stačí pouze potvrdit tento e-mail."
@@ -326,7 +326,7 @@ msgstr "Potvrdit přihlášení"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, <a %(passwordChangeLinkAttributes)s>změňte si prosím své heslo</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:498
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
 msgid "Verify primary email"
 msgstr "Ověřte svou primární e-mailovou adresu"
 
@@ -350,7 +350,7 @@ msgstr "Toto je automatický e-mail. Pokud jste jej obdrželi omylem nebo jste t
 msgid "Verify email: "
 msgstr "Ověřit adresu: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:545
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
 msgid "Verify secondary email"
 msgstr "Ověřit záložní adresu"
 
@@ -374,75 +374,75 @@ msgstr "Potvrďte, že jste obdrželi tento e-mail a my vám pomůžeme s instal
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a připojit Firefox na alespoň jednom dalším zařízení."
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:174
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:201
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:203
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:216
+#: lib/senders/email.js:205
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:207
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:341
+#: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
 msgstr "Ověřte svůj účet Firefoxu"
 
-#: lib/senders/email.js:363
+#: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrďte svůj e-mail a začněte synchronizovat!"
 
-#: lib/senders/email.js:409
+#: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
 msgstr "Autorizační kód účtu Firefoxu"
 
-#: lib/senders/email.js:451
+#: lib/senders/email.js:436
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrzení nového přihlášení k Firefoxu"
 
-#: lib/senders/email.js:592
+#: lib/senders/email.js:577
 msgid "Reset your Firefox Account password"
 msgstr "Obnovit heslo vašeho účtu Firefoxu"
 
-#: lib/senders/email.js:624
+#: lib/senders/email.js:609
 msgid "Your Firefox Account password has been changed"
 msgstr "Heslo vašeho účtu Firefoxu bylo změněno"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:639
 msgid "Your Firefox Account password has been reset"
 msgstr "Heslo vašeho účtu Firefoxu bylo obnoveno"
 
-#: lib/senders/email.js:680
+#: lib/senders/email.js:665
 msgid "Firefox Account password reset required"
 msgstr "Je vyžadována obnova hesla k účtu Firefoxu"
 
-#: lib/senders/email.js:737
+#: lib/senders/email.js:722
 msgid "Firefox Account verified"
 msgstr "Účet Firefoxu ověřen"
 
-#: lib/senders/email.js:768
+#: lib/senders/email.js:753
 msgid "Secondary Firefox Account email added"
 msgstr "Záložní adresa k účtu úspěšně přidána"
 
-#: lib/senders/email.js:800
+#: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
 msgstr "Nový primární e-mail účtu Firefoxu"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundární e-mailová adresa účtu Firefoxu byla odebrána"
 
@@ -507,14 +507,16 @@ msgstr "Podmínky využívání služby"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Úspěšně jste odebrali sekundární e-mail %(secondaryEmail)s z vašeho účtu Firefoxu. Bezpečnostní notifikace a potvrzení přihlášení již nebudou na tuto adresu doručovány."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Úspěsně jste ověřili %(secondaryEmail)s jako záložní adresu ke svému účtu. Bezpečnostní upozornění a potvrzení pro přihlášení budou od teď doručovány na obě adresy."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Zde je požadovaný odkaz pro instalaci Firefoxu na vaše mobilní zařízení: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr "Přihlásili jste se v posledních 60 dnech ke svému účtu Firefoxu Account z některého z těchto umístění? Pokud je nepoznáváte,může to znamenat, že k vašemu účtu mohl získat přístup někdo další."
+#~ msgstr ""
+#~ "Přihlásili jste se v posledních 60 dnech ke svému účtu Firefoxu Account z některého z těchto umístění? Pokud je nepoznáváte,může to znamenat, že k vašemu účtu mohl získat přístup někdo další."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum a čas:"
