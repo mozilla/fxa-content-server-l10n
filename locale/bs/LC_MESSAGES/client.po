@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 18:30+0000\n"
+"PO-Revision-Date: 2017-11-24 19:10+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -773,7 +773,7 @@ msgstr "Spasi postavke"
 #: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Nazad"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -858,117 +858,117 @@ msgstr "Provjerite vaš email za link potvrde prijave poslan na %(email)s"
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Nije u sandučetu ili spam folderu folderu? Pošalji ponovo"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Resetuj poslani email"
 
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Kliknite na link koji smo poslali na %(email)s u narednih sat vremena kako bi kreirali novu lozinku."
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Zapamti lozinku? Prijavi se"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Povežite drugi uređaj"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Firefox je povezan"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Email potvrđen"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
-msgstr ""
+msgstr "Uspjeh"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Prijavite se na ovaj Firefox da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Prijavi se &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Još uvijek dodajete uređaj?"
 
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Prijavite se na Firefox na drugom uređaju da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Otvorite postavke i izaberite Prijavite se na Firefox da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Prijavite se na Firefox za android da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Prijavite se na Firefox za IOSu da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Zašto je potrebno više od jednog uređaja?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Potrebni su kolačići i lokalno skladištenje"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Da biste pristupili Firefox računima, molimo omogućite kolačiće i lokalno skladištenje u vašem browseru. To će omogućiti funkcionalnost kao što je pamćenje između sesija."
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Pokušaj ponovo"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Prijavi se za nastavak"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "Lozinka"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr ""
+msgstr "Zaboravili ste lozinku?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
+msgstr "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\">Uvjete pružanja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">Obavijest o privatnosti</a> Firefox cloud usluga."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Upišite vaš email"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "Nastavi na %(serviceName)s"
 
 #: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
