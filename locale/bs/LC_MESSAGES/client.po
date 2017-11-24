@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 20:30+0000\n"
+"PO-Revision-Date: 2017-11-24 20:50+0000\n"
 "Last-Translator: Elvir Cesko <elvircesko@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -1188,189 +1188,189 @@ msgstr "Ako ne primate tekstualnu poruku, možete takođe preuzeti aplikacije ru
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Nije stiglo? Pošalji ponovo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Zašto sinhronizirati više uređaja?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Servis za sinhronizaciju nije trajni backup, to je jednostavno siguran način da prebacite spašene zabilješke, historiju i lozinke izmedju vaših uređaja."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Trebate instalirati Firefox i sinhronizovati najmanje dva uređaja kako biste se zaštitili od gubljenja podataka u slučaju da ih morate obnoviti a zaboravili ste lozinku."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Razumijem"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "Promijeni…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Dodaj…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Slikaj"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
 #: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
-msgstr ""
+msgstr "Gotovo"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Pozicioniraj i okreni sliku po potrebi"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
+msgstr "Promijeni"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Kada završite, koristite novu lozinku za prijavu na svim vašim uređajima."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Stara lozinka"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Prekini vezu sa Sinhronizacijom?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Vaši podaci o pretraživanju će ostati na %(deviceName)s, ali više neće biti sinhronizovani s vašim računom."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Sumnjiv uređaj"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Izgubljen ili ukraden uređaj"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Stari ili zamjenjeni uređaj"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Dupliciraj uređaj"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Radije nemoj reći"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr ""
+msgstr "Prekini vezu"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Veza uspješno prekinuta"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Uređaji & aplikacije"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr ""
+msgstr "Prikaži"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Trenutni uređaj"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Prekini vezu..."
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Trenutna sesija"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Opozovi"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox za iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "Nije povezan"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "Preuzmi"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox za Android"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Nestala ili dupla stavka?"
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
-msgstr ""
+msgstr "Osvježi"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Prednosti komunikacije"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Možda vam pošaljemo email vezan za vaš Firefox račun."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Dodatno, možete odabrati da li ćete dobiti najnovije vijesti o Mozilli i Firefoxu."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
-msgstr ""
+msgstr "Preplati se"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Upravljajte pretplatama"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Izbriši račun"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Izbriši…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Jeste li sigurni da želite izbrisati vaš račun? Ova radnja se ne može poništiti."
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Izaberite ime koje želite da se prikaže u Firefoxu i kada uređujete vaš račun."
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
