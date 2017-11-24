@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-24 18:08+0000\n"
+"PO-Revision-Date: 2017-11-24 18:26+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1198,7 +1198,7 @@ msgstr "რა საჭიროა რამდენიმე მოწყო
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "სიქრონიზაცია არ გამოიყენება დამარქაფებისთვის, ეს უბრალოდ არის, სანიშნეების, ისტორიის და პაროლების უსაფრთხო გადატანის გზა, თქვენს მოწყობილობებს შორის."
+msgstr "სიქრონიზაცია არ გამოიყენება დამარქაფებისთვის, ეს უბრალოდ არის, სანიშნების, ისტორიის და პაროლების უსაფრთხო გაზიარების გზა, თქვენს მოწყობილობებს შორის."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
@@ -1420,7 +1420,7 @@ msgstr "Sync-ში შესვლა"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "აირჩიეთ ანგარიში, რომლითაც გსურთ დაასინქრონოთ თქვენი ჩანართები, სანიშნეები, პაროლები და ა.შ."
+msgstr "აირჩიეთ ანგარიში, რომლითაც გსურთ დაასინქრონოთ თქვენი ჩანართები, სანიშნები, პაროლები და ა.შ."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
