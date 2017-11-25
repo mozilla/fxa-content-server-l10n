@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-25 10:49+0000\n"
+"PO-Revision-Date: 2017-11-25 11:04+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -759,7 +759,7 @@ msgstr "Läs mer"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s registrerad."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -1372,7 +1372,7 @@ msgstr "Välj det namn du vill ska visas i Firefox och när du hanterar ditt kon
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "En sekundär e-post är en extra adress för att ta emot säkerhetsmeddelanden och bekräfta nya enheter."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
