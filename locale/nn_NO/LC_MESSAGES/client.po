@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-25 08:59+0000\n"
+"PO-Revision-Date: 2017-11-25 11:38+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -646,7 +646,7 @@ msgstr "Forbode"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Utgått token"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
