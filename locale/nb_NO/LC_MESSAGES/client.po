@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-25 20:02+0000\n"
+"PO-Revision-Date: 2017-11-25 20:17+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -57,7 +57,7 @@ msgstr "Du kan nå gjøre endringer i din Firefox-konto."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr "Primær e-post bekreftet"
+msgstr "Primær e-postadresse bekreftet"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -65,7 +65,7 @@ msgstr "Varsler vedrørende kontoen vil nå også bli sendt til %(secondaryEmail
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr "Sekundær e-post bekreftet"
+msgstr "Sekundær e-postadresse bekreftet"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -257,7 +257,7 @@ msgstr "E-post sendt på nytt"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr "Primær e-post bekreftet"
+msgstr "Primær e-postadresse bekreftet"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr "Sekundær e-post bekreftet"
+msgstr "Sekundær e-postadresse bekreftet"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
@@ -419,7 +419,7 @@ msgstr "Denne e-postadressen er allerede bekreftet av en annen bruker"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr "Sekundær e-post må være forskjellig fra e-postadressen til din konto"
+msgstr "Sekundær e-postadresse må være forskjellig fra e-postadressen til din konto"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
@@ -1376,7 +1376,7 @@ msgstr "Velg navnet du vil skal vises i Firefox og når du håndterer din konto.
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "En sekundær e-postadresse er en ekstra adresse for mottak av sikkerhetsvarsler og bekreftelse av nye enheter."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
