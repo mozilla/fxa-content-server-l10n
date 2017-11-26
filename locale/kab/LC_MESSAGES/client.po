@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-26 12:34+0000\n"
+"PO-Revision-Date: 2017-11-26 13:18+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -124,11 +124,11 @@ msgstr "Amtawi aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s aya"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s aya"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -136,23 +136,23 @@ msgstr "Armud aneggaru: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Armud aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya, deg %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Armud aneggaru %(translatedTimeAgo)s tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya, tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -168,7 +168,7 @@ msgstr "%(translatedTimeAgo)s di %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s aya, deg %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -176,7 +176,7 @@ msgstr "%(translatedTimeAgo)s ar tama n %(translatedCity)s, %(translatedState)s,
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s aya, ar tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
