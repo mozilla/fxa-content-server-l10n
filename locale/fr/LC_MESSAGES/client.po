@@ -441,7 +441,7 @@ msgstr "Code de connexion non valide"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr "Il est impossible de modifier l’adresse électronique principale lorsque celle-ci n’est pas vérifiée"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
