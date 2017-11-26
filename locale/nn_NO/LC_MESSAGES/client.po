@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-25 11:38+0000\n"
+"PO-Revision-Date: 2017-11-26 11:57+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -437,11 +437,11 @@ msgstr "Ugyldig innloggingskode"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Ein kan ikkje endre primær e-postadresse til ei ikkje-stadfesta-postadresse"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Ein kan ikke endre primær e-postadresse til ei e-postadresse som ikkje høyrer til denne kontoen"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
@@ -1372,7 +1372,7 @@ msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Ei sekundær e-postadresse er ei ekstra adresse for mottak av tryggingsvarsel og stadfesting av nye einingar."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
