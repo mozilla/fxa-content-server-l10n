@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-07 11:53+0000\n"
-"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
+"PO-Revision-Date: 2017-11-26 17:21+0000\n"
+"Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -575,11 +575,11 @@ msgstr "தரவு பண்பு காணவில்லை: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "உறுதிப்படுத்தல் இணைப்பு ஏற்கனவே பயன்படுத்தப்பட்டது, அதனை ஒருமுறை மட்டுமே பயன்படுத்த முடியும்."
 
 #: app/scripts/lib/auth-errors.js:400
 msgid "This is a required field"
-msgstr ""
+msgstr "இது தேவையான களம்"
 
 #: app/scripts/lib/auth-errors.js:404
 msgid "Authorization code required"
@@ -599,7 +599,7 @@ msgstr "கட்டமைப்பு தொலைந்தது"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "தவறான கட்டமைவு"
 
 #: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -607,7 +607,7 @@ msgstr ""
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "தயவு செய்து மீண்டும் முயற்சிக்கவும்"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -679,19 +679,19 @@ msgstr "செல்லுபடியாகாத குறி"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "ஆதாரங்கள் ஏற்றுவதில் தோல்வி"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "எதிர்பாராத வள பிழை"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "நிரல் பிழை"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS அனுப்பப்பட்டது"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
@@ -702,9 +702,7 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -786,7 +784,7 @@ msgstr "உங்கள் கடவுச்சொல்லை மீட்�
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "புதிய இணைப்பைப் பெறுக"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -850,7 +848,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "உங்கள் மின்னஞ்சல் உறுதிப்படுத்தல் இணைப்பு &nbsp;to %(escapedEmail)s அனுப்பப்பட்டது"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
