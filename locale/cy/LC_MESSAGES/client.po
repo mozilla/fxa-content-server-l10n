@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-12 15:37+0000\n"
+"PO-Revision-Date: 2017-11-27 11:11+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -57,7 +57,7 @@ msgstr "Rydych nawr yn barod i wneud newidiadau i'ch Cyfrif Firefox."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr "Dilyswyd y brif e-bost"
+msgstr "Dilyswyd y prif e-bost"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -65,7 +65,7 @@ msgstr "Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEma
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr "Dilyswyd yr e-bost eilaidd"
+msgstr "Dilyswyd yr ail e-bost"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -217,7 +217,7 @@ msgstr "Mae'r prif e-bost wedi ei osod i %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr "Mae e-bost eilaidd yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch ac i gadarnhau dyfeisiau Sync newydd"
+msgstr "Mae'r ail e-bost yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau Sync newydd"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr "Dilyswyd yr e-bost eilaidd yn llwyddiannus"
+msgstr "Dilyswyd yr ail e-bost yn llwyddiannus"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
@@ -434,23 +434,23 @@ msgstr "Mae angen defnyddio'r prif gyfrif ar gyfer ei ailosod"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr "Cod mewngofnodi anilys"
+msgstr "Cod mewngofnodi annilys"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Nid oes modd i chi newid eich prif e-bost i e-bost heb ei ddilysu"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Nid oes modd newid prif e-bost i e-bost nad yw'n perthyn i'r cyfrif hwn"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Ar hyn o bryd, nid oes modd defnyddio'r e-bost hwn i fewngofnodi"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "Methwyd anfon e-bost"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -458,7 +458,7 @@ msgstr "Mae'r gweinydd yn brysur, ceisiwch eto"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Nid yw'r nodwedd wedi ei alluogi"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -647,7 +647,7 @@ msgstr "Gwaharddedig"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Tocyn wedi dod i ben"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -702,12 +702,8 @@ msgid "SMS not sent, please try again"
 msgstr "Heb anfon SMS, ceisiwch eto"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -763,7 +759,7 @@ msgstr "Dysgu rhagor"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s wedi eu cofrestri."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -824,7 +820,7 @@ msgstr "Cyflwynwch gyfrinair newydd"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Mae'r preif e-bost wedi ei ddilysu eisoes"
+msgstr "Mae'r prif e-bost wedi ei ddilysu eisoes"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1377,7 +1373,7 @@ msgstr "Dewiswch enw yr hoffech chi ei ddangos yn Firefox ac wrth reoli eich cyf
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Mae ail e-bost yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau newydd."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1558,19 +1554,18 @@ msgstr "Mewngofnodi"
 #~ msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a "
-#~ "bydd popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
+#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a bydd"
+#~ " popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi "
-#~ "ei gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un "
-#~ "ddyfais."
+#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi ei "
+#~ "gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un ddyfais."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1646,11 +1641,11 @@ msgstr "Mewngofnodi"
 #~ msgstr "A oes gennych gyfrif gydag e-bost gwahanol? <a href=\"%(signinUri)s\">Mewngofnodi</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Dileu"
@@ -1820,8 +1815,7 @@ msgstr "Mewngofnodi"
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr ""
-#~ "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
+#~ msgstr "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Mae Firefox yn dod i iOS cyn bo hir!"
@@ -1965,8 +1959,7 @@ msgstr "Mewngofnodi"
 #~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ msgstr "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
