@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-27 11:11+0000\n"
+"PO-Revision-Date: 2017-11-27 11:13+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -861,7 +861,7 @@ msgstr "Ddim yn y blwch derbyn na'r sbam? Ailanfon"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Anfonwyd yr e-bost ailanfon"
+msgstr "Anfonwyd yr e-bost ail-anfon"
 
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -1199,7 +1199,7 @@ msgstr "Nid yw'r gwasanaeth Sync yn cadw copi wrth gefn y barhaol, dim ond fford
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Dylech osod Firefox a cydweddu o leiaf dau ddyfais i ddiogelu rhag colli'ch data i gyd os fydd angen ei adfer ond wedi colli eich cyfrinair."
+msgstr "Dylech osod Firefox a cydweddu o leiaf dwy ddyfais i ddiogelu rhag colli'ch data i gyd os fydd angen ei adfer ond wedi colli eich cyfrinair."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
