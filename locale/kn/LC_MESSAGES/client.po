@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-27 19:31+0000\n"
+"PO-Revision-Date: 2017-11-27 19:33+0000\n"
 "Last-Translator: Yogi (ಯೋಗಿ) <csyogech@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kn\n"
@@ -1318,11 +1318,11 @@ msgstr "ಯಾವುದೂ ಸಂಪರ್ಕದಲ್ಲಿಲ್ಲ"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "ಡೌನ್‌ಲೋಡ್"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "ಆಂಡ್ರಾಯ್ಡಿಗೆ ಫೈರ್ಫಾಕ್ಸ್"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
@@ -1330,7 +1330,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
-msgstr ""
+msgstr "ನವೀಕರಿಸು"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -1346,7 +1346,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
-msgstr ""
+msgstr "ಚಂದಾದಾರನಾಗು"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
@@ -1354,11 +1354,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "ಖಾತೆಯನ್ನು ಅಳಿಸು"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "ಅಳಿಸು…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1374,23 +1374,23 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "ಪರಿಶೀಲಿಸಲಾಗಿದೆ"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "ಪರಿಶೀಲನೆ ಆಗಬೇಕಿದೆ"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "ಪ್ರಾಥಮಿಕವಾಗಿ ಮಾಡು"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "ತೆಗೆದು ಹಾಕು"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
-msgstr ""
+msgstr "ಸೇರಿಸು"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
@@ -1402,7 +1402,7 @@ msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "ನೀವು ಎಷ್ಟು ಹಿರಿಯರಿದ್ದೀರಿ?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ಸಿಂಕ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಆಗಿ"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
@@ -1418,23 +1418,23 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID ಅನ್ನು ಬಳಸಿ"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "ಫೈರ್ಫಾಕ್ಸ್ ಖಾತೆಯನ್ನು ಬಳಸಿ"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "ಸೈನ್ ಇನ್"
 
 #. header text
 #: app/scripts/views/sign_in.js:94
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "ಒಳಗೆ ಪ್ರವೇಶಿಸು‍"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "ಯಶಸ್ವಿಯಾಗಿ ಚಂದದಾರದಿಂದ ಹೊರಬಂದಿರಿ"
