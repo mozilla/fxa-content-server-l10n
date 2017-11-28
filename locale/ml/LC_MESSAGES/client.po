@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-06-21 10:52+0000\n"
-"Last-Translator: Anivar Aravind <anivar.aravind@gmail.com>\n"
+"PO-Revision-Date: 2017-11-28 15:28+0000\n"
+"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -268,15 +268,15 @@ msgstr ""
 
 #: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
-msgstr ""
+msgstr "അടയാളക്കുറിപ്പുകള്‍"
 
 #: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
-msgstr ""
+msgstr "ആഡ്-ഓണുകൾ"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
-msgstr ""
+msgstr "രഹസ്യവാക്കുകൾ"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -284,19 +284,19 @@ msgstr "ചരിത്രം"
 
 #: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
-msgstr ""
+msgstr "മുൻഗണനകൾ"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "വിലാസങ്ങള്‍"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "ക്രെഡിറ്റ് കാര്‍ഡുകള്‍"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
-msgstr ""
+msgstr "ഫയർഫോക്സ് സമന്വയം"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
@@ -305,7 +305,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr ""
+msgstr "പ്രതീക്ഷിക്കാത്ത തകരാര്‍"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
@@ -313,11 +313,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "നിങ്ങൾ നിരവധി തവണ ശ്രമിച്ചിരിക്കുന്നു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "നിങ്ങൾ നിരവധി തവണ ശ്രമിച്ചിരിക്കുന്നു. വീണ്ടും ശ്രമിക്കുക %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -333,19 +333,19 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
-msgstr ""
+msgstr "അക്കൗണ്ട് ഇതിനകം നിലവിലുണ്ട്"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "അജ്ഞാത അക്കൗണ്ട്"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr ""
+msgstr "തെറ്റായ ഇമെയിൽ കേസ്"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "തെറ്റായ രഹസ്യവാക്ക്"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "റിക്വസ്റ്റ് ബോഡിയിൽ തെറ്റായ JSON"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
@@ -377,11 +377,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "റിക്വസ്റ്റ് ബോഡി വളരെ വലുത്"
 
 #: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "സുരക്ഷാകാരണങ്ങളാൽ അപേക്ഷ തള്ളിയിരിക്കുന്നു"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
@@ -389,11 +389,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "തെറ്റായ ഫോൺനമ്പർ"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "ഈ രാജ്യത്തേക്ക് അയക്കാൻ സാദ്ധ്യമല്ല"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
@@ -701,9 +701,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -882,7 +880,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "ഇമെയിൽ പരിശോധിച്ചു"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
