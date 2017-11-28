@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-28 15:30+0000\n"
+"PO-Revision-Date: 2017-11-28 15:32+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
@@ -372,59 +372,59 @@ msgstr "%(uaOS)s-ന്റെ മേൽ %(uaBrowser)s"
 
 #: lib/senders/email.js:201
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
 #: lib/senders/email.js:203
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (കണക്കാക്കിയത്)"
 
 #: lib/senders/email.js:205
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
 #: lib/senders/email.js:207
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (കണക്കാക്കിയത്)"
 
 #: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് പരിശോധിക്കുക"
 
 #: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
 
 #: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീകാര കോഡ്"
 
 #: lib/senders/email.js:436
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "ഫയർഫോക്സിൽ പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/email.js:577
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
 
 #: lib/senders/email.js:609
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
 
 #: lib/senders/email.js:639
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിച്ചു"
 
 #: lib/senders/email.js:665
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്കിന്റെ പുനഃസജ്ജീകരണം ആവശ്യമാണ്"
 
 #: lib/senders/email.js:722
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് പരിശോധിച്ചു"
 
 #: lib/senders/email.js:753
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "രണ്ടാം ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ഇമെയിൽ ചേർത്തു"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
@@ -436,52 +436,52 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "താള് കണ്ടെത്തിയില്ല"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള് കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "ഹോം"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 പിശക്"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിക്കുകയും അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം തുടങ്ങുകയും ചെയ്യും."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 പിശക്"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "സെർവർ തിരക്കിലാണ്, വീണ്ടും ഉടൻ ശ്രമിക്കുക"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "നിങ്ങൾ <strong>കാലഹരണപ്പെട്ട</strong> ബ്രൌസറാണ് ഉപയോഗിക്കുന്നത്. നിങ്ങളുടെ അനുഭവം മെച്ചപ്പെടുത്താൻ <a href=\"http://browsehappy.com/\">നിങ്ങളുടെ ബ്രൗസർ അപ്ഗ്രേഡുചെയ്യുക</a>."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾക്ക് ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "സ്വകാര്യതാ അറിയിപ്പ്"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "ഫയർഫോക്സ് ക്ലൗഡ് സേവനങ്ങൾ"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "സേവന നിബന്ധനകൾ"

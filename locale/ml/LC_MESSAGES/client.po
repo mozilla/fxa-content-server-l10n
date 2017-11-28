@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-28 15:28+0000\n"
+"PO-Revision-Date: 2017-11-28 15:32+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
@@ -264,7 +264,7 @@ msgstr "അക്കൌണ്ട് വിജയകരമായി തീര്�
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
-msgstr ""
+msgstr "തുറന്ന ടാബുകള്‍"
 
 #: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
