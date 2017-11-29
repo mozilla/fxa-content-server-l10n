@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-29 11:05+0000\n"
+"PO-Revision-Date: 2017-11-29 11:44+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "Ensisijainen sähköposti vahvistettu"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -65,7 +65,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Toissijainen sähköposti vahvistettu"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -109,27 +109,27 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi yli %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Synkronoitu viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -137,23 +137,23 @@ msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Käytetty viimeksi %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Käytetty viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -161,23 +161,23 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Yli %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Viimeisimmän synkronoinnin ajankohta tuntematon"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Toissijainen sähköposti"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -289,11 +289,11 @@ msgstr "Asetukset"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "Osoitteet"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "Luottokortit"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
@@ -591,7 +591,7 @@ msgstr "Linkki vioittunut"
 
 #: app/scripts/lib/auth-errors.js:435
 msgid "Phone number required"
-msgstr ""
+msgstr "Puhelinnumero vaaditaan"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -603,11 +603,11 @@ msgstr "Virheelliset asetukset"
 
 #: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Tarkoititko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Yritä myöhemmin uudestaan"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -759,7 +759,7 @@ msgstr "Lue lisää"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s rekisteröity."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -820,7 +820,7 @@ msgstr "Lähetä uusi salasana"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Ensisijainen sähköposti on jo vahvistettu"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -873,11 +873,11 @@ msgstr "Muistatko salasanan? Kirjaudu sisään"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Yhdistä toinen laite"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Tämä Firefox on yhdistetty"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1271,7 +1271,7 @@ msgstr "Vanha tai vaihdettu laite"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Laitteen kaksoiskappale"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1295,7 +1295,7 @@ msgstr "Näytä"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Nykyinen laite"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1303,7 +1303,7 @@ msgstr "Katkaise…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Nykyinen istunto"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
