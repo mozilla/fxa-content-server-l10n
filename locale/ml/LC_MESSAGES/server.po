@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-28 15:32+0000\n"
-"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
+"PO-Revision-Date: 2017-11-30 08:07+0000\n"
+"Last-Translator: Kannan V M <kannan@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -452,7 +452,7 @@ msgstr "500 പിശക്"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിക്കുകയും അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം തുടങ്ങുകയും ചെയ്യും."
+msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിച്ചിട്ടുണ്ട്, അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം ഉടന്‍ തുടങ്ങുന്നതാണ്."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
