@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-23 09:59+0000\n"
+"POT-Creation-Date: 2017-12-01 16:08+0000\n"
+"PO-Revision-Date: 2017-11-27 18:15+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -151,7 +151,7 @@ msgstr "Detetámos atividade suspeita na sua Conta Firefox. A sua conta pode ter
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Para prevenir mais acessos não autorizados à sua Conta Firefox, repusemos a sua palavra-passe e estamos a notificá-lo como precaução."
+msgstr "Para prevenir mais acessos não autorizados à sua Conta Firefox, repusemos a sua palavra-passe e estamos a notificar-lhe como precaução."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -369,11 +369,11 @@ msgstr "Pronto, preparar, sincronizar"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Confirme que recebeu este email e nós iremos ajudá-lo a instalar e sincronizar o Firefox em todos os seus dispositivos começando com:"
+msgstr "Confirme que recebeu este email e nós iremos ajudar-lhe a instalar e sincronizar o Firefox em todos os seus dispositivos começando com:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Assim que confirmado, iremos ajudá-lo a instalar e ligar o Firefox, pelo menos, num outro dispositivo."
+msgstr "Assim que confirmado, iremos ajudar-lhe a instalar e ligar o Firefox, pelo menos, num outro dispositivo."
 
 #: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
