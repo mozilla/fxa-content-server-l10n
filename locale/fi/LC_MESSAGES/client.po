@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-01 16:08+0000\n"
 "PO-Revision-Date: 2017-11-29 11:44+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Salasanan nollaus"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 
@@ -87,11 +87,11 @@ msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Tiliä ei ole enää olemassa. Luodaanko se uudelleen?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
 
@@ -251,11 +251,11 @@ msgstr "Avaa Outlook"
 msgid "Open Restmail"
 msgstr "Avaa Restmail"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "Sähköposti on lähetetty uudelleen"
 
-#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr ""
 
@@ -299,12 +299,12 @@ msgstr "Luottokortit"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "Odottamaton virhe"
 
@@ -593,11 +593,11 @@ msgstr "Linkki vioittunut"
 msgid "Phone number required"
 msgstr "Puhelinnumero vaaditaan"
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr "Puuttuvat asetukset"
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr "Virheelliset asetukset"
 
@@ -677,15 +677,15 @@ msgstr "Kuvaa käsitellessä tapahtui virhe"
 msgid "Invalid Token"
 msgstr "Virheellinen tunniste"
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr ""
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr ""
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr ""
 
@@ -702,8 +702,11 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1426,7 +1429,7 @@ msgid "Use Firefox Account"
 msgstr "Käytä Firefox-tiliä"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
@@ -1548,15 +1551,16 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Synkronointiasetukset"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Etsitkö Firefox Synciä? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Aloita täältä</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
 #~ "Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
 #~ "href=\"%(linkLinux)s\">Linuxille</a>."

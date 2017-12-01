@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-01 16:08+0000\n"
 "PO-Revision-Date: 2017-11-30 08:10+0000\n"
 "Last-Translator: Kannan V M <kannan@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കല്‍"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "പാസ്‌വേർഡ് വിജയകരമായി പുനഃസ്ഥാപിച്ചു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
@@ -86,11 +86,11 @@ msgstr "അജ്ഞാതമായ അക്കൗണ്ട്. <a href=\"/sign
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "അജ്ഞാതമായ ഫയർഫോക്സ് അക്കൗണ്ട്. <a href=\"/signup\">Sign up</a> പഴയ Add-ons അക്കൗണ്ടിന്റെ ഈ-മെയിൽ ഉപയോഗിച്ച് Add-ons വസ്‌തുതകള്‍ സമീപിക്കുന്നു."
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "അക്കൗണ്ട് നിലകൊള്ളുന്നില്ല. പുതിയ അക്കൗണ്ട് ഉണ്ടാക്കട്ടെ?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "അക്കൌണ്ട് നിലവിലുണ്ട്. <a href=\"/signin\">സൈൻ ഇൻ ചെയ്യുക</a>"
 
@@ -104,9 +104,7 @@ msgstr "ഞങ്ങൾക്ക് ഖേദമുണ്ട്. നിങ്ങ
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ "
-"രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
+msgstr "ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
@@ -252,11 +250,11 @@ msgstr "Outlook തുറക്കുക"
 msgid "Open Restmail"
 msgstr "Restmail തുറക്കുക"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "ഈ-മെയിൽ വീണ്ടും അയച്ചു"
 
-#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr ""
 
@@ -300,12 +298,12 @@ msgstr "ക്രെഡിറ്റ് കാര്‍ഡുകള്‍"
 msgid "Firefox Sync"
 msgstr "ഫയർഫോക്സ് സമന്വയം"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "പ്രതീക്ഷിക്കാത്ത തകരാര്‍"
 
@@ -594,11 +592,11 @@ msgstr ""
 msgid "Phone number required"
 msgstr ""
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr ""
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr ""
 
@@ -678,15 +676,15 @@ msgstr ""
 msgid "Invalid Token"
 msgstr ""
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr ""
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr ""
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr ""
 
@@ -703,7 +701,9 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1427,7 +1427,7 @@ msgid "Use Firefox Account"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ഉപയോഗിക്കുക"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""

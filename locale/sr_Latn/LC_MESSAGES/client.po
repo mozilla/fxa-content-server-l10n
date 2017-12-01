@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-01 16:08+0000\n"
 "PO-Revision-Date: 2017-11-16 15:15+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:156
 #: app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
@@ -104,11 +104,11 @@ msgstr ""
 "prethodnu adresu e-pošte za dodatke da biste pristupili vašim podacima o "
 "dodacima."
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -304,12 +304,12 @@ msgstr "Otvori Outlook"
 msgid "Open Restmail"
 msgstr "Otvori Restmail"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62
-#: app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr "Primarana adresa e-pošte je potvrđena uspešno"
 
@@ -354,7 +354,7 @@ msgstr "Kreditne kartice"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr "Sekundarna adresa e-pošte je potvrđena uspešno"
 
@@ -362,7 +362,7 @@ msgstr "Sekundarna adresa e-pošte je potvrđena uspešno"
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57
 #: app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "Neočekivana greška"
 
@@ -666,11 +666,11 @@ msgstr "Veza je oštećena"
 msgid "Phone number required"
 msgstr "Potreban je broj telefona"
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr "Nedostaje konfiguracija"
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr "Neispravna konfiguracija"
 
@@ -753,15 +753,15 @@ msgstr "Greška u procesiranju slike"
 msgid "Invalid Token"
 msgstr "Nevažeći žeton"
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr "Resursi nisu uspešno učitani"
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr "Neočekivana greška sa resursom"
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Greška u skripti"
 
@@ -1744,7 +1744,7 @@ msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Prijavi se"
