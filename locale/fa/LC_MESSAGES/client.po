@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-12-02 08:51+0000\n"
-"Last-Translator: Amin Mahmudian <amin.mahmudian@gmail.com>\n"
+"PO-Revision-Date: 2017-12-02 09:43+0000\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -217,7 +217,7 @@ msgstr "ایمیل اصلی تنظیم شد به %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "رایانامه ثانوی یک آدرس اضافی برای دریافت گزارش‌های امنیتی و تایید دستگاه‌های قابل همگام‌سازی جدید است"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -257,7 +257,7 @@ msgstr "ارسال مجدد پست‌الکترونیکی"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "رایانامه اصلی با موفقیت تایید شد"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "بهنگام‌سازی فایرفاکس"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "رایانامه ثانوی با موفقیت تایید شد"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
@@ -438,19 +438,19 @@ msgstr "کد ورود نامعتبر"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "نمی‌توان رایانامه اصلی را به یک رایانامهٔ تایید نشده تغییر داد"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "نمی‌توان رایانامه اصلی را به رایانامه‌ای که به این حساب متعلق نیست تغییر داد"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "در حال حاضر از این رایانامه برای وارد شدن نمی‌توانید استفاده کنید"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "ارسال رایانامه شکست خورد"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -458,7 +458,7 @@ msgstr "کارگزار مشغول است، کمی بعد مجددا تلاش ک�
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "این ویژگی فعال نشده"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -647,7 +647,7 @@ msgstr "ممنوع"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "توکن منقضی شده"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -761,7 +761,7 @@ msgstr "اطلاعات بیشتر"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s ثبت‌نام شد."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -822,7 +822,7 @@ msgstr "ثبت گذرواژه جدید"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "رایانامهٔ اصلی قبلا تایید شده است"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1300,7 +1300,7 @@ msgstr "نمایش"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "دستگاه فعلی"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1308,7 +1308,7 @@ msgstr "قطع ارتباط…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "نشست فعلی"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1320,7 +1320,7 @@ msgstr "فایرفاکس برای iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "هیچکدام متصل نشده"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1376,7 +1376,7 @@ msgstr "انتخاب یک نام دلخواه جهت نمایش در هنگام 
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "رایانامه ثانوی یک آدرس اضافی برای دریافت گزارش‌های امنیتی و تایید دستگاه‌های جدید است."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1400,11 +1400,11 @@ msgstr "اضافه کردن"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "باز کردن…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "برای باز کردن این قسمت تایید کنید"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
