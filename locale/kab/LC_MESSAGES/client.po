@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-26 13:18+0000\n"
+"PO-Revision-Date: 2017-12-04 09:38+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -449,7 +449,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "Tuzzna n imayl ur teddi ara"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -819,7 +819,7 @@ msgstr "Azen awal uffir nniḍen"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Imayl amezwaru ittwasentem yakan"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
