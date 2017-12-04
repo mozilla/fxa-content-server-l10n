@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-12-04 09:38+0000\n"
+"PO-Revision-Date: 2017-12-04 10:02+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -256,7 +256,7 @@ msgstr "Imayl yettwazen tikelt nniḍen"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Imayl amezwaru ittwasenqed akken iwata"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -300,7 +300,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:76
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Imayl wis sin ittwasenqed akken iwata"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:35
@@ -437,7 +437,7 @@ msgstr "Tangal n unekcum d tarameγtut"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Ur izmir ara ad ibeddel imayl amezwaru m'ur yettwasenqed ara imayl amaynut"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
@@ -457,7 +457,7 @@ msgstr "Aqeddac ur yestuffi ara, ɛreḍ tikelt nniḍen ticki"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Tamahilt ur termid ara"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -758,7 +758,7 @@ msgstr "Issin ugar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s ittwarna."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
