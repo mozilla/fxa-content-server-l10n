@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-10 20:57+0000\n"
+"PO-Revision-Date: 2017-11-10 21:00+0000\n"
 "Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -439,7 +439,7 @@ msgstr "Surel sekunder Firefox Account ditambahkan"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Surel utama baru Firefox Account"
 
 #: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
