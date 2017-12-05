@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-12-05 22:49+0000\n"
+"PO-Revision-Date: 2017-12-05 22:59+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -190,6 +190,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Əsas e-poçtunuzu müvəffəqiyyətlə %(email)s ünvanına dəyişdirdiniz. Bu ünvan artıq Firefox Hesabınıza daxil olmaq üçün istifadə adınızdır, həmçinin təhlükəsizlik bildirişləri və daxil olma "
+"təsdiqləmələri bu ünvana göndəriləcək."
 
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -325,11 +327,11 @@ msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşün
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
 msgid "Verify primary email"
-msgstr ""
+msgstr "Əsas e-poçtunuzu təsdiqləyin"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Hesab dəyişikliyi bu cihazdan istəndi:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -337,11 +339,11 @@ msgstr "E-poçtu təsdiqlər "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Təsdiqləndikdən sonra ikincil e-poçt əlavə etmə kimi dəyişikliklər bu cihazdan mümkün olacaq."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Bu avtomatik e-poçtdur; Əgər bunu səhvən almısınızsa və ya bu əməliyyatı siz etməmisinizsə, lütfən <a %(passwordChangeLinkAttributes)s>parolunuzu dəyişdirin</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -437,7 +439,7 @@ msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Firefox Hesabında yeni əsas e-poçt"
 
 #: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
