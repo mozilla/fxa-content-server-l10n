@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-27 18:15+0000\n"
+"PO-Revision-Date: 2017-12-05 09:54+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -497,7 +497,7 @@ msgstr "Serviços do Firefox na cloud"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr "Termos do serviço"
+msgstr "Termos de serviço"
 
 #~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "Este é um email automático;se o recebeu por erro, se não autorizou esta ação, então <a %(passwordChangeLinkAttributes)s>por favor, altere a sua palavra-passe</a>."
