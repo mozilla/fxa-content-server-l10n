@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-12-07 13:07+0000\n"
+"PO-Revision-Date: 2017-12-07 13:31+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -323,75 +323,75 @@ msgstr "Ako sumnjate da neko pokušava dobiti pristup vašem računu, <a %(passw
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
 msgid "Verify primary email"
-msgstr ""
+msgstr "Verifikujte primarni email"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Zahtjev za izvođenje promjena računa je napravljen sa sljedećeg uređaja:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Verifikuj email "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Nakon verifikacije, promjene računa kao što je dodavanje sekundarnog emaila će biti moguće sa ovog uređaja."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ovo je automatski email; ako ste ga dobili greškom, ako niste odobrili ovu akciju, onda <a %(passwordChangeLinkAttributes)s>molimo da promijenite vašu lozinku</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Verifikuj email: "
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Verifikuj sekundarni email"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Zahtjev da se %(email)s koristi kao sekundarni email je napravljen sa sljedećeg Firefox računa:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Nakon verifikacije, ova adresa će početi primati sigurnosna obavještenja i potvrde."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Priprema, pozor, sinhronizacija"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Potvrdite da ste dobili ovaj email i pomoći ćemo vam instalirati i sinhronizovati Firefox na svim vašim uređajima počevši sa:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Nakon što je potvrđen, pomoći ćemo vam instalirati i povezati Firefox na bar još jednom uređaju."
 
 #: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:174
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s na %(uaOS)s"
 
 #: lib/senders/email.js:201
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:203
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:205
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:207
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (procijenjeno)"
 
 #: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
