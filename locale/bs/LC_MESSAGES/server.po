@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-12-07 13:31+0000\n"
+"PO-Revision-Date: 2017-12-07 13:46+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -395,100 +395,100 @@ msgstr "%(country)s (procijenjeno)"
 
 #: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Verifikujte vaš Firefox račun"
 
 #: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Potvrdite vaš email i počnite sinhronizovati!"
 
 #: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Kod autorizacije Firefox računa"
 
 #: lib/senders/email.js:436
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Potvrdite novu prijavu na Firefox"
 
 #: lib/senders/email.js:577
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Resetujte lozinku vašeg Firefox računa"
 
 #: lib/senders/email.js:609
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Lozinka vašeg Firefox računa je promijenjena"
 
 #: lib/senders/email.js:639
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Lozinka vašeg Firefox računa je resetovana"
 
 #: lib/senders/email.js:665
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Potrebno je resetovanje lozinke Firefox računa"
 
 #: lib/senders/email.js:722
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox račun je verifikovan"
 
 #: lib/senders/email.js:753
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Dodan sekundarni email Firefox računa"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Novi primarni email Firefox računa"
 
 #: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Sekundarni email Firefox računa je uklonjen"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Stranica nije pronađena"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "Stranica koju ste tražili nije pronađena. Obaviješteni smo i popravit ćemo bilo koji link koji je neispravan."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Početna"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 Greška"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Joj, nešto nije uredu ovdje. Obaviješteni smo i radit ćemo na tome da to popravimo."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 Greška"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server zauzet, pokušajte ponovo uskoro"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Trenutno smo u teškoj deformaciji i radimo na vraćanju sistema u normalno stanje što je prije moguće."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Koristite <strong>zastarjeli</strong> browser. Molimo <a href=\"http://browsehappy.com/\">nadogradite vaš browser</a> da unaprijedite vaše iskustvo."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox računi zahtjevaju JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Napomena o privatnosti"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox cloud usluge"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Uslovi korištenja"
