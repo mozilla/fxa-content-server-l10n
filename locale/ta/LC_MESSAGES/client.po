@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-08 16:09+0000\n"
 "PO-Revision-Date: 2017-11-26 17:21+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1428936110.0\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "கடவுச்சொல்லை மீட்டமை"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "கடவுச்சொல் வெற்றிகரமாக மீட்டமைக்கப்பட்டது. தொடர உள்நுழையவும்."
 
@@ -87,11 +87,11 @@ msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதி�
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "கணக்கை நீண்ட காலம் பாவிக்கல. மீண்டும் உருவாக்க வேண்டுமா?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/signin\">உள்நுழைக</a>"
 
@@ -251,11 +251,11 @@ msgstr "அவுட்லுக்கைத் திற"
 msgid "Open Restmail"
 msgstr "ரெஸ்ட்மடலைத் திற"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "மின்னஞ்சல் மீண்டும் அனுப்பப்பட்டது"
 
-#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr ""
 
@@ -276,8 +276,8 @@ msgid "Add-ons"
 msgstr "கூடுதல் இணைப்புகள்"
 
 #: app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "கடவுச்சொற்கள்"
+msgid "Logins"
+msgstr ""
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -299,12 +299,12 @@ msgstr "கடன் அட்டைகள்"
 msgid "Firefox Sync"
 msgstr "பயர்பாக்ஸ் ஒத்திசைவு"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "எதிர்பாராத பிழை"
 
@@ -593,11 +593,11 @@ msgstr "பாதிப்படைந்த தொடுப்ப"
 msgid "Phone number required"
 msgstr "தொலைப்பேசி எண் தேவை"
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr "கட்டமைப்பு தொலைந்தது"
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr "தவறான கட்டமைவு"
 
@@ -677,15 +677,15 @@ msgstr "பட செயலாக்க பிழை"
 msgid "Invalid Token"
 msgstr "செல்லுபடியாகாத குறி"
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr "ஆதாரங்கள் ஏற்றுவதில் தோல்வி"
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr "எதிர்பாராத வள பிழை"
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "நிரல் பிழை"
 
@@ -702,7 +702,9 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1426,7 +1428,7 @@ msgid "Use Firefox Account"
 msgstr "பயர்பாஃசு கணக்கைப் பயன்படுத்தவும்"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
@@ -1436,6 +1438,9 @@ msgstr "புகுப்பதிகை"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
+
+#~ msgid "Passwords"
+#~ msgstr "கடவுச்சொற்கள்"
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 #~ msgstr "பாதுகாப்பு அறிக்கை புதிய ஒத்திசைவு சாதனங்களை உறுதிப்படுத்தல் போன்றவற்றிற்கான மின்னஞ்சல்களைப் பெற கூடுதலாக இரண்டாம்பட்ச மின்னஞ்சல் தேவை."

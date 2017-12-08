@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-08 16:09+0000\n"
 "PO-Revision-Date: 2017-11-28 08:02+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Remontar le contrasigno"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Contrasigno remontate con successo. Authentica te pro continuar."
 
@@ -86,11 +86,11 @@ msgstr "Conto incognite. <a href=\"/signup\">Inscribe te</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conto Firefox incognite. <a href=\"/signup\">Inscribe te</a> usante le adresse email de tu previe conto Additivos pro acceder a tu datos de additivos."
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Le conto non existe plus. Desira tu recrear lo?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Le conto ja existe. <a href=\"/signin\">Authentica te</a>"
 
@@ -252,11 +252,11 @@ msgstr "Aperir Outlook"
 msgid "Open Restmail"
 msgstr "Aperir Restmail"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "Email reinviate"
 
-#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr "Email primari verificate con successo"
 
@@ -277,8 +277,8 @@ msgid "Add-ons"
 msgstr "Additivos"
 
 #: app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "Contrasignos"
+msgid "Logins"
+msgstr ""
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -300,12 +300,12 @@ msgstr "Cartas de credito"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr "Email secundari verificate con successo"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "Error inexpectate"
 
@@ -594,11 +594,11 @@ msgstr "Ligamine damnificate"
 msgid "Phone number required"
 msgstr "Il es necessari le numero de telephono"
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr "Manca le configuration"
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr "Configuration non valide"
 
@@ -678,15 +678,15 @@ msgstr "Error de processo imagine"
 msgid "Invalid Token"
 msgstr "Token non valide"
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr "Cargamento de ressource fallite"
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr "Error de ressource inattendite"
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Error de script"
 
@@ -703,7 +703,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS non inviate, retenta per favor"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu consenti al <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e al <a id=\"service-pp\" href=\"%(privacyUri)s\">declaration de confidentialitate</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1433,7 +1435,7 @@ msgid "Use Firefox Account"
 msgstr "Usar conto Firefox"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Authenticar se"
@@ -1443,6 +1445,9 @@ msgstr "Authenticar se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Authenticar se"
+
+#~ msgid "Passwords"
+#~ msgstr "Contrasignos"
 
 #~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 #~ msgstr "%(escapedEmail)s registrate. <a %(escapedBackLinkParams)s>Adresse de e-mail incorrecte?</a>"
@@ -1559,18 +1564,18 @@ msgstr "Authenticar se"
 #~ msgstr "Perque synchronisar duo (o plus) apparatos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu telephono"
-#~ " o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
+#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu "
+#~ "telephono o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate sur"
-#~ " al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
+#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate "
+#~ "sur al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"

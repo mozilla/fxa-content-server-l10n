@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
-"PO-Revision-Date: 2017-11-12 11:39+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"PO-Revision-Date: 2017-12-04 21:39+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -347,6 +347,9 @@ msgid ""
 "is now your username for signing in to your Firefox Account, as well as "
 "receiving security notifications and sign-in confirmations."
 msgstr ""
+"Uspešno ste promenili primarnu adresu na %(email)s. Ova adresa je sada vaše "
+"korisničko ime za pristupanje na vaš Firefox nalog, kao i za dobijanje "
+"bezbednosnih obaveštenja i potvrda za prijavljivanje."
 
 #: lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_remove_secondary.html:4
@@ -596,6 +599,9 @@ msgid ""
 "authorize this action, then <a %(passwordChangeLinkAttributes)s>please "
 "change your password</a>."
 msgstr ""
+"Ovo je automatska poruka; Ako ste je primili sa greškom, ako niste odobrili "
+"njeno slanje, onda <a %(passwordChangeLinkAttributes)s>promenite vašu "
+"lozinku</a>."
 
 #: lib/senders/templates/verify_primary.txt:4
 #: lib/senders/templates/verify_secondary.txt:4

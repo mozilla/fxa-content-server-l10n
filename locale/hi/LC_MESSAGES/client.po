@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"POT-Creation-Date: 2017-12-08 16:09+0000\n"
 "PO-Revision-Date: 2017-08-12 06:05+0000\n"
 "Last-Translator: vivek.chirania01 <vivek.chirania01@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "कूटशब्द पुनः तैयार करें"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
 msgstr "कूटशब्द सफलतापूर्वक बदला गया. जारी रखने के लिए साइन इन करें."
 
@@ -89,11 +89,11 @@ msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप<
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "अज्ञात Firefox खाता. <a href=\"/signup\">साइन अप</a> करें अपने ऐड-ऑन डेटा तक पहुँचने के लिए अपने पिछले ऐड-ऑन खाता ईमेल पते का उपयोग करें."
 
-#: app/scripts/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है. इसका पुनः निर्माण करे?"
 
-#: app/scripts/views/sign_up.js:314
+#: app/scripts/views/sign_up.js:313
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
@@ -253,11 +253,11 @@ msgstr "Outlook खुले"
 msgid "Open Restmail"
 msgstr "Restmail खोलें"
 
-#: app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:39
 msgid "Email resent"
 msgstr "ईमेल फिर से प्रेषित"
 
-#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
 msgstr "प्राथमिक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -278,8 +278,8 @@ msgid "Add-ons"
 msgstr "ऐड-ऑन्स"
 
 #: app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "पासवर्ड"
+msgid "Logins"
+msgstr ""
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -301,12 +301,12 @@ msgstr ""
 msgid "Firefox Sync"
 msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
-#: app/scripts/models/auth_brokers/base.js:76
+#: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
 msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
-#: app/scripts/lib/require-on-demand.js:35
+#: app/scripts/lib/require-on-demand.js:34
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
 
@@ -595,11 +595,11 @@ msgstr "क्षतिग्रस्त लिंक"
 msgid "Phone number required"
 msgstr ""
 
-#: app/scripts/lib/config-loader.js:87
+#: app/scripts/lib/config-loader.js:86
 msgid "Missing configuration"
 msgstr "लापता विन्यास"
 
-#: app/scripts/lib/config-loader.js:91
+#: app/scripts/lib/config-loader.js:90
 msgid "Invalid configuration"
 msgstr "अवैध विन्यास"
 
@@ -679,15 +679,15 @@ msgstr "चित्र प्रक्रमण त्रुटि"
 msgid "Invalid Token"
 msgstr "अमान्य टोकन"
 
-#: app/scripts/lib/require-on-demand.js:39
+#: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
 msgstr "संसाधन लोड होने में विफल हुए"
 
-#: app/scripts/lib/require-on-demand.js:43
+#: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
 msgstr "अनपेक्षित संसाधन त्रुटि"
 
-#: app/scripts/lib/require-on-demand.js:47
+#: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "स्क्रिप्ट त्रुटि"
 
@@ -1430,7 +1430,7 @@ msgid "Use Firefox Account"
 msgstr "Firefox खाते का प्रयोग करें"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "साइन इन"
@@ -1440,6 +1440,9 @@ msgstr "साइन इन"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "साइन इन"
+
+#~ msgid "Passwords"
+#~ msgstr "पासवर्ड"
 
 #~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 #~ msgstr "%(escapedEmail)s पंजीकृत. <a %(escapedBackLinkParams)s>ग़लत ईमेल?</a>"
