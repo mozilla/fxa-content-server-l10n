@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-09 12:47+0000\n"
+"PO-Revision-Date: 2017-12-09 12:55+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -646,7 +646,7 @@ msgstr "Yegdel"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Ajutun yemmut"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
