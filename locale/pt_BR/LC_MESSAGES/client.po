@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-09 06:43+0000\n"
+"PO-Revision-Date: 2017-12-12 05:55+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -523,7 +523,7 @@ msgstr "Não foi possível inicializar a camera"
 
 #: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
-msgstr "É necessário uma URL válida"
+msgstr "É necessário um URL válido"
 
 #: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
