@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-13 18:30+0000\n"
+"PO-Revision-Date: 2017-12-13 18:47+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Rogere Geese, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:116
 msgid "Web Session"
@@ -189,7 +189,7 @@ msgstr "Rogere Geese"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Sahaa jahdingol wattan mo anndaaka"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -205,7 +205,7 @@ msgstr "Innde jaytino hesɗitinaama"
 
 #: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo momtaama"
 
 #: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -257,7 +257,7 @@ msgstr "Iimeel neltiraama"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Iimeel gadano ƴeewtaama no haaniri"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo ƴeewtaama no haaniri"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:34
@@ -406,19 +406,19 @@ msgstr "Iimeel maa ruttunaama ko ɓooyaani"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Iimeel maa ruttaama jooni. Tappugol iimeel ngol feewaani?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Horiima tottirde iimeel"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Kuutoro goɗɗo ƴeewtiima oo iimeel kisa"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo ina foti seertude e iimeel konte maa"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
