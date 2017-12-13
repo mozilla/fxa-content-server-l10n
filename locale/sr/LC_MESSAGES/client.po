@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-12 13:50+0000\n"
+"PO-Revision-Date: 2017-12-13 13:16+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1238,7 +1238,7 @@ msgstr "Готово"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Позиционирајте и ротирајте Вашу слику по Вашим потребама"
+msgstr "Позиционирајте и ротирајте вашу слику по вашим потребама"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
@@ -1246,7 +1246,7 @@ msgstr "Измени"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Када сте завршили, користите нову лозинку да бисте се пријавили на свим Вашим уређајима."
+msgstr "Када завршите, користите нову лозинку да бисте се пријавили на свим вашим уређајима."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
