@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-08 21:10+0000\n"
+"PO-Revision-Date: 2017-12-16 14:33+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -523,7 +523,7 @@ msgstr "Kamere ni bilo mogoče zagnati"
 
 #: app/scripts/lib/auth-errors.js:279
 msgid "Valid URL required"
-msgstr "Veljaven URL je obvezen"
+msgstr "Zahtevan je veljaven spletni naslov"
 
 #: app/scripts/lib/auth-errors.js:294
 msgid "Your verification email was just returned. Mistyped email?"
