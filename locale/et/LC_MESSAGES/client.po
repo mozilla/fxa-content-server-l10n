@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-16 16:33+0000\n"
+"PO-Revision-Date: 2017-12-16 16:45+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -53,7 +53,7 @@ msgstr "Seadistamise lõpetamiseks sisesta uus parool oma teistes Firefoxi seadm
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Nüüd võid Firefoxi kontos muudatusi teha."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
@@ -177,7 +177,7 @@ msgstr "%(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(transla
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Rohkem kui %(translatedTimeAgo)s tagasi %(translatedCity)s, %(translatedState)s, %(translatedCountry)s lähedal"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -277,7 +277,7 @@ msgstr "Lisad"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Kasutajakontod"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -446,11 +446,11 @@ msgstr "Peamiseks e-posti aadressiks ei saa määrata selle kontoga sidumata aad
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Seda e-posti aadressi hetkel sisse logimiseks kasutada ei saa"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "Kirja saatmine ebaõnnestus"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -458,7 +458,7 @@ msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Funktsioon pole lubatud"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -647,7 +647,7 @@ msgstr "Keelatud"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Aegunud turvatõend"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -759,7 +759,7 @@ msgstr "Rohkem teavet"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s on registreeritud."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -1297,7 +1297,7 @@ msgstr "Kuva"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Praegune seade"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1305,7 +1305,7 @@ msgstr "Ühenduse katkestamine…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Praegune seanss"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1317,7 +1317,7 @@ msgstr "Firefox iOS-ile"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "Ühendatud seadmed puuduvad"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1397,11 +1397,11 @@ msgstr "Lisa"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "Lahti lukustamine…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "kinnita osa lahti lukustamiseks"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

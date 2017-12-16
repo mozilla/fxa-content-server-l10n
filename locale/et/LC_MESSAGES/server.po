@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-16 16:22+0000\n"
+"PO-Revision-Date: 2017-12-16 16:40+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -342,7 +342,7 @@ msgstr "Pärast kinnitamist muutuvad sellest seadmest võimalikuks sellised muud
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "See kiri saadeti automaatselt. Kui said selle eksikombel või sa ei autoriseerinud seda tegevust, siis <a %(passwordChangeLinkAttributes)s>palun vaheta enda parool ära</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
