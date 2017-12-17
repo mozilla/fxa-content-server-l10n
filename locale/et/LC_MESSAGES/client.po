@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-16 16:45+0000\n"
+"PO-Revision-Date: 2017-12-17 11:55+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -446,7 +446,7 @@ msgstr "Peamiseks e-posti aadressiks ei saa määrata selle kontoga sidumata aad
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr "Seda e-posti aadressi hetkel sisse logimiseks kasutada ei saa"
+msgstr "Seda e-posti aadressi hetkel sisselogimiseks kasutada ei saa"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
@@ -1397,11 +1397,11 @@ msgstr "Lisa"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr "Lahti lukustamine…"
+msgstr "Lukustuse eemaldamine…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr "kinnita osa lahti lukustamiseks"
+msgstr "osa lukustuse eemaldamiseks kinnita"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
