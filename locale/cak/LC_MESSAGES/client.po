@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-07 10:47+0000\n"
+"PO-Revision-Date: 2017-12-17 23:06+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "Xjikib'äx ri nab'ey taqoya'l"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -117,19 +117,19 @@ msgstr "Ruk'isib'äl ximoj, k'ïy chi re %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al ximoj %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al kan ximoj %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al ximoj %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al kan ximoj %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -141,19 +141,19 @@ msgstr "Ruk'isib'äl tzijon, k'ïy chi re %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al mul tzijon %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al kan mul tzijon %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al mul tzijon %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al kan mul tzijon %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -165,19 +165,19 @@ msgstr "K'ïy chi re %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "K'o kan %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "K'o kan %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -257,7 +257,7 @@ msgstr "Taqoya'l taqon chik"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Ütz xub'än toq xjikib'äx ri nab'ey taqoya'l"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -277,7 +277,7 @@ msgstr "Taq tz'aqat"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Kitikirisaxik taq molojri'ïl"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Ütz xub'än toq xjikib'äx ri ruka'n taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:34
@@ -438,19 +438,19 @@ msgstr "Me'okel rub'itz'ib' rutikirisaxik molojri'ïl"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Man tikirel ta nik'ex ri nab'ey taqoya'l ruma man jikib'an ta jun taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Man tikirel ta nik'ex ri rochochib'al taqoya'l rik'in jun rochochib'al taqoya', ri man richin ta ri rub'i' taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Man tikirel ta nokisäx re rochochib'al taqoya'l re' richin nitikirisäx molojri'ïl"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "Man ütz ta xtaq ri taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -702,12 +702,8 @@ msgid "SMS not sent, please try again"
 msgstr "Man xtaq ta SMS, tatojtob'ej chik"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -954,8 +950,7 @@ msgstr "¿La xmestäx ri ewan tzij?"
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:22
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -1561,8 +1556,8 @@ msgstr "Titikirisäx molojri'ïl"
 #~ msgstr "¿Achike ruma toq yexim ka'i' (o ch'aqa' chik!) taq okisaxel?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Ri Sync nuya' q'ij chawe ye'akomonij pa ch'aqa' chik taq okisaxel ri taq yaketal, natab'äl chuqa' taq ewan tzij ri ye'ayäk pa jun okisaxel rik'in Firefox. Tatikirisaj molojri'ïl pa Firefox pan "
 #~ "awoyonib'al o na'onel kematz'ib' richin nib'eq'alajin pe ronojel ri ayakon pa ri ajch'atal Firefox."
