@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-09 12:55+0000\n"
-"Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
+"PO-Revision-Date: 2017-12-19 16:01+0000\n"
+"Last-Translator: Hocine Benamer <hociben@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Tugna n umiḍan"
 
 #: app/scripts/views/ready.js:35
 msgid "Welcome back"
-msgstr "Ferḥeɣ imi d-tuɣaleḍ"
+msgstr "Anṣuf tikkelt-nniḍen"
 
 #: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
@@ -56,15 +56,15 @@ msgstr "Aql-ak tura twejḍeḍ akken ad snifleḍ amiḍan-inek Firefox."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr "Imayl amezwaru ittwasentem"
+msgstr "Imayl amezwaru ittwasenqed"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Ilγa  n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s."
+msgstr "Ilɣa n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s."
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr "Imay wis sin ittsentem"
+msgstr "Imayl wis sin ittusenqed"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
