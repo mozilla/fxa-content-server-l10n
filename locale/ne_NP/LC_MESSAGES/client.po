@@ -1,76 +1,78 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-12-20 06:50+0000\n"
+"Last-Translator: Abartan Dhakal <paras.dhakal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.10.0-rc1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
 
 #: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
-msgstr ""
+msgstr "पासवर्ड रिसेट"
 
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "पासवर्ड रिसेट सफलतापूर्वक । जारी राख्न साइन इन गर्नुहोस् ।"
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (जरुरी)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
-msgstr ""
+msgstr "इ - मेल ठेगाना"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr ""
+msgstr "नाम प्रदर्शन गर्नुहोस्"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr ""
+msgstr "खाता तस्वीर"
 
 #: app/scripts/views/ready.js:35
 msgid "Welcome back"
-msgstr ""
+msgstr "फिर्ता आउनु भएकोमा स्वागत छ \n"
 
 #: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "फायरफक्स समक्रमण क्षणमा पुनः सुरु हुनेछ"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "तपाईंको अन्य फायरफक्स यन्त्रहरूमा नयाँ पासवर्ड हालेर सेट अप पूरा गर्नुहोस् ।"
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "तपाईं अब तपाईंको फायरफक्स खातामा परिवर्तन गर्न तयार हुनुहुन्छ ।"
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
-msgstr ""
+msgstr "प्राथमिक ईमेल प्रमाणित भयो"
 
 #: app/scripts/views/ready.js:49
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "खाताको सुचनाहरु अब %(secondaryEmailVerfied)s मा पनि पठाईनेछ।"
 
 #: app/scripts/views/ready.js:51
 msgid "Secondary email verified"
-msgstr ""
+msgstr "माध्यमिक ईमेल प्रमाणित गरियो"
 
 #: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "साइन-इन पुष्टिकरण"
 
 #: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "तपाईं अब %(serviceName)s प्रयोग गर्न तयार हुनुहुन्छ"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -699,9 +701,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
