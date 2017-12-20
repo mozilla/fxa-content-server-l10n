@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-20 06:50+0000\n"
+"PO-Revision-Date: 2017-12-20 06:53+0000\n"
 "Last-Translator: Abartan Dhakal <paras.dhakal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -76,11 +76,11 @@ msgstr "तपाईं अब %(serviceName)s प्रयोग गर्न �
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
-msgstr ""
+msgstr "खाता प्रमाणित गरियो"
 
 #: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "अज्ञात खाता। <a href=\"/signup\">साइन अप</a>"
 
 #: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
