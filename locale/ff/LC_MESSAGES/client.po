@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-21 20:09+0000\n"
+"PO-Revision-Date: 2017-12-21 20:20+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -129,7 +129,7 @@ msgstr "Jahdingol wattan %(translatedTimeAgo)s sara %(translatedCity)s, %(transl
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Jahdingol wattan dow %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
@@ -137,23 +137,23 @@ msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Jahdingol wattan dow %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii saasde %(translatedTimeAgo)s nder %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:60
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii saasde e %(translatedTimeAgo)s nder %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii saasde %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii saasde e %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:70
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Dow %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -277,7 +277,7 @@ msgstr "Ɓeyditte"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Ceŋorɗe"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
