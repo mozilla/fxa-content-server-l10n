@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2017-12-22 16:09+0000\n"
 "PO-Revision-Date: 2017-10-20 10:57+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,7 +198,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "Επιτυχής εγγραφή"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Ο λογαριασμός διαγράφηκε επιτυχώς"
 

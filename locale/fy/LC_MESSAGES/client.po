@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-11-27 14:25+0000\n"
+"POT-Creation-Date: 2017-12-22 16:09+0000\n"
+"PO-Revision-Date: 2017-12-11 07:50+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -195,7 +195,7 @@ msgstr "Lêste syngronisaasjetiidstip ûnbekend"
 msgid "Subscribed successfully"
 msgstr "Ynskriuwen slagge"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Account mei sukses fuortsmiten"
 
@@ -277,7 +277,7 @@ msgstr "Add-ons"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Oanmeldingen"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"

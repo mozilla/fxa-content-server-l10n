@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-04 21:37+0000\n"
+"POT-Creation-Date: 2017-12-22 16:09+0000\n"
+"PO-Revision-Date: 2017-12-13 13:16+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -251,7 +251,7 @@ msgstr "Poslednje vreme sinhronizovanja je nepoznato"
 msgid "Subscribed successfully"
 msgstr "Uspešna pretplata"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
@@ -344,7 +344,7 @@ msgstr "Dodaci"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Prijave"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -1527,7 +1527,7 @@ msgstr "Gotovo"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Pozicionirajte i rotirajte Vašu sliku po Vašim potrebama"
+msgstr "Pozicionirajte i rotirajte vašu sliku po vašim potrebama"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -1540,8 +1540,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"Kada ste završili, koristite novu lozinku da biste se prijavili na svim "
-"Vašim uređajima."
+"Kada završite, koristite novu lozinku da biste se prijavili na svim vašim "
+"uređajima."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1633,7 +1633,7 @@ msgstr "Firefox za Android"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr "Stavke nedostaju ili ima duplikata?"
+msgstr "Nedostaju vam neki uređaji ili ima duplikata?"
 
 #: app/scripts/templates/settings/clients.mustache:27
 #: app/scripts/templates/settings/emails.mustache:20
