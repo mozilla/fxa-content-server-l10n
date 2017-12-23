@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-23 16:29+0000\n"
+"PO-Revision-Date: 2017-12-23 16:32+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -960,7 +960,7 @@ msgstr "请输入您的电子邮件地址"
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "继续前往 %(serviceName)s"
+msgstr "继续使用 %(serviceName)s"
 
 #: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
