@@ -300,7 +300,7 @@ msgstr "Firefox синхрондауы"
 
 #: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Екінішілік эл. пошта сәтті расталды"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:34
