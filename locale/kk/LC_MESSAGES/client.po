@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-23 15:00+0000\n"
+"PO-Revision-Date: 2017-12-24 06:51+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -256,7 +256,7 @@ msgstr "Эл. пошта хаты қайта жіберілді"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Біріншілік эл. пошта сәтті расталды"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -276,7 +276,7 @@ msgstr "Қосымшалар"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Логиндер"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
