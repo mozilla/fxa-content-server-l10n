@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-11-23 13:34+0000\n"
-"Last-Translator: rajregmi98 <rajregmi98@gmail.com>\n"
+"PO-Revision-Date: 2017-12-28 09:12+0000\n"
+"Last-Translator: amitshrestha37 <amitshrestha37@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
 "MIME-Version: 1.0\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:156 app/scripts/views/ready.js:40
 msgid "Password reset"
-msgstr "पासवर्ड रिसेट"
+msgstr "पासवर्ड रिसेट गर्नुहोस्"
 
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset successfully. Sign in to continue."
-msgstr "पासवर्ड रिसेट सफलतापूर्वक । जारी राख्न साइन इन गर्नुहोस् ।"
+msgstr "पासवर्ड रिसेट सफलतापूर्वक सम्पन्न भयो। जारी राख्न साइन इन गर्नुहोस् ।"
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -105,22 +105,24 @@ msgstr "यस बारेमा सुन्न हामी क्षमा �
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
+"यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू"
+" परिवर्तन गर्नुपर्छ।"
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अन्तिम समन्वयन %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:42
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अन्तिम समिकरण %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:45
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "अन्तिम समन्वयन %(translatedCountry)s मा %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:46
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "अन्तिम समिकरण %(translatedCountry)s मा %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -333,15 +335,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
-msgstr ""
+msgstr "खाता पहिल्यै अवस्थित छ"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "अज्ञात खाता"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr ""
+msgstr "गलत ईमेल मामला"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
