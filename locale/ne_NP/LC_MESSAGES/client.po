@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-28 09:12+0000\n"
+"PO-Revision-Date: 2017-12-28 09:13+0000\n"
 "Last-Translator: amitshrestha37 <amitshrestha37@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -347,11 +347,11 @@ msgstr "गलत ईमेल मामला"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "गलत पासवर्ड"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "अप्रमाणित खाता"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
