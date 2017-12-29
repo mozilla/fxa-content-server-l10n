@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2017-12-29 16:09+0000\n"
 "PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
 
