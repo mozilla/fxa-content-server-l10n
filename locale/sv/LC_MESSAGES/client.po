@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-11-25 11:04+0000\n"
+"POT-Creation-Date: 2017-12-29 16:09+0000\n"
+"PO-Revision-Date: 2017-12-09 03:54+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -195,7 +195,7 @@ msgstr "Senaste synkroniseringstid okänd"
 msgid "Subscribed successfully"
 msgstr "Prenumeration startad"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -277,7 +277,7 @@ msgstr "Tillägg"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Inloggningar"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-05 09:54+0000\n"
+"POT-Creation-Date: 2017-12-29 16:09+0000\n"
+"PO-Revision-Date: 2017-12-12 14:25+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -197,7 +197,7 @@ msgstr "Último tempo de sincronização desconhecido"
 msgid "Subscribed successfully"
 msgstr "Subscrição efetuada com sucesso"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
@@ -279,7 +279,7 @@ msgstr "Extras"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Credenciais"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -908,7 +908,7 @@ msgstr "Ainda a adicionar dispositivos?"
 
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Iniciar sessão no Firefox noutro dispositivo para completar a configuração"
+msgstr "Inicie sessão no Firefox noutro dispositivo para completar a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
@@ -916,11 +916,11 @@ msgstr "Abra as definições e selecione Iniciar sessão no Firefox para complet
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Iniciar sessão no Firefox para Android para completar a configuração"
+msgstr "Inicie sessão no Firefox para Android para completar a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Iniciar sessão no Firefox para iOS para completar a configuração"
+msgstr "Inicie sessão no Firefox para iOS para completar a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
