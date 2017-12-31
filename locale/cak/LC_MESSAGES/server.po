@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-31 00:24+0000\n"
+"PO-Revision-Date: 2017-12-31 00:33+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -442,7 +442,7 @@ msgstr "Xtz'aqatisäx jun ruka'n taqoya'l pa Rutaqoya'l Firefox"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "K'ak'a' nab'ey rutaqoya'l ri Taqoya'l richin Firefox"
 
 #: lib/senders/email.js:817
 msgid "Secondary Firefox Account email removed"
