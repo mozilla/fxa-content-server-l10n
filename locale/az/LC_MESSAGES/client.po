@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2018-01-01 06:08+0000\n"
+"PO-Revision-Date: 2018-01-01 06:26+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -165,19 +165,19 @@ msgstr "%(translatedTimeAgo)s tarixindən əvvəl"
 
 #: app/scripts/views/settings/clients.js:73
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:74
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s tarixindən əvvəl (%(translatedCountry)s)"
 
 #: app/scripts/views/settings/clients.js:77
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s, %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yaxınlarında"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s tarixindən əvvəl, %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yaxınlarında"
 
 #: app/scripts/views/settings/clients.js:114
 msgid "Web Session, %(userAgent)s"
@@ -189,7 +189,7 @@ msgstr "Web Sessiya"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Son sinxronlaşdırma vaxtı bilinmir"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -217,7 +217,7 @@ msgstr "%(email)s əsas e-poçt olaraq quruldu"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "İkinci e-poçt təhlükəsizlik bildirişləri və yeni Sync cihazlarını təsdiqləməq üçün işlədilən əlavə ünvandır"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -257,7 +257,7 @@ msgstr "E-poçt təkrar göndərildi"
 
 #: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:71
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Əsas e-poçt müvəffəqiyyətlə təsdiqləndi"
 
 #: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
@@ -277,7 +277,7 @@ msgstr "Əlavələr"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Daxil olmalar"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -301,7 +301,7 @@ msgstr "Firefox Sync"
 
 #: app/scripts/models/auth_brokers/base.js:75
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "İkincil e-poçt müvəffəqiyyətlə təsdiqləndi"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:57 app/scripts/lib/profile-errors.js:65
 #: app/scripts/lib/require-on-demand.js:34
@@ -438,19 +438,19 @@ msgstr "Xətalı daxil olma kodu"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Əsas e-poçt ünvanı təsdiqlənməmişlə dəyişdirilə bilməz"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Əsas e-poçt ünvanı bu hesaba aid olmayan ünvanla dəyişdirilə bilməz"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Bu e-poçt hazırla daxil olmaq üçün işlədilə bilməz"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
-msgstr ""
+msgstr "E-poçt göndərmək mümkün olmadı"
 
 #: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
 msgid "Server busy, try again soon"
@@ -458,7 +458,7 @@ msgstr "Server məşğuldur, daha sonra təkrar yoxlayın"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Özəllik aktiv deyil"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -647,7 +647,7 @@ msgstr "Qadağandır"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Vaxtı keçmiş jeton"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -761,7 +761,7 @@ msgstr "Ətraflı öyrən"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s qeyd olundu."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -822,7 +822,7 @@ msgstr "Yeni parol göndər"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Əsas e-poçt artıq təsdiqlənib"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1297,7 +1297,7 @@ msgstr "Göstər"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Hazırki cihaz"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1305,7 +1305,7 @@ msgstr "Ayrıl…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Hazırki sessiya"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1317,7 +1317,7 @@ msgstr "iOS üçün Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "Heç biri qoşulmayıb"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1353,7 +1353,7 @@ msgstr "Abunə ol"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Abunəlikləri idarə et"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1373,7 +1373,7 @@ msgstr "Firefox və idarə panelində göstərilməsini istədiyiniz adı seçin
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "İkinci e-poçt təhlükəsizlik bildirişləri və yeni cihazları təsdiqləməq üçün işlədilən əlavə ünvandır."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1397,11 +1397,11 @@ msgstr "Əlavə et"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr ""
+msgstr "Kilidi aç…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "bölümü açmaq üçün təsdiqləyin"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
