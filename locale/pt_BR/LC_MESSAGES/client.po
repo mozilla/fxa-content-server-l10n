@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-12 05:55+0000\n"
+"PO-Revision-Date: 2018-01-03 23:22+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -326,11 +326,11 @@ msgstr "Token inválido"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr "Data e hora inválidos na assinatura do pedido"
+msgstr "Data e hora inválidos na assinatura da solicitação"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr "Valor de segurança inválido na assinatura do pedido"
+msgstr "Valor de segurança inválido na assinatura da solicitação"
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
@@ -370,7 +370,7 @@ msgstr "Parâmetro ausente: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr "Assinatura do pedido inválida"
+msgstr "Assinatura da solicitação inválida"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
@@ -378,11 +378,11 @@ msgstr "Cabeçalho content-length ausente"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr "Corpo do pedido muito extenso"
+msgstr "Corpo da solicitação muito extenso"
 
 #: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
-msgstr "O pedido foi bloqueado por motivos de segurança"
+msgstr "A solicitação foi bloqueada por motivos de segurança"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
