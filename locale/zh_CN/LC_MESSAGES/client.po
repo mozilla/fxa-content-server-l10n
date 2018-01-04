@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-23 16:32+0000\n"
+"PO-Revision-Date: 2018-01-04 07:31+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -198,7 +198,7 @@ msgstr "订阅成功"
 
 #: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
-msgstr "已成功删除账户"
+msgstr "已成功销户"
 
 #: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
@@ -1356,15 +1356,15 @@ msgstr "管理订阅"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr "删除账户"
+msgstr "销户"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr "删除…"
+msgstr "注销…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "您确认要删除自己的账户？这个操作无法撤销。"
+msgstr "您确认要注销自己的账户？这个操作无法撤销。"
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
