@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-07-31 12:26+0000\n"
+"PO-Revision-Date: 2018-01-09 21:07+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:44
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Ara esteu a punt per fer canvis en el vostre compte del Firefox."
 
 #: app/scripts/views/ready.js:46
 msgid "Primary email verified"
@@ -382,7 +382,7 @@ msgstr "El cos de la sol·licitud és massa gran"
 
 #: app/scripts/lib/auth-errors.js:109 app/scripts/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "La sol·licitud s'ha bloquejat per raons de seguretat"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
 msgid "Invalid authorization code"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Hi ha hagut un problema. Tanqueu aquesta pestanya i torneu-ho a provar."
 
 #: app/scripts/lib/oauth-errors.js:120
 msgid "no message"
@@ -680,7 +680,7 @@ msgstr "El testimoni no és vàlid"
 
 #: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
-msgstr ""
+msgstr "No s'han pogut carregar els recursos"
 
 #: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
@@ -703,9 +703,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1564,9 +1562,7 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
