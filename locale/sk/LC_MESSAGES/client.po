@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-12-21 00:11+0000\n"
+"PO-Revision-Date: 2018-01-09 20:07+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -217,7 +217,7 @@ msgstr "Primárna e-mailová adresa bola nastavená na %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "Sekundárna e-mailová adresa je záložná adresa pre prijímanie bezpečnostných upozornení a potvrdzovanie nových zariadení pre synchronizáciu"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -438,15 +438,15 @@ msgstr "Neplatný prihlasovací kód"
 
 #: app/scripts/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Primárnu e-mailovú adresu nemôžete zmeniť na neoverenú e-mailovú adresu"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Primárnu e-mailovú adresu nemožno zmeniť na adresu, ktorá nepatrí k tomuto účtu"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Túto e-mailovú adresu v súčasnosti nemôžete použiť na prihlásenie"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
@@ -647,7 +647,7 @@ msgstr "Nedovolené"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Neplatný token"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
@@ -761,7 +761,7 @@ msgstr "Ďalšie informácie"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "E-mailová adresa %(email)s bola zaregistrovaná."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
@@ -1375,7 +1375,7 @@ msgstr "Nastavte si meno, ktoré chcete, aby sa zobrazovalo vo Firefoxe pri spr�
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Sekundárna e-mailová adresa je záložná adresa pre prijímanie bezpečnostných upozornení a potvrdzovanie nových zariadení."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
