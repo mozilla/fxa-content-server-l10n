@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-12-05 22:59+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429902145.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:890
 msgid "Still there?"
 msgstr "Hələ də buradasınız?"
 
@@ -50,32 +50,34 @@ msgstr "Sinxronlaşdırmaq üçün daxil olun"
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
+#: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesabları"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:735
 msgid "New sign-in to Firefox"
 msgstr "Firefox-a yeni daxil olma"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_primary.html:4 lib/senders/templates/verify_primary.txt:3
-#: lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2
+#: lib/senders/templates/verify_primary.html:4 lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
+#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP ünvan: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Bu avtomatik e-poçtdur; Əgər bu əməliyyatı siz etmədinizsə, lütfən <a %(passwordChangeLinkAttributes)s>parolunuzu dəyişin</a>."
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_primary.html:8
-#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Daha ətraflı məlumat üçün lütfən <a %(supportLinkAttributes)s>Mozilla Dəstəyi</a> ziyarət edin."
 
@@ -86,8 +88,9 @@ msgstr "Daha ətraflı məlumat üçün lütfən <a %(supportLinkAttributes)s>Mo
 #: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
 #: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
+#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla Məxfilik Siyasəti"
 
@@ -97,8 +100,8 @@ msgstr "Bu avtomatik e-poçtdur; əgər Firefox Hesabınıza yeni cihazı siz ə
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_change_primary.txt:5
 #: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
-#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6
+#: lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha ətraflı məlumar üçün, lütfən %(supportUrl)s ünvanına baş çəkin"
 
@@ -201,7 +204,8 @@ msgstr "Hesabı idarə et"
 msgid "Manage account:"
 msgstr "Hesabı idarə et:"
 
-#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_primary.txt:5
+#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşünürsünüzsə, lütfən parolunuzu dəyişdirin."
 
@@ -257,11 +261,11 @@ msgstr "Şifrəni sıfırla"
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Firefox-u seçtiyiniz üçün təşəkkürlər! Mobil cihazlar üçün Firefox-u endirə bilərsiz: %(link)s"
 
-#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
+#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
 msgstr "Daxil olmaq istəyən sizsiniz?"
 
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "Əgər belədirsə, ehtiyacınız olan avtorizasiya kodu budur:"
 
@@ -273,7 +277,7 @@ msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bu
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bunu bizə bildirin."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:887
 msgid "Hello again."
 msgstr "Təkrar salam."
 
@@ -325,7 +329,7 @@ msgstr "Daxil olmanı təsdiqlə"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşünürsünüzsə, <a %(passwordChangeLinkAttributes)s>lütfən parolunuzu dəyişdirin</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:528
 msgid "Verify primary email"
 msgstr "Əsas e-poçtunuzu təsdiqləyin"
 
@@ -349,7 +353,7 @@ msgstr "Bu avtomatik e-poçtdur; Əgər bunu səhvən almısınızsa və ya bu �
 msgid "Verify email: "
 msgstr "E-poçtu təsdiqlə: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:575
 msgid "Verify secondary email"
 msgstr "İkinci e-poçtu təsdiqlə"
 
@@ -373,75 +377,79 @@ msgstr "Bu e-poçt-u aldığınızı təsdiqlədikdən sonra digər cihazların�
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Təsdiqlədikdən sonra, Firefox-u ən az daha bir cihazda quraşdırıb qoşmağınıza kömək edəcik."
 
-#: lib/senders/email.js:171
+#: lib/senders/email.js:173
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s üçün %(uaBrowser)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:174
+#: lib/senders/email.js:176
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s üçün %(uaBrowser)s"
 
-#: lib/senders/email.js:201
+#: lib/senders/email.js:203
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:203
+#: lib/senders/email.js:205
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:207
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:207
+#: lib/senders/email.js:209
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (təxmini)"
 
-#: lib/senders/email.js:326
+#: lib/senders/email.js:328
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabınızı təsdiqləyin"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:350
 msgid "Confirm your email and start to sync!"
 msgstr "E-poçtunuzu dəsdiqləyin və sinxronlaşdırmağa başlayın!"
 
-#: lib/senders/email.js:394
+#: lib/senders/email.js:396
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı avtorizasiya kodu"
 
-#: lib/senders/email.js:436
+#: lib/senders/email.js:438
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-a yeni daxil olmanı təsdiqlə"
 
-#: lib/senders/email.js:577
+#: lib/senders/email.js:482
+msgid "Sign-in code for Firefox"
+msgstr ""
+
+#: lib/senders/email.js:622
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesab parolunuzu sıfırlayın"
 
-#: lib/senders/email.js:609
+#: lib/senders/email.js:654
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesab parolunuz dəyişdirildi"
 
-#: lib/senders/email.js:639
+#: lib/senders/email.js:684
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox Hesab parolunuz sıfırlandı"
 
-#: lib/senders/email.js:665
+#: lib/senders/email.js:710
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolunu sıfırlamaq tələb edilir"
 
-#: lib/senders/email.js:722
+#: lib/senders/email.js:767
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı təsdiqləndi"
 
-#: lib/senders/email.js:753
+#: lib/senders/email.js:798
 msgid "Secondary Firefox Account email added"
 msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
-#: lib/senders/email.js:785
+#: lib/senders/email.js:830
 msgid "Firefox Account new primary email"
 msgstr "Firefox Hesabında yeni əsas e-poçt"
 
-#: lib/senders/email.js:817
+#: lib/senders/email.js:862
 msgid "Secondary Firefox Account email removed"
 msgstr "İkinci Firefox Hesabı e-poçtu silindi"
 

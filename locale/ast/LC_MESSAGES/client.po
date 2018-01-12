@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-09-26 09:34+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "Soscribiéstite con ésitu"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Desanicióse con ésitu la cuenta"
 
@@ -311,7 +311,7 @@ msgstr "Fallu inesperáu"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Caducó l'enllaz que primiesti pa verificar el to corréu."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "Probesti munches vegaes. Volvi tentalo más sero."
 
@@ -387,7 +387,7 @@ msgstr "Bloquióse la solicitú por razones de seguranza"
 msgid "Invalid authorization code"
 msgstr "Códigu d'autorización non válidu"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Númberu telefónicu non válidu"
 
@@ -687,18 +687,6 @@ msgstr "Fallu inesperáu de recursu"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Fallu de script"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS unviáu"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Bloquióse'l to númberu"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "Nun s'unvió'l SMS, volvi tentalo"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1441,6 +1429,15 @@ msgstr "Aniciar sesión"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Aniciu de sesión"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS unviáu"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Bloquióse'l to númberu"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "Nun s'unvió'l SMS, volvi tentalo"
 
 #~ msgid "Passwords"
 #~ msgstr "Contraseñes"

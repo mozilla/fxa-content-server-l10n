@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-11-17 02:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr "마지막 동기화 시간 알 수 없음"
 msgid "Subscribed successfully"
 msgstr "구독 성공"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -312,7 +312,7 @@ msgstr "알수없는 에러"
 msgid "The link you clicked to verify your email is expired."
 msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니다."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "너무 많이 시도하였습니다. 잠시 후에 다시 시도하세요."
 
@@ -388,7 +388,7 @@ msgstr "보안상의 이유로 요청이 차단 되었습니다"
 msgid "Invalid authorization code"
 msgstr "잘못된 인증 코드"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "올바르지 않은 전화번호"
 
@@ -688,18 +688,6 @@ msgstr "예상치못한 리소스 오류"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "스크립트 오류"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS 보냄"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "차단된 번호입니다"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS 전송에 실패했습니다. 다시 시도해주세요"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1441,6 +1429,15 @@ msgstr "로그인"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "로그인"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS 보냄"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "차단된 번호입니다"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS 전송에 실패했습니다. 다시 시도해주세요"
 
 #~ msgid "Passwords"
 #~ msgstr "비밀번호"

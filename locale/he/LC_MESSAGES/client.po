@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-10-29 12:10+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "נרשם כמנוי בהצלחה"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "החשבון נמחק בהצלחה"
 
@@ -312,7 +312,7 @@ msgstr "שגיאה לא צפויה"
 msgid "The link you clicked to verify your email is expired."
 msgstr "פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "ניסית להתחבר יותר מידי פעמים. נא לנסות שוב מאוחר יותר."
 
@@ -388,7 +388,7 @@ msgstr "הבקשה נחסמה מסיבות אבטחה"
 msgid "Invalid authorization code"
 msgstr "קוד הרשאה שגוי"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "מספר טלפון שגוי"
 
@@ -688,18 +688,6 @@ msgstr "שגיאת משאב בלתי צפויה"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "שגיאת תסריט"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "הודעת SMS נשלחה"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "המספר שלך נחסם"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "הודעת SMS לא נשלחה, נא לנסות שנית"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1438,6 +1426,15 @@ msgstr "כניסה"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "כניסה"
+
+#~ msgid "SMS sent"
+#~ msgstr "הודעת SMS נשלחה"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "המספר שלך נחסם"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "הודעת SMS לא נשלחה, נא לנסות שנית"
 
 #~ msgid "Passwords"
 #~ msgstr "ססמאות"

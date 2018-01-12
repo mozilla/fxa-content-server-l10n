@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "បាន​ជាវ​ដោយ​ជោគជ័យ"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "បាន​លុប​គណនី​ដោយ​ជោគជ័យ"
 
@@ -311,7 +311,7 @@ msgstr "បញ្ហា​ដែល​មិន​គិតថា​មាន"
 msgid "The link you clicked to verify your email is expired."
 msgstr "តំណ​ដែល​អ្នក​បាន​ចុច​ដើម្បី​ផ្ទៀងផ្ទាត់​អ៊ីមែល​របស់​អ្នក​បាន​ផុត​កំណត់។"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "អ្នក​បាន​ព្យាយាម​ច្រើន​ដង​ពេក។ ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ។"
 
@@ -387,7 +387,7 @@ msgstr "ការ​ស្នើ​ត្រូវបាន​បិទ​ដោ
 msgid "Invalid authorization code"
 msgstr "កូដ​អនុញ្ញាត​មិន​ត្រឹមត្រូវ"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "លេខ​ទូរសព្ទ​មិន​ត្រឹមត្រូវ"
 
@@ -686,18 +686,6 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22

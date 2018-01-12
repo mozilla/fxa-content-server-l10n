@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-09-04 18:29+0000\n"
 "Last-Translator: julenx <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "Arrakastaz harpidetua"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Kontua ondo ezabatu da"
 
@@ -312,7 +312,7 @@ msgstr "Espero gabeko errorea"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "Gehiegitan saiatu zara. Saiatu berriro geroago."
 
@@ -388,7 +388,7 @@ msgstr "Eskaera blokeatu egin da segurtasun-arrazoiak tarteko"
 msgid "Invalid authorization code"
 msgstr "Egiaztapen-kode baliogabea"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Telefono-zenbaki baliogabea"
 
@@ -688,18 +688,6 @@ msgstr "Espero gabeko baliabide-errorea"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Script errorea"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMSa bidalita"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Zure zenbakia blokeatu egin da"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMSa ez da bidali, saiatu berriro mesedez"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1440,6 +1428,15 @@ msgstr "Hasi saioa"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Hasi saioa"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMSa bidalita"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Zure zenbakia blokeatu egin da"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMSa ez da bidali, saiatu berriro mesedez"
 
 #~ msgid "Passwords"
 #~ msgstr "Pasahitzak"

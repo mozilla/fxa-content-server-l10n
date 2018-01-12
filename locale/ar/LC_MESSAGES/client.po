@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-12-01 09:06+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "اشتركت بنجاح"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "حُذف الحساب بنجاح"
 
@@ -311,7 +311,7 @@ msgstr "خطأ غير متوقّع"
 msgid "The link you clicked to verify your email is expired."
 msgstr "انتهت صلاحية الرابط الذي نقرت علية لتأكيد بريدك الإلكتروني."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "لقد حاولت مرات كثيرة. حاول مرة أخرى في وقت لاحق."
 
@@ -387,7 +387,7 @@ msgstr "حُظر الطلب لأسباب أمنيّة"
 msgid "Invalid authorization code"
 msgstr "رمز التخويل غير صحيح"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "رقم الهاتف غير صحيح"
 
@@ -687,18 +687,6 @@ msgstr "خطأ موارد غير متوقع"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "خطأ نصّ برمجي"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "أرسلت الرسالة النصية القصيرة"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "حُجِبَ رقمك"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "لم تُرسَل الرسالة النصية القصيرة، الرجاء المحاولة مرة أخرى"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1440,6 +1428,15 @@ msgstr "لج"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "لج"
+
+#~ msgid "SMS sent"
+#~ msgstr "أرسلت الرسالة النصية القصيرة"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "حُجِبَ رقمك"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "لم تُرسَل الرسالة النصية القصيرة، الرجاء المحاولة مرة أخرى"
 
 #~ msgid "Passwords"
 #~ msgstr "كلمات السرّ"

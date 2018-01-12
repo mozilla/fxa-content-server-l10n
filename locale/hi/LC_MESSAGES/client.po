@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-08-12 06:05+0000\n"
 "Last-Translator: vivek.chirania01 <vivek.chirania01@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "सफलतापूर्वक अभिदत्त किया गया"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
@@ -314,7 +314,7 @@ msgstr "अप्रत्याशित त्रुटि"
 msgid "The link you clicked to verify your email is expired."
 msgstr "ईमेल सत्यापन के लिए चुने हुए लिंक की वैधता समाप्त हो चुकी है."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "आपने बहुत बार की कोशिश की है. बाद में पुन: प्रयास करें."
 
@@ -390,7 +390,7 @@ msgstr "अनुरोध सुरक्षा कारणों से अ�
 msgid "Invalid authorization code"
 msgstr "अवैध अधिकृत कूट"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "अमान्य फ़ोन नंबर"
 
@@ -690,18 +690,6 @@ msgstr "अनपेक्षित संसाधन त्रुटि"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "स्क्रिप्ट त्रुटि"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS भेजा गया"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "आपका नंबर अवरोधित किया गया है"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS नहीं भेजा गया, कृपया पुन: प्रयास करें"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1440,6 +1428,15 @@ msgstr "साइन इन"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "साइन इन"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS भेजा गया"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "आपका नंबर अवरोधित किया गया है"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS नहीं भेजा गया, कृपया पुन: प्रयास करें"
 
 #~ msgid "Passwords"
 #~ msgstr "पासवर्ड"

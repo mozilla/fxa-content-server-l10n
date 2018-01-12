@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "সফলভাবে সাবস্ক্রাইব হয়েছে"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে।"
 
@@ -312,7 +312,7 @@ msgstr "অপ্রত্যাশিত ত্রুটি"
 msgid "The link you clicked to verify your email is expired."
 msgstr "আপনি আপনার ইমেইল যাচাই করবার জন্য যে লিঙ্কটি চাপ দিয়েছেন সেটির মেয়াদ শেষ হয়ে গেছে।"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "আপনি অনেকবার চেষ্টা করে ফেলেছেন। কিছুক্ষণ পর চেষ্টা করুন।"
 
@@ -388,7 +388,7 @@ msgstr "নিরাপত্তার কারণে আপনার আবে
 msgid "Invalid authorization code"
 msgstr "অবৈধ অথোরাইজেশন কোড"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "অবৈধ ফোন নম্বর"
 
@@ -688,18 +688,6 @@ msgstr "অপ্রত্যাশিত রিসোর্স ত্রুট�
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "স্ক্রিপ্ট ত্রুটি"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS পাঠানো হয়েছে"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "আপনার নম্বর নিষিদ্ধ করা হয়েছে"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS পাঠানো হয়নি, অনুগ্রহ করে আবার চেষ্টা করুন"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1441,6 +1429,15 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS পাঠানো হয়েছে"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "আপনার নম্বর নিষিদ্ধ করা হয়েছে"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS পাঠানো হয়নি, অনুগ্রহ করে আবার চেষ্টা করুন"
 
 #~ msgid "Passwords"
 #~ msgstr "পাসওয়ার্ড"
