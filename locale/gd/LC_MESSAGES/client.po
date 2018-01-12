@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-11-11 10:34+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,7 @@ msgstr "Chan eil fhios cuin a chaidh a shioncronachadh turas mu dheireadh"
 msgid "Subscribed successfully"
 msgstr "Rinn thu fo-sgrìobhadh"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Chaidh an cunntas a sguabadh às"
 
@@ -316,7 +316,7 @@ msgstr "Mearachd ris nach robh dùil"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Bhriog thu air ceangal dearbhaidh a dh’fhalbh an ùine air."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "Rinn thu cus oidhirpean. Feuch ris a-rithist an ceann greis."
 
@@ -392,7 +392,7 @@ msgstr "Chaidh an t-iarrtas a bhacadh air sgàth adhbharan tèarainteachd"
 msgid "Invalid authorization code"
 msgstr "Còd ùghdarrachaidh mì-dhligheach"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Àireamh fòn mhì-dhligheach"
 
@@ -692,18 +692,6 @@ msgstr "Mearachd goireis ris nach robh dùil"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Mearachd sgriobt"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "Chaidh an SMS a chur"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Chaidh an àireamh agad a bhacadh"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "Cha deach an SMS a chur, feuch ris a-rithist"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1454,6 +1442,15 @@ msgstr "Clàraich a-steach"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Clàraich a-steach"
+
+#~ msgid "SMS sent"
+#~ msgstr "Chaidh an SMS a chur"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Chaidh an àireamh agad a bhacadh"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "Cha deach an SMS a chur, feuch ris a-rithist"
 
 #~ msgid "Passwords"
 #~ msgstr "Faclan-faire"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-12-01 04:25+0000\n"
 "Last-Translator: cmalatheef <cmalatheef@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാ
 msgid "Subscribed successfully"
 msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെയ്തു"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "അക്കൗണ്ട് വിജയകരമായി നീക്കം ചെയ്തു"
 
@@ -311,7 +311,7 @@ msgstr "പ്രതീക്ഷിക്കാത്ത തകരാര്‍"
 msgid "The link you clicked to verify your email is expired."
 msgstr "നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കാൻ നിങ്ങൾ ക്ലിക്കുചെയ്ത ലിങ്ക് കാലഹരണപ്പെട്ടു."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "നിങ്ങൾ നിരവധി തവണ ശ്രമിച്ചിരിക്കുന്നു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
 
@@ -387,7 +387,7 @@ msgstr "സുരക്ഷാകാരണങ്ങളാൽ അപേക്ഷ �
 msgid "Invalid authorization code"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "തെറ്റായ ഫോൺനമ്പർ"
 
@@ -687,18 +687,6 @@ msgstr ""
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr ""
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS അയച്ചു"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "നിങ്ങളുടെ നമ്പർ തടഞ്ഞിരിക്കുന്നു"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS അയച്ചില്ല, വീണ്ടും ശ്രമിക്കുക"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1437,6 +1425,15 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS അയച്ചു"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "നിങ്ങളുടെ നമ്പർ തടഞ്ഞിരിക്കുന്നു"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS അയച്ചില്ല, വീണ്ടും ശ്രമിക്കുക"
 
 #~ msgid "Passwords"
 #~ msgstr "രഹസ്യവാക്കുകൾ"

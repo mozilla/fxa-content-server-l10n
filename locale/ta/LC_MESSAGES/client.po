@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-11-26 17:21+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr "வெற்றிகரமாக சந்தாபடுத்தப்பட்டது"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "கணக்கு வெற்றிகரமாக நீக்கப்பட்டது"
 
@@ -312,7 +312,7 @@ msgstr "எதிர்பாராத பிழை"
 msgid "The link you clicked to verify your email is expired."
 msgstr "உங்கள் மின்னஞ்சலை சரிபார்க்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "அதிக முயற்சிகள் செய்துவிட்டீர்கள். சிறிது நேரத்திற்கு கழித்து முயற்சிக்கவும்."
 
@@ -388,7 +388,7 @@ msgstr "பாதுகாப்பு காரணங்களுக்கா�
 msgid "Invalid authorization code"
 msgstr "செல்லாத பரிசோதனை குறியீடு"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "செல்லாத கைபேசி எண்"
 
@@ -688,18 +688,6 @@ msgstr "எதிர்பாராத வள பிழை"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "நிரல் பிழை"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS அனுப்பப்பட்டது"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "உங்களின் எண் தடுக்கப்பட்டது"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1438,6 +1426,15 @@ msgstr "புகுப்பதிகை"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS அனுப்பப்பட்டது"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "உங்களின் எண் தடுக்கப்பட்டது"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #~ msgid "Passwords"
 #~ msgstr "கடவுச்சொற்கள்"

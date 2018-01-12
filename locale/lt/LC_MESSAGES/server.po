@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-07-22 09:07+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447609555.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:890
 msgid "Still there?"
 msgstr "Ar nepamiršote?"
 
@@ -50,32 +50,34 @@ msgstr "Prisijunkite sinchronizavimui"
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
+#: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "„Firefox“ paskyros"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:735
 msgid "New sign-in to Firefox"
 msgstr "Naujas prisijungimas prie „Firefox“"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_primary.html:4 lib/senders/templates/verify_primary.txt:3
-#: lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2
+#: lib/senders/templates/verify_primary.html:4 lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
+#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP adresas – %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Tai – automatiškai išsiųstas laiškas. Jei šis veiksmas nesankcionuotas, patariame <a %(passwordChangeLinkAttributes)s>pasikeisti savo paskyros slaptažodį</a>."
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_primary.html:8
-#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Išsamesnės informacijos ieškokite <a %(supportLinkAttributes)s>„Mozillos“ žinyne</a>."
 
@@ -86,8 +88,9 @@ msgstr "Išsamesnės informacijos ieškokite <a %(supportLinkAttributes)s>„Moz
 #: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
 #: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
+#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "„Mozillos“ privatumo nuostatai"
 
@@ -97,8 +100,8 @@ msgstr "Tai – automatiškai išsiųstas laiškas. Jei šio įrenginio su savo 
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_change_primary.txt:5
 #: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
-#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6
+#: lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daugiau informacijos rasite adresu %(supportUrl)s"
 
@@ -199,7 +202,8 @@ msgstr "Tvarkyti paskyrą"
 msgid "Manage account:"
 msgstr "Tvarkyti paskyrą:"
 
-#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_primary.txt:5
+#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų paskyros, patarime pakeisti jos slaptažodį."
 
@@ -255,11 +259,11 @@ msgstr "Atkurti slaptažodį"
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr ""
 
-#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
+#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
 msgstr "Ar tai jūs bandote prisijungti?"
 
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "Jei taip, štai tam reikalingas patvirtinimo kodas:"
 
@@ -271,7 +275,7 @@ msgstr "Jei ne, padėkite mums kovoti su įsilaužėliais – <a %(reportSignInL
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Jei ne, padėkite mums kovoti su įsilaužėliais – praneškite apie juos."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:887
 msgid "Hello again."
 msgstr "Sveiki dar kartą."
 
@@ -325,7 +329,7 @@ msgstr "Patvirtinti prisijungimą"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų paskyros, <a %(passwordChangeLinkAttributes)s>patarime pakeisti jos slaptažodį</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:483
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:528
 msgid "Verify primary email"
 msgstr ""
 
@@ -349,7 +353,7 @@ msgstr ""
 msgid "Verify email: "
 msgstr "Patvirtinti el. paštą: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:530
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:575
 msgid "Verify secondary email"
 msgstr "Patvirtinkite atsarginį el. paštą"
 
@@ -373,75 +377,79 @@ msgstr "Patvirtinkite, jog gavote šį laišką, o mes padėsime jums įdiegti i
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Sulaukę patvirtinimo, mes jums padėsime įdiegti ir susieti su šia paskyra „Firefox“ naršyklę dar bent viename įrenginyje."
 
-#: lib/senders/email.js:171
+#: lib/senders/email.js:173
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "„%(uaBrowser)s“ „%(uaOS)s %(uaOSVersion)s“ įrenginyje"
 
-#: lib/senders/email.js:174
+#: lib/senders/email.js:176
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "„%(uaBrowser)s“ „%(uaOS)s“ įrenginyje"
 
-#: lib/senders/email.js:201
+#: lib/senders/email.js:203
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (apskaičiuota)"
 
-#: lib/senders/email.js:203
+#: lib/senders/email.js:205
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (apskaičiuota)"
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:207
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (apskaičiuota)"
 
-#: lib/senders/email.js:207
+#: lib/senders/email.js:209
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (apskaičiuota)"
 
-#: lib/senders/email.js:326
+#: lib/senders/email.js:328
 msgid "Verify your Firefox Account"
 msgstr "Patvirtinkite savo „Firefox“ paskyrą"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:350
 msgid "Confirm your email and start to sync!"
 msgstr "Patvirtinkite savo el. pašto adresą ir pradėkite sinchronizavimą!"
 
-#: lib/senders/email.js:394
+#: lib/senders/email.js:396
 msgid "Firefox Account authorization code"
 msgstr "Patvirtinimo kodas „Firefox“ paskyrai"
 
-#: lib/senders/email.js:436
+#: lib/senders/email.js:438
 msgid "Confirm new sign-in to Firefox"
 msgstr "Patvirtinkite naują prisijungimą prie „Firefox“ paskyros"
 
-#: lib/senders/email.js:577
+#: lib/senders/email.js:482
+msgid "Sign-in code for Firefox"
+msgstr ""
+
+#: lib/senders/email.js:622
 msgid "Reset your Firefox Account password"
 msgstr "„Firefox“ paskyros slaptažodžio atkūrimas"
 
-#: lib/senders/email.js:609
+#: lib/senders/email.js:654
 msgid "Your Firefox Account password has been changed"
 msgstr "Jūsų „Firefox“ paskyros slaptažodis pakeistas"
 
-#: lib/senders/email.js:639
+#: lib/senders/email.js:684
 msgid "Your Firefox Account password has been reset"
 msgstr "Jūsų „Firefox“ paskyros slaptažodis atkurtas"
 
-#: lib/senders/email.js:665
+#: lib/senders/email.js:710
 msgid "Firefox Account password reset required"
 msgstr "Būtina atkurti „Firefox“ paskyros slaptažodį"
 
-#: lib/senders/email.js:722
+#: lib/senders/email.js:767
 msgid "Firefox Account verified"
 msgstr "„Firefox“ paskyra patvirtinta"
 
-#: lib/senders/email.js:753
+#: lib/senders/email.js:798
 msgid "Secondary Firefox Account email added"
 msgstr "Pridėtas atsarginis „Firefox“ paskyros el. paštas"
 
-#: lib/senders/email.js:785
+#: lib/senders/email.js:830
 msgid "Firefox Account new primary email"
 msgstr ""
 
-#: lib/senders/email.js:817
+#: lib/senders/email.js:862
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 

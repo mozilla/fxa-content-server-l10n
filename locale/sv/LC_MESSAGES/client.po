@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
-"PO-Revision-Date: 2017-11-25 11:04+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"PO-Revision-Date: 2017-12-09 03:54+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -195,7 +195,7 @@ msgstr "Senaste synkroniseringstid okänd"
 msgid "Subscribed successfully"
 msgstr "Prenumeration startad"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -277,7 +277,7 @@ msgstr "Tillägg"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Logins"
-msgstr ""
+msgstr "Inloggningar"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
@@ -312,7 +312,7 @@ msgstr "Oväntat fel"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Länken du klickade på för att verifiera din e-postadress är inte giltig längre."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr "Du har försökt för många gånger. Försök igen senare."
 
@@ -388,7 +388,7 @@ msgstr "Begäran har blockerats av säkerhetsskäl"
 msgid "Invalid authorization code"
 msgstr "Ogiltig behörighetskod"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Ogiltigt telefonnummer"
 
@@ -688,18 +688,6 @@ msgstr "Oväntade resursfel"
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
 msgstr "Skriptfel"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS skickat"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Ditt telefonnummer har blivit blockerat"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS kunde inte skickas, vänligen försök igen"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -1441,6 +1429,15 @@ msgstr "Logga in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS skickat"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Ditt telefonnummer har blivit blockerat"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS kunde inte skickas, vänligen försök igen"
 
 #~ msgid "Passwords"
 #~ msgstr "Lösenord"

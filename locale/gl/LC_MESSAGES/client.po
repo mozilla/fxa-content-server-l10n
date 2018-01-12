@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 16:09+0000\n"
+"POT-Creation-Date: 2018-01-12 16:09+0000\n"
 "PO-Revision-Date: 2017-11-15 22:22+0000\n"
 "Last-Translator: Keko <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Eliminouse a conta correctamente"
 
@@ -311,7 +311,7 @@ msgstr "Erro inesperado"
 msgid "The link you clicked to verify your email is expired."
 msgstr "A ligazón que premeu para comprobar o seu correo está caducada."
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15 app/scripts/lib/sms-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/profile-errors.js:15
 msgid "You've tried too many times. Try again later."
 msgstr ""
 
@@ -387,7 +387,7 @@ msgstr ""
 msgid "Invalid authorization code"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+#: app/scripts/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr ""
 
@@ -686,18 +686,6 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:46
 msgid "Script error"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
