@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-14 22:11+0000\n"
+"PO-Revision-Date: 2018-01-14 22:12+0000\n"
 "Last-Translator: julenx <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -327,7 +327,7 @@ msgstr "Prest, adi, sync"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Berretsi mezu hau jaso duzula eta zure gailu guztietan Firefox instalatu eta sinkronizatzen lagunduko dizugu, ondorengoarekin hasita:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
