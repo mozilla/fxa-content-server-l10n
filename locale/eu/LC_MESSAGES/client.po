@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-14 22:15+0000\n"
-"Last-Translator: julenx <julenx@gmail.com>\n"
+"PO-Revision-Date: 2018-01-15 07:05+0000\n"
+"Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -102,10 +102,11 @@ msgstr "Pasahitza ondo aldatu da"
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
+"Hau entzuteak triste egiten gaitu. Firefox kontuaren pasahitza aldatu beharko zenuke eta zure gailuaren fabrikatzailearengandik informazioa eskuratu zure datuak urrunetik ezabatzearen inguruan."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Hau entzuteak triste egiten gaitu. Hau fidagarrian ez den gailu bat bada, zure Firefox kontuko pasahitza eta Firefoxen gordeak zeneukan pasahitz guztiak aldatu beharko zenituzke."
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
@@ -458,7 +459,7 @@ msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Ezaugarri ez gaitua"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -1022,7 +1023,7 @@ msgstr "Baimenik gabeko saio-hasiera baten berri eman?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati buruz. Aktibitate hau susmagarri gisa jakinarazi nahi duzu?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1054,7 +1055,7 @@ msgstr "Amaitu saioa"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Zure gehigarrien datuak bilatzen? <a href=\"/signup\">Hasi saioa</a> Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -1070,11 +1071,11 @@ msgstr "Sortu kontua"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Barkatu. Zure kontua blokeatu dugu."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "%(email)s helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure Firefox datuak babesteko."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
