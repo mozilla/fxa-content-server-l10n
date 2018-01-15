@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-15 08:09+0000\n"
+"PO-Revision-Date: 2018-01-15 08:18+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -73,7 +73,7 @@ msgstr "Automatikoki sortutako mezu elektronikoa da hau; ez baduzu ekintza hau e
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Informazio gehiagorako, mesedez bisitatu <a %(supportLinkAttributes)s>Mozillaren laguntza</a>."
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
@@ -102,7 +102,7 @@ msgstr "Pasahitza ondo aldatu da"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Zure Firefox kontuaren pasahitza ondo aldatu da ondorengo gailutik:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -142,11 +142,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Aktibitate susmagarria detektatu dugu zure Firefox kontuan. Zure kontua arriskuan egon daiteke."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Etorkizunean zure Firefox kontuan baimenik gabeko sarrerarik ez dadin egon, guk pasahitza berrezarri dugu eta zu jakinarazten ari gara badaezpada."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
