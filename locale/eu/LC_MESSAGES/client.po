@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-15 07:05+0000\n"
+"PO-Revision-Date: 2018-01-15 07:26+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1079,23 +1079,23 @@ msgstr "%(email)s helbidera bidali zen berrespen mezua itzuli egin zen eta zure 
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Hau baliozko helbide elektronikoa bada, <a %(escapedSupportLinkAttrs)s>esaguzu</a> eta kontua desblokeatzen lagundu zaitzakegu."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Gaizki idatzitako helbidea?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Eskerrik asko zure zaintzagatik"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1103,7 +1103,7 @@ msgstr "Baimendu saio-hasiera hau"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1119,7 +1119,7 @@ msgstr "Migratu sinkronizatutako zure informazioa Firefox&nbsp;Kontu berri bat s
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Zure gehigarrien datuak bilatzen? Hasi saioa Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
 
 #: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1127,7 +1127,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 
 #: app/scripts/templates/sign_up.mustache:25 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1139,7 +1139,7 @@ msgstr "Baduzu kontua? Hasi saioa"
 
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Jaso hileroko Firefox buletina"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
