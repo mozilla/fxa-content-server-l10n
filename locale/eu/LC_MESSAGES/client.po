@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-15 07:26+0000\n"
+"PO-Revision-Date: 2018-01-15 07:49+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1143,7 +1143,7 @@ msgstr "Jaso hileroko Firefox buletina"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Bidali Firefox zuzenean zure telefonora eta hasi saioa konfigurazioa amaitzeko"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
@@ -1318,7 +1318,7 @@ msgstr "Androiderako Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Faltan edo bikoiztutako elementuak?"
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
@@ -1330,11 +1330,11 @@ msgstr "Komunikazio-hobespenak"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Zure Firefox kontuaz erlazionatutako mezuak bidali ahal dizugu."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Honez gain, zuk aukera dezakezu noiz eta nola jaso Mozilla eta Firefoxen azken berriak."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1390,7 +1390,7 @@ msgstr "Desblokeatu…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "egiaztatu desblokeatze atala"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1398,7 +1398,7 @@ msgstr "Zenbat urte dituzu?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
