@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-15 07:49+0000\n"
+"PO-Revision-Date: 2018-01-15 08:03+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1157,10 +1157,12 @@ msgstr "Bidali"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+"gehiago</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Inatalatu Firefox zure telefonoan eta hasi saioa konfigurazioa amaitzeko"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1172,19 +1174,19 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Ez baduzu testu mezua jaso, eskuz ere jaitsi dezakezu aplikazioa."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Ez da iritsi? Birbidali"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Zergatik sinkronizatu hainbat gailu?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Sinkronizazio zerbitzua ez da betirako segurtasun kopia bat, laster-markak, historia eta pasa-hitzak hainbat gailuetara bidaltzeko era segurua besterik ez da."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."

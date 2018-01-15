@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-14 22:12+0000\n"
-"Last-Translator: julenx <julenx@gmail.com>\n"
+"PO-Revision-Date: 2018-01-15 08:09+0000\n"
+"Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Konektatu beste gailu bat"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -150,11 +150,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Zer egin beharko zenuke?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Lehenengo, berrezarri zure Firefox kontuaren pasahitza."
 
 #: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Onena,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
@@ -175,7 +175,7 @@ msgstr "Firefox kontuen taldea"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Helbide elektronikoa alternatiboa kenduta"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -209,7 +209,7 @@ msgstr "Hasi saioa Sync-en:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "Helbide elektroniko alternatiboa gehitua"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -259,11 +259,11 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktibatu orain"
 
 #: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "Egiaztatu helbide elektronikoa"
 
 #: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
@@ -283,11 +283,11 @@ msgstr "Ongi etorri!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Mesedez aktibatu zure kontua helbide elektroniko hau egiaztatuz."
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Segurtasun gehigarrirako, mesedez berretsi saio-hasiera gailu honekin sinkronizatzen hasteko:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
