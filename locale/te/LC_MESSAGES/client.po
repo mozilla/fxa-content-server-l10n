@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-18 10:48+0000\n"
+"PO-Revision-Date: 2018-01-18 10:58+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1184,7 +1184,7 @@ msgstr "Sync సేవ శాశ్వత బ్యాకప్ కాదు, �
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "ఎప్పుడైనా మీ డేటాను పునరుద్ధరించుకోవాల్సి వచ్చినప్పుడు మీ సంకేతపదం మర్చిపోతే గనక మీ డేటా నష్టపోకుండా ఉండేందుకు, Firefoxని స్థాపించుకొని కనీసం రెండు పరికరాలలో సింక్రనించి ఉండాలి."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
