@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"POT-Creation-Date: 2018-01-19 16:09+0000\n"
 "PO-Revision-Date: 2018-01-03 07:27+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Kini Anda siap menggunakan %(serviceName)s"
 msgid "Account verified"
 msgstr "Akun diverifikasi"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Firefox Account tidak dikenal. <a href=\"/signup\">Daftar</a> menggunakan alamat surel Pengaya Anda sebelumnya untuk mengakses data Pengaya."
 
@@ -384,7 +384,7 @@ msgstr "Isi permintaan terlalu besar"
 msgid "The request was blocked for security reasons"
 msgstr "Permintaan diblokir atas alasan keamanan"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:416
 msgid "Invalid authorization code"
 msgstr "Kode otorisasi tidak valid"
 
@@ -452,144 +452,152 @@ msgstr ""
 msgid "Failed to send email"
 msgstr "Gagal mengirim surel"
 
-#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:203
+msgid "Invalid sign-in verification code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:207
+msgid "This verification code has expired"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
 msgstr "Server sibuk, coba lagi nanti"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:216
 msgid "Feature not enabled"
 msgstr "Fitur tidak diaktifkan"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:220
 msgid "This endpoint is no longer supported"
 msgstr "Titik-akhir ini tidak lagi didukung"
 
-#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:224 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
 #: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "Sistem tidak tersedia, coba lagi nanti"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:228
 msgid "Login attempt cancelled"
 msgstr "Percobaan masuk dibatalkan"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:232
 msgid "Session expired. Sign in to continue."
 msgstr "Sesi kedaluwarsa. Masuk untuk melanjutkan."
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:236
 msgid "Cookies are still disabled"
 msgstr "Kuki masih dinonaktifkan"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:240
 msgid "Passwords do not match"
 msgstr "Sandi tidak sama"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:244
 msgid "Working…"
 msgstr "Bekerja…"
 
-#: app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:248
 msgid "Could not get Privacy Notice"
 msgstr "Tidak dapat mengambil Kebijakan Privasi"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:252
 msgid "Could not get Terms of Service"
 msgstr "Tidak dapat mengambil Ketentuan Layanan"
 
-#: app/scripts/lib/auth-errors.js:248
+#: app/scripts/lib/auth-errors.js:256
 msgid "Your new password must be different"
 msgstr "Sandi lawas dan baru harus berbeda"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:260 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Paling sedikit 8 karakter"
 
-#: app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:264
 msgid "Valid password required"
 msgstr "Sandi harus valid"
 
-#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:268 app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:322
 msgid "Valid email required"
 msgstr "Surel harus valid"
 
-#: app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:279
 msgid "A usable image was not found"
 msgstr "Gambar yang dapat dipakai tidak ditemukan"
 
-#: app/scripts/lib/auth-errors.js:275
+#: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
 msgstr "Tidak dapat menginisialisasi kamera"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
 msgstr "Dibutuhkan URL yang valid"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:302
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Surel verifikasi Anda dikembalikan. Salah tik surel?"
 
-#: app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:310
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Masukkan alamat surel yang valid. firefox.com tidak menawarkan surel."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:318
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Account hanya bisa ditempatkan pada IFRAME pada situs yang telah disetujui"
 
-#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:337 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Tautan verifikasi rusak"
 
-#: app/scripts/lib/auth-errors.js:337
+#: app/scripts/lib/auth-errors.js:345
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Ukuran gambar harus paling sedikit 100 x 100 px"
 
-#: app/scripts/lib/auth-errors.js:341
+#: app/scripts/lib/auth-errors.js:349
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Pendaftaran akan segera hadir pada Firefox untuk iOS"
 
-#: app/scripts/lib/auth-errors.js:352
+#: app/scripts/lib/auth-errors.js:360
 msgid "You must enter your age to sign up"
 msgstr "Anda harus memasukkan usia untuk mendaftar"
 
-#: app/scripts/lib/auth-errors.js:367
+#: app/scripts/lib/auth-errors.js:375
 msgid "Account no longer exists."
 msgstr "Akun sudah tidak ada."
 
-#: app/scripts/lib/auth-errors.js:371
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Properti tidak valid dalam token kelanjutan: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:375
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing property in resume token: %(property)s"
 msgstr "Properti hilang dalam token kelanjutan: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:379
+#: app/scripts/lib/auth-errors.js:387
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut data tidak valid: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:383
+#: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut data hilang: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tautan konfirmasi sudah digunakan, dan hanya bisa digunakan sekali."
 
-#: app/scripts/lib/auth-errors.js:400
+#: app/scripts/lib/auth-errors.js:408
 msgid "This is a required field"
 msgstr "Bidang ini harus diisi"
 
-#: app/scripts/lib/auth-errors.js:404
+#: app/scripts/lib/auth-errors.js:412
 msgid "Authorization code required"
 msgstr "Membutuhkan kode otorisasi"
 
-#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:420 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Tautan rusak"
 
-#: app/scripts/lib/auth-errors.js:435
+#: app/scripts/lib/auth-errors.js:443
 msgid "Phone number required"
 msgstr "Nomor telepon diperlukan"
 
@@ -958,7 +966,7 @@ msgstr "Lanjut ke %(serviceName)s"
 msgid "Email"
 msgstr "Email"
 
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_token_code.mustache:5 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Lanjutkan"
 
@@ -1031,7 +1039,7 @@ msgstr "Anda telah menerima email tentang percobaan akses ke akun Anda. Ingin me
 msgid "Report activity"
 msgstr "Laporkan aktivitas"
 
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_token_code.mustache:6 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Mengapa ini terjadi?"
 
@@ -1099,9 +1107,18 @@ msgstr "Terima kasih atas kewaspadaan Anda"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Tim kami telah diberitahu. Laporan seperti ini membantu kami tangkis penyusup."
 
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_token_code.mustache:1 app/scripts/templates/sign_in_token_code.mustache:2 app/scripts/templates/sign_in_unblock.mustache:1
+#: app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "Izinkan untuk masuk"
+
+#: app/scripts/templates/sign_in_token_code.mustache:3
+msgid "Check your email for the code sent to %(email)s."
+msgstr ""
+
+#: app/scripts/templates/sign_in_token_code.mustache:4
+msgid "Enter code"
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1421,13 +1438,13 @@ msgid "Use Firefox Account"
 msgstr "Gunakan Firefox Account"
 
 #. submit button
-#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Masuk"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Masuk"
