@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-21 21:08+0000\n"
+"PO-Revision-Date: 2018-01-21 21:23+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -217,7 +217,7 @@ msgstr "Iimeel gadano teeltaama e %(email)s"
 
 #: app/scripts/views/settings/emails.js:167
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde ɓeydaande ngam heɓde tintine kisal kam e teeŋtinde masiŋon Jahdingol keson"
 
 #: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -422,7 +422,7 @@ msgstr "Iimeel ɗiɗaɓo ina foti seertude e iimeel konte maa"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Iimeel konte gadane ɗee ina naamnaa ngam seŋaade"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -430,7 +430,7 @@ msgstr "Ñiiɓirde neɗɗo goɗɗo huutortoo"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Iimeel konte gadane ɗee ina naamnaa ngam fuɗɗitaade"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -442,11 +442,11 @@ msgstr "Gasataa iimeel gadano wayleede e iimeel mo ƴeewtaaka"
 
 #: app/scripts/lib/auth-errors.js:187 app/scripts/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Iimeel gadano oo waawaa waɗteede iimeel mo jeyaaka e ɗee ɗoo konte"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Oo iimeel waawaa huutoreede ngam seŋaade e oo sahaa"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
@@ -458,7 +458,7 @@ msgstr "Sarworde ena halji, eto ɗoo e yeeso"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Fannu oo hurminaaka"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "This endpoint is no longer supported"
@@ -647,7 +647,7 @@ msgstr "Koko haɗaa"
 
 #: app/scripts/lib/oauth-errors.js:80
 msgid "Expired token"
-msgstr ""
+msgstr "Seede oo buntii"
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "Something went wrong. Please close this tab and try again."
