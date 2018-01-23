@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-18 10:58+0000\n"
+"PO-Revision-Date: 2018-01-23 09:44+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -188,7 +188,7 @@ msgstr "వెబ్ సెషన్"
 
 #: app/scripts/views/settings/clients.js:131
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "చివరి సింకు సమయం తెలియదు"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -445,7 +445,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "ఈ ఈమెయిలుని ప్రవేశించడానికి ప్రస్తుతం వాడలేరు"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Failed to send email"
@@ -1326,7 +1326,7 @@ msgstr "కమ్యూనికేషన్ ప్రాధాన్యతల�
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "మీ Firefox ఖాతాకు సంబంధించిన ఈమెయిళ్ళని మేము పంవవచ్చు."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
@@ -1338,7 +1338,7 @@ msgstr "చందాచేరు"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "చందాల నిర్వహణ"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
