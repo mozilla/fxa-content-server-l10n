@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2018-01-15 08:03+0000\n"
+"PO-Revision-Date: 2018-01-25 08:39+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1123,7 +1123,7 @@ msgstr "Zure gehigarrien datuak bilatzen? Hasi saioa Firefox kontuan zure gehiga
 
 #: app/scripts/templates/sign_up.mustache:16 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1190,7 +1190,7 @@ msgstr "Sinkronizazio zerbitzua ez da betirako segurtasun kopia bat, laster-mark
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Firefox eta Sync gutxienez bi gailutan instalatu behar duzu datuen galeraz babesteko, datuak berreskuratu behar badituzu edo pasahitza ahaztu baduzu."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
