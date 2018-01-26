@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
 "PO-Revision-Date: 2017-12-11 14:09+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Ti es ussa pront per utilisar %(serviceName)s"
 msgid "Account verified"
 msgstr "Verifitgà il conto"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conto da Firefox nunenconuschent. <a href=\"/signup\">T'annunzia</a> cun tia adressa dad e-mail dal conto dad «Add-ons» per acceder tias datas dad «Add-ons»."
 
@@ -204,23 +204,23 @@ msgstr "Stizzà cun success il conto"
 msgid "Display name updated"
 msgstr "Actualisà il num per visualisar"
 
-#: app/scripts/views/settings/emails.js:100
+#: app/scripts/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "Allontanà l'adressa dad e-mail alternativa"
 
-#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
+#: app/scripts/views/settings/emails.js:118 app/scripts/views/settings/emails.js:131 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Tramess l'e-mail da verificaziun"
 
-#: app/scripts/views/settings/emails.js:155
+#: app/scripts/views/settings/emails.js:146
 msgid "Primary email set to %(email)s"
 msgstr "L'adressa dad e-mail principala è %(email)s"
 
-#: app/scripts/views/settings/emails.js:167
+#: app/scripts/views/settings/emails.js:158
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr "Ina adressa dad e-mail alternativa è ina adressa supplementara per retschaiver communicaziuns da segirezza e per confermar novs apparats che duain vegnir sincronisads"
 
-#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/views/settings/emails.js:160 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Adressa dad e-mail alternativa"
 
@@ -385,7 +385,7 @@ msgstr "Il corp da la dumonda è memia grond"
 msgid "The request was blocked for security reasons"
 msgstr "La dumonda è bloccada per motivs da segirezza"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:416
 msgid "Invalid authorization code"
 msgstr "Code dad autorisaziun nunvalid"
 
@@ -453,144 +453,152 @@ msgstr "Questa adressa na po actualmain betg vegnir utilisada per l'annunzia"
 msgid "Failed to send email"
 msgstr "Betg reussì da trametter l'e-mail"
 
-#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:203
+msgid "Invalid sign-in verification code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:207
+msgid "This verification code has expired"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
 msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:216
 msgid "Feature not enabled"
 msgstr "Funcziun inactiva"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:220
 msgid "This endpoint is no longer supported"
 msgstr "Quest punct da finiziun na vegn betg pli sustegnì"
 
-#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:224 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
 #: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "Sistem betg disponibel, emprova bainprest anc ina giada"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:228
 msgid "Login attempt cancelled"
 msgstr "Interrut l'emprova d'annunzia"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:232
 msgid "Session expired. Sign in to continue."
 msgstr "La sesida è scrudada. T'annunzia per cuntinuar."
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:236
 msgid "Cookies are still disabled"
 msgstr "Ils cookies èn anc adina deactivads"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:240
 msgid "Passwords do not match"
 msgstr "Ils pleds-clav na correspundan betg"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:244
 msgid "Working…"
 msgstr "En lavur…"
 
-#: app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:248
 msgid "Could not get Privacy Notice"
 msgstr "Betg chattà la decleraziun da protecziun da datas"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:252
 msgid "Could not get Terms of Service"
 msgstr "Betg chattà las cundiziuns dal servetsch"
 
-#: app/scripts/lib/auth-errors.js:248
+#: app/scripts/lib/auth-errors.js:256
 msgid "Your new password must be different"
 msgstr "Il pled-clav nov sto esser different"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:260 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Sto cuntegnair almain 8 caracters"
 
-#: app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:264
 msgid "Valid password required"
 msgstr "In pled-clav valid è necessari"
 
-#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:268 app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:322
 msgid "Valid email required"
 msgstr "Necessari dad inditgar ina adressa dad e-mail valida"
 
-#: app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:279
 msgid "A usable image was not found"
 msgstr "Chattà nagin maletg utilisabel"
 
-#: app/scripts/lib/auth-errors.js:275
+#: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
 msgstr "Impussibel dad inizialisar la camera"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
 msgstr "Necessari dad inditgar ina URL valida"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:302
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Tes e-mail da verificaziun è gist returnà. Has ti tippa fauss l'adressa dad e-mail?"
 
-#: app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:310
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Endatescha ina adressa dad e-mail valida. firefox.com na porscha naginas adressas dad e-mail."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:318
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "La pagina dal conto da Firefox po be vegnir plazzada en iframes sin paginas approvadas"
 
-#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:337 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Errur en la colliaziun da verificaziun"
 
-#: app/scripts/lib/auth-errors.js:337
+#: app/scripts/lib/auth-errors.js:345
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Las dimensiuns dal maletg ston esser almain 100x100px"
 
-#: app/scripts/lib/auth-errors.js:341
+#: app/scripts/lib/auth-errors.js:349
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Proximamain vegn la registraziun era per Firefox per iOS"
 
-#: app/scripts/lib/auth-errors.js:352
+#: app/scripts/lib/auth-errors.js:360
 msgid "You must enter your age to sign up"
 msgstr "Ti stos inditgar tia vegliadetgna per ta registrar"
 
-#: app/scripts/lib/auth-errors.js:367
+#: app/scripts/lib/auth-errors.js:375
 msgid "Account no longer exists."
 msgstr "Il conto n'exista betg pli."
 
-#: app/scripts/lib/auth-errors.js:371
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Caracteristica nunvalida en il token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:375
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing property in resume token: %(property)s"
 msgstr "Caracteristica manca en il token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:379
+#: app/scripts/lib/auth-errors.js:387
 msgid "Invalid data attribute: %(property)s"
 msgstr "Attribut da data nunvalid: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:383
+#: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
 msgstr "Attribut da data mancant: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Quest link da confirmaziun è gia vegnì duvrà e po be vegnir duvrà ina giada."
 
-#: app/scripts/lib/auth-errors.js:400
+#: app/scripts/lib/auth-errors.js:408
 msgid "This is a required field"
 msgstr "Quest è in champ necessari"
 
-#: app/scripts/lib/auth-errors.js:404
+#: app/scripts/lib/auth-errors.js:412
 msgid "Authorization code required"
 msgstr "Code dad autorisaziun è necessari"
 
-#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:420 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Colliaziun rutta"
 
-#: app/scripts/lib/auth-errors.js:435
+#: app/scripts/lib/auth-errors.js:443
 msgid "Phone number required"
 msgstr "Numer da telefon necessari"
 
@@ -960,7 +968,7 @@ msgstr "Cuntinuar cun %(serviceName)s"
 msgid "Email"
 msgstr "E-Mail"
 
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_token_code.mustache:5 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Cuntinuar"
 
@@ -1033,7 +1041,7 @@ msgstr "Ti has survegnì in email davart in'emprova dad access a tes conto. Vuls
 msgid "Report activity"
 msgstr "Rapportar l'activitad"
 
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_token_code.mustache:6 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Pertge capita quai?"
 
@@ -1101,9 +1109,18 @@ msgstr "Grazia per tia vigilanza"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Noss team è vegnì infurmà. Quests rapports ans gidan d'ans defender encunter attatgaders."
 
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_token_code.mustache:1 app/scripts/templates/sign_in_token_code.mustache:2 app/scripts/templates/sign_in_unblock.mustache:1
+#: app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "Autorisar questa annunzia"
+
+#: app/scripts/templates/sign_in_token_code.mustache:3
+msgid "Check your email for the code sent to %(email)s."
+msgstr ""
+
+#: app/scripts/templates/sign_in_token_code.mustache:4
+msgid "Enter code"
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1425,13 +1442,13 @@ msgid "Use Firefox Account"
 msgstr "Utilisar il conto da Firefox"
 
 #. submit button
-#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "S'annunziar"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "S'annunziar"

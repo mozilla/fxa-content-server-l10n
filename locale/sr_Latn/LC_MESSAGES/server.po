@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2017-12-04 21:39+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"PO-Revision-Date: 2018-01-12 19:59+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -708,7 +708,7 @@ msgstr "Potvrdi novu Firefox prijavu"
 
 #: lib/senders/email.js:482
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Kod za prijavu na Firefox"
 
 #: lib/senders/email.js:622
 msgid "Reset your Firefox Account password"

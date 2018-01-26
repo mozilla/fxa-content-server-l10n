@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
-"PO-Revision-Date: 2017-11-11 10:36+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"PO-Revision-Date: 2018-01-13 08:49+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -419,7 +419,7 @@ msgstr "Bekräfta ny inloggning till Firefox"
 
 #: lib/senders/email.js:482
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Inloggningskod för Firefox"
 
 #: lib/senders/email.js:622
 msgid "Reset your Firefox Account password"

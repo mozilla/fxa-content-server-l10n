@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
 "PO-Revision-Date: 2018-01-19 14:40+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "თქვენ უკვე მზად ხართ %(serviceName)s-�
 msgid "Account verified"
 msgstr "ანგარიში დამოწმდა"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ასეთი ანგარიში ვერ მოიძებნა <a href=\"/signup\">რეგისტრაცია</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
 
@@ -202,23 +202,23 @@ msgstr "ანგარიში წარმატებით წაიშა�
 msgid "Display name updated"
 msgstr "გამოსაჩენი სახელი განახლებულია"
 
-#: app/scripts/views/settings/emails.js:100
+#: app/scripts/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "დამატებითი ელფოსტა ამოღებულია"
 
-#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
+#: app/scripts/views/settings/emails.js:118 app/scripts/views/settings/emails.js:131 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "დადასტურების წერილი გაგზავნილია ფოსტაზე"
 
-#: app/scripts/views/settings/emails.js:155
+#: app/scripts/views/settings/emails.js:146
 msgid "Primary email set to %(email)s"
 msgstr "ელფოსტის მთავარ მისამართად დაყენებულია %(email)s"
 
-#: app/scripts/views/settings/emails.js:167
+#: app/scripts/views/settings/emails.js:158
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr "ელფოსტის დამატებითი მისამართი გამოიყენება უსაფრთხოების შეტყობინებებისთვის და დასინქრონებისას, ახალი მოწყობილობების დასამოწმებლად"
 
-#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/views/settings/emails.js:160 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "დამატებითი ელფოსტა"
 
@@ -383,7 +383,7 @@ msgstr "მოთხოვნილი შიგთავსი ზედმე�
 msgid "The request was blocked for security reasons"
 msgstr "მოთხოვნა უარყოფილია უსაფრთხოების მიზნით"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:416
 msgid "Invalid authorization code"
 msgstr "დაშვების არასწორი კოდი"
 
@@ -451,144 +451,152 @@ msgstr "ეს ელფოსტა, ვერ იქნება გამო�
 msgid "Failed to send email"
 msgstr "ელფოსტაზე წერილის გაგზავნა ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:203
+msgid "Invalid sign-in verification code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:207
+msgid "This verification code has expired"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
 msgstr "სერვერი დატვირთულია, ცადეთ მოგვიანებით"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:216
 msgid "Feature not enabled"
 msgstr "ეს შესაძლებლობა, არაა ჩართული"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:220
 msgid "This endpoint is no longer supported"
 msgstr "მოთხოვნის ეს საბოლოო პუნტქი აღარაა მხარდაჭერილი"
 
-#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:224 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
 #: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "სისტემა მიუწვდომელია, ცადეთ მოგვიანებით"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:228
 msgid "Login attempt cancelled"
 msgstr "შესვლის მცდელობა აღკვეთილია"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:232
 msgid "Session expired. Sign in to continue."
 msgstr "სესია დასრულებულია. გასაგრძელებლად, შედით ანგარიშზე."
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:236
 msgid "Cookies are still disabled"
 msgstr "ფუნთუშები ჯერ კიდევ გათიშულია"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:240
 msgid "Passwords do not match"
 msgstr "პაროლები არ ემთხვევა"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:244
 msgid "Working…"
 msgstr "მუშავდება…"
 
-#: app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:248
 msgid "Could not get Privacy Notice"
 msgstr "პირადი მონაცემების შესახებ განცხადების ჩვენება ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:252
 msgid "Could not get Terms of Service"
 msgstr "გამოყენების პირობების ჩვენება ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:248
+#: app/scripts/lib/auth-errors.js:256
 msgid "Your new password must be different"
 msgstr "ახალი პაროლი ძველისგან განსხვავებული უნდა იყოს"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:260 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "უნდა შედგებოდეს სულ მცირე 8 სიმბოლოსგან"
 
-#: app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:264
 msgid "Valid password required"
 msgstr "პაროლის მითითება აუცილებელია"
 
-#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:268 app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:322
 msgid "Valid email required"
 msgstr "ელფოსტის სწორი მისამართის მითითება აუცილებელია"
 
-#: app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:279
 msgid "A usable image was not found"
 msgstr "გამოსადეგი სურათი ვერ მოიძებნა"
 
-#: app/scripts/lib/auth-errors.js:275
+#: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
 msgstr "კამერის ჩართვა ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
 msgstr "ბმულის მითითება აუცილებელია"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:302
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "დასამოწმებელი შეტყობინების გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომითაა აკრეფილი?"
 
-#: app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:310
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "შეიყვანეთ ელფოსტის მართებული მისამართი. firefox.com-ს ფოსტის მომსახურება არ აქვს."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:318
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox ანგარიშის ჩასმა შესაძლებელია მხოლოდ IFRAME-ით ნებადართულ საიტებზე"
 
-#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:337 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "დასამოწმებელი ბმული დაზიანებულია"
 
-#: app/scripts/lib/auth-errors.js:337
+#: app/scripts/lib/auth-errors.js:345
 msgid "The image dimensions must be at least 100x100px"
 msgstr "სურათის ზომები უნდა იყოს სულ მცირე 100x100px"
 
-#: app/scripts/lib/auth-errors.js:341
+#: app/scripts/lib/auth-errors.js:349
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox iOS ვერსიაზე რეგისტრაცია უახლოეს მომავალში იქნება შესაძლებელი"
 
-#: app/scripts/lib/auth-errors.js:352
+#: app/scripts/lib/auth-errors.js:360
 msgid "You must enter your age to sign up"
 msgstr "რეგისტრაციისთვის უნდა მიუთითოთ ასაკი"
 
-#: app/scripts/lib/auth-errors.js:367
+#: app/scripts/lib/auth-errors.js:375
 msgid "Account no longer exists."
 msgstr "ანგარიში გაუქმებულია"
 
-#: app/scripts/lib/auth-errors.js:371
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid property in resume token: %(property)s"
 msgstr "არასწორი თვისება ტალონის გასაგრძელებლად: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:375
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing property in resume token: %(property)s"
 msgstr "გამოტოვებული თვისება ტალონის გასაგრძელებლად: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:379
+#: app/scripts/lib/auth-errors.js:387
 msgid "Invalid data attribute: %(property)s"
 msgstr "მონაცემთა უფარგისი ატრიბუტი: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:383
+#: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
 msgstr "მონაცემთა ნაკლული ატრიბუტი: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება, მხოლოდ ერთხელ შეიძლება."
 
-#: app/scripts/lib/auth-errors.js:400
+#: app/scripts/lib/auth-errors.js:408
 msgid "This is a required field"
 msgstr "ეს აუცილებელი ველია"
 
-#: app/scripts/lib/auth-errors.js:404
+#: app/scripts/lib/auth-errors.js:412
 msgid "Authorization code required"
 msgstr "დაშვების კოდი აუცილებელია"
 
-#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:420 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "ბმული დაზიანებულია"
 
-#: app/scripts/lib/auth-errors.js:435
+#: app/scripts/lib/auth-errors.js:443
 msgid "Phone number required"
 msgstr "ტელეფონის ნომერი აუცილებელია"
 
@@ -689,10 +697,12 @@ msgid "Script error"
 msgstr "სკრიპტის შეცდომა"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">პირადი მონაცემების დებულებას</a>."
+"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">პირადი მონაცემების დებულებას</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -956,7 +966,7 @@ msgstr "%(serviceName)s-ზე გადასვლა"
 msgid "Email"
 msgstr "ელფოსტა"
 
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_token_code.mustache:5 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "გაგრძელება"
 
@@ -1029,7 +1039,7 @@ msgstr "ეს არის შეტყობინება, თქვენ�
 msgid "Report activity"
 msgstr "მოხსენების გაგზავნა საეჭვო მოქმედებაზე"
 
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_token_code.mustache:6 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "რატომ მოხდა ეს?"
 
@@ -1097,9 +1107,18 @@ msgstr "გმადლობთ, ყურადღებით ყოფნი
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "ჩვენი გუნდი უკვე გაფრთხილებულია. ამგვარი მოხსენებები, გვეხმარება დამრღვევების გამოვლენასა და მოგერიებაში."
 
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_token_code.mustache:1 app/scripts/templates/sign_in_token_code.mustache:2 app/scripts/templates/sign_in_unblock.mustache:1
+#: app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "ნებართვა შესვლაზე"
+
+#: app/scripts/templates/sign_in_token_code.mustache:3
+msgid "Check your email for the code sent to %(email)s."
+msgstr ""
+
+#: app/scripts/templates/sign_in_token_code.mustache:4
+msgid "Enter code"
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1419,13 +1438,13 @@ msgid "Use Firefox Account"
 msgstr "გამოიყენეთ Firefox ანგარიში"
 
 #. submit button
-#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "შესვლა"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "შესვლა"
@@ -1557,8 +1576,8 @@ msgstr "შესვლა"
 #~ msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
 #~ "Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
@@ -1567,8 +1586,8 @@ msgstr "შესვლა"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან ერთად, "
-#~ "შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
+#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან "
+#~ "ერთად, შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1653,11 +1672,11 @@ msgstr "შესვლა"
 #~ msgstr "სხვა ელ-ფოსტაზე გაქვთ ანგარიში? <a href=\"%(signinUri)s\">შესვლა</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> სისტემებზე."
+#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a href="
+#~ "\"%(linkLinux)s\">Linux</a> სისტემებზე."
 
 #~ msgid "Delete"
 #~ msgstr "წაშლა"

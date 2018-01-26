@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
 "PO-Revision-Date: 2017-11-11 17:43+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "%(serviceName)sটি ব্যবহার করতে আপনি �
 msgid "Account verified"
 msgstr "যাচাইকৃত একাউন্ট"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "অচেনা Firefox Account। Add-onsএর ডাটা পাওয়ার জন্য আপনার আগের Add-ons accountএর ইমেইল দ্বারা <a href=\"/signup\">সাইন-আপ</a> করুন।"
 
@@ -203,23 +203,23 @@ msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফে
 msgid "Display name updated"
 msgstr "প্রদর্শননীয় নাম হালনাগাদ করা হয়েছে"
 
-#: app/scripts/views/settings/emails.js:100
+#: app/scripts/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "দ্বিতীয় ইমেইল অপসারিত"
 
-#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
+#: app/scripts/views/settings/emails.js:118 app/scripts/views/settings/emails.js:131 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "যাচাইকরণ ইমেইল পাঠানো হয়েছে"
 
-#: app/scripts/views/settings/emails.js:155
+#: app/scripts/views/settings/emails.js:146
 msgid "Primary email set to %(email)s"
 msgstr "%(email)s প্রাইমারী ইমেইল হিসেবে সেট হয়েছে"
 
-#: app/scripts/views/settings/emails.js:167
+#: app/scripts/views/settings/emails.js:158
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/views/settings/emails.js:160 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "সেকেন্ডারি ইমেইল"
 
@@ -384,7 +384,7 @@ msgstr "অনুরোধের লেখা অনেক বড়"
 msgid "The request was blocked for security reasons"
 msgstr "নিরপত্তার কারণে অনুরোধটি ব্লক করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:416
 msgid "Invalid authorization code"
 msgstr "অকার্যকর অনুমোদন কোড"
 
@@ -452,144 +452,152 @@ msgstr ""
 msgid "Failed to send email"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:203
+msgid "Invalid sign-in verification code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:207
+msgid "This verification code has expired"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:216
 msgid "Feature not enabled"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:220
 msgid "This endpoint is no longer supported"
 msgstr "এই শেষবিন্দু আর সমর্থিত নয়"
 
-#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:224 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
 #: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:228
 msgid "Login attempt cancelled"
 msgstr "লগিনের চেষ্টা বাতিল করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:232
 msgid "Session expired. Sign in to continue."
 msgstr "সেশনের মেয়াদ শেষ। চালিয়ে যেতে সাইন ইন করুন।"
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:236
 msgid "Cookies are still disabled"
 msgstr "কুকিজ এখনও নিষ্ক্রিয় করা হয় নি"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:240
 msgid "Passwords do not match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:244
 msgid "Working…"
 msgstr "প্রক্রিয়া চলছে…"
 
-#: app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:248
 msgid "Could not get Privacy Notice"
 msgstr "গোপনীয়তা বিজ্ঞপ্তি পাবেন না"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:252
 msgid "Could not get Terms of Service"
 msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না"
 
-#: app/scripts/lib/auth-errors.js:248
+#: app/scripts/lib/auth-errors.js:256
 msgid "Your new password must be different"
 msgstr "আপনার নতুন পাসওয়ার্ডটিকে অবশ্যই ভিন্ন হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:260 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:264
 msgid "Valid password required"
 msgstr "কার্যকর পাসওয়ার্ড আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:268 app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:322
 msgid "Valid email required"
 msgstr "কার্যকর ইমেইল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:279
 msgid "A usable image was not found"
 msgstr "ব্যবহার করার মত ছবি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:275
+#: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা আরম্ভ করা যায়নি"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:302
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "আপনার যাচাইকরণ মেইল এইমাত্র ফেরত এসেছে। ইমেইল ভুল টাইপ হয়েছে?"
 
-#: app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:310
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "সঠিক ইমেইল ঠিকানা দিন। firefox.com কোন ইমেইল অফার করে না।"
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:318
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts শুধুমাত্র একটি অনুমোদিত সাইটে IFRAME রাখতে পারে"
 
-#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:337 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্রস্থ"
 
-#: app/scripts/lib/auth-errors.js:337
+#: app/scripts/lib/auth-errors.js:345
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ছবির মাপ অবশ্যই 100x100 px হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:341
+#: app/scripts/lib/auth-errors.js:349
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS এর জন্য Firefox এ Signup আসছে"
 
-#: app/scripts/lib/auth-errors.js:352
+#: app/scripts/lib/auth-errors.js:360
 msgid "You must enter your age to sign up"
 msgstr "সাইন আপ করতে আপনাকে অবশ্যই অাপনার বয়স দিতে হবে"
 
-#: app/scripts/lib/auth-errors.js:367
+#: app/scripts/lib/auth-errors.js:375
 msgid "Account no longer exists."
 msgstr "অ্যাকাউন্ট আর নেই।"
 
-#: app/scripts/lib/auth-errors.js:371
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid property in resume token: %(property)s"
 msgstr "বিবরণ টোকেনে অকার্যকর প্রপার্টি: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:375
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing property in resume token: %(property)s"
 msgstr "বিবরণ টোকেনে অনুপস্থিত প্রপার্টি: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:379
+#: app/scripts/lib/auth-errors.js:387
 msgid "Invalid data attribute: %(property)s"
 msgstr "অকার্যকর ডাটা এট্রিবিউট: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:383
+#: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
 msgstr "অনুপস্থিত ডাটা এট্রিবিউট: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "নিশ্চিতকরণ লিঙ্কটি ইতোমধ্যেই ব্যবহৃত হয়েছে, এবং একবারই ব্যবহার করা যাবে।"
 
-#: app/scripts/lib/auth-errors.js:400
+#: app/scripts/lib/auth-errors.js:408
 msgid "This is a required field"
 msgstr "এটা একটি আবশ্যকীয় ফিল্ড"
 
-#: app/scripts/lib/auth-errors.js:404
+#: app/scripts/lib/auth-errors.js:412
 msgid "Authorization code required"
 msgstr "অনুমোদন কোড প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:420 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "নষ্ট লিঙ্ক"
 
-#: app/scripts/lib/auth-errors.js:435
+#: app/scripts/lib/auth-errors.js:443
 msgid "Phone number required"
 msgstr "ফোন নম্বর প্রয়োজন"
 
@@ -956,7 +964,7 @@ msgstr "%(serviceName)sতে চালিয়ে যান"
 msgid "Email"
 msgstr "ইমেইল"
 
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_token_code.mustache:5 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "চালিয়ে যান"
 
@@ -1029,7 +1037,7 @@ msgstr "আপনার অ্যাকাউন্টে অবৈধ প্র
 msgid "Report activity"
 msgstr "কার্যকলাপ রিপোর্ট করুন"
 
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_token_code.mustache:6 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "এটা কেন ঘটছে?"
 
@@ -1097,9 +1105,18 @@ msgstr "আপনার সতর্কতার জন্য আপনাকে
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "আমাদের দল অবহিত হয়েছে। এ ধরনের রিপোর্ট অনুপ্রবেশকারীদের বাধাদানে আমাদের সহায়তা করে।"
 
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_token_code.mustache:1 app/scripts/templates/sign_in_token_code.mustache:2 app/scripts/templates/sign_in_unblock.mustache:1
+#: app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "এই সাইন-ইন অনুমোদন করুন"
+
+#: app/scripts/templates/sign_in_token_code.mustache:3
+msgid "Check your email for the code sent to %(email)s."
+msgstr ""
+
+#: app/scripts/templates/sign_in_token_code.mustache:4
+msgid "Enter code"
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1417,13 +1434,13 @@ msgid "Use Firefox Account"
 msgstr "Firefox Account ব্যবহার করুন"
 
 #. submit button
-#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "সাইন ইন"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "সাইন ইন"

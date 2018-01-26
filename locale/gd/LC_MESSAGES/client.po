@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 16:09+0000\n"
+"POT-Creation-Date: 2018-01-26 16:10+0000\n"
 "PO-Revision-Date: 2017-11-11 10:34+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "’S urrainn dhut %(serviceName)s a chleachdadh a-nis"
 msgid "Account verified"
 msgstr "Chaidh an cunntas a dhearbhadh"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cunntas nach aithne dhuinn. <a href=\"/signup\">Clàraich</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 "Cunntas Firefox nach aithne dhuinn. <a href=\"/signup\">Clàraich leinn</a> le seòladh puist-d a’ chunntais a bha agad roimhe airson tuilleadain a dh’fhaighinn cothrom air dàta nan tuilleadan agad."
@@ -207,23 +207,23 @@ msgstr "Chaidh an cunntas a sguabadh às"
 msgid "Display name updated"
 msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
-#: app/scripts/views/settings/emails.js:100
+#: app/scripts/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "Chaidh am post-d dàrnach a thoirt air falbh"
 
-#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
+#: app/scripts/views/settings/emails.js:118 app/scripts/views/settings/emails.js:131 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Chaidh am post-d dearbhaidh a chur"
 
-#: app/scripts/views/settings/emails.js:155
+#: app/scripts/views/settings/emails.js:146
 msgid "Primary email set to %(email)s"
 msgstr "’S e %(email)s am prìomh phost-d a-nis"
 
-#: app/scripts/views/settings/emails.js:167
+#: app/scripts/views/settings/emails.js:158
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr "Tha post-d dàrnach ’na sheòladh a bharrachd airson brathan tèarainteachd agus airson dearbhadh gu bheil thu airson uidheam ùr a shioncronachadh"
 
-#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/views/settings/emails.js:160 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Post-d dàrnach"
 
@@ -388,7 +388,7 @@ msgstr "Tha bodhaig an iarrtais ro mhòr"
 msgid "The request was blocked for security reasons"
 msgstr "Chaidh an t-iarrtas a bhacadh air sgàth adhbharan tèarainteachd"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:408
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:416
 msgid "Invalid authorization code"
 msgstr "Còd ùghdarrachaidh mì-dhligheach"
 
@@ -456,144 +456,152 @@ msgstr ""
 msgid "Failed to send email"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:204 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:203
+msgid "Invalid sign-in verification code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:207
+msgid "This verification code has expired"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
 msgstr "Tha am frithealaiche trang, feuch ris a-rithist a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:216
 msgid "Feature not enabled"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:220
 msgid "This endpoint is no longer supported"
 msgstr "Chan eil taic ri puing-dheiridh d’ a leithid tuilleadh"
 
-#: app/scripts/lib/auth-errors.js:216 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:224 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:96 app/scripts/lib/profile-errors.js:37
 #: app/scripts/lib/profile-errors.js:41 app/scripts/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "Chan eil an siostam ri làimh, feuch ris a-rithist a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:228
 msgid "Login attempt cancelled"
 msgstr "Sguireadh dhen chlàradh a-steach"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:232
 msgid "Session expired. Sign in to continue."
 msgstr "Dh’fhalbh an ùine air an t-seisean. Clàraich a-steach a leantainn air adhart."
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:236
 msgid "Cookies are still disabled"
 msgstr "Tha na briosgaidean à comas fhathast"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:240
 msgid "Passwords do not match"
 msgstr "Chan eil an dà fhacal-faire co-ionnann"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:244
 msgid "Working…"
 msgstr "Ag obair…"
 
-#: app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:248
 msgid "Could not get Privacy Notice"
 msgstr "Cha b’ urrainn dhuinn aithris na prìobhaideachd fhaighinn"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:252
 msgid "Could not get Terms of Service"
 msgstr "Cha b’ urrainn dhuinn teirmichean na seirbheise fhaighinn"
 
-#: app/scripts/lib/auth-errors.js:248
+#: app/scripts/lib/auth-errors.js:256
 msgid "Your new password must be different"
 msgstr "Feumaidh am facal-faire ùr a bhith eadar-dhealaichte"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:260 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Feumaidh e a bhith co-dhiù 8 caractaran a dh’fhaid"
 
-#: app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:264
 msgid "Valid password required"
 msgstr "Tha feum air facal-faire dligheach"
 
-#: app/scripts/lib/auth-errors.js:260 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:268 app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:322
 msgid "Valid email required"
 msgstr "Tha feum air post-d dligheach"
 
-#: app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:279
 msgid "A usable image was not found"
 msgstr "Cha deach dealbh a lorg a ghabhas a chleachdadh"
 
-#: app/scripts/lib/auth-errors.js:275
+#: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
 msgstr "Cha b’ urrainn dhuinn an camara a chur gu dol"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
 msgstr "Tha feum air URL dligheach"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:302
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Chaidh am post-d dearbhaidh a thilleadh dhuinn. Saoil an robh mearachd ann?"
 
-#: app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:310
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Cuir a-steach seòladh puist-d dligheach. Chan eil firefox.com a’ solar seirbheisean puist-d."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:318
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Cha ghabh cunntasan Firefox a chur ach ann an IFRAME air làraichean ceadaichte"
 
-#: app/scripts/lib/auth-errors.js:329 app/scripts/templates/complete_sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:337 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Chaidh an ceangal dearbhaidh a dhochann"
 
-#: app/scripts/lib/auth-errors.js:337
+#: app/scripts/lib/auth-errors.js:345
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Feumaidh an dealbh a bhith co-dhiù 100x100px"
 
-#: app/scripts/lib/auth-errors.js:341
+#: app/scripts/lib/auth-errors.js:349
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Tha Signup a’ tighinn gu Firefox airson iOS a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:352
+#: app/scripts/lib/auth-errors.js:360
 msgid "You must enter your age to sign up"
 msgstr "Feumaidh tu d’ aois a chur a-steach mus urrainn dhut clàradh"
 
-#: app/scripts/lib/auth-errors.js:367
+#: app/scripts/lib/auth-errors.js:375
 msgid "Account no longer exists."
 msgstr "Chan eil an cunntas seo ann tuilleadh."
 
-#: app/scripts/lib/auth-errors.js:371
+#: app/scripts/lib/auth-errors.js:379
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Roghainn mhì-dhligheach san Resume Token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:375
+#: app/scripts/lib/auth-errors.js:383
 msgid "Missing property in resume token: %(property)s"
 msgstr "Roghainn a dhìth san Resume Token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:379
+#: app/scripts/lib/auth-errors.js:387
 msgid "Invalid data attribute: %(property)s"
 msgstr "Buaidh dàta mhì-dhligheach: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:383
+#: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
 msgstr "Buaidh dàta a dhìth: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:396 app/scripts/lib/auth-errors.js:450 app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Chaidh an ceangal dearbhaidh seo a chleachdadh mu thràth ’s cha ghabh a chleachdadh ach aon turas."
 
-#: app/scripts/lib/auth-errors.js:400
+#: app/scripts/lib/auth-errors.js:408
 msgid "This is a required field"
 msgstr "Tha an raon seo riatanach"
 
-#: app/scripts/lib/auth-errors.js:404
+#: app/scripts/lib/auth-errors.js:412
 msgid "Authorization code required"
 msgstr "Tha feum air còd ùghdarrachaidh"
 
-#: app/scripts/lib/auth-errors.js:412 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:420 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Ceangal briste"
 
-#: app/scripts/lib/auth-errors.js:435
+#: app/scripts/lib/auth-errors.js:443
 msgid "Phone number required"
 msgstr "Tha feum air àireamh fòn"
 
@@ -966,7 +974,7 @@ msgstr "Lean air adhart gu %(serviceName)s"
 msgid "Email"
 msgstr "Post-d"
 
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_token_code.mustache:5 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Air adhart"
 
@@ -1039,7 +1047,7 @@ msgstr "Fhuair thu post-d mu chuideigin a rinn oidhirp air a’ chunntas agad. A
 msgid "Report activity"
 msgstr "Dèan aithris air gnìomhachd"
 
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_token_code.mustache:6 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Carson a tha seo a’ tachairt?"
 
@@ -1107,9 +1115,18 @@ msgstr "Mòran taing airson a bhith cho faiceallach"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Chaidh fios a leigeil dhan sgioba againn. Tha aithisgean mar seo cuideachail dhuinn airson casg a chur air ionnsaighean."
 
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_token_code.mustache:1 app/scripts/templates/sign_in_token_code.mustache:2 app/scripts/templates/sign_in_unblock.mustache:1
+#: app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "Ceadaich an clàradh a-steach seo"
+
+#: app/scripts/templates/sign_in_token_code.mustache:3
+msgid "Check your email for the code sent to %(email)s."
+msgstr ""
+
+#: app/scripts/templates/sign_in_token_code.mustache:4
+msgid "Enter code"
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1432,13 +1449,13 @@ msgid "Use Firefox Account"
 msgstr "Cleachd cunntas Firefox"
 
 #. submit button
-#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:152 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Clàraich a-steach"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Clàraich a-steach"
