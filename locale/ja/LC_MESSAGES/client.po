@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2018-01-27 23:31+0000\n"
+"PO-Revision-Date: 2018-01-27 23:32+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -455,11 +455,11 @@ msgstr "メールを送信できませんでした"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr "ログイン認証コードが正しくありません"
+msgstr "ログイン確認コードが正しくありません"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr "この認証コードは期限切れとなっています"
+msgstr "この確認コードは期限切れとなっています"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -1117,7 +1117,7 @@ msgstr "コードを %(email)s 宛にお送りしましたので、メールを�
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "コードを入力"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
