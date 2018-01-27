@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2018-01-27 23:09+0000\n"
+"PO-Revision-Date: 2018-01-27 23:28+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1076,15 +1076,15 @@ msgstr "Sos konte"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Yaafo. Min cokii konte maa &nbsp;."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Iimeel teeŋtingol min neldunoo e %(email)s ruttinaama tee min cokii konte maa ngam reende keɓe Firefox maa."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "So tawii ndee ñiiɓirde iimeel ina moƴƴi, <a %(escapedSupportLinkAttrs)s>anndin min</a> amin mbaawi wallude ma soktude konte maa."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1092,7 +1092,7 @@ msgstr "A nattii jeyde oo iimeel? Sos konte kese"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Tappugol iimeel moƴƴaani?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1109,15 +1109,15 @@ msgstr "Yamir ngol ceŋagol"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Ƴeewto iimeel maa ngam kod neldaaɗo e %(email)s."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Naatnu kod"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Ƴeewto iimeel ngam kod yamiroore neldaaɗo e %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1153,15 +1153,15 @@ msgstr "Aɗa jogii konnte? Seŋo"
 
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Heɓ ɓataake habrirde lewruyaŋkeewo Firefox oo"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Neldu Firefox faade e noddirgel maa tee seŋo ngam jokkit-de teelto"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Tonngoode noddirgel"
 
 #: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
