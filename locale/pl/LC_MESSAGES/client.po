@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-08 19:57+0000\n"
+"PO-Revision-Date: 2018-01-28 15:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -453,11 +453,11 @@ msgstr "Wysłanie wiadomości e-mail się nie powiodło"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Nieprawidłowy kod weryfikacji logowania"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Ten kod weryfikacji wygasł"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -697,9 +697,7 @@ msgid "Script error"
 msgstr "Błąd skryptu"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Zasady ochrony prywatności</a> usługi "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1114,11 +1112,11 @@ msgstr "Upoważnij to logowanie"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Sprawdź, czy w skrzynce %(email)s jest kod."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Wpisz kod"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1566,8 +1564,8 @@ msgstr "Zaloguj się"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
-#~ "SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
+#~ " musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "Wysłano odnośnik do aplikacji na numer %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Błędny numer?</a>"
@@ -1576,8 +1574,8 @@ msgstr "Zaloguj się"
 #~ msgstr "Dlaczego synchronizować dwa urządzenia (lub więcej!)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Synchronizacja umożliwia współdzielenie zakładek, historii i haseł zachowywanych w Firefoksie na jednym urządzeniu z Firefoksem na innych urządzeniach. Zaloguj się do Firefoksa na telefonie lub "
 #~ "tablecie, a pojawi się na nim wszystko, co zachowano w Firefoksie na komputerze."
