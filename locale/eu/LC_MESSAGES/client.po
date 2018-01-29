@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2018-01-29 07:22+0000\n"
+"PO-Revision-Date: 2018-01-29 11:10+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -126,19 +126,19 @@ msgstr "Azken sinkronizazioa%(translatedCountry)sn egina, %(translatedTimeAgo)s 
 
 #: app/scripts/views/settings/clients.js:49
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Azken sinkronizazioa %(translatedTimeAgo)s, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:50
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Azken sinkronizazioa %(translatedTimeAgo)s baino gehiago eta hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: app/scripts/views/settings/clients.js:55
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Azken aldiz aktibo %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:56
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Azken aldiz aktibo %(translatedTimeAgo)s baino gehiago"
 
 #: app/scripts/views/settings/clients.js:59
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
