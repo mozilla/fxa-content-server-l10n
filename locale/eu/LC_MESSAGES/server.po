@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-30 09:29+0000\n"
+"PO-Revision-Date: 2018-01-30 09:50+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -36,6 +36,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Sync-i bere onena ateratzeko konektatu <a href='%(androidUrl)s'>Firefox Androiderako</a> edo <a href='%(iosUrl)s'>Firefox iOS-erako</a> "
+"gailuekin."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -90,7 +92,7 @@ msgstr "Mozillaren pribatutasun politika"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Mezu hau automatikoa da; Ez baduzu gailu berri bat gehitu zure Firefox kontuari, zure pasahitza aldatu beharko zenuke hemen: %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
