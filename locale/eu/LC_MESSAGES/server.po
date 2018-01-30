@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-15 08:18+0000\n"
+"PO-Revision-Date: 2018-01-30 09:29+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -21,13 +21,15 @@ msgstr "Oraindik hor?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "Aspaldi sortu zenuen Firefox kontua baina ez duzu inoiz aktibatu. Egin klik azpiko loturan zure kontua aktibatzeko."
 
 #: lib/senders/templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Orain saioa hasi dezakezu Sync-en zure beste gailuetan, <a href='%(androidUrl)s'>Androiderako</a> eta<a href='%(iosUrl)s'>iOS-erako</a> "
+"Firefox baita."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
