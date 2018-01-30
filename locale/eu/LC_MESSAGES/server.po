@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-01-30 09:50+0000\n"
+"PO-Revision-Date: 2018-01-30 10:01+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -110,11 +110,11 @@ msgstr "Zure Firefox kontuaren pasahitza ondo aldatu da ondorengo gailutik:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Mezu hau automatikoa da; ez baduzu ekintza hau egiteko baimenik eman, <a %(resetLinkAttributes)s>aldatu zure pasahitza</a> mesedez."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Mezu hau automatikoa da; Ez baduzu zure Firefox kontuaren pasahitza aldatu, berehala berrezarri beharko zenuke hemen: %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -122,7 +122,7 @@ msgstr "Zure pasahitza berrezarri egin da"
 
 #: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Zure Firefox kontuko pasahitza aldatu da. Zuk ez baduzu aldatu, mesedez berrezarri pasahitza orain hemendik: <a>%(resetLinkAttributes)s</a>."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
 #: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
@@ -142,7 +142,7 @@ msgstr "Zure Firefox kontuaren pasahitza ondo berrezarri da."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Mezu hau automatikoa da; Ez baduzu zure Firefox kontuaren pasahitza berrezarri, berehala berrezarri beharko zenuke hemen: %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -164,10 +164,12 @@ msgstr "Lehenengo, berrezarri zure Firefox kontuaren pasahitza."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"Bigarren, Firefox webguneen pasahitzak gordetzen baditu, pasahitz hauek ere aldatu beharko zenituzke. Erasotzaileak pasahitz hauek eskuragarri ditu, kontu hauek zaindu beharko zenituzke aktibitate "
+"susmagarriengandik."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Ikasi nola gordetzen dituen Firefox pasahitzak zuretzat."
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
@@ -271,7 +273,7 @@ msgstr "Egiaztatu helbide elektronikoa"
 
 #: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Egiaztatu zure posta elektronikoa zure Firefox kontuaren erregistroa amaitzeko"
 
 #: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
