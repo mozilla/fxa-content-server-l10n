@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-09 08:05+0000\n"
-"Last-Translator: Amin Mahmudian <amin.mahmudian@gmail.com>\n"
+"PO-Revision-Date: 2018-01-31 03:35+0000\n"
+"Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -454,11 +454,11 @@ msgstr "ارسال رایانامه شکست خورد"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "کد تاییدیه ورود نامعتبر"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "این کد تاییدیه منقضی شده است"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -698,9 +698,7 @@ msgid "Script error"
 msgstr "خطا کدنوشته"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -1113,11 +1111,11 @@ msgstr "تایید این ورود"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "ایمیل خود را برای کد ارسالی به %(email)s بررسی بفرمایید."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "وارد کردن کد"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1174,7 +1172,8 @@ msgstr "ارسال"
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "سرویس پیامک تنها در برخی کشور‌ها در دسترس است. نرخ‌های پیامک یا داده ممکن است اعمال شوند. گیرنده مورد نظر پیامک یا رایانامه باید راضی باشد. <a %(escapedLearnMoreAttributes)s>بیش‌تر بیاموزید</a>"
+msgstr ""
+"سرویس پیامک تنها در برخی کشور‌ها در دسترس است. نرخ‌های پیامک یا داده ممکن است اعمال شوند. گیرنده مورد نظر پیامک یا رایانامه باید راضی باشد. <a %(escapedLearnMoreAttributes)s>بیش‌تر بیاموزید</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1575,8 +1574,8 @@ msgstr "ورود"
 #~ msgstr "چرا دو (یا چند!) دستگاه را همگام کنید؟"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "همگام‌سازی به شما این امکان را می‌دهد تا نشانک‌ها، تاریخچه، و گذرواژه‌های خود که در فایرفاکس ذخیره می‌کنید را در سایر دستگاه‌های شاملِ فایرفاکس دسترسی داشته باشید. وارد حساب فایرفاکس خود در تلفن یا "
 #~ "تبلت خود بشوید و هر چیزی که در فایرفاکس رومیزی ذخیره کرده‌اید آنجا هم ظاهر می‌شود."
@@ -1586,8 +1585,8 @@ msgstr "ورود"
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "سیستم همگام‌سازی به عنوان یک سیستم پشتیبان‌گیری همیشگی طراحی نشده است – این فقط یک سیستم اشتراک‌گذاری چیزهایی است که بطور محلی ذخیره کرده‌اید. اگر شما یکی گذرواژه‌های خود را دوباره تنظیم کنید و "
-#~ "اطلاعات شما حداقل در یک دستگاه دیگر ذخیره نشده باشد، امکان دارد تمام اطلاعات مرتبط با گذرواژه قبلی را از دست بدهید. به همین دلیل است که ممکن است بخواهید فایرفاکس در حداقل در یک دستگاه دیگر نصب و "
-#~ "از سیستم همگام‌سازی استفاده کنید."
+#~ "اطلاعات شما حداقل در یک دستگاه دیگر ذخیره نشده باشد، امکان دارد تمام اطلاعات مرتبط با گذرواژه قبلی را از دست بدهید. به همین دلیل است که ممکن است بخواهید فایرفاکس در حداقل در یک دستگاه دیگر نصب و از "
+#~ "سیستم همگام‌سازی استفاده کنید."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1692,21 +1691,19 @@ msgstr "ورود"
 #~ msgid "Sync preferences"
 #~ msgstr "ترجیحات هم‌گام‌سازی"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr ""
-#~ "دنبال همگام‌سازی فایرفاکس هستید؟ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">اینجا شروع کنید</"
-#~ "a>"
+#~ "دنبال همگام‌سازی فایرفاکس هستید؟ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">اینجا شروع کنید</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "یک حساب با رایانامه متفاوت دارید؟ <a href=\"%(signinUri)s\">وارد شوید</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s"
-#~ "\">لینوکس</a> در دسترس است."
+#~ "فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
+#~ "href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "آخرین فعالیت: %(translatedTimeAgo)s"
