@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2018-01-30 14:54+0000\n"
+"PO-Revision-Date: 2018-02-01 01:52+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -260,7 +260,7 @@ msgstr "Resetează parola"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Îți mulțumim că ai ales Firefox! Poți instala Firefox pentru mobil de aici: %(link)s"
+msgstr "Îți mulțumim că ai ales Firefox! Poți să instalezi Firefox pentru mobil de aici: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
