@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2018-01-28 03:44+0000\n"
+"PO-Revision-Date: 2018-02-01 23:49+0000\n"
 "Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -25,7 +25,7 @@ msgstr "Senha redefinida com sucesso. Identifique-se para continuar."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (requerido)"
+msgstr "%(permissionName)s (obrigatório)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
@@ -97,15 +97,15 @@ msgstr "A conta já existe. <a href=\"/signin\">Identifique-se</a>"
 
 #: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
-msgstr "Senha redefinida com sucesso"
+msgstr "Senha alterada com sucesso"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Lamentamos ouvir sobre isso. Você deve alterar sua senha da Conta Firefox e procurar por informações com o fabricante do seu dispositivo sobre como apagar os dados remotamente."
+msgstr "Lamentamos ouvir isso. Você deve alterar a senha da sua Conta Firefox e procurar informações com o fabricante do seu dispositivo sobre como apagar seus dados remotamente."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Lamentamos ouvir sobre isso. Se este é um dispositivo que você não confia, você deve alterar a senha da Conta Firefox e alterar todas as senhas salvas no Firefox."
+msgstr "Lamentamos ouvir isso. Se este é um dispositivo em que você não confia, você deve alterar a senha da sua Conta Firefox e mudar todas as senhas salvas no Firefox."
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
@@ -193,7 +193,7 @@ msgstr "Última sincronização desconhecida"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
-msgstr "Inscrito"
+msgstr "Inscrito com sucesso"
 
 #: app/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
@@ -430,7 +430,7 @@ msgstr "Endereço em uso por outra conta"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr "E-mail da conta principal necessário para redefinir"
+msgstr "Necessário o e-mail principal da conta para redefinir"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -527,7 +527,7 @@ msgstr "Não foi encontrada nenhuma imagem usável"
 
 #: app/scripts/lib/auth-errors.js:283
 msgid "Could not initialize camera"
-msgstr "Não foi possível inicializar a camera"
+msgstr "Não foi possível iniciar a câmera"
 
 #: app/scripts/lib/auth-errors.js:287
 msgid "Valid URL required"
@@ -579,7 +579,7 @@ msgstr "Atributo de dados inválido: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:391
 msgid "Missing data attribute: %(property)s"
-msgstr "Atributo de dados inexistente: %(property)s"
+msgstr "Atributo de dados faltando: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:404 app/scripts/lib/auth-errors.js:458 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -615,7 +615,7 @@ msgstr "Você quis dizer <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr "Por favor tente novamente mais tarde"
+msgstr "Tente novamente mais tarde"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -667,7 +667,7 @@ msgstr "nenhuma mensagem"
 
 #: app/scripts/lib/oauth-errors.js:124
 msgid "Missing OAuth parameter: %(param)s"
-msgstr "Parâmetro OAuth não especificado: %(param)s"
+msgstr "Parâmetro OAuth faltando: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
@@ -687,7 +687,7 @@ msgstr "Token inválido"
 
 #: app/scripts/lib/require-on-demand.js:38
 msgid "Resources failed to load"
-msgstr "Falha ao carregar recurso"
+msgstr "Falha ao carregar recursos"
 
 #: app/scripts/lib/require-on-demand.js:42
 msgid "Unexpected resource error"
@@ -725,7 +725,7 @@ msgstr "Endereço IP: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Para segurança adicional, por favor, confirme esta identificação para começar a sincronizar com este dispositivo:"
+msgstr "Para segurança adicional, confirme esta identificação para começar a sincronizar com este dispositivo:"
 
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
@@ -1123,7 +1123,7 @@ msgstr "Verifique em seu e-mail o código de autorização enviado para %(email)
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "Entrar com o código de autorização"
+msgstr "Digite o código de autorização"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
@@ -1262,7 +1262,7 @@ msgstr "Desconectar do Sync?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Seus dados de navegação serão mantidos em %(deviceName)s, mas não serão sincronizados."
+msgstr "Seus dados de navegação serão mantidos em %(deviceName)s, mas não serão mais sincronizados com sua conta."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
