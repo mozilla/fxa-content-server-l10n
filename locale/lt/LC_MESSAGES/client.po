@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2017-08-06 17:33+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -912,8 +912,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės kitame įrenginyje"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Diegimui užbaigti atverkite nuostatas  ir pasirinkite „Prisijungti prie „Firefox“"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1453,6 +1453,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Diegimui užbaigti atverkite nuostatas  ir pasirinkite „Prisijungti prie „Firefox“"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS pranešimas išsiųstas"

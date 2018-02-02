@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2018-01-23 09:44+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -902,8 +902,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "అమర్పును పూర్తి చెయ్యడానికి వేరే పరికరంలో Firefox లోనికి ప్రవేశించండి"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "సెట్టింగులను తెరచి మరియు సైన్ ఇన్ ఎంపిక చేసి Firefox ఏర్పాటు పూర్తి చేయి"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1442,6 +1442,9 @@ msgstr "ప్రవేశించు"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ప్రవేశం"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "సెట్టింగులను తెరచి మరియు సైన్ ఇన్ ఎంపిక చేసి Firefox ఏర్పాటు పూర్తి చేయి"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS పంపబడింది"

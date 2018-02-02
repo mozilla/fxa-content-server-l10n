@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2017-11-11 16:52+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -904,8 +904,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਸੈਟਿੰਗਾਂ ਨੂੰ ਖੋਲ੍ਹੋ ਅਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰਨ ਨੂੰ ਚੁਣੋ"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1444,6 +1444,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਸੈਟਿੰਗਾਂ ਨੂੰ ਖੋਲ੍ਹੋ ਅਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰਨ ਨੂੰ ਚੁਣੋ"
 
 #~ msgid "Passwords"
 #~ msgstr "ਪਾਸਵਰਡ"

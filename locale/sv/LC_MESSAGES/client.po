@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-09 03:54+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
+"PO-Revision-Date: 2018-01-28 01:23+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -454,11 +454,11 @@ msgstr "Misslyckades med att skicka e-post"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Ogiltig verifieringskod för inloggning"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Denna verifieringskod har upphört"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -905,8 +905,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Logga in i Firefox på en annan enhet för att slutföra konfigurationen"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Öppna inställningar och välj Logga in i Firefox för att slutföra konfigurationen"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1113,11 +1113,11 @@ msgstr "Auktorisera denna inloggning"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Kontrollera din e-post för koden skickad till %(email)s."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Ange kod"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1446,6 +1446,9 @@ msgstr "Logga in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Öppna inställningar och välj Logga in i Firefox för att slutföra konfigurationen"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS skickat"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-11 07:50+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
+"PO-Revision-Date: 2018-01-29 10:10+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -454,11 +454,11 @@ msgstr "Ferstjoeren fan e-mailberjocht is mislearre"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Unjildige oanmeldferifikaasjekoade"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Dizze ferifikaasjekoade is ferrûn"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -905,8 +905,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Meld jo oan by Firefox op in oar apparaat om de ynstallaasje te foltôgjen"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Iepenje de ynstellingen en selektearje Oanmelde by Firefox om de ynstallaasje te foltôgjen"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1115,11 +1115,11 @@ msgstr "Dizze oanmelding autorisearje"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Kontrolearje jo e-mail op de koade dy't nei %(email)s is ferstjoerd."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Koade ynfiere"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1449,6 +1449,9 @@ msgstr "Oanmelde"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Oanmelde"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Iepenje de ynstellingen en selektearje Oanmelde by Firefox om de ynstallaasje te foltôgjen"
 
 #~ msgid "SMS sent"
 #~ msgstr "Sms ferstjoerd"
