@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2017-11-11 10:34+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -910,8 +910,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Clàraich a-steach gu Firefox air uidheam eile a choileanadh an t-suidheachaidh"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Fosgail na roghainnean is tagh “Clàraich a-steach gu Firefox” a choileanadh an t-suidheachaidh"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1459,6 +1459,9 @@ msgstr "Clàraich a-steach"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Clàraich a-steach"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Fosgail na roghainnean is tagh “Clàraich a-steach gu Firefox” a choileanadh an t-suidheachaidh"
 
 #~ msgid "SMS sent"
 #~ msgstr "Chaidh an SMS a chur"

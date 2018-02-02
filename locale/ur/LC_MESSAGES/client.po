@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2017-11-07 06:39+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -902,8 +902,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "سیٹ اپ مکمل کرنے کے لیئے سیٹینگیں کھولیں اور Firefox میں سائن ان منتخب کریں"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1442,6 +1442,9 @@ msgstr "سائن ان"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "سائن ان"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "سیٹ اپ مکمل کرنے کے لیئے سیٹینگیں کھولیں اور Firefox میں سائن ان منتخب کریں"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS ارسال کر دیا گیا"

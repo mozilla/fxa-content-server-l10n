@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2018-01-01 17:25+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -904,8 +904,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Sign in to Firefox on another device to complete set-up"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Open settings and select Sign in to Firefox to complete set-up"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1445,6 +1445,9 @@ msgstr "Sign in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Sign in"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Open settings and select Sign in to Firefox to complete set-up"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS sent"

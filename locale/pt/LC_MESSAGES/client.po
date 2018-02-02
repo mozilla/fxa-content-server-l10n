@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-12 14:25+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
+"PO-Revision-Date: 2018-01-28 02:22+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -456,11 +456,11 @@ msgstr "Falha ao enviar email"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Código de verificação de início de sessão inválido"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Este código de verificação expirou"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -907,8 +907,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Inicie sessão no Firefox noutro dispositivo para completar a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Abra as definições e selecione Iniciar sessão no Firefox para completar a configuração"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1117,11 +1117,11 @@ msgstr "Autorizar este início de sessão"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Verifique o seu email pelo código enviado para %(email)s."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Introduzir código"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1451,6 +1451,9 @@ msgstr "Iniciar sessão"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sessão"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Abra as definições e selecione Iniciar sessão no Firefox para completar a configuração"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS enviado"

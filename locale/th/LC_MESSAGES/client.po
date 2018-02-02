@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
 "PO-Revision-Date: 2017-12-09 10:48+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,8 +903,8 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox บนอุปกรณ์อื่นเพื่อการติดตั้งที่สมบูรณ์"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "เปิดการตั้งค่า และเลือก ลงชื่อเข้าใช้ ใน Firefox เพื่อการติดตั้งที่สมบูรณ์"
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1443,6 +1443,9 @@ msgstr "ลงชื่อเข้า"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "เปิดการตั้งค่า และเลือก ลงชื่อเข้าใช้ ใน Firefox เพื่อการติดตั้งที่สมบูรณ์"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS ส่งแล้ว"

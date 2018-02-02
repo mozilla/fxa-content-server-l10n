@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 16:10+0000\n"
-"PO-Revision-Date: 2017-12-13 13:16+0000\n"
+"POT-Creation-Date: 2018-02-02 16:09+0000\n"
+"PO-Revision-Date: 2018-01-30 17:03+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -529,11 +529,11 @@ msgstr "Neuspešno slanje poruke"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Neispravan kod za potvrdu"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Kod za potvrdu je istekao"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -1054,10 +1054,9 @@ msgstr ""
 "Prijavite se na Firefox na drugom uređaju da biste završili podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr ""
-"Otvorite podešavanja i izaberite opciju „Prijavi se na Firefox“ da biste "
-"završili podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1348,11 +1347,11 @@ msgstr "Ovlasti ovo prijavljivanje"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Proverite vašu e-poštu radi koda poslatog na %(email)s."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Unesite kod"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1776,6 +1775,11 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr ""
+#~ "Otvorite podešavanja i izaberite opciju „Prijavi se na Firefox“ da biste "
+#~ "završili podešavanje"
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS poslat"
