@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-02 22:30+0000\n"
+"PO-Revision-Date: 2018-02-02 22:44+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1344,7 +1344,7 @@ msgstr "Cuɓoraaɗe kumpital"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Firefox ina waawi neldudema iimeeluuji toɗɗiiɗi konte maa Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
@@ -1376,7 +1376,7 @@ msgstr "Suɓo innde njiɗ-ɗaa yoo yaltu e Firefox e so aɗa toppitoo konte maa.
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde woɗnde ngam heɓde tintine kisal e teeŋtinde masiŋon keson."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1388,7 +1388,7 @@ msgstr "ƴeewtagol ina ɗaɓɓitaa"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Ardin ɗum"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1400,11 +1400,11 @@ msgstr "Ɓeydu"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:2
 msgid "Unlock…"
-msgstr "Uddit…"
+msgstr "Soktu…"
 
 #: app/scripts/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "ƴeewto ngam soktude taƴre ndee"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
