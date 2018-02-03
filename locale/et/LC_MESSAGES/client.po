@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-03 19:11+0000\n"
+"PO-Revision-Date: 2018-02-03 19:15+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -902,7 +902,7 @@ msgstr "Seadistamise lõpetamiseks logi Firefoxi sisse teisel seadmel"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Lisad veel seadmeid? Seadistamise lõpetamiseks logi teisel seadmel Firefoxi sisse."
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1109,7 +1109,7 @@ msgstr "Autoriseeri see sisselogimine"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Saatsime koodi e-posti aadressile %(email)s."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
