@@ -1,17 +1,17 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2017-08-12 06:05+0000\n"
-"Last-Translator: vivek.chirania01 <vivek.chirania01@gmail.com>\n"
+"PO-Revision-Date: 2018-02-04 21:31+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
@@ -107,7 +107,8 @@ msgstr "हमें इस बारे में सुन के खेद �
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
+msgstr ""
+"हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
 
 #: app/scripts/views/settings/clients.js:41
 msgid "Last sync %(translatedTimeAgo)s"
@@ -456,11 +457,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "अवैध साइन-इन सत्यापन कोड"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "This verification code has expired"
-msgstr ""
+msgstr "यह सत्यापन कोड समाप्त हो चुका है"
 
 #: app/scripts/lib/auth-errors.js:212 app/scripts/lib/auth-errors.js:396
 msgid "Server busy, try again soon"
@@ -700,9 +701,7 @@ msgid "Script error"
 msgstr "स्क्रिप्ट त्रुटि"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
@@ -906,7 +905,7 @@ msgstr "सेट-अप पूर्ण करने के लिए अन्
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "अभी भी उपकरण जोड़ रहे हैं? सेट-अप को पूरा करने के लिए किसी अन्य उपकरण पर Firefox में साइन इन करें"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1113,11 +1112,11 @@ msgstr "इस प्रवेश को अधिकृत करें"
 
 #: app/scripts/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "%(email)s पर भेजे गए कोड के लिए अपना ईमेल जाँचें."
 
 #: app/scripts/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "कोड दर्ज करें"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1684,7 +1683,9 @@ msgstr "साइन इन"
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
+#~ msgstr ""
+#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी "
+#~ "कार्यात्मकता प्रदान करते हैं."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
@@ -1819,7 +1820,8 @@ msgstr "साइन इन"
 #~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
+#~ msgstr ""
+#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #~ msgid "You are signed in as"
 #~ msgstr "आप निम्न के रूप में साइन इन हैं"
