@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-04 19:45+0000\n"
+"PO-Revision-Date: 2018-02-04 20:03+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1182,7 +1182,7 @@ msgstr "Jokkol jaaɓnirgal neldaama to %(escapedPhoneNumber)s. <a %(escapedBackL
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Jokkol jaaɓnirgal nelditaama e %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feewaani&nbsp;tonngol?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1202,7 +1202,7 @@ msgstr "Sarwo Jahdingol oo wonaa dannditol daañaa, ko ɗum feere hisnde ngam ɓ
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Aɗa foti aafde Firefox tee njahdinaa ko famɗi fof masiŋon ɗiɗon ngam reentaade oto keɓe maa majjude so tawii aɗa hatojini e artirde ɗe kono a yejjitii finnde maa."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1300,7 +1300,7 @@ msgstr "Hollu"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Kaɓirgel jooni"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1348,7 +1348,7 @@ msgstr "Firefox ina waawi neldudema iimeeluuji toɗɗiiɗi konte maa Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Yanti heen, aɗa waawi suɓaade heɓde kabaruuji cakkitiiɗi baɗte Mozilla kam e Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
