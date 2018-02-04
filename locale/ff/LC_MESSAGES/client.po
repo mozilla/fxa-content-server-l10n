@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-02 22:44+0000\n"
+"PO-Revision-Date: 2018-02-04 19:15+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -902,7 +902,7 @@ msgstr "Seŋo e Firefox e kaɓirgol goɗngol ngam timminde teeltagol"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Aɗa ɓeyda kaɓirgon haa jooni? Seŋo e Firefox e kaɓirgel goɗngel ngam timminde teeltagol"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
