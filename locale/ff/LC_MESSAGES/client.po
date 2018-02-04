@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-04 19:15+0000\n"
+"PO-Revision-Date: 2018-02-04 19:45+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1170,7 +1170,7 @@ msgstr "Neldu"
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Sarwo SMS heɓotoo tan ko e won e leyɗeele. SMS &amp; santaas keɓe ina mbaawi jaaɓde. Mo iimeel oo walla SMS fayii oo ina foti jaɓde. <a %(escapedLearnMoreAttributes)s>Ɓeydu humpito</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1194,11 +1194,11 @@ msgstr "Ɗum araani? Neldit"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Ko saabii jahdingol masiŋon keewkon?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Sarwo Jahdingol oo wonaa dannditol daañaa, ko ɗum feere hisnde ngam ɓenninde maantore, daartol kam e finndeeji hakkunde masiŋon maa."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
