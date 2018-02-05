@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-01-29 06:43+0000\n"
+"PO-Revision-Date: 2018-02-05 06:49+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -697,9 +697,7 @@ msgid "Script error"
 msgstr "Greška skripte"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -905,7 +903,7 @@ msgstr "Prijavite se na Firefox na drugom uređaju da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Još dodajete uređaje? Prijavite se na Firefox na drugom uređaju da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
