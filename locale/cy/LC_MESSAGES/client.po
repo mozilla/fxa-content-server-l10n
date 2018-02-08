@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-02 16:09+0000\n"
-"PO-Revision-Date: 2018-02-05 12:02+0000\n"
+"PO-Revision-Date: 2018-02-08 11:52+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -1157,7 +1157,7 @@ msgstr "Derbyn llythyr newyddion misol Firefox (yn Saesneg)"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Anfonwch Firefox yn syth i'ch ffon clyfar a mewngofnodwch i gwblhau'r gosod"
+msgstr "Anfonwch Firefox yn syth i'ch ffôn clyfar a mewngofnodwch i gwblhau'r gosod"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
