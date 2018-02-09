@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-02 16:09+0000\n"
+"POT-Creation-Date: 2018-02-09 16:10+0000\n"
 "PO-Revision-Date: 2018-01-21 01:26+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442258677.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:890
-msgid "Still there?"
-msgstr "Jste tu ještě?"
-
-#: lib/senders/templates/_pending.txt:2
-msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "Před nedávnem jste si vytvořili účet Firefoxu, ale zatím jste jej neověřili. Pro aktivaci svého účtu klikněte na odkaz níže."
-
-#: lib/senders/templates/_pending.txt:3
+#: lib/senders/templates/_pending.txt:1
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
@@ -31,7 +23,7 @@ msgstr ""
 "Úspěšně jste připojili své první zařízení ke svému účtu Firefoxu. Nyní se můžete přihlásit ke službě Sync i ze svých dalších zařízení, včetně Firefoxu pro <a href='%(androidUrl)s'>Android</a> nebo "
 "<a href='%(iosUrl)s'>iOS</a>."
 
-#: lib/senders/templates/_pending.txt:4
+#: lib/senders/templates/_pending.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
 "a>."
@@ -39,28 +31,27 @@ msgstr ""
 "Úspěšně jste připojili své první zařízení ke svému účtu Firefoxu. Abyste využili služby Sync co nejlépe, připojte se k ní také z aplikace Firefox pro <a href='%(androidUrl)s'>Android</a> nebo <a "
 "href='%(iosUrl)s'>iOS</a>."
 
-#: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
+#: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
 msgstr "Připojit další zařízení"
 
-#: lib/senders/templates/_pending.txt:6
+#: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
 msgstr "Přihlásit ke službě Sync"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
-#: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1
+#: lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Účty Firefoxu"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:735
-msgid "New sign-in to Firefox"
-msgstr "Nové přihlášení k Firefoxu"
+#: lib/senders/email.js:744
+msgid "New sign-in to %(clientName)s"
+msgstr ""
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
@@ -76,8 +67,8 @@ msgstr "Toto je automatický e-mail; pokud jste tuto akci neprovedli, <a %(passw
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
-#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8
+#: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Pro více informací navštivte stránky <a %(supportLinkAttributes)s>Podpory Mozilly</a>."
 
@@ -86,11 +77,9 @@ msgstr "Pro více informací navštivte stránky <a %(supportLinkAttributes)s>Po
 #: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7
 #: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7
 #: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
-#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
-#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
+#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Zásady ochrany soukromí"
 
@@ -99,9 +88,8 @@ msgid "This is an automated email; if you didn’t add a new device to your Fire
 msgstr "Toto je automatický e-mail; pokud jste k účtu Firefoxu nepřidali žádné zařízení, okamžitě si změňte heslo na %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_change_primary.txt:5
-#: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
-#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6
-#: lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
+#: lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Pro více informací prosím navštivte stránku %(supportUrl)s"
 
@@ -130,10 +118,8 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Heslo k vašemu účtu Firefoxu bylo změněno. Pokud jste jej neměnili, neprodleně si prosím <a %(resetLinkAttributes)s>obnovte své heslo</a>."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Toto je automaticky zaslaný e-mail - pokud jste si jej nevyžádali, můžete jej ignorovat."
 
@@ -277,39 +263,6 @@ msgstr "Pokud ne, pomozte nám odrazit útočníky a <a %(reportSignInLinkAttrib
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:887
-msgid "Hello again."
-msgstr "Vítejte zpět."
-
-#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
-msgstr ""
-"Před pár dny jste si vytvořili účet Firefoxu, ale zatím jste jej neověřili. Díky ověřenému účtu budete moct přistupovat ke svém panelům, záložkám, historii a uloženým heslům z jakéhokoli zařízení, "
-"které k němu připojíte. Pro aktivaci vašeho účtu stačí pouze potvrdit tento e-mail."
-
-#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
-msgid "Activate now"
-msgstr "Aktivovat"
-
-#: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
-msgid "Verify Email"
-msgstr "Ověření e-mailu"
-
-#: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Pro dokončení registrace vašeho účtu Firefoxu prosím ověřte váš e-mail"
-
-#: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Aktivovat:"
-
-#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
-msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
-"Před týdnem jste si vytvořili účet Firefoxu, ale doposud jste jej neověřili. Děláme si o vás starosti. Potvrďte tento e-mailovou adresu, aktivujte svůj účet a dejte nám tak vědět, že jste v pořádku."
-
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
 msgstr "Vítejte!"
@@ -318,9 +271,25 @@ msgstr "Vítejte!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Aktivujte si prosím svůj účet potvrzením této e-mailové adresy."
 
+#: lib/senders/templates/verify.html:4
+msgid "Activate now"
+msgstr "Aktivovat"
+
+#: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
+msgid "Verify Email"
+msgstr "Ověření e-mailu"
+
+#: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr "Pro dokončení registrace vašeho účtu Firefoxu prosím ověřte váš e-mail"
+
+#: lib/senders/templates/verify.txt:3
+msgid "Activate now:"
+msgstr "Aktivovat:"
+
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Pro vyšší bezpečnost prosím před začátkem synchronizace tohoto zařízení potvrďte toto přihlášení:"
+msgid "For added security, please confirm this sign-in from the following device:"
+msgstr ""
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -330,7 +299,7 @@ msgstr "Potvrdit přihlášení"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, <a %(passwordChangeLinkAttributes)s>změňte si prosím své heslo</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:528
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:536
 msgid "Verify primary email"
 msgstr "Ověřte svou primární e-mailovou adresu"
 
@@ -354,7 +323,7 @@ msgstr "Toto je automatický e-mail. Pokud jste jej obdrželi omylem nebo jste t
 msgid "Verify email: "
 msgstr "Ověřit adresu: "
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:575
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
 msgstr "Ověřit záložní adresu"
 
@@ -378,79 +347,79 @@ msgstr "Potvrďte, že jste obdrželi tento e-mail a my vám pomůžeme s instal
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a připojit Firefox na alespoň jednom dalším zařízení."
 
-#: lib/senders/email.js:173
+#: lib/senders/email.js:169
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:176
+#: lib/senders/email.js:172
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:203
+#: lib/senders/email.js:199
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:201
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:207
+#: lib/senders/email.js:203
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:209
+#: lib/senders/email.js:205
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:328
+#: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
 msgstr "Ověřte svůj účet Firefoxu"
 
-#: lib/senders/email.js:350
+#: lib/senders/email.js:348
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrďte svůj e-mail a začněte synchronizovat!"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:394
 msgid "Firefox Account authorization code"
 msgstr "Autorizační kód účtu Firefoxu"
 
-#: lib/senders/email.js:438
-msgid "Confirm new sign-in to Firefox"
-msgstr "Potvrzení nového přihlášení k Firefoxu"
+#: lib/senders/email.js:437
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr ""
 
-#: lib/senders/email.js:482
+#: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
 msgstr "Přihlašovací kód pro Firefox"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:630
 msgid "Reset your Firefox Account password"
 msgstr "Obnovit heslo vašeho účtu Firefoxu"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:662
 msgid "Your Firefox Account password has been changed"
 msgstr "Heslo vašeho účtu Firefoxu bylo změněno"
 
-#: lib/senders/email.js:684
+#: lib/senders/email.js:692
 msgid "Your Firefox Account password has been reset"
 msgstr "Heslo vašeho účtu Firefoxu bylo obnoveno"
 
-#: lib/senders/email.js:710
+#: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
 msgstr "Je vyžadována obnova hesla k účtu Firefoxu"
 
-#: lib/senders/email.js:767
+#: lib/senders/email.js:785
 msgid "Firefox Account verified"
 msgstr "Účet Firefoxu ověřen"
 
-#: lib/senders/email.js:798
+#: lib/senders/email.js:816
 msgid "Secondary Firefox Account email added"
 msgstr "Záložní adresa účtu Firefoxu úspěšně přidána"
 
-#: lib/senders/email.js:830
+#: lib/senders/email.js:848
 msgid "Firefox Account new primary email"
 msgstr "Nový primární e-mail účtu Firefoxu"
 
-#: lib/senders/email.js:862
+#: lib/senders/email.js:880
 msgid "Secondary Firefox Account email removed"
 msgstr "Záložní e-mailová adresa účtu Firefoxu byla odebrána"
 
@@ -505,6 +474,36 @@ msgstr "Cloudové služby Firefoxu"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Podmínky využívání služby"
+
+#~ msgid "Still there?"
+#~ msgstr "Jste tu ještě?"
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Před nedávnem jste si vytvořili účet Firefoxu, ale zatím jste jej neověřili. Pro aktivaci svého účtu klikněte na odkaz níže."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Nové přihlášení k Firefoxu"
+
+#~ msgid "Hello again."
+#~ msgstr "Vítejte zpět."
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Před pár dny jste si vytvořili účet Firefoxu, ale zatím jste jej neověřili. Díky ověřenému účtu budete moct přistupovat ke svém panelům, záložkám, historii a uloženým heslům z jakéhokoli "
+#~ "zařízení, které k němu připojíte. Pro aktivaci vašeho účtu stačí pouze potvrdit tento e-mail."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Před týdnem jste si vytvořili účet Firefoxu, ale doposud jste jej neověřili. Děláme si o vás starosti. Potvrďte tento e-mailovou adresu, aktivujte svůj účet a dejte nám tak vědět, že jste v "
+#~ "pořádku."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "Pro vyšší bezpečnost prosím před začátkem synchronizace tohoto zařízení potvrďte toto přihlášení:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Potvrzení nového přihlášení k Firefoxu"
 
 #~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "Toto je automatický e-mail. Pokud jste jej obdrželi omylem nebo jste tuto akci neautorizovali, <a %(passwordChangeLinkAttributes)s>změňte si prosím své heslo</a>."
