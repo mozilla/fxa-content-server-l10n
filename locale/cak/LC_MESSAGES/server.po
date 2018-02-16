@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 21:11+0000\n"
+"PO-Revision-Date: 2018-02-16 21:27+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -122,7 +122,7 @@ msgstr "We man ja ta rat xajalo, tab'ana' utzil <a %(resetLinkAttributes)s>tatzo
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "We man ja ta rat xajalo, tatzolij ri ewan atzij wakami pa %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -230,15 +230,15 @@ msgstr "Ütz xajikib'a' %(secondaryEmail)s achi'el ruka'n taqoya'l pa ri Ataqoya
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "¿La nawajo' natzolij ri ewan atzij?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "K'o jun ramaj chawe richin napïtz' ri pitz'b'äl richin natz'ük jun k'ak'a' ewan tzij. Chupam re okisaxel re' k'utun pe:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Titz'uk' k'ak'a' ewan tzij"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -286,7 +286,7 @@ msgstr "Titzij wakami:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Richin jikonem, tajikib'a' rutikirisaxik molojri'ïl pa re okisaxel re':"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -382,7 +382,7 @@ msgstr "Rub'itz'i' ya'oj ruq'ij ri Taqoya'l richin Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Tijikib'äx ri k'ak'a' rutikirisaxik molojri'ïl %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
@@ -398,7 +398,7 @@ msgstr "Xjal ri ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Xjalatäj ewan rutzij ri Rub'i' Taqoya'l richin Firefox"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
