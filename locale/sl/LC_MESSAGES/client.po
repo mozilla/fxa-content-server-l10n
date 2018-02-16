@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 17:28+0000\n"
+"PO-Revision-Date: 2018-02-16 17:47+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1383,7 +1383,7 @@ msgstr "Dodaj"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Znova potrdite, da odklenete odsek"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
