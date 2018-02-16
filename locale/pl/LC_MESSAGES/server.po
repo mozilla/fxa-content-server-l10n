@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 18:31+0000\n"
+"PO-Revision-Date: 2018-02-16 18:34+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -50,7 +50,7 @@ msgstr "Konta Firefoksa"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:744
 msgid "New sign-in to %(clientName)s"
-msgstr "Nowe logowanie do %(clientName)s"
+msgstr "Nowe logowanie do „%(clientName)s”"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
@@ -378,7 +378,7 @@ msgstr "Kod upoważnienia konta Firefoksa"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Potwierdź nowe logowanie do %(clientName)s"
+msgstr "Potwierdź nowe logowanie do „%(clientName)s”"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
