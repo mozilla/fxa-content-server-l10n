@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 18:11+0000\n"
+"PO-Revision-Date: 2018-02-16 18:15+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -797,6 +797,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>WICHTIG:</span> Wenn Sie Ihr Passwort zurücksetzen, werden einige Ihrer Daten (darunter synchronisierte Server-Daten wie Chronik und Lesezeichen) gelöscht. Dies liegt an der Verschlüsselung "
+"Ihrer Daten mit Ihrem Passwort und dient dem Schutz Ihrer Privatsphäre."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -804,7 +806,7 @@ msgstr "Neues Passwort"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Passwort erneut eingeben"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -853,7 +855,7 @@ msgstr "E-Mail zum Zurücksetzen gesendet"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Klicken Sie innerhalb einer Stunde auf den Link, den wir per E-Mail an %(email)s schicken, um ein neues Passwort zu erstellen."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -935,7 +937,7 @@ msgstr "Passwort vergessen?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Indem Sie fortfahren, stimmen Sie den <a id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1027,6 +1029,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>HINWEIS:</span> Wenn Sie Ihr Passwort zurücksetzen, werden einige Ihrer Daten (darunter synchronisierte Server-Daten wie Chronik und Lesezeichen) gelöscht. Dies liegt an der Verschlüsselung "
+"Ihrer Daten mit Ihrem Passwort und dient dem Schutz Ihrer Privatsphäre."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1335,10 +1339,12 @@ msgstr "Einstellungen zur Kommunikation"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Sie erhalten Nachrichten zur Sicherheit Ihres Kontos, zu Änderungen unserer Nutzungsbedingungen, zur Funktionalität Ihres Kontos sowie eingangs E-Mails, mit deren Hilfe Sie Ihr Firefox-Konto "
+"bestmöglich nutzen können."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Sie können außerdem Werbe-E-Mails mit den neuesten Nachrichten über Mozilla und Firefox abonnieren."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1390,7 +1396,7 @@ msgstr "Hinzufügen"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Erneut verifizieren, um Bereich zu entsperren"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
