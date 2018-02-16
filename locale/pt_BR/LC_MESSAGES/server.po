@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 19:37+0000\n"
+"PO-Revision-Date: 2018-02-16 21:34+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -51,7 +51,7 @@ msgstr "Contas Firefox"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:744
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nova identificação para %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
@@ -286,7 +286,7 @@ msgstr "Ativar agora:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Para segurança adicional, por favor confirme esta identificação dos seguintes dispositivos:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -382,7 +382,7 @@ msgstr "Código de autorização da Conta Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Confirme nova identificação para %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
