@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 22:11+0000\n"
+"PO-Revision-Date: 2018-02-16 22:21+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -792,8 +792,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
-"<span>Ingat:</span> Jika anda set semula kata laluan anda, beberapa data akan terpadam (termasuk data sync pelayan seperti sejarah dan tanda buku). Ini kerana kami enkrip data dengan kata laluan "
-"untuk melindungi privasi anda."
+"<span>PERINGATAN:</span> Jika anda set semula kata laluan anda, beberapa data akan terpadam (termasuk data sync pelayan seperti sejarah dan tanda buku). Ini kerana kami enkrip data dengan kata "
+"laluan untuk melindungi privasi anda."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -850,7 +850,7 @@ msgstr "Emel set semula dihantar"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Klik pautan dalam e-mel ke %(email)s dalam tempoh sejam berikutnya untuk mencipta kata laluan baru."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -932,7 +932,7 @@ msgstr "Lupa kata laluan?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1024,6 +1024,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>PERINGATAN:</span> Jika anda set semula kata laluan anda, beberapa data akan terpadam (termasuk data sync pelayan seperti sejarah dan tanda buku). Ini kerana kami enkrip data dengan kata "
+"laluan untuk melindungi privasi anda."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1328,11 +1330,11 @@ msgstr "Keutamaan komunikasi"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Anda akan menerima komunikasi berkaitan keselamatan akaun anda, perubahan polisi kami, fungsi akaun anda dan e-mel permulaan untuk membantu anda mendapatkan manfaat daripada akaun Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Di samping itu, anda boleh pilih sama ada mahu terima atau tidak berita terkini berkaitan Mozilla dan Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1384,7 +1386,7 @@ msgstr "Tambah"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Sahkan semula untuk membuka sesi"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
