@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 20:49+0000\n"
+"PO-Revision-Date: 2018-02-16 20:55+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1330,11 +1330,11 @@ msgstr "コミュニケーション設定"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "あなたが Firefox アカウントを最大限に活用できるよう、アカウントのセキュリティ、Mozilla のポリシー変更、アカウントの機能、初回メールに関するお知らせをお送りします。"
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "またあなたは、Mozilla と Firefox に関する最新情報をお届けするプロモーションメールを購読することもできます。"
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1386,7 +1386,7 @@ msgstr "追加"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "再確認してセクションのロックを解除"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
