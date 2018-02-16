@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 18:00+0000\n"
+"PO-Revision-Date: 2018-02-16 18:11+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1331,7 +1331,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Poleg tega se lahko po želji naročite na promocijsko pošto z novicami iz sveta Mozille in Firefoxa."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
