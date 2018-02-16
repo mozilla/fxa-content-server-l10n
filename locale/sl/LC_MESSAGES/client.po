@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 17:47+0000\n"
+"PO-Revision-Date: 2018-02-16 18:00+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -849,7 +849,7 @@ msgstr "Ponastavitvena e-pošta poslana"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "V naslednji uri kliknite na povezavo, poslano na %(email)s, da ustvarite novo geslo."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -931,7 +931,7 @@ msgstr "Ste pozabili geslo?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\">pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\">obvestilo o zasebnosti</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
