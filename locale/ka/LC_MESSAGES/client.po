@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 19:18+0000\n"
+"PO-Revision-Date: 2018-02-16 19:45+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1333,10 +1333,11 @@ msgstr "ცნობების პარამეტრები"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"თქვენ მიიღებთ ცნობებს თქვენი ანგარიშის უსაფრთხოების, მომსახურების პირობებში ცვლილებების, თქვენი ანგარიშის მდგომარეობის შესახებ და სხვა სასარგებლო ინფორმაციას, Firefox ანგარიშებთან დაკავშირებით."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "დამატებით, შეგიძლია გამოიწეროთ Mozilla-სა და Firefox-ის შესახებ სიახლეები."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1388,7 +1389,7 @@ msgstr "დამატება"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "ხელახლა დამოწმება შეზღუდვის მოსახსნელად"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
