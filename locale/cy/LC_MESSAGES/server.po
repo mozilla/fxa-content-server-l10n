@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 17:49+0000\n"
+"PO-Revision-Date: 2018-02-17 18:50+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -229,15 +229,15 @@ msgstr "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'c
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Angen ailosod eich cyfrinair?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Creu cyfrinair newydd"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -285,7 +285,7 @@ msgstr "Agor nawr:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -381,7 +381,7 @@ msgstr "Cod awdurdodi Cyfrif Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
@@ -397,7 +397,7 @@ msgstr "Mae cyfrinair eich cyfrif Firefox wedi ei newid"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Mae cyfrinair y Cyfrif Firefox wedi newid"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
