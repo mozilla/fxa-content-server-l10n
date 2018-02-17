@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-16 21:34+0000\n"
+"PO-Revision-Date: 2018-02-17 01:31+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -382,7 +382,7 @@ msgstr "Código de autorização da Conta Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Confirme nova identificação para %(clientName)s"
+msgstr "Confirme a nova identificação para %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
