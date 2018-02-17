@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 12:10+0000\n"
+"PO-Revision-Date: 2018-02-17 12:15+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -396,7 +396,7 @@ msgstr "Awal uffir n umiḍan inek Firefox yettusnifel"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Awal uffir n umiḍan Firefox ibeddel"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
