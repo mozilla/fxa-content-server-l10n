@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 15:30+0000\n"
+"PO-Revision-Date: 2018-02-17 15:47+0000\n"
 "Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -309,7 +309,7 @@ msgstr "Sekundär e-post bekräftades framgångsrikt"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Lösenordet har återställts"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -933,7 +933,7 @@ msgstr "Glömt lösenordet?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicyn</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1025,6 +1025,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>OBS:</span>Om du återställer ditt lösenord kommer delar av ditt data raderas (inkl synkad data på servern som historik och bokmärken). Detta då vi krypterar ditt data med ditt lösenord för att"
+" skydda din integritet."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1329,10 +1331,12 @@ msgstr "Kommunikationsinställningar"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Du kommer motta meddelanden relaterat till ditt kontos säkerhet, ändringar i vår policy, ditt kontos användningsområde och inledande e-post för att hjälpa dig utnyttja ditt Firefox-konto på ett bra "
+"sätt."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Dessutom kan du prenumerera på kampanj-e-post med de senaste nyheterna från Mozilla och Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1384,7 +1388,7 @@ msgstr "Lägg till"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Verifiera igen för att låsa upp sektionen"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
