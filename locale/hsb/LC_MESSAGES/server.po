@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 12:09+0000\n"
+"PO-Revision-Date: 2018-02-17 12:12+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -286,7 +286,7 @@ msgstr "Nětko aktiwizować:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Zo byšće wěstotu powyšił, wobkrućće prošu tute přizjewjenje ze slědowaceho grata:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -382,7 +382,7 @@ msgstr "Awtorizowanski kod konta Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nowe přizjewjenje pola %(clientName)s wobkrućić"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
@@ -398,7 +398,7 @@ msgstr "Hesło wašeho konta Firefox je so změniło"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Hesło konta Firefox je so změniło"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
