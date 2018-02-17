@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 12:49+0000\n"
+"PO-Revision-Date: 2018-02-17 12:57+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -935,7 +935,7 @@ msgstr "Sćo gronidło zabył?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pókšacujśo, aby zwólił do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosć</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1027,6 +1027,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše daty z "
+"wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1332,10 +1334,11 @@ msgstr "Komunikaciske nastajenja"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Dostanjośo powěźeńki nastupajucy wašu kontowu wěstotu, změny na našych pšawidłach, funkcionalnosći wašogo konta a zachopnych mejlkach, aby my wam pomagali, nejwěcej z wašogo konta Firefox wuwónoźeł."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Móžośo mimo togo e-mejlki z nejnowšymi powěsćami wó Mozilla a Firefox aboněrowaś."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,7 +1390,7 @@ msgstr "Pśidaś"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Znowego pśeglědowaś, aby se wótrězk wótwórił"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
