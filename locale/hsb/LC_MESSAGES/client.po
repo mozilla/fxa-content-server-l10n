@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 11:47+0000\n"
+"PO-Revision-Date: 2018-02-17 12:01+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1334,10 +1334,12 @@ msgstr "Komunikaciske nastajenja"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Dóstanjeće zdźělenki nastupajo wašu kontowu wěstotu, změny na našich prawidłach, funkcionalnosći wašeho konta a spočatnych e-mejlkach, zo bychmy wam pomhali, najwjace z wašeho konta Firefox won "
+"ćahnyć."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Móžeće nimo toho e-mejlki z najnowšimi powěsćemi wo Mozilla a Firefox abonować."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1389,7 +1391,7 @@ msgstr "Přidać"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Znowa přepruwować, zo by so wotrězk wotewrěł"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
