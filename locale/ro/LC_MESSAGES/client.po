@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-18 21:06+0000\n"
+"PO-Revision-Date: 2018-02-18 21:28+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -468,11 +468,11 @@ msgstr "Nu s-a reușit trimiterea e-mailului"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Codul de verificare a autentificării este invalid"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Acest cod de verificare a expirat"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
@@ -903,7 +903,7 @@ msgstr "Autentifică-te în Firefox de pe alt dispozitiv pentru a încheia confi
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Încă adaugi dispozitive? Autentifică-te în Firefox de pe alt dispozitiv pentru a încheia configurarea"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1104,11 +1104,11 @@ msgstr "Autorizează această autentificare"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Verifică e-mailul pentru codul trimis către %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Introdu codul"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1351,7 +1351,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "În plus, te mai poți abona să primești e-mailuri promoționale cu cele mai noi știri de la Mozilla și Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1403,7 +1403,7 @@ msgstr "Adaugă"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Reverifică pentru a debloca secțiunea"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
