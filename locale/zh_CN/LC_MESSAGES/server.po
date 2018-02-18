@@ -371,7 +371,7 @@ msgstr "Firefox 账户授权码"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "确认在 %(clientName)s 的新一次登录"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
