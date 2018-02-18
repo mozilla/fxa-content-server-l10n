@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 12:15+0000\n"
-"Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
+"PO-Revision-Date: 2018-02-18 20:08+0000\n"
+"Last-Translator: ybouhamam <ybouhamam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "Imiḍanen Firefox"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:744
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Tuqqna tamaynut ɣer %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
@@ -110,19 +110,19 @@ msgstr "Wagi d izen imayl awurman; ma yella ur tesnifled ara awal inek uffir deg
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "Awal uffir n umiḍan inek ibeddel"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Ad tesreḍ asekcem n wawal uffir inek amaynut deg ibenken nniḍen akken ad tkemmled amtawi."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Ma ur tbeddileḍ ara, ma ulac aɣilif <a %(resetLinkAttributes)s>ales awennez n wawal uffir inek</a> tura."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Ma ur tbeddileḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura di %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -228,7 +228,7 @@ msgstr "Tesneqdeḍ akken iwata %(secondaryEmail)s imayl-ik asnawan i umiḍan-i
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Tesriḍ tulsa uwennez n wawal uffir inek?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -380,7 +380,7 @@ msgstr "Tangalt n tsiregt n umidan Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Sentem tuqqna tamaynut ɣer %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
