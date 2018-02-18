@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-18 00:03+0000\n"
+"PO-Revision-Date: 2018-02-18 00:24+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Vous pouvez également vous abonner aux messages promotionnels qui vous communiqueront les dernières informations au sujet de Mozilla et Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1389,7 +1389,7 @@ msgstr "Ajouter"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Revérifier pour déverrouiller la section"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
