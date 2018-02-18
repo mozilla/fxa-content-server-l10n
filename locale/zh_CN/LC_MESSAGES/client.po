@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-18 09:30+0000\n"
+"PO-Revision-Date: 2018-02-18 13:09+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -932,7 +932,7 @@ msgstr "忘记密码？"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "若继续，则代表您同意<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权公告</a>。"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1023,7 +1023,7 @@ msgstr "因何发生？"
 msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
-msgstr ""
+msgstr "<span>注意：</span>重设密码将导致您的某些数据被抹除（包括同步服务器上的历史记录和书签等数据）。这是因为我们使用您的密码来加密数据，以确保我们无法解密，保护您的隐私安全。这部分数据无法恢复。"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1326,11 +1326,11 @@ msgstr "通信偏好"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "我们将会发邮件告知您有关您账户的安全性、我们的政策修订、您账户的功能以及帮助您上手 Firefox 的信息。"
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "此外，您也可以订阅我们的宣传邮件，即时知晓 Mozilla 与 Firefox 的最新情况。"
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
