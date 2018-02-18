@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-18 00:24+0000\n"
+"PO-Revision-Date: 2018-02-18 00:43+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -798,6 +798,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>N’OUBLIEZ PAS :</span> si vous réinitialisez votre mot de passe, certaines de vos données seront supprimées (y compris les données synchronisées sur le serveur, comme l’historique et les "
+"marque-pages). Ceci est dû au fait que nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1028,6 +1030,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>NOTE :</span> si vous réinitialisez votre mot de passe, certaines de vos données seront supprimées (y compris les données synchronisées sur le serveur, comme l’historique et les marque-pages)."
+" Ceci est dû au fait que nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1334,6 +1338,8 @@ msgstr "Préférences de communication"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Vous recevrez des messages liés à la sécurité de votre compte, aux changements de notre politique, aux fonctionnalités de votre compte, ainsi que des messages initiaux pour vous aider à tirer le "
+"meilleur parti de votre compte Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
