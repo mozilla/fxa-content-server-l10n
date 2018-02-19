@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-19 11:47+0000\n"
+"PO-Revision-Date: 2018-02-19 11:52+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -1333,10 +1333,11 @@ msgstr "Prednosti komunikacije"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Primićete komunikacije u vezi sa sigurnošću vašeg računa, promjenama naše politike, funkcionalnošću vašeg računa i inicijalne emailove kako bi vam pomogli da izvučete najviše od svog Firefox računa."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Dodatno, možete se pretplatiti za primanje promotivnih emailova sa najnovijim vrijestima od Mozille i Firefoxa."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1388,7 +1389,7 @@ msgstr "Dodaj"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Ponovo provjerite da biste otključali sekciju"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
