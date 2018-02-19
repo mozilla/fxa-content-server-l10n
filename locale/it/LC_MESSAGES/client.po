@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-19 09:58+0000\n"
-"Last-Translator: Elio <elio.gi@gmail.com>\n"
+"PO-Revision-Date: 2018-02-19 10:53+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -792,13 +792,15 @@ msgstr "Il link sul quale hai fatto clic manca di alcuni caratteri, probabilment
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Crea nuova password"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>Attenzione:</span> Reimpostando la password, alcuni dati saranno cancellati (compresi i dati dei server sincronizzati come cronologia e segnalibri). Questo perché, per proteggere la tua "
+"privacy, i dati personali vengono crittografati attraverso la password."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -855,7 +857,7 @@ msgstr "L’email per la reimpostazione della password è stata inviata"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Per impostare una nuova password fai clic sul link inviato a %(email)s entro un'ora."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -1030,6 +1032,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>Nota:</span> Reimpostando la password, alcuni dati saranno cancellati (compresi i dati dei server sincronizzati come cronologia e segnalibri). Questo perché, per proteggere la tua privacy, i "
+"dati personali vengono crittografati attraverso la password."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1335,6 +1339,8 @@ msgstr "Preferenze di comunicazione"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Riceverai comunicazioni relative alla sicurezza e alle funzionalità del tuo account, alle modifiche delle condizioni di servizio e email introduttive per aiutarti a ottenere il massimo dall’account "
+"Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1390,7 +1396,7 @@ msgstr "Aggiungi"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Verifica nuovamente l'indirizzo email per sbloccare la sezione"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
