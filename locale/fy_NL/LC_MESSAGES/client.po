@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-19 08:24+0000\n"
+"PO-Revision-Date: 2018-02-19 08:50+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1334,10 +1334,12 @@ msgstr "Kommunikaasjefoarkarren"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Om jo te helpen it measte út jo Firefox-account te heljen, ûntfange jo berjochten mei betrekking ta jo accountbefeiliging, wizigingen oan ús belied, de funksjonaliteit fan jo account, en ynliedende "
+"e-mails."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Dêrneist kinne jo jo ynskriuwe foar it ûntfangen fan promosjonele e-mails mei it lêste nijs fan Mozilla en Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1389,7 +1391,7 @@ msgstr "Tafoegje"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Opnij ferifiearje om seksje te ûntskoatteljen"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
