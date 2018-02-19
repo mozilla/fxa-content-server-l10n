@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-19 08:10+0000\n"
+"PO-Revision-Date: 2018-02-19 08:15+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -936,7 +936,7 @@ msgstr "Elfelejtette a jelszót?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "A folytatással elfogadja a <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatot</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1028,6 +1028,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>MEGJEGYZÉS:</span> Ha helyreállítja a jelszót, akkor bizonyos adatok törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők). Ez azért van, mert "
+"adatvédelmi okokból a jelszavával titkosítjuk az adatait."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1333,10 +1335,12 @@ msgstr "Kommunikációs beállítások"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Üzeneteket fog kapni a fiókja biztonságával, a házirendünk változásával, és a fiókja funkcionalitásával kapcsolatban, valamint bevezető e-maileket is fog kapni, hogy a legtöbbet hozza ki a Firefox "
+"fiókjából."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Továbbá feliratkozhat promóciós e-mailek fogadására is, a Mozilla és a Firefox legfrissebb híreivel."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1388,7 +1392,7 @@ msgstr "Hozzáadás"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "A szakasz feloldásának újbóli megerősítése"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
