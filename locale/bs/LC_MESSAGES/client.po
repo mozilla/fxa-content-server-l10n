@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-05 06:49+0000\n"
+"PO-Revision-Date: 2018-02-19 11:47+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -48,7 +48,7 @@ msgstr "Firefox sinhronizacija će se nastaviti momentalno"
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Vaša lozinka je resetovana"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -308,7 +308,7 @@ msgstr "Sekundarna email adresa uspješno verificirana"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Lozinka uspješno resetovana"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -692,9 +692,7 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -789,13 +787,15 @@ msgstr "Linku koji ste kliknuli je nedostajalo znakova i možda je onesposobljen
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Napravite novu lozinku"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>ZAPAMTITE:</span> Ako resetujete vašu lozinku, neki podaci će biti izbrisani (uključujući sinhronizovane posatke servera poput historije i zabilješki). To je razlog zašto smo šifrovali vaše "
+"podatke sa vašom lozinkom da zaštitimo vašu privatnost."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -803,7 +803,7 @@ msgstr "Nova lozinka"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Ponovo unesite lozinku"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -852,7 +852,7 @@ msgstr "Resetuj poslani email"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Kliknite na link koji smo poslali na %(email)s u narednih sat vremena kako bi kreirali novu lozinku."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -934,7 +934,7 @@ msgstr "Zaboravili ste lozinku?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\">uslove pružanja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">politiku privatnosti</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1026,6 +1026,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>NAPOMENA:</span> Ako resetujete vašu lozinku, neki podaci će biti izbrisani (uključujući sinhronizovane posatke servera poput historije i zabilješki). To je razlog zašto smo šifrovali vaše "
+"podatke sa vašom lozinkom da zaštitimo vašu privatnost."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1219,8 +1221,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 
