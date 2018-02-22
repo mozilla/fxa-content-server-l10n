@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-22 11:50+0000\n"
+"PO-Revision-Date: 2018-02-22 11:51+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -891,7 +891,7 @@ msgstr "برای تکمیل برپاسازی در فایرفاکس بر روی �
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "همچنان در حال افزودن دستگاه هستید؟ در دستگاه دیگر وارد فایرفاکس شوید تا تنظیمات کامل شود"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -933,7 +933,7 @@ msgstr "گذرواژه را فراموش کرده اید؟"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "با ادامه شما با <a id=\"fxa-tos\" href=\"/legal/terms\"> قوانین خدمات</a>و<a id=\"fxa-pp\" href=\"/legal/privacy\"> نکات حریم شخصی موافقت می‌کنید</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
