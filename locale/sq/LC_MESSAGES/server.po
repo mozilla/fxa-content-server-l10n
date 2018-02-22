@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-22 19:07+0000\n"
+"PO-Revision-Date: 2018-02-22 19:27+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -115,15 +115,15 @@ msgstr "Fjalëkalimi juaj për llogarinë ka ndryshuar"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera që të rimerret njëkohësimi."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Nëse s’e ndryshuat ju, ju lutemi, <a %(resetLinkAttributes)s>ricaktoni fjalëkalimin tuaj</a> që tani."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Nëse s’e ndryshuat ju, ju lutemi, fjalëkalimin tuaj që tani te %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -227,15 +227,15 @@ msgstr "E verifikuat me sukses %(secondaryEmail)s si një email dytësor për Ll
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Keni nvojë të ricaktoni fjalëkalimin tuaj?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Klikoni mbi butonin brenda orës së ardhshme që të krijoni një fjalëkalim të ri. Kërkesa erdhi nga pajisja vijuese:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Krijoni fjalëkalim të ri"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -283,7 +283,7 @@ msgstr "Aktivizojeni tani:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Për më tepër siguri, ju lutemi, ripohojeni këtë hyrje që nga pajisja vijuese:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -303,11 +303,11 @@ msgstr "Nga pajisja vijuese u bë një kërkesë për kryerjen e një ndryshimi 
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr "Verifikoni email-in"
+msgstr "Verifikoni email-in "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor. "
+msgstr "Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -379,7 +379,7 @@ msgstr "Kod autorizimi Llogarie Firefox-i"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Ripohoni hyrje të re te %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
@@ -395,7 +395,7 @@ msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ndryshua"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Fjalëkalimi për Llogarinë Firefox ndryshoi"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
