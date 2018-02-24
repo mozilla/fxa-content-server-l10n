@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-17 12:09+0000\n"
+"PO-Revision-Date: 2018-02-24 12:05+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -792,6 +792,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>REMEMBER</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
+"naḥrez tabaḍbit-ik."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1022,6 +1024,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>NOTE</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
+"naḥrez tabaḍbit-ik."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1324,11 +1328,11 @@ msgstr "Ismenyifen n teywalt"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Ad  ak-in-tawweḍ teywalt γef taγlist n umiḍan-inek, asnifel γef tsartit, timahilin n umiḍan-ik akked imaylen imezwura akken ad tesεuḍ tallelt ad tawiḍ ugar n tmahilin i umiḍan-ik Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Tzemreḍ ad tferneḍ ad tjerḍeḍ akken ad ak-in-awḍen imaylen n issalen ɣef Mozilla d Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
