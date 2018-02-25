@@ -106,7 +106,7 @@ msgstr "Dette er ein automatisk e-post: Om du ikkje godkjende denne handlinga <a
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Dette er ei automatisk e-postmelding. Om du ikkje endra passordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
+msgstr "Dette er ei automatisk e-postmelding. Om du ikkje endra passordet ditt for Firefox-kontoen din, bør du tilbakestille det med ein gong på %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
@@ -182,7 +182,7 @@ msgstr "Handsam kontoen:"
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endra passordet ditt."
+msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endre passordet ditt."
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -292,7 +292,7 @@ msgstr "Stadfest innlogging"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endra passordet ditt</a>."
+msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endre passordet ditt</a>."
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:536
 msgid "Verify primary email"

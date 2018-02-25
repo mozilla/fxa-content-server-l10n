@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-25 11:09+0000\n"
+"PO-Revision-Date: 2018-02-25 11:18+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -336,7 +336,7 @@ msgstr "Ugyldig tidsstempel i førespurd signatur"
 
 #: .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
-msgstr "Ugyldig nonce i signaturen til føresspurnaden"
+msgstr "Ugyldig nonce i signaturen til førespurnaden"
 
 #: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
@@ -501,15 +501,15 @@ msgstr "Passorda samsvarar ikkje"
 
 #: .es5/lib/auth-errors.js:246
 msgid "Working…"
-msgstr "Arbeider …"
+msgstr "Arbeider…"
 
 #: .es5/lib/auth-errors.js:250
 msgid "Could not get Privacy Notice"
-msgstr "Klarte ikkje å henta personvernmelding"
+msgstr "Klarte ikkje å hente personvernmelding"
 
 #: .es5/lib/auth-errors.js:254
 msgid "Could not get Terms of Service"
-msgstr "Klarte ikkje å henta tenestevilkåra"
+msgstr "Klarte ikkje å hente tenestevilkåra"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Your new password must be different"
@@ -529,11 +529,11 @@ msgstr "Gyldig e-postadresse påkravd"
 
 #: .es5/lib/auth-errors.js:281
 msgid "A usable image was not found"
-msgstr "Fann ikkje brukande bilde"
+msgstr "Fann ikkje noko brukande bilde"
 
 #: .es5/lib/auth-errors.js:285
 msgid "Could not initialize camera"
-msgstr "Klarte ikkje å starta kameraet"
+msgstr "Klarte ikkje å starte kameraet"
 
 #: .es5/lib/auth-errors.js:289
 msgid "Valid URL required"
@@ -549,7 +549,7 @@ msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 
 #: .es5/lib/auth-errors.js:320
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettstadar"
+msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettsider"
 
 #: .es5/lib/auth-errors.js:339 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
