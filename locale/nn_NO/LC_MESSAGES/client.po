@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-25 11:18+0000\n"
+"PO-Revision-Date: 2018-02-25 11:48+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -557,7 +557,7 @@ msgstr "Stadfestingslenka er skadd"
 
 #: .es5/lib/auth-errors.js:347
 msgid "The image dimensions must be at least 100x100px"
-msgstr "Dimensjonar på bildet må vera minst 100 x 100 px"
+msgstr "Dimensjonar på bildet må vere minst 100 x 100 px"
 
 #: .es5/lib/auth-errors.js:351
 msgid "Signup is coming soon to Firefox for iOS"
@@ -565,7 +565,7 @@ msgstr "Registrering kjem snart til Firefox for iOS"
 
 #: .es5/lib/auth-errors.js:362
 msgid "You must enter your age to sign up"
-msgstr "Du må skriva inn alder for å registrera deg"
+msgstr "Du må skrive inn alder for å registrere deg"
 
 #: .es5/lib/auth-errors.js:377
 msgid "Account no longer exists."
@@ -641,7 +641,7 @@ msgstr "Ukjend kode"
 
 #: .es5/lib/oauth-errors.js:44
 msgid "Incorrect code"
-msgstr "Ukorrekt kode"
+msgstr "Feil kode"
 
 #: .es5/lib/oauth-errors.js:48
 msgid "Expired code"
@@ -649,7 +649,7 @@ msgstr "Utgått kode"
 
 #: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Ugyldig OAuth parameter: %(param)s"
+msgstr "Ugyldig OAuth-parameter: %(param)s"
 
 #: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
 msgid "Unauthorized"
@@ -657,7 +657,7 @@ msgstr "Uautorisert"
 
 #: .es5/lib/oauth-errors.js:68
 msgid "Forbidden"
-msgstr "Forbode"
+msgstr "Forbydt"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
@@ -685,7 +685,7 @@ msgstr "Bildeleverandøren er ikkje støtta"
 
 #: .es5/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr "Bildebehandlingsfel"
+msgstr "Bildebehandlingsfeil"
 
 #: .es5/lib/profile-errors.js:47
 msgid "Invalid Token"
@@ -693,7 +693,7 @@ msgstr "Ugyldig token"
 
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Ved å fortsetje godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -717,7 +717,7 @@ msgstr "IP-addresse: %(ip)s"
 
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynna synkroniseringa med denne eininga:"
+msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynne synkroniseringa med denne eininga:"
 
 #: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:6
 msgid "Sign in"
@@ -725,7 +725,7 @@ msgstr "Logg inn"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr "Ugyldig ørespurnad"
+msgstr "Ugyldig førespurnad"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
@@ -733,15 +733,15 @@ msgstr "Feil 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Oj, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å løysa problemet."
+msgstr "Oj, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å løyse problemet."
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr "Klarte ikkje å oppretta konto"
+msgstr "Klarte ikkje å lage konto"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Du må oppfylla visse alderskrav for å oppretta ein Firefox-konto."
+msgstr "Du må oppfylle visse alderskrav for å lage ein Firefox-konto."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -757,7 +757,7 @@ msgstr "Vel kva som skal synkroniserast"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
-msgstr "Lagra innstillingar"
+msgstr "Lagre innstillingane"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1188,7 +1188,7 @@ msgstr "Sync-tenesta er ikkje ein permanent backup. Ho er berre ein sikker måte
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må gjenopprette dei og gløymer passordet ditt."
+msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må byggje dei oppatt og gløymer passordet ditt."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
