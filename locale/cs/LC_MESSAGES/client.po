@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-25 16:09+0000\n"
+"PO-Revision-Date: 2018-02-25 16:17+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -853,7 +853,7 @@ msgstr "E-mail pro obnovu odeslán"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, který jsme vám poslali e-mailem na adresu %(email)s."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -935,7 +935,7 @@ msgstr "Zapomněli jste heslo?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">podmínkami ochrany osobních údajů</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1027,6 +1027,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>POZNÁMKA:</span> Pokud obnovíte heslo, některá data budou nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v zájmu "
+"vaší bezpečnosti tato data šifrujeme vaším heslem."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1090,11 +1092,11 @@ msgstr "Autorizovat toto přihlášení"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Zkontrolujte kód, který jsme poslali na adresu %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Zadejte kód"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1332,10 +1334,12 @@ msgstr "Předvolby komunikace"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Budete dostávat zprávy týkající se bezpečnosti vašeho účtu, změn v našich podmínkách a funkcích vašeho účtu, stejně tak jako několik úvodních e-mailů, které vám pomohou vytěžit z vašeho účtu "
+"Firefoxu maximum."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Kromě toho se můžete přihlásit k odběru propagačních e-mailů s novinkami týkajícími se Mozilly a Firefoxu."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,7 +1391,7 @@ msgstr "Přidat"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Pro odemčení sekce se znovu přihlaste"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
