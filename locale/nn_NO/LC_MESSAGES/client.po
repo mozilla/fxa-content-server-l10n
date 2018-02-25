@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-25 10:50+0000\n"
+"PO-Revision-Date: 2018-02-25 11:09+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -769,7 +769,7 @@ msgstr "Passordlenke for tilbakestilling er gått ut"
 
 #: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Lenka du trykte på for å tilbakestilla passordet ditt er utgått."
+msgstr "Lenka du trykte på for å tilbakestille passordet ditt har gått ut."
 
 #: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -777,7 +777,7 @@ msgstr "Få ei ny lenke"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "Passordlenke for tilbakestilling skada"
+msgstr "Passordlenke for tilbakestilling er skada"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -874,7 +874,7 @@ msgstr "Vellykka"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr "Logg inn på Firefox for å fullføra oppsettet"
+msgstr "Logg inn på Firefox for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "Sign in &rarr;"
@@ -886,7 +886,7 @@ msgstr "Legg du framleis til einingar?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Logg inn på Firefox på ei anna eining for å fullføra oppsettet"
+msgstr "Logg inn på Firefox på ei anna eining for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -894,11 +894,11 @@ msgstr "Legg du framleis til einingar? Logg inn på Firefox på ei anna eining f
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Logg inn på Firefox for Android for å fullføra oppsettet"
+msgstr "Logg inn på Firefox for Android for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Logg inn på Firefox for iOS for å fullføra oppsettet"
+msgstr "Logg inn på Firefox for iOS for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
 msgid "Why is more than one device required?"

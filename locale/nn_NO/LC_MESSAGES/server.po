@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-19 11:35+0000\n"
+"PO-Revision-Date: 2018-02-25 11:10+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -62,7 +62,7 @@ msgstr "IP-adresse: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Dette er ein automatisk e-post. Om du ikkje godkjende denne handlinga må du <a %(passwordChangeLinkAttributes)s>endra passordet ditt.</a>"
+msgstr "Dette er ein automatisk e-post. Om du ikkje godkjende denne handlinga må du <a %(passwordChangeLinkAttributes)s>endre passordet ditt.</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
@@ -84,7 +84,7 @@ msgstr "Mozilla personvernpraksis"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Dette er ei automatiskt e-postmelding: Om du ikkje la til ei ny eining i Firefox-kontoen din, bør du endra passordet ditt med ein gong på %(passwordChangeLink)s"
+msgstr "Dette er ei automatiskt e-postmelding: Om du ikkje la til ei ny eining i Firefox-kontoen din, bør du endre passordet ditt med ein gong på %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_change_primary.txt:5
 #: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
@@ -276,7 +276,7 @@ msgstr "Stadfest e-post"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Stadfest e-postadressa di for å fullføra registreringa av Firefox-kontoen din"
+msgstr "Stadfest e-postadressa di for å fullføre registreringa av Firefox-kontoen din"
 
 #: lib/senders/templates/verify.txt:3
 msgid "Activate now:"
