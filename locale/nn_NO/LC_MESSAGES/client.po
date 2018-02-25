@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-24 09:10+0000\n"
+"PO-Revision-Date: 2018-02-25 10:50+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:158
 msgid "Password reset"
-msgstr "Tilbakestilling av passord"
+msgstr "Passordet er tilbakestilt"
 
 #: .es5/views/confirm_reset_password.js:174
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Passordet et er tilbakestilt. Logg inn for å fortsetje."
+msgstr "Passordet er tilbakestilt. Logg inn for å fortsetje."
 
 #: .es5/views/permissions.js:28
 msgid "%(permissionName)s (required)"
@@ -52,7 +52,7 @@ msgstr "Passordet ditt er tilbakestilt"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Fullfør oppsettet ved å skrive inn det nye passordet på dei andre Firefox-einingane dine."
+msgstr "Fullfør oppsettet med å skrive inn det nye passordet på dei andre Firefox-einingane dine."
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
@@ -489,7 +489,7 @@ msgstr "Innloggingsforsøket avbrote"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Session expired. Sign in to continue."
-msgstr "Økta er slutt. Logg inn for å fortsetja."
+msgstr "Økta er slutt. Logg inn for å fortsetje."
 
 #: .es5/lib/auth-errors.js:238
 msgid "Cookies are still disabled"
@@ -513,7 +513,7 @@ msgstr "Klarte ikkje å henta tenestevilkåra"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Your new password must be different"
-msgstr "Det nye passordet ditt må vera annleis"
+msgstr "Det må vere eit nytt passord"
 
 #: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
@@ -918,7 +918,7 @@ msgstr "Prøv på nytt"
 
 #: .es5/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr "Logg inn for å halda fram"
+msgstr "Logg inn for å fortsetje"
 
 #: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
 #: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
