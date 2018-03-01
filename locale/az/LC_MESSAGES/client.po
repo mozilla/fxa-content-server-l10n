@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-27 14:42+0000\n"
+"PO-Revision-Date: 2018-03-01 03:27+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -49,7 +49,7 @@ msgstr "Firefox Sync ən qısa zamanda təkrar başlayacaq"
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Parolunuz sıfırlandı"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -309,7 +309,7 @@ msgstr "İkincil e-poçt müvəffəqiyyətlə təsdiqləndi"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Parol müvəffəqiyyətlə sıfırlandı"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -788,13 +788,15 @@ msgstr "Açdığınız keçiddə işarətlər çatışmır və ola bilsin e-poç
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Yeni parol yarat"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>Yadda Saxla:</span> Əgər parolu sıfırlasanız, bəzi məlumatlarınız silinəcək (tarixçə və əlfəcinlər kimi sinxronlaşdırılmış server məlumatları daxil). Bunun səbəbi təhlükəsizliyiniz üçün "
+"məlumatlarınızı parolunuz ilə şifrələməyimizdir."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -802,7 +804,7 @@ msgstr "Yeni parol"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Parolu təkrarlayın"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -851,7 +853,7 @@ msgstr "Sıfırlama e-poçtu göndərildi"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Qarşıdakı bir saat içində %(email)s ünvanına göndərdiyimiz keçidə klikləyin və yeni parolu qurun."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -933,7 +935,7 @@ msgstr "Parolu unutmusunuz?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Davam etməklə <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1025,6 +1027,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>QEYD:</span> Əgər parolu sıfırlasanız, bəzi məlumatlarınız silinəcək (tarixçə və əlfəcinlər kimi sinxronlaşdırılmış server məlumatları daxil). Bunun səbəbi təhlükəsizliyiniz üçün "
+"məlumatlarınızı parolunuz ilə şifrələməyimizdir."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1328,10 +1332,11 @@ msgstr "Kommunikasiya nizamlamaları"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Firefox Hesabınızı tam istifadə edə bilməyiniz üçün hesab təhlükəsizliyiniz, şərtlərimizdə olan dəyişikliklər, hesabınızın funksionallığı və başlamağınız üçün köməkçi olacaq e-poçtlar alacaqsız."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Əlavə olaraq, abunə olaraq Mozilla və Firefox haqqında son xəbərləri də e-poçtunuza ala bilərsiz."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1383,7 +1388,7 @@ msgstr "Əlavə et"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Bölümü açmaq üçün təkrar təsdiqləyin"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
