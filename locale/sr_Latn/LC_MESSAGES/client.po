@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-02 23:11+0000\n"
+"POT-Creation-Date: 2018-03-02 16:09+0000\n"
+"PO-Revision-Date: 2018-02-17 19:34+0000\n"
 "Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync će odmah nastaviti"
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Vaša lozinka je resetovana"
 
 #: .es5/views/ready.js:45
 msgid ""
@@ -92,7 +92,7 @@ msgstr "Sada ste spremni da koristite %(serviceName)s"
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -318,8 +318,10 @@ msgid "Open Restmail"
 msgstr "Otvori Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "E-pošta je ponovo poslata"
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69
 #: .es5/models/auth_brokers/base.js:78
@@ -372,7 +374,7 @@ msgstr "Sekundarna adresa e-pošte je potvrđena uspešno"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Lozinka je uspešno resetovana"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19
 #: .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59
@@ -549,7 +551,7 @@ msgid "This endpoint is no longer supported"
 msgstr "Krajnja tačka više nije podržana"
 
 #: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27
-#: .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98
+#: .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
@@ -703,6 +705,10 @@ msgstr ""
 msgid "Please try again later"
 msgstr "Probajte ponovo kasnije"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "Nepoznat nalog"
@@ -855,7 +861,7 @@ msgid "%(email)s registered."
 msgstr "%(email)s registrovana."
 
 #: .es5/templates/choose_what_to_sync.mustache:2
-#: .es5/templates/sign_up.mustache:27
+#: .es5/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Odaberite šta želite da uskladite"
 
@@ -897,7 +903,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Napravi novu lozinku"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -905,6 +911,10 @@ msgid ""
 "erased (including synced server data like history and bookmarks). That’s "
 "because we encrypt your data with your password to protect your privacy."
 msgstr ""
+"<span>ZAPAMTITE:</span> Ako resetujete vašu lozinku, neki vaši podaci će "
+"biti obrisani (uključujući sinhronizovane serverske podatke kao što su "
+"obeleživači i istorijat). To je zato što šifrujemo vaše podatke sa vašom "
+"lozinkom da bismo zaštitili vašu privatnost."
 
 #: .es5/templates/complete_reset_password.mustache:11
 #: .es5/templates/settings/change_password.mustache:6
@@ -913,7 +923,7 @@ msgstr "Nova lozinka"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Ponovo unesi lozinku"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -973,6 +983,8 @@ msgid ""
 "Click the link emailed to %(email)s within the next hour to create a new "
 "password."
 msgstr ""
+"Kliknite na vezu poslatu na adresu %(email)s u narednih sat vremena da biste "
+"napravili novu lozinku."
 
 #: .es5/templates/confirm_reset_password.mustache:5
 #: .es5/templates/confirm_reset_password.mustache:7
@@ -1066,7 +1078,7 @@ msgstr "Prijavite se da bi ste nastavili"
 #: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8
 #: .es5/templates/sign_in.mustache:16
 #: .es5/templates/sign_in_password.mustache:5
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up.mustache:17
+#: .es5/templates/sign_up.mustache:12
 #: .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/change_password.mustache:1
 #: .es5/templates/settings/delete_account.mustache:4
@@ -1081,13 +1093,16 @@ msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6
-#: .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22
+#: .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:15
 #: .es5/templates/sign_up_password.mustache:7
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a>."
 msgstr ""
+"Nastavljanjem prihvatate <a id=\"fxa-tos\" href=\"/legal/terms\">uslove "
+"korišćenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">politiku "
+"privatnosti</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1102,7 +1117,7 @@ msgid "Continue to %(serviceName)s"
 msgstr "Nastavite na %(serviceName)s"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-#: .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "E-pošta"
 
@@ -1209,6 +1224,10 @@ msgid ""
 "erased (including synced server data like history and bookmarks). That’s "
 "because we encrypt your data with your password to protect your privacy."
 msgstr ""
+"<span>NAPOMENA:</span> Ako resetujete vašu lozinku, nešto od vaših podataka "
+"će biti obrisano (uključujući sinhronizovane serverske podatke kao što su "
+"obeleživači i istorijat). To je zato što šifrujemo vaše podatke sa vašom "
+"lozinkom da bismo zaštitili vašu privatnost."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1326,26 +1345,26 @@ msgstr ""
 "Tražite vaše podatke o dodacima? Napravite Firefox nalog sa vašom starom "
 "adresom e-pošte za dodatke."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:13
+msgid "Repeat password"
+msgstr "Ponovite lozinku"
+
+#: .es5/templates/sign_up.mustache:14
 #: .es5/templates/sign_up_password.mustache:6
 msgid ""
 "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Jaka i jedinstvena lozinka će čuvati vaše podatke sigurnim od uljeza."
 
-#: .es5/templates/sign_up.mustache:20
-msgid "Repeat password"
-msgstr "Ponovite lozinku"
-
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:16
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u"
 
-#: .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:18
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Napravi nalog"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:23
 msgid "Have an account? Sign in"
 msgstr "Imate nalog? Prijavite se"
 
@@ -1446,7 +1465,7 @@ msgstr "Važi"
 msgid "Change…"
 msgstr "Promeni…"
 
-#: .es5/templates/settings/avatar.mustache:4
+#: .es5/templates/settings/avatar.mustache:3
 #: .es5/templates/settings/display_name.mustache:4
 #: .es5/templates/settings/emails.mustache:5
 msgid "Add…"
@@ -1718,6 +1737,9 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Email resent"
+#~ msgstr "E-pošta je ponovo poslata"
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Resursi nisu uspešno učitani"

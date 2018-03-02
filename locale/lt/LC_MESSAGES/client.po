@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
+"POT-Creation-Date: 2018-03-02 16:09+0000\n"
 "PO-Revision-Date: 2017-08-06 17:33+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "Galite pradėti naudotis „%(serviceName)s“"
 msgid "Account verified"
 msgstr "Paskyra patvirtinta"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "Jūsų paskyra nebeegzistuoja. Atkurti paskyrą?"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
 
@@ -261,8 +261,8 @@ msgid "Open Restmail"
 msgstr "Atverti „Restmail“"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "Laiškas išsiųstas pakartotinai"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -486,7 +486,7 @@ msgstr ""
 msgid "This endpoint is no longer supported"
 msgstr "Šis galinis tašas (endpoint) nebepalaikomas"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Sistema nepasiekiama, bandykite vėliau"
@@ -631,6 +631,10 @@ msgstr ""
 msgid "Please try again later"
 msgstr "Prašome bandyti vėliau"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "Nežinomas klientas"
@@ -763,7 +767,7 @@ msgstr "Sužinoti daugiau"
 msgid "%(email)s registered."
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Pasirinkite, ką sinchronizuosite"
 
@@ -930,8 +934,8 @@ msgstr "Bandykite dar kartą"
 msgid "Sign in to continue"
 msgstr "Norėdami tęsti, prisijunkite"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Slaptažodis"
 
@@ -940,7 +944,7 @@ msgstr "Slaptažodis"
 msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -953,7 +957,7 @@ msgstr ""
 msgid "Continue to %(serviceName)s"
 msgstr "norėdami tęsti su „%(serviceName)s“"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "El. paštas"
 
@@ -1123,23 +1127,23 @@ msgstr "Perkelkite savo sinchronizuotus duomenis, susikurdami naują „Firefox�
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Ieškote duomenų apie savo priedus? Užregistruokite „Firefox“ paskyrą naudodamiesi ankstesnės Priedų svetainės paskyros el. pašto adresu."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Stiprus ir unikalus slaptažodis padės apsaugoti jūsų „Firefox“ duomenis nuo pašalinių."
-
-#: .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up.mustache:13
 msgid "Repeat password"
 msgstr "Pakartokite slaptažodį"
 
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Stiprus ir unikalus slaptažodis padės apsaugoti jūsų „Firefox“ duomenis nuo pašalinių."
+
+#: .es5/templates/sign_up.mustache:16
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Kurti paskyrą"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:23
 msgid "Have an account? Sign in"
 msgstr "Jau turite paskyrą? Prisijunkite"
 
@@ -1205,7 +1209,7 @@ msgstr "Supratau"
 msgid "Change…"
 msgstr "Keisti…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Pridėti…"
 
@@ -1429,6 +1433,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Email resent"
+#~ msgstr "Laiškas išsiųstas pakartotinai"
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Nepavyko įkelti išteklių"

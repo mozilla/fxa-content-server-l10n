@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
+"POT-Creation-Date: 2018-03-02 16:09+0000\n"
 "PO-Revision-Date: 2018-01-29 11:25+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 msgid "Account verified"
 msgstr "Kontua egiaztatuta"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
@@ -95,7 +95,7 @@ msgstr "Firefox kontu ezezaguna. Zure gehigarrien datuetarako sarbidea izateko, 
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontua jada ez da existitzen. Birsortu nahi al duzu?"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
@@ -257,8 +257,8 @@ msgid "Open Restmail"
 msgstr "Ireki Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "Mezua berriro bidali da"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -480,7 +480,7 @@ msgstr "Ezaugarri ez gaitua"
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
@@ -625,6 +625,10 @@ msgstr "<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> esan nahi
 msgid "Please try again later"
 msgstr "Saiatu berriro geroago"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "Bezero ezezaguna"
@@ -757,7 +761,7 @@ msgstr "Argibide gehiago"
 msgid "%(email)s registered."
 msgstr "%(email)s erregistratuta."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Aukeratu zer sinkronizatu"
 
@@ -924,8 +928,8 @@ msgstr "Saiatu berriro"
 msgid "Sign in to continue"
 msgstr "Hasi saioa jarraitzeko"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Pasahitza"
 
@@ -934,7 +938,7 @@ msgstr "Pasahitza"
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztuta?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -947,7 +951,7 @@ msgstr "Idatzi zure helbide elektronikoa"
 msgid "Continue to %(serviceName)s"
 msgstr "Jarraitu %(serviceName)s zerbitzura"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "Helbide elektronikoa"
 
@@ -1117,23 +1121,23 @@ msgstr "Migratu sinkronizatutako zure informazioa Firefox&nbsp;Kontu berri bat s
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Zure gehigarrien datuak bilatzen? Hasi saioa Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
-
-#: .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up.mustache:13
 msgid "Repeat password"
 msgstr "Errepikatu pasahitza"
 
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
+
+#: .es5/templates/sign_up.mustache:16
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Sortu kontua"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:23
 msgid "Have an account? Sign in"
 msgstr "Baduzu kontua? Hasi saioa"
 
@@ -1201,7 +1205,7 @@ msgstr "Ulertuta"
 msgid "Change…"
 msgstr "Aldatu…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Gehitu…"
 
@@ -1425,6 +1429,9 @@ msgstr "Hasi saioa"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Hasi saioa"
+
+#~ msgid "Email resent"
+#~ msgstr "Mezua berriro bidali da"
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Huts egin du baliabideak kargatzerakoan"
