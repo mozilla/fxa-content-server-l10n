@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-03-04 16:09+0000\n"
+"PO-Revision-Date: 2018-03-04 16:24+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -132,7 +132,7 @@ msgstr "Соңғы синхрондау %(translatedTimeAgo)s, орны %(transl
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы синхрондау %(translatedTimeAgo)s шамасынан артық, орны %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -140,7 +140,7 @@ msgstr "Соңғы белсенділік %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңғы белсенділік %(translatedTimeAgo)s шамасынан артық"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -452,7 +452,7 @@ msgstr "Біріншілік эл. поштаны бұл тіркелгіге ж
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Бұл эл. поштаны ағымдағы уақытта кіру үшін қолдану мүмкін емес"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
@@ -460,11 +460,11 @@ msgstr "Эл. поштаны жіберу сәтсіз аяқталды"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Кірудің растау коды қате"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Бұл растау коды ескірген"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
@@ -787,7 +787,7 @@ msgstr "Сіз шерткен сілтемеде бірнеше таңба жо�
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Жаңа парольді жасау"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -801,7 +801,7 @@ msgstr "Жаңа пароль"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Парольді қайта енгізіңіз"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Кодты енгізіңіз"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
