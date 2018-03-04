@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-03-04 09:07+0000\n"
+"PO-Revision-Date: 2018-03-04 09:14+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1331,11 +1331,11 @@ msgstr "Kontakteerumise eelistused"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Saadame sulle teavet sinu konto turvalisusest, muudatustest meie poliitikates ja sinu konto funktsionaalsuses ning tutvustavaid kirju, mis aitavad sul Firefoxi kontost parimat võtta."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Lisaks võid tellida reklaampostitusi viimaste uudistega Mozillast ja Firefoxist."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,7 +1387,7 @@ msgstr "Lisa"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Selle leheosa avamiseks kinnita uuesti"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
