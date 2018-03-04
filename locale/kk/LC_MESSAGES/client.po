@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-01-11 14:52+0000\n"
+"PO-Revision-Date: 2018-03-04 16:09+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -48,7 +48,7 @@ msgstr "Firefox синхронизациясы қазір жалғастырыл
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Пароліңіз тасталды"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -128,7 +128,7 @@ msgstr "Соңғы синхрондау %(translatedTimeAgo)s шамасынан
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы синхрондау %(translatedTimeAgo)s, орны %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -308,7 +308,7 @@ msgstr "Екінішілік эл. пошта сәтті расталды"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Парольді тастау сәтті аяқталды"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -692,9 +692,7 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -1219,8 +1217,8 @@ msgstr "Камера"
 msgid "Clear"
 msgstr "Тазарту"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Дайын"
 
@@ -1449,9 +1447,7 @@ msgstr "Кіру"
 #~ msgstr "Жаңа парольді жасау үшін %(email)s адресіне жіберілген хаттағы сілтемеге көп ұзамай шертіңіз."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> "
-#~ "келісесіз."
+#~ msgstr "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox бұлттық қызметтері"
@@ -1600,11 +1596,11 @@ msgstr "Кіру"
 #~ msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа "
-#~ "кіріңіз, одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
+#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа кіріңіз, "
+#~ "одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1696,11 +1692,11 @@ msgstr "Кіру"
 #~ msgstr "Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> үшін қолжетерлік."
+#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
 
 #~ msgid "Delete"
 #~ msgstr "Өшіру"
@@ -1833,8 +1829,8 @@ msgstr "Кіру"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде "
-#~ "өз эл. пошта адресіңізді енгіңіз."
+#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде өз "
+#~ "эл. пошта адресіңізді енгіңіз."
 
 #~ msgid "a day"
 #~ msgstr "бір күн"
