@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
+"POT-Creation-Date: 2018-03-06 00:59+0000\n"
 "PO-Revision-Date: 2018-02-19 11:52+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "Spremni ste za korištenje %(serviceName)s"
 msgid "Account verified"
 msgstr "Korisnički račun verifikovan"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat račun. <a href=\"/signup\">prijavi se</a>"
 
@@ -94,7 +94,7 @@ msgstr "Nepoznat Firefox račun. <a href=\"/signup\">Prijavite se</a> koristeći
 msgid "Account no longer exists. Recreate it?"
 msgstr "Račun više ne postoji. Kreirajte ponovo?"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Račun već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -255,8 +255,8 @@ msgid "Open Restmail"
 msgstr "Otvori Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "Email ponovo poslan"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -478,7 +478,7 @@ msgstr "Funkcija nije omogućena"
 msgid "This endpoint is no longer supported"
 msgstr "Ovaj endpoint više nije podržan"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Sistem nije dostupan, pokušajte ponovo kasnije"
@@ -623,6 +623,10 @@ msgstr "Jeste li mislili <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s
 msgid "Please try again later"
 msgstr "Pokušajte ponovo kasnije"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "Nepoznat klijent"
@@ -692,7 +696,9 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -753,7 +759,7 @@ msgstr "Saznaj više"
 msgid "%(email)s registered."
 msgstr "%(email)s registrovano."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Odaberite šta ćete sinhronizovati"
 
@@ -922,8 +928,8 @@ msgstr "Pokušaj ponovo"
 msgid "Sign in to continue"
 msgstr "Prijavi se za nastavak"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Lozinka"
 
@@ -932,7 +938,7 @@ msgstr "Lozinka"
 msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\">uslove pružanja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">politiku privatnosti</a>."
 
@@ -945,7 +951,7 @@ msgstr "Upišite vaš email"
 msgid "Continue to %(serviceName)s"
 msgstr "Nastavi na %(serviceName)s"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "Email"
 
@@ -1117,23 +1123,31 @@ msgstr "Migrirajte svoje podatke o sinhronizaciji tako što ćete napraviti novi
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Tražite podatke dodataka? Prijavite se za Firefox račun sa starim emailom za račun dodataka."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Jaka, jedinstvena lozinka čuva vaše Firefox podatke sigurnim od uljeza."
-
-#: .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up.mustache:13
 msgid "Repeat password"
 msgstr "Ponovi lozinku"
 
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:15
+msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:16
+msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Saznajte najnovije vijesti o Mozilli i Firefoxu"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Kreiraj račun"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Imate račun? Prijavite se"
 
@@ -1201,7 +1215,7 @@ msgstr "Razumijem"
 msgid "Change…"
 msgstr "Promijeni…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Dodaj…"
 
@@ -1221,8 +1235,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1426,6 +1440,12 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Email resent"
+#~ msgstr "Email ponovo poslan"
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Jaka, jedinstvena lozinka čuva vaše Firefox podatke sigurnim od uljeza."
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Resursi nisu učitani"

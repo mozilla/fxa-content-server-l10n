@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
+"POT-Creation-Date: 2018-03-06 00:59+0000\n"
 "PO-Revision-Date: 2017-12-01 09:06+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "أنت الآن جاهز لاستخدام %(serviceName)s"
 msgid "Account verified"
 msgstr "أُكِّد الحساب"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "الحساب غير معروف. <a href=\"/signup\">أنشئ حسابًا</a>"
 
@@ -94,7 +94,7 @@ msgstr "حساب فَيَرفُكس غير معروف. <a href=\"/signup\">أن�
 msgid "Account no longer exists. Recreate it?"
 msgstr "لم يعد الحساب موجودًا. أتريد إعادة إنشائه؟"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "الحساب موجود مسبقًا. <a href=\"/signin\">سجل الدخول</a>"
 
@@ -255,8 +255,8 @@ msgid "Open Restmail"
 msgstr "افتح بريد إعادة تعيين"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "أُعيد إرسال البريد الإلكتروني"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -478,7 +478,7 @@ msgstr ""
 msgid "This endpoint is no longer supported"
 msgstr "لم تعد نقطة النهاية هذه مدعومة"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "النظام غير متوفر، حاول مرة أخرى قريبًا"
@@ -623,6 +623,10 @@ msgstr "هل تقصد <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</s
 msgid "Please try again later"
 msgstr "رجاء أعد المحاولة في وقت لاحق"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "مستخدم غير معروف"
@@ -754,7 +758,7 @@ msgstr "اطّلع على المزيد"
 msgid "%(email)s registered."
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "اختر ما الذي تريد مزامنة"
 
@@ -921,8 +925,8 @@ msgstr "أعِد المحاولة"
 msgid "Sign in to continue"
 msgstr "لِج للمتابعة"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "كلمة السرّ"
 
@@ -931,7 +935,7 @@ msgstr "كلمة السرّ"
 msgid "Forgot password?"
 msgstr "هل نسيت كلمة السرّ؟"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -944,7 +948,7 @@ msgstr "أدخل بريدك الإلكتروني"
 msgid "Continue to %(serviceName)s"
 msgstr "تابِع نحو %(serviceName)s"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
@@ -1114,23 +1118,31 @@ msgstr "رحّل بيانات المزامنة الخاصة بك عن طريق �
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "أتبحث عن بيانات إضافاتك؟ سجّل للحصول على حساب فَيَرفُكس باستخدام عنوان بريدك الإلكتروني الذي كنت تستخدمه مع حساب الإضافات القديم."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "اِستخدام كلمة سرّ قوية و فريدة سوف يحمي بيانات فَيَرفُكس الخاصة بك من الدخلاء."
-
-#: .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up.mustache:13
 msgid "Repeat password"
 msgstr "كرر كلمة السرّ"
 
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:15
+msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:16
+msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "احصل على آخر أخبار موزيلا و فَيَرفُكس"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "أنشئ حسابًا"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "لديك حساب؟ لج"
 
@@ -1198,7 +1210,7 @@ msgstr "فهمت"
 msgid "Change…"
 msgstr "غيّر…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "أضِف…"
 
@@ -1422,6 +1434,12 @@ msgstr "لج"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "لج"
+
+#~ msgid "Email resent"
+#~ msgstr "أُعيد إرسال البريد الإلكتروني"
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "اِستخدام كلمة سرّ قوية و فريدة سوف يحمي بيانات فَيَرفُكس الخاصة بك من الدخلاء."
 
 #~ msgid "Resources failed to load"
 #~ msgstr "فشل تحميل الموارد"

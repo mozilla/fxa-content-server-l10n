@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 16:10+0000\n"
-"PO-Revision-Date: 2018-02-05 07:42+0000\n"
+"POT-Creation-Date: 2018-03-06 00:59+0000\n"
+"PO-Revision-Date: 2018-02-19 08:50+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -49,7 +49,7 @@ msgstr "Firefox Sync sil ynkoarten trochgean"
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Jo wachtwurd is opnij ynsteld"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -83,7 +83,7 @@ msgstr "Jo kinne %(serviceName)s no brûke"
 msgid "Account verified"
 msgstr "Account ferifiearre"
 
-#: .es5/views/reset_password.js:126 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
@@ -95,7 +95,7 @@ msgstr "Unbekende Firefox-account. <a href=\"/signup\">Registrearje</a> mei help
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 
-#: .es5/views/sign_up.js:291
+#: .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
@@ -256,8 +256,8 @@ msgid "Open Restmail"
 msgstr "Restmail iepenje"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "E-mailberjocht opnij ferstjoerd"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -309,7 +309,7 @@ msgstr "Sekundêr e-mailadres mei sukses ferifiearre"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Wachtwurd mei sukses opnij ynsteld"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -479,7 +479,7 @@ msgstr "Funksje net ynskeakele"
 msgid "This endpoint is no longer supported"
 msgstr "Dit einpunt wurdt net mear stipe"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Systeem net beskikber, probearje it letter opnij"
@@ -624,6 +624,10 @@ msgstr "Bedoelden jo <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</sp
 msgid "Please try again later"
 msgstr "Probearje letter opnij"
 
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
 msgstr "Unbekende client"
@@ -756,7 +760,7 @@ msgstr "Mear ynfo"
 msgid "%(email)s registered."
 msgstr "%(email)s registrearre."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Kies wat jo syngronisearje wolle"
 
@@ -790,13 +794,15 @@ msgstr "De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rek
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Nij wachtwurd oanmeitsje"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>ÛNTHÂLD:</span> as jo jo wachtwurd opnij ynstelle, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens, lykas skiednis en blêdwizers). Dit komt troch dat wy jo "
+"gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -804,7 +810,7 @@ msgstr "Nije wachtwurd"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Fier wachtwurd nochris yn"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -853,7 +859,7 @@ msgstr "Keppeling foar opnij ynstellen ferstjoerd"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Klik binnen in oer op de keppeling dy't nei %(email)s ferstjoerd is om in nij wachtwurd oan te meitsjen."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -923,8 +929,8 @@ msgstr "Opnij probearje"
 msgid "Sign in to continue"
 msgstr "Meld jo oan om troch te gean"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Wachtwurd"
 
@@ -933,9 +939,9 @@ msgstr "Wachtwurd"
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -946,7 +952,7 @@ msgstr "Fier jo e-mailadres yn"
 msgid "Continue to %(serviceName)s"
 msgstr "Trochgean nei %(serviceName)s"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "E-mailadres"
 
@@ -1027,6 +1033,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>NOAT:</span> as jo jo wachtwurd opnij ynstelle, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens, lykas skiednis en blâdwizers). Dit komt troch dat wy jo gegevens "
+"mei jo wachtwurd fersiferje om jo privacy te beskermjen."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1116,23 +1124,31 @@ msgstr "Migrearje jo Sync-gegevens troch in nij Firefox-account oan te meitsjen.
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Sykje jo jo add-on-gegevens? Registrearje foar in Firefox-account mei it e-mailadres fan jo âlde Add-ons-account."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkringers."
-
-#: .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up.mustache:13
 msgid "Repeat password"
 msgstr "Nochris it wachtwurd"
 
-#: .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:15
+msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:16
+msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Untfang it lêste nijs oer Mozilla en Firefox"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Account oanmeitsje"
 
-#: .es5/templates/sign_up.mustache:30
+#: .es5/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Hawwe jo in account? Oanmelde"
 
@@ -1200,7 +1216,7 @@ msgstr "Begrepen"
 msgid "Change…"
 msgstr "Wizigje…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Tafoegje…"
 
@@ -1332,10 +1348,12 @@ msgstr "Kommunikaasjefoarkarren"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Om jo te helpen it measte út jo Firefox-account te heljen, ûntfange jo berjochten mei betrekking ta jo accountbefeiliging, wizigingen oan ús belied, de funksjonaliteit fan jo account, en ynliedende "
+"e-mails."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Dêrneist kinne jo jo ynskriuwe foar it ûntfangen fan promosjonele e-mails mei it lêste nijs fan Mozilla en Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,7 +1405,7 @@ msgstr "Tafoegje"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Opnij ferifiearje om seksje te ûntskoatteljen"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1424,6 +1442,12 @@ msgstr "Oanmelde"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Oanmelde"
+
+#~ msgid "Email resent"
+#~ msgstr "E-mailberjocht opnij ferstjoerd"
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkringers."
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Boarnen lade misliearre"
