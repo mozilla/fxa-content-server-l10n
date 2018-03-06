@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 16:52+0000\n"
+"PO-Revision-Date: 2018-03-06 16:53+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1134,7 +1134,7 @@ msgstr "<span>Använd inte ditt e-postlösenord</span><br/>Om någon känner til
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Kom ihåg ditt lösenord</span><br/>Om du behöver återställa ditt lösenord, så kommer du förlora all Sync data som inte är på någon av dina enheter."
+msgstr "<span>Kom ihåg ditt lösenord</span><br/>Om du behöver återställa ditt lösenord, kommer du att förlora Sync-data som inte finns på någon av dina enheter."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
