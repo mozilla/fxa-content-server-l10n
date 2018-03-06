@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-06 18:49+0000\n"
+"PO-Revision-Date: 2018-03-06 18:55+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1132,11 +1132,11 @@ msgstr "NJezhubjejće tute hesło. Jeli dyrbiće jo wróćo stajić, zhubiće sn
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Njewužiwajće swoje e-mejlowe hesło znowa</span>Jeli něchtó waše e-mejlowe hesło wě, móže waše přizjewjenje Firefox na nowym graće wobkrućić a změje přistup na waše daty."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Spomjatkujće sej swoje hesło</span>Jeli dyrbiće swoje hesło wróćo stajić, zhubiće synchronizaciske daty, kotrež na jednym z wašich gratow njejsu."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
