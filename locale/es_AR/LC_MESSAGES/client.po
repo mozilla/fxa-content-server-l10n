@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 14:41+0000\n"
+"PO-Revision-Date: 2018-03-06 15:11+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -857,7 +857,7 @@ msgstr "Se envió el correo para restablecer"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Haga clic en el enlace que le enviamos a %(email)s dentro de la próxima hora para crear una nueva contraseña."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
