@@ -18,7 +18,7 @@ notifications:
     skip_join: false
   email:
     recipients: 
-      - mhorvat@mozilla.com
+      - pmo@mozilla.com
       - rfk@mozilla.com
       - stomlinson@mozilla.com
       - vfilippov@mozilla.com
