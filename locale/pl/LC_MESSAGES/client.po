@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 15:28+0000\n"
+"PO-Revision-Date: 2018-03-06 15:33+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1053,7 +1053,7 @@ msgstr "Szukasz danych dodatków? <a href=\"/signup\">Zarejestruj</a> konto Fire
 
 #: .es5/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Przenieś dane synchronizacji logując w koncie&nbsp;Firefoksa."
+msgstr "Przenieś synchronizowane dane logując na koncie&nbsp;Firefoksa."
 
 #: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12
 msgid "Use a different account"
@@ -1117,7 +1117,7 @@ msgstr "Utwórz konto Firefoksa"
 
 #: .es5/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Przenieś dane synchronizacji tworząc konto&nbsp;Firefoksa."
+msgstr "Przenieś synchronizowane dane tworząc konto&nbsp;Firefoksa."
 
 #: .es5/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
@@ -1129,15 +1129,16 @@ msgstr "Powtórz hasło"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "Nie zgub tego hasła. Jego zmiana może spowodować utratę danych synchronizacji."
+msgstr "Nie zgub tego hasła. Jego zmiana może spowodować utratę synchronizowanych danych."
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>Nie używaj tutaj swojego hasła poczty e-mail</span><br/>Jeśli ktoś zna Twoje hasło do poczty, to może zatwierdzić logowanie do Firefoksa na nowym urządzeniu i uzyskać dostęp do Twoich danych."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Zapamiętaj swoje hasło</span><br/>Wszystkie synchronizowane dane, które nie znajdują się na żadnym urządzeniu, zostaną utracone po zmianie hasła."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
