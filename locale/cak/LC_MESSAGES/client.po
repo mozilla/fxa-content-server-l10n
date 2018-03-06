@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-06 20:09+0000\n"
+"PO-Revision-Date: 2018-03-06 20:11+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1134,7 +1134,7 @@ msgstr "<span>Man tawokisaj chik ri ewan rutzij ataqoya'l</span>We k'o etamayon 
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Tanataj ri ewan atzij</span>We k'atzinel natzolij chi ri ewan atzij, xtasäch xab'achike kiximoj tzij ri man k'o ta pa jun chi ke ri taq awokisaxel."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
