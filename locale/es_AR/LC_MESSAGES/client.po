@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 15:27+0000\n"
+"PO-Revision-Date: 2018-03-06 15:39+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1348,6 +1348,8 @@ msgstr "Preferencias de comunicación"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Usted recibirá comunicaciones relativas a la seguridad de su cuenta, cambios en nuestra política, funcionalidad de su cuenta y correos electrónicos iniciales para ayudarle a aprovechar al máximo su "
+"cuenta de Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
