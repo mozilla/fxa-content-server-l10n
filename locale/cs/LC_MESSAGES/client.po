@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 00:59+0000\n"
+"POT-Creation-Date: 2018-03-06 17:37+0000\n"
 "PO-Revision-Date: 2018-02-25 16:17+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1133,11 +1133,11 @@ msgid "Don’t lose this password. If you need to reset it, you may lose Sync da
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:18

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-02-17 15:47+0000\n"
-"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
+"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"PO-Revision-Date: 2018-03-06 16:53+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -257,7 +257,7 @@ msgstr "Öppna Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Mejl skickat igen. Lägg till accounts@firefox.com till dina kontakter för att säkerställa en smidig leverans."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -626,7 +626,7 @@ msgstr "Försök igen senare"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Tjänsten är inte tillgänglig, försök igen senare"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -1130,14 +1130,14 @@ msgstr "Upprepa lösenordet"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Tappa in bort detta lösenord. Om du behöver återställa det så kan du förlora Sync-data."
 
 #: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:18
@@ -1441,6 +1441,12 @@ msgstr "Logga in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
+
+#~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>Använd inte ditt e-postlösenord</span><br/>Om någon känner till ditt e-postlösenord kan de godkänna din Firefox-inloggning på en ny enhet och få tillgång till dina data."
+
+#~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Kom ihåg ditt lösenord</span><br/>Om du behöver återställa ditt lösenord, kommer du att förlora Sync-data som inte finns på någon av dina enheter."
 
 #~ msgid "Email resent"
 #~ msgstr "E-post har skickats"
