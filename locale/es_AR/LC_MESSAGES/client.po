@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 15:11+0000\n"
+"PO-Revision-Date: 2018-03-06 15:27+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -939,7 +939,7 @@ msgstr "¿Te olvidaste la contraseña?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Al proceder, está de acuerdo con los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1031,6 +1031,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>Nota:</span> Si restablece la contraseña, algunos de sus datos se borrarán (incluyendo los datos sincronizados del servidor como el historial y los marcadores). Eso es porque ciframos los "
+"datos con contraseña para proteger su privacidad."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1126,15 +1128,17 @@ msgstr "Repetí la contraseña"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "No pierda esta contraseña. Si necesita restablecerla, puede perder la sincronización de los datos."
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>No vuelva a utilizar su contraseña de correo electrónico</span><br>Si alguien sabe su contraseña de correo electrónico, puede aprobar su ingreso a Firefox en un nuevo dispositivo y acceder a "
+"sus datos."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Recuerde su contraseña</span><br>Si necesita restablecer su contraseña, perderá cualquier sincronización de datos que no esté en uno de sus dispositivos."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
