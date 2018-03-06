@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 00:59+0000\n"
-"PO-Revision-Date: 2018-03-06 05:28+0000\n"
+"PO-Revision-Date: 2018-03-06 05:39+0000\n"
 "Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -257,7 +257,7 @@ msgstr "Öppna Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Mail skickat igen. Lägg till accounts@firefox.com till dina kontakter för att säkerställa en smidig leverans."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -1130,11 +1130,11 @@ msgstr "Tappa in bort detta lösenord. Om du behöver återställa det så kan d
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Använd inte samma lösenord som till din email</span><br/>Om någon kan ditt email lösenord, så kan dom lägga in ditt Firefox konto på en ny enhet och få åtkomst till din data."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Kom ihåg ditt lösenord</span><br/>Om du behöver återställa ditt lösenord, så kommer du förlora all Sync data som inte är på någon av dina enheter."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
