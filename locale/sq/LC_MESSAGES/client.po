@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 00:59+0000\n"
+"POT-Creation-Date: 2018-03-06 17:37+0000\n"
 "PO-Revision-Date: 2018-03-06 12:34+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -487,7 +487,7 @@ msgstr "Kjo pikë mbarimi s’mbulohet më"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
@@ -712,10 +712,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -811,7 +813,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -830,10 +832,10 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1181,14 +1183,12 @@ msgid "Don’t lose this password. If you need to reset it, you may lose Sync da
 msgstr "Mos e humbni këtë fjalëkalim. Nëse ju duhet ta ricaktoni, mund të humbni të dhëna Sync-u."
 
 #: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
-"<span>Mos e ripërdorni fjalëkalimin tuaj email</span><br/>Nëse dikush e di fjalëkalimin e email-it tuaj, ata mund të miratojnë hyrje tuajën Firefox në një pajisje të re dhe të hyjnë në të dhënat "
-"tuaja."
 
 #: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Mbajeni mend fjalëkalimin tuaj</span><br/>Nëse ju duhet të ricaktoni fjalëkalimin tuaj, do të humbni çfarëdo të dhënash që s’gjendet në një nga pajisjet tuaja."
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1289,8 +1289,8 @@ msgstr "Kamerë"
 msgid "Clear"
 msgstr "Pastroje"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "U bë"
 
@@ -1496,6 +1496,14 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Hyni"
 
+#~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>Mos e ripërdorni fjalëkalimin tuaj email</span><br/>Nëse dikush e di fjalëkalimin e email-it tuaj, ata mund të miratojnë hyrje tuajën Firefox në një pajisje të re dhe të hyjnë në të dhënat "
+#~ "tuaja."
+
+#~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Mbajeni mend fjalëkalimin tuaj</span><br/>Nëse ju duhet të ricaktoni fjalëkalimin tuaj, do të humbni çfarëdo të dhënash që s’gjendet në një nga pajisjet tuaja."
+
 #~ msgid "Email resent"
 #~ msgstr "Email-i u ridërgua"
 
@@ -1527,7 +1535,9 @@ msgstr "Hyni"
 #~ msgstr "Klikoni mbi lidhjen që ju dërguam me email te %(email)s brenda orës pasuese që të krijoni një fjalëkalim të ri."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
+#~ msgstr ""
+#~ "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
+#~ "Firefox-it."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Shërbime reje nga Firefox-i"
@@ -1671,19 +1681,19 @@ msgstr "Hyni"
 #~ msgstr "Pse të njëkohësohen dy (ose më tepër!) pajisje?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe do "
-#~ "të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
+#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe "
+#~ "do të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat tuaja"
-#~ " s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe të "
-#~ "përdorni Sync-un në më shumë se një pajisje."
+#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat "
+#~ "tuaja s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe "
+#~ "të përdorni Sync-un në më shumë se një pajisje."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1784,18 +1794,20 @@ msgstr "Hyni"
 #~ msgid "Sync preferences"
 #~ msgstr "Parapëlqime për Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Keni një llogari me një tjetër email? <a href=\"%(signinUri)s\">Hyni</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Së fundi aktiv: %(translatedTimeAgo)s"
@@ -2019,5 +2031,5 @@ msgstr "Hyni"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur "
-#~ "funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të "
+#~ "mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."

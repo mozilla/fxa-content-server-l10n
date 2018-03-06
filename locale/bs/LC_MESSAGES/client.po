@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 00:59+0000\n"
+"POT-Creation-Date: 2018-03-06 17:37+0000\n"
 "PO-Revision-Date: 2018-03-06 13:02+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -696,7 +696,9 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1130,12 +1132,12 @@ msgid "Don’t lose this password. If you need to reset it, you may lose Sync da
 msgstr "Nemojte izgubiti ovu lozinku. Ako je trebate resetovati, možete izgubiti podatke sinhronizacije."
 
 #: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>Nemoj ponovo koristiti ovu email lozinku</span><br/>Ako neko zna vašu lozinku, mogu je odobriti putem vašeg Firefox računa na novom uređaju i pristupiti vašim podacima."
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
 
 #: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Zamaptite svoju lozinku</span><br/>Ako trebate resetovati lozinku, izgubit ćete sve podatke sinhronizacije koji nisu na jednom od vaših uređaja."
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1233,8 +1235,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1438,6 +1440,12 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>Nemoj ponovo koristiti ovu email lozinku</span><br/>Ako neko zna vašu lozinku, mogu je odobriti putem vašeg Firefox računa na novom uređaju i pristupiti vašim podacima."
+
+#~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Zamaptite svoju lozinku</span><br/>Ako trebate resetovati lozinku, izgubit ćete sve podatke sinhronizacije koji nisu na jednom od vaših uređaja."
 
 #~ msgid "Email resent"
 #~ msgstr "Email ponovo poslan"
