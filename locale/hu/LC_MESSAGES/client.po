@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-07 10:49+0000\n"
+"PO-Revision-Date: 2018-03-07 10:51+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -1137,7 +1137,7 @@ msgstr "<span>Ne használja újra régi e-mail jelszavait</span>Ha valaki tudja 
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Jegyezze meg a jelszavát</span>Ha helyre kell állítani a jelszavát, akkor elveszít minden Sync adatot, amely nincs meg az eszközei valamelyikén."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
