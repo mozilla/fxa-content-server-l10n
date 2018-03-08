@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-08 00:01+0000\n"
+"PO-Revision-Date: 2018-03-08 00:30+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1134,11 +1134,11 @@ msgstr "No pierdas esta contraseña. De tener que resetearla, perderás tus dato
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>No reutilices tu contraseña del correo</span> Si alguien conoce tu contraseña del correo, entonces la puede usar para aprobar una conexión en un nuevo dispositivo y acceder a tus datos."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Recuerda tu contraseña</span> Si necesitas restablecer tu contraseña, perderás los datos de sincronización que no estén en ninguno de tus dispositivos."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
