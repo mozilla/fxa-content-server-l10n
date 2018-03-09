@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2018-03-04 09:14+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "%(serviceName)s on kasutamiseks valmis."
 msgid "Account verified"
 msgstr "Konto on kinnitatud"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tundmatu konto. <a href=\"/signup\">Registreeru</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Tundmatu Firefoxi konto. <a href=\"/signup\">Registreeru</a>, kasutades oma eelmist lisade konto e-postiaadressi, ning pääsed ligi oma lisade andmetele."
 

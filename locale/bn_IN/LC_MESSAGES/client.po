@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "আপনি এখন %(serviceName)s ব্যবহার করত�
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাইকরণ হয়েছে"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অপরিচিত অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "অজানা Firefox অ্যাকাউন্ট। আপনার পূর্ববর্তী অ্যাড-অন অ্যাকাউন্টের ইমেইল ঠিকানা ব্যবহার করে <a href=\"/signup\">সাইন আপ</a> করুন আপনার অ্যাড-অন ডাটা অ্যাক্সেস করার জন্য।"
 

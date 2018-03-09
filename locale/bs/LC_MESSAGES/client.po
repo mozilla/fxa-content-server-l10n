@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2018-03-07 08:22+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +82,11 @@ msgstr "Spremni ste za korištenje %(serviceName)s"
 msgid "Account verified"
 msgstr "Korisnički račun verifikovan"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat račun. <a href=\"/signup\">prijavi se</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Nepoznat Firefox račun. <a href=\"/signup\">Prijavite se</a> koristeći prethodnu email adresu računa dodataka za pristup vašim podacima dodataka."
 
@@ -696,7 +696,9 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1233,8 +1235,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 

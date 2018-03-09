@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2017-11-26 17:21+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "தாங்கள் இப்பொழுது %(serviceName)s சே
 msgid "Account verified"
 msgstr "கணக்கு சரிபார்க்கப்பட்டது"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதிவு செய்</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2018-02-19 08:27+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 msgid "Account verified"
 msgstr "계정 확인"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "알 수 없는 Firefox 계정입니다. 이 추가 기능의 데이터에 접근하려면 이전에 사용했던 계정의 이메일 주소로 <a href=\"/signup\">가입</a>하세요."
 

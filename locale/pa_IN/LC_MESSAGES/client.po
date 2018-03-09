@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2017-11-11 16:52+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆ�
 msgid "Account verified"
 msgstr "ਖਾਤੇ ਦੀ ਜਾਂਚ ਪੂਰੀ ਹੋਈ"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "ਅਣਪਛਾਤਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ। ਆਪਣੇ ਐਡ-ਆਨ ਡਾਟੇ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਪਿਛਲੇ ਐਡ-ਆਨ ਖਾਤਾ ਈਮੇਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ <a href=\"/signup\">ਸਾਈਨ ਅੱਪ</a> ਕਰੋ।"
 

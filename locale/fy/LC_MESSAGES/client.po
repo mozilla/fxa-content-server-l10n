@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-06 12:06+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
+"PO-Revision-Date: 2018-03-08 07:49+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -83,11 +83,11 @@ msgstr "Jo kinne %(serviceName)s no brûke"
 msgid "Account verified"
 msgstr "Account ferifiearre"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Unbekende Firefox-account. <a href=\"/signup\">Registrearje</a> mei help fan it e-mailadres fan jo eardere Add-ons-account om jo add-on-gegevens te benaderjen."
 
@@ -1134,11 +1134,11 @@ msgstr "Ferlies dit wachtwurd net. As jo it opnij ynstelle moatte, kinne jo Sync
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Unthâld jo wachtwurd</span>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
