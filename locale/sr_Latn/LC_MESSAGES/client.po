@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-02-17 19:34+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
+"PO-Revision-Date: 2018-03-06 18:41+0000\n"
 "Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -92,11 +92,11 @@ msgstr "Sada ste spremni da koristite %(serviceName)s"
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid ""
 "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous "
 "Add-ons account email address to access your Add-ons data."
@@ -322,6 +322,8 @@ msgid ""
 "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
 "delivery."
 msgstr ""
+"Poruka e-pošte je ponovo poslata. Dodajte accounts@firefox.com u vaše "
+"kontakte da biste osigurali prijem poruke."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69
 #: .es5/models/auth_brokers/base.js:78
@@ -707,7 +709,7 @@ msgstr "Probajte ponovo kasnije"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Usluga nije dostupna, probajte ponovo kasnije"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -1354,6 +1356,8 @@ msgstr "Ponovite lozinku"
 msgid ""
 "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
+"Čuvajte ovu lozinku. Ukoliko vam zatreba resetovanje, možete izgubiti vaše "
+"Sync podatke."
 
 #: .es5/templates/sign_up.mustache:15
 msgid ""
@@ -1361,12 +1365,17 @@ msgid ""
 "password, they can approve your Firefox sign-in on a new device and access "
 "your data."
 msgstr ""
+"<span>Ne koristite lozinku vaše e-adrese više puta</span>Ukoliko neko zna "
+"lozinku vašeg e-naloga, može odobriti Firefox prijavljivanje na novom "
+"uređaju i tako pristupiti vašim podacima."
 
 #: .es5/templates/sign_up.mustache:16
 msgid ""
 "<span>Remember your password</span>If you need to reset your password, you "
 "will lose any Sync data that is not on one of your devices."
 msgstr ""
+"<span>Zapamtite vašu lozinku</span>Ako vam zatreba resetovanje lozinke, "
+"izgubićete bilo koje Sync podatke koji nisu ni na jednom od vaših uređaja."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1635,12 +1644,17 @@ msgid ""
 "to our policy, your account’s functionality and initial emails to help you "
 "get the most from your Firefox Account."
 msgstr ""
+"Dobijaćete novosti vezane za bezbednost vašeg naloga, promene u našoj "
+"polisi, funkcionalnost vašeg naloge i početne e-poruke koje će vam pomoći da "
+"iskoristite vaš Firefox nalog u potpunosti."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid ""
 "Additionally, you can subscribe to receive promotional emails with the "
 "latest news from Mozilla and Firefox."
 msgstr ""
+"Takođe, možete se pretplatiti na promotivne e-poruke koje će sadržati "
+"poslednje vesti o Mozilla-i i Firefox-u."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1706,7 +1720,7 @@ msgstr "Dodaj"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Ponovo potvrdite da otključate odeljak"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

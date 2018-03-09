@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-09 16:10+0000\n"
 "PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +82,11 @@ msgstr "ឥឡូវ អ្នក​អាច​ប្រើ​ប្រាស�
 msgid "Account verified"
 msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:173
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "មិន​ស្គាល់​គណនី។ <a href=\"/signup\">ចុះឈ្មោះ</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:170
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/signup\">ចុះឈ្មោះ</a> ប្រើប្រាស់​អាសយដ្ឋាន​អ៊ីមែល​​គណនី​កម្មវិធី​បន្ថែម​មុនៗ​របស់​អ្នក ដើម្បី​ចូលប្រើប្រាស់​ទិន្នន័យ​កម្មវិធី​បន្ថែម​របស់​អ្នក។"
 
