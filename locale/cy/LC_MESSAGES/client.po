@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-07 12:45+0000\n"
+"PO-Revision-Date: 2018-03-09 16:38+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -946,7 +946,7 @@ msgstr "Rhowch eich e-bost"
 #: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up.mustache:2
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "Parhewch i %(serviceName)s."
+msgstr "Ymlaen i %(serviceName)s"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
 msgid "Email"
