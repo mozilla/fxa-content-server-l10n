@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-10 15:50+0000\n"
+"PO-Revision-Date: 2018-03-10 16:03+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1140,10 +1140,12 @@ msgstr "Na caill am facal-faire. Ma dh’ath-shuidhicheas tu e, dh’fhaoidte gu
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>Na cleachd facal-faire a’ phuist-d agad ann an iomadh àite</span>Ma bhios am facal-faire puist-d agad aig cuideigin eile, ’s urrainn dhaibh aonta a thoirt ri clàradh a-steach gu Firefox air "
+"uidheam ùr is cothrom fhaighinn air an dàta agad."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Cuimhnich am facal-faire agad</span>Ma dh’ath-shuidhicheas tu am facal-faire agad, caillidh tu dàta sioncronachaidh sam bith nach eil air uidheam agad."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1356,10 +1358,12 @@ msgstr "Roghainnean conaltraidh"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Gheibh thu conaltradh mu thèarainteachd a’ chunntais agad, atharraichean poileasaidh, obrachadh a’ chunntais agad is puist-d fàilte a dh’innseas dhut mar a chuireas tu an cunntas Firefox agad gu "
+"làn-fheum."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "A bharrachd air sin, is urrainn dhut fo-sgrìobhadh airson puist-d eile a dh’innseas dhut na tha ùr ann an saoghal Mozilla agus Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,7 +1391,7 @@ msgstr "Tagh an t-ainm a nochdas ann am Firefox agus nuair a stiùireas tu an cu
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Tha post-d dàrnach ’na sheòladh a bharrachd airson brathan tèarainteachd agus airson uidheaman ùra a dhearbhadh."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1411,7 +1415,7 @@ msgstr "Cuir ris"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Dèan dearbhadh às ùr airson a’ ghlas a thoirt far na h-earrainn"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

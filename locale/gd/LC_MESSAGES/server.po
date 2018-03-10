@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2017-11-11 10:36+0000\n"
+"PO-Revision-Date: 2018-03-10 16:00+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. Airson gleus an t-sioncronachaidh a chur gu làn-fheum, ceangail Firefox air <a href='%(androidUrl)s'>Android</a> no <a "
 "href='%(iosUrl)s'>iOS</a> ris."
@@ -50,7 +50,7 @@ msgstr "Cunntasan Firefox"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:744
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Clàradh a-steach gu %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
@@ -73,12 +73,12 @@ msgstr "Airson barrachd fiosrachaidh, tadhail air <a %(supportLinkAttributes)s>l
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7
-#: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7
-#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
-#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5
+#: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
+#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7
+#: lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9
+#: lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Poileasaidh prìobhaideachd Mozilla"
 
@@ -110,19 +110,19 @@ msgstr "Seo post-d fèin-obrachail; mur an do dh’atharraich thusa am facal-fai
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "Chaidh facal-faire a’ chunntais agad atharrachadh"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Feumaidh tu am facal-faire ùr agad a chur a-steach air na h-uidheaman eile agad a leantainn air an t-sioncronachadh."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Mur tusa a dh’atharraich e, <a %(resetLinkAttributes)s>ath-shuidhich am facal-faire agad</a> an-dràsta."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Mur tusa a dh’atharraich e, ath-shuidhich am facal-faire agad an-dràsta aig %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -144,8 +144,8 @@ msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad sa chiad dol a-mac
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Cuideachd, ma tha Firefox a’ cuimhneachadh fhaclan-faire airson làraichean-lìn dhut, bu chòir dhut na faclan-faire ud atharrachadh cuideachd. Dh’fhaoidte gun robh cothrom aig an luchd-ionnsaigh "
-"orra agus b’ fheairrde dhut sùil a thoir a bheil dad a ghnìomhachd amharasach sna cunntasan ud."
+"Cuideachd, ma tha Firefox a’ cuimhneachadh fhaclan-faire airson làraichean-lìn dhut, bu chòir dhut na faclan-faire ud atharrachadh cuideachd. Dh’fhaoidte gun robh cothrom aig an luchd-ionnsaigh orra"
+" agus b’ fheairrde dhut sùil a thoir a bheil dad a ghnìomhachd amharasach sna cunntasan ud."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -213,8 +213,8 @@ msgstr ""
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr ""
-"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson Android "
-"is iOS."
+"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson Android is"
+" iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -230,15 +230,15 @@ msgstr "Dhearbh thu %(secondaryEmail)s mar phost-d dàrnach aig a’ chunntas Fi
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "A bheil agad ris am facal-faire ath-shuidheachadh?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Briog air a’ phutan am broinn uair a thìde airson facal-faire ùr a chruthachadh. Thàinig an t-iarrtas seo on uidheam a leanas:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Cruthaich facal-faire ùr"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -286,7 +286,7 @@ msgstr "Cuir an gnìomh an-dràsta:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach air na h-uidheaman seo:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -382,11 +382,11 @@ msgstr "Còd ùghdarachadh cunntais Firefox"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Dearbh an clàradh a-steach ùr o %(clientName)s"
 
 #: lib/senders/email.js:490
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Còd clàraidh a-steach dha Firefox"
 
 #: lib/senders/email.js:630
 msgid "Reset your Firefox Account password"
@@ -398,7 +398,7 @@ msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Chaidh facal-faire a’ chunntais Firefox atharrachadh"
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
@@ -505,16 +505,16 @@ msgstr "Teirmichean na seirbheise"
 #~ msgstr "Shin thu a-rithist."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Ma dhearbhas tu an cunntas agad, gheibh thu cothrom air na tabaichean, comharran-lìn is an eachdraidh o uidheam "
 #~ "ceangailte sam bith. Cha leig thu leas ach an seòladh puist-d seo a dhearbhadh gus an cunntas agad a chur an gnìomh."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Chruthaich thu cunntas Firefox mu sheachdain air ais ach cha do rinn thu a dhearbhadh gu ruige seo agus tha sinn a’ cur dragh oirnn. Dearbh an seòladh puist-d seo gus an cunntas agad a "
-#~ "ghnìomhachadh ach am bi fios againn gu bheil gach rud mar bu chòir."
+#~ "Chruthaich thu cunntas Firefox mu sheachdain air ais ach cha do rinn thu a dhearbhadh gu ruige seo agus tha sinn a’ cur dragh oirnn. Dearbh an seòladh puist-d seo gus an cunntas agad a ghnìomhachadh"
+#~ " ach am bi fios againn gu bheil gach rud mar bu chòir."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach a thòiseachadh air sioncronachadh leis an uidheam seo:"
@@ -571,8 +571,8 @@ msgstr "Teirmichean na seirbheise"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, Mac, Linux, Android agus iOS. ’S urrainn dhut "
-#~ "na faclan-faire, comharran-lìn is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu chòir."
+#~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, Mac, Linux, Android agus iOS. ’S urrainn dhut na "
+#~ "faclan-faire, comharran-lìn is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu chòir."
 
 #~ msgid "env"
 #~ msgstr "env"
