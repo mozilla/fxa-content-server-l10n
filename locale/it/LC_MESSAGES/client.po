@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-11 12:44+0000\n"
+"PO-Revision-Date: 2018-03-11 12:33+0000\n"
 "Last-Translator: Sav22999 <savemore99.sm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -261,7 +261,7 @@ msgstr "Apri Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Email inviata nuovamente. Aggiungi accounts@firefox.com ai contatti per garantire una corretta consegna."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
