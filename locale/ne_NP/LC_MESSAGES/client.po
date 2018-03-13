@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-02-02 00:46+0000\n"
-"Last-Translator: amitshrestha37 <amitshrestha37@gmail.com>\n"
+"PO-Revision-Date: 2018-03-13 13:30+0000\n"
+"Last-Translator: Saroj Dhakal <lotusnagarkot@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,9 @@ msgstr "यस बारेमा सुन्न हामी क्षमा �
 
 #: .es5/views/settings/client_disconnect.js:20
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू परिवर्तन गर्नुपर्छ।"
+msgstr ""
+"यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू"
+" परिवर्तन गर्नुपर्छ।"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -188,19 +190,19 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "वेब सत्र"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "अन्तिम सिङ्क समय अज्ञात"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "सफलतापूर्वक सदस्यता लिइयो"
 
 #: .es5/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "सफलतापूर्वक खाता मेटियो"
 
 #: .es5/views/settings/display_name.js:59
 msgid "Display name updated"
@@ -232,27 +234,27 @@ msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
-msgstr ""
+msgstr "पासवर्ड परिवर्तन गर्नुहोस्"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail खोल्नुहोस्"
 
 #: .es5/views/mixins/open-webmail-mixin.js:24
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail खोल्नुहोस्"
 
 #: .es5/views/mixins/open-webmail-mixin.js:29
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo खोल्नुहोस्"
 
 #: .es5/views/mixins/open-webmail-mixin.js:34
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook खोल्नुहोस्"
 
 #: .es5/views/mixins/open-webmail-mixin.js:39
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail खोल्नुहोस्"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -696,9 +698,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -1227,8 +1227,8 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr ""
 
