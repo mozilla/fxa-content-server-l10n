@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-13 13:30+0000\n"
+"PO-Revision-Date: 2018-03-13 13:37+0000\n"
 "Last-Translator: Saroj Dhakal <lotusnagarkot@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -206,19 +206,19 @@ msgstr "सफलतापूर्वक खाता मेटियो"
 
 #: .es5/views/settings/display_name.js:59
 msgid "Display name updated"
-msgstr ""
+msgstr "प्रदर्शन नाम अद्यावधि गरियो"
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "दोस्रो इमेल हटाइयो"
 
 #: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82
 msgid "Verification email sent"
-msgstr ""
+msgstr "प्रमाणिकरण इमेल पठाइयो"
 
 #: .es5/views/settings/emails.js:148
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "प्राथमिक इमेल %(email)s निर्धारण गरिएको छ"
 
 #: .es5/views/settings/emails.js:157
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
@@ -270,55 +270,55 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:44
 msgid "Open tabs"
-msgstr ""
+msgstr "खुला ट्याबहरू"
 
 #: .es5/models/sync-engines.js:48
 msgid "Bookmarks"
-msgstr ""
+msgstr "पुस्तकचिनोहरू"
 
 #: .es5/models/sync-engines.js:52
 msgid "Add-ons"
-msgstr ""
+msgstr "एडअनहरू"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "लगइनहरू"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
-msgstr ""
+msgstr "इतिहास"
 
 #: .es5/models/sync-engines.js:64
 msgid "Preferences"
-msgstr ""
+msgstr "प्राथमिकताहरू"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "ठेगानाहरू"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "क्रेडिट कार्डहरू"
 
 #: .es5/models/reliers/sync.js:70
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "दोस्रो इमेल सफलतापूर्वक प्रमाणिकरण गरियो"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
-msgstr ""
+msgstr "अनपेक्षित त्रुटि"
 
 #: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "इमेल प्रमाणिकरण गर्न क्लिक गर्नुभएको लिङ्कको म्याद सकिएको छ ।"
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
@@ -659,15 +659,15 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
 msgid "Unauthorized"
-msgstr ""
+msgstr "अनुमति नभएको"
 
 #: .es5/lib/oauth-errors.js:68
 msgid "Forbidden"
-msgstr ""
+msgstr "निषेध गरिएको"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
-msgstr ""
+msgstr "म्याद सकिएको टोकन"
 
 #: .es5/lib/oauth-errors.js:106
 msgid "Something went wrong. Please close this tab and try again."
@@ -1095,7 +1095,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "कोड प्रविष्टि गर्नुहोस्"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1159,7 +1159,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/settings/upgrade_session.mustache:4
 msgid "Send"
-msgstr ""
+msgstr "पठाउनुहोस्"
 
 #: .es5/templates/sms_send.mustache:10
 msgid ""
@@ -1200,37 +1200,37 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "बुझेँ"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "परिवर्तन गर्नुहोस्…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "थप्नुहोस्…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "तस्विर खिच्नुहोस्"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "अपलोड गर्नुहोस्"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "क्यामरा"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "खाली गर्नुहोस्"
 
 #: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
-msgstr ""
+msgstr "सम्पन्न भयो"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
