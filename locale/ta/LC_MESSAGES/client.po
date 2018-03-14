@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-14 00:31+0000\n"
+"PO-Revision-Date: 2018-03-14 00:45+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -217,11 +217,11 @@ msgstr "சரிபார்த்தல் மின்னஞ்சல் அ�
 
 #: .es5/views/settings/emails.js:148
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "முதன்மை மின்னஞ்சலில் %(email)s வை"
 
 #: .es5/views/settings/emails.js:157
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr ""
+msgstr "பாதுகாப்பு அறிக்கை மற்றும் புதிய ஒத்திசைவு சாதனங்களை உறுதிப்படுத்தவதற்கான மின்னஞ்சல்களைப் பெற கூடுதலாக இரண்டாம்பட்ச மின்னஞ்சல் தேவை"
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "முதன்மை மின்னஞ்சல் வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
@@ -305,7 +305,7 @@ msgstr "பயர்பாக்ஸ் ஒத்திசைவு"
 
 #: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "இரண்டாம் மின்னஞ்சல் வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
@@ -445,7 +445,7 @@ msgstr "செல்லாத உள்நுழைவு குறியீட�
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "முதன்மை மின்னஞ்சலை சரிபார்க்கப்படாத மின்னஞ்சலுக்கு மாற்றியமைக்க முடியாது"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
@@ -453,11 +453,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "இந்த மின்னஞ்சல் உள்நுழைய பயன்படுத்த முடியாது"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "மின்னஞ்சலை அனுப்ப முடியவில்லை"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
@@ -473,7 +473,7 @@ msgstr "சேவகன் வேலை நிமித்தமாக உள்
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
-msgstr ""
+msgstr "அம்சம் இயக்கப்படவில்லை"
 
 #: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
@@ -598,7 +598,7 @@ msgstr "இது தேவையான களம்"
 
 #: .es5/lib/auth-errors.js:414
 msgid "Authorization code required"
-msgstr ""
+msgstr "உறுதிப்படுத்தல் குறியீடு தேவை"
 
 #: .es5/lib/auth-errors.js:422 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -754,7 +754,7 @@ msgstr "மேலும் அறிய"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "%(email)s பதிவு செய்யப்பட்டது."
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
@@ -800,7 +800,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "புதிய கடவுச்சொல்"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
@@ -808,7 +808,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "முதன்மை மின்னஞ்சல் ஏற்கனவே உறுதிப்படுத்தப்பட்டது"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -820,19 +820,19 @@ msgstr "சரிபார்ப்பு இணைப்பு காலாவ�
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "புதிய சரிபார்ப்பு தொடுப்பைப் பெற இங்கே அழுத்தவும்"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "சரிபார்ப்புப் பிழை"
 
 #: .es5/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "கணக்கை உறுதிப்படுத்தவும்"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "இந்த உள்நுழைவை உறுதிப்படுத்து"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -952,7 +952,7 @@ msgstr "மின்னஞ்சல்"
 
 #: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "தொடர்க"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -994,7 +994,7 @@ msgstr "%(serviceName)s உங்கள் கணக்கிலிருந்�
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "ஏற்றுக்கொள்"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
@@ -1004,11 +1004,11 @@ msgstr "ரத்து செய்"
 
 #: .es5/templates/ready.mustache:6
 msgid "Your account is ready!"
-msgstr ""
+msgstr "உங்கள் கணக்கு தயாராக உள்ளது!"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "அங்கீகரிக்கப்படாத உள்நுழைவைப் புகாரளிக்கவா?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -1016,11 +1016,11 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "செயல்பாட்டைப் புகாரளி"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "இது ஏன் ஏற்படுகிறது?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1030,11 +1030,11 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "மீட்டமைக்க தொடங்கு"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "பயர்பாக்சு கணக்குகள்"
 
 #: .es5/templates/settings.mustache:2
 msgid "Sign out"
@@ -1074,11 +1074,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "தவறான மின்னஞ்சலா?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "உங்கள் விழிப்புணர்வுக்கு நன்றி"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1199,16 +1199,16 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "அறிந்துகொண்டேன்"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "மாற்று..."
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "சேர்…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1293,7 +1293,7 @@ msgstr "காண்பி"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "தற்போதைய சாதனம்"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1301,11 +1301,11 @@ msgstr "துண்டி…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "தற்போதைய அமர்வு"
 
 #: .es5/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "திரும்பப்பெறு"
 
 #: .es5/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1313,7 +1313,7 @@ msgstr "iOS தளத்திற்கான பயர்பாஃசு"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "எதுவும் இணயவில்லை"
 
 #: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1369,7 +1369,7 @@ msgstr "உங்கள் கணக்கை நிர்வகிக்கு�
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "பாதுகாப்பு அறிக்கை மற்றும் புதிய ஒத்திசைவு சாதனங்களை உறுதிப்படுத்தல் போன்றவற்றிற்கான மின்னஞ்சல்களைப் பெற கூடுதலாக இரண்டாம்பட்ச மின்னஞ்சல் தேவை."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1401,7 +1401,7 @@ msgstr "உங்கள் வயது என்ன?"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "பயர்பாக்சு ஒத்திசைவை தேடுகிறீர்களா? <a %(escapedSyncSuggestionAttrs)s>இங்கு தொடங்கவும்</a>"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"

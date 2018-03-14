@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2017-07-18 04:50+0000\n"
+"PO-Revision-Date: 2018-03-14 00:40+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -32,7 +32,7 @@ msgstr "வேறொரு சாதனத்தை இணைக்கவும�
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ஒத்திசைக்க உள்நுழை"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
@@ -69,12 +69,12 @@ msgstr ""
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7
-#: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7
-#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
-#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5
+#: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
+#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7
+#: lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9
+#: lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "மொசில்லா தனியுரிமை கொள்கைகள்"
 
@@ -90,7 +90,7 @@ msgstr ""
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "சிறந்த,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "இரண்டாம் நிலை மின்னஞ்சல் நீககப்பட்டது"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -192,7 +192,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "கணக்கு சரிபார்க்கப்பட்டது!"
 
 #: lib/senders/templates/post_verify.html:3
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "ஒத்திசைக்க உள்நுழை:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1
 msgid "Secondary email added"
@@ -250,7 +250,7 @@ msgstr "இல்லையெனில், ஊடுருவல்களைத�
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "நல்வரவு!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
@@ -262,7 +262,7 @@ msgstr "இப்பொழுதே செயல்படுத்தவும�
 
 #: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "மின்னஞ்சலை சரிபார்"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
@@ -346,7 +346,7 @@ msgstr "%(city)s, %(stateCode)s, %(country)s (கணக்கிட்டப்�
 
 #: lib/senders/email.js:201
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (மதிப்பிட்டது)"
 
 #: lib/senders/email.js:203
 msgid "%(stateCode)s, %(country)s (estimated)"
@@ -354,7 +354,7 @@ msgstr "%(stateCode)s, %(country)s (கணக்கிடப்பட்டத�
 
 #: lib/senders/email.js:205
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (மதிப்பிட்டது )"
 
 #: lib/senders/email.js:326
 msgid "Verify your Firefox Account"
@@ -378,11 +378,11 @@ msgstr ""
 
 #: lib/senders/email.js:630
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "உங்கள் பயர்பாக்சு கணக்கின் கடவுச்சொல்லை மீட்டமை"
 
 #: lib/senders/email.js:662
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "உங்கள் பயர்பாக்சு கணக்கின் கடவுச்சொல் மாற்றப்பட்டது"
 
 #: lib/senders/email.js:692
 msgid "Firefox Account password changed"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: lib/senders/email.js:718
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "பயர்பாக்ஸ் கணக்கின் கடவுச்சொல்லை மீட்டமைக்கக் கோரு"
 
 #: lib/senders/email.js:785
 msgid "Firefox Account verified"
@@ -410,11 +410,11 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "பக்கத்தைக் காணவில்லை"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "தங்கள் கோரிய வலைப் பக்கம் காணவில்லை. இதைப்பற்றி எங்களுக்கு அறிவிக்கப்பட்டுள்ளது மற்றும் நாங்கள் பழுதடைந்த தொடுப்புகளைச் சரிசெய்துவிடுவோம்."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -426,7 +426,7 @@ msgstr "பிழை 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "அடடா, எதோ தவறு நிகழ்ந்துள்ளது. இதைப்பற்றி நாங்கள் அறிவிக்கப்பட்டுள்ளோம் மற்றும் இதை சரி செய்ய நாங்கள் முட்படுகிறோம்."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -474,9 +474,9 @@ msgstr "சேவைக நிபந்தனைகள்"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "கோரிக்கைப்படி, உங்கள் செல்பேசியில் பயர்பாஃசை நிறுவுவதற்கான ஒரு தொடுப்பு: %(link)s"
