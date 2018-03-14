@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-09 16:38+0000\n"
+"PO-Revision-Date: 2018-03-14 09:02+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -954,7 +954,7 @@ msgstr "E-bost"
 
 #: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr "Parhau"
+msgstr "Ymlaen"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
