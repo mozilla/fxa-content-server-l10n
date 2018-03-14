@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-06 19:00+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2018-03-12 13:03+0000\n"
+"Last-Translator: joelaz156 <joelaz156@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -629,7 +629,7 @@ msgstr "Veuillez réessayer plus tard"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Service indisponible, veuillez réessayer plus tard"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
