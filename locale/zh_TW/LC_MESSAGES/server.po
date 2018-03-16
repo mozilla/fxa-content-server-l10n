@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
 "PO-Revision-Date: 2018-02-16 20:10+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,6 @@ msgid "Manage account:"
 msgstr "管理帳號:"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "若您覺得有人在嘗試盜用您的帳號，請修改密碼。"
 
@@ -302,12 +301,16 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr "驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。"
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "這是一封自動寄出的郵件，若您意外收到此郵件或並未要求進行此操作，請<a %(passwordChangeLinkAttributes)s>修改密碼</a>。"
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "驗證電子郵件地址: "
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
+msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
@@ -441,11 +444,7 @@ msgstr "伺服器忙碌中，請稍後再試"
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "目前有大量使用者連線中，超過我們的伺服器的負荷能力。我們將盡快讓伺服器恢復正常。"
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "您正在使用 <strong>過時的</strong> 瀏覽器。請 <a href=\"http://browsehappy.com/\">升級瀏覽器</a> 以改善您的上網體驗。"
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 
@@ -456,6 +455,12 @@ msgstr "隱私權保護政策"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "服務條款"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "這是一封自動寄出的郵件，若您意外收到此郵件或並未要求進行此操作，請<a %(passwordChangeLinkAttributes)s>修改密碼</a>。"
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "您正在使用 <strong>過時的</strong> 瀏覽器。請 <a href=\"http://browsehappy.com/\">升級瀏覽器</a> 以改善您的上網體驗。"
 
 #~ msgid "Still there?"
 #~ msgstr "您還在嗎？"
