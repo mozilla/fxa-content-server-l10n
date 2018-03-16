@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -464,10 +464,6 @@ msgstr "Сервер зайнятий, спробуйте знову пізні�
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Зараз ми знаходимось під великим навантаженням і працюємо щоб якнайшвидше повернути систему до нормального стану."
-
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Ви використовуєте <strong>застарілий</strong> переглядач. Будь ласка, <a href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб покращити роботу."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."

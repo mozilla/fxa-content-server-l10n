@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -446,10 +446,6 @@ msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Estuasun larrian gaude orain eta sistema ahalik eta azkarren bere onera ekartzeko lanean gabiltza."
-
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Nabigatzaile <strong>zaharra</strong> ari zara erabiltzen. Mesedez <a href=\"http://browsehappy.com/\">bertsio-berritu nabigatzailea</a> zure esperientzia hobetzeko."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
