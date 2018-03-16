@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 21:01+0000\n"
+"PO-Revision-Date: 2018-03-16 21:24+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1461,7 +1461,7 @@ msgstr "Włącz"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr "Zeskanuj kod QR w aplikacji i potwierdź, że jest poprawnie skonfigurowane wpisując podany przez nią kod zabezpieczeń."
+msgstr "Zeskanuj kod QR w aplikacji i potwierdź, że jest poprawnie skonfigurowana wpisując podany przez nią kod zabezpieczeń."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
