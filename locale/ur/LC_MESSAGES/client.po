@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2017-11-07 06:39+0000\n"
+"PO-Revision-Date: 2018-03-16 17:11+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -280,7 +280,7 @@ msgstr "اضافہ جات"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "لاگ ان"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "پاس ورڈ کو کامیابی سے پھر سیٹ کر دیا گیا ہے"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -416,7 +416,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "ای میل کی حوالگی میں ناکام رہا"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
@@ -456,7 +456,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "ای میل ارسال کرنے میں ناکام رہا"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
@@ -472,7 +472,7 @@ msgstr "پیش کار مصروف ہے، کچھ دیر میں پھر کوشش ک�
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
-msgstr ""
+msgstr "فیچر اہل نہیں بنایا گیا"
 
 #: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
@@ -696,9 +696,7 @@ msgid "Invalid Token"
 msgstr "‏‏ناجائز ٹوکن"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -1227,8 +1225,8 @@ msgstr "کیمرہ"
 msgid "Clear"
 msgstr "صاف کریں"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "ہوگیا"
 
