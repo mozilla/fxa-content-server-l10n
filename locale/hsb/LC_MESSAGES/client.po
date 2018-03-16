@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 20:40+0000\n"
+"PO-Revision-Date: 2018-03-16 21:15+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1121,7 +1121,7 @@ msgstr "Wěstotny kod zapodać"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Wočińće swoje awtentifkowanske nałoženje a zapodajće k dispoziciji stajeny wěstotny kod."
+msgstr "Wočińće swoje awtentifikowanske nałoženje a zapodajće k dispoziciji stajeny wěstotny kod."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1469,7 +1469,7 @@ msgstr "Njemóžeće kod skenować?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr "Zapodajće tutón tajny kluč do swojeho awtentifkowanskeho nałoženja:"
+msgstr "Zapodajće manuelnje tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
