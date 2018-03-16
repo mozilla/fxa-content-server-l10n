@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-12 13:03+0000\n"
-"Last-Translator: joelaz156 <joelaz156@gmail.com>\n"
+"PO-Revision-Date: 2018-03-16 14:38+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -260,7 +260,7 @@ msgstr "Ouvrir Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Courriel renvoyé. Ajoutez accounts@firefox.com à vos contacts pour assurer la bonne réception des messages."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -1131,7 +1131,7 @@ msgstr "Répéter le mot de passe"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Ne perdez pas ce mot de passe. Si vous devez le réinitialiser, vous risquez de perdre les données de Sync."
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
