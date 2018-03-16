@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 18:41+0000\n"
 "PO-Revision-Date: 2017-11-30 08:07+0000\n"
 "Last-Translator: Kannan V M <kannan@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,12 +71,12 @@ msgstr ""
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7
-#: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7
-#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
-#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5
+#: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
+#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7
+#: lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9
+#: lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "മോസില്ലയുടെ സ്വകാര്യ വ്യവസ്ഥകള്‍"
 
@@ -174,7 +174,6 @@ msgid "Manage account:"
 msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക:"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr ""
 
@@ -303,11 +302,15 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr ""
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
+msgstr ""
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
@@ -442,11 +445,7 @@ msgstr "സെർവർ തിരക്കിലാണ്, വീണ്ടും
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "നിങ്ങൾ <strong>കാലഹരണപ്പെട്ട</strong> ബ്രൌസറാണ് ഉപയോഗിക്കുന്നത്. നിങ്ങളുടെ അനുഭവം മെച്ചപ്പെടുത്താൻ <a href=\"http://browsehappy.com/\">നിങ്ങളുടെ ബ്രൗസർ അപ്ഗ്രേഡുചെയ്യുക</a>."
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾക്ക് ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്."
 
@@ -457,6 +456,9 @@ msgstr "സ്വകാര്യതാ അറിയിപ്പ്"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "സേവന നിബന്ധനകൾ"
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "നിങ്ങൾ <strong>കാലഹരണപ്പെട്ട</strong> ബ്രൌസറാണ് ഉപയോഗിക്കുന്നത്. നിങ്ങളുടെ അനുഭവം മെച്ചപ്പെടുത്താൻ <a href=\"http://browsehappy.com/\">നിങ്ങളുടെ ബ്രൗസർ അപ്ഗ്രേഡുചെയ്യുക</a>."
 
 #~ msgid "Still there?"
 #~ msgstr "ഇപ്പളും അവിടെയുണ്ടോ?"
