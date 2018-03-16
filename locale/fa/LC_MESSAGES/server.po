@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -461,10 +461,6 @@ msgstr "کارگزار مشغول است، لطفا بعدا دوباره تلا
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "ما در حال حاضر زیر فشار زیادی هستیم و در تلاشیم تا هر چه سریع‌تر سیستم را به حالت عادی برگردانیم."
-
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "شما در حال استفاده از مرورگر <strong>قدیمی</strong> هستید. لطفا <a href=\"http://browsehappy.com/\">مرورگر خود را بروزرسانی کنید</a> تا تجربه‌ی بهتری داشته باشید."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
