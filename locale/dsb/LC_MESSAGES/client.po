@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 21:11+0000\n"
+"PO-Revision-Date: 2018-03-16 21:13+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1468,11 +1468,11 @@ msgstr "Njamóžośo kod skannowaś?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Wěstotny kod"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
