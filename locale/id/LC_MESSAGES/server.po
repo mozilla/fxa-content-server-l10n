@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
 "PO-Revision-Date: 2018-02-22 16:49+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,7 +179,6 @@ msgid "Manage account:"
 msgstr "Kelola akun:"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda."
 
@@ -310,12 +309,16 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr "Sekali diverifikasi, perubahan akun seperti menambahkan surell sekunder akan dimungkinkan dari peranti ini."
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "Verifikasi surel: "
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
+msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
@@ -449,11 +452,7 @@ msgstr "Server sibuk, coba lagi nanti"
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Kami sedang mendapatkan beban berat dan bekerja keras untuk mengembalikan sistem agar kembali normal secepatnya."
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Anda sedang menggunakan peramban <strong>versi lawas</strong>. <a href=\"http://browsehappy.com/\">Tingkatkan versi peramban Anda</a> untuk memperbaiki pengalaman Anda."
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox Account membutuhkan JavaScript."
 
@@ -464,6 +463,9 @@ msgstr "Kebijakan Privasi"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Ketentuan Layanan"
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Anda sedang menggunakan peramban <strong>versi lawas</strong>. <a href=\"http://browsehappy.com/\">Tingkatkan versi peramban Anda</a> untuk memperbaiki pengalaman Anda."
 
 #~ msgid "Still there?"
 #~ msgstr "Masih di sana?"

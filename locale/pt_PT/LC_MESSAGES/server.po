@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
 "PO-Revision-Date: 2018-02-16 22:13+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,7 +180,6 @@ msgid "Manage account:"
 msgstr "Gerir conta:"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Se suspeita que alguém está a tentar obter acesso à sua conta, por favor, altere a sua palavra-passe."
 
@@ -314,12 +313,16 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr "Assim que verificado, alterações de conta tais como adicionar um email secundário irão ficar disponíveis a partir deste dispositivo."
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Este é um email automático; se o recebeu por erro, se não autorizou esta ação, então <a %(passwordChangeLinkAttributes)s>por favor altere a sua palavra-passe</a>."
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "Verificar email: "
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
+msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
@@ -453,11 +456,7 @@ msgstr "Servidor ocupado, tente novamente em breve"
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Atualmente temos a capacidade praticamente esgotada e estamos a trabalhar para que o sistema volte ao seu estado normal o mais rapidamente possível."
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Está a utilizar um navegador <strong>desatualizado</strong>. Por favor, <a href=\"http://browsehappy.com/\">atualize o seu navegador</a> para melhorar a sua experiência."
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "O Contas Firefox necessita de JavaScript."
 
@@ -468,6 +467,12 @@ msgstr "Aviso de privacidade"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Termos de serviço"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Este é um email automático; se o recebeu por erro, se não autorizou esta ação, então <a %(passwordChangeLinkAttributes)s>por favor altere a sua palavra-passe</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Está a utilizar um navegador <strong>desatualizado</strong>. Por favor, <a href=\"http://browsehappy.com/\">atualize o seu navegador</a> para melhorar a sua experiência."
 
 #~ msgid "Still there?"
 #~ msgstr "Ainda aqui?"

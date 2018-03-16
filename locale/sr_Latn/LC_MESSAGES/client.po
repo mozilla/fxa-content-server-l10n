@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-02-17 19:34+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
+"PO-Revision-Date: 2018-03-06 18:41+0000\n"
 "Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -92,11 +92,11 @@ msgstr "Sada ste spremni da koristite %(serviceName)s"
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:167
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
-#: .es5/views/sign_in.js:164
+#: .es5/views/sign_in.js:169
 msgid ""
 "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous "
 "Add-ons account email address to access your Add-ons data."
@@ -286,6 +286,14 @@ msgstr ""
 msgid "Secondary email"
 msgstr "Sekundarna adresa"
 
+#: .es5/views/settings/two_step_authentication.js:116
+msgid "Two-step authentication removed"
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:131
+msgid "Two-step authentication enabled"
+msgstr ""
+
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
 msgstr "Nalog je zaključan zbog sigurnosnih razloga"
@@ -322,6 +330,8 @@ msgid ""
 "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
 "delivery."
 msgstr ""
+"Poruka e-pošte je ponovo poslata. Dodajte accounts@firefox.com u vaše "
+"kontakte da biste osigurali prijem poruke."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69
 #: .es5/models/auth_brokers/base.js:78
@@ -460,7 +470,7 @@ msgstr "Telo zahteva je preveliko"
 msgid "The request was blocked for security reasons"
 msgstr "Zahtev je blokiran iz sigurnosnih razloga"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
 msgid "Invalid authorization code"
 msgstr "Nevažeći autorizacioni kod"
 
@@ -538,151 +548,155 @@ msgstr "Neispravan kod za potvrdu"
 msgid "This verification code has expired"
 msgstr "Kod za potvrdu je istekao"
 
-#: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid two-step authentication code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
 msgstr "Server je zauzet, pokušajte ponovo uskoro"
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "Opcija nije omogućena"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:226
 msgid "This endpoint is no longer supported"
 msgstr "Krajnja tačka više nije podržana"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27
+#: .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27
 #: .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Sistem nedostupan, pokušajte ponovo za par minuta"
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:234
 msgid "Login attempt cancelled"
 msgstr "Pokušaj prijave otkazan"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:238
 msgid "Session expired. Sign in to continue."
 msgstr "Sesija je istekla. Prijavite se da biste nastavili."
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:242
 msgid "Cookies are still disabled"
 msgstr "Kolačići su još uvek onemogućeni"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:246
 msgid "Passwords do not match"
 msgstr "Lozinke se ne poklapaju"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:250
 msgid "Working…"
 msgstr "Radim..."
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:254
 msgid "Could not get Privacy Notice"
 msgstr "Nismo mogli dobaviti Obaveštenje o privatnosti"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:258
 msgid "Could not get Terms of Service"
 msgstr "Nismo mogli dobaviti Uslove usluga"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:262
 msgid "Your new password must be different"
 msgstr "Nova lozinka mora biti drugačija"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:266
 #: .es5/templates/complete_reset_password.mustache:12
 #: .es5/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Mora biti najmanje 8 karaktera"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:270
 msgid "Valid password required"
 msgstr "Potrebna je ispravna lozinka"
 
-#: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:328
 msgid "Valid email required"
 msgstr "Potrebna je ispravna e-pošta"
 
-#: .es5/lib/auth-errors.js:281
+#: .es5/lib/auth-errors.js:285
 msgid "A usable image was not found"
 msgstr "Upotrebljiva slika nije pronađena"
 
-#: .es5/lib/auth-errors.js:285
+#: .es5/lib/auth-errors.js:289
 msgid "Could not initialize camera"
 msgstr "Nije moguće pokrenuti kameru"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:293
 msgid "Valid URL required"
 msgstr "Potrebna je ispravna URL adresa"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-pošta za potvrdu se upravo vratila. Pogrešna e-pošta?"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Unesite validnu adresu e-pošte. firefox.com ne nudi e-pošte."
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox nalozi mogu biti postavljeni samo u IFRAME-u na odobrenim sajtovima"
 
-#: .es5/lib/auth-errors.js:339 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Veza za potvrdu je oštećena"
 
-#: .es5/lib/auth-errors.js:347
+#: .es5/lib/auth-errors.js:351
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimenzije slike moraju biti najmanje 100x100px"
 
-#: .es5/lib/auth-errors.js:351
+#: .es5/lib/auth-errors.js:355
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Uskoro stiže prijava za Firefox za iOS"
 
-#: .es5/lib/auth-errors.js:362
+#: .es5/lib/auth-errors.js:366
 msgid "You must enter your age to sign up"
 msgstr "Morate da unesete godine da biste se registrovali"
 
-#: .es5/lib/auth-errors.js:377
+#: .es5/lib/auth-errors.js:381
 msgid "Account no longer exists."
 msgstr "Nalog više ne postoji."
 
-#: .es5/lib/auth-errors.js:381
+#: .es5/lib/auth-errors.js:385
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neispravano svojstvo u resume tokenu: %(property)s"
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:389
 msgid "Missing property in resume token: %(property)s"
 msgstr "Svojstvo nedostaje u resume tokenu: %(property)s"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:393
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neispravna osobina podatka: %(property)s"
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:397
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje osobina podatka: %(property)s"
 
-#: .es5/lib/auth-errors.js:406 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
 #: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ova potvrdna veza je već iskorišćena, može se iskoristiti samo jednom."
 
-#: .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:414
 msgid "This is a required field"
 msgstr "Ovo je obavezno polje"
 
-#: .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:418
 msgid "Authorization code required"
 msgstr "Potreban je autorizacioni kod"
 
-#: .es5/lib/auth-errors.js:422 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Veza je oštećena"
 
-#: .es5/lib/auth-errors.js:445
+#: .es5/lib/auth-errors.js:449
 msgid "Phone number required"
 msgstr "Potreban je broj telefona"
 
@@ -707,7 +721,7 @@ msgstr "Probajte ponovo kasnije"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Usluga nije dostupna, probajte ponovo kasnije"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -1111,6 +1125,7 @@ msgstr "Unesite vašu adresu"
 #: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1
 #: .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up.mustache:2
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -1189,6 +1204,7 @@ msgstr "Prihvati"
 #: .es5/templates/settings/delete_account.mustache:6
 #: .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:25
+#: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -1317,6 +1333,22 @@ msgstr "Proverite vašu e-poštu radi koda poslatog na %(email)s."
 msgid "Enter code"
 msgstr "Unesite kod"
 
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:4
+msgid "Open your authentication app and enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Verify"
+msgstr ""
+
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
 msgstr "Proverite vašu e-poštu radi potvrdnog koda poslatog na %(email)s."
@@ -1354,6 +1386,8 @@ msgstr "Ponovite lozinku"
 msgid ""
 "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
+"Čuvajte ovu lozinku. Ukoliko vam zatreba resetovanje, možete izgubiti vaše "
+"Sync podatke."
 
 #: .es5/templates/sign_up.mustache:15
 msgid ""
@@ -1361,12 +1395,17 @@ msgid ""
 "password, they can approve your Firefox sign-in on a new device and access "
 "your data."
 msgstr ""
+"<span>Ne koristite lozinku vaše e-adrese više puta</span>Ukoliko neko zna "
+"lozinku vašeg e-naloga, može odobriti Firefox prijavljivanje na novom "
+"uređaju i tako pristupiti vašim podacima."
 
 #: .es5/templates/sign_up.mustache:16
 msgid ""
 "<span>Remember your password</span>If you need to reset your password, you "
 "will lose any Sync data that is not on one of your devices."
 msgstr ""
+"<span>Zapamtite vašu lozinku</span>Ako vam zatreba resetovanje lozinke, "
+"izgubićete bilo koje Sync podatke koji nisu ni na jednom od vaših uređaja."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1475,6 +1514,7 @@ msgstr "Važi"
 #: .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2
 #: .es5/templates/settings/emails.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:4
 msgid "Change…"
 msgstr "Promeni…"
 
@@ -1621,6 +1661,8 @@ msgstr "Nedostaju vam neki uređaji ili ima duplikata?"
 
 #: .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/emails.mustache:20
+#: .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:19
 #: .es5/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Osveži"
@@ -1635,12 +1677,17 @@ msgid ""
 "to our policy, your account’s functionality and initial emails to help you "
 "get the most from your Firefox Account."
 msgstr ""
+"Dobijaćete novosti vezane za bezbednost vašeg naloga, promene u našoj "
+"polisi, funkcionalnost vašeg naloge i početne e-poruke koje će vam pomoći da "
+"iskoristite vaš Firefox nalog u potpunosti."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid ""
 "Additionally, you can subscribe to receive promotional emails with the "
 "latest news from Mozilla and Firefox."
 msgstr ""
+"Takođe, možete se pretplatiti na promotivne e-poruke koje će sadržati "
+"poslednje vesti o Mozilla-i i Firefox-u."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1704,9 +1751,60 @@ msgstr "Ukloni"
 msgid "Add"
 msgstr "Dodaj"
 
+#: .es5/templates/settings/two_step_authentication.mustache:2
+msgid "Two-step authentication"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:3
+msgid "Enable…"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:6
+msgid ""
+"Add an extra layer of security to your account by requiring security codes."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:7
+msgid "Enabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:9
+msgid "Disabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:10
+msgid "Disable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:12
+msgid "Enable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:13
+msgid ""
+"Scan the QR code in your app and confirm it is setup correctly by entering "
+"the security code it provides."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:14
+msgid "Can't scan code?"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:15
+msgid "Manually enter this secret key into your authentication app:"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:16
+msgid "Security code"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:20
+msgid "Confirm"
+msgstr "Potvrdi"
+
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Ponovo potvrdite da otključate odeljak"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1740,13 +1838,13 @@ msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
 
 #. submit button
-#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97
+#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:96
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Prijavi se"
 
 #. header text
-#: .es5/views/sign_in.js:100
+#: .es5/views/sign_in.js:99
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
@@ -2499,9 +2597,6 @@ msgstr "Prijavi se"
 
 #~ msgid "Change password"
 #~ msgstr "Promeni lozinku"
-
-#~ msgid "Confirm"
-#~ msgstr "Potvrdi"
 
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "Unesite Vašu e-poštu da biste obnovili lozinku naloga."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
 "PO-Revision-Date: 2018-02-18 00:14+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,7 +181,6 @@ msgid "Manage account:"
 msgstr "Gérer le compte :"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe."
 
@@ -317,14 +316,16 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr "Une fois vérifié, il sera possible de modifier le compte à partir de cet appareil comme pour ajouter une seconde adresse électronique."
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
-"Ceci est un courrier électronique automatique ; si vous l’avez reçu par erreur ou si vous n’avez pas autorisé cette action, veuillez <a %(passwordChangeLinkAttributes)s>changer votre mot de passe</"
-"a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "Confirmer l’adresse électronique : "
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
+msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
@@ -458,11 +459,7 @@ msgstr "Serveur occupé, veuillez réessayer plus tard"
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Nous subissons actuellement un trafic important et nous occupons de remettre le système en état au plus vite."
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Vous utilisez un navigateur <strong>obsolète</strong>. Veuillez <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a> pour améliorer votre expérience."
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "JavaScript est nécessaire pour utiliser les comptes Firefox."
 
@@ -473,6 +470,14 @@ msgstr "Politique de confidentialité"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Conditions d’utilisation"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr ""
+#~ "Ceci est un courrier électronique automatique ; si vous l’avez reçu par erreur ou si vous n’avez pas autorisé cette action, veuillez <a %(passwordChangeLinkAttributes)s>changer votre mot de "
+#~ "passe</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Vous utilisez un navigateur <strong>obsolète</strong>. Veuillez <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a> pour améliorer votre expérience."
 
 #~ msgid "Still there?"
 #~ msgstr "Toujours là ?"

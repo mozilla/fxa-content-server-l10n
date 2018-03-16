@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 17:37+0000\n"
+"POT-Creation-Date: 2018-03-16 16:10+0000\n"
 "PO-Revision-Date: 2017-12-04 21:01+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,7 +181,6 @@ msgid "Manage account:"
 msgstr "Administrar il conto:"
 
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-#: lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Sche ti supponas ch'insatgi emprovia dad acceder a tes conto, mida p.pl. tes pled-clav."
 
@@ -313,13 +312,16 @@ msgid "Once verified, account changes like adding a secondary email will become 
 msgstr "Uschespert che quest apparat è verifitgà esi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat."
 
 #: lib/senders/templates/verify_primary.html:7
-msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
-"Quai è in e-mail automatic; sche ti al has retschavì per sbagl, sche ti n'has betg autorisà questa acziun, lura <a %(passwordChangeLinkAttributes)s>mida per plaschair immediat tes pled-clav</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
 msgstr "Verifitgar l'adressa dad e-mail: "
+
+#: lib/senders/templates/verify_primary.txt:5
+msgid "If you did not authorize this action, please change your password."
+msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
 msgid "Verify secondary email"
@@ -453,11 +455,7 @@ msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
 msgstr "Actualmain è il sistem surchargià. Nus lavurain londervi ch'il sistem stettia bainprest puspè a disposiziun sco usità."
 
-#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:4 server/templates/pages/src/terms.html:4
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Ti utiliseschas in navigatur <strong>antiquà</strong>. <a href=\"http://browsehappy.com/\">Actualisescha tes navigatur</a> per retschaiver dapli segirezza."
-
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Ils contos da Firefox basegnan JavaScript."
 
@@ -468,6 +466,13 @@ msgstr "Decleraziun da protecziun da datas"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Cundiziuns dal servetsch"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr ""
+#~ "Quai è in e-mail automatic; sche ti al has retschavì per sbagl, sche ti n'has betg autorisà questa acziun, lura <a %(passwordChangeLinkAttributes)s>mida per plaschair immediat tes pled-clav</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Ti utiliseschas in navigatur <strong>antiquà</strong>. <a href=\"http://browsehappy.com/\">Actualisescha tes navigatur</a> per retschaiver dapli segirezza."
 
 #~ msgid "Still there?"
 #~ msgstr "Es ti anc qua?"
