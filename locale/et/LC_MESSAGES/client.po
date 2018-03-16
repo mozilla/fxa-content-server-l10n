@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 20:09+0000\n"
+"PO-Revision-Date: 2018-03-16 20:17+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1159,11 +1159,11 @@ msgstr "Ära kaota seda parooli. Kui sul tekib vajadus see lähtestada, siis võ
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Ära taaskasuta oma e-posti parooli</span>Kui keegi teab sinu e-posti parooli, siis võib ta kinnitada uuel seadmel Firefoxi sisselogimise ja seeläbi ligi pääseda sinu andmetele."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Pea oma parool meeles</span>Kui sa pead parooli lähtestama, siis kaotad kõik Synci andmed, mis pole salvestatud mõnes sinu seadmes."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1239,11 +1239,11 @@ msgstr "Sain aru"
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 msgid "Change…"
-msgstr "Muutmine…"
+msgstr "Muuda…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr "Lisamine…"
+msgstr "Lisa…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1393,7 +1393,7 @@ msgstr "Kustuta konto"
 
 #: .es5/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr "Kustutamine…"
+msgstr "Kustuta…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1429,47 +1429,47 @@ msgstr "Lisa"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Kaheastmeline autentimine"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Luba…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Lisa oma kontole veel üks turvalisuse kiht, nõudes turvakoode."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
-msgstr ""
+msgstr "Lubatud"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Keelatud"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
-msgstr ""
+msgstr "Keela"
 
 #: .es5/templates/settings/two_step_authentication.mustache:12
 msgid "Enable"
-msgstr ""
+msgstr "Luba"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
+msgstr "Skänni oma äpiga QR-koodi ja kinnita korrektne häälestus äpi poolt genereeritud turvakoodi sisestamisega."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "Ei saa QR-koodi skännida?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Sisesta käsitsi järgmine turvavõti oma autentimise äppi:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Turvakood"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
