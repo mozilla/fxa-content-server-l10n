@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 20:10+0000\n"
+"PO-Revision-Date: 2018-03-16 20:11+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1464,7 +1464,7 @@ msgstr "コードをスキャンできませんか？"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "認証アプリにこの秘密キーを直接入力してください:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
