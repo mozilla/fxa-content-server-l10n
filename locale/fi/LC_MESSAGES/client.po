@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-16 06:09+0000\n"
+"PO-Revision-Date: 2018-03-16 06:12+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -217,7 +217,7 @@ msgstr "Vahvistussähköposti lähetettiin"
 
 #: .es5/views/settings/emails.js:148
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
 
 #: .es5/views/settings/emails.js:157
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
