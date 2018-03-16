@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 17:37+0000\n"
-"PO-Revision-Date: 2018-03-16 14:38+0000\n"
+"PO-Revision-Date: 2018-03-16 15:13+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1136,6 +1136,8 @@ msgstr "Ne perdez pas ce mot de passe. Si vous devez le réinitialiser, vous ris
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>Ne réutilisez pas le mot de passe de votre messagerie électronique</span>Si quelqu’un connaît le mot de passe de votre messagerie électronique, il ou elle sera en mesure de confirmer une "
+"connexion via votre compte Firefox sur un nouvel appareil et ainsi accéder à vos données."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
