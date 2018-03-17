@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 17:25+0000\n"
-"Last-Translator: Adeel <meetadeel@gmail.com>\n"
+"PO-Revision-Date: 2018-03-17 06:19+0000\n"
+"Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
-msgstr ""
+msgstr "بنیادی ای میل کی توثیق کاری کر دی گئی"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -68,7 +68,7 @@ msgstr ""
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
-msgstr ""
+msgstr "ثانوی ای میل کی توژیق کارای کر دی گئی"
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "ثانوی ای میل ہٹا دی گئی"
 
 #: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82
 msgid "Verification email sent"
@@ -416,7 +416,7 @@ msgstr "اس نمبر میں ایک پیغام نہیں بھیج سکا"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "آپ کی ای میل ابھی واپس آ گئی"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
@@ -621,7 +621,7 @@ msgstr "فون نمبر درکار پے"
 
 #: .es5/lib/config-loader.js:82
 msgid "Missing configuration"
-msgstr ""
+msgstr "غائب تشکیل"
 
 #: .es5/lib/config-loader.js:86
 msgid "Invalid configuration"
@@ -708,9 +708,7 @@ msgid "Invalid Token"
 msgstr "‏‏ناجائز ٹوکن"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -719,7 +717,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Mozilla اور سے متعلق تازہ ترین خبریں حاصل کریں۔"
 
 #: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
@@ -787,7 +785,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "جس ربط پر آپ نے پاسورڈ پھر سیٹ کرنے کے لیئے کلک کیا ہے وہ زائدالمدت ہے۔"
 
 #: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -803,7 +801,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "نیا پاس ورڈ تخلیق کریں"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -1112,7 +1110,7 @@ msgstr "کوڈ داخل کریں"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "سلامتی کوڈ داخل کریں"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1456,7 +1454,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "کوڈ اسکین نہیں کر سک رہے؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
@@ -1464,11 +1462,11 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "سلامتی کوڈ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
-msgstr ""
+msgstr "تصدیق کریں"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
