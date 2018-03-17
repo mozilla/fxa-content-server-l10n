@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-17 19:30+0000\n"
+"PO-Revision-Date: 2018-03-17 19:32+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -1466,11 +1466,11 @@ msgstr "Просканируйте QR-код в своем приложении,
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "Не можете отсканировать код?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Вручную введите этот секретный ключ в свое приложение для аутентификации:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
