@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-17 14:10+0000\n"
+"PO-Revision-Date: 2018-03-17 14:14+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -232,7 +232,7 @@ msgstr "Autenticación en dos pasos eliminada"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr "La autenticación en dos pasos está activada"
+msgstr "Autenticación en dos pasos activada"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -1114,15 +1114,15 @@ msgstr "Introducir código"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr "Escribe el código de seguridad"
+msgstr "Introduce el código de seguridad"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Abre tu aplicación de autenticación e introduce el código de seguridad que se te proporciona."
+msgstr "Abre tu aplicación de autenticación e introduce el código de seguridad que te aparece."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr "Ingresa el código de 6 dígitos"
+msgstr "Introduce el código de 6 dígitos"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
