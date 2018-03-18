@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 11:19+0000\n"
-"Last-Translator: Sav22999 <saverio.morelli@outlook.it>\n"
+"PO-Revision-Date: 2018-03-18 17:34+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1446,7 +1446,7 @@ msgstr "Attiva…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Aggiungi un ulteriore livello di sicurezza al tuo account attraverso i codici di sicurezza."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
@@ -1454,7 +1454,7 @@ msgstr "Attivata"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Disattivata"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
@@ -1466,7 +1466,7 @@ msgstr "Attiva"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
+msgstr "Utilizza l'app per scansionare il codice QR, poi inserisci qui il codice di sicurezza generato per confermare la configurazione."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
