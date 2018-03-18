@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 20:30+0000\n"
+"PO-Revision-Date: 2018-03-18 20:44+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -118,15 +118,15 @@ msgstr "Башка җиһазларыгызда да синхронлаштыр�
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Серсүзегезне Сез үзгәртмәгән булсагыз, зинһар тиз арада <a %(resetLinkAttributes)s>яңа пароль сайлагыз</a>."
+msgstr "Серсүзегезне үзгәртмәгән булсагыз, зинһар тиз арада <a %(resetLinkAttributes)s>яңа пароль сайлагыз</a>."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Серсүзегезне үзгәртмәгән булсагыз, зинһар тиз арада (re%(resetLink)s битендә яңа серсүз сайлагыз"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Без Сезнең Firefox хисап язмагызда шөбһәле хәрәкәтләр ачыкладык. Сезнең серсүзегез урланган булырга мөмкин."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -445,7 +445,7 @@ msgstr "Сервер мәшгуль, бераздан соң янәдән тыр
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Хәзерге вакытта без авыр йөк астындабыз һәм системаны мөмкин булганча тиз арада нормаль хәленә китерү өстендә эшлибез."
 
 #: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
