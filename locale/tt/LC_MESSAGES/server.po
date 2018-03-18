@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 09:10+0000\n"
+"PO-Revision-Date: 2018-03-18 09:38+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -102,7 +102,7 @@ msgstr "Firefox хисап язмагызның серсүзе түбәндәг�
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(resetLinkAttributes)s>серсүзегезне үзгәртегез</a>."
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(resetLinkAttributes)s>яңа серсүз сайлагыз</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: lib/senders/email.js:785
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox хисап язмасы расланды"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email added"
@@ -441,7 +441,7 @@ msgstr "502 хатасы"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сервер мәшгуль, бераздан соң янәдән тырышып карагыз"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
