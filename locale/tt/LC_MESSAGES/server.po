@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 00:08+0000\n"
+"PO-Revision-Date: 2018-03-18 00:27+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -62,14 +62,14 @@ msgstr "IP адрес: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(passwordChangeLinkAttributes)s>серсүзегезне үзгәртегез</a>."
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_change_primary.html:6
 #: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Күбрәк белү өчен, <a %(supportLinkAttributes)s>Mozilla Ярдәм</a> сайтын зиярат итегез."
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
@@ -84,13 +84,13 @@ msgstr "Mozilla'ның хосусыйлык сәясәте"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Бу автоматик электрон хат. Әгәр Firefox хисап язмагызга яңа җиһазны өстәмәгән булсагыз, тиз арада %(passwordChangeLink)s битендә серсүзегезне үзгәртегез"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_change_primary.txt:5
 #: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
 #: lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Күбрәк белү өчен, %(supportUrl)s адресын зиярат итегез"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -98,11 +98,11 @@ msgstr "Серсүз уңышлы үзгәртелде"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Firefox хисап язмагызның серсүзе түбәндәге җиһаздан уңышлы гына үзгәртелде:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(resetLinkAttributes)s>серсүзегезне үзгәртегез</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Сәхифә табылмады"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
@@ -425,11 +425,11 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Өйгә"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 хатасы"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -437,7 +437,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 хатасы"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -449,12 +449,12 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox хисап язмалары өчен JavaScript кирәк."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Хосусыйлык искәртүе"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Куллану шартлары"
