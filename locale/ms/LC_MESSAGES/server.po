@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-17 00:11+0000\n"
-"Last-Translator: manxmensch <manxmensch@gmail.com>\n"
+"PO-Revision-Date: 2018-03-20 04:46+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
@@ -312,7 +312,7 @@ msgstr "Setelah disahkan, pertukaran akaun seperti menambah e-mel sekunder akan 
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Jika anda tidak membenarkan tindakan ini, <a%(passwordChangeLinkAttributes)s>sila tukar kata laluan anda</a>."
+msgstr "Jika anda tidak membenarkan tindakan ini, <a %(passwordChangeLinkAttributes)s>sila tukar kata laluan anda</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
