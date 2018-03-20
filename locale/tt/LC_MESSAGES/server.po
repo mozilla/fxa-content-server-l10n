@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 21:19+0000\n"
+"PO-Revision-Date: 2018-03-20 22:24+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -149,19 +149,19 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Firefox Сезнең өчен нинди серсүзләрне сайлаганлыгын ничек карап була икәнен белү."
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Хөрмәт илә,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Firefox Хисап язмалары такымы"
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Яңа төп электрон почта адресы"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
