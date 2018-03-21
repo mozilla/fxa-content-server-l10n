@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-17 19:32+0000\n"
-"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2018-03-21 17:48+0000\n"
+"Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -74,11 +74,11 @@ msgstr "Дополнительная эл. почта подтверждена"
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr "Вход подтвержден"
+msgstr "Вход подтверждён"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Теперь вы готовы использовать %(serviceName)s"
+msgstr "Теперь вы можете использовать %(serviceName)s"
 
 #: .es5/views/ready.js:65
 msgid "Account verified"
@@ -366,7 +366,7 @@ msgstr "Неправильный пароль"
 
 #: .es5/lib/auth-errors.js:65
 msgid "Unverified account"
-msgstr "Неподтвержденный аккаунт"
+msgstr "Неподтверждённый аккаунт"
 
 #: .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
@@ -1084,7 +1084,7 @@ msgstr "Подтверждение по электронной почте, ко�
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Если это действительный адрес электронной почты, <a %(escapedSupportLinkAttrs)s>сообщите нам об этом</a>, и мы поможем разблокировать вашу учетную запись."
+msgstr "Если это действительный адрес электронной почты, <a %(escapedSupportLinkAttrs)s>сообщите нам об этом</a>, и мы поможем разблокировать ваш аккаунт."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1442,7 +1442,7 @@ msgstr "Включить…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr "Добавьте в свою учетную запись ещё один уровень защиты, включив использование защитных кодов."
+msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
