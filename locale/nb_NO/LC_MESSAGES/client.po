@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-21 15:29+0000\n"
+"PO-Revision-Date: 2018-03-21 15:45+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1123,15 +1123,15 @@ msgstr "Oppgi sikkerhetskode"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Åpne autentiseringappen din og skriv inn sikkerhetskoden som angitt."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Oppgi 6-sifret kode"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
-msgstr ""
+msgstr "Bekreft"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1380,7 +1380,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Dessuten kan du abonnere på e-postreklame med siste nytt fra Mozilla og Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1436,7 +1436,7 @@ msgstr "Totrinns-verifisering"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Aktiver…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
@@ -1444,19 +1444,19 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
-msgstr ""
+msgstr "Aktivert"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktivert"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
-msgstr ""
+msgstr "Deaktiver"
 
 #: .es5/templates/settings/two_step_authentication.mustache:12
 msgid "Enable"
-msgstr ""
+msgstr "Aktiver"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
@@ -1472,7 +1472,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Sikkerhetskode"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
@@ -1480,7 +1480,7 @@ msgstr "Bekreft"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
-msgstr ""
+msgstr "Bekreft på nytt for å låse opp seksjonen"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
