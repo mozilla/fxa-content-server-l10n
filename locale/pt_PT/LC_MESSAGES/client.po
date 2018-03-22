@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-22 01:54+0000\n"
-"Last-Translator: Gonçalo Matos <goncalo.matos@me.com>\n"
+"PO-Revision-Date: 2017-11-27 17:57+0000\n"
+"Last-Translator: Alberto Castro <albertdcastro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -1220,7 +1220,7 @@ msgstr "Ligação de aplicação reenviada para %(escapedPhoneNumber)s. <a %(esc
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Se não está a receber a mensagem de texto, pode também descarregar as aplicações manualmente."
+msgstr "Se não está a receber a mensagem de texto, pode também transferir as aplicações manualmente."
 
 #: .es5/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
@@ -1358,7 +1358,7 @@ msgstr "Nenhum ligado"
 
 #: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr "Descarregar"
+msgstr "Transferir"
 
 #: .es5/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
