@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-21 20:07+0000\n"
+"PO-Revision-Date: 2018-03-23 20:07+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -228,11 +228,11 @@ msgstr "დამატებითი ელფოსტა"
 
 #: .es5/views/settings/two_step_authentication.js:116
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "ორსაფეხურიანი დამოწმება შესვლისას გამორთულია"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "ორსაფეხურიანი დამოწმება შესვლისას ჩართულია"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -476,7 +476,7 @@ msgstr "დამადასტურებელი კოდი ვადა�
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "ორსაფეხურიანი დამოწმების კოდი არასწორია"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
@@ -1120,7 +1120,7 @@ msgstr "შეიყვანეთ უსაფრთხოების კო�
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "გახსენით შესვლის დამოწმების პროგრამა და შეიყვანეთ მოწოდებული უსაფრთხოების კოდი."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1431,7 +1431,7 @@ msgstr "დამატება"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "ორსაფეხურიანი დამოწმება შესვლისას"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
@@ -1467,7 +1467,7 @@ msgstr "ვერ ასკანერებთ კოდს?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "ხელით შეიყვანეთ ეს საიდუმლო კოდი შესვლის დასამოწმებელ პროგრამაში:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
