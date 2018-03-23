@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-16 11:49+0000\n"
+"PO-Revision-Date: 2018-03-23 16:21+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -229,11 +229,11 @@ msgstr "Допълнителен ел. адрес"
 
 #: .es5/views/settings/two_step_authentication.js:116
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Двуетапното удостоверяване е премахнато"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Двуетапното удостоверяване е включено"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -265,7 +265,7 @@ msgstr "Отваряне на Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Писмото е изпратено повторно. Добавете accounts@firefox.com към адресната книга, за да подсигурите безпроблемно получаване."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -477,7 +477,7 @@ msgstr "Този код за упълномощаване е изтекъл"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Неверен код за двуетапно удостоверяване"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
@@ -638,7 +638,7 @@ msgstr "Моля, опитайте отново по-късно."
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Услугата е недостъпна, опитайте по-късно"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -709,9 +709,7 @@ msgid "Invalid Token"
 msgstr "Невалиден токен"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Продължавайки, вие се съгласявате с <a id=\"service-tos\" href=\"%(termsUri)s\">Условията на услугата</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Политиката за личните данни</a> на "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1115,19 +1113,19 @@ msgstr "Въведете кода"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Въведете кода за сигурност"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Отворете приложението си за удостоверяване и въведете кода за сигурност, който предостави."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Въведете 6-цифреният код"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
-msgstr ""
+msgstr "Подвърждаване"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1429,47 +1427,47 @@ msgstr "Добавяне"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Двуетапно удостоверяване"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Включване…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Допълнително ниво на сигурност за вашата сметка, чрез използване на кодове за сигурност."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Изключено"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
-msgstr ""
+msgstr "Изключване"
 
 #: .es5/templates/settings/two_step_authentication.mustache:12
 msgid "Enable"
-msgstr ""
+msgstr "Включване"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
+msgstr "Сканирайте кода от вид QR с приложението и потвърдете, че настройката е правилна като въведете кода, който предостави."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "Не може да сканирате кода?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Въведете ръчно тайния ключ в приложението за удостоверяване:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Код за сигурност"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
@@ -1547,8 +1545,8 @@ msgstr "Вписване"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Продължавайки, вие се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">Условията на услугата</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Политиката за личните данни</a> на облачната "
-#~ "услуга на Firefox."
+#~ "Продължавайки, вие се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">Условията на услугата</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Политиката за личните данни</a> на облачната услуга "
+#~ "на Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Облачни услуги на Firefox"
@@ -1701,8 +1699,8 @@ msgstr "Вписване"
 #~ msgstr "Защо да синхронизирате две (или повече) устройства?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "С помощта на Sync може да споделяте отметки, история и запазените от Firefox пароли в едно устройство на други. Впишете се във Firefox на своя телефон или таблет и всичко запазено във Firefox от "
 #~ "настолния компютър ще се появи."
@@ -1711,8 +1709,8 @@ msgstr "Вписване"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync няма за цел да пази архивно копие на данните ви, а е метод за споделяне. Ако смените паролата си без да имате информацията на поне още едно устройство е възможно да загубите всичко свързано "
-#~ "със старата парола. За това е добре да имате инсталиран Firefox с настроен Sync на повече от едно устройство."
+#~ "Sync няма за цел да пази архивно копие на данните ви, а е метод за споделяне. Ако смените паролата си без да имате информацията на поне още едно устройство е възможно да загубите всичко свързано със"
+#~ " старата парола. За това е добре да имате инсталиран Firefox с настроен Sync на повече от едно устройство."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1817,19 +1815,16 @@ msgstr "Вписване"
 #~ msgid "Sync preferences"
 #~ msgstr "Настройки на Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Търсите Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Започнете от тук</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Имате регистрация с друг имейл? <a href=\"%(signinUri)s\">Впишете се</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
-#~ "\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Последно действие %(translatedTimeAgo)s"
@@ -1934,8 +1929,7 @@ msgstr "Вписване"
 #~ msgstr "Писмото за отключване е изпратено"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr ""
-#~ "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
+#~ msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Регистрация е забранена"
@@ -1972,8 +1966,8 @@ msgstr "Вписване"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл "
-#~ "по-долу."
+#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл по-"
+#~ "долу."
 
 #~ msgid "Age is required"
 #~ msgstr "Възрастта ви е необходима"
@@ -2128,9 +2122,7 @@ msgstr "Вписване"
 #~ msgstr "Вече имате профил? Вписване."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на "
-#~ "Firefox."
+#~ msgstr "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Абонирайте се за новини и съвети за Firefox"

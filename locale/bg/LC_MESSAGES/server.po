@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-23 16:10+0000\n"
+"PO-Revision-Date: 2018-03-23 16:11+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -115,7 +115,7 @@ msgstr "Паролата за сметката ви е сменена"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Ще трябва да въведете новата си парола на другите устройства, за да подновят синхронизирането."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
