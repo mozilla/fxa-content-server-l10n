@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-21 15:45+0000\n"
+"PO-Revision-Date: 2018-03-23 09:10+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -265,7 +265,7 @@ msgstr "Åpne Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "E-post sendt på nytt. Legg til accounts@firefox.com til kontaktene dine for å sikre en problemfri levering."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -1159,15 +1159,15 @@ msgstr "Gjenta passord"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Pass godt på dette passordet. Hvis du får bruk for å nullstille det, kan du risikere å miste synkroniseringsdata."
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Gjenbruk ikke passordet til din e-postkonto</span>Hvis noen vet passordet til din e-postkonto, kan de godkjenne din pålogging til Firefox på en ny enhet og få tilgang til dine data."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Husk ditt passord</span>Hvis du får behov for å nullstille ditt passord, vil du miste all synkroniseringsdata, som ikke ligger på en av dine enheter."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
