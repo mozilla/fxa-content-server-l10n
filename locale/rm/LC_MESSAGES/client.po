@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
+"POT-Creation-Date: 2018-03-23 16:10+0000\n"
 "PO-Revision-Date: 2017-12-11 14:09+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -621,11 +621,11 @@ msgstr "Colliaziun rutta"
 msgid "Phone number required"
 msgstr "Numer da telefon necessari"
 
-#: .es5/lib/config-loader.js:82
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Configuraziun manca"
 
-#: .es5/lib/config-loader.js:86
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Configuraziun nunvalida"
 
@@ -1264,8 +1264,8 @@ msgstr "Camera"
 msgid "Clear"
 msgstr "Allontanar"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Finì"
 

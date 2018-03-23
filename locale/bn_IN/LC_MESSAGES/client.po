@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
+"POT-Creation-Date: 2018-03-23 16:10+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -620,11 +620,11 @@ msgstr "লিংক ক্ষতিগ্রস্ত"
 msgid "Phone number required"
 msgstr "ফোন নম্বর প্রয়োজন"
 
-#: .es5/lib/config-loader.js:82
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "অনুপস্থিত কনফিগারেশন"
 
-#: .es5/lib/config-loader.js:86
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "ভুল কনফিগারেশন"
 
@@ -1259,8 +1259,8 @@ msgstr "ক্যামেরা"
 msgid "Clear"
 msgstr "মুছে ফেলুন"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "সমাপ্ত"
 
