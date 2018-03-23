@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-07 16:25+0000\n"
+"POT-Creation-Date: 2018-03-23 16:10+0000\n"
+"PO-Revision-Date: 2018-03-17 09:46+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -49,8 +49,12 @@ msgstr "Prijavi se na Sync"
 #: lib/senders/templates/password_changed.html:1
 #: lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_required.html:1
+#: lib/senders/templates/post_add_two_step_authentication.html:1
 #: lib/senders/templates/post_change_primary.html:1
+#: lib/senders/templates/post_consume_recovery_code.html:1
+#: lib/senders/templates/post_new_recovery_codes.html:1
 #: lib/senders/templates/post_remove_secondary.html:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:1
 #: lib/senders/templates/post_verify.html:1
 #: lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/recovery.html:1
@@ -72,7 +76,7 @@ msgstr "Firefox nalozi"
 #: lib/senders/templates/new_device_login.html:2
 #: lib/senders/templates/new_device_login.txt:1
 #: lib/senders/templates/verify_login.html:2
-#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:744
+#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:753
 msgid "New sign-in to %(clientName)s"
 msgstr "Novo prijavljivanje na klijentu %(clientName)s"
 
@@ -80,6 +84,14 @@ msgstr "Novo prijavljivanje na klijentu %(clientName)s"
 #: lib/senders/templates/new_device_login.txt:2
 #: lib/senders/templates/password_changed.html:4
 #: lib/senders/templates/password_changed.txt:3
+#: lib/senders/templates/post_add_two_step_authentication.html:4
+#: lib/senders/templates/post_add_two_step_authentication.txt:3
+#: lib/senders/templates/post_consume_recovery_code.html:4
+#: lib/senders/templates/post_consume_recovery_code.txt:3
+#: lib/senders/templates/post_new_recovery_codes.html:4
+#: lib/senders/templates/post_new_recovery_codes.txt:3
+#: lib/senders/templates/post_remove_two_step_authentication.html:4
+#: lib/senders/templates/post_remove_two_step_authentication.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3
 #: lib/senders/templates/unblock_code.html:3
 #: lib/senders/templates/unblock_code.txt:2
@@ -97,7 +109,11 @@ msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4
+#: lib/senders/templates/post_add_two_step_authentication.html:7
 #: lib/senders/templates/post_change_primary.html:5
+#: lib/senders/templates/post_consume_recovery_code.html:6
+#: lib/senders/templates/post_new_recovery_codes.html:6
+#: lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5
 #: lib/senders/templates/verify_login_code.html:5
 msgid ""
@@ -110,8 +126,12 @@ msgstr ""
 #: lib/senders/templates/new_device_login.html:5
 #: lib/senders/templates/password_changed.html:6
 #: lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6
+#: lib/senders/templates/post_consume_recovery_code.html:7
+#: lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_secondary.html:6
+#: lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6
 #: lib/senders/templates/post_verify_secondary.html:6
 #: lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
@@ -134,18 +154,27 @@ msgstr ""
 #: lib/senders/templates/password_reset.txt:5
 #: lib/senders/templates/password_reset_required.html:10
 #: lib/senders/templates/password_reset_required.txt:9
+#: lib/senders/templates/post_add_two_step_authentication.html:9
+#: lib/senders/templates/post_add_two_step_authentication.txt:7
 #: lib/senders/templates/post_change_primary.html:7
 #: lib/senders/templates/post_change_primary.txt:6
+#: lib/senders/templates/post_consume_recovery_code.html:8
+#: lib/senders/templates/post_consume_recovery_code.txt:7
+#: lib/senders/templates/post_new_recovery_codes.html:8
+#: lib/senders/templates/post_new_recovery_codes.txt:7
 #: lib/senders/templates/post_remove_secondary.html:7
 #: lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/post_remove_two_step_authentication.html:9
+#: lib/senders/templates/post_remove_two_step_authentication.txt:7
 #: lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6
 #: lib/senders/templates/post_verify_secondary.html:7
 #: lib/senders/templates/post_verify_secondary.txt:5
 #: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
 #: lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
-#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7
+#: lib/senders/templates/unblock_code.txt:5
+#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_login.html:7
 #: lib/senders/templates/verify_login.txt:6
 #: lib/senders/templates/verify_login_code.html:7
 #: lib/senders/templates/verify_login_code.txt:6
@@ -171,10 +200,14 @@ msgstr ""
 #: lib/senders/templates/new_device_login.txt:4
 #: lib/senders/templates/password_changed.txt:5
 #: lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5
+#: lib/senders/templates/post_consume_recovery_code.txt:6
+#: lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_secondary.txt:5
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6
-#: lib/senders/templates/verify.txt:5
+#: lib/senders/templates/post_remove_two_step_authentication.txt:6
+#: lib/senders/templates/post_verify.txt:5
+#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
 #: lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6
 #: lib/senders/templates/verify_secondary.txt:6
@@ -293,6 +326,66 @@ msgstr "Najbolje,"
 msgid "The Firefox Accounts team"
 msgstr "Tim Firefox naloga"
 
+#: lib/senders/templates/post_add_two_step_authentication.html:2
+#: lib/senders/templates/post_add_two_step_authentication.txt:1
+#: lib/senders/email.js:919
+msgid "Two-step authentication enabled"
+msgstr ""
+
+#: lib/senders/templates/post_add_two_step_authentication.html:3
+msgid ""
+"You have successfully enabled two-step authentication on your Firefox "
+"Account from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_two_step_authentication.html:5
+msgid ""
+"Security codes from your authentication app will now be required at each "
+"sign-in."
+msgstr ""
+
+#: lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4
+#: lib/senders/templates/post_consume_recovery_code.html:5
+#: lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_secondary.html:4
+#: lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "Upravljaj nalogom"
+
+#: lib/senders/templates/post_add_two_step_authentication.txt:2
+msgid ""
+"You have successfully enabled two-step authentication on your Firefox "
+"Account. Security codes from your authentication app will now be required at "
+"each sign-in."
+msgstr ""
+
+#: lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3
+#: lib/senders/templates/post_consume_recovery_code.txt:4
+#: lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_secondary.txt:3
+#: lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Upravljaj nalogom:"
+
+#: lib/senders/templates/post_add_two_step_authentication.txt:5
+#: lib/senders/templates/post_change_primary.txt:4
+#: lib/senders/templates/post_consume_recovery_code.txt:5
+#: lib/senders/templates/post_new_recovery_codes.txt:5
+#: lib/senders/templates/post_remove_two_step_authentication.txt:5
+#: lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/verify_login.txt:5
+#: lib/senders/templates/verify_login_code.txt:4
+msgid ""
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
+msgstr ""
+"Ako sumnjate da neko pokušava da pristupi vašem nalogu, molimo vas da "
+"promenite lozinku."
+
 #: lib/senders/templates/post_change_primary.html:2
 #: lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -309,28 +402,32 @@ msgstr ""
 "korisničko ime za pristupanje na vaš Firefox nalog, kao i za dobijanje "
 "bezbednosnih obaveštenja i potvrda za prijavljivanje."
 
-#: lib/senders/templates/post_change_primary.html:4
-#: lib/senders/templates/post_remove_secondary.html:4
-#: lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "Upravljaj nalogom"
-
-#: lib/senders/templates/post_change_primary.txt:3
-#: lib/senders/templates/post_remove_secondary.txt:3
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Upravljaj nalogom:"
-
-#: lib/senders/templates/post_change_primary.txt:4
-#: lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5
-#: lib/senders/templates/verify_login_code.txt:4
-msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"change your password."
+#: lib/senders/templates/post_consume_recovery_code.html:2
+#: lib/senders/email.js:1027
+msgid "Recovery code consumed"
 msgstr ""
-"Ako sumnjate da neko pokušava da pristupi vašem nalogu, molimo vas da "
-"promenite lozinku."
+
+#: lib/senders/templates/post_consume_recovery_code.html:3
+#: lib/senders/templates/post_consume_recovery_code.txt:2
+msgid ""
+"You have successfully consumed a recovery code from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_consume_recovery_code.txt:1
+msgid "Consumed recovery code"
+msgstr ""
+
+#: lib/senders/templates/post_new_recovery_codes.html:2
+#: lib/senders/templates/post_new_recovery_codes.txt:1
+#: lib/senders/email.js:991
+msgid "New recovery codes generated"
+msgstr ""
+
+#: lib/senders/templates/post_new_recovery_codes.html:3
+#: lib/senders/templates/post_new_recovery_codes.txt:2
+msgid ""
+"You have successfully generated new recovery codes from the following device:"
+msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2
 #: lib/senders/templates/post_remove_secondary.txt:1
@@ -364,6 +461,27 @@ msgid ""
 msgstr ""
 "Ovo je automatska e-pošta; ako ste je greškom primili, ni jedna radnja nije "
 "potrebna."
+
+#: lib/senders/templates/post_remove_two_step_authentication.html:2
+#: lib/senders/templates/post_remove_two_step_authentication.txt:1
+msgid "Two-step authentication disabled"
+msgstr ""
+
+#: lib/senders/templates/post_remove_two_step_authentication.html:3
+msgid ""
+"You have successfully disabled two-step authentication on your Firefox "
+"Account from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_remove_two_step_authentication.html:5
+msgid "Security codes will no longer be required at each sign-in."
+msgstr ""
+
+#: lib/senders/templates/post_remove_two_step_authentication.txt:2
+msgid ""
+"You have successfully disabled two-step authentication on your Firefox "
+"Account. Security codes will no longer be required at each sign-in."
+msgstr ""
 
 #: lib/senders/templates/post_verify.html:2
 #: lib/senders/templates/post_verify.txt:1
@@ -507,7 +625,7 @@ msgstr ""
 "%(passwordChangeLinkAttributes)s>molimo vas da promenite lozinku</a>."
 
 #: lib/senders/templates/verify_primary.html:2
-#: lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:536
+#: lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:545
 msgid "Verify primary email"
 msgstr "Potvrdite primarnu adresu"
 
@@ -538,6 +656,8 @@ msgid ""
 "If you did not authorize this action, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
+"Ako niste odobrili ovu aktivnost, <a "
+"%(passwordChangeLinkAttributes)s>promenite vašu lozinku</a>."
 
 #: lib/senders/templates/verify_primary.txt:4
 #: lib/senders/templates/verify_secondary.txt:4
@@ -546,10 +666,10 @@ msgstr "Verifikuj adresu: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Ako niste odobrili ovu aktivnost, promenite vašu lozinku."
 
 #: lib/senders/templates/verify_secondary.html:2
-#: lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:583
+#: lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:592
 msgid "Verify secondary email"
 msgstr "Verifikuj sekundarnu adresu"
 
@@ -593,81 +713,85 @@ msgstr ""
 "Jednom kada potvrdite, pomoćićemo vam da instalirate i povežete Firefox na "
 "barem jedan uređaj."
 
-#: lib/senders/email.js:169
+#: lib/senders/email.js:178
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:172
+#: lib/senders/email.js:181
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:199
+#: lib/senders/email.js:208
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:201
+#: lib/senders/email.js:210
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:203
+#: lib/senders/email.js:212
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:214
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (procenjeno)"
 
-#: lib/senders/email.js:326
+#: lib/senders/email.js:335
 msgid "Verify your Firefox Account"
 msgstr "Potvrdite Firefox nalog"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:357
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrdite vašu elektronsku adresu i počnite sa sinhronizacijom!"
 
-#: lib/senders/email.js:394
+#: lib/senders/email.js:403
 msgid "Firefox Account authorization code"
 msgstr "Autorazicioni kod Firefox naloga"
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:446
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potvrdite novo prijavljivanje na %(clientName)s"
 
-#: lib/senders/email.js:490
+#: lib/senders/email.js:499
 msgid "Sign-in code for Firefox"
 msgstr "Kod za prijavu na Firefox"
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:639
 msgid "Reset your Firefox Account password"
 msgstr "Resetujte lozinku Firefox naloga"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:671
 msgid "Your Firefox Account password has been changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: lib/senders/email.js:692
+#: lib/senders/email.js:701
 msgid "Firefox Account password changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: lib/senders/email.js:718
+#: lib/senders/email.js:727
 msgid "Firefox Account password reset required"
 msgstr "Potrebno je da resetujete lozinku Firefox naloga"
 
-#: lib/senders/email.js:785
+#: lib/senders/email.js:794
 msgid "Firefox Account verified"
 msgstr "Firefox nalog potvrđen"
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:825
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundarna adresa Firefox naloga dodata"
 
-#: lib/senders/email.js:848
+#: lib/senders/email.js:857
 msgid "Firefox Account new primary email"
 msgstr "Nova primarna adresa e-pošte Firefox naloga"
 
-#: lib/senders/email.js:880
+#: lib/senders/email.js:889
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarna adresa Firefox naloga uklonjena"
+
+#: lib/senders/email.js:955
+msgid "Two-step authentication removed"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
