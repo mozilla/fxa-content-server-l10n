@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-19 13:03+0000\n"
+"PO-Revision-Date: 2018-03-25 13:22+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1119,7 +1119,7 @@ msgstr "Vnesite varnostno kodo"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Odprite svojo aplikacijo za overitev in vnesite dobljeno varnostno kodo."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1437,7 +1437,7 @@ msgstr "Omogoči …"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Okrepite varnost svojega računa z zahtevanjem varnostnih kod."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
@@ -1465,7 +1465,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Ročno vnesite ta tajni ključ v svojo aplikacijo za overitev:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
