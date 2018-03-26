@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-02-20 19:01+0000\n"
+"PO-Revision-Date: 2018-03-26 17:06+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -228,11 +228,11 @@ msgstr "Correo secundario"
 
 #: .es5/views/settings/two_step_authentication.js:116
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Autenticación en dos pasos eliminada"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Autenticación en dos pasos habilitada"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -264,7 +264,7 @@ msgstr "Abrir Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Correo enviado. Agrega accounts@firefox.com a tus contactos para asegurar la entrega sin problemas."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -476,7 +476,7 @@ msgstr "Este código de verificación ha expirado"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Código de autenticación en dos pasos inválido"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
@@ -637,7 +637,7 @@ msgstr "Por favor, vuelve a intentarlo más tarde"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Servicio no disponible, intenta de nuevo más tarde"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -708,9 +708,7 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Al continuar, concuerdas con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1045,8 +1043,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
-"<span>NOTA:</span> Si restableces la contraseña se eliminarán algunos datos (incluida la información sincronizada, como historial y marcadores). Esto se debe al cifrado de la información a través "
-"de la contraseña para proteger tu privacidad."
+"<span>NOTA:</span> Si restableces la contraseña se eliminarán algunos datos (incluida la información sincronizada, como historial y marcadores). Esto se debe al cifrado de la información a través de"
+" la contraseña para proteger tu privacidad."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1118,19 +1116,19 @@ msgstr "Ingresar código"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Ingresar código de seguridad"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Abrir tu aplicación de autenticación e ingresa el código de seguridad que se te entrega."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Ingresa código de 6 dígitos"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
-msgstr ""
+msgstr "Verificar"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1158,15 +1156,17 @@ msgstr "Repitir contraseña"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "No pierdas esta contraseña. Si necesitas restaurarla, puedes perder los datos sincronizados."
 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>No reutilices tu contraseña del correo electrónico</span>, si alguien conoce la contraseña de tu email, puede aprobar tu inicio de sesión de Firefox en un nuevo dispositivo y acceder a tus "
+"datos."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Recuerda tu contraseña</span>, si necesitas restaurar tu contraseña, perderás la sincronización de los datos en todos tus dispositivos."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1433,51 +1433,51 @@ msgstr "Agregar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Autenticación en dos pasos"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Habilitar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Agrega una capa extra de seguridad a tu cuenta solicitando códigos de seguridad."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
-msgstr ""
+msgstr "Habilitado"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Deshabilitado"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
-msgstr ""
+msgstr "Deshabilitar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:12
 msgid "Enable"
-msgstr ""
+msgstr "Habilitar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
+msgstr "Escanea el código QR en tu aplicación. Para confirmar que está configurado correctamente, ingresa el código de seguridad que te aparece."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "¿No puedes escanear el código?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Introduce manualmente la clave secreta en tu aplicación de autenticación:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Código de seguridad"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
@@ -1703,11 +1703,11 @@ msgstr "Iniciar sesión"
 #~ msgstr "¿Por qué sincronizar dos (o más) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sincronizar te permite compartir marcadores, historial y contraseñas que guardes en Firefox en un dispositivo con Firefox en otro dispositivo. Conéctate a Firefox en tu teléfono o tablet y todo "
-#~ "lo que has guardado en Firefox para escritorio aparecerá."
+#~ "Sincronizar te permite compartir marcadores, historial y contraseñas que guardes en Firefox en un dispositivo con Firefox en otro dispositivo. Conéctate a Firefox en tu teléfono o tablet y todo lo "
+#~ "que has guardado en Firefox para escritorio aparecerá."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1819,19 +1819,18 @@ msgstr "Iniciar sesión"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencias de Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Buscando Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empezar aquí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con diferente correo electrónico? <a href=\"%(signinUri)s\">Inicia sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última actividad: %(translatedTimeAgo)s"
