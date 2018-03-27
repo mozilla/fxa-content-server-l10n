@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-18 18:00+0000\n"
+"PO-Revision-Date: 2018-03-27 12:10+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -1119,7 +1119,7 @@ msgstr "Indtast sikkerhedskode"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Åbn din app til godkendelse og indtast den angivne sikkerhedskode."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1467,7 +1467,7 @@ msgstr "Kan du ikke skanne koden?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Indtast denne hemmelige nøgle i din app til godkendelse:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
