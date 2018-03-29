@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-28 19:00+0000\n"
+"PO-Revision-Date: 2018-03-29 17:59+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -264,7 +264,7 @@ msgstr "Opne Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "E-post sendt på nytt. Legg til accounts@firefox.com til kontaktane dine for å sikre ei problemfri levering."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -1159,10 +1159,12 @@ msgstr "Pass godt på dette passordet. Viss du får bruk for å nullstille det, 
 #: .es5/templates/sign_up.mustache:15
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>Bruk ikkje om igjen passordet ditt til e-postkontoen din</span>Viss nokon kjenner passordet til e-postkontoen din, kan dei godkjenne pålogginga di til Firefox på ei ny eining, og få tilgang "
+"til dine data."
 
 #: .es5/templates/sign_up.mustache:16
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Hugs passordet ditt</span>Viss du må nullstille passordet ditt, vil du miste alle synkroniseringsdata som ikkje ligg på ei av einingane dine."
 
 #: .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1438,7 +1440,7 @@ msgstr "Slå på…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
+msgstr "Legg til eit ekstra sikkerheitslag på kontoen din konto gved å krevje sikkerheitskodar."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
@@ -1458,7 +1460,7 @@ msgstr "Slå på"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
+msgstr "Skann QR-koden i appen din og stadfest at han er rett konfigurert ved å skrive inn sikkerheitskoden som er spesifisert."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
@@ -1466,7 +1468,7 @@ msgstr "Kan du ikkje skanne koden?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Skriv inn denne hemmelege koden manuelt i autentiseringsappen din:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
