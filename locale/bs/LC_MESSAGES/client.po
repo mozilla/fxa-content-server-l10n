@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
+"POT-Creation-Date: 2018-03-30 16:10+0000\n"
 "PO-Revision-Date: 2018-03-19 06:45+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:158
+#: .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
-#: .es5/views/confirm_reset_password.js:174
+#: .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Resetovanje lozinke uspjelo. Prijavi se za nastavak."
 
@@ -619,11 +619,11 @@ msgstr "Link oštećen"
 msgid "Phone number required"
 msgstr "Potreban broj telefona"
 
-#: .es5/lib/config-loader.js:82
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Nedostaje konfiguracija"
 
-#: .es5/lib/config-loader.js:86
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Neispravna konfiguracija"
 
@@ -708,7 +708,9 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1262,8 +1264,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 

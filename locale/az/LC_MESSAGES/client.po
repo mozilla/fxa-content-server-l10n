@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
+"POT-Creation-Date: 2018-03-30 16:10+0000\n"
 "PO-Revision-Date: 2018-03-08 08:28+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440857927.0\n"
 
-#: .es5/views/confirm_reset_password.js:158
+#: .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "Parolu sıfırla"
 
-#: .es5/views/confirm_reset_password.js:174
+#: .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parol uğurla sıfırlandı. Davam etmək üçün daxil olun."
 
@@ -620,11 +620,11 @@ msgstr "Keçid zədələnib"
 msgid "Phone number required"
 msgstr "Telefon nömrəsi tələb edilir"
 
-#: .es5/lib/config-loader.js:82
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Əksik konfiqurasiya"
 
-#: .es5/lib/config-loader.js:86
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Səhv konfiqurasiya"
 
@@ -1263,8 +1263,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Təmizlə"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Hazır"
 
