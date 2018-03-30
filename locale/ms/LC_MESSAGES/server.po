@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-30 22:48+0000\n"
+"PO-Revision-Date: 2018-03-30 22:53+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -191,7 +191,7 @@ msgstr "Urus akaun"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Anda telah berjaya dayakan pengesahan dwi-langkah Akaun Firefox anda. Kod keselamatan dari aplikasi pengesahan akan diperlukan setiap kali anda daftar masuk."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -261,11 +261,11 @@ msgstr "Anda telah berjaya nyahdayakan pengesahan dwi-langkah Akaun Firefox anda
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr "Kod keselamatan tidak akan diperlukan lagi setiap kali mendaftar masuk."
+msgstr "Kod keselamatan tidak akan diperlukan lagi ketika daftar masuk."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Anda telah berjaya nyahdayakan pengesahan dwi-langkah Akaun Firefox anda. Kod keselamatan tidak akan diperlukan lagi ketika daftar masuk."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -494,7 +494,7 @@ msgstr "E-mel sekunder Akaun Firefox telah dibuang"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Pengesahan dwi-langkah telah dibuang"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
