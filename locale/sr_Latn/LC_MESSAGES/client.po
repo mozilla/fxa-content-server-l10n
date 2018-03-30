@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 18:41+0000\n"
-"PO-Revision-Date: 2018-03-06 18:41+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"PO-Revision-Date: 2018-03-17 09:45+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -16,11 +16,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: .es5/views/confirm_reset_password.js:158
+#: .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
-#: .es5/views/confirm_reset_password.js:174
+#: .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
@@ -32,7 +32,8 @@ msgstr "%(permissionName)s (neophodno)"
 msgid "Email address"
 msgstr "Adresa e-pošte"
 
-#: .es5/views/permissions.js:37 .es5/templates/settings/display_name.mustache:1
+#: .es5/views/permissions.js:37
+#: .es5/templates/settings/display_name.mustache:1
 #: .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Prikaži ime"
@@ -287,11 +288,11 @@ msgstr "Sekundarna adresa"
 
 #: .es5/views/settings/two_step_authentication.js:116
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Autentifikacija u dva koraka je uklonjena"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Autentifikacija u dva koraka je omogućena"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -549,7 +550,7 @@ msgstr "Kod za potvrdu je istekao"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Neispravan kod za autentifikaciju u dva koraka"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
@@ -699,11 +700,11 @@ msgstr "Veza je oštećena"
 msgid "Phone number required"
 msgstr "Potreban je broj telefona"
 
-#: .es5/lib/config-loader.js:82
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Nedostaje konfiguracija"
 
-#: .es5/lib/config-loader.js:86
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Neispravna konfiguracija"
 
@@ -1122,9 +1123,11 @@ msgid "Enter your email"
 msgstr "Unesite vašu adresu"
 
 #: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in.mustache:1
+#: .es5/templates/sign_in_password.mustache:2
 #: .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2
+#: .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Nastavite na %(serviceName)s"
 
@@ -1133,7 +1136,8 @@ msgstr "Nastavite na %(serviceName)s"
 msgid "Email"
 msgstr "E-pošta"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/index.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5
 #: .es5/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Nastavi"
@@ -1331,19 +1335,21 @@ msgstr "Unesite kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Unesite bezbednosni kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
 msgstr ""
+"Otvorite vašu aplikaciju za autentifikaciju i unesite bezbednosni kod koji "
+"nudi."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Unesite šestocifreni broj"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
-msgstr ""
+msgstr "Potvrdi"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1749,50 +1755,53 @@ msgstr "Dodaj"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Autentifikacija u dva koraka"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Omogući…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid ""
 "Add an extra layer of security to your account by requiring security codes."
 msgstr ""
+"Dodajte dodatni nivo zaštite vašem nalogu zahtevanjem bezbednosnih kodova."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Enabled"
-msgstr ""
+msgstr "Omogućeno"
 
 #: .es5/templates/settings/two_step_authentication.mustache:9
 msgid "Disabled"
-msgstr ""
+msgstr "Onemogućeno"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disable"
-msgstr ""
+msgstr "Onemogući"
 
 #: .es5/templates/settings/two_step_authentication.mustache:12
 msgid "Enable"
-msgstr ""
+msgstr "Omogući"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid ""
 "Scan the QR code in your app and confirm it is setup correctly by entering "
 "the security code it provides."
 msgstr ""
+"Skenirajte QR kod u vašoj aplikaciji i potvrdite njegovu ispravnost "
+"unošenjem bezbednosnog koda koji nudi."
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Can't scan code?"
-msgstr ""
+msgstr "Ne možete da skenirate kod?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:15
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Unesite ručno ovaj tajni ključ u vašu aplikaciju za autentifikaciju:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Security code"
-msgstr ""
+msgstr "Bezbednosni kod"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Confirm"
