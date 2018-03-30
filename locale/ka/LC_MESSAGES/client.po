@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2016-04-13 18:33+0000\n"
+"PO-Revision-Date: 2018-03-30 19:19+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1120,7 +1120,7 @@ msgstr "შეიყვანეთ უსაფრთხოების კო�
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "გახსენით შესვლის დამოწმების პროგრამა და შეიყვანეთ მოწოდებული უსაფრთხოების კოდი."
+msgstr "გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ მოცემული უსაფრთხოების კოდი."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
