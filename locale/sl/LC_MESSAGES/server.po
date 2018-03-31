@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-31 10:07+0000\n"
+"PO-Revision-Date: 2018-03-31 11:26+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -492,7 +492,7 @@ msgstr "Drugi e-poštni naslov za Firefox Račun odstranjen"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Overitev v dveh korakih je odstranjena"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
