@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-02 19:10+0000\n"
+"PO-Revision-Date: 2018-04-02 19:19+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -177,11 +177,11 @@ msgstr "Kaheastmeline autentimine lubati"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Oled järgnevat seadet kasutades edukalt lubanud Firefoxi konto kaheastmelise autentimise:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Koodigeneraatori äpi poolt loodavaid turvakoode on nüüd tarvis igal sisselogimisel."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
 #: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
@@ -191,7 +191,7 @@ msgstr "Konto haldamine"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Oled edukalt lubanud Firefoxi konto kaheastmelise autentimise. Koodigeneraatori äpi poolt loodavaid turvakoode on nüüd tarvis igal sisselogimisel."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -218,23 +218,23 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Taastamise kood ära kasutatud"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Oled järgnevat seadet kasutades edukalt ära kasutanud taastamise koodi:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Taastamise kood ära kasutatud"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Loodi uued taastamise koodid"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Oled järgnevat seadet kasutades edukalt loonud uued taastamise koodid:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -252,19 +252,19 @@ msgstr "See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ol
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Kaheastmeline autentimine keelati"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Oled järgnevat seadet kasutades edukalt keelanud Firefoxi konto kaheastmelise autentimise:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Turvakoode igal sisselogimisel enam ei nõuta."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Oled edukalt keelanud Firefoxi konto kaheastmelise autentimise. Turvakoode igal sisselogimisel enam ei nõuta."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -492,7 +492,7 @@ msgstr "Firefoxi konto teine e-posti aadress eemaldati"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Kaheastmeline autentimine eemaldati"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
