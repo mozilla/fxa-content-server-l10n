@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-02 09:56+0000\n"
+"PO-Revision-Date: 2018-04-02 13:17+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -258,11 +258,11 @@ msgstr "Uspješno ste onemogućili autentifikaciju u dva koraka na vašem Firefo
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Sigurnosni kodovi se više neće tražiti pri svakoj prijavi."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Uspješno ste onemogućili autentifikaciju u dva koraka na vašem Firefox računu. Sigurnosni kodovi se više neće tražiti pri svakoj prijavi."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -490,7 +490,7 @@ msgstr "Sekundarni email Firefox računa je uklonjen"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Autentifikacija u dva koraka je uklonjena"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
