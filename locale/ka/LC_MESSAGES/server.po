@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-30 19:25+0000\n"
+"PO-Revision-Date: 2018-04-04 17:26+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -76,7 +76,7 @@ msgstr "ეს არის ავტომატური შეტყობი
 #: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6
 #: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "მეტი ინფორმაციისთვის, გთხოვთ ეწვიეთ <a %(supportLinkAttributes)s>Mozilla მხარდაჭერას</a>."
+msgstr "ვრცლად, იხილეთ <a %(supportLinkAttributes)s>Mozilla მხარდაჭერის საიტზე</a>."
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
