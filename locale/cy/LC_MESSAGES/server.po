@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-06 15:50+0000\n"
-"Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
+"PO-Revision-Date: 2018-04-06 15:55+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -192,7 +192,7 @@ msgstr "Rheoli cyfrif"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob ro fyddwch yn mewngofnodi."
+msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -220,23 +220,23 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Cod adfer wedi ei ddefnyddio"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Cod adfer wedi ei ddefnyddio"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Wedi creu cod adfer newydd"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -254,19 +254,19 @@ msgstr "E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid 
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Mae dilysu dau gam wedi ei analluogi"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Ni fydd angen codau diogel bellach wrth fewngofnodi."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -494,7 +494,7 @@ msgstr "Ail e-bost Cyfrif Firefox wedi ei dynnu"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Mae dilysu dau gam wedi ei dynnu"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
