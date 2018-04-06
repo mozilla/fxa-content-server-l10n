@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-19 11:05+0000\n"
+"POT-Creation-Date: 2018-04-06 16:10+0000\n"
+"PO-Revision-Date: 2018-04-02 14:58+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -175,15 +175,15 @@ msgstr "It Firefox Accounts-team"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:919
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Twa-staps autentikaasje ynskeakele"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo Firefox-account ynskeakele:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Fan no ôf binne by elke oanmelding de feilichheidskoaden fan jo autentikaasje-app fereaske."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
 #: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
@@ -193,7 +193,7 @@ msgstr "Account beheare"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Jo hawwe mei sukses twa-staps autentikaasje op jo Firefox-account ynskeakele. Fan no ôf binne by elke oanmelding de feilichheidskoaden fan jo autentikaasje-app fereaske."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -221,23 +221,23 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Werstelkoade brûkt"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Jo hawwe mei sukses in werstelkoade brûkt fan it folgjende appaaraat ôf:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Brûkte werstelkoade"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nije werstelkoaden generearre"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Jo hawwe mei sukses nije werstelkoaden generearre fan it folgjende apparaat ôf:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -255,19 +255,19 @@ msgstr "Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen ha
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Twa-staps autentikaasje útskeakele"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo Firefox-account útskeakele:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Feilichheidskoaden sille by elke oanmelding net langer nedich wêze."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Jo hawwe mei sukses twa-staps autentikaasje op jo Firefox-account útskeakele. Feilichheidskoaden sille by elke oanmelding net langer nedich wêze."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -496,7 +496,7 @@ msgstr "Sekundêr e-mailadres foar Firefox-account fuortsmiten"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Twa-staps autentikaasje fuortsmiten"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

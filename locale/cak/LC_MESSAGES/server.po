@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-06 16:10+0000\n"
 "PO-Revision-Date: 2018-04-02 20:40+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Ütz xawokisaj ri nab'ey awokisaxel pa ri Rutaqoya'l Firefox. Richin nawïl k'ïy rutzil ri Sync, ke'awokisaj xab'achike <a href='%(androidUrl)s'>Firefox richin Android</a> o <a "
 "href='%(iosUrl)s'>Firefox richin iOS</a>."
@@ -44,7 +44,8 @@ msgstr "Titikirisäx molojri'ïl pa Sync"
 #: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
 #: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -70,11 +71,11 @@ msgstr "IP ochochib'äl: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Ruyonil nitaq re taqoya'l re'; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(passwordChangeLinkAttributes)s>tajala' ri ewan atzij.</a>"
 
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_add_two_step_authentication.html:8
-#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
-#: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6
-#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
+#: lib/senders/templates/post_new_recovery_codes.html:7 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
+#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Richin ch'aqa' chik etamab'äl, tab'etz'eta' <a %(supportLinkAttributes)s>Ruto'ik Mozilla</a>."
 
@@ -156,8 +157,8 @@ msgstr "Nab'ej, tajala' ewan rutzij Ataqoya'l richin Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Ruka'n, we ri Firefox yeruyäk ewan kitzij taq ajk'amaya'l ruxaq, ütz ta ye'ajäl chuqa'. Rik'in jub'a' ri q'eleb'enela' ketaman ri taq ewan tzij, ruma ri' toq k'o chi nanik'oj we k'o q'ab'an tzij chi"
-" kij ri taq samaj pa ri taq rub'i' taqoya'l ri'."
+"Ruka'n, we ri Firefox yeruyäk ewan kitzij taq ajk'amaya'l ruxaq, ütz ta ye'ajäl chuqa'. Rik'in jub'a' ri q'eleb'enela' ketaman ri taq ewan tzij, ruma ri' toq k'o chi nanik'oj we k'o q'ab'an tzij "
+"chi kij ri taq samaj pa ri taq rub'i' taqoya'l ri'."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -584,11 +585,11 @@ msgstr "Taq Rojqanem Samaj"
 #~ msgstr "Ïx ütz."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "K'o yan chik q'ij tanük' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa xab'achike "
-#~ "okisanel okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïj ri ataqoya'l."
+#~ "K'o yan chik q'ij tanük' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa "
+#~ "xab'achike okisanel okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïj ri ataqoya'l."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
