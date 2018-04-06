@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-06 16:10+0000\n"
 "PO-Revision-Date: 2018-04-04 21:52+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -709,8 +709,12 @@ msgid "Invalid Token"
 msgstr "Token Tidak Valid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1257,8 +1261,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Bersihkan"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Selesai"
 
@@ -1542,7 +1546,8 @@ msgstr "Masuk"
 #~ msgstr "Klik pada tautan yang dikirimkan via surel di %(email)s dalam beberapa jam kemudian untuk membuat sandi baru."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+#~ msgstr ""
+#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Layanan awan Firefox"
@@ -1686,18 +1691,19 @@ msgstr "Masuk"
 #~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah Anda "
-#~ "simpan di Firefox desktop akan muncul."
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
+#~ "Anda simpan di Firefox desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
-#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu perangkat."
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
+#~ "perangkat."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1782,9 +1788,11 @@ msgstr "Masuk"
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -1940,7 +1948,8 @@ msgstr "Masuk"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr ""
+#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -1997,7 +2006,8 @@ msgstr "Masuk"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
+#~ "sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
