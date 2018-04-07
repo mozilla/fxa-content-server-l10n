@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-07 10:30+0000\n"
+"PO-Revision-Date: 2018-04-07 10:38+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -192,7 +192,7 @@ msgstr "Hesabı idarə et"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı aktivləşdirdiniz. Təsdiqləmə tətbiqinizdəki təhlükəsizlik kodları artıq hər daxil olmanızda tələb ediləcək."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -220,19 +220,19 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Bərpa etmə kodu istifadə edildi"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Bu cihazdan uğurla bərpa etmə kodunu istifadə etdiniz:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Bərpa kodu istifadə edildi"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Yeni bərpa kodları yaradıldı"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
