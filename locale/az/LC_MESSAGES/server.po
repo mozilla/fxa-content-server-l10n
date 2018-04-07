@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-07 10:38+0000\n"
+"PO-Revision-Date: 2018-04-07 11:17+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -236,7 +236,7 @@ msgstr "Yeni bərpa kodları yaradıldı"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Bu cihazdan uğurla yeni bərpa kodları yaratdınız:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -254,19 +254,19 @@ msgstr "Bu avtomatik e-poçtdur; əgər bunu səhvən almısınızsa, bir şey e
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "İki mərhələli daxil olma söndürüldü"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Bu cihazdan uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı söndürdünüz:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Təhlükəsizlik kodları artıq daxil olmada tələb edilməyəcək."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı söndürdünüz. Təhlükəsizlik kodları artıq daxil olmada tələb edilməyəcək."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -382,7 +382,7 @@ msgstr "Təsdiqləndikdən sonra ikincil e-poçt əlavə etmə kimi dəyişiklik
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Əgər bu əməliyyatı siz etmədinizsə, lütfən <a %(passwordChangeLinkAttributes)s>parolunuzu dəyişdirin</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -390,7 +390,7 @@ msgstr "E-poçtu təsdiqlə: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Əgər bu əməliyyatı siz etmədinizsə, lütfən parolunuzu dəyişdirin."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:592
 msgid "Verify secondary email"
@@ -494,7 +494,7 @@ msgstr "İkinci Firefox Hesabı e-poçtu silindi"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "İki mərhələli daxil olma silindi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
