@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-09 11:50+0000\n"
+"PO-Revision-Date: 2018-04-09 11:52+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -227,11 +227,11 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Brukt oppattbyggingskode"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nye oppattbyggingskodar generert"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
