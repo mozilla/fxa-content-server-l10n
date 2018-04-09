@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-09 16:30+0000\n"
+"PO-Revision-Date: 2018-04-09 16:42+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -266,11 +266,13 @@ msgstr "Desactivó correctamente la autenticación en dos pasos en su cuenta de 
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Los códigos de seguridad ya no serán necesarios en cada inicio de sesión."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr ""
+"Activó correctamente la autenticación en dos pasos en su cuenta de Firefox. A partir de ahora se le solicitarán los códigos de seguridad de su aplicación de autenticación cada vez que inicie una "
+"sesión."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -500,7 +502,7 @@ msgstr "Correo electrónico secundario de Firefox Account eliminado"
 
 #: lib/senders/email.js:955
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Se eliminó la autenticación en dos pasos"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
