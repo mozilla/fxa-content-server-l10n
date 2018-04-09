@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-09 14:30+0000\n"
+"PO-Revision-Date: 2018-04-09 14:34+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -178,7 +178,7 @@ msgstr "Se habilitó la autenticación en dos pasos"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Activó correctamente la autenticación en dos pasos en su cuenta de Firefox desde el siguiente dispositivo:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
