@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-10 08:48+0000\n"
+"PO-Revision-Date: 2018-04-10 09:21+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -172,7 +172,7 @@ msgstr "Firefox ఖాతాల టీం"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:919
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "రెండు-దశల ప్రమాణీకరణ చేతనమైనది"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -216,23 +216,23 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "రికవరీ కోడ్ వినియోగించబడింది"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "మీరు క్రింది పరికరం నుండి రికవరీ కోడ్ను విజయవంతంగా వినియోగించుకున్నారు:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "వినియోగించిన రికవరీ కోడ్"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "కొత్త రికవరీ కోడ్లు సృష్టించబడ్డాయి"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "మీరు క్రింది పరికరం నుండి కొత్త రికవరీ కోడ్లను విజయవంతంగా సృష్టించారు:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -250,7 +250,7 @@ msgstr "ఈ స్వయంచాలక ఇమెయిల్; మీకు ప�
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "రెండు-దశల ప్రమాణీకరణ అచేతనమైనది"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -450,7 +450,7 @@ msgstr "Firefox ఖాతా అధికార కోడ్"
 
 #: lib/senders/email.js:446
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)sకు క్రొత్త సైన్-ఇన్ను నిర్ధారించండి"
 
 #: lib/senders/email.js:499
 msgid "Sign-in code for Firefox"
@@ -482,7 +482,7 @@ msgstr "రెండవ Firefox ఖాతా ఇమెయిల్ జోడి�
 
 #: lib/senders/email.js:857
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Firefox ఖాతా కొత్త ప్రాథమిక ఇమెయిల్"
 
 #: lib/senders/email.js:889
 msgid "Secondary Firefox Account email removed"

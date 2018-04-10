@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-10 09:10+0000\n"
+"PO-Revision-Date: 2018-04-10 09:11+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -815,7 +815,7 @@ msgstr "కొత్త సంకేతపదం"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "సంకేతపదాన్ని మరలా ప్రవేశపెట్టండి"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1122,7 +1122,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
-msgstr ""
+msgstr "ధృవీకరించండి"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1422,7 +1422,7 @@ msgstr "చేర్చు"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "రెండు-దశల ప్రమాణీకరణ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
