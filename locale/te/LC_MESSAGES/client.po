@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-10 08:49+0000\n"
+"PO-Revision-Date: 2018-04-10 09:10+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -172,7 +172,7 @@ msgstr "%(translatedCountry)s లో %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s లో %(translatedTimeAgo)s పైగా"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -228,11 +228,11 @@ msgstr "రెండవ ఈమెయిలు"
 
 #: .es5/views/settings/two_step_authentication.js:116
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "రెండు-దశల ప్రమాణీకరణ తొలగించబడింది"
 
 #: .es5/views/settings/two_step_authentication.js:131
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "రెండు-దశల ప్రమాణీకరణ చేతనమైనది"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -452,11 +452,11 @@ msgstr "చెల్లని ప్రవేశ కోడ్"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "ధృవీకరించని ఇమెయిల్కు ప్రాథమిక ఇమెయిల్ను మార్చలేరు"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "ఈ ఖాతాకు చెందని ఇమెయిల్కి ప్రాథమిక ఇమెయిల్ను మార్చలేరు"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
@@ -468,15 +468,15 @@ msgstr "ఈమెయిలు పంపించడం విఫలమైంద�
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "చెల్లని సైన్ ఇన్ ధృవీకరణ కోడ్"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "ఈ ధృవీకరణ కోడ్ గడువు ముగిసింది"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "చెల్లని రెండు-దశల ప్రమాణీకరణ కోడ్"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
@@ -629,7 +629,7 @@ msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
 
 #: .es5/lib/mailcheck.js:27
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "అంటే మీరు అనేది <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
@@ -637,7 +637,7 @@ msgstr "దయచేసి కాసేపాగి ప్రయత్నిం�
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "సేవ అందుబాటులో లేదు, త్వరలో మళ్లీ ప్రయత్నించండి"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -765,7 +765,7 @@ msgstr "మరింత తెలుసుకోండి"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "నమోదైన %(email)s."
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
@@ -801,7 +801,7 @@ msgstr "మీరు క్లిక్ చేసిన లింక్ పా�
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "క్రొత్త సంకేతపదాన్ని సృష్టించండి"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
