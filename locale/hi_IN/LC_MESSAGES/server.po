@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-28 17:27+0000\n"
-"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
+"PO-Revision-Date: 2018-04-12 06:12+0000\n"
+"Last-Translator: Umesh Agarwal <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -19,14 +19,17 @@ msgstr ""
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr "आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+"आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for iOS </a>."
+"आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for"
+" iOS </a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -42,8 +45,7 @@ msgstr "सिंक में साइन इन करें"
 #: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
 #: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox खाता"
 
@@ -69,11 +71,11 @@ msgstr "आईपी ​​पता: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदल लें.</a>"
 
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
-#: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
-#: lib/senders/templates/post_new_recovery_codes.html:7 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
-#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_add_two_step_authentication.html:8
+#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
+#: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8 lib/senders/templates/post_verify.html:6
+#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6
+#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "अधिक जानकारी के लिए, कृपया<a %(supportLinkAttributes)s>मोज़िला सपोर्ट</a>जाएँ."
 
@@ -155,7 +157,8 @@ msgstr "सबसे पहले, अपने Firefox खाते का प�
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की जाँच करनी चाहिए."
+"दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की"
+" जाँच करनी चाहिए."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -212,6 +215,7 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
@@ -239,7 +243,7 @@ msgstr "द्वितीयक ईमेल हटा दिया गया"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "आपने अपने Firefox खाते से एक द्वितीयक ईमेल के रूप में %(secondaryEmail)s को सफलतापूर्वक निकाल दिया हैं। सुरक्षा सूचनाएं और साइन-इन पुष्टियां अब इस पते पर डिलीवर नहीं की जाएंगी।"
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
@@ -272,6 +276,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"आपने सफलतापूर्वक अपने Firefox खाते के लिए अपने पहले डिवाइस को जोड़ा। अब आप <a %(androidLinkAttributes)s>Android</a> और <a %(iosLinkAttributes)s>iOS</a> के लिए Firefox सहित, अपने अन्य डिवाइसेस से "
+"सिंक करने के लिए साइन इन कर सकते हैं।"
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -287,7 +293,7 @@ msgstr "द्वितीयक ई-मेल जोड़ा गया"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "आपने अपने Firefox खाते के लिए द्वितीयक ईमेल के रूप में %(secondaryEmail)s का सफलतापूर्वक सत्यापन कर लिया हैं। सुरक्षा सूचनाएं एवं साइन-इन पुष्टियां अब दोनों ईमेल पतों पर डिलीवर की जाएंगी।"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -303,7 +309,7 @@ msgstr "नया कूटशब्द बनाएँ"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Firefox चुनने के लिए धंयवाद! आप यहां मोबाइल के लिए Firefox स्थापित कर सकते हैं: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
@@ -315,11 +321,11 @@ msgstr "यदि हाँ, तो ये है आपका प्राध�
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "यदि नहीं, तो हमें घुसपैठियों को रोकने मे मदद करें और <a %(reportSignInLinkAttributes)s> हमें इसकी रिपोर्ट करें।</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "यदि नहीं, तो हमें घुसपैठियों को रोकने मे मदद करें और हमें इसकी रिपोर्ट करें।"
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
@@ -363,7 +369,7 @@ msgstr "प्राथमिक ईमेल सत्यापित करे
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "खाता परिवर्तन करने के लिए एक अनुरोध निम्न डिवाइस से किया गया है:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -371,7 +377,7 @@ msgstr "ईमेल सत्यापित करें "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "सत्यापित करने के बाद, द्वितीयक ईमेल जोड़ने जैसे खाता परिवर्तन इस डिवाइस से संभव हो जाएेंगे।"
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -391,11 +397,11 @@ msgstr "द्वितीयक ई-मेल सत्यापित कर�
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "%(email)s को एक द्वितिय इमैल के रुप मे उपयोग करने हेतु निम्नलिखित खाते से अनुरोध किया गया हैं:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "सत्यापित करने के बाद, यह पता सुरक्षा सूचनाएं और पुष्टियां प्राप्त करना शुरू कर देगा।"
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -403,11 +409,11 @@ msgstr "तैयार, सेट, सिंक"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "पुष्टि करें कि आपको यह ईमेल प्राप्त हुआ है और हम आपके सभी डिवाइसेज़ पर Firefox स्थापित और सिंक करने में आपकी सहायता करेंगे:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "एक बार पुष्टि होते ही, हम आपको कम से कम एक अन्य डिवाइस पर Firefox स्थापित और कनेक्ट करने में मदद करेंगे।"
 
 #: lib/senders/email.js:178
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -451,7 +457,7 @@ msgstr ""
 
 #: lib/senders/email.js:499
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Firefox के लिए साइन इन कोड"
 
 #: lib/senders/email.js:639
 msgid "Reset your Firefox Account password"
@@ -479,7 +485,7 @@ msgstr "द्वितीयक Firefox खाता ई-मेल जोड़
 
 #: lib/senders/email.js:857
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Firefox खाते का नया प्राथमिक ईमेल"
 
 #: lib/senders/email.js:889
 msgid "Secondary Firefox Account email removed"
@@ -570,11 +576,11 @@ msgstr "सेवा की शर्तें"
 #~ msgstr "फिर से हैलो."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते को सक्रिय करने के "
-#~ "लिए इस ईमेल पते की पुष्टि करें."
+#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते"
+#~ " को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "एक हफ्ते पहले आपने एक Firefox खाता बनाया है, लेकिन उसे कभी सत्यापित नहीं किया. हमें आपकी चिंता है. अपने खाते को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें और हमें पता चलने दे की आप ठीक है."
@@ -700,7 +706,8 @@ msgstr "सेवा की शर्तें"
 #~ msgstr "आपके फ़ायरफ़ॉक्स खाते से संयोजित समस्त यंत्रों के साथ एक नया यंत्र समकालिक हो गया है."
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."

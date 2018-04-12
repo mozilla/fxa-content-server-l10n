@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-12 06:09+0000\n"
+"PO-Revision-Date: 2018-04-12 06:11+0000\n"
 "Last-Translator: Umesh Agarwal <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -120,7 +120,7 @@ msgstr "अंतिम संकालन %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -1285,7 +1285,7 @@ msgstr "सिंक से डिस्कनेक्ट करें?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "आपका ब्राउज़िंग डेटा on रहेगा %(deviceName)s, लेकिन यह अब आपके खाते के साथ sync नहीं करएगा."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1301,7 +1301,7 @@ msgstr "पुराना या बदला गया उपकरण"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "डुप्लिकेट डिवाइस"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1337,7 +1337,7 @@ msgstr "वर्तमान सत्र"
 
 #: .es5/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "वापस लें"
 
 #: .es5/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1345,11 +1345,11 @@ msgstr "Firefox लिए iOS"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
 msgid "None connected"
-msgstr ""
+msgstr "कोई नहीं कनेक्टेड"
 
 #: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "डाउनलोड करें"
 
 #: .es5/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
@@ -1402,11 +1402,11 @@ msgstr "नाम का चयन करें जो कि आप फॉय�
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "एक द्वितीयक ईमेल सुरक्षा सूचनाओं को प्राप्त करने और नए डिवाइस की पुष्टि करने के लिए एक अतिरिक्त पता है ।"
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "सत्यापित"
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verification required"
@@ -1414,11 +1414,11 @@ msgstr "सत्यापन आवश्यक"
 
 #: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "प्राथमिक बनाएँ"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "निकालें"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1490,7 +1490,7 @@ msgstr "साइन इन के लिए सिंक करें"
 
 #: .es5/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "खाते को आप अपने टैब, बुकमार्क , पासवर्ड और अधिक सिंक करने के लिए उपयोग करना चाहते हैं चुनें ।"
 
 #: .es5/templates/openid/start.mustache:3
 msgid "Use OpenID"
