@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-10 09:11+0000\n"
-"Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
+"PO-Revision-Date: 2018-04-13 17:15+0000\n"
+"Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -1118,7 +1118,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "6-అంకెల సంకేతాన్ని ఇవ్వండి"
 
 #: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
