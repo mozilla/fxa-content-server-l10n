@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-02 20:40+0000\n"
+"PO-Revision-Date: 2018-04-14 22:10+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -177,11 +177,11 @@ msgstr "Xtzij ri jikib'anem rik'in ka'i'-xaq"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Ütz xub'än xatzïj ri rujikib'axik pa ka'i' xak ri rub'i' ataqoya'l richin Firefox pa re okisaxel re':"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Wakami xtik'utüx ri rub'itz'ib' rujikomal awokisaxel richin jikib'anïk toq natikirisaj molojri'ïl."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
 #: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
@@ -191,7 +191,7 @@ msgstr "Tinuk'samajïx rub'i' taqoya'l"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Ütz xatzïj ri rujikib'axik pa ka'i' xaq ri rub'i' ataqoya'l richin Firefox. Wakami xtik'utüx chawe ri rub'itz'ib' rujikomal awokisaxel richin jikib'anïk toq xtatikirisaj molojri'ïl."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -219,11 +219,11 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Kolonel b'itz'ib okisan"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Xawokisaj jun kolonel b'itz'ib' pa re okisaxel re':"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
