@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-04-14 22:10+0000\n"
+"PO-Revision-Date: 2018-04-14 22:20+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -227,15 +227,15 @@ msgstr "Xawokisaj jun kolonel b'itz'ib' pa re okisaxel re':"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Okisan kolonel bitz'ib'"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "K'ak'a' kolonel taq b'itz'ib' xetz'uk"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Ütz xe'atz'ük k'ak'a' kolonel taq b'itz'ib' pa re okisaxel re':"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -259,15 +259,15 @@ msgstr "Xchup ri jikib'anem rik'in ka'i'-xaq"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Ütz xub'än xachüp ri rujikib'axik pa ka'i' xak ri rub'i' ataqoya'l richin Firefox pa re okisaxel re':"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Man xkek'utüx ta chik pe ri kib'itz'ib' jikomal toq xtatikirisaj molojri'ïl."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Ütz xub'än xachüp ri rujikib'axik pa ka'i' xak ri Rub'i' Ataqoya'l richin Firefox. Man xtik'utüx ta chik pe ri kib'itz'ib' jikomal toq xtatikirisaj molojri'ïl."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
