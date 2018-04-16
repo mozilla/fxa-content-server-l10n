@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-03-30 19:08+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za "
 "iOS</a>."
@@ -252,7 +252,7 @@ msgstr "Sće %(secondaryEmail)s jako sekundarnu e-mejlowu adresu ze swojeho kont
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
 msgstr "Dwukročelowa awtentifikacija znjemóžnjena"
 
@@ -493,10 +493,6 @@ msgstr "Nowa primarna e-mejlowa adresa konta Firefox"
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarna e-mejlowa adresa za konto Firefox wotstronjena"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr "Dwukročelowa awtentifikacija wotstronjena"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Strona njeje so namakała"
@@ -541,6 +537,9 @@ msgstr "Zdźělenka priwatnosće"
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnenja"
 
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Dwukročelowa awtentifikacija wotstronjena"
+
 #~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "To je awtomatiska e-mejlka; jeli sće ju mylnje dóstał, jeli njejsće tutu akciju awtorizował, <a %(passwordChangeLinkAttributes)s>změńće prošu swoje hesło</a>."
 
@@ -584,8 +583,8 @@ msgstr "Wužiwanske wuměnenja"
 #~ msgstr "Witaj hišće raz."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Před por dnjemi sće konto Firefox załožił, ale njejsće jo ženje wobkrućił. Z wobkrućenym kontom maće přistup na swoje rajtarki, zapołožki, hesła a historiju na kóždym graće, kotryž je z nim "
 #~ "zwjazany. Wokrućće prosće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował."
@@ -616,7 +615,8 @@ msgstr "Wužiwanske wuměnenja"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Sće %(secondaryEmail)s wuspěšnje jako sekundarnu e-mejlowu adresu swojeho konta firefox wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so hižo na tutu adresu njepósćelu."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sće swojemu kontu Firefox wuspěšnje %(secondaryEmail)s jako druhu e-mejlowu adresu wobkrućił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so nětko na wobě e-mejlowej adresy pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -701,8 +701,8 @@ msgstr "Wužiwanske wuměnenja"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju Firefox "
-#~ "mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
+#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju "
+#~ "Firefox mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
 
 #~ msgid "env"
 #~ msgstr "env"

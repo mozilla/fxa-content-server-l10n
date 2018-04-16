@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2017-12-01 04:25+0000\n"
 "Last-Translator: cmalatheef <cmalatheef@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:164
+#: .es5/views/confirm_reset_password.js:158 .es5/views/ready.js:44 .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കല്‍"
 
-#: .es5/views/confirm_reset_password.js:180
+#: .es5/views/confirm_reset_password.js:174 .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "പാസ്‌വേർഡ് വിജയകരമായി പുനഃസ്ഥാപിച്ചു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
@@ -45,10 +45,6 @@ msgstr "തിരികെ സ്വാഗതം"
 #: .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ഉടനെ തുടരും"
-
-#: .es5/views/ready.js:44
-msgid "Your password has been reset"
-msgstr ""
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -82,11 +78,11 @@ msgstr "നിങ്ങൾ ഇപ്പോൾ %(serviceName)s ഉപയോ
 msgid "Account verified"
 msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
+#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "അജ്ഞാതമായ അക്കൗണ്ട്. <a href=\"/signup\">സൈൻ അപ്പ്</a>"
 
-#: .es5/views/sign_in.js:169
+#: .es5/views/sign_in.js:164 .es5/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "അജ്ഞാതമായ ഫയർഫോക്സ് അക്കൗണ്ട്. <a href=\"/signup\">Sign up</a> പഴയ Add-ons അക്കൗണ്ടിന്റെ ഈ-മെയിൽ ഉപയോഗിച്ച് Add-ons വസ്‌തുതകള്‍ സമീപിക്കുന്നു."
 
@@ -94,7 +90,7 @@ msgstr "അജ്ഞാതമായ ഫയർഫോക്സ് അക്കൗ�
 msgid "Account no longer exists. Recreate it?"
 msgstr "അക്കൗണ്ട് നിലകൊള്ളുന്നില്ല. പുതിയ അക്കൗണ്ട് ഉണ്ടാക്കട്ടെ?"
 
-#: .es5/views/sign_up.js:282
+#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "അക്കൌണ്ട് നിലവിലുണ്ട്. <a href=\"/signin\">സൈൻ ഇൻ ചെയ്യുക</a>"
 
@@ -226,14 +222,6 @@ msgstr ""
 msgid "Secondary email"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ"
 
-#: .es5/views/settings/two_step_authentication.js:116
-msgid "Two-step authentication removed"
-msgstr ""
-
-#: .es5/views/settings/two_step_authentication.js:131
-msgid "Two-step authentication enabled"
-msgstr ""
-
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
 msgstr "താങ്കളുടെ അക്കൗണ്ട് സുരക്ഷാ കാരണത്താൽ ലോക്ക് ചെയ്തു"
@@ -263,8 +251,8 @@ msgid "Open Restmail"
 msgstr "Restmail തുറക്കുക"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgid "Email resent"
+msgstr "ഈ-മെയിൽ വീണ്ടും അയച്ചു"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -306,17 +294,13 @@ msgstr "വിലാസങ്ങള്‍"
 msgid "Credit cards"
 msgstr "ക്രെഡിറ്റ് കാര്‍ഡുകള്‍"
 
-#: .es5/models/reliers/sync.js:70
+#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70
 msgid "Firefox Sync"
 msgstr "ഫയർഫോക്സ് സമന്വയം"
 
 #: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ വിജയകരമായി പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
-
-#: .es5/models/auth_brokers/web.js:34
-msgid "Password reset successfully"
-msgstr ""
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -398,7 +382,7 @@ msgstr "റിക്വസ്റ്റ് ബോഡി വളരെ വലുത
 msgid "The request was blocked for security reasons"
 msgstr "സുരക്ഷാകാരണങ്ങളാൽ അപേക്ഷ തള്ളിയിരിക്കുന്നു"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:418
 msgid "Invalid authorization code"
 msgstr ""
 
@@ -474,156 +458,152 @@ msgstr ""
 msgid "This verification code has expired"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:213
-msgid "Invalid two-step authentication code"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
 msgstr "സെർവർ തിരക്കിലാണ്, കുറച്ചു സമയത്തിനു ശേഷം വീണ്ടും ശ്രമിക്കുക"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
 msgstr "സവിശേഷത പ്രാപ്തമാക്കിയിട്ടില്ല"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:63
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:63 .es5/lib/marketing-email-errors.js:85
 msgid "System unavailable, try again soon"
 msgstr "സിസ്റ്റം ലഭ്യമല്ല, ഉടൻ വീണ്ടും ശ്രമിക്കുക"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:230
 msgid "Login attempt cancelled"
 msgstr "പ്രവേശന ശ്രമം റദ്ദാക്കി"
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:234
 msgid "Session expired. Sign in to continue."
 msgstr "സെഷൻ കാലഹരണപ്പെട്ടു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:238
 msgid "Cookies are still disabled"
 msgstr "കുക്കികൾ ഇപ്പോഴും പ്രവർത്തനരഹിതമാണ്"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:242
 msgid "Passwords do not match"
 msgstr "രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:246
 msgid "Working…"
 msgstr "പ്രവര്‍ത്തിക്കുന്നു…"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:250
 msgid "Could not get Privacy Notice"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:254
 msgid "Could not get Terms of Service"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:258
 msgid "Your new password must be different"
 msgstr "നിങ്ങളുടെ പുതിയ രഹസ്യവാക്ക് വ്യത്യസ്തമായിരിക്കണം"
 
-#: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7
+#: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:7 .es5/templates/complete_reset_password.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "ചുരുങ്ങിയത് 8 അക്ഷരങ്ങൾ ഉണ്ടായിരിക്കണം"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:266
 msgid "Valid password required"
 msgstr "സാധുവായ രഹസ്യവാക്ക് ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:324
 msgid "Valid email required"
 msgstr "സാധുവായ ഇമെയിൽ ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:285
+#: .es5/lib/auth-errors.js:281
 msgid "A usable image was not found"
 msgstr "ഉപയോഗയോഗ്യമായ ഒരു ചിത്രം കണ്ടെത്താനായില്ല"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:285
 msgid "Could not initialize camera"
 msgstr "ക്യാമറ ആരംഭിക്കാനായില്ല"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:289
 msgid "Valid URL required"
 msgstr "സാധുവായ URL ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:304
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക. firefox.com ഇമെയിൽ പ്രദാനം ചെയ്യുന്നില്ല."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:320
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "അംഗീകൃത സൈറ്റുകളിൽ Firefox അക്കൗണ്ടുകൾ IFRAME ൽ മാത്രമേ സ്ഥാപിക്കാൻ കഴിയൂ"
 
-#: .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:339 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "സ്ഥിരീകരണ ലിങ്ക് നശിച്ചു"
 
-#: .es5/lib/auth-errors.js:351
+#: .es5/lib/auth-errors.js:347
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:355
+#: .es5/lib/auth-errors.js:351
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS നു വേണ്ടിയുള്ള ഫയർഫോക്സിൽ ഉടൻതന്നെ സൈൻ-അപ്പ് വരുന്നു"
 
-#: .es5/lib/auth-errors.js:366
+#: .es5/lib/auth-errors.js:362
 msgid "You must enter your age to sign up"
 msgstr "നിങ്ങൾക്ക് സൈൻ-അപ്പ് ചെയ്യാൻ നിങ്ങളുടെ പ്രായം നൽകണം"
 
-#: .es5/lib/auth-errors.js:381
+#: .es5/lib/auth-errors.js:377
 msgid "Account no longer exists."
 msgstr "അക്കൗണ്ട് നിലവിലില്ല."
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:381
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:385
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:389
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:393
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:406 .es5/lib/auth-errors.js:460 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ആ സ്ഥിരീകരണ ലിങ്ക് ഇതിനകം ഉപയോഗിച്ചു, മാത്രമല്ല ഒരിക്കൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ."
 
-#: .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:410
 msgid "This is a required field"
 msgstr "ഇത് ആവശ്യമുള്ള ഫീൽഡ് ആണ്"
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:414
 msgid "Authorization code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:422 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "ലിങ്ക് നശിച്ചു"
 
-#: .es5/lib/auth-errors.js:449
+#: .es5/lib/auth-errors.js:445
 msgid "Phone number required"
 msgstr "ഫോൺ നമ്പർ ആവശ്യമാണ്"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:82 .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr ""
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:86 .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "അസാധുവായ കോൺഫിഗറേഷൻ"
 
@@ -634,10 +614,6 @@ msgstr "നിങ്ങൾ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
 msgstr "ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക"
-
-#: .es5/lib/marketing-email-errors.js:75
-msgid "Service unavailable, try again soon"
-msgstr ""
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -769,7 +745,7 @@ msgstr "കൂടുതൽ അറിയുക"
 msgid "%(email)s registered."
 msgstr "%(email)s രജിസ്റ്റർ ചെയ്തു."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പിക്കേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക"
 
@@ -777,7 +753,8 @@ msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പ�
 msgid "Save settings"
 msgstr "സജ്ജീകരണങ്ങൾ സേവ് ചെയ്യുക"
 
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:3 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:3
+#: .es5/templates/pp.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "തിരികെ"
 
@@ -802,22 +779,28 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
-msgid "Create new password"
-msgstr ""
+msgid "Enter new password"
+msgstr "പുതിയ രഹസ്യവാക്ക് നൽകുക"
 
 #: .es5/templates/complete_reset_password.mustache:9
-msgid ""
-"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-"to protect your privacy."
-msgstr ""
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "നിങ്ങളുടെ പുതിയ രഹസ്യവാക്ക് ഒരിക്കൽ സമർപ്പിച്ചുകഴിഞ്ഞാൽ, നിങ്ങളുടെ ഉപകരണങ്ങളിലില്ലാത്ത ഡാറ്റ നഷ്ടമാകും."
 
-#: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:10 .es5/templates/reset_password.mustache:6
+msgid "Learn how Sync works."
+msgstr "സമന്വയം പ്രവർത്തിക്കുന്നതെങ്ങനെ എന്ന് മനസിലാക്കുക."
+
+#: .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
 msgid "New password"
 msgstr "പുതിയ രഹസ്യവാക്ക്"
 
-#: .es5/templates/complete_reset_password.mustache:13
-msgid "Re-enter password"
-msgstr ""
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6
+msgid "Repeat password"
+msgstr "രഹസ്യവാക്ക് ആവർത്തിക്കുക"
+
+#: .es5/templates/complete_reset_password.mustache:15
+msgid "Submit new password"
+msgstr "പുതിയ രഹസ്യവാക്ക് സമർപ്പിക്കുക"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -855,8 +838,8 @@ msgstr ""
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
 msgid "Not in inbox or spam folder? Resend"
 msgstr "ഇൻബോക്സിലോ സ്പാം ഫോൾഡറിലോ ഇല്ലേ? വീണ്ടും അയയ്ക്കുക"
 
@@ -865,10 +848,11 @@ msgid "Reset email sent"
 msgstr ""
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "ഒരു പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുന്നതിനായി അടുത്ത മണിക്കൂറിനുള്ളിൽ ഞങ്ങൾ %(email)s ൽ ഇമെയിൽ ചെയ്ത ലിങ്കിൽ ക്ലിക്കുചെയ്യുക."
 
-#: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_reset_password.mustache:6 .es5/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr ""
 
@@ -936,8 +920,9 @@ msgstr ""
 msgid "Sign in to continue"
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/sign_up.mustache:12
 msgid "Password"
 msgstr ""
 
@@ -946,20 +931,21 @@ msgstr ""
 msgid "Forgot password?"
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up.mustache:2
+#: .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:8 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13 .es5/templates/reset_password.mustache:7
+#: .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr ""
 
@@ -967,15 +953,19 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: .es5/templates/legal.mustache:1
+#: .es5/templates/legal.mustache:1 .es5/templates/pp.mustache:1 .es5/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr ""
+
+#: .es5/templates/legal.mustache:2 .es5/templates/legal.mustache:1
 msgid "Legal"
 msgstr ""
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:3 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:2 .es5/templates/legal.mustache:2 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr ""
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:4 .es5/templates/pp.mustache:2 .es5/templates/settings.mustache:5 .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr ""
 
@@ -1012,7 +1002,7 @@ msgstr ""
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
 msgid "Cancel"
 msgstr ""
 
@@ -1036,13 +1026,15 @@ msgstr ""
 msgid "Why is this happening?"
 msgstr ""
 
-#: .es5/templates/reset_password.mustache:5
-msgid ""
-"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-"protect your privacy."
+#: .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+msgid "Reset account"
 msgstr ""
 
-#: .es5/templates/reset_password.mustache:8
+#: .es5/templates/reset_password.mustache:5
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:9 .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
 msgstr ""
 
@@ -1086,7 +1078,7 @@ msgstr ""
 msgid "No longer own that email? Create a new account"
 msgstr ""
 
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:14
 msgid "Mistyped email?"
 msgstr ""
 
@@ -1110,22 +1102,6 @@ msgstr ""
 msgid "Enter code"
 msgstr ""
 
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:4
-msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:5
-msgid "Enter 6-digit code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Verify"
-msgstr ""
-
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
 msgstr ""
@@ -1146,35 +1122,23 @@ msgstr ""
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:13
-msgid "Repeat password"
-msgstr "രഹസ്യവാക്ക് ആവർത്തിക്കുക"
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "ബലവുള്ളതും അതുല്യവുമായ പാസ്സ്‌വേർഡ് ഫയർഫോക്സ് വസ്തുതകൾ സുരക്ഷിതമായി വയ്ക്കാൻ സഹായിക്കും."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
-msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:18
+#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13
 msgid "Create account"
 msgstr "അക്കൌണ്ട് സൃഷ്ടിക്കുക"
 
-#: .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:11
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
@@ -1236,7 +1200,7 @@ msgstr ""
 msgid "Change…"
 msgstr ""
 
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/templates/settings/avatar.mustache:3
 msgid "Add…"
 msgstr "ചേർക്കുക…"
 
@@ -1256,8 +1220,8 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Done"
 msgstr ""
 
@@ -1317,7 +1281,7 @@ msgstr ""
 msgid "Devices & apps"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2 .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/partial/show-password.mustache:1 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
 msgstr "കാണിക്കുക"
 
@@ -1345,7 +1309,7 @@ msgstr ""
 msgid "None connected"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24
+#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:6
 msgid "Download"
 msgstr ""
 
@@ -1357,8 +1321,7 @@ msgstr ""
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:19 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Refresh"
 msgstr ""
 
@@ -1367,11 +1330,11 @@ msgid "Communication preferences"
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+msgid "We may send you emails related to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:9
@@ -1422,56 +1385,12 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:3
-msgid "Enable…"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Enabled"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:9
-msgid "Disabled"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disable"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:12
-msgid "Enable"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Can't scan code?"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:15
-msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:16
-msgid "Security code"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:20
-msgid "Confirm"
+#: .es5/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
 msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:3
-msgid "Reverify to unlock section"
+msgid "verify to unlock section"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
@@ -1498,38 +1417,236 @@ msgstr "OpenID ഉപയോഗിക്കുക"
 msgid "Use Firefox Account"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ഉപയോഗിക്കുക"
 
+#: .es5/views/ready.js:44
+msgid "Your password has been reset"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:45
+msgid "Codes copied"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:47
+msgid "Failed to copy codes. Please manually copy them."
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:91
+msgid "New recovery codes generated"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
+msgid "Two-step authentication enabled"
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:122
+msgid "Two-step authentication removed"
+msgstr ""
+
+#: .es5/views/mixins/resend-mixin.js:46
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
+
+#: .es5/models/auth_brokers/web.js:34
+msgid "Password reset successfully"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:464
+msgid "Two-step authentication code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:468
+msgid "Invalid two-step authentication code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:472
+msgid "Recovery code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid recovery code"
+msgstr ""
+
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+"to protect your privacy."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:13
+msgid "Re-enter password"
+msgstr ""
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:10
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:5
+msgid ""
+"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+"protect your privacy."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:5
+msgid "Enter 8-digit recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Verify"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:4
+msgid "Open your authentication app and enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Use recovery code"
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/settings/communication_preferences.mustache:7
+msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+msgstr ""
+
+#: .es5/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:1
+msgid "Recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:2
+msgid "NOTE:"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:3
+msgid ""
+"\n"
+"                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:5
+msgid "Generate new recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:7
+msgid "Copy"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:8
+msgid "Print"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:2
+msgid "Two-step authentication"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:3
+msgid "Enable…"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:6
+msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:7
+msgid "Current status"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:8
+msgid "Enabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:10
+msgid "Disabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:11
+msgid "Disable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:13
+msgid "Enable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:14
+msgid "Replace recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:18
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:19
+msgid "Can’t scan code?"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:20
+msgid "Manually enter this secret key into your authentication app:"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:21
+msgid "Security code"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:22
+msgid "Confirm"
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:3
+msgid "Reverify to unlock section"
+msgstr ""
+
 #. submit button
-#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:96
+#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
 
 #. header text
-#: .es5/views/sign_in.js:99
+#: .es5/views/sign_in.js:100
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
-
-#~ msgid "Email resent"
-#~ msgstr "ഈ-മെയിൽ വീണ്ടും അയച്ചു"
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "ബലവുള്ളതും അതുല്യവുമായ പാസ്സ്‌വേർഡ് ഫയർഫോക്സ് വസ്തുതകൾ സുരക്ഷിതമായി വയ്ക്കാൻ സഹായിക്കും."
-
-#~ msgid "Enter new password"
-#~ msgstr "പുതിയ രഹസ്യവാക്ക് നൽകുക"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "നിങ്ങളുടെ പുതിയ രഹസ്യവാക്ക് ഒരിക്കൽ സമർപ്പിച്ചുകഴിഞ്ഞാൽ, നിങ്ങളുടെ ഉപകരണങ്ങളിലില്ലാത്ത ഡാറ്റ നഷ്ടമാകും."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "സമന്വയം പ്രവർത്തിക്കുന്നതെങ്ങനെ എന്ന് മനസിലാക്കുക."
-
-#~ msgid "Submit new password"
-#~ msgstr "പുതിയ രഹസ്യവാക്ക് സമർപ്പിക്കുക"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "ഒരു പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുന്നതിനായി അടുത്ത മണിക്കൂറിനുള്ളിൽ ഞങ്ങൾ %(email)s ൽ ഇമെയിൽ ചെയ്ത ലിങ്കിൽ ക്ലിക്കുചെയ്യുക."
 
 #~ msgid "SMS sent"
 #~ msgstr "SMS അയച്ചു"

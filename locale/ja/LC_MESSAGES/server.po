@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-03-30 18:04+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -23,9 +23,10 @@ msgstr "あなたの Firefox アカウントへ最初の端末が接続されま
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
-msgstr "あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
+msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -152,7 +153,9 @@ msgstr "まず、Firefox アカウントのパスワードを変更します。"
 #: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr "次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビティがないか確認してください。"
+msgstr ""
+"次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビ"
+"ティがないか確認してください。"
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -244,7 +247,7 @@ msgstr "%(secondaryEmail)s があなたの Firefox アカウントの予備ア�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
 msgstr "2 段階認証が無効化されました"
 
@@ -482,10 +485,6 @@ msgstr "Firefox アカウントの新しい主要アドレス"
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox アカウントの予備アドレスが削除されました"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr "2 段階認証が削除されました"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "ページが見つかりませんでした"
@@ -530,6 +529,9 @@ msgstr "プライバシー告知"
 msgid "Terms of Service"
 msgstr "利用規約"
 
+#~ msgid "Two-step authentication removed"
+#~ msgstr "2 段階認証が削除されました"
+
 #~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "これは自動送信メールです。あなたがこの操作を許可していない場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
 
@@ -573,12 +575,16 @@ msgstr "利用規約"
 #~ msgstr "お帰りなさい。"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
-#~ msgstr "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスでき"
+#~ "るようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+#~ msgstr ""
+#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無"
+#~ "事を知らせてください。"
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "念のため、この端末との同期を開始する前にログインを確認してください:"
@@ -601,7 +607,8 @@ msgstr "利用規約"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "あなたの Firefox アカウントの予備アドレス %(secondaryEmail)s を削除しました。セキュリティ通知やログイン確認は今後このアドレスには送られなくなります。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s を Firefox アカウントの予備アドレスとして確認できました。今後はセキュリティ通知やログイン確認を両方のメールアドレスにお送りします。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -686,8 +693,8 @@ msgstr "利用規約"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。Firefox "
-#~ "のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。"
+#~ "Firefox のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #~ msgid "env"
 #~ msgstr "env"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
-"PO-Revision-Date: 2018-03-17 09:46+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
+"PO-Revision-Date: 2018-04-05 19:36+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -172,9 +172,8 @@ msgstr ""
 #: lib/senders/templates/post_verify_secondary.txt:5
 #: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
 #: lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5
-#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
+#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7
 #: lib/senders/templates/verify_login.txt:6
 #: lib/senders/templates/verify_login_code.html:7
 #: lib/senders/templates/verify_login_code.txt:6
@@ -206,8 +205,8 @@ msgstr ""
 #: lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_secondary.txt:5
 #: lib/senders/templates/post_remove_two_step_authentication.txt:6
-#: lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6
+#: lib/senders/templates/verify.txt:5
 #: lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6
 #: lib/senders/templates/verify_secondary.txt:6
@@ -330,19 +329,23 @@ msgstr "Tim Firefox naloga"
 #: lib/senders/templates/post_add_two_step_authentication.txt:1
 #: lib/senders/email.js:919
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Verifikacija u dva koraka omogućena"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid ""
 "You have successfully enabled two-step authentication on your Firefox "
 "Account from the following device:"
 msgstr ""
+"Uspešno ste omogućili verifikaciju u dva koraka na vašem Firefox nalogu sa "
+"uređaja:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid ""
 "Security codes from your authentication app will now be required at each "
 "sign-in."
 msgstr ""
+"Bezbednosni kodovi iz vaše aplikacije za autentifikaciju će od sada uvek "
+"biti potrebni za pristupanje."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6
 #: lib/senders/templates/post_change_primary.html:4
@@ -360,6 +363,9 @@ msgid ""
 "Account. Security codes from your authentication app will now be required at "
 "each sign-in."
 msgstr ""
+"Uspešno ste omogućili verifikaciju u dva koraka na vašem Firefox nalogu. "
+"Bezbednosni kodovi iz vaše aplikacije za autentifikaciju će od sada uvek "
+"biti potrebni za pristupanje."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4
 #: lib/senders/templates/post_change_primary.txt:3
@@ -405,29 +411,28 @@ msgstr ""
 #: lib/senders/templates/post_consume_recovery_code.html:2
 #: lib/senders/email.js:1027
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Kod za oporavak je iskorišćen"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3
 #: lib/senders/templates/post_consume_recovery_code.txt:2
 msgid ""
 "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Uspešno ste iskoristili kod za oporavak sa uređaja:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Iskorišćeni kod za oporavak"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2
-#: lib/senders/templates/post_new_recovery_codes.txt:1
-#: lib/senders/email.js:991
+#: lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Novi kodovi za oporavak su generisani"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3
 #: lib/senders/templates/post_new_recovery_codes.txt:2
 msgid ""
 "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Uspešno ste generisali nove kodove za oporavak sa uređaja:"
 
 #: lib/senders/templates/post_remove_secondary.html:2
 #: lib/senders/templates/post_remove_secondary.txt:1
@@ -464,24 +469,32 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2
 #: lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/email.js:955
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Verifikacija u dva koraka onemogućena"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid ""
 "You have successfully disabled two-step authentication on your Firefox "
 "Account from the following device:"
 msgstr ""
+"Uspešno ste onemogućili verifikaciju u dva koraka na vašem Firefox nalogu sa "
+"uređaja:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
 msgstr ""
+"Bezbednosni kodovi iz vaše aplikacije za autentifikaciju od sada neće više "
+"biti potrebni za pristupanje."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid ""
 "You have successfully disabled two-step authentication on your Firefox "
 "Account. Security codes will no longer be required at each sign-in."
 msgstr ""
+"Uspešno ste onemogućili verifikaciju u dva koraka na vašem Firefox nalogu. "
+"Bezbednosni kodovi iz vaše aplikacije za autentifikaciju od sada neće više "
+"biti potrebni za pristupanje."
 
 #: lib/senders/templates/post_verify.html:2
 #: lib/senders/templates/post_verify.txt:1
@@ -789,10 +802,6 @@ msgstr "Nova primarna adresa e-pošte Firefox naloga"
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarna adresa Firefox naloga uklonjena"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr ""
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Stranica nije pronađena"
@@ -850,6 +859,9 @@ msgstr "Obaveštenje o privatnosti"
 #: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Verifikacija u dva koraka uklonjena"
 
 #~ msgid ""
 #~ "This is an automated email; if you received it in error, if you did not "
