@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-16 22:21+0000\n"
+"PO-Revision-Date: 2018-04-16 23:50+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1517,7 +1517,7 @@ msgstr "Per favor insere le codice de recuperation fornite a te durante le confi
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "Insere le codice de recuperation a 8 digitos"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1537,7 +1537,7 @@ msgstr "Insere le codice de 6 digitos"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Usa le codice de recuperation"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1562,11 +1562,11 @@ msgstr "In addition, tu pote te subscriber pro reciper emails promotional con le
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Codices de recuperation"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "NOTE:"
-msgstr ""
+msgstr "NOTA:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1577,7 +1577,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Generar nove codices de recuperation"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
@@ -1621,7 +1621,7 @@ msgstr "Activar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Supplanta le codice de recuperation"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1629,7 +1629,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Non pote tu scander le codice?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
