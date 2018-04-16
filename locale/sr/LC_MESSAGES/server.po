@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-04-05 19:36+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
-"iOS</a>."
+"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за iOS</"
+"a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -249,7 +249,7 @@ msgstr "Успешно сте уклонили %(secondaryEmail)s, секунд�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ово је аутоматска е-пошта; ако сте је грешком примили, ни једна радња није потребна."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
 msgstr "Верификација у два корака онемогућена"
 
@@ -489,10 +489,6 @@ msgstr "Нова примарна адреса е-поште Firefox налог�
 msgid "Secondary Firefox Account email removed"
 msgstr "Секундарна адреса Firefox налога уклоњена"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr "Верификација у два корака уклоњена"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Страница није пронађена"
@@ -537,6 +533,9 @@ msgstr "Обавештење о приватности"
 msgid "Terms of Service"
 msgstr "Услови коришћења"
 
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Верификација у два корака уклоњена"
+
 #~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "Ово је аутоматска порука; Ако сте је примили са грешком, ако нисте одобрили њено слање, онда <a %(passwordChangeLinkAttributes)s>промените вашу лозинку</a>."
 
@@ -580,8 +579,8 @@ msgstr "Услови коришћења"
 #~ msgstr "Поздрав."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји претраге на повезаном уређају. Једноставно "
 #~ "потврдите ову адресу е-поште да активирате налог."
@@ -607,7 +606,8 @@ msgstr "Услови коришћења"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Верификујте адресу за Firefox налоге"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Успешно сте верификовали %(secondaryEmail)s као секундарну адресу вашег Firefox налога. Безбедносне нотификације и потврде пријава ће бити достављене на ове адресе."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -692,8 +692,8 @@ msgstr "Услови коришћења"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, забелешке"
-#~ " и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
+#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, "
+#~ "забелешке и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
 
 #~ msgid "env"
 #~ msgstr "env"

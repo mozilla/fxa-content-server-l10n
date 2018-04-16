@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-04-02 13:17+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Uspješno ste povezali vaš prvi uređaj na vaš Firefox račun. Da dobijete najviše od Sync-a, povežite bilo koji <a href='%(androidUrl)s'>Firefox for Android</a> ili <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
@@ -248,7 +248,7 @@ msgstr "Uspješno ste uklonili %(secondaryEmail)s kao sekundarni email sa vašeg
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ovo je automatski email; ako ste ga dobili greškom, nije potrebna nikakva akcija."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
 msgstr "Autentifikacija u dva koraka je onemogućena"
 
@@ -488,10 +488,6 @@ msgstr "Novi primarni email Firefox računa"
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarni email Firefox računa je uklonjen"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr "Autentifikacija u dva koraka je uklonjena"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Stranica nije pronađena"
@@ -536,6 +532,9 @@ msgstr "Napomena o privatnosti"
 msgid "Terms of Service"
 msgstr "Uslovi korištenja"
 
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Autentifikacija u dva koraka je uklonjena"
+
 #~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "Ovo je automatski email; ako ste ga dobili greškom, ako niste odobrili ovu akciju, onda <a %(passwordChangeLinkAttributes)s>molimo da promijenite vašu lozinku</a>."
 
@@ -579,11 +578,11 @@ msgstr "Uslovi korištenja"
 #~ msgstr "Pozdrav ponovo."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Prije par dana ste napravili Firefox račun, ali ga niste verifikovali. Verifikovan račun vam omogućava pristup vašim tabovima, zabilješkama, lozinkama i historiji bilo kojeg uređaja povezanim sa tim"
-#~ " računom. Jednostavno potvrdite ovaj email da aktivirate vaš račun."
+#~ "Prije par dana ste napravili Firefox račun, ali ga niste verifikovali. Verifikovan račun vam omogućava pristup vašim tabovima, zabilješkama, lozinkama i historiji bilo kojeg uređaja povezanim sa "
+#~ "tim računom. Jednostavno potvrdite ovaj email da aktivirate vaš račun."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Prije sedmicu ste napravili Firefox račun, ali ga niste verifikovali. Zabrinuti smo za vas. Potvrdite ovaj email da aktivirate vaš račun, da znamo da ste dobro."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-04-08 00:23+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -244,7 +244,7 @@ msgstr ""
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
 msgstr "ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ"
 
@@ -482,10 +482,6 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਨਵੀਂ ਮੁੱਢ�
 msgid "Secondary Firefox Account email removed"
 msgstr "ਸਹਾਇਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਈਮੇਲ ਹਟਾਇਆ ਗਿਆ"
 
-#: lib/senders/email.js:955
-msgid "Two-step authentication removed"
-msgstr "ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਹਟਾਈ ਗਈ ਹੈ"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "ਸਫ਼ਾ ਨਹੀ ਲੱਭਿਆ"
@@ -529,6 +525,9 @@ msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਹਟਾਈ ਗਈ ਹੈ"
 
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
 #~ msgstr "ਅਸੀਂ <strong>ਪੁਰਾਣਾ</strong> ਬਰਾਊਜ਼ਰ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੇ ਅਨੁਭਵ ਨੂੰ ਵਧੀਆ ਬਣਾਉਣ ਥਈ <a href=\"http://browsehappy.com/\">ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਗਰੇਡ</a> ਕਰੋ ਜੀ।"

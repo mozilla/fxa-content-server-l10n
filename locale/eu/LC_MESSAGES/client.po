@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 16:10+0000\n"
+"POT-Creation-Date: 2018-04-16 18:06+0000\n"
 "PO-Revision-Date: 2018-03-08 10:16+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433277961.0\n"
 
-#: .es5/views/confirm_reset_password.js:164
+#: .es5/views/confirm_reset_password.js:158 .es5/views/ready.js:44 .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "Pasahitza berrezarrita"
 
-#: .es5/views/confirm_reset_password.js:180
+#: .es5/views/confirm_reset_password.js:174 .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 
@@ -46,10 +46,6 @@ msgstr "Ongi etorri berriro"
 #: .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync-ek une batean jarraituko du"
-
-#: .es5/views/ready.js:44
-msgid "Your password has been reset"
-msgstr "Zure pasahitza berrezarri egin da"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -83,11 +79,11 @@ msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 msgid "Account verified"
 msgstr "Kontua egiaztatuta"
 
-#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
+#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
-#: .es5/views/sign_in.js:169
+#: .es5/views/sign_in.js:164 .es5/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Firefox kontu ezezaguna. Zure gehigarrien datuetarako sarbidea izateko, <a href=\"/signup\">eman izena</a> aurrez zeneukan gehigarrien kontuko helbide elektronikoa erabiliz."
 
@@ -95,7 +91,7 @@ msgstr "Firefox kontu ezezaguna. Zure gehigarrien datuetarako sarbidea izateko, 
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontua jada ez da existitzen. Birsortu nahi al duzu?"
 
-#: .es5/views/sign_up.js:282
+#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
@@ -228,14 +224,6 @@ msgstr "Segurtasun-abisuak jasotzeko eta Sync gailuak berresteko helbide gehigar
 msgid "Secondary email"
 msgstr "Helbide elektroniko alternatiboa"
 
-#: .es5/views/settings/two_step_authentication.js:116
-msgid "Two-step authentication removed"
-msgstr ""
-
-#: .es5/views/settings/two_step_authentication.js:131
-msgid "Two-step authentication enabled"
-msgstr ""
-
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
 msgstr "Zure kontua blokeatu egin da segurtasun-arrazoiengatik"
@@ -265,8 +253,8 @@ msgid "Open Restmail"
 msgstr "Ireki Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Posta birbidalia. Gehitu accounts@firefox.com zure kontaktuetara arazorik gabeko bidalketarako."
+msgid "Email resent"
+msgstr "Mezua berriro bidali da"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
@@ -308,17 +296,13 @@ msgstr "Helbideak"
 msgid "Credit cards"
 msgstr "Kreditu-txartelak"
 
-#: .es5/models/reliers/sync.js:70
+#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr "Helbide elektroniko alternatiboa ondo egiaztatu da"
-
-#: .es5/models/auth_brokers/web.js:34
-msgid "Password reset successfully"
-msgstr "Pasahitza ondo berrezarri da"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -400,7 +384,7 @@ msgstr "Eskaeraren gorputza handiegia da"
 msgid "The request was blocked for security reasons"
 msgstr "Eskaera blokeatu egin da segurtasun-arrazoiak tarteko"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:418
 msgid "Invalid authorization code"
 msgstr "Egiaztapen-kode baliogabea"
 
@@ -476,156 +460,152 @@ msgstr "Saio hasiera egiaztatze kode baliogabea"
 msgid "This verification code has expired"
 msgstr "Egiaztatze kodea iraungi da"
 
-#: .es5/lib/auth-errors.js:213
-msgid "Invalid two-step authentication code"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
 msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
 msgstr "Ezaugarri ez gaitua"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:63
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:63 .es5/lib/marketing-email-errors.js:85
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:230
 msgid "Login attempt cancelled"
 msgstr "Saio-hasiera saiakera utzita"
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:234
 msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:238
 msgid "Cookies are still disabled"
 msgstr "Cookieak desgaituta daude oraindik"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:242
 msgid "Passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:246
 msgid "Working…"
 msgstr "Lanean…"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:250
 msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:254
 msgid "Could not get Terms of Service"
 msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:258
 msgid "Your new password must be different"
 msgstr "Pasahitz berriak desberdina izan behar du"
 
-#: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7
+#: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:7 .es5/templates/complete_reset_password.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Gutxienez 8 karaktere izan behar ditu"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:266
 msgid "Valid password required"
 msgstr "Baliozko pasahitza behar da"
 
-#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:324
 msgid "Valid email required"
 msgstr "Baliozko helbide elektronikoa behar da"
 
-#: .es5/lib/auth-errors.js:285
+#: .es5/lib/auth-errors.js:281
 msgid "A usable image was not found"
 msgstr "Ez da irudi erabilgarririk aurkitu"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:285
 msgid "Could not initialize camera"
 msgstr "Ezin da kamera hasieratu"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:289
 msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:304
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Zure egiaztapen-mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta elektronikorik eskaintzen."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:320
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
-#: .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:339 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Egiaztapen-lotura hondatuta"
 
-#: .es5/lib/auth-errors.js:351
+#: .es5/lib/auth-errors.js:347
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Irudiaren tamainak gutxienez 100x100 px izan behar du"
 
-#: .es5/lib/auth-errors.js:355
+#: .es5/lib/auth-errors.js:351
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Izena emateko aukera laster dator iOSerako Firefoxentzat"
 
-#: .es5/lib/auth-errors.js:366
+#: .es5/lib/auth-errors.js:362
 msgid "You must enter your age to sign up"
 msgstr "Zure izena sartu behar duzu erregistratzeko"
 
-#: .es5/lib/auth-errors.js:381
+#: .es5/lib/auth-errors.js:377
 msgid "Account no longer exists."
 msgstr "Kontua ez da existitzen jada."
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:381
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Propietate baliogabea berrekiteko tokenean: %(property)s"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:385
 msgid "Missing property in resume token: %(property)s"
 msgstr "Propietatea falta da berrekiteko tokenean: %(property)s"
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:389
 msgid "Invalid data attribute: %(property)s"
 msgstr "Datu-atributu baliogabea: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:393
 msgid "Missing data attribute: %(property)s"
 msgstr "Datu-atributua falta da: %(property)s"
 
-#: .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:406 .es5/lib/auth-errors.js:460 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke."
 
-#: .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:410
 msgid "This is a required field"
 msgstr "Eremu hau beharrezkoa da"
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:414
 msgid "Authorization code required"
 msgstr "Baimen-kodea behar da"
 
-#: .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:422 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Lotura kaltetuta dago"
 
-#: .es5/lib/auth-errors.js:449
+#: .es5/lib/auth-errors.js:445
 msgid "Phone number required"
 msgstr "Telefono-zenbakia beharrezkoa da"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:82 .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Konfigurazioa falta da"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:86 .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Konfigurazio baliogabea"
 
@@ -636,10 +616,6 @@ msgstr "<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> esan nahi
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
 msgstr "Saiatu berriro geroago"
-
-#: .es5/lib/marketing-email-errors.js:75
-msgid "Service unavailable, try again soon"
-msgstr "Zerbitzua ez dago erabilgarri, saiatu berrio beranduago"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -773,7 +749,7 @@ msgstr "Argibide gehiago"
 msgid "%(email)s registered."
 msgstr "%(email)s erregistratuta."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:22
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Aukeratu zer sinkronizatu"
 
@@ -781,7 +757,8 @@ msgstr "Aukeratu zer sinkronizatu"
 msgid "Save settings"
 msgstr "Gorde ezarpenak"
 
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:3 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:3
+#: .es5/templates/pp.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Atzera"
 
@@ -806,22 +783,28 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr "Klik egin duzun loturak karaktereak falta ditu; agian zure posta-bezeroak hondatu du. Kopiatu helbidea kontuz eta saiatu berriro."
 
 #: .es5/templates/complete_reset_password.mustache:8
-msgid "Create new password"
-msgstr "Sortu pasahitz berria"
+msgid "Enter new password"
+msgstr "Sartu pasahitz berria"
 
 #: .es5/templates/complete_reset_password.mustache:9
-msgid ""
-"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-"to protect your privacy."
-msgstr ""
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "Behin zure pasahitz berria bidaltzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
 
-#: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:10 .es5/templates/reset_password.mustache:6
+msgid "Learn how Sync works."
+msgstr "Ikasi nola funtzionatzen duen Sync-ek."
+
+#: .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
 msgid "New password"
 msgstr "Pasahitz berria"
 
-#: .es5/templates/complete_reset_password.mustache:13
-msgid "Re-enter password"
-msgstr "Idatzi berriz pasahitza"
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6
+msgid "Repeat password"
+msgstr "Errepikatu pasahitza"
+
+#: .es5/templates/complete_reset_password.mustache:15
+msgid "Submit new password"
+msgstr "Bidali pasahitz berria"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -859,8 +842,8 @@ msgstr "Egiaztatu zure posta elektronikoa %(escapedEmail)s helbidera bidalitako 
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako berrespen-loturarako"
 
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro"
 
@@ -869,10 +852,11 @@ msgid "Reset email sent"
 msgstr "Berrezartze-mezua bidali da"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
 
-#: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_reset_password.mustache:6 .es5/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Pasahitza gogoratzen duzu? Hasi saioa"
 
@@ -940,8 +924,9 @@ msgstr "Saiatu berriro"
 msgid "Sign in to continue"
 msgstr "Hasi saioa jarraitzeko"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:12
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/sign_up.mustache:12
 msgid "Password"
 msgstr "Pasahitza"
 
@@ -950,20 +935,21 @@ msgstr "Pasahitza"
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztuta?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:7
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Jarraituz gero, Firefoxen hodeiko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Idatzi zure helbide elektronikoa"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up.mustache:2
+#: .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Jarraitu %(serviceName)s zerbitzura"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:11
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:8 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13 .es5/templates/reset_password.mustache:7
+#: .es5/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "Helbide elektronikoa"
 
@@ -971,15 +957,19 @@ msgstr "Helbide elektronikoa"
 msgid "Continue"
 msgstr "Jarraitu"
 
-#: .es5/templates/legal.mustache:1
+#: .es5/templates/legal.mustache:1 .es5/templates/pp.mustache:1 .es5/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr "Firefoxen hodeiko zerbitzuak"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/legal.mustache:1
 msgid "Legal"
 msgstr "Legala"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:3 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:2 .es5/templates/legal.mustache:2 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Zerbitzuaren baldintzak"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:4 .es5/templates/pp.mustache:2 .es5/templates/settings.mustache:5 .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Pribatutasun-abisua"
 
@@ -1016,7 +1006,7 @@ msgstr "Onartu"
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
 msgid "Cancel"
 msgstr "Utzi"
 
@@ -1040,13 +1030,15 @@ msgstr "Eman jardueraren berri"
 msgid "Why is this happening?"
 msgstr "Zergatik ari da hau gertatzen?"
 
-#: .es5/templates/reset_password.mustache:5
-msgid ""
-"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-"protect your privacy."
-msgstr ""
+#: .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr "Berrezarri kontua"
 
-#: .es5/templates/reset_password.mustache:8
+#: .es5/templates/reset_password.mustache:5
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "Pasahitza berrezartzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
+
+#: .es5/templates/reset_password.mustache:9 .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
 msgstr "Hasi berrezartzea"
 
@@ -1090,7 +1082,7 @@ msgstr "Hau baliozko helbide elektronikoa bada, <a %(escapedSupportLinkAttrs)s>e
 msgid "No longer own that email? Create a new account"
 msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
 
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:14
 msgid "Mistyped email?"
 msgstr "Gaizki idatzitako helbidea?"
 
@@ -1114,22 +1106,6 @@ msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiazta
 msgid "Enter code"
 msgstr "Sartu kodea"
 
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:4
-msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:5
-msgid "Enter 6-digit code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Verify"
-msgstr ""
-
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
 msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
@@ -1150,35 +1126,23 @@ msgstr "Migratu sinkronizatutako zure informazioa Firefox&nbsp;Kontu berri bat s
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Zure gehigarrien datuak bilatzen? Hasi saioa Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "Repeat password"
-msgstr "Errepikatu pasahitza"
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:6
-msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "Ez galdu pasahitza. Berrezarri behar baduzu, Sync datuak gal ditzakezu."
-
-#: .es5/templates/sign_up.mustache:15
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:16
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Gogoratu zure pasahitza</span>zure pasahitza berrezarri behar baduzu, zure inongo gailutan gordea ez dagoen Sync datuak galduko dituzu."
-
-#: .es5/templates/sign_up.mustache:18
+#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 
-#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13
 msgid "Create account"
 msgstr "Sortu kontua"
 
-#: .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Baduzu kontua? Hasi saioa"
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:11
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Jaso hileroko Firefox buletina"
 
@@ -1242,7 +1206,7 @@ msgstr "Ulertuta"
 msgid "Change…"
 msgstr "Aldatu…"
 
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/templates/settings/avatar.mustache:3
 msgid "Add…"
 msgstr "Gehitu…"
 
@@ -1262,8 +1226,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Garbitu"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/upgrade_session.mustache:7 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Done"
 msgstr "Egina"
 
@@ -1323,7 +1287,7 @@ msgstr "Ondo deskonektatu da"
 msgid "Devices & apps"
 msgstr "Gailuak eta aplikazioak"
 
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2 .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/partial/show-password.mustache:1 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
 msgstr "Erakutsi"
 
@@ -1351,7 +1315,7 @@ msgstr "iOSerako Firefox"
 msgid "None connected"
 msgstr "Bat ere ez konektatuta"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24
+#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:6
 msgid "Download"
 msgstr "Deskargatu"
 
@@ -1363,8 +1327,7 @@ msgstr "Androiderako Firefox"
 msgid "Missing or duplicate items?"
 msgstr "Faltan edo bikoiztutako elementuak?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:19 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/settings/two_step_authentication.mustache:16
 msgid "Refresh"
 msgstr "Freskatu"
 
@@ -1373,12 +1336,12 @@ msgid "Communication preferences"
 msgstr "Komunikazio-hobespenak"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgid "We may send you emails related to your Firefox Account."
+msgstr "Zure Firefox kontuaz erlazionatutako mezuak bidali ahal dizugu."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+msgstr "Honez gain, zuk aukera dezakezu noiz eta nola jaso Mozilla eta Firefoxen azken berriak."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1428,57 +1391,13 @@ msgstr "Kendu"
 msgid "Add"
 msgstr "Gehitu"
 
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:3
-msgid "Enable…"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add an extra layer of security to your account by requiring security codes."
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Enabled"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:9
-msgid "Disabled"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disable"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:12
-msgid "Enable"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Can't scan code?"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:15
-msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:16
-msgid "Security code"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:20
-msgid "Confirm"
-msgstr "Berretsi"
+#: .es5/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr "Desblokeatu…"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
-msgid "Reverify to unlock section"
-msgstr ""
+msgid "verify to unlock section"
+msgstr "egiaztatu desblokeatze atala"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1504,23 +1423,236 @@ msgstr "Erabili OpenID"
 msgid "Use Firefox Account"
 msgstr "Erabili Firefox Kontua"
 
+#: .es5/views/ready.js:44
+msgid "Your password has been reset"
+msgstr "Zure pasahitza berrezarri egin da"
+
+#: .es5/views/settings/recovery_codes.js:45
+msgid "Codes copied"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:47
+msgid "Failed to copy codes. Please manually copy them."
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:91
+msgid "New recovery codes generated"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
+msgid "Two-step authentication enabled"
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:122
+msgid "Two-step authentication removed"
+msgstr ""
+
+#: .es5/views/mixins/resend-mixin.js:46
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Posta birbidalia. Gehitu accounts@firefox.com zure kontaktuetara arazorik gabeko bidalketarako."
+
+#: .es5/models/auth_brokers/web.js:34
+msgid "Password reset successfully"
+msgstr "Pasahitza ondo berrezarri da"
+
+#: .es5/lib/auth-errors.js:464
+msgid "Two-step authentication code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:468
+msgid "Invalid two-step authentication code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:472
+msgid "Recovery code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid recovery code"
+msgstr ""
+
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr "Zerbitzua ez dago erabilgarri, saiatu berrio beranduago"
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Sortu pasahitz berria"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+"to protect your privacy."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:13
+msgid "Re-enter password"
+msgstr "Idatzi berriz pasahitza"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:10
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:5
+msgid ""
+"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+"protect your privacy."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:5
+msgid "Enter 8-digit recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Verify"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:4
+msgid "Open your authentication app and enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Use recovery code"
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr "Ez galdu pasahitza. Berrezarri behar baduzu, Sync datuak gal ditzakezu."
+
+#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "<span>Gogoratu zure pasahitza</span>zure pasahitza berrezarri behar baduzu, zure inongo gailutan gordea ez dagoen Sync datuak galduko dituzu."
+
+#: .es5/templates/settings/communication_preferences.mustache:7
+msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+msgstr ""
+
+#: .es5/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:1
+msgid "Recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:2
+msgid "NOTE:"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:3
+msgid ""
+"\n"
+"                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:5
+msgid "Generate new recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:7
+msgid "Copy"
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:8
+msgid "Print"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:2
+msgid "Two-step authentication"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:3
+msgid "Enable…"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:6
+msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:7
+msgid "Current status"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:8
+msgid "Enabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:10
+msgid "Disabled"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:11
+msgid "Disable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:13
+msgid "Enable"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:14
+msgid "Replace recovery codes"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:18
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:19
+msgid "Can’t scan code?"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:20
+msgid "Manually enter this secret key into your authentication app:"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:21
+msgid "Security code"
+msgstr ""
+
+#: .es5/templates/settings/two_step_authentication.mustache:22
+msgid "Confirm"
+msgstr "Berretsi"
+
+#: .es5/templates/settings/upgrade_session.mustache:3
+msgid "Reverify to unlock section"
+msgstr ""
+
 #. submit button
-#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:96
+#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Hasi saioa"
 
 #. header text
-#: .es5/views/sign_in.js:99
+#: .es5/views/sign_in.js:100
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Hasi saioa"
-
-#~ msgid "Email resent"
-#~ msgstr "Mezua berriro bidali da"
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Huts egin du baliabideak kargatzerakoan"
@@ -1530,45 +1662,6 @@ msgstr "Hasi saioa"
 
 #~ msgid "Script error"
 #~ msgstr "Script errorea"
-
-#~ msgid "Enter new password"
-#~ msgstr "Sartu pasahitz berria"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Behin zure pasahitz berria bidaltzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Ikasi nola funtzionatzen duen Sync-ek."
-
-#~ msgid "Submit new password"
-#~ msgstr "Bidali pasahitz berria"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Jarraituz gero, Firefoxen hodeiko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefoxen hodeiko zerbitzuak"
-
-#~ msgid "Reset account"
-#~ msgstr "Berrezarri kontua"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Pasahitza berrezartzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Zure Firefox kontuaz erlazionatutako mezuak bidali ahal dizugu."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Honez gain, zuk aukera dezakezu noiz eta nola jaso Mozilla eta Firefoxen azken berriak."
-
-#~ msgid "Unlock…"
-#~ msgstr "Desblokeatu…"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "egiaztatu desblokeatze atala"
 
 #~ msgid "Open settings and select Sign in to Firefox to complete set-up"
 #~ msgstr "Konfigurazioa osatzeko, ireki ezarpenak eta hautatu 'Hasi saioa Firefoxen'"
