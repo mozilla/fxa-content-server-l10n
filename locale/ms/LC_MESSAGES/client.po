@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 00:12+0000\n"
+"PO-Revision-Date: 2018-04-17 00:14+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -1593,11 +1593,11 @@ msgstr "Dayakan…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Tambah lapisan keselamatan kepada akaun anda dengan meminta kod keselamatan daripada salah satu aplikasi pengesahan ini."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Status semasa"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1617,15 +1617,15 @@ msgstr "Dayakan"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Ganti kod pemulihan"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Imbas kod QR dalam aplikasi pengesahan dan masukkan kod keselamatan yang disediakannya."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Tidak dapat mengimbas kod?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
