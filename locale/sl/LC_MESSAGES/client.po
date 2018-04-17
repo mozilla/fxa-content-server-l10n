@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-03-27 15:22+0000\n"
-"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
+"PO-Revision-Date: 2018-04-17 13:42+0000\n"
+"Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -685,12 +685,8 @@ msgid "Invalid Token"
 msgstr "Neveljaven žeton"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1428,15 +1424,15 @@ msgstr "Vaše geslo je bilo ponastavljeno"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Kode kopirane"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Kod ni bilo mogoče kopirati. Kopirajte jih ročno."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nove kode za obnovitev so ustvarjene"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
 msgid "Two-step authentication enabled"
@@ -1456,7 +1452,7 @@ msgstr "Geslo uspešno ponastavljeno"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Zahtevana je koda za overjanje v dveh korakih"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1464,11 +1460,11 @@ msgstr "Neveljavna koda za overitev v dveh korakih"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Zahtevana je koda za obnovitev"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Neveljavna koda za obnovitev"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -1508,7 +1504,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Vnesite kodo za obnovitev"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1516,7 +1512,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "Vnesite 8-mestno kodo za obnovitev"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1536,7 +1532,7 @@ msgstr "Vnesite 6-mestno kodo"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Uporabi kodo za obnovitev"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1560,11 +1556,11 @@ msgstr "Poleg tega se lahko po želji naročite na promocijsko pošto z novicami
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Kode za obnovitev"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "NOTE:"
-msgstr ""
+msgstr "OPOMBA:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1575,15 +1571,15 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Ustvari nove kode za obnovitev"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
 #: .es5/templates/settings/recovery_codes.mustache:8
 msgid "Print"
-msgstr ""
+msgstr "Natisni"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1599,7 +1595,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Trenutno stanje"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1805,11 +1801,11 @@ msgstr "Prijava"
 #~ msgstr "Zakaj naj sinhroniziram več naprav?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sinhronizacija vam omogoča deliti zaznamke, zgodovino in gesla, ki ste jih shranili v Firefoxu na eni napravi, z drugimi napravami. Prijavite se v Firefox na telefonu ali tablici in pojavilo se "
-#~ "bo vse, kar ste shranili v namiznem Firefoxu."
+#~ "Sinhronizacija vam omogoča deliti zaznamke, zgodovino in gesla, ki ste jih shranili v Firefoxu na eni napravi, z drugimi napravami. Prijavite se v Firefox na telefonu ali tablici in pojavilo se bo "
+#~ "vse, kar ste shranili v namiznem Firefoxu."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1921,19 +1917,16 @@ msgstr "Prijava"
 #~ msgid "Sync preferences"
 #~ msgstr "Nastavitve sinhronizacije"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Iščete Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite tukaj</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Imate račun z drugačnim e-poštnim naslovom? <a href=\"%(signinUri)s\">Prijava</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox je na voljo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> in <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox je na voljo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> in <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Zadnja aktivnost: %(translatedTimeAgo)s"
@@ -2119,8 +2112,7 @@ msgstr "Prijava"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Prosimo, omogočite piškotke v brskalniku, saj so zahtevani za Firefox Račune. Piškotki so majhni delci datotek, ki se shranjujejo v brskalniku in med drugim omogočajo, da si vas zapomni med "
-#~ "sejami."
+#~ "Prosimo, omogočite piškotke v brskalniku, saj so zahtevani za Firefox Račune. Piškotki so majhni delci datotek, ki se shranjujejo v brskalniku in med drugim omogočajo, da si vas zapomni med sejami."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kmalu prihaja na iOS!"
@@ -2263,12 +2255,8 @@ msgstr "Prijava"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Že imate račun? Prijavite se."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgstr "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Z nadaljevanjem sprejemam <a id=\"fxa-tos\" href=\"/legal/terms\">Pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\">Obvestilo o zasebnosti</a> storitev Firefox v oblaku."
