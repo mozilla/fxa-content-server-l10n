@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 17:11+0000\n"
+"PO-Revision-Date: 2018-04-17 17:32+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -397,7 +397,7 @@ msgstr "No se puede enviar a este país"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr "No se puede enviar un mensaje a este número"
+msgstr "No se pudo enviar un mensaje a este número"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
@@ -429,31 +429,31 @@ msgstr "La dirección está en uso por otra cuenta"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
-msgstr "Cuenta de correo electrónico primaria requerida para reiniciar"
+msgstr "Para reiniciar se requiere la cuenta de correo electrónico primaria"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr "Código de inicio inválido"
+msgstr "El código de inicio es inválido"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr "No se puede cambiar la dirección de correo electrónico primaria a una dirección de correo electrónico no verificada"
+msgstr "No se puede cambiar la dirección de correo electrónico primaria por una dirección de correo electrónico no verificada"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "No se puede cambiar la dirección de correo electrónico a una dirección de correo electrónico que no se corresponde con esta cuenta"
+msgstr "No se puede cambiar la dirección de correo electrónico por una dirección de correo electrónico que no se corresponde con esta cuenta"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr "Esta dirección de correo electrónico no se puede usar en este momento para acceder"
+msgstr "No se puede utilizar esta dirección de correo para iniciar sesión"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr "El envío del correo electrónico falló"
+msgstr "Falló el envío del correo electrónico"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr "Código de registro inválido"
+msgstr "El código de verificación de inicio de sesión no es válido"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -461,7 +461,7 @@ msgstr "Este código de verificación está vencido"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
-msgstr "Servidor ocupado, intentá después"
+msgstr "Servidor ocupado, intente de nuevo en breve"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
@@ -469,12 +469,12 @@ msgstr "Función no habilitada"
 
 #: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
-msgstr "Este cliente ya no está disponible"
+msgstr "Este extremo ya no se admite"
 
 #: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63 .es5/lib/marketing-email-errors.js:85
 msgid "System unavailable, try again soon"
-msgstr "Sistema no disponible, intentá después"
+msgstr "El sistema no está disponible, vuelva a intentarlo en breve"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Login attempt cancelled"
@@ -482,7 +482,7 @@ msgstr "Intento de ingreso cancelado"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Session expired. Sign in to continue."
-msgstr "Terminó tu sesión. Ingresá nuevamente."
+msgstr "Se terminó su sesión. Ingrese nuevamente."
 
 #: .es5/lib/auth-errors.js:238
 msgid "Cookies are still disabled"
@@ -498,15 +498,15 @@ msgstr "Trabajando…"
 
 #: .es5/lib/auth-errors.js:250
 msgid "Could not get Privacy Notice"
-msgstr "No se pudo acceder a la nota sobre privacidad"
+msgstr "No se pudo acceder a la Nota sobre privacidad"
 
 #: .es5/lib/auth-errors.js:254
 msgid "Could not get Terms of Service"
-msgstr "No se pudo acceder a los términos del servicio"
+msgstr "No se pudo acceder a los Términos del servicio"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Your new password must be different"
-msgstr "La nueva contraseña debe ser diferente"
+msgstr "Su nueva contraseña debe ser diferente"
 
 #: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:7 .es5/templates/complete_reset_password.mustache:12
 msgid "Must be at least 8 characters"
@@ -526,7 +526,7 @@ msgstr "No se encontró una imagen apropiada"
 
 #: .es5/lib/auth-errors.js:285
 msgid "Could not initialize camera"
-msgstr "No se pudo iniciar la cámara"
+msgstr "No se pudo inicializar la cámara"
 
 #: .es5/lib/auth-errors.js:289
 msgid "Valid URL required"
@@ -542,15 +542,15 @@ msgstr "Ingrese una dirección de correo electrónico válida. firefox.com no of
 
 #: .es5/lib/auth-errors.js:320
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Una cuenta de Firefox puede ubicarse en un IFRAME solo en sitios aprobados"
+msgstr "Las cuentas de Firefox pueden ubicarse en un IFRAME solo en sitios aprobados"
 
 #: .es5/lib/auth-errors.js:339 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr "Enlace de verificación dañado"
+msgstr "El enlace de verificación está dañado"
 
 #: .es5/lib/auth-errors.js:347
 msgid "The image dimensions must be at least 100x100px"
-msgstr "La imagen debe ser de al menos 100 x100 px"
+msgstr "La dimensión de la imagen debe ser de al menos 100 x100 px"
 
 #: .es5/lib/auth-errors.js:351
 msgid "Signup is coming soon to Firefox for iOS"
@@ -558,7 +558,7 @@ msgstr "Falta poco para poder usar Firefox Account en Firefox para iOS"
 
 #: .es5/lib/auth-errors.js:362
 msgid "You must enter your age to sign up"
-msgstr "Para inscribirse debe ingresar su edad"
+msgstr "Debe ingresar su edad para registrarse"
 
 #: .es5/lib/auth-errors.js:377
 msgid "Account no longer exists."
