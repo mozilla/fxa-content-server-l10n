@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-03-19 06:45+0000\n"
+"PO-Revision-Date: 2018-04-17 06:12+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -684,9 +684,7 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1427,15 +1425,15 @@ msgstr "Vaša lozinka je resetovana"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Kodovi kopirani"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Neuspjelo kopiranje kodova. Molimo kopirajte ih ručno."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Novi kodovi za oporavak su generisani"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
 msgid "Two-step authentication enabled"
@@ -1455,7 +1453,7 @@ msgstr "Lozinka uspješno resetovana"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Potrebna je autentifikacija u dva koraka"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1463,11 +1461,11 @@ msgstr "Neispravan kod za autentifikaciju u dva koraka"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Potreban kod za oporavak"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Neispravan kod za oporavak"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -1507,15 +1505,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Unesite kod za oporavak"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Molimo unesite kod za oporavak koji ste dobili prilikom podešavanja."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "Unesite 8-cifreni kod za oporavak"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1535,7 +1533,7 @@ msgstr "Unesite 6-ocifreni kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Koristite kod za oporavak"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1560,7 +1558,7 @@ msgstr "Dodatno, možete se pretplatiti za primanje promotivnih emailova sa najn
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Kodovi za oporavak"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "NOTE:"
