@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 05:48+0000\n"
+"PO-Revision-Date: 2018-04-17 14:27+0000\n"
 "Last-Translator: Elio <elio.gi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1435,11 +1435,11 @@ msgstr "Codici copiati"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Impossibile copiare i codici. Copiarli manualmente."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Generati nuovi codici di ripristino"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
 msgid "Two-step authentication enabled"
@@ -1459,7 +1459,7 @@ msgstr "Password reimpostata correttamente"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "È richiesto il codice di autenticazione in due passaggi"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1467,7 +1467,7 @@ msgstr "Codice di autenticazione in due passaggi non valido"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "È richiesto il codice di ripristino"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
@@ -1515,7 +1515,7 @@ msgstr "Inserire il codice di ripristino"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Inserire uno dei codici di ripristino ricevuti in fase di configurazione."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
@@ -1577,6 +1577,8 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"Attenzione: non potrai accedere una seconda volta a questa schermata. Copia i codici e conservali in un luogo sicuro in caso dovessi perdere l’accesso al tuo dispositivo mobile. Ogni codice può "
+"essere utilizzato una sola volta."
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
@@ -1600,11 +1602,11 @@ msgstr "Attiva…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Aggiungi un ulteriore livello di sicurezza al tuo account utilizzando per ogni accesso i codici di sicurezza generati da una di queste app di autenticazione."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Stato attuale"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1628,7 +1630,7 @@ msgstr "Sostituisci i codici di recupero"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Scansiona il codice QR nella tua applicazione di autenticazione, poi inserisci il codice di sicurezza ottenuto."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
