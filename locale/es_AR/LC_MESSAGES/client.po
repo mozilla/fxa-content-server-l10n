@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 15:33+0000\n"
+"PO-Revision-Date: 2018-04-17 15:35+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1601,11 +1601,11 @@ msgstr "Habilitar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Agregue una capa extra de seguridad a su cuenta solicitando códigos de seguridad desde una de estas aplicaciones de autenticación."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Estado actual"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1625,7 +1625,7 @@ msgstr "Habilitar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Reemplazar los códigos de recuperación"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
