@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 17:32+0000\n"
+"PO-Revision-Date: 2018-04-17 17:49+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -229,7 +229,7 @@ msgstr "Su cuenta ha sido bloqueada por razones de seguridad"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
-msgstr "Reiniciar contraseña"
+msgstr "Restablecer contraseña"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -309,7 +309,7 @@ msgstr "Error inesperado"
 
 #: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "El enlace en que hizo clic para restablecer tu contraseña expiró."
+msgstr "El enlace en el que hizo clic para verificar su correo electrónico está vencido."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
@@ -325,11 +325,11 @@ msgstr "Identificador no válido"
 
 #: .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
-msgstr "No es válida la marca de tiempo en la solicitud de la firma"
+msgstr "La marca de tiempo en la solicitud de la firma no es válida"
 
 #: .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
-msgstr "No es válido el código temporal en la solicitud de firma"
+msgstr "El código temporal en la solicitud de firma no es válido"
 
 #: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
@@ -373,7 +373,7 @@ msgstr "La solicitud de la firma no es válida"
 
 #: .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
-msgstr "Falta encabezado content-length"
+msgstr "Falta el encabezado content-length"
 
 #: .es5/lib/auth-errors.js:93
 msgid "Request body too large"
@@ -566,7 +566,7 @@ msgstr "La cuenta ya no existe."
 
 #: .es5/lib/auth-errors.js:381
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Hay una propiedad inválida en el token: %(property)s"
+msgstr "Hay una propiedad inválida en el identificador: %(property)s"
 
 #: .es5/lib/auth-errors.js:385
 msgid "Missing property in resume token: %(property)s"
