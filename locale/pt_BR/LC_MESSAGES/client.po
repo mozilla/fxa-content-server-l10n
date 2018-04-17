@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 12:33+0000\n"
+"PO-Revision-Date: 2018-04-17 12:49+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1452,7 +1452,7 @@ msgstr "Senha redefinida com sucesso"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Código de autenticação em duas etapas necessário"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1460,7 +1460,7 @@ msgstr "Código inválido para a autenticação em duas etapas"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Código de recuperação necessário"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
