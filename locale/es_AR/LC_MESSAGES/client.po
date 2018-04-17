@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 16:08+0000\n"
+"PO-Revision-Date: 2018-04-17 17:11+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -309,15 +309,15 @@ msgstr "Error inesperado"
 
 #: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "El enlace en que hiciste clic para restablecer tu contraseña expiró"
+msgstr "El enlace en que hizo clic para restablecer tu contraseña expiró."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr "Probaste demasiadas veces. Intentalo más tarde."
+msgstr "Probó demasiadas veces. Inténtelo más tarde."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Probaste demasiadas veces. Intentalo en %(retryAfterLocalized)s."
+msgstr "Probó demasiadas veces. Inténtelo en %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
 msgid "Invalid token"
@@ -341,7 +341,7 @@ msgstr "Cuenta desconocida"
 
 #: .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
-msgstr "Cuenta incorrecta de correo electrónico"
+msgstr "Caso de cuenta de correo electrónico incorrecto"
 
 #: .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
@@ -385,11 +385,11 @@ msgstr "Este pedido fue bloqueado por razones de seguridad"
 
 #: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:418
 msgid "Invalid authorization code"
-msgstr "Codigo de autorización inválido"
+msgstr "El código de autorización es inválido"
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
-msgstr "Número de teléfono no válido"
+msgstr "El número de teléfono no es válido"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
@@ -413,7 +413,7 @@ msgstr "No se pudo enviar su correo electrónico"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr "Este correo electrónico ya fue verificada por otro usuario"
+msgstr "Este correo electrónico ya fue verificado por otro usuario"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
@@ -421,11 +421,11 @@ msgstr "El correo electrónico secundario debe ser diferente del correo electró
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
-msgstr "Cuenta de correo electrónico primaria requerida para ingresar"
+msgstr "Para ingresar se requiere la cuenta de correo electrónico primaria"
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr "Dirección en uso por otra cuenta"
+msgstr "La dirección está en uso por otra cuenta"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
