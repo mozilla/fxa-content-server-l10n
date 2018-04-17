@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-17 15:35+0000\n"
+"PO-Revision-Date: 2018-04-17 16:08+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -33,7 +33,7 @@ msgstr "Dirección de correo electrónico"
 
 #: .es5/views/permissions.js:37 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr "Nombre a mostrar"
+msgstr "Nombre para mostrar"
 
 #: .es5/views/permissions.js:40 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -49,11 +49,11 @@ msgstr "Firefox Sync continuará en breve"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Completá la configuración introduciendo la nueva contraseña en tus otros dispositivos Firefox."
+msgstr "Complete la configuración introduciendo la nueva contraseña en sus otros dispositivos Firefox."
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Ahora estás listo para hacer cambios a tu cuenta de Firefox."
+msgstr "Ahora está listo para hacer cambios a su cuenta de Firefox."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
@@ -61,7 +61,7 @@ msgstr "Correo electrónico primario verificado"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Las notificaciones de la cuenta ahora serán enviadas a %(secondaryEmailVerified)s."
+msgstr "Las notificaciones de la cuenta serán enviadas a %(secondaryEmailVerified)s ahora."
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
@@ -73,7 +73,7 @@ msgstr "Ingreso confirmado"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Ya estás listo para usar %(serviceName)s."
+msgstr "Ya está listo para usar %(serviceName)s"
 
 #: .es5/views/ready.js:65
 msgid "Account verified"
@@ -81,19 +81,19 @@ msgstr "Cuenta verificada"
 
 #: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Cuenta desconocida. <a href=\"/signup\">Registrate</a>."
+msgstr "Cuenta desconocida. <a href=\"/signup\">Regístrese</a>"
 
 #: .es5/views/sign_in.js:164 .es5/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Cuenta de Firefox desconocida. <a href=\"/signup\">Iniciá sesión</a> con tu antigua cuenta de correo de Complementos para acceder a tus datos."
+msgstr "Cuenta de Firefox desconocida. <a href=\"/signup\">Inicie sesión</a> con su antigua cuenta de correo de Complementos para acceder a sus datos."
 
 #: .es5/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
-msgstr "La cuenta ya no existe. ¿Querés crearla de nuevo?"
+msgstr "La cuenta ya no existe. ¿Quiere crearla de nuevo?"
 
 #: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "La cuenta ya existe. <a href=\"/signin\">Ingresá</a>"
+msgstr "La cuenta ya existe. <a href=\"/signin\">Ingresar</a>"
 
 #: .es5/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -101,11 +101,11 @@ msgstr "La contraseña se cambió exitosamente"
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Lo lamentamos. Debés cambiar la contraseña de tu cuenta Firefox y buscar información del fabricante de tu dispositivo sobre cómo eliminar remotamente tus datos."
+msgstr "Lo lamentamos. Debe cambiar la contraseña de su cuenta Firefox y buscar información del fabricante de su dispositivo sobre cómo eliminar remotamente sus datos."
 
 #: .es5/views/settings/client_disconnect.js:20
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Lo lamentamos. Si es un dispositivo en el que no confias, debes cambiar la contraseña de tu cuenta Firefox y todas las contraseñas guardadas en Firefox."
+msgstr "Lo lamentamos. Si es un dispositivo en el que no confía, debe cambiar la contraseña de su cuenta Firefox y todas las contraseñas guardadas en Firefox."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -1115,15 +1115,15 @@ msgstr "Ingresar código de autorización"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Creá una cuenta Firefox"
+msgstr "Cree una cuenta Firefox"
 
 #: .es5/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Migrá tus datos de Sync creando una cuenta de Firefox."
+msgstr "Migre tus datos de Sync creando una cuenta de Firefox."
 
 #: .es5/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "¿Buscás tus datos de Complementos? Crea una cuenta de Firefox con la dirección de correo electrónico de tu cuenta de Complementos."
+msgstr "¿Busca la información de sus Complementos? Cree una cuenta de Firefox con la dirección de correo electrónico de su cuenta de Complementos."
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1629,11 +1629,11 @@ msgstr "Reemplazar los códigos de recuperación"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Escanee el código QR en su aplicación de autenticación e introduzca el código de seguridad que proporciona."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "¿No puede escanear el código?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
