@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-04 15:17+0000\n"
+"PO-Revision-Date: 2018-04-18 16:04+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -684,9 +684,7 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -892,7 +890,7 @@ msgstr "Баптауды аяқтау үшін басқа құрылғыдағы
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Құрылғыларды әлі қосудасыз ба? Баптауды аяқтау үшін басқа құрылғыдағы Firefox ішіне кіріңіз"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -935,9 +933,7 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> "
-"келісесіз."
+msgstr "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1100,7 +1096,7 @@ msgstr "Бұл кіруді авторизациялау"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Эл. поштаңызды %(email)s адресіне жіберілген кодқа тексеріңіз."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1576,11 +1572,11 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
-msgstr ""
+msgstr "Көшіріп алу"
 
 #: .es5/templates/settings/recovery_codes.mustache:8
 msgid "Print"
-msgstr ""
+msgstr "Баспаға шығару"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1596,7 +1592,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Ағымдағы қалып-күйі"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1792,11 +1788,11 @@ msgstr "Кіру"
 #~ msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа "
-#~ "кіріңіз, одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
+#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа кіріңіз, "
+#~ "одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1888,11 +1884,11 @@ msgstr "Кіру"
 #~ msgstr "Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> үшін қолжетерлік."
+#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
 
 #~ msgid "Delete"
 #~ msgstr "Өшіру"
@@ -2025,8 +2021,8 @@ msgstr "Кіру"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде "
-#~ "өз эл. пошта адресіңізді енгіңіз."
+#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде өз "
+#~ "эл. пошта адресіңізді енгіңіз."
 
 #~ msgid "a day"
 #~ msgstr "бір күн"
