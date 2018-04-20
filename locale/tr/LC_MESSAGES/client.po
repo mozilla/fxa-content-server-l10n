@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-19 19:55+0000\n"
+"PO-Revision-Date: 2018-04-20 15:06+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1454,7 +1454,7 @@ msgstr "Parola başarıyla sıfırlandı"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "İki aşamalı doğrulama kodu gerekli"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1510,11 +1510,11 @@ msgstr "Kurtarma kodunu yazın"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Lütfen kurulum sırasında size verilen kurtarma kodlarından birini yazın."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "8 basamaklı kurtarma kodunu yazın"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1534,7 +1534,7 @@ msgstr "6 basamaklı kodu yazın"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Kurtarma kodunu kullan"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1570,10 +1570,13 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                Bu kodlar yalnızca bir kez gösterilecek ve bir kez kullanılabilecektir. Kodları güvenli bir yerde saklayın. Cep telefonunuzu kaybederseniz bunlara ihtiyacınız olacak.\n"
+"            "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Yeni kurtarma kodları oluştur"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
@@ -1593,11 +1596,11 @@ msgstr "Etkinleştir…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Seçeceğiniz kimlik doğrulama uygulamasının üreteceği güvenlik kodlarını zorunlu tutarak hesabınızın güvenliğini artırın."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Şu anki durum"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1617,15 +1620,15 @@ msgstr "Etkinleştir"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Kurtarma kodlarını değiştir"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Kimlik doğrulama uygulamanızla bu QR kodunu tarayın ve uygulamanın verdiği güvenlik kodunu yazın."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Kodu tarayamıyor musunuz?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
