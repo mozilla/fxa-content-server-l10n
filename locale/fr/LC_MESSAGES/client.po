@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-02 07:16+0000\n"
+"PO-Revision-Date: 2018-04-21 16:26+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -688,9 +688,7 @@ msgid "Invalid Token"
 msgstr "Jeton invalide"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
@@ -1434,15 +1432,15 @@ msgstr "Votre mot de passe à été réinitialisé"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Codes copiés"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Les codes n’ont pas pu être copiés. Veuillez les copier manuellement."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nouveaux codes de secours générés"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
 msgid "Two-step authentication enabled"
@@ -1462,7 +1460,7 @@ msgstr "Mot de passe réinitialisé"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Code de validation en deux étapes requis"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1470,11 +1468,11 @@ msgstr "Code de validation en deux étapes incorrect"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Code de secours requis"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Code de secours invalide"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -1509,20 +1507,20 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
-"<span>NOTE :</span> si vous réinitialisez votre mot de passe, certaines de vos données seront supprimées (y compris les données synchronisées sur le serveur, comme l’historique et les marque-"
-"pages). Ceci est dû au fait que nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée."
+"<span>NOTE :</span> si vous réinitialisez votre mot de passe, certaines de vos données seront supprimées (y compris les données synchronisées sur le serveur, comme l’historique et les marque-pages)."
+" Ceci est dû au fait que nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Saisissez le code de secours"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Veuillez saisir un code de secours que vous avez reçu au moment de la configuration."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "Saisissez le code de secours à 8 chiffres"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1542,7 +1540,7 @@ msgstr "Saisissez le code à 6 chiffres"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Utiliser le code de secours"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1570,11 +1568,11 @@ msgstr "Vous pouvez également vous abonner aux messages promotionnels qui vous 
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Codes de secours"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "NOTE:"
-msgstr ""
+msgstr "REMARQUE :"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1585,15 +1583,15 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Générer de nouveaux codes de secours"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
-msgstr ""
+msgstr "Copier"
 
 #: .es5/templates/settings/recovery_codes.mustache:8
 msgid "Print"
-msgstr ""
+msgstr "Imprimer"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1605,7 +1603,7 @@ msgstr "Activer…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Ajoutez une couche de sécurité supplémentaire en exigeant un code de sécurité depuis l’une de ces applications d’authentification."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1629,15 +1627,15 @@ msgstr "Activer"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Remplacer les codes de secours"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Scannez le QR code depuis l’application d’authentification puis saisissez le code de sécurité fourni."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Impossible de scanner le code ?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1805,8 +1803,8 @@ msgstr "Connexion"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Le service SMS est uniquement disponible pour les numéros de téléphone aux États-Unis. Des frais liés aux SMS et aux données peuvent s’appliquer. Le destinataire du courrier électronique ou du "
-#~ "SMS doit avoir donné son accord. <a %(escapedLearnMoreAttributes)s>En savoir plus</a>"
+#~ "Le service SMS est uniquement disponible pour les numéros de téléphone aux États-Unis. Des frais liés aux SMS et aux données peuvent s’appliquer. Le destinataire du courrier électronique ou du SMS "
+#~ "doit avoir donné son accord. <a %(escapedLearnMoreAttributes)s>En savoir plus</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "Lien envoyé à %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mauvais numéro ?</a>"
@@ -1815,8 +1813,8 @@ msgstr "Connexion"
 #~ msgstr "Pourquoi synchroniser deux appareils (ou plus) ?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Enregistrez dans Firefox vos marque-pages, votre historique et vos mots de passe, puis partagez-les grâce à Sync sur vos autres appareils. Connectez-vous via Firefox sur votre téléphone ou votre "
 #~ "tablette, puis vous verrez apparaître tout ce que vous avez enregistré sur Firefox pour ordinateur."
@@ -1825,9 +1823,9 @@ msgstr "Connexion"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync n’est pas conçu pour être une solution de sauvegarde permanente, il permet uniquement de partager ce qui est stocké localement. Si vous réinitialisez votre mot de passe et que vos données "
-#~ "ne sont pas stockées sur au moins un autre appareil, vous pourriez perdre l’ensemble des informations associées à l’ancien mot de passe. Pour cette raison, vous voudrez sûrement installer "
-#~ "Firefox et utiliser Sync sur plus d’un appareil."
+#~ "Sync n’est pas conçu pour être une solution de sauvegarde permanente, il permet uniquement de partager ce qui est stocké localement. Si vous réinitialisez votre mot de passe et que vos données ne "
+#~ "sont pas stockées sur au moins un autre appareil, vous pourriez perdre l’ensemble des informations associées à l’ancien mot de passe. Pour cette raison, vous voudrez sûrement installer Firefox et "
+#~ "utiliser Sync sur plus d’un appareil."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1932,21 +1930,20 @@ msgstr "Connexion"
 #~ msgid "Sync preferences"
 #~ msgstr "Préférences de Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr ""
-#~ "Vous recherchez Firefox Sync ? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Apprenez-en "
-#~ "davantage ici</a>"
+#~ "Vous recherchez Firefox Sync ? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Apprenez-en davantage "
+#~ "ici</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Vous disposez d’un compte avec une autre adresse électronique ? <a href=\"%(signinUri)s\">Connectez-vous</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Dernière activité : %(translatedTimeAgo)s"
@@ -2175,8 +2172,8 @@ msgstr "Connexion"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent "
-#~ "de nous souvenir de vous entre vos sessions.                "
+#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent de "
+#~ "nous souvenir de vous entre vos sessions.                "
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox sera bientôt disponible sur iOS !"
@@ -2319,9 +2316,7 @@ msgstr "Connexion"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Vous possédez déjà un compte ? Connectez-vous."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "En continuant, j'accepte les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 #~ "%(serviceName)s (%(serviceUri)s)."
