@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-21 16:26+0000\n"
+"PO-Revision-Date: 2018-04-22 13:43+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1579,7 +1579,7 @@ msgid ""
 "\n"
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
-msgstr ""
+msgstr "ces codes ne seront affichés qu’une seule fois et sont à usage unique. Conservez-les en lieu sûr au cas où vous n’auriez plus accès à votre appareil mobile."
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
@@ -1607,7 +1607,7 @@ msgstr "Ajoutez une couche de sécurité supplémentaire en exigeant un code de 
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "État actuel"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
