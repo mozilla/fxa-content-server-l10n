@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-23 11:06+0000\n"
+"PO-Revision-Date: 2016-09-13 10:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -498,7 +498,7 @@ msgstr "మీరు అభ్యర్థించిన పేజీ కను
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr "హోమ్"
+msgstr "ముంగిలి"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
