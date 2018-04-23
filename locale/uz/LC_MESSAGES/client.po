@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-03-22 16:09+0000\n"
-"Last-Translator: Tulkin <tulkin.translator@gmail.com>\n"
+"PO-Revision-Date: 2018-04-23 18:32+0000\n"
+"Last-Translator: akmalxster <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
@@ -52,35 +52,35 @@ msgstr ""
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Siz endi Firefox hisobingizga o‘zgartirish kirita olasiz."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
-msgstr ""
+msgstr "Asosiy pochtangiz tasdiqlandi"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Hisob bildirishnomasi hozir %(secondaryEmailVerified)s manziliga yuboriladi."
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Ikkinchi pochtangiz tasdiqlandi"
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Kirish tasdiqlandi"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Siz endi %(serviceName)sdan foydalanishga tayyorsiz"
 
 #: .es5/views/ready.js:65
 msgid "Account verified"
-msgstr ""
+msgstr "Hisob tasdiqlandi"
 
 #: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Noma’lum hisob <a href=\"/signup\">Ro‘yxatdan o‘tish</a>"
 
 #: .es5/views/sign_in.js:164 .es5/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
@@ -684,9 +684,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
