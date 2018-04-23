@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-23 18:32+0000\n"
+"PO-Revision-Date: 2018-04-23 18:43+0000\n"
 "Last-Translator: akmalxster <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uz\n"
@@ -388,35 +388,35 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Telefon raqam noto‘g‘ri"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Bu mamlakatga yubora olmadi"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Bu raqamga xabar yuborilmadi"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Xatingiz hozirgina qaytib keldi"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Xatingiz hozirgina qaytib keldi. Pochta nomi xato yozilganmidi?"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Xat yetib bormadi"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Bu e-pochta manzilini boshqa foydalanuvchi tasdiqlagan"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Ikkinchi e-pochta manzili hisobdagi e-pochta manzilidan boshqa bo‘lishi lozim"
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
