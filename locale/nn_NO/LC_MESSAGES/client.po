@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-16 19:27+0000\n"
+"PO-Revision-Date: 2018-04-24 10:36+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -839,7 +839,7 @@ msgstr "Sjekk e-posten din for ei stadfestingslenke for innlogging som er sendt 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Ikkje i innboks eller mappa for uønskt e-post («spam»)? Send på nytt"
+msgstr "Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
