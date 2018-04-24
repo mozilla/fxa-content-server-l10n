@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-24 10:36+0000\n"
+"PO-Revision-Date: 2018-04-24 11:46+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1189,7 +1189,7 @@ msgstr "Sync-tenesta er ikkje ein permanent backup. Ho er berre ein sikker måte
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må byggje dei oppatt og gløymer passordet ditt."
+msgstr "Du bør difor installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må byggje dei oppatt og gløymer passordet ditt."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
