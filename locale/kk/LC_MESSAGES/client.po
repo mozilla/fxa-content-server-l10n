@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-18 16:04+0000\n"
+"PO-Revision-Date: 2018-04-24 15:01+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1393,7 +1393,7 @@ msgstr "Босату…"
 
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "verify to unlock section"
-msgstr ""
+msgstr "сессияны босату үшін растаңыз"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1425,7 +1425,7 @@ msgstr "Пароліңіз тасталды"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Кодтар көшіріліп алынды"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
