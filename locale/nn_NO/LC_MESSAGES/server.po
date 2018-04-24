@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-24 11:09+0000\n"
+"PO-Revision-Date: 2018-04-24 11:25+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -191,7 +191,7 @@ msgstr "Handter kontoen"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Du har aktivert tosttegs-verifisering på Firefox-kontoen din. Sikkerheitskodar fra autentiseringappen din vil no krevjast ved kvar innlogging."
+msgstr "Du har aktivert tostegs-verifisering på Firefox-kontoen din. Sikkerheitskodar fra autentiseringappen din vil no krevjast ved kvar innlogging."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -321,11 +321,11 @@ msgstr "Dersom ja, her er godkjenningskoden du treng:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Dersom nei, hjelp oss med å avverja inntrengarar <a %(reportSignInLinkAttributes)s=\"\">rapporter dette til oss.</a>"
+msgstr "Dersom nei, hjelp oss med å avverje inntrengarar <a %(reportSignInLinkAttributes)s=\"\">rapporter dette til oss.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr "Dersom nei, hjelp oss med å avverja inntrengarar og raporter dette til oss."
+msgstr "Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
@@ -333,7 +333,7 @@ msgstr "Velkomen!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
+msgstr "Aktiver kontoen din ved å stadfeste denne e-postadressa."
 
 #: lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -377,7 +377,7 @@ msgstr "Stadfest e-post "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Når stadfesta, vil endringar i kontoen som å leggje til ein sekundær e-post, bli mogleg frå denne eininga."
+msgstr "Når stadfesta, vil endringar i kontoen som å leggje til ein sekundær e-post, bli muleg frå denne eininga."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -401,7 +401,7 @@ msgstr "Ein førespurnad om å bruke %(email)s som sekundær e-postadresse har k
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Når e-postadressa er stadfesta, vil ho byrje å ta imot tryggingsmeldingar og stadfestingar."
+msgstr "Når e-postadressa er stadfesta, vil ho byrje å ta imot tryggingsvarsel og stadfestingar."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -409,11 +409,11 @@ msgstr "Klar, ferdig, synk"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Stadfest at du har fått denne e-postmeldinga og vi vil hjelpa deg med å installera og synkronisera Firefox på alle einingane dine og byrjar med:"
+msgstr "Stadfest at du har fått denne e-postmeldinga og vi vil hjelpa deg med å installere og synkronisere Firefox på alle einingane dine og byrjar med:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Når stadfesta hjelper vi deg med å installera og kopla til Firefox på minst ei anna eining."
+msgstr "Når det er stadfesta, hjelper vi deg med å installere og kople til Firefox på minst ei anna eining."
 
 #: lib/senders/email.js:178
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -445,7 +445,7 @@ msgstr "Stadfest Firefox-kontoen din"
 
 #: lib/senders/email.js:357
 msgid "Confirm your email and start to sync!"
-msgstr "Stadfest e-postadressa di og byrja å synkronisera!"
+msgstr "Stadfest e-postadressa di og begynn å synkronisere!"
 
 #: lib/senders/email.js:403
 msgid "Firefox Account authorization code"
@@ -461,7 +461,7 @@ msgstr "Innloggingskode for Firefox"
 
 #: lib/senders/email.js:639
 msgid "Reset your Firefox Account password"
-msgstr "Tilbakestill passordet for Firefox-kontoen din"
+msgstr "Tilbakestill passordet på Firefox-kontoen din"
 
 #: lib/senders/email.js:671
 msgid "Your Firefox Account password has been changed"
@@ -497,7 +497,7 @@ msgstr "Fann ikkje sida"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "Fann ikkje sida du spurde etter. Vi er varsla og vil reparera lenker som ikkje fungerar."
+msgstr "Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -509,7 +509,7 @@ msgstr "Feil 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Å nei, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å finna ei løysing."
+msgstr "Å nei, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å finne ei løysing."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -521,7 +521,7 @@ msgstr "Tenaren er opptatt. Prøv igjen seinare"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Vi er for tida overbelsata, men arbeider på spreng for at systemet snarast råd skal fungera som normalt igjen."
+msgstr "Vi er for tida overbelsata, men arbeider på spreng for at systemet snarast råd skal fungere som normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
