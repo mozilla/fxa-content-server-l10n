@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-23 21:19+0000\n"
+"PO-Revision-Date: 2018-04-26 23:11+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1424,11 +1424,11 @@ msgstr "Xtzolïx ri ewan atzij"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Wachib'en taq b'itz'ib'"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Xsach ri kiwachib'al b'itz'ib'. Ke'awachib'ej chi q'ab'aj."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
@@ -1452,7 +1452,7 @@ msgstr "Xtzolïx ütz ri ewan tzij"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Najowäx ri b'itz'ib' jikib'anem rik'in ka'i'-xaq"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
