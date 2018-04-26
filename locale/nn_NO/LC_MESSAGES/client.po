@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-26 12:52+0000\n"
+"PO-Revision-Date: 2018-04-26 13:03+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1451,7 +1451,7 @@ msgstr "Passordet er tilbakestilt"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Tostegs-verifiseringskode påkravd"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
