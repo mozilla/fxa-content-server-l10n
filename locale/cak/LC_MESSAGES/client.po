@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-26 23:49+0000\n"
+"PO-Revision-Date: 2018-04-26 23:56+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1624,11 +1624,11 @@ msgstr "Kek'ex ri kolonel taq b'itz'ib'"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Taq'axachib'ilij ri QR b'itz'ib' pa ri ruchokoy jikib'anem chuqa' tatz'ib'aj ri rub'itz'ib' jikomal nuk'üt pe."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
