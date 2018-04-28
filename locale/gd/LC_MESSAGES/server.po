@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-28 22:08+0000\n"
+"PO-Revision-Date: 2018-04-28 22:11+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -383,7 +383,7 @@ msgstr "Turas a chaidh a dhearbhadh, bidh cothrom agad rudan sa chunntas atharra
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Mur tusa a dh’iarr seo, <a %(passwordChangeLinkAttributes)s>atharraich am facal-faire agad</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -391,7 +391,7 @@ msgstr "Dearbh am post-d: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Mur tusa a dh’iarr seo, atharraich am facal-faire agad."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:592
 msgid "Verify secondary email"
