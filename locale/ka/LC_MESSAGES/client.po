@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-18 16:29+0000\n"
+"PO-Revision-Date: 2018-04-29 09:18+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1339,7 +1339,7 @@ msgstr "ელფოსტაზე შესაძლოა გამოგი�
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr "დამატებით, შეგიძლია მიუთითოთ, გსურთ თუ არა Mozilla-სა და Firefox-ის შესახებ უახლესი ცნობების მიღება."
+msgstr "დამატებით, შეგიძლიათ მიუთითოთ, გსურთ თუ არა Mozilla-სა და Firefox-ის შესახებ უახლესი ცნობების მიღება."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1556,7 +1556,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr "დამატებით, შეგიძლია გამოიწეროთ Mozilla-სა და Firefox-ის შესახებ სიახლეები."
+msgstr "დამატებით, შეგიძლიათ გამოიწეროთ Mozilla-სა და Firefox-ის შესახებ სიახლეები."
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
