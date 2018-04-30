@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-04-24 15:01+0000\n"
+"PO-Revision-Date: 2018-04-30 05:00+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1429,11 +1429,11 @@ msgstr "Кодтар көшіріліп алынды"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Кодтарды көшіру сәтсіз аяқталды. Оларды қолмен көшіріңіз."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Жаңа қалпына келтіру кодтары жасалды"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
 msgid "Two-step authentication enabled"
@@ -1453,7 +1453,7 @@ msgstr "Парольді тастау сәтті аяқталды"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Екі қадамды аутентификация коды керек"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1461,11 +1461,11 @@ msgstr "Екі қадамды аутентификация коды жарамс
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Қалпына келтіру коды керек"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Қалпына келтіру коды жарамсыз"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -1501,15 +1501,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Қалпына келтіру кодын енгізіңіз"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Баптау кезінде сізге берілген қалпына келтіру кодын енгізіңіз."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "8-цифрлық қалпына келтіру кодын енгізіңіз"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Verify"
@@ -1521,7 +1521,7 @@ msgstr "Қауіпсіздік кодын енгізіңіз"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1529,7 +1529,7 @@ msgstr "6-цифрлық коды енгізіңіз"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Қалпына келтіру кодын қолдану"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1553,11 +1553,11 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Қалпына келтіру кодтары"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "NOTE:"
-msgstr ""
+msgstr "ЕСКЕРТУ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1568,7 +1568,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Жаңа қалпына келтіру кодтарын генерациялау"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
