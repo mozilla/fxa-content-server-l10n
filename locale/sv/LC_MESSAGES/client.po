@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 18:06+0000\n"
-"PO-Revision-Date: 2018-03-17 08:57+0000\n"
+"POT-Creation-Date: 2018-05-01 20:57+0000\n"
+"PO-Revision-Date: 2018-04-16 19:10+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -79,7 +79,7 @@ msgstr "Du kan nu använda %(serviceName)s"
 msgid "Account verified"
 msgstr "Konto verifierat"
 
-#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
+#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172 .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
@@ -87,11 +87,11 @@ msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Okänt Firefox-konto. <a href=\"/signup\">Registrera dig</a> med din e-postadress du tidigare använt för tillägg för att komma åt tilläggsdata."
 
-#: .es5/views/sign_up.js:55
+#: .es5/views/sign_up.js:55 .es5/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot existerar inte längre. Återskapa det?"
 
-#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
+#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282 .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
@@ -207,7 +207,7 @@ msgstr "Visningsnamn uppdaterad"
 msgid "Secondary email removed"
 msgstr "Sekundär e-postadress borttagen"
 
-#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82
+#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
 msgstr "Verifieringsmeddelande skickat"
 
@@ -219,7 +219,7 @@ msgstr "Primär e-postadress satt till %(email)s"
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr "Ett sekundär e-post är en extra adress för att ta emot säkerhetsmeddelanden och bekräfta nya synkroniseringsenheter"
 
-#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:158
 msgid "Secondary email"
 msgstr "Sekundär e-post"
 
@@ -255,7 +255,7 @@ msgstr "Öppna Restmail"
 msgid "Email resent"
 msgstr "E-post har skickats"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr "Primär e-post verifierades framgångsrikt"
 
@@ -295,11 +295,11 @@ msgstr "Adresser"
 msgid "Credit cards"
 msgstr "Kreditkort"
 
-#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70
+#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70 .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:82 .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
 msgstr "Sekundär e-post bekräftades framgångsrikt"
 
@@ -660,11 +660,11 @@ msgstr "Upphörd token"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Något gick fel. Var vänlig stäng denna flik och försök igen."
 
-#: .es5/lib/oauth-errors.js:122
+#: .es5/lib/oauth-errors.js:122 .es5/lib/oauth-errors.js:125
 msgid "no message"
 msgstr "inget meddelande"
 
-#: .es5/lib/oauth-errors.js:126
+#: .es5/lib/oauth-errors.js:126 .es5/lib/oauth-errors.js:129
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Saknad OAuth-parameter: %(param)s"
 
@@ -748,7 +748,7 @@ msgstr "Läs mer"
 msgid "%(email)s registered."
 msgstr "%(email)s registrerad."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Välj vad som ska synkas"
 
@@ -797,7 +797,7 @@ msgstr "Läs om hur Sync fungerar."
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:9
 msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
@@ -843,6 +843,7 @@ msgstr "Kontrollera din e-post efter bekräftelselänken för inloggning som ski
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Inte i inkorg eller skräppost? Skicka igen"
 
@@ -925,12 +926,12 @@ msgstr "Logga in för att fortsätta"
 
 #: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
 #: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_up.mustache:8
 msgid "Password"
 msgstr "Lösenord"
 
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in.mustache:19 .es5/templates/sign_in_password.mustache:8
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
@@ -948,11 +949,11 @@ msgid "Continue to %(serviceName)s"
 msgstr "Fortsätt till %(serviceName)s"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:8 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13 .es5/templates/reset_password.mustache:7
-#: .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "E-post"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/ready.mustache:4
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -1005,11 +1006,11 @@ msgstr "Godkänn"
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: .es5/templates/ready.mustache:6
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
 msgstr "Ditt konto är klart!"
 
@@ -1057,11 +1058,11 @@ msgstr "Letar du efter tilläggsdata? <a href=\"/signup\">Registrera dig</a> fö
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migrera dina synkroniseringsuppgifter genom att logga in på ditt Firefox-konto."
 
-#: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12
+#: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
 msgid "Use a different account"
 msgstr "Använd ett annat konto"
 
-#: .es5/templates/sign_in.mustache:18
+#: .es5/templates/sign_in.mustache:18 .es5/templates/sign_in.mustache:14
 msgid "Create an account"
 msgstr "Skapa ett konto"
 
@@ -1129,15 +1130,15 @@ msgstr "Letar du efter tilläggsdata? Registrera dig för ett Firefox-konto med 
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Ett starkt och unikt lösenord kommer att skydda din Firefox-data från inkräktare."
 
-#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18
+#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Få de senaste nyheterna om Mozilla och Firefox"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up.mustache:16
 msgid "Create account"
 msgstr "Skapa konto"
 
-#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25 .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
 msgstr "Har du ett konto? Logga in"
 
@@ -1226,6 +1227,7 @@ msgstr "Rensa"
 
 #: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/upgrade_session.mustache:7 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/recovery_codes.mustache:9
+#: .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Klar"
 
@@ -1326,6 +1328,7 @@ msgid "Missing or duplicate items?"
 msgstr "Saknas eller duplicerade poster?"
 
 #: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Uppdatera"
 
@@ -1427,21 +1430,21 @@ msgstr "Ditt lösenord har återställts"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Koder kopierade"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Misslyckades med att kopiera koder. Var god kopiera dem manuellt."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nya återställningskoder genererade"
 
-#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
+#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
 msgstr "Tvåstegsautentisering aktiverad"
 
-#: .es5/views/settings/two_step_authentication.js:122
+#: .es5/views/settings/two_step_authentication.js:122 .es5/views/settings/two_step_authentication.js:128
 msgid "Two-step authentication removed"
 msgstr "Tvåstegsautentisering borttagen"
 
@@ -1455,7 +1458,7 @@ msgstr "Lösenordet har återställts"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Tvåstegsautentiseringskod krävs"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1463,11 +1466,11 @@ msgstr "Ogiltig tvåstegsautentiseringskod"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Återställningskod krävs"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Ogiltig återställningskod"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -1494,6 +1497,7 @@ msgid "Click the link emailed to %(email)s within the next hour to create a new 
 msgstr "Klicka på länken som skickats till %(email)s inom den kommande timmen för att skapa ett nytt lösenord."
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicyn</a>."
 
@@ -1507,17 +1511,17 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Ange återställningskod"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Ange en återställningskod som du fick under installationen."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 8-digit recovery code"
-msgstr ""
+msgstr "Ange 8-siffrig återställningskod"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "Verifiera"
 
@@ -1535,17 +1539,17 @@ msgstr "Ange 6-siffrig kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Använd återställningskod"
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Tappa in bort detta lösenord. Om du behöver återställa det så kan du förlora Sync-data."
 
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Använd inte ditt e-postlösenord</span>Om någon känner till ditt e-postlösenord kan de godkänna din Firefox-inloggning på en ny enhet och få tillgång till dina data."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Kom ihåg ditt lösenord</span>Om du behöver återställa ditt lösenord, kommer du att förlora Sync-data som inte finns på någon av dina enheter."
 
@@ -1561,11 +1565,11 @@ msgstr "Dessutom kan du prenumerera på kampanj-e-post med de senaste nyheterna 
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Återställningskoder"
 
-#: .es5/templates/settings/recovery_codes.mustache:2
+#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "OBS:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1573,18 +1577,21 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                Dessa koder visas endast/användas en gång. Förvara dem på ett säkert ställe om du förlorar åtkomst till din mobila enhet.\n"
+"            "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Skapa nya återställningskoder"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
-msgstr ""
+msgstr "Kopiera"
 
 #: .es5/templates/settings/recovery_codes.mustache:8
 msgid "Print"
-msgstr ""
+msgstr "Skriv ut"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1596,11 +1603,11 @@ msgstr "Aktivera…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Lägg till ett säkerhetslager till ditt konto genom att kräva säkerhetskoder från en av dessa autentiseringsappar."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Aktuell status"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1620,15 +1627,15 @@ msgstr "Aktivera"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Ersätt återställningskoder"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Skanna QR-koden i din autentiseringsapp och ange sedan säkerhetskoden som tillhandahålls."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Kan du inte skanna kod?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1645,6 +1652,29 @@ msgstr "Bekräfta"
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
 msgstr "Verifiera igen för att låsa upp sektionen"
+
+#: .es5/views/settings/two_step_authentication.js:168
+msgid "Two-step Authentication"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:5
+msgid "Enter 10-digit recovery code"
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:4
+msgid ""
+"\n"
+"                    Before you can view or make changes to this section, you will need to verify your email address.\n"
+"                "
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:5
+msgid "Primary email"
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:4
+msgid "Before you can view or make changes to this section, you will need to verify your email address."
+msgstr ""
 
 #. submit button
 #: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97

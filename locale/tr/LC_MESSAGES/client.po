@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 18:06+0000\n"
+"POT-Creation-Date: 2018-05-01 20:57+0000\n"
 "PO-Revision-Date: 2018-04-20 15:06+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr "%(serviceName)s artık kullanıma hazır"
 msgid "Account verified"
 msgstr "Hesap doğrulandı"
 
-#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
+#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172 .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
@@ -87,11 +87,11 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Bilinmeyen Firefox Hesabı. Eklentiler verilerinize erişmek için eski Eklentiler hesabınızın e-posta adresiyle <a href=\"/signup\">kaydolun</a>."
 
-#: .es5/views/sign_up.js:55
+#: .es5/views/sign_up.js:55 .es5/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
+#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282 .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Giriş yapın</a>"
 
@@ -207,7 +207,7 @@ msgstr "Görünen ad güncellendi"
 msgid "Secondary email removed"
 msgstr "İkinci e-posta silindi"
 
-#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82
+#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
 msgstr "Doğrulama e-postası gönderildi"
 
@@ -219,7 +219,7 @@ msgstr "Ana e-posta %(email)s olarak ayarlandı"
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 msgstr "İkinci e-posta, güvenlik bildirimlerini alabileceğiniz ve yeni Sync cihazlarını onaylayabileceğiniz ek bir adrestir"
 
-#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:158
 msgid "Secondary email"
 msgstr "İkinci e-posta"
 
@@ -255,7 +255,7 @@ msgstr "Restmail’i aç"
 msgid "Email resent"
 msgstr "E-posta tekrar gönderildi"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr "Ana e-posta başarıyla doğrulandı"
 
@@ -295,11 +295,11 @@ msgstr "Adresler"
 msgid "Credit cards"
 msgstr "Kredi kartları"
 
-#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70
+#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70 .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:82 .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
 msgstr "İkinci e-posta başarıyla doğrulandı"
 
@@ -660,11 +660,11 @@ msgstr "Jeton zaman aşımına uğramış"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp tekrar deneyin."
 
-#: .es5/lib/oauth-errors.js:122
+#: .es5/lib/oauth-errors.js:122 .es5/lib/oauth-errors.js:125
 msgid "no message"
 msgstr "mesaj yok"
 
-#: .es5/lib/oauth-errors.js:126
+#: .es5/lib/oauth-errors.js:126 .es5/lib/oauth-errors.js:129
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Eksik  OAuth parametresi: %(param)s"
 
@@ -685,7 +685,9 @@ msgid "Invalid Token"
 msgstr "Geçersiz jeton"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş "
 "oluyorsunuz."
@@ -746,7 +748,7 @@ msgstr "Daha fazla bilgi alın"
 msgid "%(email)s registered."
 msgstr "%(email)s kayıtlı."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Nelerin eşitleneceğini seçin"
 
@@ -795,7 +797,7 @@ msgstr "Sync’in nasıl çalıştığını öğrenin."
 msgid "New password"
 msgstr "Yeni parola"
 
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:9
 msgid "Repeat password"
 msgstr "Parola tekrarı"
 
@@ -841,6 +843,7 @@ msgstr "%(email)s adresine gönderdiğimiz giriş onayı bağlantısını kontro
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Gelen kutusunda da spam klasöründe de yok mu? Yeniden gönder"
 
@@ -923,18 +926,19 @@ msgstr "Devam etmek için giriş yapın"
 
 #: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
 #: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_up.mustache:8
 msgid "Password"
 msgstr "Parola"
 
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in.mustache:19 .es5/templates/sign_in_password.mustache:8
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15
 msgid "Forgot password?"
 msgstr "Parolanızı unuttunuz mu?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+msgstr ""
+"Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -946,11 +950,11 @@ msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s servisine devam et"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:8 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13 .es5/templates/reset_password.mustache:7
-#: .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "E-posta"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/ready.mustache:4
 msgid "Continue"
 msgstr "Devam et"
 
@@ -1003,11 +1007,11 @@ msgstr "Kabul et"
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 msgid "Cancel"
 msgstr "İptal"
 
-#: .es5/templates/ready.mustache:6
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
 msgstr "Hesabınız hazır!"
 
@@ -1055,11 +1059,11 @@ msgstr "Eklentiler verilerinizi mi arıyorsunuz? Eski Eklentiler e-posta adresin
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Firefox&nbsp;Hesabı’nıza giriş yaparak eşitleme verilerinizi taşıyın."
 
-#: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12
+#: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
 msgid "Use a different account"
 msgstr "Farklı bir hesap kullan"
 
-#: .es5/templates/sign_in.mustache:18
+#: .es5/templates/sign_in.mustache:18 .es5/templates/sign_in.mustache:14
 msgid "Create an account"
 msgstr "Hesap oluştur"
 
@@ -1127,15 +1131,15 @@ msgstr "Eklentiler verilerinizi mi arıyorsunuz? Eski Eklentiler e-posta adresin
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Güçlü ve başka yerde kullanmadığınız bir parola, Firefox verilerinizi saldırganlardan korur."
 
-#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18
+#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla ve Firefox hakkındaki son haberleri alın"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up.mustache:16
 msgid "Create account"
 msgstr "Hesap oluştur"
 
-#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25 .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
 msgstr "Hesabınız var mı? Giriş yapın"
 
@@ -1225,6 +1229,7 @@ msgstr "Temizle"
 
 #: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/upgrade_session.mustache:7 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/recovery_codes.mustache:9
+#: .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Bitti"
 
@@ -1325,6 +1330,7 @@ msgid "Missing or duplicate items?"
 msgstr "Eksik veya çift kayıtlar mı var?"
 
 #: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Yenile"
 
@@ -1436,11 +1442,11 @@ msgstr "Kodlar kopyalanamadı. Lütfen elle kopyalayın."
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları oluşturuldu"
 
-#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
+#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
 msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
 
-#: .es5/views/settings/two_step_authentication.js:122
+#: .es5/views/settings/two_step_authentication.js:122 .es5/views/settings/two_step_authentication.js:128
 msgid "Two-step authentication removed"
 msgstr "İki aşamalı kimlik doğrulama kaldırıldı"
 
@@ -1493,6 +1499,7 @@ msgid "Click the link emailed to %(email)s within the next hour to create a new 
 msgstr "Yeni bir parola oluşturmak için %(email)s adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın."
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
@@ -1516,7 +1523,7 @@ msgstr "Lütfen kurulum sırasında size verilen kurtarma kodlarından birini ya
 msgid "Enter 8-digit recovery code"
 msgstr "8 basamaklı kurtarma kodunu yazın"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "Doğrula"
 
@@ -1536,15 +1543,15 @@ msgstr "6 basamaklı kodu yazın"
 msgid "Use recovery code"
 msgstr "Kurtarma kodunu kullan"
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Bu parolayı kaybetmeyin. Parolanızı sıfırlamanız gerekirse Sync verileriniz silinebilir."
 
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>E-posta parolanızı burada kullanmayın</span>E-posta parolanızı bilen birisi varsa yeni bir cihazda Firefox girişinizi onaylayarak verilerinize erişebilir."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Parolanızı unutmayın</span>Parolanızı sıfırlamanız gerekirse cihazlarınızda kayıtlı olmayan tüm Sync verilerinizi kaybedersiniz."
 
@@ -1560,7 +1567,7 @@ msgstr "Buna ek olarak, isterseniz Mozilla ve Firefox hakkındaki son haberleri 
 msgid "Recovery codes"
 msgstr "Kurtarma kodları"
 
-#: .es5/templates/settings/recovery_codes.mustache:2
+#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
 msgstr "NOT:"
 
@@ -1645,6 +1652,29 @@ msgstr "Onaylayın"
 #: .es5/templates/settings/upgrade_session.mustache:3
 msgid "Reverify to unlock section"
 msgstr "Bölümün kilidini açmak için yeniden doğrula"
+
+#: .es5/views/settings/two_step_authentication.js:168
+msgid "Two-step Authentication"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:5
+msgid "Enter 10-digit recovery code"
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:4
+msgid ""
+"\n"
+"                    Before you can view or make changes to this section, you will need to verify your email address.\n"
+"                "
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:5
+msgid "Primary email"
+msgstr ""
+
+#: .es5/templates/settings/upgrade_session.mustache:4
+msgid "Before you can view or make changes to this section, you will need to verify your email address."
+msgstr ""
 
 #. submit button
 #: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97
@@ -1806,8 +1836,8 @@ msgstr "Giriş yap"
 #~ msgstr "Neden iki (veya daha fazla) cihazımı eşitleyeyim ki?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync özelliği; Firefox'a kaydettiğiniz yer imleri, geçmiş ve parolaları diğer cihazlarınızdaki Firefox'larınızla paylaşmanızı sağlar. Telefon veya tabletinizden Firefox'a giriş yapınca "
 #~ "bilgisayarınızdaki Firefox'ta kaydettiğiniz her şey karşınıza gelir."
@@ -1816,8 +1846,8 @@ msgstr "Giriş yap"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync özelliği kalıcı bir yedekleme çözümü değildir: Yalnızca yerel olarak kaydettiklerinizi paylaşır. Parolanızı sıfırlarsanız ve verileriniz en az bir farklı cihazda depolanmamışsa eski parolanızla"
-#~ " ilişkilendirilmiş tüm bilgileri kaybedebilirsiniz. Bu nedenle Firefox'u birden fazla cihazda kurduysanız Sync'i kullanmanızı öneriyoruz."
+#~ "Sync özelliği kalıcı bir yedekleme çözümü değildir: Yalnızca yerel olarak kaydettiklerinizi paylaşır. Parolanızı sıfırlarsanız ve verileriniz en az bir farklı cihazda depolanmamışsa eski "
+#~ "parolanızla ilişkilendirilmiş tüm bilgileri kaybedebilirsiniz. Bu nedenle Firefox'u birden fazla cihazda kurduysanız Sync'i kullanmanızı öneriyoruz."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1922,19 +1952,21 @@ msgstr "Giriş yap"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync tercihleri"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr ""
-#~ "Firefox Sync’i mi arıyorsunuz? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</a>"
+#~ "Firefox Sync’i mi arıyorsunuz? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</"
+#~ "a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Başka bir e-posta adresiyle hesabınız mı var? <a href=\"%(signinUri)s\">Giriş yapın</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</a> "
-#~ "sürümleri mevcuttur."
+#~ "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</"
+#~ "a> sürümleri mevcuttur."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Son etkinlik: %(translatedTimeAgo)s"
@@ -2303,13 +2335,17 @@ msgstr "Giriş yap"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Zaten hesabınız var mı? Oturum açın."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Kouşllarını</a> ve<a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul "
 #~ "ettiğimi onaylıyorum."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi onaylıyorum."
+#~ msgstr ""
+#~ "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi "
+#~ "onaylıyorum."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox haberlerine ve ipuçlarına abone olun"
