@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 18:06+0000\n"
+"POT-Creation-Date: 2018-05-01 21:13+0000\n"
 "PO-Revision-Date: 2018-02-04 20:03+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426092424.0\n"
 
-#: .es5/views/confirm_reset_password.js:158 .es5/views/ready.js:44 .es5/views/confirm_reset_password.js:164
+#: .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
 msgstr "Finnde firlitaama"
 
-#: .es5/views/confirm_reset_password.js:174 .es5/views/confirm_reset_password.js:180
+#: .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
@@ -46,6 +46,10 @@ msgstr "A jaɓɓaama kadi"
 #: .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync maa jokku ko leelaani"
+
+#: .es5/views/ready.js:44
+msgid "Your password has been reset"
+msgstr ""
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -79,19 +83,15 @@ msgstr "A hebiima haŋkadi huutoraade %(serviceName)s"
 msgid "Account verified"
 msgstr "Konte ƴeewtaama"
 
-#: .es5/views/reset_password.js:111 .es5/views/sign_in.js:167 .es5/views/reset_password.js:131 .es5/views/sign_in.js:172
+#: .es5/views/reset_password.js:131 .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
-#: .es5/views/sign_in.js:164 .es5/views/sign_in.js:169
-msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Konte Firefox ɗee nganndaaka. <a href=\"/signup\">Winndito</a> huutoraade konte maa iimeel ɓeyditte jawtuɗe ngam naatde e keɓe Ɓeyditte."
-
-#: .es5/views/sign_up.js:55
+#: .es5/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konte ɗee nattii woodde. Sostu-ɗe?"
 
-#: .es5/views/sign_up.js:291 .es5/views/sign_up.js:282
+#: .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
@@ -207,7 +207,7 @@ msgstr "Innde jaytino hesɗitinaama"
 msgid "Secondary email removed"
 msgstr "Iimeel ɗiɗaɓo momtaama"
 
-#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:82
+#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
 msgstr "Ƴeewndagol iimeel neldaama"
 
@@ -215,13 +215,33 @@ msgstr "Ƴeewndagol iimeel neldaama"
 msgid "Primary email set to %(email)s"
 msgstr "Iimeel gadano teeltaama e %(email)s"
 
-#: .es5/views/settings/emails.js:157
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde ɓeydaande ngam heɓde tintine kisal kam e teeŋtinde masiŋon Jahdingol keson"
-
-#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:158 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Iimeel ɗiɗaɓo"
+
+#: .es5/views/settings/recovery_codes.js:45
+msgid "Codes copied"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:47
+msgid "Failed to copy codes. Please manually copy them."
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:91
+msgid "New recovery codes generated"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
+msgid "Two-step authentication enabled"
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:128
+msgid "Two-step authentication removed"
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:168
+msgid "Two-step Authentication"
+msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -252,10 +272,10 @@ msgid "Open Restmail"
 msgstr "Uddit Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent"
-msgstr "Iimeel neltiraama"
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr "Iimeel gadano ƴeewtaama no haaniri"
 
@@ -295,13 +315,17 @@ msgstr "Ñiiɓirɗe"
 msgid "Credit cards"
 msgstr "Karte banke"
 
-#: .es5/models/reliers/sync.js:69 .es5/models/reliers/sync.js:70
+#: .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
 msgstr "Iimeel ɗiɗaɓo ƴeewtaama no haaniri"
+
+#: .es5/models/auth_brokers/web.js:34
+msgid "Password reset successfully"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -471,8 +495,8 @@ msgstr "Fannu oo hurminaaka"
 msgid "This endpoint is no longer supported"
 msgstr "Ndeen toɓɓere wattan nattii tammbiteede"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:63 .es5/lib/marketing-email-errors.js:85
+#: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
@@ -508,7 +532,7 @@ msgstr "Horiima heɓde Sarɗiiji Carwe"
 msgid "Your new password must be different"
 msgstr "Finnde maa hesere ndee ena foti seertude"
 
-#: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:7 .es5/templates/complete_reset_password.mustache:12
+#: .es5/lib/auth-errors.js:262 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Ena foti waɗde alkule 8 so famɗii"
 
@@ -600,11 +624,27 @@ msgstr "Jokkol bonii"
 msgid "Phone number required"
 msgstr "Tonngoode noddirgel ina soklaa"
 
-#: .es5/lib/config-loader.js:82 .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:464
+msgid "Two-step authentication code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:468
+msgid "Invalid two-step authentication code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:472
+msgid "Recovery code required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid recovery code"
+msgstr ""
+
+#: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Teeltol ena ŋakki"
 
-#: .es5/lib/config-loader.js:86 .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
 msgstr "Teeltol dagnaaka"
 
@@ -615,6 +655,10 @@ msgstr "Njidnoɗaa wiyde ko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomai
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
 msgstr "Eto kadi so ɓooyii njaafoɗaa"
+
+#: .es5/lib/marketing-email-errors.js:75
+msgid "Service unavailable, try again soon"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -660,11 +704,11 @@ msgstr "Seede oo buntii"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Won caɗeele mbaɗi. Tiiɗno uddu ndee tabbere kisa puɗɗito-ɗaa."
 
-#: .es5/lib/oauth-errors.js:122
+#: .es5/lib/oauth-errors.js:125
 msgid "no message"
 msgstr "alaa ɓatakuru"
 
-#: .es5/lib/oauth-errors.js:126
+#: .es5/lib/oauth-errors.js:129
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Ena ŋakki OAuth parameter: %(param)s"
 
@@ -747,7 +791,7 @@ msgstr "Ɓeydu humpito"
 msgid "%(email)s registered."
 msgstr "%(email)s winnditaama."
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:22
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Suɓo ko sanngoɗintee"
 
@@ -755,8 +799,7 @@ msgstr "Suɓo ko sanngoɗintee"
 msgid "Save settings"
 msgstr "Danndu teelte"
 
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:3 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:3
-#: .es5/templates/pp.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Caggal"
 
@@ -781,28 +824,22 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr "Jokkol ndobi-ɗaa ngol ena ŋakki alkule, tee ena waawi tawa ngol bonnaama e tarorde iimeeliiji maa. Nattoro ñiiɓirde ndee hakkille, eto-ɗaa kadi."
 
 #: .es5/templates/complete_reset_password.mustache:8
-msgid "Enter new password"
-msgstr "Naatnu finnde hesere"
+msgid "Create new password"
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:9
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Caggal nde naatnu-ɗaa finnde hesere, maa momtore won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
+msgid ""
+"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+"to protect your privacy."
+msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:10 .es5/templates/reset_password.mustache:6
-msgid "Learn how Sync works."
-msgstr "Ekko no Sync yahrata."
-
-#: .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
+#: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
 msgstr "Finnde hesere"
 
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:6
-msgid "Repeat password"
-msgstr "Naattin finnde"
-
-#: .es5/templates/complete_reset_password.mustache:15
-msgid "Submit new password"
-msgstr "Naatnu finnde hesere"
+#: .es5/templates/complete_reset_password.mustache:13
+msgid "Re-enter password"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -840,8 +877,8 @@ msgstr "Ƴeewto iimeel maa sabu jokkol ƴeewtagol neldaaɗo &nbsp;e %(escapedEma
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Ƴeewto iimeel maa sabu jokkol teeŋtingol ceŋagol neldaaɗo e %(email)s"
 
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:8 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:5 .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Alaa e nder boyet ɓataakuuji maa walla e runngere spaam? Neldit"
 
@@ -850,11 +887,10 @@ msgid "Reset email sent"
 msgstr "Immell pirlitol neltiraama"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Dobo e jokkol min neldu-maa to %(email)s ngol e nder waktu garoowo oo ngam sosde finnde hesere."
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr ""
 
-#: .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_reset_password.mustache:6 .es5/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Siiftor finnde hesere? Seŋo"
 
@@ -922,52 +958,46 @@ msgstr "Fuɗɗito"
 msgid "Sign in to continue"
 msgstr "Seŋo ngam jokkude"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Finnde"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in.mustache:19 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "A yejjit finnde ndee?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:7
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Tintinol Suturo</a> mo carwe ruulde Firefox."
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Naatnu iimeel maa"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up.mustache:2
-#: .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Jokku to %(serviceName)s"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:8 .es5/templates/sign_in.mustache:15 .es5/templates/sign_up.mustache:13 .es5/templates/reset_password.mustache:7
-#: .es5/templates/sign_up.mustache:11
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "Iimeel"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Jokku"
 
-#: .es5/templates/legal.mustache:1 .es5/templates/pp.mustache:1 .es5/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Carwe ruulde Firefox"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/legal.mustache:1
+#: .es5/templates/legal.mustache:1
 msgid "Legal"
 msgstr "Laawol"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:2 .es5/templates/legal.mustache:2 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
-#: .es5/templates/legal.mustache:4 .es5/templates/pp.mustache:2 .es5/templates/settings.mustache:5 .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Tintinol Suturo"
 
@@ -1004,11 +1034,11 @@ msgstr "Jaɓ"
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 msgid "Cancel"
 msgstr "Haaytu"
 
-#: .es5/templates/ready.mustache:6
+#: .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
 msgstr "Konte maa keblaama!"
 
@@ -1028,15 +1058,13 @@ msgstr "Jaŋtol dille"
 msgid "Why is this happening?"
 msgstr "Ko addi ɗum?"
 
-#: .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
-msgid "Reset account"
-msgstr "Firlit konte"
-
 #: .es5/templates/reset_password.mustache:5
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "So a firlitii finnde maa, maa momtor won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
+msgid ""
+"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+"protect your privacy."
+msgstr ""
 
-#: .es5/templates/reset_password.mustache:9 .es5/templates/reset_password.mustache:8
+#: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
 msgstr "Fuɗɗo pirlitol"
 
@@ -1048,19 +1076,11 @@ msgstr "Konte Firefox"
 msgid "Sign out"
 msgstr "Seŋto"
 
-#: .es5/templates/sign_in.mustache:4
-msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? <a href=\"/signup\">Seŋo</a> e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
-
-#: .es5/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Eggin keɓe maa sync so seŋaade e Konte&nbsp;Firefox."
-
-#: .es5/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:12
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
 msgid "Use a different account"
 msgstr "Huutoro konte goɗɗe"
 
-#: .es5/templates/sign_in.mustache:18
+#: .es5/templates/sign_in.mustache:14
 msgid "Create an account"
 msgstr "Sos konte"
 
@@ -1080,9 +1100,29 @@ msgstr "So tawii ndee ñiiɓirde iimeel ina moƴƴi, <a %(escapedSupportLinkAttr
 msgid "No longer own that email? Create a new account"
 msgstr "A nattii jeyde oo iimeel? Sos konte kese"
 
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:14
 msgid "Mistyped email?"
 msgstr "Tappugol iimeel moƴƴaani?"
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:5
+msgid "Enter 10-digit recovery code"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+msgid "Verify"
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1104,6 +1144,18 @@ msgstr "Ƴeewto iimeel maa ngam kod neldaaɗo e %(email)s."
 msgid "Enter code"
 msgstr "Naatnu kod"
 
+#: .es5/templates/sign_in_totp_code.mustache:4
+msgid "Open your authentication app and enter the security code it provides."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Use recovery code"
+msgstr ""
+
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
 msgstr "Ƴeewto iimeel ngam kod yamiroore neldaaɗo e %(email)s."
@@ -1116,31 +1168,35 @@ msgstr "Naatnu ko jamirgol"
 msgid "Create a Firefox Account"
 msgstr "Sos Konte Firefox"
 
-#: .es5/templates/sign_up.mustache:6
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Eggin keɓe maa sync so sosde Konte&nbsp;Firefox kese.."
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
+msgid "Repeat password"
+msgstr "Naattin finnde"
 
-#: .es5/templates/sign_up.mustache:8
-msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? Seŋo e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
+msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+msgstr ""
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up.mustache:21 .es5/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Finnde tekkunde, heeriinde maa sur keɓe maa Firefox e wujjittooɓe."
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
+msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+msgstr ""
 
-#: .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:18
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
+msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Heɓ kabaruuji cakkitiiɗi paytuɗi e Moɗilla e Firefox"
 
-#: .es5/templates/sign_up.mustache:25 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Create account"
 msgstr "Sos konte"
 
-#: .es5/templates/sign_up.mustache:30 .es5/templates/sign_up.mustache:25
+#: .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
 msgstr "Aɗa jogii konnte? Seŋo"
 
-#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Heɓ ɓataake habrirde lewruyaŋkeewo Firefox oo"
 
@@ -1152,7 +1208,7 @@ msgstr "Neldu Firefox faade e noddirgel maa tee seŋo ngam jokkit-de teelto"
 msgid "Mobile phone number"
 msgstr "Tonngoode noddirgel"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/settings/upgrade_session.mustache:4
+#: .es5/templates/sms_send.mustache:9
 msgid "Send"
 msgstr "Neldu"
 
@@ -1202,7 +1258,7 @@ msgstr "Famii"
 msgid "Change…"
 msgstr "Waylu…"
 
-#: .es5/templates/settings/avatar.mustache:4 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/templates/settings/avatar.mustache:3
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Ɓeydu…"
 
@@ -1222,8 +1278,8 @@ msgstr "Kameraa"
 msgid "Clear"
 msgstr "Momtu"
 
-#: .es5/templates/settings/avatar_change.mustache:5 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/upgrade_session.mustache:7 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/recovery_codes.mustache:9
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Gasii"
 
@@ -1283,7 +1339,7 @@ msgstr "Ceŋtagol Moƴƴii"
 msgid "Devices & apps"
 msgstr "Kaɓirɗi & jaaɓɗe"
 
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/partial/show-password.mustache:1 .es5/templates/settings/upgrade_session.mustache:2
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2 .es5/templates/partial/show-password.mustache:1
 msgid "Show"
 msgstr "Hollu"
 
@@ -1323,7 +1379,7 @@ msgstr "Firefox mo Android"
 msgid "Missing or duplicate items?"
 msgstr "Teme ŋakkuɗe walla puniiɗe?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Hesɗitin"
 
@@ -1332,12 +1388,12 @@ msgid "Communication preferences"
 msgstr "Cuɓoraaɗe kumpital"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
-msgid "We may send you emails related to your Firefox Account."
-msgstr "Firefox ina waawi neldudema iimeeluuji toɗɗiiɗi konte maa Firefox."
+msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr "Yanti heen, aɗa waawi suɓaade heɓde kabaruuji cakkitiiɗi baɗte Mozilla kam e Firefox."
+msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1387,175 +1443,11 @@ msgstr "Ittu"
 msgid "Add"
 msgstr "Ɓeydu"
 
-#: .es5/templates/settings/upgrade_session.mustache:2
-msgid "Unlock…"
-msgstr "Soktu…"
-
-#: .es5/templates/settings/upgrade_session.mustache:3
-msgid "verify to unlock section"
-msgstr "ƴeewto ngam soktude taƴre ndee"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "No duuɓi maa poti?"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Ngonɗaa ko e yiylaade jahdingol Firefox? <a %(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
-
-#: .es5/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Seŋo nga syncude"
-
-#: .es5/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Suɓo konte ɗe njiɗ-ɗaa huutoraade ngam syncude tabbe maa, maantore, finndeeji e geɗe goɗɗe."
-
-#: .es5/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "Huutoro OpenID"
-
-#: .es5/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Huutoro Konte Firefox"
-
-#: .es5/views/ready.js:44
-msgid "Your password has been reset"
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:45
-msgid "Codes copied"
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:47
-msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:91
-msgid "New recovery codes generated"
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:138
-msgid "Two-step authentication enabled"
-msgstr ""
-
-#: .es5/views/settings/two_step_authentication.js:122
-msgid "Two-step authentication removed"
-msgstr ""
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
-
-#: .es5/models/auth_brokers/web.js:34
-msgid "Password reset successfully"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:464
-msgid "Two-step authentication code required"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:468
-msgid "Invalid two-step authentication code"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:472
-msgid "Recovery code required"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:476
-msgid "Invalid recovery code"
-msgstr ""
-
-#: .es5/lib/marketing-email-errors.js:75
-msgid "Service unavailable, try again soon"
-msgstr ""
-
-#: .es5/templates/complete_reset_password.mustache:8
-msgid "Create new password"
-msgstr ""
-
-#: .es5/templates/complete_reset_password.mustache:9
-msgid ""
-"<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-"to protect your privacy."
-msgstr ""
-
-#: .es5/templates/complete_reset_password.mustache:13
-msgid "Re-enter password"
-msgstr ""
-
-#: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
-
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:20 .es5/templates/sign_up.mustache:17 .es5/templates/sign_up_password.mustache:10
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-
-#: .es5/templates/reset_password.mustache:5
-msgid ""
-"<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-"protect your privacy."
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:5
-msgid "Enter 8-digit recovery code"
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6
-msgid "Verify"
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:4
-msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:5
-msgid "Enter 6-digit code"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Use recovery code"
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:7
-msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:8
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:9
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
-
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:2
+#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
 msgstr ""
 
@@ -1634,21 +1526,112 @@ msgstr ""
 msgid "Confirm"
 msgstr "Teeŋtin"
 
-#: .es5/templates/settings/upgrade_session.mustache:3
-msgid "Reverify to unlock section"
+#: .es5/templates/settings/upgrade_session.mustache:4
+msgid "Before you can view or make changes to this section, you will need to verify your email address."
 msgstr ""
 
+#: .es5/templates/settings/upgrade_session.mustache:5
+msgid "Primary email"
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "No duuɓi maa poti?"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Ngonɗaa ko e yiylaade jahdingol Firefox? <a %(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
+
+#: .es5/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "Seŋo nga syncude"
+
+#: .es5/templates/openid/start.mustache:2
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Suɓo konte ɗe njiɗ-ɗaa huutoraade ngam syncude tabbe maa, maantore, finndeeji e geɗe goɗɗe."
+
+#: .es5/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "Huutoro OpenID"
+
+#: .es5/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Huutoro Konte Firefox"
+
 #. submit button
-#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:97
+#: .es5/views/force_auth.js:154 .es5/views/sign_in.js:95
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Seŋo"
 
 #. header text
-#: .es5/views/sign_in.js:100
+#: .es5/views/sign_in.js:98
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Seŋo"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Konte Firefox ɗee nganndaaka. <a href=\"/signup\">Winndito</a> huutoraade konte maa iimeel ɓeyditte jawtuɗe ngam naatde e keɓe Ɓeyditte."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+#~ msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde ɓeydaande ngam heɓde tintine kisal kam e teeŋtinde masiŋon Jahdingol keson"
+
+#~ msgid "Email resent"
+#~ msgstr "Iimeel neltiraama"
+
+#~ msgid "Enter new password"
+#~ msgstr "Naatnu finnde hesere"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Caggal nde naatnu-ɗaa finnde hesere, maa momtore won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Ekko no Sync yahrata."
+
+#~ msgid "Submit new password"
+#~ msgstr "Naatnu finnde hesere"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Dobo e jokkol min neldu-maa to %(email)s ngol e nder waktu garoowo oo ngam sosde finnde hesere."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Tintinol Suturo</a> mo carwe ruulde Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Carwe ruulde Firefox"
+
+#~ msgid "Reset account"
+#~ msgstr "Firlit konte"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "So a firlitii finnde maa, maa momtor won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? <a href=\"/signup\">Seŋo</a> e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Eggin keɓe maa sync so seŋaade e Konte&nbsp;Firefox."
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Eggin keɓe maa sync so sosde Konte&nbsp;Firefox kese.."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? Seŋo e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Finnde tekkunde, heeriinde maa sur keɓe maa Firefox e wujjittooɓe."
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Firefox ina waawi neldudema iimeeluuji toɗɗiiɗi konte maa Firefox."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "Yanti heen, aɗa waawi suɓaade heɓde kabaruuji cakkitiiɗi baɗte Mozilla kam e Firefox."
+
+#~ msgid "Unlock…"
+#~ msgstr "Soktu…"
+
+#~ msgid "verify to unlock section"
+#~ msgstr "ƴeewto ngam soktude taƴre ndee"
 
 #~ msgid "Resources failed to load"
 #~ msgstr "Kattane koriima loowaade"
