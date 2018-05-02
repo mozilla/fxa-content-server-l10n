@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-02 08:03+0000\n"
+"PO-Revision-Date: 2018-05-02 09:14+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1531,7 +1531,7 @@ msgstr "Potrdi"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Preden si lahko ogledate in spreminjate ta odsek, morate potrditi svoj e-poštni naslov."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
