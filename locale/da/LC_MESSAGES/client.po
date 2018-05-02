@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-04-18 08:58+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2018-05-02 07:43+0000\n"
+"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -241,7 +241,7 @@ msgstr "Totrinsgodkendelse fjernet"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Totrinsgodkendelse"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -729,9 +729,7 @@ msgid "Invalid Token"
 msgstr "Ugyldigt token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -1117,7 +1115,7 @@ msgstr "Indtast en genoprettelseskode, der blev leveret til dig under opsætning
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Indtast 10-cifret genoprettelseskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1538,11 +1536,11 @@ msgstr "Bekræft"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Du skal bekræfte din mailadresse, før du kan se eller foretage ændringer i dette afsnit."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Primær mailadresse"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1797,18 +1795,18 @@ msgstr "Log ind"
 #~ msgstr "Hvorfor synkronisere to (eller flere) enheder?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du "
-#~ "har gemt på Firefox til computer vil dukke op."
+#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du har "
+#~ "gemt på Firefox til computer vil dukke op."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du "
-#~ "miste alle data, som er gemt med den gamle adgangskode."
+#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du miste "
+#~ "alle data, som er gemt med den gamle adgangskode."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1913,20 +1911,18 @@ msgstr "Log ind"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-indstillinger"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du en konto med en anden mailadresse? <a href=\"%(signinUri)s\">Log ind</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sidst aktiv: %(translatedTimeAgo)s"
@@ -2293,12 +2289,8 @@ msgstr "Log ind"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du allerede en konto? Log ind."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</"
-#~ "a>."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgstr "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">privatlivspolitik</a> for Firefox online-tjenester."
