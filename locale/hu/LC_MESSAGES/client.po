@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-04-17 08:05+0000\n"
+"PO-Revision-Date: 2018-05-02 07:52+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -241,7 +241,7 @@ msgstr "Kétlépcsős hitelesítés eltávolítva"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Kétlépcsős hitelesítés"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -729,9 +729,7 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -1120,7 +1118,7 @@ msgstr "Adjon meg egy helyreállítási kódot, amelyet a beállítás során ka
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Adja meg a 10-számjegyű helyreállítási kódot"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1545,7 +1543,7 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Elsődleges e-mail"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1608,9 +1606,7 @@ msgstr "Jelentkezzen be"
 #~ msgstr "Az új jelszó létrehozásához kattintson a következő órán belül a hivatkozásra, amit e-mailben elküldtünk a(z) %(email)s címre."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-#~ "irányelveket</a>."
+#~ msgstr "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi irányelveket</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox felhő szolgáltatások"
@@ -1802,8 +1798,8 @@ msgstr "Jelentkezzen be"
 #~ msgstr "Miért szinkronizáljon kettő (vagy több!) eszközt?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "A Sync segítségével megoszthatja a könyvjelzőket, előzményeket és a Firefoxba mentett jelszavait egy másik eszközön lévő Firefoxszal. Jelentkezzen be a Firefoxba a telefonján vagy táblagépén, és "
 #~ "minden meg fog jelenni, amit lementett az asztali Firefoxban."
@@ -1812,8 +1808,8 @@ msgstr "Jelentkezzen be"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "A Sync nem állandó biztonsági másolat készítésére lett tervezve – csak megosztja ami helyileg mentésre került. Ha jelszót cserél, és az adatai nincsenek legalább egy másik eszközön tárolva, "
-#~ "akkor elveszítheti a régi jelszavához kapcsolódó információkat. Ezért érdemes több eszközön használni a Syncet."
+#~ "A Sync nem állandó biztonsági másolat készítésére lett tervezve – csak megosztja ami helyileg mentésre került. Ha jelszót cserél, és az adatai nincsenek legalább egy másik eszközön tárolva, akkor "
+#~ "elveszítheti a régi jelszavához kapcsolódó információkat. Ezért érdemes több eszközön használni a Syncet."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1918,19 +1914,18 @@ msgstr "Jelentkezzen be"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync beállításai"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "A Firefox Syncet keresi? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kezdje itt</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Van fiókja más e-mailcímmel? <a href=\"%(signinUri)s\">Jelentkezzen be</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> rendszereken."
+#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> rendszereken."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
@@ -2155,8 +2150,8 @@ msgstr "Jelentkezzen be"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a "
-#~ "felhasználók munkamenetek közti megjegyzése."
+#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a felhasználók "
+#~ "munkamenetek közti megjegyzése."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "A Firefox hamarosan érkezik iOS-re!"
@@ -2299,17 +2294,13 @@ msgstr "Jelentkezzen be"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Van felhasználói fiókja? Jelentkezzen be."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Adatvédelmi irányelveit</a>."
+#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi "
-#~ "nyilatkozatát</a>."
+#~ msgstr "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi nyilatkozatát</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Iratkozzon fel a Firefox hírekre és tippekre"
