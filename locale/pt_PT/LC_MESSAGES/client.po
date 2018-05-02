@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-04-16 23:09+0000\n"
+"PO-Revision-Date: 2018-05-02 00:28+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -243,7 +243,7 @@ msgstr "Autenticação de dois passos removida"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Autenticação de dois passos"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -731,9 +731,7 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao proceder, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos de serviço</a> e com o <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidade</a> do %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1068,8 +1066,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
-"<span>NOTA:</span> Se repuser a sua palavra-passe, alguns dos seus dados serão apagados (incluindo dados do servidor sincronizados como histórico e marcadores). Isto porque encriptamos os seus "
-"dados com a sua palavra-passe para proteger a sua privacidade."
+"<span>NOTA:</span> Se repuser a sua palavra-passe, alguns dos seus dados serão apagados (incluindo dados do servidor sincronizados como histórico e marcadores). Isto porque encriptamos os seus dados"
+" com a sua palavra-passe para proteger a sua privacidade."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1121,7 +1119,7 @@ msgstr "Por favor introduza um código de recuperação que lhe foi providenciad
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Introduza o código de recuperação de 10 dígitos"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1225,8 +1223,8 @@ msgstr "Enviar"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber mais</"
-"a>"
+"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber "
+"mais</a>"
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1544,11 +1542,11 @@ msgstr "Confirmar"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Antes de poder ver ou fazer alterações a esta secção, irá precisar de verificar o seu endereço de email."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Email primário"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1611,9 +1609,7 @@ msgstr "Iniciar sessão"
 #~ msgstr "Clique na ligação que lhe enviámos para %(email)s dentro da próxima hora para criar uma nova palavra-passe."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos de serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do "
-#~ "Firefox na nuvem."
+#~ msgstr "Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos de serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox na nuvem."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Serviços do Firefox na nuvem"
@@ -1805,18 +1801,18 @@ msgstr "Iniciar sessão"
 #~ msgstr "Porquê sincronizar dois (ou mais!) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "O Sync permite-lhe partilhar marcadores, histórico e palavras-passe que guarde no Firefox num dispositivo com o Firefox noutros dispositivos. Inicie sessão no Firefox no seu telemóvel ou tablet "
-#~ "e tudo o que guardou no Firefox para computadores irá aparecer."
+#~ "O Sync permite-lhe partilhar marcadores, histórico e palavras-passe que guarde no Firefox num dispositivo com o Firefox noutros dispositivos. Inicie sessão no Firefox no seu telemóvel ou tablet e "
+#~ "tudo o que guardou no Firefox para computadores irá aparecer."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "O Sync não é desenhado como uma cópia de segurança permanente – apenas partilha o que é guardado localmente. Se repuser a sua palavra-passe e os seus dados não estiverem armazenados em, pelo "
-#~ "menos, um outro dispositivo, poderá perder toda a informação associada com a palavra-passe antiga. É por isso que deverá querer instalar o Firefox e utilizar o Sync em mais de um dispositivo."
+#~ "O Sync não é desenhado como uma cópia de segurança permanente – apenas partilha o que é guardado localmente. Se repuser a sua palavra-passe e os seus dados não estiverem armazenados em, pelo menos, "
+#~ "um outro dispositivo, poderá perder toda a informação associada com a palavra-passe antiga. É por isso que deverá querer instalar o Firefox e utilizar o Sync em mais de um dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1921,19 +1917,18 @@ msgstr "Iniciar sessão"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "À procura do Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie sessão</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Ativo pela última vez: %(translatedTimeAgo)s"
@@ -2039,8 +2034,7 @@ msgstr "Iniciar sessão"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para "
-#~ "%(email)s"
+#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "O registo foi desativado"
