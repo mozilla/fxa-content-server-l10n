@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-02 07:52+0000\n"
+"PO-Revision-Date: 2018-05-02 18:26+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -1539,7 +1539,7 @@ msgstr "Megerősítés"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Ezt a részt csak azután tudja megtekinteni és változtatni, miután megerősítette az e-mail címét."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
