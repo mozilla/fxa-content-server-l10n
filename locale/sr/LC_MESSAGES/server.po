@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-02 17:11+0000\n"
+"PO-Revision-Date: 2018-05-02 17:12+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -176,7 +176,7 @@ msgstr "Аутентификација у два корака омогућена
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Успешно сте омогућили верификацију у два корака на вашем Firefox налогу са уређаја:"
+msgstr "Успешно сте омогућили аутентификацију у два корака на вашем Firefox налогу са уређаја:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -190,7 +190,7 @@ msgstr "Управљај налогом"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Успешно сте омогућили верификацију у два корака на вашем Firefox налогу. Безбедносни кодови из ваше апликације за аутентификацију ће од сада увек бити потребни за приступање."
+msgstr "Успешно сте омогућили аутентификацију у два корака на вашем Firefox налогу. Безбедносни кодови из ваше апликације за аутентификацију ће од сада увек бити потребни за приступање."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -251,11 +251,11 @@ msgstr "Ово је аутоматска е-пошта; ако сте је гр�
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
 msgid "Two-step authentication disabled"
-msgstr "Верификација у два корака онемогућена"
+msgstr "Аутентификација у два корака омогућена"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Успешно сте онемогућили верификацију у два корака на вашем Firefox налогу са уређаја:"
+msgstr "Успешно сте онемогућили аутентификацију у два корака на вашем Firefox налогу са уређаја:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
@@ -263,7 +263,7 @@ msgstr "Безбедносни кодови из ваше апликације �
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Успешно сте онемогућили верификацију у два корака на вашем Firefox налогу. Безбедносни кодови из ваше апликације за аутентификацију од сада неће више бити потребни за приступање."
+msgstr "Успешно сте онемогућили аутентификацију у два корака на вашем Firefox налогу. Безбедносни кодови из ваше апликације за аутентификацију од сада неће више бити потребни за приступање."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
