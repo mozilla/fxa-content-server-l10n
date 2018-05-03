@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-04-17 06:22+0000\n"
+"PO-Revision-Date: 2018-05-03 05:50+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -240,7 +240,7 @@ msgstr "Autentifikacija u dva koraka je uklonjena"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Autentifikacija u dva koraka"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -728,9 +728,7 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1118,7 +1116,7 @@ msgstr "Molimo unesite kod za oporavak koji ste dobili prilikom podešavanja."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Unesite 10-cifreni kod za oporavak"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1538,11 +1536,11 @@ msgstr "Potvrdi"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Prije nego pregledate ili napravite izmjene za ovu sekciju, trebat ćete potvrditi svoju email adresu."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Glavna email adresa"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
