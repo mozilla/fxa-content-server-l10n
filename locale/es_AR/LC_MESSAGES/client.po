@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-04 18:30+0000\n"
+"PO-Revision-Date: 2018-05-04 18:35+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1539,11 +1539,11 @@ msgstr "Confirmar"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Antes de poder ver o hacer cambios en esta sección, necesitará verificar su dirección de correo electrónico."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Dirección de correo electrónico principal"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
