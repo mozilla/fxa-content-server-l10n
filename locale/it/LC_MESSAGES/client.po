@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-03 10:02+0000\n"
-"Last-Translator: Sav22999 <saverio.morelli@outlook.it>\n"
+"PO-Revision-Date: 2018-05-03 14:49+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1122,7 +1122,7 @@ msgstr "Inserire uno dei codici di ripristino ricevuti in fase di configurazione
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Inserisci il codice di ripristino di 10 cifre"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1542,7 +1542,7 @@ msgstr "Conferma"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Prima di visualizzare o apportare modifiche a questa sezione, è necessario verificare l'indirizzo di posta elettronica inserito."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
