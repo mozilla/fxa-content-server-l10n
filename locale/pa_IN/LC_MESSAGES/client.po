@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 17:34+0000\n"
+"PO-Revision-Date: 2018-05-05 18:11+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -205,7 +205,7 @@ msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤ�
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr "ਪ੍ਰਤੀਨਿਧੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
 
 #: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
@@ -213,35 +213,35 @@ msgstr "ਤਸਦੀਕੀ ਲਈ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 
 #: .es5/views/settings/emails.js:148
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ %(email)s ਲਈ ਸੈੱਟ ਕੀਤਾ ਗਿਆ"
 
 #: .es5/views/settings/emails.js:158 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "ਕੋਡ ਕਾਪੀ ਕੀਤੇ ਗਏ ਹਨ"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "ਕੋਡ ਨੂੰ ਕਾਪੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੂਅਲੀ ਕਾਪੀ ਕਰੋ।"
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "ਨਵਾਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕੀਤਾ ਗਿਆ"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਯੋਗ ਕਰਨ ਦੇ ਦੋ-ਕਦਮ"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਹਟਾਈ ਗਈ"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -277,11 +277,11 @@ msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕਾਮਯਾਬੀ ਨਾਲ ਹੋ ਗਈ ਹੈ"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
-msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
+msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ ਗਿਆ"
 
 #: .es5/models/sync-engines.js:44
 msgid "Open tabs"
