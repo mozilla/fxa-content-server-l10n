@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 17:04+0000\n"
+"PO-Revision-Date: 2018-05-05 17:31+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -161,27 +161,27 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ਉੱਤੇ"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ  %(translatedTimeAgo)s ਉੱਤੇ"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
@@ -189,7 +189,7 @@ msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "ਆਖਰੀ ਸਿੰਕ ਸਮੇਂ ਅਣਜਾਣ"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
