@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 18:23+0000\n"
+"PO-Revision-Date: 2018-05-05 18:39+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -385,11 +385,11 @@ msgstr "ਬੇਨਤੀ ਭਾਗ ਵਿੱਚ ਗਲਤ JSON"
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "ਅਸਮਰੱਥ ਪੈਰਾਮੀਟਰ: %(param)s"
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "ਲਾਪਤਾ ਪੈਰਾਮੀਟਰ: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
@@ -405,11 +405,11 @@ msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 
 #: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਬੇਨਤੀ ਨੂੰ ਬਲੌਕ ਕੀਤਾ ਗਿਆ ਸੀ"
 
 #: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:418
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "ਅਯੋਗ ਅਧਿਕਾਰ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
@@ -421,7 +421,7 @@ msgstr "ਇਸ ਦੇਸ਼ ਲਈ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਦਾ
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "ਇਸ ਨੰਬਰ ਤੇ ਇੱਕ ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਿਆ"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
