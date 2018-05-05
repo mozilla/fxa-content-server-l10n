@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-03-17 19:15+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2018-05-02 15:40+0000\n"
+"Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "ניתן להשלים את ההתקנה על ידי הקלדת הססמ�
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "כעת באפשרותך לבצע שינויים בחשבון ה־Firefox שלך."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
@@ -65,7 +65,7 @@ msgstr "כתובת הדוא״ל הראשית אומתה"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
@@ -117,19 +117,19 @@ msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "סנכרון אחרון %(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "סנכרון אחרון %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -137,23 +137,23 @@ msgstr "פעילות אחרונה: %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "פעילות אחרונה %(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "פעילות אחרונה %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
@@ -165,19 +165,19 @@ msgstr "למעלה מ־%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -221,15 +221,15 @@ msgstr "כתובת דוא״ל משנית"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "הקודים הועתקו"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "העתקת הקודים נכשלה. נא להעתיק אותם ידנית."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "נוצרו קודים חדשים לשחזור"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
@@ -241,7 +241,7 @@ msgstr "אימות דו־שלבי הוסר"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "אימות דו־שלבי"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -273,7 +273,7 @@ msgstr "פתיחת Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את accounts@firefox.com לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -461,15 +461,15 @@ msgstr "קוד כניסה לא תקין"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה מאומתת"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה שייכת לחשבון זה"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "לא ניתן להשתמש כרגע בכתובת הדוא״ל הזאת להתחברות"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
@@ -626,7 +626,7 @@ msgstr "נדרש מספר טלפון"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "נדרש קוד לאימות דו־שלבי"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -634,11 +634,11 @@ msgstr "קוד אימות דו־שלבי לא תקין"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "נדרש קוד שחזור"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "קוד שחזור שגוי"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -729,9 +729,7 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -831,6 +829,7 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>מוטב לזכור:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -874,7 +873,7 @@ msgstr "נא לחפש בתיבת הדואר הנכנס שלך קישור אימ�
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח ל־%(email)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -887,7 +886,7 @@ msgstr "הודעת דואר אלקטרוני לאיפוס נשלחה"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "נא ללחוץ על הקישור שנשלח בדוא״ל אל %(email)s בשעה הקרובה כדי ליצור ססמה חדשה."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -911,7 +910,7 @@ msgstr "הצלחה"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "הכנס לדפדפן זה כדי להשלים את ההתקנה"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "Sign in &rarr;"
@@ -927,7 +926,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "עוד לא הוספת את כל ההתקנים שלך? עליך להיכנס ל־Firefox בהתקן נוסף כדי להשלים את ההתקנה"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -969,7 +968,7 @@ msgstr "ססמתך נשכחה?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "בחירה להמשיך בתהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1062,6 +1061,7 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>לתשומת לבך:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1105,15 +1105,15 @@ msgstr "טעות בהקלדת כתובת הדוא״ל?"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "נא להקליד קוד שחזור"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "נא לספק קוד שחזור שסופק לך במהלך ההגדרה הראשונית."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "נא להקליד קוד שחזור באורך 10 ספרות"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1137,7 +1137,7 @@ msgstr "אישור התחברות זו"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "נא לבדוק אם קיבלת קוד לדוא״ל %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1145,7 +1145,7 @@ msgstr "נא להזין קוד"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שמופיע בו."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1153,7 +1153,7 @@ msgstr "נא להזין קוד בן 6 ספרות"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "שימוש בקוד שחזור"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1173,15 +1173,15 @@ msgstr "חזרה על הססמה"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "מוטב שלא לאבד את הססמה הזאת. אם יש לך צורך באיפוסה, נתוני ה־Sync שלך עלולים ללכת לאיבוד."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>לא לעשות שימוש חוזר בססמה מתיבת הדוא״ל שלך</span>אם תיוודע הססמה לתיבת הדוא״ל שלך, לתוקף תהיה אפשרות לאשר גישה לחשבון ה־Firefox שלך בהתקן חדש ולגשת לנתונים שלך."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>מוטב לזכור את הססמה שלך</span>אם עליך לאפס את הססמה שלך, כל נתוני ה־Sync שאינם נמצאים על אף אחד מההתקנים שלך יאבדו."
 
 #: .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1201,7 +1201,7 @@ msgstr "קבלת מכתב החדשות החודשי של Firefox"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "עליך לשלוח את Firefox ישירות לטלפון הנייד שלך ולהיכנס כדי להשלים את ההתקנה"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
@@ -1218,7 +1218,7 @@ msgstr "שירות ה־SMS זמין רק במדינות מסוימות. עלוי
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "יש להתקין את Firefox על הטלפון החכם שלך ולהתחבר כדי להשלים את ההתקנה"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1246,7 +1246,7 @@ msgstr "סינכרון מכשיר אינו גיבוי קבוע, זו דרך פש
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "עליך להתקין את Firefox ולסנכרן אותו עם שני מכשירים לפחות כדי להגן על עצמך מאבדן המידע שלך במקרה שעליך לשחזר אותו ושכחת את הססמה."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1388,11 +1388,11 @@ msgstr "העדפות תקשורת"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "תגענה אליך פניות בנוגע לאבטחת החשבון שלך, שינויים במדיניות שלנו, בתכונות והתכתבות דוא״ל ראשונית שתסייע לך להפיק את המיטב מחשבון ה־Firefox שלך."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "בנוסף, ניתן לערוך מינוי כדי לקבל הודעות קידום עם החדשות העדכניות ביותר מ־Mozilla ומ־Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1420,7 +1420,7 @@ msgstr "נא לבחור את השם שיוצג ב־Firefox בעת ניהול ה�
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "כתובת דוא״ל משנית היא כתובת נוספת לקבלת התרעות אבטחה ואישור התקנים חדשים."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1444,11 +1444,11 @@ msgstr "הוספה"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "קודים לשחזור"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "לתשומת לבך:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid ""
@@ -1456,18 +1456,21 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                הופעת הקודים והשימוש בהם הוא תהליך חד־פעמי. יש לאחסן אותם במקום בטוח במקרה שאבדה לך הגישה להתקן הנייד שלך.\n"
+"            "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "יצירת קודים חדשים לשחזור"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
-msgstr ""
+msgstr "העתקה"
 
 #: .es5/templates/settings/recovery_codes.mustache:8
 msgid "Print"
-msgstr ""
+msgstr "הדפסה"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1479,11 +1482,11 @@ msgstr "הפעלה…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "הוספת שכבת אבטחה לחשבון שלך על ידי דרישת קודים של אבטחה מאחד מיישומי האימות שלהלן."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "מצב נוכחי"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1503,19 +1506,19 @@ msgstr "הפעלה"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "החלפת קודים לשחזור"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "יש לסרוק את קוד ה־QR ביישומון האימות שלך ולאחר מכן להקליד את קוד האבטחה שהוא מספק."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "אין לך אפשרות לסרוק קוד?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "יש להקליד מפתח סודי זה ליישומון האימות שלך באופן ידני:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1527,11 +1530,11 @@ msgstr "אישור"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "לפני שניתן לצפות או לערוך שינויים באגף זה, עליך לאמת את כתובת הדוא״ל שלך."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "כתובת דוא״ל ראשית"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1539,7 +1542,7 @@ msgstr "מהו גילך?"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "חיפשת את Firefox Sync‏? <a %(escapedSyncSuggestionAttrs)s>ניתן להתחיל כאן</a>"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1801,11 +1804,9 @@ msgstr "כניסה"
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
-#~ "\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "מחיקה"
