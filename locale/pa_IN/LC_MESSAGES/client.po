@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 17:31+0000\n"
+"PO-Revision-Date: 2018-05-05 17:34+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -205,11 +205,11 @@ msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤ�
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "ਪ੍ਰਤੀਨਿਧੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
 
 #: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
-msgstr ""
+msgstr "ਤਸਦੀਕੀ ਲਈ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 
 #: .es5/views/settings/emails.js:148
 msgid "Primary email set to %(email)s"
