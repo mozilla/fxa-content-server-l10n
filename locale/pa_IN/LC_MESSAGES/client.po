@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 18:11+0000\n"
+"PO-Revision-Date: 2018-05-05 18:23+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -297,7 +297,7 @@ msgstr "ਐਡ-ਆਨ"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "ਲਾਗਇਨ"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -305,15 +305,15 @@ msgstr "ਅਤੀਤ"
 
 #: .es5/models/sync-engines.js:64
 msgid "Preferences"
-msgstr "ਮੇਰੀ-ਪਸੰਦ"
+msgstr "ਮੇਰੀਆਂ-ਪਸੰਦਾਂ"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "ਪਤੇ"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "ਕ੍ਰੈਡਿਟ ਕਾਰਡ"
 
 #: .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
@@ -321,11 +321,11 @@ msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਜਾਂਚ"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਰੀਸੈੱਟ ਕੀਤਾ ਗਿਆ"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -337,11 +337,11 @@ msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾ�
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਕਾਫੀ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ %(retryAfterLocalized)s ਨਾਲ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
 msgid "Invalid token"
