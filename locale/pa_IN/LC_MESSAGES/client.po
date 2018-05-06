@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-05 18:39+0000\n"
+"PO-Revision-Date: 2018-05-06 04:47+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -425,7 +425,7 @@ msgstr "ਇਸ ਨੰਬਰ ਤੇ ਇੱਕ ਸੁਨੇਹਾ ਨਹੀਂ ਭ
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਫ ਵਾਪਸ ਕੀਤਾ ਗਿਆ ਸੀ"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
@@ -437,27 +437,27 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "ਇਹ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਤਸਦੀਕ ਕੀਤੀ ਗਈ ਸੀ"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ"
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "ਸਾਈਨ-ਇਨ ਕਰਨ ਲਈ ਪ੍ਰਾਇਮਰੀ ਖਾਤੇ ਦਾ ਈਮੇਲ ਲੋੜੀਂਦਾ ਹੈ"
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr ""
+msgstr "ਇਕ ਹੋਰ ਖਾਤੇ ਦੁਆਰਾ ਵਰਤਿਆ ਪਤਾ"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਪ੍ਰਾਇਮਰੀ ਖਾਤਾ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr ""
+msgstr "ਗਲਤ ਸਾਈਨਇਨ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
