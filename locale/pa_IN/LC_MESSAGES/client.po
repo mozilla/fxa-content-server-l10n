@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-06 05:10+0000\n"
+"PO-Revision-Date: 2018-05-06 05:50+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -590,15 +590,15 @@ msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
 
 #: .es5/lib/auth-errors.js:381
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "ਟੋਕਨ ਫਿਰ ਤੋਂ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਯੋਗ ਜਾਇਦਾਦ: %(property)s"
 
 #: .es5/lib/auth-errors.js:385
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "ਟੋਕਨ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਸੰਪੱਤੀ ਲਾਪਤਾ ਹੈ: %(property)s"
 
 #: .es5/lib/auth-errors.js:389
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "ਅਵੈਧ ਡਾਟਾ ਵਿਸ਼ੇਸ਼ਤਾ: %(property)s"
 
 #: .es5/lib/auth-errors.js:393
 msgid "Missing data attribute: %(property)s"
