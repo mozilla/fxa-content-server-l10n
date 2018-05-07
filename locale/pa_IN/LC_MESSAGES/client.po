@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-06 05:52+0000\n"
+"PO-Revision-Date: 2018-05-07 17:48+0000\n"
 "Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -812,7 +812,7 @@ msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂ�
 
 #: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -824,7 +824,7 @@ msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿ�
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -838,11 +838,11 @@ msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਦਾਖਲ ਕਰੋ"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਸਥਾਈ ਹੈ"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
