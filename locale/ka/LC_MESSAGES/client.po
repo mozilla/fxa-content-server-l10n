@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-01 23:50+0000\n"
+"PO-Revision-Date: 2018-05-09 13:27+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -204,7 +204,7 @@ msgstr "გამოსაჩენი სახელი განახლე�
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr "დამატებითი ელფოსტა ამოღებულია"
+msgstr "დამატებითი ელფოსტა მოცილებულია"
 
 #: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
@@ -1442,7 +1442,7 @@ msgstr "მთავარ მისამართად დაყენებ�
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr "წაშლა"
+msgstr "მოცილება"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
