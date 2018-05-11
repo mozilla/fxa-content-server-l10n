@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-11 10:21+0000\n"
+"PO-Revision-Date: 2018-05-11 11:10+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -225,19 +225,19 @@ msgstr "Kódy boli skopírované"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Kódy sa nepodarilo skopírovať. Skopírujte ich, prosím, ručne."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Boli vygenerované nové obnovovacie kódy"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Dvojstupňové overenie bolo povolené"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Dvojstupňové overenie bolo odstránené"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
