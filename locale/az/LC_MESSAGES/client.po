@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-11 07:29+0000\n"
+"PO-Revision-Date: 2018-05-11 07:32+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -1535,7 +1535,7 @@ msgstr "Təsdiqlə"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Bu bölməni görmə və ya dəyişməzdən əvvəl e-poçtunuzu təsdiqləməlisiniz."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
