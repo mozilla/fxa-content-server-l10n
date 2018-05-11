@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-11 10:00+0000\n"
+"PO-Revision-Date: 2018-05-11 10:21+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -614,7 +614,7 @@ msgstr "Toto pole je povinné"
 
 #: .es5/lib/auth-errors.js:414
 msgid "Authorization code required"
-msgstr "Je vyžadovaný autorizačný kód"
+msgstr "Vyžaduje sa autorizačný kód"
 
 #: .es5/lib/auth-errors.js:422 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -622,11 +622,11 @@ msgstr "Odkaz je poškodený"
 
 #: .es5/lib/auth-errors.js:445
 msgid "Phone number required"
-msgstr "Telefónne číslo je vyžadované"
+msgstr "Vyžaduje sa telefónne číslo"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Vyžaduje sa kód pre dvojstupňové overenie"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -634,11 +634,11 @@ msgstr "Neplatný autorizačný kód pre dvojstupňové overenie"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Vyžaduje sa obnovovací kód"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Neplatný obnovovací kód"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
