@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-11 11:20+0000\n"
+"PO-Revision-Date: 2018-05-12 09:19+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -641,7 +641,7 @@ msgstr "Lypset numër telefoni"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Lypset kod mirëfilltësimi dyhapësh"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -649,11 +649,11 @@ msgstr "Kod i pavlefshëm mirëfilltësimi dyhapësh"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Lypset kod rikthimi"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Kod i pavlefshëm rikthimi"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1159,15 +1159,15 @@ msgstr "Email i shkruar gabim?"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Jepni kod rikthimi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Ju lutemi, jepni një kod rikthimi që ju qe dhënë gjatë rregullimit të programit."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Jepni kod 10-shifror rikthimi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1207,7 +1207,7 @@ msgstr "Jepni kodin 6-shifror"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Përdor kod rikthimi"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1506,7 +1506,7 @@ msgstr "Shtoni"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Recovery codes"
-msgstr ""
+msgstr "Kode rikthimi"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1518,10 +1518,13 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                Këto kode do të shfaqen dhe mund të përdoren vetëm një herë. Ruajini në një vend të parrezik, për raste kur s’hyni dot te pajisja juaj celulare.\n"
+"            "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Prodho kode rikthimi të rinj"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "Copy"
@@ -1541,7 +1544,7 @@ msgstr "Aktivizoni…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Shtoni te llogaria juaj një shtresë ekstra sigurie duke kërkuar kode sigurie prej një nga këto aplikacione mirëfilltësimi."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1565,15 +1568,15 @@ msgstr "Aktivizoje"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Zëvendësoni kode rikthimi"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Skanojeni kodin QR te aplikacioni juaj i mirëfilltësimit dhe mandej jepni kodin e sigurisë që ky furnizon."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "S’e skanoni dot kodin?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1589,7 +1592,7 @@ msgstr "Ripohojeni"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Përpara se të shihni apo bëni ndryshime te kjo pjesë, do t’ju duhet të verifikoni adresën tuaj email."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
