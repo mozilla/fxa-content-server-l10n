@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-13 22:51+0000\n"
+"PO-Revision-Date: 2018-05-14 07:48+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -272,7 +272,7 @@ msgstr "Ldi Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Email yettwaezn tikelt-nneḍen. Rnu accounts@firefox.comar inermisen-ik akken ad tḍemneḍ armas yelhan n yiznan."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -625,11 +625,11 @@ msgstr "Uṭṭun n tiliγṛi yettwasra"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Asesteb s snat n tarrayin ilaq"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Yir tangalt n usesteb s snat n tarrayin"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
@@ -1110,7 +1110,7 @@ msgstr "Sekcem tangalt n tririt"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Ma ulac aɣilif, sekcem tangalt n tririt i k-yettunefken deg usebeddi."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1146,7 +1146,7 @@ msgstr "Sekcem tangalt"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Ldi asnas n usesteb sakin sekcem tangalt n tɣellist i d-imudd."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1174,15 +1174,15 @@ msgstr "Sekcem tikelt nniḍen awal uffir"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "UR sṛuhuy ara awal-agi uffir. Ma tesriḍ ad s-talseḍ asbadu, yezmer ad k-ruḥen isefka n umtawi."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Ur seqdac ara awal uffir n n yimayl</span>Ma yella albaɛt yessen awal uffir n yimayl-ik, ad yizmir ad isentem tuqqna s umiḍan-ik Firefox ɣef yibenk amaynut sakin ad yekcem ar isefka-ik."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Cfu ɣef wawal-ik uffir</span>Ticki tulseḍ asbadu n wawal-ik uffir, ad ak-ṛuḥen isefka n umtawi ur nelli ara  deg ibenkan-ik."
 
 #: .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1457,6 +1457,8 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                Tingalin-agi ad ttwaseknent kan neɣ ad ttwasqedcent kan yiwet n tikelt. Sekles-iten deg umkan aɣelsan akken ad ten-tafeḍ ma yella tesṛuḥeḍ anekcum ar yibenk-ik aziraz.      "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
@@ -1480,7 +1482,7 @@ msgstr "Rmed…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Rnu tissi n tɣellist ar umiḍan-ik s usuter n tingalin n tɣellist seg yiwen seg yisnasen-agi n usesteb."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1508,15 +1510,15 @@ msgstr "Semselsi tingalin n tririt"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Ṭṭef tangalt QR deg usnas n usesteb sakin sekcem tangalt n tɣellist i d-yefka."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "UR tezmireḍ ara ad teṭṭfeḍ tangalt?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Sekcem s ufus tasarut tabaḍnit ar usnas n usesteb:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1528,7 +1530,7 @@ msgstr "Sentem"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Send ad tizmireḍ ad twaliḍ neɣ ad tegeḍ ibeddilen di tgezmi-agi, tesriḍ ad tsentmeḍ tansa-ik imayl."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
