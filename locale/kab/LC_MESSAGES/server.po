@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-14 07:53+0000\n"
+"PO-Revision-Date: 2018-05-17 08:30+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -191,7 +191,7 @@ msgstr "Sefrek amiḍan"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tangalt n tɣelllist n usnas-ik n usesteb ad ak-yettusuter yal tuqqna."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -265,7 +265,7 @@ msgstr "Tingalin n tririt uir zgint laqent yal tuqqna."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tingalin n tɣelllist ur laqent ara yal atuqqna."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -381,7 +381,7 @@ msgstr "Mi yedda usenqeḍ, tzemreḍ ad tesnifleḍ amiḍan deg ibenk-a am tir
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ma yella ur tettwasireg ara tigawt-a, <a %(passwordChangeLinkAttributes)s>beddel awal-ik uffir</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -389,7 +389,7 @@ msgstr "Senqed imayl: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Ma yella ur tettwasireg ara tigawt-a, beddel awal-ik uffir."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:592
 msgid "Verify secondary email"
