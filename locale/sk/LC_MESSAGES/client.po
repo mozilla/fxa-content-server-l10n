@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-18 21:39+0000\n"
+"PO-Revision-Date: 2018-05-18 21:57+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1064,6 +1064,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>POZNÁMKA:</span> Ak obnovíte svoje heslo, niektoré vaše údaje budú vymazané (vrátane údajov synchronizovaných na serveri, ako je napríklad história a záložky). Je to spôsobené tým, že v záujme"
+" ochrany vášho súkromia vaše údaje šifrujeme."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1147,15 +1149,15 @@ msgstr "Zadajte kód"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Otvorte svoju overovaciu aplikáciu a opíšte z nej bezpečnostný kód."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Zadajte šesťmiestny kód"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Použiť obnovovací kód"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1179,11 +1181,11 @@ msgstr "Nestraťte toto heslo. Ak by ste ho museli obnoviť, môžete prísť o 
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Nepoužívajte rovnaké heslo ako k e-mailu</span> Ak niekto zistí heslo k vašej e-mailovej schránke, môže potvrdzovať prihlásenia na nových zariadeniach a získať tak prístup k údajom."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Zapamätajte si svoje heslo</span> Ak bude potrebovať svoje heslo obnoviť, prídete o synchronizované údaje, ktoré nie sú uložené na žiadnom z vašich zariadení."
 
 #: .es5/templates/sign_up.mustache:14
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1393,10 +1395,12 @@ msgstr "Predvoľby komunikácie"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Budete dostávať správy týkajúce sa bezpečnosti vášho účtu, zmien v našich podmienkach a funkciách vášho účtu a taktiež niekoľko úvodných e-mailov, ktoré vám pomôžu vyťažiť z vášho účtu Firefox čo "
+"najviac."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Okrem toho sa môžete prihlásiť k odberu propagačných e-mailov s novinkami týkajúcimi sa Mozilly a Firefoxu."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1460,6 +1464,9 @@ msgid ""
 "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
 "            "
 msgstr ""
+"\n"
+"                Tieto kódy uvidíte iba raz a sú jednorázové. Bezpečne si ich uložte, pre prípad, že stratíte prístup ku svojmu mobilnému zariadeniu.\n"
+"            "
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Generate new recovery codes"
@@ -1483,11 +1490,11 @@ msgstr "Povoliť…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr ""
+msgstr "Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania bezpečnostných kódov vygenerovaných jednou z týchto overovacích aplikácií."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Aktuálny stav"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1507,19 +1514,19 @@ msgstr "Povoliť"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Nahradiť obnovovacie kódy"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Naskenujte vo svojej overovacej aplikácií QR kód a potom zadajte vygenerovaný bezpečnostný kód."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Nemôžete kód naskenovať?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Ručne zadajte tento tajný kľúč do vašej overovacej aplikácie:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1531,7 +1538,7 @@ msgstr "Potvrdenie"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Predtým, ako budete môcť zobraziť alebo urobiť zmeny v tejto sekcii, musíte overiť svoju e-mailovú adresu."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
