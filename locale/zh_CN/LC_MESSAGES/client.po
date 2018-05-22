@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-05-02 00:59+0000\n"
-"Last-Translator: 新垣结衣 <eloli@foxmail.com>\n"
+"PO-Revision-Date: 2018-05-22 16:11+0000\n"
+"Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -234,11 +234,11 @@ msgstr "已生成新的救援码"
 
 #: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
 msgid "Two-step authentication enabled"
-msgstr "两步认证已启用"
+msgstr "两步验证已启用"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Two-step authentication removed"
-msgstr "两步认证已移除"
+msgstr "两步验证已移除"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
@@ -1473,7 +1473,7 @@ msgstr "打印"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr "两步认证"
+msgstr "两步验证"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
