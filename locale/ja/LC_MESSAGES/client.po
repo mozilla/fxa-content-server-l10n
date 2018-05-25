@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-25 22:11+0000\n"
+"PO-Revision-Date: 2018-05-25 22:18+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1413,7 +1413,7 @@ msgstr "削除..."
 msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
-msgstr ""
+msgstr "このアカウントを AMO、Pocket、Screenshots など Mozilla のアプリやサービスに使用している場合、まずログインして保存されている個人情報があれば削除してください。ここでアカウントを削除すると、様々なところでアクセスを失う可能性があります。"
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1453,7 +1453,7 @@ msgstr "注:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "新しい回復コードを生成すると、既存のコードはすべて無効となります。新しいコードは安全な場所に保管してください。"
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
