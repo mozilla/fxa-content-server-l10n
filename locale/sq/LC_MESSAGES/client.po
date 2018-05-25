@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-01 21:13+0000\n"
+"POT-Creation-Date: 2018-05-25 16:06+0000\n"
 "PO-Revision-Date: 2018-05-12 09:19+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,25 +87,25 @@ msgstr "Llogaria u verifikua"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:45
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
-#: .es5/views/settings/client_disconnect.js:19
+#: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
 "Na vjen keq që e dëgjojmë këtë. Do të duhej të ndryshoni fjalëkalimin tuaj për te Llogari Firefox, dhe të shihni për informacion nga prodhuesi i pajisjes suaj lidhur me fshirjen prej së largëti të "
 "të dhënave tuaja."
 
-#: .es5/views/settings/client_disconnect.js:20
+#: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 "Na vjen keq që e dëgjojmë këtë. Nëse qe një pajisje së cilës nuk i zini vërtet besë, do të duhej të ndryshonit fjalëkalimin tuaj për te Llogari Firefox, dhe të ndryshoni çfarëdo fjalëkalimesh të "
@@ -199,27 +199,27 @@ msgstr "Nuk dihet koha e njëkohësimit të fundit"
 msgid "Subscribed successfully"
 msgstr "U pajtuat me sukses"
 
-#: .es5/views/settings/delete_account.js:45
+#: .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
-#: .es5/views/settings/display_name.js:59
+#: .es5/views/settings/display_name.js:58
 msgid "Display name updated"
 msgstr "Emri për në ekran u përditësua"
 
-#: .es5/views/settings/emails.js:90
+#: .es5/views/settings/emails.js:89
 msgid "Secondary email removed"
 msgstr "Email-i dytësor u hoq"
 
-#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
+#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
 msgstr "Email-i i verifikimit u dërgua"
 
-#: .es5/views/settings/emails.js:148
+#: .es5/views/settings/emails.js:147
 msgid "Primary email set to %(email)s"
 msgstr "Si email parësor është caktuar %(email)s"
 
-#: .es5/views/settings/emails.js:158 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Email dytësor"
 
@@ -235,15 +235,15 @@ msgstr "S’u arrit të kopjohen kode. Ju lutemi, kopjojini dorazi."
 msgid "New recovery codes generated"
 msgstr "U prodhuan kode të rinj rikthimi"
 
-#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
+#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Mirëfilltësimi dyhapësh u aktivizua"
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:136
 msgid "Two-step authentication removed"
 msgstr "Mirëfilltësimi dyhapësh u hoq"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:176
 msgid "Two-step Authentication"
 msgstr "Mirëfilltësim dyhapësh"
 
@@ -503,7 +503,7 @@ msgstr "Kjo pikë mbarimi s’mbulohet më"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
@@ -744,10 +744,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -843,7 +845,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -862,10 +864,10 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -924,8 +926,8 @@ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Kontrolloni email-in tuaj për një lidhje verifikimi dërguar&nbsp;për %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Kontrolloni email-in tuaj për lidhjen e ripohimit të hyrjes, dërguar për %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1014,7 +1016,7 @@ msgstr "Bëni hyrjen që të vazhdohet"
 msgid "Password"
 msgstr "Fjalëkalimi"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Harruat  fjalëkalimin?"
@@ -1027,8 +1029,8 @@ msgstr "Duke vazhduar, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kush
 msgid "Enter your email"
 msgstr "Jepni email-in tuaj"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Vazhdoni te %(serviceName)s"
 
@@ -1153,10 +1155,6 @@ msgstr "Nëse kjo është një adresë email e vlefshme, <a %(escapedSupportLink
 msgid "No longer own that email? Create a new account"
 msgstr "S’e keni më në zotërim atë email? Krijoni një llogari të re"
 
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:14
-msgid "Mistyped email?"
-msgstr "Email i shkruar gabim?"
-
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
 msgstr "Jepni kod rikthimi"
@@ -1238,7 +1236,7 @@ msgstr ""
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Mbajeni mend fjalëkalimin tuaj</span>Nëse ju duhet të ricaktoni fjalëkalimin tuaj, do të humbni çfarëdo të dhënash që s’gjenden në një nga pajisjet tuaja."
 
-#: .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:11
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Merrni lajmet më të reja rreth Mozilla-s dhe Firefox-it"
 
@@ -1250,9 +1248,9 @@ msgstr "Krijoni llogari"
 msgid "Have an account? Sign in"
 msgstr "Keni llogari? Hyni"
 
-#: .es5/templates/sign_up_password.mustache:11
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Merrni buletinin mujor të Firefox-it"
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Mistyped email?"
+msgstr "Email i shkruar gabim?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1337,8 +1335,8 @@ msgstr "Kamerë"
 msgid "Clear"
 msgstr "Pastroje"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "U bë"
 
@@ -1398,7 +1396,7 @@ msgstr "Shkëputje e Suksesshme"
 msgid "Devices & apps"
 msgstr "Pajisje & aplikacione"
 
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2 .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
 msgstr "Shfaqe"
 
@@ -1426,7 +1424,7 @@ msgstr "Firefox për iOS"
 msgid "None connected"
 msgstr "Pa të lidhur"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:6
+#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Shkarkim"
 
@@ -1438,7 +1436,8 @@ msgstr "Firefox për Android"
 msgid "Missing or duplicate items?"
 msgstr "Elementë që mungojnë apo të përsëdytur?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Rifreskoje"
 
@@ -1473,8 +1472,10 @@ msgid "Delete…"
 msgstr "Fshijeni…"
 
 #: .es5/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të zhbëhet."
+msgid ""
+"If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+"lose access to it everywhere."
+msgstr ""
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1504,33 +1505,31 @@ msgstr "Hiqe"
 msgid "Add"
 msgstr "Shtoni"
 
-#: .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
 msgstr "Kode rikthimi"
 
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
+#: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
 msgstr "SHËNIM:"
 
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid ""
-"\n"
-"                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-"            "
+#: .es5/templates/settings/recovery_codes.mustache:4
+msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
 msgstr ""
-"\n"
-"                Këto kode do të shfaqen dhe mund të përdoren vetëm një herë. Ruajini në një vend të parrezik, për raste kur s’hyni dot te pajisja juaj celulare.\n"
-"            "
 
-#: .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
 msgstr "Prodho kode rikthimi të rinj"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
+msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
 msgstr "Kopjoje"
 
-#: .es5/templates/settings/recovery_codes.mustache:8
+#: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
 msgstr "Shtype"
 
@@ -1543,8 +1542,8 @@ msgid "Enable…"
 msgstr "Aktivizoni…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr "Shtoni te llogaria juaj një shtresë ekstra sigurie duke kërkuar kode sigurie prej një nga këto aplikacione mirëfilltësimi."
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1602,9 +1601,17 @@ msgstr "Email parësor"
 msgid "How old are you?"
 msgstr "Ç’moshë keni?"
 
+#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr ""
+
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Po kërkoni për Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Fillojani këtu</a>"
+
+#: .es5/templates/partial/user-card.mustache:1
+msgid "Use a different email address"
+msgstr ""
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1634,8 +1641,30 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Hyni"
 
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Kontrolloni email-in tuaj për lidhjen e ripohimit të hyrjes, dërguar për %(email)s"
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Merrni buletinin mujor të Firefox-it"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të zhbëhet."
+
+#~ msgid ""
+#~ "\n"
+#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "                Këto kode do të shfaqen dhe mund të përdoren vetëm një herë. Ruajini në një vend të parrezik, për raste kur s’hyni dot te pajisja juaj celulare.\n"
+#~ "            "
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+#~ msgstr "Shtoni te llogaria juaj një shtresë ekstra sigurie duke kërkuar kode sigurie prej një nga këto aplikacione mirëfilltësimi."
+
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Llogari Firefox e Panjohur. Që të mund të përdorni të dhënat tuaja prej Shtesash, <a href=\"/signup\">regjistrohuni</a> duke përdorur adresën email të llogarisë suaj të mëparshme te Shtesa."
+#~ msgstr ""
+#~ "Llogari Firefox e Panjohur. Që të mund të përdorni të dhënat tuaja prej Shtesash, <a href=\"/signup\">regjistrohuni</a> duke përdorur adresën email të llogarisë suaj të mëparshme te Shtesa."
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 #~ msgstr "Email-i dytësor është një adresë shtesë për të marrë njoftime sigurie dhe ripohimi pajisjesh të reja nën Sync"
@@ -1659,7 +1688,9 @@ msgstr "Hyni"
 #~ msgstr "Klikoni mbi lidhjen që ju dërguam me email te %(email)s brenda orës pasuese që të krijoni një fjalëkalim të ri."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
+#~ msgstr ""
+#~ "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
+#~ "Firefox-it."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Shërbime reje nga Firefox-i"
@@ -1847,19 +1878,19 @@ msgstr "Hyni"
 #~ msgstr "Pse të njëkohësohen dy (ose më tepër!) pajisje?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe do "
-#~ "të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
+#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe "
+#~ "do të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat tuaja"
-#~ " s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe të "
-#~ "përdorni Sync-un në më shumë se një pajisje."
+#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat "
+#~ "tuaja s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe "
+#~ "të përdorni Sync-un në më shumë se një pajisje."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1960,18 +1991,20 @@ msgstr "Hyni"
 #~ msgid "Sync preferences"
 #~ msgstr "Parapëlqime për Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Keni një llogari me një tjetër email? <a href=\"%(signinUri)s\">Hyni</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Së fundi aktiv: %(translatedTimeAgo)s"
@@ -2195,5 +2228,5 @@ msgstr "Hyni"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur "
-#~ "funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të "
+#~ "mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
