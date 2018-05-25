@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-01 21:13+0000\n"
+"POT-Creation-Date: 2018-05-25 16:05+0000\n"
 "PO-Revision-Date: 2018-04-28 22:11+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,25 +86,25 @@ msgstr "Chaidh an cunntas a dhearbhadh"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cunntas nach aithne dhuinn. <a href=\"/signup\">Clàraich</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Chan eil an cunntas seo ann tuilleadh. A bheil thu airson ath-chruthachadh?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tha an cunntas seo ann mu thràth. <a href=\"/signin\">Clàraich a-steach</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:45
 msgid "Password changed successfully"
 msgstr "Chaidh am facal-faire atharrachadh"
 
-#: .es5/views/settings/client_disconnect.js:19
+#: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
 "Tha sinn duilich an naidheachd seo a chluinntinn. Bu chòir dhut facal-faire a’ chunntais Firefox atharrachadh agus fiosrachadh a lorg aig saothraiche an uidheim agad a dh’innseas dhut mar a sguabas "
 "tu às an dàta agad o chèin."
 
-#: .es5/views/settings/client_disconnect.js:20
+#: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 "Tha sinn duilich an naidheachd seo a chluinntinn. Mas e uidheam a bha ann anns nach robh earbsa agad, bu chòir dhut facal-faire a’ chunntais Firefox agad atharrachadh agus gach facal-faire a "
@@ -198,27 +198,27 @@ msgstr "Chan eil fhios cuin a chaidh a shioncronachadh turas mu dheireadh"
 msgid "Subscribed successfully"
 msgstr "Rinn thu fo-sgrìobhadh"
 
-#: .es5/views/settings/delete_account.js:45
+#: .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Chaidh an cunntas a sguabadh às"
 
-#: .es5/views/settings/display_name.js:59
+#: .es5/views/settings/display_name.js:58
 msgid "Display name updated"
 msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
-#: .es5/views/settings/emails.js:90
+#: .es5/views/settings/emails.js:89
 msgid "Secondary email removed"
 msgstr "Chaidh am post-d dàrnach a thoirt air falbh"
 
-#: .es5/views/settings/emails.js:119 .es5/views/settings/emails.js:132 .es5/views/mixins/upgrade-session-mixin.js:85
+#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:85
 msgid "Verification email sent"
 msgstr "Chaidh am post-d dearbhaidh a chur"
 
-#: .es5/views/settings/emails.js:148
+#: .es5/views/settings/emails.js:147
 msgid "Primary email set to %(email)s"
 msgstr "’S e %(email)s am prìomh phost-d a-nis"
 
-#: .es5/views/settings/emails.js:158 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Post-d dàrnach"
 
@@ -234,15 +234,15 @@ msgstr "Dh’fhàillig lethbhreac nan còdan. Dèan lethbhreac de làimh."
 msgid "New recovery codes generated"
 msgstr "Chaidh còdan aisig ùra a ghintinn"
 
-#: .es5/views/settings/recovery_codes.js:124 .es5/views/settings/two_step_authentication.js:144
+#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Tha an dearbhadh dà-cheumnach an comas"
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:136
 msgid "Two-step authentication removed"
 msgstr "Chaidh an dearbhadh dà-cheumnach a thoirt air falbh"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:176
 msgid "Two-step Authentication"
 msgstr ""
 
@@ -881,8 +881,8 @@ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Thoir sùil air a’ phost-d agad airson a’ cheangail dearbhaidh a chaidh a gus gu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Thoir sùil air a’ phost-d agad airson ceangal dearbhadh clàraidh a-steach a chuir sinn gu %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -972,7 +972,7 @@ msgstr "Clàraich a-steach airson leantainn air adhart"
 msgid "Password"
 msgstr "Facal-faire"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Na dhìochuimhnich thu am facal-faire agad?"
@@ -986,8 +986,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Cuir a-steach am post-d agad"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Lean air adhart gu %(serviceName)s"
 
@@ -1112,10 +1112,6 @@ msgstr "Mas e seòladh puist-d dligheach a tha seo, <a %(escapedSupportLinkAttrs
 msgid "No longer own that email? Create a new account"
 msgstr "Nach eil am post-d ud agad tuilleadh? Cruthaich cunntas ùr"
 
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:14
-msgid "Mistyped email?"
-msgstr "An robh mearachd-litreachaidh sa phost-d?"
-
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
 msgstr "Cuir a-steach an còd aisig"
@@ -1198,7 +1194,7 @@ msgstr ""
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Cuimhnich am facal-faire agad</span>Ma dh’ath-shuidhicheas tu am facal-faire agad, caillidh tu dàta sioncronachaidh sam bith nach eil air uidheam agad."
 
-#: .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:11
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Faigh na naidheachdan as ùire mu Mozilla is Firefox"
 
@@ -1210,9 +1206,9 @@ msgstr "Cruthaich cunntas"
 msgid "Have an account? Sign in"
 msgstr "A bheil cunntas agad? Clàraich a-steach"
 
-#: .es5/templates/sign_up_password.mustache:11
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Faigh cuairt-litir mhìosail Firefox"
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Mistyped email?"
+msgstr "An robh mearachd-litreachaidh sa phost-d?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1297,8 +1293,8 @@ msgstr "Camara"
 msgid "Clear"
 msgstr "Falamhaich"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Deiseil"
 
@@ -1358,7 +1354,7 @@ msgstr "Chaidh a dhì-cheangal"
 msgid "Devices & apps"
 msgstr "Uidheaman ⁊ aplacaidean"
 
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2 .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
 msgstr "Seall"
 
@@ -1386,7 +1382,7 @@ msgstr "Firefox airson iOS"
 msgid "None connected"
 msgstr "Chan eil gin ceangailte"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:6
+#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Luchdaich a-nuas"
 
@@ -1398,7 +1394,8 @@ msgstr "Firefox airson Android"
 msgid "Missing or duplicate items?"
 msgstr "Rudan a tha a dhìth no dùblaichte?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Ath-nuadhaich"
 
@@ -1433,8 +1430,10 @@ msgid "Delete…"
 msgstr "Sguab às…"
 
 #: .es5/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "A bheil thu cinnteach gu bheil thu airson an cunntas agad a sguabadh às? Cha ghabh seo a neo-dhèanamh."
+msgid ""
+"If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+"lose access to it everywhere."
+msgstr ""
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1464,33 +1463,31 @@ msgstr "Thoir air falbh"
 msgid "Add"
 msgstr "Cuir ris"
 
-#: .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
 msgstr "Còdan aisig"
 
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
+#: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
 msgstr "AN AIRE:"
 
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid ""
-"\n"
-"                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-"            "
+#: .es5/templates/settings/recovery_codes.mustache:4
+msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
 msgstr ""
-"\n"
-"                Cha dèid na còdan seo a shealltainn ’s cha ghabh an cleachdadh ach aon turas. Cum sàbhailte iad air eagal ’s gun caill thu cothrom air an uidheam mobile agad.\n"
-"            "
 
-#: .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
 msgstr "Aisig còdan aisig ùra"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
+msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+msgstr ""
+
+#: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
 msgstr "Dèan lethbhreac"
 
-#: .es5/templates/settings/recovery_codes.mustache:8
+#: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
 msgstr "Clò-bhuail"
 
@@ -1503,8 +1500,8 @@ msgid "Enable…"
 msgstr "Cuir an comas..."
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-msgstr "Cuir ceum tèarainteachd eile ris a’ chunntas agad le bhith ag iarraidh còdan tèarainteachd o aon dhen na h-aplacaidean dearbhaidh seo."
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1562,9 +1559,17 @@ msgstr ""
 msgid "How old are you?"
 msgstr "Dè an aois a tha thu?"
 
+#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr ""
+
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "An tòir sioncronachadh Firefox? <a %(escapedSyncSuggestionAttrs)s>Dèan toiseach-tòiseachaidh an-seo</a>"
+
+#: .es5/templates/partial/user-card.mustache:1
+msgid "Use a different email address"
+msgstr ""
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1593,6 +1598,27 @@ msgstr "Clàraich a-steach"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Clàraich a-steach"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Thoir sùil air a’ phost-d agad airson ceangal dearbhadh clàraidh a-steach a chuir sinn gu %(email)s"
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Faigh cuairt-litir mhìosail Firefox"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "A bheil thu cinnteach gu bheil thu airson an cunntas agad a sguabadh às? Cha ghabh seo a neo-dhèanamh."
+
+#~ msgid ""
+#~ "\n"
+#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "                Cha dèid na còdan seo a shealltainn ’s cha ghabh an cleachdadh ach aon turas. Cum sàbhailte iad air eagal ’s gun caill thu cothrom air an uidheam mobile agad.\n"
+#~ "            "
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+#~ msgstr "Cuir ceum tèarainteachd eile ris a’ chunntas agad le bhith ag iarraidh còdan tèarainteachd o aon dhen na h-aplacaidean dearbhaidh seo."
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr ""
