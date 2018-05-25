@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-25 22:10+0000\n"
+"PO-Revision-Date: 2018-05-25 22:15+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1458,7 +1458,7 @@ msgstr "შენიშვნა:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "აღდგენის ახალი კოდების შექმნის შედეგად, ყველა ადრინდელი კოდი გამოუსადეგარი გახდება. გთხოვთ, ახალი კოდები შეინახოთ უსაფრთხო ადგილას."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1466,7 +1466,7 @@ msgstr "აღდგენის ახალი კოდების შექ
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "აქ არის მოცემული აღდგენის ერთჯერადი კოდები. შეინახეთ უსაფრთხო ადგილად იმ შემთხვევისთვის, თუ დაკარგავთ წვდომას თქვენს მობილურ მოწყობილობასთან. ამ კოდებს, მეტჯერ ვეღარ იხილავთ."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1486,7 +1486,7 @@ msgstr "ჩართვა…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "დაამატეთ დაცვის კიდევ ერთი შრე თქვენი ანგარიშისთვის, უსაფრთხოების კოდების მოთხოვნის სახით, <a %(escapedTotpSupportAttributes)s>შესვლის დასამოწმებელი რომელიმე ამ პროგრამიდან.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1546,7 +1546,7 @@ msgstr "რა ასაკის ხართ?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "პაროლის ჩვენება"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1554,7 +1554,7 @@ msgstr "Firefox სინქრონიზაციას ეძებთ? <a %
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "გამოიყენეთ ელფოსტის სხვა მისამართი"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
