@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-03-30 17:58+0000\n"
+"PO-Revision-Date: 2018-05-25 18:54+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Sie haben erfolgreich Ihr erstes Gerät mit Ihrem Firefox-Konto verbunden. Um das meiste aus Sync herauszuholen, stellen Sie Verbindungen zu <a href='%(androidUrl)s'>Firefox für Android</a> oder <a "
 "href='%(iosUrl)s'>Firefox für iOS</a> her, falls vorhanden."
@@ -52,19 +52,19 @@ msgstr "Firefox-Konten"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Nur noch wenige übrige Wiederherstellungscodes"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Wir haben festgestellt, dass Sie nur noch wenige Wiederherstellungscodes besitzen. Überlegen Sie bitte, ob Sie neue Codes erzeugen möchten, um nicht aus Ihrem Konto ausgesperrt zu werden."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "Codes erzeugen"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "Diese E-Mail wurde automatisch verschickt."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
@@ -91,11 +91,11 @@ msgstr "Mozilla-Datenschutzerklärung"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Wir haben festgestellt, dass Sie nur noch wenige Wiederherstellungscodes besitzen. Überlegen Sie bitte, ob Sie neue Codes erzeugen möchten, um nicht aus Ihrem Konto ausgesperrt zu werden."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Codes erzeugen:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
@@ -241,8 +241,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Sie haben Ihre Primär-E-Mail-Adresse zu %(email)s geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem Firefox-Konto, sowie zum Erhalt von Sicherheitsbenachrichtigungen "
-"und Anmeldebestätigungen."
+"Sie haben Ihre Primär-E-Mail-Adresse zu %(email)s geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem Firefox-Konto, sowie zum Erhalt von Sicherheitsbenachrichtigungen und"
+" Anmeldebestätigungen."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
 msgid "Recovery code consumed"
@@ -610,16 +610,16 @@ msgstr "Nutzungsbedingungen"
 #~ msgstr "Hallo nochmal."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Vor einigen Tagen haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Mit einem verifizierten Konto können Sie mit jedem damit verbundenen Gerät auf Ihre Tabs, Lesezeichen, Passwörter "
-#~ "und Chronik zugreifen. Bestätigen Sie einfach diese E-Mail-Adresse, um Ihr Konto zu aktivieren."
+#~ "Vor einigen Tagen haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Mit einem verifizierten Konto können Sie mit jedem damit verbundenen Gerät auf Ihre Tabs, Lesezeichen, Passwörter und "
+#~ "Chronik zugreifen. Bestätigen Sie einfach diese E-Mail-Adresse, um Ihr Konto zu aktivieren."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, es aber nie verifiziert. Wir machen uns Sorgen um Sie. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, "
-#~ "dass es Ihnen gut geht."
+#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, es aber nie verifiziert. Wir machen uns Sorgen um Sie. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass "
+#~ "es Ihnen gut geht."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Bestätigen Sie bitte diese Anmeldung zur Erhöhung der Sicherheit, um die Synchronisation mit diesem Gerät zu beginnen:"
@@ -644,8 +644,7 @@ msgstr "Nutzungsbedingungen"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Sie haben %(secondaryEmail)s erfolgreich als Zweit-E-Mail-Adresse Ihres Firefox-Kontos entfernt. Sicherheitshinweise und Anmeldebestätigungen werden nicht mehr an diese Adresse geschickt."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Sie haben %(secondaryEmail)s erfolgreich als Zweit-E-Mail-Adresse Ihres Firefox-Kontos verifiziert. Sicherheitsinformationen und Anmeldebestätigungen werden ab sofort an beide E-Mail-Adressen "
 #~ "verschickt."
@@ -655,8 +654,8 @@ msgstr "Nutzungsbedingungen"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Haben Sie sich in den letzten 60 Tagen von einem der folgenden Standorte in Ihr Firefox-Konto eingeloggt? Wenn Sie diese Standorte nicht kennen, hat sich möglicherweise eine andere Person "
-#~ "Zugriff zu Ihrem Firefox-Konto verschafft."
+#~ "Haben Sie sich in den letzten 60 Tagen von einem der folgenden Standorte in Ihr Firefox-Konto eingeloggt? Wenn Sie diese Standorte nicht kennen, hat sich möglicherweise eine andere Person Zugriff zu"
+#~ " Ihrem Firefox-Konto verschafft."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum und Uhrzeit:"
@@ -734,8 +733,8 @@ msgstr "Nutzungsbedingungen"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Wir machen uns Sorgen um Sie. Firefox gibt es für Windows, Mac, Linux, Android und iOS. Damit können Sie über alle "
-#~ "Geräte hinweg Ihre Passwörter, Lesezeichen und Chronik synchronisieren. Bestätigen Sie Ihre E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass es Ihnen gut geht."
+#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Wir machen uns Sorgen um Sie. Firefox gibt es für Windows, Mac, Linux, Android und iOS. Damit können Sie über alle Geräte "
+#~ "hinweg Ihre Passwörter, Lesezeichen und Chronik synchronisieren. Bestätigen Sie Ihre E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass es Ihnen gut geht."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -826,8 +825,7 @@ msgstr "Nutzungsbedingungen"
 #~ msgstr "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht geändert haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht zurückgesetzt haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
+#~ msgstr "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht zurückgesetzt haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Ein neues Gerät wird nun mit Ihrem Firefox-Konto synchronisiert"
