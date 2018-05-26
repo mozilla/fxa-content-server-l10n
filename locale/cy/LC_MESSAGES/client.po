@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 09:49+0000\n"
+"PO-Revision-Date: 2018-05-26 09:51+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -1486,7 +1486,7 @@ msgstr "Galluogi…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan un o'r <a%(escapedTotpSupportAttributes)s>apiau dilysu hyn.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1546,7 +1546,7 @@ msgstr "Beth yw eich oed?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Dangos cyfrinair"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1554,7 +1554,7 @@ msgstr "Chwilio am Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cychwyn arni 
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Defnyddiwch gyfeiriad e-bost gwahanol"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
