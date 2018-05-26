@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 22:09+0000\n"
+"PO-Revision-Date: 2018-05-26 22:24+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -56,7 +56,7 @@ msgstr "Restam poucos códigos de recuperação"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -91,7 +91,7 @@ msgstr "Política de privacidade da Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
