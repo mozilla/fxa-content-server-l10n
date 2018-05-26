@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-03-30 22:53+0000\n"
+"PO-Revision-Date: 2018-05-26 03:42+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -19,13 +19,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> "
-"dan <a href='%(iosUrl)s'>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> dan"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Sambungkan mana-mana <a href='%(androidUrl)s'>Firefox untuk Android</a> atau <a href='%(iosUrl)s'>Firefox untuk iOS</a> "
 "lain untuk dapatkan kelebihannya."
@@ -51,19 +51,19 @@ msgstr "Akaun Firefox"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Kod pemulihan semakin habis"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Kami mengesan bahawa kod pemulihan anda semakin habis. Sila jana kod baru untuk mengelakkan anda terkunci di luar akaun."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "Jana kod"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "Ini adalah e-mel automatik."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
@@ -90,11 +90,11 @@ msgstr "Polisi Privasi Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Kami mengesan bahawa kod pemulihan anda semakin habis. Sila jana kod baru untuk mengelakkan anda terkunci di luar akaun."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Jana kod:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
@@ -302,8 +302,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</"
-"a> dan <a %(iosLinkAttributes)s>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</a>"
+" dan <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -608,11 +608,11 @@ msgstr "Terma Perkhidmatan"
 #~ msgstr "Hello."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Beberapa hari yang lalu anda telah mencipta akaun Firefox, tetapi tidak pernah disahkan. Akaun yang telah disahkan membolehkan anda mencapai tab, tanda buku, kata laluan dan sejarah pada "
-#~ "sebarang peranti yang disambungkan kepadanya. Anda hanya perlu mengesahkan alamat e-mel ini untuk mengaktifkan akaun anda."
+#~ "Beberapa hari yang lalu anda telah mencipta akaun Firefox, tetapi tidak pernah disahkan. Akaun yang telah disahkan membolehkan anda mencapai tab, tanda buku, kata laluan dan sejarah pada sebarang "
+#~ "peranti yang disambungkan kepadanya. Anda hanya perlu mengesahkan alamat e-mel ini untuk mengaktifkan akaun anda."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -640,8 +640,7 @@ msgstr "Terma Perkhidmatan"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Anda telah berjaya membuang %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Notifikasi keselamatan dan pengesahan daftar masuk tidak lagi akan dihantar ke alamat ini."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Anda telah berjaya mengesahkan %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Sekarang, notifikasi keselamatan dan pengesahan daftar masuk akan dihantar ke alamat e-mel berkenaan."
 
