@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 08:46+0000\n"
+"PO-Revision-Date: 2018-05-26 09:02+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -245,7 +245,7 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
 msgid "Recovery code consumed"
-msgstr "Oppattbyggingskode brukt"
+msgstr "Gjenopprettingskode brukt"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
@@ -253,15 +253,15 @@ msgstr "Du har brukt ein oppattbyggingskode frå følgjande eining:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr "Brukt oppattbyggingskode"
+msgstr "Brukt gjenopprettingskode"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:994
 msgid "New recovery codes generated"
-msgstr "Nye oppattbyggingskodar generert"
+msgstr "Nye gjenopprettingskodar generert"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Du har generert nye oppattbyggingskodar frå følgjande eining:"
+msgstr "Du har generert nye gjenopprettingskodar frå følgjande eining:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
