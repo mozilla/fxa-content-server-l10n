@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-25 22:18+0000\n"
+"PO-Revision-Date: 2018-05-26 13:21+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1461,7 +1461,7 @@ msgstr "新しい回復コードを生成"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "これらは 1 回のみ使用可能な回復コードです。携帯端末へのアクセスを失った場合に備えて安全な場所に保管してください。これらのコードを再度表示することはできません。"
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
