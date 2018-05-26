@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 13:21+0000\n"
+"PO-Revision-Date: 2018-05-26 13:48+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1481,7 +1481,7 @@ msgstr "有効化..."
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "<a %(escapedTotpSupportAttributes)s>これらの認証アプリ</a> のいずれかからセキュリティコードを必須とすることでアカウントのセキュリティレベルを高めます。"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
