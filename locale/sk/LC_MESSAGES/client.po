@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 10:09+0000\n"
+"PO-Revision-Date: 2018-05-26 10:13+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1419,6 +1419,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Ak tento účet používate na prístup k iným aplikáciám a službám Mozilly (AMO, Pocket a Screenshots), mali by ste sa najprv prihlásiť a odstrániť akékoľvek uložené osobné údaje. Po odstránení účtu k "
+"nim stratíte prístup."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1466,7 +1468,7 @@ msgstr "Vygenerovať nové obnovovacie kódy"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Toto sú vaše jednorázové obnovovacie kódy. Uložte si ich na bezpečné miesto pre prípad, že ku svojmu mobilnému zariadeniu stratíte prístup. Tieto kódy sa vám už nezobrazia."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1486,7 +1488,7 @@ msgstr "Povoliť…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania bezpečnostných kódov vygenerovaných jednou z <a %(escapedTotpSupportAttributes)s>týchto overovacích aplikácií.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1546,7 +1548,7 @@ msgstr "Koľko máte rokov?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Zobraziť heslo"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1554,7 +1556,7 @@ msgstr "Hľadáte Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Začnite tu</a
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Použiť inú e-mailovú adresu"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
