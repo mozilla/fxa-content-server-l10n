@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 21:28+0000\n"
+"PO-Revision-Date: 2018-05-27 19:21+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1472,7 +1472,7 @@ msgstr "Générer de nouveaux codes de secours"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Voici vos codes de secours à usage unique. Conservez-les en lieu sûr au cas où vous n’auriez plus accès à votre appareil mobile. Les codes ne seront affichés qu’une seule fois."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
