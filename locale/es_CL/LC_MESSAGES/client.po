@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-27 04:05+0000\n"
+"PO-Revision-Date: 2018-05-27 04:17+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1488,7 +1488,7 @@ msgstr "Activar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr "Añade una capa de seguridad a tu cuenta solicitando códigos de seguridad de alguna de <a%(escapedTotpSupportAttributes)s>estas aplicaciones de autenticación</a>."
+msgstr "Añade una capa de seguridad a tu cuenta solicitando códigos de seguridad de alguna de <a %(escapedTotpSupportAttributes)s>estas aplicaciones de autenticación</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
