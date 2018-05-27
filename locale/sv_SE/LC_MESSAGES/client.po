@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-27 22:11+0000\n"
+"PO-Revision-Date: 2018-05-27 22:12+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1485,7 +1485,7 @@ msgstr "Aktivera…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Lägg till ett säkerhetslager till ditt konto genom att kräva säkerhetskoder från en av <a %(escapedTotpSupportAttributes)s>dessa autentiseringsappar.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1553,7 +1553,7 @@ msgstr "Letar du efter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s=\"\">Kom 
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Använd en annan e-postadress"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
