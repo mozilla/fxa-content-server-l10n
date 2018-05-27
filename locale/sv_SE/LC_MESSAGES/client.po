@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-27 06:55+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2018-05-27 22:11+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -874,7 +874,7 @@ msgstr "Kontrollera din e-post efter den verifieringslänk som skickas till %(es
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrollera din e-post efter länken för inloggningsbekräftelse som skickas till %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1416,6 +1416,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Om du använder det här kontot för Mozillas appar och tjänster som AMO, Pocket och Screenshots, bör du först logga in och ta bort eventuell sparad personlig information. När du har raderat ditt konto"
+" här kan du förlora åtkomst till det överallt."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1455,7 +1457,7 @@ msgstr "OBS:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Genom att generera nya återställningskoder blir alla tidigare koder ogiltiga. Var god lagra nya koder på ett säkert ställe."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1463,7 +1465,7 @@ msgstr "Skapa nya återställningskoder"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Dessa är dina återanvändningskoder som kan användas en gång. Förvara dem på ett säkert ställe om du förlorar åtkomst till din mobila enhet. Du kommer inte att kunna se dessa koder igen."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
