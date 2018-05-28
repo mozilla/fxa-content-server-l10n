@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-27 19:37+0000\n"
+"PO-Revision-Date: 2018-05-28 20:08+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -734,7 +734,7 @@ msgstr "Jeton invalide"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
+"En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">Conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">Politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
 
 #: .es5/lib/strings.js:33
@@ -974,7 +974,7 @@ msgstr "Mot de passe oublié ?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "En continuant, vous acceptez les <a id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a>."
+msgstr "En continuant, vous acceptez les <a id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a id=\"fxa-pp\" href=\"/legal/privacy\">Politique de confidentialité</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1425,6 +1425,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Si vous utilisez ce compte pour des applications et services Mozilla comme AMO, Pocket, Screenshots, vous devriez d’abord vous connecter et supprimer toutes informations personnelles enregistrées. "
+"Une fois que vous supprimez votre compte ici vous risquez de perdre l’accès partout où vous l’utilisez."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
