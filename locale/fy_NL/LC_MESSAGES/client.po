@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-28 06:11+0000\n"
+"PO-Revision-Date: 2018-05-28 06:15+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1460,7 +1460,7 @@ msgstr "NOTYSJE:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Troch nije werstelkoades te generearjen, wurde alle foargeande koaden ûnjildich. Bewarje nije koaden op in feilige lokaasje."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1468,7 +1468,7 @@ msgstr "Nije werstelkoaden generearje"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Dit binne jo werstelkoaden foar ienmalich gebrûk. Bewarje se op in feilich plak foar it gefal dat jo gjin tagong mear hawwe ta jo mobile apparaat. Jo kinne dizze koaden net mear sjen."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1488,7 +1488,7 @@ msgstr "Ynskeakelje…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan <a %(escapedTotpSupportAttributes)s>dizze apps foar autentikaasje</a> te fereaskjen"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1548,7 +1548,7 @@ msgstr "Hoe âld binne jo?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Wachtwurd toane"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1556,7 +1556,7 @@ msgstr "Sykje jo Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Begjin hjir</a>
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "In oar e-mailadres brûke"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
