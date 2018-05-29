@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-26 15:54+0000\n"
-"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
+"PO-Revision-Date: 2018-05-29 11:13+0000\n"
+"Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -1419,6 +1419,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Si tu usa iste conto pro applicationes e servicios de Mozilla como AMO, Pocket e Screenshots, tu debe primo aperir session e eliminar omne information personal presente. Un vice que tu dele hic tu "
+"conto, tu pote perder le accesso a illo ubique."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1458,7 +1460,7 @@ msgstr "NOTA:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Quando tu genera nove codices de recuperation, omne previe codices devenira invalide. Per favor, immagazina le nove codices in un loco secur."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
