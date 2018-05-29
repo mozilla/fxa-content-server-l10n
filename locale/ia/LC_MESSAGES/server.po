@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-29 12:42+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2018-05-26 16:10+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Contos de Firefox"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Pauc codices de recuperation restante"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -59,11 +59,11 @@ msgstr "Nos ha constatate que te resta pauc codices de recuperation. Considera g
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "Generar codices"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "Iste e-mail ha essite inviate automaticamente."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
@@ -90,11 +90,11 @@ msgstr "Politica de confidentialitate de Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Nos ha constatate que te resta pauc codices de recuperation. Considera generar nove codices pro evitar perder le accesso a tu conto."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Generar codices:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
