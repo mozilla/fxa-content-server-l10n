@@ -1,14 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-05-29 00:15+0000\n"
+"Last-Translator: akmalxster <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
 
 #: lib/senders/templates/_pending.txt:1
 msgid ""
@@ -18,17 +22,17 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Boshqa qurilmani ulash"
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sinxronizatsiyalash uchun hisobingizga kiring"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1
@@ -39,7 +43,7 @@ msgstr ""
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Hisoblari"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
@@ -55,7 +59,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "Bu avtomatik yuboriladigan xat."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
@@ -63,7 +67,7 @@ msgstr ""
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
 #: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Batafsil ma’lumot olish uchun <a %(supportLinkAttributes)s>Mozilla yordami</a> sahifasiga kiring."
 
 #: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
@@ -78,7 +82,7 @@ msgstr ""
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla maxfiylik siyosati"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -110,7 +114,7 @@ msgstr ""
 #: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
 #: lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP manzil: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5
 #: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
