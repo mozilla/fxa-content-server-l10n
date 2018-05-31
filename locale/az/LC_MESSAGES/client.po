@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-27 17:17+0000\n"
+"PO-Revision-Date: 2018-05-31 02:17+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -1416,6 +1416,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Əgər bu hesabı Mozilla tətbiqləri və AMO, Pocket və Ekran Görüntüləri kimi xidmətləri üçün işlədirsinizsə ilk olaraq daxil olaraq saxlanılmış bütün məxfi məlumatlarınızı silməlisiniz. Hesabı burada "
+"silsəniz bütün xidmətlərə girişi itirəcəksiniz."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1455,7 +1457,7 @@ msgstr "QEYD:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Yeni bərpa kodları yaratdığınızda əvvəlkilər keçərsiz olacaqlar. Lütfən yeni kodları təhlükəsiz yerdə saxlayın."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1463,7 +1465,7 @@ msgstr "Yeni bərpa kodlarını yarat"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Bunlar tək istifadəlik bərpa kodlarınızdır. Mobil cihazlarınızı itirə bilərsiz deyə onları təhlükəsiz yerdə saxlayın. Bu kodlara təkrar baxa bilməyəcəksiz."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1483,7 +1485,7 @@ msgstr "Aktivləşdir…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "<a %(escapedTotpSupportAttributes)s>Bu daxil olma tətbiqləri</a>ndən birindən təhlükəsizlik kodlarını tələb etməklə hesabınıza təhlükəsizlik təbəqəsi əlavə edin."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
