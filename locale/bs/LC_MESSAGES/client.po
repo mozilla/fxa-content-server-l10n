@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-01 16:05+0000\n"
 "PO-Revision-Date: 2018-05-28 12:11+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,19 +218,19 @@ msgstr "Primarni email postavljen na %(email)s"
 msgid "Secondary email"
 msgstr "Sekundarna email adresa"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:63
 msgid "Codes copied"
 msgstr "Kodovi kopirani"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:65
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Neuspjelo kopiranje kodova. Molimo kopirajte ih ručno."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:109
 msgid "New recovery codes generated"
 msgstr "Novi kodovi za oporavak su generisani"
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:143 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Autentifikacija u dva koraka je omogućena"
 
@@ -728,7 +728,9 @@ msgid "Invalid Token"
 msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
 "(%(serviceUri)s)."
@@ -976,8 +978,8 @@ msgstr "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\">usl
 msgid "Enter your email"
 msgstr "Upišite vaš email"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Nastavi na %(serviceName)s"
 
@@ -1278,8 +1280,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Očisti"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1379,7 +1381,8 @@ msgstr "Firefox za Android"
 msgid "Missing or duplicate items?"
 msgstr "Nestala ili dupla stavka?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Osvježi"
 
@@ -1468,7 +1471,7 @@ msgstr "Generišite nove kodove za oporavak"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Ovo su vaši kodovi za jednokratnu upotrebu. Sačuvajte ih na sigurno mjesto u slučaju da izgubite pristup vašem mobilnom uređaju. Nećete imati priliku da ponovo vidite ove kodove."
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "Kopiraj"
 

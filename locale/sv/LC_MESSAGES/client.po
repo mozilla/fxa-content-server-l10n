@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-01 22:03+0000\n"
+"POT-Creation-Date: 2018-06-01 16:05+0000\n"
+"PO-Revision-Date: 2018-05-27 22:12+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -219,19 +219,19 @@ msgstr "Primär e-postadress satt till %(email)s"
 msgid "Secondary email"
 msgstr "Sekundär e-post"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:63
 msgid "Codes copied"
 msgstr "Koder kopierade"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:65
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Misslyckades med att kopiera koder. Var god kopiera dem manuellt."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:109
 msgid "New recovery codes generated"
 msgstr "Nya återställningskoder genererade"
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:143 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Tvåstegsautentisering aktiverad"
 
@@ -878,7 +878,7 @@ msgstr "Kontrollera din e-post efter den verifieringslänk som skickas till %(es
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrollera din e-post efter länken för inloggningsbekräftelse som skickas till %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1281,7 +1281,7 @@ msgid "Clear"
 msgstr "Rensa"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Klar"
 
@@ -1421,6 +1421,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Om du använder det här kontot för Mozillas appar och tjänster som AMO, Pocket och Screenshots, bör du först logga in och ta bort eventuell sparad personlig information. När du har raderat ditt "
+"konto här kan du förlora åtkomst till det överallt."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1460,7 +1462,7 @@ msgstr "OBS:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Genom att generera nya återställningskoder blir alla tidigare koder ogiltiga. Var god lagra nya koder på ett säkert ställe."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1468,9 +1470,9 @@ msgstr "Skapa nya återställningskoder"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Dessa är dina återanvändningskoder som kan användas en gång. Förvara dem på ett säkert ställe om du förlorar åtkomst till din mobila enhet. Du kommer inte att kunna se dessa koder igen."
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "Kopiera"
 
@@ -1488,7 +1490,7 @@ msgstr "Aktivera…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Lägg till ett säkerhetslager till ditt konto genom att kräva säkerhetskoder från en av <a %(escapedTotpSupportAttributes)s>dessa autentiseringsappar.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1548,7 +1550,7 @@ msgstr "Hur gammal är du?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Visa lösenord"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1556,7 +1558,7 @@ msgstr "Letar du efter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s=\"\">Kom 
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Använd en annan e-postadress"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"

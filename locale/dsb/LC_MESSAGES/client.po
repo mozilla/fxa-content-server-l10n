@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-01 16:05+0000\n"
 "PO-Revision-Date: 2018-05-02 18:13+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -219,19 +219,19 @@ msgstr "Primarna e-mailowa adresa jo se na %(email)s stajiła"
 msgid "Secondary email"
 msgstr "Druga e-mailowa adresa"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:63
 msgid "Codes copied"
 msgstr "Kody kopěrowane"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:65
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Kody njejsu se dali kopěrowaś. Pšosym kopěrujśo je manuelnje."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:109
 msgid "New recovery codes generated"
 msgstr "Nowe wótnowjeńske kody napórane"
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:143 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Dwójokšacowa awtentifikacija jo se zmóžniła"
 
@@ -1282,7 +1282,7 @@ msgid "Clear"
 msgstr "Lašowaś"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Gótowo"
 
@@ -1470,7 +1470,7 @@ msgstr "Nowe wótnowjeńske kody napóraś"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "Kopěrowaś"
 

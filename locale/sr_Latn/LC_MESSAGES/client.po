@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-02 17:11+0000\n"
+"POT-Creation-Date: 2018-06-01 16:05+0000\n"
+"PO-Revision-Date: 2018-05-29 18:42+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -269,19 +269,19 @@ msgstr "Kao primarna adresa je postavljena %(email)s"
 msgid "Secondary email"
 msgstr "Sekundarna adresa"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:63
 msgid "Codes copied"
 msgstr "Kodovi kopirani"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:65
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Neuspešno kopiranje kodova. Kopirajte ih ručno."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:109
 msgid "New recovery codes generated"
 msgstr "Novi kodovi za oporavak su generisani"
 
-#: .es5/views/settings/recovery_codes.js:125
+#: .es5/views/settings/recovery_codes.js:143
 #: .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
 msgstr "Autentifikacija u dva koraka je omogućena"
@@ -990,6 +990,8 @@ msgstr ""
 msgid ""
 "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr ""
+"Proverite vašu e-poštu radi veze za potvrdu koja je poslata na "
+"%(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11
 #: .es5/templates/confirm_reset_password.mustache:4
@@ -1550,7 +1552,7 @@ msgstr "Očisti"
 #: .es5/templates/settings/clients.mustache:28
 #: .es5/templates/settings/communication_preferences.mustache:12
 #: .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:14
+#: .es5/templates/settings/recovery_codes.mustache:16
 #: .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Gotovo"
@@ -1719,6 +1721,10 @@ msgid ""
 "information. Once you delete your account here you may lose access to it "
 "everywhere."
 msgstr ""
+"Ako koristite ovaj nalog za Mozilla-ine aplikacije i servise kao što su AMO, "
+"Pocket i Screenshots, prvo morate pristupiti i ukloniti sve sačuvane lične "
+"informacije. Jednom kada obrišete vaš nalog ovde, možete mu izgubiti pristup "
+"svugde."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid ""
@@ -1773,6 +1779,8 @@ msgid ""
 "By generating new recovery codes, all previous codes will become invalid. "
 "Please store new codes in a safe location."
 msgstr ""
+"Generisanjem novih kodova za oporavak, svi vaši prethodni kodovi će postati "
+"nevažeći. Sačuvajte nove kodove na sigurnu lokaciju."
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 #: .es5/templates/settings/recovery_codes.mustache:9
@@ -1785,8 +1793,12 @@ msgid ""
 "the event you lose access to your mobile device. You will not be able to see "
 "these codes again."
 msgstr ""
+"Ovo su vaši kodovi za oporavak za jednokratnu upotrebu. Sačuvajte ih na "
+"sigurno mesto u slučaju da izbite pristup vašem mobilnom uređaju. Nećete "
+"moći videti ove kodove ponovo."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "Kopiraj"
 
@@ -1807,6 +1819,9 @@ msgid ""
 "Add a layer of security to your account by requiring security codes from one "
 "of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 msgstr ""
+"Dodajte dodatan nivo zaštite vašem nalogu zahtevanjem bezbednosnih kodova od "
+"jedne od <a %(escapedTotpSupportAttributes)s>ovih aplikacija za "
+"autentifikaciju.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1875,7 +1890,7 @@ msgstr "Koliko imate godina?"
 #: .es5/templates/partial/show-password.mustache:1
 #: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Prikaži lozinku"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid ""
@@ -1886,7 +1901,7 @@ msgstr ""
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Koristi drugačiju elektronsku adresu"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
