@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-31 23:43+0000\n"
+"PO-Revision-Date: 2018-06-01 00:08+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1516,7 +1516,7 @@ msgstr "Vytvořit nové záložní kódy"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Naskenujte ve svém ověřovací aplikaci QR kód a poté zadejte vygenerovaný bezpečnostní kód."
+msgstr "Naskenujte ve své ověřovací aplikaci QR kód a poté zadejte vygenerovaný bezpečnostní kód."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
