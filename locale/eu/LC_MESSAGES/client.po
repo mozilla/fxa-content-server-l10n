@@ -1465,19 +1465,19 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
-msgstr ""
+msgstr "Kopiatu"
 
 #: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
-msgstr ""
+msgstr "Inprimatu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Bi urratseko autentifikazioa"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Gaitu…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
@@ -1485,23 +1485,23 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Uneko egoera"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "Gaituta"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "Desgaituta"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "Desgaitu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "Gaitu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
