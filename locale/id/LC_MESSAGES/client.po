@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-06-02 19:00+0000\n"
+"PO-Revision-Date: 2018-06-02 19:16+0000\n"
 "Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -872,7 +872,7 @@ msgstr "Periksa surel Anda untuk tautan verifikasi dikirim&nbsp;ke %(escapedEmai
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Periksa surel Anda untuk tautan konfirmasi proses masuk yang dikirim ke %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1450,7 +1450,7 @@ msgstr "CATATAN:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Dengan membuat kode pemulihan baru, semua kode sebelumnya akan menjadi tidak valid. Silakan simpan kode baru ini di lokasi yang aman."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1458,7 +1458,7 @@ msgstr "Buat kode pemulihan baru"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Berikut adalah kode pemulihan sekali pakai. Simpan di tempat yang aman jika Anda kehilangan akses ke ponsel Anda. Anda tidak akan dapat melihat kode-kode ini lagi."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1478,7 +1478,7 @@ msgstr "Aktifkan…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan dari salah satu <a %(escapedTotpSupportAttributes)s>aplikasi autentikasi berikut.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
