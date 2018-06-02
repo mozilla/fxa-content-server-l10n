@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-04-16 19:11+0000\n"
+"PO-Revision-Date: 2018-06-02 19:00+0000\n"
 "Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -173,11 +173,11 @@ msgstr "Lebih dari %(translatedTimeAgo)s di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Lebih dari %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -189,7 +189,7 @@ msgstr "Sesi Web"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Waktu terakhir sinkronisasi tidak diketahui"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -221,27 +221,27 @@ msgstr "Surel kedua"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Kode disalin"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Gagal menyalin kode. Silakan menyalinnya secara manual."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Kode pemulihan baru dibuat"
 
 #: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Autentikasi dua langkah diaktifkan"
 
 #: .es5/views/settings/two_step_authentication.js:136
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Autentikasi dua langkah dihapus"
 
 #: .es5/views/settings/two_step_authentication.js:176
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Autentikasi Dua Langkah"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -273,7 +273,7 @@ msgstr "Buka Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Surel dikirim ulang. Tambahkan accounts@firefox.com ke kontak Anda untuk memastikan pengiriman yang lancar."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -626,19 +626,19 @@ msgstr "Nomor telepon diperlukan"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Kode autentikasi dua langkah dibutuhkan"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Kode autentikasi dua langkah tidak valid"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Kode pemulihan dibutuhkan"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Kode pemulihan tidak valid"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -658,7 +658,7 @@ msgstr "Silakan coba kembali nanti"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Layanan tidak tersedia, coba lagi nanti"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -729,12 +729,8 @@ msgid "Invalid Token"
 msgstr "Token Tidak Valid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -840,7 +836,7 @@ msgstr "Sandi baru"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Konfirmasi sandi"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -929,7 +925,7 @@ msgstr "Masuk ke Firefox di perangkat lainnya untuk menyelesaikan persiapan"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Masih menambahkan perangkat? Masuk ke Firefox di perangkat lainnya untuk menyelesaikan persiapan"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -971,14 +967,14 @@ msgstr "Lupa sandi?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Bila melanjutkan, Anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Masukkan surel Anda"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Lanjut ke %(serviceName)s"
 
@@ -1103,19 +1099,19 @@ msgstr "Tidak lagi memiliki surel ini? Buat akun baru"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Masukkan kode pemulihan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Silakan masukkan kode pemulihan yang tersedia pada saat pengaturan."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Masukkan 10 digit kode pemulihan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "Verifikasi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1143,7 +1139,7 @@ msgstr "Masukkan kode"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Buka aplikasi autentikasi Anda dan masukkan kode keamanan yang disediakan."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1151,7 +1147,7 @@ msgstr "Masukkan kode 6 digit"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Gunakan kode pemulihan"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1171,7 +1167,7 @@ msgstr "Ulangi sandi"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Jangan kehilangan sandi ini. Jika Anda perlu menyetel ulang, Anda mungkin kehilangan data Sync."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1277,8 +1273,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Bersihkan"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Selesai"
 
@@ -1378,8 +1374,7 @@ msgstr "Firefox untuk Android"
 msgid "Missing or duplicate items?"
 msgstr "Item hilang atau terduplikasi?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh"
 msgstr "Segarkan"
 
@@ -1447,11 +1442,11 @@ msgstr "Tambah"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "Kode pemulihan"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "CATATAN:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
@@ -1459,7 +1454,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Buat kode pemulihan baru"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1475,11 +1470,11 @@ msgstr "Cetak"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Autentikasi dua langkah"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Aktifkan…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
@@ -1511,7 +1506,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Pindai kode QR pada aplikasi autentikasi Anda dan masukkan kode keamanan yang tersedia."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1519,7 +1514,7 @@ msgstr "Tidak dapat memindai kode?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Masukkan kunci rahasia ini secara manual ke aplikasi autentikasi Anda:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1535,7 +1530,7 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Surel utama"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1543,7 +1538,7 @@ msgstr "Berapa usia Anda?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Tampilkan kata sandi"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1551,7 +1546,7 @@ msgstr "Mencari Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Mulailah di sini
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Gunakan alamat surel yang berbeda"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1615,8 +1610,7 @@ msgstr "Masuk"
 #~ msgstr "Klik pada tautan yang dikirimkan via surel di %(email)s dalam beberapa jam kemudian untuk membuat sandi baru."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+#~ msgstr "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Layanan awan Firefox"
@@ -1790,19 +1784,18 @@ msgstr "Masuk"
 #~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
-#~ "Anda simpan di Firefox desktop akan muncul."
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah Anda "
+#~ "simpan di Firefox desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
-#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
-#~ "perangkat."
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu perangkat."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1887,11 +1880,9 @@ msgstr "Masuk"
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -2047,8 +2038,7 @@ msgstr "Masuk"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr ""
-#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -2105,8 +2095,7 @@ msgstr "Masuk"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
-#~ "sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
