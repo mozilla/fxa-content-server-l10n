@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-06-03 03:30+0000\n"
+"PO-Revision-Date: 2018-06-03 03:36+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1461,7 +1461,7 @@ msgstr "Sirew tingalin n tririt timaynutin"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Atentan tingalin n usellek ara tesqedceḍ tikelt. Ḥrez-itent deg umḍiq ilaqen ticki ur tesɛiḍ ara anekcum ar yibenk aziraz. Tingalin ad d-ttwaseknent kan yiwet n tikelt."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
@@ -1481,7 +1481,7 @@ msgstr "Rmed…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Rnu tissi n tɣellist-nniḍen  ar umiḍan-ik s usuter n tingalin n tɣellist seg yiwen seg %(escapedTotpSupportAttributes)s yisnasen-agi n usesteb.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
