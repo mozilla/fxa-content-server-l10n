@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-05-29 04:28+0000\n"
+"PO-Revision-Date: 2018-06-03 12:34+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -65,7 +65,7 @@ msgstr "Ensisijainen sähköposti vahvistettu"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Tilin ilmoitukset lähetetään nyt myös osoitteeseen %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
@@ -181,11 +181,11 @@ msgstr "Yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(transl
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Verkkoistunto, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "Verkkoistunto"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
@@ -221,27 +221,27 @@ msgstr "Toissijainen sähköposti"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Codes copied"
-msgstr ""
+msgstr "Koodit kopioitu"
 
 #: .es5/views/settings/recovery_codes.js:47
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Koodien kopiointi epäonnistui. Kopioi koodit käsin."
 
 #: .es5/views/settings/recovery_codes.js:91
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Uudet palautuskoodit luotu"
 
 #: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Kaksivaiheinen todennus otettu käyttöön"
 
 #: .es5/views/settings/two_step_authentication.js:136
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Kaksivaiheinen todennus poistettu käytöstä"
 
 #: .es5/views/settings/two_step_authentication.js:176
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Kaksivaiheinen todennus"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -634,11 +634,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Palautuskoodi vaaditaan"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Virheellinen palautuskoodi"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1440,7 +1440,7 @@ msgstr "Lisää"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "Palautuskoodit"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1452,7 +1452,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Luo uudet palautuskoodit"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1468,7 +1468,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Kaksivaiheinen todennus"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
@@ -1500,7 +1500,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Korvaa palautuskoodit"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Ensisijainen sähköposti"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1536,7 +1536,7 @@ msgstr "Kuinka vanha olet?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Näytä salasana"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
