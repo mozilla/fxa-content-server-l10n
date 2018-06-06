@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-06-02 19:17+0000\n"
-"Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
+"PO-Revision-Date: 2018-06-06 07:26+0000\n"
+"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -52,11 +52,11 @@ msgstr "Firefox Account"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Kode pemulihan tersedia sedikit lagi"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Kami mengetahui bahwa Anda mulai kekurangan kode pemulihan. Silakan segera hasilkan kode baru untuk menghindari terkuncinya akun Anda."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -91,7 +91,7 @@ msgstr "Kebijakan Privasi Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Kami telah diberitahu bahwa Anda mulai kekurangan kode pemulihan. Silakan segera hasilkan kode baru untuk menghindari terkuncinya akun Anda."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
@@ -153,7 +153,7 @@ msgstr "Sandi akun Anda telah berubah"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Anda perlu memasukkan sandi baru Anda pada peranti lain untuk terus tersinkronisasi."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -161,7 +161,7 @@ msgstr "Jika Anda tidak mengubahnya, silakan <a %(resetLinkAttributes)s>setel ul
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Jika Anda tidak mengubahnya, silakan setel ulang sandi Anda sekarang di %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -208,7 +208,7 @@ msgstr "Anda berhasil mengaktifkan autentikasi dua langkah pada Firefox Account 
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Kode keamanan dari aplikasi autentikasi Anda akan diperlukan untuk setiap masuk."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
 #: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
@@ -218,7 +218,7 @@ msgstr "Kelola akun"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Anda berhasil mengaktifkan autentikasi dua langkah pada Firefox Account Anda. Kode keamanan dari aplikasi autentikasi Anda akan diperlukan untuk setiap masuk."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -241,18 +241,19 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Anda sukses mengubah surel utama Anda ke %(email)s. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke Firefox Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Kode pemulihan telah terpakai"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Anda berhasil memakai kode pemulihan dari perangkat berikut:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Kode pemulihan yang telah terpakai"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:994
 msgid "New recovery codes generated"
@@ -286,11 +287,11 @@ msgstr "Anda berhasil menonaktifkan autentikasi dua langkah pada Firefox Account
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Kode keamanan tidak akan diperlukan untuk setiap masuk."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Anda berhasil menonaktifkan otentikasi dua langkah pada akun Firefox Anda. Kode keamanan tidak diperlukan lagi ketika catat masuk."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -326,7 +327,7 @@ msgstr "Perlu menyetel ulang sandi Anda?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Klik tombol dalam beberapa jam untuk membuat sandi baru. Permintaan berasal dari perangkat berikut:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -378,7 +379,7 @@ msgstr "Aktivasi sekarang:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Untuk keamanan tambahan, mohon konfirmasi proses masuk dari perangkat berikut:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
