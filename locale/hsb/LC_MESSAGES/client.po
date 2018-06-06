@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-06-06 13:28+0000\n"
+"PO-Revision-Date: 2018-06-06 13:37+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1468,7 +1468,7 @@ msgstr "Nowe wobnowjenske kody wutworić"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "To su waše wobnjowenske kody za jónkróćne wužiwanje. Składujće je na wěstym městnje, jeli přistup na waš mobilny grat zhubiće. Njemóžeće tute kody zaso widźeć."
 
 #: .es5/templates/settings/recovery_codes.mustache:11
 msgid "Copy"
