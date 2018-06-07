@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-03-14 00:40+0000\n"
-"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
+"PO-Revision-Date: 2018-06-07 11:02+0000\n"
+"Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -114,7 +114,7 @@ msgstr ""
 #: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
 #: lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP முகவரி: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5
 #: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
@@ -168,11 +168,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "நீங்கள் என்ன செய்ய வேண்டும்?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "முதலில் உங்கள் பயர்பாக்சு கணக்கின் கடவுச்சொல்லை மாற்றவும்."
 
 #: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
@@ -321,7 +321,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "புதிய கடவுச்சொல்லை உருவாக்குங்கள்"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -572,9 +572,9 @@ msgstr "சேவைக நிபந்தனைகள்"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "கோரிக்கைப்படி, உங்கள் செல்பேசியில் பயர்பாஃசை நிறுவுவதற்கான ஒரு தொடுப்பு: %(link)s"
