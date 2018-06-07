@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-25 16:05+0000\n"
-"PO-Revision-Date: 2018-06-06 08:47+0000\n"
+"PO-Revision-Date: 2018-06-06 08:42+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -822,7 +822,7 @@ msgstr "Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saatta
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Luo uusi salasana"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -836,7 +836,7 @@ msgstr "Uusi salasana"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Kirjoita salasana uudelleen"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -917,7 +917,7 @@ msgstr "Kirjaudu &rarr;"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Lisäätkö vielä laitteita?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -1099,7 +1099,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Kirjoita palautuskoodi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Kirjoita 10-numeroinen palautuskoodi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1135,7 +1135,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Kirjoita koodi"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1143,7 +1143,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Kirjoita 6-numeroinen koodi"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1191,7 +1191,7 @@ msgstr "Onko sinulla jo tili? Kirjaudu sisään"
 
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
