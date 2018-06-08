@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-08 16:04+0000\n"
 "PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,43 +202,51 @@ msgstr "បាន​លុប​គណនី​ដោយ​ជោគជ័យ"
 msgid "Display name updated"
 msgstr "បាន​ប្ដូរ​ឈ្មោះ​បង្ហាញ​ថ្មី"
 
-#: .es5/views/settings/emails.js:89
+#: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr ""
 
-#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:85
+#: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
 msgstr ""
 
-#: .es5/views/settings/emails.js:147
+#: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
 msgstr ""
 
-#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:38
+msgid "Firefox Recovery Codes"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:136
+#: .es5/views/settings/two_step_authentication.js:128
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:176
+#: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
 msgstr ""
 
@@ -249,6 +257,14 @@ msgstr "គណនី​របស់​អ្នក​ត្រូវបាន​
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "កំណត់​ពាក្យ​សម្ងាត់​ឡើងវិញ"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:31
+msgid "none"
+msgstr ""
+
+#: .es5/views/mixins/last-checked-time-mixin.js:35
+msgid "Last checked: %(lastCheckTime)s"
+msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -274,7 +290,7 @@ msgstr "បើក Restmail"
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
+#: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr ""
 
@@ -1273,7 +1289,7 @@ msgid "Clear"
 msgstr ""
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr ""
 
@@ -1373,8 +1389,7 @@ msgstr ""
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr ""
 
@@ -1436,6 +1451,10 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
+#: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+msgid "Refresh Status"
+msgstr ""
+
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr ""
@@ -1460,7 +1479,7 @@ msgstr ""
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr ""
 

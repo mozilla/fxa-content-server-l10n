@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-08 16:04+0000\n"
 "PO-Revision-Date: 2018-05-27 08:24+0000\n"
 "Last-Translator: Artem Polivanchuk <artem@mozilla.org.ua>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,43 +203,51 @@ msgstr "Обліковий запис успішно видалено"
 msgid "Display name updated"
 msgstr "Ім'я для показу оновлено"
 
-#: .es5/views/settings/emails.js:89
+#: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "Альтернативну електронну пошту вилучено"
 
-#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:85
+#: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
 msgstr "Відправлено лист для підтвердження"
 
-#: .es5/views/settings/emails.js:147
+#: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
 msgstr "Встановити адресу %(email)s основною"
 
-#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Додаткова адреса електронної пошти"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:38
+msgid "Firefox Recovery Codes"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
 msgstr "Коди скопійовано"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Не вдалося скопіювати коди. Скопіюйте їх вручну."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
 msgstr "Нові коди відновлення згенеровано"
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
 msgstr "Двоетапну авторизацію увімкнено"
 
-#: .es5/views/settings/two_step_authentication.js:136
+#: .es5/views/settings/two_step_authentication.js:128
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
 msgstr "Двоетапну авторизацію вилучено"
 
-#: .es5/views/settings/two_step_authentication.js:176
+#: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
 msgstr "Двоетапна авторизація"
 
@@ -250,6 +258,14 @@ msgstr "З міркувань безпеки, ваш обліковий запи
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Відновити пароль"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:31
+msgid "none"
+msgstr ""
+
+#: .es5/views/mixins/last-checked-time-mixin.js:35
+msgid "Last checked: %(lastCheckTime)s"
+msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -275,7 +291,7 @@ msgstr "Відкрити Restmail"
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Повідомлення повторно надіслано. Додайте accounts@firefox.com до своїх контактів, для правильної доставки."
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
+#: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr "Основна адреса електронної пошти успішно підтверджена"
 
@@ -729,10 +745,12 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s"
-" (%(serviceUri)s)."
+"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -977,8 +995,8 @@ msgstr "Продовжуючи, ви погоджуєтесь із <a id=\"fxa-t
 msgid "Enter your email"
 msgstr "Адреса електронної пошти"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Продовжити в %(serviceName)s"
 
@@ -1281,8 +1299,8 @@ msgstr "Камера"
 msgid "Clear"
 msgstr "Очистити"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Готово"
 
@@ -1382,7 +1400,7 @@ msgstr "Firefox для Android"
 msgid "Missing or duplicate items?"
 msgstr "Втрачені елементи чи дублікати?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr "Оновити"
 
@@ -1421,8 +1439,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Якщо ви використовуєте цей обліковий запис для додатків Mozilla та сервісів на зразок AMO, Pocket і Screenshots, вам слід спершу увійти і вилучити будь-яку особисту інформацію. Якщо ви видалите свій"
-" обліковий запис тут, ви можете втратити до нього доступ всюди."
+"Якщо ви використовуєте цей обліковий запис для додатків Mozilla та сервісів на зразок AMO, Pocket і Screenshots, вам слід спершу увійти і вилучити будь-яку особисту інформацію. Якщо ви видалите "
+"свій обліковий запис тут, ви можете втратити до нього доступ всюди."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1448,6 +1466,10 @@ msgstr "Зробити основною"
 msgid "Remove"
 msgstr "Вилучити"
 
+#: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+msgid "Refresh Status"
+msgstr ""
+
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Додати"
@@ -1472,7 +1494,7 @@ msgstr "Генерувати нові коди відновлення"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Це ваші одноразові коди відновлення. Зберігайте їх в надійному місці на випадок, якщо ви втратите доступ до свого мобільного пристрою. Ви не зможете бачити ці коди знову."
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "Копіювати"
 
@@ -1611,8 +1633,8 @@ msgstr "Вхід"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr ""
-#~ "Невідомий обліковий запис Firefox. Щоб отримати доступ до своїх даних на сайті додатків, <a href=\"/signup\">зареєструйтеся</a> з використанням вашої попередньої адреси електронної пошти облікового "
-#~ "запису сайту додатків."
+#~ "Невідомий обліковий запис Firefox. Щоб отримати доступ до своїх даних на сайті додатків, <a href=\"/signup\">зареєструйтеся</a> з використанням вашої попередньої адреси електронної пошти "
+#~ "облікового запису сайту додатків."
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 #~ msgstr "Додаткова адреса електронної пошти призначена для сповіщень безпеки і підтвердження нових синхронізованих пристроїв"
@@ -1636,7 +1658,9 @@ msgstr "Вхід"
 #~ msgstr "Натисніть на посилання в повідомленні, яке ми надіслали вам на %(email)s протягом наступної години, щоб створити новий пароль."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням про приватність</a> хмарних сервісів Firefox."
+#~ msgstr ""
+#~ "Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням про приватність</a> хмарних сервісів "
+#~ "Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Хмарні сервіси Firefox"
@@ -1691,8 +1715,8 @@ msgstr "Вхід"
 
 #~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Не використовуйте пароль від своєї електронної пошти</span><br/>Якщо хтось знає ваш пароль електронної пошти, він може скористатися ним для входу на новому пристрої й отримати доступ до ваших "
-#~ "даних."
+#~ "<span>Не використовуйте пароль від своєї електронної пошти</span><br/>Якщо хтось знає ваш пароль електронної пошти, він може скористатися ним для входу на новому пристрої й отримати доступ до "
+#~ "ваших даних."
 
 #~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Запам'ятайте свій пароль</span><br/>Якщо вам знадобиться скинути пароль, ви втратите будь-які синхронізовані дані, яких немає на вашому пристрої."
@@ -1834,8 +1858,8 @@ msgstr "Вхід"
 #~ msgstr "Нащо синхронізувати два або більше пристроїв?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Синхронізація дозволяє вам обмінюватись закладками, історією та паролями, які ви зберігаєте у Firefox на одному пристрої з Firefox на інших пристроях. Увійдіть у Firefox на своєму телефоні чи "
 #~ "планшеті й ви отримаєте все, що зберігали у Firefox для комп'ютера."
@@ -1844,8 +1868,8 @@ msgstr "Вхід"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Синхронізація не призначена для постійного резервного копіювання – це лише обмін даними, які зберігаються локально. Якщо ви скинете свій пароль і ваші дані не зберігаються принаймні на одному іншому"
-#~ " пристрої, ви можете втратити всю інформацію. Ось чому вам варто встановити Firefox і використовувати синхронізацію на більше, ніж одному пристрої."
+#~ "Синхронізація не призначена для постійного резервного копіювання – це лише обмін даними, які зберігаються локально. Якщо ви скинете свій пароль і ваші дані не зберігаються принаймні на одному "
+#~ "іншому пристрої, ви можете втратити всю інформацію. Ось чому вам варто встановити Firefox і використовувати синхронізацію на більше, ніж одному пристрої."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1950,16 +1974,20 @@ msgstr "Вхід"
 #~ msgid "Sync preferences"
 #~ msgstr "Налаштування синхронізації"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Шукаєте Синхронізацію Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Почніть тут</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Шукаєте Синхронізацію Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Почніть тут</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Маєте обліковий запис з іншою адресою електронної пошти? <a href=\"%(signinUri)s\">Увійти</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> та <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> та <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Остання активність: %(translatedTimeAgo)s"
@@ -2129,7 +2157,8 @@ msgstr "Вхід"
 #~ msgstr "Ви дійсно хочете скинути пароль свого облікового запису?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які дані на ваших пристроях залишаться неушкодженими. Почніть процес скидання, ввівши свою адресу електронної пошти внизу."
+#~ msgstr ""
+#~ "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які дані на ваших пристроях залишаться неушкодженими. Почніть процес скидання, ввівши свою адресу електронної пошти внизу."
 
 #~ msgid "a day"
 #~ msgstr "день"
@@ -2331,13 +2360,17 @@ msgstr "Вхід"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Вже є обліковий запис? Увійти."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr ""
-#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами надання послуги</a> та<a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 #~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами надання послуги</a> та<a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> "
+#~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">повідомленням про приватність</a> хмарних сервісів Firefox."
+#~ msgstr ""
+#~ "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">повідомленням про приватність</a> хмарних сервісів "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Підписатись на новини та поради від Firefox"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-08 16:04+0000\n"
 "PO-Revision-Date: 2018-04-26 15:17+0000\n"
 "Last-Translator: SeulGi Choi (Chase) <cs09gi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,43 +203,51 @@ msgstr "계정이 성공적으로 삭제됨"
 msgid "Display name updated"
 msgstr "표시 이름 갱신됨"
 
-#: .es5/views/settings/emails.js:89
+#: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
 msgstr "두 번째 이메일 삭제됨"
 
-#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:85
+#: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
 msgstr "인증 이메일이 전송됨"
 
-#: .es5/views/settings/emails.js:147
+#: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
 msgstr "주 이메일을 %(email)s로 설정"
 
-#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "보조 이메일"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:38
+msgid "Firefox Recovery Codes"
+msgstr ""
+
+#: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
 msgstr "코드가 복사되었습니다"
 
-#: .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "코드 복사에 실패하였습니다. 수동으로 복사하십시오."
 
-#: .es5/views/settings/recovery_codes.js:91
+#: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
 msgstr "새로운 복구 코드가 생성되었습니다"
 
-#: .es5/views/settings/recovery_codes.js:125 .es5/views/settings/two_step_authentication.js:152
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
 msgstr "2단계 인증이 활성화되었습니다"
 
-#: .es5/views/settings/two_step_authentication.js:136
+#: .es5/views/settings/two_step_authentication.js:128
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr ""
+
+#: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
 msgstr "2단계 인증이 제거되었습니다"
 
-#: .es5/views/settings/two_step_authentication.js:176
+#: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
 msgstr ""
 
@@ -250,6 +258,14 @@ msgstr "보안상의 이유로 계정 잠김"
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "암호 초기화"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:31
+msgid "none"
+msgstr ""
+
+#: .es5/views/mixins/last-checked-time-mixin.js:35
+msgid "Last checked: %(lastCheckTime)s"
+msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -275,7 +291,7 @@ msgstr "Restmail 열기"
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:69 .es5/models/auth_brokers/base.js:75
+#: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
 msgstr "기본 이메일 인증 성공"
 
@@ -1276,7 +1292,7 @@ msgid "Clear"
 msgstr "지우기"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "완료"
 
@@ -1376,8 +1392,7 @@ msgstr "Android용 Firefox"
 msgid "Missing or duplicate items?"
 msgstr "누락되었거나 중복된 항목이 있나요?"
 
-#: .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr "새로고침"
 
@@ -1439,6 +1454,10 @@ msgstr "주 이메일로 사용"
 msgid "Remove"
 msgstr "삭제"
 
+#: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+msgid "Refresh Status"
+msgstr ""
+
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "추가"
@@ -1463,7 +1482,7 @@ msgstr ""
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:11
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
 msgstr "복사"
 
