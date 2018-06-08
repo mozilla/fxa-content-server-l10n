@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 16:05+0000\n"
+"POT-Creation-Date: 2018-06-08 16:04+0000\n"
 "PO-Revision-Date: 2018-06-07 11:02+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -572,9 +572,9 @@ msgstr "சேவைக நிபந்தனைகள்"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr ""
-#~ "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "கோரிக்கைப்படி, உங்கள் செல்பேசியில் பயர்பாஃசை நிறுவுவதற்கான ஒரு தொடுப்பு: %(link)s"
