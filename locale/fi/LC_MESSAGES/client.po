@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-09 12:06+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2018-06-09 16:17+0000\n"
+"Last-Translator: Jarmo <jarmo@juslin.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Osoite on toisen tilin käytössä"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
@@ -473,7 +473,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Virheellinen kirjautumiskoodi"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
@@ -485,19 +485,19 @@ msgstr "Ensisijaista sähköpostia ei voi vaihtaa sähköpostiin, joka ei kuulu 
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Tätä sähköpostiosoitetta ei voi juuri nyt käyttää kirjautumiseen"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "Sähköpostin lähettäminen epäonnistui"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Virheellinen kirjautumisen vahvistuskoodi"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Tämä vahvistuskoodi on vanhentunut"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
@@ -505,7 +505,7 @@ msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Ominaisuus ei ole käytössä"
 
 #: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
@@ -518,7 +518,7 @@ msgstr "Järjestelmään ei saada yhteyttä, yritä myöhemmin uudelleen"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Kirjautumisyritys peruttu"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Session expired. Sign in to continue."
@@ -642,7 +642,7 @@ msgstr "Puhelinnumero vaaditaan"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Kaksivaiheisen todennuksen koodi vaaditaan"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -826,7 +826,7 @@ msgstr "Linkki, jolla yritit nollata salasanasi, on vanhentunut."
 
 #: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Vastaanota uusi linkki"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -888,7 +888,7 @@ msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty vahvistuslinkki"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty kirjautumisen vahvistuslinkki"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -953,11 +953,11 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Miksi tarvitaan useampi kuin yksi laite?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Evästeet ja paikallinen tallennustila vaaditaan"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -983,11 +983,11 @@ msgstr "Unohditko salasanan?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Jatkamalla hyväksyt palvelun <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Kirjoita sähköpostiosoitteesi"
 
 #: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
 #: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
@@ -1079,7 +1079,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Aloita nollaus"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1099,19 +1099,19 @@ msgstr "Luo tili"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Pahoittelut, olemme lukinneet&nbsp;tilisi."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Osoitteeseen %(email)s lähettämämme vahvistusviesti palautettiin, ja lukitsimme tilisi suojataksemme Firefox-tietojasi."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Jos tämä on toimiva sähköpostiosoite, <a %(escapedSupportLinkAttrs)s>ilmoita meille</a> ja voimme auttaa sinua avaamaan tilisi lukituksen."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Kirjoita turvallisuuskoodi"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1143,11 +1143,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Valtuuta tämä kirjautuminen"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Katso osoitteeseen %(email)s lähetetty koodi."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1155,7 +1155,7 @@ msgstr "Kirjoita koodi"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Avaa käyttämäsi todennussovellus ja kirjoita sen näyttämä turvallisuuskoodi."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1163,7 +1163,7 @@ msgstr "Kirjoita 6-numeroinen koodi"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Käytä palautuskoodi"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1219,7 +1219,7 @@ msgstr "Matkapuhelinnumero"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
-msgstr ""
+msgstr "Lähetä"
 
 #: .es5/templates/sms_send.mustache:10
 msgid ""
@@ -1366,7 +1366,7 @@ msgstr "Nykyinen istunto"
 
 #: .es5/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Kumoa"
 
 #: .es5/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1398,11 +1398,11 @@ msgstr "Viestintäasetukset"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Vastaanotat viestintää tilisi tietoturvaan, käytäntöihimme liittyviin muutoksiin ja tilisi toiminnallisuuteen liittyen."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Lisäksi voi halutessasi vastaanottaa markkinointipainotteisia viestejä liittyen uusimpiin Mozilla- ja Firefox-uutisiin."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1410,7 +1410,7 @@ msgstr "Tilaa"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Hallitse tilauksia"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1432,7 +1432,7 @@ msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi t
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Toissijainen sähköpostiosoite on lisäosoite, jota käytetään tietoturvaan liittyviä ilmoituksia ja uusien laitteiden vahvistusta varten."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1452,7 +1452,7 @@ msgstr "Poista"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "Päivitä tila"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
