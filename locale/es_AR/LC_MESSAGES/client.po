@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-10 18:31+0000\n"
+"PO-Revision-Date: 2018-06-10 18:32+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -241,7 +241,7 @@ msgstr "Se habilitó la autenticación en dos pasos"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Usá el código %(code)s para establecer una autenticación de dos pasos en aplicaciones soportadas."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -1578,7 +1578,7 @@ msgstr "¿Buscando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comenzar aqu�
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Usar una dirección de correo electrónico diferente"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
