@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-06 08:50+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2018-06-09 16:36+0000\n"
+"Last-Translator: Jarmo <jarmo@juslin.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "Salasanasi on nollattu"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Viimeistele asennus syöttämällä uusi salasana muihin Firefox-laitteisiisi."
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
@@ -101,7 +101,7 @@ msgstr "Salasana vaihdettu"
 
 #: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Ikävä kuulla. Sinun tulisi vaihtaa Firefox-tilisi salasana, ja etsiä laitteesi valmistajalta tietoa siitä, kuinka tyhjennät laitteesi tiedot etänä."
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -241,7 +241,7 @@ msgstr "Kaksivaiheinen todennus otettu käyttöön"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Ota käyttöön kaksivaiheinen todennus tuetuissa sovelluksissa käyttämällä koodia %(code)s."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -433,11 +433,11 @@ msgstr "Virheellinen puhelinnumero"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Tähän maahan lähettäminen ei onnistu"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Tähän numeroon lähettäminen ei onnistunut"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
@@ -453,11 +453,11 @@ msgstr "Sähköpostin toimittaminen ei onnistunut"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Toinen käyttäjä on jo vahvistanut tämän sähköpostiosoitteen"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi sähköpostiosoite"
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
@@ -646,7 +646,7 @@ msgstr "Kaksivaiheisen todennuksen koodi vaaditaan"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Virheellinen kaksivaiheisen todennuksen koodi"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
@@ -674,7 +674,7 @@ msgstr "Yritä myöhemmin uudestaan"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Palvelu ei ole saatavilla, yritä hetken päästä uudelleen"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -901,7 +901,7 @@ msgstr "Nollaussähköposti lähetetty"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Luo uusi salasana napsauttamalla osoitteeseen %(email)s lähetetyssä viestissä olevaa linkkiä tunnin sisällä."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -925,7 +925,7 @@ msgstr "Onnistui"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Viimeistele asennus kirjautumalla tähän Firefoxiin"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "Sign in &rarr;"
@@ -937,11 +937,11 @@ msgstr "Lisäätkö vielä laitteita?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Viimeistele asennus kirjautumalla Firefoxiin toisella laitteella"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Lisäätkö vielä laitteita? Viimeistele asennus kirjautumalla Firefoxiin toisella laitteella"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1127,7 +1127,7 @@ msgstr "Kirjoita 10-numeroinen palautuskoodi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "Vahvista"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1135,7 +1135,7 @@ msgstr "Kirjoita turvallisuuskoodi"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Kiitos valppaudestasi"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1195,7 +1195,7 @@ msgstr "<span>Muista salasanasi</span>Jos sinun tarvitsee nollata salasanasi, me
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:11
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Tilaa uusimmat Mozilla- ja Firefox-uutiset"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Create account"
@@ -1211,7 +1211,7 @@ msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Lähetä Firefox suoraan älypuhelimeesi ja viimeistele asennus kirjautumalla"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
@@ -1225,22 +1225,24 @@ msgstr "Lähetä"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS-palvelu toimii vain joissakin maissa. SMS- ja datahinnoittelua saatetaan soveltaa. Sähköposti- tai tekstiviestin tarkoitetun vastaanottajan tulee olla antanut suostumuksensa. <a "
+"%(escapedLearnMoreAttributes)s>Lue lisää</a>"
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Asenna Firefox älypuhelimeesi ja viimeistele asennus kirjautumalla"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Linkki sovellukseen lähetetty numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Linkki sovellukseen lähetetty uudelleen numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Jos et saa tekstiviestiä, voit ladata sovellukset itse."
 
 #: .es5/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
@@ -1248,15 +1250,15 @@ msgstr "Eikö viesti saapunut? Lähetä uudestaan"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Miksi synkronoida useampia laitteita?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Synkronointipalvelu ei ole pysyvä varmuuskopio. Se on ainoastaan turvallinen tapa siirtää tallennettuja kirjanmerkkejäsi, selailuhistoriaasi ja salasanojasi eri laitteidesi välillä."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Firefox on asennettava vähintään kahteen eri laitteeseen ja tiedot on synkronoitava niiden välillä, jotta tietosi eivät katoa kun tarvitset niitä, mutta olet unohtanut salasanasi."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1468,7 +1470,7 @@ msgstr "HUOMIO:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Kun uudet koodit luodaan, vanhoista koodeista tulee käyttökelvottomia. Talleta uudet koodit turvalliseen paikkaan."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1496,7 +1498,7 @@ msgstr "Ota käyttöön…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Lisää kerros tilisi tietoturvaan vaatimalla turvallisuuskoodi <a %(escapedTotpSupportAttributes)s>joltain näistä todennussovelluksista.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1524,11 +1526,11 @@ msgstr "Korvaa palautuskoodit"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Lue QR-koodi käyttäen valitsemaasi todennussovellusta ja kirjoita sitten kyseisen sovelluksen tarjoama turvallisuuskoodi."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Etkö voi lukea QR-koodia?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1544,7 +1546,7 @@ msgstr "Vahvista"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Ennen kuin voit katsella tämän osion tietoja tai tehdä muutoksia tietoihisi, sinun tulee vahvistaa sähköpostiosoitteesi."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
