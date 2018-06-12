@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-12 21:07+0000\n"
+"PO-Revision-Date: 2018-06-12 21:23+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1478,7 +1478,7 @@ msgstr "NOTE:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "We ye'atz'ük k'ak'a' kolonel taq b'itz'ib', man xkek'atzin ta chik ri etz'ukun. Ütz ke'ayaka' ri k'ak'a' taq b'itz'ib'."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1486,7 +1486,7 @@ msgstr "Ketz'uk k'ak'a' kolonel taq b'itz'ib'"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "E kolonel taq b'itz'ib', ri xa xe jun rokisaxik. Ütz ke'ayaka' ruma rik'in jub'a' man yatikïr ta yatok pan oyonib'äl awokisab'äl. Man xkatikïr ta chik xke'atz'ët re taq b'itz'ib' re'."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
@@ -1506,7 +1506,7 @@ msgstr "Titzij…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr ""
+msgstr "Titz'aqatisäx jun rutz'aqat rij rujikomal rub'i' ataqoya'l rik'in nak'utuj jikomal taq b'itz'ib' pa jun chi ke <a %(escapedTotpSupportAttributes)sre taq ruchokoy jikib'anïk.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1566,7 +1566,7 @@ msgstr "¿Janipe' ajuna'?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Tik'ut pe ri ewan tzij"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1574,7 +1574,7 @@ msgstr "¿La nakanoj ri Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Tatikiri
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Tawokisaj jun chik rochochib'al taqoya'l"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
