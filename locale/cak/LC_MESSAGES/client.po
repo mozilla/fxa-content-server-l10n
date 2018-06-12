@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-10 23:31+0000\n"
+"PO-Revision-Date: 2018-06-12 21:07+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -241,7 +241,7 @@ msgstr "Xtzij ri jikib'anem rik'in ka'i'-xaq"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Tawokisaj ri bitz'ib' %(code)s richin nab'än runuk'ulem ri jikib'anem rik'in ka'i' xak pa ri taq chokoy ya'on q'ij."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -261,11 +261,11 @@ msgstr "Titzolïx ewan tzij"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "majun"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Ruk'isib'äl runik'oxik: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -890,7 +890,7 @@ msgstr "Tanik'oj ri ruximonel jikib'anïk xtaq&nbsp;pan ataqoya'l chi re %(escap
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Tab'enik'oj pan ataqoya'l ri ruximonel rujikib'anik rutikirisaxik molojri'ïl taqon chi re %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1433,6 +1433,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"We nawokisaj re rub'i' taqoya'l re pa taq chokoy chuqa' taq rusamaj Mozilla achi'el AMO, Pocket chuqa' Screenshots nab'ey k'atzinel natikirisaj molojri'ïl chuqa' ye'ayüj xab'achike awetamab'al yakäl"
+" kan. Toq nayüj ri rub'i' ataqoya'l wawe', man xkatok ta chik chupam pa xab'akuchi'."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1460,7 +1462,7 @@ msgstr "Telesäx el"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "Tik'ex Rub'anikil"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
