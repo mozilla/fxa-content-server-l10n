@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-05-19 16:46+0000\n"
-"Last-Translator: Quentí <quentinantonin@free.fr>\n"
+"PO-Revision-Date: 2018-06-13 14:43+0000\n"
+"Last-Translator: cvalmary <cvalmary@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: .es5/views/permissions.js:33
 msgid "Email address"
-msgstr ""
+msgstr "Adreça electronica"
 
 #: .es5/views/permissions.js:37 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -40,7 +40,7 @@ msgstr "Imatge del compte"
 
 #: .es5/views/ready.js:39
 msgid "Welcome back"
-msgstr ""
+msgstr "Urós de vos tornar veire !"
 
 #: .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Connexion confirmada"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: .es5/views/ready.js:65
 msgid "Account verified"
-msgstr ""
+msgstr "Compte verificat"
 
 #: .es5/views/reset_password.js:131 .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -160,19 +160,19 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "I a mai de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "I a mai de %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s a proximitat de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -180,11 +180,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Session web, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "Session web"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
@@ -744,9 +744,7 @@ msgid "Invalid Token"
 msgstr "Geston invalid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -990,8 +988,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
@@ -1288,8 +1286,8 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr ""
 
