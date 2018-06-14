@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-14 05:10+0000\n"
+"PO-Revision-Date: 2018-06-14 05:13+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -222,7 +222,7 @@ msgstr "E-posta secundari"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Codices de recuperation de Firefox"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
@@ -242,7 +242,7 @@ msgstr "Authentication a duo grados activate"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Usar le codice %(code)s pro eliger le authentication a duo grados in applicationes que lo supporta."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -266,7 +266,7 @@ msgstr "nulle"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Ultimo controlate: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
