@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-06 08:56+0000\n"
+"PO-Revision-Date: 2018-06-12 16:40+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "Luo koodeja"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
@@ -95,7 +95,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Luo koodeja:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
@@ -204,7 +204,7 @@ msgstr "Kaksivaiheinen todennus käytössä"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Olet ottanut onnistuneesti käyttöön kaksivaiheisen todennuksen Firefox-tilillesi seuraavista laitteista:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -336,7 +336,7 @@ msgstr "Luo uusi salasana"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Kiitos kun valitsit Firefoxin! Voit asentaa Firefoxin mobiililaitteellesi seuraavan linkin takaa: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
