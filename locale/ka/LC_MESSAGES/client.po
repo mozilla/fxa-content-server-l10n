@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-08 18:59+0000\n"
+"PO-Revision-Date: 2018-06-15 07:50+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1259,11 +1259,11 @@ msgstr "რა საჭიროა რამდენიმე მოწყო
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "სიქრონიზაცია არ გამოიყენება დამარქაფებისთვის, ეს უბრალოდ არის, სანიშნების, ისტორიის და პაროლების უსაფრთხო გაზიარების გზა, თქვენს მოწყობილობებს შორის."
+msgstr "სიქრონიზაცია არ გამოიყენება მონაცემების დამარქაფებისთვის, ეს უბრალოდ, სანიშნების, ისტორიისა და პაროლების უსაფრთხო გაზიარების გზაა, თქვენს მოწყობილობებს შორის."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Firefox უნდა დააყენოთ და დაასინქრონოთ მინიმუმ ორ მოწყობილობაზე, რომ შეძლოთ მონაცემების დაკარგვის თავიდან აცილება, პაროლის დავიწყების შემთხვევაში."
+msgstr "Firefox უნდა დააყენოთ და დაასინქრონოთ სულ მცირე ორ მოწყობილობაზე, რომ შეძლოთ მონაცემების დაკარგვის თავიდან აცილება, პაროლის დავიწყების შემთხვევაში."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1365,7 +1365,7 @@ msgstr "მიმდინარე მოწყობილობა"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "კავშირის გაწყვეტა…"
+msgstr "გამოთიშვა…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
