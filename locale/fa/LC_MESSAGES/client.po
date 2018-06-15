@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-15 14:08+0000\n"
+"PO-Revision-Date: 2018-06-15 14:26+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -233,11 +233,11 @@ msgstr "رونوشت از کدها شکست خورد. لطفا به طور دس�
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "کدهای بازآوری جدید ایجاد شدند"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "تایید هویت دو مرحله‌ای فعال شد"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -245,11 +245,11 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "تایید هویت دو مرحله‌ای حذف شد"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "تایید هویت دو مرحله‌ای"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -265,7 +265,7 @@ msgstr "هیچکدام"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "آخرین زمان بررسی: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -650,11 +650,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "کدِ بازآوری لازم است"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "کد بازآوری صحیح نیست"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -674,7 +674,7 @@ msgstr "لطفا بعدا دوباره تلاش کنید"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "سرویس در دسترس نیست، دوباره تلاش کن"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
