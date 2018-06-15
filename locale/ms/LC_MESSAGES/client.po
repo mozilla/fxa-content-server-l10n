@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
+"POT-Creation-Date: 2018-06-15 16:04+0000\n"
 "PO-Revision-Date: 2018-06-08 21:37+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -744,8 +744,12 @@ msgid "Invalid Token"
 msgstr "Token tidak sah"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -990,8 +994,8 @@ msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal
 msgid "Enter your email"
 msgstr "Masukkan e-mel anda"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Teruskan ke %(serviceName)s"
 
@@ -1292,8 +1296,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Buang"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Selesai"
 
@@ -1369,31 +1373,31 @@ msgstr "Memutuskan…"
 msgid "Current session"
 msgstr "Sesi semasa"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Batalkan"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox untuk iOS"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Tiada yang disambung"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Muat turun"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox untuk Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Item hilang atau diduplikasi?"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Muat semula"
 
@@ -1647,7 +1651,8 @@ msgstr "Daftar masuk"
 #~ msgstr "Klik pada pautan yang kami telah emelkan pada anda di %(email)s dalam tempoh jam berikut untuk mencipta kata laluan baru."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
+#~ msgstr ""
+#~ "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Perkhidmatan cloud Firefox"
@@ -1845,18 +1850,18 @@ msgstr "Daftar masuk"
 #~ msgstr "Kenapa Sync dua (atau lebih!) peranti?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon atau "
-#~ "tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
+#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon "
+#~ "atau tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam satu "
-#~ "peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
+#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam "
+#~ "satu peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
