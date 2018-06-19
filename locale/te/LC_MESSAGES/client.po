@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-13 12:58+0000\n"
+"PO-Revision-Date: 2018-06-19 11:11+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1357,7 +1357,7 @@ msgstr "ప్రస్తుత పరికరం"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "అనుసంధానాన్ని తీసివేయి…"
+msgstr "అనుసంధానం తెంచు…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
