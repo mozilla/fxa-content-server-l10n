@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-19 11:11+0000\n"
+"PO-Revision-Date: 2018-06-19 11:37+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1325,7 +1325,7 @@ msgstr "కోల్పోయిన లేదా దోచుకున్న ప
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr "పాత లేదా భర్తీ పరికరం"
+msgstr "పాత లేదా మార్చివేసిన పరికరం"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
