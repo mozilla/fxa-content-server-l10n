@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-03-14 00:45+0000\n"
-"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
+"PO-Revision-Date: 2018-06-20 14:29+0000\n"
+"Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "பாயர்பாக்ஸ் ஒத்திசைவு சிற�
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "உங்கள் கடவுச்சொல் மீட்டமைக்கப்பட்டது"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -57,7 +57,7 @@ msgstr "மற்ற பயர்பாஃசு சாதனங்களில�
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "நீங்கள் உங்கள் பயர்பாஃசு கணக்கில் மாற்றம் செய்ய தயாராக உள்ளீர்கள்."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
@@ -65,7 +65,7 @@ msgstr "முதன்மை மின்னஞ்சல் சரிபார�
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "கணக்கு அறிவிப்புகள் %(secondaryEmailVerified)s மின்னஞ்சலுக்கும் அனுப்பப்படும்."
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
@@ -109,11 +109,11 @@ msgstr "கேட்பதற்கு சங்கடமாக உள்ளத�
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "கடைசி ஒத்திசைவு %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "கடைசி ஒத்திசைவு முடிந்தது %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -225,19 +225,19 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
-msgstr ""
+msgstr "குறியீடுகள் நகலெடுக்கப்பட்டன"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "குறியீடுகளை நகலெடுப்பதில் தோல்வி. தயவு செய்து கைமுறையாக நகலெடுக்கவும்."
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "புதிய மீட்பு குறியீடுகள் உருவாக்கப்பட்டன"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "இரு-படி உறுதிப்படுத்தல் இயக்கப்பட்டது"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -245,7 +245,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "இரு-படி உறுதிப்படுத்தல் நீக்கப்பட்டது"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
@@ -313,7 +313,7 @@ msgstr "கூடுதல் இணைப்புகள்"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "உள்நுழைவுகள்"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -341,7 +341,7 @@ msgstr "இரண்டாம் மின்னஞ்சல் வெற்ற�
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "கடவுச்சொல் வெற்றிகரமாக மீட்டமைக்கப்பட்டது"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -642,19 +642,19 @@ msgstr "தொலைப்பேசி எண் தேவை"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "இரு-படி உறுதிப்படுத்தல் குறியீடு தேவைப்படுகிறது"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "தவறான இரு-படி உறுதிப்படுத்தல் குறியீடு"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "மீட்பு குறியீடு தேவை"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "தவறான மீட்பு குறியீடு"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -745,9 +745,7 @@ msgid "Invalid Token"
 msgstr "செல்லுபடியாகாத குறி"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -991,8 +989,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
@@ -1289,8 +1287,8 @@ msgstr "படக்கருவி"
 msgid "Clear"
 msgstr "துடை"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "முடிந்தது"
 
