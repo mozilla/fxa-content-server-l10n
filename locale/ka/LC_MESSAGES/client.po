@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-15 07:50+0000\n"
+"PO-Revision-Date: 2018-06-21 20:59+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -669,7 +669,7 @@ msgstr "<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> იგუ
 
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
-msgstr "გთხოვთ მოგვიანებით სცადოთ."
+msgstr "გთხოვთ, მოგვიანებით სცადოთ"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -759,11 +759,11 @@ msgstr "მიიღეთ უახლესი ცნობები Mozilla �
 
 #: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (დაახლოებით)"
+msgstr "%(city)s, %(country)s (მიახლოებითი)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (დაახლოებით)"
+msgstr "%(country)s (მიახლოებითი)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
