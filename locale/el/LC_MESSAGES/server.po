@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-06-21 13:22+0000\n"
+"PO-Revision-Date: 2018-06-21 14:30+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -148,19 +148,19 @@ msgstr "Αυτό είναι ένα αυτοματοποιημένο email; αν 
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Θα χρειαστεί να εισάγετε το νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε το συγχρονισμό."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Αν δεν τον αλλάξατε εσείς, παρακαλούμε <a %(resetLinkAttributes)s>επαναφέρετε τον κωδικό πρόσβασής σας</a> τώρα."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο %(resetLink)s."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -287,7 +287,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Οι κωδικοί ασφαλείας δεν θα ζητούνται πλέον σε κάθε σύνδεση."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
@@ -325,11 +325,11 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -381,7 +381,7 @@ msgstr "Ενεργοποίηση τώρα:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -485,7 +485,7 @@ msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
 
 #: lib/senders/email.js:502
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Κωδικός σύνδεσης για το Firefox"
 
 #: lib/senders/email.js:642
 msgid "Reset your Firefox Account password"
@@ -497,7 +497,7 @@ msgstr "Ο κωδικός πρόσβασης του Λογαριασμού Firef
 
 #: lib/senders/email.js:704
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης του λογαριασμού Firefox άλλαξε"
 
 #: lib/senders/email.js:730
 msgid "Firefox Account password reset required"
@@ -513,7 +513,7 @@ msgstr "Προστέθηκε δευτερεύον e-mail λογαριασμών 
 
 #: lib/senders/email.js:860
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Νέο κύριο email του λογαριασμού Firefox"
 
 #: lib/senders/email.js:892
 msgid "Secondary Firefox Account email removed"
