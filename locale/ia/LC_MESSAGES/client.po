@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
+"POT-Creation-Date: 2018-06-22 16:05+0000\n"
 "PO-Revision-Date: 2018-06-14 05:13+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -746,7 +746,9 @@ msgid "Invalid Token"
 msgstr "Token non valide"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu consenti al <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e al <a id=\"service-pp\" href=\"%(privacyUri)s\">declaration de confidentialitate</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -994,8 +996,8 @@ msgstr "Si tu procede, tu concorda al <a id=\"fxa-tos\" href=\"/legal/terms\">Te
 msgid "Enter your email"
 msgstr "Insere tu e-posta"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Tu continuara a %(serviceName)s"
 
@@ -1296,8 +1298,8 @@ msgstr "Camera"
 msgid "Clear"
 msgstr "Clarar"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Facte"
 
@@ -1373,31 +1375,31 @@ msgstr "Disconnexion…"
 msgid "Current session"
 msgstr "Session actual"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Revocar"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox pro iOS"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Nulle connexion"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Discargar"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox pro Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Elementos mancante o duplicate?"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Refrescar"
 
@@ -1507,8 +1509,8 @@ msgid "Enable…"
 msgstr "Activation…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr "Augmenta le securitate de tu conto con codices de securitate ab un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication.</a>"
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1605,6 +1607,9 @@ msgstr "Authenticar se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Authenticar se"
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr "Augmenta le securitate de tu conto con codices de securitate ab un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication.</a>"
 
 #~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 #~ msgstr "Consulta le ligamine de confirmation de authentication inviate per email a %(email)s"
@@ -1846,18 +1851,18 @@ msgstr "Authenticar se"
 #~ msgstr "Perque synchronisar duo (o plus) apparatos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu telephono"
-#~ " o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
+#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu "
+#~ "telephono o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate sur"
-#~ " al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
+#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate "
+#~ "sur al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"

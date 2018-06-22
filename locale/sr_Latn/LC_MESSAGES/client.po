@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-05-29 18:42+0000\n"
+"POT-Creation-Date: 2018-06-22 16:05+0000\n"
+"PO-Revision-Date: 2018-06-13 15:27+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -271,7 +271,7 @@ msgstr "Sekundarna adresa"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox kodovi za oporavak"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
@@ -295,6 +295,8 @@ msgid ""
 "Use the code %(code)s to set up two-step authentication in supported "
 "applications."
 msgstr ""
+"Iskoristite kod %(code)s da postavite verifikaciju u dva koraka u podržanim "
+"aplikacijama."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -317,11 +319,11 @@ msgstr "Resetuj lozinku"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "nikad"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Poslednji put provereno: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -1567,7 +1569,7 @@ msgid "Clear"
 msgstr "Očisti"
 
 #: .es5/templates/settings/avatar_change.mustache:4
-#: .es5/templates/settings/clients.mustache:28
+#: .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/communication_preferences.mustache:12
 #: .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/recovery_codes.mustache:16
@@ -1659,34 +1661,34 @@ msgstr "Prekini vezu…"
 msgid "Current session"
 msgstr "Trenutna sesija"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Opozovi"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox za iOS"
 
-#: .es5/templates/settings/clients.mustache:20
-#: .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Ništa nije povezano"
 
-#: .es5/templates/settings/clients.mustache:21
-#: .es5/templates/settings/clients.mustache:24
+#: .es5/templates/settings/clients.mustache:20
+#: .es5/templates/settings/clients.mustache:23
 #: .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Preuzmi"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox za Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Nedostaju vam neki uređaji ili ima duplikata?"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Osveži"
 
@@ -1779,7 +1781,7 @@ msgstr "Ukloni"
 #: .es5/templates/settings/two_step_authentication.mustache:16
 #: .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "Osveži status"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1838,11 +1840,8 @@ msgstr "Omogući…"
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid ""
 "Add a layer of security to your account by requiring security codes from one "
-"of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr ""
-"Dodajte dodatan nivo zaštite vašem nalogu zahtevanjem bezbednosnih kodova od "
-"jedne od <a %(escapedTotpSupportAttributes)s>ovih aplikacija za "
-"autentifikaciju.</a>"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1955,6 +1954,14 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid ""
+#~ "Add a layer of security to your account by requiring security codes from "
+#~ "one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr ""
+#~ "Dodajte dodatan nivo zaštite vašem nalogu zahtevanjem bezbednosnih kodova "
+#~ "od jedne od <a %(escapedTotpSupportAttributes)s>ovih aplikacija za "
+#~ "autentifikaciju.</a>"
 
 #~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 #~ msgstr ""

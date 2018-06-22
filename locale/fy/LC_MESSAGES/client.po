@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
-"PO-Revision-Date: 2018-05-28 06:15+0000\n"
+"POT-Creation-Date: 2018-06-22 16:05+0000\n"
+"PO-Revision-Date: 2018-06-10 11:33+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -221,7 +221,7 @@ msgstr "Sekundêr e-mailadres"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox-werstelkoades"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
@@ -241,7 +241,7 @@ msgstr "Autentikaasje yn twa stappen ynskeakele"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Brûk de koade %(code)s om autentikaasje yn twa stappen yn stipe tapassingen yn te skeakeljen."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -261,11 +261,11 @@ msgstr "Wachtwurd opnij ynstelle"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "gjin"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Lêst kontrolearre: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -1297,7 +1297,7 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Wiskje"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Dien"
@@ -1374,31 +1374,31 @@ msgstr "Ferbrekke…"
 msgid "Current session"
 msgstr "Aktuele sesje"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Ynlûke"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox foar iOS"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Neat keppele"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Downloade"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox foar Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Untbrekkende of dûbele items?"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Ferfarskje"
 
@@ -1466,7 +1466,7 @@ msgstr "Fuortsmite"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "Steat fernije"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1509,8 +1509,8 @@ msgid "Enable…"
 msgstr "Ynskeakelje…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan <a %(escapedTotpSupportAttributes)s>dizze apps foar autentikaasje</a> te fereaskjen"
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1607,6 +1607,9 @@ msgstr "Oanmelde"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Oanmelde"
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan <a %(escapedTotpSupportAttributes)s>dizze apps foar autentikaasje</a> te fereaskjen"
 
 #~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 #~ msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei %(email)s is ferstjoerd"

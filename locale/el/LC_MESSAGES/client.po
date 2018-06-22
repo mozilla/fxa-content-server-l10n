@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
+"POT-Creation-Date: 2018-06-22 16:05+0000\n"
 "PO-Revision-Date: 2018-06-21 14:31+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -748,7 +748,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο σύμβολο"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -996,8 +998,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Εισάγετε το e-mail σας"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Συνέχεια στην υπηρεσία %(serviceName)s"
 
@@ -1266,8 +1268,8 @@ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγρα
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον κωδικό"
-" πρόσβασής σας."
+"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+"κωδικό πρόσβασής σας."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1298,8 +1300,8 @@ msgstr "Κάμερα"
 msgid "Clear"
 msgstr "Εκκαθάριση"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Τέλος"
 
@@ -1375,31 +1377,31 @@ msgstr "Αποσύνδεση…"
 msgid "Current session"
 msgstr "Τρέχουσα συνεδρία"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Ανάκληση"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox για iOS"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Λήψη"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox για Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Χαμένα ή διπλά στοιχεία;"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Ανανέωση"
 
@@ -1506,7 +1508,7 @@ msgid "Enable…"
 msgstr "Ενεργοποίηση…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
@@ -1636,7 +1638,9 @@ msgstr "Είσοδος"
 #~ msgstr "Κάντε κλικ στο σύνδεσμο που σάς έχουμε στείλει με e-mail στο %(email)s μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
+#~ msgstr ""
+#~ "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του "
+#~ "Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Υπηρεσίες cloud του Firefox"
@@ -1801,19 +1805,19 @@ msgstr "Είσοδος"
 #~ msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
-#~ " τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+#~ "στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν είναι "
-#~ "αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του Firefox και "
-#~ "χρήση του Sync σε περισσότερες από μία συσκευές."
+#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν "
+#~ "είναι αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του "
+#~ "Firefox και χρήση του Sync σε περισσότερες από μία συσκευές."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 16:04+0000\n"
+"POT-Creation-Date: 2018-06-22 16:05+0000\n"
 "PO-Revision-Date: 2017-11-07 21:26+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -745,7 +745,9 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ao continuar, você concorda com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -993,8 +995,8 @@ msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Te
 msgid "Enter your email"
 msgstr "Digite o seu e-mail"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuar para %(serviceName)s"
 
@@ -1293,8 +1295,8 @@ msgstr "Câmera"
 msgid "Clear"
 msgstr "Limpar"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:28 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Concluído"
 
@@ -1370,31 +1372,31 @@ msgstr "Desconectar…"
 msgid "Current session"
 msgstr "Sessão atual"
 
-#: .es5/templates/settings/clients.mustache:16
+#: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
 msgstr "Revogar"
 
-#: .es5/templates/settings/clients.mustache:19
+#: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
 msgstr "Firefox para iOS"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23
+#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Nenhum conectado"
 
-#: .es5/templates/settings/clients.mustache:21 .es5/templates/settings/clients.mustache:24 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
 msgstr "Baixar"
 
-#: .es5/templates/settings/clients.mustache:22
+#: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox para Android"
 
-#: .es5/templates/settings/clients.mustache:26
+#: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
 msgstr "Itens em falta ou duplicados?"
 
-#: .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
 msgstr "Atualizar"
 
@@ -1503,8 +1505,8 @@ msgid "Enable…"
 msgstr "Habilitar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-msgstr "Adicione uma camada de segurança à sua conta, exigindo códigos de segurança de um <a %(escapedTotpSupportAttributes)s>desses aplicativos de autenticação.</a>"
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1602,6 +1604,9 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Entrar"
 
+#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr "Adicione uma camada de segurança à sua conta, exigindo códigos de segurança de um <a %(escapedTotpSupportAttributes)s>desses aplicativos de autenticação.</a>"
+
 #~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 #~ msgstr "Confira em seu e-mail o link de confirmação de cadastro enviada para %(email)s"
 
@@ -1648,7 +1653,9 @@ msgstr "Entrar"
 #~ msgstr "Clique no link que enviamos para %(email)s dentro da próxima hora para criar uma nova senha."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+#~ msgstr ""
+#~ "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
+#~ "Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Serviços na nuvem do Firefox"
@@ -1840,11 +1847,11 @@ msgstr "Entrar"
 #~ msgstr "Por que sincronizar dois (ou mais!) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "O Sync permite que você compartilhe os favoritos, histórico e senhas que você salva no Firefox em um dispositivo com o Firefox em outros dispositivos. Identifique-se no Firefox em seu telefone ou "
-#~ "tablet e tudo o que você salvou no Firefox para computador aparecerá."
+#~ "O Sync permite que você compartilhe os favoritos, histórico e senhas que você salva no Firefox em um dispositivo com o Firefox em outros dispositivos. Identifique-se no Firefox em seu telefone "
+#~ "ou tablet e tudo o que você salvou no Firefox para computador aparecerá."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1956,18 +1963,20 @@ msgstr "Entrar"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(signinUri)s\">Entre</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última atividade: %(translatedTimeAgo)s"
@@ -2194,8 +2203,8 @@ msgstr "Entrar"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar seu "
-#~ "usuário entre uma sessão e outra."
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar "
+#~ "seu usuário entre uma sessão e outra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "O Firefox estará disponível em breve para iOS!"
@@ -2338,13 +2347,17 @@ msgstr "Entrar"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Já tem uma conta? Entre."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+#~ msgstr ""
+#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Assine às notícias e dicas do Firefox"
