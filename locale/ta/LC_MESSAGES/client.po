@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-20 14:49+0000\n"
+"PO-Revision-Date: 2018-06-23 12:08+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -393,7 +393,7 @@ msgstr "சரிபார்க்கப்படாத கணக்கு"
 
 #: .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
-msgstr "செல்லாத பரிசோதனை குறியேடு "
+msgstr "தவறான சரிபார்ப்பு குறியீடு"
 
 #: .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
@@ -445,7 +445,7 @@ msgstr "உங்கள் மின்னஞ்சல் திரும்ப�
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr "உங்கள் மின்னஞ்சல் திரும்பி விட்டது. தவறான முகவரியா?"
+msgstr "உங்கள் மின்னஞ்சல் திரும்பி விட்டது. தவறான மின்னஞ்சல் முகவரியா?"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
@@ -514,7 +514,7 @@ msgstr "இறுதிப்புள்ளி இனி துணைபுர�
 #: .es5/lib/auth-errors.js:226 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
-msgstr "கணினி கிடைக்கவில்லை, மிண்டும் முயர்சிக்கவும்"
+msgstr "கணினி கிடைக்கவில்லை, மீண்டும் முயற்சிக்கவும்"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Login attempt cancelled"
@@ -745,12 +745,10 @@ msgid "Invalid Token"
 msgstr "செல்லுபடியாகாத குறி"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"தொடர்வதின் மூலம், (serviceName)s (%(serviceUri )s) உடைய <a id=\"service-tos\" href=\"%(termsUri)s\"> சேவை விதிமுறைகள்</a> மற்றும் <a id=\"service-pp\" href=\"%(privacyUri)s\"> தனியுரிமை அறிக்கை</a> "
-"ஆகியவற்றை ஒப்புக் கொள்கிறீர்கள்."
+"தொடர்வதின் மூலம், (serviceName)s (%(serviceUri )s) உடைய <a id=\"service-tos\" href=\"%(termsUri)s\"> சேவை விதிமுறைகள்</a> மற்றும் <a id=\"service-pp\" href=\"%(privacyUri)s\"> தனியுரிமை அறிக்கை</a>"
+" ஆகியவற்றை ஒப்புக் கொள்கிறீர்கள்."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -993,8 +991,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr "உங்கள் மின்னஞ்சலை உள்ளிடவும்"
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s க்கு தொடரவும்"
 
@@ -1119,7 +1117,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "மீட்பு குறியீட்டை உள்ளிடுக"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1131,7 +1129,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "சரிபார்"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1147,7 +1145,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "இந்த உள்நுழைவை அங்கீகரிக்கவும்"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1183,7 +1181,7 @@ msgstr "ஒரு பயர்பாக்ஸ் கணக்கை உருவ
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
-msgstr ""
+msgstr "கடவுச்சொல்லை மீண்டும் உள்ளிடவும்"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1291,8 +1289,8 @@ msgstr "படக்கருவி"
 msgid "Clear"
 msgstr "துடை"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "முடிந்தது"
 
