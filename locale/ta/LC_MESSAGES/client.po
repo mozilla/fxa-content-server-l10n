@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-23 12:08+0000\n"
-"Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
+"PO-Revision-Date: 2017-07-13 11:54+0000\n"
+"Last-Translator: Bala Subramaniyan <balapandu222@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -1217,11 +1217,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
-msgstr ""
+msgstr "அலைபேசி எண்"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
-msgstr ""
+msgstr "அனுப்பு"
 
 #: .es5/templates/sms_send.mustache:10
 msgid ""
