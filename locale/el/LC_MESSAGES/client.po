@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-22 18:35+0000\n"
+"PO-Revision-Date: 2018-06-23 09:20+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -116,7 +116,7 @@ msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -124,15 +124,15 @@ msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s σ�
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -140,23 +140,23 @@ msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
@@ -164,23 +164,23 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Πάνω από %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -240,19 +240,19 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Χρησιμοποιήστε τον κωδικό %(code)s για να ρυθμίσετε την ταυτοποίηση σε δύο βήματα στις υποστηριζόμενες εφαρμογές."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Η ταυτοποίηση σε δύο βήματα αφαιρέθηκε"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Ταυτοποίηση σε δύο βήματα"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -645,7 +645,7 @@ msgstr "Απαιτείται αριθμός τηλεφώνου"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Απαιτείται κωδικός ταυτοποίησης σε δύο βήματα"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
@@ -1499,7 +1499,7 @@ msgstr "Εκτύπωση"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Ταυτοποίηση σε δύο βήματα"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
