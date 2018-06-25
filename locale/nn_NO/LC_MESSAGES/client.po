@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-24 14:51+0000\n"
+"PO-Revision-Date: 2018-06-25 09:44+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1031,7 +1031,7 @@ msgstr "Last ned Firefox for Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Last ned Firefox for mobile einingar."
+msgstr "Last ned Firefox for mobile einingar. (Merk: Android krev More Locals 2 el. l. for nn-NO)"
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
