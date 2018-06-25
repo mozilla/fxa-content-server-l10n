@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-23 09:20+0000\n"
+"PO-Revision-Date: 2018-06-25 17:08+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -232,7 +232,7 @@ msgstr "Έγινε αντιγραφή των κωδικών"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Αποτυχία αντιγραφής κωδικών. Παρακαλώ αντιγράψτε τους χειροκίνητα."
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
