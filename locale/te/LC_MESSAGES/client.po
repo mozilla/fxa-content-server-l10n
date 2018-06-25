@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-25 11:38+0000\n"
+"PO-Revision-Date: 2018-06-25 12:26+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -284,7 +284,7 @@ msgstr "ఔట్‌లుక్ తెరువు"
 
 #: .es5/views/mixins/open-webmail-mixin.js:39
 msgid "Open Restmail"
-msgstr "Restmail ను తెరువు"
+msgstr "Restmailను తెరువు"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -1321,7 +1321,7 @@ msgstr "అనుమానాస్పద పరికరం"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr "కోల్పోయిన లేదా దోచుకున్న పరికరం"
+msgstr "కోల్పోయిన లేదా దోచుకోబడిన పరికరం"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
