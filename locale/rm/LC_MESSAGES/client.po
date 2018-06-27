@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-25 20:30+0000\n"
-"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
+"PO-Revision-Date: 2018-06-24 16:06+0000\n"
+"Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
@@ -1118,11 +1118,11 @@ msgstr "Quai n'è betg pli ti'adressa dad e-mail? Creescha in nov conto"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Endatar il code da recuperaziun"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Endatescha per plaschair in code da recuperaziun che ti has retschavì durant la configuraziun."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
