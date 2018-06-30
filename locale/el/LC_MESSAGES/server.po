@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-23 09:20+0000\n"
+"PO-Revision-Date: 2018-06-30 10:47+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -51,7 +51,7 @@ msgstr "Λογαριασμοί Firefox"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Απομένουν λίγοι κωδικοί ανάκτησης"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -199,7 +199,7 @@ msgstr "Η ομάδα των Λογαριασμών Firefox"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:922
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -243,7 +243,7 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
@@ -251,11 +251,11 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:994
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
@@ -417,7 +417,7 @@ msgstr "Επαλήθευση e-mail: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Αν δεν εξουσιοδοτήσατε αυτή την ενέργεια, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:595
 msgid "Verify secondary email"
