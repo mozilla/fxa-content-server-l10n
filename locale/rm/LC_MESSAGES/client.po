@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-24 16:07+0000\n"
+"PO-Revision-Date: 2018-06-24 16:09+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -1138,7 +1138,7 @@ msgstr "Verifitgar"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Endatar il code da segirezza"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1154,11 +1154,11 @@ msgstr "Autorisar questa annunzia"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Controllescha la posta entrada dad e-mail per chattar il code tramess a %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Endatar il code"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
