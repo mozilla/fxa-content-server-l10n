@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-30 10:47+0000\n"
+"PO-Revision-Date: 2018-06-30 11:02+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -55,7 +55,7 @@ msgstr "Απομένουν λίγοι κωδικοί ανάκτησης"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Παρατηρήσαμε ότι σάς απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -90,7 +90,7 @@ msgstr "Πολιτική Απορρήτου της Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Παρατηρήσαμε ότι σάς απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
 #: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
@@ -247,7 +247,7 @@ msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Έχετε χρησιμοποιήσει επιτυχώς έναν κωδικό ανάκτησης από την εξής συσκευή:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
@@ -409,7 +409,7 @@ msgstr "Μόλις επαληθευτεί, οι αλλαγές λογαριασ�
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Αν δεν εξουσιοδοτήσατε αυτή την ενέργεια, <a %(passwordChangeLinkAttributes)s>παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
