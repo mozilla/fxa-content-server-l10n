@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-30 11:02+0000\n"
+"PO-Revision-Date: 2018-07-01 07:44+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -203,7 +203,7 @@ msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιή�
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -217,7 +217,7 @@ msgstr "Διαχείριση λογαριασμού"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας. Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
 #: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
@@ -259,7 +259,7 @@ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -283,7 +283,7 @@ msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιή�
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
@@ -291,7 +291,7 @@ msgstr "Οι κωδικοί ασφαλείας δεν θα ζητούνται π
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας. Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
