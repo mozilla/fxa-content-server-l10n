@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-24 16:09+0000\n"
+"PO-Revision-Date: 2018-06-25 11:53+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -1162,15 +1162,15 @@ msgstr "Endatar il code"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Avra l'applicaziun d'autentificaziun ed endatescha il code da segirezza furnì."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Endatar il code da 6 caracters"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Utilisar il code da recuperaziun"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1190,15 +1190,17 @@ msgstr "Repeter il pled-clav"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Na perda betg quest pled-clav. Sche ti al stos reinizialisar, perdas ti eventualmain las datas da Sync."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
+"<span>N'utilisescha betg tes pled-clav dad e-mail</span>Sch'insatgi enconuscha tes pled-clav dad e-mail po el u ella confermar l'associaziun dad in nov apparat cun tes conto da Firefox ed uschia "
+"acceder a tias datas."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Tegna endament tes pled-clav</span>Sche ti stos reinizialisar tes pled-clav, perdas ti tut las datas da Sync che n'èn betg memorisadas sin in da tes apparats."
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:11
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1410,10 +1412,12 @@ msgstr "Preferenzas da communicaziun"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Ti retschaivas messadis areguard la segirezza da tes conto, midadas da nossas cundiziuns d'utilisaziun, funcziuns da tes conto e messadis inizials per ta gidar a duvrar en moda optimala tes conto da"
+" Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "En pli pos ti abunar e-mails cun novitads davart Mozilla e Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1436,6 +1440,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"En cas che ti utiliseschas quest conto per applicaziuns e servetschs da Mozilla sco AMO, Pocket e Screenshots duessas ti sco emprim t'annunziar e stizzar tut las datas persunalas memorisadas. Sche "
+"ti stizzas qua il conto ristgas ti da perder l'access dapertut nua che ti al utiliseschas."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1463,7 +1469,7 @@ msgstr "Allontanar"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "Actualisar il status"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1471,71 +1477,73 @@ msgstr "Agiuntar"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "Codes da recuperaziun"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "REMARTGA:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Cun crear novs codes da recuperaziun daventan tut ils codes anteriurs nunvalids. Memorisescha ils codes novs per plaschair en in lieu segir."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Crear novs codes da recuperaziun"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
+"Quests èn ils codes da recuperaziun a diever unic. Als memorisescha en in lieu segir per cas che ti n'has in bel di nagin access pli a tes apparat mobil. Quests codes na vegnan betg mussads ina "
+"segunda giada."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
-msgstr ""
+msgstr "Stampar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Autentificaziun en dus pass"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Activar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Cun ils codes da segirezza dad ina da <a %(escapedTotpSupportAttributes)s>questas applicaziuns d'autentificaziun</a> pos ti proteger tes conto cun in nivel da segirezza supplementar."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Status actual"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "Activà"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "Deactivà"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "Deactivar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "Activar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Remplazzar ils codes da recuperaziun"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Scannescha il code QR en tia applicaziun d'autentificaziun ed endatescha lura ils codes da segirezza furnids."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
