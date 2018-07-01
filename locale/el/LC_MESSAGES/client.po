@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-01 07:50+0000\n"
+"PO-Revision-Date: 2018-07-01 07:59+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1444,6 +1444,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Αν χρησιμοποιείτε αυτό το λογαριασμό για εφαρμογές Mozilla και υπηρεσίες, όπως το AMO, το Pocket και το Screenshots, θα πρέπει πρώτα να συνδεθείτε και να αφαιρέσετε τυχόν αποθηκευμένες προσωπικές "
+"πληροφορίες. Μόλις διαγράψετε το λογαριασμό σας εδώ, ενδέχεται να χάσετε την πρόσβαση σε αυτόν από παντού."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1451,7 +1453,7 @@ msgstr "Επιλέξτε το όνομα που θέλετε να εμφανίζ
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Ένα δευτερεύον email είναι μια επιπρόσθετη διεύθυνση για λήψη σημειώσεων ασφαλείας και την επιβεβαίωση νέων συσκευών."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1487,7 +1489,7 @@ msgstr "ΣΗΜΕΙΩΣΗ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Δημιουργώντας νέους κωδικούς ανάκτησης, όλοι οι προηγούμενοι θα ακυρωθούν. Παρακαλούμε αποθηκεύστε τους νέους κωδικούς σε μια ασφαλή τοποθεσία."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1496,6 +1498,7 @@ msgstr "Δημιουργία νέων κωδικών ανάκτησης"
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
+"Αυτοί είναι οι κωδικοί ανάκτησης μιας χρήσης. Αποθηκεύστε τους σε κάποιο ασφαλές μέρος σε περίπτωση που χάσετε πρόσβαση στην κινητή σας συσκευή. Δεν θα μπορέσετε να δείτε ξανά αυτούς τους κωδικούς."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
@@ -1515,7 +1518,7 @@ msgstr "Ενεργοποίηση…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλείας στο λογαριασμό σας χρησιμοποιώντας κωδικούς ασφαλείας από μια από <a %(escapedTotpSupportAttributes)s>αυτές τις εφαρμογές πιστοποίησης</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1563,7 +1566,7 @@ msgstr "Επιβεβαίωση"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Πριν μπορέσετε να προβάλλετε ή να κάνετε αλλάγες σε αυτή την ενότητα, θα χρειαστεί να επαληθεύσετε τη διεύθυνση email σας."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
