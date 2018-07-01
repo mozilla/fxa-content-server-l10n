@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-25 11:53+0000\n"
+"PO-Revision-Date: 2018-06-25 12:02+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -1547,15 +1547,15 @@ msgstr "Scannescha il code QR en tia applicaziun d'autentificaziun ed endatescha
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Impussibel da scannar il code?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Endatescha manualmain questa clav secreta en l'applicaziun d'autentificaziun:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "Code da segirezza"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1563,11 +1563,11 @@ msgstr "Confermar"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Avant che ti pos vesair u modifitgar questa secziun stos ti confermar tia adressa d'e-mail."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "E-mail principal"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1575,7 +1575,7 @@ msgstr "Quant vegl es ti?"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Mussar il pled-clav"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1583,7 +1583,7 @@ msgstr "Ti tschertgas Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cumenza qu
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Utilisar in'autra adressa dad e-mail"
 
 #: .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
