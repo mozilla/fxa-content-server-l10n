@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-06-25 12:26+0000\n"
+"PO-Revision-Date: 2018-07-03 10:20+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -264,7 +264,7 @@ msgstr "ఏమీలేదు"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "చివరి తనిఖీ: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -1048,7 +1048,7 @@ msgstr "అంగీకరించు"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 msgid "Cancel"
-msgstr "రద్దు"
+msgstr "రద్దుచేయి"
 
 #: .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -1575,7 +1575,7 @@ msgstr "మీరు మీ టాబ్లు, బుక్మార్క్�
 
 #: .es5/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr "OPenID వాడండి"
+msgstr "OpenID వాడు"
 
 #: .es5/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
