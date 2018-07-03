@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-03 03:09+0000\n"
+"PO-Revision-Date: 2018-07-03 04:13+0000\n"
 "Last-Translator: Piseth <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
@@ -64,11 +64,11 @@ msgstr "អ៊ីមែល​ចម្បង​បាន​ផ្ទៀងផ្
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "ការជូនដំណឹង​គណនី​​នឹង​ត្រូវបាន​ផ្ញើ​ទៅ %(secondaryEmailVerified)s ឥឡូវ​នេះ។"
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
-msgstr ""
+msgstr "អ៊ីមែល​បន្ទាប់បន្សំ​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -110,15 +110,15 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ​លើសពី %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "ធ្វើសមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s ក្នុង %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
