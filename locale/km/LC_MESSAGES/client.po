@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2017-04-23 05:53+0000\n"
-"Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
+"PO-Revision-Date: 2018-07-03 03:09+0000\n"
+"Last-Translator: Piseth <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Firefox Sync នឹង​បន្ត​ឆាប់ៗ"
 
 #: .es5/views/ready.js:44
 msgid "Your password has been reset"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ត្រូវបាន​កំណត់​ឡើងវិញ"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -56,11 +56,11 @@ msgstr "បញ្ចប់​ការដំឡើង​ដោយ​បញ្ច
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "ឥឡូវ អ្នក​អាច​ធ្វើ​ការផ្លាស់ប្ដូរ​ចំពោះ​គណនី Firefox របស់​អ្នក​បាន​​ហើយ។"
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
-msgstr ""
+msgstr "អ៊ីមែល​ចម្បង​បាន​ផ្ទៀងផ្ទាត់"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -104,7 +104,9 @@ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
+msgstr ""
+"យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក "
+"និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -744,9 +746,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -990,8 +990,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
@@ -1288,8 +1288,8 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr ""
 
