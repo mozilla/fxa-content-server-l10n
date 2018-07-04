@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-04 17:31+0000\n"
+"PO-Revision-Date: 2018-07-04 17:51+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -132,7 +132,7 @@ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – netoli %(tra
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota seniau kapi %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -140,23 +140,23 @@ msgstr "Paskiausiai jungtasi %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Paskiausia veikla seniau kaip %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Paskiausia veikla %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Paskiausia veikla seniau kaip %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Paskiausia veikla %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Paskiausia veikla seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
@@ -164,23 +164,23 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Seniau kaip %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Seniau kaip %(translatedTimeAgo)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s, netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Seniau kaip %(translatedTimeAgo)s, netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -192,7 +192,7 @@ msgstr "Saityno sesija"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Paskiausios sinchronizacijos laikas nežinomas"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -208,51 +208,51 @@ msgstr "Rodomas vardas atnaujintas"
 
 #: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Antrinis el. paštas pašalintas"
 
 #: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr ""
+msgstr "Patvirtinimo laiškas išsiųstas"
 
 #: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Pirminis el. paštas pakeistas į %(email)s"
 
 #: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Antrinis el. paštas"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "„Firefox“ paskyros atkūrimo kodai"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
-msgstr ""
+msgstr "Kodai nukopijuoti"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Kodų nukopijuoti nepavyko. Prašom tai atlikti rankiniu būdu."
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Nauji atkūrimo kodai sugeneruoti"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Dviejų žingsnių autentikacija įgalinta"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Pasinaudokite kodu „%(code)s“ dviejų žingsnių autentikacijai įgalinti tai palaikančiose programose."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Dviejų žingsnių autentikacija išjungta"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Dviejų žingsnių autentikacija"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -264,11 +264,11 @@ msgstr "Atkurti slaptažodį"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "niekada"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Paskutinė patikra: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -292,11 +292,11 @@ msgstr "Atverti „Restmail“"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Laiškas išsiųstas pakartotinai. Kad jis jus pasiektų be trukdžių, įtraukite adresą „accounts@firefox.com“ į savo adresų knygą."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Pagrindinis el. paštas sėkmingai patvirtintas"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
@@ -316,7 +316,7 @@ msgstr "Priedai"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "Prisijungimai"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -328,11 +328,11 @@ msgstr "Nustatymai"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Adresai"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "Mokėjimo kortelės"
 
 #: .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
@@ -340,7 +340,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Antrinis el. paštas sėkmingai patvirtintas"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
@@ -444,19 +444,19 @@ msgstr "Šiuo numeriu SMS pranešimo nepavyko išsiųsti"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Jums siųstas laiškas sugrįžo atgal"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Jums siųstas laiškas sugrįžo atgal. Gal neteisingai įvedėte adresą?"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Laiško pristatyti nepavyko"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Šis el. pašto adresas jau patvirtintas kito naudotojo"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
