@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-04 18:10+0000\n"
+"PO-Revision-Date: 2018-07-04 19:10+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -719,7 +719,7 @@ msgstr "Draudžiama"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
-msgstr ""
+msgstr "Prieigos raktas nebegalioja"
 
 #: .es5/lib/oauth-errors.js:106
 msgid "Something went wrong. Please close this tab and try again."
@@ -807,7 +807,7 @@ msgstr "Sužinoti daugiau"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
-msgstr ""
+msgstr "Paskyra %(email)s užregistruota."
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -831,7 +831,7 @@ msgstr "Slaptažodžio atkūrimo saitas, kurį spaudėte, nebegalioja."
 
 #: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Gauti naują saitą"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -843,13 +843,15 @@ msgstr "Saite, kurį spaudėte, trūko simbolių, nes jį greičiausiai sugadino
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Įveskite naująjį slaptažodį"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>SVARBU!</span> Atkūrus slaptažodį, dalis jūsų duomenų (įskaitant serveryje sinchronizuotus duomenis, tokius kaip žurnalas ir adresynas) bus pašalinta. Taip yra dėl to, kad privatumo sumetimais"
+" visi jūsų duomenys yra šifruojami naudojant jūsų slaptažodį."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -857,11 +859,11 @@ msgstr "Naujas slaptažodis"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
-msgstr ""
+msgstr "Pakartokite slaptažodį"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Pagrindinis el. paštas jau patvirtintas"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -889,16 +891,16 @@ msgstr "Patvirtinkite šį prisijungimą"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Pasitikrinkite paštą – patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Pasitikrinkite paštą – prisijungimo patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Nerandate laiško gautųjų ar brukalo aplanke? Galime jį išsiųsti pakartotinai"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -906,7 +908,7 @@ msgstr "Atkūrimo laiškas išsiųstas"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Kad pasikeistumėte slaptažodį, valandos bėgyje spustelėkite saitą, jums išsiųstą adresu %(email)s."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -958,11 +960,11 @@ msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Kodėl reikia daugiau kaip vieno įrenginio?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Būtina leisti naudoti slapukus ir vietinę saugyklą"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -988,11 +990,11 @@ msgstr "Pamiršote slaptažodį?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Tęsdami, išreiškiate sutikimą su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir <a id=\"fxa-pp\" href=\"/legal/privacy\">Pastaba dėl privatumo</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Įveskite savo el. pašto adresą"
 
 #: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
 #: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
@@ -1081,6 +1083,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>PASTABA:</span> atkūrus slaptažodį, dalis jūsų duomenų (įskaitant serveryje sinchronizuotus duomenis, tokius kaip žurnalas ir adresynas) bus pašalinta. Taip yra dėl to, kad privatumo "
+"sumetimais visi jūsų duomenys yra šifruojami naudojant jūsų slaptažodį."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1104,19 +1108,19 @@ msgstr "Sukurti paskyrą"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Apgailestaujame, bet turėjome užrakinti jūsų paskyrą."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Patvirtinimo laiškas, išsiųstas adresu %(email)s, sugrįžo, tad jūsų paskyra buvo užrakinta, siekiant apsaugoti jūsų duomenis."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "jei šis adresas galiojantis, <a %(escapedSupportLinkAttrs)s>praneškite mums</a> ir mes padėsime jūsų paskyrą atrakinti."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Šio adreso nebevaldote? Tuomet susikurkite naują paskyrą."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
