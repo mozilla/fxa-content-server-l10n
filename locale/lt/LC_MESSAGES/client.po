@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-04 17:51+0000\n"
+"PO-Revision-Date: 2018-07-04 18:10+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -61,7 +61,7 @@ msgstr "Dabar galite atlikti „Firefox“ paskyros pakeitimus."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
-msgstr ""
+msgstr "Pagrindinis el. paštas patvirtintas"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -240,19 +240,19 @@ msgstr "Nauji atkūrimo kodai sugeneruoti"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr "Dviejų žingsnių autentikacija įgalinta"
+msgstr "Dvipakopis atpažinimas įgalintas"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Pasinaudokite kodu „%(code)s“ dviejų žingsnių autentikacijai įgalinti tai palaikančiose programose."
+msgstr "Pasinaudokite kodu „%(code)s“ dvipakopiam atpažinimui įgalinti tai palaikančiose programose."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr "Dviejų žingsnių autentikacija išjungta"
+msgstr "Dvipakopis atpažinimas išjungtas"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr "Dviejų žingsnių autentikacija"
+msgstr "Dvipakopis atpažinimas"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -460,47 +460,47 @@ msgstr "Šis el. pašto adresas jau patvirtintas kito naudotojo"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Antrinis el. pašto adresas turi skirtis nuo pagrindinio paskyros adreso"
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Prisijungimui būtina naudoti pagrindinį paskyros el. paštą"
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Šis adresas naudojamas kitoje paskyroje"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Slaptažodžio atkūrimui būtina naudoti pagrindinį paskyros el. paštą"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Netinkamas prisijungimo kodas"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Nepatvirtinto el. pašto adreso negalima skirti pagrindiniu paskyros adresu"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "El. pašto adreso, nesusieto su šia paskyra, negalima skirti pagrindiniu jos adresu"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Šio el. pašto adreso šiuo metu negalima naudoti prisijungimui"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "Laiško nepavyko išsiųsti"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Prisijungimo patvirtinimo kodas klaidingas"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Šis patvirtinimo kodas nebegalioja"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
@@ -508,7 +508,7 @@ msgstr "Serveris užimtas, bandykite vėliau"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Ši funkcija neįgalinta"
 
 # Communication endpoint, the entity on one end of a transport layer
 # connection
@@ -647,19 +647,19 @@ msgstr "Būtina įvesti telefono numerį"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Būtinas dvipakopio atpažinimo kodas"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Netinkamas dvipakopio atpažinimo kodas"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "Būtinas atkūrimo kodas"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Atkūrimo kodas klaidingas"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -671,7 +671,7 @@ msgstr "Netinkama konfigūracija"
 
 #: .es5/lib/mailcheck.js:27
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Ar turėjote omenyje <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
@@ -679,7 +679,7 @@ msgstr "Prašome bandyti vėliau"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Paslauga nepasiekiama, pamėginkite vėliau"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
