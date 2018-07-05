@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-03 10:20+0000\n"
+"PO-Revision-Date: 2018-07-05 08:47+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1090,7 +1090,7 @@ msgstr "సైన్ ఔట్"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
 msgid "Use a different account"
-msgstr "వేరే ఖాతాను ఉపయోగించండి"
+msgstr "వేరే ఖాతాను వాడు"
 
 #: .es5/templates/sign_in.mustache:14
 msgid "Create an account"
