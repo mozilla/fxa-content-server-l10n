@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-04 14:59+0000\n"
+"PO-Revision-Date: 2018-07-05 05:37+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -104,11 +104,11 @@ msgstr "نأسف لهذا. عليك تغيير كلمة سر حساب فَيَر
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "نأسف لهذا. إذا كان هذا جهازًا لا تثق بع فعلًا، فعليك تغيير كلمة سر حساب فَيَرفُكس، و تغيير أي كلمات سر محفوظة في فَيَرفُكس."
+msgstr "نأسف لهذا. إذا كان هذا جهازًا لا تثق به فعلًا، فعليك تغيير كلمة سر حساب فَيَرفُكس، و تغيير أي كلمات سر محفوظة في فَيَرفُكس."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s"
+msgstr "آخر مزامنة %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "آخر مزامنه %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "كان آخر نشاط %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "آخر نشاط %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "آخر نشاط %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "فُعّل الاستيثاق بخطوتين"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -244,11 +244,11 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "أُزيل الاستيثاق بخطوتين"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "الاستيثاق بخطوتين"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -673,7 +673,7 @@ msgstr "رجاء أعد المحاولة في وقت لاحق"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "الخدمة غير متوفرة، أعِد المحاولة بعد قليل"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
