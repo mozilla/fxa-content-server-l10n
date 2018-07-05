@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-03 04:13+0000\n"
-"Last-Translator: Piseth <piseth.kheng@gmail.com>\n"
+"PO-Revision-Date: 2018-07-05 07:44+0000\n"
+"Last-Translator: Phearoun <phel.phearoun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
@@ -326,7 +326,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "អាសយដ្ឋាន"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
@@ -966,7 +966,7 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "ព្យាយាមម្ដងទៀត"
 
 #: .es5/templates/force_auth.mustache:1
 msgid "Sign in to continue"
@@ -975,7 +975,7 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "ពាក្យសម្ងាត់"
 
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
 #: .es5/templates/settings/change_password.mustache:5
@@ -997,7 +997,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
-msgstr ""
+msgstr "អ៊ីមែល"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 msgid "Continue"
@@ -1379,7 +1379,7 @@ msgstr ""
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
-msgstr ""
+msgstr "ទាញយក"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
@@ -1415,11 +1415,11 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "លុបគណនី"
 
 #: .es5/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "លុប…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "យកចេញ"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
@@ -1457,7 +1457,7 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
-msgstr ""
+msgstr "បន្ថែម"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
@@ -1481,11 +1481,11 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
-msgstr ""
+msgstr "ចម្លង"
 
 #: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
-msgstr ""
+msgstr "បោះពុម្ព"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1493,7 +1493,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "បើក…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1505,19 +1505,19 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "បានបើក"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "បានបិទ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "បិទ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "បើក"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
