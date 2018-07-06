@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-05 19:13+0000\n"
+"PO-Revision-Date: 2018-07-06 18:03+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -52,15 +52,15 @@ msgstr "Серсүзегез алмаштырылды"
 
 #: .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Firefox'лы башка җиһазларыгызда да яңа серсүзегезне кертеп, көйләүне тәмамлагыз."
 
 #: .es5/views/ready.js:48
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Сез хәзер Firefox аккаунтыгызга үзгәрешләр ясарга әзерсез."
 
 #: .es5/views/ready.js:50
 msgid "Primary email verified"
-msgstr ""
+msgstr "Төп эл. почта адресы расланды"
 
 #: .es5/views/ready.js:53
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -68,7 +68,7 @@ msgstr ""
 
 #: .es5/views/ready.js:55
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Икенчел эл. почта адресы расланды"
 
 #: .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
