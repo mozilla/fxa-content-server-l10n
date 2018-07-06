@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-06 18:07+0000\n"
+"PO-Revision-Date: 2018-07-06 20:27+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -92,7 +92,7 @@ msgstr "Аккаунт хәзер инде юк. Аны торгызыйкмы?"
 
 #: .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Аккаунт инде бар. <a href=\"/signin\">Керү</a>"
 
 #: .es5/views/settings/change_password.js:45
 msgid "Password changed successfully"
