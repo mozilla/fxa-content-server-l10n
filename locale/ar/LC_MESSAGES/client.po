@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-06 19:12+0000\n"
+"PO-Revision-Date: 2018-07-06 19:22+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -844,8 +844,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
-"<span>تذكر:</span>إن صفّرت كلمة السر فستُمسح بعض من البيانات لديك (بما في ذلك البيانات المزامنة مع الخادوم مثل التأريخ والعلامات). يعود هذا إلى أننا نعمّي بياناتك مستخدمين كلمة السر خاصتك لنحمي بذلك"
-" خصوصيتك."
+"<span>تذكر:</span>إن صفّرت كلمة السر فستُمسح بعض من البيانات لديك (بما في ذلك البيانات المتزامنة مع الخادوم مثل التأريخ والعلامات). يعود هذا إلى أننا نعمّي بياناتك مستخدمين كلمة السر خاصتك لنحمي "
+"بذلك خصوصيتك."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -889,7 +889,7 @@ msgstr "راجع بريدك الإلكتروني لتجد رابط التأكي�
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "راجع بريدك الإلكتروني لتجد رابط تأكيد الولوج المرسل إلى %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -902,7 +902,7 @@ msgstr "أُرسِل بريد إعادة تعيين كلمة السرّ"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "انقر الرابط الذي أُرسل إلى بريدك الإلكتروني على %(email)s خلال الساعة القادمة لإنشاء كلمة سر جديدة."
 
 #: .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -942,7 +942,7 @@ msgstr "لج إلى فَيَرفُكس من جهاز آخر لإكمال الإ�
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "أما زلت تُضيف الأجهزة؟ لج إلى فَيَرفُكس من جهاز آخر لإكمال الإعداد"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -984,7 +984,7 @@ msgstr "هل نسيت كلمة السرّ؟"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:10
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">تنويه الخصوصيّة</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1077,6 +1077,8 @@ msgid ""
 "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
 "protect your privacy."
 msgstr ""
+"<span>ملاحظة:</span>إن صفّرت كلمة السر فستُمسح بعض من البيانات لديك (بما في ذلك البيانات المتزامنة مع الخادوم مثل التأريخ والعلامات). يعود هذا إلى أننا نعمّي بياناتك مستخدمين كلمة السر خاصتك لنحمي "
+"بذلك خصوصيتك."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1116,23 +1118,23 @@ msgstr "لم تعد تملك هذا البريد الإلكتروني؟ أنشئ
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "أدخِل رمز الاستعادة"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "رجاءً أدخِل رمز الاستعادة التي أعطيناك إياه أثناء الإعداد."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "أدخِل رمز الاستعادة المكوّن من 10 خانات"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "أكِّد"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "أدخِل رمز الأمان"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1148,11 +1150,11 @@ msgstr "ائذن بهذا الولوج"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "راجع بريدك الإلكتروني لتجد الرمز المرسل إلى %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "أدخِل الرمز"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1160,11 +1162,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "أدخِل الرمز المكوّن من 6 خانات"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "استخدم رمز استعادة"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1184,11 +1186,11 @@ msgstr "كرر كلمة السرّ"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "لا تنسَ كلمة السر هذه، فإن احتجت إلى تصفيرها قد تفقد البيانات المتزامنة."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:8
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>لا تستخدم كلمة سر بريدك الإلكتروني</span>إن كان يعرف أحدهم كلمة سر بريدك الإلكتروني، فيمكنهم تأكيد جلسة ولوج فَيَرفُكس خاصتك على جهاز جديد والدخول إلى بياناتك بعدها."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
@@ -1365,7 +1367,7 @@ msgstr "اقطع الاتصال…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "الجلسة الحالية"
 
 #: .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
@@ -1377,7 +1379,7 @@ msgstr "فَيَرفُكس ل‍ iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "لا شيء متصل"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 msgid "Download"
@@ -1428,6 +1430,7 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"إن استخدمت هذا الحساب لتطبيقات موزيلا والخدمات مثل موقع الإضافات، وبوكِت، واللقطات فعليك أولا الولوج وإزالة أية معلومات شخصية محفوظة فيه. ما إن تحذف حسابك من هنا فستفقد أي وصول إليه من أي مكان آخر."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1435,7 +1438,7 @@ msgstr "اختر الاسم الذي تفضل أن يظهر لك في فَيَر
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "البريد الإلكتروني الثانوي هو عنوان إضافي لتلقي إشعارات الأمان وتأكيد الأجهزة الجديدة."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1467,15 +1470,15 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "ملاحظة:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "بتوليد رموز استعادة جديدة تُصبح كل الرموز السابقة غير صحيحة. من فضلك خزّن هذه الرموز الجديدة في مكان آمن."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "ولّد رموز استعادة جديدة"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1483,19 +1486,19 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
-msgstr ""
+msgstr "انسخ"
 
 #: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
-msgstr ""
+msgstr "اطبع"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "الاستيثاق بخطوتين"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "فعّل…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1503,23 +1506,23 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "الحالة الحالية"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "مفعّل"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "معطّل"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "عطّل"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "فعّل"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
@@ -1531,7 +1534,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "ألا يمكنك مسح الرمز ضوئيا؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
