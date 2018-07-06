@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-05 05:37+0000\n"
+"PO-Revision-Date: 2018-07-06 19:12+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "آخر مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -220,19 +220,19 @@ msgstr "البريد الثانوي"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "رموز استعادة فَيَرفُكس"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
-msgstr ""
+msgstr "نُسخت الرموز"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "فشل نسخ الرموز. انسخها يدويا من فضلك."
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "وُلّدت رموز استعادة جديدة"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
@@ -240,7 +240,7 @@ msgstr "فُعّل الاستيثاق بخطوتين"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "استخدم الرمز %(code)s لإعداد الاستيثاق ليكون بخطوتين في التطبيقات التي تدعم ذلك."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
@@ -492,11 +492,11 @@ msgstr "فشل إرسال البريد"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "رمز تأكيد الولوج غير صحيح"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "انتهت صلاحية رمز التأكيد هذا"
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
@@ -504,7 +504,7 @@ msgstr "الخادوم مشغول، حاول مرة أخرى قريبًا"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
-msgstr ""
+msgstr "الخاصية غير مفعّلة"
 
 #: .es5/lib/auth-errors.js:222
 msgid "This endpoint is no longer supported"
@@ -641,19 +641,19 @@ msgstr "رقم الهاتف مطلوب"
 
 #: .es5/lib/auth-errors.js:464
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "الاستيثاق بخطوتين مطلوب"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "رمز الاستيثاق بخطوتين غير صحيح"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Recovery code required"
-msgstr ""
+msgstr "رمز الاستعادة مطلوب"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "رمز الاستعادة غير صحيح"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -713,7 +713,7 @@ msgstr "ممنوع"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
-msgstr ""
+msgstr "أمارة منتهية الصلاحية"
 
 #: .es5/lib/oauth-errors.js:106
 msgid "Something went wrong. Please close this tab and try again."
@@ -844,6 +844,8 @@ msgid ""
 "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 "to protect your privacy."
 msgstr ""
+"<span>تذكر:</span>إن صفّرت كلمة السر فستُمسح بعض من البيانات لديك (بما في ذلك البيانات المزامنة مع الخادوم مثل التأريخ والعلامات). يعود هذا إلى أننا نعمّي بياناتك مستخدمين كلمة السر خاصتك لنحمي بذلك"
+" خصوصيتك."
 
 #: .es5/templates/complete_reset_password.mustache:11 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -855,7 +857,7 @@ msgstr "أعِد إدخال كلمة السر"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "أُكِّد البريد الإلكتروني الأولي بالفعل"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
