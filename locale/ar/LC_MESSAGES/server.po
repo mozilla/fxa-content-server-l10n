@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-04 15:00+0000\n"
+"PO-Revision-Date: 2018-07-06 19:28+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -49,7 +49,7 @@ msgstr "حسابات فَيَرفُكس"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "رموز الاستعادة المتبقية قليلة"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -61,7 +61,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "هذه رسالة آلية."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
@@ -150,7 +150,7 @@ msgstr "تغيّرت كلمة سر حسابك"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "سيكون عليك إدخال كلمة سر جديدة على الأجهزة الأخرى لاستئناف المزامنة."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -285,7 +285,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "لقد عطّلت بنجاح الاستيثاق بخطوتين لحساب فَيَرفُكس خاصتك. لم تعد رموز الأمان مطلوبة في كل عملية ولوج."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -321,7 +321,7 @@ msgstr "أتريد تصفير كلمة السر؟"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "انقر الزر خلال الساعة القادمة لتُنشئ كلمة سر جديدة. أتى هذا الطلب من الجهاز التالي:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -373,7 +373,7 @@ msgstr "فعّل الآن:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "لمزيد من الأمان، رجاءً أكّد عملية الولوج من الجهاز الآتي:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -473,7 +473,7 @@ msgstr "رمز التخويل لحسابَ فَيَرفُكس"
 
 #: lib/senders/email.js:449
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "أكِّد الولوج الجديد إلى %(clientName)s"
 
 #: lib/senders/email.js:502
 msgid "Sign-in code for Firefox"
