@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-01-09 21:07+0000\n"
+"PO-Revision-Date: 2018-07-08 13:59+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -558,7 +558,7 @@ msgstr "El camp de contrasenya és obligatori"
 
 #: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:324
 msgid "Valid email required"
-msgstr "El camp d'adreça electrònica és obligatori"
+msgstr "Cal una adreça electrònica vàlida"
 
 #: .es5/lib/auth-errors.js:281
 msgid "A usable image was not found"
@@ -746,9 +746,7 @@ msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -994,8 +992,8 @@ msgstr ""
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continua a %(serviceName)s"
 
@@ -1293,8 +1291,8 @@ msgstr "Càmera"
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
 msgid "Done"
 msgstr "Fet"
 
@@ -1736,9 +1734,7 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
