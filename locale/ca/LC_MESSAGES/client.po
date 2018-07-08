@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-08 20:06+0000\n"
+"PO-Revision-Date: 2018-07-08 20:19+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -201,7 +201,7 @@ msgstr "El compte s'ha suprimit correctament"
 
 #: .es5/views/settings/display_name.js:58
 msgid "Display name updated"
-msgstr ""
+msgstr "S'ha actualitzat el nom a mostrar"
 
 #: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
-msgstr ""
+msgstr "El compte s'ha verificat correctament"
 
 #: .es5/models/sync-engines.js:44
 msgid "Open tabs"
@@ -313,7 +313,7 @@ msgstr "Complements"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "Inicis de sessió"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -329,11 +329,11 @@ msgstr "Adreces"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "Targetes de crèdit"
 
 #: .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
@@ -401,11 +401,11 @@ msgstr "El JSON en el cos de la sol·licitud no és vàlid"
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Paràmetre no vàlid: %(param)s"
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Falta un paràmetre: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
@@ -489,7 +489,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "No s'ha pogut enviar el correu electrònic"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:398
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "El servidor està ocupat, torneu-ho a provar"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Feature not enabled"
