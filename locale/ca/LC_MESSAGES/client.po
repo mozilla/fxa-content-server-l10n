@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-22 16:05+0000\n"
-"PO-Revision-Date: 2018-07-08 13:59+0000\n"
+"PO-Revision-Date: 2018-07-08 20:06+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr "S’ha reiniciat la contrasenya correctament. Inicieu una sessió per co
 
 #: .es5/views/permissions.js:28
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (necessari)"
 
 #: .es5/views/permissions.js:33
 msgid "Email address"
@@ -33,7 +33,7 @@ msgstr "Adreça electrònica"
 
 #: .es5/views/permissions.js:37 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr ""
+msgstr "Nom a mostrar"
 
 #: .es5/views/permissions.js:40 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -41,7 +41,7 @@ msgstr "Imatge del compte"
 
 #: .es5/views/ready.js:39
 msgid "Welcome back"
-msgstr ""
+msgstr "Ben tornat"
 
 #: .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
@@ -157,11 +157,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Fa més de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "Sessió web"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
@@ -685,9 +685,8 @@ msgid "Incorrect redirect_uri"
 msgstr "redirect_uri incorrecte"
 
 #: .es5/lib/oauth-errors.js:36
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "La contrasenya no és vàlida."
+msgstr "L'asserció no és vàlida"
 
 #: .es5/lib/oauth-errors.js:40
 msgid "Unknown code"
@@ -818,9 +817,8 @@ msgid "Back"
 msgstr "Enrere"
 
 #: .es5/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Reinicia la contrasenya"
+msgstr "L'enllaç per reiniciar la contrasenya ha caducat"
 
 #: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
@@ -831,9 +829,8 @@ msgid "Receive new link"
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:5
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Reinicia la contrasenya"
+msgstr "L'enllaç per reiniciar la contrasenya està malmès"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1093,9 +1090,8 @@ msgid "Sign out"
 msgstr "Finalitza la sessió"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
-#, fuzzy
 msgid "Use a different account"
-msgstr "El compte no està verificat"
+msgstr "Utilitzeu un altre compte"
 
 #: .es5/templates/sign_in.mustache:14
 msgid "Create an account"
