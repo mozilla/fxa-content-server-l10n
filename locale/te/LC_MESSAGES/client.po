@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 13:36+0000\n"
+"PO-Revision-Date: 2018-07-09 13:38+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -663,7 +663,7 @@ msgstr "ఒకసారి మీరు మీ కొత్త పాస్వ�
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
-msgstr "సింక్ ఎలా పనిచేస్తుందో నేర్చుకోండి."
+msgstr "Sync ఎలా పనిచేస్తుందో తెలుసుకోండి."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
 #: .es5/templates/settings/change_password.mustache:6
@@ -1940,11 +1940,11 @@ msgstr "ప్రాథమిక ఈమెయిలు"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "మీ Firefox ఖాతా సంకేతపదం"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "మీ ఈమెయిలు చిరునామా కాకూడదు"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
