@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-06-22 21:57+0000\n"
+"PO-Revision-Date: 2018-07-09 14:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -530,9 +530,7 @@ msgid "SMS not sent, please try again"
 msgstr "Nie wysłano wiadomości SMS, proszę spróbować ponownie"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Zasady ochrony prywatności</a> usługi "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1054,8 +1052,8 @@ msgstr "Wyślij"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
-"SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
+" musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1733,6 +1731,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>PAMIĘTAJ:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, "
+"aby chronić prywatność użytkowników."
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
@@ -1763,6 +1763,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>UWAGA:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby "
+"chronić prywatność użytkowników."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1951,23 +1953,23 @@ msgstr "Główny adres e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Hasło konta Firefoksa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Nie może być adresem e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Nie może być na tej <a %(escapedCommonPasswordLinkAttrs)s>liście popularnych haseł</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Musi być oryginalne i bezpieczne — nie używaj tego hasła w innych miejscach."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Zapamiętaj to hasło — jego zmiana usunie Twoje dane z naszych serwerów."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1996,18 +1998,18 @@ msgid "Sign in"
 msgstr "Zaloguj się"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>PAMIĘTAJ:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania "
-#~ "danych, aby chronić prywatność użytkownika."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>UWAGA:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, "
+#~ "<span>PAMIĘTAJ:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, "
 #~ "aby chronić prywatność użytkownika."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>UWAGA:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, aby "
+#~ "chronić prywatność użytkownika."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Dodaj warstwę zabezpieczeń do swojego konta — kody zabezpieczeń z jednej z <a %(escapedTotpSupportAttributes)s>tych aplikacji uwierzytelniania</a>."
@@ -2050,8 +2052,7 @@ msgstr "Zaloguj się"
 
 #~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Nie używaj tutaj swojego hasła poczty e-mail</span><br/>Jeśli ktoś zna Twoje hasło do poczty, to może zatwierdzić logowanie do Firefoksa na nowym urządzeniu i uzyskać dostęp do Twoich "
-#~ "danych."
+#~ "<span>Nie używaj tutaj swojego hasła poczty e-mail</span><br/>Jeśli ktoś zna Twoje hasło do poczty, to może zatwierdzić logowanie do Firefoksa na nowym urządzeniu i uzyskać dostęp do Twoich danych."
 
 #~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Zapamiętaj swoje hasło</span><br/>Wszystkie synchronizowane dane, które nie znajdują się na żadnym urządzeniu, zostaną utracone po zmianie hasła."
