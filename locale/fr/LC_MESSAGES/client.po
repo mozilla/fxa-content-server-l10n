@@ -1966,7 +1966,7 @@ msgstr "Doit être différent de votre adresse électronique"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Doit être différent de la <a %(escapedCommonPasswordLinkAttrs)sliste des mots de passe courants</a>"
+msgstr "Doit être différent de la <a %(escapedCommonPasswordLinkAttrs)s>liste des mots de passe courants</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
