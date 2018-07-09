@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-01 07:59+0000\n"
+"PO-Revision-Date: 2018-07-09 23:14+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -534,9 +534,7 @@ msgid "SMS not sent, please try again"
 msgstr "Το SMS δεν απεστάλη, παρακαλώ δοκιμάστε ξανά"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -835,8 +833,7 @@ msgstr "Ξεχάσατε τον κωδικό σας;"
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
+msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1091,8 +1088,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
-"στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+"Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
+" τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1476,8 +1473,8 @@ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγρα
 #: app/scripts/templates/why_connect_another_device.mustache:3 .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
-"κωδικό πρόσβασής σας."
+"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον κωδικό"
+" πρόσβασής σας."
 
 #: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15
 msgid "Revoke"
@@ -1963,15 +1960,15 @@ msgstr "Κύριο email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης του Λογαριασμού Firefox σας"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Δεν πρέπει να είναι η διεύθυνση email σας"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Δεν πρέπει να αντιστοιχεί σε αυτή τη <a %(escapedCommonPasswordLinkAttrs)s>λίστα συνηθισμένων κωδικών πρόσβασης</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
@@ -2008,15 +2005,15 @@ msgid "Sign in"
 msgstr "Σύνδεση"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως ιστορικό και "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατέψουμε το απόρρητό σας."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως το ιστορικό και οι "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατεύσουμε το απόρρητό σας."
