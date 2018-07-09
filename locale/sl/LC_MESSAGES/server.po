@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 16:05+0000\n"
+"POT-Creation-Date: 2018-07-09 13:16+0000\n"
 "PO-Revision-Date: 2018-06-02 09:02+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "Prijavite se za sinhronizacijo"
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
 msgid "Low recovery codes remaining"
 msgstr "Zmanjkuje vam kod za obnovitev"
 
@@ -106,7 +106,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za več informacij obiščite %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:756
+#: lib/senders/email.js:760
 msgid "New sign-in to %(clientName)s"
 msgstr "Nova prijava v %(clientName)s"
 
@@ -196,7 +196,7 @@ msgstr "Lep pozdrav,"
 msgid "The Firefox Accounts team"
 msgstr "Ekipa Firefox Računov"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:922
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
 msgid "Two-step authentication enabled"
 msgstr "Overitev v dveh korakih je omogočena"
 
@@ -242,7 +242,7 @@ msgstr ""
 "Uspešno ste spremenili glavni e-poštni naslov na %(email)s. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v Firefox Račun, kot tudi naslov za prejemanje varnostnih obvestil ter "
 "potrditev prijav."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
 msgid "Recovery code consumed"
 msgstr "Koda za obnovitev uporabljena"
 
@@ -254,7 +254,7 @@ msgstr "Uspešno ste uporabili obnovitveno kodo z naslednje naprave:"
 msgid "Consumed recovery code"
 msgstr "Uporabljena koda za obnovitev"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:994
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
 msgid "New recovery codes generated"
 msgstr "Nove kode za obnovitev so ustvarjene"
 
@@ -276,7 +276,7 @@ msgstr "Uspešno ste odstranili %(secondaryEmail)s kot drugi e-poštni naslov sv
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:958
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
 msgid "Two-step authentication disabled"
 msgstr "Overitev v dveh korakih je onemogočena"
 
@@ -388,7 +388,7 @@ msgstr "Potrdite prijavo"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, <a %(passwordChangeLinkAttributes)s>spremenite geslo</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:548
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
 msgid "Verify primary email"
 msgstr "Potrdi glavni e-poštni naslov"
 
@@ -416,7 +416,7 @@ msgstr "Potrdi e-poštni naslov: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Če niste sprožili tega dejanja, spremenite geslo."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:595
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
 msgid "Verify secondary email"
 msgstr "Potrdi drugi e-poštni naslov"
 
@@ -440,79 +440,79 @@ msgstr "Potrdite prejem te e-pošte, nakar vam bomo pomagali namestiti in sinhro
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Ko potrdite, vam bomo pomagali namestiti in povezati Firefox na vsaj eni drugi napravi."
 
-#: lib/senders/email.js:181
+#: lib/senders/email.js:182
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s v %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:184
+#: lib/senders/email.js:185
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s v %(uaOS)s"
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:212
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:213
+#: lib/senders/email.js:214
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:215
+#: lib/senders/email.js:216
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:217
+#: lib/senders/email.js:218
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ocena)"
 
-#: lib/senders/email.js:338
+#: lib/senders/email.js:342
 msgid "Verify your Firefox Account"
 msgstr "Potrdite svoj Firefox Račun"
 
-#: lib/senders/email.js:360
+#: lib/senders/email.js:364
 msgid "Confirm your email and start to sync!"
 msgstr "Potrdite e-pošto in začnite sinhronizirati!"
 
-#: lib/senders/email.js:406
+#: lib/senders/email.js:410
 msgid "Firefox Account authorization code"
 msgstr "Overitvena koda za Firefox Račun"
 
-#: lib/senders/email.js:449
+#: lib/senders/email.js:453
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potrdite novo prijavo v %(clientName)s"
 
-#: lib/senders/email.js:502
+#: lib/senders/email.js:506
 msgid "Sign-in code for Firefox"
 msgstr "Prijavna koda za Firefox"
 
-#: lib/senders/email.js:642
+#: lib/senders/email.js:646
 msgid "Reset your Firefox Account password"
 msgstr "Ponastavite geslo Firefox Računa"
 
-#: lib/senders/email.js:674
+#: lib/senders/email.js:678
 msgid "Your Firefox Account password has been changed"
 msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
 
-#: lib/senders/email.js:704
+#: lib/senders/email.js:708
 msgid "Firefox Account password changed"
 msgstr "Geslo Firefox Računa spremenjeno"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:734
 msgid "Firefox Account password reset required"
 msgstr "Zahtevana je ponastavitev gesla Firefox Računa"
 
-#: lib/senders/email.js:797
+#: lib/senders/email.js:801
 msgid "Firefox Account verified"
 msgstr "Firefox Račun potrjen"
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:832
 msgid "Secondary Firefox Account email added"
 msgstr "Drugi e-poštni naslov za Firefox Račun dodan"
 
-#: lib/senders/email.js:860
+#: lib/senders/email.js:864
 msgid "Firefox Account new primary email"
 msgstr "Novi glavni e-poštni naslov Firefox Računa"
 
-#: lib/senders/email.js:892
+#: lib/senders/email.js:896
 msgid "Secondary Firefox Account email removed"
 msgstr "Drugi e-poštni naslov za Firefox Račun odstranjen"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 16:05+0000\n"
+"POT-Creation-Date: 2018-07-09 13:16+0000\n"
 "PO-Revision-Date: 2018-05-26 14:23+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgstr "登入至 Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox 帳號"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1066
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
 msgid "Low recovery codes remaining"
 msgstr "剩餘的救援代碼不足"
 
@@ -102,7 +102,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "若需更多資訊，請到 %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:756
+#: lib/senders/email.js:760
 msgid "New sign-in to %(clientName)s"
 msgstr "新登入到 %(clientName)s"
 
@@ -192,7 +192,7 @@ msgstr "順頌　時祺"
 msgid "The Firefox Accounts team"
 msgstr "Firefox 帳號團段"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:922
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
 msgid "Two-step authentication enabled"
 msgstr "已開啟兩階段驗證"
 
@@ -236,7 +236,7 @@ msgid ""
 "confirmations."
 msgstr "您已成功將主要電子郵件地址更改為 %(email)s。現在起，請使用此信箱來登入 Firefox 帳號，也會在這個信箱中收到安全性通知、登入確認信等等。"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1030
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
 msgid "Recovery code consumed"
 msgstr "已使用救援碼"
 
@@ -248,7 +248,7 @@ msgstr "您已在下列裝置上，成功使用救援碼登入:"
 msgid "Consumed recovery code"
 msgstr "已使用救援碼"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:994
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
 msgid "New recovery codes generated"
 msgstr "已產生新救援碼"
 
@@ -270,7 +270,7 @@ msgstr "您已成功將 %(secondaryEmail)s 從次要 Firefox 帳號刪除。現�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:958
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
 msgid "Two-step authentication disabled"
 msgstr "已關閉兩階段驗證"
 
@@ -380,7 +380,7 @@ msgstr "確認登入"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "若您覺得有人在嘗試盜用您的帳號，<a %(passwordChangeLinkAttributes)s>請修改密碼</a>。"
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:548
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
 msgid "Verify primary email"
 msgstr "驗證主要電子郵件地址"
 
@@ -408,7 +408,7 @@ msgstr "驗證電子郵件地址: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "若您並未要求進行此操作，請修改密碼。"
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:595
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
 msgid "Verify secondary email"
 msgstr "驗證次要電子郵件地址"
 
@@ -432,79 +432,79 @@ msgstr "確認您收到了這封郵件，我們就會從下列裝置開始，幫
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "完成確認後，我們就會幫助您安裝並連結其他裝置上的 Firefox。"
 
-#: lib/senders/email.js:181
+#: lib/senders/email.js:182
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:184
+#: lib/senders/email.js:185
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:212
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s %(city)s（估計）"
 
-#: lib/senders/email.js:213
+#: lib/senders/email.js:214
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s %(city)s（估計）"
 
-#: lib/senders/email.js:215
+#: lib/senders/email.js:216
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s（估計）"
 
-#: lib/senders/email.js:217
+#: lib/senders/email.js:218
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估計）"
 
-#: lib/senders/email.js:338
+#: lib/senders/email.js:342
 msgid "Verify your Firefox Account"
 msgstr "驗證您的 Firefox 帳號"
 
-#: lib/senders/email.js:360
+#: lib/senders/email.js:364
 msgid "Confirm your email and start to sync!"
 msgstr "確認您的電子郵件信箱，開始同步！"
 
-#: lib/senders/email.js:406
+#: lib/senders/email.js:410
 msgid "Firefox Account authorization code"
 msgstr "Firefox 帳號授權碼"
 
-#: lib/senders/email.js:449
+#: lib/senders/email.js:453
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "確認新登入到 %(clientName)s"
 
-#: lib/senders/email.js:502
+#: lib/senders/email.js:506
 msgid "Sign-in code for Firefox"
 msgstr "Firefox 的登入代碼"
 
-#: lib/senders/email.js:642
+#: lib/senders/email.js:646
 msgid "Reset your Firefox Account password"
 msgstr "重設您的 Firefox 帳號密碼"
 
-#: lib/senders/email.js:674
+#: lib/senders/email.js:678
 msgid "Your Firefox Account password has been changed"
 msgstr "已修改您的 Firefox 帳號密碼"
 
-#: lib/senders/email.js:704
+#: lib/senders/email.js:708
 msgid "Firefox Account password changed"
 msgstr "已變更 Firefox 帳號密碼"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:734
 msgid "Firefox Account password reset required"
 msgstr "需要重設 Firefox 帳號的密碼"
 
-#: lib/senders/email.js:797
+#: lib/senders/email.js:801
 msgid "Firefox Account verified"
 msgstr "已驗證 Firefox 帳號"
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:832
 msgid "Secondary Firefox Account email added"
 msgstr "已加入次要 Firefox 帳號地址"
 
-#: lib/senders/email.js:860
+#: lib/senders/email.js:864
 msgid "Firefox Account new primary email"
 msgstr "新的 Firefox 帳號主要電子郵件地址"
 
-#: lib/senders/email.js:892
+#: lib/senders/email.js:896
 msgid "Secondary Firefox Account email removed"
 msgstr "已移除 Firefox 帳號的次要電子郵件信箱"
 
