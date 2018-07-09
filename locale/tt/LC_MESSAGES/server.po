@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-03-22 22:32+0000\n"
+"PO-Revision-Date: 2018-07-09 20:01+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Firefox хисап язмагызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Синхронлаудан күбрәк файда алу өчен, куллана торган булсагыз, <a href='%(androidUrl)s'>Android өчен Firefox</a> яки <a "
 "href='%(iosUrl)s'>iOS өчен Firefox</a>'ны да тоташтырыгыз."
@@ -51,7 +51,7 @@ msgstr "Firefox хисап язмалары"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Яңадан торгызу кодлары аз калды"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
