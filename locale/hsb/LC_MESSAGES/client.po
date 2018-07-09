@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 16:12+0000\n"
+"PO-Revision-Date: 2018-07-09 16:17+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1965,11 +1965,11 @@ msgstr "Njesmě w tutej <a %(escapedCommonPasswordLinkAttrs)s>lisćinje zwučeny
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Budźće originelny a zadźeržće so wěsće &mdash; njewužiwajće tute hesło druhdźe."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Spomjatkujće sej tute hesło &mdash; hdyž jo wróćo stajeće, so waše daty z našich serwerow zhašeja."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
