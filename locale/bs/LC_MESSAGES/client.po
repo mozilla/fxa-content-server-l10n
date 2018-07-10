@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-10 11:52+0000\n"
+"PO-Revision-Date: 2018-07-10 11:53+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -714,7 +714,7 @@ msgstr "Link za potvrdu je poslan na %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "Da bolje zaštitimo vaše Firefox podatke, poslali smo link potvrde na %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
