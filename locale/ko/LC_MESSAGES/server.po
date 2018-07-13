@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-07-13 16:04+0000\n"
 "PO-Revision-Date: 2018-01-29 12:10+0000\n"
 "Last-Translator: SeulGi Choi (Chase) <cs09gi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "동기화에 로그인"
 msgid "Firefox Accounts"
 msgstr "Firefox 계정"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1080
 msgid "Low recovery codes remaining"
 msgstr ""
 
@@ -106,7 +106,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "자세한 내용은, %(supportUrl)s 를 방문하시기 바랍니다"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:770
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
@@ -197,7 +197,7 @@ msgstr "최고,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Account 팀"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:936
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -241,7 +241,7 @@ msgid ""
 "confirmations."
 msgstr "기본 이메일을 %(email)s로 성공적으로 변경했습니다. 이 주소는 이제 Firefox 계정에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1044
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -253,7 +253,7 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1008
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr "Firefox 계정에서 %(secondaryEmail)s을 보조 이메일에서 삭제
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "이는 자동 전송 메일입니다. 오류로 온 것이라면 아무 동작을 안해도 됩니다."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:972
 msgid "Two-step authentication disabled"
 msgstr ""
 
@@ -386,7 +386,7 @@ msgstr "로그인 확인"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, <a %(passwordChangeLinkAttributes)s>비밀번호를 변경해주세요</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:562
 msgid "Verify primary email"
 msgstr "기본 이메일 확인"
 
@@ -414,7 +414,7 @@ msgstr "이메일 인증: "
 msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:609
 msgid "Verify secondary email"
 msgstr "보조 이메일 인증"
 
@@ -462,55 +462,55 @@ msgstr "%(stateCode)s, %(country)s (추정)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (추정)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:352
 msgid "Verify your Firefox Account"
 msgstr "Firefox Account 확인"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:374
 msgid "Confirm your email and start to sync!"
 msgstr "이메일 확인하고 동기화를 시작하세요!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:420
 msgid "Firefox Account authorization code"
 msgstr "Firefox 계정 인증 코드"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:463
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:516
 msgid "Sign-in code for Firefox"
 msgstr "Firefox 로그인 코드"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:656
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Account 비밀번호 재설정"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:688
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Account 비밀번호가 바뀌었습니다."
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:718
 msgid "Firefox Account password changed"
 msgstr ""
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:744
 msgid "Firefox Account password reset required"
 msgstr "Firefox Account 비밀번호 재설정 필요"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:811
 msgid "Firefox Account verified"
 msgstr "Firefox 계정 확인됨"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:842
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox 계정의 보조 이메일이 추가됨"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:874
 msgid "Firefox Account new primary email"
 msgstr "Firefox 계정의 새로운 기본 이메일"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:906
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox 계정에서 보조 이메일 삭제됨"
 
