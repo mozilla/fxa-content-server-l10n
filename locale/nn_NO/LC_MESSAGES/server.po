@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-07-13 16:04+0000\n"
 "PO-Revision-Date: 2018-06-08 18:29+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr "Logg inn på Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox-kontoar"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1080
 msgid "Low recovery codes remaining"
 msgstr "Kun få gjenopprettingskodar att"
 
@@ -105,7 +105,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "For meir informasjon, gå til %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:770
 msgid "New sign-in to %(clientName)s"
 msgstr "Ny inloggning på %(clientName)s"
 
@@ -197,7 +197,7 @@ msgstr "Venleg helsing"
 msgid "The Firefox Accounts team"
 msgstr "Teamet for Firefox-kontoar"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:936
 msgid "Two-step authentication enabled"
 msgstr "Tostegs-verifisering aktivert"
 
@@ -243,7 +243,7 @@ msgstr ""
 "Du har endra den primære e-postadressa di til %(email)s. Denne adressa nyttar du som brukarnamn for å logge inn på Firefox-kontoen din, samt for å ta imot sikkerheitsvarsel og stadfesting på "
 "innloggingar."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1044
 msgid "Recovery code consumed"
 msgstr "Gjenopprettingskode brukt"
 
@@ -255,7 +255,7 @@ msgstr "Du har brukt ein oppattbyggingskode frå følgjande eining:"
 msgid "Consumed recovery code"
 msgstr "Brukt gjenopprettingskode"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1008
 msgid "New recovery codes generated"
 msgstr "Nye gjenopprettingskodar generert"
 
@@ -277,7 +277,7 @@ msgstr "Du har sletta %(secondaryEmail)s som ei sekundær e-postadresse frå Fir
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:972
 msgid "Two-step authentication disabled"
 msgstr "Tostegs-verifisering deaktivert"
 
@@ -389,7 +389,7 @@ msgstr "Stadfest innlogging"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endre passordet ditt</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:562
 msgid "Verify primary email"
 msgstr "Stadfest primær e-post"
 
@@ -417,7 +417,7 @@ msgstr "Stadfest e-post: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Om du ikkje godkjende denne handlinga, byt passordet ditt."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:609
 msgid "Verify secondary email"
 msgstr "Stadfest sekundær e-post"
 
@@ -465,55 +465,55 @@ msgstr "%(stateCode)s, %(country)s (estimert)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimert)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:352
 msgid "Verify your Firefox Account"
 msgstr "Stadfest Firefox-kontoen din"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:374
 msgid "Confirm your email and start to sync!"
 msgstr "Stadfest e-postadressa di og begynn å synkronisere!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:420
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto godkjenningskode"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:463
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Stadfest ny innlogging til %(clientName)s"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:516
 msgid "Sign-in code for Firefox"
 msgstr "Innloggingskode for Firefox"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:656
 msgid "Reset your Firefox Account password"
 msgstr "Tilbakestill passordet på Firefox-kontoen din"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:688
 msgid "Your Firefox Account password has been changed"
 msgstr "Passordet for Firefox-kontoen din er endra"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:718
 msgid "Firefox Account password changed"
 msgstr "Passordet for Firefox-kontoen er endra"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:744
 msgid "Firefox Account password reset required"
 msgstr "Tilbakestilling av passord for Firefox-kontoen er påkravd"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:811
 msgid "Firefox Account verified"
 msgstr "Firefox-konto stadfesta"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:842
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundær e-post for Firefox-konto lagt til"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:874
 msgid "Firefox Account new primary email"
 msgstr "Firefox-konto, ny primær e-post"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:906
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundær e-postadresse i Firefox-kontoen fjerna"
 

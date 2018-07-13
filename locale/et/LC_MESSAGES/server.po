@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-07-13 16:04+0000\n"
 "PO-Revision-Date: 2018-05-26 14:40+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr "Logi Synci sisse"
 msgid "Firefox Accounts"
 msgstr "Firefoxi kontod"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1080
 msgid "Low recovery codes remaining"
 msgstr "Taastamiskoode on vähe alles"
 
@@ -105,7 +105,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Rohkem teavet leiad, kui külastad %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:770
 msgid "New sign-in to %(clientName)s"
 msgstr "Uus sisselogimine seadmes %(clientName)s"
 
@@ -197,7 +197,7 @@ msgstr "Parimat soovides,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Accounts meeskond"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:936
 msgid "Two-step authentication enabled"
 msgstr "Kaheastmeline autentimine lubati"
 
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 "Oled peamiseks e-posti aadressiks määranud %(email)s. See aadress on nüüd su kasutajanimeks Firefoxi kontosse sisselogimisel, samuti saabuvad sellele turvateavitused ja sisselogimise kinnitused."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1044
 msgid "Recovery code consumed"
 msgstr "Taastamise kood ära kasutatud"
 
@@ -254,7 +254,7 @@ msgstr "Oled järgnevat seadet kasutades edukalt ära kasutanud taastamise koodi
 msgid "Consumed recovery code"
 msgstr "Taastamise kood ära kasutatud"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1008
 msgid "New recovery codes generated"
 msgstr "Loodi uued taastamise koodid"
 
@@ -276,7 +276,7 @@ msgstr "Eemaldasid aadressi %(secondaryEmail)s enda Firefoxi kontost. Turvateavi
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole sul vaja midagi teha."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:972
 msgid "Two-step authentication disabled"
 msgstr "Kaheastmeline autentimine keelati"
 
@@ -388,7 +388,7 @@ msgstr "Kinnita sisselogimine"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Kui kahtlustad, et keegi teine püüab sinu kontot kasutada, siis <a %(passwordChangeLinkAttributes)s>palun vaheta ära parool</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:562
 msgid "Verify primary email"
 msgstr "Kinnita peamine e-posti aadress"
 
@@ -416,7 +416,7 @@ msgstr "E-posti aadressi kinnitamine: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Kui sa ei autoriseerinud seda tegevust, siis palun muuda oma parool."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:609
 msgid "Verify secondary email"
 msgstr "Teise e-posti aadressi kinnitamine"
 
@@ -464,55 +464,55 @@ msgstr "%(stateCode)s, %(country)s (hinnanguline)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (hinnanguline)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:352
 msgid "Verify your Firefox Account"
 msgstr "Firefoxi konto kinnitamine"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:374
 msgid "Confirm your email and start to sync!"
 msgstr "Kinnita e-post ning alusta sünkroonimist!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:420
 msgid "Firefox Account authorization code"
 msgstr "Firefoxi konto autoriseerimiskood"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:463
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Kinnitan uue sisselogimise seadmes %(clientName)s"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:516
 msgid "Sign-in code for Firefox"
 msgstr "Sisselogimiskood Firefoxile"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:656
 msgid "Reset your Firefox Account password"
 msgstr "Firefoxi konto parooli lähtestamine"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:688
 msgid "Your Firefox Account password has been changed"
 msgstr "Sinu Firefoxi konto parooli on muudetud."
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:718
 msgid "Firefox Account password changed"
 msgstr "Firefoxi konto parool on muudetud"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:744
 msgid "Firefox Account password reset required"
 msgstr "Firefoxi konto parooli lähtestamine on kohustuslik."
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:811
 msgid "Firefox Account verified"
 msgstr "Firefoxi konto on kinnitatud"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:842
 msgid "Secondary Firefox Account email added"
 msgstr "Firefoxi kontole lisati teine e-posti aadress"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:874
 msgid "Firefox Account new primary email"
 msgstr "Firefoxi konto uus peamine e-posti aadress"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:906
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefoxi konto teine e-posti aadress eemaldati"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-07-13 16:04+0000\n"
 "PO-Revision-Date: 2018-05-31 02:22+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "Sinxronlaşdırmaq üçün daxil olun"
 msgid "Firefox Accounts"
 msgstr "Firefox Hesabları"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1080
 msgid "Low recovery codes remaining"
 msgstr "Az bərpa kodları qaldı"
 
@@ -106,7 +106,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha ətraflı məlumar üçün, lütfən %(supportUrl)s ünvanına baş çəkin"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:770
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s üçün yeni daxil olma"
 
@@ -198,7 +198,7 @@ msgstr "Ən yaxşısı,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Hesabı komandası"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:936
 msgid "Two-step authentication enabled"
 msgstr "İki mərhələli daxil olma aktivləşdirildi"
 
@@ -244,7 +244,7 @@ msgstr ""
 "Əsas e-poçtunuzu müvəffəqiyyətlə %(email)s ünvanına dəyişdirdiniz. Bu ünvan artıq Firefox Hesabınıza daxil olmaq üçün istifadə adınızdır, həmçinin təhlükəsizlik bildirişləri və daxil olma "
 "təsdiqləmələri bu ünvana göndəriləcək."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1044
 msgid "Recovery code consumed"
 msgstr "Bərpa etmə kodu istifadə edildi"
 
@@ -256,7 +256,7 @@ msgstr "Bu cihazdan uğurla bərpa etmə kodunu istifadə etdiniz:"
 msgid "Consumed recovery code"
 msgstr "Bərpa kodu istifadə edildi"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1008
 msgid "New recovery codes generated"
 msgstr "Yeni bərpa kodları yaradıldı"
 
@@ -278,7 +278,7 @@ msgstr "İkinci e-poçtunuz %(secondaryEmail)s Firefox Hesabınızdan silindi. T
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Bu avtomatik e-poçtdur; əgər bunu səhvən almısınızsa, bir şey etməyinizə ehtiyyac yoxdur."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:972
 msgid "Two-step authentication disabled"
 msgstr "İki mərhələli daxil olma söndürüldü"
 
@@ -390,7 +390,7 @@ msgstr "Daxil olmanı təsdiqlə"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşünürsünüzsə, <a %(passwordChangeLinkAttributes)s>lütfən parolunuzu dəyişdirin</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:562
 msgid "Verify primary email"
 msgstr "Əsas e-poçtunuzu təsdiqləyin"
 
@@ -418,7 +418,7 @@ msgstr "E-poçtu təsdiqlə: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Əgər bu əməliyyatı siz etmədinizsə, lütfən parolunuzu dəyişdirin."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:609
 msgid "Verify secondary email"
 msgstr "İkinci e-poçtu təsdiqlə"
 
@@ -466,55 +466,55 @@ msgstr "%(stateCode)s, %(country)s (təxmini)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (təxmini)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:352
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabınızı təsdiqləyin"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:374
 msgid "Confirm your email and start to sync!"
 msgstr "E-poçtunuzu dəsdiqləyin və sinxronlaşdırmağa başlayın!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:420
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı avtorizasiya kodu"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:463
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s üçün yeni daxil olmanı təsdiqləyin"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:516
 msgid "Sign-in code for Firefox"
 msgstr "Firefox üçün daxil olma kodu"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:656
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesab parolunuzu sıfırlayın"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:688
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesab parolunuz dəyişdirildi"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:718
 msgid "Firefox Account password changed"
 msgstr "Firefox Hesabı parolu dəyişdirildi"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:744
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolunu sıfırlamaq tələb edilir"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:811
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı təsdiqləndi"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:842
 msgid "Secondary Firefox Account email added"
 msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:874
 msgid "Firefox Account new primary email"
 msgstr "Firefox Hesabında yeni əsas e-poçt"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:906
 msgid "Secondary Firefox Account email removed"
 msgstr "İkinci Firefox Hesabı e-poçtu silindi"
 

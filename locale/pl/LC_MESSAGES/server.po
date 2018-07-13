@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-07-13 16:04+0000\n"
 "PO-Revision-Date: 2018-05-25 19:55+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -49,7 +49,7 @@ msgstr "Zaloguj się do usługi Sync"
 msgid "Firefox Accounts"
 msgstr "Konta Firefoksa"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1080
 msgid "Low recovery codes remaining"
 msgstr "Pozostało mało kodów odzyskiwania"
 
@@ -105,7 +105,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Więcej informacji można znaleźć na %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:770
 msgid "New sign-in to %(clientName)s"
 msgstr "Nowe logowanie do „%(clientName)s”"
 
@@ -195,7 +195,7 @@ msgstr "Pozdrawiamy,"
 msgid "The Firefox Accounts team"
 msgstr "Zespół kont Firefoksa"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:936
 msgid "Two-step authentication enabled"
 msgstr "Włączono uwierzytelnianie dwuetapowe"
 
@@ -241,7 +241,7 @@ msgstr ""
 "Pomyślnie zmieniono główny adres e-mail na %(email)s. Ten adres jest teraz nazwą użytkownika do logowania na koncie Firefoksa, a także adresem odbierającym powiadomienia bezpieczeństwa "
 "i potwierdzenia logowania."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1044
 msgid "Recovery code consumed"
 msgstr "Zużyto kod odzyskiwania"
 
@@ -253,7 +253,7 @@ msgstr "Pomyślnie zużyto kod odzyskiwania z tego urządzenia:"
 msgid "Consumed recovery code"
 msgstr "Zużyty kod odzyskiwania"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1008
 msgid "New recovery codes generated"
 msgstr "Utworzono nowe kody odzyskiwania"
 
@@ -275,7 +275,7 @@ msgstr "Pomyślnie usunięto drugi adres e-mail %(secondaryEmail)s z konta Fire
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:972
 msgid "Two-step authentication disabled"
 msgstr "Wyłączono uwierzytelnianie dwuetapowe"
 
@@ -387,7 +387,7 @@ msgstr "Potwierdź logowanie"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to <a %(passwordChangeLinkAttributes)s>prosimy zmienić hasło</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:562
 msgid "Verify primary email"
 msgstr "Zweryfikuj główny adres e-mail"
 
@@ -415,7 +415,7 @@ msgstr "Zweryfikuj adres e-mail: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Jeżeli nie upoważniono wykonania tej czynności, to należy natychmiast zmienić hasło."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:609
 msgid "Verify secondary email"
 msgstr "Zweryfikuj drugi adres e-mail"
 
@@ -463,55 +463,55 @@ msgstr "%(stateCode)s, %(country)s (przybliżone)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (przybliżone)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:352
 msgid "Verify your Firefox Account"
 msgstr "Zweryfikuj konto Firefoksa"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:374
 msgid "Confirm your email and start to sync!"
 msgstr "Potwierdź adres e-mail i zacznij synchronizować!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:420
 msgid "Firefox Account authorization code"
 msgstr "Kod upoważnienia konta Firefoksa"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:463
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potwierdź nowe logowanie do „%(clientName)s”"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:516
 msgid "Sign-in code for Firefox"
 msgstr "Kod logowania do Firefoksa"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:656
 msgid "Reset your Firefox Account password"
 msgstr "Zmień hasło konta Firefoksa"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:688
 msgid "Your Firefox Account password has been changed"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:718
 msgid "Firefox Account password changed"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:744
 msgid "Firefox Account password reset required"
 msgstr "Wymagana jest zmiana hasła konta Firefoksa"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:811
 msgid "Firefox Account verified"
 msgstr "Zweryfikowano konto Firefoksa"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:842
 msgid "Secondary Firefox Account email added"
 msgstr "Dodano drugi adres e-mail konta Firefoksa"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:874
 msgid "Firefox Account new primary email"
 msgstr "Nowy główny adres e-mail konta Firefoksa"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:906
 msgid "Secondary Firefox Account email removed"
 msgstr "Usunięto drugi adres e-mail konta Firefoksa"
 
