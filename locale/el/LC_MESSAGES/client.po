@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 23:14+0000\n"
+"PO-Revision-Date: 2018-07-14 17:01+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1738,6 +1738,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και "
+"κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας."
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
@@ -1768,6 +1770,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>ΣΗΜΕΙΩΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και "
+"κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1972,11 +1976,11 @@ msgstr "Δεν πρέπει να αντιστοιχεί σε αυτή τη <a %(
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Γίνετε δημιουργικοί για να είστε ασφαλείς &mdash; μην χρησιμοποιείτε αυτό τον κωδικό πρόσβασης πουθενά αλλού."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Να θυμάστε αυτό τον κωδικό πρόσβασης &mdash; η επαναφορά του θα διαγράψει τα δεδομένα σας από τους διακομιστές μας."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
