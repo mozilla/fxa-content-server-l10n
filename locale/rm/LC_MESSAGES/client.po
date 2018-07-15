@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-14 00:25+0000\n"
-"Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
+"PO-Revision-Date: 2018-07-15 16:11+0000\n"
+"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
@@ -989,7 +989,7 @@ msgstr "Autorisar questa annunzia"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Per proteger meglier tias datas da Firefox ta spetga in code d'autorisaziun en %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4 .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1007,7 +1007,7 @@ msgstr "Crear in conto da Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Ti tschertgas Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Cumenza qua</a>"
 
 #: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1054,6 +1054,8 @@ msgstr "Trametter"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Il servetsch dad SMS è mo disponibel per numers da telefon dals Stadis Unids da l'America. Eventualmain vegnan messas a quint taxas per SMS e la transmissiun da datas. Il destinatur da l'e-mail u "
+"SMS sto avair dà ses consentiment. <a %(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1077,19 +1079,23 @@ msgstr "Betg arrivà? Trametter anc ina giada"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Pertge sincronisar dus (u dapli!) apparats?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Memorisescha tes segnapaginas, la cronologia ed ils pleds-clav en Firefox ed als cundivida lura grazia a Sync cun ils auters apparats. T'annunzia cun Firefox sin tes telefon u tablet e tut quai che "
+"ti has memorisà en Firefox sin tes computer vegn a cumparair."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Sync n'è betg previs per la segirada da datas, mabain mo per cundivider las datas localas. Sche ti reinizialiseschas il pled-clav e las datas n'èn betg memorisadas sin almain in auter apparat, "
+"perdas ti eventualmain tut las infurmaziuns associadas cun il pled-clav vegl. Per quest motiv èsi recumandabel dad installar Firefox ed utilisar Sync sin plirs apparats."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11 .es5/templates/why_connect_another_device.mustache:4
 #: .es5/templates/settings/client_disconnect.mustache:11
@@ -1729,6 +1735,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+"succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
@@ -1759,6 +1767,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+"succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
