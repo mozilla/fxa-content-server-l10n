@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1961,7 +1961,7 @@ msgstr "No debe ser tu email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "No debe coincidir con la <a %(escapedcommonpasswordlinkattrs)s=\"\">lista de contraseñas comunes</a>"
+msgstr "No debe coincidir con la <a %(escapedCommonPasswordLinkAttrs)s=\"\">lista de contraseñas comunes</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
