@@ -1,11 +1,3 @@
-# These environment variables must be set in CircleCI UI
-#
-# DOCKERHUB_REPO - docker hub repo, format: <username>/<repo>
-# DOCKER_EMAIL   - login info for docker hub
-# DOCKER_USER
-# DOCKER_PASS
-#
-
 # update secret-env-cypher locally with:
 # openssl aes-256-cbc -e -in secret-env-plain -out secret-env-cipher -k $KEY
 version: 2
