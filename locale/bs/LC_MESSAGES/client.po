@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-10 11:53+0000\n"
+"PO-Revision-Date: 2018-07-19 11:30+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -719,7 +719,7 @@ msgstr "Da bolje zaštitimo vaše Firefox podatke, poslali smo link potvrde na %
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Nije stiglo i nije u spam folderu? Ponovo pošalji"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -741,7 +741,7 @@ msgstr "Povežite drugi uređaj"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "Ovaj uređaj je povezan"
 
 #: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45 .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -781,11 +781,11 @@ msgstr "Prijavite se na Firefox za IOSu da dovršite podešavanje"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
-msgstr ""
+msgstr "Zašto je ovo potrebno?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Potrebni su kolačići i lokalno skladištenje."
 
 #: app/scripts/templates/cookies_disabled.mustache:2 .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -894,7 +894,7 @@ msgstr "Otkaži"
 
 #: app/scripts/templates/ready.mustache:4
 msgid "Proceed"
-msgstr ""
+msgstr "Nastavite"
 
 #: app/scripts/templates/ready.mustache:7 .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -944,7 +944,7 @@ msgstr "Počni reset"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Zapamti lozinku? Prijavi se."
 
 #: app/scripts/templates/settings.mustache:1 .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -985,7 +985,7 @@ msgstr "Potvrdite ovu prijavu"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Za bolju zaštitu vaših Firefox podataka, ovdje je autorizacijski kod koji čeka na vas na %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4 .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1003,7 +1003,7 @@ msgstr "Kreirajte Firefox račun"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Tražite Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Počnite ovdje</a>"
 
 #: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1050,10 +1050,12 @@ msgstr "Pošalji"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS usluga je dostupna samo mobilnim brojevima u SAD-u. SMS troškovi prenosa podataka mogu nastati. Željeni primalac emaila ili SMS-a se mora prethodno složiti sa ovim. <a "
+"%(escapedLearnMoreAttributes)s>Saznajte više</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
-msgstr ""
+msgstr "Možda kasnije"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1061,7 +1063,7 @@ msgstr "Instalirajte FIrefox na vaš pametni telefon i prijavite se da završite
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Link aplikacije poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan broj?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1073,13 +1075,15 @@ msgstr "Nije stiglo? Pošalji ponovo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Zašto sinhronizovati dva (ili više!) uređaja?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Sync vam omogućava dijelite zabilješke, historiju i lozinke koje ste sačuvali u Firefoxu na jednom uređaju sa Firefox-om na drugim uređajima. Prijavite se na Firefox na vašem telefonu ili tabletu i "
+"sve što ste sačuvali na Firefoxu za desktop će se pojaviti."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
