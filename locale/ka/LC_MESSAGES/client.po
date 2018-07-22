@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-10 15:59+0000\n"
+"PO-Revision-Date: 2018-07-22 03:57+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1897,7 +1897,7 @@ msgstr "ჩართვა…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "დაამატეთ დაცვის დამატებითი შრე თქვენი ანგარიშისთვის, უსაფრთხოების კოდების მოთხოვნის სახით, <a %(escapedTotpSupportAttributes)s>შესვლის დასამოწმებელი რომელიმე ამ პროგრამიდან</a>."
+msgstr "დაამატეთ დაცვის დამატებითი დონე თქვენი ანგარიშისთვის, უსაფრთხოების კოდების მოთხოვნის სახით, <a %(escapedTotpSupportAttributes)s>შესვლის დასამოწმებელი რომელიმე ამ პროგრამიდან</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
