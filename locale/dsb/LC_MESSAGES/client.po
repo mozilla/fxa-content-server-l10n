@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 16:23+0000\n"
+"PO-Revision-Date: 2018-07-23 20:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -77,7 +77,7 @@ msgstr "Njeznate konto. <a href=\"/signup\">Registrěrowaś</a>"
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Njeznate konto Firefox. <a href=\"/signup\">Registrěrujśo se</a> z e-mailoweju adresu swójogo pjerwjejšnego dodankowego konta, aby pśistup na swóje dodankowe daty měł."
+msgstr "Njeznate konto Firefox. <a href=\"/signup\">Registrěrujśo se</a> z e-mailoweju adresu swójogo pjerwjejšnego dodankowego konta, aby pśistup k swójim dodankowym datam měł."
 
 #: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
@@ -790,7 +790,7 @@ msgstr "Cookieje a lokalny składowak stej trěbnej."
 
 #: app/scripts/templates/cookies_disabled.mustache:2 .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup na Konta Firefox měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja."
+msgstr "Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup ku kontam Firefox měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja."
 
 #: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4 .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1810,7 +1810,7 @@ msgstr "NJezgubujśo toś to gronidko. Jolic musyśo jo slědk stajiś, zgubijo�
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>Njewužywajśo swójo e-mailowe gronidło znowego</span>Jolici něchten wašo e-mailowe gronidko wě, móžo wašo pśizjawjenje Firefox na nowem rěźe wobkšuśiś a změjo pśistup na waše daty."
+msgstr "<span>Njewužywajśo swójo e-mailowe gronidło znowego</span>Jolici něchten wašo e-mailowe gronidło wě, móžo wašo pśizjawjenje Firefox na nowem rěźe wobkšuśiś a změjo pśistup k wašym datam."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
@@ -1847,7 +1847,7 @@ msgid ""
 "lose access to it everywhere."
 msgstr ""
 "Jolic toś to konto za nałoženja Mozilla a słužby ako AMO, Pocket a Screenshots wužywaśo, wy měł se nejpjerwjej pśizjawiś a skłaźone wósobinske daty wótwónoźeś. Gaž how swójo konto wulašujośo, móžośo"
-" se pśistup na njo wšuźi zgubiś."
+" se pśistup k njomu wšuźi zgubiś."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1875,7 +1875,7 @@ msgstr "Nowe wótnowjeńske kody napóraś"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "To su waše wótnowjeńske kody za jadnorazowe wužywanje. Składujśo je na wěstem městnje, jolic pśistup na waš mobilny rěd zgubijośo. Njamóžośo toś te kody zasej wiźeś."
+msgstr "To su waše wótnowjeńske kody za jadnorazowe wužywanje. Składujśo je na wěstem městnje, jolic pśistup k wašomu mobilnemu rědoju zgubijośo. Njamóžośo toś te kody zasej wiźeś."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
