@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-06 20:27+0000\n"
+"PO-Revision-Date: 2018-07-24 18:47+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -17,19 +17,19 @@ msgstr ""
 #: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23 .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Хисап уңышлы расланды"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164
 msgid "Password reset"
-msgstr "Серсүз алыштырылды"
+msgstr "Паролны алыштыру"
 
 #: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Серсүзне алыштыру уңышлы тәмамланды. Дәвам итү өчен сайтка керегез."
+msgstr "Паролны алыштыру уңышлы тәмамланды. Дәвам итү өчен сайтка керегез."
 
 #: app/scripts/views/permissions.js:26 .es5/views/permissions.js:28
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (кирәк)"
+msgstr "%(permissionName)s (кирәкле)"
 
 #: app/scripts/views/permissions.js:32 .es5/views/permissions.js:33
 msgid "Email address"
@@ -42,7 +42,7 @@ msgstr "Күрсәтеләчәк исемегез"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1 .es5/views/permissions.js:40 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr "Аккаунт рәсеме"
+msgstr "Хисап рәсеме"
 
 #: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39
 msgid "Welcome back"
@@ -50,57 +50,57 @@ msgstr "Хуш кайтасыз"
 
 #: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync берәздән дәвам итәчәк"
+msgstr "Firefox Sync хәзер дәвам итәчәк"
 
 #: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Firefox'лы башка җиһазларыгызда да яңа серсүзегезне кертеп, көйләүне тәмамлагыз."
+msgstr "Firefox'лы башка җиһазларыгызда да яңа паролыгызны кертеп, көйләүне тәмамлагыз."
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr "Сайтка керү расланды"
+msgstr "Керү расланды"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
 #: .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Сез %(serviceName)s хезмәтен куллануга әзерсез"
+msgstr "Сез хәзер %(serviceName)s хезмәтен куллана аласыз"
 
 #: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65
 msgid "Account verified"
-msgstr "Аккаунт расланды"
+msgstr "Хисап расланды"
 
 #: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164 .es5/views/reset_password.js:97
 #: .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Билгесез аккаунт. <a href=\"/signup\">Теркәлү</a>"
+msgstr "Билгесез хисап. <a href=\"/signup\">Теркәлү</a>"
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Билгесез Firefox Хисабы. Өстәмә Кушымталар (Add-ons) мәгълүматына ирешү өчен, Өстәмә Кушымталар хисабыгыздагы элеккеге эл. почта адресыгызны кулланып, <a href=\"/signup\">теркәлү узыгыз</a>."
 
 #: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
-msgstr "Аккаунт хәзер инде юк. Аны торгызыйкмы?"
+msgstr "Хисап хәзер инде юк. Аны торгызыйкмы?"
 
 #: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Аккаунт инде бар. <a href=\"/signin\">Керү</a>"
+msgstr "Хисап инде бар. <a href=\"/signin\">Керү</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Кулланмага сылтама %(phoneNumber)s номерына янәдән җибәрелде"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> тәкъдим итә"
 
 #: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50 .es5/views/settings/change_password.js:45
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Парол уңышлы үзгәртелде"
 
 #: app/scripts/views/settings/client_disconnect.js:17 .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Бу бик кызганыч. Сезгә Firefox Хисабыгызның паролын үзгәртергә, һәм җиһазыгызны җитештерүчедән җиһазыгызда булган мәгълүматларны ерак арадан ничек бетереп атып була икәнен белешергә кирәк."
 
 #: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -530,9 +530,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30 .es5/lib/strings.js:33
