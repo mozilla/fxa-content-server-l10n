@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-23 20:35+0000\n"
+"PO-Revision-Date: 2018-07-25 16:10+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -291,11 +291,11 @@ msgstr "Артык һәр керүдә хәвефсезлек кодлары т�
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Firefox Хисабыгыз өчен ике адымлы аутентификацияне сүндердегез. Артык һәр керүдә хәвефсезлек кодлары соралмаячак."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr "Хисап язмасы расланды!"
+msgstr "Хисап расланды!"
 
 #: lib/senders/templates/post_verify.html:3
 msgid ""
