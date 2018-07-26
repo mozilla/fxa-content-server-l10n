@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-26 22:50+0000\n"
+"PO-Revision-Date: 2018-07-26 22:54+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -347,7 +347,7 @@ msgstr "Әйе булса, Сезгә кирәкле авторизация ко
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Юк булса, безгә алдакчылар белән көрәшергә ярдәм итү өчен бу хәл турында <a %(reportSignInLinkAttributes)s>хәбәр итегез.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
