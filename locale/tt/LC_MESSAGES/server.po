@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-25 16:20+0000\n"
+"PO-Revision-Date: 2018-07-26 19:36+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -327,7 +327,7 @@ msgstr "Паролыгызны үзгәртү кирәкме?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Яңа бер парол булдыру өчен бер сәгать эчендә бу төймәгә басыгыз. Бу гариза түбәндәге җиһаздан килде:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
