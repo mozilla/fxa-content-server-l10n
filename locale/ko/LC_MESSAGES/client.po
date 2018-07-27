@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-27 04:48+0000\n"
+"PO-Revision-Date: 2018-07-27 04:53+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -540,7 +540,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 
 #: app/scripts/lib/strings.js:34 .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Mozilla 및 Firefox에 대한 최신 소식을 접하세요."
+msgstr "Mozilla와 Firefox에 대한 최신 소식을 접하세요."
 
 #: app/scripts/lib/strings.js:37 .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
@@ -897,7 +897,7 @@ msgstr "계속"
 
 #: app/scripts/templates/ready.mustache:7 .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
-msgstr "계정이 준비되어 있습니다!"
+msgstr "계정생성완료!"
 
 #: app/scripts/templates/report_sign_in.mustache:4 .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -971,7 +971,7 @@ msgstr "계정 생성"
 
 #: app/scripts/templates/sign_in_reported.mustache:1 .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr "경각심을 가지고 알려주셔서 감사합니다"
+msgstr "의견을 보내 주셔서 감사합니다"
 
 #: app/scripts/templates/sign_in_reported.mustache:2 .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1149,7 +1149,7 @@ msgstr "완료한 후 모든 기기에서 새 비밀번호로 로그인 할 수 
 
 #: app/scripts/templates/settings/change_password.mustache:4 .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr "이전 암호"
+msgstr "이전 비밀번호"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1 .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1637,7 +1637,7 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "메일이 재전송되었습니다. 원활한 전송을 위해 연락처에 accounts@firefox.com 메일을 추가해주세요."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
