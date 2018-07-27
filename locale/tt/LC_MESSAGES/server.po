@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-26 22:54+0000\n"
+"PO-Revision-Date: 2018-07-27 21:11+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -351,7 +351,7 @@ msgstr "Юк булса, безгә алдакчылар белән көрәше
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Юк булса, безгә алдакчылар белән көрәшергә ярдәм итү өчен бу хәл турында хәбәр итегез."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
@@ -359,7 +359,7 @@ msgstr "Хуш килдегез!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Зинһар бу эл. почтагызны раслап, хисабыгызны активләштерегез."
 
 #: lib/senders/templates/verify.html:4
 msgid "Activate now"
