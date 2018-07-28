@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2017-03-21 08:03+0000\n"
+"PO-Revision-Date: 2018-07-28 06:48+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -543,7 +543,7 @@ msgstr "Mozilla اور سے متعلق تازہ ترین خبریں حاصل ک�
 
 #: app/scripts/lib/strings.js:37 .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s،%(country)s (تخمینہ)"
 
 #: app/scripts/lib/strings.js:38 .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
@@ -1071,7 +1071,7 @@ msgstr "آمد نہیں ہوئی؟ پھر بھیجیں"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "دو (یا زیادہ !) آلات پر ہمہ وقت سازی کیوں؟"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -1824,7 +1824,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "رکنیت بندرست کریں"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
@@ -1882,7 +1882,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "موجودہ حیثیت"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1910,7 +1910,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "کوڈ اسکین نہیں کر سک رہے؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1934,7 +1934,7 @@ msgstr "بنیادی ای میل"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
