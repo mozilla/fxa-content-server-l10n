@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-10 13:48+0000\n"
+"PO-Revision-Date: 2018-07-28 23:19+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1855,7 +1855,7 @@ msgstr "İkinci e-posta, güvenlik bildirimlerini alabileceğiniz ve yeni cihazl
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr "Yenileme durumu"
+msgstr "Durumu yenile"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
@@ -1941,7 +1941,7 @@ msgstr "Güvenlik kodu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
-msgstr "Onaylayın"
+msgstr "Onayla"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
