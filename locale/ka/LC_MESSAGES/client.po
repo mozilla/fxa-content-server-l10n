@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-22 03:57+0000\n"
+"PO-Revision-Date: 2018-07-30 16:03+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1925,7 +1925,7 @@ msgstr "აღდგენის კოდების შეცვლა"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "დაასკანერეთ QR კოდი თქვენი შესვლის დასამოწმებელი პროგრამით და შემდეგ შეიყვანეთ მოცემული უსაფრთხოების კოდი."
+msgstr "წააკითხეთ QR კოდი თქვენი შესვლის დასამოწმებელ პროგრამას და შემდეგ შეიყვანეთ მოცემული უსაფრთხოების კოდი."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
