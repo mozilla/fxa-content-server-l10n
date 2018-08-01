@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-01 09:11+0000\n"
+"PO-Revision-Date: 2018-08-01 09:18+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -1300,19 +1300,19 @@ msgstr "Koristi Firefox račun"
 
 #: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "prva sinhronizacija %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "posljednja sinhronizacija %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "posljednja aktivnost %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
-msgstr ""
+msgstr "nepoznato vrijeme posljednje sinhronizacije"
 
 #: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
@@ -1386,7 +1386,7 @@ msgstr "Nije u sandučetu ili spam folderu folderu? Pošalji ponovo"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "Prijava potvrđena"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4 .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
@@ -1408,7 +1408,7 @@ msgstr "Upišite vaš email"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Notifikacije korisničkog računa će sada također slati na %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1 .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1484,7 +1484,7 @@ msgstr "Sekundarna email adresa"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Sekundarna email adresa je dodatna adresa za primanje sigurnosnih poruka i potvrda za nove sinhronizacije uređaja."
 
 #: app/scripts/templates/settings/emails.mustache:7 .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1504,7 +1504,7 @@ msgstr "Ukloni"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Nije u sandučetu ili spam folderu folderu? Poslati ponovo?"
 
 #: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1945,23 +1945,23 @@ msgstr "Glavna email adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Vaša lozinka Firefox računa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Nesmije biti vaša email adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Nesmije odgovarati ovoj <a %(escapedCommonPasswordLinkAttrs)s>listi uobičajenih lozinki</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Budite originalni i sigurni &mdash; nemojte koristiti ovu lozinku bilo gdje drugo."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Zapamtite ovu lozinku &mdash; resetovanje lozinke briše vaše podatke sa naših servera."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1987,7 +1987,7 @@ msgstr "Prijavi se"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Prijava"
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
