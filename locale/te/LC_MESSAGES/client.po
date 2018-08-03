@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 13:38+0000\n"
+"PO-Revision-Date: 2018-08-03 08:36+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1502,7 +1502,7 @@ msgstr "తొలగించు"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "ఇన్‌బాక్స్‌లోనూ లేక స్పాము సంచయంలోనూ లేదా? మళ్ళీ పంపించాలా?"
 
 #: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1982,7 +1982,7 @@ msgstr "ప్రవేశం"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "ప్రవేశించండి"
 
 #~ msgid "Unlock…"
 #~ msgstr "తాళంతీయి…"
