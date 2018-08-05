@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-05 01:34+0000\n"
+"PO-Revision-Date: 2018-08-05 02:10+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -721,7 +721,7 @@ msgstr "A melior protection de tu datos de Firefox, nos inviava per e-posta un l
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Illo non arrivava e non es in le plica de spam? Reinvio"
+msgstr "Non ha illo arrivate e non es in le dossier de spam? Reinvia lo"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1388,7 +1388,7 @@ msgstr "Consulta le ligamine de confirmation de authentication inviate per email
 #: app/scripts/templates/sign_in_unblock.mustache:9 .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Non in le cassa de entrata, ni in le dossier de spam? Reinviar"
+msgstr "Non es illo in le cassa de entrata, ni in le dossier de spam? Reinvia lo"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
