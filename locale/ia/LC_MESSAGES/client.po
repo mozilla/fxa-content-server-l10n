@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-05 02:10+0000\n"
+"PO-Revision-Date: 2018-08-05 02:11+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1510,7 +1510,7 @@ msgstr "Remover"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr "Non in le cassa de entrata, ni in le plica del spam? Reinviar?"
+msgstr "Non es illo in le cassa de entrata, ni in le dossier de spam? Reinviar lo?"
 
 #: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
 msgid "Add"
