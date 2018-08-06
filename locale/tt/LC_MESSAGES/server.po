@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-28 21:56+0000\n"
+"PO-Revision-Date: 2018-08-06 11:27+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -439,67 +439,67 @@ msgstr "Бу электрон хатны алганыгызны раслаган
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Раслаганнан соң, без Сезгә Firefox'ны кимендә бер җиһазыгызда урнаштырып, тоташтырырга ярдәм итәчәкбез."
 
 #: lib/senders/email.js:182
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaOS)s %(uaOSVersion)s ОС'ында %(uaBrowser)s"
 
 #: lib/senders/email.js:185
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaOS)s ОС'ында %(uaBrowser)s"
 
 #: lib/senders/email.js:212
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (чама белән)"
 
 #: lib/senders/email.js:214
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (чама белән)"
 
 #: lib/senders/email.js:216
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (чама белән)"
 
 #: lib/senders/email.js:218
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (чама белән)"
 
 #: lib/senders/email.js:342
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Firefox Хисабыгызны раслагыз"
 
 #: lib/senders/email.js:364
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Эл. почтагызны раслагыз һәм синхронлый башлагыз!"
 
 #: lib/senders/email.js:410
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Firefox хисабыгызның авторизация коды"
 
 #: lib/senders/email.js:453
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s җиһазына яңа керүне раслагыз"
 
 #: lib/senders/email.js:506
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Firefox'ка керү коды"
 
 #: lib/senders/email.js:646
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Firefox Хисабы паролын алыштыру"
 
 #: lib/senders/email.js:678
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Сезнең Firefox Хисабыгызның паролы үзгәртелде"
 
 #: lib/senders/email.js:708
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Firefox Хисабының паролы үзгәртелде"
 
 #: lib/senders/email.js:734
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Firefox хисабының паролын үзгәртү кирәк"
 
 #: lib/senders/email.js:801
 msgid "Firefox Account verified"
@@ -507,7 +507,7 @@ msgstr "Firefox хисап язмасы расланды"
 
 #: lib/senders/email.js:832
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Firefox Хисабына икенчел эл. почта өстәлде"
 
 #: lib/senders/email.js:864
 msgid "Firefox Account new primary email"
