@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-24 18:47+0000\n"
+"PO-Revision-Date: 2018-08-07 12:49+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -145,31 +145,31 @@ msgstr ""
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19 .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail'ны ачу"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25 .es5/views/mixins/open-webmail-mixin.js:24
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail'ны ачу"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:29
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo’ны ачу"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37 .es5/views/mixins/open-webmail-mixin.js:34
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook’ны ачу"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43 .es5/views/mixins/open-webmail-mixin.js:39
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail'ны ачу"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "Электрон хат яңадан җибәрелде"
 
 #: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59 .es5/models/reliers/sync.js:66
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35 .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
@@ -258,23 +258,23 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16 .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Хаталы телефон номеры"
 
 #: app/scripts/lib/auth-errors.js:125 .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Бу илгә җибәрү мөмкин түгел"
 
 #: app/scripts/lib/auth-errors.js:134 .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Бу номерга хәбәр җибәреп булмады"
 
 #: app/scripts/lib/auth-errors.js:138 .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Сезнең хатыгыз кире кайтты"
 
 #: app/scripts/lib/auth-errors.js:142 .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Сезнең хатыгыз кире кайтты. Адресны язганда хата җибәрмәдегезме?"
 
 #: app/scripts/lib/auth-errors.js:146 .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
