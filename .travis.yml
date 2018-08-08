@@ -21,12 +21,11 @@ notifications:
       - rfk@mozilla.com
       - stomlinson@mozilla.com
       - vfilippov@mozilla.com
+      - pbooth@mozilla.com
     on_success: change
     on_failure: always
 
 before_install:
-  # Update to latest npm 2
-  - npm install -g npm@2
   - npm install -g grunt-cli
 
 install:
