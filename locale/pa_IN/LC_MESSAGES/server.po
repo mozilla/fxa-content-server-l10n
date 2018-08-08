@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-08 08:41+0000\n"
+"PO-Revision-Date: 2018-08-08 09:00+0000\n"
 "Last-Translator: jv.raavi <jv.raavi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -141,11 +141,11 @@ msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਪਾਸ
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਦਾ ਅਧਿਕਾਰ ਨਹੀਂ ਦਿੱਤਾ, ਤਾਂ ਫਿਰ <a %(resetLinkAttributes)s> ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰੋ </a>।"
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਲਈ ਪਾਸਵਰਡ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਤੁਰੰਤ %(resetLink)s ਦੇ ਉੱਤੇ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
