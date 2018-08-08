@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-05-18 17:12+0000\n"
-"Last-Translator: pirthi.d <pirthi.d@gmail.com>\n"
+"PO-Revision-Date: 2018-08-08 07:46+0000\n"
+"Last-Translator: jv.raavi <jv.raavi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
 "MIME-Version: 1.0\n"
@@ -20,12 +20,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"ਤੁਸੀਂ ਆਪਣੇ ਪਹਿਲੇ ਯੰਤਰ ਨੂੰ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਹੈ। ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ ਹੋਰ ਯੰਤਰਾਂ ਤੋਂ ਸਿੰਕ ਕਰਨ ਦੇ ਲਈ ਸਾਇਨ ਇਨ ਕਰ ਸਕਦੇ ਹੋਂ, ਜਿਸ ਵਿੱਚ ਫਾਈਰਫਾਕਸ ਸਹਿਤ <a href='%(androidUrl)s'> ਐਂਡਰਾਈਡ </a> "
+"ਅਤੇ <a href='%(iosUrl)s>> </a> ।"
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
+"ਤੁਸੀਂ ਆਪਣੇ ਪਹਿਲੇ ਯੰਤਰ ਨੂੰ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਹੈ। ਵੱਧ ਤੋਂ ਵੱਧ ਸਿੰਕ ਬਣਾਉਣ ਲਈ, ਕਿਸੇ ਵੀ <a href='% (ANDROIDUrl)s'> Android ਲਈ ਫਾਇਰਫਾਕਸ </a> ਜਾਂ <a href='%USIrl)'> iOS ਲਈ ਫਾਇਰਫਾਕਸ "
+"</a> ਨਾਲ ਜੁੜੋ।"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -48,7 +52,7 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "ਘੱਟ ਰਿਕਵਰੀ ਕੋਡ ਬਾਕੀ ਰਹਿੰਦੇ"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
