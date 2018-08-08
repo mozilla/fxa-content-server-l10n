@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -21,14 +21,14 @@ msgid ""
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
 "ਤੁਸੀਂ ਆਪਣੇ ਪਹਿਲੇ ਯੰਤਰ ਨੂੰ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਹੈ। ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ ਹੋਰ ਯੰਤਰਾਂ ਤੋਂ ਸਿੰਕ ਕਰਨ ਦੇ ਲਈ ਸਾਇਨ ਇਨ ਕਰ ਸਕਦੇ ਹੋਂ, ਜਿਸ ਵਿੱਚ ਫਾਈਰਫਾਕਸ ਸਹਿਤ <a href='%(androidUrl)s'> ਐਂਡਰਾਈਡ </a> "
-"ਅਤੇ <a href='%(iosUrl)s>> </a> ।"
+"ਅਤੇ <a href='%(iosUrl)s> iOS ਲਈ ਫਾਇਰਫਾਕਸ </a> ।"
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
-"ਤੁਸੀਂ ਆਪਣੇ ਪਹਿਲੇ ਯੰਤਰ ਨੂੰ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਹੈ। ਵੱਧ ਤੋਂ ਵੱਧ ਸਿੰਕ ਬਣਾਉਣ ਲਈ, ਕਿਸੇ ਵੀ <a href='% (ANDROIDUrl)s'> Android ਲਈ ਫਾਇਰਫਾਕਸ </a> ਜਾਂ <a href='%USIrl)'> iOS ਲਈ ਫਾਇਰਫਾਕਸ "
+"ਤੁਸੀਂ ਆਪਣੇ ਪਹਿਲੇ ਯੰਤਰ ਨੂੰ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਹੈ। ਵੱਧ ਤੋਂ ਵੱਧ ਸਿੰਕ ਬਣਾਉਣ ਲਈ, ਕਿਸੇ ਵੀ <a href='%(androidUrl)s'> Android ਲਈ ਫਾਇਰਫਾਕਸ </a> ਜਾਂ <a href='%(iosUrl)s'> iOS ਲਈ ਫਾਇਰਫਾਕਸ "
 "</a> ਨਾਲ ਜੁੜੋ।"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -125,7 +125,7 @@ msgstr "IP ਸਿਰਨਾਵਾਂ: %(ip)s"
 #: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਧਿਕਾਰਤ ਨਹੀਂ ਕੀਤਾ ਹੈ, ਤਾਂ <a %#passwordChangeLinkAttributes)s> ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ। </a>"
+msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਧਿਕਾਰਤ ਨਹੀਂ ਕੀਤਾ ਹੈ, ਤਾਂ <a %(passwordChangeLinkAttributes)s> ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ। </a>"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
