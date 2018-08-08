@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-07 12:49+0000\n"
+"PO-Revision-Date: 2018-08-08 15:24+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -174,27 +174,27 @@ msgstr "Firefox Sync"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35 .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
-msgstr ""
+msgstr "Көтелмәгән хата"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5 .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Эл. почтагызны раслау өчен Сез чирткән сылтаманың мөддәте чыккан."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17 .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Артык күп тапкыр тырышып карадыгыз. Бераздан янәдән карагыз."
 
 #: app/scripts/lib/auth-errors.js:25 .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Артык күп тапкыр тырышып карадыгыз. %(retryAfterLocalized)s'тан янәдән тырышыгыз."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50 .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
 msgid "Invalid token"
-msgstr ""
+msgstr "Хаталы токен"
 
 #: app/scripts/lib/auth-errors.js:39 .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Сорау имзасындагы вакыт тамгасында хата"
 
 #: app/scripts/lib/auth-errors.js:43 .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
@@ -202,39 +202,39 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163 .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
-msgstr ""
+msgstr "Хисап инде бар"
 
 #: app/scripts/lib/auth-errors.js:51 .es5/lib/auth-errors.js:53
 msgid "Unknown account"
-msgstr ""
+msgstr "Билгесез хисап"
 
 #: app/scripts/lib/auth-errors.js:55 .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Эл.почта адресында зур хәрефтән/кечкенә хәрефтән язу хатасы"
 
 #: app/scripts/lib/auth-errors.js:59 .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
-msgstr ""
+msgstr "Парол хаталы"
 
 #: app/scripts/lib/auth-errors.js:63 .es5/lib/auth-errors.js:65
 msgid "Unverified account"
-msgstr ""
+msgstr "Расланмаган хисап"
 
 #: app/scripts/lib/auth-errors.js:67 .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Раслау кодында хата"
 
 #: app/scripts/lib/auth-errors.js:71 .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Сорау гәүдәсендә хаталы JSON"
 
 #: app/scripts/lib/auth-errors.js:75 .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Яраксыз параметр: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79 .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "%(param)s параметры юк"
 
 #: app/scripts/lib/auth-errors.js:83 .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
