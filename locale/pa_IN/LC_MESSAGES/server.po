@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-08 08:03+0000\n"
+"PO-Revision-Date: 2018-08-08 08:41+0000\n"
 "Last-Translator: jv.raavi <jv.raavi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -125,11 +125,11 @@ msgstr "IP ਸਿਰਨਾਵਾਂ: %(ip)s"
 #: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਧਿਕਾਰਤ ਨਹੀਂ ਕੀਤਾ ਹੈ, ਤਾਂ <a %#passwordChangeLinkAttributes)s> ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ। </a>"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਈਮੇਲ ਹੈ; ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਤੇ ਕੋਈ ਨਵੀਂ ਡਿਵਾਈਸ ਨਹੀਂ ਜੋੜੀ ਹੈ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਤੁਰੰਤ %(passwordChangeLink)s ਤੇ ਤਬਦੀਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -137,7 +137,7 @@ msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਜੰਤਰ ਤੋਂ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲਿਆ ਗਿਆ ਸੀ।"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
