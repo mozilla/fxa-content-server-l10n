@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-05 02:11+0000\n"
+"PO-Revision-Date: 2018-08-08 01:57+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -392,11 +392,11 @@ msgstr "Ce conto non existe plus."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Proprietate invalide in jeton de reprisa: %(property)s"
+msgstr "Proprietate invalide in le token de reprisa: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
 msgid "Missing property in resume token: %(property)s"
-msgstr "Proprietate mancante in jeton de reprisa: %(property)s"
+msgstr "Proprietate mancante in le token de reprisa: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
 msgid "Invalid data attribute: %(property)s"
