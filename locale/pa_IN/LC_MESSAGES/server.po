@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-08 09:45+0000\n"
+"PO-Revision-Date: 2018-08-08 10:09+0000\n"
 "Last-Translator: jv.raavi <jv.raavi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -165,11 +165,11 @@ msgstr "ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ, �
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "ਸਾਨੂੰ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਉੱਤੇ ਸ਼ੱਕੀ ਗਤੀ ਦਾ ਪਤਾ ਲੱਗਿਆ ਹੈ। ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਮਝੌਤਾ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਹੋਰ ਅਣਅਧਿਕ੍ਰਿਤ ਪਹੁੰਚ ਨੂੰ ਰੋਕਣ ਲਈ, ਅਸੀਂ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਰੀਸੈੱਟ ਕੀਤਾ ਹੈ ਅਤੇ ਸਾਵਧਾਨੀ ਦੇ ਤੌਰ ਤੇ ਤੁਹਾਨੂੰ ਸੂਚਿਤ ਕਰ ਰਹੇ ਹਾਂ।"
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -183,6 +183,8 @@ msgstr "ਪਹਿਲਾਂ, ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ �
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"ਦੂਜਾ, ਜੇਕਰ ਫਾਇਰਫਾਕਸ ਵੈੱਬਸਾਈਟ ਨੂੰ ਪਾਸਵਰਡ ਸੰਭਾਲਦਾ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਇਹਨਾਂ ਪਾਸਵਰਡਾਂ ਨੂੰ ਵੀ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ। ਹਮਲਾਵਰਾਂ ਕੋਲ ਉਹਨਾਂ ਪਾਸਵਰਡ ਤੱਕ ਪਹੁੰਚ ਹੋ ਸਕਦੀ ਹੈ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਸ਼ੱਕੀ ਗਤੀਵਿਧੀਆਂ ਲਈ ਉਨ੍ਹਾਂ ਖਾਤਿਆਂ "
+"ਦੀ ਜਾਂਚ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।"
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
