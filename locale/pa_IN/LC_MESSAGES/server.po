@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-08 09:00+0000\n"
+"PO-Revision-Date: 2018-08-08 09:45+0000\n"
 "Last-Translator: jv.raavi <jv.raavi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -153,15 +153,15 @@ msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿ�
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "ਸਿੰਕਿੰਗ ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਦੂਜੇ ਯੰਤਰਾਂ ਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦਰਜ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "ਜੇਕਰ ਤੁਸੀਂ ਇਸਨੂੰ ਨਹੀਂ ਬਦਲਿਆ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਹੁਣ <a %(resetLinkAttributes)s> ਆਪਣਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈਟ ਕਰੋ </a>।"
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਹੁਣ %(resetLink)s ਤੇ ਰੀ - ਸੈੱਟ ਕਰੋ"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
