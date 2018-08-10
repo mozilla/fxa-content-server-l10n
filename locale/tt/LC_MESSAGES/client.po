@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-08 15:24+0000\n"
-"Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2018-08-10 12:54+0000\n"
+"Last-Translator: Mahmut Q. Taxpayer <contact@t10n.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -104,11 +104,11 @@ msgstr "Бу бик кызганыч. Сезгә Firefox Хисабыгызны�
 
 #: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Бу бик кызганыч. Әгәр бу Сез һич ышанмаган җиһаз булса, Firefox паролыгызны үзгәртергә 1әм Firefox'та сакланган барлык паролларны да үзгәртергә кирәк."
 
 #: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75 .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Веб утырыш, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80 .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
