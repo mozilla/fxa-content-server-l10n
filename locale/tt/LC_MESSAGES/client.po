@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-10 12:54+0000\n"
+"PO-Revision-Date: 2018-08-10 13:39+0000\n"
 "Last-Translator: Mahmut Q. Taxpayer <contact@t10n.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -112,15 +112,15 @@ msgstr "Веб утырыш, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80 .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68 .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңгы автивлык%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118 .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Абунәгә язылу уңышлы"
 
 #: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
