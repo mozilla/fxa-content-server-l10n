@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-11 22:11+0000\n"
+"PO-Revision-Date: 2018-08-11 22:20+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1958,15 +1958,15 @@ msgstr "Man tikirel ta nok rochochib'al ataqoya'l"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Man tikirel ta nuk'äm ri' rik'in ri <a %(escapedCommonPasswordLinkAttrs)s rucholajem relik ewan taq tzij</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Pan ab'eyal tab'ana' chuqa' tachajij awi' &mdash; man tawokisaj ri ewan atzij pa jun chik k'ojlib'äl."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Tanataj ri ewan atzij &mdash; we natzolij, xkeyuj el ronojel ri taq atzij pa ri ruk'u'x qasamaj."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
