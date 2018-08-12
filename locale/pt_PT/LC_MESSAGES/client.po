@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-09 15:38+0000\n"
+"PO-Revision-Date: 2017-06-23 18:10+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1464,7 +1464,7 @@ msgstr "Porquê sincronizar múltiplos dispositivos?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2 .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "O serviço Sync não é uma cópia de segurança permanente, é simplesmente uma forma segura de descarregar marcadores guardados, histórico e palavras-passe entre os seus próprios dispositivos."
+msgstr "O serviço Sync não é uma cópia de segurança permanente, é simplesmente uma maneira segura de transferir marcadores guardados, histórico e palavras-passe entre os seus próprios dispositivos."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3 .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
