@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 13:48+0000\n"
+"PO-Revision-Date: 2018-08-15 14:09+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1723,6 +1723,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि "
+"हम आपकी गोपनीयता को सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
 
 #: .es5/templates/complete_reset_password.mustache:13
 msgid "Re-enter password"
@@ -1734,11 +1736,11 @@ msgstr "प्राथमिक ईमेल पहले से सत्य�
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "%(escapedEmail)s पर भेजे गए साइन-इन पुष्टिकरण लिंक के लिए अपना ईमेल देखें"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1746,7 +1748,7 @@ msgstr "अभी भी उपकरण जोड़ रहे हैं? स�
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "आगे बढ़कर, आप <a id=\"fxa-tos\" href=\"/legal/terms\">सेवा की शर्तो</a> और <a id=\"fxa-pp\" href=\"/legal/privacy\">गोपनीयता सूचना</a> को सहमति देते हैं।"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
