@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-07-16 16:19+0000\n"
-"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
+"PO-Revision-Date: 2018-08-15 13:31+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -1219,7 +1219,7 @@ msgstr "Firefox लिए iOS"
 #: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
 #: app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "कुछ नही जुड़ा हुआ"
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
@@ -1298,19 +1298,19 @@ msgstr "Firefox खाते का प्रयोग करें"
 
 #: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "पहला संकालन %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "आखिरी संकालन %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "आखिरी बार सक्रिय %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
-msgstr ""
+msgstr "आखिरी संकालन समय अज्ञात"
 
 #: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
@@ -1406,7 +1406,7 @@ msgstr "अपना ईमेल प्रविष्ट करें"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "खाता सूचनाएँ अब %(secondaryEmailVerified)s पर भी भेजी जाएँगी"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1 .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1600,43 +1600,43 @@ msgstr "अंतिम संकालन समय अज्ञात"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox पुनर्प्राप्त कोड"
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
-msgstr ""
+msgstr "कोड की प्रतिलिपि ली गयी"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "कोड की प्रतिलिपि लेने में विफल. कृपया हाथ से उनकी प्रतिलिपि लें."
 
 #: .es5/views/settings/recovery_codes.js:117
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "नए पुनर्प्राप्त कोड बनाये गये"
 
 #: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
 #: .es5/views/settings/two_step_authentication.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "%(code)s कोड को समर्थित अनुप्रयोगों में द्वि-चरणीय प्रमाणीकरण स्थापित करने के लिए उपयोग करें."
 
 #: .es5/views/settings/two_step_authentication.js:141
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण हटाया गया"
 
 #: .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "कोई नहीं"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "अंतिम जाँचा गया: %(lastCheckTime)s"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
