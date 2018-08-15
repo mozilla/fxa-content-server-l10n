@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 19:12+0000\n"
+"PO-Revision-Date: 2018-08-15 19:19+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1850,11 +1850,11 @@ msgstr "स्थिति ताज़ा करें"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "पुनर्प्राप्ति कोड"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "नोट:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
@@ -1874,11 +1874,11 @@ msgstr "प्रतिलिपि लें"
 
 #: .es5/templates/settings/recovery_codes.mustache:12
 msgid "Print"
-msgstr ""
+msgstr "मुद्रित करें"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3
 msgid "Enable…"
@@ -1890,7 +1890,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "वर्तमान स्थिति"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8
 msgid "Enabled"
@@ -1910,7 +1910,7 @@ msgstr "सक्रिय करें"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "पुनर्प्राप्ति कोड बदलें"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1918,15 +1918,15 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "कोड स्कैन नहीं कर सकता?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "अपने प्रमाणीकरण ऐप में हाथ से इस गुप्त कुंजी को दर्ज करें:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "सुरक्षा कोड"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1938,15 +1938,15 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "प्राथमिक ईमेल"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "आपके Firefox खाते का कूटशब्द"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "आपका ईमेल पता नहीं होना चाहिए"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
@@ -1962,11 +1962,11 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "कूटशब्द दिखाएँ"
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "किसी भिन्न ईमेल पते का उपयोग करें"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
