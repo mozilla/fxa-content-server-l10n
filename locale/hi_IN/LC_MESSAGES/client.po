@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 14:16+0000\n"
+"PO-Revision-Date: 2018-08-15 19:12+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1800,7 +1800,7 @@ msgstr "पुनर्प्राप्त कोड का प्रयोग
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "यह कूटशब्द न खो दें। यदि आपको इसे पुनः ठीक करने की आवश्यकता हो, तो आप संकलन डेटा खो सकते हैं।"
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1846,7 +1846,7 @@ msgstr "एक द्वितीयक ईमेल सुरक्षा स�
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 msgid "Refresh Status"
-msgstr ""
+msgstr "स्थिति ताज़ा करें"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
