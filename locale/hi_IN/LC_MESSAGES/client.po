@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 13:31+0000\n"
+"PO-Revision-Date: 2018-08-15 13:48+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1467,11 +1467,11 @@ msgstr "वापस लें"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "हम आपको आपके Firefox खाते से संबंधित ईमेल भेज सकते हैं।"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "इसके अतिरिक्त, आप Mozilla और Firefox के बारे में नवीनतम समाचार प्राप्त करने के लिए चुन सकते हैं।"
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
 #: .es5/templates/settings/emails.mustache:19
@@ -1480,7 +1480,7 @@ msgstr "द्वितीयक मेल"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "एक द्वितीयक ईमेल सुरक्षा सूचनाएँ प्राप्त करने और नए समकालिक उपकरणों की पुष्टि करने के लिए एक अतिरिक्त पता है."
 
 #: app/scripts/templates/settings/emails.mustache:7 .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1640,7 +1640,7 @@ msgstr "अंतिम जाँचा गया: %(lastCheckTime)s"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "ईमेल पुनः भेजा गया। एक सुगम वितरण सुनिश्चित करने के लिए accounts@firefox.com को अपने संपर्कों में जोड़ें।"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -1688,23 +1688,23 @@ msgstr "सुविधा सक्षम नहीं है"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण कोड आवश्यक है"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "अमान्य द्वि-चरणीय प्रमाणीकरण कोड"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Recovery code required"
-msgstr ""
+msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "अमान्य पुनर्प्राप्ति कोड"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "सेवा अनुपलब्ध, शीघ्र ही पुन: प्रयास करें"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
@@ -1716,7 +1716,7 @@ msgstr "%(email)s पंजीकृत."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "नया कूटशब्द बनाएँ"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
