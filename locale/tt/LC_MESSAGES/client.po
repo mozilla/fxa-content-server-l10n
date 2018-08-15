@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 12:07+0000\n"
+"PO-Revision-Date: 2018-08-15 12:39+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -242,19 +242,19 @@ msgstr "Хаталы сорау имзасы"
 
 #: app/scripts/lib/auth-errors.js:87 .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
-msgstr ""
+msgstr "\"content-length\" бүлек башы юк"
 
 #: app/scripts/lib/auth-errors.js:91 .es5/lib/auth-errors.js:93
 msgid "Request body too large"
-msgstr ""
+msgstr "Сорау гәүдәсе артык зур"
 
 #: app/scripts/lib/auth-errors.js:109 .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Сорау хәвефсезлек саклау максатыннан блокланды"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Авторизация коды хаталы"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16 .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
@@ -278,11 +278,11 @@ msgstr "Сезнең хатыгыз кире кайтты. Адресны язг
 
 #: app/scripts/lib/auth-errors.js:146 .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Хатны җибәреп булмады"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сермер мәшгуль, бераздан янәдән тырышып карагыз"
 
 #: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
 msgid "This endpoint is no longer supported"
