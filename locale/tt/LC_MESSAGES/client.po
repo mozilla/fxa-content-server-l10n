@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-15 12:39+0000\n"
+"PO-Revision-Date: 2018-08-16 14:31+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -286,37 +286,37 @@ msgstr "Сермер мәшгуль, бераздан янәдән тырышы�
 
 #: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Бу сорау адресы тотылмый инде"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Система сүндерелгән, бераздан янәдән тырышып карагыз"
 
 #: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Керергә тырышудан баш тартылды"
 
 #: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Сессиянең мөддәте бетте. Дәвам итү өчен керегез."
 
 #: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Кукилар әле дә сүндерелгән"
 
 #: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Пароллар туры килми"
 
 #: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250
 msgid "Working…"
-msgstr ""
+msgstr "Эштә…"
 
 #: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Хосусыйлык Аңлатмасын алып булмады"
 
 #: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
 msgid "Could not get Terms of Service"
