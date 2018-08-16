@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-16 14:31+0000\n"
+"PO-Revision-Date: 2018-08-16 14:40+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -320,73 +320,73 @@ msgstr "Хосусыйлык Аңлатмасын алып булмады"
 
 #: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Куллану Шартларын алып булмады"
 
 #: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Яңа парол иске паролдан үзгә булырга тиеш"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 #: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Кимендә 8 билге булырга тиеш"
 
 #: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270
 msgid "Valid password required"
-msgstr ""
+msgstr "Дөрес парол кирәк"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
 #: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
 msgid "Valid email required"
-msgstr ""
+msgstr "Дөрес эл. почта адресы кирәк"
 
 #: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Куллануга яраклы сурәт табылмады"
 
 #: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Камераны кабызып булмады"
 
 #: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293
 msgid "Valid URL required"
-msgstr ""
+msgstr "Дөрес URL кирәк"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Сезгә җибәрелгән раслау хаты кире әйләнеп кайтты. Адресыгызны язганда хата җибәрмәдегезме?"
 
 #: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Дөрес эл. почта адресын кертегез. firefox.com эл. почта хезмәтен күрсәтми."
 
 #: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox Хисаплары расланган сайтлардагы IFRAME эченә генә урнаштырыла ала"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Раслау сылтамасына зыян килгән"
 
 #: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Рәсемнең үлчәмнәре кимендә 100x100 пиксель булырга тиеш"
 
 #: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "iOS өчен Firefox'та теркәлү мөмкинлеге тиздән пәйда булачак"
 
 #: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Теркәлү өчен, яшегезне күрсәтүегез кирәк"
 
 #: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gravatar табылмады"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Хисап хәзер инде юк."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
 msgid "Invalid property in resume token: %(property)s"
