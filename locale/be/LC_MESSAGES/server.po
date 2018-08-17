@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-17 09:51+0000\n"
+"PO-Revision-Date: 2018-08-17 09:57+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Пароль паспяхова зменены"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -287,7 +287,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Уліковы запіс пацверджаны!"
 
 #: lib/senders/templates/post_verify.html:3
 msgid ""
@@ -345,7 +345,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Вітаем!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
@@ -357,7 +357,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "Пацвердзіць эл.пошту"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Пацвердзіць эл.пошту "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
@@ -401,7 +401,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Пацвердзіць эл.пошту: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
@@ -457,7 +457,7 @@ msgstr ""
 
 #: lib/senders/email.js:342
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Пацвердзіце свой уліковы запіс"
 
 #: lib/senders/email.js:364
 msgid "Confirm your email and start to sync!"
@@ -493,7 +493,7 @@ msgstr ""
 
 #: lib/senders/email.js:801
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Уліковы запіс Firefox пацверджаны"
 
 #: lib/senders/email.js:832
 msgid "Secondary Firefox Account email added"
@@ -509,7 +509,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Старонка не знойдзена"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
@@ -533,7 +533,7 @@ msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сервер заняты, паспрабуйце зноў крыху пазней"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
@@ -545,8 +545,8 @@ msgstr ""
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Паведамленне аб прыватнасці"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Умовы абслугоўвання"
