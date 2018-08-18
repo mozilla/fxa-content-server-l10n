@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-16 14:40+0000\n"
+"PO-Revision-Date: 2018-08-18 20:31+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -390,76 +390,76 @@ msgstr "Хисап хәзер инде юк."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Дәвам итү токенында хаталы сыйфат: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Дәвам итү токенында бер сыйфат төшеп калган: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Хаталы бирелгәннәр атрибуты: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Төшеп калган бирелгәннәр атрибуты: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
 #: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Бу раслау сылтамасы бер кулланылган булган инде, һәм башка кулланыла алмый."
 
 #: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414
 msgid "This is a required field"
-msgstr ""
+msgstr "Бу кыр мәҗбүри"
 
 #: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418
 msgid "Authorization code required"
-msgstr ""
+msgstr "Авторизация коды кирәк"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Сылтамага зыян килгән"
 
 #: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449
 msgid "Phone number required"
-msgstr ""
+msgstr "Телефон номеры кирәк"
 
 #: app/scripts/lib/config-loader.js:87 .es5/lib/config-loader.js:105
 msgid "Missing configuration"
-msgstr ""
+msgstr "Көйләү юк"
 
 #: app/scripts/lib/config-loader.js:91 .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Хаталы көйләү"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "<span tabindex=\"1\">%(escapedDomain)s</span> димәкче идегезме?"
 
 #: app/scripts/lib/marketing-email-errors.js:41 .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
-msgstr ""
+msgstr "Зинһар соңрак тырышып карагыз"
 
 #: app/scripts/lib/oauth-errors.js:26 .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
-msgstr ""
+msgstr "Билгесез мөштәри"
 
 #: app/scripts/lib/oauth-errors.js:30 .es5/lib/oauth-errors.js:32
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Хаталы redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:34 .es5/lib/oauth-errors.js:36
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Хаталы раслау"
 
 #: app/scripts/lib/oauth-errors.js:38 .es5/lib/oauth-errors.js:40
 msgid "Unknown code"
-msgstr ""
+msgstr "Билгесез код"
 
 #: app/scripts/lib/oauth-errors.js:42 .es5/lib/oauth-errors.js:44
 msgid "Incorrect code"
-msgstr ""
+msgstr "Хаталы код"
 
 #: app/scripts/lib/oauth-errors.js:46 .es5/lib/oauth-errors.js:48
 msgid "Expired code"
