@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-09 13:16+0000\n"
-"PO-Revision-Date: 2018-08-18 20:31+0000\n"
+"PO-Revision-Date: 2018-08-18 20:33+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -463,19 +463,19 @@ msgstr "Хаталы код"
 
 #: app/scripts/lib/oauth-errors.js:46 .es5/lib/oauth-errors.js:48
 msgid "Expired code"
-msgstr ""
+msgstr "Мөддәте чыккан код"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76 .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Хаталы OAuth параметры: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19 .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
 msgid "Unauthorized"
-msgstr ""
+msgstr "Авторизацияләнмәгән"
 
 #: app/scripts/lib/oauth-errors.js:66 .es5/lib/oauth-errors.js:68
 msgid "Forbidden"
-msgstr ""
+msgstr "Тыелган"
 
 #: app/scripts/lib/oauth-errors.js:88 .es5/lib/oauth-errors.js:106
 msgid "Something went wrong. Please close this tab and try again."
