@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 11:15+0000\n"
+"PO-Revision-Date: 2018-08-20 12:59+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -237,7 +237,7 @@ msgstr "Obnovitveni ključ za račun ustvarjen"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Uspešno ste ustvarili obnovitveni ključ za svoj Firefox Račun z uporabo naslednje naprave:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -251,7 +251,7 @@ msgstr "Upravljanje računa"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Uspešno ste ustvarili obnovitveni ključ za svoj Firefox Račun z naslednje naprave:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
@@ -317,15 +317,15 @@ msgstr "Obnovitveni ključ za račun odstranjen"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Uspešno ste odstranili obnovitveni ključ za svoj Firefox Račun z uporabo naslednje naprave:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Tega obnovitvenega ključa ne morete več uporabiti za obnovitev svojega računa."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Uspešno ste odstranili obnovitveni ključ za svoj Firefox Račun z naslednje naprave:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -583,7 +583,7 @@ msgstr "Drugi e-poštni naslov za Firefox Račun odstranjen"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Geslo Firefox Računa ponastavljeno z obnovitvenim ključem"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
