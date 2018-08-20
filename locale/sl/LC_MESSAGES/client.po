@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 13:05+0000\n"
+"PO-Revision-Date: 2018-08-20 13:32+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -2078,11 +2078,11 @@ msgstr "Vnesite geslo"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Ste prepričani, da želite preklicati ključ?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "V primeru ponastavitve gesla ne boste mogli uporabiti obnovitvenega ključa za dostop do svojih podatkov."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -2091,6 +2091,8 @@ msgstr "Korak 2 od 2: Shranite obnovitveni ključ"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">POZOR: </span>Če pozabite geslo računa, boste potrebovali ta ključ za povrnitev dostopa do svojih podatkov. Shranite obnovitveni ključ na varno mesto, kjer ga boste po potrebi "
+"imeli pri roki."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
