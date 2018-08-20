@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-12 02:00+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"PO-Revision-Date: 2018-08-20 21:10+0000\n"
+"Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
 "MIME-Version: 1.0\n"
@@ -536,12 +536,8 @@ msgid "SMS not sent, please try again"
 msgstr "Man xtaq ta SMS, tatojtob'ej chik"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30 .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -835,8 +831,7 @@ msgstr "¿La xmestäx ri ewan tzij?"
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1740,8 +1735,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>TANATAJ:</span> Toq ye'atzolij ewan taq tzij, chuqa' natzolij ri rub'i' ataqoya'l. Rik'in jub'a' k'o awetamab'al xkesach (natab'äl, ewan taq tzij chuqa' taq yaketal). Nik'ulwachitäj ruma "
-"qewan rusik'ixik ri awetamab'al rik'in ri ewan atzij richin niqachajij ri awichinanem."
+"<span>TANATAJ:</span> Toq ye'atzolij ewan taq tzij, chuqa' natzolij ri rub'i' ataqoya'l. Rik'in jub'a' k'o awetamab'al xkesach (natab'äl, ewan taq tzij chuqa' taq yaketal). Nik'ulwachitäj ruma qewan"
+" rusik'ixik ri awetamab'al rik'in ri ewan atzij richin niqachajij ri awichinanem."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
@@ -1858,8 +1853,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"We nawokisaj re rub'i' taqoya'l re pa taq chokoy chuqa' taq rusamaj Mozilla achi'el AMO, Pocket chuqa' Screenshots nab'ey k'atzinel natikirisaj molojri'ïl chuqa' ye'ayüj xab'achike awetamab'al "
-"yakäl kan. Toq nayüj ri rub'i' ataqoya'l wawe', man xkatok ta chik chupam pa xab'akuchi'."
+"We nawokisaj re rub'i' taqoya'l re pa taq chokoy chuqa' taq rusamaj Mozilla achi'el AMO, Pocket chuqa' Screenshots nab'ey k'atzinel natikirisaj molojri'ïl chuqa' ye'ayüj xab'achike awetamab'al yakäl"
+" kan. Toq nayüj ri rub'i' ataqoya'l wawe', man xkatok ta chik chupam pa xab'akuchi'."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1992,31 +1987,30 @@ msgstr "Tawokisaj jun chik rochochib'al taqoya'l"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:105
 msgid "Account Recovery"
-msgstr ""
+msgstr "Rukolonel Rub'i' Taqoya'l"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Kolonel Ewan Rutzij Firefox"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Man okel ta ri kolonel ewan tzij"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
-msgstr ""
+msgstr "K'atzinel kolonel ewan tzij"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Titzolïx ri ewan tzij rik'in ri kolonel ewan tzij"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Tatz'ib'aj ri kolonel ewan tzij xa xe jun rokisaxik xayäk pa jun ütz k'ojlib'äl richin naköl awokem pa ri Rub'i' Ataqoya'l richin Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -2094,8 +2088,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -2129,18 +2122,18 @@ msgid "Sign in"
 msgstr "Titikirisäx molojri'ïl"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>REMEMBER:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij "
 #~ "rik'in ri ewan atzij richin niqachajij ri awichinanem."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTE:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij "
-#~ "rik'in ri ewan atzij richin niqachajij ri awichinanem."
+#~ "<span>NOTE:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij rik'in ri"
+#~ " ewan atzij richin niqachajij ri awichinanem."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Titz'aqatisäx jun rutz'aqat rij rujikomal rub'i' ataqoya'l rik'in nak'utuj jikomal taq b'itz'ib' pa jun chi ke <a %(escapedTotpSupportAttributes)s>re taq ruchokoy jikib'anïk.</a>"
