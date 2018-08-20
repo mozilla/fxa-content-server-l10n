@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 21:10+0000\n"
+"PO-Revision-Date: 2018-08-20 21:26+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2012,18 +2012,20 @@ msgstr "Tatz'ib'aj ri kolonel ewan tzij xa xe jun rokisaxik xayäk pa jun ütz k
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">NOTE:</span> We natzolij ri ewan atzij xa xe chi man ayakon ta ri kolonel ewan rutzij ataqoya'l, xkeyujtäj jun taq atzij (ke ri' ri taq rutzij k'uxasamaj eximon, achi'el ri "
+"natab'äl chuqa' ri taq yaketal)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Tatz'ib'aj ri kolonel ewan tzij"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Tajikib'a' kolonel ewan tzij"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "¿La man k'o ta jun kolonel ewan atzij?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
