@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 10:35+0000\n"
+"POT-Creation-Date: 2018-08-20 16:22+0000\n"
 "PO-Revision-Date: 2018-07-30 16:22+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,1530 +15,81 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23 .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
-msgid "Account verified successfully"
-msgstr "Tilin vahvistaminen onnistui"
-
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "Salasanan nollaus"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 
-#: app/scripts/views/permissions.js:26 .es5/views/permissions.js:28
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (pakollinen)"
-
-#: app/scripts/views/permissions.js:32 .es5/views/permissions.js:33
-msgid "Email address"
-msgstr "Sähköpostiosoite"
-
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6 .es5/views/permissions.js:37
-#: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
-msgid "Display name"
-msgstr "Näyttönimi"
-
-#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1 .es5/views/permissions.js:40 .es5/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "Tilin kuva"
-
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75
+#: .es5/views/ready.js:75
 msgid "Welcome back"
 msgstr "Tervetuloa takaisin"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
+#: .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync jatkaa hetken kuluttua"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Viimeistele asennus syöttämällä uusi salasana muihin Firefox-laitteisiisi."
-
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101
-msgid "Sign-in confirmed"
-msgstr "Kirjautuminen vahvistettu"
-
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
-#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
-
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106
-msgid "Account verified"
-msgstr "Tili on vahvistettu"
-
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164 .es5/views/reset_password.js:97
-#: .es5/views/sign_in.js:165
-msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
-
-#: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
-msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Tuntematon Firefox-tili. <a href=\"/signup\">Rekisteröidy</a> käyttäen aiemman lisäosatilisi sähköpostiosoitetta päästäksesi lisäosiesi tietoihin."
-
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
-msgid "Account no longer exists. Recreate it?"
-msgstr "Tiliä ei ole enää olemassa. Luodaanko se uudelleen?"
-
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271
-msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
-
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr ""
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-palvelusta"
-
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50 .es5/views/settings/change_password.js:45
-msgid "Password changed successfully"
-msgstr "Salasana vaihdettu"
-
-#: app/scripts/views/settings/client_disconnect.js:17 .es5/views/settings/client_disconnect.js:18
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Ikävä kuulla. Sinun tulisi vaihtaa Firefox-tilisi salasana, ja etsiä laitteesi valmistajalta tietoa siitä, kuinka tyhjennät laitteesi tiedot etänä."
-
-#: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Ikävä kuulla. Jos kyseessä oli laite, johon et luota, sinun tulisi vaihtaa Firefox-tilisi salasana, ja vaihtaa kaikki Firefoxiin tallennetut salasanat."
-
-#: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75 .es5/views/settings/clients.js:118
-msgid "Web Session, %(userAgent)s"
-msgstr "Verkkoistunto, %(userAgent)s"
-
-#: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80 .es5/views/settings/clients.js:74
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:68 .es5/views/settings/clients.js:60
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118 .es5/views/settings/communication_preferences.js:124
-msgid "Subscribed successfully"
-msgstr "Tilaus onnistui"
-
-#: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
-msgid "Unsubscribed successfully"
-msgstr "Tilauksen peruuttaminen onnistui"
-
-#: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43 .es5/views/settings/delete_account.js:44
-msgid "Account deleted successfully"
-msgstr "Tilin poistaminen onnistui"
-
-#: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64 .es5/views/settings/display_name.js:58
-msgid "Display name updated"
-msgstr "Näyttönimi päivitetty"
-
-#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113 .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
-msgid "Your account has been locked for security reasons"
-msgstr "Tilisi on lukittu turvallisuussyistä"
-
-#: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
-#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17
-msgid "Reset password"
-msgstr "Nollaa salasana"
-
-#: app/scripts/views/mixins/open-webmail-mixin.js:19 .es5/views/mixins/open-webmail-mixin.js:19
-msgid "Open Gmail"
-msgstr "Avaa Gmail"
-
-#: app/scripts/views/mixins/open-webmail-mixin.js:25 .es5/views/mixins/open-webmail-mixin.js:24
-msgid "Open Hotmail"
-msgstr "Avaa Hotmail"
-
-#: app/scripts/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:29
-msgid "Open Yahoo"
-msgstr "Avaa Yahoo"
-
-#: app/scripts/views/mixins/open-webmail-mixin.js:37 .es5/views/mixins/open-webmail-mixin.js:34
-msgid "Open Outlook"
-msgstr "Avaa Outlook"
-
-#: app/scripts/views/mixins/open-webmail-mixin.js:43 .es5/views/mixins/open-webmail-mixin.js:39
-msgid "Open Restmail"
-msgstr "Avaa Restmail"
-
-#: app/scripts/views/mixins/resend-mixin.js:40
-msgid "Email resent"
-msgstr "Sähköposti on lähetetty uudelleen"
-
-#: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59 .es5/models/reliers/sync.js:66
-msgid "Firefox Sync"
-msgstr "Firefox Sync"
-
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:35 .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
-msgid "Unexpected error"
-msgstr "Odottamaton virhe"
-
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5 .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to verify your email is expired."
-msgstr "Avaamasi vahvistuslinkki on vanhentunut."
-
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17 .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
-msgid "You've tried too many times. Try again later."
-msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan myöhemmin."
-
-#: app/scripts/lib/auth-errors.js:25 .es5/lib/auth-errors.js:27
-msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan %(retryAfterLocalized)s."
-
-#: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50 .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
-msgid "Invalid token"
-msgstr "Virheellinen tunniste"
-
-#: app/scripts/lib/auth-errors.js:39 .es5/lib/auth-errors.js:41
-msgid "Invalid timestamp in request signature"
-msgstr "Virheellinen aikaleima pyynnön allekirjoituksessa"
-
-#: app/scripts/lib/auth-errors.js:43 .es5/lib/auth-errors.js:45
-msgid "Invalid nonce in request signature"
-msgstr "Virheellinen nonce-luku pyynnön allekirjoituksessa"
-
-#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163 .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
-msgid "Account already exists"
-msgstr "Tili on jo olemassa"
-
-#: app/scripts/lib/auth-errors.js:51 .es5/lib/auth-errors.js:53
-msgid "Unknown account"
-msgstr "Tuntematon tili"
-
-#: app/scripts/lib/auth-errors.js:55 .es5/lib/auth-errors.js:57
-msgid "Incorrect email case"
-msgstr "Virheellinen sähköpostiosoitteen kirjainkoko"
-
-#: app/scripts/lib/auth-errors.js:59 .es5/lib/auth-errors.js:61
-msgid "Incorrect password"
-msgstr "Virheellinen salasana"
-
-#: app/scripts/lib/auth-errors.js:63 .es5/lib/auth-errors.js:65
-msgid "Unverified account"
-msgstr "Vahvistamaton tili"
-
-#: app/scripts/lib/auth-errors.js:67 .es5/lib/auth-errors.js:69
-msgid "Invalid verification code"
-msgstr "Virheellinen vahvistuskoodi"
-
-#: app/scripts/lib/auth-errors.js:71 .es5/lib/auth-errors.js:73
-msgid "Invalid JSON in request body"
-msgstr "Virheellistä JSON-koodia pyyntörungossa"
-
-#: app/scripts/lib/auth-errors.js:75 .es5/lib/auth-errors.js:77
-msgid "Invalid parameter: %(param)s"
-msgstr "Virheellinen parametri: %(param)s"
-
-#: app/scripts/lib/auth-errors.js:79 .es5/lib/auth-errors.js:81
-msgid "Missing parameter: %(param)s"
-msgstr "Puuttuva parametri: %(param)s"
-
-#: app/scripts/lib/auth-errors.js:83 .es5/lib/auth-errors.js:85
-msgid "Invalid request signature"
-msgstr "Virheellinen pyynnön allekirjoitus"
-
-#: app/scripts/lib/auth-errors.js:87 .es5/lib/auth-errors.js:89
-msgid "Missing content-length header"
-msgstr "Puuttuva content-length -otsake"
-
-#: app/scripts/lib/auth-errors.js:91 .es5/lib/auth-errors.js:93
-msgid "Request body too large"
-msgstr "Pyyntörunko liian suuri"
-
-#: app/scripts/lib/auth-errors.js:109 .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
-msgid "The request was blocked for security reasons"
-msgstr "Pyyntö estettiin tietoturvasyistä"
-
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
-msgid "Invalid authorization code"
-msgstr "Virheellinen valtuuskoodi"
-
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16 .es5/lib/auth-errors.js:123
-msgid "Invalid phone number"
-msgstr "Virheellinen puhelinnumero"
-
-#: app/scripts/lib/auth-errors.js:125 .es5/lib/auth-errors.js:127
-msgid "Cannot send to this country"
-msgstr "Tähän maahan lähettäminen ei onnistu"
-
-#: app/scripts/lib/auth-errors.js:134 .es5/lib/auth-errors.js:136
-msgid "Could not send a message to this number"
-msgstr "Tähän numeroon lähettäminen ei onnistunut"
-
-#: app/scripts/lib/auth-errors.js:138 .es5/lib/auth-errors.js:140
-msgid "Your email was just returned"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:142 .es5/lib/auth-errors.js:144
-msgid "Your email was just returned. Mistyped email?"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:146 .es5/lib/auth-errors.js:148
-msgid "Unable to deliver email"
-msgstr "Sähköpostin toimittaminen ei onnistunut"
-
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
-msgid "Server busy, try again soon"
-msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
-
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230
-msgid "This endpoint is no longer supported"
-msgstr "Tämä endpoint ei ole enää tuettu"
-
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234
-msgid "System unavailable, try again soon"
-msgstr "Järjestelmään ei saada yhteyttä, yritä myöhemmin uudelleen"
-
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
-msgid "Login attempt cancelled"
-msgstr "Kirjautumisyritys peruttu"
-
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242
-msgid "Session expired. Sign in to continue."
-msgstr "Istunto vanhentunut. Kirjaudu sisään uudelleen."
-
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246
-msgid "Cookies are still disabled"
-msgstr "Evästeet edelleen estetty"
-
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250
-msgid "Passwords do not match"
-msgstr "Salasanat eivät täsmää"
-
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254
-msgid "Working…"
-msgstr "Käsitellään…"
-
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258
-msgid "Could not get Privacy Notice"
-msgstr "Ei löytynyt tietosuojakäytäntöä"
-
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262
-msgid "Could not get Terms of Service"
-msgstr "Ei löytynyt käyttöehtoja"
-
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266
-msgid "Your new password must be different"
-msgstr "Uuden salasanan pitää erota vanhasta"
-
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
-#: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
-#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14
-msgid "Must be at least 8 characters"
-msgstr "Täytyy olla vähintään 8 merkkiä pitkä"
-
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274
-msgid "Valid password required"
-msgstr "Salasanan täytyy olla kelvollinen"
-
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
-#: .es5/lib/auth-errors.js:332
-msgid "Valid email required"
-msgstr "Sähköpostiosoitteen täytyy olla kelvollinen"
-
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289
-msgid "A usable image was not found"
-msgstr "Käyttökelpoista kuvaa ei löytynyt"
-
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293
-msgid "Could not initialize camera"
-msgstr "Kameraa ei voitu alustaa"
-
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297
-msgid "Valid URL required"
-msgstr "Verkko-osoitteen täytyy olla kelvollinen"
-
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Tilin vahvistussähköposti palasi juuri lähettäjälle. Kirjoititko osoitteesi oikein?"
-
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320
-msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Kirjoita oikea sähköpostiosoite. Firefox.com ei tarjoa sähköpostiosoitetta."
-
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Accounts voidaan sisällyttää IFRAME-kehyksiin vain hyväksyttyillä sivustoilla"
-
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
-#: .es5/lib/auth-errors.js:347
-msgid "Verification link damaged"
-msgstr "Vahvistuslinkki on vaurioitunut"
-
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355
-msgid "The image dimensions must be at least 100x100px"
-msgstr "Kuvan mittojen täytyy olla vähintään 100 × 100 px"
-
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359
-msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Rekisteröityminen on tulossa pian Firefoxin iOS-versioon"
-
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370
-msgid "You must enter your age to sign up"
-msgstr "Ikä täytyy antaa rekisteröitymistä varten"
-
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Yhtäkään Gravatarta ei löydetty"
-
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385
-msgid "Account no longer exists."
-msgstr "Tiliä ei ole enää olemassa."
-
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389
-msgid "Invalid property in resume token: %(property)s"
-msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
-
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393
-msgid "Missing property in resume token: %(property)s"
-msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
-
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397
-msgid "Invalid data attribute: %(property)s"
-msgstr "Virheellinen data-attribuutti: %(property)s"
-
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401
-msgid "Missing data attribute: %(property)s"
-msgstr "Puuttuva data-attribuutti: %(property)s"
-
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
-#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468
-msgid "That confirmation link was already used, and can only be used once."
-msgstr "Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran."
-
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418
-msgid "This is a required field"
-msgstr "Tämä on pakollinen kenttä"
-
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
-msgid "Authorization code required"
-msgstr "Valtuuskoodi vaaditaan"
-
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
-#: .es5/lib/auth-errors.js:430
-msgid "Link damaged"
-msgstr "Linkki vioittunut"
-
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453
-msgid "Phone number required"
-msgstr "Puhelinnumero vaaditaan"
-
-#: app/scripts/lib/config-loader.js:87 .es5/lib/config-loader.js:105
-msgid "Missing configuration"
-msgstr "Puuttuvat asetukset"
-
-#: app/scripts/lib/config-loader.js:91 .es5/lib/config-loader.js:109
-msgid "Invalid configuration"
-msgstr "Virheelliset asetukset"
-
-#: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr "Tarkoititko: <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#: app/scripts/lib/marketing-email-errors.js:41 .es5/lib/marketing-email-errors.js:43
-msgid "Please try again later"
-msgstr "Yritä myöhemmin uudestaan"
-
-#: app/scripts/lib/oauth-errors.js:26 .es5/lib/oauth-errors.js:28
-msgid "Unknown client"
-msgstr "Tuntematon asiakas"
-
-#: app/scripts/lib/oauth-errors.js:30 .es5/lib/oauth-errors.js:32
-msgid "Incorrect redirect_uri"
-msgstr "Virheellinen redirect_uri"
-
-#: app/scripts/lib/oauth-errors.js:34 .es5/lib/oauth-errors.js:36
-msgid "Invalid assertion"
-msgstr "Virheellinen lause"
-
-#: app/scripts/lib/oauth-errors.js:38 .es5/lib/oauth-errors.js:40
-msgid "Unknown code"
-msgstr "Tuntematon koodi"
-
-#: app/scripts/lib/oauth-errors.js:42 .es5/lib/oauth-errors.js:44
-msgid "Incorrect code"
-msgstr "Virheellinen koodi"
-
-#: app/scripts/lib/oauth-errors.js:46 .es5/lib/oauth-errors.js:48
-msgid "Expired code"
-msgstr "Vanhentunut koodi"
-
-#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76 .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Virheellinen OAuth-parametri: %(param)s"
-
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19 .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
-msgid "Unauthorized"
-msgstr "Ei sallittu"
-
-#: app/scripts/lib/oauth-errors.js:66 .es5/lib/oauth-errors.js:68
-msgid "Forbidden"
-msgstr "Kielletty"
-
-#: app/scripts/lib/oauth-errors.js:88 .es5/lib/oauth-errors.js:106
-msgid "Something went wrong. Please close this tab and try again."
-msgstr "Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen."
-
-#: app/scripts/lib/oauth-errors.js:104 .es5/lib/oauth-errors.js:125
-msgid "no message"
-msgstr "ei viestiä"
-
-#: app/scripts/lib/oauth-errors.js:108 .es5/lib/oauth-errors.js:129
-msgid "Missing OAuth parameter: %(param)s"
-msgstr "Puuttuva OAuth-valinta: %(param)s"
-
-#: app/scripts/lib/profile-errors.js:23 .es5/lib/profile-errors.js:47
-msgid "Invalid Token"
-msgstr "Virheellinen tunniste"
-
-#: app/scripts/lib/profile-errors.js:27 .es5/lib/profile-errors.js:27
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Virheellinen valitsin pyyntörungossa: %(param)s"
-
-#: app/scripts/lib/profile-errors.js:31 .es5/lib/profile-errors.js:31
-msgid "Unsupported image provider"
-msgstr "Ei tuettu kuvapalvelu"
-
-#: app/scripts/lib/profile-errors.js:35 .es5/lib/profile-errors.js:35
-msgid "Image processing error"
-msgstr "Kuvaa käsitellessä tapahtui virhe"
-
-#: app/scripts/lib/require-on-demand.js:39
-msgid "Resources failed to load"
-msgstr "Resurssien lataaminen epäonnistui"
-
-#: app/scripts/lib/require-on-demand.js:43
-msgid "Unexpected resource error"
-msgstr "Odottamaton resurssivirhe"
-
-#: app/scripts/lib/require-on-demand.js:47
-msgid "Script error"
-msgstr "Skriptivirhe"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "Tekstiviesti lähetetty"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "Tekstiviestiä ei lähetetty, yritä uudelleen"
-
-#: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
-
-#: app/scripts/lib/strings.js:30 .es5/lib/strings.js:33
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ohje</a>"
-
-#: app/scripts/lib/strings.js:34 .es5/lib/strings.js:37
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Saa uusimmat Mozilla- ja Firefox-uutiset."
-
-#: app/scripts/lib/strings.js:37 .es5/lib/strings.js:40
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (arvio)"
-
-#: app/scripts/lib/strings.js:38 .es5/lib/strings.js:41
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (arvio)"
-
-#: app/scripts/lib/strings.js:39 .es5/lib/strings.js:42
-msgid "IP address: %(ip)s"
-msgstr "IP-osoite: %(ip)s"
-
-#: app/scripts/lib/strings.js:40 .es5/lib/strings.js:43
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi synkronointi tämän laitteen kanssa:"
-
-#: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77 .es5/views/settings/clients.js:120
-msgid "Web Session"
-msgstr "Verkkoistunto"
-
-#: app/scripts/templates/400.mustache:1 .es5/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "Virheellinen pyyntö"
-
-#: app/scripts/templates/500.mustache:1 .es5/templates/500.mustache:1
-msgid "500 Error"
-msgstr "500 Virhe"
-
-#: app/scripts/templates/500.mustache:2 .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Voi ei, jotain meni vikaan. Saimme tiedon ja alamme korjata tilannetta."
-
-#: app/scripts/templates/cannot_create_account.mustache:1 .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Tiliä ei voida luoda"
-
-#: app/scripts/templates/cannot_create_account.mustache:2 .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Voidaksesi luoda Firefox-tilin, sinun on täytettävä ikävaatimukset."
-
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Lue lisää."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s luotu"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22 .es5/templates/choose_what_to_sync.mustache:2
-#: .es5/templates/sign_up.mustache:18
-msgid "Choose what to sync"
-msgstr "Valitse, mitä synkronoidaan"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:3 app/scripts/models/sync-engines.js:33 .es5/models/sync-engines.js:44
-msgid "Open tabs"
-msgstr "Avoimet välilehdet"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:5 app/scripts/models/sync-engines.js:38 .es5/models/sync-engines.js:48
-msgid "Bookmarks"
-msgstr "Kirjanmerkit"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7 app/scripts/models/sync-engines.js:43 .es5/models/sync-engines.js:52
-msgid "Add-ons"
-msgstr "Lisäosat"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9 app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "Salasanat"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11 app/scripts/models/sync-engines.js:53 .es5/models/sync-engines.js:60
-msgid "History"
-msgstr "Historia"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13 app/scripts/models/sync-engines.js:58 .es5/models/sync-engines.js:64
-msgid "Preferences"
-msgstr "Asetukset"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Lisäosia ja asetuksia ei nykyisin synkronoida mobiililaitteilla."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "Tallenna asetukset"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/sign_in_bounced.mustache:6 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2
-#: .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
-msgid "Back"
-msgstr "Takaisin"
-
-#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
-msgid "Reset password link expired"
-msgstr "Salasanan nollauslinkki on vanhentunut"
-
-#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
-msgid "The link you clicked to reset your password is expired."
-msgstr "Linkki, jolla yritit nollata salasanasi, on vanhentunut."
-
-#: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Tilaa uusi nollauslinkki napsauttamalla tässä"
-
-#: app/scripts/templates/complete_reset_password.mustache:5 .es5/templates/complete_reset_password.mustache:5
-msgid "Reset password link damaged"
-msgstr "Salasanan nollauslinkki on vaurioitunut"
-
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen."
-
-#: app/scripts/templates/complete_reset_password.mustache:8
-msgid "Enter new password"
-msgstr "Kirjoita uusi salasana"
-
-#: app/scripts/templates/complete_reset_password.mustache:9
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Kun lähetät uuden salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
-
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
-msgid "Learn how Sync works."
-msgstr "Lue, kuinka Sync-palvelu toimii."
-
-#: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
-msgid "New password"
-msgstr "Uusi salasana"
-
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
-msgid "Repeat password"
-msgstr "Toista salasana"
-
-#: app/scripts/templates/complete_reset_password.mustache:15
-msgid "Submit new password"
-msgstr "Lähetä uusi salasana"
-
-#: app/scripts/templates/complete_sign_up.mustache:1 .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Kirjautuminen on jo vahvistettu"
-
-#: app/scripts/templates/complete_sign_up.mustache:4 .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Vahvistuslinkki on vanhentunut"
-
-#: app/scripts/templates/complete_sign_up.mustache:6 .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Tilaa uusi vahvistuslinkki napsauttamalla tästä"
-
-#: app/scripts/templates/complete_sign_up.mustache:12 .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Vahvistusvirhe"
-
-#: app/scripts/templates/confirm.mustache:1 .es5/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "Vahvista tilisi"
-
-#: app/scripts/templates/confirm.mustache:3 .es5/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "Vahvista tämä kirjautuminen"
-
-#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email Sent"
-msgstr "Sähköposti lähetetty"
-
-#: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(escapedEmail)s"
-
-#: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin osoitteeseen %(email)s"
-
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
-
-#: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "Nollaussähköposti lähetetty"
-
-#: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kuluessa luodaksesi uuden salasanan."
-
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
-#: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18
-msgid "Remember password? Sign in"
-msgstr "Muistatko salasanan? Kirjaudu sisään"
-
-#: app/scripts/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:1
-msgid "Connect another device"
-msgstr "Yhdistä toinen laite"
-
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Tämä laite on yhdistetty"
-
-#: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45 .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Sähköposti vahvistettu"
-
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
-#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5 .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1
-#: .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
-msgid "Success"
-msgstr "Onnistui"
-
-#: app/scripts/templates/connect_another_device.mustache:6 app/scripts/templates/connect_another_device.mustache:9 .es5/templates/connect_another_device.mustache:10
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "Viimeistele asennus kirjautumalla tähän Firefoxiin"
-
-#: app/scripts/templates/connect_another_device.mustache:7 app/scripts/templates/connect_another_device.mustache:10 .es5/templates/connect_another_device.mustache:11
-msgid "Sign in &rarr;"
-msgstr "Kirjaudu &rarr;"
-
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
-#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Viimeistele asennus kirjautumalla Firefoxiin toisella laitteella"
-
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22 .es5/templates/connect_another_device.mustache:23
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24 .es5/templates/connect_another_device.mustache:25
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr ""
-
-#: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
-
-#: app/scripts/templates/cookies_disabled.mustache:2 .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jotta voit käyttää Firefox Accounts -palvelua. Tämän tekeminen mahdollistaa muun muassa sinun muistamisen istunnosta toiseen."
-
-#: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4 .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Lue lisää"
-
-#: app/scripts/templates/cookies_disabled.mustache:4 .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Yritä uudelleen"
-
-#: app/scripts/templates/force_auth.mustache:1 .es5/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "Jatka kirjautumalla sisään"
-
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12
-#: .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "Salasana"
-
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
-#: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
-#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7
-msgid "Sign in"
-msgstr "Kirjaudu sisään"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Unohditko salasanan?"
-
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
-
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Firefox pilvipalvelut"
-
-#: app/scripts/templates/legal.mustache:2 .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Lakiteksti"
-
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2 .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4
-#: .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Käyttöehdot"
-
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5 .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
-#: .es5/templates/settings.mustache:5
-msgid "Privacy Notice"
-msgstr "Tietosuojakäytäntö"
-
-#: app/scripts/templates/marketing_snippet.mustache:1 app/scripts/templates/marketing_snippet.mustache:5 app/scripts/templates/marketing_snippet.mustache:9 .es5/templates/marketing_snippet.mustache:1
-#: .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
-msgid "Get the full Sync experience."
-msgstr "Ota kaikki irti synkronointipalvelusta."
-
-#: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
-#: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19 .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3
-#: .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15 .es5/templates/marketing_snippet.mustache:19
-msgid "Download Firefox for iOS!"
-msgstr "Lataa Firefox iOS:lle!"
-
-#: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
-#: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20 .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7
-#: .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17 .es5/templates/marketing_snippet.mustache:20
-msgid "Download Firefox for Android."
-msgstr "Lataa Firefox Androidille."
-
-#: app/scripts/templates/marketing_snippet.mustache:10 .es5/templates/marketing_snippet.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "Lataa Firefox mobiililaitteille."
-
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1 .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Lupapyyntö"
-
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2 .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
-
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4 .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Hyväksy"
-
-#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:14
-#: app/scripts/templates/settings/emails.mustache:25 .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3
-#: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
-#: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
-#: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
-#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "Jatka"
-
-#: app/scripts/templates/ready.mustache:7 .es5/templates/ready.mustache:8
-msgid "Your account is ready!"
-msgstr "Tilisi on valmis!"
-
-#: app/scripts/templates/report_sign_in.mustache:4 .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr ""
-
-#: app/scripts/templates/report_sign_in.mustache:5 .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
-
-#: app/scripts/templates/report_sign_in.mustache:6 .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr ""
-
-#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7 .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr ""
-
-#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
-msgid "Reset account"
-msgstr ""
-
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
-#: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6
-msgid "Continue to %(serviceName)s"
-msgstr "Jatka palveluun %(serviceName)s"
-
-#: app/scripts/templates/reset_password.mustache:5
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "Kun nollaat salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
-
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11 .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11
-#: .es5/templates/sign_up.mustache:7
-msgid "Email"
-msgstr "Sähköpostiosoite"
-
-#: app/scripts/templates/reset_password.mustache:9 .es5/templates/reset_password.mustache:8
-msgid "Begin reset"
-msgstr "Aloita nollaus"
-
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Muistatko salasanan? Kirjaudu sisään."
-
-#: app/scripts/templates/settings.mustache:1 .es5/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox-tilit"
-
-#: app/scripts/templates/settings.mustache:2 .es5/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "Kirjaudu ulos"
-
-#: app/scripts/templates/sign_in.mustache:4
-msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
-
-#: app/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Siirrä synkronointitietosi kirjautumalla sisään Firefox-tilillesi."
-
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
-msgid "Use a different account"
-msgstr "Käytä toista tiliä"
-
-#: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18 .es5/templates/sign_in.mustache:14
-msgid "Create an account"
-msgstr "Luo tili"
-
-#: app/scripts/templates/sign_in_reported.mustache:1 .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "Kiitos valppaudestasi"
-
-#: app/scripts/templates/sign_in_reported.mustache:2 .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
-
-#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2 .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "Valtuuta tämä kirjautuminen"
-
-#: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
-
-#: app/scripts/templates/sign_in_unblock.mustache:4 .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "Kirjoita valtuuskoodi"
-
-#: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
-msgid "Continue"
-msgstr "Jatka"
-
-#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
-msgid "Create a Firefox Account"
-msgstr "Luo Firefox-tili"
-
-#: app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"%(escapedSyncSuggestionUrl)s\">Aloita täältä</a>"
-
-#: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Siirrä synkronointitietosi luomalla uusi Firefox-tili."
-
-#: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
-msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Vahva, ainutlaatuinen salasana suojelee Firefox-tietojasi urkkijoilta."
-
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Tilaa kuukausittainen Firefox-uutiskirje"
-
-#: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:16
-#: .es5/templates/sign_up_password.mustache:14
-msgid "Create account"
-msgstr "Luo tili"
-
-#: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25 .es5/templates/sign_up.mustache:21
-msgid "Have an account? Sign in"
-msgstr "Onko sinulla jo tili? Kirjaudu sisään"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Lähetä Firefox suoraan älypuhelimeesi ja viimeistele asennus kirjautumalla"
-
-#: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2 .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Tämä Firefox on yhdistetty"
-
-#: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:8
-msgid "Mobile phone number"
-msgstr "Matkapuhelinnumero"
-
-#: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:9
-msgid "Send"
-msgstr "Lähetä"
-
-#: app/scripts/templates/sms_send.mustache:7
-msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Ehkä myöhemmin"
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Asenna Firefox älypuhelimeesi ja viimeistele asennus kirjautumalla"
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:7
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Jos et saa tekstiviestiä, voit ladata sovellukset itse."
-
-#: app/scripts/templates/sms_sent.mustache:6 app/scripts/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:8
-msgid "Didn't arrive? Resend"
-msgstr "Eikö viesti saapunut? Lähetä uudestaan"
-
-#: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Miksi synkronoida kaksi tai useampia laitetta?"
-
-#: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
-msgstr ""
-
-#: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
-
-#: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11 .es5/templates/why_connect_another_device.mustache:4
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Got it"
-msgstr "Selvä"
-
-#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
-#: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Muuta…"
-
-#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5 .es5/templates/settings/avatar.mustache:3
-#: .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Lisää…"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:1 .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ota kuva"
-
-#: app/scripts/templates/settings/avatar_change.mustache:1 .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Siirrä"
-
-#: app/scripts/templates/settings/avatar_change.mustache:2 .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3 .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Tyhjennä"
-
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
-#: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
-msgid "Done"
-msgstr "Valmis"
-
-#: app/scripts/templates/settings/avatar_crop.mustache:1 .es5/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
-
-#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
-msgid "Change"
-msgstr "Vaihda"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Tallenna"
-
-#: app/scripts/templates/settings/change_password.mustache:3 .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
-
-#: app/scripts/templates/settings/change_password.mustache:4 .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Vanha salasana"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:1 .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync?"
-msgstr "Katkaistaanko yhteys Sync-palveluun?"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:2 .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Selaustietosi säilyvät laitteella %(deviceName)s, mutta niitä ei enää synkronoida tilisi kanssa."
-
-#: app/scripts/templates/settings/client_disconnect.mustache:3 .es5/templates/settings/client_disconnect.mustache:3
-msgid "Suspicious device"
-msgstr "Epäilyttävä laite"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:4 .es5/templates/settings/client_disconnect.mustache:4
-msgid "Lost or stolen device"
-msgstr "Kadonnut tai varastettu laite"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:5 .es5/templates/settings/client_disconnect.mustache:5
-msgid "Old or replaced device"
-msgstr "Vanha tai vaihdettu laite"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:6 .es5/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "Laitteen kaksoiskappale"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:7
-msgid "Rather not say"
-msgstr "En halua sanoa"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
-#: app/scripts/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Katkaise yhteys"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:10
-msgid "Disconnection Successful"
-msgstr "Yhteyden katkaiseminen onnistui"
-
-#: app/scripts/templates/settings/clients.mustache:2 .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Laitteet ja sovellukset"
-
-#: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1 .es5/templates/settings/clients.mustache:3
-#: .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Näytä"
-
-#: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "nykyinen laite"
-
-#: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8 .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Katkaise…"
-
-#: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "nykyinen istunto"
-
-#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox iOS:lle"
-
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
-#: app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "ei yhtäkään yhdistettynä"
-
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
-#: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
-msgid "Download"
-msgstr "Lataa"
-
-#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22 .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox Androidille"
-
-#: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26 .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
-
-#: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 .es5/templates/settings/clients.mustache:26
-msgid "Refresh"
-msgstr "Päivitä"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:3 .es5/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "Viestintäasetukset"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Tilaa kuukausittainen Firefox-uutiskirje."
-
-#: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "Sähköpostiasetukset"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
-msgid "Unsubscribe"
-msgstr "Lopeta tilaus"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr "Tilaa"
-
-#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:1
-#: .es5/templates/settings/delete_account.mustache:5
-msgid "Delete account"
-msgstr "Poista tili"
-
-#: app/scripts/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:2
-msgid "Delete…"
-msgstr "Poista…"
-
-#: app/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Poistetaanko tili? Tilin poistoa ei voi perua."
-
-#: app/scripts/templates/settings/display_name.mustache:5 .es5/templates/settings/display_name.mustache:5
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
-
-#: app/scripts/templates/partial/coppa-age-input.mustache:1 .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "Kuinka vanha olet?"
-
-#: app/scripts/templates/openid/start.mustache:1 .es5/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Kirjaudu Sync-palveluun"
-
-#: app/scripts/templates/openid/start.mustache:2 .es5/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Valitse tili, jota haluat käyttää synkronoimaan välilehtesi, kirjanmerkkisi, salasanasi ynnä muut."
-
-#: app/scripts/templates/openid/start.mustache:3 .es5/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "Käytä OpenID:tä"
-
-#: app/scripts/templates/openid/start.mustache:4 .es5/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Käytä Firefox-tiliä"
-
-#: app/scripts/views/settings/clients.js:86
-msgid "first sync %(translatedTimeAgo)s"
-msgstr "ensimmäinen synkronointi %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:89
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "viimeisin synkronointi %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:95
-msgid "last active %(translatedTimeAgo)s"
-msgstr "viimeksi aktiivinen %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last sync time unknown"
-msgstr "viimeisimmän synkronoinnin aika tuntematon"
-
-#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90
-msgid "Secondary email removed"
-msgstr "Toissijainen sähköposti poistetiin"
-
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
-#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133
-msgid "Verification email sent"
-msgstr "Vahvistussähköposti lähetettiin"
-
-#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149
-msgid "Primary email set to %(email)s"
-msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
-
-#: app/scripts/models/sync-engines.js:65 .es5/models/sync-engines.js:72
-msgid "Addresses"
-msgstr "Osoitteet"
-
-#: app/scripts/models/sync-engines.js:72 .es5/models/sync-engines.js:80
-msgid "Credit cards"
-msgstr "Luottokortit"
-
-#: app/scripts/lib/auth-errors.js:151 .es5/lib/auth-errors.js:153
-msgid "This email was already verified by another user"
-msgstr "Toinen käyttäjä on jo vahvistanut tämän sähköpostiosoitteen"
-
-#: app/scripts/lib/auth-errors.js:155 .es5/lib/auth-errors.js:157
-msgid "Secondary email must be different than your account email"
-msgstr "Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi sähköpostiosoite"
-
-#: app/scripts/lib/auth-errors.js:167 .es5/lib/auth-errors.js:169
-msgid "Primary account email required for sign-in"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:171 .es5/lib/auth-errors.js:173
-msgid "Address in use by another account"
-msgstr "Osoite on toisen tilin käytössä"
-
-#: app/scripts/lib/auth-errors.js:175 .es5/lib/auth-errors.js:177
-msgid "Primary account email required for reset"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:179 .es5/lib/auth-errors.js:181
-msgid "Invalid signin code"
-msgstr "Virheellinen kirjautumiskoodi"
-
-#: app/scripts/lib/mailcheck.js:25 .es5/lib/mailcheck.js:27
-msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr "Tarkoititko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s rekisteröity. <a %(escapedBackLinkParams)s>Kirjoititko sähköpostiosoitteen väärin?</a>"
-
-#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
-msgid "Receive new link"
-msgstr "Vastaanota uusi linkki"
-
-#: app/scripts/templates/confirm.mustache:5 .es5/templates/confirm.mustache:5
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty vahvistuslinkki"
-
-#: app/scripts/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Katso osoitteeseen %(email)s lähetetty kirjautumisen vahvistuslinkki"
-
-#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4
-#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
-msgid "Not in inbox or spam folder? Resend"
-msgstr "Ei saapuneissa tai roskapostissa? Lähetä uudestaan"
-
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
-#: app/scripts/templates/sms_send.mustache:4 .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
-#: .es5/templates/sms_send.mustache:5
-msgid "Still adding devices?"
-msgstr "Lisäätkö vielä laitteita?"
-
-#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10 .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
-msgid "Why is more than one device required?"
-msgstr "Miksi tarvitaan useampi kuin yksi laite?"
-
-#: app/scripts/templates/cookies_disabled.mustache:1 .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Evästeet ja paikallinen tallennustila vaaditaan"
-
-#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4 .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
-msgid "Enter your email"
-msgstr "Kirjoita sähköpostiosoitteesi"
-
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Tiliin liittyvät ilmoitukset lähetetään nyt myös osoitteeseen %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/sign_in_bounced.mustache:1 .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Pahoittelut, olemme lukinneet&nbsp;tilisi."
-
-#: app/scripts/templates/sign_in_bounced.mustache:2 .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Osoitteeseen %(email)s lähettämämme vahvistusviesti palautettiin, ja lukitsimme tilisi suojataksemme Firefox-tietojasi."
-
-#: app/scripts/templates/sign_in_bounced.mustache:3 .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Jos tämä on toimiva sähköpostiosoite, <a %(escapedSupportLinkAttrs)s>ilmoita meille</a> ja voimme auttaa sinua avaamaan tilisi lukituksen."
-
-#: app/scripts/templates/sign_in_bounced.mustache:5 .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili"
-
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:15
-msgid "Mistyped email?"
-msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
-
-#: app/scripts/templates/sign_in_unblock.mustache:3 .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Katso osoitteeseen %(email)s lähetetty valtuuskoodi."
-
-#: app/scripts/templates/sign_up.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "Tilaa uusimmat Mozilla- ja Firefox-uutiset"
-
-#: app/scripts/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:10
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-"SMS-palvelu toimii vain joissakin maissa. SMS- ja datahinnoittelua saatetaan soveltaa. Sähköposti- tai tekstiviestin tarkoitetun vastaanottajan tulee olla antanut suostumuksensa. <a "
-"%(escapedLearnMoreAttributes)s>Lue lisää</a>"
-
-#: app/scripts/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Linkki sovellukseen lähetetty numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
-
-#: app/scripts/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:3
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Linkki sovellukseen lähetetty uudelleen numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
-
-#: app/scripts/templates/why_connect_another_device.mustache:1 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Miksi synkronoida useampia laitteita?"
-
-#: app/scripts/templates/why_connect_another_device.mustache:2 .es5/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Synkronointipalvelu ei ole pysyvä varmuuskopio. Se on ainoastaan turvallinen tapa siirtää tallennettuja kirjanmerkkejäsi, selailuhistoriaasi ja salasanojasi eri laitteidesi välillä."
-
-#: app/scripts/templates/why_connect_another_device.mustache:3 .es5/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Firefox on asennettava vähintään kahteen eri laitteeseen ja tiedot on synkronoitava niiden välillä, jotta tietosi eivät katoa kun tarvitset niitä, mutta olet unohtanut salasanasi."
-
-#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Kumoa"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "We may send you emails related to your Firefox Account."
-msgstr "Saatamme lähettää sinulle Firefox-tiliisi liittyviä sähköpostiviestejä."
-
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
-
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
-#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159
-msgid "Secondary email"
-msgstr "Toissijainen sähköposti"
-
-#: app/scripts/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
-
-#: app/scripts/templates/settings/emails.mustache:7 .es5/templates/settings/emails.mustache:7
-msgid "verified"
-msgstr "vahvistettu"
-
-#: app/scripts/templates/settings/emails.mustache:9 .es5/templates/settings/emails.mustache:9
-msgid "verification required"
-msgstr "vahvistaminen vaaditaan"
-
-#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
-msgid "Make primary"
-msgstr "Tee ensisijaiseksi"
-
-#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
-msgid "Remove"
-msgstr "Poista"
-
-#: app/scripts/templates/settings/emails.mustache:16
-msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
-
-#: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
-msgid "Add"
-msgstr "Lisää"
-
-#: app/scripts/templates/partial/sync-suggestion.mustache:1 .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Etsitkö Firefox Sync -palvelua? <a %(escapedSyncSuggestionAttrs)s>Aloita tästä</a>"
-
-#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85
+#: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
 msgstr "Salasanasi on nollattu"
 
-#: .es5/views/ready.js:48 .es5/views/ready.js:89
+#: .es5/views/ready.js:81 .es5/views/ready.js:86
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Viimeistele asennus syöttämällä uusi salasana muihin Firefox-laitteisiisi."
+
+#: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Olet nyt valmis tekemään muutoksia Firefox-tiliisi."
 
-#: .es5/views/ready.js:50 .es5/views/ready.js:91
+#: .es5/views/ready.js:91
 msgid "Primary email verified"
 msgstr "Ensisijainen sähköposti vahvistettu"
 
-#: .es5/views/ready.js:53 .es5/views/ready.js:94
+#: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Tilin ilmoitukset lähetetään nyt myös osoitteeseen %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:55 .es5/views/ready.js:96
+#: .es5/views/ready.js:96
 msgid "Secondary email verified"
 msgstr "Toissijainen sähköposti vahvistettu"
+
+#: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
+msgid "Sign-in confirmed"
+msgstr "Kirjautuminen vahvistettu"
+
+#: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
+
+#: .es5/views/ready.js:106
+msgid "Account verified"
+msgstr "Tili on vahvistettu"
+
+#: .es5/views/reset_password.js:97
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
+
+#: .es5/views/sign_up.js:53
+msgid "Account no longer exists. Recreate it?"
+msgstr "Tiliä ei ole enää olemassa. Luodaanko se uudelleen?"
+
+#: .es5/views/sign_up.js:271
+msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
+
+#: .es5/views/settings/change_password.js:45
+msgid "Password changed successfully"
+msgstr "Salasana vaihdettu"
+
+#: .es5/views/settings/client_disconnect.js:18
+msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+msgstr "Ikävä kuulla. Sinun tulisi vaihtaa Firefox-tilisi salasana, ja etsiä laitteesi valmistajalta tietoa siitä, kuinka tyhjennät laitteesi tiedot etänä."
+
+#: .es5/views/settings/client_disconnect.js:19
+msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+msgstr "Ikävä kuulla. Jos kyseessä oli laite, johon et luota, sinun tulisi vaihtaa Firefox-tilisi salasana, ja vaihtaa kaikki Firefoxiin tallennetut salasanat."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -1564,6 +115,10 @@ msgstr "Synkronoitu viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translate
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Synkronoitu viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
+#: .es5/views/settings/clients.js:60
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
+
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s"
@@ -1583,6 +138,10 @@ msgstr "Käytetty viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translatedC
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:74
+msgid "%(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
@@ -1604,9 +163,45 @@ msgstr "%(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translated
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
+#: .es5/views/settings/clients.js:118
+msgid "Web Session, %(userAgent)s"
+msgstr "Verkkoistunto, %(userAgent)s"
+
+#: .es5/views/settings/clients.js:120
+msgid "Web Session"
+msgstr "Verkkoistunto"
+
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
 msgstr "Viimeisimmän synkronoinnin ajankohta tuntematon"
+
+#: .es5/views/settings/communication_preferences.js:124
+msgid "Subscribed successfully"
+msgstr "Tilaus onnistui"
+
+#: .es5/views/settings/delete_account.js:44
+msgid "Account deleted successfully"
+msgstr "Tilin poistaminen onnistui"
+
+#: .es5/views/settings/display_name.js:58
+msgid "Display name updated"
+msgstr "Näyttönimi päivitetty"
+
+#: .es5/views/settings/emails.js:90
+msgid "Secondary email removed"
+msgstr "Toissijainen sähköposti poistetiin"
+
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
+msgid "Verification email sent"
+msgstr "Vahvistussähköposti lähetettiin"
+
+#: .es5/views/settings/emails.js:149
+msgid "Primary email set to %(email)s"
+msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
+
+#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "Toissijainen sähköposti"
 
 #: .es5/views/settings/recovery_codes.js:38
 msgid "Firefox Recovery Codes"
@@ -1624,21 +219,37 @@ msgstr "Koodien kopiointi epäonnistui. Kopioi koodit käsin."
 msgid "New recovery codes generated"
 msgstr "Uudet palautuskoodit luotu"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Kaksivaiheinen todennus otettu käyttöön"
 
-#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110
+#: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Ota käyttöön kaksivaiheinen todennus tuetuissa sovelluksissa käyttämällä koodia %(code)s."
 
-#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123
+#: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
 msgstr "Kaksivaiheinen todennus poistettu käytöstä"
 
-#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164
+#: .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
 msgstr "Kaksivaiheinen todennus"
+
+#: .es5/views/settings/account_recovery/account_recovery.js:105
+msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55
+msgid "Firefox Recovery Key"
+msgstr ""
+
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
+msgid "Your account has been locked for security reasons"
+msgstr "Tilisi on lukittu turvallisuussyistä"
+
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+msgid "Reset password"
+msgstr "Nollaa salasana"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
@@ -1648,6 +259,26 @@ msgstr ""
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Viimeksi tarkistettu: %(lastCheckTime)s"
 
+#: .es5/views/mixins/open-webmail-mixin.js:19
+msgid "Open Gmail"
+msgstr "Avaa Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:24
+msgid "Open Hotmail"
+msgstr "Avaa Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:29
+msgid "Open Yahoo"
+msgstr "Avaa Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:34
+msgid "Open Outlook"
+msgstr "Avaa Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:39
+msgid "Open Restmail"
+msgstr "Avaa Restmail"
+
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Sähköposti lähetetty uudelleen. Lisää accounts@firefox.com yhteystietoihisi, jotta viesti tulee varmasti perille."
@@ -1656,9 +287,45 @@ msgstr "Sähköposti lähetetty uudelleen. Lisää accounts@firefox.com yhteysti
 msgid "Primary email verified successfully"
 msgstr "Ensisijaisen sähköpostin vahvistaminen onnistui"
 
+#: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
+msgid "Account verified successfully"
+msgstr "Tilin vahvistaminen onnistui"
+
+#: .es5/models/sync-engines.js:44
+msgid "Open tabs"
+msgstr "Avoimet välilehdet"
+
+#: .es5/models/sync-engines.js:48
+msgid "Bookmarks"
+msgstr "Kirjanmerkit"
+
+#: .es5/models/sync-engines.js:52
+msgid "Add-ons"
+msgstr "Lisäosat"
+
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
 msgstr "Kirjautumiset"
+
+#: .es5/models/sync-engines.js:60
+msgid "History"
+msgstr "Historia"
+
+#: .es5/models/sync-engines.js:64
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: .es5/models/sync-engines.js:72
+msgid "Addresses"
+msgstr "Osoitteet"
+
+#: .es5/models/sync-engines.js:80
+msgid "Credit cards"
+msgstr "Luottokortit"
+
+#: .es5/models/reliers/sync.js:66
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
@@ -1667,6 +334,138 @@ msgstr "Toissijaisen sähköpostin vahvistaminen onnistui"
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
 msgstr "Salasana nollattu onnistuneesti"
+
+#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+msgid "Unexpected error"
+msgstr "Odottamaton virhe"
+
+#: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to verify your email is expired."
+msgstr "Avaamasi vahvistuslinkki on vanhentunut."
+
+#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
+msgid "You've tried too many times. Try again later."
+msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan myöhemmin."
+
+#: .es5/lib/auth-errors.js:27
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
+msgid "Invalid token"
+msgstr "Virheellinen tunniste"
+
+#: .es5/lib/auth-errors.js:41
+msgid "Invalid timestamp in request signature"
+msgstr "Virheellinen aikaleima pyynnön allekirjoituksessa"
+
+#: .es5/lib/auth-errors.js:45
+msgid "Invalid nonce in request signature"
+msgstr "Virheellinen nonce-luku pyynnön allekirjoituksessa"
+
+#: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
+msgid "Account already exists"
+msgstr "Tili on jo olemassa"
+
+#: .es5/lib/auth-errors.js:53
+msgid "Unknown account"
+msgstr "Tuntematon tili"
+
+#: .es5/lib/auth-errors.js:57
+msgid "Incorrect email case"
+msgstr "Virheellinen sähköpostiosoitteen kirjainkoko"
+
+#: .es5/lib/auth-errors.js:61
+msgid "Incorrect password"
+msgstr "Virheellinen salasana"
+
+#: .es5/lib/auth-errors.js:65
+msgid "Unverified account"
+msgstr "Vahvistamaton tili"
+
+#: .es5/lib/auth-errors.js:69
+msgid "Invalid verification code"
+msgstr "Virheellinen vahvistuskoodi"
+
+#: .es5/lib/auth-errors.js:73
+msgid "Invalid JSON in request body"
+msgstr "Virheellistä JSON-koodia pyyntörungossa"
+
+#: .es5/lib/auth-errors.js:77
+msgid "Invalid parameter: %(param)s"
+msgstr "Virheellinen parametri: %(param)s"
+
+#: .es5/lib/auth-errors.js:81
+msgid "Missing parameter: %(param)s"
+msgstr "Puuttuva parametri: %(param)s"
+
+#: .es5/lib/auth-errors.js:85
+msgid "Invalid request signature"
+msgstr "Virheellinen pyynnön allekirjoitus"
+
+#: .es5/lib/auth-errors.js:89
+msgid "Missing content-length header"
+msgstr "Puuttuva content-length -otsake"
+
+#: .es5/lib/auth-errors.js:93
+msgid "Request body too large"
+msgstr "Pyyntörunko liian suuri"
+
+#: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
+msgid "The request was blocked for security reasons"
+msgstr "Pyyntö estettiin tietoturvasyistä"
+
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:426
+msgid "Invalid authorization code"
+msgstr "Virheellinen valtuuskoodi"
+
+#: .es5/lib/auth-errors.js:123
+msgid "Invalid phone number"
+msgstr "Virheellinen puhelinnumero"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Cannot send to this country"
+msgstr "Tähän maahan lähettäminen ei onnistu"
+
+#: .es5/lib/auth-errors.js:136
+msgid "Could not send a message to this number"
+msgstr "Tähän numeroon lähettäminen ei onnistunut"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Your email was just returned"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned. Mistyped email?"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:148
+msgid "Unable to deliver email"
+msgstr "Sähköpostin toimittaminen ei onnistunut"
+
+#: .es5/lib/auth-errors.js:153
+msgid "This email was already verified by another user"
+msgstr "Toinen käyttäjä on jo vahvistanut tämän sähköpostiosoitteen"
+
+#: .es5/lib/auth-errors.js:157
+msgid "Secondary email must be different than your account email"
+msgstr "Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi sähköpostiosoite"
+
+#: .es5/lib/auth-errors.js:169
+msgid "Primary account email required for sign-in"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:173
+msgid "Address in use by another account"
+msgstr "Osoite on toisen tilin käytössä"
+
+#: .es5/lib/auth-errors.js:177
+msgid "Primary account email required for reset"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:181
+msgid "Invalid signin code"
+msgstr "Virheellinen kirjautumiskoodi"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
@@ -1692,37 +491,384 @@ msgstr "Virheellinen kirjautumisen vahvistuskoodi"
 msgid "This verification code has expired"
 msgstr "Tämä vahvistuskoodi on vanhentunut"
 
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid recovery key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
+msgid "Server busy, try again soon"
+msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
+
+#: .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "Ominaisuus ei ole käytössä"
 
-#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98 .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
+msgid "System unavailable, try again soon"
+msgstr "Järjestelmään ei saada yhteyttä, yritä myöhemmin uudelleen"
+
+#: .es5/lib/auth-errors.js:230
+msgid "This endpoint is no longer supported"
+msgstr "Tämä endpoint ei ole enää tuettu"
+
+#: .es5/lib/auth-errors.js:238
+msgid "Login attempt cancelled"
+msgstr "Kirjautumisyritys peruttu"
+
+#: .es5/lib/auth-errors.js:242
+msgid "Session expired. Sign in to continue."
+msgstr "Istunto vanhentunut. Kirjaudu sisään uudelleen."
+
+#: .es5/lib/auth-errors.js:246
+msgid "Cookies are still disabled"
+msgstr "Evästeet edelleen estetty"
+
+#: .es5/lib/auth-errors.js:250
+msgid "Passwords do not match"
+msgstr "Salasanat eivät täsmää"
+
+#: .es5/lib/auth-errors.js:254
+msgid "Working…"
+msgstr "Käsitellään…"
+
+#: .es5/lib/auth-errors.js:258
+msgid "Could not get Privacy Notice"
+msgstr "Ei löytynyt tietosuojakäytäntöä"
+
+#: .es5/lib/auth-errors.js:262
+msgid "Could not get Terms of Service"
+msgstr "Ei löytynyt käyttöehtoja"
+
+#: .es5/lib/auth-errors.js:266
+msgid "Your new password must be different"
+msgstr "Uuden salasanan pitää erota vanhasta"
+
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "Must be at least 8 characters"
+msgstr "Täytyy olla vähintään 8 merkkiä pitkä"
+
+#: .es5/lib/auth-errors.js:274
+msgid "Valid password required"
+msgstr "Salasanan täytyy olla kelvollinen"
+
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:332
+msgid "Valid email required"
+msgstr "Sähköpostiosoitteen täytyy olla kelvollinen"
+
+#: .es5/lib/auth-errors.js:289
+msgid "A usable image was not found"
+msgstr "Käyttökelpoista kuvaa ei löytynyt"
+
+#: .es5/lib/auth-errors.js:293
+msgid "Could not initialize camera"
+msgstr "Kameraa ei voitu alustaa"
+
+#: .es5/lib/auth-errors.js:297
+msgid "Valid URL required"
+msgstr "Verkko-osoitteen täytyy olla kelvollinen"
+
+#: .es5/lib/auth-errors.js:312
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Tilin vahvistussähköposti palasi juuri lähettäjälle. Kirjoititko osoitteesi oikein?"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Kirjoita oikea sähköpostiosoite. Firefox.com ei tarjoa sähköpostiosoitetta."
+
+#: .es5/lib/auth-errors.js:328
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox Accounts voidaan sisällyttää IFRAME-kehyksiin vain hyväksyttyillä sivustoilla"
+
+#: .es5/lib/auth-errors.js:347 .es5/templates/complete_sign_up.mustache:11
+msgid "Verification link damaged"
+msgstr "Vahvistuslinkki on vaurioitunut"
+
+#: .es5/lib/auth-errors.js:355
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Kuvan mittojen täytyy olla vähintään 100 × 100 px"
+
+#: .es5/lib/auth-errors.js:359
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Rekisteröityminen on tulossa pian Firefoxin iOS-versioon"
+
+#: .es5/lib/auth-errors.js:370
+msgid "You must enter your age to sign up"
+msgstr "Ikä täytyy antaa rekisteröitymistä varten"
+
+#: .es5/lib/auth-errors.js:385
+msgid "Account no longer exists."
+msgstr "Tiliä ei ole enää olemassa."
+
+#: .es5/lib/auth-errors.js:389
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
+
+#: .es5/lib/auth-errors.js:393
+msgid "Missing property in resume token: %(property)s"
+msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
+
+#: .es5/lib/auth-errors.js:397
+msgid "Invalid data attribute: %(property)s"
+msgstr "Virheellinen data-attribuutti: %(property)s"
+
+#: .es5/lib/auth-errors.js:401
+msgid "Missing data attribute: %(property)s"
+msgstr "Puuttuva data-attribuutti: %(property)s"
+
+#: .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran."
+
+#: .es5/lib/auth-errors.js:418
+msgid "This is a required field"
+msgstr "Tämä on pakollinen kenttä"
+
+#: .es5/lib/auth-errors.js:422
+msgid "Authorization code required"
+msgstr "Valtuuskoodi vaaditaan"
+
+#: .es5/lib/auth-errors.js:430 .es5/templates/report_sign_in.mustache:1
+msgid "Link damaged"
+msgstr "Linkki vioittunut"
+
+#: .es5/lib/auth-errors.js:453
+msgid "Phone number required"
+msgstr "Puhelinnumero vaaditaan"
+
+#: .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
 msgstr "Kaksivaiheisen todennuksen koodi vaaditaan"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid two-step authentication code"
 msgstr "Virheellinen kaksivaiheisen todennuksen koodi"
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480
 msgid "Recovery code required"
 msgstr "Palautuskoodi vaaditaan"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:484
 msgid "Invalid recovery code"
 msgstr "Virheellinen palautuskoodi"
+
+#: .es5/lib/auth-errors.js:496
+msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/config-loader.js:105
+msgid "Missing configuration"
+msgstr "Puuttuvat asetukset"
+
+#: .es5/lib/config-loader.js:109
+msgid "Invalid configuration"
+msgstr "Virheelliset asetukset"
+
+#: .es5/lib/mailcheck.js:27
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr "Tarkoititko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#: .es5/lib/marketing-email-errors.js:43
+msgid "Please try again later"
+msgstr "Yritä myöhemmin uudestaan"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
 msgstr "Palvelu ei ole saatavilla, yritä hetken päästä uudelleen"
 
+#: .es5/lib/oauth-errors.js:28
+msgid "Unknown client"
+msgstr "Tuntematon asiakas"
+
+#: .es5/lib/oauth-errors.js:32
+msgid "Incorrect redirect_uri"
+msgstr "Virheellinen redirect_uri"
+
+#: .es5/lib/oauth-errors.js:36
+msgid "Invalid assertion"
+msgstr "Virheellinen lause"
+
+#: .es5/lib/oauth-errors.js:40
+msgid "Unknown code"
+msgstr "Tuntematon koodi"
+
+#: .es5/lib/oauth-errors.js:44
+msgid "Incorrect code"
+msgstr "Virheellinen koodi"
+
+#: .es5/lib/oauth-errors.js:48
+msgid "Expired code"
+msgstr "Vanhentunut koodi"
+
+#: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Virheellinen OAuth-parametri: %(param)s"
+
+#: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
+msgid "Unauthorized"
+msgstr "Ei sallittu"
+
+#: .es5/lib/oauth-errors.js:68
+msgid "Forbidden"
+msgstr "Kielletty"
+
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
 msgstr ""
 
+#: .es5/lib/oauth-errors.js:106
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen."
+
+#: .es5/lib/oauth-errors.js:125
+msgid "no message"
+msgstr "ei viestiä"
+
+#: .es5/lib/oauth-errors.js:129
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Puuttuva OAuth-valinta: %(param)s"
+
+#: .es5/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Virheellinen valitsin pyyntörungossa: %(param)s"
+
+#: .es5/lib/profile-errors.js:31
+msgid "Unsupported image provider"
+msgstr "Ei tuettu kuvapalvelu"
+
+#: .es5/lib/profile-errors.js:35
+msgid "Image processing error"
+msgstr "Kuvaa käsitellessä tapahtui virhe"
+
+#: .es5/lib/profile-errors.js:47
+msgid "Invalid Token"
+msgstr "Virheellinen tunniste"
+
+#: .es5/lib/strings.js:26
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+
+#: .es5/lib/strings.js:33
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ohje</a>"
+
+#: .es5/lib/strings.js:37
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Saa uusimmat Mozilla- ja Firefox-uutiset."
+
+#: .es5/lib/strings.js:40
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (arvio)"
+
+#: .es5/lib/strings.js:41
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (arvio)"
+
+#: .es5/lib/strings.js:42
+msgid "IP address: %(ip)s"
+msgstr "IP-osoite: %(ip)s"
+
+#: .es5/lib/strings.js:43
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi synkronointi tämän laitteen kanssa:"
+
+#: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+msgid "Sign in"
+msgstr "Kirjaudu sisään"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Virheellinen pyyntö"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "500 Virhe"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Voi ei, jotain meni vikaan. Saimme tiedon ja alamme korjata tilannetta."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Salasanan nollauslinkki on vanhentunut"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Linkki, jolla yritit nollata salasanasi, on vanhentunut."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Vastaanota uusi linkki"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
+#: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Jatka palveluun %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr ""
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Tiliä ei voida luoda"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Voidaksesi luoda Firefox-tilin, sinun on täytettävä ikävaatimukset."
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Lue lisää"
+
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
 msgstr "%(email)s rekisteröity."
+
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
+msgid "Choose what to sync"
+msgstr "Valitse, mitä synkronoidaan"
+
+#: .es5/templates/choose_what_to_sync.mustache:5
+msgid "Save settings"
+msgstr "Tallenna asetukset"
+
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+msgid "Back"
+msgstr "Takaisin"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Salasanan nollauslinkki on vaurioitunut"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1734,35 +880,281 @@ msgid ""
 "your data with your password to protect your privacy."
 msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
 msgstr "Kirjoita salasana uudelleen"
+
+#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+msgid "Remember password? Sign in"
+msgstr "Muistatko salasanan? Kirjaudu sisään"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
 msgstr "Ensisijainen sähköposti on jo vahvistettu"
 
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Kirjautuminen on jo vahvistettu"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Verification link expired"
+msgstr "Vahvistuslinkki on vanhentunut"
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new verification link"
+msgstr "Tilaa uusi vahvistuslinkki napsauttamalla tästä"
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Verification error"
+msgstr "Vahvistusvirhe"
+
+#: .es5/templates/confirm.mustache:1
+msgid "Confirm your account"
+msgstr "Vahvista tilisi"
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm this sign-in"
+msgstr "Vahvista tämä kirjautuminen"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty vahvistuslinkki"
+
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty kirjautumisen vahvistuslinkki"
+
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Ei saapuneissa tai roskapostissa? Lähetä uudestaan"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Nollaussähköposti lähetetty"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Luo uusi salasana napsauttamalla osoitteeseen %(email)s lähetetyssä viestissä olevaa linkkiä tunnin sisällä."
 
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Yhdistä toinen laite"
+
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Tämä Firefox on yhdistetty"
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Sähköposti vahvistettu"
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+msgid "Success"
+msgstr "Onnistui"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Viimeistele asennus kirjautumalla tähän Firefoxiin"
+
+#: .es5/templates/connect_another_device.mustache:11
+msgid "Sign in &rarr;"
+msgstr "Kirjaudu &rarr;"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
+msgid "Still adding devices?"
+msgstr "Lisäätkö vielä laitteita?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Viimeistele asennus kirjautumalla Firefoxiin toisella laitteella"
+
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "Lisäätkö vielä laitteita? Viimeistele asennus kirjautumalla Firefoxiin toisella laitteella"
 
+#: .es5/templates/connect_another_device.mustache:23
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:25
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
+msgid "Why is more than one device required?"
+msgstr "Miksi tarvitaan useampi kuin yksi laite?"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Evästeet ja paikallinen tallennustila vaaditaan"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jotta voit käyttää Firefox Accounts -palvelua. Tämän tekeminen mahdollistaa muun muassa sinun muistamisen istunnosta toiseen."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Yritä uudelleen"
+
+#: .es5/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Jatka kirjautumalla sisään"
+
+#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+msgid "Password"
+msgstr "Salasana"
+
+#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/settings/change_password.mustache:5
+msgid "Forgot password?"
+msgstr "Unohditko salasanan?"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Jatkamalla hyväksyt palvelun <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
+
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
+msgid "Enter your email"
+msgstr "Kirjoita sähköpostiosoitteesi"
+
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+msgid "Continue"
+msgstr "Jatka"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Lakiteksti"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Käyttöehdot"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+msgid "Privacy Notice"
+msgstr "Tietosuojakäytäntö"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Ota kaikki irti synkronointipalvelusta."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Lataa Firefox iOS:lle!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Lataa Firefox Androidille."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Lataa Firefox mobiililaitteille."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Lupapyyntö"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
+#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
+#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
+#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: .es5/templates/ready.mustache:8
+msgid "Your account is ready!"
+msgstr "Tilisi on valmis!"
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr ""
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr ""
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr ""
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr ""
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr ""
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+
+#: .es5/templates/reset_password.mustache:8
+msgid "Begin reset"
+msgstr "Aloita nollaus"
+
+#: .es5/templates/settings.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox-tilit"
+
+#: .es5/templates/settings.mustache:2
+msgid "Sign out"
+msgstr "Kirjaudu ulos"
+
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+msgid "Use a different account"
+msgstr "Käytä toista tiliä"
+
+#: .es5/templates/sign_in.mustache:14
+msgid "Create an account"
+msgstr "Luo tili"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Pahoittelut, olemme lukinneet&nbsp;tilisi."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Osoitteeseen %(email)s lähettämämme vahvistusviesti palautettiin, ja lukitsimme tilisi suojataksemme Firefox-tietojasi."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Jos tämä on toimiva sähköpostiosoite, <a %(escapedSupportLinkAttrs)s>ilmoita meille</a> ja voimme auttaa sinua avaamaan tilisi lukituksen."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1784,6 +1176,18 @@ msgstr "Vahvista"
 msgid "Enter security code"
 msgstr "Kirjoita turvallisuuskoodi"
 
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Kiitos valppaudestasi"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
+msgid "Authorize this sign-in"
+msgstr "Valtuuta tämä kirjautuminen"
+
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
 msgstr "Katso osoitteeseen %(email)s lähetetty koodi."
@@ -1804,6 +1208,22 @@ msgstr "Kirjoita 6-numeroinen koodi"
 msgid "Use recovery code"
 msgstr "Käytä palautuskoodi"
 
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Katso osoitteeseen %(email)s lähetetty valtuuskoodi."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Kirjoita valtuuskoodi"
+
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
+msgid "Create a Firefox Account"
+msgstr "Luo Firefox-tili"
+
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+msgid "Repeat password"
+msgstr "Toista salasana"
+
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
@@ -1816,17 +1236,217 @@ msgstr "<span>Älä käytä samaa salasanaa kuin sähköpostissasi</span>Jos jok
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Muista salasanasi</span>Jos sinun tarvitsee nollata salasanasi, menetät kaikki Sync-tietosi, jotka eivät ole tallessa jollain laitteistasi."
 
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Tilaa uusimmat Mozilla- ja Firefox-uutiset"
+
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Luo tili"
+
+#: .es5/templates/sign_up.mustache:21
+msgid "Have an account? Sign in"
+msgstr "Onko sinulla jo tili? Kirjaudu sisään"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid "Mistyped email?"
+msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
+
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Lähetä Firefox suoraan älypuhelimeesi ja viimeistele asennus kirjautumalla"
+
+#: .es5/templates/sms_send.mustache:8
+msgid "Mobile phone number"
+msgstr "Matkapuhelinnumero"
+
+#: .es5/templates/sms_send.mustache:9
+msgid "Send"
+msgstr "Lähetä"
+
+#: .es5/templates/sms_send.mustache:10
+msgid ""
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+"SMS-palvelu toimii vain joissakin maissa. SMS- ja datahinnoittelua saatetaan soveltaa. Sähköposti- tai tekstiviestin tarkoitetun vastaanottajan tulee olla antanut suostumuksensa. <a "
+"%(escapedLearnMoreAttributes)s>Lue lisää</a>"
+
+#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr "Asenna Firefox älypuhelimeesi ja viimeistele asennus kirjautumalla"
+
+#: .es5/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Linkki sovellukseen lähetetty numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
+
+#: .es5/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Linkki sovellukseen lähetetty uudelleen numeroon %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Kirjoititko&nbsp;väärän&nbsp;numeron?</a>"
+
+#: .es5/templates/sms_sent.mustache:7
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "Jos et saa tekstiviestiä, voit ladata sovellukset itse."
+
+#: .es5/templates/sms_sent.mustache:8
+msgid "Didn't arrive? Resend"
+msgstr "Eikö viesti saapunut? Lähetä uudestaan"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Miksi synkronoida useampia laitteita?"
+
+#: .es5/templates/why_connect_another_device.mustache:2
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+msgstr "Synkronointipalvelu ei ole pysyvä varmuuskopio. Se on ainoastaan turvallinen tapa siirtää tallennettuja kirjanmerkkejäsi, selailuhistoriaasi ja salasanojasi eri laitteidesi välillä."
+
+#: .es5/templates/why_connect_another_device.mustache:3
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+msgstr "Firefox on asennettava vähintään kahteen eri laitteeseen ja tiedot on synkronoitava niiden välillä, jotta tietosi eivät katoa kun tarvitset niitä, mutta olet unohtanut salasanasi."
+
+#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
+msgid "Got it"
+msgstr "Selvä"
+
+#: .es5/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "Tilin kuva"
+
+#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
+#: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+msgid "Change…"
+msgstr "Muuta…"
+
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+msgid "Add…"
+msgstr "Lisää…"
+
+#: .es5/templates/settings/avatar_camera.mustache:1
+msgid "Take picture"
+msgstr "Ota kuva"
+
+#: .es5/templates/settings/avatar_change.mustache:1
+msgid "Upload"
+msgstr "Siirrä"
+
+#: .es5/templates/settings/avatar_change.mustache:2
+msgid "Camera"
+msgstr "Kamera"
+
+#: .es5/templates/settings/avatar_change.mustache:3
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+msgid "Done"
+msgstr "Valmis"
+
+#: .es5/templates/settings/avatar_crop.mustache:1
+msgid "Position and rotate your picture as needed"
+msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
+
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+msgid "Change"
+msgstr "Vaihda"
+
+#: .es5/templates/settings/change_password.mustache:3
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
+
+#: .es5/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "Vanha salasana"
+
+#: .es5/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync?"
+msgstr "Katkaistaanko yhteys Sync-palveluun?"
+
+#: .es5/templates/settings/client_disconnect.mustache:2
+msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+msgstr "Selaustietosi säilyvät laitteella %(deviceName)s, mutta niitä ei enää synkronoida tilisi kanssa."
+
+#: .es5/templates/settings/client_disconnect.mustache:3
+msgid "Suspicious device"
+msgstr "Epäilyttävä laite"
+
+#: .es5/templates/settings/client_disconnect.mustache:4
+msgid "Lost or stolen device"
+msgstr "Kadonnut tai varastettu laite"
+
+#: .es5/templates/settings/client_disconnect.mustache:5
+msgid "Old or replaced device"
+msgstr "Vanha tai vaihdettu laite"
+
+#: .es5/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "Laitteen kaksoiskappale"
+
+#: .es5/templates/settings/client_disconnect.mustache:7
+msgid "Rather not say"
+msgstr "En halua sanoa"
+
+#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
+msgid "Disconnect"
+msgstr "Katkaise yhteys"
+
+#: .es5/templates/settings/client_disconnect.mustache:10
+msgid "Disconnection Successful"
+msgstr "Yhteyden katkaiseminen onnistui"
+
+#: .es5/templates/settings/clients.mustache:2
+msgid "Devices & apps"
+msgstr "Laitteet ja sovellukset"
+
+#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
+msgid "Show"
+msgstr "Näytä"
+
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
 msgstr "Nykyinen laite"
+
+#: .es5/templates/settings/clients.mustache:8
+msgid "Disconnect…"
+msgstr "Katkaise…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
 msgstr "Nykyinen istunto"
 
+#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
+msgid "Revoke"
+msgstr "Kumoa"
+
+#: .es5/templates/settings/clients.mustache:18
+msgid "Firefox for iOS"
+msgstr "Firefox iOS:lle"
+
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Ei yhdistettyjä laitteita"
+
+#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+msgid "Download"
+msgstr "Lataa"
+
+#: .es5/templates/settings/clients.mustache:21
+msgid "Firefox for Android"
+msgstr "Firefox Androidille"
+
+#: .es5/templates/settings/clients.mustache:25
+msgid "Missing or duplicate items?"
+msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
+
+#: .es5/templates/settings/clients.mustache:26
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: .es5/templates/settings/communication_preferences.mustache:3
+msgid "Communication preferences"
+msgstr "Viestintäasetukset"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
@@ -1836,9 +1456,21 @@ msgstr "Vastaanotat viestintää tilisi tietoturvaan, käytäntöihimme liittyvi
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 msgstr "Lisäksi voi halutessasi vastaanottaa markkinointipainotteisia viestejä liittyen uusimpiin Mozilla- ja Firefox-uutisiin."
 
+#: .es5/templates/settings/communication_preferences.mustache:9
+msgid "Subscribe"
+msgstr "Tilaa"
+
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
 msgstr "Hallitse tilauksia"
+
+#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
+msgid "Delete account"
+msgstr "Poista tili"
+
+#: .es5/templates/settings/delete_account.mustache:2
+msgid "Delete…"
+msgstr "Poista…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
@@ -1846,14 +1478,42 @@ msgid ""
 "lose access to it everywhere."
 msgstr ""
 
+#: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
+msgid "Display name"
+msgstr "Näyttönimi"
+
+#: .es5/templates/settings/display_name.mustache:5
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
+
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Toissijainen sähköpostiosoite on lisäosoite, jota käytetään tietoturvaan liittyviä ilmoituksia ja uusien laitteiden vahvistusta varten."
+
+#: .es5/templates/settings/emails.mustache:7
+msgid "verified"
+msgstr "vahvistettu"
+
+#: .es5/templates/settings/emails.mustache:9
+msgid "verification required"
+msgstr "vahvistaminen vaaditaan"
+
+#: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr "Tee ensisijaiseksi"
+
+#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
+msgid "Remove"
+msgstr "Poista"
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Päivitä tila"
+
+#: .es5/templates/settings/emails.mustache:24
+msgid "Add"
+msgstr "Lisää"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
@@ -1947,87 +1607,6 @@ msgstr "Ennen kuin voit katsella tämän osion tietoja tai tehdä muutoksia tiet
 msgid "Primary email"
 msgstr "Ensisijainen sähköposti"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "Firefox-tilisi salasana"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:6
-msgid "Must not be your email address"
-msgstr "Ei saa olla sähköpostiosoitteesi"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:10
-msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
-
-#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
-msgid "Show password"
-msgstr "Näytä salasana"
-
-#: .es5/templates/partial/user-card.mustache:1
-msgid "Use a different email address"
-msgstr "Käytä toista sähköpostiosoitetta"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:105
-msgid "Account Recovery"
-msgstr ""
-
-#: .es5/views/settings/account_recovery/recovery_key.js:55
-msgid "Firefox Recovery Key"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:213
-msgid "Invalid recovery key"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:496
-msgid "Recovery key required"
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "Reset password with recovery key"
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Enter recovery key"
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Confirm recovery key"
-msgstr ""
-
-#: .es5/templates/account_recovery_confirm_key.mustache:13
-msgid "Don't have a recovery key?"
-msgstr ""
-
-#: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
-
-#: .es5/templates/ready.mustache:9
-msgid "Generate a new recovery key"
-msgstr ""
-
-#: .es5/templates/ready.mustache:10
-msgid "Continue to my account"
-msgstr ""
-
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
 msgstr ""
@@ -2095,23 +1674,236 @@ msgstr ""
 msgid "Done, Recovery key saved"
 msgstr ""
 
-#. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
-msgctxt "submit button"
-msgid "Sign in"
-msgstr "Kirjaudu"
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "Kuinka vanha olet?"
 
-#. header text
-#: app/scripts/views/sign_in.js:93
-msgctxt "header text"
-msgid "Sign in"
-msgstr "Kirjaudu sisään"
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Your Firefox Account password"
+msgstr "Firefox-tilisi salasana"
 
-#. button text
-#: app/scripts/views/sign_in.js:90
-msgctxt "button text"
-msgid "Sign in"
-msgstr "Kirjaudu"
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Must not be your email address"
+msgstr "Ei saa olla sähköpostiosoitteesi"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:12
+msgid "Remember this password &mdash; resetting it erases your data from our servers."
+msgstr ""
+
+#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Näytä salasana"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Etsitkö Firefox Sync -palvelua? <a %(escapedSyncSuggestionAttrs)s>Aloita tästä</a>"
+
+#: .es5/templates/partial/user-card.mustache:1
+msgid "Use a different email address"
+msgstr "Käytä toista sähköpostiosoitetta"
+
+#~ msgid "%(permissionName)s (required)"
+#~ msgstr "%(permissionName)s (pakollinen)"
+
+#~ msgid "Email address"
+#~ msgstr "Sähköpostiosoite"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Tuntematon Firefox-tili. <a href=\"/signup\">Rekisteröidy</a> käyttäen aiemman lisäosatilisi sähköpostiosoitetta päästäksesi lisäosiesi tietoihin."
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-palvelusta"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Tilauksen peruuttaminen onnistui"
+
+#~ msgid "Email resent"
+#~ msgstr "Sähköposti on lähetetty uudelleen"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Yhtäkään Gravatarta ei löydetty"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Tarkoititko: <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Resurssien lataaminen epäonnistui"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Odottamaton resurssivirhe"
+
+#~ msgid "Script error"
+#~ msgstr "Skriptivirhe"
+
+#~ msgid "SMS sent"
+#~ msgstr "Tekstiviesti lähetetty"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "Tekstiviestiä ei lähetetty, yritä uudelleen"
+
+#~ msgid "Learn more."
+#~ msgstr "Lue lisää."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s luotu"
+
+#~ msgid "Passwords"
+#~ msgstr "Salasanat"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Lisäosia ja asetuksia ei nykyisin synkronoida mobiililaitteilla."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Tilaa uusi nollauslinkki napsauttamalla tässä"
+
+#~ msgid "Enter new password"
+#~ msgstr "Kirjoita uusi salasana"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Kun lähetät uuden salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Lue, kuinka Sync-palvelu toimii."
+
+#~ msgid "Submit new password"
+#~ msgstr "Lähetä uusi salasana"
+
+#~ msgid "Email Sent"
+#~ msgstr "Sähköposti lähetetty"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin osoitteeseen %(email)s"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kuluessa luodaksesi uuden salasanan."
+
+#~ msgid "This device is connected"
+#~ msgstr "Tämä laite on yhdistetty"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox pilvipalvelut"
+
+#~ msgid "Proceed"
+#~ msgstr "Jatka"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Kun nollaat salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Muistatko salasanan? Kirjaudu sisään."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Siirrä synkronointitietosi kirjautumalla sisään Firefox-tilillesi."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"%(escapedSyncSuggestionUrl)s\">Aloita täältä</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Siirrä synkronointitietosi luomalla uusi Firefox-tili."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Vahva, ainutlaatuinen salasana suojelee Firefox-tietojasi urkkijoilta."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Tilaa kuukausittainen Firefox-uutiskirje"
+
+#~ msgid "Maybe later"
+#~ msgstr "Ehkä myöhemmin"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Miksi synkronoida kaksi tai useampia laitetta?"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Tallenna"
+
+#~ msgid "current device"
+#~ msgstr "nykyinen laite"
+
+#~ msgid "current session"
+#~ msgstr "nykyinen istunto"
+
+#~ msgid "none connected"
+#~ msgstr "ei yhtäkään yhdistettynä"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Tilaa kuukausittainen Firefox-uutiskirje."
+
+#~ msgid "Email preferences"
+#~ msgstr "Sähköpostiasetukset"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Lopeta tilaus"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Poistetaanko tili? Tilin poistoa ei voi perua."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Kirjaudu Sync-palveluun"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Valitse tili, jota haluat käyttää synkronoimaan välilehtesi, kirjanmerkkisi, salasanasi ynnä muut."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Käytä OpenID:tä"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Käytä Firefox-tiliä"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "ensimmäinen synkronointi %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "viimeisin synkronointi %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "viimeksi aktiivinen %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "viimeisimmän synkronoinnin aika tuntematon"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s rekisteröity. <a %(escapedBackLinkParams)s>Kirjoititko sähköpostiosoitteen väärin?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Katso osoitteeseen %(email)s lähetetty kirjautumisen vahvistuslinkki"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Tiliin liittyvät ilmoitukset lähetetään nyt myös osoitteeseen %(secondaryEmailVerified)s"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Saatamme lähettää sinulle Firefox-tiliisi liittyviä sähköpostiviestejä."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "Kirjaudu"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "Kirjaudu sisään"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Kirjaudu"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Lisää kerros tilisi tietoturvaan vaatimalla turvallisuuskoodi <a %(escapedTotpSupportAttributes)s>joltain näistä todennussovelluksista.</a>"
