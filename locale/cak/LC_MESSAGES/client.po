@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 22:08+0000\n"
+"PO-Revision-Date: 2018-08-20 22:25+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2064,8 +2064,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">NOTE: </span>Ri ewan atzij richin ri Rub'i' Ataqoya'l nrewaj kisik'ixik ri taq atzij richin Firefox. Xa xe ri ewan atzij o ri kolonel ewan atzij nitikïr nok pa ri taq atzij. "
-"<a%(escapedLearnMoreLinkAttributes)s>Tetamäx ch'aqa' chik</a>"
+"<span class=\"note\">NOTE: </span>Ri ewan atzij richin ri Rub'i' Ataqoya'l nrewaj kisik'ixik ri taq atzij richin Firefox. Xa xe ri ewan atzij o ri kolonel ewan atzij nitikïr nok pa ri taq atzij. <a "
+"%(escapedLearnMoreLinkAttributes)s>Tetamäx ch'aqa' chik</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2085,11 +2085,11 @@ msgstr "¿La kan nawajo' naq'ät?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Man xkatikïr ta xtawokisaj ri kolonel ewan atzij richin yatok pa ri taq atzij we natzolij ri ewan atzij."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2 ruxak 2: Tiyak Kolonel Ewan Tzij"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
