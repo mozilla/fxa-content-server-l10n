@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-02-18 07:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "পাসওয়ার্ড রিসেট"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
 msgstr "পাসওয়ার্ড সফলভাবে রিসেট হয়েছে। অব্যাহত রাখতে সাইন ইন করুন।"
 
@@ -45,28 +45,28 @@ msgstr "প্রদর্শিত নাম"
 msgid "Account picture"
 msgstr "অ্যাকাউন্ট ছবি"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75
 msgid "Welcome back"
 msgstr "পুনরায় স্বাগতম"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
 msgstr "কিছুক্ষণের মধ্যে Firefox Sync শুরু হবে"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "আপনার ভিন্ন Firefox ডিভাইসে নতুন পাসওয়ার্ড দিয়ে সেট-আপটি সম্পন্ন করুন।"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101
 msgid "Sign-in confirmed"
 msgstr "সাইন-ইন নিশ্চিত"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
-#: .es5/templates/ready.mustache:3
+#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)sটি ব্যবহার করতে আপনি এখন প্রস্তুত"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106
 msgid "Account verified"
 msgstr "যাচাইকৃত একাউন্ট"
 
@@ -79,11 +79,11 @@ msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">�
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "অচেনা Firefox Account। Add-onsএর ডাটা পাওয়ার জন্য আপনার আগের Add-ons accountএর ইমেইল দ্বারা <a href=\"/signup\">সাইন-আপ</a> করুন।"
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "অ্যাকাউন্টটি আর নেই। আবার খুলবেন?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -140,7 +140,7 @@ msgid "Your account has been locked for security reasons"
 msgstr "আপনার অ্যাকাউন্ট নিরাপত্তার কারণে বন্ধ রাখা হয়েছে"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
-#: .es5/templates/reset_password.mustache:4
+#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17
 msgid "Reset password"
 msgstr "পাসওয়ার্ড রিসেট করুন"
 
@@ -253,7 +253,7 @@ msgstr "অনুরোধের লেখা অনেক বড়"
 msgid "The request was blocked for security reasons"
 msgstr "নিরপত্তার কারণে অনুরোধটি ব্লক করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Invalid authorization code"
 msgstr "অকার্যকর অনুমোদন কোড"
 
@@ -282,102 +282,106 @@ msgid "Unable to deliver email"
 msgstr "ইমেইল বিলি করতে ব্যর্থ"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230
 msgid "This endpoint is no longer supported"
 msgstr "এই শেষবিন্দু আর সমর্থিত নয়"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
 msgid "Login attempt cancelled"
 msgstr "লগিনের চেষ্টা বাতিল করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242
 msgid "Session expired. Sign in to continue."
 msgstr "সেশনের মেয়াদ শেষ। চালিয়ে যেতে সাইন ইন করুন।"
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246
 msgid "Cookies are still disabled"
 msgstr "কুকিজ এখনও নিষ্ক্রিয় করা হয় নি"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250
 msgid "Passwords do not match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254
 msgid "Working…"
 msgstr "প্রক্রিয়া চলছে…"
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
 msgstr "গোপনীয়তা বিজ্ঞপ্তি পাবেন না"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
 msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266
 msgid "Your new password must be different"
 msgstr "আপনার নতুন পাসওয়ার্ডটিকে অবশ্যই ভিন্ন হতে হবে"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 #: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274
 msgid "Valid password required"
 msgstr "কার্যকর পাসওয়ার্ড আবশ্যক"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:332
 msgid "Valid email required"
 msgstr "কার্যকর ইমেইল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289
 msgid "A usable image was not found"
 msgstr "ব্যবহার করার মত ছবি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা আরম্ভ করা যায়নি"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297
 msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "আপনার যাচাইকরণ মেইল এইমাত্র ফেরত এসেছে। ইমেইল ভুল টাইপ হয়েছে?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "সঠিক ইমেইল ঠিকানা দিন। firefox.com কোন ইমেইল অফার করে না।"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts শুধুমাত্র একটি অনুমোদিত সাইটে IFRAME রাখতে পারে"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:347
 msgid "Verification link damaged"
 msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্রস্থ"
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ছবির মাপ অবশ্যই 100x100 px হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS এর জন্য Firefox এ Signup আসছে"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370
 msgid "You must enter your age to sign up"
 msgstr "সাইন আপ করতে আপনাকে অবশ্যই অাপনার বয়স দিতে হবে"
 
@@ -385,44 +389,45 @@ msgstr "সাইন আপ করতে আপনাকে অবশ্যই �
 msgid "No Gravatar found"
 msgstr "কোন গ্রাভাটার পাওয়া যায় নি"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
 msgstr "অ্যাকাউন্ট আর নেই।"
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
 msgstr "বিবরণ টোকেনে অকার্যকর প্রপার্টি: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393
 msgid "Missing property in resume token: %(property)s"
 msgstr "বিবরণ টোকেনে অনুপস্থিত প্রপার্টি: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397
 msgid "Invalid data attribute: %(property)s"
 msgstr "অকার্যকর ডাটা এট্রিবিউট: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401
 msgid "Missing data attribute: %(property)s"
 msgstr "অনুপস্থিত ডাটা এট্রিবিউট: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
-#: .es5/templates/complete_sign_up.mustache:4
+#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "নিশ্চিতকরণ লিঙ্কটি ইতোমধ্যেই ব্যবহৃত হয়েছে, এবং একবারই ব্যবহার করা যাবে।"
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418
 msgid "This is a required field"
 msgstr "এটা একটি আবশ্যকীয় ফিল্ড"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "Authorization code required"
 msgstr "অনুমোদন কোড প্রয়োজন"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:430
 msgid "Link damaged"
 msgstr "নষ্ট লিঙ্ক"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453
 msgid "Phone number required"
 msgstr "ফোন নম্বর প্রয়োজন"
 
@@ -636,11 +641,11 @@ msgstr "সেটিংগুলি সংরক্ষণ করুন"
 msgid "Back"
 msgstr "পেছনে"
 
-#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
 msgid "Reset password link expired"
 msgstr "পাসওয়ার্ড পরিবর্তনের লিঙ্কের মেয়াদ শেষ"
 
-#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "আপনার ক্লিক করা পাসওয়ার্ড পরিবর্তনের লিঙ্কটির মেয়াদ শেষ।"
 
@@ -670,7 +675,7 @@ msgid "Learn how Sync works."
 msgstr "সিঙ্ক কিভাবে কাজ করে তা জানুন।"
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
 msgstr "নতুন পাসওয়ার্ড"
 
@@ -733,7 +738,7 @@ msgstr "নতুন পাসওয়ার্ড তৈরির জন্য �
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18
 msgid "Remember password? Sign in"
 msgstr "পাসওয়ার্ড মনে রাখবেন? সাইন ইন।"
 
@@ -815,14 +820,14 @@ msgstr "পাসওয়ার্ড"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
 #: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
-#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "সাইন ইন"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
@@ -890,7 +895,7 @@ msgstr "গ্রহণ"
 #: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
 #: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
-#: .es5/templates/settings/upgrade_session.mustache:10
+#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
 msgstr "বাতিল"
 
@@ -926,7 +931,7 @@ msgstr "অ্যাকাউন্ট রিসেট করুন"
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
 #: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)sতে চালিয়ে যান"
 
@@ -994,7 +999,7 @@ msgid "Enter authorization code"
 msgstr "অনুমোদন কোডটি লিখুন"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "চালিয়ে যান"
 
@@ -1101,7 +1106,7 @@ msgstr "পেয়েছেন"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
 #: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "পরিবর্তন হচ্ছে…"
 
@@ -1133,7 +1138,7 @@ msgstr "পরিষ্কার"
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "সম্পন্ন"
 
@@ -1227,6 +1232,7 @@ msgstr "কোনটিই সংযুক্ত নয়"
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Download"
 msgstr "ডাউনলোড"
 
@@ -1316,15 +1322,16 @@ msgstr "সর্বশেষ সক্রিয় %(translatedTimeAgo)s"
 msgid "last sync time unknown"
 msgstr "সর্বশেষ সিঙ্কের সময় অজানা"
 
-#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
+#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
 msgstr "দ্বিতীয় ইমেইল অপসারিত"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133
 msgid "Verification email sent"
 msgstr "যাচাইকরণ ইমেইল পাঠানো হয়েছে"
 
-#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150
+#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
 msgstr "%(email)s প্রাইমারী ইমেইল হিসেবে সেট হয়েছে"
 
@@ -1368,7 +1375,7 @@ msgstr " আপনি কি <span %(escapedEmailSuggestionAttrs)s>%(escapedDoma
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s রেজিষ্টার হয়েছে। <a %(escapedBackLinkParams)s>ভুল ইমেইল?</a>"
 
-#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
 msgid "Receive new link"
 msgstr "নতুন লিঙ্ক গ্রহণ করুন"
 
@@ -1465,7 +1472,8 @@ msgstr ""
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
 msgstr "প্রত্যাহার"
 
@@ -1478,7 +1486,7 @@ msgid "Additionally, you can choose whether to receive the latest news about Moz
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
-#: .es5/templates/settings/emails.mustache:19
+#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159
 msgid "Secondary email"
 msgstr "সেকেন্ডারি ইমেইল"
 
@@ -1514,23 +1522,23 @@ msgstr "যোগ"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr ""
 
-#: .es5/views/ready.js:44
+#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
 msgstr "আপনার পাসওয়ার্ড রিসেট হয়েছে"
 
-#: .es5/views/ready.js:48
+#: .es5/views/ready.js:48 .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "আপনি আপনার Firefox Account এ পরিবর্তনের জন্য প্রস্তুত।"
 
-#: .es5/views/ready.js:50
+#: .es5/views/ready.js:50 .es5/views/ready.js:91
 msgid "Primary email verified"
 msgstr "প্রধান ইমেইল যাচাই করা হয়েছে"
 
-#: .es5/views/ready.js:53
+#: .es5/views/ready.js:53 .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "অ্যাকাউন্টের নোটিফিকেশন এখন থেকে %(secondaryEmailVerified)s এ পাঠানো হবে।"
 
-#: .es5/views/ready.js:55
+#: .es5/views/ready.js:55 .es5/views/ready.js:96
 msgid "Secondary email verified"
 msgstr "দ্বিতীয় ইমেইল যাচাই করা হয়েছে"
 
@@ -1618,19 +1626,19 @@ msgstr ""
 msgid "New recovery codes generated"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:141
+#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:182
+#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
 msgstr ""
 
@@ -1686,23 +1694,23 @@ msgstr ""
 msgid "This verification code has expired"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "ফিচার সক্রিয় হয়নি"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480
 msgid "Recovery code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484
 msgid "Invalid recovery code"
 msgstr ""
 
@@ -1728,7 +1736,7 @@ msgid ""
 "your data with your password to protect your privacy."
 msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
 msgstr ""
 
@@ -1845,6 +1853,7 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr ""
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr ""
 
@@ -1872,7 +1881,7 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:12
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 msgid "Print"
 msgstr ""
 
@@ -1880,7 +1889,7 @@ msgstr ""
 msgid "Two-step authentication"
 msgstr ""
 
-#: .es5/templates/settings/two_step_authentication.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
 msgstr ""
 
@@ -1892,7 +1901,7 @@ msgstr ""
 msgid "Current status"
 msgstr ""
 
-#: .es5/templates/settings/two_step_authentication.mustache:8
+#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
 msgstr ""
 
@@ -1966,6 +1975,126 @@ msgstr ""
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/account_recovery.js:105
+msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55
+msgid "Firefox Recovery Key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid recovery key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:496
+msgid "Recovery key required"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
+msgid "Account recovery"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
+msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
+msgid "Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
+msgid "Not set"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
+msgid "Generate"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
+msgid ""
+"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+"more</a>"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+msgid "Enter Password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
+msgid "Are you sure you want to revoke?"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
+msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
+msgid "Step 2 of 2: Save Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Print button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
+msgid "Download button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+msgid "Done, Recovery key saved"
 msgstr ""
 
 #. submit button

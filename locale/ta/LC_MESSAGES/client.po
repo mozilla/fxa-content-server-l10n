@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-04-24 18:20+0000\n"
 "Last-Translator: Selva Makilan <66makilan66@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "கடவுச்சொல்லை மீட்டமை"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
 msgstr "கடவுச்சொல் வெற்றிகரமாக மீட்டமைக்கப்பட்டது. தொடர உள்நுழையவும்."
 
@@ -45,28 +45,28 @@ msgstr "தோன்றும் பெயர்"
 msgid "Account picture"
 msgstr "கணக்கு புகைப்படம்"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75
 msgid "Welcome back"
 msgstr "மீண்டும் வருக"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
 msgstr "பாயர்பாக்ஸ் ஒத்திசைவு சிறிது நேரத்தில் தொடரும்"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "மற்ற பயர்பாஃசு சாதனங்களில் உங்களின் புதிய கடவுச்சொல்லை உள்ளிட்டு அமைத்தலை முடிக்கவும்."
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101
 msgid "Sign-in confirmed"
 msgstr "உள்நுழைவு உறுதி செய்யப்பட்டது"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
-#: .es5/templates/ready.mustache:3
+#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107
 msgid "You are now ready to use %(serviceName)s"
 msgstr "தாங்கள் இப்பொழுது %(serviceName)s சேவையை பயன்படுத்தலாம்"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106
 msgid "Account verified"
 msgstr "கணக்கு சரிபார்க்கப்பட்டது"
 
@@ -79,11 +79,11 @@ msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதி�
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "கணக்கை நீண்ட காலம் பாவிக்கல. மீண்டும் உருவாக்க வேண்டுமா?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/signin\">உள்நுழைக</a>"
 
@@ -140,7 +140,7 @@ msgid "Your account has been locked for security reasons"
 msgstr "பாதுகாப்பு காரணத்தால் தங்களின் கணக்கு மூடப்பட்டது"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
-#: .es5/templates/reset_password.mustache:4
+#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17
 msgid "Reset password"
 msgstr "கடவுச்சொல் மீட்டமை"
 
@@ -253,7 +253,7 @@ msgstr "மிக பெரிய கோரிக்கை கட்டமைப
 msgid "The request was blocked for security reasons"
 msgstr "பாதுகாப்பு காரணங்களுக்காக கோரிக்கை தடுக்கப்பட்டது"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Invalid authorization code"
 msgstr "செல்லாத பரிசோதனை குறியீடு"
 
@@ -282,102 +282,106 @@ msgid "Unable to deliver email"
 msgstr "மின்னஞ்சலை வழங்க இயலவில்லை"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
 msgstr "சேவகன் வேலை நிமித்தமாக உள்ளது, மீண்டும் முயற்சி"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230
 msgid "This endpoint is no longer supported"
 msgstr "இறுதிப்புள்ளி இனி துணைபுரியாது"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234
 msgid "System unavailable, try again soon"
 msgstr "கணினி கிடைக்கவில்லை, மீண்டும் முயற்சிக்கவும்"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
 msgid "Login attempt cancelled"
 msgstr "புகுபதியும் முயற்சி இரத்துசெய்யப்பட்டது"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242
 msgid "Session expired. Sign in to continue."
 msgstr "அமர்வு காலாவதியானது. தொடர்வதற்கு உள்நுழையவும்."
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246
 msgid "Cookies are still disabled"
 msgstr "நினைவிகள் இன்னமும் முடக்கத்தில் உள்ளன"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250
 msgid "Passwords do not match"
 msgstr "கடவுச்சொற்கள் பொருந்தவில்லை"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254
 msgid "Working…"
 msgstr "பணியில்…"
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
 msgstr "தனியுரிம அறிகையைப் பெற முடியவில்லை"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
 msgstr "சேவை நிபந்தனைகளைப் பெற முடியவில்லை"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266
 msgid "Your new password must be different"
 msgstr "புதிய கடவுச்சொல் வேறாக இருக்கவேண்டும் "
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 #: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "குறைந்தது 8 எழுத்துக்கள் இருக்கணும்"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274
 msgid "Valid password required"
 msgstr "செல்லும் கடவுச்சொல் தேவை"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:332
 msgid "Valid email required"
 msgstr "செல்லுபடியாகும் மின்னஞ்சல் தேவை"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289
 msgid "A usable image was not found"
 msgstr "பயன்படுத்த கூடிய பிம்பம் கிடைக்கவில்லை"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293
 msgid "Could not initialize camera"
 msgstr "நிழற்படக்கருவியை துவக்க முடியவில்லை"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297
 msgid "Valid URL required"
 msgstr "செல்லுபடியாகும் உரலி தேவை"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "உங்கள் சரிபார்ப்பு மின்னஞ்சல் திரும்பியது. உள்ளிட்ட மின்னஞ்சல் முகவரி தவறா?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ஒரு சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும். firefox.com மின்னஞ்சல் சேவையை வழங்கவில்லை."
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "பயர்பாக்ஸ் கணக்குகள் IFRAME மட்டும் அனுமதிக்கப்பட்ட தளங்களில் பயன்படுத்தலாம்"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:347
 msgid "Verification link damaged"
 msgstr "சரிபார்ப்பு இணைப்பு சேதமாகியுள்ளது "
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355
 msgid "The image dimensions must be at least 100x100px"
 msgstr "படத்தின் பரிமாணங்கள் குறைந்தது 100x100px இருக்க வேண்டும்"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "புகுபதிவு முறை iOS பயர்பாக்ஸ் செயலியில் விரைவில் கிடைக்கும்"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370
 msgid "You must enter your age to sign up"
 msgstr "நீங்கள் புகுபதிவு செய்ய, வயதை உள்ளிட வேண்டும்"
 
@@ -385,44 +389,45 @@ msgstr "நீங்கள் புகுபதிவு செய்ய, வ�
 msgid "No Gravatar found"
 msgstr "Gravatar காணப்படவில்லை"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
 msgstr "கணக்கு இனி இருக்காது."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
 msgstr "மீண்ட ஞாபகக் குறியின் பண்பு செல்லாதது: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393
 msgid "Missing property in resume token: %(property)s"
 msgstr "மீண்ட ஞாபகக் குறியில் பண்பைக் காணவில்லை: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397
 msgid "Invalid data attribute: %(property)s"
 msgstr "தவறான தரவு பண்பு: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401
 msgid "Missing data attribute: %(property)s"
 msgstr "தரவு பண்பு காணவில்லை: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
-#: .es5/templates/complete_sign_up.mustache:4
+#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "உறுதிப்படுத்தல் இணைப்பு ஏற்கனவே பயன்படுத்தப்பட்டது, அதனை ஒருமுறை மட்டுமே பயன்படுத்த முடியும்."
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418
 msgid "This is a required field"
 msgstr "இது தேவையான களம்"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "Authorization code required"
 msgstr "உறுதிப்படுத்தல் குறியீடு தேவை"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:430
 msgid "Link damaged"
 msgstr "பாதிப்படைந்த தொடுப்ப"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453
 msgid "Phone number required"
 msgstr "தொலைப்பேசி எண் தேவை"
 
@@ -637,11 +642,11 @@ msgstr "அமைவுகளைச் சேமி"
 msgid "Back"
 msgstr "பின்செல்"
 
-#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
 msgid "Reset password link expired"
 msgstr "கடவுச்சொல்லை மீட்டமைக்கும் தொடுப்பு காலாவதியானது"
 
-#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "உங்கள் கடவுச்சொல்லை மீட்டமைக்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
@@ -671,7 +676,7 @@ msgid "Learn how Sync works."
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
 msgstr "புதிய கடவுச்சொல்"
 
@@ -734,7 +739,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18
 msgid "Remember password? Sign in"
 msgstr "கடவுச்சொல் நினைவில் உள்ளதா? உள்நுழையவும்"
 
@@ -816,14 +821,14 @@ msgstr "கடவுச்சொல்"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
 #: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
-#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "உள்நுழை"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "கடவுச்சொல்லை மறந்துவிட்டீர்களா?"
 
@@ -891,7 +896,7 @@ msgstr "ஏற்றுக்கொள்"
 #: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
 #: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
-#: .es5/templates/settings/upgrade_session.mustache:10
+#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
 msgstr "ரத்து செய்"
 
@@ -927,7 +932,7 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
 #: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s க்கு தொடரவும்"
 
@@ -995,7 +1000,7 @@ msgid "Enter authorization code"
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "தொடர்க"
 
@@ -1098,7 +1103,7 @@ msgstr "அறிந்துகொண்டேன்"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
 #: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "மாற்று..."
 
@@ -1130,7 +1135,7 @@ msgstr "துடை"
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "முடிந்தது"
 
@@ -1224,6 +1229,7 @@ msgstr "எதுவும் இணயவில்லை"
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Download"
 msgstr "பதிவிறக்கம்"
 
@@ -1313,15 +1319,16 @@ msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
 msgid "last sync time unknown"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
+#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
 msgstr "இரண்டாம் நிலை மின்னஞ்சல் நீககப்பட்டது"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133
 msgid "Verification email sent"
 msgstr "சரிபார்த்தல் மின்னஞ்சல் அனுப்பப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150
+#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
 msgstr "முதன்மை மின்னஞ்சலில் %(email)s வை"
 
@@ -1365,7 +1372,7 @@ msgstr ""
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
 msgid "Receive new link"
 msgstr "புதிய இணைப்பைப் பெறுக"
 
@@ -1462,7 +1469,8 @@ msgstr ""
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
 msgstr "திரும்பப்பெறு"
 
@@ -1475,7 +1483,7 @@ msgid "Additionally, you can choose whether to receive the latest news about Moz
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
-#: .es5/templates/settings/emails.mustache:19
+#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159
 msgid "Secondary email"
 msgstr "இரண்டாம்பட்ச மின்னஞ்சல்"
 
@@ -1511,23 +1519,23 @@ msgstr "சேர்"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "பயர்பாக்சு ஒத்திசைவை தேடுகிறீர்களா? <a %(escapedSyncSuggestionAttrs)s>இங்கு தொடங்கவும்</a>"
 
-#: .es5/views/ready.js:44
+#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
 msgstr "உங்கள் கடவுச்சொல் மீட்டமைக்கப்பட்டது"
 
-#: .es5/views/ready.js:48
+#: .es5/views/ready.js:48 .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "நீங்கள் உங்கள் பயர்பாஃசு கணக்கில் மாற்றம் செய்ய தயாராக உள்ளீர்கள்."
 
-#: .es5/views/ready.js:50
+#: .es5/views/ready.js:50 .es5/views/ready.js:91
 msgid "Primary email verified"
 msgstr "முதன்மை மின்னஞ்சல் சரிபார்க்கப்பட்டது"
 
-#: .es5/views/ready.js:53
+#: .es5/views/ready.js:53 .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "கணக்கு அறிவிப்புகள் %(secondaryEmailVerified)s மின்னஞ்சலுக்கும் அனுப்பப்படும்."
 
-#: .es5/views/ready.js:55
+#: .es5/views/ready.js:55 .es5/views/ready.js:96
 msgid "Secondary email verified"
 msgstr "இரண்டாம் மின்னஞ்சல் சரிபார்க்கப்பட்டது"
 
@@ -1615,19 +1623,19 @@ msgstr "குறியீடுகளை நகலெடுப்பதில�
 msgid "New recovery codes generated"
 msgstr "புதிய மீட்பு குறியீடுகள் உருவாக்கப்பட்டன"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "இரு-படி உறுதிப்படுத்தல் இயக்கப்பட்டது"
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:141
+#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
 msgstr "இரு-படி உறுதிப்படுத்தல் நீக்கப்பட்டது"
 
-#: .es5/views/settings/two_step_authentication.js:182
+#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
 msgstr ""
 
@@ -1683,23 +1691,23 @@ msgstr ""
 msgid "This verification code has expired"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "அம்சம் இயக்கப்படவில்லை"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
 msgstr "இரு-படி உறுதிப்படுத்தல் குறியீடு தேவைப்படுகிறது"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476
 msgid "Invalid two-step authentication code"
 msgstr "தவறான இரு-படி உறுதிப்படுத்தல் குறியீடு"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480
 msgid "Recovery code required"
 msgstr "மீட்பு குறியீடு தேவை"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484
 msgid "Invalid recovery code"
 msgstr "தவறான மீட்பு குறியீடு"
 
@@ -1725,7 +1733,7 @@ msgid ""
 "your data with your password to protect your privacy."
 msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
 msgstr "கடவுச்சொல்லை மீண்டும் உள்ளிடுங்கள்"
 
@@ -1842,6 +1850,7 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr "பாதுகாப்பு அறிக்கை மற்றும் புதிய ஒத்திசைவு சாதனங்களை உறுதிப்படுத்தல் போன்றவற்றிற்கான மின்னஞ்சல்களைப் பெற கூடுதலாக இரண்டாம்பட்ச மின்னஞ்சல் தேவை."
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr ""
 
@@ -1869,7 +1878,7 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:12
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 msgid "Print"
 msgstr ""
 
@@ -1877,7 +1886,7 @@ msgstr ""
 msgid "Two-step authentication"
 msgstr ""
 
-#: .es5/templates/settings/two_step_authentication.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
 msgstr ""
 
@@ -1889,7 +1898,7 @@ msgstr ""
 msgid "Current status"
 msgstr ""
 
-#: .es5/templates/settings/two_step_authentication.mustache:8
+#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
 msgstr "செயல்படுத்தப்பட்டது"
 
@@ -1963,6 +1972,126 @@ msgstr ""
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/account_recovery.js:105
+msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55
+msgid "Firefox Recovery Key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid recovery key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:496
+msgid "Recovery key required"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
+msgid "Account recovery"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
+msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
+msgid "Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
+msgid "Not set"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
+msgid "Generate"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
+msgid ""
+"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+"more</a>"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+msgid "Enter Password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
+msgid "Are you sure you want to revoke?"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
+msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
+msgid "Step 2 of 2: Save Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Print button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
+msgid "Download button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+msgid "Done, Recovery key saved"
 msgstr ""
 
 #. submit button
