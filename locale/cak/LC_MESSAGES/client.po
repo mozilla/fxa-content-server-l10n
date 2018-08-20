@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 21:26+0000\n"
+"PO-Revision-Date: 2018-08-20 21:52+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2029,19 +2029,19 @@ msgstr "¿La man k'o ta jun kolonel ewan atzij?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Ütz xatzolij ri rub'i' ataqoya'l toq xawokisaj ri kolonel ewan atzij. Tatz'uku' jun k'ak'a' ewan atzij richin ye'achajij ri taq atzij chuqa' tayaka' pa jun utziläj k'ojlib'äl."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Titz'uk jun k'ak'a' kolonel ewan tzij"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Kib'e pa rub'i' nutaqoya'l"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Rukolonel rub'i' taqoya'l"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
