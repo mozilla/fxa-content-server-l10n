@@ -30,9 +30,7 @@ jobs:
             chmod 0600 ~/.ssh/id_bug_mirror;
             ssh-add ~/.ssh/id_bug_mirror;
 
-            if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
-              bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master --browser false;
-            fi
+            bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master --browser false;
 
 workflows:
   version: 2
