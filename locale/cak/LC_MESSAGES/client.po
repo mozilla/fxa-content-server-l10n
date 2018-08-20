@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 21:52+0000\n"
+"PO-Revision-Date: 2018-08-20 22:08+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2045,41 +2045,43 @@ msgstr "Rukolonel rub'i' taqoya'l"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Tatz'uku' jun kolonel ewan tzij richin ye'aköl awokem pa ri taq ayaketal, ewan taq tzij chuqa' ximon taq rutzij Firefox we namestaj ri ewan atzij."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Kolonel ewan tzij"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Majun runuk'ulem"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Titz'uk"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">NOTE: </span>Ri ewan atzij richin ri Rub'i' Ataqoya'l nrewaj kisik'ixik ri taq atzij richin Firefox. Xa xe ri ewan atzij o ri kolonel ewan atzij nitikïr nok pa ri taq atzij. "
+"<a%(escapedLearnMoreLinkAttributes)s>Tetamäx ch'aqa' chik</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "1 Ruxak 2: Titz'ib'äx-chik ewan tzij"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Tatz'ib'aj ri ewan atzij richin natz'ët ri kolonel ewan atzij."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Titz'ib'äx Ewan Tzij"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "¿La kan nawajo' naq'ät?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
