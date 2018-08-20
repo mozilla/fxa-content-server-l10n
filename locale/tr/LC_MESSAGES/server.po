@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-07-28 23:31+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Sync’ten daha iyi yararlanmak için, kullanıyorsanız <a href='%(androidUrl)s'>Android için Firefox</a> veya <a href='%(iosUrl)s'>iOS için "
 "Firefox</a>’u da bağlayın."
@@ -40,8 +40,9 @@ msgid "Sign in to Sync"
 msgstr "Sync’e giriş yap"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
-#: lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1
-#: lib/senders/templates/post_consume_recovery_code.html:1 lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_secondary.html:1
+#: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
+#: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
+#: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
 #: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
 #: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
@@ -50,7 +51,7 @@ msgstr "Sync’e giriş yap"
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1192
 msgid "Low recovery codes remaining"
 msgstr "Kurtarma kodları azaldı"
 
@@ -67,8 +68,9 @@ msgid "This is an automated email."
 msgstr "Bu otomatik bir e-postadır."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
-#: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
-#: lib/senders/templates/post_new_recovery_codes.html:7 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
+#: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
+#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
+#: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
 #: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -76,10 +78,12 @@ msgstr "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Dest
 
 #: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
-#: lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_two_step_authentication.html:9
-#: lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6
-#: lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7 lib/senders/templates/post_new_recovery_codes.html:8
-#: lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
+#: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
+#: lib/senders/templates/post_add_two_step_authentication.html:9 lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7
+#: lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7
+#: lib/senders/templates/post_new_recovery_codes.html:8 lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_account_recovery.html:9
+#: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8
 #: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
@@ -98,21 +102,24 @@ msgid "Generate codes:"
 msgstr "Kodları oluştur:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
-#: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
-#: lib/senders/templates/post_new_recovery_codes.txt:6 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
+#: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
+#: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
+#: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha fazla bilgi için lütfen %(supportUrl)s adresini ziyaret edin"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:918
 msgid "New sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişi"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
-#: lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3 lib/senders/templates/post_consume_recovery_code.html:4
-#: lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4 lib/senders/templates/post_new_recovery_codes.txt:3
+#: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
+#: lib/senders/templates/post_add_account_recovery.txt:3 lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3
+#: lib/senders/templates/post_consume_recovery_code.html:4 lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4
+#: lib/senders/templates/post_new_recovery_codes.txt:3 lib/senders/templates/post_remove_account_recovery.html:4 lib/senders/templates/post_remove_account_recovery.txt:3
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
@@ -121,8 +128,9 @@ msgstr "Yeni %(clientName)s girişi"
 msgid "IP address: %(ip)s"
 msgstr "IP adresi: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5
-#: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
+#: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen <a %(passwordChangeLinkAttributes)s>parolanızı değiştirin</a>."
@@ -163,6 +171,33 @@ msgstr "Parolanızı siz değiştirmediyseniz lütfen hemen <a %(resetLinkAttrib
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
 msgstr "Parolanızı siz değiştirmediyseniz lütfen hemen %(resetLink)s adresinden sıfırlayın"
 
+#: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
+msgid "Your account password was reset with a recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
+msgid "You have successfully reset your password using a recovery key from the following device:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
+msgid "You will need to generate a new recovery key."
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:6
+msgid "Create new recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:5
+msgid "Create new recovery key:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
+#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
+#: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin."
+
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 msgstr "Firefox Hesabı'nızda şüpheli bir eylem tespit ettik. Hesabınız ele geçirilmiş olabilir."
@@ -198,7 +233,39 @@ msgstr "Sevgiler,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Hesapları Ekibi"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
+msgid "Account recovery key generated"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:3
+msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:5
+msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
+#: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
+#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "Hesabı yönet"
+
+#: lib/senders/templates/post_add_account_recovery.txt:2
+msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:4
+msgid "If this was not you, revoke key."
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
+#: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
+#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Hesabı yönet:"
+
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1064
 msgid "Two-step authentication enabled"
 msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
 
@@ -210,27 +277,9 @@ msgstr "Aşağıdaki cihaz aracılığıyla Firefox Hesabınızda iki aşamalı 
 msgid "Security codes from your authentication app will now be required at each sign-in."
 msgstr "Bundan sonra her girişinizde kimlik doğrulama uygulamanızın ürettiği güvenlik kodları gerekecektir."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
-#: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
-#: lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "Hesabı yönet"
-
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
 msgstr "Firefox Hesabınızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz. Bundan sonra her girişte kimlik doğrulama uygulamanızın ürettiği güvenlik kodları sorulacaktır."
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
-#: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Hesabı yönet:"
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:5 lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5
-#: lib/senders/templates/post_new_recovery_codes.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -244,7 +293,7 @@ msgstr ""
 "Ana e-posta adresinizi %(email)s olarak başarıyla değiştirdiniz. Bu adres artık Firefox Hesabınıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize "
 "gelecek."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1160
 msgid "Recovery code consumed"
 msgstr "Kurtarma kodu kullanıldı"
 
@@ -256,13 +305,29 @@ msgstr "Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:"
 msgid "Consumed recovery code"
 msgstr "Kullanılan kurtarma kodu"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1128
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları üretildi"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:"
+
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
+msgid "Account recovery key removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:3
+msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
+msgid "This recovery key can no longer be used to recover your account."
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.txt:2
+msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -278,7 +343,7 @@ msgstr "Firefox Hesabınızda ikinci e-posta olarak kayıtlı %(secondaryEmail)s
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1096
 msgid "Two-step authentication disabled"
 msgstr "İki aşamalı kimlik doğrulama kapatıldı"
 
@@ -303,8 +368,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan Snc’e"
-" giriş yapabilirsiniz."
+"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
+"Snc’e giriş yapabilirsiniz."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -390,7 +455,7 @@ msgstr "Girişi onayla"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız <a %(passwordChangeLinkAttributes)s>lütfen parolanızı değiştirin</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:733
 msgid "Verify primary email"
 msgstr "Ana e-posta adresini doğrula"
 
@@ -418,7 +483,7 @@ msgstr "E-postayı doğrula: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Bu işleme onay vermediyseniz lütfen parolanızı değiştirin."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:776
 msgid "Verify secondary email"
 msgstr "İkinci e-postayı doğrula"
 
@@ -442,81 +507,85 @@ msgstr "Bu e-postayı aldığınızı onayladıktan sonra tüm cihazlarınıza F
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize ve hesabınıza bağlamanıza yardım edeceğiz."
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:205
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:208
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:235
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:237
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:216
+#: lib/senders/email.js:239
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:241
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:542
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabı’nızı doğrulayın"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:560
 msgid "Confirm your email and start to sync!"
 msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:603
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı yetkilendirme kodu"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:642
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişini onaylayın"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:691
 msgid "Sign-in code for Firefox"
 msgstr "Firefox giriş kodu"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:820
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesabı parolanızı sıfırlayın"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:848
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesabı parolanız değiştirildi"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:874
 msgid "Firefox Account password changed"
 msgstr "Firefox Hesabı parolanız değiştirildi"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:896
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolanızı sıfırlamanız gerekiyor"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:955
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı doğrulandı"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:982
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox Hesabı'na ikinci e-posta eklendi"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:1010
 msgid "Firefox Account new primary email"
 msgstr "Firefox Hesabı yeni ana e-posta"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:1038
 msgid "Secondary Firefox Account email removed"
 msgstr "İkinci Firefox Hesabı e-postası silindi"
+
+#: lib/senders/email.js:1286
+msgid "Firefox Account password reset with recovery key"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -608,8 +677,8 @@ msgstr "Hizmet Koşulları"
 #~ msgstr "Yeniden merhaba."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
 #~ "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
@@ -638,7 +707,8 @@ msgstr "Hizmet Koşulları"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızdan ikinci e-posta olarak kaldırdınız. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s adresinizi Firefox Hesabınızın ikinci e-posta adresi olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki e-posta adresine birden gönderilecektir."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

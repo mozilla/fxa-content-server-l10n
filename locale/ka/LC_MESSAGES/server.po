@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-06-15 07:33+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,9 @@ msgid "Sign in to Sync"
 msgstr "Sync-ში შესვლა"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
-#: lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1
-#: lib/senders/templates/post_consume_recovery_code.html:1 lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_secondary.html:1
+#: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
+#: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
+#: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
 #: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
 #: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
@@ -49,7 +50,7 @@ msgstr "Sync-ში შესვლა"
 msgid "Firefox Accounts"
 msgstr "Firefox ანგარიშები"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1192
 msgid "Low recovery codes remaining"
 msgstr "აღდგენის კოდები თავდება"
 
@@ -66,8 +67,9 @@ msgid "This is an automated email."
 msgstr "ეს წერილი ავტომატურადაა შექმნილი."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
-#: lib/senders/templates/post_add_two_step_authentication.html:8 lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7
-#: lib/senders/templates/post_new_recovery_codes.html:7 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
+#: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
+#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
+#: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
 #: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -75,10 +77,12 @@ msgstr "ვრცლად, იხილეთ <a %(supportLinkAttributes)s>Mozi
 
 #: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
-#: lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_two_step_authentication.html:9
-#: lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7 lib/senders/templates/post_change_primary.txt:6
-#: lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7 lib/senders/templates/post_new_recovery_codes.html:8
-#: lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
+#: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
+#: lib/senders/templates/post_add_two_step_authentication.html:9 lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7
+#: lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7
+#: lib/senders/templates/post_new_recovery_codes.html:8 lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_account_recovery.html:9
+#: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8
 #: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
@@ -97,21 +101,24 @@ msgid "Generate codes:"
 msgstr "კოდების შექმნა:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
-#: lib/senders/templates/post_add_two_step_authentication.txt:6 lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6
-#: lib/senders/templates/post_new_recovery_codes.txt:6 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
+#: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
+#: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
+#: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "დამატებითი ინფორმაციისთვის, ეწვიეთ %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:760
+#: lib/senders/email.js:918
 msgid "New sign-in to %(clientName)s"
 msgstr "ახალი შესვლა %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
-#: lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3 lib/senders/templates/post_consume_recovery_code.html:4
-#: lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4 lib/senders/templates/post_new_recovery_codes.txt:3
+#: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
+#: lib/senders/templates/post_add_account_recovery.txt:3 lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3
+#: lib/senders/templates/post_consume_recovery_code.html:4 lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4
+#: lib/senders/templates/post_new_recovery_codes.txt:3 lib/senders/templates/post_remove_account_recovery.html:4 lib/senders/templates/post_remove_account_recovery.txt:3
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
@@ -120,8 +127,9 @@ msgstr "ახალი შესვლა %(clientName)s"
 msgid "IP address: %(ip)s"
 msgstr "IP მისამართი: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5
-#: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
+#: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, <a %(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი.</a>"
@@ -162,6 +170,33 @@ msgstr "თუ თქვენ არ შეგიცვლიათ, გთხ�
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
 msgstr "თუ თქვენ არ შეგიცვლიათ, გთხოვთ გაანულოთ პაროლი ახლავე ბმულზე %(resetLink)s"
 
+#: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
+msgid "Your account password was reset with a recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
+msgid "You have successfully reset your password using a recovery key from the following device:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
+msgid "You will need to generate a new recovery key."
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:6
+msgid "Create new recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:5
+msgid "Create new recovery key:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
+#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
+#: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+msgstr "თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი."
+
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 msgstr "თქვენს Firefox ანგარიშზე საეჭვო აქტივობა შევნიშნეთ. თქვენი ანგარიში შესაძლოა საფრთხეში იყოს."
@@ -195,7 +230,39 @@ msgstr "საუკეთესო სურვილებით,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox ანგარიშების გუნდი"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:926
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
+msgid "Account recovery key generated"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:3
+msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:5
+msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
+#: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
+#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "ანგარიშის მართვა"
+
+#: lib/senders/templates/post_add_account_recovery.txt:2
+msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:4
+msgid "If this was not you, revoke key."
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
+#: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
+#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "ანგარიშის მართვა:"
+
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1064
 msgid "Two-step authentication enabled"
 msgstr "ორსაფეხურიანი დამოწმება შესვლისას ჩართულია"
 
@@ -207,27 +274,9 @@ msgstr "ორსაფეხურიანი დამოწმება შ�
 msgid "Security codes from your authentication app will now be required at each sign-in."
 msgstr "ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
-#: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
-#: lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "ანგარიშის მართვა"
-
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
 msgstr "ორსაფეხურიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox ანგარიშზე. ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
-#: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "ანგარიშის მართვა:"
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:5 lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5
-#: lib/senders/templates/post_new_recovery_codes.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -241,7 +290,7 @@ msgstr ""
 "მთავარი ელფოსტა წარმატებით შეიცვალა %(email)s მისამართით. უკვე შეგიძლიათ მისი გამოყენება Firefox ანგარიშზე შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების "
 "დასამოწმებლად."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1034
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1160
 msgid "Recovery code consumed"
 msgstr "აღდგენის კოდი გამოყენებულია"
 
@@ -253,13 +302,29 @@ msgstr "თქვენ წარმატებით გამოიყენ�
 msgid "Consumed recovery code"
 msgstr "გამოყენებული აღდგენის კოდი"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:998
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1128
 msgid "New recovery codes generated"
 msgstr "შექმნილია აღდგენის ახალი კოდები"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი კოდები შემდეგი მოწყობილობიდან:"
+
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
+msgid "Account recovery key removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:3
+msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
+msgid "This recovery key can no longer be used to recover your account."
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.txt:2
+msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -277,7 +342,7 @@ msgstr ""
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:962
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1096
 msgid "Two-step authentication disabled"
 msgstr "ორსაფეხურიანი დამოწმება შესვლისას გამორთულია"
 
@@ -390,7 +455,7 @@ msgstr "შესვლის დადასტურება"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, <a %(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალეთ თქვენი პაროლი</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:552
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:733
 msgid "Verify primary email"
 msgstr "მთავარი ელფოსტის დამოწმება"
 
@@ -418,7 +483,7 @@ msgstr "ელფოსტის დამოწმება: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, გთხოვთ, შეცვალოთ პაროლი."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:599
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:776
 msgid "Verify secondary email"
 msgstr "დამატებითი ელფოსტის დამოწმება"
 
@@ -442,81 +507,85 @@ msgstr "დაადასტურეთ, რომ მიიღეთ ეს �
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "დამოწმებისთანავე, დაგეხმარებით Firefox-ის დაყენებასა დაკავშირებაში, სულ მცირე კიდევ ერთ მოწყობილობაზე."
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:205
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ზე"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:208
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s %(uaOS)s-ზე"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:235
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:237
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:216
+#: lib/senders/email.js:239
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:241
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:542
 msgid "Verify your Firefox Account"
 msgstr "Firefox ანგარიშის დამოწმება"
 
-#: lib/senders/email.js:364
+#: lib/senders/email.js:560
 msgid "Confirm your email and start to sync!"
 msgstr "დაამოწმეთ ელფოსტის მისამართი და დაიწყეთ დასინქრონება!"
 
-#: lib/senders/email.js:410
+#: lib/senders/email.js:603
 msgid "Firefox Account authorization code"
 msgstr "Firefox ანგარიშის დაშვების კოდი"
 
-#: lib/senders/email.js:453
+#: lib/senders/email.js:642
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "ახალი შესვლის დადასტურება %(clientName)s"
 
-#: lib/senders/email.js:506
+#: lib/senders/email.js:691
 msgid "Sign-in code for Firefox"
 msgstr "შესვლის კოდი Firefox-ისთვის"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:820
 msgid "Reset your Firefox Account password"
 msgstr "Firefox ანგარიშის პაროლის აღდგენა"
 
-#: lib/senders/email.js:678
+#: lib/senders/email.js:848
 msgid "Your Firefox Account password has been changed"
 msgstr "თქვენი Firefox ანგარიშის აპროლი შეიცვალა"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:874
 msgid "Firefox Account password changed"
 msgstr "Firefox ანგარიშის პაროლი შეიცვალა"
 
-#: lib/senders/email.js:734
+#: lib/senders/email.js:896
 msgid "Firefox Account password reset required"
 msgstr "საჭიროა Firefox ანგარიშის პაროლის ჩამოგდება"
 
-#: lib/senders/email.js:801
+#: lib/senders/email.js:955
 msgid "Firefox Account verified"
 msgstr "Firefox ანგარიში დამოწმებულია"
 
-#: lib/senders/email.js:832
+#: lib/senders/email.js:982
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox ანგარიშის ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
 
-#: lib/senders/email.js:864
+#: lib/senders/email.js:1010
 msgid "Firefox Account new primary email"
 msgstr "Firefox ანგარიშის ახალი მთავარი ელფოსტა"
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:1038
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox ანგარიშის დამატებითი ელფოსტა მოცილებულია"
+
+#: lib/senders/email.js:1286
+msgid "Firefox Account password reset with recovery key"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

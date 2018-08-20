@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-07-10 15:00+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
@@ -45,28 +45,28 @@ msgstr "Weergavenaam"
 msgid "Account picture"
 msgstr "Accountafbeelding"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75
 msgid "Welcome back"
 msgstr "Welkom terug"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync zal over enkele ogenblikken worden hervat"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Voltooi de installatie door het nieuwe wachtwoord op uw andere Firefox-apparaten in te vullen."
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101
 msgid "Sign-in confirmed"
 msgstr "Aanmelding bevestigd"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
-#: .es5/templates/ready.mustache:3
+#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
@@ -79,11 +79,11 @@ msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Onbekende Firefox-account. <a href=\"/signup\">Registreer</a> met behulp van het e-mailadres van uw eerdere Add-ons-account om uw add-on-gegevens te benaderen."
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestaat niet meer. Opnieuw aanmaken?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -140,7 +140,7 @@ msgid "Your account has been locked for security reasons"
 msgstr "Uw account is om veiligheidsredenen vergrendeld"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
-#: .es5/templates/reset_password.mustache:4
+#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17
 msgid "Reset password"
 msgstr "Wachtwoord opnieuw instellen"
 
@@ -253,7 +253,7 @@ msgstr "Aanvraagtekst te lang"
 msgid "The request was blocked for security reasons"
 msgstr "De aanvraag is om veiligheidsredenen geblokkeerd"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Invalid authorization code"
 msgstr "Ongeldige autorisatiecode"
 
@@ -282,102 +282,106 @@ msgid "Unable to deliver email"
 msgstr "Kan e-mailbericht niet afleveren"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
 msgstr "Server bezet, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
 msgid "Login attempt cancelled"
 msgstr "Aanmeldingspoging geannuleerd"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242
 msgid "Session expired. Sign in to continue."
 msgstr "Sessie verlopen. Meld u aan om door te gaan."
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246
 msgid "Cookies are still disabled"
 msgstr "Cookies zijn nog uitgeschakeld"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250
 msgid "Passwords do not match"
 msgstr "Wachtwoorden komen niet overeen"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254
 msgid "Working…"
 msgstr "Bezig…"
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
 msgstr "Kan privacyverklaring niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
 msgstr "Kan servicevoorwaarden niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266
 msgid "Your new password must be different"
 msgstr "Uw oude en nieuwe wachtwoord moeten verschillen"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 #: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:332
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289
 msgid "A usable image was not found"
 msgstr "Er is geen bruikbare afbeelding gevonden"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293
 msgid "Could not initialize camera"
 msgstr "Kon camera niet initialiseren"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297
 msgid "Valid URL required"
 msgstr "Geldige URL vereist"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Voer een geldig e-mailadres in. firefox.com biedt geen e-mail."
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden geplaatst"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:347
 msgid "Verification link damaged"
 msgstr "Verificatiekoppeling beschadigd"
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355
 msgid "The image dimensions must be at least 100x100px"
 msgstr "De afmetingen van de afbeelding moeten minstens 100x100px zijn"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Binnenkort komt registratie naar Firefox voor iOS"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370
 msgid "You must enter your age to sign up"
 msgstr "U moet uw leeftijd invoeren om te registreren"
 
@@ -385,44 +389,45 @@ msgstr "U moet uw leeftijd invoeren om te registreren"
 msgid "No Gravatar found"
 msgstr "Geen Gravatar gevonden"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
 msgstr "Account bestaat niet meer."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ongeldige eigenschap in hervattingstoken: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393
 msgid "Missing property in resume token: %(property)s"
 msgstr "Ontbrekende eigenschap in hervattingstoken: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397
 msgid "Invalid data attribute: %(property)s"
 msgstr "Gegevenskenmerk ongeldig: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401
 msgid "Missing data attribute: %(property)s"
 msgstr "Gegevenskenmerk ontbreekt: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
-#: .es5/templates/complete_sign_up.mustache:4
+#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt."
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418
 msgid "This is a required field"
 msgstr "Dit veld is verplicht"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "Authorization code required"
 msgstr "Autorisatiecode vereist"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:430
 msgid "Link damaged"
 msgstr "Koppeling beschadigd"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453
 msgid "Phone number required"
 msgstr "Telefoonnummer vereist"
 
@@ -531,7 +536,9 @@ msgid "SMS not sent, please try again"
 msgstr "Sms is niet verzonden, probeer het opnieuw"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
@@ -635,11 +642,11 @@ msgstr "Instellingen opslaan"
 msgid "Back"
 msgstr "Terug"
 
-#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
 msgid "Reset password link expired"
 msgstr "Herinitialisatiekoppeling verlopen"
 
-#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "De koppeling waarop u hebt geklikt voor het opnieuw instellen van uw wachtwoord is verlopen."
 
@@ -669,7 +676,7 @@ msgid "Learn how Sync works."
 msgstr "Lees hoe Sync werkt."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
 msgstr "Nieuwe wachtwoord"
 
@@ -732,7 +739,7 @@ msgstr "Klik binnen een uur op de koppeling die we via %(email)s naar u hebben v
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18
 msgid "Remember password? Sign in"
 msgstr "Weet u uw wachtwoord nog? Aanmelden"
 
@@ -814,21 +821,22 @@ msgstr "Wachtwoord"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
 #: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
-#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Aanmelden"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Wachtwoord vergeten?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+msgstr ""
+"Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -890,7 +898,7 @@ msgstr "Accepteren"
 #: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
 #: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
-#: .es5/templates/settings/upgrade_session.mustache:10
+#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -926,7 +934,7 @@ msgstr "Account herinitialiseren"
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
 #: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6
 msgid "Continue to %(serviceName)s"
 msgstr "Doorgaan naar %(serviceName)s"
 
@@ -994,7 +1002,7 @@ msgid "Enter authorization code"
 msgstr "Voer autorisatiecode in"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Doorgaan"
 
@@ -1084,8 +1092,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en alle"
-" in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
+"Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en "
+"alle in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1103,7 +1111,7 @@ msgstr "Begrepen"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
 #: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Wijzigen…"
 
@@ -1135,7 +1143,7 @@ msgstr "Wissen"
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Gereed"
 
@@ -1229,6 +1237,7 @@ msgstr "niets gekoppeld"
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Download"
 msgstr "Downloaden"
 
@@ -1318,15 +1327,16 @@ msgstr "laatst actief: %(translatedTimeAgo)s"
 msgid "last sync time unknown"
 msgstr "laatste synchronisatie: onbekend"
 
-#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
+#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
 msgstr "Secundair e-mailadres verwijderd"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133
 msgid "Verification email sent"
 msgstr "Verificatie-e-mail verzonden"
 
-#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150
+#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
 msgstr "Primair e-mailadres ingesteld op %(email)s"
 
@@ -1370,7 +1380,7 @@ msgstr "Bedoelde u <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s is geregistreerd. <a %(escapedBackLinkParams)s>Typefout in e-mailadres?</a>"
 
-#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
 msgid "Receive new link"
 msgstr "Nieuwe koppeling ontvangen"
 
@@ -1469,7 +1479,8 @@ msgstr "De Sync-service is geen permanente back-up; het is slechts een veilige m
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "U dient Firefox en Sync op minstens twee apparaten te installeren om tegen verlies van uw gegevens beschermd te zijn als u deze wilt herstellen, maar uw wachtwoord bent vergeten."
 
-#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
 msgstr "Intrekken"
 
@@ -1482,7 +1493,7 @@ msgid "Additionally, you can choose whether to receive the latest news about Moz
 msgstr "Daarnaast kunt u kiezen of u het laatste nieuws over Mozilla en Firefox wilt ontvangen."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
-#: .es5/templates/settings/emails.mustache:19
+#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159
 msgid "Secondary email"
 msgstr "Secundair e-mailadres"
 
@@ -1518,23 +1529,23 @@ msgstr "Toevoegen"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Zoekt u Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Begin hier</a>"
 
-#: .es5/views/ready.js:44
+#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
 msgstr "Uw wachtwoord is opnieuw ingesteld"
 
-#: .es5/views/ready.js:48
+#: .es5/views/ready.js:48 .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "U kunt nu wijzigingen aan uw Firefox-account aanbrengen."
 
-#: .es5/views/ready.js:50
+#: .es5/views/ready.js:50 .es5/views/ready.js:91
 msgid "Primary email verified"
 msgstr "Primair e-mailadres geverifieerd"
 
-#: .es5/views/ready.js:53
+#: .es5/views/ready.js:53 .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Accountmeldingen worden nu ook naar %(secondaryEmailVerified)s verzonden."
 
-#: .es5/views/ready.js:55
+#: .es5/views/ready.js:55 .es5/views/ready.js:96
 msgid "Secondary email verified"
 msgstr "Secundair e-mailadres geverifieerd"
 
@@ -1622,19 +1633,19 @@ msgstr "Kopiëren van codes is mislukt. Kopieer ze handmatig."
 msgid "New recovery codes generated"
 msgstr "Nieuwe herstelcodes gegenereerd"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Authenticatie in twee stappen ingeschakeld"
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Gebruik de code %(code)s om authenticatie in twee stappen in ondersteunde toepassingen in te schakelen."
 
-#: .es5/views/settings/two_step_authentication.js:141
+#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
 msgstr "Authenticatie in twee stappen verwijderd"
 
-#: .es5/views/settings/two_step_authentication.js:182
+#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
 msgstr "Authenticatie in twee stappen"
 
@@ -1690,23 +1701,23 @@ msgstr "Ongeldige aanmeldingsverificatiecode"
 msgid "This verification code has expired"
 msgstr "Deze verificatiecode is verlopen"
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "Functie niet ingeschakeld"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
 msgstr "Code voor authenticatie in twee stappen vereist"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476
 msgid "Invalid two-step authentication code"
 msgstr "Ongeldige code voor authenticatie in twee stappen"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480
 msgid "Recovery code required"
 msgstr "Herstelcode vereist"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484
 msgid "Invalid recovery code"
 msgstr "Ongeldige herstelcode"
 
@@ -1734,7 +1745,7 @@ msgstr ""
 "<span>ONTHOUD:</span> wanneer u uw wachtwoord opnieuw instelt, stelt u uw account opnieuw in. Bepaalde persoonlijke gegevens (waaronder geschiedenis, bladwijzers en wachtwoorden) kunnen verloren "
 "gaan. Dit komt doordat we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
 
-#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
 msgstr "Voer wachtwoord nogmaals in"
 
@@ -1833,8 +1844,8 @@ msgstr "Niets gekoppeld"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
-"Om u te helpen het meeste uit uw Firefox-account te halen, ontvangt u berichten met betrekking tot uw accountbeveiliging, wijzigingen aan ons beleid, de functionaliteit van uw account, en inleidende"
-" e-mails."
+"Om u te helpen het meeste uit uw Firefox-account te halen, ontvangt u berichten met betrekking tot uw accountbeveiliging, wijzigingen aan ons beleid, de functionaliteit van uw account, en "
+"inleidende e-mails."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1849,14 +1860,15 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Als u deze account voor Mozilla-apps en -services zoals AMO, Pocket en Screenshots gebruikt, dient u zich eerst aan te melden en alle opgeslagen persoonlijke gegevens te verwijderen. Zodra u hier uw"
-" account verwijdert, kunt u de toegang hiertoe overal kwijtraken."
+"Als u deze account voor Mozilla-apps en -services zoals AMO, Pocket en Screenshots gebruikt, dient u zich eerst aan te melden en alle opgeslagen persoonlijke gegevens te verwijderen. Zodra u hier "
+"uw account verwijdert, kunt u de toegang hiertoe overal kwijtraken."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Een secundair e-mailadres is een aanvullend adres voor het ontvangen van beveiligingsmeldingen en het bevestigen van nieuwe apparaten."
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Status vernieuwen"
 
@@ -1884,7 +1896,7 @@ msgstr "Dit zijn uw herstelcodes voor eenmalig gebruik. Bewaar ze op een veilige
 msgid "Copy"
 msgstr "Kopiëren"
 
-#: .es5/templates/settings/recovery_codes.mustache:12
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 msgid "Print"
 msgstr "Afdrukken"
 
@@ -1892,7 +1904,7 @@ msgstr "Afdrukken"
 msgid "Two-step authentication"
 msgstr "Authenticatie in twee stappen"
 
-#: .es5/templates/settings/two_step_authentication.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
 msgstr "Inschakelen…"
 
@@ -1904,7 +1916,7 @@ msgstr "Voeg een beveiligingslaag toe aan uw account door beveiligingscodes van 
 msgid "Current status"
 msgstr "Huidige status"
 
-#: .es5/templates/settings/two_step_authentication.mustache:8
+#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
@@ -1980,6 +1992,126 @@ msgstr "Wachtwoord tonen"
 msgid "Use a different email address"
 msgstr "Een ander e-mailadres gebruiken"
 
+#: .es5/views/settings/account_recovery/account_recovery.js:105
+msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55
+msgid "Firefox Recovery Key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid recovery key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:496
+msgid "Recovery key required"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
+msgid "Account recovery"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
+msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
+msgid "Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
+msgid "Not set"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
+msgid "Generate"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
+msgid ""
+"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+"more</a>"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+msgid "Enter Password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
+msgid "Are you sure you want to revoke?"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
+msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
+msgid "Step 2 of 2: Save Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Print button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
+msgid "Download button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+msgid "Done, Recovery key saved"
+msgstr ""
+
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
@@ -1999,18 +2131,18 @@ msgid "Sign in"
 msgstr "Aanmelden"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>ONTHOUD:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we "
-#~ "uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
+#~ "<span>ONTHOUD:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat "
+#~ "we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOOT:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we uw "
-#~ "gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
+#~ "<span>NOOT:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we "
+#~ "uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Voeg een extra beveiligingslaag toe aan uw account door beveiligingscodes van een van <a %(escapedTotpSupportAttributes)s>deze apps voor authenticatie</a> te vereisen."
@@ -2021,7 +2153,8 @@ msgstr "Aanmelden"
 #~ "            "
 #~ msgstr ""
 #~ "\n"
-#~ "                Deze codes zullen alleen worden weergegeven en kunnen maar eenmalig worden gebruikt. Bewaar ze op een veilige plek voor het geval dat u geen toegang meer hebt tot uw mobiele apparaat.\n"
+#~ "                Deze codes zullen alleen worden weergegeven en kunnen maar eenmalig worden gebruikt. Bewaar ze op een veilige plek voor het geval dat u geen toegang meer hebt tot uw mobiele "
+#~ "apparaat.\n"
 #~ "            "
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
@@ -2138,18 +2271,19 @@ msgstr "Aanmelden"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-voorkeuren"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Zoekt u Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Begin hier</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Hebt u een account met een ander e-mailadres? <a href=\"%(signinUri)s\">Aanmelden</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Laatst actief: %(translatedTimeAgo)s"
@@ -2255,8 +2389,8 @@ msgstr "Aanmelden"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar %(email)s is"
-#~ " verzonden"
+#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar "
+#~ "%(email)s is verzonden"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registratie is uitgeschakeld"
@@ -2320,8 +2454,8 @@ msgstr "Aanmelden"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres in "
-#~ "te voeren."
+#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres "
+#~ "in te voeren."
 
 #~ msgid "a day"
 #~ msgstr "een dag"
@@ -2378,8 +2512,8 @@ msgstr "Aanmelden"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het onthouden "
-#~ "van u tussen sessies."
+#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het "
+#~ "onthouden van u tussen sessies."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Binnenkort komt Firefox naar iOS!"
@@ -2522,13 +2656,17 @@ msgstr "Aanmelden"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hebt u al een account? Meld u aan."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s "
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 #~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van "
+#~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-"
+#~ "cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonneren op Firefox-nieuws en -tips"

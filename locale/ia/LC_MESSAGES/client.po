@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-09 13:16+0000\n"
+"POT-Creation-Date: 2018-08-20 10:35+0000\n"
 "PO-Revision-Date: 2018-08-08 01:57+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Conto verificate con successo"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "Remontar le contrasigno"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Contrasigno remontate con successo. Authentica te pro continuar."
 
@@ -44,28 +44,28 @@ msgstr "Nomine a monstrar"
 msgid "Account picture"
 msgstr "Imagine del conto"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75
 msgid "Welcome back"
 msgstr "Benvenite de novo"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync reprendera tosto"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Completa le configuration inserente le nove contrasigno in vostre altere apparatos Firefox."
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101
 msgid "Sign-in confirmed"
 msgstr "Authentication confirmate"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
-#: .es5/templates/ready.mustache:3
+#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Tu es preste a usar %(serviceName)s"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106
 msgid "Account verified"
 msgstr "Conto verificate"
 
@@ -78,11 +78,11 @@ msgstr "Conto incognite. <a href=\"/signup\">Inscribe te</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conto Firefox incognite. <a href=\"/signup\">Inscribe te</a> usante le adresse email de tu previe conto Additivos pro acceder a tu datos de additivos."
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Le conto non existe plus. Desira tu recrear lo?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Le conto ja existe. <a href=\"/signin\">Authentica te</a>"
 
@@ -141,7 +141,7 @@ msgid "Your account has been locked for security reasons"
 msgstr "Tu conto ha essite blocate per rationes de securitate"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
-#: .es5/templates/reset_password.mustache:4
+#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17
 msgid "Reset password"
 msgstr "Remontar le contrasigno"
 
@@ -254,7 +254,7 @@ msgstr "Corpore de requesta troppo grande"
 msgid "The request was blocked for security reasons"
 msgstr "Le requesta ha essite blocate pro rationes de securitate"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Invalid authorization code"
 msgstr "Codice de autorisation invalide"
 
@@ -283,102 +283,106 @@ msgid "Unable to deliver email"
 msgstr "Incapace de livrar le email"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
 msgstr "Servitor occupate, retenta plus tarde"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230
 msgid "This endpoint is no longer supported"
 msgstr "Iste extremitate non es plus admittite"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234
 msgid "System unavailable, try again soon"
 msgstr "Systema indisponibile, retenta plus tarde"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
 msgid "Login attempt cancelled"
 msgstr "Tentativa de authentication cancellate"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242
 msgid "Session expired. Sign in to continue."
 msgstr "Session expirate. Authentica te pro continuar."
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246
 msgid "Cookies are still disabled"
 msgstr "Le cookies es ancora inactive"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250
 msgid "Passwords do not match"
 msgstr "Le contrasignos non se corresponde"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254
 msgid "Working…"
 msgstr "In curso…"
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
 msgstr "Il non esseva possibile trovar le advertentia de privacitate"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
 msgstr "Il non esseva possibile trovar le terminos del servicio"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266
 msgid "Your new password must be different"
 msgstr "Tu nove contrasigno debe esser differente"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 #: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Debe continer al minus 8 characteres"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274
 msgid "Valid password required"
 msgstr "Un contrasigno valide necesse"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:332
 msgid "Valid email required"
 msgstr "Il es necessari un adresse de e-posta valide"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289
 msgid "A usable image was not found"
 msgstr "Imagine utile non trovate"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293
 msgid "Could not initialize camera"
 msgstr "Impossibile initialisar le camera"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297
 msgid "Valid URL required"
 msgstr "Il necessita URL valide"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Tu message de verification era justo declinate. Adresse de e-posta incorrecte?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Scribe un adresse de e-mail valide. firefox.com non forni un servicio de e-mail."
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Le contos Firefox pote solmente esser placiate in un IFRAME sur sitos approbate"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:347
 msgid "Verification link damaged"
 msgstr "Ligamine de verification damnificate"
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Le dimensiones del imagine debe ser al minus de 100x100px"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Il essera tosto possibile authenticar se in Firefox pro iOS"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370
 msgid "You must enter your age to sign up"
 msgstr "Tu debe inserer tu etate pro authenticar te"
 
@@ -386,44 +390,45 @@ msgstr "Tu debe inserer tu etate pro authenticar te"
 msgid "No Gravatar found"
 msgstr "Nulle Gravatar trovate"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
 msgstr "Ce conto non existe plus."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietate invalide in le token de reprisa: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate mancante in le token de reprisa: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397
 msgid "Invalid data attribute: %(property)s"
 msgstr "Attributo datos invalide: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401
 msgid "Missing data attribute: %(property)s"
 msgstr "Attributo datos mancante: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
-#: .es5/templates/complete_sign_up.mustache:4
+#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ille ligamine de confirmation era ja usate, e pote ser usate solo un vice."
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418
 msgid "This is a required field"
 msgstr "Iste campo es necessari"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "Authorization code required"
 msgstr "Il es necessari le codice de autorisation"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:430
 msgid "Link damaged"
 msgstr "Ligamine damnificate"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453
 msgid "Phone number required"
 msgstr "Il es necessari le numero de telephono"
 
@@ -532,7 +537,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS non inviate, retenta per favor"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu consenti al <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e al <a id=\"service-pp\" href=\"%(privacyUri)s\">declaration de confidentialitate</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -636,11 +643,11 @@ msgstr "Salvar le parametros"
 msgid "Back"
 msgstr "Retro"
 
-#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
 msgid "Reset password link expired"
 msgstr "Ligamine pro remontar le contrasigno expirate"
 
-#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Le ligamine su re qual tu ha cliccate pro remontar tu contrasigno ha expirate."
 
@@ -670,7 +677,7 @@ msgid "Learn how Sync works."
 msgstr "Apprende como functiona Sinc."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
 msgstr "Nove contrasigno"
 
@@ -733,7 +740,7 @@ msgstr "Clicca in le proxime hora sur le ligamine que nos te ha inviate a %(emai
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
-#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18
 msgid "Remember password? Sign in"
 msgstr "Contrasigno rememorate? Authentica te"
 
@@ -815,14 +822,14 @@ msgstr "Contrasigno"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
 #: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
-#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Authenticar se"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Contrasigno oblidate?"
 
@@ -892,7 +899,7 @@ msgstr "Acceptar"
 #: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
 #: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
-#: .es5/templates/settings/upgrade_session.mustache:10
+#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
 msgstr "Cancellar"
 
@@ -928,7 +935,7 @@ msgstr "Remontar le conto"
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
 #: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6
 msgid "Continue to %(serviceName)s"
 msgstr "Tu continuara a %(serviceName)s"
 
@@ -996,7 +1003,7 @@ msgid "Enter authorization code"
 msgstr "Insere le codice de autorisation"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1086,16 +1093,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu telephono"
-" o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
+"Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu "
+"telephono o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
-"Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate sur"
-" al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
+"Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate "
+"sur al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11 .es5/templates/why_connect_another_device.mustache:4
 #: .es5/templates/settings/client_disconnect.mustache:11
@@ -1105,7 +1112,7 @@ msgstr "Comprendite"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
 #: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Modification..."
 
@@ -1137,7 +1144,7 @@ msgstr "Clarar"
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
 #: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
-#: .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Facte"
 
@@ -1231,6 +1238,7 @@ msgstr "nulle connexion"
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Download"
 msgstr "Discargar"
 
@@ -1320,15 +1328,16 @@ msgstr "ultime activitate %(translatedTimeAgo)s"
 msgid "last sync time unknown"
 msgstr "ultime synchronisation incognite"
 
-#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91
+#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
 msgstr "Adresse email secundari removite"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133
 msgid "Verification email sent"
 msgstr "Email de verification inviate"
 
-#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150
+#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
 msgstr "Adresse email primari definite como %(email)s"
 
@@ -1372,7 +1381,7 @@ msgstr "Intende tu <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s registrate. <a %(escapedBackLinkParams)s>Adresse de e-mail incorrecte?</a>"
 
-#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
 msgid "Receive new link"
 msgstr "Recipe un nove ligamine"
 
@@ -1471,7 +1480,8 @@ msgstr "Le servicio Sync non es un copia de reserva permanente, ma un maniera si
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Tu deberea installar Firefox e synchronisar al minus duo dispositivos pro proteger contra le perdita de tu datos in caso que es necessari restaurar los ma tu ha oblidate tu contrasigno."
 
-#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
 msgstr "Revocar"
 
@@ -1484,7 +1494,7 @@ msgid "Additionally, you can choose whether to receive the latest news about Moz
 msgstr "In ultra, tu pote optar pro reciper actualitates sur Mozilla e Firefox."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
-#: .es5/templates/settings/emails.mustache:19
+#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159
 msgid "Secondary email"
 msgstr "E-posta secundari"
 
@@ -1520,23 +1530,23 @@ msgstr "Adder"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Desira tu probar Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comencia ci</a>"
 
-#: .es5/views/ready.js:44
+#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
 msgstr "Tu contrasigno ha essite restabilite"
 
-#: .es5/views/ready.js:48
+#: .es5/views/ready.js:48 .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Tu es ora preste a modificar tu conto Firefox."
 
-#: .es5/views/ready.js:50
+#: .es5/views/ready.js:50 .es5/views/ready.js:91
 msgid "Primary email verified"
 msgstr "E-posta primari verificate"
 
-#: .es5/views/ready.js:53
+#: .es5/views/ready.js:53 .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Le notificationes del conto sera ora inviate anque a %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:55
+#: .es5/views/ready.js:55 .es5/views/ready.js:96
 msgid "Secondary email verified"
 msgstr "E-mail secundari verificate"
 
@@ -1624,19 +1634,19 @@ msgstr "Falta a copiar le codices. Per favor copia los manualmente."
 msgid "New recovery codes generated"
 msgstr "Nove codices de recuperation generate"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Authentication a duo grados activate"
 
-#: .es5/views/settings/two_step_authentication.js:128
+#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Usar le codice %(code)s pro eliger le authentication a duo grados in applicationes que lo supporta."
 
-#: .es5/views/settings/two_step_authentication.js:141
+#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
 msgstr "Authentication a duo grados removite"
 
-#: .es5/views/settings/two_step_authentication.js:182
+#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
 msgstr "Authentication a duo grados"
 
@@ -1692,23 +1702,23 @@ msgstr "Codice de verification de initio session non valide"
 msgid "This verification code has expired"
 msgstr "Iste codice de verification es expirate"
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
 msgstr "Functionalitate non activate"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
 msgstr "Authentication a duo grados necessari"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476
 msgid "Invalid two-step authentication code"
 msgstr "Codice de authentication a duo grados non valide"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480
 msgid "Recovery code required"
 msgstr "Codice de recuperation necessari"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484
 msgid "Invalid recovery code"
 msgstr "Codice de recuperation non valide"
 
@@ -1736,7 +1746,7 @@ msgstr ""
 "<span>REMEMBER:</span> Quando tu restabili tu contrasigno, tu restabili tu conto. Tu pote perder alcun de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto perque nos "
 "cifra tu datos per tu contrasigno pro proteger tu confidentialitate."
 
-#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
 msgstr "Reinsere le contrasigno"
 
@@ -1858,6 +1868,7 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr "Un adresse de e-mail secundari es un adresse additional pro reciper notificationes de securitate e pro confirmar nove apparatos."
 
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Refrescar le stato"
 
@@ -1885,7 +1896,7 @@ msgstr "Ecce tu codices de recuperation a uso unic. Immagazina los in un loco se
 msgid "Copy"
 msgstr "Copiar"
 
-#: .es5/templates/settings/recovery_codes.mustache:12
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 msgid "Print"
 msgstr "Imprimer"
 
@@ -1893,7 +1904,7 @@ msgstr "Imprimer"
 msgid "Two-step authentication"
 msgstr "Authentication in duo grados"
 
-#: .es5/templates/settings/two_step_authentication.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
 msgstr "Activation…"
 
@@ -1905,7 +1916,7 @@ msgstr "Adder un strato de securitate a tu conto per requirer le codices per un 
 msgid "Current status"
 msgstr "Stato actual"
 
-#: .es5/templates/settings/two_step_authentication.mustache:8
+#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
 msgstr "Activate"
 
@@ -1981,6 +1992,126 @@ msgstr "Monstrar contrasigno"
 msgid "Use a different email address"
 msgstr "Usar un altere adresse de e-mail"
 
+#: .es5/views/settings/account_recovery/account_recovery.js:105
+msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55
+msgid "Firefox Recovery Key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:213
+msgid "Invalid recovery key"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:496
+msgid "Recovery key required"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
+msgid "Account recovery"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
+msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
+msgid "Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
+msgid "Not set"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
+msgid "Generate"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
+msgid ""
+"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+"more</a>"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+msgid "Enter Password"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
+msgid "Are you sure you want to revoke?"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
+msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
+msgid "Step 2 of 2: Save Recovery key"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Print button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
+msgid "Download button image"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+msgid "Done, Recovery key saved"
+msgstr ""
+
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
@@ -2000,18 +2131,18 @@ msgid "Sign in"
 msgstr "Authenticar se"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>REMEMORAR:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos de servitor synchronisate, como chronologia e marcapaginas). Illo es perque nos cifra tu "
-#~ "datos con tu contrasigno pro proteger tu confidentialitate."
+#~ "<span>REMEMORAR:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos de servitor synchronisate, como chronologia e marcapaginas). Illo es perque nos cifra "
+#~ "tu datos con tu contrasigno pro proteger tu confidentialitate."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTA:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos synchronisate de servitor como chronologia e marcapaginas). Illo es perque nos cifra tu datos "
-#~ "con tu contrasigno pro proteger tu confidentialitate."
+#~ "<span>NOTA:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos synchronisate de servitor como chronologia e marcapaginas). Illo es perque nos cifra tu "
+#~ "datos con tu contrasigno pro proteger tu confidentialitate."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Augmenta le securitate de tu conto con codices de securitate ab un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication.</a>"
