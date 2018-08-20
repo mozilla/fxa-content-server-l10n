@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 13:05+0000\n"
+"PO-Revision-Date: 2018-08-20 13:31+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2021,11 +2021,13 @@ msgstr "Επαναφορά κωδικού πρόσβασης με κλειδί �
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Παρακαλούμε εισάγετε το κλειδί ανάκτησης μίας χρήσης που έχετε αποθηκεύσει σε ένα ασφαλές μέρος για ανάκτηση πρόσβασης στο λογαριασμό Firefox σας."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει κλειδί ανάκτησης λογαριασμού, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων "
+"και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -2041,7 +2043,7 @@ msgstr "Δεν έχετε κλειδί ανάκτησης;"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Έχετε ανακτήσει επιτυχώς το λογαριασμό σας με το κλειδί ανάκτησης. Δημιουργήστε ένα νέο κωδικό πρόσβασης για προστασία των δεδομένων σας και αποθηκεύστε τον σε μια ασφαλή τοποθεσία."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2057,7 +2059,7 @@ msgstr "Ανάκτηση λογαριασμού"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Δημιουργήστε ένα κλειδί ανάκτησης για ανάκτηση πρόσβασης στους σελιδοδείκτες, τους κωδικούς πρόσβασης και τα συγχρονισμένα δεδομένα του Firefox, αν ξεχάσετε τον κωδικό πρόσβασής σας."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2095,7 +2097,7 @@ msgstr "Θέλετε σίγουρα να κάνετε ανάκληση;"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Δεν θα μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
