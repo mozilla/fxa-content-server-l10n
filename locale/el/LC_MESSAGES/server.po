@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-07-01 08:10+0000\n"
+"PO-Revision-Date: 2018-08-20 12:51+0000\n"
 "Last-Translator: Jim Spentzos <jim.spentzos@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -19,13 +19,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Συγχρονισμό από άλλες συσκευές σας, όπως το Firefox για <a href='%(androidUrl)s'>Android</a> "
-"και <a href='%(iosUrl)s'>iOS</a>."
+"Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Συγχρονισμό από άλλες συσκευές σας, όπως το Firefox για <a href='%(androidUrl)s'>Android</a> και"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Έχετε συνδέσει επιτυχώς την πρώτη σας συσκευή με το Λογαριασμό Firefox σας. Για να αξιοποιήσετε πλήρως το Sync, συνδέστε οποιοδήποτε <a href='%(androidUrl)s'>Firefox για Android</a> ή <a "
 "href='%(iosUrl)s'>Firefox για iOS</a>."
@@ -184,11 +184,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Δημιουργία νέου κλειδιού ανάκτησης:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -238,7 +238,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -252,11 +252,11 @@ msgstr "Διαχείριση λογαριασμού"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -314,7 +314,7 @@ msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδι
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -635,8 +635,7 @@ msgid "Terms of Service"
 msgstr "Όροι Υπηρεσίας"
 
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-#~ msgstr ""
-#~ "Χρησιμοποιείτε ένα <strong>πολύ παλιό</strong> πρόγραμμα περιήγησης. Παρακαλώ <a href=\"http://browsehappy.com/\">αναβαθμίστε το πρόγραμμα περιήγησής σας</a> για να βελτιώστε την εμπειρία σας."
+#~ msgstr "Χρησιμοποιείτε ένα <strong>πολύ παλιό</strong> πρόγραμμα περιήγησης. Παρακαλώ <a href=\"http://browsehappy.com/\">αναβαθμίστε το πρόγραμμα περιήγησής σας</a> για να βελτιώστε την εμπειρία σας."
 
 #~ msgid "Still there?"
 #~ msgstr "Ακόμη εκεί;"
@@ -675,16 +674,16 @@ msgstr "Όροι Υπηρεσίας"
 #~ msgstr "Γεια σας και πάλι."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Πριν λίγες ημέρες, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ένας επαληθευμένος λογαριασμός σάς παρέχει πρόσβαση στις καρτέλες, στους σελιδοδείκτες, στους κωδικούς "
 #~ "πρόσβασης και στο ιστορικό σας από οποιαδήποτε συσκευή, που έχει συνδεθεί σε αυτόν. Απλά επιβεβαιώστε αυτή τη διεύθυνση email για την ενεργοποίηση του λογαριασμού σας."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Πριν από μια εβδομάδα, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς. Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και "
-#~ "να μάς ενημερώσετε ότι είστε καλά."
+#~ "Πριν από μια εβδομάδα, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς. Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και να "
+#~ "μάς ενημερώσετε ότι είστε καλά."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Για επιπρόσθετη ασφάλεια, παρακαλώ επιβεβαιώστε αυτή την είσοδο για έναρξη συγχρονισμού με αυτή τη συσκευή:"
@@ -706,11 +705,10 @@ msgstr "Όροι Υπηρεσίας"
 #~ "Έχετε αφαιρέσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail του λογαριασμού Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτή τη "
 #~ "διεύθυνση."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail για το Λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και επιβεβαιώσεις σύνδεσης θα αποστέλλονται και στις δύο "
-#~ "διευθύνσεις e-mail."
+#~ "Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail για το Λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και επιβεβαιώσεις σύνδεσης θα αποστέλλονται και στις δύο διευθύνσεις "
+#~ "e-mail."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Όπως ζητήθηκε, ορίστε ένας σύνδεσμος για εγκατάσταση του Firefox στην κινητή σας συσκευή: %(link)s"
