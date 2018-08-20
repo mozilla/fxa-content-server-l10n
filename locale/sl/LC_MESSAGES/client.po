@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 13:32+0000\n"
+"PO-Revision-Date: 2018-08-20 13:59+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -2028,7 +2028,7 @@ msgstr "Nimate obnovitvenega ključa?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Uspešno ste obnovili svoj račun z obnovitvenim ključem. Ustvarite novo geslo, da zaščitite svoje podatke, in ga shranite na varno mesto."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2044,7 +2044,7 @@ msgstr "Obnovitev računa"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Ustvarite obnovitveni ključ, s katerim si lahko povrnete dostop do Firefoxovih zaznamkov, gesel in sinhroniziranih podatkov v primeru, da pozabite geslo."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2063,6 +2063,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">POMNITE: </span>Vaše geslo Firefox Računa je uporabljeno za šifriranje vaših podatkov. Dostop do vaših podatkov je možen samo z geslom ali z obnovitvenim ključem. <a "
+"%(escapedLearnMoreLinkAttributes)s>Več o tem</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
