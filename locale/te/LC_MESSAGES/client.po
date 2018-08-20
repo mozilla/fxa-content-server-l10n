@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 12:02+0000\n"
+"PO-Revision-Date: 2018-08-20 13:09+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1035,7 +1035,7 @@ msgstr "ఖాతా ఉందా? ప్రవేశించండి"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "అమర్పును పూర్రిచెయ్యడానికి Firefoxను నేరుగా మీ స్మార్టుఫోనుకి పంపించి, ప్రవేశించండి"
+msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxను నేరుగా మీ స్మార్టుఫోనుకి పంపించి, ప్రవేశించండి"
 
 #: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2 .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
