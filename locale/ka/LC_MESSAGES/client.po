@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 05:11+0000\n"
+"PO-Revision-Date: 2018-08-21 05:33+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -76,7 +76,7 @@ msgstr "ასეთი ანგარიში ვერ მოიძებნ
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
+msgstr "Firefox-ანგარიში ვერ მოიძებნა. <a href=\"/signup\">შექმანით</a> დამატებების ძველი ანგარიშის ელფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
 
 #: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
@@ -100,11 +100,11 @@ msgstr "პაროლი წარმატებით შეიცვალ�
 
 #: app/scripts/views/settings/client_disconnect.js:17 .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "ვწუხვართ, ამის გამო. შეცვალეთ Firefox ანგარიშის პაროლი და მოიძიოთ ინფორმაცია თქვენი მოწყობილობის მწარმოებლისგან, თუ როგორ შეიძლება წაიშალოს მონაცემები დისტანციურად."
+msgstr "სამწუხაროა. შეცვალეთ Firefox-ანგარიშის პაროლი და მოიძიეთ ინფორმაცია თქვენი მოწყობილობის მწარმოებლისგან, თუ როგორ შეიძლება წაიშალოს მონაცემები დისტანციურად."
 
 #: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ვწუხვართ, ამის გამო. თუ ეს მოწყობილობა არაა სანდო, შეცვალეთ Firefox ანგარიშის პაროლი და ყველა სხვა დანარჩენი პაროლიც, რაც Firefox-ში ინახება."
+msgstr "სამწუხაროა. თუ ეს მოწყობილობა არაა სანდო, შეცვალეთ Firefox-ანგარიშის პაროლი და ყველა სხვა დანარჩენი პაროლიც, რაც Firefox-ში ინახება."
 
 #: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75 .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -365,7 +365,7 @@ msgstr "შეიყვანეთ ელფოსტის მართებ�
 
 #: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox ანგარიშის ჩასმა შესაძლებელია მხოლოდ IFRAME-ით, ნებადართულ საიტებზე"
+msgstr "Firefox-ანგარიშის ჩასმა შესაძლებელია მხოლოდ IFRAME-ით, ნებადართულ საიტებზე"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
 #: .es5/lib/auth-errors.js:347
@@ -774,7 +774,7 @@ msgstr "შედით Firefox-ში მეორე მოწყობილ�
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "გახსენით პარამეტრები და აირჩიეთ „Firefox ანგარიშზე შესვლა“ გამართვის დასასრულებლად"
+msgstr "გახსენით პარამეტრები და აირჩიეთ „Firefox-ანგარიშზე შესვლა“ გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22 .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -794,7 +794,7 @@ msgstr "ჩართული უნდა იყოს ფუნთუშებ
 
 #: app/scripts/templates/cookies_disabled.mustache:2 .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "გთხოვთ ჩართოთ ბრაუზერში ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა, Firefox ანგარიშთან დასაკავშირებლად, რაც მომხმარებლის დამახსოვრების საშუალებას იძლევა."
+msgstr "გთხოვთ ჩართოთ ბრაუზერში ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა, Firefox-ანგარიშთან დასაკავშირებლად, რაც მომხმარებლის დამახსოვრების საშუალებას იძლევა."
 
 #: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4 .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -955,7 +955,7 @@ msgstr "გაგახსენდათ პაროლი? შესვლა
 
 #: app/scripts/templates/settings.mustache:1 .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr "Firefox ანგარიშები"
+msgstr "Firefox-ანგარიშები"
 
 #: app/scripts/templates/settings.mustache:2 .es5/templates/settings.mustache:2
 msgid "Sign out"
@@ -963,7 +963,7 @@ msgstr "გასვლა"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "თქვენი დამატებების მონაცემებს ეძებთ? <a href=\"/signup\">შექმენით</a> ახალი Firefox ანგარიში თქვენი ძველი დამატებების ანგარიშის ელ-ფოსტის მისამართის გამოყენებით."
+msgstr "თქვენი დამატებების მონაცემებს ეძებთ? <a href=\"/signup\">შექმენით</a> ახალი Firefox-ანგარიში თქვენი ძველი დამატებების ანგარიშის ელფოსტის მისამართის გამოყენებით."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -1006,7 +1006,7 @@ msgstr "გაგრძელება"
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Firefox ანგარიშის შექმნა"
+msgstr "Firefox-ანგარიშის შექმნა"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -1018,7 +1018,7 @@ msgstr "გადაიტანეთ თქვენი დასინქრ�
 
 #: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "თქვენი დამატებების მონაცემებს ეძებთ? შექმენით ახალი Firefox ანგარიში თქვენი ძველი დამატებების ანგარიშის ელ-ფოსტის მისამართის გამოყენებით."
+msgstr "თქვენი დამატებების მონაცემებს ეძებთ? შექმენით ახალი Firefox-ანგარიში თქვენი ძველი დამატებების ანგარიშის ელფოსტის მისამართის გამოყენებით."
 
 #: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -2048,65 +2048,69 @@ msgstr "ანგარიშის აღდგენა"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "შექმენით აღდგენის გასაღები, რომ დაიბრუნოთ წვდომა თქვენი Firefox-ის სანიშნებთან, პაროლებთან და დასინქრონებულ მონაცემებთან, პაროლის დავიწყების შემთხვევაში."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "აღდგენის გასაღები"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "არაა დაყენებული"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "შექმნა"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">შენიშვნა: </span>თქვენი Firefox-ანგარიშის პაროლი შიფრავს თქვენი Firefox-ის მონაცემებს. მხოლოდ თქვენი პაროლითა და აღდგენის გასაღებითაა შესაძლებელი ამ მონაცემებთან წვდომა. <a "
+"%(escapedLearnMoreLinkAttributes)s>იხილეთ ვრცლად</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "1 ნაბიჯი 2-იდან: ხელახლა შეიყვანეთ პაროლი"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "მიუთითეთ პაროლი აღდგენის გასაღების სანახავად."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "შეიყვანეთ პაროლი"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "ნამდვილად გსურთ გაუქმება?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "თქვენ ვერ შეძლებთ თქვენი აღდგენის გასაღების გამოყენებას, თქვენს მონაცემებთან წვდომის დასაბრუნებლად იმ შემთხვევაში, თუ პაროლს გაანულებთ."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2 ნაბიჯი 2-იდან: შეინახეთ აღდგენის გასაღები"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">შენიშვნა: </span>თუ პაროლი დაგავიწყდებათ, ეს გასაღები საჭირო იქნება თქვენს მონაცემებთან წვდომის დასაბრუნებლად. შეინახეთ თქვენი აღდგენის გასაღები უსაფრთხო ადგილას, რომ მომავალში "
+"ადვილად შეძლოთ მისი მონახვა."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "ბეჭდვის ღილაკის გამოსახულება"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "ჩამოტვირთვის ღილაკის გამოსახულება"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "მზადაა, აღდგენის გასაღები შენახულია"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
