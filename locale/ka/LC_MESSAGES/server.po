@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 05:38+0000\n"
+"PO-Revision-Date: 2018-08-21 06:00+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -561,7 +561,7 @@ msgstr "თქვენი Firefox-ანგარიშის აპროლ�
 
 #: lib/senders/email.js:874
 msgid "Firefox Account password changed"
-msgstr "Firefox ანგარიშის პაროლი შეიცვალა"
+msgstr "Firefox-ანგარიშის პაროლი შეიცვალა"
 
 #: lib/senders/email.js:896
 msgid "Firefox Account password reset required"
@@ -569,19 +569,19 @@ msgstr "საჭიროა Firefox-ანგარიშის პარო�
 
 #: lib/senders/email.js:955
 msgid "Firefox Account verified"
-msgstr "Firefox ანგარიში დამოწმებულია"
+msgstr "Firefox-ანგარიში დამოწმებულია"
 
 #: lib/senders/email.js:982
 msgid "Secondary Firefox Account email added"
-msgstr "Firefox ანგარიშის ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
+msgstr "Firefox-ანგარიშის ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
 
 #: lib/senders/email.js:1010
 msgid "Firefox Account new primary email"
-msgstr "Firefox ანგარიშის ახალი მთავარი ელფოსტა"
+msgstr "Firefox-ანგარიშის ახალი მთავარი ელფოსტა"
 
 #: lib/senders/email.js:1038
 msgid "Secondary Firefox Account email removed"
-msgstr "Firefox ანგარიშის დამატებითი ელფოსტა მოცილებულია"
+msgstr "Firefox-ანგარიშის დამატებითი ელფოსტა მოცილებულია"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
@@ -621,7 +621,7 @@ msgstr "ამჟამად სისტემა დატვირთულ�
 
 #: server/templates/pages/src/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox ანგარიშით სარგებლობისთვის საჭიროა JavaScript."
+msgstr "Firefox-ანგარიშით სარგებლობისთვის საჭიროა JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
