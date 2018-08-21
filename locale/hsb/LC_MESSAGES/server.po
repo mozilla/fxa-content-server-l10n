@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 20:52+0000\n"
+"PO-Revision-Date: 2018-08-21 21:01+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -181,15 +181,15 @@ msgstr "Sće wuspěšnje swoje hesło z pomocu wobnowjenskeho kluča ze slědowa
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Dyrbiće nowy wobnowjenski kluč wutworić."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Nowy wobnowjenski kluč wutworić"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Nowy wobnowjenski kluč wutworić:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -235,15 +235,15 @@ msgstr "Team Firefox Accounts"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Kontowy wobnowjenski kluč je so wutworił"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Sće wuspěšnje nowy wobnowjenski kluč za swoje konto Firefox z pomocu slědowaceho grata wutworił:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Jeli wy to njejsće był, <a %(revokeAccountRecoveryLinkAttributes)s>klikńće tu.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
@@ -253,11 +253,11 @@ msgstr "Konto rjadować"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Sće wuspěšnje nowy wobnowjenski kluč za swoje konto Firefox ze slědowaceho grata wutworił:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Jeli wy to njejsće był, wotwołajće kluč."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -315,19 +315,19 @@ msgstr "Sće nowe wobnowjenske kody ze slědowaceho grata wuspěšnje wutworił:
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Kontowy wobnowjenski kluč je so wotstronił"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Sće wuspěšnje nowy wobnowjenski kluč za swoje konto Firefox z pomocu slědowaceho grata wotstronił:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Tutón wobnowjenski kluč njeda so hižo wužiwać, zo by waše konto wobnowił."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Sće wuspěšnje nowy wobnowjenski kluč za swoje konto Firefox ze slědowaceho grata wotstronił:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -586,7 +586,7 @@ msgstr "Sekundarna e-mejlowa adresa za konto Firefox wotstronjena"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Hesło konta Firefox je so z wobnowjenskim klučom wróćo stajiło"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
