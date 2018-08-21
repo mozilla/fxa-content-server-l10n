@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 18:25+0000\n"
+"PO-Revision-Date: 2018-08-21 14:30+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -172,15 +172,15 @@ msgstr "Jeśli nie zmieniono hasła, to należy je teraz zmienić pod adresem %(
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "Hasło konta zostało zmienione za pomocą klucza odzyskiwania"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Pomyślnie zmieniono hasło za pomocą klucza odzyskiwania z tego urządzenia:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Będzie trzeba utworzyć nowy klucz odzyskiwania."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
@@ -236,11 +236,11 @@ msgstr "Utworzono klucz odzyskiwania konta"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Pomyślnie utworzono klucz odzyskiwania konta Firefoksa za pomocą tego urządzenia:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Jeśli to nie Ty, to <a %(revokeAccountRecoveryLinkAttributes)s>kliknij tutaj</a>."
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
@@ -254,7 +254,7 @@ msgstr "Pomyślnie utworzono klucz odzyskiwania konta Firefoksa z tego urządze
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Jeśli to nie Ty, to unieważnij klucz."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -320,7 +320,7 @@ msgstr "Pomyślnie usunięto klucz odzyskiwania konta Firefoksa za pomocą tego 
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Tego klucza odzyskiwania nie będzie już można użyć do odzyskania konta."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
@@ -582,7 +582,7 @@ msgstr "Usunięto drugi adres e-mail konta Firefoksa"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Zmiana hasła konta Firefoksa za pomocą klucza odzyskiwania"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
