@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 17:33+0000\n"
+"PO-Revision-Date: 2018-08-21 17:48+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -2065,46 +2065,50 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">GLĚDAJŚO: </span>Gronidło wašogo konta Firefox waše daty Firefox koděrujo. Jano wašo gronidło abo waš wótnowjeński kluc maju pśistup k wašym datam. <a "
+"%(escapedLearnMoreLinkAttributes)s>Dalšne informacije</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Kšac 1 z 2: Gronidko znowego zapódaś"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Zapódajśo swójo gronidło, aby swój wótnowjeński kluc wiźeł."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Gronidko zapódaś"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Cośo napšawdu wótwołaś?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Njamaśo pśistup k swójim datam ze swójim wótnowjeńskim klucom, gaž swójo gronidło slědk stajijośo."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Kšac 2 z 2: Wótnowjeński kluc składowaś"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">GLĚDAJŚO: </span>Jolic swójo gronidło zabydnjośo, jo toś ten kluc trěbny, aby zasej pśistup k swójim datam dojśpił. Składujśo swój wótnowjeński kluc na wěstem městnje, źož "
+"móžośo jen lažko zasej namakaś."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Wobraz śišćarskego tłocaška"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Wobraz ześěgnjeńskego tłocaška"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Dokóńcone, wótnowjeński kluc jo skłaźony"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
