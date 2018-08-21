@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 17:48+0000\n"
+"PO-Revision-Date: 2018-08-21 20:42+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1814,11 +1814,11 @@ msgstr "Wótnowjeński kod wužywaś"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "NJezgubujśo toś to gronidko. Jolic musyśo jo slědk stajiś, zgubijośo snaź synchronizaciske daty."
+msgstr "NJezgubujśo toś to gronidło. Jolic musyśo jo slědk stajiś, zgubijośo snaź synchronizaciske daty."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>Njewužywajśo swójo e-mailowe gronidło znowego</span>Jolici něchten wašo e-mailowe gronidło wě, móžo wašo pśizjawjenje Firefox na nowem rěźe wobkšuśiś a změjo pśistup k wašym datam."
+msgstr "<span>Njewužywajśo swójo e-mailowe gronidło znowego</span>Jolic něchten wašo e-mailowe gronidło wě, móžo wašo pśizjawjenje Firefox na nowem rěźe wobkšuśiś a změjo pśistup k wašym datam."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
@@ -2065,12 +2065,12 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">GLĚDAJŚO: </span>Gronidło wašogo konta Firefox waše daty Firefox koděrujo. Jano wašo gronidło abo waš wótnowjeński kluc maju pśistup k wašym datam. <a "
+"<span class=\"note\">GLĚDAJŚO: </span>Gronidło wašogo konta Firefox waše daty Firefox koděrujo. Jano wašo gronidło abo waš wótnowjeński kluc ma pśistup k wašym datam. <a "
 "%(escapedLearnMoreLinkAttributes)s>Dalšne informacije</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr "Kšac 1 z 2: Gronidko znowego zapódaś"
+msgstr "Kšac 1 z 2: Gronidło znowego zapódaś"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -2078,7 +2078,7 @@ msgstr "Zapódajśo swójo gronidło, aby swój wótnowjeński kluc wiźeł."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr "Gronidko zapódaś"
+msgstr "Gronidło zapódaś"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
