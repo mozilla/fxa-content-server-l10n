@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 20:35+0000\n"
+"PO-Revision-Date: 2018-08-21 20:50+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -2056,57 +2056,61 @@ msgstr "Wobnowjenski kluč"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Njepostajeny"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Wutworić"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">KEDŹBU: </span>Hesło wašeho konta Firefox waše daty Firefox zaklučuje. Jenož waše hesło abo waš wobnowjenski kluč ma přistup na waše daty. <a "
+"%(escapedLearnMoreLinkAttributes)s>Dalše informacije</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Krok 1 z 2: Hesło znowa zapodać"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Zapodajće swoje hesło, zo byšće swój wobnowjenski kluč widźał."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Hesło zapodać"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Chceće woprawdźe wotwołać?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Nimaće přistup na swojim datam ze swojim wobnowjenskim klučom, hdyž swoje hesło wróćó stajiće."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Krok 2 z 2: Wobnowjenski kluč składować"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">KEDŹBU: </span>Jeli swoje hesło zabudźeće, je tutón kluč trěbny, zo byšće zaso přistup na swoje daty dóstał. Składujće swój wobnowjenski kluč na wěstym městnje, hdźež móžeće jón"
+" lochko zaso namakać."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Wobraz ćišćerskeho tłóčatka"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Wobraz sćehnjenskeho tłóčatka"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Dokónčene, wobnowjenski kluč je składowany"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
