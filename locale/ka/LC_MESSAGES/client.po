@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 05:33+0000\n"
+"PO-Revision-Date: 2018-08-21 05:34+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1090,7 +1090,7 @@ msgid ""
 "Firefox for desktop will appear."
 msgstr ""
 "სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
-"Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
+"Firefox-ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1306,7 +1306,7 @@ msgstr "გამოიყენეთ OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4 .es5/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "გამოიყენეთ Firefox ანგარიში"
+msgstr "გამოიყენეთ Firefox-ანგარიში"
 
 #: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
@@ -1483,7 +1483,7 @@ msgstr "გაუქმება"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr "ელფოსტაზე შესაძლოა გამოგიგზავნოთ წერილები თქვენს Firefox ანგარიშთან დაკავშირებით."
+msgstr "ელფოსტაზე შესაძლოა გამოგიგზავნოთ წერილები თქვენს Firefox-ანგარიშთან დაკავშირებით."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
@@ -1532,7 +1532,7 @@ msgstr "თქვენი პაროლი განულებულია.
 
 #: .es5/views/ready.js:48 .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "ახლა უკვე შეგიძლიათ თქვენს Firefox ანგარიშზე ცვლილებების შეტანა."
+msgstr "ახლა უკვე შეგიძლიათ თქვენს Firefox-ანგარიშზე ცვლილებების შეტანა."
 
 #: .es5/views/ready.js:50 .es5/views/ready.js:91
 msgid "Primary email verified"
@@ -1820,7 +1820,7 @@ msgstr "არ დაკარგოთ ეს პაროლი. მისი 
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>არ გამოიყენოთ თქვენი ელფოსტის პაროლი</span>თუ ვიღაც გაიგებს თქვენი ელფოსტის პაროლს, ის ასევე შეძლებს თქვენს Firefox ანგარიშზე შესვლასა და თქვენს მონაცემებთან წვდომის მიღებას."
+msgstr "<span>არ გამოიყენოთ თქვენი ელფოსტის პაროლი</span>თუ ვიღაც გაიგებს თქვენი ელფოსტის პაროლს, ის ასევე შეძლებს თქვენს Firefox-ანგარიშზე შესვლასა და თქვენს მონაცემებთან წვდომის მიღებას."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
@@ -1841,7 +1841,7 @@ msgstr "არცერთი არაა დაკავშირებულ�
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
-"თქვენ მიიღებთ ცნობებს თქვენი ანგარიშის უსაფრთხოების, მომსახურების პირობებში ცვლილებების, თქვენი ანგარიშის მდგომარეობის შესახებ და სხვა სასარგებლო ინფორმაციას, Firefox ანგარიშებთან დაკავშირებით."
+"თქვენ მიიღებთ ცნობებს თქვენი ანგარიშის უსაფრთხოების, მომსახურების პირობებში ცვლილებების, თქვენი ანგარიშის მდგომარეობის შესახებ და სხვა სასარგებლო ინფორმაციას, Firefox-ანგარიშებთან დაკავშირებით."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1962,7 +1962,7 @@ msgstr "ძირითადი ელფოსტა"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr "თქვენი Firefox ანგარიშის პაროლი"
+msgstr "თქვენი Firefox-ანგარიშის პაროლი"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
