@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 18:03+0000\n"
+"PO-Revision-Date: 2018-08-22 18:36+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -578,7 +578,7 @@ msgstr "أُزيلَ البريد الإلكتروني الثانوي لحساب
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "صُفِّرت كلمة سرّ حساب فَيَرفُكس بمفتاح الاستعادة"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
