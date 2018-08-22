@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 15:25+0000\n"
-"Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
+"PO-Revision-Date: 2018-08-22 16:28+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -1076,7 +1076,7 @@ msgstr "لم يصل؟ أعِد الإرسال"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "لمَ عليّ مزامنة جهازين (أو أكثر)؟"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -1642,11 +1642,11 @@ msgstr "الاستيثاق بخطوتين"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "لم يجري"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "آخر فحص كان منذ: %(lastCheckTime)s"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -1794,7 +1794,7 @@ msgstr "أدخِل الرمز"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "افتح التطبيق الذي تريد توثيقه وأدخِل رمز الأمان المعروض فيه."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1858,7 +1858,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "رموز الاستعادة"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1918,7 +1918,7 @@ msgstr "فعّل"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "استبدل رموز الاستعادة"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1930,7 +1930,7 @@ msgstr "ألا يمكنك مسح الرمز ضوئيا؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "أدخِل يدويًا هذا المفتاح السري في التطبيق الذي تريد توثيقه:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1942,7 +1942,7 @@ msgstr "أكِّد"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "قبل أن تقدر على عرض أو إجراء التغييرات على هذا القسم، عليك تأكيد عنوان بريدك الإلكتروني."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -1950,11 +1950,11 @@ msgstr "البريد الأولي"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "كلمة سر حساب فَيَرفُكس"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "يجب ألا تكون مطابقة لعنوان البريد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
@@ -2110,7 +2110,7 @@ msgstr "لج"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "لِج"
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
