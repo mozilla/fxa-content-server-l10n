@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-07-17 16:54+0000\n"
-"Last-Translator: ravmn <ravmn@ravmn.cl>\n"
+"PO-Revision-Date: 2018-08-22 17:47+0000\n"
+"Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -536,9 +536,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS no enviado, probá de nuevo"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Al proceder, acuerda con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1742,8 +1740,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>RECUERDA:</span> Cuando restablece la contraseña, se restablece su cuenta. Puede perder parte de su información personal (incluyendo historia, marcadores y contraseñas). Eso es porque "
-"ciframos los datos con su contraseña para proteger su privacidad."
+"<span>RECUERDA:</span> Cuando restablece la contraseña, se restablece su cuenta. Puede perder parte de su información personal (incluyendo historia, marcadores y contraseñas). Eso es porque ciframos"
+" los datos con su contraseña para proteger su privacidad."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
@@ -1774,8 +1772,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTE:</span> Cuando restablece la contraseña, se restablece su cuenta. Puede perder parte de su información personal (incluyendo historia, marcadores y contraseñas). Eso es porque ciframos "
-"los datos con contraseña para proteger su privacidad."
+"<span>NOTE:</span> Cuando restablece la contraseña, se restablece su cuenta. Puede perder parte de su información personal (incluyendo historia, marcadores y contraseñas). Eso es porque ciframos los"
+" datos con contraseña para proteger su privacidad."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1996,123 +1994,127 @@ msgstr "Usar una dirección de correo electrónico diferente"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:105
 msgid "Account Recovery"
-msgstr ""
+msgstr "Recuperación de la cuenta"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Código de recuperación de Firefox"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "El código de recuperación no es válido"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
-msgstr ""
+msgstr "Se requiere el código de recuperación"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Restablecer la contraseña con la clave de recuperación"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Por favor, ingrese la clave de recuperación de un solo uso que guardó en un lugar seguro para recuperar el acceso a su cuenta de Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">NOTA:</span> Si restablece su contraseña y no tiene una clave de recuperación de cuenta guardada, algunos de sus datos serán eliminados (incluyendo los datos sincronizados con "
+"el servidor tales como el historial y los marcadores)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Ingresar la clave de recuperación"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Confirmar la clave de recuperación"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "¿No tiene una clave de recuperación?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Restauró exitosamente su cuenta usando su clave de recuperación. Cree una nueva contraseña para asegurar sus datos, y guárdela en un lugar seguro."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Generar una nueva clave de recuperación"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Continuar a mi cuenta"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Recuperación de la cuenta"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Generar una clave de recuperación para recuperar el acceso a los marcadores, contraseñas y datos sincronizados de Firefox si olvida su contraseña."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Clave de recuperación"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "No establecida"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Generar"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">NOTA: </span>La contraseña de su cuenta de Firefox cifra sus datos de Firefox. Solo su contraseña o su clave de recuperación pueden acceder a sus datos. <a "
+"%(escapedLearnMoreLinkAttributes)s>Conocer más</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Paso 1 de 2: Reingresar la contraseña"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Ingrese su nueva contraseña para ver su clave de recuperación."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Ingresar la contraseña"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "¿Está seguro de que desea anularlo?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "No podrá usar su clave de recuperación para acceder a sus datos en el caso de que restablezca su contraseña."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Paso 2 de 2: Guardar la clave de recuperación"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">NOTA: </span>Si olvida su contraseña, esta clave será requerida para recuperar el acceso a sus datos. Guarde su clave de recuperación en un lugar seguro, donde pueda encontrarla"
+" con facilidad más tarde."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Imagen de botón de impresión"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Imagen de botón de descarga"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Hecho, clave de recuperación guardada"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
@@ -2133,15 +2135,15 @@ msgid "Sign in"
 msgstr "Iniciar sesión"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>Recuerde:</span> Si restablece la contraseña, algunos de sus datos se eliminarán (incluyendo los datos sincronizados del servidor como el historial y los marcadores). Eso es porque "
-#~ "ciframos los datos con la contraseña para proteger su privacidad."
+#~ "<span>Recuerde:</span> Si restablece la contraseña, algunos de sus datos se eliminarán (incluyendo los datos sincronizados del servidor como el historial y los marcadores). Eso es porque ciframos "
+#~ "los datos con la contraseña para proteger su privacidad."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>Nota:</span> Si restablece la contraseña, algunos de sus datos se borrarán (incluyendo los datos sincronizados del servidor como el historial y los marcadores). Eso es porque ciframos los "
 #~ "datos con contraseña para proteger su privacidad."
@@ -2186,8 +2188,8 @@ msgstr "Iniciar sesión"
 
 #~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>No vuelva a utilizar su contraseña de correo electrónico</span><br>Si alguien sabe su contraseña de correo electrónico, puede aprobar su ingreso a Firefox en un nuevo dispositivo y acceder "
-#~ "a sus datos."
+#~ "<span>No vuelva a utilizar su contraseña de correo electrónico</span><br>Si alguien sabe su contraseña de correo electrónico, puede aprobar su ingreso a Firefox en un nuevo dispositivo y acceder a "
+#~ "sus datos."
 
 #~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Recuerde su contraseña</span><br>Si necesita restablecer su contraseña, perderá cualquier sincronización de datos que no esté en uno de sus dispositivos."
@@ -2280,11 +2282,11 @@ msgstr "Iniciar sesión"
 #~ msgstr "¿Tenés una cuenta con diferente correo electrónico? <a href=\"%(signinUri)s\">Iniciá sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última vez activo: %(translatedTimeAgo)s"
@@ -2380,8 +2382,8 @@ msgstr "Iniciar sesión"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan "
-#~ "distintas funciones, como la de recordarte entre sesiones."
+#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan distintas "
+#~ "funciones, como la de recordarte entre sesiones."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -2462,9 +2464,7 @@ msgstr "Iniciar sesión"
 #~ msgstr "¿Ya tenés cuenta? Ingresá."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube "
-#~ "de Firefox."
+#~ msgstr "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscribite a novedades y sugerencias de Firefox"
