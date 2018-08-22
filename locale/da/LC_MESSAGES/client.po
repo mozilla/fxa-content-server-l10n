@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 10:03+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2018-08-22 07:51+0000\n"
+"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -2034,7 +2034,7 @@ msgstr "Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle. Opr
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Opret en ny genoprettelsesnøgle"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
@@ -2046,7 +2046,7 @@ msgstr "Genoprettelse af konto"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Opret en genoprettelsesnøgle, så du kan få adgang til dine bogmærker, adgangskoder og synkroniserede data i Firefox, hvis du glemmer din adgangskode."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2054,21 +2054,23 @@ msgstr "Genoprettelsesnøgle"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Mangler"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Opret"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">BEMÆRK: </span>Adgangskoden til din Firefox-konto krypterer dine Firefox-data. Derfor kan du udelukkende få adgang til dine data med din adgangskode eller genoprettelsesnøgle. "
+"<a %(escapedLearnMoreLinkAttributes)s>Læs mere</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Trin 1 af 2: Indtast adgangskoden igen"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
