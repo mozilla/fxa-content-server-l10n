@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-21 01:38+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2018-08-22 13:12+0000\n"
+"Last-Translator: YD <ygda+fx@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2039,7 +2039,7 @@ msgstr "Vous n’avez pas de clé de récupération ?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Vous avez restauré avec succès votre compte en utilisant votre clé de récupération. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2105,7 +2105,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Image de la touche « Impression »"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Terminé, clé de récupération enregistrée"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
