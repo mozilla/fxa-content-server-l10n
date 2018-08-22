@@ -2034,7 +2034,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "ولّد مفتاح استعادة جديد لاستعادة الوصول الي العلامات والتأريخ والبيانات المُزامنة في حالة فقدان كلمة سرك."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"

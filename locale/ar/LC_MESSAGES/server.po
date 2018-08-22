@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 16:30+0000\n"
-"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
+"PO-Revision-Date: 2018-08-22 18:03+0000\n"
+"Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -178,15 +178,15 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "سيكون عليك تولّيد مفتاح استعادة جديد."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "أنشئ مفتاح استعادة جديد"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "أنشئ مفتاح استعادة جديد:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -230,7 +230,7 @@ msgstr "فريق مشروع حسابات فَيَرفُكس"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "وُلّد مفتاح استعادة الحساب"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "حُذفَ مفتاح استعادة الحساب"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
