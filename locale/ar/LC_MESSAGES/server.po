@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 11:32+0000\n"
+"PO-Revision-Date: 2018-08-23 11:35+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -238,7 +238,7 @@ msgstr "نجح توليد مفتاح استعادة للحساب باستخدا�
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "إن لم يكن هذا أنت <a %(revokeAccountRecoveryLinkAttributes)s>فانقر هنا</a>."
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
@@ -248,11 +248,11 @@ msgstr "أدِر الحساب"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "نجح توليد مفتاح استعادة للحساب من حسابَ فَيَرفُكس في الجهاز الآتي:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "إن لم يكن هذا أنت فاسحب المفتاح."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -262,7 +262,7 @@ msgstr "أدِر الحساب:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1064
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "فُعّل الاستيثاق بخطوتين"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -300,11 +300,11 @@ msgstr ""
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1128
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "وُلّدت رموز استعادة جديدة"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "نجح توليد رموز استعادة جديدة من الجهاز الآتي:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
@@ -312,7 +312,7 @@ msgstr "حُذفَ مفتاح استعادة الحساب"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "نجحت إزالة مفتاح استعادة الحساب من حسابَ فَيَرفُكس باستخدام الجهاز الآتي:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
@@ -338,7 +338,7 @@ msgstr "هذا بريد إلكتروني الآلي، إذا تلقيته لوج
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1096
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "عُطّل الاستيثاق بخطوتين"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -346,7 +346,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "لن تعود رموز الاستعادة مطلوبة للولوج."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
@@ -466,7 +466,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "إن لم تكن قد استوثقت هذا الإجراء <a %(passwordChangeLinkAttributes)s>فرجاءً غيّر كلمة السر</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "

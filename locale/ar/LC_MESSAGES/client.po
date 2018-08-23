@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 11:29+0000\n"
+"PO-Revision-Date: 2018-08-23 11:37+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1966,7 +1966,7 @@ msgstr "يجب ألا تتطابق مع <a %(escapedCommonPasswordLinkAttrs)s>ق
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "فلتكن كلمة أصلية لتكون آمنًا &mdash; لا تُعد استخدام هذه الكلمة في أي مكان آخر."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
