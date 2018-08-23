@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 11:11+0000\n"
+"PO-Revision-Date: 2018-08-23 11:29+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1566,7 +1566,7 @@ msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s بقرب %(tra
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -1574,7 +1574,7 @@ msgstr "آخر نشاط %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -1582,7 +1582,7 @@ msgstr "آخر نشاط %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
@@ -1733,6 +1733,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>تذكر:</span> عندما تصفّر كلمة السر تكون بذلك تصفّر حسابك. قد تفقد بعضًا من معلوماتك الشخصية (بما في ذلك التأريخ والعلامات وكلمات السر). يعود السبب إلى أننا نُعمّي بياناتك باستخدام كلمة السر "
+"وذلك لنحمي خصوصيتك."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
@@ -1763,6 +1765,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>ملاحظة:</span> عندما تصفّر كلمة السر تكون بذلك تصفّر حسابك. قد تفقد بعضًا من معلوماتك الشخصية (بما في ذلك التأريخ والعلامات وكلمات السر). يعود السبب إلى أننا نُعمّي بياناتك باستخدام كلمة السر "
+"وذلك لنحمي خصوصيتك."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1814,7 +1818,7 @@ msgstr "<span>لا تستخدم كلمة سر بريدك الإلكتروني</s
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>تذكّر كلمة السر</span>إن احتجت إلى تصفير كلمة السر، فستفقد كل البيانات المُزامنة غير الموجودة على أي جهاز من الأجهزة لديك."
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
@@ -1922,7 +1926,7 @@ msgstr "استبدل رموز الاستعادة"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "امسح رمز QR ضوئيًا في التطبيق الذي تريد استيثاقه وأدخِل رمز الأمان المعروض فيه."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1958,7 +1962,7 @@ msgstr "يجب ألا تكون مطابقة لعنوان البريد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "يجب ألا تتطابق مع <a %(escapedCommonPasswordLinkAttrs)s>قائمة كلمات السر الشائعة</a> هذه"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
@@ -1966,7 +1970,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "تذكّر كلمة السر هذه &mdash; إن صفّرتها تكون قد مسحت بياناتك من خواديمنا."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1978,7 +1982,7 @@ msgstr "استخدم عنوان بريد إلكتروني آخر"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:105
 msgid "Account Recovery"
-msgstr ""
+msgstr "استعادة الحساب"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
@@ -2018,7 +2022,7 @@ msgstr "لا تملك مفتاح الاستعادة؟"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "نجحت استعادة حسابك باستخدام مفتاح الاستعادة لديك. أنشِئ كلمة سر جديدة لتأمين بياناتك وخزّنها في مكان آمن."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2026,11 +2030,11 @@ msgstr "ولّد مفتاح استعادة جديد"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "تابِع نحو حسابي"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "استعادة الحساب"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -2046,7 +2050,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "ولّد"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -2058,7 +2062,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "خطوة ١ من أصل ٢: أعِد إدخال كلمة السر"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -2074,7 +2078,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "لن تقدر على استخدام مفتاح الاستعادة للوصول إلى بياناتك في حال صفّرت كلمة السر."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
