@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-07 12:45+0000\n"
+"PO-Revision-Date: 2018-08-23 14:14+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -19,15 +19,15 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Firefox хисап язмагызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Хәзер башка җиһазларыгыздан, шул исәптән <a href='%(androidUrl)s'>Android</a> һәм <a href='%(iosUrl)s'>iOS</a> өчен Firefox'тан да, "
+"Firefox Хисабыгызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Хәзер башка җиһазларыгыздан, шул исәптән <a href='%(androidUrl)s'>Android</a> һәм <a href='%(iosUrl)s'>iOS</a> өчен Firefox'тан да, "
 "Синхронлауга керә аласыз."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Firefox хисап язмагызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Синхронлаудан күбрәк файда алу өчен, куллана торган булсагыз, <a href='%(androidUrl)s'>Android өчен Firefox</a> яки <a "
+"Firefox Хисабыгызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Синхронлаудан күбрәк файда күрү өчен, куллана торган булсагыз, <a href='%(androidUrl)s'>Android өчен Firefox</a> яисә <a "
 "href='%(iosUrl)s'>iOS өчен Firefox</a>'ны да тоташтырыгыз."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -52,11 +52,11 @@ msgstr "Firefox Хисаплары"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1192
 msgid "Low recovery codes remaining"
-msgstr "Яңадан торгызу кодлары аз калды"
+msgstr "Коткару кодлары аз калды"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Яңадан торгазу кодларыгыз аз калганына игътибар иттек. Аккаунтыгызның блоклануыннан саклану өчен, яңа кодлар ясату турында уйлап карагыз."
+msgstr "Коткару кодларыгыз аз калганына игътибар иттек. Зинар, кодларыгыз бетеп хисабыгызның бикләнеп калуыннан саклану өчен, яңа кодлар ясату турында уйлап карагыз."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -90,11 +90,11 @@ msgstr "Күбрәк белү өчен, <a %(supportLinkAttributes)s>Mozilla Я�
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
-msgstr "Mozilla'ның хосусыйлык сәясәте"
+msgstr "Mozilla'ның Хосусыйлык Сәясәте"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Коткару кодларыгыз аз калганына игътибар иттек. Кодларыгыз бетеп аккаунтыгыз бикләнеп калмасын өчен яңаларын ясатыгыз."
+msgstr "Коткару кодларыгыз аз калганына игътибар иттек. Зинһар, кодларыгыз бетеп хисабыгыз бикләнеп калмасын өчен яңаларын ясату турында уйлап карагыз."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
@@ -132,19 +132,19 @@ msgstr "IP адрес: %(ip)s"
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(passwordChangeLinkAttributes)s>серсүзегезне үзгәртегез</a>."
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(passwordChangeLinkAttributes)s>паролыгызны үзгәртегез</a>."
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Бу автоматик электрон хат. Әгәр Firefox хисап язмагызга яңа җиһазны өстәмәгән булсагыз, тиз арада %(passwordChangeLink)s битендә серсүзегезне үзгәртегез"
+msgstr "Бу автоматик бер электрон хат. Әгәр Firefox Хисабыгызга яңа җиһазны өстәмәгән булсагыз, хәзер үк %(passwordChangeLink)s битендә паролыгызны үзгәртегез"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr "Серсүз уңышлы үзгәртелде"
+msgstr "Парол уңышлы үзгәртелде"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Firefox хисап язмагызның серсүзе түбәндәге җиһаздан уңышлы гына үзгәртелде:"
+msgstr "Firefox Хисабыгызның паролы түбәндәге җиһаздан уңышлы гына үзгәртелде:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -172,23 +172,23 @@ msgstr "Серсүзегезне үзгәртмәгән булсагыз, зин
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "Хисабыгызның паролы коткару коды ярдәмендә алыштырылды"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Түбәндәге җиһазны кулланып, коткару коды ярдәмендә паролыгызны алыштырдыгыз:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Сезгә яңа коткару ачкычын ясату кирәк булачак."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Яңа коткару ачкычын ясату"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Яңа коткару ачкычын ясату:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -234,29 +234,29 @@ msgstr "Firefox Хисап язмалары такымы"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Хисапны торгызу ачкычы яратылды"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Түбәндәге җиһазны кулланып, Firefox Хисабыгыз өчен хисапны торгызу ачкычын ясату уңышлы булды:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Әгәр дә моны Сез эшләмәгән булсагыз, <a %(revokeAccountRecoveryLinkAttributes)s>монда басыгыз.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
-msgstr "Хисап язмагыз белән идарә итү"
+msgstr "Хисап белән идарә итү"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Түбәндәге җиһазны кулланып, Firefox Хисап өчен хисапны торгызу ачкычын ясату уңышлы булды:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Әгәр дә моны Сез эшләмәгән булсагыз, ачкычны кире кайтарыгыз."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -314,19 +314,19 @@ msgstr "Түбәндәге җиһаз ярдәмендә яңа коткару �
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Хисапны коткару ачкычы бетерелде"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Түбәндәге җиһазны кулланып, Firefox Хисабыгыз өчен хисапны коткару кодын уңышлы бетердегез:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Бу коткару коды инде хисабыгызны торгызу өчен кулланыла алмас."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Түбәндәге җиһазны кулланып, Firefox Хисабыгыз өчен хисапны коткару кодын уңышлы бетердегез:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -584,7 +584,7 @@ msgstr "Икенчел Firefox Хисабы эл. почтасы бетерел�
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Firefox Хисабының паролы коткару коды ярдәмендә алыштырылды"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
