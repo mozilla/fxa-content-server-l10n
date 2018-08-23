@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 19:08+0000\n"
-"Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
+"PO-Revision-Date: 2018-08-23 11:11+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -1546,7 +1546,7 @@ msgstr "آخر مزامنة %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -1554,7 +1554,7 @@ msgstr "آخر مزامنه %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -1562,7 +1562,7 @@ msgstr "آخر مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، 
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
@@ -1834,7 +1834,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "يمكنك (إضافة إلى ذلك) الاشتراك لاستقبال الرسائل البريدية الترويجية عن أحث الأخبار من موزيلا وفَيَرفُكس."
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
@@ -1998,11 +1998,11 @@ msgstr "صفِّر كلمة السرّ بمفتاح الاستعادة"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "رجاءً أدخِل مفتاح الاستعادة ذو الاستخدام الواحد الذي خزنته في مكان آمن لاستعادة الوصول إلى حساب فَيَرفُكس."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
+msgstr "<span class=\"note\">ملاحظة:</span> إن صفّرت كلمة السر ولم يكن لديك أي مفتاح استعادة للحساب، ستُمحى بعض البيانات (بما في ذلك البيانات المُزامنة بالخادوم مثل التأريخ والعلامات)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -2034,7 +2034,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "ولّد مفتاح استعادة جديد لاستعادة الوصول إلى العلامات وكلمات السر والبيانات المُزامنة في حال فقدت كلمة السر."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2053,6 +2053,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">ملاحظة:</span> تُعمّي كلمة سر حساب فَيَرفُكس بياناتك في فَيَرفُكس. لا يمكن لأحد الوصول إليها دون كلمة السر أو مفتاح الاستعادة. <a %(escapedLearnMoreLinkAttributes)s>اطّلع على "
+"المزيد</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
