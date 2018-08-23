@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 15:44+0000\n"
+"PO-Revision-Date: 2018-08-23 16:12+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2012,31 +2012,33 @@ msgstr "Restabilir le contrasigno con le clave de recuperation"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Per favor insere le clave de recuperation a uso unic tu servava in un loco secur pro reganiar accesso a tu conto de Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">NOTA:</span> Si tu restabili tu contrasigno e non ha salvate un clave de recuperation del conto, alcun de tu datos sera cancellate (anque le datos de servitor synchronisate como"
+" chronologia e marcapaginas)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Insere le clave de recuperation"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Confirma le clave de recuperation"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Non ha tu un clave de recuperation?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Tu ha restaurate con successo tu conto per tu clave de recuperation. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Generar un nove clave de recuperation"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
