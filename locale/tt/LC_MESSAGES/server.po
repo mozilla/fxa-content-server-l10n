@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 14:14+0000\n"
+"PO-Revision-Date: 2018-08-23 14:16+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -148,11 +148,11 @@ msgstr "Firefox Хисабыгызның паролы түбәндәге җиһ�
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(resetLinkAttributes)s>яңа серсүз сайлагыз</a>."
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(resetLinkAttributes)s>паролыгызны үзгәртегез</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Бу автоматик бер электрон хат. Firefox хисап язмагызның серсүзен үзгәртмәгән булсагыз, тиз арада %(resetLink)s адресында яңа серсүз сайлагыз."
+msgstr "Бу автоматик бер электрон хат. Firefox Хисабыгызның паролын үзгәртмәгән булсагыз, %(resetLink)s адресында хәзер үк паролыгызны алыштырыгыз"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
