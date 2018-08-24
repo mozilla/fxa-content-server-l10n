@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 21:04+0000\n"
+"PO-Revision-Date: 2018-08-24 15:37+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -2008,6 +2008,8 @@ msgstr "Sekcem tasarutt n tririt ara tesqedceḍ tikkelt kan, i teskelseḍ deg 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">TAZMILT:</span> Ma twennzeḍ awal uffir-ik/im u ur tesɛiḍ ara tasarutt n tririt ittwakelsen, kra n isefka ad ttwaksen (ula d isefka n uqeddac yemtawin am umezray akked tecraḍ n "
+"isebtar)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
