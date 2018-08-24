@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 11:11+0000\n"
+"PO-Revision-Date: 2018-08-24 11:31+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -116,7 +116,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68 .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
-msgstr "آخر نشاط %(translatedTimeAgo)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118 .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -1304,15 +1304,15 @@ msgstr "استخدام حساب فَيَرفُكس"
 
 #: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
-msgstr "أول مزامنة %(translatedTimeAgo)s"
+msgstr "جرت أول مزامنة %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
-msgstr "آخر مزامنة %(translatedTimeAgo)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
-msgstr "آخر نشاط %(translatedTimeAgo)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
@@ -1542,51 +1542,51 @@ msgstr "أُكِّد البريد الإلكتروني الثانوي"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr "آخر مزامنة %(translatedTimeAgo)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "آخر مزامنه %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "آخر مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgstr "جرت آخ مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "آخر مزامنة كانت قبل %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s أو أكثر"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "آخر نشاط %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s أو أكثر في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "آخر نشاط %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "آخر نشاط كان قبل %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgstr "كان آخر نشاط %(translatedTimeAgo)s أو أكثر بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr "كان قبل %(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s أو أكثر"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -1594,7 +1594,7 @@ msgstr "%(translatedTimeAgo)s في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "كان قبل %(translatedTimeAgo)s في %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s أو أكثر في %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
