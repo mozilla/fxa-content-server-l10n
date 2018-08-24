@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 10:35+0000\n"
+"POT-Creation-Date: 2018-08-24 16:04+0000\n"
 "PO-Revision-Date: 2018-08-15 19:20+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -614,6 +614,10 @@ msgid "We are currently under heavy strain and are working to return the system 
 msgstr "हम भारी दबाव के तहत वर्तमान में कर रहे हैं और जितनी जल्दी हो सके सामान्य करने के लिए प्रणाली वापस करने के लिए काम कर रहे हैं."
 
 #: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "फ़ायरफ़ॉक्स खातों को JavaScript आवश्यक है."
 

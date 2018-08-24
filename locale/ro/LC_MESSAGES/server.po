@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 10:35+0000\n"
+"POT-Creation-Date: 2018-08-24 16:04+0000\n"
 "PO-Revision-Date: 2018-05-06 19:31+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -622,6 +622,10 @@ msgid "We are currently under heavy strain and are working to return the system 
 msgstr "Suntem în prezent suprasolicitați și lucrăm să readucem sistemul la normal cât mai curând posibil."
 
 #: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Conturile Firefox necesită JavaScript."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 10:35+0000\n"
+"POT-Creation-Date: 2018-08-24 16:04+0000\n"
 "PO-Revision-Date: 2017-02-28 23:09+0000\n"
 "Last-Translator: hee <ilmag2@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -616,6 +616,10 @@ msgid "We are currently under heavy strain and are working to return the system 
 msgstr "현재 접속자가 많습니다. 최대한 빨리 정상화 하도록 하겠습니다."
 
 #: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
