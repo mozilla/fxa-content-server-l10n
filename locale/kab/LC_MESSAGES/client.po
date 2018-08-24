@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 15:37+0000\n"
+"PO-Revision-Date: 2018-08-24 15:58+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -2025,7 +2025,7 @@ msgstr "Ur ɣur-k ara tasarutt n tririt?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Terriḍ-d akken iwata amiḍan-ik/im s tsarutt n tririt. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2041,7 +2041,7 @@ msgstr "Tiririt n umiḍan"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Sirew tasarutt n tririt akken ad tizmireḍ ad tkecmeḍ ɣer tecraḍ n isebtar Firefox, awalen uffiren, akked isefka yemtawin ma tettuḍ awal uffir-ik/im."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2079,7 +2079,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Ur tettizmireḍ ara ad tesqedceḍ tasarutt n tririt-ik/im akken ad tkecmeḍ ɣer isefka-inek/inem ma twennzeḍ awal uffir-ik/im."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
