@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 10:49+0000\n"
+"PO-Revision-Date: 2018-08-24 11:11+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1238,7 +1238,7 @@ msgstr "فَيَرفُكس لأندرويد"
 
 #: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26 .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr "عناصر مفقودة أو مكررة؟"
+msgstr "أترى عناصر متكررة أو لا تجد أخرى؟"
 
 #: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
@@ -1473,7 +1473,7 @@ msgstr "يفضل أن تنصّب فِيَرفُكس على عدة أجهزة م�
 #: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr "انقض"
+msgstr "اسحب الوصول"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
