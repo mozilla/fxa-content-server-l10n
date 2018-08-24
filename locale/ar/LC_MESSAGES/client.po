@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 12:09+0000\n"
-"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
+"PO-Revision-Date: 2018-08-24 12:39+0000\n"
+"Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -1858,7 +1858,7 @@ msgstr "البريد الإلكتروني الثانوي هو عنوان إضا�
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "أنعِش الحالة"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
