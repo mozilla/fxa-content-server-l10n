@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 12:26+0000\n"
+"PO-Revision-Date: 2018-08-24 21:32+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -266,7 +266,7 @@ msgstr "فُعّل الاستيثاق بخطوتين"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "نجح تفعيل الاستيثاق بخطوتين لحسابَ فَيَرفُكس بالجهاز الآتي:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -542,7 +542,7 @@ msgstr "أكِّد الولوج الجديد إلى %(clientName)s"
 
 #: lib/senders/email.js:691
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "رمز الولوج إلى فَيَرفُكس"
 
 #: lib/senders/email.js:820
 msgid "Reset your Firefox Account password"
