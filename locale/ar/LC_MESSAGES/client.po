@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 11:31+0000\n"
+"PO-Revision-Date: 2018-08-24 12:09+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -124,7 +124,7 @@ msgstr "اشتركت بنجاح"
 
 #: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr "أُلغِيَ اشتراكك بنجاح"
+msgstr "ألغيتَ الاشتراك بنجاح"
 
 #: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43 .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
@@ -933,7 +933,7 @@ msgstr "تابِع نحو %(serviceName)s"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "عند إعادة تعيين كلمة السرّ الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على واحد من الأجهزة الخاصة بك."
+msgstr "عندما تُصفّر كلمة السر تفقد أية بيانات مُزامنة ليست على أحد أجهزتك."
 
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 #: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11 .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11
@@ -947,7 +947,7 @@ msgstr "ابدأ التصفير"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr "تذكّر كلمة السر؟ سجل الدخول."
+msgstr "أتذكر كلمة السر؟ لِج إلى الحساب."
 
 #: app/scripts/templates/settings.mustache:1 .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
