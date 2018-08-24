@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 13:17+0000\n"
+"PO-Revision-Date: 2018-08-22 13:27+0000\n"
 "Last-Translator: YD <ygda+fx@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Vous devez générer une nouvelle clé de récupération."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
@@ -590,7 +590,7 @@ msgstr "Adresse électronique secondaire retirée du compte Firefox"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Le mot de passe de votre compte Firefox a été réinitialisé avec une clé de récupération"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
