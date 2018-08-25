@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-25 11:52+0000\n"
+"PO-Revision-Date: 2018-08-25 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -2098,6 +2098,8 @@ msgstr "2. lépés / 2: Mentse a helyreállítókulcsot"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">MEGJEGYZÉS:</span>Ha elfelejti a jelszavát, akkor ez a kulcs szükséges az adatai elérésének visszaszerzéséhez. Mentse a helyreállítási kulcsát biztonságos helyre, ahol később "
+"könnyedén megtalálja."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
