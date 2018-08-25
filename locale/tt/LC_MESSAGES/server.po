@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 14:16+0000\n"
+"PO-Revision-Date: 2018-08-25 21:05+0000\n"
 "Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -156,27 +156,27 @@ msgstr "Бу автоматик бер электрон хат. Firefox Хиса
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr "Хисап язмагызның серсүзе үзгәртелде"
+msgstr "Хисабыгызның паролы үзгәртелде"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Башка җиһазларыгызда да синхронлаштыру дәвам итсен өчен, аларга да яңа серсүзегезне кертүегез кирәк."
+msgstr "Башка җиһазларыгызда да синхронлау дәвам итсен өчен, аларга да яңа паролыгызны кертүегез кирәк."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Серсүзегезне үзгәртмәгән булсагыз, зинһар тиз арада <a %(resetLinkAttributes)s>яңа пароль сайлагыз</a>."
+msgstr "Паролыгызны үзгәртмәгән булсагыз, зинһар хәзер үк <a %(resetLinkAttributes)s>яңа парол куегыз</a>."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Серсүзегезне үзгәртмәгән булсагыз, зинһар тиз арада (re%(resetLink)s битендә яңа серсүз сайлагыз"
+msgstr "Паролыгызны үзгәртмәгән булсагыз, зинһар хәзер үк %(resetLink)s адресында яңа серсүз куегыз"
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "Хисабыгызның паролы коткару коды ярдәмендә алыштырылды"
+msgstr "Хисабыгызның паролы коткару ачкычы ярдәмендә үзгәртелде"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Түбәндәге җиһазны кулланып, коткару коды ярдәмендә паролыгызны алыштырдыгыз:"
+msgstr "Түбәндәге җиһазны кулланып, коткару ачкычы ярдәмендә паролыгызны үзгәрттегез:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
@@ -195,11 +195,11 @@ msgstr "Яңа коткару ачкычын ясату:"
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
 #: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Берәрсе хисап язмагызны кулга төшерергә маташа дип шикләнсәгез, зинһар серсүзегезне үзгәртегез."
+msgstr "Берәрсе хисабыгызны кулга төшерергә маташа дип шикләнсәгез, зинһар паролыгызны үзгәртегез."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Без Сезнең Firefox хисап язмагызда шөбһәле хәрәкәтләр ачыкладык. Сезнең серсүзегез урланган булырга мөмкин."
+msgstr "Без Сезнең Firefox Хисабыгызда шөбһәле гамәлләр булуын ачыкладык. Сезнең паролыгыз урланган булырга мөмкин."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
