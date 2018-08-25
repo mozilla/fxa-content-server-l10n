@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 21:41+0000\n"
-"Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
+"PO-Revision-Date: 2018-08-25 08:59+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -270,11 +270,11 @@ msgstr "نجح تفعيل الاستيثاق بخطوتين لحسابَ فَي�
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "ستكون الآن رموز الاستعادة من تطبيق الاستيثاق مطلوبة للولوج."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "نجح تفعيل الاستيثاق بخطوتين لحساب فَيَرفُكس. ستكون الآن رموز الاستعادة من تطبيق الاستيثاق مطلوبة للولوج."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -284,7 +284,7 @@ msgstr "البريد الإلكتروني الأساسي الجديد"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr ""
+msgstr "نجح تغيير البريد الإلكتروني الأولي إلى %(email)s. سيكون هذا العنوان هو اسم المستخدم الجديد للولوج إلى حساب فَيَرفُكس واستلام التنبيهات الأمنية وتأكيدات الولوج."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1160
 msgid "Recovery code consumed"
@@ -296,7 +296,7 @@ msgstr "نجح استخدام أحد رموز الاستعادة من الجها
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "استهلكت رمز استعادة"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1128
 msgid "New recovery codes generated"
@@ -462,7 +462,7 @@ msgstr "أكّد البريد "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "ما إن تؤكّده ستكون التغييرات على الحساب (مثل إضافة بريد ثانوي) ممكنًا من هذا الجهاز."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -570,7 +570,7 @@ msgstr "أُضيفَ البريد الإلكتروني الثانوي لحساب
 
 #: lib/senders/email.js:1010
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "البريد الأولي الجديد لحساب فَيَرفُكس"
 
 #: lib/senders/email.js:1038
 msgid "Secondary Firefox Account email removed"
