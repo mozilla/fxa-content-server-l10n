@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-24 20:50+0000\n"
+"PO-Revision-Date: 2018-08-25 11:52+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -2033,7 +2033,7 @@ msgstr "Nincs helyreállítási kulcsa?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Sikeresen helyreállította a fiókját a helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2049,7 +2049,7 @@ msgstr "Fiók-helyreállítás"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Állítson elő egy helyreállítási kulcsot, hogy visszakaphassa a hozzáférést a Firefox könyvjelzőihez, jelszavaihoz és szinkronizált adataihoz, ha elfelejtené a jelszavát."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2089,7 +2089,7 @@ msgstr "Biztos, hogy vissza akarja vonni?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Nem fogja tudni használni a visszaállítási kulcsát az adatai eléréséhez, ha helyreállítja a jelszavát."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
