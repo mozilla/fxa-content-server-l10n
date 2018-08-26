@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-26 00:24+0000\n"
+"PO-Revision-Date: 2018-08-26 00:52+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -252,11 +252,11 @@ msgstr "Administrar cuenta"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Haz generado exitosamente una llave de recuperación para tu cuenta de Firefox desde el siguiente dispositivo:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Si no fuiste tú, puedes revocar la llave."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -316,19 +316,19 @@ msgstr "Has generado correctamente nuevos códigos de recuperación desde el sig
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Llave de recuperación de cuenta revocada"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Haz eliminado exitosamente una llave de recuperación para cuenta de Firefox usando el siguiente dispositivo:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Esta llave de recuperación ya no puede ser usada para recuperar tu cuenta."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Haz eliminado exitosamente una llave de recuperación para tu cuenta de Firefox desde el siguiente dispositivo:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -590,7 +590,7 @@ msgstr "Correo secundario de tu cuenta de Firefox eliminado"
 
 #: lib/senders/email.js:1286
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Restablecimiento de contraseña de cuenta de Firefox con llave de recuperación"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
