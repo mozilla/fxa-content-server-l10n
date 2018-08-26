@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-20 14:49+0000\n"
+"PO-Revision-Date: 2018-08-26 23:53+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -274,11 +274,11 @@ msgstr "Ativou com sucesso a autenticação de dois passos na sua Conta Firefox 
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Os códigos de segurança da sua aplicação de autenticação agora serão requeridos a cada início de sessão."
+msgstr "Os códigos de segurança da sua aplicação de autenticação serão agora requeridos a cada início de sessão."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Ativou com sucesso a autenticação de dois passos na sua Conta Firefox. Os códigos de segurança da sua aplicação de autenticação agora serão requeridos a cada início de sessão."
+msgstr "Ativou com sucesso a autenticação de dois passos na sua Conta Firefox. Os códigos de segurança da sua aplicação de autenticação serão agora requeridos a cada início de sessão."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
