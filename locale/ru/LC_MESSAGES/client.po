@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-26 12:48+0000\n"
+"PO-Revision-Date: 2018-08-26 13:13+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -2010,11 +2010,13 @@ msgstr "Сбросить пароль с помощью ключа восста�
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Пожалуйста, введите одноразовый ключ восстановления, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему Аккаунту Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">ПРИМЕЧАНИЕ:</span> Если вы сбросите пароль и у вас не сохранился ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, "
+"такие как история и закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -2030,7 +2032,7 @@ msgstr "У вас нет ключа восстановления?"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Вы успешно восстановили свой аккаунт с помощью ключа восстановления. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте."
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
@@ -2046,7 +2048,7 @@ msgstr "Восстановление аккаунта"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Сгенерируйте ключ восстановления, чтобы восстановить доступ к закладкам, паролям и синхронизированным данным Firefox, если вы забудете свой пароль."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2065,6 +2067,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">ПРИМЕЧАНИЕ: </span>Данные вашего Firefox шифруются с использованием пароля вашего Аккаунта Firefox. Доступ к вашим данным можно получить только зная ваш пароль или ключ "
+"восстановления. <a %(escapedLearnMoreLinkAttributes)s>Подробнее</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
