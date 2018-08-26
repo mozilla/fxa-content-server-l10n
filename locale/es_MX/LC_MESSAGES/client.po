@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-26 00:12+0000\n"
+"PO-Revision-Date: 2018-08-26 00:20+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -2048,65 +2048,69 @@ msgstr "Recuperación de cuenta"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Generar una llave de recuperación para acceder de nuevo a tus marcadores, contraseñas y datos sincronizados si olvidas tu contrasaeña."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Llave de recuperación"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "No establecida"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Generar"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">NOTA:</span>La contraseña de tu cuenta de Firefox encripta tus datos. Solo tu contraseña o tu llave de recuperación pueden acceder a tus datos. <a "
+"%(escapedLearnMoreLinkAttributes)s>Saber más</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Paso 1 de 2: Reingresar contraseña"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Ingresa tu contraseña para ver tu llave de recuperación."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Ingresar contraseña"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "¿Estás seguro que deseas revocarlo?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "No podrás usar tu llave de recuperación para acceder a tus datos en el caso que restablezcas tu contraseña."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Paso 2 de 2: Guardar llave de recuperación"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">NOTA:</span>Si olvidas tu contraseña, esta llave se necesita para acceder a tus datos. Guarda tu llave de recuperación en una ubicación segura, dónde puedas encontrarla "
+"fácilmente más adelante."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Imprimir imagen del botón"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Descargar imagen del botón"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Hecho, llave de recuperación guardada"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
