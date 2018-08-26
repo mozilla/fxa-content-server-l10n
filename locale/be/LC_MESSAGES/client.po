@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-23 19:27+0000\n"
+"PO-Revision-Date: 2018-08-26 11:07+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -72,7 +72,7 @@ msgstr "Уліковы запіс пацверджаны"
 #: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164 .es5/views/reset_password.js:97
 #: .es5/views/sign_in.js:165
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Невядомы ўліковы запіс. <a href=\"/signup\">Зарэгістравацца</a>"
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
@@ -145,23 +145,23 @@ msgstr "Скінуць пароль"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19 .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Адкрыць Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25 .es5/views/mixins/open-webmail-mixin.js:24
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Адкрыць Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:29
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Адкрыць Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37 .es5/views/mixins/open-webmail-mixin.js:34
 msgid "Open Outlook"
-msgstr ""
+msgstr "Адкрыць Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43 .es5/views/mixins/open-webmail-mixin.js:39
 msgid "Open Restmail"
-msgstr ""
+msgstr "Адкрыць Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -202,11 +202,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163 .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
-msgstr ""
+msgstr "Уліковы запіс ужо ёсць"
 
 #: app/scripts/lib/auth-errors.js:51 .es5/lib/auth-errors.js:53
 msgid "Unknown account"
-msgstr ""
+msgstr "Невядомы ўліковы запіс"
 
 #: app/scripts/lib/auth-errors.js:55 .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
@@ -218,11 +218,11 @@ msgstr "Няправільны пароль"
 
 #: app/scripts/lib/auth-errors.js:63 .es5/lib/auth-errors.js:65
 msgid "Unverified account"
-msgstr ""
+msgstr "Непацверджаны ўліковы запіс"
 
 #: app/scripts/lib/auth-errors.js:67 .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Няправільны код пацверджання"
 
 #: app/scripts/lib/auth-errors.js:71 .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
