@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-27 18:32+0000\n"
+"PO-Revision-Date: 2018-08-27 18:43+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -658,73 +658,73 @@ msgstr "Паролны алыштыру сылтамасына зыян килг
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Сез баскан сылтамадан кайбер хәрефләр төшеп калган иде, һәм электрон почта программагыз бозган булуы мөмкин. Игътибар белән адресны копияләп, тагын бер кат тырышып карагыз."
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr ""
+msgstr "Яңа паролны языгыз"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Яңа паролны җибәргәч, кимендә бер булса да җиһазыгызда сакланмаган бөтен Синхронлау бирелгәннәрен югалтачаксыз."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Синхронлау ничек эшли икәнен белү."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
 #: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
-msgstr ""
+msgstr "Яңа парол"
 
 #: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
-msgstr ""
+msgstr "Паролны кабатлау"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
-msgstr ""
+msgstr "Яңа паролны җибәрү"
 
 #: app/scripts/templates/complete_sign_up.mustache:1 .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Керү расланды инде"
 
 #: app/scripts/templates/complete_sign_up.mustache:4 .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Раслау сылтамасының вакыты узган"
 
 #: app/scripts/templates/complete_sign_up.mustache:6 .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Яңа раслау сылтамасы алыр өчен, монда басыгыз"
 
 #: app/scripts/templates/complete_sign_up.mustache:12 .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Раслау хатасы"
 
 #: app/scripts/templates/confirm.mustache:1 .es5/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Хисабыгызны раслагыз"
 
 #: app/scripts/templates/confirm.mustache:3 .es5/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Керүне раслау"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "Эл. хат җибәрелде"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "%(escapedEmail)s адресына раслау сылтамасы җибәрелде"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "Firefox бирелгәннәрен яхшырау саклау өчен, %(email)s адресына раслау сылтамасын җибәрдек"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Килмәде дә, спам тартмасында да юкмы? Янәдән җибәрү"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
