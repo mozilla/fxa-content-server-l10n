@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-22 22:20+0000\n"
-"Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2018-08-27 18:32+0000\n"
+"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,15 @@ msgstr "Хисап уңышлы расланды"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
-msgstr "Паролны алыштыру"
+msgstr "Парол үзгәртелде"
 
 #: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Паролны алыштыру уңышлы тәмамланды. Дәвам итү өчен сайтка керегез."
+msgstr "Парол уңышлы үзгәртелде. Дәвам итү өчен керегез."
 
 #: app/scripts/views/permissions.js:26 .es5/views/permissions.js:28
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (кирәкле)"
+msgstr "%(permissionName)s (кирәк)"
 
 #: app/scripts/views/permissions.js:32 .es5/views/permissions.js:33
 msgid "Email address"
@@ -50,7 +50,7 @@ msgstr "Хуш кайтасыз"
 
 #: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync хәзер дәвам итәчәк"
+msgstr "Firefox Sync бераздан дәвам итәчәк"
 
 #: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -104,7 +104,7 @@ msgstr "Бу бик кызганыч. Сезгә Firefox Хисабыгызны�
 
 #: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Бу бик кызганыч. Әгәр бу Сез һич ышанмаган җиһаз булса, Firefox паролыгызны үзгәртергә 1әм Firefox'та сакланган барлык паролларны да үзгәртергә кирәк."
+msgstr "Бу бик кызганыч. Әгәр бу Сез һич ышанмаган җиһаз булса, Firefox паролыгызны үзгәртергә һәм Firefox'та сакланган барлык паролларны да үзгәртергә кирәк."
 
 #: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75 .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
