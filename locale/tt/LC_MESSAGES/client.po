@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-27 18:43+0000\n"
+"PO-Revision-Date: 2018-08-27 18:57+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -728,7 +728,7 @@ msgstr "Килмәде дә, спам тартмасында да юкмы? Ян
 
 #: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Парольне үзгәртү хаты җибәрелде"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -742,7 +742,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Башка җиһазны тоташтыру"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
@@ -999,7 +999,7 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
 #: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
-msgstr ""
+msgstr "Дәвам итү"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
