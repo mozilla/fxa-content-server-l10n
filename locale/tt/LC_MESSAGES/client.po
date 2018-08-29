@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-20 10:35+0000\n"
-"PO-Revision-Date: 2018-08-28 21:31+0000\n"
+"PO-Revision-Date: 2018-08-29 18:08+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -879,11 +879,11 @@ msgstr "Рөхсәт сорау"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2 .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s хисабыгыздан түбәндәге мәгълүматны таләп итә:"
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4 .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Кабул итү"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
@@ -895,23 +895,23 @@ msgstr ""
 #: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
 #: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
-msgstr ""
+msgstr "Баш тарту"
 
 #: app/scripts/templates/ready.mustache:4
 msgid "Proceed"
-msgstr ""
+msgstr "Дәвам итү"
 
 #: app/scripts/templates/ready.mustache:7 .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Хисабыгыз хәзер!"
 
 #: app/scripts/templates/report_sign_in.mustache:4 .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Авторизацияләнмәгән керү хакында хәбәр итәргәме?"
 
 #: app/scripts/templates/report_sign_in.mustache:5 .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Сез хисабыгызга керергә тырышу хакында бер электрон хат алдыгыз. Бу гамәлне шикле дип хәбәр итәсегез киләме?"
 
 #: app/scripts/templates/report_sign_in.mustache:6 .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
