@@ -1507,7 +1507,7 @@ msgstr "Poista"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Eikö löydy Saapuneet- tai Roskaposti-kansioista? Lähetä uudelleen."
 
 #: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
 msgid "Add"
