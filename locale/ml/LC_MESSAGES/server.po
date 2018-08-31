@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 10:35+0000\n"
+"POT-Creation-Date: 2018-08-31 16:03+0000\n"
 "PO-Revision-Date: 2017-11-30 08:07+0000\n"
 "Last-Translator: Kannan V M <kannan@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Firefox Accounts"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾ"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1192
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
 msgid "Low recovery codes remaining"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr ""
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:918
+#: lib/senders/email.js:922
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "The Firefox Accounts team"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ടീം"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1220
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -260,7 +260,7 @@ msgstr ""
 msgid "Manage account:"
 msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക:"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1064
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -286,7 +286,7 @@ msgid ""
 "confirmations."
 msgstr ""
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1160
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -298,7 +298,7 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1128
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -306,7 +306,7 @@ msgstr ""
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr ""
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1254
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -336,7 +336,7 @@ msgstr ""
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr ""
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1096
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
 msgid "Two-step authentication disabled"
 msgstr ""
 
@@ -446,7 +446,7 @@ msgstr ""
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:733
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
 msgid "Verify primary email"
 msgstr ""
 
@@ -474,7 +474,7 @@ msgstr ""
 msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:776
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:780
 msgid "Verify secondary email"
 msgstr ""
 
@@ -522,59 +522,59 @@ msgstr "%(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:546
 msgid "Verify your Firefox Account"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് പരിശോധിക്കുക"
 
-#: lib/senders/email.js:560
+#: lib/senders/email.js:564
 msgid "Confirm your email and start to sync!"
 msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
 
-#: lib/senders/email.js:603
+#: lib/senders/email.js:607
 msgid "Firefox Account authorization code"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീകാര കോഡ്"
 
-#: lib/senders/email.js:642
+#: lib/senders/email.js:646
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:691
+#: lib/senders/email.js:695
 msgid "Sign-in code for Firefox"
 msgstr ""
 
-#: lib/senders/email.js:820
+#: lib/senders/email.js:824
 msgid "Reset your Firefox Account password"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
 
-#: lib/senders/email.js:848
+#: lib/senders/email.js:852
 msgid "Your Firefox Account password has been changed"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
 
-#: lib/senders/email.js:874
+#: lib/senders/email.js:878
 msgid "Firefox Account password changed"
 msgstr ""
 
-#: lib/senders/email.js:896
+#: lib/senders/email.js:900
 msgid "Firefox Account password reset required"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്കിന്റെ പുനഃസജ്ജീകരണം ആവശ്യമാണ്"
 
-#: lib/senders/email.js:955
+#: lib/senders/email.js:959
 msgid "Firefox Account verified"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് പരിശോധിച്ചു"
 
-#: lib/senders/email.js:982
+#: lib/senders/email.js:986
 msgid "Secondary Firefox Account email added"
 msgstr "രണ്ടാം ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ഇമെയിൽ ചേർത്തു"
 
-#: lib/senders/email.js:1010
+#: lib/senders/email.js:1014
 msgid "Firefox Account new primary email"
 msgstr ""
 
-#: lib/senders/email.js:1038
+#: lib/senders/email.js:1042
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
-#: lib/senders/email.js:1286
+#: lib/senders/email.js:1290
 msgid "Firefox Account password reset with recovery key"
 msgstr ""
 
@@ -611,6 +611,10 @@ msgid "We are currently under heavy strain and are working to return the system 
 msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
 
 #: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾക്ക് ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്."
 
