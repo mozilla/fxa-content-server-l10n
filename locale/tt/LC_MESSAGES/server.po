@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-08-25 21:05+0000\n"
-"Last-Translator: Ilnar Salimzianov <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2018-08-31 20:55+0000\n"
+"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Firefox Хисабыгызга беренче җиһазыгызны уңышлы тоташтырдыгыз. Синхронлаудан күбрәк файда күрү өчен, куллана торган булсагыз, <a href='%(androidUrl)s'>Android өчен Firefox</a> яисә <a "
 "href='%(iosUrl)s'>iOS өчен Firefox</a>'ны да тоташтырыгыз."
@@ -620,7 +620,7 @@ msgstr "Хәзерге вакытта без авыр йөк астындабы�
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Йөкләү"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
