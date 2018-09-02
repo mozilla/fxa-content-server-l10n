@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-01 13:46+0000\n"
+"PO-Revision-Date: 2018-09-02 11:03+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1552,7 +1552,7 @@ msgstr "فعّل…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "أضِف طبقة أمان إلى الحساب باشتراط رموز الاستعادة من إحدى <a %(escapedTotpSupportAttributes)s>تطبيقات الاستيثاق هذه</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
