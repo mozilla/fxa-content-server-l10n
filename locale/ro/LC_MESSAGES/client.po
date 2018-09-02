@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-02 17:34+0000\n"
+"PO-Revision-Date: 2018-09-02 17:35+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1716,15 +1716,15 @@ msgstr "Nu trebuie să fie în  <a %(escapedCommonPasswordLinkAttrs)s>lista de p
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Fii original și în siguranță &mdash; nu refolosi această parolă nicăieri."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Ține minte această parolă &mdash; resetarea acesteia șterge datele de pe serverele noastre."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Arată parola"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1732,7 +1732,7 @@ msgstr "Cauți Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Pornește aici</a
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Folosește o altă adresă de e-mail"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (necesar)"
