@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-02 14:43+0000\n"
+"PO-Revision-Date: 2018-09-02 17:34+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -889,10 +889,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>ȚINE MINTE:</span> Când îți resetezi parola, îți resetezi și contul. Poți pierde o parte din informațiile personale (istoric, marcaje și parole). Asta se întâmplă pentru că îți criptăm datele "
+"cu parola ta pentru a-ți proteja confidențialitatea."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Ai restaurat contul tău cu succes folosind cheia de recuperare. Creează o parolă pentru a securiza datele tale și păstreaz-o într-un loc sigur."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -940,7 +942,7 @@ msgstr "Verifică-ți e-mailul pentru linkul de verificare trimis&nbsp;la %(esca
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Verifică e-mailul pentru linkul de confirmare al autentificării care a fost trimis la %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1103,11 +1105,11 @@ msgstr "Contul tău este gata!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Generează o nouă cheie de recuperare"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Continuă la contul meu"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1130,6 +1132,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>ȚINE MINTE:</span> Când îți resetezi parola, îți resetezi și contul. Poți pierde o parte din datele personale (inclusiv istoricul, marcajele și parolele). Asta se întâmplă pentru că noi "
+"criptăm datele tale cu parola ta pentru a-ți proteja confidențialitatea."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1490,6 +1494,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Dacă folosești acest cont pentru aplicații Mozilla sau servicii precum AMO, Pocket sau Screenshots ar trebui mai întâi să te autentifici și să ștergi datele personale salvate. După ce îți ștergi "
+"contul ai putea pierde accesul la acesta peste tot."
 
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -1522,7 +1528,7 @@ msgstr "Elimină"
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "Reverifică starea"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1538,7 +1544,7 @@ msgstr "NOTĂ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Prin generarea de coduri de recuperare, toate codurile precedente devin invalide. Ar trebui să stochezi codurile noi într-un loc sigur."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1547,6 +1553,8 @@ msgstr "Generează noi coduri de recuperare"
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
+"Acestea sunt coduri de recuperare de unică folosință. Stochează-le într-un loc sigur în cazul în care pierzi acces la dispozitivul tău mobil. Este posibil să nu mai poți accesa aceste coduri după "
+"aceasta."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
@@ -1566,7 +1574,7 @@ msgstr "Activează…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Adaugă securitate suplimentară la contul tău prin codurile de securitate de la <a %(escapedTotpSupportAttributes)s>aceste aplicații de autentificare</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1622,69 +1630,73 @@ msgstr "E-mail principal"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Recuperarea contului"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Generează o cheie de recuperare pentru a obține din nou la marcajele, parolele și datele tale sincronizate în caz că uiți parola."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Cheie de recuperare"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Nestabilită"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Generează"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">ȚINE MINTE:</span>Parola de la contul tău Firefox criptează datele tale din Firefox. Doar cu parola sau cheia de recuperare poți obține acces la date. <a "
+"%(escapedLearnMoreLinkAttributes)s>Află mai multe</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Pasul 1 din 2: Re-introdu parola"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Introdu parola ta pentru a vedea cheia de recuperare."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Introdu parola"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Sigur dorești să revoci?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Nu vei mai putea folosi cheia de recuperare pentru a accesa datele tale în cazul în care îți resetezi parola."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Pasul 2 din 2: Salvează cheia de recuperare"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">ȚINE MINTE:</span> Dacă uiți parola, vei avea nevoie de cheie pentru a re-accesa datele tale. Salvează cheia de recuperare într-un loc sigur și din care să o poți obține ușor "
+"ulterior."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Imagine buton imprimare"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Descarcă imaginea butonului"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Gata, cheia de recuperare a fost salvată"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1692,15 +1704,15 @@ msgstr "Ce vârstă ai?"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Parola contului tău Firefox"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Nu trebuie să fie la fel ca adresa de e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Nu trebuie să fie în  <a %(escapedCommonPasswordLinkAttrs)s>lista de parole frecvent întâlnite</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
