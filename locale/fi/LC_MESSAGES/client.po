@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-01 15:29+0000\n"
+"PO-Revision-Date: 2018-09-02 06:49+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1108,7 +1108,7 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Mistä tämä johtuu?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
