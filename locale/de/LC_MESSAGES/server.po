@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-08-31 17:54+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2018-09-04 14:46+0000\n"
+"Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -271,7 +271,7 @@ msgstr "Zwei-Schritt-Authentifizierung aktiviert"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Sie haben die Zwei-Schritt-Authenfizizierung für Ihr Firefox-Konto von folgendem Gerät erfolgreich aktiviert:"
+msgstr "Sie haben die Zwei-Schritt-Authentifizierung für Ihr Firefox-Konto von folgendem Gerät erfolgreich aktiviert:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -279,7 +279,7 @@ msgstr "Sicherheitscodes aus Ihrer Authentifizierungs-App sind ab sofort bei jed
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Sie haben die Zwei-Schritt-Authenfizizierung für Ihr Firefox-Konto erfolgreich aktiviert. Sicherheitscodes aus Ihrer Authentifizierungs-App sind ab sofort bei jeder Anmeldung erforderlich."
+msgstr "Sie haben die Zwei-Schritt-Authentifizierung für Ihr Firefox-Konto erfolgreich aktiviert. Sicherheitscodes aus Ihrer Authentifizierungs-App sind ab sofort bei jeder Anmeldung erforderlich."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -349,7 +349,7 @@ msgstr "Zwei-Schritt-Authentifizierung deaktiviert"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Sie haben die Zwei-Schritt-Authenfizizierung für Ihr Firefox-Konto von folgendem Gerät erfolgreich deaktiviert:"
+msgstr "Sie haben die Zwei-Schritt-Authentifizierung für Ihr Firefox-Konto von folgendem Gerät erfolgreich deaktiviert:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
@@ -357,7 +357,7 @@ msgstr "Sicherheitscodes sind bei der Anmeldung ab sofort nicht mehr erforderlic
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Sie haben die Zwei-Schritt-Authenfizizierung für Ihr Firefox-Konto erfolgreich deaktiviert. Sicherheitscodes sind bei der Anmeldung ab sofort nicht mehr erforderlich."
+msgstr "Sie haben die Zwei-Schritt-Authentifizierung für Ihr Firefox-Konto erfolgreich deaktiviert. Sicherheitscodes sind bei der Anmeldung ab sofort nicht mehr erforderlich."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
