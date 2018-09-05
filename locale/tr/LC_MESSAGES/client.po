@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-01 11:55+0000\n"
+"PO-Revision-Date: 2018-09-05 11:58+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -814,7 +814,7 @@ msgstr "%(serviceName)s servisine devam et"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Firefox Hesabınıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık kurtarma anahtarını yazın."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -882,7 +882,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1618,7 +1618,7 @@ msgstr "Hesap kurtarma"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Parolanızı unutmanız halinde yer imlerinize, parolalarınıza ve eşitlenmiş verilerinize yeniden ulaşmanızı sağlayacak bir kurtarma anahtarı oluşturun."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -1637,6 +1637,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">NOT: </span>Firefox verileriniz, Firefox Hesabınızın parolasıyla şifrelenir. Bu şifreyi yalnızca parolanız veya kurtarma anahtarınız çözebilir. <a "
+"%(escapedLearnMoreLinkAttributes)s>Daha fazla bilgi alın</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
