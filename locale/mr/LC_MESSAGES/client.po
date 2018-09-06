@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2017-07-01 13:37+0000\n"
-"Last-Translator: Shubhangi Patil <shubhangipatil841@gmail.com>\n"
+"PO-Revision-Date: 2018-09-06 17:50+0000\n"
+"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "खाते अस्तित्वात नाही.पुन्हा तयार करूयात?"
 
 #: .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -1308,7 +1308,7 @@ msgstr ""
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
-msgstr ""
+msgstr "बदल…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
@@ -1324,11 +1324,11 @@ msgstr ""
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "कॅमेरा"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "साफ करा"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
