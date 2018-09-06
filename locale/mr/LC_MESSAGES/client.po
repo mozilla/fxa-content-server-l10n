@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-06 18:11+0000\n"
+"PO-Revision-Date: 2018-09-06 18:24+0000\n"
 "Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
-msgstr ""
+msgstr "आपला पासवर्ड पुनःस्थापित केला गेला आहे"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -296,7 +296,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:48
 msgid "Bookmarks"
-msgstr ""
+msgstr "वाचनखूणा"
 
 #: .es5/models/sync-engines.js:52
 msgid "Add-ons"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
-msgstr ""
+msgstr "इतिहास"
 
 #: .es5/models/sync-engines.js:64
 msgid "Preferences"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr ""
+msgstr "पासवर्ड यशस्वीरित्या पुनःप्रस्थापित झाला आहे"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
-msgstr ""
+msgstr "खाते आधीपासून अस्तित्वात आहे"
 
 #: .es5/lib/auth-errors.js:53
 msgid "Unknown account"
@@ -1553,19 +1553,19 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "सक्रिय केलेले"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "निष्क्रिय केलेले"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "निष्क्रिय करा"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "सक्रिय करा"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
@@ -1585,11 +1585,11 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "सुरक्षा कोड"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
-msgstr ""
+msgstr "निश्चित करा"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
@@ -1667,7 +1667,7 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "तुमचे वय किती आहे?"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1691,7 +1691,7 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "पासवर्ड दाखवा"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1699,4 +1699,4 @@ msgstr ""
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "वेगळा ईमेल पत्ता वापरा"
