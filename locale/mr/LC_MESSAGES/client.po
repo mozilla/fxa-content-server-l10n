@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-06 18:24+0000\n"
+"PO-Revision-Date: 2018-09-06 18:53+0000\n"
 "Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -20,7 +20,7 @@ msgstr "पासवर्ड पुनःस्थापित करा"
 
 #: .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "पासवर्ड यशस्वीरितीणे पुनःस्थापित झाला आहे. सुरु ठेवण्यासाठी साइन इन करा."
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -28,7 +28,7 @@ msgstr "पुन्हा स्वागत आहे"
 
 #: .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox समकालन लवकरच सुरु होईल"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: .es5/views/reset_password.js:97
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "अज्ञात खात. <a href=\"/signup\">साईन अप</a>"
 
 #: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr "अंतिम समकालन %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
@@ -324,7 +324,7 @@ msgstr ""
 
 #: .es5/models/reliers/sync.js:76
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox समकालन"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
@@ -847,7 +847,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
-msgstr ""
+msgstr "काय समकालन करायचे ते निवडा"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
