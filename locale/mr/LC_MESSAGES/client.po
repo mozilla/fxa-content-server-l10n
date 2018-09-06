@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-08-24 18:11+0000\n"
+"PO-Revision-Date: 2017-01-07 12:43+0000\n"
 "Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
-msgstr ""
+msgstr "पुन्हा स्वागत आहे"
 
 #: .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
 msgid "Invalid token"
-msgstr ""
+msgstr "अवैध टोकन"
 
 #: .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:53
 msgid "Unknown account"
-msgstr ""
+msgstr "अज्ञात खाते"
 
 #: .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
