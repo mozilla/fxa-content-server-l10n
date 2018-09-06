@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-06 17:50+0000\n"
+"PO-Revision-Date: 2018-09-06 18:11+0000\n"
 "Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -76,7 +76,7 @@ msgstr "खाते अस्तित्वात नाही.पुन्ह
 
 #: .es5/views/sign_up.js:271
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "खाते आधीपासून अस्तित्वात आहे.<a href=\"/signin\">साइन इन</a>"
 
 #: .es5/views/settings/change_password.js:45
 msgid "Password changed successfully"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
@@ -100,19 +100,19 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s मध्ये %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s मध्ये %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:72
 msgid "Codes copied"
-msgstr ""
+msgstr "कोड कॉपी केले"
 
 #: .es5/views/settings/recovery_codes.js:74
 msgid "Failed to copy codes. Please manually copy them."
