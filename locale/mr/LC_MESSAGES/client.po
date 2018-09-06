@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2017-01-07 12:43+0000\n"
-"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
+"PO-Revision-Date: 2017-07-01 13:37+0000\n"
+"Last-Translator: Shubhangi Patil <shubhangipatil841@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "जोडा…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
