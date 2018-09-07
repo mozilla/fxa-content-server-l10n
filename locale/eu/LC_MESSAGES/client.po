@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-07 16:03+0000\n"
 "PO-Revision-Date: 2018-07-25 05:59+0000\n"
 "Last-Translator: ander.elor <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -485,8 +485,8 @@ msgid "Failed to send email"
 msgstr "Ezin da mezua bidali"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Saio hasiera egiaztatze kode baliogabea"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -655,6 +655,10 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1711,6 +1715,9 @@ msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Saio hasiera egiaztatze kode baliogabea"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (beharrezkoa)"

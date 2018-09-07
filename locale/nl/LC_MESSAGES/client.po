@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-07 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 12:35+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "Verzenden van e-mailbericht is mislukt"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Ongeldige aanmeldingsverificatiecode"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -655,6 +655,10 @@ msgstr "Ongeldige herstelcode"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "Herstelsleutel vereist"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1725,6 +1729,9 @@ msgstr "Zoekt u Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Begin hier</a>"
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Een ander e-mailadres gebruiken"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Ongeldige aanmeldingsverificatiecode"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (vereist)"

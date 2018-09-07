@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-07 16:03+0000\n"
 "PO-Revision-Date: 2018-08-26 00:20+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -483,8 +483,8 @@ msgid "Failed to send email"
 msgstr "Ha fallado al mandar el correo"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Código de verificación de inicio de sesión no válido"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "Código de recuperación inválido"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "Llave de recuperación requerida"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1724,6 +1728,9 @@ msgstr "¿Estás buscando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Empiez
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Usar diferente dirección de correo electrónico"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Código de verificación de inicio de sesión no válido"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (obligatorio)"

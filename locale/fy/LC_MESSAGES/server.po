@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-08-29 13:55+0000\n"
+"POT-Creation-Date: 2018-09-07 16:03+0000\n"
+"PO-Revision-Date: 2018-09-03 11:01+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -622,7 +622,7 @@ msgstr "Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau as moogli
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Lade"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
