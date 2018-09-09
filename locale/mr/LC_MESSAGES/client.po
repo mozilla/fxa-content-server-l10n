@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-09 16:00+0000\n"
-"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
+"PO-Revision-Date: 2017-11-13 09:11+0000\n"
+"Last-Translator: rahuld <rahuld@hotmail.co.in>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: .es5/views/ready.js:91
 msgid "Primary email verified"
-msgstr ""
+msgstr "प्राथमिक ईमेल सत्यापित"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
