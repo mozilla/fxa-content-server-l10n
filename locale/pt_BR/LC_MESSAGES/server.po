@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-05-03 16:56+0000\n"
+"PO-Revision-Date: 2018-09-12 21:33+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -20,16 +20,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Você conectou seu primeiro dispositivo à sua conta Firefox com sucesso. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para <a href='%(androidUrl)s'>Android</a> e <a "
+"Você conectou com sucesso seu primeiro dispositivo à sua Conta Firefox. Agora você pode entrar no Sync em seus outros dispositivos, incluindo Firefox para <a href='%(androidUrl)s'>Android</a> e <a "
 "href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Você conectou seu primeiro dispositivo à sua conta Firefox com sucesso. Para aproveitar mais o Sync, conecte no <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox "
-"para iOS</a>."
+"Você conectou seu primeiro dispositivo à sua conta Firefox com sucesso. Para aproveitar mais o Sync, conecte no <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox para"
+" iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -173,23 +173,23 @@ msgstr "Se você não alterou, redefina a sua senha agora em %(resetLink)s"
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "A senha da sua conta foi redefinida com uma chave de recuperação"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Você redefiniu sua senha com sucesso usando uma chave de recuperação do seguinte dispositivo:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Você precisará gerar uma nova chave de recuperação."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Criar nova chave de recuperação"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Criar nova chave de recuperação:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -234,15 +234,15 @@ msgstr "Equipe Conta Firefox"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Gerada chave de recuperação de conta"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Você gerou com sucesso uma chave de recuperação de conta para sua Conta Firefox usando o seguinte dispositivo:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Se não foi você, <a %(revokeAccountRecoveryLinkAttributes)s>clique aqui.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
@@ -252,11 +252,11 @@ msgstr "Gerenciar conta"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Você gerou com sucesso uma chave de recuperação de conta para sua Conta Firefox no seguinte dispositivo:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Se não foi você, revogue a chave."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -314,19 +314,19 @@ msgstr "Você gerou com sucesso novos códigos de recuperação através do segu
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Removida a chave de recuperação de conta"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Você removeu com sucesso uma chave de recuperação de conta da sua Conta Firefox usando o seguinte dispositivo:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Essa chave de recuperação não pode mais ser usada para recuperar sua conta."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Você removeu com sucesso uma chave de recuperação de conta para sua Conta Firefox no seguinte dispositivo:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -367,8 +367,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Você conectou com sucesso o seu primeiro dispositivo à sua conta do Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para <a %(androidLinkAttributes)s>Android</"
-"a> e <a %(iosLinkAttributes)s>iOS</a>."
+"Você conectou com sucesso o seu primeiro dispositivo à sua conta do Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para <a "
+"%(androidLinkAttributes)s>Android</a> e <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -586,7 +586,7 @@ msgstr "E-mail secundário da Conta Firefox removido"
 
 #: lib/senders/email.js:1290
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Redefinição de senha da Conta Firefox com chave de recuperação"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -622,7 +622,7 @@ msgstr "Estamos passando por turbulências, estamos trabalhando e em breve o sis
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Carregando"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -682,11 +682,11 @@ msgstr "Termos do serviço"
 #~ msgstr "Olá novamente."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Alguns dias atrás você criou uma Conta Firefox, mas nunca a confirmou. Uma conta verificada permite acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua "
-#~ "conta. Simplesmente confirme este endereço de e-mail para ativar sua conta."
+#~ "Alguns dias atrás você criou uma Conta Firefox, mas nunca a confirmou. Uma conta verificada permite acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua conta. "
+#~ "Simplesmente confirme este endereço de e-mail para ativar sua conta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Uma semana atrás você criou uma Conta Firefox, mas não a confirmou. Estamos preocupados com você. Confirme esse endereço de e-mail para ativar sua conta."
@@ -712,11 +712,10 @@ msgstr "Termos do serviço"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Você removeu com sucesso o e-mail secundário %(secondaryEmail)s da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão entregues a este endereço."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Você verificou com êxito, %(secondaryEmail)s como um e-mail secundário para a sua conta Firefox. Notificações de segurança e confirmações de identificação serão enviadas para os dois endereços "
-#~ "de e-mail."
+#~ "Você verificou com êxito, %(secondaryEmail)s como um e-mail secundário para a sua conta Firefox. Notificações de segurança e confirmações de identificação serão enviadas para os dois endereços de "
+#~ "e-mail."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Aqui está o link solicitado para instalar o Firefox em seu dispositivo móvel: %(link)s"
@@ -800,8 +799,8 @@ msgstr "Termos do serviço"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Uma semana atrás você criou uma conta Firefox, mas nunca a confirmou. Nós estamos preocupados com você. O Firefox está disponível para Windows, Mac, Linux, Android e iOS. Você pode sincronizar "
-#~ "suas senhas, favoritos e históricos do Firefox entre todas estas plataformas. Confirme este endereço de e-mail para ativar sua conta e nos informar se está tudo bem com você."
+#~ "Uma semana atrás você criou uma conta Firefox, mas nunca a confirmou. Nós estamos preocupados com você. O Firefox está disponível para Windows, Mac, Linux, Android e iOS. Você pode sincronizar suas "
+#~ "senhas, favoritos e históricos do Firefox entre todas estas plataformas. Confirme este endereço de e-mail para ativar sua conta e nos informar se está tudo bem com você."
 
 #~ msgid "env"
 #~ msgstr "env"
