@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-12 17:15+0000\n"
+"PO-Revision-Date: 2018-09-08 17:11+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "Tilisi salasana nollattiin palautusavaimella"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Olet ottanut kaksivaiheisen todennuksen käyttöön Firefox-tililläsi. Todennussovelluksen turvallisuuskoodit vaaditaan tästä lähtien aina kirjauduttaessa."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -323,7 +323,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Tätä palautusavainta ei voi enää käyttää tilisi palauttamiseen."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
@@ -335,7 +335,7 @@ msgstr "Toissijainen sähköposti poistettiin"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Olet poistanut toissijaisen sähköpostiosoitteen %(secondaryEmail)s Firefox-tililtäsi. Tietoturvailmoituksia ja kirjautumisvahvistuksia ei enää lähetetä tähän osoitteeseen."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
@@ -386,6 +386,7 @@ msgstr "Toissijainen sähköpostiosoite lisätty"
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
+"Olet vahvistanut osoitteen %(secondaryEmail)s Firefox-tilisi toissijaiseksi sähköpostiosoitteeksi. Tietoturvailmoitukset ja kirjautumisvahvistukset läheteään nyt molempiin sähköpostiosoitteisin."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -413,11 +414,11 @@ msgstr "Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Jos et, auta meitä torjumaan tunkeutujia ja <a %(reportSignInLinkAttributes)s>ilmoita asiasta meille.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"

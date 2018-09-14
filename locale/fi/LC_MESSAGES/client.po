@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-08 16:34+0000\n"
+"PO-Revision-Date: 2018-09-08 16:50+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1556,7 +1556,7 @@ msgstr "Ota käyttöön…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Lisää tilisi turvallisuutta vaatimalla turvallisuuskoodien käyttöä jollakin <a %(escapedTotpSupportAttributes)s>näistä todennussovelluksista</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1656,7 +1656,7 @@ msgstr "Haluatko varmasti kumota?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Palautusavainta ei voi käyttää tietojesi käyttöön, jos nollaat salasanasi."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -1696,7 +1696,7 @@ msgstr "Ei saa olla tällä <a %(escapedCommonPasswordLinkAttrs)s>yleisten salas
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Ole omaperäinen ja turvassa – älä käytä tätä salasanaa missään muualla."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
