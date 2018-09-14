@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-07-27 04:53+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,23 +203,23 @@ msgstr "주 이메일을 %(email)s로 설정"
 msgid "Secondary email"
 msgstr "보조 이메일"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "코드가 복사되었습니다"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "코드 복사에 실패하였습니다. 수동으로 복사하십시오."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "새로운 복구 코드가 생성되었습니다"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "2단계 인증이 활성화되었습니다"
 
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "이메일 전송 실패"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "잘못된 로그인 인증 코드"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "잘못된 복구 코드"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1708,6 +1712,9 @@ msgstr "Firefox Sync를 찾고 계신가요? <a %(escapedSyncSuggestionAttrs)s>�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "잘못된 로그인 인증 코드"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (필수)"

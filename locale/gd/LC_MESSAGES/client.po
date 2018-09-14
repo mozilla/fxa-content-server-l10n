@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-06-09 19:45+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,23 +206,23 @@ msgstr "’S e %(email)s am prìomh phost-d a-nis"
 msgid "Secondary email"
 msgstr "Post-d dàrnach"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Còdan aiseag Firefox"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Chaidh lethbhreac a dhèanamh dhe na còdan"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Dh’fhàillig lethbhreac nan còdan. Dèan lethbhreac de làimh."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Chaidh còdan aisig ùra a ghintinn"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Tha an dearbhadh dà-cheumnach an comas"
 
@@ -487,8 +487,8 @@ msgid "Failed to send email"
 msgstr "Dh’fhàillig cur a’ phuist-d"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Còd dearbhadh clàraidh a-steach mì-dhligheach"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -657,6 +657,10 @@ msgstr "Còd aisig mì-dhligheach"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1726,6 +1730,9 @@ msgstr "An tòir sioncronachadh Firefox? <a %(escapedSyncSuggestionAttrs)s>Dèan
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Cleachd seòladh puist-d eile"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Còd dearbhadh clàraidh a-steach mì-dhligheach"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (riatanach)"

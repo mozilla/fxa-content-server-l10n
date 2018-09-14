@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 20:16+0000\n"
 "Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,23 +203,23 @@ msgstr "Surel utama di atur ke %(email)s"
 msgid "Secondary email"
 msgstr "Surel kedua"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Kode Pemulihan Firefox"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Kode disalin"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Gagal menyalin kode. Silakan menyalinnya secara manual."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Kode pemulihan baru dibuat"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Autentikasi dua langkah diaktifkan"
 
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "Gagal mengirim surel"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Kode verifikasi masuk tidak valid"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "Kode pemulihan tidak valid"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1716,6 +1720,9 @@ msgstr "Mencari Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Mulailah di sini
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Gunakan alamat surel yang berbeda"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Kode verifikasi masuk tidak valid"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (dibutuhkan)"

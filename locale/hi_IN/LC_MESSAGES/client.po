@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-08-15 19:19+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,23 +203,23 @@ msgstr "प्राथमिक ईमेल को %(email)s सेट कि�
 msgid "Secondary email"
 msgstr "द्वितीयक मेल"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Firefox पुनर्प्राप्त कोड"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "कोड की प्रतिलिपि ली गयी"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "कोड की प्रतिलिपि लेने में विफल. कृपया हाथ से उनकी प्रतिलिपि लें."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "नए पुनर्प्राप्त कोड बनाये गये"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "ईमेल भेजने में विफल"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "अवैध साइन-इन सत्यापन कोड"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "अमान्य पुनर्प्राप्ति कोड"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1710,6 +1714,9 @@ msgstr "Firefox संकालन करना चाहते हैं? <a %(
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "किसी भिन्न ईमेल पते का उपयोग करें"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "अवैध साइन-इन सत्यापन कोड"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr ""
