@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 19:02+0000\n"
 "PO-Revision-Date: 2018-07-13 12:33+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,23 +203,23 @@ msgstr "Основният ел. адрес е зададен на %(email)s"
 msgid "Secondary email"
 msgstr "Допълнителен ел. адрес"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Кодовете са копирани"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Грешка при копиране на кодовете. Моля, копирайте ги ръчно."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Нови кодове за възстановяване са създадени"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Двуетапното удостоверяване е включено"
 
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "Неуспешно изпращане на писмо"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Грешен упълномощаващ код за вход"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "Невалиден код за възстановяване"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1710,6 +1714,9 @@ msgstr "Търсите Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Запо�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Грешен упълномощаващ код за вход"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (задължително)"

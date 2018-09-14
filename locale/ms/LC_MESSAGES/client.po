@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 19:02+0000\n"
 "PO-Revision-Date: 2018-08-22 05:51+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,23 +202,23 @@ msgstr "E-mel utama ditetapkan ke %(email)s"
 msgid "Secondary email"
 msgstr "Emel kedua"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Kod Pemulihan Firefox"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Kod disalin"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Gagal menyalin kod. Sila salin secara manual."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Kod pemulihan baru telah dijana"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Pengesahan dwi-langkah telah didayakan"
 
@@ -483,8 +483,8 @@ msgid "Failed to send email"
 msgstr "Gagal menghantar e-mel"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Kod pengesahan daftar masuk tidak sah"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -654,6 +654,10 @@ msgstr "Kod pemulihan tidak sah"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "Kekunci pemulihan diperlukan"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1721,6 +1725,9 @@ msgstr "Mencari Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Mulakan di sini<
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Gunakan alamat e-mel berbeza"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Kod pengesahan daftar masuk tidak sah"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (diperlukan)"
