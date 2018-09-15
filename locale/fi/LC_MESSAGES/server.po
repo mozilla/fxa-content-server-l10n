@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-09-15 10:17+0000\n"
+"PO-Revision-Date: 2018-09-15 10:39+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -181,7 +181,7 @@ msgstr "Olet nollannut salasanasi palautusavaimella laitteella:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Uusi palautusavain tarvitsee luoda."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
@@ -506,7 +506,7 @@ msgstr "Vahvista, että olet saanut tämän sähköpostin, niin autamme asentama
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Vahvistamisen jälkeen autamme asentamaan Firefoxin ainakin yhteen muuhun laitteeseen ja yhdistämään sen tiliisi."
 
 #: lib/senders/email.js:205
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
