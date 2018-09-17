@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 19:02+0000\n"
 "PO-Revision-Date: 2018-08-23 19:08+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,23 +251,23 @@ msgstr "Kao primarna adresa je postavljena %(email)s"
 msgid "Secondary email"
 msgstr "Sekundarna adresa"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Firefox kodovi za oporavak"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Kodovi kopirani"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Neuspešno kopiranje kodova. Kopirajte ih ručno."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Novi kodovi za oporavak su generisani"
 
-#: .es5/views/settings/recovery_codes.js:151
+#: .es5/views/settings/recovery_codes.js:158
 #: .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Autentifikacija u dva koraka je omogućena"
@@ -551,8 +551,8 @@ msgid "Failed to send email"
 msgstr "Neuspešno slanje poruke"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Neispravan kod za potvrdu"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -730,6 +730,10 @@ msgstr "Neispravan kod za oporavak"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "Ključ za oporavak potreban"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -2117,6 +2121,9 @@ msgstr ""
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Koristi drugačiju elektronsku adresu"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Neispravan kod za potvrdu"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (neophodno)"
