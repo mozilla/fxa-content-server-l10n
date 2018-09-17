@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 14:32+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -204,23 +204,23 @@ msgstr "主要アドレスが %(email)s に設定されました"
 msgid "Secondary email"
 msgstr "予備アドレス"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Firefox 回復用コード"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "コードをコピーしました"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "コードをコピーできませんでした。手動でコピーしてください。"
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "2 段階認証が有効化されました"
 
@@ -485,8 +485,8 @@ msgid "Failed to send email"
 msgstr "メールを送信できませんでした"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "ログイン確認コードが正しくありません"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -656,6 +656,10 @@ msgstr "無効な回復用コード"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "回復用キーが必要です"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1726,6 +1730,9 @@ msgstr "Firefox Sync をお探しですか？ <a %(escapedSyncSuggestionAttrs)s>
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "別のメールアドレスを使用"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "ログイン確認コードが正しくありません"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (必須)"

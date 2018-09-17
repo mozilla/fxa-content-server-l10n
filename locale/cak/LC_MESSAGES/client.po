@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 22:39+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,23 +203,23 @@ msgstr "Xtaq ri nab'ey taqoya'l pa %(email)s"
 msgid "Secondary email"
 msgstr "Ruka'n taqoya'l"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Kolonel Rub'itz'ib' Firefox"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Wachib'en taq b'itz'ib'"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Xsach ri kiwachib'al b'itz'ib'. Ke'awachib'ej chi q'ab'aj."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "K'ak'a' kolonel taq b'itz'ib' xetz'uk"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Xtzij ri jikib'anem rik'in ka'i'-xaq"
 
@@ -484,8 +484,8 @@ msgid "Failed to send email"
 msgstr "Man ütz ta xtaq ri taqoya'l"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Me'okel rub'itz'ib' rujikib'anem okem"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -655,6 +655,10 @@ msgstr "Man okel ta ri kolonel bitz'ib'"
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
 msgstr "K'atzinel kolonel ewan tzij"
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1723,6 +1727,9 @@ msgstr "¿La nakanoj ri Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Tatikiri
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Tawokisaj jun chik rochochib'al taqoya'l"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Me'okel rub'itz'ib' rujikib'anem okem"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (rajowaxik)"

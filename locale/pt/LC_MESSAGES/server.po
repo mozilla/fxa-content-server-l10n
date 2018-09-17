@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
-"PO-Revision-Date: 2018-08-26 23:53+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
+"PO-Revision-Date: 2018-08-31 17:14+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -623,7 +623,7 @@ msgstr "Atualmente temos a capacidade praticamente esgotada e estamos a trabalha
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "A carregar"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."

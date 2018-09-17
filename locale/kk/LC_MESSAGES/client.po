@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-31 16:03+0000\n"
+"POT-Creation-Date: 2018-09-14 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 16:47+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -202,23 +202,23 @@ msgstr "Біріншілік эл. пошта адресі %(email)s етіп о
 msgid "Secondary email"
 msgstr "Екіншілік эл. пошта адресі"
 
-#: .es5/views/settings/recovery_codes.js:38
+#: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
 msgstr "Firefox қалпына келтіру кодтары"
 
-#: .es5/views/settings/recovery_codes.js:72
+#: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
 msgstr "Кодтар көшіріліп алынды"
 
-#: .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
 msgstr "Кодтарды көшіру сәтсіз аяқталды. Оларды қолмен көшіріңіз."
 
-#: .es5/views/settings/recovery_codes.js:117
+#: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
 msgstr "Жаңа қалпына келтіру кодтары жасалды"
 
-#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Екі қадамды аутентификация іске қосылды"
 
@@ -483,8 +483,8 @@ msgid "Failed to send email"
 msgstr "Эл. поштаны жіберу сәтсіз аяқталды"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Invalid sign-in verification code"
-msgstr "Кірудің растау коды қате"
+msgid "Valid code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -653,6 +653,10 @@ msgstr "Қалпына келтіру коды жарамсыз"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:500
+msgid "Please enter verification code"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -1709,6 +1713,9 @@ msgstr "Firefox синхрондауын іздедіңіз бе? <a %(escapedSy
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Басқа эл. пошта адресін көрсету"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Кірудің растау коды қате"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (керек)"
