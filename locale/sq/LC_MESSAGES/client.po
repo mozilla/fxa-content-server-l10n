@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-17 11:13+0000\n"
+"PO-Revision-Date: 2018-09-18 11:12+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -209,7 +209,7 @@ msgstr "Email dytësor"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Kode Rimarrjeje Firefox"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
@@ -229,7 +229,7 @@ msgstr "Mirëfilltësimi dyhapësh u aktivizua"
 
 #: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Përdoreni kodin %(code)s që të rregulloni mirëfilltësim dyhapsh te aplikacione që e mbulojnë."
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
@@ -835,11 +835,13 @@ msgstr "Vazhdoni te %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Ju lutemi, që të rimerrni hyrjen te Llogaria juaj Firefox, jepni kyçin njëpërdorimsh të rimarrjes që keni depozituar në një vend të parrezik."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga "
+"shërbyesi, të tilla si historik dhe shfletues)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -930,10 +932,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>MOS HARRONI:</span> Kur ricaktoni fjalëkalimin tuaj, ktheni në fillimet llogarinë tuaj. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i "
+"fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezikuar."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -981,7 +985,7 @@ msgstr "Kontrolloni email-in tuaj për një lidhje verifikimi dërguar&nbsp;për
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrolloni email-in tuaj për lidhjen e ripohimit të hyrjes, dërguar te %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1144,7 +1148,7 @@ msgstr "Llogaria juaj është gati!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Prodho një kyç të ri rimarrjeje"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
@@ -1536,6 +1540,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Nëse e përdorni këtë llogari për aplikacione dhe shërbime Mozilla, të tillë si AMO, Pocket, dhe Screenshots, së pari duhet të bëni hyrjen dhe hiqni çfarëdo të dhënash personale të ruajtura. Pasi të "
+"fshini llogarinë tuaj këtu, mund të humbni hyrje në të prej nga kudo qoftë."
 
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -1568,7 +1574,7 @@ msgstr "Hiqe"
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "Rifreskoje Gjendjen"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Add"
