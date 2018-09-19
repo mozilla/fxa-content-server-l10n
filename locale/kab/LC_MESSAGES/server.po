@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-19 12:07+0000\n"
+"PO-Revision-Date: 2018-09-19 12:26+0000\n"
 "Last-Translator: Slimane AMIRI <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -252,7 +252,7 @@ msgstr "Sefrek amiḍan"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
@@ -318,7 +318,7 @@ msgstr "Tasarutt n tririt n umiḍan tettwakkes"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
@@ -326,7 +326,7 @@ msgstr "Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr 
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
