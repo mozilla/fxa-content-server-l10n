@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-08-29 13:47+0000\n"
+"POT-Creation-Date: 2018-09-21 16:02+0000\n"
+"PO-Revision-Date: 2018-09-19 11:00+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -485,7 +485,7 @@ msgstr "Ferstjoeren fan e-mailberjocht is mislearre"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Jildige koade fereaske"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -658,7 +658,7 @@ msgstr "Werstelkaai fereaske"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Fier ferifikaasjekoade yn"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
