@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 12:32+0000\n"
+"PO-Revision-Date: 2018-09-23 14:11+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -53,19 +53,19 @@ msgstr "„Firefox“ paskyros"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Liko nedaug atkūrimo kodų"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Pastebėjome, jog jau panaudojote daugumą atkūrimo kodų. Patariame sugeneruoti naujus, kad netyčia neliktumėte negrįžtamai atskirti nuo savo duomenų."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "Generuoti kodus"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
-msgstr ""
+msgstr "Tai – automatinis laiškas."
 
 #: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
@@ -95,11 +95,11 @@ msgstr "„Mozillos“ privatumo nuostatai"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Pastebėjome, jog jau panaudojote daugumą atkūrimo kodų. Patariame sugeneruoti naujus, kad netyčia neliktumėte negrįžtamai atskirti nuo savo duomenų."
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Generuoti kodus:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
@@ -113,7 +113,7 @@ msgstr "Daugiau informacijos rasite adresu %(supportUrl)s"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:922
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Naujas prisijungimas prie „%(clientName)s“"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -157,39 +157,39 @@ msgstr "Tai – automatiškai išsiųstas laiškas. Jei jūs nekeitėte savo „
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "Jūsų paskyros slaptažodis pakeistas"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Kad sinchronizavimas vyktų toliau, turėsite naująjį slaptažodį įvesti ir kituose įrenginiuose."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Jeigu slaptažodžio nekeitėte, siūlome <a %(resetLinkAttributes)s>jį atkurti</a> nedelsiant."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "Jeigu slaptažodžio nekeitėte, siūlome jį nedelsiant atkurti adresu %(resetLink)s"
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "Jūsų paskyros slaptažodis atkurtas pasinaudojus atkūrimo raktu"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Jūsų slaptažodis sėkmingai atkurtas pasinaudojus atkūrimo raktu ir šiuo įrenginiu:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Jums reikės susigeneruoti naują atkūrimo raktą."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Generuoti naują atkūrimo raktą"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Generuoti naują atkūrimo raktą:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -235,7 +235,7 @@ msgstr "„Firefox Accounts“ komanda"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Paskyros atkūrimo raktas sugeneruotas"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
