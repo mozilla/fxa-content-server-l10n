@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 12:48+0000\n"
+"PO-Revision-Date: 2018-09-23 13:12+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -1489,6 +1489,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Jeigu naudojatės šia paskyra prisijungimui prie „Mozillos“ paslaugų – pavyzdžiui, AMO, „Pocket“ ar „Screenshots“ – pirma prisijunkite prie jų ir pašalinkite visus savo asmeninius duomenis jose. "
+"Pašalinę šią paskyrą, nebegalėsite su ja prisijungti niekur."
 
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -1500,19 +1502,19 @@ msgstr "Įveskite vardą, kuris turėtų matytis „Firefox“ naršyklėje ir t
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Antrinis el. paštas bus naudojamas kaip papildomas adresas saugos pranešimų ir naujų įrenginių patvirtinimo užklausų siuntimui."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "patvirtintas"
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "reikia patvirtinti"
 
 #: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Skirti pagrindiniu"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Remove"
