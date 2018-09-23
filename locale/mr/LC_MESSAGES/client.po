@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2017-11-13 09:11+0000\n"
-"Last-Translator: rahuld <rahuld@hotmail.co.in>\n"
+"PO-Revision-Date: 2018-09-23 18:06+0000\n"
+"Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -36,11 +36,11 @@ msgstr "आपला पासवर्ड पुनःस्थापित क
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "आपल्या इतर Firefox साधनांनवर नवीन पासवर्ड प्रविष्ट करून सेट-अप पूर्ण करा."
 
 #: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "आपण आता आपल्या Firefox खात्यात बदल करण्यास तयार आहात."
 
 #: .es5/views/ready.js:91
 msgid "Primary email verified"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "आपण अनेक वेळा प्रयत्न केला आहे. काही वेळे नंतर पुन्हा प्रयत्न करा."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
@@ -376,7 +376,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
-msgstr ""
+msgstr "अयोग्य पासवर्ड"
 
 #: .es5/lib/auth-errors.js:65
 msgid "Unverified account"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
-msgstr ""
+msgstr "अवैध सत्यापन कोड"
 
 #: .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
@@ -392,11 +392,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "अवैध घटक: %(param)s"
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "गहाळ घटक: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
@@ -484,7 +484,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "वैध कोड आवश्यक"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -748,9 +748,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -820,8 +818,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1337,9 +1334,8 @@ msgstr "कॅमेरा"
 msgid "Clear"
 msgstr "साफ करा"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr ""
 
@@ -1658,8 +1654,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
