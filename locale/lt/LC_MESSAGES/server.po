@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 14:11+0000\n"
+"PO-Revision-Date: 2018-09-23 14:30+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -239,11 +239,11 @@ msgstr "Paskyros atkūrimo raktas sugeneruotas"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros atkūrimo raktas sėkmingai sugeneruotas, pasinaudojus šiuo įrenginiu:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Jeigu jūs šio veiksmo neatlikote, <a %(revokeAccountRecoveryLinkAttributes)s>spustelėkite čia.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
@@ -253,11 +253,11 @@ msgstr "Tvarkyti paskyrą"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros atkūrimo raktas sėkmingai sugeneruotas, pasinaudojus šiuo įrenginiu:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Jeigu jūs šio veiksmo neatlikote, atšaukite raktą."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -267,73 +267,75 @@ msgstr "Tvarkyti paskyrą:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Įgalintas dvipakopis atpažinimas"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Dvipakopis atpažinimas sėkmingai įgalintas jūsų „Firefox“ paskyrai, naudojantis šiuo įrenginiu:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Nuo šiol kaskart jungiantis prie paskyros, bus reikalaujama saugos kodo, kurį rodys autentifikavimo programa."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Dvipakopis atpažinimas sėkmingai įgalintas jūsų „Firefox“ paskyrai. Nuo šiol kaskart jungiantis prie paskyros, bus reikalaujama saugos kodo, kurį rodys autentifikavimo programa."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Naujas pagrindinis el. paštas"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Jūsų pagrindinis el. paštas sėkmingai pakeistas į %(email)s. Nuo šiol, jungdamiesi prie „Firefox“ paskyros, turėsite naudoti šį el. pašto adresą, o taip pat juo gausite saugos pranešimus ir "
+"prisijungimo patvirtinimus."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Panaudotas atkūrimo kodas"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Jūs sėkmingai panaudojote atkūrimo kodą šiame įrenginyje:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Panaudotas atkūrimo kodas"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Sugeneruoti nauji atkūrimo kodai"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Jūsų paskyrai sėkmingai sugeneruoti nauji atkūrimo kodai, pasinaudojus šiuo įrenginiu:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Paskyros atkūrimo raktas pašalintas"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros atkūrimo raktas sėkmingai pašalintas, pasinaudojus šiuo įrenginiu: "
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Šis atkūrimo raktas negalės būti pakartotinai panaudotas paskyrai atkurti."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros atkūrimo raktas sėkmingai pašalintas, pasinaudojus šiuo įrenginiu: "
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Antrinis el. paštas pašalintas"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Iš jūsų „Firefox“ paskyros sėkmingai pašalintas antrinis el. paštas %(secondaryEmail)s. Saugos pranešimai ir prisijungimo patvirtinimai šiuo adresu nebebus siunčiami."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
@@ -343,7 +345,7 @@ msgstr "Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, 
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Išjungtas dvipakopis atpažinimas"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -351,7 +353,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Saugos kodų kaskart prisijungiant prie paskyros nebebus prašoma."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
@@ -383,23 +385,23 @@ msgstr "Pridėtas antrinis el. pašto adresas"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Adresas %(secondaryEmail)s sėkmingai patvirtintas kaip jūsų „Firefox“ paskyros antrinis el. paštas. Nuo šiol šiuo adresu bus siunčiami saugos pranešimai ir prisijungimų patvirtinimai."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Norite atkurti slaptažodį?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Per artimiausią valandą spustelėkite mygtuką naujam slaptažodžiui sukurti. Ši užklausa gauta iš šio įrenginio:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Kurti naują slaptažodį"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Dėkojame, kad renkatės „Firefox“ naršyklę! Įdiegti „Firefox“ į savo mobilųjį galite iš čia: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
@@ -443,7 +445,7 @@ msgstr "Aktyvinti dabar:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Vardan papildomo saugumo prašome patvirtinti prisijungimą iš šio įrenginio:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -455,7 +457,7 @@ msgstr "Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų pask
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
 msgid "Verify primary email"
-msgstr ""
+msgstr "Patvirtinkite pagrindinį el. paštą"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
