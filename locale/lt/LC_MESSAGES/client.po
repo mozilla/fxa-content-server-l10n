@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 14:05+0000\n"
+"PO-Revision-Date: 2018-09-23 14:39+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -1429,7 +1429,7 @@ msgstr "Šis seansas"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr "Atjungti"
+msgstr "Atšaukti"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
