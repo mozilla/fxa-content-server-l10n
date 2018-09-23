@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 18:06+0000\n"
+"PO-Revision-Date: 2018-09-23 18:45+0000\n"
 "Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -336,7 +336,7 @@ msgstr "पासवर्ड यशस्वीरित्या पुनः�
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
-msgstr ""
+msgstr "अनपेक्षित त्रुटी"
 
 #: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
@@ -456,7 +456,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr ""
+msgstr "पत्ता दुसर्या खात्याद्वारे वापरात आहे"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "ईमेल पाठवण्यात अपयशी"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
@@ -597,7 +597,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
-msgstr ""
+msgstr "खाते अस्तित्वात नाही."
 
 #: .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
@@ -657,7 +657,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "कृपया सत्यापन कोड प्रविष्ट करा"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -885,11 +885,11 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "नवीन पासवर्ड"
 
 #: .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
-msgstr ""
+msgstr "पासवर्ड पुन्हा-प्रविष्ट करा"
 
 #: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -913,11 +913,11 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "सत्यापन त्रुटी"
 
 #: .es5/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "आपल्या खात्याची पुष्टी करा"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
@@ -958,11 +958,11 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
 msgid "Success"
-msgstr ""
+msgstr "यशस्वी"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "सेट-अप पूर्ण करण्यासाठी या Firefox मध्ये साइन इन करा"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "Sign in &rarr;"
