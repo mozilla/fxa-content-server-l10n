@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-23 12:30+0000\n"
+"PO-Revision-Date: 2018-09-23 12:48+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -252,7 +252,7 @@ msgstr "Jūsų paskyra saugumo sumetimais buvo užrakinta"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
-msgstr "Atkurti slaptažodį"
+msgstr "Atkurkite slaptažodį"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
@@ -539,7 +539,7 @@ msgstr "Dirbama..."
 
 #: .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
-msgstr "Neįmanoma pasiekti privatumo nuostatų"
+msgstr "Nepavyko gauti Privatumo pranešimo"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
@@ -755,7 +755,7 @@ msgstr "Neteisingas prieigos raktas"
 
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo nuostatais</a>."
+msgstr "Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo pranešimu</a>."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1030,7 +1030,7 @@ msgstr "Pamiršote slaptažodį?"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Tęsdami, išreiškiate sutikimą su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir <a id=\"fxa-pp\" href=\"/legal/privacy\">Pastaba dėl privatumo</a>."
+msgstr "Tęsdami, išreiškiate sutikimą su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo pranešimu</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1055,7 +1055,7 @@ msgstr "Paslaugos teikimo sąlygos"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
-msgstr "Privatumo nuostatai"
+msgstr "Privatumo pranešimas"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1128,6 +1128,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>SVARBU!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip yra "
+"todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1312,6 +1314,7 @@ msgstr "„Sync“ paslauga neskirta atsarginėms kopijoms laikyti – tai tik s
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
+"Patariame „Firefox“ įdiegti ir sinchronizuoti bent dviejuose įrenginiuose – taip apsisaugosite nuo duomenų praradimo jei kada norėsite atkurti savo duomenis, tačiau pamiršite paskyros slaptažodį."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1426,15 +1429,15 @@ msgstr "Šis seansas"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "Atjungti"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
-msgstr "„Firefox“ „iOS“ įrenginiams"
+msgstr "„Firefox“ naršyklė „iOS“ įrenginiams"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Sąrašas tuščias"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1443,7 +1446,7 @@ msgstr "Parsisiųsti"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr "„Firefox“ „Android“ įrenginiams"
+msgstr "„Firefox“ naršyklė „Android“ įrenginiams"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
@@ -1459,11 +1462,11 @@ msgstr "Bendravimo parinktys"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Gausite informaciją, susijusią su jūsų paskyros saugumu, mūsų nuostatų pakeitimais, paskyros funkcionalumu bei pradinius el. laiškus, padėsiančius geriau išnaudoti jūsų „Firefox“ paskyrą."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Be to, galite užsiprenumeruoti ir gauti informacinius laiškus su šviežiausiomis „Mozillos“ ir „Firefox“ naujienomis."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1471,7 +1474,7 @@ msgstr "Prenumeruoti"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Tvarkyti prenumeratas"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
