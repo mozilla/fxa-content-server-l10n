@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-08-20 20:16+0000\n"
-"Last-Translator: eljuno <eljunotrie_anggoro@yahoo.co.id>\n"
+"PO-Revision-Date: 2018-09-26 08:42+0000\n"
+"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -241,7 +241,7 @@ msgstr "Pemulihan Akun"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Kunci Pemulihan Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -485,7 +485,7 @@ msgstr "Gagal mengirim surel"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Dibutuhkan kode yang valid"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -493,7 +493,7 @@ msgstr "Kode verifikasi ini telah kedaluwarsa"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Kunci pemulihan tidak valid"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
@@ -654,11 +654,11 @@ msgstr "Kode pemulihan tidak valid"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
-msgstr ""
+msgstr "Kode pemulihan dibutuhkan"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Silakan masukan kode verifikasi"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -749,12 +749,8 @@ msgid "Invalid Token"
 msgstr "Token Tidak Valid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -810,7 +806,7 @@ msgstr "Terima tautan baru"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Atur ulang sandi dengan kunci pemulihan"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
 #: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
@@ -820,24 +816,25 @@ msgstr "Lanjut ke %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Silakan masukan kunci pemulihan sekali pakai yang Anda simpan di tempat aman untuk mendapatkan akses ke Firefox Account Anda."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data peladen tersinkroninasi "
+"seperti riwayat dan markah)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Masukkan kunci pemulihan"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Konfirmasi kunci pemulihan"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Tidak memiliki kunci pemulihan?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -889,7 +886,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Anda berhasil mengembalikan akun Anda menggunakan kunci pemulihan Anda. Buat sandi baru untuk mengamankan data Anda, dan simpan di tempat yang aman."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1099,11 +1096,11 @@ msgstr "Akun Anda siap!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Buat kunci pemulihan baru"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Lanjutkan ke akun saya"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1346,9 +1343,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Bersihkan"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Selesai"
 
@@ -1624,11 +1620,11 @@ msgstr "Pemulihan akun"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Buat kunci pemulihan untuk mendapatkan akses ke markah, sandi, dan data Firefox tersinkronisasi jika lupa sandi Anda."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Kunci pemulihan"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
@@ -1643,14 +1639,16 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">CATATAN: </span>Sandi Firefox Account mengenkripsi data Firefox Anda. Hanya sandi atau kunci pemulihan Anda yang dapat mengakses data Anda. <a "
+"%(escapedLearnMoreLinkAttributes)s>Pelajari lebih lanjut</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Langkah 1 dari 2: Masukkan kembali sandi"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Masukkan sandi Anda untuk melihat kunci pemulihan Anda."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1658,32 +1656,33 @@ msgstr "Masukkan Sandi"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Yakin ingin mencabut?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Anda tidak akan bisa menggunakan kunci pemulihan Anda untuk mengakses data Anda ketika Anda mengatur ulang sandi Anda."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Langkah 2 dari 2: Simpan Kunci Pemulihan"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">CATATAN: </span>Jika Anda lupa sandi Anda, kunci ini dibutuhkan untuk mendapatkan akses ke data Anda. Simpan kunci pemulihan Anda di tempat aman, di mana Anda dapat menemukannya"
+" dengan mudah."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Gambar tombol cetak"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Gambar tombol unduh"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Selesai, Kunci pemulihan disimpan"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1824,8 +1823,7 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ msgstr "Reremah dan penyimpanan lokal diperlukan."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+#~ msgstr "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Layanan awan Firefox"
@@ -1882,19 +1880,18 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
-#~ "Anda simpan di Firefox desktop akan muncul."
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah Anda "
+#~ "simpan di Firefox desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
-#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
-#~ "perangkat."
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu perangkat."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1984,18 +1981,18 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ msgstr "Masuk"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>PERLU DIINGAT:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi "
-#~ "data Anda dengan sandi Anda untuk melindungi privasi Anda."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>CATATAN:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data "
-#~ "Anda dengan sandi Anda untuk melindungi privasi Anda."
+#~ "<span>PERLU DIINGAT:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data"
+#~ " Anda dengan sandi Anda untuk melindungi privasi Anda."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>CATATAN:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data Anda "
+#~ "dengan sandi Anda untuk melindungi privasi Anda."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan dari salah satu <a %(escapedTotpSupportAttributes)s>aplikasi autentikasi berikut.</a>"
@@ -2073,11 +2070,9 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -2233,8 +2228,7 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr ""
-#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -2291,8 +2285,7 @@ msgstr "Gunakan alamat surel yang berbeda"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
-#~ "sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
