@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-27 05:46+0000\n"
+"PO-Revision-Date: 2018-09-27 06:00+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -210,7 +210,7 @@ msgstr "Firefox 救援码"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
-msgstr "救援码已复制"
+msgstr "已复制救援码"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
@@ -226,7 +226,7 @@ msgstr "两步验证已启用"
 
 #: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "使用救援码 %(code)s 在支持的应用程序中设置两步验证。"
+msgstr "使用验证码 %(code)s 在支持的应用程序中设置两步验证。"
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
