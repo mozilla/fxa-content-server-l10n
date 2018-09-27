@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-09-27 08:50+0000\n"
+"PO-Revision-Date: 2018-09-27 08:58+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1699,6 +1699,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">SHËNIM: </span>Fjalëkalimi i Llogarisë tuaj Firefox fshehtëzon të dhënat tuaja Firefox. Te të dhënat tuaja mund të hyhet vetëm me fjalëkalimin ose kyçin tuaj të rimarrjes. <a "
+"%(escapedLearnMoreLinkAttributes)s>Mësoni më tepër</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1718,7 +1720,7 @@ msgstr "Jeni të sigurt se doni të shfuqizohet?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Nëse ricaktoni fjalëkalimin tuaj, s’do të jeni në gjendje të përdorni kyçin e rimarrjes për të hyrë në të dhënat tuaja."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -1727,14 +1729,16 @@ msgstr "Hapi 2 nga 2: Ruani kyçin e Rimarrjes"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">SHËNIM: </span>Nëse e harroni fjalëkalimin tuaj, ky kyç është i domosdoshëm për të rifituar hyrje në të dhënat tuaja. Ruajeni kyçin tuaj të rimarrjes në një vend të parrezik, ku"
+" mund ta gjeni lehtë më vonë."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Shtype figurën buton"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Shkarkoje figurën buton"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
@@ -1754,15 +1758,15 @@ msgstr "S’duhet të jetë adresa juaj email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "S’duhet të ketë përputhje me ndonjë nga kjo <a %(escapedCommonPasswordLinkAttrs)s>listë fjalëkalimesh të rëndomtë</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Që të jeni i parrezikuar, jini origjinal &mdash; mos e ripërdorni këtë fjalëkalim diku gjetkë."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Mbajeni mend këtë fjalëkalim &mdash; ricaktimi i tij sjell fshirjen e të dhënave tuaja nga shërbyesit tanë."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
