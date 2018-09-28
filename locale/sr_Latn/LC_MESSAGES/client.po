@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 19:02+0000\n"
-"PO-Revision-Date: 2018-08-23 19:08+0000\n"
+"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"PO-Revision-Date: 2018-09-24 17:54+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -552,7 +552,7 @@ msgstr "Neuspešno slanje poruke"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Validan kod je potreban"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -733,7 +733,7 @@ msgstr "Ključ za oporavak potreban"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Unesite verifikacioni kod"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
