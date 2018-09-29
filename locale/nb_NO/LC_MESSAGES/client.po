@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-09-29 00:30+0000\n"
+"PO-Revision-Date: 2018-09-29 00:37+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -486,7 +486,7 @@ msgstr "Kunne ikke sende e-post"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Gyldig kode kreves"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -659,7 +659,7 @@ msgstr "Gjenopprettingsnøkkel nødvendig"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Angi verifiseringskode"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -825,6 +825,8 @@ msgstr "Skriv inn engangs-gjenopprettingsnøkkelen du lagret på et trygt sted, 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">MERK:</span> Hvis du tilbakestiller passordet ditt og ikke har nøkkel for kontogjenoppretting, blir noen av dataene dine slettet (inkludert synkroniserte serverdata som "
+"historikk og bokmerker)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1665,7 +1667,7 @@ msgstr "Du kan ikke bruke gjenopprettingsnøkkelen for å få tilgang til dataen
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Trinn 2 av 2: Lagre gjenopprettingsnøkkel"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
@@ -1673,7 +1675,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Bilde av skriv ut-knapp"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-09-29 00:32+0000\n"
+"PO-Revision-Date: 2018-09-29 00:36+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -585,7 +585,7 @@ msgstr "Sekundær e-postadresse i Firefox-kontoen fjernet"
 
 #: lib/senders/email.js:1290
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Tilbakestilling av passord for din Firefox-konto med gjenopprettingsnøkkel"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -621,7 +621,7 @@ msgstr "Vi er for tiden under stor belastning og arbeider for at systemet så sn
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Laster"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
