@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-09-29 00:37+0000\n"
+"PO-Revision-Date: 2018-10-02 13:49+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1644,6 +1644,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">MERK: </span>Passordet til din Firefox-konto krypterer Firefox-dataene dine. Bare passordet eller gjenopprettingsnøkkelen kan få tilgang til dine data. <a "
+"%(escapedLearnMoreLinkAttributes)s>Les mer</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1672,6 +1674,8 @@ msgstr "Trinn 2 av 2: Lagre gjenopprettingsnøkkel"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">MERK: </span>Hvis du glemmer passordet ditt, er denne nøkkelen nødvendig for å få tilgang til dine data. Lagre gjenopprettingsnøkkelen på et trygt sted, hvor du lett kan finne "
+"den senere."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
