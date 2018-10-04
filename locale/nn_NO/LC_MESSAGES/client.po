@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 08:51+0000\n"
+"PO-Revision-Date: 2018-10-04 09:05+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -827,11 +827,11 @@ msgstr "Skriv inn gjenopprettingsnykel"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Stadfest gjennopprettingsnykel"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Har du ikkje ein gjenopprettingsnykel?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
