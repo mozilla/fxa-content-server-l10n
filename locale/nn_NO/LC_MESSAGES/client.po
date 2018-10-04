@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 09:05+0000\n"
+"PO-Revision-Date: 2018-10-04 09:16+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -883,7 +883,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Du har gjenoppretta kontoen din ved hjelp av gjenopprettingsnykelen. Opprett eit nytt passord for å sikre dataa dine, og lagre det på ein trygg stad."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1093,7 +1093,7 @@ msgstr "Kontoen din er klar!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Generer ein ny gjenopprettingsnykel"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
@@ -1621,11 +1621,11 @@ msgstr "Kontogjenoppretting"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Generer ein gjenopprettingsnykel for å gjenopprette tilgang til Firefox-bokmerka dine, passord og synkroniserte data viss du gløymer passordet ditt."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Gjenopprettingsnykel"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
