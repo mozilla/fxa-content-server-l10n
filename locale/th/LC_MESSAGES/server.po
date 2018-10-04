@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 16:11+0000\n"
+"PO-Revision-Date: 2018-10-04 16:12+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -538,7 +538,7 @@ msgstr "รหัสอนุญาตของบัญชี Firefox"
 
 #: lib/senders/email.js:646
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "ยืนยันการเข้าสู่ระบบของ %(clientName)s"
 
 #: lib/senders/email.js:695
 msgid "Sign-in code for Firefox"
@@ -614,7 +614,7 @@ msgstr "เซิร์ฟเวอร์กำลังทำงานหนั
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "กำลังโหลด"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
