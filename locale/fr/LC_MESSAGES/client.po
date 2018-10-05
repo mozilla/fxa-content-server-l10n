@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-05 16:02+0000\n"
 "PO-Revision-Date: 2018-09-20 00:11+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -326,7 +326,7 @@ msgstr "Adresses"
 msgid "Credit cards"
 msgstr "Cartes de paiement"
 
-#: .es5/models/reliers/sync.js:76
+#: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -783,7 +783,7 @@ msgstr "Adresse IP : %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Pour une sécurité renforcée, veuillez confirmer cette connexion pour lancer la synchronisation avec cet appareil :"
 
-#: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Connexion"
 
@@ -815,9 +815,9 @@ msgstr "Recevoir un nouveau lien"
 msgid "Reset password with recovery key"
 msgstr "Réinitialiser le mot de passe avec une clé de récupération"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
-#: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
-#: .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuer vers %(serviceName)s"
 
@@ -1017,21 +1017,21 @@ msgstr "Veuillez activer les cookies et le stockage local de votre navigateur af
 msgid "Try again"
 msgstr "Réessayer"
 
-#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Connectez-vous pour continuer"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Mot de passe"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Mot de passe oublié ?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "En continuant, vous acceptez les <a id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a id=\"fxa-pp\" href=\"/legal/privacy\">Politique de confidentialité</a>."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-05 16:02+0000\n"
 "PO-Revision-Date: 2018-09-19 11:00+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -323,7 +323,7 @@ msgstr "Adressen"
 msgid "Credit cards"
 msgstr "Creditcards"
 
-#: .es5/models/reliers/sync.js:76
+#: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -780,7 +780,7 @@ msgstr "IP-adres: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Befêstigje foar ekstra befeiliging dizze oanmelding om mei it syngronisearjen mei dit apparaat te begjinnen:"
 
-#: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Oanmelde"
 
@@ -812,9 +812,9 @@ msgstr "Nije keppeling ûntfange"
 msgid "Reset password with recovery key"
 msgstr "Wachtwurd opnij ynstelle mei werstelkaai"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
-#: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
-#: .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Trochgean nei %(serviceName)s"
 
@@ -1014,21 +1014,21 @@ msgstr "Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta Firefo
 msgid "Try again"
 msgstr "Opnij probearje"
 
-#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Meld jo oan om troch te gean"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Wachtwurd"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a>."
 
