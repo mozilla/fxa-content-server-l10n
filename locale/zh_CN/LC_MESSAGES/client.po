@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-05 16:02+0000\n"
 "PO-Revision-Date: 2018-09-27 06:00+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -324,7 +324,7 @@ msgstr "地址"
 msgid "Credit cards"
 msgstr "信用卡"
 
-#: .es5/models/reliers/sync.js:76
+#: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
 msgstr "Firefox 同步"
 
@@ -779,7 +779,7 @@ msgstr "IP 地址：%(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "为了确保安全，请确认此登录以开始与此设备同步："
 
-#: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "登录"
 
@@ -811,9 +811,9 @@ msgstr "接收新链接"
 msgid "Reset password with recovery key"
 msgstr "使用救援密钥重置密码"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
-#: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
-#: .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "继续使用 %(serviceName)s"
 
@@ -1009,21 +1009,21 @@ msgstr "请在您的浏览器中启用 Cookie 和本地存储功能以访问 Fir
 msgid "Try again"
 msgstr "再试一次"
 
-#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "登录以继续"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "密码"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "若继续，则代表您同意<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权公告</a>。"
 
