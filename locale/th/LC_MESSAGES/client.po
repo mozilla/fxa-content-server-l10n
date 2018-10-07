@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 16:10+0000\n"
+"PO-Revision-Date: 2018-10-07 00:50+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "ซิงค์ครั้งล่าสุดนานกว่า %(translatedTimeAgo)s ใกล้ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -120,11 +120,11 @@ msgstr "ใช้งานล่าสุด %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ใช้งานล่าสุดนานกว่า %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "ใช้งานล่าสุด %(translatedTimeAgo)s ใน %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -212,7 +212,7 @@ msgstr "คัดลอกรหัสแล้ว"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "ไม่สามารถคัดลอกรหัสได้ โปรดคัดลอกรหัสเหล่านั้นด้วยตนเอง"
 
 #: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
@@ -228,7 +228,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "ลบการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
 
 #: .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"

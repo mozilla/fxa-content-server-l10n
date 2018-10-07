@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 16:12+0000\n"
+"PO-Revision-Date: 2018-10-07 00:42+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -109,7 +109,7 @@ msgstr "สำหรับข้อมูลเพิ่มเติม โป�
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:922
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "มีการลงชื่อเข้าใช้ใหม่ที่ %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -157,15 +157,15 @@ msgstr "รหัสผ่านบัญชีคุณถูกเปลี่
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "คุณจะต้องป้อนรหัสผ่านใหม่ของคุณบนอุปกรณ์อื่น ๆ เพื่อดำเนินการซิงค์ต่อ"
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "หากคุณไม่ได้เปลี่ยนมัน กรุณา<a %(resetLinkAttributes)s>เปลี่ยนรหัสผ่านของคุณ</a>ตอนนี้"
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "หากคุณไม่ได้เปลียนมัน กรุณาตั้งรหัสผ่านของคุณใหม่ที่ %(resetLink)s"
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "คุณจะต้องสร้างกุญแจการกู้คืนใหม่"
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
@@ -229,7 +229,7 @@ msgstr "ทีมบัญชี Firefox"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "กุญแจกู้คืนบัญชีถูกสร้างแล้ว"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
@@ -251,7 +251,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "ถ้านี่ไม่ใช่คุณ ให้เพิกถอนกุญแจนี้"
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
@@ -261,7 +261,7 @@ msgstr "จัดการบัญชี:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "เปิดใช้งานการรับรองความถูกต้องสองขั้นตอนแล้ว"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -288,7 +288,7 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "ใช้รหัสการกู้คืนแล้ว"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
@@ -296,11 +296,11 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "ใช้รหัสการกู้คืนแล้ว"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "สร้างรหัสการกู้คืนใหม่แล้ว"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "กุญแจกู้คืนบัญชีถูกลบแล้ว"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "กุญแจกู้คืนนี้ไม่สามารถใช้เพื่อกู้คืนบัญชีคุณได้อีกต่อไป"
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
@@ -338,7 +338,7 @@ msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้�
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "ปิดใช้งานการรับรองความถูกต้องสองขั้นตอนแล้ว"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -554,7 +554,7 @@ msgstr "รหัสผ่านบัญชี Firefox ของคุณได
 
 #: lib/senders/email.js:878
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "รหัสผ่านบัญชี Firefox ถูกเปลี่ยนแล้ว"
 
 #: lib/senders/email.js:900
 msgid "Firefox Account password reset required"
