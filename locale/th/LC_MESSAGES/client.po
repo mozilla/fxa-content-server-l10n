@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-07 00:50+0000\n"
+"PO-Revision-Date: 2018-10-07 01:01+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -228,7 +228,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
-msgstr "ลบการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
+msgstr "ลบการรับรองแบบสองขั้นตอนแล้ว"
 
 #: .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
@@ -805,7 +805,7 @@ msgstr "รับลิงก์ใหม่"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่ด้วยกุญแจการกู้คืน"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
 #: .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2
@@ -994,7 +994,7 @@ msgstr "ทำไมต้องใช้อุปกรณ์มากกว่
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "ต้องการเข้าถึงคุกกี้และพื้นที่เก็บข้อมูลในเครื่อง"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1095,7 +1095,7 @@ msgstr "สร้างกุญแจการกูคืนใหม่"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "ต่อไปยังบัญชีของฉัน"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1141,7 +1141,7 @@ msgstr "สร้างบัญชี"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "ขออภัย เราได้ทำการล็อก&nbsp;บัญชีของคุณ"
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1189,7 +1189,7 @@ msgstr "อนุญาตการลงชื่อเข้านี้"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "ตรวจสอบอีเมลคุณสำหรับรหัสที่ถูกส่งไปที่ %(email)s"
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1484,7 +1484,7 @@ msgstr "เลือกชื่อที่จะแสดงใน Firefox แ
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "อีเมลสำรองเป็นที่อยู่อีกที่สำหรับใช้รับการแจ้งความปลอดภัยและยืนยันอุปกรณ์ใหม่"
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1521,7 +1521,7 @@ msgstr "หมายเหตุ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "การสร้างรหัสการกู้คืนใหม่จะส่งผลให้รหัสก่อนหน้านี้ทั้งหมดใช้ไม่ได้ โปรดเก็บรหัสใหม่ในที่ปลอดภัย"
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1545,7 +1545,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "เปิดใช้งาน…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1617,11 +1617,11 @@ msgstr "รหัสการกู้คืน"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "ไม่ได้ตั้งไว้"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "สร้าง"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1635,7 +1635,7 @@ msgstr "ขั้นตอนที่ 1 จาก 2: ใส่รหัสอ�
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "ใส่รหัสผ่านของคุณเพื่อดูกุญแจการกู้คืน"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1643,15 +1643,15 @@ msgstr "ใส่รหัสผ่าน"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่ที่ต้องการยกเลิก?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "คุณจะไม่สามารถใช้กุญแจการกู้คืนของคุณเพื่อเข้าถึงข้อมูลของคุณในเหตุการณ์ที่คุณตั้งรหัสผ่านใหม่"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "ขั้นตอนที่ 2 จาก 2: บันทึกกุญแจการกู้คืน"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
