@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-08-26 11:07+0000\n"
+"PO-Revision-Date: 2018-10-08 12:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: .es5/views/ready.js:91
 msgid "Primary email verified"
-msgstr ""
+msgstr "Асноўны адрас эл.пошты пацверджаны"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Другі адрас эл.пошты пацверджаны"
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -92,11 +92,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя больш за %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -144,7 +144,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Больш за %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Час апошняй сінхранізацыі невядомы"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -180,7 +180,7 @@ msgstr "Паспяхова падпісаны"
 
 #: .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Уліковы запіс паспяхова выдалены"
 
 #: .es5/views/settings/display_name.js:58
 msgid "Display name updated"
@@ -188,15 +188,15 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Другі адрас эл.пошты выдалены"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr ""
+msgstr "Ліст пацверджання высланы"
 
 #: .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Асноўным адрасам эл.пошты ўсталяваны %(email)s"
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
-msgstr ""
+msgstr "Коды скапіраваны"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
@@ -216,7 +216,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Згенераваны новыя коды аднаўлення"
 
 #: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
@@ -748,9 +748,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -820,8 +818,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1337,9 +1334,8 @@ msgstr "Камера"
 msgid "Clear"
 msgstr "Ачысціць"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Гатова"
 
@@ -1658,8 +1654,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
