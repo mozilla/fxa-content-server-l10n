@@ -396,7 +396,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Адсутнічае параметр: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
