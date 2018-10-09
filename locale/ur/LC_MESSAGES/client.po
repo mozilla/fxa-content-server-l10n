@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-07-28 06:48+0000\n"
-"Last-Translator: عمر <um.qshi@gmail.com>\n"
+"PO-Revision-Date: 2018-10-09 15:34+0000\n"
+"Last-Translator: Md Shahbaz Alam <shahbazalam17feb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -204,11 +204,11 @@ msgstr "ثانوی ای میل"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox بازیافت کوڈ"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
-msgstr ""
+msgstr "کوڈ کی نقل ہو گیا"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
@@ -236,11 +236,11 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/account_recovery.js:115
 msgid "Account Recovery"
-msgstr ""
+msgstr "اکاؤنٹ بازیافت"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Firefox بازیافت کلید"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -492,7 +492,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "غلط بازیافت کلید"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
@@ -653,7 +653,7 @@ msgstr "ناجائز بازیابی کے کوڈ"
 
 #: .es5/lib/auth-errors.js:496
 msgid "Recovery key required"
-msgstr ""
+msgstr "بازیافت کلید ضرورت ہے"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
@@ -748,9 +748,7 @@ msgid "Invalid Token"
 msgstr "‏‏ناجائز ٹوکن"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -820,17 +818,16 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "بازیافت کلید داخل کریں"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "بازیافت کلید تصدیق کریں"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
@@ -1160,7 +1157,7 @@ msgstr "اس ای میل کے مالک نہیں؟ ایک نیا اکاؤنٹ ب�
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "بازیافت کوڈ داخل کریں"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1208,7 +1205,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "بازیافت کوڈ استعمال کریں"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1337,9 +1334,8 @@ msgstr "کیمرہ"
 msgid "Clear"
 msgstr "صاف کریں"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "ہوگیا"
 
@@ -1517,7 +1513,7 @@ msgstr "اظافہ کریں"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "بازیافت کوڈ"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1529,7 +1525,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "نیا بازیافت کوڈ تخلیق کریں"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1617,7 +1613,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "بازیافت کلید"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
@@ -1625,7 +1621,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "تخلیق کریں"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1658,8 +1654,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3

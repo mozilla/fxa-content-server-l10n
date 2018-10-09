@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-07-28 06:41+0000\n"
-"Last-Translator: عمر <um.qshi@gmail.com>\n"
+"PO-Revision-Date: 2018-10-09 15:42+0000\n"
+"Last-Translator: Md Shahbaz Alam <shahbazalam17feb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -56,7 +56,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "کوڈ تخلیق کریں"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
@@ -94,7 +94,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "کوڈ تخلیق کریں:"
 
 #: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
@@ -180,11 +180,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "نیابازیافت کلید بنائیں"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "نیابازیافت کلید بنائیں:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -298,7 +298,7 @@ msgstr ""
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "نیابازیافت کوڈ تخلیق ہو گیا"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
@@ -610,11 +610,11 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "لوڈ کیا جا رہاہے"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox اکاؤنٹ کو جاوا سکرپٹ کی ضرورت ہے۔"
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
@@ -660,8 +660,7 @@ msgstr "خدمت کی شرائط"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
