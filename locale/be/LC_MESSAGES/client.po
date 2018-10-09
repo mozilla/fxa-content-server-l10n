@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-08 12:51+0000\n"
+"PO-Revision-Date: 2018-10-09 17:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Адноўны ключ Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -256,7 +256,7 @@ msgstr "няма"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Апошняя праверка: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -284,7 +284,7 @@ msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Асноўны адрас эл.пошты паспяхова пацверджаны"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
@@ -304,7 +304,7 @@ msgstr "Дадаткі"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "Лагіны"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -328,7 +328,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:79
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Другі адрас эл.пошты паспяхова пацверджаны"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
@@ -344,11 +344,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў пазней."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
 msgid "Invalid token"
@@ -388,7 +388,7 @@ msgstr "Няправільны код пацверджання"
 
 #: .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Няспраўны JSON у целе запыта"
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
