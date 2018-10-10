@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-10 10:54+0000\n"
-"Last-Translator: Shafia Shahnaz <shafiashahnaz5@gmail.com>\n"
+"PO-Revision-Date: 2018-10-10 16:12+0000\n"
+"Last-Translator: Md Shahbaz Alam <shahbazalam17feb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -216,7 +216,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "نیابازیافت کوڈ تخلیق ہو گیا"
 
 #: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
@@ -1091,7 +1091,7 @@ msgstr "آپ کا اکاؤنٹ کے لئے تیار ہے!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "ایک نیابازیافت کلید تخلیق کریں"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
@@ -1605,7 +1605,7 @@ msgstr "بنیادی ای میل"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "اکاؤنٹ بازیافت"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -1639,7 +1639,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "پاس ورڈ داخل کریں"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
