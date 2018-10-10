@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-09 17:11+0000\n"
+"PO-Revision-Date: 2018-10-10 18:30+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/account_recovery.js:115
 msgid "Account Recovery"
-msgstr ""
+msgstr "Аднаўленне ўліковага запісу"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
@@ -484,7 +484,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Патрабуецца дзейсны код"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сервер заняты, паспрабуйце зноў крыху пазней"
 
 #: .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
@@ -549,11 +549,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:274
 msgid "Valid password required"
-msgstr ""
+msgstr "Патрабуецца дзейсны пароль"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:332
 msgid "Valid email required"
-msgstr ""
+msgstr "Патрабуецца сапраўдны адрас эл.пошты"
 
 #: .es5/lib/auth-errors.js:289
 msgid "A usable image was not found"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:297
 msgid "Valid URL required"
-msgstr ""
+msgstr "Патрабуецца сапраўдны URL"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Your verification email was just returned. Mistyped email?"
@@ -593,11 +593,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:370
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Вы мусіце ўказаць свой узрост, каб зарэгістравацца"
 
 #: .es5/lib/auth-errors.js:385
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Уліковы запіс больш не існуе."
 
 #: .es5/lib/auth-errors.js:389
 msgid "Invalid property in resume token: %(property)s"
@@ -633,7 +633,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:453
 msgid "Phone number required"
-msgstr ""
+msgstr "Патрабуецца нумар тэлефона"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Two-step authentication code required"
@@ -673,7 +673,7 @@ msgstr ""
 
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
-msgstr ""
+msgstr "Паспрабуйце пазней, калі ласка"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
@@ -889,7 +889,7 @@ msgstr "Новы пароль"
 
 #: .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
-msgstr ""
+msgstr "Увядзіце пароль ізноў"
 
 #: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
