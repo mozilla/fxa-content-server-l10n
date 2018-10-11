@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-05 11:42+0000\n"
-"Last-Translator: robbp <robbpaun@gmail.com>\n"
+"PO-Revision-Date: 2018-10-11 11:24+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -85,11 +85,11 @@ msgstr "Parola a fost schimbată cu succes"
 
 #: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Ne pare rău să auzim asta. Ar trebui să schimbi parola contului Firefox și să cauți informații de la producătorul dispozitivului în ceea ce priveşte ștergerea datelor de la distanță."
+msgstr "Ne pare rău. Trebuie să schimbi parola contului de Firefox și să cauți informații de la producătorul dispozitivului despre ștergerea datelor de la distanță."
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Ne pare rău să auzim asta. Dacă acesta a fost un dispozitiv în care chiar nu ai încredere, ar trebui să schimbi parola contului Firefox și să schimbi toate parolele salvate în Firefox."
+msgstr "Ne pare rău. Dacă a fost un dispozitiv în care chiar nu ai încredere, trebuie să schimbi parola contului de Firefox și să schimbi toate parolele salvate în Firefox."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -193,7 +193,7 @@ msgstr "E-mail secundar eliminat"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr "Email-ul cu un link de verificare a fost trimis"
+msgstr "E-mail de verificare trimis"
 
 #: .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
@@ -241,7 +241,7 @@ msgstr "Recuperare cont"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr "Cheie de recuperare Firefox"
+msgstr "Cheie de recuperare cont Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -281,7 +281,7 @@ msgstr "Deschide Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-mailul a fost retrimis. Adaugă accounts@firefox.com la lista de contacte a ta pentru a te asigura că mesajul este primit."
+msgstr "E-mailul a fost retrimis. Adaugă accounts@firefox.com în lista de contacte pentru a te asigura că primești mesajul."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -297,7 +297,7 @@ msgstr "Deschide filele"
 
 #: .es5/models/sync-engines.js:48
 msgid "Bookmarks"
-msgstr "Semne de carte"
+msgstr "Marcaje"
 
 #: .es5/models/sync-engines.js:52
 msgid "Add-ons"
@@ -305,7 +305,7 @@ msgstr "Suplimente"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr "Accesări"
+msgstr "Autentificări"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
@@ -333,7 +333,7 @@ msgstr "E-mail secundar verificat cu succes"
 
 #: .es5/models/auth_brokers/web.js:34
 msgid "Password reset successfully"
-msgstr "Parola s-a resetat cu succes"
+msgstr "Parolă resetată cu succes"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
@@ -359,13 +359,13 @@ msgstr "Indicativ nevalid"
 # cerere programatică API.
 #: .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
-msgstr "Marcaj de timp nevalid în semnătura solicitării"
+msgstr "Marcaj de timp invalid în semnătura solicitării"
 
 # Nonce: termen de jargon informatic și probabil un parametru pentru o cerere
 # programatică API. Înseamnă „număr unic”.
 #: .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
-msgstr "Nonce nevalid în semnătura solicitării"
+msgstr "Număr aleatoriu invalid în semnătura solicitării"
 
 #: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
@@ -377,7 +377,7 @@ msgstr "Cont necunoscut"
 
 #: .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
-msgstr "Adresă de e-mail scrisă cu minuscule/majuscule incorect"
+msgstr "Adresă de e-mail scrisă cu minuscule/majuscule incorecte"
 
 #: .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
@@ -407,12 +407,12 @@ msgstr "Parametru lipsă: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
-msgstr "Semnătura cererii nevalidă"
+msgstr "Semnătură invalidă a cererii"
 
 # Header e termen programatic, la fel și content-length, alea nu se traduc.
 #: .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
-msgstr "Antetul lipsă content-length"
+msgstr "Antetul content-length lipsește"
 
 #: .es5/lib/auth-errors.js:93
 msgid "Request body too large"
@@ -436,7 +436,7 @@ msgstr "Nu poate fi trimis către această țară"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr "Nu se poate trimite un mesaj la acest număr"
+msgstr "Nu se poate trimite un mesaj către acest număr"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
@@ -452,7 +452,7 @@ msgstr "Email-ul nu poate fi trimis"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
-msgstr "Acest e-mail a fost verificat deja de alt utilizator"
+msgstr "E-mail-ul a fost deja verificat de un alt utilizator"
 
 #: .es5/lib/auth-errors.js:157
 msgid "Secondary email must be different than your account email"
@@ -464,7 +464,7 @@ msgstr "Este necesar e-mailul principal pentru autentificare"
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr "Adresa aparţine unui alt utilizator"
+msgstr "Adresa este folosită de către alt cont"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
@@ -472,19 +472,19 @@ msgstr "Este necesar e-mailul principal pentru resetare"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr "Cod de autentificare nevalid"
+msgstr "Cod de autentificare invalid"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr "Nu se poate schimba e-mailul principal cu o adresă neverificată"
+msgstr "E-mailul principal nu poate fi schimbat cu o adresă neverificată"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Nu se poate schimba e-mailul principal cu o adresă care nu aparține acestui cont"
+msgstr "E-mailul principal nu poate fi schimbat cu o adresă care nu este asociată contului"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr "Acest e-mail nu este momentan folosit pentru autentificare"
+msgstr "Acest e-mail nu poate fi utilizat momentan pentru autentificare"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
@@ -496,11 +496,11 @@ msgstr "Cod valid necesar"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr "Acest cod de verificare a expirat"
+msgstr "Codul de verificare a expirat"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr "Cheie de recuperare nevalidă"
+msgstr "Cheie de recuperare invalidă"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
