@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-12 16:02+0000\n"
 "PO-Revision-Date: 2018-05-26 10:16+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Prihlásiť sa k službe Sync"
 msgid "Firefox Accounts"
 msgstr "Účty Firefox"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
 msgid "Low recovery codes remaining"
 msgstr "Ostáva vám malé množstvo obnovovacích kódov"
 
@@ -111,7 +111,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Pre viac informácií prosím navštívte stránku %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:922
+#: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
 msgstr "Nové prihlásenie k %(clientName)s"
 
@@ -233,7 +233,7 @@ msgstr "S pozdravom,"
 msgid "The Firefox Accounts team"
 msgstr "Tím účtov Firefox"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Manage account:"
 msgstr "Spravovať účet:"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
 msgid "Two-step authentication enabled"
 msgstr "Dvojstupňové overenie bolo povolené"
 
@@ -293,7 +293,7 @@ msgstr ""
 "Úspešne ste zmenili svoju primárnu e-mailovú adresu na %(email)s. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k účtu Firefox a k zasielaniu bezpečnostných upozornení a potvrdení "
 "prihlásenia."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
 msgid "Recovery code consumed"
 msgstr "Obnovovací kód bol použitý"
 
@@ -305,7 +305,7 @@ msgstr "Úspešne ste použili obnovovací kód z nasledujúceho zariadenia:"
 msgid "Consumed recovery code"
 msgstr "Bol použitý obnovovací kód"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
 msgid "New recovery codes generated"
 msgstr "Boli vygenerované nové obnovovacie kódy"
 
@@ -313,7 +313,7 @@ msgstr "Boli vygenerované nové obnovovacie kódy"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Úspešne ste vygenerovali nové obnovovacie kódy z nasledujúceho zariadenia:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgstr "Úspešne ste odstránili %(secondaryEmail)s ako sekundárnu e-mailovú 
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
 msgstr "Dvojstupňové overenie bolo zakázané"
 
@@ -455,7 +455,7 @@ msgstr "Potvrdiť prihlásenie"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, <a %(passwordChangeLinkAttributes)s>zmeňte si svoje heslo</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
 msgstr "Overiť primárnu e-mailovú adresu"
 
@@ -483,7 +483,7 @@ msgstr "Overenie e-mailu: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Ak ste túto akciu nevykonali, zmeňte svoje heslo."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:780
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
 msgstr "Overiť sekundárnu e-mailovú adresu"
 
@@ -507,83 +507,83 @@ msgstr "Potvrďte, že ste dostali tento e-mail a my vám pomôžeme s inštalá
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Okamžite, ako bude overenie dokončené, pomôžeme vám nainštalovať a pripojiť Firefox na aspoň jednom ďalšom zariadení."
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:208
+#: lib/senders/email.js:209
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:235
+#: lib/senders/email.js:236
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:237
+#: lib/senders/email.js:238
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:242
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:546
+#: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
 msgstr "Overte svoj účet Firefox"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrďte svoj e-mail a začnite synchronizovať!"
 
-#: lib/senders/email.js:607
+#: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
 msgstr "Autorizačný kód účtu Firefox"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potvrdenie nového prihlásenia k %(clientName)s"
 
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
 msgstr "Prihlasovací kód pre Firefox"
 
-#: lib/senders/email.js:824
+#: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
 msgstr "Obnoviť heslo vášho účtu Firefox"
 
-#: lib/senders/email.js:852
+#: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
 msgstr "Heslo vášho účtu Firefox bolo zmenené"
 
-#: lib/senders/email.js:878
+#: lib/senders/email.js:879
 msgid "Firefox Account password changed"
 msgstr "Heslo k účtu Firefox bolo zmenené"
 
-#: lib/senders/email.js:900
+#: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
 msgstr "Je požadovaná obnova hesla k účtu Firefox"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:960
 msgid "Firefox Account verified"
 msgstr "Účet Firefox bol overený"
 
-#: lib/senders/email.js:986
+#: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundárna e-mailová adresa bola úspešne pridaná k účtu"
 
-#: lib/senders/email.js:1014
+#: lib/senders/email.js:1015
 msgid "Firefox Account new primary email"
 msgstr "Nová primárna e-mailová adresa účtu Firefox"
 
-#: lib/senders/email.js:1042
+#: lib/senders/email.js:1043
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundárna e-mailová adresa bola z účtu odstránená"
 
-#: lib/senders/email.js:1290
+#: lib/senders/email.js:1291
 msgid "Firefox Account password reset with recovery key"
 msgstr ""
 

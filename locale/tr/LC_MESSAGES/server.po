@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-12 16:02+0000\n"
 "PO-Revision-Date: 2018-09-13 17:49+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Sync’e giriş yap"
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
 msgid "Low recovery codes remaining"
 msgstr "Kurtarma kodları azaldı"
 
@@ -111,7 +111,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha fazla bilgi için lütfen %(supportUrl)s adresini ziyaret edin"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:922
+#: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişi"
 
@@ -233,7 +233,7 @@ msgstr "Sevgiler,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Hesapları Ekibi"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
 msgid "Account recovery key generated"
 msgstr "Hesap kurtarma anahtarı oluşturuldu"
 
@@ -265,7 +265,7 @@ msgstr "Bu işlemi siz yapmadıysanız anahtarı iptal edin."
 msgid "Manage account:"
 msgstr "Hesabı yönet:"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
 msgid "Two-step authentication enabled"
 msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
 
@@ -293,7 +293,7 @@ msgstr ""
 "Ana e-posta adresinizi %(email)s olarak başarıyla değiştirdiniz. Bu adres artık Firefox Hesabınıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize "
 "gelecek."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
 msgid "Recovery code consumed"
 msgstr "Kurtarma kodu kullanıldı"
 
@@ -305,7 +305,7 @@ msgstr "Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:"
 msgid "Consumed recovery code"
 msgstr "Kullanılan kurtarma kodu"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları üretildi"
 
@@ -313,7 +313,7 @@ msgstr "Yeni kurtarma kodları üretildi"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
 msgstr "Hesap kurtarma anahtarı silindi"
 
@@ -343,7 +343,7 @@ msgstr "Firefox Hesabınızda ikinci e-posta olarak kayıtlı %(secondaryEmail)s
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
 msgstr "İki aşamalı kimlik doğrulama kapatıldı"
 
@@ -455,7 +455,7 @@ msgstr "Girişi onayla"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız <a %(passwordChangeLinkAttributes)s>lütfen parolanızı değiştirin</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
 msgstr "Ana e-posta adresini doğrula"
 
@@ -483,7 +483,7 @@ msgstr "E-postayı doğrula: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Bu işleme onay vermediyseniz lütfen parolanızı değiştirin."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:780
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
 msgstr "İkinci e-postayı doğrula"
 
@@ -507,83 +507,83 @@ msgstr "Bu e-postayı aldığınızı onayladıktan sonra tüm cihazlarınıza F
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize ve hesabınıza bağlamanıza yardım edeceğiz."
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:208
+#: lib/senders/email.js:209
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: lib/senders/email.js:235
+#: lib/senders/email.js:236
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:237
+#: lib/senders/email.js:238
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:242
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
 
-#: lib/senders/email.js:546
+#: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabı’nızı doğrulayın"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
 
-#: lib/senders/email.js:607
+#: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı yetkilendirme kodu"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişini onaylayın"
 
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
 msgstr "Firefox giriş kodu"
 
-#: lib/senders/email.js:824
+#: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesabı parolanızı sıfırlayın"
 
-#: lib/senders/email.js:852
+#: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesabı parolanız değiştirildi"
 
-#: lib/senders/email.js:878
+#: lib/senders/email.js:879
 msgid "Firefox Account password changed"
 msgstr "Firefox Hesabı parolanız değiştirildi"
 
-#: lib/senders/email.js:900
+#: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolanızı sıfırlamanız gerekiyor"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:960
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı doğrulandı"
 
-#: lib/senders/email.js:986
+#: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox Hesabı'na ikinci e-posta eklendi"
 
-#: lib/senders/email.js:1014
+#: lib/senders/email.js:1015
 msgid "Firefox Account new primary email"
 msgstr "Firefox Hesabı yeni ana e-posta"
 
-#: lib/senders/email.js:1042
+#: lib/senders/email.js:1043
 msgid "Secondary Firefox Account email removed"
 msgstr "İkinci Firefox Hesabı e-postası silindi"
 
-#: lib/senders/email.js:1290
+#: lib/senders/email.js:1291
 msgid "Firefox Account password reset with recovery key"
 msgstr "Kurtarma anahtarıyla Firefox Hesabı parolası sıfırlama"
 

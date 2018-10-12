@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-12 16:02+0000\n"
 "PO-Revision-Date: 2018-08-15 19:20+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr "सिंक में साइन इन करें"
 msgid "Firefox Accounts"
 msgstr "Firefox खाता"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
 msgid "Low recovery codes remaining"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "और अधिक जानकारी के लिए कृपया विजिट करें%(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:922
+#: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
@@ -229,7 +229,7 @@ msgstr "श्रेष्ठ,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox विवरण टीम"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "Manage account:"
 msgstr "खाता प्रबंधित करें:"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgid ""
 "confirmations."
 msgstr "आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -299,7 +299,7 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -307,7 +307,7 @@ msgstr ""
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr ""
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr "आपने अपने Firefox खाते से एक द्व�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "यह एक स्वाचालित ईमेल है; यदि आपने इसको किसी त्रुटि के तहत प्राप्त किया है, कोई क्रिया आवश्यक नहीं."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
 msgstr "द्वि-चरणीय प्रमाणीकरण अक्षम"
 
@@ -449,7 +449,7 @@ msgstr "साइन-इन की पुष्टि करें"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "यदि आपको संदेह है कि कोई को आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदलें</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
 msgstr "प्राथमिक ईमेल सत्यापित करें"
 
@@ -477,7 +477,7 @@ msgstr "ईमेल सत्यापित करें: "
 msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:780
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
 msgstr "द्वितीयक ई-मेल सत्यापित करें"
 
@@ -501,83 +501,83 @@ msgstr "पुष्टि करें कि आपको यह ईमेल 
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "एक बार पुष्टि होते ही, हम आपको कम से कम एक अन्य डिवाइस पर Firefox स्थापित और कनेक्ट करने में मदद करेंगे।"
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:208
+#: lib/senders/email.js:209
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:235
+#: lib/senders/email.js:236
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:237
+#: lib/senders/email.js:238
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:242
 msgid "%(country)s (estimated)"
 msgstr "%(country)s(अनुमानित)"
 
-#: lib/senders/email.js:546
+#: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
 msgstr "अपना फ़ायरफ़ॉक्स खाता सत्यापित करें"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "अपने ईमेल की पुष्टि करें और संकालन करना प्रारंभ करें!"
 
-#: lib/senders/email.js:607
+#: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
 msgstr "Firefox खाता प्राधिकरण कोड"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
 msgstr "Firefox के लिए साइन इन कोड"
 
-#: lib/senders/email.js:824
+#: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
 msgstr "अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार करें"
 
-#: lib/senders/email.js:852
+#: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
 msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द परिवर्तित कर दिया गया है"
 
-#: lib/senders/email.js:878
+#: lib/senders/email.js:879
 msgid "Firefox Account password changed"
 msgstr ""
 
-#: lib/senders/email.js:900
+#: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
 msgstr "Firefox खाते का पासवर्ड पुनः तैयार करने की आवश्यकता है"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:960
 msgid "Firefox Account verified"
 msgstr "Firefox खाता सत्यापित"
 
-#: lib/senders/email.js:986
+#: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
 msgstr "द्वितीयक Firefox खाता ई-मेल जोड़ा गया"
 
-#: lib/senders/email.js:1014
+#: lib/senders/email.js:1015
 msgid "Firefox Account new primary email"
 msgstr "Firefox खाते का नया प्राथमिक ईमेल"
 
-#: lib/senders/email.js:1042
+#: lib/senders/email.js:1043
 msgid "Secondary Firefox Account email removed"
 msgstr "द्वितीयक Firefox खाता ई-मेल हटाया गया"
 
-#: lib/senders/email.js:1290
+#: lib/senders/email.js:1291
 msgid "Firefox Account password reset with recovery key"
 msgstr ""
 

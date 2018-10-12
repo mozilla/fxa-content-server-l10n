@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-12 16:02+0000\n"
 "PO-Revision-Date: 2018-08-31 17:54+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "Pla Sync pśizjawiś"
 msgid "Firefox Accounts"
 msgstr "Konta Firefox"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1196
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
 msgid "Low recovery codes remaining"
 msgstr "Mało wótnowjeńskich kodow wušej"
 
@@ -110,7 +110,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za dalšne informacije glejśo %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:922
+#: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
 msgstr "Nowe pśizjawjenje pla %(clientName)s"
 
@@ -232,7 +232,7 @@ msgstr "Z pśijaśelnym póstrowom,"
 msgid "The Firefox Accounts team"
 msgstr "Team Firefox Accounts"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1224
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
 msgid "Account recovery key generated"
 msgstr "Kontowy wótnowjeński kluc jo se napórał"
 
@@ -264,7 +264,7 @@ msgstr "Jolic wy to njejsćo był, wótwołajśo kluc."
 msgid "Manage account:"
 msgstr "Konto zastojaś:"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1068
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
 msgid "Two-step authentication enabled"
 msgstr "Dwójokšacowa awtentifikacija jo se zmóžniła"
 
@@ -292,7 +292,7 @@ msgstr ""
 "Sćo swóju primarnu e-mailowu adresu wuspěšnje do %(email)s změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta Firefox a aby wy wěstotne powěsći a pśizjawjeńske "
 "wobšruśenja dostał."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1164
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
 msgid "Recovery code consumed"
 msgstr "Wótnowjeński kod jo se wužył"
 
@@ -304,7 +304,7 @@ msgstr "Sćo wuspěšnje wužył wótnowjeński kod ze slědujucego rěda:"
 msgid "Consumed recovery code"
 msgstr "Wužyty wótnowjeński kod"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1132
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
 msgid "New recovery codes generated"
 msgstr "Nowy wótnowjeński kod napórany"
 
@@ -312,7 +312,7 @@ msgstr "Nowy wótnowjeński kod napórany"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sćo wuspěšnje napórał nowe wótnowjeńske kody ze slědujucego rěda:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1258
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
 msgstr "Kontowy wótnowjeński kluc jo se wótwónoźeł"
 
@@ -342,7 +342,7 @@ msgstr "Sćo %(secondaryEmail)s ako sekundarnu e-mailowu adresu ze swójogo kont
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1100
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
 msgstr "Dwójokšacowa awtentifikacija jo se znjemóžniła"
 
@@ -455,7 +455,7 @@ msgstr "Pśizjawjenje wobkšuśiś"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, <a %(passwordChangeLinkAttributes)s>změńśo pšosym swójo gronidło</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:737
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
 msgstr "Primarnu e-maijlowu adresu pśepytowaś"
 
@@ -483,7 +483,7 @@ msgstr "E-mailowu adresu wobkšuśiś: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Jolic njejsćo toś tu akciju awtorizěrował, změńśo pšosym swójo gronidło."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:780
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
 msgstr "Drugu e-mailowu adresu wobkšuśiś"
 
@@ -507,83 +507,83 @@ msgstr "Wobkšuśćo, až sćo toś tu mejlku dostał a buźomy wam pomagaś, Fi
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Gaž jo wobkšuśona, buźomy wam pomagaś, Firefox na nanejmjenjej jadnom drugem rěźe instalěrowaś a zwězaś."
 
-#: lib/senders/email.js:205
+#: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:208
+#: lib/senders/email.js:209
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:235
+#: lib/senders/email.js:236
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:237
+#: lib/senders/email.js:238
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (licone)"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:242
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (licony)"
 
-#: lib/senders/email.js:546
+#: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
 msgstr "Wobkšuśćo swójo konto Firefox"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "Wobkšuśćo swóju e-mail a zachopśo synchronizěrowaś!"
 
-#: lib/senders/email.js:607
+#: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
 msgstr "Awtorizěrowański kod konta Firefox"
 
-#: lib/senders/email.js:646
+#: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Nowe pśizjawjenje pla %(clientName)s wobkšuśiś"
 
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
 msgstr "Pśizjawjeński kod za Firefox"
 
-#: lib/senders/email.js:824
+#: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
 msgstr "Stajśo gronidło swójogo konta Firefox slědk"
 
-#: lib/senders/email.js:852
+#: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
 msgstr "Gronidło wašogo konta Firefox jo se změniło"
 
-#: lib/senders/email.js:878
+#: lib/senders/email.js:879
 msgid "Firefox Account password changed"
 msgstr "Gronidło konta Firefox jo se změniło"
 
-#: lib/senders/email.js:900
+#: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
 msgstr "Gronidło konta Firefox musy se slědk stajiś"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:960
 msgid "Firefox Account verified"
 msgstr "Konto Firefox wobkšuśone"
 
-#: lib/senders/email.js:986
+#: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
 msgstr "Druga e-mailowa adresa konta Firefox jo se pśidała"
 
-#: lib/senders/email.js:1014
+#: lib/senders/email.js:1015
 msgid "Firefox Account new primary email"
 msgstr "Nowa primarna e-mailowa adresa konta Firefox"
 
-#: lib/senders/email.js:1042
+#: lib/senders/email.js:1043
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarna e-mailowa adresa za konto Firefox jo se wótwónoźeła"
 
-#: lib/senders/email.js:1290
+#: lib/senders/email.js:1291
 msgid "Firefox Account password reset with recovery key"
 msgstr "Gronidło konta Firefox jo se slědk stajiło z wótnowjeńskim klucom"
 
