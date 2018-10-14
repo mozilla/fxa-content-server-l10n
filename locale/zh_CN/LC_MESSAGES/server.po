@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-14 01:40+0000\n"
+"PO-Revision-Date: 2018-10-14 02:11+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -535,7 +535,7 @@ msgstr "Firefox 账户授权码"
 
 #: lib/senders/email.js:646
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "确认在 %(clientName)s 的新一次登录"
+msgstr "确认新的 %(clientName)s 登录活动"
 
 #: lib/senders/email.js:695
 msgid "Sign-in code for Firefox"
