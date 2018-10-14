@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 16:03+0000\n"
-"PO-Revision-Date: 2018-10-04 09:16+0000\n"
+"PO-Revision-Date: 2018-10-14 16:38+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -484,7 +484,7 @@ msgstr "Mislykka sending av e-post"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Gyldig kode er påkravd"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -657,7 +657,7 @@ msgstr "Gjenopprettingsnykel påkravd"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Skriv inn stadfestingskode"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1097,7 +1097,7 @@ msgstr "Generer ein ny gjenopprettingsnykel"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Fortset til kontoen min"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1629,11 +1629,11 @@ msgstr "Gjenopprettingsnykel"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Manglar"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Generer"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1643,11 +1643,11 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Steg 1 av 2: Skriv inn passordet på nytt"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Skriv inn passordet ditt for å vise gjenopprettingsnykelen."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1655,15 +1655,15 @@ msgstr "Skriv inn passord"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Er du sikker på at du vil tilbakekalle?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Du kan ikke brukje gjenopprettingsnykelen for å få tilgang til dataa dine i tilfelle du tilbakestiller passordet ditt."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Steg 2 av 2: Lagre gjenopprettingsnykel"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
@@ -1671,7 +1671,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Bilde av skriv ut-knapp"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
@@ -1679,7 +1679,7 @@ msgstr "Last ned knappebilde"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Ferdig, gjenopprettingsnykel lagra"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
