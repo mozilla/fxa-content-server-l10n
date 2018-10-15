@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-11 20:04+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"PO-Revision-Date: 2018-10-12 21:33+0000\n"
+"Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgstr "Sesiune web"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr "Timpul ultimei sincronizări necunoscut"
+msgstr "Data ultimei sincronizări necunoscută"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -185,7 +185,7 @@ msgstr "Contul a fost șters cu succes"
 
 #: .es5/views/settings/display_name.js:58
 msgid "Display name updated"
-msgstr "Numele afișat actualizat"
+msgstr "Nume afișat actualizat"
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
@@ -221,15 +221,15 @@ msgstr "Au fost generate noi coduri de recuperare"
 
 #: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
-msgstr "Autentificarea în doi pași a fost activată"
+msgstr "Autentificare în doi pași activată"
 
 #: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Folosește codul %(code)s pentru a configura autentificarea cu doi factori în aplicațiile suportate."
+msgstr "Folosește codul %(code)s și configurează autentificarea în doi pași în aplicațiile acceptate."
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
-msgstr "Autentificarea în doi pași a fost eliminată"
+msgstr "Autentificare în doi pași eliminată"
 
 #: .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
@@ -508,7 +508,7 @@ msgstr "Serverul este ocupat, încearcă din nou mai târziu"
 
 #: .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
-msgstr "Funcția nu este activată"
+msgstr "Funcționalitate neactivată"
 
 #: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:102 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
@@ -543,7 +543,7 @@ msgstr "Se lucrează…"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
-msgstr "Nu s-a putut găsi nota privind politica de confidențialitate"
+msgstr "Nu s-a putut găsi notificarea privind confidențialitatea"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
@@ -1018,8 +1018,7 @@ msgstr "Este necesar accesul la cookie-uri și stocare locală"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
-"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru a accesa Conturi Firefox. Făcând acest lucru va fi activată funcționalitatea de a ține minte contul tău între sesiuni."
+msgstr "Te rugăm să activezi cookie-urile și stocarea locală în browser pentru a accesa Conturi Firefox. Astfel, va fi activată funcționalitatea de a ține minte contul între sesiuni."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1139,8 +1138,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>ȚINE MINTE:</span> Când îți resetezi parola, îți resetezi și contul. Poți pierde o parte din datele personale (inclusiv istoricul, marcajele și parolele). Asta se întâmplă pentru că noi "
-"criptăm datele tale cu parola ta pentru a-ți proteja confidențialitatea."
+"<span>ȚINE MINTE:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-ți "
+"proteja confidențialitatea."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1733,7 +1732,7 @@ msgstr "Fii original și în siguranță &mdash; nu refolosi această parolă ni
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Ține minte această parolă &mdash; resetarea acesteia șterge datele de pe serverele noastre."
+msgstr "Ține minte această parolă &mdash; resetarea ei șterge datele de pe serverele noastre."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"

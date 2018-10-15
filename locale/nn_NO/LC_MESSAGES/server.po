@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-04 08:43+0000\n"
+"PO-Revision-Date: 2018-10-14 16:35+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -184,11 +184,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Lag ny gjenopprettingsnykel"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Lag ny gjenopprettingsnykel:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -620,7 +620,7 @@ msgstr "Vi er for tida overbelsata, men arbeider på spreng for at systemet snar
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Lastar"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
