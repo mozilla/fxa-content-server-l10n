@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 16:03+0000\n"
+"POT-Creation-Date: 2018-10-12 16:02+0000\n"
 "PO-Revision-Date: 2018-09-24 17:54+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -384,7 +384,7 @@ msgstr "Adrese"
 msgid "Credit cards"
 msgstr "Kreditne kartice"
 
-#: .es5/models/reliers/sync.js:76
+#: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -868,7 +868,8 @@ msgstr ""
 "Za dodatnu sigurnost, potvrdite ovu prijavu da započnete sinhronizovanje sa "
 "ovim uređajem:"
 
-#: .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1
+#: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:4
 #: .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
@@ -911,8 +912,8 @@ msgid "Reset password with recovery key"
 msgstr "Resetujte lozinku ključen za oporavak"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6
-#: .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1
+#: .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1
 #: .es5/templates/sign_in_password.mustache:2
 #: .es5/templates/sign_in_recovery_code.mustache:2
 #: .es5/templates/sign_in_totp_code.mustache:2
@@ -1181,11 +1182,11 @@ msgstr ""
 msgid "Try again"
 msgstr "Pokušaj ponovo"
 
-#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Prijavite se da bi ste nastavili"
 
-#: .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4
 #: .es5/templates/sign_in.mustache:12
 #: .es5/templates/sign_in_password.mustache:5
 #: .es5/templates/sign_up.mustache:8
@@ -1195,14 +1196,14 @@ msgstr "Prijavite se da bi ste nastavili"
 msgid "Password"
 msgstr "Lozinka"
 
-#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6
 #: .es5/templates/sign_in.mustache:15
 #: .es5/templates/sign_in_password.mustache:8
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6
 #: .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13
 #: .es5/templates/sign_up_password.mustache:11
 msgid ""
@@ -1409,9 +1410,8 @@ msgid "Verify"
 msgstr "Potvrdi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "Unesite bezbednosni kod"
+msgid "Use security code"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1437,6 +1437,10 @@ msgstr "Proverite vašu e-poštu radi koda poslatog na %(email)s."
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
 msgstr "Unesite kod"
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Unesite bezbednosni kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
