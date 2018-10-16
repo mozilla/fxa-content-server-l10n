@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-15 09:43+0000\n"
-"Last-Translator: siparon <siparon@gmail.com>\n"
+"PO-Revision-Date: 2018-10-16 21:27+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -732,7 +732,7 @@ msgstr "Indicativ expirat"
 
 #: .es5/lib/oauth-errors.js:110
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Ceva nu a mers. Închide fila și încearcă din nou."
+msgstr "Ceva a mers prost. Te rugăm să închizi această filă și să încerci din nou."
 
 #: .es5/lib/oauth-errors.js:129
 msgid "no message"
@@ -802,7 +802,7 @@ msgstr "Eroare 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Aoleu, ceva nu a mers aici. Am fost atenționați și vom lucra la o soluție."
+msgstr "Vai, ceva a mers prost aici. Am fost atenționați și vom lucra la o soluție."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
