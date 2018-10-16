@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-05-02 07:35+0000\n"
+"PO-Revision-Date: 2018-10-16 15:42+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1603,7 +1603,7 @@ msgstr "确认"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "在查看或修改此段落前，需要先验证您的电子邮件地址。"
+msgstr "在查看或修改此项前，需要先验证您的电子邮件地址。"
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
