@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-08-31 20:57+0000\n"
+"PO-Revision-Date: 2018-10-17 21:18+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -100,11 +100,11 @@ msgstr "Соңгы синхронлау%(translatedTimeAgo)s электән кү
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы синхронлау %(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы синхронлау кимендә %(translatedTimeAgo)s элек (%(translatedCountry)s)"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Икенчел эл. почта адресы"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
-msgstr ""
+msgstr "Кодлар копияләнде"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
@@ -748,12 +748,10 @@ msgid "Invalid Token"
 msgstr "Хаталы токен"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Дәвам итсәгез, Сез %(serviceName)s%(serviceUri)s хезмәтенең <a id=\"service-tos\" href=\"%(termsUri)s\">Куллану Шартларын</a> һәм <a id=\"service-pp\" href=\"%(privacyUri)s\">Хосусыйлык Белдерүен</"
-"a> кабул итәсез дигән сүз."
+"Дәвам итсәгез, Сез %(serviceName)s%(serviceUri)s хезмәтенең <a id=\"service-tos\" href=\"%(termsUri)s\">Куллану Шартларын</a> һәм <a id=\"service-pp\" href=\"%(privacyUri)s\">Хосусыйлык "
+"Белдерүен</a> кабул итәсез дигән сүз."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -822,8 +820,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -876,7 +873,7 @@ msgstr "Сез баскан сылтамадан кайбер хәрефләр �
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Яңа парол булдыру"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -894,7 +891,7 @@ msgstr "Яңа парол"
 
 #: .es5/templates/complete_reset_password.mustache:15
 msgid "Re-enter password"
-msgstr ""
+msgstr "Паролны янәдән кертегез"
 
 #: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -902,7 +899,7 @@ msgstr "Паролыгыз исегездәме? Керегез"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Беренчел эл. почта адресы расланды инде"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -955,7 +952,7 @@ msgstr "Башка җиһазны тоташтыру"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Бу Firefox тоташкан"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1343,9 +1340,8 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr ""
 
@@ -1664,8 +1660,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -1682,11 +1677,11 @@ msgstr "Әзер, Коткару коды сакланды"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Сезгә ничә яшь?"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Firefox хисабгызның паролы"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1706,7 +1701,7 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Паролны күрсәтү"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1714,7 +1709,7 @@ msgstr ""
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Башка эл. почта адресын куллану"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (кирәк)"
@@ -1723,8 +1718,7 @@ msgstr ""
 #~ msgstr "Эл. почта адресы"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr ""
-#~ "Билгесез Firefox Хисабы. Өстәмә Кушымталар (Add-ons) мәгълүматына ирешү өчен, Өстәмә Кушымталар хисабыгыздагы элеккеге эл. почта адресыгызны кулланып, <a href=\"/signup\">теркәлү узыгыз</a>."
+#~ msgstr "Билгесез Firefox Хисабы. Өстәмә Кушымталар (Add-ons) мәгълүматына ирешү өчен, Өстәмә Кушымталар хисабыгыздагы элеккеге эл. почта адресыгызны кулланып, <a href=\"/signup\">теркәлү узыгыз</a>."
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Кулланмага сылтама %(phoneNumber)s номерына янәдән җибәрелде"
@@ -1817,9 +1811,7 @@ msgstr ""
 #~ msgstr "Кукилар һәм җирле саклагыч кирәк."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Дәвам итү нәтиҗәсендә Сез Firefox болыт хезмәтләренең <a id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән "
-#~ "килешәчәксез."
+#~ msgstr "Дәвам итү нәтиҗәсендә Сез Firefox болыт хезмәтләренең <a id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox болыт хезмәтләре"
