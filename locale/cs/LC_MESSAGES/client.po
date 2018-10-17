@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-03 16:11+0000\n"
+"PO-Revision-Date: 2018-10-17 19:53+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -888,7 +888,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Úspěšně jste obnovili svůj účet pomocí obnovovacího klíče. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si jej na bezpečné místo."
+msgstr "Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si jej na bezpečné místo."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
