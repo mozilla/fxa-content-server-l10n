@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-17 21:18+0000\n"
+"PO-Revision-Date: 2018-10-18 20:45+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -108,11 +108,11 @@ msgstr "Соңгы синхронлау кимендә %(translatedTimeAgo)s э�
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы синхронлау %(translatedTimeAgo)s элек %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәләрендә"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы синхронлау кимендә %(translatedTimeAgo)s элек %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәләрендә"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -120,19 +120,19 @@ msgstr "Соңгы автивлык%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңгы активлык кимендә %(translatedTimeAgo)s элек"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы активлык кимендә %(translatedTimeAgo)s элек %(translatedCountry)s илендә"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы активлык %(translatedTimeAgo)s секундтан артык элек менә бу илдә: %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы активлык %(translatedTimeAgo)s элек, %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәләрендә"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
