@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-18 20:45+0000\n"
+"PO-Revision-Date: 2018-10-19 19:53+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -136,7 +136,7 @@ msgstr "Соңгы активлык %(translatedTimeAgo)s элек, %(translated
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңгы активлык кимендә %(translatedTimeAgo)s элек %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәсендә"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
@@ -144,23 +144,23 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Кимендә %(translatedTimeAgo)s элек"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s менә бу илдә: %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Кимендә %(translatedTimeAgo)s менә бу илдә: %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәсендә"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Кимендә %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s тирәсендә"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -168,11 +168,11 @@ msgstr "Веб утырыш, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr "Веб утырышы"
+msgstr "Веб утырыш"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Соңгы синхронлау вакыты билгеле түгел"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -188,15 +188,15 @@ msgstr "Күрсәтелүче исем яңартылды"
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Икенчел эл. почта бетерелде"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr ""
+msgstr "Раслау хаты җибәрелде"
 
 #: .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Беренчел эл. почта адресы итеп %(email)s билгеләнде"
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -204,7 +204,7 @@ msgstr "Икенчел эл. почта адресы"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox коткару кодлары"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
