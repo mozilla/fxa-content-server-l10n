@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-09-17 10:42+0000\n"
+"POT-Creation-Date: 2018-10-19 16:02+0000\n"
+"PO-Revision-Date: 2018-10-15 14:08+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -1187,7 +1187,7 @@ msgstr "Verificar"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Utilizar código de segurança"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
