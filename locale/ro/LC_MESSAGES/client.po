@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-16 21:27+0000\n"
+"PO-Revision-Date: 2018-10-22 14:16+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -543,7 +543,7 @@ msgstr "Se lucrează…"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Could not get Privacy Notice"
-msgstr "Nu s-a putut găsi notificarea privind confidențialitatea"
+msgstr "Nu s-a putut găsi politica de confidențialitate"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Could not get Terms of Service"
@@ -761,7 +761,7 @@ msgstr "Indicativ nevalid"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
+"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Politica de confidențialitate</a> "
 "%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
