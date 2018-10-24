@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-08-22 14:14+0000\n"
+"PO-Revision-Date: 2018-10-24 15:34+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
@@ -32,7 +32,7 @@ msgstr "Firefox Sync သည် အချိန်တိုအတွင်း ပ
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
-msgstr ""
+msgstr "သင့်စကားဝှက်ကို ပြန်လည်သတ်မှတ်ပြီးပါပြီ။"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -40,19 +40,19 @@ msgstr "အခြား Firefox ကိရိယာများတွင် စ�
 
 #: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "သင့် Firefox Account ကို ပြင်ဆင်နိုင်ပါပြီ။"
 
 #: .es5/views/ready.js:91
 msgid "Primary email verified"
-msgstr ""
+msgstr "မူလအီးမေးလ်ကို အတည်ပြုပြီး။"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "ယခုအချိန်မှစ၍ Account ဆိုင်ရာ အသိပေးချက်များကို %(secondaryEmailVerified)s သို့လည်း ပေးပို့ပါမည်။"
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
-msgstr ""
+msgstr "အရန်အီးမေးလ်ကို အတည်ပြုပြီး။"
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -84,19 +84,23 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 
 #: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို ရှာဖွေကြည့်ရှုပါ။"
+msgstr ""
+"ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို "
+"ရှာဖွေကြည့်ရှုပါ။"
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
+msgstr ""
+"ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော "
+"စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ကျော်ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -140,7 +144,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
@@ -164,15 +168,15 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "ဝဘ်အသုံးပြုကာလ၊ %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "ဝဘ်အသုံးပြုကာလ"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "နောက်ဆုံး sync ခဲ့သည့်အချိန်ကို မသိရပါ"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -188,27 +192,27 @@ msgstr "ပြသမည့်အမည်ကို မွမ်းမံပြ�
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "အရန်အီးမေးလ်ကို ဖယ်ရှားပြီးပြီ။"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr ""
+msgstr "အတည်ပြုအီးမေးလ်ကို ပို့ပြီးပြီ။"
 
 #: .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "%(email)s ကို မူလအီးမေးလ်အဖြစ် သတ်မှတ်ထားသည်။"
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "အရန်အီးမေးလ်"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox Recovery ကုဒ်များ"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
-msgstr ""
+msgstr "ကုဒ်များကို ကူးယူပြီး။"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
@@ -484,15 +488,15 @@ msgstr "အီးမေးလ်ပို့ခြင်း မအောင်�
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "မှန်ကန်သော ကုဒ်ကို လိုအပ်ပါသည်"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "အတည်ပြုကုဒ်သည် အသုံးပြုချိန် ကျော်လွန်သွားခဲ့သည်"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Recovery Key မှားယွင်းနေသည်"
 
 #: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
 msgid "Server busy, try again soon"
@@ -500,7 +504,7 @@ msgstr "ဆာဗာမအားပါ၊ နောင်တွင် ထပ်�
 
 #: .es5/lib/auth-errors.js:222
 msgid "Feature not enabled"
-msgstr ""
+msgstr "လုပ်ဆောင်ချက်ကို မဖွင့်ထားပါ"
 
 #: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:102 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
@@ -513,7 +517,7 @@ msgstr "ယခု endpoint ကို ဆက်လက်ထောက်ပံ့�
 
 #: .es5/lib/auth-errors.js:238
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "ဝင်ရောက်ရန် ကြိုးစားမှုကို ပယ်ဖျက်ထားသည်"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Session expired. Sign in to continue."
@@ -748,9 +752,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -820,8 +822,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1341,9 +1342,8 @@ msgstr "ကင်မရာ"
 msgid "Clear"
 msgstr "ရှင်းလင်းပါ"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "ပြီးပြီ"
 
@@ -1662,8 +1662,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
