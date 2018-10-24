@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 16:02+0000\n"
-"PO-Revision-Date: 2018-10-24 15:40+0000\n"
+"PO-Revision-Date: 2018-10-24 15:54+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
@@ -705,7 +705,7 @@ msgstr "မှားယွင်းနေသော ကုဒ်"
 
 #: .es5/lib/oauth-errors.js:48
 msgid "Expired code"
-msgstr ""
+msgstr "သက်တမ်းကုန်သွားသော ကုဒ်"
 
 #: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
 msgid "Invalid OAuth parameter: %(param)s"
@@ -717,11 +717,11 @@ msgstr "ခွင့်ပြုချက်မရပါ"
 
 #: .es5/lib/oauth-errors.js:68
 msgid "Forbidden"
-msgstr ""
+msgstr "တားမြစ်ထားသည်"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
-msgstr ""
+msgstr "သက်တမ်းကုန်သွားသော တိုကင်"
 
 #: .es5/lib/oauth-errors.js:110
 msgid "Something went wrong. Please close this tab and try again."
@@ -749,7 +749,7 @@ msgstr ""
 
 #: .es5/lib/profile-errors.js:47
 msgid "Invalid Token"
-msgstr ""
+msgstr "မှားယွင်းနေသော တိုကင်"
 
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -765,15 +765,15 @@ msgstr ""
 
 #: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s မြို့၊ %(country)s နိုင်ငံ (ခန်းမှန်းချက်သာ)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s နိုင်ငံ (ခန့်မှန်းချက်သာ)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP လိပ်စာ။ %(ip)s"
 
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -785,11 +785,11 @@ msgstr "၀င်ပါ"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "မှားယွင်းသော တောင်းဆိုမှု"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "အမှားနံပါတ် 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
