@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 16:02+0000\n"
+"POT-Creation-Date: 2018-10-26 16:02+0000\n"
 "PO-Revision-Date: 2018-10-02 13:49+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -335,7 +335,7 @@ msgstr "Sekundær e-postadresse bekreftet"
 msgid "Password reset successfully"
 msgstr "Passordet er tilbakestilt"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
 msgstr "Uventet feil"
 
@@ -416,7 +416,7 @@ msgstr "Forespørselsinnhold er for stort"
 msgid "The request was blocked for security reasons"
 msgstr "Forespørselen ble blokkert av sikkerhetsmessige årsaker"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
 msgid "Invalid authorization code"
 msgstr "Ugyldig godkjenningskode"
 
@@ -496,170 +496,186 @@ msgstr "Denne bekreftelseskoden er utløpt"
 msgid "Invalid recovery key"
 msgstr "Ugyldig gjenopprettingsnøkkel"
 
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
+#: .es5/lib/auth-errors.js:217
+msgid "This request requires two step authentication enabled on your account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
 msgstr "Serveren er opptatt, prøv igjen senere"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
 msgstr "Funksjonen er ikke slått på"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:102 .es5/lib/profile-errors.js:39
+#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "Systemet er utilgjengelig, prøv igjen senere"
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:234
 msgid "This endpoint is no longer supported"
 msgstr "Dette endepunktet er ikke lenger støttet"
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:242
 msgid "Login attempt cancelled"
 msgstr "Innloggingsforsøk avbrutt"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:246
 msgid "Session expired. Sign in to continue."
 msgstr "Sesjon utløpt. Logg inn for å fortsette."
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:250
 msgid "Cookies are still disabled"
 msgstr "Cookies er fortsatt deaktivert"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:254
 msgid "Passwords do not match"
 msgstr "Passordene er ikke like"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:258
 msgid "Working…"
 msgstr "Arbeider …"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:262
 msgid "Could not get Privacy Notice"
 msgstr "Kunne ikke hente personvernserklæring"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:266
 msgid "Could not get Terms of Service"
 msgstr "Kunne ikke hente vilkår for bruk"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:270
 msgid "Your new password must be different"
 msgstr "Ditt nye passord må være forskjellig"
 
-#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Må være på minst 8 tegn"
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:278
 msgid "Valid password required"
 msgstr "Gyldig passord er nødvendig"
 
-#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
 msgid "Valid email required"
 msgstr "Gyldig e-post er nødvendig"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:293
 msgid "A usable image was not found"
 msgstr "Et brukbart bilde ble ikke funnet"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:297
 msgid "Could not initialize camera"
 msgstr "Kunne ikke starte kameraet"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:301
 msgid "Valid URL required"
 msgstr "Gyldig URL er nødvendig"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Bekreftelsesmeldingen kom i retur. Feil i e-postadressen?"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Skriv inn en gyldig e-postadresse. firefox.com tilbyr ikke e-post."
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoer kan bare plasseres i en IFRAME på godkjente nettsteder"
 
-#: .es5/lib/auth-errors.js:347 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Bekreftelseslenken er skadet"
 
-#: .es5/lib/auth-errors.js:355
+#: .es5/lib/auth-errors.js:359
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Bildets dimensjoner må være på minst 100 x 100 px"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:363
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrering kommer snart til Firefox for iOS"
 
-#: .es5/lib/auth-errors.js:370
+#: .es5/lib/auth-errors.js:374
 msgid "You must enter your age to sign up"
 msgstr "Du må oppgi alder for å registrere deg"
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:389
 msgid "Account no longer exists."
 msgstr "Kontoen finnes ikke lenger."
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:393
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ugyldig egenskap i resume-token: %(property)s"
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:397
 msgid "Missing property in resume token: %(property)s"
 msgstr "Mangler egenskap i resume-token: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:401
 msgid "Invalid data attribute: %(property)s"
 msgstr "Ugyldig data-attributt: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:405
 msgid "Missing data attribute: %(property)s"
 msgstr "Manglende data-attributt: %(property)s"
 
-#: .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Denne bekreftelseslenken er allerede brukt, og kan kun brukes én gang."
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:422
 msgid "This is a required field"
 msgstr "Dette feltet er påkrevd"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
 msgstr "Godkjenningskode påkrevd"
 
-#: .es5/lib/auth-errors.js:430 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Ødelagt lenke"
 
-#: .es5/lib/auth-errors.js:453
+#: .es5/lib/auth-errors.js:457
 msgid "Phone number required"
 msgstr "Telefonnummer påkrevd"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
 msgstr "Totrinns-verifiseringskode påkrevd"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid two-step authentication code"
 msgstr "Feil totrinns-verifiseringskode"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
 msgstr "Gjenopprettingskode påkrevd"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
 msgstr "Ugyldig gjenopprettingskode"
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
 msgstr "Gjenopprettingsnøkkel nødvendig"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Please enter verification code"
 msgstr "Angi verifiseringskode"
+
+#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
+msgid "Error connecting to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Invalid message from the remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:59
+msgid "Could not decrypt message from the remote device"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -722,15 +738,15 @@ msgstr "Forbudt"
 msgid "Expired token"
 msgstr "Utgått token"
 
-#: .es5/lib/oauth-errors.js:110
+#: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Noe gikk galt. Lukk denne fanen og prøv igjen."
 
-#: .es5/lib/oauth-errors.js:129
+#: .es5/lib/oauth-errors.js:133
 msgid "no message"
 msgstr "ingen melding"
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Manglende OAuth-parameter: %(param)s"
 

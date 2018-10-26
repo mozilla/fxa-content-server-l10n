@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 16:02+0000\n"
+"POT-Creation-Date: 2018-10-26 16:02+0000\n"
 "PO-Revision-Date: 2018-10-15 11:57+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -335,7 +335,7 @@ msgstr "Másodlagos e-mail sikeresen megerősítve"
 msgid "Password reset successfully"
 msgstr "Jelszó sikeresen visszaállítva"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
 msgstr "Nem várt hiba"
 
@@ -415,7 +415,7 @@ msgstr "A kérés törzse túl nagy"
 msgid "The request was blocked for security reasons"
 msgstr "A kérés biztonsági okokból blokkolva lett"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
 msgid "Invalid authorization code"
 msgstr "Érvénytelen engedélyezési kód"
 
@@ -495,170 +495,186 @@ msgstr "Ez az ellenőrzőkód már lejárt"
 msgid "Invalid recovery key"
 msgstr "Érvénytelen helyreállítási kulcs"
 
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
+#: .es5/lib/auth-errors.js:217
+msgid "This request requires two step authentication enabled on your account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
 msgstr "A kiszolgáló elfoglalt, próbálja újra később"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
 msgstr "A funkció nem engedélyezett"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:102 .es5/lib/profile-errors.js:39
+#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "A rendszer nem érhető el, próbálja újra később"
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:234
 msgid "This endpoint is no longer supported"
 msgstr "Ez a végpont már nem támogatott"
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:242
 msgid "Login attempt cancelled"
 msgstr "Bejelentkezési kísérlet megszakítva"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:246
 msgid "Session expired. Sign in to continue."
 msgstr "A munkamenet lejárt. Jelentkezzen be a folytatáshoz."
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:250
 msgid "Cookies are still disabled"
 msgstr "A sütik még mindig le vannak tiltva"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:254
 msgid "Passwords do not match"
 msgstr "A jelszavak nem egyeznek"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:258
 msgid "Working…"
 msgstr "Dolgozunk…"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:262
 msgid "Could not get Privacy Notice"
 msgstr "Az Adatvédelmi nyilatkozat nem kérhető le"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:266
 msgid "Could not get Terms of Service"
 msgstr "A Felhasználási feltételek nem kérhetők le"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:270
 msgid "Your new password must be different"
 msgstr "Az új jelszónak különbözőnek kell lennie"
 
-#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Legalább 8 karakter hosszú kell legyen"
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:278
 msgid "Valid password required"
 msgstr "Érvényes jelszó szükséges"
 
-#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
 msgid "Valid email required"
 msgstr "Érvényes e-mail szükséges"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:293
 msgid "A usable image was not found"
 msgstr "Nem található használható kép"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:297
 msgid "Could not initialize camera"
 msgstr "Nem készíthető elő a kamera"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:301
 msgid "Valid URL required"
 msgstr "Érvényes URL szükséges"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Az ellenőrző e-mail visszapattant. Talán elgépelte?"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Írjon be egy érvényes e-mail címet. A firefox.com nem nyújt e-mail szolgáltatást."
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "A Firefox fiókok csak egy IFRAME-be helyezhető el a jóváhagyott oldalakon"
 
-#: .es5/lib/auth-errors.js:347 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Az ellenőrzési hivatkozás sérült"
 
-#: .es5/lib/auth-errors.js:355
+#: .es5/lib/auth-errors.js:359
 msgid "The image dimensions must be at least 100x100px"
 msgstr "A kép méreteinek legalább 100x100 képpontnak kell lenniük."
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:363
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "A regisztráció hamarosan érkezik a Firefox for iOS-re"
 
-#: .es5/lib/auth-errors.js:370
+#: .es5/lib/auth-errors.js:374
 msgid "You must enter your age to sign up"
 msgstr "A feliratkozáshoz meg kell adnia életkorát"
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:389
 msgid "Account no longer exists."
 msgstr "A fiók már nem létezik."
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:393
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Érvénytelen tulajdonság a folytatási tokenben: %(property)s"
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:397
 msgid "Missing property in resume token: %(property)s"
 msgstr "Hiányzó tulajdonság a folytatási tokenben: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:401
 msgid "Invalid data attribute: %(property)s"
 msgstr "Érvénytelen adatattribútum: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:405
 msgid "Missing data attribute: %(property)s"
 msgstr "Hiányzó adatattribútum: %(property)s"
 
-#: .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "A megerősítési hivatkozás már volt használva, és csak egyszer használható."
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:422
 msgid "This is a required field"
 msgstr "Ez egy kötelező mező"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
 msgstr "Engedélyezési kód szükséges"
 
-#: .es5/lib/auth-errors.js:430 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Sérült hivatkozás"
 
-#: .es5/lib/auth-errors.js:453
+#: .es5/lib/auth-errors.js:457
 msgid "Phone number required"
 msgstr "Telefonszám szükséges"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
 msgstr "Kétlépcsős hitelesítő kód szükséges"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid two-step authentication code"
 msgstr "Érvénytelen kétlépcsős hitelesítési kód"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
 msgstr "Helyreállítási kód szükséges"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
 msgstr "Érvénytelen helyreállítási kód"
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
 msgstr "Helyreállítási kulcs szükséges"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Please enter verification code"
 msgstr "Adja meg az ellenőrzőkódot"
+
+#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
+msgid "Error connecting to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Invalid message from the remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:59
+msgid "Could not decrypt message from the remote device"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -720,15 +736,15 @@ msgstr "Tiltott"
 msgid "Expired token"
 msgstr "A token lejárt"
 
-#: .es5/lib/oauth-errors.js:110
+#: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Hiba történt. Zárja be ezt a lapot, és próbálja újra."
 
-#: .es5/lib/oauth-errors.js:129
+#: .es5/lib/oauth-errors.js:133
 msgid "no message"
 msgstr "nincs üzenet"
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Hiányzó OAuth paraméter: %(param)s"
 
@@ -749,7 +765,9 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -821,10 +839,11 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Adja meg az egyszer használatos helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a Firefox fiókjához."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint"
-" az előzmények és a könyvjelzők)."
+"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, "
+"mint az előzmények és a könyvjelzők)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1350,8 +1369,9 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Törlés"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Kész"
 
@@ -1676,7 +1696,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2. lépés / 2: Mentse a helyreállítókulcsot"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">MEGJEGYZÉS:</span>Ha elfelejti a jelszavát, akkor ez a kulcs szükséges az adatai elérésének visszaszerzéséhez. Mentse a helyreállítási kulcsát biztonságos helyre, ahol később "
 "könnyedén megtalálja."
@@ -1832,7 +1853,9 @@ msgstr "Másik e-mail cím használata"
 #~ msgstr "Sütik és helyi tárhely szükséges."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi irányelveket</a>."
+#~ msgstr ""
+#~ "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
+#~ "irányelveket</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox felhő szolgáltatások"
@@ -1889,8 +1912,8 @@ msgstr "Másik e-mail cím használata"
 #~ msgstr "Miért szinkronizáljon kettő (vagy több!) eszközt?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "A Sync segítségével megoszthatja a könyvjelzőket, előzményeket és a Firefoxba mentett jelszavait egy másik eszközön lévő Firefoxszal. Jelentkezzen be a Firefoxba a telefonján vagy táblagépén, és "
 #~ "minden meg fog jelenni, amit lementett az asztali Firefoxban."
@@ -1899,8 +1922,8 @@ msgstr "Másik e-mail cím használata"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "A Sync nem állandó biztonsági másolat készítésére lett tervezve – csak megosztja ami helyileg mentésre került. Ha jelszót cserél, és az adatai nincsenek legalább egy másik eszközön tárolva, akkor "
-#~ "elveszítheti a régi jelszavához kapcsolódó információkat. Ezért érdemes több eszközön használni a Syncet."
+#~ "A Sync nem állandó biztonsági másolat készítésére lett tervezve – csak megosztja ami helyileg mentésre került. Ha jelszót cserél, és az adatai nincsenek legalább egy másik eszközön tárolva, "
+#~ "akkor elveszítheti a régi jelszavához kapcsolódó információkat. Ezért érdemes több eszközön használni a Syncet."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1990,18 +2013,18 @@ msgstr "Másik e-mail cím használata"
 #~ msgstr "Bejelentkezés"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>NE FELEDJE:</span> Ha visszaállítja a jelszavát, akkor néhány adata is törölve lesz (köztük a szinkronizált kiszolgálóadatok, mint az előzmények és a könyvjelzők). Ez azért van, mert "
 #~ "adatvédelmi okok miatt a jelszavával titkosítjuk az adatait."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>MEGJEGYZÉS:</span> Ha helyreállítja a jelszót, akkor bizonyos adatok törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők). Ez azért van, mert "
-#~ "adatvédelmi okokból a jelszavával titkosítjuk az adatait."
+#~ "<span>MEGJEGYZÉS:</span> Ha helyreállítja a jelszót, akkor bizonyos adatok törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők). Ez azért van, "
+#~ "mert adatvédelmi okokból a jelszavával titkosítjuk az adatait."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Adjon egy biztonsági réteget a fiókjához az <a %(escapedTotpSupportAttributes)s>ezen hitelesítő alkalmazások</a> egyikéből származó biztonsági kódok megkövetelésével."
@@ -2129,18 +2152,19 @@ msgstr "Másik e-mail cím használata"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync beállításai"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "A Firefox Syncet keresi? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kezdje itt</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Van fiókja más e-mailcímmel? <a href=\"%(signinUri)s\">Jelentkezzen be</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> rendszereken."
+#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> rendszereken."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
@@ -2365,8 +2389,8 @@ msgstr "Másik e-mail cím használata"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a felhasználók "
-#~ "munkamenetek közti megjegyzése."
+#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a "
+#~ "felhasználók munkamenetek közti megjegyzése."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "A Firefox hamarosan érkezik iOS-re!"
@@ -2509,13 +2533,17 @@ msgstr "Másik e-mail cím használata"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Van felhasználói fiókja? Jelentkezzen be."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
+#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Adatvédelmi irányelveit</a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi nyilatkozatát</a>."
+#~ msgstr ""
+#~ "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi "
+#~ "nyilatkozatát</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Iratkozzon fel a Firefox hírekre és tippekre"

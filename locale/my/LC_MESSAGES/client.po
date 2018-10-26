@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 16:02+0000\n"
+"POT-Creation-Date: 2018-10-26 16:02+0000\n"
 "PO-Revision-Date: 2018-10-24 15:54+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,15 +84,11 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 
 #: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို "
-"ရှာဖွေကြည့်ရှုပါ။"
+msgstr "ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို ရှာဖွေကြည့်ရှုပါ။"
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော "
-"စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
+msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -338,7 +334,7 @@ msgstr "အခြားအီးမေးလ်ကို အောင်မြ�
 msgid "Password reset successfully"
 msgstr "စကားဝှက်အသစ် ပြောင်းလဲခြင်း အောင်မြင်ပါသည်"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
 msgid "Unexpected error"
 msgstr "မမျှော်လင့်ထားသော အမှား"
 
@@ -418,7 +414,7 @@ msgstr "Request body သည် လိုတာထက် ပိုကြီးန
 msgid "The request was blocked for security reasons"
 msgstr "request ကို လုံခြုံရေးအရ ပိတ်ပင်ထားသည်"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
 msgid "Invalid authorization code"
 msgstr "ခွင့်ပြုကုဒ် မှားနေသည်"
 
@@ -498,169 +494,185 @@ msgstr "အတည်ပြုကုဒ်သည် အသုံးပြုခ�
 msgid "Invalid recovery key"
 msgstr "Recovery Key မှားယွင်းနေသည်"
 
-#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406
+#: .es5/lib/auth-errors.js:217
+msgid "This request requires two step authentication enabled on your account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
 msgstr "ဆာဗာမအားပါ၊ နောင်တွင် ထပ်ကြိုးစားပါ"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
 msgstr "လုပ်ဆောင်ချက်ကို မဖွင့်ထားပါ"
 
-#: .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:102 .es5/lib/profile-errors.js:39
+#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
 msgstr "စနစ်ကို အသုံးပြု၍ မရနိုင်ပါ။ နောင်တွင် ထပ်မံ ဆောင်ရွက်ကြည့်ပါ"
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:234
 msgid "This endpoint is no longer supported"
 msgstr "ယခု endpoint ကို ဆက်လက်ထောက်ပံ့မည် မဟုတ်ပါ"
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:242
 msgid "Login attempt cancelled"
 msgstr "ဝင်ရောက်ရန် ကြိုးစားမှုကို ပယ်ဖျက်ထားသည်"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:246
 msgid "Session expired. Sign in to continue."
 msgstr "ယခုအသုံးပြုနေသောကာလ သတ်မှတ်ချိန် ကုန်လွန်သွားသည်။ ဆက်လက်အသုံးပြုရန် လက်မှတ်ထိုး ဝင်ရောက်ပါ။"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:250
 msgid "Cookies are still disabled"
 msgstr "ကွတ်ကီးများကို ပိတ်ထားဆဲဖြစ်သည်"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:254
 msgid "Passwords do not match"
 msgstr "စကားဝှက်များသည် ကိုက်ညီမှုမရှိပါ"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:258
 msgid "Working…"
 msgstr "အလုပ်လုပ်နေသည်…"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:262
 msgid "Could not get Privacy Notice"
 msgstr "ကိုယ်ရေးလုံခြုံမှုဆိုင်ရာအသိပေးစာကို မရယူနိုင်ပါ"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:266
 msgid "Could not get Terms of Service"
 msgstr "အသုံးပြုမှုဆိုင်ရာ သဘောတူညီချက်ကို မရယူနိုင်ပါ"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:270
 msgid "Your new password must be different"
 msgstr "စကားဝှက်အသစ်သည် ကွဲပြားမှု ရှိရပါမည်"
 
-#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "စာလုံးအနည်းဆုံး 8 လုံး ရှိရပါမည်"
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:278
 msgid "Valid password required"
 msgstr "စကားဝှက်အမှန် လိုအပ်သည်"
 
-#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
 msgid "Valid email required"
 msgstr "အီးမေးလ်အမှန် လိုအပ်သည်"
 
-#: .es5/lib/auth-errors.js:289
+#: .es5/lib/auth-errors.js:293
 msgid "A usable image was not found"
 msgstr "အသုံးပြုနိုင်သော ရုပ်ပုံကို မတွေ့ရပါ"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:297
 msgid "Could not initialize camera"
 msgstr "ကင်မရာဖွင့်ခြင်းကို မဆောင်ရွက်နိုင်ပါ"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:301
 msgid "Valid URL required"
 msgstr "URL အမှန် လိုအပ်သည်"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "အတည်ပြုအီးမေးလ် ပြန်ရောက်လာသည်။ အီးမေးလ်လိပ်စာကို မှားရိုက်မိပါသလား။"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "အီးမေးလ်လိပ်စာအမှန်ကို ရိုက်ပါ။ firefox.com သည် အီးမေးလ်ဝန်ဆောင်မှု မပေးပါ။"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox အကောင့်များကို အတည်ပြုပြီး ဝဘ်ဆိုက်များရှိ IFRAME ထဲတွင်သာ ထားနိုင်သည်။"
 
-#: .es5/lib/auth-errors.js:347 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "အတည်ပြုလင့် ပျက်ပြယ်သွားသည်"
 
-#: .es5/lib/auth-errors.js:355
+#: .es5/lib/auth-errors.js:359
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:363
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:370
+#: .es5/lib/auth-errors.js:374
 msgid "You must enter your age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:385
+#: .es5/lib/auth-errors.js:389
 msgid "Account no longer exists."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:393
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:397
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:401
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:405
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:422
 msgid "This is a required field"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:430 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "ချိတ်ဆက်မှုပြတ်ခဲ့သည်"
 
-#: .es5/lib/auth-errors.js:453
+#: .es5/lib/auth-errors.js:457
 msgid "Phone number required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Please enter verification code"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
+msgid "Error connecting to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Invalid message from the remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:59
+msgid "Could not decrypt message from the remote device"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -723,15 +735,15 @@ msgstr "တားမြစ်ထားသည်"
 msgid "Expired token"
 msgstr "သက်တမ်းကုန်သွားသော တိုကင်"
 
-#: .es5/lib/oauth-errors.js:110
+#: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:129
+#: .es5/lib/oauth-errors.js:133
 msgid "no message"
 msgstr "မည်သည်အသိပေးစာမျှ မရှိပါ"
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
 msgstr ""
 
@@ -752,7 +764,9 @@ msgid "Invalid Token"
 msgstr "မှားယွင်းနေသော တိုကင်"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -822,7 +836,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1342,8 +1357,9 @@ msgstr "ကင်မရာ"
 msgid "Clear"
 msgstr "ရှင်းလင်းပါ"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "ပြီးပြီ"
 
@@ -1662,7 +1678,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
