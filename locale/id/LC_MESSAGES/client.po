@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-10-27 07:12+0000\n"
+"PO-Revision-Date: 2018-10-27 07:13+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -497,7 +497,7 @@ msgstr "Kunci pemulihan tidak valid"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Permintaan ini memerlukan autentikasi dua faktor yang diaktifkan pada akun Anda."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
@@ -666,7 +666,7 @@ msgstr "Silakan masukan kode verifikasi"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Galat menyambung ke peranti jarak jauh"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
