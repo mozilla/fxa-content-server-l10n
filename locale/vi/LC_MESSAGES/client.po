@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-11-01 06:11+0000\n"
+"PO-Revision-Date: 2018-11-01 06:12+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -963,7 +963,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr "Kết nối các thiết bị khác"
+msgstr "Kết nối với thiết bị khác"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"

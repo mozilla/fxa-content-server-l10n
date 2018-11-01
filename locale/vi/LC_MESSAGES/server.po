@@ -1,14 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-11-01 06:23+0000\n"
+"Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pontoon\n"
 
 #: lib/senders/templates/_pending.txt:1
 msgid ""
@@ -18,17 +22,17 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Kết nối với thiết bị khác"
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Đăng nhập vào Đồng bộ"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
@@ -40,7 +44,7 @@ msgstr ""
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Tài khoản Firefox"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
 msgid "Low recovery codes remaining"
@@ -104,7 +108,7 @@ msgstr ""
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Đăng nhập mới vào %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -117,7 +121,7 @@ msgstr ""
 #: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
 #: lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Địa chỉ IP: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
@@ -132,7 +136,7 @@ msgstr ""
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Mật khẩu đã thay đổi thành công"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -148,7 +152,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "Mật khẩu tài khoản của bạn đã được thay đổi"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
@@ -302,7 +306,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Đã xóa khóa khôi phục tài khoản"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -318,7 +322,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Đã xóa email phụ"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -332,7 +336,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Đã tắt xác thực hai bước"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -348,7 +352,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Tài khoản đã được xác nhận!"
 
 #: lib/senders/templates/post_verify.html:3
 msgid ""
@@ -362,11 +366,11 @@ msgstr ""
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Đăng nhập vào Đồng bộ:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1
 msgid "Secondary email added"
-msgstr ""
+msgstr "Đã thêm email phụ"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -374,7 +378,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Cần đặt lại mật khẩu của bạn?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -382,15 +386,15 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "Tạo mật khẩu mới"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Cảm ơn bạn đã chọn Firefox! Bạn có thể cài đặt Firefox cho điện thoại di động tại đây: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Đây có phải là bạn đăng nhập không?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
@@ -406,7 +410,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Chào mừng!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
@@ -434,7 +438,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Xác nhận lần đăng nhập này"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -442,7 +446,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
-msgstr ""
+msgstr "Xác nhận email chính"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -466,11 +470,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Xác nhận email phụ"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -518,11 +522,11 @@ msgstr ""
 
 #: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Xác nhận Tài khoản Firefox của bạn"
 
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Xác nhận email của bạn và bắt đầu đồng bộ hóa!"
 
 #: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
@@ -530,7 +534,7 @@ msgstr ""
 
 #: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
 #: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
@@ -558,31 +562,31 @@ msgstr ""
 
 #: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Đã thêm email phụ cho Tài khoản Firefox"
 
 #: lib/senders/email.js:1015
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Tài khoản Firefox với email chính mới"
 
 #: lib/senders/email.js:1043
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Đã xóa email phụ của Tài khoản Firefox"
 
 #: lib/senders/email.js:1291
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Đặt lại mật khẩu tài khoản Firefox bằng khóa khôi phục"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Không tìm thấy trang"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "Không tìm thấy trang bạn yêu cầu. Chúng tôi đã được thông báo và sẽ khắc phục mọi liên kết có thể bị hỏng."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -590,7 +594,7 @@ msgstr ""
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Ôi trời, có gì đó không ổn. Chúng tôi đã được thông báo và sẽ cố gắng khắc phục."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -598,7 +602,7 @@ msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Máy chủ bận, vui lòng thử lại sau"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
@@ -606,16 +610,16 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Đang tải"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Tài khoản Firefox yêu cầu JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Thông báo bảo mật"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Điều khoản dịch vụ"
