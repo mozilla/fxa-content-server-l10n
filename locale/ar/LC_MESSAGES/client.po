@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
+"POT-Creation-Date: 2018-11-02 16:02+0000\n"
 "PO-Revision-Date: 2018-09-02 11:03+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1040,7 +1040,7 @@ msgstr "كلمة السرّ"
 msgid "Forgot password?"
 msgstr "هل نسيت كلمة السرّ؟"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">تنويه الخصوصيّة</a>."
 
@@ -1247,27 +1247,27 @@ msgstr "أدخل رمز التخويل"
 msgid "Create a Firefox Account"
 msgstr "أنشئ حسابَ فَيَرفُكس"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr "كرر كلمة السرّ"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "لا تنسَ كلمة السر هذه، فإن احتجت إلى تصفيرها قد تفقد البيانات المتزامنة."
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>لا تستخدم كلمة سر بريدك الإلكتروني</span>إن كان يعرف أحدهم كلمة سر بريدك الإلكتروني، فيمكنهم تأكيد جلسة ولوج فَيَرفُكس خاصتك على جهاز جديد والدخول إلى بياناتك بعدها."
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>تذكّر كلمة السر</span>إن احتجت إلى تصفير كلمة السر، فستفقد كل البيانات المُزامنة غير الموجودة على أي جهاز من الأجهزة لديك."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "احصل على آخر أخبار موزيلا و فَيَرفُكس"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "أنشئ حسابًا"
 
@@ -1275,7 +1275,7 @@ msgstr "أنشئ حسابًا"
 msgid "Have an account? Sign in"
 msgstr "لديك حساب؟ لج"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "هل هناك خطأ في كتابة البريد الإلكتروني؟"
 

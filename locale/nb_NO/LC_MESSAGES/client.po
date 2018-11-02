@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
+"POT-Creation-Date: 2018-11-02 16:02+0000\n"
 "PO-Revision-Date: 2018-10-02 13:49+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1046,7 +1046,7 @@ msgstr "Passord"
 msgid "Forgot password?"
 msgstr "Glemt passord?"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Ved å fortsette, aksepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernsbestemmelser</a>."
 
@@ -1253,27 +1253,27 @@ msgstr "Skriv inn godkjenningskode"
 msgid "Create a Firefox Account"
 msgstr "Opprett en Firefox-konto"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr "Gjenta passord"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Pass godt på dette passordet. Hvis du får bruk for å nullstille det, kan du risikere å miste synkroniseringsdata."
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Gjenbruk ikke passordet til din e-postkonto</span>Hvis noen vet passordet til din e-postkonto, kan de godkjenne din pålogging til Firefox på en ny enhet og få tilgang til dine data."
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Husk ditt passord</span>Hvis du får behov for å nullstille ditt passord, vil du miste all synkroniseringsdata, som ikke ligger på en av dine enheter."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Få siste nytt om Mozilla og Firefox"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Opprett konto"
 
@@ -1281,7 +1281,7 @@ msgstr "Opprett konto"
 msgid "Have an account? Sign in"
 msgstr "Har du en konto? Logg inn"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Feilskreven e-postadresse?"
 

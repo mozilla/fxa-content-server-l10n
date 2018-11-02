@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-10-15 19:12+0000\n"
+"POT-Creation-Date: 2018-11-02 16:02+0000\n"
+"PO-Revision-Date: 2018-10-27 03:08+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -497,7 +497,7 @@ msgstr "Ogiltig återställningsnyckel"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Den här förfrågan kräver tvåstegsautentisering aktiverat på ditt konto."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
@@ -666,15 +666,15 @@ msgstr "Ange verifieringskod"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Det gick inte att ansluta till fjärransluten enhet"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Ogiltigt meddelande från fjärrenheten"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Det gick inte att dekryptera meddelandet från den fjärranslutna enheten"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1044,7 +1044,7 @@ msgstr "Lösenord"
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicyn</a>."
 
@@ -1251,27 +1251,27 @@ msgstr "Ange behörighetskod"
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Tappa in bort detta lösenord. Om du behöver återställa det så kan du förlora Sync-data."
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Använd inte ditt e-postlösenord</span>Om någon känner till ditt e-postlösenord kan de godkänna din Firefox-inloggning på en ny enhet och få tillgång till dina data."
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Kom ihåg ditt lösenord</span>Om du behöver återställa ditt lösenord, kommer du att förlora Sync-data som inte finns på någon av dina enheter."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Få de senaste nyheterna om Mozilla och Firefox"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Skapa konto"
 
@@ -1279,7 +1279,7 @@ msgstr "Skapa konto"
 msgid "Have an account? Sign in"
 msgstr "Har du ett konto? Logga in"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Skrev du fel e-postadress?"
 

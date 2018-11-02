@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-10-17 16:00+0000\n"
+"POT-Creation-Date: 2018-11-02 16:02+0000\n"
+"PO-Revision-Date: 2018-10-28 12:14+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -497,7 +497,7 @@ msgstr "Unjildige werstelkaai"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Dizze oanfraach fereasket ynskeakele autentikaasje yn twa stappen op jo account."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
@@ -666,15 +666,15 @@ msgstr "Fier ferifikaasjekoade yn"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Flater by ferbinen mei ekstern apparaat"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Unjildich berjocht fan it eksterne apparaat"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Kin berjocht fan it eksterne apparaat net ûntsiferje"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1044,7 +1044,7 @@ msgstr "Wachtwurd"
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a>."
 
@@ -1251,27 +1251,27 @@ msgstr "Autorisaasjekoade ynfiere"
 msgid "Create a Firefox Account"
 msgstr "In Firefox-account oanmeitsje"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr "Nochris it wachtwurd"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Ferlies dit wachtwurd net. As jo it opnij ynstelle moatte, kinne jo Sync-gegevens kwytreitsje."
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Unthâld jo wachtwurd</span>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Untfang it lêste nijs oer Mozilla en Firefox"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Account oanmeitsje"
 
@@ -1279,7 +1279,7 @@ msgstr "Account oanmeitsje"
 msgid "Have an account? Sign in"
 msgstr "Hawwe jo in account? Oanmelde"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Typflater yn e-mailadres?"
 
