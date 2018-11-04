@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-11-04 19:12+0000\n"
+"PO-Revision-Date: 2018-11-04 19:15+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -670,11 +670,11 @@ msgstr "Esines viga kaugseadmega ühenduse loomisel"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Kaugseadmelt võeti vastu vigane sõnum"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Kaugseadmelt saabunud sõnumit polnud võimalik dekrüptida"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1195,7 +1195,7 @@ msgstr "Kinnita"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Kasuta turvakoodi"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
