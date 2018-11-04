@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-11-02 16:34+0000\n"
+"PO-Revision-Date: 2018-11-04 07:54+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -498,7 +498,7 @@ msgstr "Clave de recuperation non valide"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Iste requesta require le authentication a duo grados activate sur tu conto."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
