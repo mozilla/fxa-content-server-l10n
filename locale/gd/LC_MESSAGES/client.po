@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-11-03 22:26+0000\n"
+"PO-Revision-Date: 2018-11-04 15:27+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1674,46 +1674,50 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">AN AIRE: </span>Crioptaichidh facal-faire a’ chunntais Firefox agad an dàta Firefox agad. Chan fhaigh thu cothrom air an dàta agad ach leis an fhacal-fhaire no an iuchair aisig "
+"agad. <a %(escapedLearnMoreLinkAttributes)s>Barrachd fiosrachaidh</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Ceum 1 à 2: Cuir a-steach am facal-faire a-rithist"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Cuir a-steach am facal-faire agad a dh’fhaicinn na h-iuchrach aisig agad."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Cuir a-steach am facal-faire"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "A bheil thu cinnteach gu bheil thu airson a ghairm air ais?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Chan fhaigh thu greim air an dàta agad leis an iuchair aisig agad ma nì thu ath-shuidheachadh an fhacail-fhaire."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "Ceum 2 à 2: Sàbhail an iuchair aisig"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">AN AIRE: </span>Ma dhìochuimhnicheas tu am facal-faire agad, feumaidh tu an iuchair seo airson greim fhaighinn air an dàta agad. Cum an iuchair aisig agad ann an àite sàbhailte "
+"far am faigh thu greim air."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Dealbh putan a’ cho-bhualaidh"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Dealbh putan an luchdaidh a-nuas"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Deiseil, chaidh an iuchair aisig a shàbhaladh"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1721,23 +1725,23 @@ msgstr "Dè an aois a tha thu?"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Facal-faire a’ chunntais Firefox agad"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Chan urrainn dhut seòladh a’ phuist-d agad a chleachdadh air a shon"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Chan urrainn dhut dad a chleachdadh a tha air <a %(escapedCommonPasswordLinkAttrs)s>liosta nam faclan-faire cumanta</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Tagh rud-eigin àraidh airson sàbhailteachd – is na cleachd an aon fhacal-faire àite sam bith eile."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Cuimhnich am facal-faire seo – ma nì thu ath-shuidheachadh, sguabadh sin an dàta agad às na frithealaichean againn."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
