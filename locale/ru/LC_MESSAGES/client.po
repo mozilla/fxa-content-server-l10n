@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-10-31 08:30+0000\n"
-"Last-Translator: Victor Bychek <a@bychek.ru>\n"
+"PO-Revision-Date: 2018-11-05 13:21+0000\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Пароль сброшен"
 
 #: .es5/views/confirm_reset_password.js:208
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
+msgstr "Пароль успешно сброшен. Войдите, чтобы продолжить."
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -988,7 +988,7 @@ msgstr "Войти в Firefox на этом устройстве, чтобы з�
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "Sign in &rarr;"
-msgstr "Войти &rarr;"
+msgstr "Войти в «&rarr;»"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
