@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-10-27 14:22+0000\n"
+"PO-Revision-Date: 2018-11-05 09:09+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -971,7 +971,7 @@ msgstr "Başka bir cihaz bağla"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr "Bu Firefox zaten bağlı"
+msgstr "Bu Firefox bağlandı"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
