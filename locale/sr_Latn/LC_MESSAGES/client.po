@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
-"PO-Revision-Date: 2018-09-24 17:54+0000\n"
+"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"PO-Revision-Date: 2018-10-28 19:55+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -565,6 +565,7 @@ msgstr "Neispravan ključ za oporavak"
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
 msgstr ""
+"Ovaj zahtev zahteva omogućenu autentifikaciju u dva koraka na vašem nalogu."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
@@ -742,15 +743,15 @@ msgstr "Unesite verifikacioni kod"
 #: .es5/lib/channel-server-client-errors.js:47
 #: .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Greška pri povezivanju na udaljeni uređaj."
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Neispravna poruka od udaljenog uređaja"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Neuspešno dešifrovanje poruke udaljenog uređaja"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1222,7 +1223,7 @@ msgstr "Zaboravili ste lozinku?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6
 #: .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13
-#: .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:7
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -1428,7 +1429,7 @@ msgstr "Potvrdi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Upotrebite bezbednosni kod"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1488,12 +1489,11 @@ msgid "Create a Firefox Account"
 msgstr "Napravi Firefox nalog"
 
 #: .es5/templates/sign_up.mustache:9
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr "Ponovite lozinku"
 
 #: .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:8
 msgid ""
 "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
@@ -1501,7 +1501,6 @@ msgstr ""
 "Sync podatke."
 
 #: .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:9
 msgid ""
 "<span>Don’t reuse your email password</span>If someone knows your email "
 "password, they can approve your Firefox sign-in on a new device and access "
@@ -1512,7 +1511,6 @@ msgstr ""
 "uređaju i tako pristupiti vašim podacima."
 
 #: .es5/templates/sign_up.mustache:12
-#: .es5/templates/sign_up_password.mustache:10
 msgid ""
 "<span>Remember your password</span>If you need to reset your password, you "
 "will lose any Sync data that is not on one of your devices."
@@ -1521,12 +1519,12 @@ msgstr ""
 "izgubićete bilo koje Sync podatke koji nisu ni na jednom od vaših uređaja."
 
 #: .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u"
 
 #: .es5/templates/sign_up.mustache:16
-#: .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Napravi nalog"
 
@@ -1534,7 +1532,7 @@ msgstr "Napravi nalog"
 msgid "Have an account? Sign in"
 msgstr "Imate nalog? Prijavite se"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Loše ukucana adresa e-pošte?"
 
