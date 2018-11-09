@@ -1,3 +1,4 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -8,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-26 16:02+0000\n"
+"POT-Creation-Date: 2018-11-09 16:02+0000\n"
 
 #: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
@@ -1186,7 +1187,7 @@ msgstr ""
 #: .es5/templates/index.mustache:6
 #: .es5/templates/sign_in.mustache:16
 #: .es5/templates/sign_up.mustache:13
-#: .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:7
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
@@ -1443,17 +1444,15 @@ msgid "Create a Firefox Account"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:9
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:9
 msgid ""
 "<span>Don’t reuse your email password</span>If someone knows your email "
 "password, they can approve your Firefox sign-in on a new device and access "
@@ -1461,19 +1460,18 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:12
-#: .es5/templates/sign_up_password.mustache:10
 msgid ""
 "<span>Remember your password</span>If you need to reset your password, you "
 "will lose any Sync data that is not on one of your devices."
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:14
-#: .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:16
-#: .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr ""
 
@@ -1481,7 +1479,7 @@ msgstr ""
 msgid "Have an account? Sign in"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr ""
 
