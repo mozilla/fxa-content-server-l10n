@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-11 16:46+0000\n"
+"PO-Revision-Date: 2018-11-11 17:01+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1571,7 +1571,7 @@ msgstr "启用…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "通过需要多输入一组由<a %(escapedTotpSupportAttributes)s>身份验证应用</a>所生成的安全码，让您的账户安全级别更上一层楼。"
+msgstr "通过须额外输入一组由<a %(escapedTotpSupportAttributes)s>身份验证应用</a>所生成的安全码，让您的账户安全级别更上一层楼。"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
