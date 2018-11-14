@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-14 08:31+0000\n"
+"PO-Revision-Date: 2018-11-14 08:37+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -1186,7 +1186,7 @@ msgstr "وارد کردن کد بازیابی"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "لطفا یک کد بازیابی وارد کنید که در طی مراحل به شما ارائه شده است."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1198,7 +1198,7 @@ msgstr "تایید"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "استفاده از کد امنیتی"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1226,7 +1226,7 @@ msgstr "ورودِ کدِ بازآوری"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "برنامه ارزیابی خود را باز کنید و کد امنیتی ارائه شده را وارد کنید."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1254,11 +1254,11 @@ msgstr "تکرار گذرواژه"
 
 #: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "این کلمه عبور را گم نکنید. اگر نیاز دارید آن را از نو ایجاد کنید ممکن است اطلاعات همرسانی شده خود را از دست بدهید."
 
 #: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span> از کلمه عبور ایمیل خود مجدد استفاده نکنید</span> اگر کسی کلمه عبور ایمیل شما را بداند می‌تواند وارد حساب کاربری فایرفاکس شما شود و به اطلاعات شما دسترسی پیدا کند."
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
