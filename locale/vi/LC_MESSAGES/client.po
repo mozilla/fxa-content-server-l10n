@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-14 15:11+0000\n"
+"PO-Revision-Date: 2018-11-14 15:18+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -453,15 +453,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:169
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Yêu cầu email chính để đăng nhập"
 
 #: .es5/lib/auth-errors.js:173
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Địa chỉ được sử dụng bởi một tài khoản khác"
 
 #: .es5/lib/auth-errors.js:177
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Yêu cầu email chính để đặt lại"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
@@ -469,48 +469,48 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Không thể thay đổi email chính thành email chưa được xác minh"
 
 #: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Không thể thay đổi email chính thành email không thuộc tài khoản này"
 
 #: .es5/lib/auth-errors.js:193
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Email này hiện không thể được sử dụng để đăng nhập"
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "Không thể gửi email"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Yêu cầu mã hợp lệ"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Mã xác nhận này đã hết hạn"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Khóa khôi phục không hợp lệ"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Yêu cầu này yêu cầu xác thực hai bước được bật trên tài khoản của bạn."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Máy chủ bận, hãy thử lại sau"
 
 #: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Tính năng không được bật"
 
 #: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Hệ thống không khả dụng, hãy thử lại sau"
 
 #: .es5/lib/auth-errors.js:234
 msgid "This endpoint is no longer supported"
@@ -518,47 +518,47 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:242
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Đã hủy đăng nhập"
 
 #: .es5/lib/auth-errors.js:246
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Phiên đã hết hạn. Đăng nhập để tiếp tục."
 
 #: .es5/lib/auth-errors.js:250
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookie vẫn bị tắt"
 
 #: .es5/lib/auth-errors.js:254
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Mật khẩu không khớp"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Working…"
-msgstr ""
+msgstr "Đang làm việc…"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Không thể nhận Thông báo bảo mật"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Không thể nhận Điều khoản dịch vụ"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Mật khẩu mới của bạn phải khác"
 
 #: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Phải có ít nhất 8 ký tự"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Valid password required"
-msgstr ""
+msgstr "Yêu cầu mật khẩu hợp lệ"
 
 #: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
 msgid "Valid email required"
-msgstr ""
+msgstr "Yêu cầu email hợp lệ"
 
 #: .es5/lib/auth-errors.js:293
 msgid "A usable image was not found"
@@ -566,19 +566,19 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:297
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Không thể khởi tạo máy ảnh"
 
 #: .es5/lib/auth-errors.js:301
 msgid "Valid URL required"
-msgstr ""
+msgstr "Yêu cầu URL hợp lệ"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Email xác minh của bạn vừa được trả lại. Sai email?"
 
 #: .es5/lib/auth-errors.js:324
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Nhập địa chỉ email hợp lệ. firefox.com không cung cấp email."
 
 #: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -586,23 +586,23 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Liên kết xác nhận bị hỏng"
 
 #: .es5/lib/auth-errors.js:359
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Kích thước hình ảnh phải có kích thước tối thiểu là 100x100px"
 
 #: .es5/lib/auth-errors.js:363
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Đăng ký sắp có trên Firefox dành cho iOS"
 
 #: .es5/lib/auth-errors.js:374
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Bạn phải nhập tuổi của bạn để đăng ký"
 
 #: .es5/lib/auth-errors.js:389
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Tài khoản không còn tồn tại."
 
 #: .es5/lib/auth-errors.js:393
 msgid "Invalid property in resume token: %(property)s"
