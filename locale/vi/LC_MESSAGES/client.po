@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-01 06:09+0000\n"
+"PO-Revision-Date: 2018-11-14 15:11+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -36,7 +36,7 @@ msgstr "Mật khẩu của bạn đã được đặt lại"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Hoàn thành thiết lập bằng cách nhập mật khẩu mới trên các thiết bị Firefox khác của bạn."
 
 #: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
@@ -48,7 +48,7 @@ msgstr "Email chính đã xác minh"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Thông báo tài khoản bây giờ cũng sẽ được gửi đến %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
@@ -177,7 +177,7 @@ msgstr "Lần đồng bộ hóa cuối cùng không xác định"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Đăng ký thành công"
 
 #: .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
@@ -193,7 +193,7 @@ msgstr "Đã xóa email phụ"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
-msgstr ""
+msgstr "Email xác minh đă được gửi"
 
 #: .es5/views/settings/emails.js:149
 msgid "Primary email set to %(email)s"
@@ -201,7 +201,7 @@ msgstr "Email chính được đặt thành %(email)s"
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Email phụ"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
@@ -213,19 +213,19 @@ msgstr "Đã sao chép mã"
 
 #: .es5/views/settings/recovery_codes.js:81
 msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
+msgstr "Không thể sao chép mã. Vui lòng sao chép chúng theo cách thủ công."
 
 #: .es5/views/settings/recovery_codes.js:124
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Đã tạo mã khôi phục mới"
 
 #: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Đã bật xác thực hai bước"
 
 #: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Sử dụng mã %(code)s để thiết lập xác thực hai bước trong các ứng dụng được hỗ trợ."
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
@@ -237,15 +237,15 @@ msgstr "Xác thực hai bước"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:115
 msgid "Account Recovery"
-msgstr ""
+msgstr "Khôi phục tài khoản"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Khóa khôi phục Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Tài khoản của bạn đã bị khóa vì lý do bảo mật"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
@@ -253,7 +253,7 @@ msgstr "Đặt lại mật khẩu"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "không"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
@@ -281,7 +281,7 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Email đã được gửi lại. Vui lòng thêm accounts@firefox.com vào danh bạ của bạn để nhận email suôn sẻ."
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
