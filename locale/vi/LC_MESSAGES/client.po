@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-14 15:18+0000\n"
+"PO-Revision-Date: 2018-11-15 07:15+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -101,67 +101,67 @@ msgstr "Đồng bộ hóa lần cuối %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối %(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối hơn %(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối %(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối hơn %(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Hoạt động lần cuối %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối hơn %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Hoạt động lần cuối %(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối hơn %(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Hoạt động lần cuối %(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Đồng bộ hóa lần cuối hơn %(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Hơn %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Hơn %(translatedTimeAgo)s trong %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Hơn %(translatedTimeAgo)s ở gần %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
@@ -205,7 +205,7 @@ msgstr "Email phụ"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Mã khôi phục Firefox"
 
 #: .es5/views/settings/recovery_codes.js:79
 msgid "Codes copied"
@@ -277,7 +277,7 @@ msgstr "Mở Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:39
 msgid "Open Restmail"
-msgstr ""
+msgstr "Mở Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -465,7 +465,7 @@ msgstr "Yêu cầu email chính để đặt lại"
 
 #: .es5/lib/auth-errors.js:181
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Mã đăng nhập không hợp lệ"
 
 #: .es5/lib/auth-errors.js:185
 msgid "Can not change primary email to an unverified email"
@@ -562,7 +562,7 @@ msgstr "Yêu cầu email hợp lệ"
 
 #: .es5/lib/auth-errors.js:293
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Không tìm thấy hình ảnh có thể sử dụng"
 
 #: .es5/lib/auth-errors.js:297
 msgid "Could not initialize camera"
@@ -622,11 +622,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần."
 
 #: .es5/lib/auth-errors.js:422
 msgid "This is a required field"
-msgstr ""
+msgstr "Đây là một trường bắt buộc"
 
 #: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
@@ -638,31 +638,31 @@ msgstr "Liên kết bị hỏng"
 
 #: .es5/lib/auth-errors.js:457
 msgid "Phone number required"
-msgstr ""
+msgstr "Yêu cầu số điện thoại"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Yêu cầu mã xác thực hai bước"
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Mã xác thực hai bước không hợp lệ"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
-msgstr ""
+msgstr "Yêu cầu mã khôi phục"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Mã khôi phục không hợp lệ"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
-msgstr ""
+msgstr "Yêu cầu khóa khôi phục"
 
 #: .es5/lib/auth-errors.js:504
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Vui lòng nhập mã xác nhận"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
@@ -678,11 +678,11 @@ msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
-msgstr ""
+msgstr "Thiếu cấu hình"
 
 #: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Cấu hình không hợp lệ"
 
 #: .es5/lib/mailcheck.js:27
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -690,15 +690,15 @@ msgstr "Ý bạn là <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</sp
 
 #: .es5/lib/marketing-email-errors.js:43
 msgid "Please try again later"
-msgstr ""
+msgstr "Vui lòng thử lại sau"
 
 #: .es5/lib/marketing-email-errors.js:75
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Dịch vụ không khả dụng, hãy thử lại sau"
 
 #: .es5/lib/oauth-errors.js:28
 msgid "Unknown client"
-msgstr ""
+msgstr "Ứng dụng không xác định"
 
 #: .es5/lib/oauth-errors.js:32
 msgid "Incorrect redirect_uri"
@@ -710,15 +710,15 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:40
 msgid "Unknown code"
-msgstr ""
+msgstr "Mã không xác định"
 
 #: .es5/lib/oauth-errors.js:44
 msgid "Incorrect code"
-msgstr ""
+msgstr "Mã không chính xác"
 
 #: .es5/lib/oauth-errors.js:48
 msgid "Expired code"
-msgstr ""
+msgstr "Mã đã hết hạn"
 
 #: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
 msgid "Invalid OAuth parameter: %(param)s"
@@ -726,11 +726,11 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
 msgid "Unauthorized"
-msgstr ""
+msgstr "Chưa được ủy quyền"
 
 #: .es5/lib/oauth-errors.js:68
 msgid "Forbidden"
-msgstr ""
+msgstr "Cấm"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
@@ -738,11 +738,11 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Đã xảy ra sự cố. Vui lòng đóng thẻ này và thử lại."
 
 #: .es5/lib/oauth-errors.js:133
 msgid "no message"
-msgstr ""
+msgstr "không có tin nhắn"
 
 #: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
@@ -754,11 +754,11 @@ msgstr ""
 
 #: .es5/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Nhà cung cấp hình ảnh không được hỗ trợ"
 
 #: .es5/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Lỗi xử lý hình ảnh"
 
 #: .es5/lib/profile-errors.js:47
 msgid "Invalid Token"
@@ -767,30 +767,32 @@ msgstr ""
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Trợ giúp</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Nhận tin tức mới nhất về Mozilla và Firefox."
 
 #: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (ước tính)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (ước tính)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Địa chỉ IP: %(ip)s"
 
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Để bảo mật hơn, vui lòng xác nhận đăng nhập này để bắt đầu đồng bộ hóa với thiết bị này:"
 
 #: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
@@ -798,15 +800,15 @@ msgstr "Đăng nhập"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Yêu cầu không hợp lệ"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Lỗi 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Ôi trời, có gì đó không ổn. Chúng tôi đã được thông báo và sẽ cố gắng khắc phục."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -832,11 +834,13 @@ msgstr "Tiếp tục đến %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
+"dấu trang)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -884,7 +888,7 @@ msgstr "Liên kết đặt lại mật khẩu đã bị hỏng"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -895,10 +899,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>HÃY NHỚ:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
+"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Bạn đã khôi phục thành công tài khoản của mình bằng khóa khôi phục. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ nó ở một vị trí an toàn."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -942,7 +948,7 @@ msgstr "Xác nhận lần đăng nhập này"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Kiểm tra email của bạn để tìm liên kết xác minh đã được gửi&nbsp;tới %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -955,11 +961,11 @@ msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Đã gửi email đặt lại"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Nhấp vào liên kết được gửi qua email tới %(email)s trong vòng một giờ tới để tạo mật khẩu mới."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -987,35 +993,35 @@ msgstr "Đăng nhâp &rarr;"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Vẫn đang thêm thiết bị?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Đăng nhập vào Firefox trên thiết bị khác để hoàn tất thiết lập"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Vẫn đang thêm thiết bị? Đăng nhập vào Firefox trên thiết bị khác để hoàn tất thiết lập"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Đăng nhập vào Firefox dành cho Android để hoàn tất thiết lập"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Đăng nhập vào Firefox dành cho iOS để hoàn tất thiết lập"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Tại sao có nhiều thiết bị được yêu cầu?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Cookie và bộ nhớ cục bộ là bắt buộc"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Vui lòng bật cookie và bộ nhớ cục bộ trong trình duyệt của bạn để truy cập Tài khoản Firefox. Làm như vậy sẽ bật chức năng như ghi nhớ bạn giữa các phiên."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1037,62 +1043,62 @@ msgstr "Quên mật khẩu?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\">Điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\">Thông báo bảo mật</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Nhập email của bạn"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
-msgstr ""
+msgstr "Tiếp tục"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Pháp lí"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
-msgstr ""
+msgstr "Điều khoản dịch vụ"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Thông báo bảo mật"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Nhận trải nghiệm Đồng bộ hóa đầy đủ."
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Tải xuống Firefox dành cho iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Tải xuống Firefox dành cho Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Tải xuống Firefox dành cho thiết bị di động."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Yêu cầu cho phép"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s muốn nhận các thông tin sau từ tài khoản của bạn:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Chấp nhận"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
@@ -1100,27 +1106,27 @@ msgstr ""
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 #: .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Tài khoản của bạn đã sẵn sàng!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Tạo khóa khôi phục mới"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Tiếp tục đến tài khoản của tôi"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Báo cáo đăng nhập không được phép?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Bạn đã nhận được email về việc cố gắng truy cập vào tài khoản của bạn. Bạn có muốn báo cáo hoạt động này là đáng ngờ không?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1128,29 +1134,31 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Tại sao chuyện này xảy ra?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
+" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Bắt đầu đặt lại"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Tài khoản Firefox"
 
 #: .es5/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "Đăng xuất"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
 msgid "Use a different account"
-msgstr ""
+msgstr "Sử dụng một tài khoản khác"
 
 #: .es5/templates/sign_in.mustache:14
 msgid "Create an account"
@@ -1162,7 +1170,7 @@ msgstr "Rất tiếc. Chúng tôi đã khóa tài khoản&nbsp;của bạn."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Email xác nhận chúng tôi gửi tới %(email)s đã được trả lại và chúng tôi đã khóa tài khoản của bạn để bảo vệ dữ liệu Firefox của bạn."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
@@ -1174,15 +1182,15 @@ msgstr "Không còn sở hữu email đó nữa? Tạo tài khoản mới"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Nhập mã khôi phục"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Vui lòng nhập mã khôi phục đã được cung cấp cho bạn trong khi thiết lập."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Nhập mã khôi phục gồm 10 chữ số"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1194,15 +1202,15 @@ msgstr "Sử dụng mã bảo mật"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Cảm ơn vì sự cảnh giác của bạn"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Nhóm của chúng tôi đã được thông báo. Các báo cáo như thế này giúp chúng tôi chống lại những kẻ xâm nhập."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Cho phép đăng nhập này"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1222,11 +1230,11 @@ msgstr "Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Nhập mã gồm 6 chữ số"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Sử dụng mã khôi phục"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1242,7 +1250,7 @@ msgstr "Tạo tài khoản Firefox"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
-msgstr ""
+msgstr "Nhập lại mật khẩu"
 
 #: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1258,7 +1266,7 @@ msgstr "<span>Nhớ mật khẩu của bạn</span>Nếu bạn cần đặt lạ
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Nhận tin tức mới nhất về Mozilla và Firefox"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1270,15 +1278,15 @@ msgstr "Đã có tài khoản? Đăng nhập"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Sai email?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Gửi Firefox trực tiếp đến điện thoại thông minh của bạn và đăng nhập để hoàn tất thiết lập"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Số điện thoại di động"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
@@ -1288,38 +1296,39 @@ msgstr "Gửi"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Dịch vụ SMS chỉ khả dụng ở một số quốc gia nhất định. SMS &amp; tốc độ dữ liệu có thể được áp dụng. Người nhận của email hoặc SMS phải đồng ý. <a %(escapedLearnMoreAttributes)s>Tìm hiểu thêm</a>"
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Cài đặt Firefox trên điện thoại thông minh của bạn và đăng nhập để hoàn tất thiết lập"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Liên kết ứng dụng được gửi tới %(escapedPhoneNumber)s. <a %(escapedPhoneNumber)s>Nhập sai&nbsp;số?</a>"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Liên kết ứng dụng được gửi lại tới %(escapedPhoneNumber)s. <a %(escapedPhoneNumber)s>Nhập sai&nbsp;số?</a>"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Nếu bạn không nhận được tin nhắn văn bản, bạn cũng có thể tải xuống các ứng dụng theo cách thủ công."
 
 #: .es5/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Không nhận được? Gửi lại"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Tại sao đồng bộ hóa nhiều thiết bị?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Dịch vụ Đồng bộ hóa không phải là bản sao lưu vĩnh viễn, nó chỉ đơn giản là một cách an toàn để chuyển dấu trang, lịch sử và mật khẩu đã lưu giữa các thiết bị của riêng bạn."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Bạn nên cài đặt Firefox và đồng bộ ít nhất hai thiết bị để bảo vệ khỏi mất dữ liệu nếu bạn cần khôi phục nhưng lại quên mật khẩu của bạn."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1341,40 +1350,40 @@ msgstr "Thêm…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Chụp ảnh"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Tải lên"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Máy ảnh"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Xóa"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
-msgstr ""
+msgstr "Xong"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Định vị và xoay ảnh của bạn nếu cần"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
+msgstr "Thay đổi"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Khi bạn đã hoàn tất, hãy sử dụng mật khẩu mới của bạn để đăng nhập trên tất cả các thiết bị của bạn."
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Mật khẩu cũ"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1402,7 +1411,7 @@ msgstr "Thiết bị trùng lặp"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Không có câu trả lời"
 
 #: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
@@ -1442,7 +1451,7 @@ msgstr "Firefox cho iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Không có kết nối nào"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1451,11 +1460,11 @@ msgstr "Tải về"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox dành cho Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Các mục bị thiếu hoặc trùng lặp?"
 
 #: .es5/templates/settings/clients.mustache:26
 msgid "Refresh"
@@ -1463,23 +1472,25 @@ msgstr "Làm mới"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Tùy chọn liên lạc"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Bạn sẽ nhận được thông tin liên lạc liên quan đến bảo mật tài khoản của bạn, các thay đổi đối với chính sách của chúng tôi, chức năng của tài khoản và email ban đầu để giúp bạn tận dụng tối đa Tài "
+"khoản Firefox của mình."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Ngoài ra, bạn có thể đăng ký nhận email quảng cáo với những tin tức mới nhất từ ​​Mozilla và Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
-msgstr ""
+msgstr "Theo dõi"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Quản lý các mục theo dõi"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1494,6 +1505,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
+" ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -1501,19 +1514,19 @@ msgstr "Tên hiển thị"
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Chọn tên bạn muốn xuất hiện trong Firefox và khi quản lý tài khoản của bạn."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Email phụ là địa chỉ bổ sung để nhận thông báo bảo mật và xác nhận thiết bị mới."
 
 #: .es5/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "đã xác nhận"
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "yêu cầu xác minh"
 
 #: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
 msgid "Make primary"
@@ -1534,7 +1547,7 @@ msgstr "Thêm"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "Mã khôi phục"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1542,15 +1555,15 @@ msgstr "LƯU Ý:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Bằng cách tạo mã khôi phục mới, tất cả các mã trước đó sẽ trở thành không hợp lệ. Vui lòng lưu trữ mã mới ở vị trí an toàn."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Tạo mã khôi phục mới"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Đây là mã khôi phục sử dụng một lần của bạn. Lưu trữ chúng ở một nơi an toàn trong trường hợp bạn mất quyền truy cập vào thiết bị di động của mình. Bạn sẽ không thể xem lại các mã này."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
@@ -1570,7 +1583,7 @@ msgstr "Kích hoạt…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Thêm lớp bảo mật vào tài khoản của bạn bằng cách yêu cầu mã bảo vệ từ một trong <a %(escapedTotpSupportAttributes)s>các ứng dụng xác thực này</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1594,7 +1607,7 @@ msgstr "Kích hoạt"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Thay thế mã khôi phục"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1649,6 +1662,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">LƯU Ý: </span>Mật khẩu Tài khoản Firefox của bạn mã hóa dữ liệu Firefox của bạn. Chỉ mật khẩu hoặc khóa khôi phục mới có thể truy cập dữ liệu của bạn. <a "
+"%(escapedLearnMoreLinkAttributes)s>Tìm hiểu thêm</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1710,11 +1725,11 @@ msgstr "Không được khớp với <a %(escapedCommonPasswordLinkAttrs)s>danh 
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Giữ bản gốc và an toàn &mdash; không sử dụng lại mật khẩu này ở bất kỳ nơi nào khác."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Hãy nhớ mật khẩu này &mdash; việc đặt lại nó sẽ xóa dữ liệu của bạn khỏi máy chủ của chúng tôi."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1722,7 +1737,7 @@ msgstr "Hiện mật khẩu"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Bạn đang tìm kiếm Đồng bộ Firefox? <a %(escapedSyncSuggestionAttrs)s>Hãy bắt đầu tại đây</a>"
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
