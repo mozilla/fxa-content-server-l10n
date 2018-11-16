@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-15 07:15+0000\n"
-"Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
+"PO-Revision-Date: 2018-11-16 04:29+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -1304,11 +1304,11 @@ msgstr "Cài đặt Firefox trên điện thoại thông minh của bạn và đ
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Liên kết ứng dụng được gửi tới %(escapedPhoneNumber)s. <a %(escapedPhoneNumber)s>Nhập sai&nbsp;số?</a>"
+msgstr "Liên kết ứng dụng được gửi tới %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Nhập sai&nbsp;số?</a>"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Liên kết ứng dụng được gửi lại tới %(escapedPhoneNumber)s. <a %(escapedPhoneNumber)s>Nhập sai&nbsp;số?</a>"
+msgstr "Liên kết ứng dụng được gửi lại tới %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Nhập sai&nbsp;số?</a>"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
