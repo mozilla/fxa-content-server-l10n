@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-17 06:40+0000\n"
+"PO-Revision-Date: 2018-11-17 08:06+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -184,18 +184,18 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Tạo khóa khôi phục mới"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Tạo khóa khôi phục mới:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
 #: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài khoản của bạn, vui lòng thay đổi mật khẩu của bạn."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -203,11 +203,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Để ngăn chặn thêm quyền truy cập trái phép vào Tài khoản Firefox của bạn, chúng tôi đã đặt lại mật khẩu của bạn và thông báo cho bạn để phòng ngừa."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Những gì bạn nên làm?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
@@ -220,55 +220,55 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Tìm hiểu cách xem Firefox đang lưu trữ mật khẩu nào cho bạn."
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Trân trọng,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Nhóm Tài khoản Firefox"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Đã tạo khóa khôi phục tài khoản"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Bạn đã tạo thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Nếu đây không phải là bạn, hãy <a %(revokeAccountRecoveryLinkAttributes)s>nhấp vào đây.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
 #: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
-msgstr ""
+msgstr "Quản lý tài khoản"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Bạn đã tạo thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Nếu đây không phải là bạn, hãy thu hồi khóa."
 
 #: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
 #: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
 #: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
 msgid "Manage account:"
-msgstr ""
+msgstr "Quản lý tài khoản:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Đã bật xác thực hai bước"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Bạn đã bật thành công xác thực hai bước trên Tài khoản Firefox của mình từ thiết bị sau:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -276,37 +276,38 @@ msgstr ""
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Bạn đã bật thành công xác thực hai bước trên Tài khoản Firefox của mình. Bây giờ, mã bảo mật từ ứng dụng xác thực của bạn sẽ được yêu cầu tại mỗi lần đăng nhập."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Email chính mới"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Bạn đã thay đổi thành công email chính thành %(email)s. Địa chỉ này hiện là tên người dùng của bạn để đăng nhập vào Tài khoản Firefox của bạn, cũng như nhận thông báo bảo mật và xác nhận đăng nhập."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Mã phục hồi đã được sử dụng"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Bạn đã sử dụng thành công mã khôi phục từ thiết bị sau:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Đã sử dụng mã phục hồi"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Đã tạo mã khôi phục mới"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Bạn đã tạo thành công mã khôi phục mới từ thiết bị sau:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
 msgid "Account recovery key removed"
@@ -314,15 +315,15 @@ msgstr "Đã xóa khóa khôi phục tài khoản"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Bạn đã xóa thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Khóa khôi phục này không còn được sử dụng để khôi phục tài khoản của bạn nữa."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Bạn đã xóa thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -330,13 +331,13 @@ msgstr "Đã xóa email phụ"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Bạn đã xóa thành công %(secondaryEmail)s làm email phụ từ Tài khoản Firefox của bạn. Thông báo bảo mật và xác nhận đăng nhập sẽ không còn được gửi tới địa chỉ này nữa."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
 #: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào."
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
 msgid "Two-step authentication disabled"
@@ -344,15 +345,15 @@ msgstr "Đã tắt xác thực hai bước"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Bạn đã vô hiệu hoá thành công xác thực hai bước trên Tài khoản Firefox của bạn từ thiết bị sau:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Mã bảo mật sẽ không còn được yêu cầu tại mỗi lần đăng nhập."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Bạn đã vô hiệu hoá thành công xác thực hai bước trên Tài khoản Firefox của mình. Mã bảo mật sẽ không còn được yêu cầu tại mỗi lần đăng nhập."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -363,10 +364,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Giờ đây, bạn có thể đăng nhập vào Đồng bộ hóa từ các thiết bị khác của mình, bao gồm Firefox cho <a "
+"%(androidLinkAttributes)s>Android</a> và <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr ""
+"Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Giờ đây, bạn có thể đăng nhập vào Đồng bộ hóa từ các thiết bị khác của mình, bao gồm Firefox dành cho Android và iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -378,7 +382,7 @@ msgstr "Đã thêm email phụ"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Bạn đã xác minh thành công %(secondaryEmail)s làm email phụ cho Tài khoản Firefox của bạn. Thông báo bảo mật và xác nhận đăng nhập giờ đây sẽ được gửi tới cả hai địa chỉ email."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -402,15 +406,15 @@ msgstr "Đây có phải là bạn đăng nhập không?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Nếu có, dưới đây là mã ủy quyền bạn cần:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và <a %(reportSignInLinkAttributes)s>báo cáo cho chúng tôi.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và báo cáo cho chúng tôi."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
@@ -418,27 +422,27 @@ msgstr "Chào mừng!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Vui lòng kích hoạt tài khoản của bạn bằng cách xác nhận địa chỉ email này."
 
 #: lib/senders/templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Kích hoạt ngay"
 
 #: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "Xác nhận Email"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Xác nhận email của bạn để hoàn tất đăng ký Tài khoản Firefox của bạn"
 
 #: lib/senders/templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Kích hoạt ngay:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Để tăng cường bảo mật, vui lòng xác nhận đăng nhập này từ thiết bị sau:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -446,7 +450,7 @@ msgstr "Xác nhận lần đăng nhập này"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài khoản của bạn, <a %(passwordChangeLinkAttributes)s>hãy thay đổi mật khẩu của bạn</a>."
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
 msgid "Verify primary email"
@@ -454,27 +458,27 @@ msgstr "Xác nhận email chính"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Yêu cầu thực hiện thay đổi tài khoản đã được thực hiện từ thiết bị sau:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Xác nhận email "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Nếu bạn không cho phép hành động này, <a %(passwordChangeLinkAttributes)s>vui lòng thay đổi mật khẩu của bạn</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Xác nhận email: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr "Nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn."
+msgstr "Nếu bạn không cho phép hành động này, vui lòng thay đổi mật khẩu của bạn."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
 msgid "Verify secondary email"
@@ -482,11 +486,11 @@ msgstr "Xác nhận email phụ"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Yêu cầu sử dụng %(email)s làm địa chỉ email phụ được tạo từ Tài khoản Firefox sau:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -494,35 +498,35 @@ msgstr ""
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Xác nhận bạn đã nhận được email này và chúng tôi sẽ giúp bạn cài đặt và đồng bộ hóa Firefox trên tất cả các thiết bị của bạn bắt đầu bằng:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Sau khi xác nhận, chúng tôi sẽ giúp bạn cài đặt và kết nối Firefox trên ít nhất một thiết bị khác."
 
 #: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s trên %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:209
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s trên %(uaOS)s"
 
 #: lib/senders/email.js:236
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (ước tính)"
 
 #: lib/senders/email.js:238
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (ước tính)"
 
 #: lib/senders/email.js:240
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (ước tính)"
 
 #: lib/senders/email.js:242
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (ước tính)"
 
 #: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
@@ -534,7 +538,7 @@ msgstr "Xác nhận email của bạn và bắt đầu đồng bộ hóa!"
 
 #: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Mã ủy quyền Tài khoản Firefox"
 
 #: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
@@ -542,27 +546,27 @@ msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
 #: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Mã đăng nhập cho Firefox"
 
 #: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Đặt lại mật khẩu Tài khoản Firefox của bạn"
 
 #: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Mật khẩu Tài khoản Firefox của bạn đã được thay đổi"
 
 #: lib/senders/email.js:879
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Mật khẩu Tài khoản Firefox đã thay đổi"
 
 #: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Yêu cầu đặt lại mật khẩu Tài khoản Firefox"
 
 #: lib/senders/email.js:960
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Tài khoản Firefox đã được xác minh"
 
 #: lib/senders/email.js:987
 msgid "Secondary Firefox Account email added"
@@ -594,7 +598,7 @@ msgstr "Trang chủ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Lỗi 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -602,7 +606,7 @@ msgstr "Ôi trời, có gì đó không ổn. Chúng tôi đã được thông b
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Lỗi 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
