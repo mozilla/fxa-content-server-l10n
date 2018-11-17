@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-17 10:27+0000\n"
+"PO-Revision-Date: 2018-11-17 10:48+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -894,6 +894,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -945,7 +947,7 @@ msgstr "ตรวจสอบอีเมลของคุณสำหรับ
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "ตรวจสอบลิงก์ยืนยันการลงชื่อเข้าใช้ที่ส่งไปยัง %(escapedEmail)s ในอีเมลของคุณ"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -958,7 +960,7 @@ msgstr "ส่งอีเมลสำหรับตั้งรหัสผ่
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "คลิกที่ลิงก์เพื่อส่งอีเมลไปยัง %(email)s ภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่"
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1036,7 +1038,7 @@ msgstr "ลืมรหัสผ่าน?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "การดำเนินการต่อถือว่าคุณยอมรับ<a id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1134,6 +1136,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1177,7 +1181,7 @@ msgstr "ป้อนรหัสการกู้คืน"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "โปรดป้อนรหัสการกู้คืนที่จัดเตรียมให้คุณระหว่างการติดตั้ง"
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1245,15 +1249,15 @@ msgstr "ทวนรหัสผ่าน"
 
 #: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "อย่าลืมรหัสผ่านนี้ หากคุณต้องการตั้งค่าใหม่ คุณอาจสูญเสียข้อมูลการซิงค์"
 
 #: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>อย่านำรหัสผ่านอีเมลของคุณมาใช้</span> หากมีใครบางคนรู้รหัสผ่านอีเมลของคุณ พวกเขาอาจอนุมัติการลงชื่อเข้าใช้ Firefox ของคุณบนอุปกรณ์ใหม่และเข้าถึงข้อมูลของคุณได้"
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>จำรหัสผ่านของคุณ</span> หากคุณจำเป็นต้องค่ารหัสผ่านใหม่ คุณจะสูญเสียข้อมูล Sync ใด ๆ ที่ไม่ได้อยู่บนอุปกรณ์ใดของคุณ"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1294,11 +1298,11 @@ msgstr "ติดตั้ง Firefox บนสมาร์ทโฟนของ
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "ส่งลิงก์ของแอปไปที่ %(escapedPhoneNumber)s แล้ว <a %(escapedBackLinkAttrs)s>พิมพ์หมายเลขโทรศัพท์ของคุณผิดหรือ?</a>"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "ส่งลิงก์ของแอปไปที่ %(escapedPhoneNumber)s ใหม่แล้ว <a %(escapedBackLinkAttrs)s>พิมพ์หมายเลขโทรศัพท์ของคุณผิดหรือ?</a>"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1466,11 +1470,11 @@ msgstr "การตั้งค่าการสื่อสาร"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "คุณจะได้รับข่าวสารเกี่ยวกับความปลอดภัยของบัญชี การเปลี่ยนแปลงนโยบาย การใช้งานบัญชีของคุณ และอีเมล์เริ่มต้นเพื่อช่วยให้คุณใช้ประโยชน์จาก Firefox Account ของคุณได้มากที่สุด"
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "นอกจากนี้ คุณสามารถบอกรับอีเมลโปรโมชั่นต่างๆ พร้อมข่าวสารล่าสุดจาก Mozilla และ Firefox"
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1493,6 +1497,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"หากคุณใช้บัญชีนี้สำหรับแอพและบริการของ Firefox เช่น AMO, Pocket, และ Screenshots คุณควรเข้าสู่ระบบก่อน แล้วลบข้อมูลส่วนตัวใดๆ ที่คุณได้บันทึกไว้ เมื่อคุณลบบัญชีของคุณที่นี่แล้ว "
+"คุณจะไม่สามารถเข้าถึงแอพและบริการอื่นๆ ได้อีกต่อไป"
 
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
@@ -1549,7 +1555,7 @@ msgstr "สร้างรหัสการกู้คืนใหม่"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "รหัสเหล่านี้คือรหัสการกู้คืนครั้งเดียวของคุณ โปรดจดเก็บไว้ในที่ที่ปลอดภัยเผื่อคุณไม่สามารถเข้าถึงอุปกรณ์มือถือของคุณได้ คุณจะไม่สามารถเห็นโค้ดเหล่านี้ได้อีกต่อไป"
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
 msgid "Copy"
@@ -1569,7 +1575,7 @@ msgstr "เปิดใช้งาน…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "รักษาบัญชีของคุณให้ปลอดภัยอีกขั้นโดยกำหนดรหัสความปลอดภัยจาก<a %(escapedTotpSupportAttributes)s>แอพการยืนยันตัวบุคคล</a>แอพใดแอพหนึ่งเหล่านี้"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1597,7 +1603,7 @@ msgstr "แทนที่รหัสการกู้คืน"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "สแกนคิวอาร์โค้ดในแอพการยืนยันตัวบุคคลของคุณ แล้วป้อนรหัสความปลอดภัยที่ได้มา"
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1711,7 +1717,7 @@ msgstr "เป็นตัวของคุณเอง และปกป้�
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "โปรดจำรหัสผ่านนี้ไว้ &mdash; การตั้งค่ารหัสผ่านใหม่จะลบข้อมูลของคุณออกจากเซิร์ฟเวอร์ของเรา"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
