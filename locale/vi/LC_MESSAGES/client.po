@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-17 05:48+0000\n"
+"PO-Revision-Date: 2018-11-17 06:11+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -393,11 +393,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Tham số không hợp lệ: %(param)s"
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Thiếu tham số: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Mã ủy quyền không hợp lệ"
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
@@ -614,11 +614,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:401
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Thuộc tính dữ liệu không hợp lệ: %(property)s"
 
 #: .es5/lib/auth-errors.js:405
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Thiếu thuộc tính dữ liệu: %(property)s"
 
 #: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -630,7 +630,7 @@ msgstr "Đây là một trường bắt buộc"
 
 #: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
-msgstr ""
+msgstr "Yêu cầu mã ủy quyền"
 
 #: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -722,7 +722,7 @@ msgstr "Mã đã hết hạn"
 
 #: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Tham số OAuth không hợp lệ: %(param)s"
 
 #: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
 msgid "Unauthorized"
@@ -746,11 +746,11 @@ msgstr "không có tin nhắn"
 
 #: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Thiếu tham số OAuth: %(param)s"
 
 #: .es5/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Tham số không hợp lệ trong phần thân yêu cầu: %(param)s"
 
 #: .es5/lib/profile-errors.js:31
 msgid "Unsupported image provider"
@@ -1130,7 +1130,7 @@ msgstr "Bạn đã nhận được email về việc cố gắng truy cập vào
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Báo cáo hoạt động"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -1238,11 +1238,11 @@ msgstr "Sử dụng mã khôi phục"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Kiểm tra email của bạn để xem mã ủy quyền được gửi tới %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Nhập mã ủy quyền"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
