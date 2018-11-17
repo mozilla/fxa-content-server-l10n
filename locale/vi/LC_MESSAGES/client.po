@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-17 06:11+0000\n"
+"PO-Revision-Date: 2018-11-17 06:19+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -357,11 +357,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Dấu thời gian không hợp lệ trên yêu cầu chữ ký"
 
 #: .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Yêu cầu chữ ký không hợp lệ"
 
 #: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
 msgid "Account already exists"
@@ -373,7 +373,7 @@ msgstr "Tài khoản không xác định"
 
 #: .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Định dạng địa chỉ email không chính xác"
 
 #: .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
@@ -389,7 +389,7 @@ msgstr "Mã xác minh không hợp lệ"
 
 #: .es5/lib/auth-errors.js:73
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON không hợp lệ trong nội dung yêu cầu"
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
@@ -401,7 +401,7 @@ msgstr "Thiếu tham số: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Chữ ký yêu cầu không hợp lệ"
 
 #: .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
@@ -409,11 +409,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:93
 msgid "Request body too large"
-msgstr ""
+msgstr "Nội dung yêu cầu quá lớn"
 
 #: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
 #: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
 msgid "Invalid authorization code"
@@ -433,11 +433,11 @@ msgstr "Không thể gửi tin nhắn đến số này"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Email của bạn vừa được trả lại"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Email của bạn vừa được trả lại. Nhập sai email?"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
@@ -582,7 +582,7 @@ msgstr "Nhập địa chỉ email hợp lệ. firefox.com không cung cấp emai
 
 #: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Tài khoản Firefox chỉ có thể được đặt trong IFRAME của trang web được phê duyệt"
 
 #: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
@@ -666,15 +666,15 @@ msgstr "Vui lòng nhập mã xác nhận"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Lỗi khi kết nối với thiết bị từ xa"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Tin nhắn không hợp lệ từ thiết bị từ xa"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Không thể giải mã tin nhắn từ thiết bị từ xa"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -702,7 +702,7 @@ msgstr "Ứng dụng không xác định"
 
 #: .es5/lib/oauth-errors.js:32
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Redirect_uri không đúng"
 
 #: .es5/lib/oauth-errors.js:36
 msgid "Invalid assertion"
@@ -1697,11 +1697,11 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Hình ảnh nút in"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Hình ảnh nút tải xuống"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7
 msgid "Done, Recovery key saved"
