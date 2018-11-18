@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-18 03:23+0000\n"
+"PO-Revision-Date: 2018-11-18 05:51+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -53,7 +53,7 @@ msgstr "รหัสการกู้คืนเหลือน้อย"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "เราสังเกตว่ารหัสการกู้คืนของคุณเหลือน้อย โปรดพิจารณาสร้างรหัสใหม่เพื่อป้องกันไม่ให้บัญชีของคุณถูกล็อก"
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -91,7 +91,7 @@ msgstr "นโยบายความเป็นส่วนตัว Mozilla"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "เราได้สังเกตว่ารหัสการกู้คืนของคุณเหลือน้อย โปรดพิจารณาสร้างรหัสใหม่เพื่อป้องกันไม่ให้บัญชีของคุณถูกล็อก"
 
 #: lib/senders/templates/low_recovery_codes.txt:3
 msgid "Generate codes:"
@@ -265,7 +265,7 @@ msgstr "เปิดใช้งานการรับรองความถ
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "คุณได้เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนบน Firefox Account จากอุปกรณ์ดังต่อไปนี้เรียบร้อยแล้ว:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
