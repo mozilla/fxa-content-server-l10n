@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-17 05:35+0000\n"
-"Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
+"PO-Revision-Date: 2018-11-18 03:07+0000\n"
+"Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
@@ -104,19 +104,19 @@ msgstr "%(translatedTimeAgo)s ကျော်ခန့်တွင် နော�
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s က"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s ကျော်ကျော်က"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s က"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s ကျော်ကျော်က"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -124,19 +124,19 @@ msgstr "နောက်ဆုံးအသုံးပြုခဲ့သောအ
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "နောက်ဆုံးအသုံးပြုခဲ့သောအချိန် %(translatedTimeAgo)s က"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးအသုံးပြုခဲ့ချိန %(translatedCountry)s နိုင်ငံတွင် %(translatedTimeAgo)s က"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးအသုံးပြုခဲ့ချိန် %(translatedCountry)s နိုင်ငံတွင် %(translatedTimeAgo)s ကျော်ကျော်က"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "နောက်ဆုံးအသုံးပြုခဲ့ချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s က"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
