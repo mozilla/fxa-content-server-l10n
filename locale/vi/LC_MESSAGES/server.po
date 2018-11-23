@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-22 13:36+0000\n"
+"PO-Revision-Date: 2018-11-23 14:44+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -199,7 +199,7 @@ msgstr "Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài kh
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Chúng tôi đã phát hiện hoạt động đáng ngờ trên Tài khoản Firefox của bạn. Tài khoản của bạn có thể đã bị xâm phạm."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -217,6 +217,8 @@ msgstr "Đầu tiên, thay đổi mật khẩu tài khoản Firefox của bạn.
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"Thứ hai, nếu Firefox lưu mật khẩu vào trang web, bạn cũng nên thay đổi mật khẩu đó. Những kẻ tấn công có thể có quyền truy cập vào các mật khẩu đó, vì vậy bạn nên kiểm tra các tài khoản đó để biết "
+"hoạt động đáng ngờ."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -390,7 +392,7 @@ msgstr "Cần đặt lại mật khẩu của bạn?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Vui lòng nhấp vào nút trong vòng một giờ để đặt mật khẩu mới. Yêu cầu này được thực hiện từ thiết bị sau:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -494,7 +496,7 @@ msgstr "Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận �
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Sẵn sàng, đặt, đồng bộ hóa"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -614,7 +616,7 @@ msgstr "Máy chủ bận, vui lòng thử lại sau"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Hệ thống hiện đang chịu tải nặng và chúng tôi đang nỗ lực để đưa nó trở lại bình thường càng sớm càng tốt."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
