@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-11-11 17:01+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444354764.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "密码已重置"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "密码重置成功。请登录以继续。"
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -204,23 +208,15 @@ msgstr "主邮箱设为 %(email)s"
 msgid "Secondary email"
 msgstr "次要电子邮件地址"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Firefox 救援码"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "已复制救援码"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "无法复制救援码。请手动进行复制。"
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "已生成新的救援码"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "两步验证已启用"
 
@@ -240,7 +236,7 @@ msgstr "两步验证"
 msgid "Account Recovery"
 msgstr "账户救援"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Firefox 救援密钥"
 
@@ -248,7 +244,7 @@ msgstr "Firefox 救援密钥"
 msgid "Your account has been locked for security reasons"
 msgstr "由于安全性因素，您的账户已被冻结"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "重置密码"
 
@@ -283,6 +279,22 @@ msgstr "打开 Restmail"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "电子邮件已重发。建议将 accounts@firefox.com 添加到您的通讯录以确保顺畅接收。"
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -549,7 +561,7 @@ msgstr "无法获取服务条款"
 msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "至少 8 个字符"
 
@@ -766,7 +778,9 @@ msgid "Invalid Token"
 msgstr "无效令牌"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/lib/strings.js:33
@@ -836,7 +850,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "请输入您存放在安全位置的一次性救援密钥，以重新获得对 Firefox 账户的访问权限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">注意：</span>若您重置了密码并且没有保存救援密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -905,11 +920,11 @@ msgstr "已成功使用救援密钥恢复您的账号。请设置新的密码来
 msgid "New password"
 msgstr "新密码"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "重新输入密码"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "记起了密码？登录"
 
@@ -1149,7 +1164,7 @@ msgstr "Firefox 账户"
 msgid "Sign out"
 msgstr "退出"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "使用另一个账户"
 
@@ -1356,8 +1371,9 @@ msgstr "摄像头"
 msgid "Clear"
 msgstr "清除"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "完成"
 
@@ -1446,7 +1462,7 @@ msgid "None connected"
 msgstr "没有连接"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "下载"
 
@@ -1553,11 +1569,12 @@ msgstr "生成新的救援码"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "这些是您的一次性救援码。为了以防无法使用手机的情况，请将它们保存在安全的地方。您将无法再看到这些救援码。"
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "复制"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "打印"
 
@@ -1676,18 +1693,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "第 2 步，共 2 步：保存救援密钥"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">注意：</span>若您忘记密码，必须使用该密钥才能重新获得对数据的访问权限。请将救援密钥存放在安全的地方，以便日后可以轻松找到。"
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "打印按钮图像"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "下载按钮图像"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "完成，已保存救援密钥"
 
@@ -1726,6 +1736,18 @@ msgstr "在找 Firefox 同步？<a %(escapedSyncSuggestionAttrs)s>从这里开�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "使用另一个邮件地址"
+
+#~ msgid "Codes copied"
+#~ msgstr "已复制救援码"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "无法复制救援码。请手动进行复制。"
+
+#~ msgid "Print button image"
+#~ msgstr "打印按钮图像"
+
+#~ msgid "Download button image"
+#~ msgstr "下载按钮图像"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "登录验证码无效"
@@ -1885,14 +1907,16 @@ msgstr "使用另一个邮件地址"
 #~ msgstr "为什么要同步两台或以上的设备？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "同步使您可以共享书签、历史和密码，将一台设备上的 Firefox 数据同步到另一台设备的 Firefox 上。在您的手机或平板电脑上登录 Firefox，您保存到 Firefox 桌面版的所有内容也将显示。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同步。"
+#~ msgstr ""
+#~ "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同"
+#~ "步。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1982,14 +2006,15 @@ msgstr "使用另一个邮件地址"
 #~ msgstr "登录"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr "<span>记住：</span>如果您重置您的密码，您的一些数据将被删除（包括存储服务器上的历史记录、书签等同步数据）。这是因为我们使用您的密码来加密您的数据以保障隐私。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
-#~ msgstr "<span>注意：</span>重设密码将导致您的某些数据被抹除（包括同步服务器上的历史记录和书签等数据）。这是因为我们使用您的密码来加密数据，以确保我们无法解密，保护您的隐私安全。这部分数据无法恢复。"
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>注意：</span>重设密码将导致您的某些数据被抹除（包括同步服务器上的历史记录和书签等数据）。这是因为我们使用您的密码来加密数据，以确保我们无法解密，保护您的隐私安全。这部分数据无法恢复。"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "使用下列任一<a %(escapedTotpSupportAttributes)s>身份验证应用</a>获取必需的安全码，让您的账户安全级别更上一层楼。"
@@ -2123,16 +2148,19 @@ msgstr "使用另一个邮件地址"
 #~ msgid "Sync preferences"
 #~ msgstr "同步选项"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "要使用 Firefox 同步？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">点此开始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> 上使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最后活动：%(translatedTimeAgo)s"
@@ -2499,7 +2527,9 @@ msgstr "使用另一个邮件地址"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

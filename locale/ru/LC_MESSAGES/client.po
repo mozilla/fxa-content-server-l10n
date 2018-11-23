@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-11-05 13:21+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -16,13 +16,17 @@ msgstr ""
 "X-POOTLE-MTIME: 1448126634.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Пароль сброшен"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль успешно сброшен. Войдите, чтобы продолжить."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -204,23 +208,15 @@ msgstr "Основным адресом электронной почты явл
 msgid "Secondary email"
 msgstr "Дополнительный адрес эл. почты"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Коды восстановления Firefox"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Коды скопированы"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Не удалось скопировать коды. Пожалуйста, скопируйте их вручную."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Сгенерированы новые коды восстановления"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Двухэтапная аутентификация включена"
 
@@ -240,7 +236,7 @@ msgstr "Двухэтапная аутентификация"
 msgid "Account Recovery"
 msgstr "Восстановление аккаунта"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Ключ восстановления Firefox"
 
@@ -248,7 +244,7 @@ msgstr "Ключ восстановления Firefox"
 msgid "Your account has been locked for security reasons"
 msgstr "Ваш аккаунт был заблокирован по соображениям безопасности"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Сбросить пароль"
 
@@ -283,6 +279,22 @@ msgstr "Открыть Restmail"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Письмо отправлено повторно. Добавьте accounts@firefox.com в свои контакты, чтобы обеспечить его корректную доставку."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -549,7 +561,7 @@ msgstr "Не удалось получить Условия службы"
 msgid "Your new password must be different"
 msgstr "Ваш новый пароль должен быть другим"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Должен быть не менее 8 символов"
 
@@ -914,11 +926,11 @@ msgstr "Вы успешно восстановили свой аккаунт с 
 msgid "New password"
 msgstr "Новый пароль"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Повторите ввод пароля"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Помните пароль? Войти"
 
@@ -1160,7 +1172,7 @@ msgstr "Аккаунты Firefox"
 msgid "Sign out"
 msgstr "Выйти"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Использовать другой аккаунт"
 
@@ -1462,7 +1474,7 @@ msgid "None connected"
 msgstr "Ничего не подключено"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "Загрузить"
 
@@ -1573,11 +1585,12 @@ msgstr "Сгенерировать новые коды восстановлен�
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Это ваши одноразовые коды восстановления. Храните их в надежном месте на случай, если вы потеряете доступ к своему мобильному устройству. Вы не сможете увидеть эти коды снова."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Копировать"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Печать"
 
@@ -1704,15 +1717,7 @@ msgstr ""
 "<span class=\"note\">ПРИМЕЧАНИЕ: </span>Если вы забудете свой пароль, то для восстановления доступа к данным вам понадобится этот ключ. Сохраните ключ восстановления в безопасном месте, где вы "
 "сможете потом легко его найти."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Изображение кнопки Печать"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "Изображение кнопки Загрузка"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Готово, Ключ восстановления сохранён"
 
@@ -1751,6 +1756,18 @@ msgstr "Ищете Синхронизацию Firefox? <a %(escapedSyncSuggestio
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Использовать другой адрес электронной почты"
+
+#~ msgid "Codes copied"
+#~ msgstr "Коды скопированы"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Не удалось скопировать коды. Пожалуйста, скопируйте их вручную."
+
+#~ msgid "Print button image"
+#~ msgstr "Изображение кнопки Печать"
+
+#~ msgid "Download button image"
+#~ msgstr "Изображение кнопки Загрузка"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "Неверный код подтверждения входа"

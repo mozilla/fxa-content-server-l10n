@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-10-28 16:16+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1400464022.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Restablecer contraseña"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "La contraseña se restableció correctamente. Ingrese para continuar."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -203,23 +207,15 @@ msgstr "El correo electrónico primario ahora es %(email)s"
 msgid "Secondary email"
 msgstr "Dirección de correo electrónico secundaria"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Códigos de recuperación de Firefox"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Códigos copiados"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Falló la copia de los códigos. Por favor cópielos de manera manual."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Se generaron nuevos códigos de recuperación"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Se habilitó la autenticación en dos pasos"
 
@@ -239,7 +235,7 @@ msgstr "Autenticación en dos pasos"
 msgid "Account Recovery"
 msgstr "Recuperación de la cuenta"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Código de recuperación de Firefox"
 
@@ -247,7 +243,7 @@ msgstr "Código de recuperación de Firefox"
 msgid "Your account has been locked for security reasons"
 msgstr "Su cuenta ha sido bloqueada por razones de seguridad"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Restablecer contraseña"
 
@@ -282,6 +278,22 @@ msgstr "Abrir Restmail"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Correo electrónico reenviado. Añadir accounts@firefox.com a sus contactos para asegurar una recepción sin problemas."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -548,7 +560,7 @@ msgstr "No se pudo acceder a los Términos del servicio"
 msgid "Your new password must be different"
 msgstr "Su nueva contraseña debe ser diferente"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Debe tener al menos 8 caracteres"
 
@@ -913,11 +925,11 @@ msgstr "Restauró exitosamente su cuenta usando su clave de recuperación. Cree 
 msgid "New password"
 msgstr "Contraseña nueva"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Reingresar contraseña"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "¿Recordás tu contraseña? Inicia sesión"
 
@@ -1159,7 +1171,7 @@ msgstr "Cuentas de Firefox"
 msgid "Sign out"
 msgstr "Salir"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Usar una cuenta diferente"
 
@@ -1461,7 +1473,7 @@ msgid "None connected"
 msgstr "Ninguno conectado"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "Descargar"
 
@@ -1572,11 +1584,12 @@ msgstr "Generar nuevos códigos de recuperación"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Estos son los códigos de recuperación para una sola vez. Guardalos en un lugar seguro en el caso de perder acceso al dispositivo móvil. No podrás ver estos códigos de nuevo."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Copiar"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Imprimir"
 
@@ -1703,15 +1716,7 @@ msgstr ""
 "<span class=\"note\">NOTA: </span>Si olvida su contraseña, esta clave será requerida para recuperar el acceso a sus datos. Guarde su clave de recuperación en un lugar seguro, donde pueda "
 "encontrarla con facilidad más tarde."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Imagen de botón de impresión"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "Imagen de botón de descarga"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Hecho, clave de recuperación guardada"
 
@@ -1750,6 +1755,18 @@ msgstr "¿Buscando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comenzar aqu�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Usar una dirección de correo electrónico diferente"
+
+#~ msgid "Codes copied"
+#~ msgstr "Códigos copiados"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Falló la copia de los códigos. Por favor cópielos de manera manual."
+
+#~ msgid "Print button image"
+#~ msgstr "Imagen de botón de impresión"
+
+#~ msgid "Download button image"
+#~ msgstr "Imagen de botón de descarga"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "El código de verificación de inicio de sesión no es válido"

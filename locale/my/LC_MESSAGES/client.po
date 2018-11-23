@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-11-18 03:07+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,13 +14,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "စကားဝှက် ပြန်သတ်မှတ်ရန်"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "စကားဝှက်ကို အောင်မြင်စွာ ပြန်လည်သတ်မှတ်ပြီးပါပြီ။ ဆက်လက်ဆောင်ရွက်ရန် လက်မှတ်ထိုး ဝင်ရောက်ပါ။"
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -84,15 +88,11 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 
 #: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို "
-"ရှာဖွေကြည့်ရှုပါ။"
+msgstr "ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို ရှာဖွေကြည့်ရှုပါ။"
 
 #: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော "
-"စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
+msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -206,23 +206,15 @@ msgstr "%(email)s ကို မူလအီးမေးလ်အဖြစ် သ
 msgid "Secondary email"
 msgstr "အရန်အီးမေးလ်"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Firefox Recovery ကုဒ်များ"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "ကုဒ်များကို ကူးယူပြီး။"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -242,7 +234,7 @@ msgstr ""
 msgid "Account Recovery"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr ""
 
@@ -250,7 +242,7 @@ msgstr ""
 msgid "Your account has been locked for security reasons"
 msgstr "သင့်အကောင့်ကို လုံခြုံရေးအရ ပိတ်ထားပါသည်"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "စကားဝှက်ကို ပြန်လည်သတ်မှတ်ရန်"
 
@@ -284,6 +276,22 @@ msgstr "Restmail ကို ဖွင့်ပါ"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
 msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
@@ -551,7 +559,7 @@ msgstr "အသုံးပြုမှုဆိုင်ရာ သဘောတ�
 msgid "Your new password must be different"
 msgstr "စကားဝှက်အသစ်သည် ကွဲပြားမှု ရှိရပါမည်"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "စာလုံးအနည်းဆုံး 8 လုံး ရှိရပါမည်"
 
@@ -768,7 +776,9 @@ msgid "Invalid Token"
 msgstr "မှားယွင်းနေသော တိုကင်"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -838,7 +848,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -907,11 +918,11 @@ msgstr ""
 msgid "New password"
 msgstr "စကားဝှက်အသစ်"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "စကားဝှက်ကို ထပ်မံ ရေးထည့်ပါ"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr ""
 
@@ -1151,7 +1162,7 @@ msgstr "Firefox အကောင့်များ"
 msgid "Sign out"
 msgstr "ထွက်ရန်"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr ""
 
@@ -1358,8 +1369,9 @@ msgstr "ကင်မရာ"
 msgid "Clear"
 msgstr "ရှင်းလင်းပါ"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "ပြီးပြီ"
 
@@ -1448,7 +1460,7 @@ msgid "None connected"
 msgstr ""
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "ကူးဆွဲ"
 
@@ -1555,11 +1567,12 @@ msgstr ""
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr ""
 
@@ -1678,18 +1691,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr ""
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr ""
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr ""
 
@@ -1728,6 +1734,9 @@ msgstr ""
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Codes copied"
+#~ msgstr "ကုဒ်များကို ကူးယူပြီး။"
 
 #~ msgid "%(permissionName)s (required)"
 #~ msgstr "%(permissionName)s (လိုအပ်သည်)"

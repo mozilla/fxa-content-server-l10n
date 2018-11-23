@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-10-30 10:55+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1441484765.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Redefinì il pled-clav"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Redefinì cun success il pled-clav. T'annunzia per cuntinuar."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -204,23 +208,15 @@ msgstr "L'adressa dad e-mail principala è %(email)s"
 msgid "Secondary email"
 msgstr "Adressa dad e-mail alternativa"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Codes da recuperaziun da Firefox"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Copià ils codes"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Betg reussì da copiar ils codes. Per plaschair als copiar a maun."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Creà novs codes da recuperaziun"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Validaziun en dus pass activada"
 
@@ -240,7 +236,7 @@ msgstr "Validaziun en dus pass"
 msgid "Account Recovery"
 msgstr "Recuperaziun dal conto"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Clav da recuperaziun da Firefox"
 
@@ -248,7 +244,7 @@ msgstr "Clav da recuperaziun da Firefox"
 msgid "Your account has been locked for security reasons"
 msgstr "Tes conto è vegnì blocca per motivs da segirezza"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Redefinir il pled-clav"
 
@@ -283,6 +279,22 @@ msgstr "Avrir Restmail"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Tramess anc ina giada l'e-mail. Agiuntescha accounts@firefox.com a tes contacts per far la segira che l'e-mail arrivia."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -549,7 +561,7 @@ msgstr "Betg chattà las cundiziuns dal servetsch"
 msgid "Your new password must be different"
 msgstr "Il pled-clav nov sto esser different"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Sto cuntegnair almain 8 caracters"
 
@@ -914,11 +926,11 @@ msgstr "Ti has recuperà cun succes tes conto cun agid da tia clav da recuperazi
 msgid "New password"
 msgstr "Nov pled-clav"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Reendatar il pled-clav"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Ta regordas dal pled-clav? T'annunzia"
 
@@ -1161,7 +1173,7 @@ msgstr "Contos da Firefox"
 msgid "Sign out"
 msgstr "Sortir"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Utilisar in auter conto"
 
@@ -1465,7 +1477,7 @@ msgid "None connected"
 msgstr "Nagin apparat connectà"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "Telechargiar"
 
@@ -1578,11 +1590,12 @@ msgstr ""
 "Quests èn ils codes da recuperaziun a diever unic. Als memorisescha en in lieu segir per cas che ti n'has in bel di nagin access pli a tes apparat mobil. Quests codes na vegnan betg mussads ina "
 "segunda giada."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Copiar"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Stampar"
 
@@ -1709,15 +1722,7 @@ msgstr ""
 "<span class=\"note\">ATTENZIUN: </span>Sche ti emblidas tes pled-clav è questa clav necessaria per puspè obtegnair l'access a tias datas. Memorisescha tia clav da recuperaziun en in lieu segir, nua "
 "che ti la pos chattar a moda simpla pli tard."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Grafica da buttun «stampar»"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "Grafica da buttun «telechargiar»"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Finì, memorisà la clav da recuperaziun"
 
@@ -1756,6 +1761,18 @@ msgstr "Ti tschertgas Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cumenza qu
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Utilisar in'autra adressa dad e-mail"
+
+#~ msgid "Codes copied"
+#~ msgstr "Copià ils codes"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Betg reussì da copiar ils codes. Per plaschair als copiar a maun."
+
+#~ msgid "Print button image"
+#~ msgstr "Grafica da buttun «stampar»"
+
+#~ msgid "Download button image"
+#~ msgstr "Grafica da buttun «telechargiar»"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "Code da verificaziun d'annunzia nunvalid"

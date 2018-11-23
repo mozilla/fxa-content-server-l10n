@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-11-23 08:40+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,13 +14,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "పాస్‌వర్డ్ రీసెట్"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి సైన్ ఇన్ అవ్వండి."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -202,23 +206,15 @@ msgstr "ప్రాథమిక ఈమెయిలు %(email)sగా అమర
 msgid "Secondary email"
 msgstr "రెండవ ఈమెయిలు"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "సంకేతాలు కాపీఅయ్యాయి"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr ""
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "రెండు-దశల ప్రమాణీకరణ చేతనమైనది"
 
@@ -238,7 +234,7 @@ msgstr "రెండు-అంచెల అధీకరణ"
 msgid "Account Recovery"
 msgstr "ఖాతా రికవరీ"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr ""
 
@@ -246,7 +242,7 @@ msgstr ""
 msgid "Your account has been locked for security reasons"
 msgstr "భద్రతా కారణాల రీత్యా మీ ఖాతా స్తంభించబడింది"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "పాస్వర్డ్ మార్చుకోండి"
 
@@ -280,6 +276,22 @@ msgstr "Restmailను తెరువు"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
 msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
@@ -547,7 +559,7 @@ msgstr "సేవా నిబంధనలు పొందుటకు కాల
 msgid "Your new password must be different"
 msgstr "మీ కొత్త పాస్వర్డ్ భిన్నంగా ఉండాలి"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "కనీసం 8 అక్షరాల పొడవు ఉండాలి"
 
@@ -764,7 +776,9 @@ msgid "Invalid Token"
 msgstr "చెల్లని టోకేను"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -834,7 +848,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -903,11 +918,11 @@ msgstr ""
 msgid "New password"
 msgstr "కొత్త సంకేతపదం"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "సంకేతపదాన్ని మరలా ప్రవేశపెట్టండి"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి"
 
@@ -1147,7 +1162,7 @@ msgstr "Firefox ఖాతాలు"
 msgid "Sign out"
 msgstr "సైన్ ఔట్"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "వేరే ఖాతాను వాడు"
 
@@ -1354,8 +1369,9 @@ msgstr "కెమేరా"
 msgid "Clear"
 msgstr "క్లియర్"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "పూర్తయింది"
 
@@ -1444,7 +1460,7 @@ msgid "None connected"
 msgstr "ఏవీ అనుసంధానించబడి లేవు"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "దించుకోండి"
 
@@ -1551,11 +1567,12 @@ msgstr ""
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "కాపీచేయి"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "ముద్రించు"
 
@@ -1674,18 +1691,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "ముద్రణ బొత్తపు బొమ్మ"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "దింపుకోలు బొత్తపు బొమ్మ"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr ""
 
@@ -1724,6 +1734,15 @@ msgstr "Firefox Sync కోసం వెతుకుతున్నారా? <a
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "వేరే ఈమెయిలు చిరునామా వాడు"
+
+#~ msgid "Codes copied"
+#~ msgstr "సంకేతాలు కాపీఅయ్యాయి"
+
+#~ msgid "Print button image"
+#~ msgstr "ముద్రణ బొత్తపు బొమ్మ"
+
+#~ msgid "Download button image"
+#~ msgstr "దింపుకోలు బొత్తపు బొమ్మ"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "చెల్లని సైన్ ఇన్ ధృవీకరణ కోడ్"
@@ -1871,9 +1890,7 @@ msgstr "వేరే ఈమెయిలు చిరునామా వాడు
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS సేవ కేవలం అమెరికా ఫోను నెంబర్లకు మాత్రమే అందుబాటులో ఉంది. SMS &amp; డేటా చార్జీలు వర్తిస్తాయి. ఈమెయిలు లేదా SMS అందుకునేవారు ఒప్పుకొనివుండాలి. <a %(escapedLearnMoreAttributes)s>ఇంకా "
-#~ "తెలుసుకోండి</a>"
+#~ msgstr "SMS సేవ కేవలం అమెరికా ఫోను నెంబర్లకు మాత్రమే అందుబాటులో ఉంది. SMS &amp; డేటా చార్జీలు వర్తిస్తాయి. ఈమెయిలు లేదా SMS అందుకునేవారు ఒప్పుకొనివుండాలి. <a %(escapedLearnMoreAttributes)s>ఇంకా తెలుసుకోండి</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "బహుశా తర్వాత"
@@ -1885,18 +1902,17 @@ msgstr "వేరే ఈమెయిలు చిరునామా వాడు
 #~ msgstr "రెండు (లేదా మరిన్ని!) పరికరాలను ఎందుకు సింక్ చేసుకోవాలి?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే "
-#~ "మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
+#~ "సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత "
-#~ "పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు Firefox ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
+#~ "సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు "
+#~ "Firefox ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
 
 #~ msgid "Gravatar"
 #~ msgstr "గ్రావతార్"
@@ -2048,20 +2064,19 @@ msgstr "వేరే ఈమెయిలు చిరునామా వాడు
 #~ msgid "Sync preferences"
 #~ msgstr "Sync అభిరుచులు"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ "
-#~ "మొదలుపెట్టండి</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ మొదలుపెట్టండి</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a "
-#~ "href=\"%(linkLinux)s\">లినక్స్</a> కి లభిస్తుంది."
+#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a href=\"%(linkLinux)s\">లినక్స్</a> కి "
+#~ "లభిస్తుంది."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "చివరిసారి క్రియాశీలం: %(translatedTimeAgo)s"
