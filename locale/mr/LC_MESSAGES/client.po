@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 13:30+0000\n"
+"PO-Revision-Date: 2018-11-23 13:43+0000\n"
 "Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -300,7 +300,7 @@ msgstr "वाचनखूणा"
 
 #: .es5/models/sync-engines.js:52
 msgid "Add-ons"
-msgstr ""
+msgstr "अॅड-ऑन"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "पत्ते"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
@@ -372,7 +372,7 @@ msgstr "अज्ञात खाते"
 
 #: .es5/lib/auth-errors.js:57
 msgid "Incorrect email case"
-msgstr ""
+msgstr "चुकिचे ई-मेल प्रकरण"
 
 #: .es5/lib/auth-errors.js:61
 msgid "Incorrect password"
@@ -380,7 +380,7 @@ msgstr "अयोग्य पासवर्ड"
 
 #: .es5/lib/auth-errors.js:65
 msgid "Unverified account"
-msgstr ""
+msgstr "असत्यापित खाते"
 
 #: .es5/lib/auth-errors.js:69
 msgid "Invalid verification code"
@@ -420,19 +420,19 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
-msgstr ""
+msgstr "अवैध फोन नंबर"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "या देशात पाठवू शकत नाही"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "या नंबरवर संदेश पाठवला जाऊ शकत नाही"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr ""
+msgstr "आपला ईमेल नुकताच परत आला"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
