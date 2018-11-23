@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-09-23 18:45+0000\n"
+"PO-Revision-Date: 2018-11-23 13:30+0000\n"
 "Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "साईन-इन पुष्टी"
 
 #: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -64,7 +64,7 @@ msgstr "आता आपण %(serviceName)s वापरण्यास तय�
 
 #: .es5/views/ready.js:106
 msgid "Account verified"
-msgstr ""
+msgstr "खाता सत्यापित"
 
 #: .es5/views/reset_password.js:97
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अंतिम समकालन %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
@@ -164,11 +164,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "वेब सत्र, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "वेब सत्र"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
@@ -252,7 +252,7 @@ msgstr "पासवर्ड पुनःस्थापित करा"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "काहिच नाही"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
@@ -288,11 +288,11 @@ msgstr ""
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
 msgid "Account verified successfully"
-msgstr ""
+msgstr "खाते यशस्वीपणे सत्यापित केले आहे"
 
 #: .es5/models/sync-engines.js:44
 msgid "Open tabs"
-msgstr ""
+msgstr "टॅब उघडा"
 
 #: .es5/models/sync-engines.js:48
 msgid "Bookmarks"
@@ -764,9 +764,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -836,8 +834,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1357,9 +1354,8 @@ msgstr "कॅमेरा"
 msgid "Clear"
 msgstr "साफ करा"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12
-#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr ""
 
@@ -1678,8 +1674,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
