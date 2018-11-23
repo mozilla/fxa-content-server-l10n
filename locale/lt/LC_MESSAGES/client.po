@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-10-27 09:27+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447609426.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Slaptažodžio atkūrimas"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -206,23 +210,15 @@ msgstr "Pirminis el. paštas pakeistas į %(email)s"
 msgid "Secondary email"
 msgstr "Antrinis el. paštas"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "„Firefox“ paskyros atkūrimo kodai"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Kodai nukopijuoti"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Kodų nukopijuoti nepavyko. Prašom tai atlikti rankiniu būdu."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Nauji atkūrimo kodai sugeneruoti"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Dvipakopis atpažinimas įgalintas"
 
@@ -242,7 +238,7 @@ msgstr "Dvipakopis atpažinimas"
 msgid "Account Recovery"
 msgstr "Paskyros atkūrimas"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "„Firefox“ atkūrimo raktas"
 
@@ -250,7 +246,7 @@ msgstr "„Firefox“ atkūrimo raktas"
 msgid "Your account has been locked for security reasons"
 msgstr "Jūsų paskyra saugumo sumetimais buvo užrakinta"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Atkurkite slaptažodį"
 
@@ -285,6 +281,22 @@ msgstr "Atverti „Restmail“"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Laiškas išsiųstas pakartotinai. Kad jis jus pasiektų be trukdžių, įtraukite adresą „accounts@firefox.com“ į savo adresų knygą."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -553,7 +565,7 @@ msgstr "Neįmanoma pasiekti paslaugos teikimo sąlygų"
 msgid "Your new password must be different"
 msgstr "Senas ir naujas slaptažodžiai turi skirtis"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Turi būti bent 8 simbolių ilgio"
 
@@ -918,11 +930,11 @@ msgstr "Jūsų paskyra sėkmingai atkurta panaudojus atkūrimo raktą. Susikurki
 msgid "New password"
 msgstr "Naujas slaptažodis"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Pakartokite slaptažodį"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Atsimenate slaptažodį? Prisijunkite"
 
@@ -1164,7 +1176,7 @@ msgstr "„Firefox“ paskyros"
 msgid "Sign out"
 msgstr "Atsijungti"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Naudoti kitą paskyrą"
 
@@ -1466,7 +1478,7 @@ msgid "None connected"
 msgstr "Sąrašas tuščias"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "Parsisiųsti"
 
@@ -1575,11 +1587,12 @@ msgstr "Generuoti naujus atkūrimo kodus"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Tai – vienkartiniai jūsų paskyros atkūrimo kodai. Laikykite juos saugiai paslėpę tam atvejui, jeigu prarastumėte savo mobilųjį įrenginį. Vėliau šių kodų pamatyti nebegalėsite."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Kopijuoti"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Spausdinti"
 
@@ -1706,15 +1719,7 @@ msgstr ""
 "<span class=\"note\">SVARBU!</span> Šio rakto reikės, jeigu ateityje pamirštumėte savo slaptažodį, bet norėtumėte pasiekti savo duomenis. Atkūrimo raktą laikykite saugioje vietoje, kurioje vėliau "
 "galėsite jį lengvai surasti."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Spausdinti"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "Parsiųsti"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Baigta! Atkūrimo raktas išsaugotas"
 
@@ -1753,6 +1758,18 @@ msgstr "Ieškote „Firefox Sync“? <a %(escapedSyncSuggestionAttrs)s>Pradėkit
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Naudoti kitą el. pašto adresą"
+
+#~ msgid "Codes copied"
+#~ msgstr "Kodai nukopijuoti"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Kodų nukopijuoti nepavyko. Prašom tai atlikti rankiniu būdu."
+
+#~ msgid "Print button image"
+#~ msgstr "Spausdinti"
+
+#~ msgid "Download button image"
+#~ msgstr "Parsiųsti"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "Prisijungimo patvirtinimo kodas klaidingas"

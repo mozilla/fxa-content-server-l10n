@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-10-28 19:55+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Ресетовање лозинке"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Лозинка је успешно ресетована. Пријавите се да бисте наставили."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -203,23 +207,15 @@ msgstr "Као примарна адреса је постављена %(email)s
 msgid "Secondary email"
 msgstr "Секундарна адреса"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Firefox кодови за опоравак"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Кодови копирани"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Неуспешно копирање кодова. Копирајте их ручно."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Нови кодови за опоравак су генерисани"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "Аутентификација у два корака је омогућена"
 
@@ -239,7 +235,7 @@ msgstr "Аутентификација у два корака"
 msgid "Account Recovery"
 msgstr "Опоравак налога"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Firefox кључ за опоравак"
 
@@ -247,7 +243,7 @@ msgstr "Firefox кључ за опоравак"
 msgid "Your account has been locked for security reasons"
 msgstr "Налог је закључан због сигурносних разлога"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Ресетуј лозинку"
 
@@ -282,6 +278,22 @@ msgstr "Отвори Restmail"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Порука е-поште је поново послата. Додајте accounts@firefox.com у ваше контакте да бисте осигурали пријем поруке."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -548,7 +560,7 @@ msgstr "Нисмо могли добавити Услове услуга"
 msgid "Your new password must be different"
 msgstr "Нова лозинка мора бити другачија"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Мора бити најмање 8 карактера"
 
@@ -912,11 +924,11 @@ msgstr "Успешно сте повратили ваш налог помоћу 
 msgid "New password"
 msgstr "Нова лозинка"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Поново унеси лозинку"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Сећате се лозинке? Пријавите се"
 
@@ -1158,7 +1170,7 @@ msgstr "Firefox налози"
 msgid "Sign out"
 msgstr "Одјави се"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Користи други налог"
 
@@ -1457,7 +1469,7 @@ msgid "None connected"
 msgstr "Ништа није повезано"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "Преузми"
 
@@ -1566,11 +1578,12 @@ msgstr "Генериши нове кодове за опоравак"
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 msgstr "Ово су ваши кодови за опоравак за једнократну употребу. Сачувајте их на сигурно место у случају да избите приступ вашем мобилном уређају. Нећете моћи видети ове кодове поново."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Копирај"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Штампај"
 
@@ -1697,15 +1710,7 @@ msgstr ""
 "<span class=\"note\">NOTE: </span>Ако заборавите вашу лозинку, овај кључ је потребан да бисте повратили приступ вашим подацима. Сачувајте ваш кључ за опоравак на сигурну локацију, тамо где га "
 "можете лако пронаћи касније."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Одштампај слику дугмета"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "Преузми слику дугмета"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Готово, кључ за опоравак сачуван"
 
@@ -1744,6 +1749,18 @@ msgstr "Тражите Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Запо�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Користи другачију електронску адресу"
+
+#~ msgid "Codes copied"
+#~ msgstr "Кодови копирани"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Неуспешно копирање кодова. Копирајте их ручно."
+
+#~ msgid "Print button image"
+#~ msgstr "Одштампај слику дугмета"
+
+#~ msgid "Download button image"
+#~ msgstr "Преузми слику дугмета"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "Неисправан код за потврду"

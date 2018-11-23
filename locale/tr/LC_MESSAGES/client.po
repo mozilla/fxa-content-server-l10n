@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 16:02+0000\n"
+"POT-Creation-Date: 2018-11-23 16:02+0000\n"
 "PO-Revision-Date: 2018-11-05 09:09+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444482586.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:204
 msgid "Password reset"
 msgstr "Parola sıfırlama"
 
-#: .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
+
+#: .es5/views/confirm_reset_password.js:219
+msgid "Sign in to continue."
+msgstr ""
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -203,23 +207,15 @@ msgstr "Ana e-posta %(email)s olarak ayarlandı"
 msgid "Secondary email"
 msgstr "İkinci e-posta"
 
-#: .es5/views/settings/recovery_codes.js:45
+#: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
 msgstr "Firefox kurtarma kodları"
 
-#: .es5/views/settings/recovery_codes.js:79
-msgid "Codes copied"
-msgstr "Kodlar kopyalandı"
-
-#: .es5/views/settings/recovery_codes.js:81
-msgid "Failed to copy codes. Please manually copy them."
-msgstr "Kodlar kopyalanamadı. Lütfen elle kopyalayın."
-
-#: .es5/views/settings/recovery_codes.js:124
+#: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları oluşturuldu"
 
-#: .es5/views/settings/recovery_codes.js:158 .es5/views/settings/two_step_authentication.js:139
+#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
 msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
 
@@ -239,7 +235,7 @@ msgstr "İki aşamalı doğrulama"
 msgid "Account Recovery"
 msgstr "Hesap kurtarma"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:55
+#: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
 msgstr "Firefox kurtarma anahtarı"
 
@@ -247,7 +243,7 @@ msgstr "Firefox kurtarma anahtarı"
 msgid "Your account has been locked for security reasons"
 msgstr "Hesabınız güvenlik nedeniyle kilitlenmiştir"
 
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:17 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Parolayı sıfırla"
 
@@ -282,6 +278,22 @@ msgstr "Restmail’i aç"
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "E-posta yeniden gönderildi. Sorunsuz ulaşması için accounts@firefox.com adresini kişi listenize ekleyebilirsiniz."
+
+#: .es5/views/mixins/save-options-mixin.js:62
+msgid "Copied"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:64
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:77
+msgid "Downloaded"
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:88
+msgid "Printed"
+msgstr ""
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -548,7 +560,7 @@ msgstr "Hizmet Koşulları alınamadı"
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
@@ -911,11 +923,11 @@ msgstr "Kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Veril
 msgid "New password"
 msgstr "Yeni parola"
 
-#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Parolayı yeniden yazın"
 
-#: .es5/templates/complete_reset_password.mustache:18 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
+#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Parolanızı hatırladınız mı? Giriş yapın"
 
@@ -1157,7 +1169,7 @@ msgstr "Firefox Hesapları"
 msgid "Sign out"
 msgstr "Çıkış yap"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Farklı bir hesap kullan"
 
@@ -1457,7 +1469,7 @@ msgid "None connected"
 msgstr "Hiçbiri bağlı değil"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
 msgstr "İndir"
 
@@ -1568,11 +1580,12 @@ msgstr ""
 "Aşağıdaki kurtarma kodları tek kullanımlıktır. Onları güvenli bir yerde saklayın. Mobil cihazınızı kaybederseniz bu kodlara ihtiyacınız olacak. Kodları şimdi kaydedin çünkü bir daha "
 "göremeyeceksiniz."
 
-#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
 msgstr "Kopyala"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Yazdır"
 
@@ -1699,15 +1712,7 @@ msgstr ""
 "<span class=\"note\">NOT: </span>Parolanızı unutursanız, verilerinize tekrar kavuşmak için bu anahtara ihtiyacınız olacak. Kurtarma anahtarınızı daha sonra kolayca bulabileceğiniz güvenli bir yerde "
 "saklayın."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Print button image"
-msgstr "Yazdır düğmesi resmi"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
-msgid "Download button image"
-msgstr "İndir düğmesi resmi"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Tamamlandı. Kurtarma anahtarı saklandı."
 
@@ -1746,6 +1751,18 @@ msgstr "Firefox Sync'i mi arıyorsunuz? <a %(escapedSyncSuggestionAttrs)s>Burada
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Farklı bir e-posta adresi kullan"
+
+#~ msgid "Codes copied"
+#~ msgstr "Kodlar kopyalandı"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Kodlar kopyalanamadı. Lütfen elle kopyalayın."
+
+#~ msgid "Print button image"
+#~ msgstr "Yazdır düğmesi resmi"
+
+#~ msgid "Download button image"
+#~ msgstr "İndir düğmesi resmi"
 
 #~ msgid "Invalid sign-in verification code"
 #~ msgstr "Geçersiz giriş doğrulama kodu"
