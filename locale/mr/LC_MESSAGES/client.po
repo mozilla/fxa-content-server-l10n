@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 16:25+0000\n"
+"PO-Revision-Date: 2018-11-23 16:50+0000\n"
 "Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
-msgstr ""
+msgstr "दुय्यम ईमेल सत्यापित"
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -176,7 +176,7 @@ msgstr "अंतिम समकालन वेळ अज्ञात"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "यशस्वीरित्या सदस्यता घेतली"
 
 #: .es5/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:90
 msgid "Secondary email removed"
-msgstr ""
+msgstr "दुय्यम ईमेल काढून टाकला"
 
 #: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
 msgid "Verification email sent"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "दुय्यम ईमेल"
 
 #: .es5/views/settings/recovery_codes.js:45
 msgid "Firefox Recovery Codes"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/account_recovery.js:115
 msgid "Account Recovery"
-msgstr ""
+msgstr "खाते पुनर्प्राप्ती"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:55
 msgid "Firefox Recovery Key"
@@ -312,7 +312,7 @@ msgstr "इतिहास"
 
 #: .es5/models/sync-engines.js:64
 msgid "Preferences"
-msgstr ""
+msgstr "प्राधान्ये"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
@@ -400,7 +400,7 @@ msgstr "गहाळ घटक: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
-msgstr ""
+msgstr "अवैध विनंती स्वाक्षरी"
 
 #: .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
@@ -504,7 +504,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
-msgstr ""
+msgstr "वैशिष्ट्य सक्षम नाही"
 
 #: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
@@ -569,7 +569,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:301
 msgid "Valid URL required"
-msgstr ""
+msgstr "वैध URL आवश्यक"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Your verification email was just returned. Mistyped email?"
