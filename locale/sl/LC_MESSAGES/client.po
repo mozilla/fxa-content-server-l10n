@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 19:20+0000\n"
+"PO-Revision-Date: 2018-11-24 07:19+0000\n"
 "Last-Translator: Rok Žerdin <rok.zerdin1990@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -285,7 +285,7 @@ msgstr "Kopirano"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Kopiranje ni uspelo. Kopirajte ročno."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
