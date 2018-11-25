@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-25 00:39+0000\n"
+"PO-Revision-Date: 2018-11-25 01:15+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -280,7 +280,7 @@ msgstr "წერილი გადაგზავნილია. დაამ
 
 #: .es5/views/mixins/save-options-mixin.js:62
 msgid "Copied"
-msgstr "დაკოპირებულია"
+msgstr "ასლი აღებულია"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
