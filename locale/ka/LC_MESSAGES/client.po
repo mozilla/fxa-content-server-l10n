@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 23:07+0000\n"
+"PO-Revision-Date: 2018-11-25 00:39+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -284,7 +284,7 @@ msgstr "დაკოპირებულია"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr "დაკოპირება ვერ მოხერხდა. გთხოვთ, ხელით დააკოპიროთ"
+msgstr "ასლის გაკეთება ვერ მოხერხდა. გთხოვთ, ხელით აიღოთ ასლი."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
@@ -1579,7 +1579,7 @@ msgstr "აქ არის მოცემული აღდგენის �
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
-msgstr "დაკოპირება"
+msgstr "ასლი"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
