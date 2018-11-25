@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-24 17:06+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2018-11-24 23:51+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgstr "Kopierad"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Misslyckades med att kopiera. Var god kopiera manuellt."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
