@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-27 19:11+0000\n"
+"PO-Revision-Date: 2018-11-27 19:13+0000\n"
 "Last-Translator: Breana Gonzales <breanajones@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -284,7 +284,7 @@ msgstr "Copiado"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr "Fallo al copiar. Por favor, cópialo manualmente."
+msgstr "Falló al copiar. Por favor, cópialo manualmente."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
