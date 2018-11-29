@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-26 04:02+0000\n"
+"PO-Revision-Date: 2018-11-29 00:02+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -294,7 +294,7 @@ msgstr "Discargate"
 
 #: .es5/views/mixins/save-options-mixin.js:88
 msgid "Printed"
-msgstr ""
+msgstr "Imprimite"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
