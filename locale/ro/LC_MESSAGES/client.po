@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-01 09:44+0000\n"
+"PO-Revision-Date: 2018-10-05 14:12+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -37,7 +37,7 @@ msgstr "Firefox Sync va continua în câteva momente"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
-msgstr "Parola ta a fost resetată"
+msgstr "Parolă resetată"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -756,7 +756,7 @@ msgstr "Nepermis"
 
 #: .es5/lib/oauth-errors.js:82
 msgid "Expired token"
-msgstr "Indicativ expirat"
+msgstr "Jeton expirat"
 
 #: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
