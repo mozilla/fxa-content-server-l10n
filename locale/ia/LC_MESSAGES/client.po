@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-11-29 00:02+0000\n"
+"PO-Revision-Date: 2018-12-03 02:27+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -24,7 +24,7 @@ msgstr "Contrasigno restabilite con successo. Authentica te pro continuar."
 
 #: .es5/views/confirm_reset_password.js:219
 msgid "Sign in to continue."
-msgstr ""
+msgstr "Accede pro continuar."
 
 #: .es5/views/ready.js:75
 msgid "Welcome back"
@@ -286,7 +286,7 @@ msgstr "Copiate"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Falta a copiar. Per favor copia manualmente."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
