@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-05 07:58+0000\n"
+"PO-Revision-Date: 2018-12-05 11:15+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -965,7 +965,7 @@ msgstr "Egiaztatu zure posta elektronikoa %(escapedEmail)s helbidera bidalitako 
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Egiaztatu zure posta elektronikoa %(escapedEmail)s helbidera bidalitako egiaztapen-loturarako"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
@@ -1014,7 +1014,7 @@ msgstr "Konfigurazioa osatzeko, hasi saioa Firefoxen beste gailu batean"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Oraindik gailuak gehitzen? Konfigurazioa osatzeko, hasi saioa Firefoxen beste gailu batean"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
