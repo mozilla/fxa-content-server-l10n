@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-05 07:51+0000\n"
+"PO-Revision-Date: 2018-12-05 07:58+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1127,11 +1127,11 @@ msgstr "Zure kontua prest dago!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Sortu berreskuratze giltza berria"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Jarraitu nire kontuaz"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1567,7 +1567,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Sortu berreskuratze kode berriak"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1616,7 +1616,7 @@ msgstr "Gaitu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Ordezkatu berreskuratze kodeak"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1632,7 +1632,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "Segurtasun-kodea"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1644,11 +1644,11 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "E-posta nagusia"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Kontua berreskuratzea"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -1656,15 +1656,15 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Berreskuratze giltza"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Ezarri gabe"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Sortu"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1682,7 +1682,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Sartu pasahitza"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
@@ -1702,7 +1702,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "Egina, berreskuratze giltza gordeta"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1730,7 +1730,7 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Erakutsi pasahitza"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1738,7 +1738,7 @@ msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen
 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
-msgstr ""
+msgstr "Erabili posta elektronikoa helbide ezberdina"
 
 #~ msgid "Codes copied"
 #~ msgstr "Kodeak kopiatuta"
