@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-05 07:10+0000\n"
+"PO-Revision-Date: 2018-12-05 07:31+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -210,35 +210,35 @@ msgstr "Helbide elektroniko alternatiboa"
 
 #: .es5/views/settings/recovery_codes.js:46
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox berreskuratze kodeak"
 
 #: .es5/views/settings/recovery_codes.js:73
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Sortu dira berreskuratze kode berriak"
 
 #: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Bi urratseko autentifikazioa gaitua"
 
 #: .es5/views/settings/two_step_authentication.js:110
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Erabili %(code)s kodea bi urratseko autentifikazioa ezartzeko euskarria duten aplikazioetan."
 
 #: .es5/views/settings/two_step_authentication.js:123
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Bi urratseko autentifikazioa kendu da"
 
 #: .es5/views/settings/two_step_authentication.js:164
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Bi urratseko autentifikazioa"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:115
 msgid "Account Recovery"
-msgstr ""
+msgstr "Kontua berreskuratzea"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:59
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Firefox berreskuratze giltza"
 
 #: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
@@ -250,11 +250,11 @@ msgstr "Berrezarri pasahitza"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:31
 msgid "none"
-msgstr ""
+msgstr "bat ere ez"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:35
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Azken egiaztatzea: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -282,19 +282,19 @@ msgstr "Posta birbidalia. Gehitu accounts@firefox.com zure kontaktuetara arazori
 
 #: .es5/views/mixins/save-options-mixin.js:62
 msgid "Copied"
-msgstr ""
+msgstr "Kopiatuta"
 
 #: .es5/views/mixins/save-options-mixin.js:64
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Huts egin du kopiatzean. Kopia itzazu eskuz mesedez."
 
 #: .es5/views/mixins/save-options-mixin.js:77
 msgid "Downloaded"
-msgstr ""
+msgstr "Deskargatuta"
 
 #: .es5/views/mixins/save-options-mixin.js:88
 msgid "Printed"
-msgstr ""
+msgstr "Inprimatuta"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
 msgid "Primary email verified successfully"
@@ -498,7 +498,7 @@ msgstr "Ezin da mezua bidali"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
-msgstr ""
+msgstr "Baliozko kodea behar da"
 
 #: .es5/lib/auth-errors.js:209
 msgid "This verification code has expired"
@@ -506,11 +506,11 @@ msgstr "Egiaztatze kodea iraungi da"
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Berreskuratze giltza baliogabea"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Eskaera honek zure kontuan bi urratseko autentifikazioa gaitua egotea eskatzen du."
 
 #: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
 msgid "Server busy, try again soon"
@@ -655,39 +655,39 @@ msgstr "Telefono-zenbakia beharrezkoa da"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Bi urratseko autentifikazio kodea behar da"
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Bi urratseko autentifikazio kode baliogabea"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
-msgstr ""
+msgstr "Berreskuratze kodea behar da"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Berreskuratze kode baliogabea"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
-msgstr ""
+msgstr "Berreskuratze giltza behar da"
 
 #: .es5/lib/auth-errors.js:504
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Mesedez sartu egiaztatze kodea"
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "Errorea urruneko gailura konektatzean"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Mezu baliogabea urruneko gailutik"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
-msgstr ""
+msgstr "Ezin desenkriptatu urruneko gailuaren mezua"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -837,7 +837,7 @@ msgstr "Jaso lotura berria"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Berrezarri pasahitza berreskuratze giltzaz"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
