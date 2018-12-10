@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-10 12:14+0000\n"
+"PO-Revision-Date: 2018-12-10 12:27+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1596,7 +1596,7 @@ msgstr "Gaitu…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Gehitu segurtasun geruza bat zure kontuari segurtasun kode bat eskatuz ondorengo aplikazioetatik<a%(escapedTotpSupportAttributes)s></a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1624,15 +1624,15 @@ msgstr "Ordezkatu berreskuratze kodeak"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Eskaneatu QR kodea zure autentifikazio-aplikazioaz eta sartu bertan agertzen den segurtasun-kodea."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Ezin duzu kodea eskaneatu?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Sartu eskuz giltza sekretu hau zure autentifikazio-aplikazioan:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1644,7 +1644,7 @@ msgstr "Berretsi"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Atal hau erakutsi edo bertan aldaketak egin aurretik zuk zure helbide elektronikoa egiaztatu beharko duzu."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -1675,14 +1675,16 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">OHARRA: </span>Zure Firefox kontuko pasahitzak zure datuak enkriptatzen ditu. Zure pasahitzaz edo berreskuratze giltzaz dago sarbidea zure datuetara.<a "
+"%(escapedLearnMoreLinkAttributes)s>Ikasi gehiago</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "1 pausoa 2tik: Sartu berriz pasahitza"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Sartu pasahitza zure berreskuratze giltza ikusteko."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1698,7 +1700,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2 pausoa 2tik: Gorde berreskuratze giltza"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
@@ -1714,7 +1716,7 @@ msgstr "Zenbat urte dituzu?"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Zure Firefox kontuaren pasahitza"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
