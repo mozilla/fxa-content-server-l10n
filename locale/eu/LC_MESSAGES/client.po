@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-10 07:29+0000\n"
+"PO-Revision-Date: 2018-12-10 07:37+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1056,7 +1056,7 @@ msgstr "Pasahitza ahaztuta?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Jarraituz gero, Firefoxen<a id=\"fxa-tos\" href=\"/legal/terms\">baldintzak</a>eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1154,6 +1154,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>OHARRA:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna babesteko "
+"enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1269,7 +1271,7 @@ msgstr "Ez galdu pasahitza. Berrezarri behar baduzu, Sync datuak gal ditzakezu."
 
 #: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Ez berrerabili ePosta pasahitza</span>norbaitek zure ePosta pasahitza jakingo balu, gailu berri baten Firefox saioa hasi ahalko luke eta zure datuetara sarbidea izan."
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
