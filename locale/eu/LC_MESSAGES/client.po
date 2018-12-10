@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1596,7 +1596,7 @@ msgstr "Gaitu…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Gehitu segurtasun geruza bat zure kontuari segurtasun kode bat eskatuz ondorengo aplikazioetatik<a%(escapedTotpSupportAttributes)s></a>."
+msgstr "Gehitu segurtasun geruza bat zure kontuari segurtasun kode bat eskatuz ondorengo <a %(escapedTotpSupportAttributes)s>aplikazioetatik</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
