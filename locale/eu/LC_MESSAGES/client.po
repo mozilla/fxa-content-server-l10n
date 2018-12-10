@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-05 11:15+0000\n"
+"PO-Revision-Date: 2018-12-10 07:29+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -917,7 +917,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Zure kontua ondo berrezarri da berreskuratze giltza erabiliz. Sortu pasahitza berria zure datuen segurtasunerako eta gorde ezazu babestutako lekuan."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -978,7 +978,7 @@ msgstr "Berrezartze-mezua bidali da"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1489,10 +1489,12 @@ msgstr "Komunikazio-hobespenak"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Komunikazioak jasoko dituzu zure kontuaren segurtasunaren ingurukoak, gure politiken aldaketenak, zure kontuko funtzionaltasunenak eta hasierako eposta zure Firefox kontuari ahalik eta etekin "
+"handiena ateratzeko."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Honez gain, sustapen postetara harpidetu zintezke Mozilla eta Firefox inguruko azken berriak jasotzeko."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
