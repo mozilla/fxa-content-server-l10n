@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 16:02+0000\n"
-"PO-Revision-Date: 2018-12-10 15:12+0000\n"
+"PO-Revision-Date: 2018-12-10 15:25+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -679,11 +679,11 @@ msgstr "कृपया सत्यापन कोड दर्ज करे�
 
 #: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
 msgid "Error connecting to remote device"
-msgstr ""
+msgstr "रिमोट उपकरण से कनेक्ट करने में त्रुटि"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "रिमोट उपकरण से अमान्य संदेश"
 
 #: .es5/lib/channel-server-client-errors.js:59
 msgid "Could not decrypt message from the remote device"
@@ -853,15 +853,15 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "रिकवरी कुंजी दर्ज करें"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "रिकवरी कुंजी की पुष्टि करें"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "रिकवरी कुंजी नहीं है?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -1123,11 +1123,11 @@ msgstr "आपका खाता तैयार है!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "एक नई रिकवरी कुंजी बनाएँ"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "मेरे खाते में जारी रखें"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1207,7 +1207,7 @@ msgstr "सत्यापित करें"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "सुरक्षा कोड का प्रयोग करें"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1644,7 +1644,7 @@ msgstr "प्राथमिक ईमेल"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "खाता पुनर्प्राप्ति"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -1652,15 +1652,15 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "रिकवरी कुंजी"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "सेट नहीं है"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "तैयार करें"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1674,11 +1674,11 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "अपनी रिकवरी कुंजी देखने के लिए अपना पासवर्ड दर्ज करें।"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "पासवर्ड दर्ज करें"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
