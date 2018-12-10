@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-23 16:02+0000\n"
+"POT-Creation-Date: 2018-12-10 16:05+0000\n"
 "PO-Revision-Date: 2018-11-24 12:07+0000\n"
 "Last-Translator: Slimane Selyan AMIRI <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,890 +14,1753 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:204
-msgid "Password reset"
-msgstr "Awal uffir yettuwennez"
-
-#: .es5/views/confirm_reset_password.js:217
-msgid "Password reset successfully. Sign in to continue."
-msgstr "Awal uffir yettuwennez akken iwata. Kcem akken ad tkemleḍ."
-
-#: .es5/views/confirm_reset_password.js:219
-msgid "Sign in to continue."
-msgstr "Kcem akken ad tkemmleḍ."
-
-#: .es5/views/ready.js:75
-msgid "Welcome back"
-msgstr "Anṣuf tikkelt-nniḍen"
-
-#: .es5/views/ready.js:76
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync ad ikemmel akka kra n wakud"
-
-#: .es5/views/ready.js:80 .es5/views/ready.js:85
-msgid "Your password has been reset"
-msgstr "Awla inek uffir yettuwennez"
-
-#: .es5/views/ready.js:81 .es5/views/ready.js:86
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Fak tawilla s usekcem n wawal uffir amaynutɣef ibenkan inek Firefox."
-
-#: .es5/views/ready.js:89
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Aql-ak tura twejḍeḍ akken ad snifleḍ amiḍan-inek Firefox."
-
-#: .es5/views/ready.js:91
-msgid "Primary email verified"
-msgstr "Imayl amezwaru ittwasenqed"
-
-#: .es5/views/ready.js:94
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Ilɣa n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:96
-msgid "Secondary email verified"
-msgstr "Imayl wis sin ittusenqed"
-
-#: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
-msgid "Sign-in confirmed"
-msgstr "Tuqqna tentem"
-
-#: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Aqla-k tura theggad i useqdec n %(serviceName)s"
-
-#: .es5/views/ready.js:106
-msgid "Account verified"
-msgstr "Amiḍan yettwasenqed"
-
-#: .es5/views/reset_password.js:97
-msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Amiḍan arussin. <a href=\"/signup\">Rnu amiḍan</a>"
-
-#: .es5/views/sign_up.js:53
-msgid "Account no longer exists. Recreate it?"
-msgstr "Amiḍan ur yezgi yella. Ad ternuḍ tura?"
-
-#: .es5/views/sign_up.js:271
-msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Amiḍan yella yakan. <a href=\"/signin\">Kcem</a>"
-
-#: .es5/views/settings/change_password.js:45
-msgid "Password changed successfully"
-msgstr "Awal uffir yettwasnifel akken iwata"
-
-#: .es5/views/settings/client_disconnect.js:18
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Suref-aɣ ɣef aya. Yessefk ad tesnifleḍ awal uffir n umiḍan inek Firefox udiɣ wali tinaḍin n umfares n yibenk inek akken ad tsefḍeḍ isefka yinek s wudem anmeggag."
-
-#: .es5/views/settings/client_disconnect.js:19
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Suref-aɣ ɣef aya. Ma d ibenk ur nettwaman ara, yessefk ad tesnifleḍ awal uffir n umiḍan inek Firefox, akked wawalen uffiren imeṛṛa yettwakelsen di Firefox."
-
-#: .es5/views/settings/clients.js:46
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:47
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s aya"
-
-#: .es5/views/settings/clients.js:50
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:51
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s aya"
-
-#: .es5/views/settings/clients.js:54
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:55
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s aya"
-
-#: .es5/views/settings/clients.js:60
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Armud aneggaru: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Armud aneggaru %(translatedTimeAgo)s aya"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Armud aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Armud aneggaru %(translatedTimeAgo)s aya, deg %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Armud aneggaru %(translatedTimeAgo)s tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Armud aneggaru %(translatedTimeAgo)s aya, tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:74
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s aya"
-
-#: .es5/views/settings/clients.js:78
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s di %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s aya, deg %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s ar tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s aya, ar tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:118
-msgid "Web Session, %(userAgent)s"
-msgstr "Tiɣimit Web ,%(userAgent)s"
-
-#: .es5/views/settings/clients.js:120
-msgid "Web Session"
-msgstr "Tiɣimit Web"
-
-#: .es5/views/settings/clients.js:135
-msgid "Last sync time unknown"
-msgstr "Akud n umtawi aneggaru d arussin"
-
-#: .es5/views/settings/communication_preferences.js:124
-msgid "Subscribed successfully"
-msgstr "Ajerred yedda akken iwata"
-
-#: .es5/views/settings/delete_account.js:44
-msgid "Account deleted successfully"
-msgstr "Amiḍan yettwakkes akken iwata"
-
-#: .es5/views/settings/display_name.js:58
-msgid "Display name updated"
-msgstr "Isem n uskan yettusnifel"
-
-#: .es5/views/settings/emails.js:90
-msgid "Secondary email removed"
-msgstr "Imayl wis sin ittwakkes"
-
-#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:90
-msgid "Verification email sent"
-msgstr "Imayl n usenqed ittwazen"
-
-#: .es5/views/settings/emails.js:149
-msgid "Primary email set to %(email)s"
-msgstr "Sbadu imayl amezwaru ar %(email)s"
-
-#: .es5/views/settings/emails.js:159 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "Imayl wis sin"
-
-#: .es5/views/settings/recovery_codes.js:46
-msgid "Firefox Recovery Codes"
-msgstr "Tiririt n tingalin Firefox"
-
-#: .es5/views/settings/recovery_codes.js:73
-msgid "New recovery codes generated"
-msgstr "Tiririt tamaynut n tengalin teḍra-d"
-
-#: .es5/views/settings/recovery_codes.js:107 .es5/views/settings/two_step_authentication.js:139
-msgid "Two-step authentication enabled"
-msgstr "Asesteb s snat n tarrayin yermed"
-
-#: .es5/views/settings/two_step_authentication.js:110
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Seqdec tangalt %(code)s i usbeddi n usesteb s snat n tarrayin deg isnasen yettwasefraken."
-
-#: .es5/views/settings/two_step_authentication.js:123
-msgid "Two-step authentication removed"
-msgstr "Asesteb s snat n tarrayin yettwakkes"
-
-#: .es5/views/settings/two_step_authentication.js:164
-msgid "Two-step Authentication"
-msgstr "Asesteb s snat n tarrayin"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:115
-msgid "Account Recovery"
-msgstr "Tiririt n umiḍan"
-
-#: .es5/views/settings/account_recovery/recovery_key.js:59
-msgid "Firefox Recovery Key"
-msgstr "Tasarutt n tririt n Firefox"
-
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
-msgid "Your account has been locked for security reasons"
-msgstr "Amiḍan inek yettusewḥel ɣef sebba n tɣellist"
-
-#: .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
-msgid "Reset password"
-msgstr "Wennez awal uffir"
-
-#: .es5/views/mixins/last-checked-time-mixin.js:31
-msgid "none"
-msgstr "ula yiwen"
-
-#: .es5/views/mixins/last-checked-time-mixin.js:35
-msgid "Last checked: %(lastCheckTime)s"
-msgstr "Asenqed aneggaru: %(lastCheckTime)s"
-
-#: .es5/views/mixins/open-webmail-mixin.js:19
-msgid "Open Gmail"
-msgstr "Ldi Gmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:24
-msgid "Open Hotmail"
-msgstr "Ldi Hotmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:29
-msgid "Open Yahoo"
-msgstr "Ldi Yahoo"
-
-#: .es5/views/mixins/open-webmail-mixin.js:34
-msgid "Open Outlook"
-msgstr "Ldi Outlook"
-
-#: .es5/views/mixins/open-webmail-mixin.js:39
-msgid "Open Restmail"
-msgstr "Ldi Restmail"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Email yettwaezn tikelt-nneḍen. Rnu accounts@firefox.comar inermisen-ik akken ad tḍemneḍ armas yelhan n yiznan."
-
-#: .es5/views/mixins/save-options-mixin.js:62
-msgid "Copied"
-msgstr "Inɣel"
-
-#: .es5/views/mixins/save-options-mixin.js:64
-msgid "Failed to copy. Please manually copy."
-msgstr "Ur yessaweḍ ara ad yenɣel. Ma ulac aɣilif nɣel-itent s ufus."
-
-#: .es5/views/mixins/save-options-mixin.js:77
-msgid "Downloaded"
-msgstr "Yettusider"
-
-#: .es5/views/mixins/save-options-mixin.js:88
-msgid "Printed"
-msgstr "Ittwasiggez"
-
-#: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75
-msgid "Primary email verified successfully"
-msgstr "Imayl amezwaru ittwasenqed akken iwata"
-
-#: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23 .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:30 .es5/views/behaviors/settings.js:33
+#: .es5/models/auth_brokers/web.js:27 .es5/views/behaviors/settings.js:35 .es5/models/auth_brokers/web.js:29
 msgid "Account verified successfully"
 msgstr "Amiḍan yettwasenqed akken iwata"
 
-#: .es5/models/sync-engines.js:44
-msgid "Open tabs"
-msgstr "Iccaren yeldin"
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40 .es5/views/confirm_reset_password.js:164 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:206
+msgid "Password reset"
+msgstr "Awal uffir yettuwennez"
 
-#: .es5/models/sync-engines.js:48
-msgid "Bookmarks"
-msgstr "Ticraḍ n isebtar"
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:180 .es5/views/confirm_reset_password.js:208
+#: .es5/views/confirm_reset_password.js:219
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Awal uffir yettuwennez akken iwata. Kcem akken ad tkemleḍ."
 
-#: .es5/models/sync-engines.js:52
-msgid "Add-ons"
-msgstr "Izegrar"
+#: app/scripts/views/permissions.js:26 .es5/views/permissions.js:28 .es5/views/permissions.js:59 .es5/views/permissions.js:57
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (yettwasra)"
 
-#: .es5/models/sync-engines.js:56
-msgid "Logins"
-msgstr "Inekcam"
+#: app/scripts/views/permissions.js:32 .es5/views/permissions.js:33 .es5/views/permissions.js:64 .es5/views/permissions.js:62
+msgid "Email address"
+msgstr "Tansa imayl"
 
-#: .es5/models/sync-engines.js:60
-msgid "History"
-msgstr "Amazray"
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6 .es5/views/permissions.js:37
+#: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:68 .es5/views/permissions.js:66
+msgid "Display name"
+msgstr "Isem yettwaseknen"
 
-#: .es5/models/sync-engines.js:64
-msgid "Preferences"
-msgstr "Ismenyifen"
+#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1 .es5/views/permissions.js:40 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:71
+#: .es5/views/permissions.js:69
+msgid "Account picture"
+msgstr "Tugna n umiḍan"
 
-#: .es5/models/sync-engines.js:72
-msgid "Addresses"
-msgstr "Tansiwin"
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35 .es5/views/ready.js:39 .es5/views/ready.js:75 .es5/views/ready.js:73
+msgid "Welcome back"
+msgstr "Anṣuf tikkelt-nniḍen"
 
-#: .es5/models/sync-engines.js:80
-msgid "Credit cards"
-msgstr "Tikarḍiwin n usmad"
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36 .es5/views/ready.js:40 .es5/views/ready.js:76 .es5/views/ready.js:74
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync ad ikemmel akka kra n wakud"
 
-#: .es5/models/reliers/sync.js:75
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41 .es5/views/ready.js:45 .es5/views/ready.js:81 .es5/views/ready.js:86 .es5/views/ready.js:79 .es5/views/ready.js:84
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Fak tawilla s usekcem n wawal uffir amaynutɣef ibenkan inek Firefox."
+
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 .es5/views/ready.js:60 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:101 .es5/views/ready.js:99
+msgid "Sign-in confirmed"
+msgstr "Tuqqna tentem"
+
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56 .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/templates/ready.mustache:3 .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/views/ready.js:100 .es5/views/ready.js:105
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Aqla-k tura theggad i useqdec n %(serviceName)s"
+
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 .es5/views/ready.js:65 .es5/views/ready.js:106 .es5/views/ready.js:104
+msgid "Account verified"
+msgstr "Amiḍan yettwasenqed"
+
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164 .es5/views/reset_password.js:97
+#: .es5/views/sign_in.js:165 .es5/views/reset_password.js:94 .es5/views/reset_password.js:96 .es5/views/sign_in.js:225
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Amiḍan arussin. <a href=\"/signup\">Rnu amiḍan</a>"
+
+#: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
+msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+msgstr "Amiḍan Firefox arussin. <a href=\"/signup\">Jerred</a> s useqdec n tensa imayl i tesqedceḍ yakan ɣef usmel n izegrar akken ad tkecmeḍ ar isefka inek."
+
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53 .es5/views/sign_up.js:51
+msgid "Account no longer exists. Recreate it?"
+msgstr "Amiḍan ur yezgi yella. Ad ternuḍ tura?"
+
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315 .es5/views/sign_up.js:272 .es5/views/sign_up.js:271 .es5/views/sign_up.js:269
+msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+msgstr "Amiḍan yella yakan. <a href=\"/signin\">Kcem</a>"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr "Aseɣwen n usnas yettazen ar %(phoneNumber)s"
+
+#: app/scripts/views/settings/avatar_gravatar.js:93
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "Yefka-t-id <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50 .es5/views/settings/change_password.js:45 .es5/views/settings/change_password.js:43
+#: .es5/views/settings/change_password.js:46
+msgid "Password changed successfully"
+msgstr "Awal uffir yettwasnifel akken iwata"
+
+#: app/scripts/views/settings/client_disconnect.js:17 .es5/views/settings/client_disconnect.js:18 .es5/views/settings/client_disconnect.js:20 .es5/views/settings/client_disconnect.js:21
+msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+msgstr "Suref-aɣ ɣef aya. Yessefk ad tesnifleḍ awal uffir n umiḍan inek Firefox udiɣ wali tinaḍin n umfares n yibenk inek akken ad tsefḍeḍ isefka yinek s wudem anmeggag."
+
+#: app/scripts/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:19 .es5/views/settings/client_disconnect.js:21 .es5/views/settings/client_disconnect.js:22
+msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+msgstr "Suref-aɣ ɣef aya. Ma d ibenk ur nettwaman ara, yessefk ad tesnifleḍ awal uffir n umiḍan inek Firefox, akked wawalen uffiren imeṛṛa yettwakelsen di Firefox."
+
+#: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75 .es5/views/settings/clients.js:118 .es5/views/settings/clients.js:115 .es5/views/settings/clients.js:117
+msgid "Web Session, %(userAgent)s"
+msgstr "Tiɣimit Web ,%(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80 .es5/views/settings/clients.js:74 .es5/views/settings/clients.js:71 .es5/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:68 .es5/views/settings/clients.js:60 .es5/views/settings/clients.js:57 .es5/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Armud aneggaru: %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118 .es5/views/settings/communication_preferences.js:124
+#: .es5/views/settings/communication_preferences.js:122
+msgid "Subscribed successfully"
+msgstr "Ajerred yedda akken iwata"
+
+#: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
+msgid "Unsubscribed successfully"
+msgstr "Tuffɣa seg ujerred yedda akken iwata"
+
+#: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43 .es5/views/settings/delete_account.js:44 .es5/views/settings/delete_account.js:45
+#: .es5/views/settings/delete_account.js:42
+msgid "Account deleted successfully"
+msgstr "Amiḍan yettwakkes akken iwata"
+
+#: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64 .es5/views/settings/display_name.js:58 .es5/views/settings/display_name.js:55
+msgid "Display name updated"
+msgstr "Isem n uskan yettusnifel"
+
+#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113 .es5/views/mixins/account-reset-mixin.js:44 .es5/lib/auth-errors.js:115
+#: .es5/views/mixins/account-reset-mixin.js:46 .es5/views/mixins/account-reset-mixin.js:43 .es5/lib/auth-errors.js:113 .es5/views/mixins/account-reset-mixin.js:45
+msgid "Your account has been locked for security reasons"
+msgstr "Amiḍan inek yettusewḥel ɣef sebba n tɣellist"
+
+#: app/scripts/views/mixins/account-reset-mixin.js:44 .es5/views/mixins/account-reset-mixin.js:44 .es5/templates/complete_reset_password.mustache:14 .es5/templates/reset_password.mustache:1
+#: .es5/templates/reset_password.mustache:4 .es5/templates/complete_reset_password.mustache:17 .es5/views/mixins/account-reset-mixin.js:46 .es5/templates/complete_reset_password.mustache:16
+#: .es5/views/mixins/account-reset-mixin.js:43 .es5/views/mixins/account-reset-mixin.js:45
+msgid "Reset password"
+msgstr "Wennez awal uffir"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:19 .es5/views/mixins/open-webmail-mixin.js:19 .es5/views/mixins/open-webmail-mixin.js:20 .es5/views/mixins/open-webmail-mixin.js:18
+msgid "Open Gmail"
+msgstr "Ldi Gmail"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:25 .es5/views/mixins/open-webmail-mixin.js:24 .es5/views/mixins/open-webmail-mixin.js:25 .es5/views/mixins/open-webmail-mixin.js:23
+msgid "Open Hotmail"
+msgstr "Ldi Hotmail"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:29 .es5/views/mixins/open-webmail-mixin.js:30 .es5/views/mixins/open-webmail-mixin.js:28
+msgid "Open Yahoo"
+msgstr "Ldi Yahoo"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:37 .es5/views/mixins/open-webmail-mixin.js:34 .es5/views/mixins/open-webmail-mixin.js:35 .es5/views/mixins/open-webmail-mixin.js:33
+msgid "Open Outlook"
+msgstr "Ldi Outlook"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:43 .es5/views/mixins/open-webmail-mixin.js:39 .es5/views/mixins/open-webmail-mixin.js:40 .es5/views/mixins/open-webmail-mixin.js:38
+msgid "Open Restmail"
+msgstr "Ldi Restmail"
+
+#: app/scripts/views/mixins/resend-mixin.js:40
+msgid "Email resent"
+msgstr "Imayl yettwazen tikelt nniḍen"
+
+#: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59 .es5/models/reliers/sync.js:66 .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:79
-msgid "Secondary email verified successfully"
-msgstr "Imayl wis sin ittwasenqed akken iwata"
-
-#: .es5/models/auth_brokers/web.js:34
-msgid "Password reset successfully"
-msgstr "Awal uffir yettuwennez akken iwata"
-
-#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:35 .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:19 .es5/lib/oauth-errors.js:22 .es5/lib/profile-errors.js:59 .es5/lib/profile-errors.js:67
+#: .es5/lib/channel-server-client-errors.js:19 .es5/lib/auth-errors.js:19 .es5/lib/marketing-email-errors.js:16 .es5/lib/oauth-errors.js:19 .es5/lib/profile-errors.js:56 .es5/lib/profile-errors.js:64
+#: .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
 msgstr "Tuccḍa ur nettwaṛǧi ara"
 
-#: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5 .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:20
 msgid "The link you clicked to verify your email is expired."
 msgstr "Aseɣwen ɣef i tsiteḍ akken ad tesneqdeḍ imayl inek yezri."
 
-#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17 .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17 .es5/lib/auth-errors.js:21 .es5/lib/profile-errors.js:14
+#: .es5/lib/profile-errors.js:16
 msgid "You've tried too many times. Try again later."
 msgstr "Tɛerḍeḍ deqs n tikal. Ma ulac aɣilif, ɛreḍ tikelt nniḍen ticki."
 
-#: .es5/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:25 .es5/lib/auth-errors.js:27 .es5/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Tɛerḍeḍ deqs n tikal. Ma ulac aɣilif, ɛreḍ tikelt nniḍen %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50 .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:52 .es5/lib/auth-errors.js:35 .es5/lib/oauth-errors.js:49
+#: .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
 msgstr "Ajiṭun mačči d ameɣtu"
 
-#: .es5/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:39 .es5/lib/auth-errors.js:41 .es5/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Azemzakud mačči d ameɣtu deg uzmul n tuttra"
 
-#: .es5/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:43 .es5/lib/auth-errors.js:45 .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Awal mačči d ameɣtu deg uzmul n tutta"
 
-#: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163 .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
+#: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:163
 msgid "Account already exists"
 msgstr "Amiḍan yella yakan"
 
-#: .es5/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:51 .es5/lib/auth-errors.js:53 .es5/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "Amiḍan arussin"
 
-#: .es5/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:55 .es5/lib/auth-errors.js:57 .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Amasal n imayl mačči d ameɣtu"
 
-#: .es5/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:59 .es5/lib/auth-errors.js:61 .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
 msgstr "Awal uffir mačči d ameɣtu"
 
-#: .es5/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:63 .es5/lib/auth-errors.js:65 .es5/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "Amiḍan ur yettwasenqed ara"
 
-#: .es5/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:67 .es5/lib/auth-errors.js:69 .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "Tangalt n usenqed mačči d tameɣtut"
 
-#: .es5/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:71 .es5/lib/auth-errors.js:73 .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON Mačči d ameɣtu di tfekka n tuttra"
 
-#: .es5/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:75 .es5/lib/auth-errors.js:77 .es5/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "Aɣewwaṛ mačči d ameɣtu: %(param)s"
 
-#: .es5/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:79 .es5/lib/auth-errors.js:81 .es5/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "Aɣewwaṛ yettwattu: %(param)s"
 
-#: .es5/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:83 .es5/lib/auth-errors.js:85 .es5/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "Azmul n tuttra mačči d ameɣtu"
 
-#: .es5/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:87 .es5/lib/auth-errors.js:89 .es5/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Aqeṛṛu content-length ulac-it"
 
-#: .es5/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:91 .es5/lib/auth-errors.js:93 .es5/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "Tafekka n tuttra meqqert aṭas"
 
-#: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55
+#: app/scripts/lib/auth-errors.js:109 .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:55 .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:52 .es5/lib/profile-errors.js:54
 msgid "The request was blocked for security reasons"
 msgstr "Tuttra tewḥel ɣef sebba n teɣllist"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384 .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:430 .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:428
 msgid "Invalid authorization code"
 msgstr "Tangalt n tsiregt mačči d tameɣtut"
 
-#: .es5/lib/auth-errors.js:123
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16 .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Uṭṭun n tiliγṛi mačči d ameγtu"
 
-#: .es5/lib/auth-errors.js:127
+#: app/scripts/lib/auth-errors.js:125 .es5/lib/auth-errors.js:127 .es5/lib/auth-errors.js:125
 msgid "Cannot send to this country"
 msgstr "Ur izmir ara ad yazen i tmurt-agi"
 
-#: .es5/lib/auth-errors.js:136
+#: app/scripts/lib/auth-errors.js:134 .es5/lib/auth-errors.js:136 .es5/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
 msgstr "Ur yezmir ara ad yazen izen γer uṭṭun-agi"
 
-#: .es5/lib/auth-errors.js:140
+#: app/scripts/lib/auth-errors.js:138 .es5/lib/auth-errors.js:140 .es5/lib/auth-errors.js:138
 msgid "Your email was just returned"
 msgstr "Imayl-ik akken kan i d-yuɣal"
 
-#: .es5/lib/auth-errors.js:144
+#: app/scripts/lib/auth-errors.js:142 .es5/lib/auth-errors.js:144 .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Imayl inek akken kan i d-yuɣal. Ahat mačči d ameɣtu?"
 
-#: .es5/lib/auth-errors.js:148
+#: app/scripts/lib/auth-errors.js:146 .es5/lib/auth-errors.js:148 .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
 msgstr "Ur izmir ara ad isiweḍ izen"
 
-#: .es5/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:406 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:220 .es5/lib/auth-errors.js:408
+msgid "Server busy, try again soon"
+msgstr "Aqeddac ur yestuffi ara, ɛreḍ tikelt nniḍen ticki"
+
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:232
+msgid "This endpoint is no longer supported"
+msgstr "Asebdad-agi ur ittisefrak ara"
+
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:192 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:230 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:98
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238
+#: .es5/lib/oauth-errors.js:106 .es5/lib/auth-errors.js:228 .es5/lib/auth-errors.js:236 .es5/lib/marketing-email-errors.js:24 .es5/lib/marketing-email-errors.js:82 .es5/lib/oauth-errors.js:103
+#: .es5/lib/profile-errors.js:36 .es5/lib/profile-errors.js:40 .es5/lib/profile-errors.js:60 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105
+#: .es5/lib/profile-errors.js:38 .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
+msgid "System unavailable, try again soon"
+msgstr "Ulac anagraw, ɛreḍ tikelt nniḍen ticki"
+
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:240
+msgid "Login attempt cancelled"
+msgstr "Aɛraḍ n unekcum yettwasefsex"
+
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:244
+msgid "Session expired. Sign in to continue."
+msgstr "Tiɣimit tezri. Qqen tikelt nniden akken ad tkemleḍ."
+
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:248
+msgid "Cookies are still disabled"
+msgstr "Inagan n tuqqna ur ttwaremden ara yakan"
+
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:252
+msgid "Passwords do not match"
+msgstr "Awalen uffiren ur mṣadan ara"
+
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:256
+msgid "Working…"
+msgstr "Iteddu…"
+
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:260
+msgid "Could not get Privacy Notice"
+msgstr "Ur izmir ara ad d-yawi tasertit n tbaḍnit"
+
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266 .es5/lib/auth-errors.js:264
+msgid "Could not get Terms of Service"
+msgstr "Ur izmir ara ad d-yawi tiwtilin n useqdec"
+
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:266 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:268
+msgid "Your new password must be different"
+msgstr "Yessefk awal inek uffir ad yili akken nniḍen"
+
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:266 .es5/templates/complete_reset_password.mustache:12 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:270 .es5/templates/complete_reset_password.mustache:14 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:272
+msgid "Must be at least 8 characters"
+msgstr "Yessefk ad yili ma drus 8 n isekkilen"
+
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232 .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:276
+msgid "Valid password required"
+msgstr "Awal uffir ameɣtu yettwasra"
+
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:290 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:334
+msgid "Valid email required"
+msgstr "Imayl ameɣtu yettwasra"
+
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247 .es5/lib/auth-errors.js:285 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:291
+msgid "A usable image was not found"
+msgstr "Tugna yettwasqedcen ulac-itt"
+
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251 .es5/lib/auth-errors.js:289 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297 .es5/lib/auth-errors.js:295
+msgid "Could not initialize camera"
+msgstr "Ur izmir ara ad iwennez takamirat"
+
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255 .es5/lib/auth-errors.js:293 .es5/lib/auth-errors.js:297 .es5/lib/auth-errors.js:301 .es5/lib/auth-errors.js:299
+msgid "Valid URL required"
+msgstr "Tansa URL tameɣtut tettwasra"
+
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:314
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Asenqed n yimayl inek akken kan i d-yuɣal. Ahat mačči d ameɣtu?"
+
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:322
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Sekcem tansa imayl tameɣtut. firefox.com ur yettmuddu ara imaylen."
+
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:330
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Imiḍanen Firefox zemren kan ad ttusersen di IFRAME n yesmal imeɣta"
+
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305 .es5/lib/auth-errors.js:343 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:349
+msgid "Verification link damaged"
+msgstr "Aseɣwen n usenqed yexṣeṛ"
+
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313 .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359 .es5/lib/auth-errors.js:357
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Yessefk tisektiwin n tugna ad ilint ɣarṣum 100 x 100 px"
+
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317 .es5/lib/auth-errors.js:355 .es5/lib/auth-errors.js:359 .es5/lib/auth-errors.js:363 .es5/lib/auth-errors.js:361
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Timirna n umiḍan ad tewjeḍ akka ɣer zdat di Firefox i iOS"
+
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328 .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
+msgid "You must enter your age to sign up"
+msgstr "Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan"
+
+#: app/scripts/lib/auth-errors.js:298
+msgid "No Gravatar found"
+msgstr "Gravatar ur yettwaf ara"
+
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:387
+msgid "Account no longer exists."
+msgstr "Amiḍan ur yezgi yella."
+
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:391
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
+
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:395
+msgid "Missing property in resume token: %(property)s"
+msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
+
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355 .es5/lib/auth-errors.js:393 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401 .es5/lib/auth-errors.js:399
+msgid "Invalid data attribute: %(property)s"
+msgstr "Imyerr n isefka mačči d ameɣtu: %(property)s"
+
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359 .es5/lib/auth-errors.js:397 .es5/lib/auth-errors.js:401 .es5/lib/auth-errors.js:405 .es5/lib/auth-errors.js:403
+msgid "Missing data attribute: %(property)s"
+msgstr "Imyerr n isefka mačči ulac-it: %(property)s"
+
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:464
+#: .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:416
+#: .es5/lib/auth-errors.js:470
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Aseɣwen n usentem yettwaseqdec yakan, udiɣ tzemreḍ kan ad tesqedceḍ yiwet n tikelt."
+
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376 .es5/lib/auth-errors.js:414 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:420
+msgid "This is a required field"
+msgstr "Urti-agi yettwasra"
+
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426 .es5/lib/auth-errors.js:424
+msgid "Authorization code required"
+msgstr "Tangalt n tsiregt tettwasra"
+
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388 .es5/lib/auth-errors.js:426 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:430 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:432
+msgid "Link damaged"
+msgstr "Aseɣwen yexṣeṛ"
+
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411 .es5/lib/auth-errors.js:449 .es5/lib/auth-errors.js:453 .es5/lib/auth-errors.js:457 .es5/lib/auth-errors.js:455
+msgid "Phone number required"
+msgstr "Uṭṭun n tiliγṛi yettwasra"
+
+#: app/scripts/lib/config-loader.js:87 .es5/lib/config-loader.js:105 .es5/lib/config-loader.js:102 .es5/lib/config-loader.js:104
+msgid "Missing configuration"
+msgstr "Tawila tettwattu"
+
+#: app/scripts/lib/config-loader.js:91 .es5/lib/config-loader.js:109 .es5/lib/config-loader.js:106 .es5/lib/config-loader.js:108
+msgid "Invalid configuration"
+msgstr "Tawila mačči d tameɣtut"
+
+#: app/scripts/lib/mailcheck.js:25
+msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr "Tebɣiḍ ad tiniḍ <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#: app/scripts/lib/marketing-email-errors.js:41 .es5/lib/marketing-email-errors.js:43 .es5/lib/marketing-email-errors.js:40 .es5/lib/marketing-email-errors.js:42
+msgid "Please try again later"
+msgstr "Ma ulac aɣilif, ɛreḍ tikelt-nniḍen ticki"
+
+#: app/scripts/lib/oauth-errors.js:26 .es5/lib/oauth-errors.js:28 .es5/lib/oauth-errors.js:25 .es5/lib/oauth-errors.js:27
+msgid "Unknown client"
+msgstr "Amsaɣ arussin"
+
+#: app/scripts/lib/oauth-errors.js:30 .es5/lib/oauth-errors.js:32 .es5/lib/oauth-errors.js:29 .es5/lib/oauth-errors.js:31
+msgid "Incorrect redirect_uri"
+msgstr "redirect_uri mačči d ameɣtu"
+
+#: app/scripts/lib/oauth-errors.js:34 .es5/lib/oauth-errors.js:36 .es5/lib/oauth-errors.js:33 .es5/lib/oauth-errors.js:35
+msgid "Invalid assertion"
+msgstr "Ttbut mačči d ameɣtu"
+
+#: app/scripts/lib/oauth-errors.js:38 .es5/lib/oauth-errors.js:40 .es5/lib/oauth-errors.js:37 .es5/lib/oauth-errors.js:39
+msgid "Unknown code"
+msgstr "Tangalt tarussint"
+
+#: app/scripts/lib/oauth-errors.js:42 .es5/lib/oauth-errors.js:44 .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:43
+msgid "Incorrect code"
+msgstr "Tangalt mačči tameɣtut"
+
+#: app/scripts/lib/oauth-errors.js:46 .es5/lib/oauth-errors.js:48 .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:47
+msgid "Expired code"
+msgstr "Tangalt tezri"
+
+#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76 .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78 .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:75
+#: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Aɣewwaṛ OAuth mačči d ameɣtu: %(param)s"
+
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19 .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23 .es5/lib/oauth-errors.js:61 .es5/lib/profile-errors.js:20
+#: .es5/lib/oauth-errors.js:63 .es5/lib/profile-errors.js:22
+msgid "Unauthorized"
+msgstr "Ur yettusireg ara"
+
+#: app/scripts/lib/oauth-errors.js:66 .es5/lib/oauth-errors.js:68 .es5/lib/oauth-errors.js:65 .es5/lib/oauth-errors.js:67
+msgid "Forbidden"
+msgstr "Yegdel"
+
+#: app/scripts/lib/oauth-errors.js:88 .es5/lib/oauth-errors.js:106 .es5/lib/oauth-errors.js:114 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:113
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Yella wayen ur yeddin ara akken iwata. Ma ulac aɣilif, mdel iccer agi, sakin ɛreḍ tikelt nniḍen."
+
+#: app/scripts/lib/oauth-errors.js:104 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133 .es5/lib/oauth-errors.js:130 .es5/lib/oauth-errors.js:132
+msgid "no message"
+msgstr "ulac izen"
+
+#: app/scripts/lib/oauth-errors.js:108 .es5/lib/oauth-errors.js:129 .es5/lib/oauth-errors.js:137 .es5/lib/oauth-errors.js:134 .es5/lib/oauth-errors.js:136
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Aɣewwaṛ OAuth yettwattu: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:23 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:44 .es5/lib/profile-errors.js:46
+msgid "Invalid Token"
+msgstr "Ajiṭun mačči d ameɣtu"
+
+#: app/scripts/lib/profile-errors.js:27 .es5/lib/profile-errors.js:27 .es5/lib/profile-errors.js:24 .es5/lib/profile-errors.js:26
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Imyerr mačči d ameɣtu di tfekka n tuttra: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31 .es5/lib/profile-errors.js:31 .es5/lib/profile-errors.js:28 .es5/lib/profile-errors.js:30
+msgid "Unsupported image provider"
+msgstr "Asaǧǧaw n tugna ur yettusefrak ara"
+
+#: app/scripts/lib/profile-errors.js:35 .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:32 .es5/lib/profile-errors.js:34
+msgid "Image processing error"
+msgstr "Tuccḍa deg usesfer n tugna"
+
+#: app/scripts/lib/require-on-demand.js:39
+msgid "Resources failed to load"
+msgstr "Asali n tiɣbula ur iddi yara"
+
+#: app/scripts/lib/require-on-demand.js:43
+msgid "Unexpected resource error"
+msgstr "Tuccḍa n tiɣbula tarussint"
+
+#: app/scripts/lib/require-on-demand.js:47
+msgid "Script error"
+msgstr "Tucḍa deg uskript"
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr "SMS ittwazen"
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr "Uṭṭun inek iwḥel."
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr "SMS ur ittwazen ara .Ttxilek εreḍ tikelt nniḍen"
+
+#: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26 .es5/lib/strings.js:24
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
+
+#: app/scripts/lib/strings.js:30 .es5/lib/strings.js:33 .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\"> Tallat </a>"
+
+#: app/scripts/lib/strings.js:34 .es5/lib/strings.js:37 .es5/lib/strings.js:35
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Awi-d isallen ineggura ɣef Mozilla akked Firefox."
+
+#: app/scripts/lib/strings.js:37 .es5/lib/strings.js:40 .es5/lib/strings.js:38
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (ahat)"
+
+#: app/scripts/lib/strings.js:38 .es5/lib/strings.js:41 .es5/lib/strings.js:39
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (ahat)"
+
+#: app/scripts/lib/strings.js:39 .es5/lib/strings.js:42 .es5/lib/strings.js:40
+msgid "IP address: %(ip)s"
+msgstr "Tansa IP: %(ip)s"
+
+#: app/scripts/lib/strings.js:40 .es5/lib/strings.js:43 .es5/lib/strings.js:41
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi akken ad tessenkreḍ amtawi akked yibenk-agi:"
+
+#: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77 .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:119
+msgid "Web Session"
+msgstr "Tiɣimit Web"
+
+#: app/scripts/templates/400.mustache:1 .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Yir tuttra"
+
+#: app/scripts/templates/500.mustache:1 .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "Tuccḍa 500"
+
+#: app/scripts/templates/500.mustache:2 .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Teḍra-d tuccḍa. Yebbeḍ-aɣ-d ulɣu udiɣ ad nteddu ad nseɣti ayagi."
+
+#: app/scripts/templates/cannot_create_account.mustache:1 .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Ur yezmir ara ad yernu amiḍan"
+
+#: app/scripts/templates/cannot_create_account.mustache:2 .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Yessefk awtay inek ad yaweḍ awtay ilaqen akken ad tizmired ad ternuḍ amiḍan Firefox."
+
+#: app/scripts/templates/cannot_create_account.mustache:4
+msgid "Learn more."
+msgstr "Issin ugar."
+
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(email)s created"
+msgstr "%(email)s ittwarna"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/sign_up.mustache:18
+msgid "Choose what to sync"
+msgstr "Fren ayen ara temtawiḍ"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:3 app/scripts/models/sync-engines.js:33 .es5/models/sync-engines.js:44 .es5/models/sync-engines.js:41 .es5/models/sync-engines.js:43
+msgid "Open tabs"
+msgstr "Iccaren yeldin"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:5 app/scripts/models/sync-engines.js:38 .es5/models/sync-engines.js:48 .es5/models/sync-engines.js:45 .es5/models/sync-engines.js:47
+msgid "Bookmarks"
+msgstr "Ticraḍ n isebtar"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:7 app/scripts/models/sync-engines.js:43 .es5/models/sync-engines.js:52 .es5/models/sync-engines.js:49 .es5/models/sync-engines.js:51
+msgid "Add-ons"
+msgstr "Izegrar"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:9 app/scripts/models/sync-engines.js:48
+msgid "Passwords"
+msgstr "Awalen uffiren"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:11 app/scripts/models/sync-engines.js:53 .es5/models/sync-engines.js:60 .es5/models/sync-engines.js:57 .es5/models/sync-engines.js:59
+msgid "History"
+msgstr "Amazray"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:13 app/scripts/models/sync-engines.js:58 .es5/models/sync-engines.js:64 .es5/models/sync-engines.js:61 .es5/models/sync-engines.js:63
+msgid "Preferences"
+msgstr "Ismenyifen"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:15
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr "Izegrar akked ismenyifen ur ttumtawin ara akka tura ɣef ibenkan izirazen."
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:5
+msgid "Save settings"
+msgstr "Sekles iɣewwaṛen"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/sign_in_bounced.mustache:6 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2
+#: .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+msgid "Back"
+msgstr "Ɣer deffir"
+
+#: app/scripts/templates/complete_reset_password.mustache:1 .es5/templates/complete_reset_password.mustache:1 .es5/templates/account_recovery_confirm_key.mustache:1
+msgid "Reset password link expired"
+msgstr "Wennez aseɣwen n wawal uffir aqbuṛ"
+
+#: app/scripts/templates/complete_reset_password.mustache:2 .es5/templates/complete_reset_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri."
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "Click here to receive a new reset link"
+msgstr "Sit akken ad d-remseḍ aseɣwen amaynut"
+
+#: app/scripts/templates/complete_reset_password.mustache:5 .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Wennez aseɣwen n wawal uffir ixeṣṛen"
+
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen."
+
+#: app/scripts/templates/complete_reset_password.mustache:8
+msgid "Enter new password"
+msgstr "Sekcem awal uffir amaynut"
+
+#: app/scripts/templates/complete_reset_password.mustache:9
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
+
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
+msgid "Learn how Sync works."
+msgstr "Issin amek iteddu Sync."
+
+#: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:11
+#: .es5/templates/settings/change_password.mustache:6 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "Awal uffir amaynut"
+
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:6
+msgid "Repeat password"
+msgstr "Sekcem tikelt nniḍen awal uffir"
+
+#: app/scripts/templates/complete_reset_password.mustache:15
+msgid "Submit new password"
+msgstr "Azen awal uffir nniḍen"
+
+#: app/scripts/templates/complete_sign_up.mustache:1 .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Tuqqna tettwasentem yakan"
+
+#: app/scripts/templates/complete_sign_up.mustache:4 .es5/templates/complete_sign_up.mustache:6
+msgid "Verification link expired"
+msgstr "Aseɣwen n usenqed yezri"
+
+#: app/scripts/templates/complete_sign_up.mustache:6 .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new verification link"
+msgstr "Sit akken ad d-remseḍ aseɣwen n usenqed amaynut"
+
+#: app/scripts/templates/complete_sign_up.mustache:12 .es5/templates/complete_sign_up.mustache:14
+msgid "Verification error"
+msgstr "Tuccḍa n usenqed"
+
+#: app/scripts/templates/confirm.mustache:1 .es5/templates/confirm.mustache:1
+msgid "Confirm your account"
+msgstr "Sentem amiḍan inek"
+
+#: app/scripts/templates/confirm.mustache:3 .es5/templates/confirm.mustache:3
+msgid "Confirm this sign-in"
+msgstr "Sentem tuqqna-agi"
+
+#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email Sent"
+msgstr "Imayl yettwazen"
+
+#: app/scripts/templates/confirm.mustache:6
+msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgstr "Aseɣwen n usenqed yettwazen&nbsp;ɣer %(escapedEmail)s"
+
+#: app/scripts/templates/confirm.mustache:8
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "Akken ad ttummestnen isefka yinek n Firefox, nuzen-ak-d aseɣwen n usentem ɣer %(email)s"
+
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr "IZen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
+
+#: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Wennez imayl yettwaznen"
+
+#: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "Sit ɣef useɣwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
+
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
+#: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10 .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9 .es5/templates/complete_reset_password.mustache:18 .es5/templates/complete_reset_password.mustache:17
+msgid "Remember password? Sign in"
+msgstr "Cfu ɣef wawal uffir? Kcem"
+
+#: app/scripts/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Qqen ibenk nniḍen"
+
+#: app/scripts/templates/connect_another_device.mustache:2
+msgid "This device is connected"
+msgstr "Ibenk-agi yeqqen"
+
+#: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45 .es5/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Imayl yettwasenqed"
+
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5 .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1
+#: .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+msgid "Success"
+msgstr "Yedda"
+
+#: app/scripts/templates/connect_another_device.mustache:6 app/scripts/templates/connect_another_device.mustache:9 .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Qqen ar Firefox akken ad tkemleḍ asebded"
+
+#: app/scripts/templates/connect_another_device.mustache:7 app/scripts/templates/connect_another_device.mustache:10 .es5/templates/connect_another_device.mustache:11
+msgid "Sign in &rarr;"
+msgstr "Kcem ar &rarr;"
+
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
+
+#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
+msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgstr "Ldi iɣewwaṛen sakin fren Qqen s Firefox akken ad tfakeḍ tawila"
+
+#: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22 .es5/templates/connect_another_device.mustache:23
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "Kcem ar Firefox i Android akken ad tkemleḍ asebded"
+
+#: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24 .es5/templates/connect_another_device.mustache:25
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Kcem ar Firefox iOS akken ad tkemleḍ asebded"
+
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+msgid "Why is this required?"
+msgstr "Acuɣer ilaq waya?"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required."
+msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
+
+#: app/scripts/templates/cookies_disabled.mustache:2 .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Ma ulac aɣilif rmed inagan n tuqqna akked usekles adigan deg iminig inek akken ad tkecmeḍ ɣer Imiḍanen Firefox. Ma tegi-ḍ aya, tamahil am cfawat ɣef tɣimit inek ad teddu."
+
+#: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4 .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Issin ugar"
+
+#: app/scripts/templates/cookies_disabled.mustache:4 .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Ɛreḍ tikelt nniḍen"
+
+#: app/scripts/templates/force_auth.mustache:1 .es5/templates/force_auth.mustache:1 .es5/templates/force_auth.mustache:4
+msgid "Sign in to continue"
+msgstr "Kcem akken ad tkemmleḍ"
+
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
+#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12
+#: .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1
+#: .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:6
+msgid "Password"
+msgstr "Awal uffir"
+
+#. undefined
+#. submit button
+#. header text
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
+#: app/scripts/templates/sign_in_password.mustache:6 .es5/lib/strings.js:49 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4
+#: .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/force_auth.mustache:1 .es5/lib/strings.js:47 .es5/views/force_auth.js:185
+#: .es5/views/sign_in.js:132 .es5/views/sign_in.js:135
+msgid "Sign in"
+msgstr "Kcem"
+
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:5 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/sign_in_password.mustache:8 .es5/templates/force_auth.mustache:8
+msgid "Forgot password?"
+msgstr "Tettuḍ awal uffir?"
+
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> n imeẓla n usigna Firefox."
+
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr "Imeẓla n usigna n Firefox"
+
+#: app/scripts/templates/legal.mustache:2 .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Usḍif"
+
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2 .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4
+#: .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Tiwtilin n useqdec"
+
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5 .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/settings.mustache:5
+msgid "Privacy Notice"
+msgstr "Tasertit n tbaḍnit"
+
+#: app/scripts/templates/marketing_snippet.mustache:1 app/scripts/templates/marketing_snippet.mustache:5 app/scripts/templates/marketing_snippet.mustache:9 .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Faṛes tagnitt si Sync."
+
+#: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
+#: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19 .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15 .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Sider Firefox i iOS!"
+
+#: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
+#: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20 .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17 .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Sider Firefox i Android."
+
+#: app/scripts/templates/marketing_snippet.mustache:10 .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Sider Firefox i yibenkan izirazen."
+
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1 .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Suter tasiregt"
+
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2 .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s yebɣa talɣut-agi seg umiḍan inek:"
+
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4 .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Qbel"
+
+#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:14
+#: app/scripts/templates/settings/emails.mustache:25 .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5
+#: .es5/templates/settings/communication_preferences.mustache:10 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8
+#: .es5/templates/settings/emails.mustache:25 .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23
+#: .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+msgid "Cancel"
+msgstr "Sefsex"
+
+#: app/scripts/templates/ready.mustache:4
+msgid "Proceed"
+msgstr "Kemmel"
+
+#: app/scripts/templates/ready.mustache:7 .es5/templates/ready.mustache:8
+msgid "Your account is ready!"
+msgstr "Amiḍan inek ihegga!"
+
+#: app/scripts/templates/report_sign_in.mustache:4 .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Azen-d tuqqna ur nettwasireg ara?"
+
+#: app/scripts/templates/report_sign_in.mustache:5 .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Tremseḍ-d imayl ɣer uɛṛaḍ n unekcum ɣer umiḍan inek. Tebɣiḍ ad tazneḍ armud amzun d awraḍ n takerḍa?"
+
+#: app/scripts/templates/report_sign_in.mustache:6 .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Mmel-aɣ-d armud"
+
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7 .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Acuɣeṛ i d-iḍerru waya?"
+
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr "Wennez tikelt nniden amiḍan"
+
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
+#: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Kemmel di %(serviceName)s"
+
+#: app/scripts/templates/reset_password.mustache:5
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "Ticki yettuwennez wawal inek uffir, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
+
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11 .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11
+#: .es5/templates/sign_up.mustache:7
+msgid "Email"
+msgstr "Imayl"
+
+#: app/scripts/templates/reset_password.mustache:9 .es5/templates/reset_password.mustache:8
+msgid "Begin reset"
+msgstr "Bdu awennez"
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
+msgid "Remember password? Sign in."
+msgstr "Cfu ɣef awal uffir? Kcem."
+
+#: app/scripts/templates/settings.mustache:1 .es5/templates/settings.mustache:1
+msgid "Firefox Accounts"
+msgstr "Imiḍanen Firefox"
+
+#: app/scripts/templates/settings.mustache:2 .es5/templates/settings.mustache:2
+msgid "Sign out"
+msgstr "Ffeɣ"
+
+#: app/scripts/templates/sign_in.mustache:4
+msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar? <a href=\"/signup\">Rnu amiḍan Firefox</a> s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
+
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr "Kcem ɣer umiḍan n Firefox akken ad tawiḍ isefka n umtawi yinek aniɣeṛ nniḍen."
+
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9 .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
+msgid "Use a different account"
+msgstr "Seqdec amiḍan nniḍen"
+
+#: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18 .es5/templates/sign_in.mustache:14
+msgid "Create an account"
+msgstr "Rnu amiḍan"
+
+#: app/scripts/templates/sign_in_reported.mustache:1 .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Tanemmirt imi tettɛassaḍ"
+
+#: app/scripts/templates/sign_in_reported.mustache:2 .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Tarbaɛt-nneɣ teẓra. Ayen iɣ-d-yettwammalen am wagi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen."
+
+#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2 .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
+msgid "Authorize this sign-in"
+msgstr "Sireg ajerred-agi"
+
+#: app/scripts/templates/sign_in_unblock.mustache:3
+msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgstr "Akken ad temmestenen akken iwata isefka yinek Firefox, tangalt n tsiregt tettraǧu-k di tensa %(email)s."
+
+#: app/scripts/templates/sign_in_unblock.mustache:4 .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Sekcem tangalt n tsiregt"
+
+#: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7 .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+msgid "Continue"
+msgstr "Kemmel"
+
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
+msgid "Create a Firefox Account"
+msgstr "Rnu amiḍan Firefox"
+
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+msgstr "Tettnadiḍ Firefox Sunc? <a href=\"%(escapedSyncSuggestionUrl)s\">Wal idagi</a>"
+
+#: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr "Rnu amiḍan n Firefox akken ad tawiḍ isefka yinek n umatwi aniɣeṛ nniḍen."
+
+#: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
+msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar?  Rnu amiḍan Firefox s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
+
+#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Yiwen kan n wawal uffir uǧhid ad yegber Firefox inek d aɣelsan seg ijenṭaḍ."
+
+#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Rmes yal aggur tabratt n telɣut n Firefox."
+
+#: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:16
+#: .es5/templates/sign_up_password.mustache:14 .es5/templates/sign_up_password.mustache:10
+msgid "Create account"
+msgstr "Rnu amiḍan"
+
+#: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25 .es5/templates/sign_up.mustache:21
+msgid "Have an account? Sign in"
+msgstr "Ɣur-k amiḍan? Kcem"
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Azen Firefox srid ɣeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ asbeded"
+
+#: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2 .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox-agi ittwaqen"
+
+#: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:8
+msgid "Mobile phone number"
+msgstr "Uṭṭun n tiliγṛi"
+
+#: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:9
+msgid "Send"
+msgstr "Azen"
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+"Tanfa tella kan i uṭṭunen n tiliγṛi n tmurt n Marikan. SMS &amp; Isefka zemren ad awin kra n tedrimt. Inermasen n imayl neγ SMS ilaq ad qeblen aya.  <a %(escapedLearnMoreAttributes)s> Issin ugar </"
+"a>"
+
+#: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
+msgid "Maybe later"
+msgstr "Ahat ticki"
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr "Sebded Firefox ɣeṛ tiliɣṛi-ik sakin qqen akken ad tkemleḍ asbeded"
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa deg uṭṭun?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:7
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "Ma yella ur k-id-yewweḍ ara aḍris n izen, Tzemreḍ daɣen ad d-saliḍ isnasen s ufus."
+
+#: app/scripts/templates/sms_sent.mustache:6 app/scripts/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:8
+msgid "Didn't arrive? Resend"
+msgstr "Ur d-yebbiḍ ara? Azen tikelt nniḍen"
+
+#: app/scripts/templates/why_connect_another_device.mustache:1
+msgid "Why Sync two (or more!) devices?"
+msgstr "Acuɛe amtawi n sin (neɣ ugar!) n ibenkan?"
+
+#: app/scripts/templates/why_connect_another_device.mustache:2
+msgid ""
+"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+"Firefox for desktop will appear."
+msgstr ""
+"Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, "
+"sakin ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
+
+#: app/scripts/templates/why_connect_another_device.mustache:3
+msgid ""
+"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgstr ""
+"Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum ɣef "
+"yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
+
+#: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11 .es5/templates/why_connect_another_device.mustache:4
+#: .es5/templates/settings/client_disconnect.mustache:11
+msgid "Got it"
+msgstr "Awi-t"
+
+#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2
+#: .es5/templates/settings/communication_preferences.mustache:4 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
+msgid "Change…"
+msgstr "Snifel..."
+
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5 .es5/templates/settings/avatar.mustache:3
+#: .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+msgid "Add…"
+msgstr "Rnu…"
+
+#: app/scripts/templates/settings/avatar_camera.mustache:1 .es5/templates/settings/avatar_camera.mustache:1
+msgid "Take picture"
+msgstr "Ṭṭef tawlaft"
+
+#: app/scripts/templates/settings/avatar_change.mustache:1 .es5/templates/settings/avatar_change.mustache:1
+msgid "Upload"
+msgstr "Sali"
+
+#: app/scripts/templates/settings/avatar_change.mustache:2 .es5/templates/settings/avatar_change.mustache:2
+msgid "Camera"
+msgstr "Takamiṛat"
+
+#: app/scripts/templates/settings/avatar_change.mustache:3
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3 .es5/templates/settings/avatar_change.mustache:3
+msgid "Clear"
+msgstr "Sfeḍ"
+
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22 .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27
+#: .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22 .es5/templates/settings/recovery_codes.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+msgid "Done"
+msgstr "Immed"
+
+#: app/scripts/templates/settings/avatar_crop.mustache:1 .es5/templates/settings/avatar_crop.mustache:1
+msgid "Position and rotate your picture as needed"
+msgstr "Sers u dewweṛ tawlaft inek akken tebɣiḍ"
+
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+msgid "Change"
+msgstr "Snifel"
+
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+msgid "Save"
+msgstr "Sekles"
+
+#: app/scripts/templates/settings/change_password.mustache:3 .es5/templates/settings/change_password.mustache:3
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Ticki tfakeḍ, seqdec awal uffir amaynut akken ad tkecmeḍ ɣer ibenkan inek imeṛṛa."
+
+#: app/scripts/templates/settings/change_password.mustache:4 .es5/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "Awal uffir aqbuṛ"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:1 .es5/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync?"
+msgstr "Ffeɣ seg Synch?"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:2 .es5/templates/settings/client_disconnect.mustache:2
+msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+msgstr "Isefka yinek n tunigin ad qqimen di %(deviceName)s, acukan amtawi akked umiḍan inek werǧin ad yeḍru."
+
+#: app/scripts/templates/settings/client_disconnect.mustache:3 .es5/templates/settings/client_disconnect.mustache:3
+msgid "Suspicious device"
+msgstr "Ibenk ur yettwaman ara"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:4 .es5/templates/settings/client_disconnect.mustache:4
+msgid "Lost or stolen device"
+msgstr "Ibenk yettwakwren neɣ iṛuḥen"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:5 .es5/templates/settings/client_disconnect.mustache:5
+msgid "Old or replaced device"
+msgstr "Ibenk aqbuṛ neɣ yettwasemselsin"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6 .es5/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "Ibenk yettwasleg"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:7
+msgid "Rather not say"
+msgstr "Axiṛ ur d-qqaṛeɣ ara"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
+msgid "Disconnect"
+msgstr "Ffeɣ"
+
+#: app/scripts/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:10
+msgid "Disconnection Successful"
+msgstr "Tuffɣa tedda akken iwata"
+
+#: app/scripts/templates/settings/clients.mustache:2 .es5/templates/settings/clients.mustache:2
+msgid "Devices & apps"
+msgstr "Ibenkan & isnasen"
+
+#: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1 .es5/templates/settings/clients.mustache:3
+#: .es5/templates/settings/upgrade_session.mustache:2
+msgid "Show"
+msgstr "Sken"
+
+#: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
+msgid "current device"
+msgstr "ibenk amiran"
+
+#: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8 .es5/templates/settings/clients.mustache:8
+msgid "Disconnect…"
+msgstr "Tuffɣa…"
+
+#: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+msgid "current session"
+msgstr "tiɣimit tamirant"
+
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:18
+msgid "Firefox for iOS"
+msgstr "Firefox i iOS"
+
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:23
+msgid "none connected"
+msgstr "ula d yiwen ur iqqin"
+
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:24 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Download"
+msgstr "Sider"
+
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22 .es5/templates/settings/clients.mustache:21
+msgid "Firefox for Android"
+msgstr "Firefox i Android"
+
+#: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26 .es5/templates/settings/clients.mustache:25
+msgid "Missing or duplicate items?"
+msgstr "Iferdisen ttwakksen neɣ d usligen?"
+
+#: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 .es5/templates/settings/clients.mustache:26
+msgid "Refresh"
+msgstr "Smiren"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:3 .es5/templates/settings/communication_preferences.mustache:3
+msgid "Communication preferences"
+msgstr "Ismenyifen n teywalt"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Receive the monthly Firefox newsletter."
+msgstr "Rmes yal aggur izen n telɣutn Firefox."
+
+#: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "Ismenyifen n yimayl"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
+msgid "Unsubscribe"
+msgstr "Ffeɣ seg ujerred"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
+#: .es5/templates/settings/communication_preferences.mustache:9
+msgid "Subscribe"
+msgstr "Jerred"
+
+#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:1
+#: .es5/templates/settings/delete_account.mustache:5
+msgid "Delete account"
+msgstr "Kkes amiḍan"
+
+#: app/scripts/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:2
+msgid "Delete…"
+msgstr "Kkes…"
+
+#: app/scripts/templates/settings/delete_account.mustache:3
+msgid "Are you sure you want to delete your account? This action cannot be undone."
+msgstr "Tebɣiḍ ad tekksed amiḍan inek? Ur tezmireḍ ara ad tuɣaleḍ ɣer deffir ma tekkseḍ-t."
+
+#: app/scripts/templates/settings/display_name.mustache:5 .es5/templates/settings/display_name.mustache:5
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Fren isem i tebɣiḍ ad d-iban di Firefox ticki tessefrakeḍ amiḍan inek."
+
+#: app/scripts/templates/partial/coppa-age-input.mustache:1 .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "Acḥal awtay inek?"
+
+#: app/scripts/templates/openid/start.mustache:1 .es5/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "Kcem ɣer Synch"
+
+#: app/scripts/templates/openid/start.mustache:2 .es5/templates/openid/start.mustache:2
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Fren amiḍan i tebɣiḍ ad tesqedceḍ deg umtawi n yiccaren inek, ticṛaḍ n isebtar, awalen uffiren d wayen nniḍen."
+
+#: app/scripts/templates/openid/start.mustache:3 .es5/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "Seqdec OpenID"
+
+#: app/scripts/templates/openid/start.mustache:4 .es5/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Seqdec amiḍan Firefox"
+
+#: app/scripts/views/settings/clients.js:86
+msgid "first sync %(translatedTimeAgo)s"
+msgstr "amtawi amezwaru %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:89
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "amtawi aneggaru %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:95
+msgid "last active %(translatedTimeAgo)s"
+msgstr "armud aneggaru: %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:99
+msgid "last sync time unknown"
+msgstr "akud n umtawi aneggaru d arussin"
+
+#: app/scripts/views/settings/emails.js:114 .es5/views/settings/emails.js:91 .es5/views/settings/emails.js:90 .es5/views/settings/emails.js:88
+msgid "Secondary email removed"
+msgstr "Imayl wis sin ittwakkes"
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154 .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:90
+#: .es5/views/settings/emails.js:120 .es5/views/settings/emails.js:133 .es5/views/mixins/upgrade-session-mixin.js:92 .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131
+msgid "Verification email sent"
+msgstr "Imayl n usenqed ittwazen"
+
+#: app/scripts/views/settings/emails.js:169 .es5/views/settings/emails.js:150 .es5/views/settings/emails.js:149 .es5/views/settings/emails.js:147
+msgid "Primary email set to %(email)s"
+msgstr "Sbadu imayl amezwaru ar %(email)s"
+
+#: app/scripts/models/sync-engines.js:65 .es5/models/sync-engines.js:72 .es5/models/sync-engines.js:69 .es5/models/sync-engines.js:71
+msgid "Addresses"
+msgstr "Tansiwin"
+
+#: app/scripts/models/sync-engines.js:72 .es5/models/sync-engines.js:80 .es5/models/sync-engines.js:77 .es5/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr "Tikarḍiwin n usmad"
+
+#: app/scripts/lib/auth-errors.js:151 .es5/lib/auth-errors.js:153 .es5/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
 msgstr "Imayl-agi ittwasenqeḍ yakan sγur aqedac nniḍen"
 
-#: .es5/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:155 .es5/lib/auth-errors.js:157 .es5/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
 msgstr "Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan"
 
-#: .es5/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:167 .es5/lib/auth-errors.js:169 .es5/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
 msgstr "Imayl inek agejdan ittwasra akken ad teqneḍ"
 
-#: .es5/lib/auth-errors.js:173
+#: app/scripts/lib/auth-errors.js:171 .es5/lib/auth-errors.js:173 .es5/lib/auth-errors.js:171
 msgid "Address in use by another account"
 msgstr "Tansa-yagi tettwaseqdec deg umiḍan nniḍen"
 
-#: .es5/lib/auth-errors.js:177
+#: app/scripts/lib/auth-errors.js:175 .es5/lib/auth-errors.js:177 .es5/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
 msgstr "Imayl inek agejdan ittwasra akken iwennez"
 
-#: .es5/lib/auth-errors.js:181
+#: app/scripts/lib/auth-errors.js:179 .es5/lib/auth-errors.js:181 .es5/lib/auth-errors.js:179
 msgid "Invalid signin code"
 msgstr "Tangal n unekcum d tarameγtut"
 
-#: .es5/lib/auth-errors.js:185
+#: app/scripts/lib/mailcheck.js:25 .es5/lib/mailcheck.js:27 .es5/lib/mailcheck.js:25
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr "Tebɣiḍ ad d-tiniḍ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr "%(escapedEmail)s ittwasekles. <a %(escapedBackLinkParams)s>tucḍa di tira n imayl?</a>"
+
+#: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
+msgid "Receive new link"
+msgstr "Awi aseγwen amaynut"
+
+#: app/scripts/templates/confirm.mustache:5 .es5/templates/confirm.mustache:5
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseɣwen n usenqed&nbsp;ittwaznen γer %(escapedEmail)s"
+
+#: app/scripts/templates/confirm.mustache:7
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer useɣwen n tuqna ɣer %(email)s"
+
+#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9 .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Mačči deg tebbaṭ n unekcum neγ afaylu n ispamen? Ales tuzna"
+
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "Ajered yentem"
+
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4 .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/sms_send.mustache:5
+msgid "Still adding devices?"
+msgstr "Mazal ad ternuḍ ibenkan?"
+
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10 .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
+msgid "Why is more than one device required?"
+msgstr "Ayγer ittwasra ugan n yiwen ibenk?"
+
+#: app/scripts/templates/cookies_disabled.mustache:1 .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Inagan n tuqqna akked usekles adigan ttwasran"
+
+#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4 .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
+msgid "Enter your email"
+msgstr "Sekcem imayl inek"
+
+#: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr "Ilγa  n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s"
+
+#: app/scripts/templates/sign_in_bounced.mustache:1 .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Suref-aγ. nsewḥel amiḍan-ik &nbsp;."
+
+#: app/scripts/templates/sign_in_bounced.mustache:2 .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Asentem n imayl i nuzen γer %(email)s yuγal-d u nsewḥel amiḍan-ik akken ad naḥrez isefka inek Firefox."
+
+#: app/scripts/templates/sign_in_bounced.mustache:3 .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Ma yella imayl-agi d ameɣtu, <a %(escapedSupportLinkAttrs)s>Ini-aɣ-d</a> sakin ad nekkes asewḥel n umiḍan."
+
+#: app/scripts/templates/sign_in_bounced.mustache:5 .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut"
+
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up_password.mustache:11
+msgid "Mistyped email?"
+msgstr "Tucḍa deg imayl?"
+
+#: app/scripts/templates/sign_in_unblock.mustache:3 .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer tengalt n unekcum ittwaznen ɣer %(email)s."
+
+#: app/scripts/templates/sign_up.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:8
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Awi-d isallen ineggura ɣef Mozilla akked Firefox"
+
+#: app/scripts/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:10
+msgid ""
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr "Ameẓlu SMS illa kan di kra n tmura. izmer ahat kra n laxlaṣ ɣef isefka n SMS&amp;. imdanen i remsen imayl neɣ SMS ilaq ad qeblen aya. <a %(escapedLearnMoreAttributes)s>Issin ugar</a>"
+
+#: app/scripts/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa&nbsp;deg uṭṭun?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa&nbsp;deg uṭṭun?</a>"
+
+#: app/scripts/templates/why_connect_another_device.mustache:1 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Ayɣer illaq ad mtawiγ aṭas n ibenkan?"
+
+#: app/scripts/templates/why_connect_another_device.mustache:2 .es5/templates/why_connect_another_device.mustache:2
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+msgstr "Amtawi mačči d asekles s wudem izgan, d ttawil kan akken ad tazneḍ ticraḍ inek n isebtar, amazray inek akked awalen uffiren gar ibenkan i tesεiḍ."
+
+#: app/scripts/templates/why_connect_another_device.mustache:3 .es5/templates/why_connect_another_device.mustache:3
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+msgstr "Ilaq ad tesbedeḍ Firefox sakin mtawi ma drus sin ibenkan akken ad tḥarzeḍ iman-ik ur k-ttruḥun ara isefka inek asm'ara ad k-iruḥ wawal uffir."
+
+#: app/scripts/templates/settings/clients.mustache:16 .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
+msgid "Revoke"
+msgstr "Aggi"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "We may send you emails related to your Firefox Account."
+msgstr "Yezmer ad aken-nazen imaylen yerzan amiḍan-ik Firefox."
+
+#: app/scripts/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+msgstr "Tzemreḍ ad tferneḍ tuzna n issalen ɣef Mozilla d Firefox."
+
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
+#: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:157
+msgid "Secondary email"
+msgstr "Imayl wis sin"
+
+#: app/scripts/templates/settings/emails.mustache:6
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+msgstr "Imayl wis sin d tansa nniḍen akken ad k-id-awḍen ilγa n teγlist akked usentem n umtawi n ibenkan imaynuten."
+
+#: app/scripts/templates/settings/emails.mustache:7 .es5/templates/settings/emails.mustache:7
+msgid "verified"
+msgstr "ittwasenqeḍ"
+
+#: app/scripts/templates/settings/emails.mustache:9 .es5/templates/settings/emails.mustache:9
+msgid "verification required"
+msgstr "isra asenqed"
+
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr "Err tansa-agi d tamezwarut"
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
+msgid "Remove"
+msgstr "Kkes"
+
+#: app/scripts/templates/settings/emails.mustache:16
+msgid "Not in inbox or spam folder? Resend?"
+msgstr "Mačči deg tebbaṭ n unekcum neɣ afaylu n ispamen? Ales tuzna?"
+
+#: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
+msgid "Add"
+msgstr "Rnu"
+
+#: app/scripts/templates/partial/sync-suggestion.mustache:1 .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Tettnadiḍ Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>bdu dagi</a>"
+
+#: .es5/views/ready.js:44 .es5/views/ready.js:80 .es5/views/ready.js:85 .es5/views/ready.js:78 .es5/views/ready.js:83
+msgid "Your password has been reset"
+msgstr "Awla inek uffir yettuwennez"
+
+#: .es5/views/ready.js:48 .es5/views/ready.js:89 .es5/views/ready.js:87
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Aql-ak tura twejḍeḍ akken ad snifleḍ amiḍan-inek Firefox."
+
+#: .es5/views/ready.js:50 .es5/views/ready.js:91 .es5/views/ready.js:89
+msgid "Primary email verified"
+msgstr "Imayl amezwaru ittwasenqed"
+
+#: .es5/views/ready.js:53 .es5/views/ready.js:94 .es5/views/ready.js:92
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Ilɣa n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:55 .es5/views/ready.js:96 .es5/views/ready.js:94
+msgid "Secondary email verified"
+msgstr "Imayl wis sin ittusenqed"
+
+#: .es5/views/settings/clients.js:46 .es5/views/settings/clients.js:43 .es5/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s"
+
+#: .es5/views/settings/clients.js:47 .es5/views/settings/clients.js:44 .es5/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s aya"
+
+#: .es5/views/settings/clients.js:50 .es5/views/settings/clients.js:47 .es5/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:51 .es5/views/settings/clients.js:48 .es5/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s aya"
+
+#: .es5/views/settings/clients.js:54 .es5/views/settings/clients.js:51 .es5/views/settings/clients.js:53
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:55 .es5/views/settings/clients.js:52 .es5/views/settings/clients.js:54
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Amtawi aneggaru %(translatedTimeAgo)s tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s aya"
+
+#: .es5/views/settings/clients.js:61 .es5/views/settings/clients.js:58 .es5/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya"
+
+#: .es5/views/settings/clients.js:64 .es5/views/settings/clients.js:61 .es5/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Armud aneggaru %(translatedTimeAgo)s deg %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:65 .es5/views/settings/clients.js:62 .es5/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya, deg %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:68 .es5/views/settings/clients.js:65 .es5/views/settings/clients.js:67
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Armud aneggaru %(translatedTimeAgo)s tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:69 .es5/views/settings/clients.js:66 .es5/views/settings/clients.js:68
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Armud aneggaru %(translatedTimeAgo)s aya, tama %(translatedCity)s;%(translatedState)s;%(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:75 .es5/views/settings/clients.js:72 .es5/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s aya"
+
+#: .es5/views/settings/clients.js:78 .es5/views/settings/clients.js:75 .es5/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s di %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:79 .es5/views/settings/clients.js:76 .es5/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s aya, deg %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:82 .es5/views/settings/clients.js:79 .es5/views/settings/clients.js:81
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s ar tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:83 .es5/views/settings/clients.js:80 .es5/views/settings/clients.js:82
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s aya, ar tama n %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#: .es5/views/settings/clients.js:135 .es5/views/settings/clients.js:132 .es5/views/settings/clients.js:134
+msgid "Last sync time unknown"
+msgstr "Akud n umtawi aneggaru d arussin"
+
+#: .es5/views/settings/recovery_codes.js:38 .es5/views/settings/recovery_codes.js:45 .es5/views/settings/recovery_codes.js:49 .es5/views/settings/recovery_codes.js:47
+#: .es5/views/settings/recovery_codes.js:50
+msgid "Firefox Recovery Codes"
+msgstr "Tiririt n tingalin Firefox"
+
+#: .es5/views/settings/recovery_codes.js:72 .es5/views/settings/recovery_codes.js:79
+msgid "Codes copied"
+msgstr "Tingalin ttwaneɣlent"
+
+#: .es5/views/settings/recovery_codes.js:74 .es5/views/settings/recovery_codes.js:81
+msgid "Failed to copy codes. Please manually copy them."
+msgstr "Ur yessaweḍ ara ad yenɣel tingalin. Ma ulac aɣilif nɣel-itent s ufus."
+
+#: .es5/views/settings/recovery_codes.js:117 .es5/views/settings/recovery_codes.js:124 .es5/views/settings/recovery_codes.js:76 .es5/views/settings/recovery_codes.js:74
+#: .es5/views/settings/recovery_codes.js:77
+msgid "New recovery codes generated"
+msgstr "Tiririt tamaynut n tengalin teḍra-d"
+
+#: .es5/views/settings/recovery_codes.js:151 .es5/views/settings/two_step_authentication.js:157 .es5/views/settings/two_step_authentication.js:139 .es5/views/settings/recovery_codes.js:158
+#: .es5/views/settings/recovery_codes.js:110 .es5/views/settings/two_step_authentication.js:140 .es5/views/settings/recovery_codes.js:108 .es5/views/settings/recovery_codes.js:111
+#: .es5/views/settings/two_step_authentication.js:143
+msgid "Two-step authentication enabled"
+msgstr "Asesteb s snat n tarrayin yermed"
+
+#: .es5/views/settings/two_step_authentication.js:128 .es5/views/settings/two_step_authentication.js:110 .es5/views/settings/two_step_authentication.js:111
+#: .es5/views/settings/two_step_authentication.js:114
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Seqdec tangalt %(code)s i usbeddi n usesteb s snat n tarrayin deg isnasen yettwasefraken."
+
+#: .es5/views/settings/two_step_authentication.js:141 .es5/views/settings/two_step_authentication.js:123 .es5/views/settings/two_step_authentication.js:124
+#: .es5/views/settings/two_step_authentication.js:127
+msgid "Two-step authentication removed"
+msgstr "Asesteb s snat n tarrayin yettwakkes"
+
+#: .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/two_step_authentication.js:164 .es5/views/settings/two_step_authentication.js:165
+#: .es5/views/settings/two_step_authentication.js:168
+msgid "Two-step Authentication"
+msgstr "Asesteb s snat n tarrayin"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:31 .es5/views/mixins/last-checked-time-mixin.js:32 .es5/views/mixins/last-checked-time-mixin.js:33
+msgid "none"
+msgstr "ula yiwen"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:35 .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:37
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Asenqed aneggaru: %(lastCheckTime)s"
+
+#: .es5/views/mixins/resend-mixin.js:46 .es5/views/mixins/resend-mixin.js:47 .es5/views/mixins/resend-mixin.js:49
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Email yettwaezn tikelt-nneḍen. Rnu accounts@firefox.comar inermisen-ik akken ad tḍemneḍ armas yelhan n yiznan."
+
+#: .es5/views/mixins/upgrade-session-mixin.js:71 .es5/models/auth_brokers/base.js:75 .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:73
+#: .es5/models/auth_brokers/base.js:76
+msgid "Primary email verified successfully"
+msgstr "Imayl amezwaru ittwasenqed akken iwata"
+
+#: .es5/models/sync-engines.js:56 .es5/models/sync-engines.js:53 .es5/models/sync-engines.js:55
+msgid "Logins"
+msgstr "Inekcam"
+
+#: .es5/models/auth_brokers/base.js:79 .es5/models/auth_brokers/base.js:77 .es5/models/auth_brokers/base.js:80
+msgid "Secondary email verified successfully"
+msgstr "Imayl wis sin ittwasenqed akken iwata"
+
+#: .es5/models/auth_brokers/web.js:34 .es5/models/auth_brokers/web.js:31 .es5/models/auth_brokers/web.js:33
+msgid "Password reset successfully"
+msgstr "Awal uffir yettuwennez akken iwata"
+
+#: .es5/lib/auth-errors.js:185 .es5/lib/auth-errors.js:183
 msgid "Can not change primary email to an unverified email"
 msgstr "Ur izmir ara ad ibeddel imayl amezwaru m'ur yettwasenqed ara imayl amaynut"
 
-#: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
+#: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:195
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Ur izmir ara ad t-ibeddel γer imayl amezwaru ma yella tansa-agi tamaynut ur teqqin ara γer umiḍan-a"
 
-#: .es5/lib/auth-errors.js:193
+#: .es5/lib/auth-errors.js:193 .es5/lib/auth-errors.js:191
 msgid "This email can not currently be used to login"
 msgstr "Imayl-agi ur izmir ara ad ittwaseqdec i unukcum tura akka"
 
-#: .es5/lib/auth-errors.js:201
+#: .es5/lib/auth-errors.js:201 .es5/lib/auth-errors.js:199
 msgid "Failed to send email"
 msgstr "Tuzzna n imayl ur teddi ara"
 
 #: .es5/lib/auth-errors.js:205
-msgid "Valid code required"
-msgstr "Tangalt tameɣtut tettwasra"
+msgid "Invalid sign-in verification code"
+msgstr "Tangalt n unekcum mačči d tameɣtut"
 
-#: .es5/lib/auth-errors.js:209
+#: .es5/lib/auth-errors.js:209 .es5/lib/auth-errors.js:207
 msgid "This verification code has expired"
 msgstr "Tangalt-agi n usended temmut"
 
-#: .es5/lib/auth-errors.js:213
-msgid "Invalid recovery key"
-msgstr "Yir tasarutt n tririt"
-
-#: .es5/lib/auth-errors.js:217
-msgid "This request requires two step authentication enabled on your account."
-msgstr "Asuter-a isra sin waḥricen n usesteb iremden deg umiḍan-ik."
-
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
-msgid "Server busy, try again soon"
-msgstr "Aqeddac ur yestuffi ara, ɛreḍ tikelt nniḍen ticki"
-
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:224
 msgid "Feature not enabled"
 msgstr "Tamahilt ur termid ara"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:27 .es5/lib/marketing-email-errors.js:85 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:39
-#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:63
-msgid "System unavailable, try again soon"
-msgstr "Ulac anagraw, ɛreḍ tikelt nniḍen ticki"
-
-#: .es5/lib/auth-errors.js:234
-msgid "This endpoint is no longer supported"
-msgstr "Asebdad-agi ur ittisefrak ara"
-
-#: .es5/lib/auth-errors.js:242
-msgid "Login attempt cancelled"
-msgstr "Aɛraḍ n unekcum yettwasefsex"
-
-#: .es5/lib/auth-errors.js:246
-msgid "Session expired. Sign in to continue."
-msgstr "Tiɣimit tezri. Qqen tikelt nniden akken ad tkemleḍ."
-
-#: .es5/lib/auth-errors.js:250
-msgid "Cookies are still disabled"
-msgstr "Inagan n tuqqna ur ttwaremden ara yakan"
-
-#: .es5/lib/auth-errors.js:254
-msgid "Passwords do not match"
-msgstr "Awalen uffiren ur mṣadan ara"
-
-#: .es5/lib/auth-errors.js:258
-msgid "Working…"
-msgstr "Iteddu…"
-
-#: .es5/lib/auth-errors.js:262
-msgid "Could not get Privacy Notice"
-msgstr "Ur izmir ara ad d-yawi tasertit n tbaḍnit"
-
-#: .es5/lib/auth-errors.js:266
-msgid "Could not get Terms of Service"
-msgstr "Ur izmir ara ad d-yawi tiwtilin n useqdec"
-
-#: .es5/lib/auth-errors.js:270
-msgid "Your new password must be different"
-msgstr "Yessefk awal inek uffir ad yili akken nniḍen"
-
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
-msgid "Must be at least 8 characters"
-msgstr "Yessefk ad yili ma drus 8 n isekkilen"
-
-#: .es5/lib/auth-errors.js:278
-msgid "Valid password required"
-msgstr "Awal uffir ameɣtu yettwasra"
-
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
-msgid "Valid email required"
-msgstr "Imayl ameɣtu yettwasra"
-
-#: .es5/lib/auth-errors.js:293
-msgid "A usable image was not found"
-msgstr "Tugna yettwasqedcen ulac-itt"
-
-#: .es5/lib/auth-errors.js:297
-msgid "Could not initialize camera"
-msgstr "Ur izmir ara ad iwennez takamirat"
-
-#: .es5/lib/auth-errors.js:301
-msgid "Valid URL required"
-msgstr "Tansa URL tameɣtut tettwasra"
-
-#: .es5/lib/auth-errors.js:316
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Asenqed n yimayl inek akken kan i d-yuɣal. Ahat mačči d ameɣtu?"
-
-#: .es5/lib/auth-errors.js:324
-msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Sekcem tansa imayl tameɣtut. firefox.com ur yettmuddu ara imaylen."
-
-#: .es5/lib/auth-errors.js:332
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Imiḍanen Firefox zemren kan ad ttusersen di IFRAME n yesmal imeɣta"
-
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
-msgid "Verification link damaged"
-msgstr "Aseɣwen n usenqed yexṣeṛ"
-
-#: .es5/lib/auth-errors.js:359
-msgid "The image dimensions must be at least 100x100px"
-msgstr "Yessefk tisektiwin n tugna ad ilint ɣarṣum 100 x 100 px"
-
-#: .es5/lib/auth-errors.js:363
-msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Timirna n umiḍan ad tewjeḍ akka ɣer zdat di Firefox i iOS"
-
-#: .es5/lib/auth-errors.js:374
-msgid "You must enter your age to sign up"
-msgstr "Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan"
-
-#: .es5/lib/auth-errors.js:389
-msgid "Account no longer exists."
-msgstr "Amiḍan ur yezgi yella."
-
-#: .es5/lib/auth-errors.js:393
-msgid "Invalid property in resume token: %(property)s"
-msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
-
-#: .es5/lib/auth-errors.js:397
-msgid "Missing property in resume token: %(property)s"
-msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
-
-#: .es5/lib/auth-errors.js:401
-msgid "Invalid data attribute: %(property)s"
-msgstr "Imyerr n isefka mačči d ameɣtu: %(property)s"
-
-#: .es5/lib/auth-errors.js:405
-msgid "Missing data attribute: %(property)s"
-msgstr "Imyerr n isefka mačči ulac-it: %(property)s"
-
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
-msgid "That confirmation link was already used, and can only be used once."
-msgstr "Aseɣwen n usentem yettwaseqdec yakan, udiɣ tzemreḍ kan ad tesqedceḍ yiwet n tikelt."
-
-#: .es5/lib/auth-errors.js:422
-msgid "This is a required field"
-msgstr "Urti-agi yettwasra"
-
-#: .es5/lib/auth-errors.js:426
-msgid "Authorization code required"
-msgstr "Tangalt n tsiregt tettwasra"
-
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
-msgid "Link damaged"
-msgstr "Aseɣwen yexṣeṛ"
-
-#: .es5/lib/auth-errors.js:457
-msgid "Phone number required"
-msgstr "Uṭṭun n tiliγṛi yettwasra"
-
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:468 .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:474
 msgid "Two-step authentication code required"
 msgstr "Asesteb s snat n tarrayin ilaq"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:478
 msgid "Invalid two-step authentication code"
 msgstr "Yir tangalt n usesteb s snat n tarrayin"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:482
 msgid "Recovery code required"
 msgstr "Tlaq tengalt n tririt"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:488 .es5/lib/auth-errors.js:486
 msgid "Invalid recovery code"
 msgstr "Yir tangalt n tririt"
 
-#: .es5/lib/auth-errors.js:500
-msgid "Recovery key required"
-msgstr "Tlaq tsarutt n tririt"
-
-#: .es5/lib/auth-errors.js:504
-msgid "Please enter verification code"
-msgstr "Ma ulac aɣilif sekcem tangalt n usenqed"
-
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Tuccḍa deg tuqqna ɣer ibenk anmeggag"
-
-#: .es5/lib/channel-server-client-errors.js:51
-msgid "Invalid message from the remote device"
-msgstr "Izen sɣur ibenk anmeggag mačči d ameɣtu"
-
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "Ur izmir ara ad isewgleh izen sɣur ibenk anmeggag"
-
-#: .es5/lib/config-loader.js:105
-msgid "Missing configuration"
-msgstr "Tawila tettwattu"
-
-#: .es5/lib/config-loader.js:109
-msgid "Invalid configuration"
-msgstr "Tawila mačči d tameɣtut"
-
-#: .es5/lib/mailcheck.js:27
-msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr "Tebɣiḍ ad d-tiniḍ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#: .es5/lib/marketing-email-errors.js:43
-msgid "Please try again later"
-msgstr "Ma ulac aɣilif, ɛreḍ tikelt-nniḍen ticki"
-
-#: .es5/lib/marketing-email-errors.js:75
+#: .es5/lib/marketing-email-errors.js:75 .es5/lib/marketing-email-errors.js:72 .es5/lib/marketing-email-errors.js:74
 msgid "Service unavailable, try again soon"
 msgstr "Ulac ameẓlu , ɛreḍ tikelt nniḍen ticki"
 
-#: .es5/lib/oauth-errors.js:28
-msgid "Unknown client"
-msgstr "Amsaɣ arussin"
-
-#: .es5/lib/oauth-errors.js:32
-msgid "Incorrect redirect_uri"
-msgstr "redirect_uri mačči d ameɣtu"
-
-#: .es5/lib/oauth-errors.js:36
-msgid "Invalid assertion"
-msgstr "Ttbut mačči d ameɣtu"
-
-#: .es5/lib/oauth-errors.js:40
-msgid "Unknown code"
-msgstr "Tangalt tarussint"
-
-#: .es5/lib/oauth-errors.js:44
-msgid "Incorrect code"
-msgstr "Tangalt mačči tameɣtut"
-
-#: .es5/lib/oauth-errors.js:48
-msgid "Expired code"
-msgstr "Tangalt tezri"
-
-#: .es5/lib/oauth-errors.js:56 .es5/lib/oauth-errors.js:78
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Aɣewwaṛ OAuth mačči d ameɣtu: %(param)s"
-
-#: .es5/lib/oauth-errors.js:64 .es5/lib/profile-errors.js:23
-msgid "Unauthorized"
-msgstr "Ur yettusireg ara"
-
-#: .es5/lib/oauth-errors.js:68
-msgid "Forbidden"
-msgstr "Yegdel"
-
-#: .es5/lib/oauth-errors.js:82
+#: .es5/lib/oauth-errors.js:82 .es5/lib/oauth-errors.js:79 .es5/lib/oauth-errors.js:81
 msgid "Expired token"
 msgstr "Ajutun yemmut"
-
-#: .es5/lib/oauth-errors.js:114
-msgid "Something went wrong. Please close this tab and try again."
-msgstr "Yella wayen ur yeddin ara akken iwata. Ma ulac aɣilif, mdel iccer agi, sakin ɛreḍ tikelt nniḍen."
-
-#: .es5/lib/oauth-errors.js:133
-msgid "no message"
-msgstr "ulac izen"
-
-#: .es5/lib/oauth-errors.js:137
-msgid "Missing OAuth parameter: %(param)s"
-msgstr "Aɣewwaṛ OAuth yettwattu: %(param)s"
-
-#: .es5/lib/profile-errors.js:27
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Imyerr mačči d ameɣtu di tfekka n tuttra: %(param)s"
-
-#: .es5/lib/profile-errors.js:31
-msgid "Unsupported image provider"
-msgstr "Asaǧǧaw n tugna ur yettusefrak ara"
-
-#: .es5/lib/profile-errors.js:35
-msgid "Image processing error"
-msgstr "Tuccḍa deg usesfer n tugna"
-
-#: .es5/lib/profile-errors.js:47
-msgid "Invalid Token"
-msgstr "Ajiṭun mačči d ameɣtu"
-
-#: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
-
-#: .es5/lib/strings.js:33
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\"> Tallat </a>"
-
-#: .es5/lib/strings.js:37
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Awi-d isallen ineggura ɣef Mozilla akked Firefox."
-
-#: .es5/lib/strings.js:40
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (ahat)"
-
-#: .es5/lib/strings.js:41
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (ahat)"
-
-#: .es5/lib/strings.js:42
-msgid "IP address: %(ip)s"
-msgstr "Tansa IP: %(ip)s"
-
-#: .es5/lib/strings.js:43
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi akken ad tessenkreḍ amtawi akked yibenk-agi:"
-
-#: .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
-msgid "Sign in"
-msgstr "Kcem"
-
-#: .es5/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "Yir tuttra"
-
-#: .es5/templates/500.mustache:1
-msgid "500 Error"
-msgstr "Tuccḍa 500"
-
-#: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Teḍra-d tuccḍa. Yebbeḍ-aɣ-d ulɣu udiɣ ad nteddu ad nseɣti ayagi."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "Wennez aseɣwen n wawal uffir aqbuṛ"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
-msgid "The link you clicked to reset your password is expired."
-msgstr "Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
-msgid "Receive new link"
-msgstr "Awi aseγwen amaynut"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "Reset password with recovery key"
-msgstr "Wennez awal uffir s tsarutt n tririt"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Kemmel di %(serviceName)s"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Sekcem tasarutt n tririt ara tesqedceḍ tikkelt kan, i teskelseḍ deg umḍiq aɣelsan akken ad tkecmeḍ ɣer umiḍan-ik/im Firefox."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
-"<span class=\"note\">TAZMILT:</span> Ma twennzeḍ awal uffir-ik/im u ur tesɛiḍ ara tasarutt n tririt ittwakelsen, kra n isefka ad ttwaksen (ula d isefka n uqeddac yemtawin am umezray akked tecraḍ n "
-"isebtar)."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Enter recovery key"
-msgstr "Sekcem tasarutt n tririt"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Confirm recovery key"
-msgstr "Sentem tasarutt n tririt"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:13
-msgid "Don't have a recovery key?"
-msgstr "Ur ɣur-k ara tasarutt n tririt?"
-
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Ur yezmir ara ad yernu amiḍan"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Yessefk awtay inek ad yaweḍ awtay ilaqen akken ad tizmired ad ternuḍ amiḍan Firefox."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Issin ugar"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered."
 msgstr "%(email)s ittwarna."
-
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
-msgid "Choose what to sync"
-msgstr "Fren ayen ara temtawiḍ"
-
-#: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "Sekles iɣewwaṛen"
-
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
-msgid "Back"
-msgstr "Ɣer deffir"
-
-#: .es5/templates/complete_reset_password.mustache:5
-msgid "Reset password link damaged"
-msgstr "Wennez aseɣwen n wawal uffir ixeṣṛen"
-
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -911,239 +1774,30 @@ msgstr ""
 "<span>ASMEKT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
 "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
 
-#: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Terriḍ-d akken iwata amiḍan-ik/im s tsarutt n tririt. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan."
-
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
-msgid "New password"
-msgstr "Awal uffir amaynut"
-
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/complete_reset_password.mustache:15 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Sekcem tikelt-nniḍen awal uffir"
-
-#: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
-msgid "Remember password? Sign in"
-msgstr "Cfu ɣef wawal uffir? Kcem"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
 msgstr "Imayl amezwaru ittwasentem yakan"
 
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Tuqqna tettwasentem yakan"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Aseɣwen n usenqed yezri"
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Sit akken ad d-remseḍ aseɣwen n usenqed amaynut"
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Tuccḍa n usenqed"
-
-#: .es5/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "Sentem amiḍan inek"
-
-#: .es5/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "Sentem tuqqna-agi"
-
-#: .es5/templates/confirm.mustache:5
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseɣwen n usenqed&nbsp;ittwaznen γer %(escapedEmail)s"
-
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Wali tanaka-ik n yimayl akken ad tkecmeḍ ɣer useɣwen n usentem ɣer %(escapedEmail)s"
-
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
-msgid "Not in inbox or spam folder? Resend"
-msgstr "Mačči deg tebbaṭ n unekcum neγ afaylu n ispamen? Ales tuzna"
-
-#: .es5/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "Wennez imayl yettwaznen"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Sit ɣef useɣwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
 
-#: .es5/templates/connect_another_device.mustache:1
-msgid "Connect another device"
-msgstr "Qqen ibenk nniḍen"
-
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox-agi ittwaqen"
-
-#: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Imayl yettwasenqed"
-
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
-msgid "Success"
-msgstr "Yedda"
-
-#: .es5/templates/connect_another_device.mustache:10
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "Qqen ar Firefox akken ad tkemleḍ asebded"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "Sign in &rarr;"
-msgstr "Kcem ar &rarr;"
-
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
-msgid "Still adding devices?"
-msgstr "Mazal ad ternuḍ ibenkan?"
-
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
-
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "Tebγiḍ ad ternuḍ ibenk? Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
 
-#: .es5/templates/connect_another_device.mustache:23
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Kcem ar Firefox i Android akken ad tkemleḍ asebded"
-
-#: .es5/templates/connect_another_device.mustache:25
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Kcem ar Firefox iOS akken ad tkemleḍ asebded"
-
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
-msgid "Why is more than one device required?"
-msgstr "Ayγer ittwasra ugan n yiwen ibenk?"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Inagan n tuqqna akked usekles adigan ttwasran"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Ma ulac aɣilif rmed inagan n tuqqna akked usekles adigan deg iminig inek akken ad tkecmeḍ ɣer Imiḍanen Firefox. Ma tegi-ḍ aya, tamahil am cfawat ɣef tɣimit inek ad teddu."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Ɛreḍ tikelt nniḍen"
-
-#: .es5/templates/force_auth.mustache:4
-msgid "Sign in to continue"
-msgstr "Kcem akken ad tkemmleḍ"
-
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "Awal uffir"
-
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
-#: .es5/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "Tettuḍ awal uffir?"
-
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:6 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> ."
-
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
-msgid "Enter your email"
-msgstr "Sekcem imayl inek"
-
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
-msgid "Email"
-msgstr "Imayl"
-
-#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
-msgid "Continue"
-msgstr "Kemmel"
-
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Usḍif"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Tiwtilin n useqdec"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
-msgid "Privacy Notice"
-msgstr "Tasertit n tbaḍnit"
-
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
-msgid "Get the full Sync experience."
-msgstr "Faṛes tagnitt si Sync."
-
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
-#: .es5/templates/marketing_snippet.mustache:19
-msgid "Download Firefox for iOS!"
-msgstr "Sider Firefox i iOS!"
-
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
-#: .es5/templates/marketing_snippet.mustache:20
-msgid "Download Firefox for Android."
-msgstr "Sider Firefox i Android."
-
-#: .es5/templates/marketing_snippet.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "Sider Firefox i yibenkan izirazen."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Suter tasiregt"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s yebɣa talɣut-agi seg umiḍan inek:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Qbel"
-
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
-#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
-msgid "Cancel"
-msgstr "Sefsex"
-
-#: .es5/templates/ready.mustache:8
-msgid "Your account is ready!"
-msgstr "Amiḍan inek ihegga!"
-
-#: .es5/templates/ready.mustache:9
-msgid "Generate a new recovery key"
-msgstr "Sirew tasarutt n tririt tamaynut"
-
-#: .es5/templates/ready.mustache:10
-msgid "Continue to my account"
-msgstr "Kemmel ɣer umiḍan-iw"
-
-#: .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr "Azen-d tuqqna ur nettwasireg ara?"
-
-#: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Tremseḍ-d imayl ɣer uɛṛaḍ n unekcum ɣer umiḍan inek. Tebɣiḍ ad tazneḍ armud amzun d awraḍ n takerḍa?"
-
-#: .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr "Mmel-aɣ-d armud"
-
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr "Acuɣeṛ i d-iḍerru waya?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1152,42 +1806,6 @@ msgid ""
 msgstr ""
 "<span>Tamawt:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
 "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
-
-#: .es5/templates/reset_password.mustache:8
-msgid "Begin reset"
-msgstr "Bdu awennez"
-
-#: .es5/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Imiḍanen Firefox"
-
-#: .es5/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "Ffeɣ"
-
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
-msgid "Use a different account"
-msgstr "Seqdec amiḍan nniḍen"
-
-#: .es5/templates/sign_in.mustache:14
-msgid "Create an account"
-msgstr "Rnu amiḍan"
-
-#: .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Suref-aγ. nsewḥel amiḍan-ik &nbsp;."
-
-#: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Asentem n imayl i nuzen γer %(email)s yuγal-d u nsewḥel amiḍan-ik akken ad naḥrez isefka inek Firefox."
-
-#: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ma yella imayl-agi d ameɣtu, <a %(escapedSupportLinkAttrs)s>Ini-aɣ-d</a> sakin ad nekkes asewḥel n umiḍan."
-
-#: .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1205,21 +1823,9 @@ msgstr "Sekcem tangalt n tririt s 10-izwilen"
 msgid "Verify"
 msgstr "Senqed"
 
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Use security code"
-msgstr "Seqdec tangalt n tɣellist"
-
-#: .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "Tanemmirt imi tettɛassaḍ"
-
-#: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Tarbaɛt-nneɣ teẓra. Ayen iɣ-d-yettwammalen am wagi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen."
-
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "Sireg ajerred-agi"
+#: .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Sekcem tangalt n tɣellist"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1228,10 +1834,6 @@ msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer tengalt n unekcum itt
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
 msgstr "Sekcem tangalt"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "Sekcem tangalt n tɣellist"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1245,242 +1847,29 @@ msgstr "Sekcem tangalt s 6-izwilen"
 msgid "Use recovery code"
 msgstr "Seqdec tangalt n tririt"
 
-#: .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer tengalt n unekcum ittwaznen ɣer %(email)s."
-
-#: .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "Sekcem tangalt n tsiregt"
-
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
-msgid "Create a Firefox Account"
-msgstr "Rnu amiḍan Firefox"
-
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
-msgid "Repeat password"
-msgstr "Sekcem tikelt nniḍen awal uffir"
-
-#: .es5/templates/sign_up.mustache:10
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "UR sṛuhuy ara awal-agi uffir. Ma tesriḍ ad s-talseḍ asbadu, yezmer ad k-ruḥen isefka n umtawi."
 
-#: .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Ur seqdac ara awal uffir n n yimayl</span>Ma yella albaɛt yessen awal uffir n yimayl-ik, ad yizmir ad isentem tuqqna s umiḍan-ik Firefox ɣef yibenk amaynut sakin ad yekcem ar isefka-ik."
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:10
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Cfu ɣef wawal-ik uffir</span>Ticki tulseḍ asbadu n wawal-ik uffir, ad ak-ṛuḥen isefka n umtawi ur nelli ara  deg ibenkan-ik."
-
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "Awi-d isallen ineggura ɣef Mozilla akked Firefox"
-
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
-msgid "Create account"
-msgstr "Rnu amiḍan"
-
-#: .es5/templates/sign_up.mustache:21
-msgid "Have an account? Sign in"
-msgstr "Ɣur-k amiḍan? Kcem"
-
-#: .es5/templates/sign_up_password.mustache:11
-msgid "Mistyped email?"
-msgstr "Tucḍa deg imayl?"
-
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Azen Firefox srid ɣeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ asbeded"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Mobile phone number"
-msgstr "Uṭṭun n tiliγṛi"
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Send"
-msgstr "Azen"
-
-#: .es5/templates/sms_send.mustache:10
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Ameẓlu SMS illa kan di kra n tmura. izmer ahat kra n laxlaṣ ɣef isefka n SMS&amp;. imdanen i remsen imayl neɣ SMS ilaq ad qeblen aya. <a %(escapedLearnMoreAttributes)s>Issin ugar</a>"
-
-#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Sebded Firefox ɣeṛ tiliɣṛi-ik sakin qqen akken ad tkemleḍ asbeded"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa&nbsp;deg uṭṭun?</a>"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa&nbsp;deg uṭṭun?</a>"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Ma yella ur k-id-yewweḍ ara aḍris n izen, Tzemreḍ daɣen ad d-saliḍ isnasen s ufus."
-
-#: .es5/templates/sms_sent.mustache:8
-msgid "Didn't arrive? Resend"
-msgstr "Ur d-yebbiḍ ara? Azen tikelt nniḍen"
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Ayɣer illaq ad mtawiγ aṭas n ibenkan?"
-
-#: .es5/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Amtawi mačči d asekles s wudem izgan, d ttawil kan akken ad tazneḍ ticraḍ inek n isebtar, amazray inek akked awalen uffiren gar ibenkan i tesεiḍ."
-
-#: .es5/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Ilaq ad tesbedeḍ Firefox sakin mtawi ma drus sin ibenkan akken ad tḥarzeḍ iman-ik ur k-ttruḥun ara isefka inek asm'ara ad k-iruḥ wawal uffir."
-
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
-msgid "Got it"
-msgstr "Awi-t"
-
-#: .es5/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "Tugna n umiḍan"
-
-#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
-#: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Snifel..."
-
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Rnu…"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ṭṭef tawlaft"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Sali"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Takamiṛat"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Sfeḍ"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
-msgid "Done"
-msgstr "Immed"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "Sers u dewweṛ tawlaft inek akken tebɣiḍ"
-
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
-msgid "Change"
-msgstr "Snifel"
-
-#: .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Ticki tfakeḍ, seqdec awal uffir amaynut akken ad tkecmeḍ ɣer ibenkan inek imeṛṛa."
-
-#: .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Awal uffir aqbuṛ"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync?"
-msgstr "Ffeɣ seg Synch?"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Isefka yinek n tunigin ad qqimen di %(deviceName)s, acukan amtawi akked umiḍan inek werǧin ad yeḍru."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "Suspicious device"
-msgstr "Ibenk ur yettwaman ara"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Lost or stolen device"
-msgstr "Ibenk yettwakwren neɣ iṛuḥen"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Old or replaced device"
-msgstr "Ibenk aqbuṛ neɣ yettwasemselsin"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "Ibenk yettwasleg"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Rather not say"
-msgstr "Axiṛ ur d-qqaṛeɣ ara"
-
-#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Ffeɣ"
-
-#: .es5/templates/settings/client_disconnect.mustache:10
-msgid "Disconnection Successful"
-msgstr "Tuffɣa tedda akken iwata"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Ibenkan & isnasen"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Sken"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
 msgstr "ibenk amiran"
 
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Tuffɣa…"
-
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
 msgstr "Tiγimit tamirant"
 
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Aggi"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox i iOS"
-
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
 msgstr "Ula d yiwen ur iqqin"
-
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
-msgid "Download"
-msgstr "Sider"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox i Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Iferdisen ttwakksen neɣ d usligen?"
-
-#: .es5/templates/settings/clients.mustache:26
-msgid "Refresh"
-msgstr "Smiren"
-
-#: .es5/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "Ismenyifen n teywalt"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
@@ -1490,66 +1879,26 @@ msgstr "Ad  ak-in-tawweḍ teywalt γef taγlist n umiḍan-inek, asnifel γef t
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 msgstr "Tzemreḍ ad tferneḍ ad tjerḍeḍ akken ad ak-in-awḍen imaylen n issalen ɣef Mozilla d Firefox."
 
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr "Jerred"
-
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
 msgstr "Sefrek amulteɣ"
-
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
-msgid "Delete account"
-msgstr "Kkes amiḍan"
-
-#: .es5/templates/settings/delete_account.mustache:2
-msgid "Delete…"
-msgstr "Kkes…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"MA tseqdaceḍ amiḍan-agi i yisnasen d yimezla n Mozilla am AMO, Pocket, Screenshots, yessefk di tazwara ad teqqneḍ sakin ad tekkseḍ meṛṛa talɣut tudmawant yettwaskelsen. Ticki tekkseḍ amiḍan-ik dagi,"
-" yezmer ad ak-iṛuḥ unekcum ar yal amḍiq anida i t-tseqdaceḍ-t."
-
-#: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
-msgid "Display name"
-msgstr "Isem yettwaseknen"
-
-#: .es5/templates/settings/display_name.mustache:5
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Fren isem i tebɣiḍ ad d-iban di Firefox ticki tessefrakeḍ amiḍan inek."
+"MA tseqdaceḍ amiḍan-agi i yisnasen d yimezla n Mozilla am AMO, Pocket, Screenshots, yessefk di tazwara ad teqqneḍ sakin ad tekkseḍ meṛṛa talɣut tudmawant yettwaskelsen. Ticki tekkseḍ amiḍan-ik "
+"dagi, yezmer ad ak-iṛuḥ unekcum ar yal amḍiq anida i t-tseqdaceḍ-t."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Imayl wis sin d tansa nniḍen akken ad k-id-awḍen ilγa n teγlist akked usentem n umtawi n ibenkan imaynuten."
 
-#: .es5/templates/settings/emails.mustache:7
-msgid "verified"
-msgstr "ittwasenqeḍ"
-
-#: .es5/templates/settings/emails.mustache:9
-msgid "verification required"
-msgstr "isra asenqed"
-
-#: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
-msgid "Make primary"
-msgstr "Err tansa-agi d tamezwarut"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
-msgid "Remove"
-msgstr "Kkes"
-
 #: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Addad n usmiren"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Add"
-msgstr "Rnu"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
@@ -1576,7 +1925,7 @@ msgstr "Atentan tingalin n usellek ara tesqedceḍ tikelt. Ḥrez-itent deg um�
 msgid "Copy"
 msgstr "Nɣel"
 
-#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
+#: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Siggez"
 
@@ -1644,6 +1993,89 @@ msgstr "Send ad tizmireḍ ad twaliḍ neɣ ad tegeḍ ibeddilen di tgezmi-agi, 
 msgid "Primary email"
 msgstr "Imayl amezwaru"
 
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Your Firefox Account password"
+msgstr "Awal uffir n umiḍan-ik Firefox"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Must not be your email address"
+msgstr "Yessefk ad yimgired d tansa-ik imayl"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+msgstr "Yessef ad yili yemgared akked <a %(escapedCommonPasswordLinkAttrs)s>tebdart n wawalen uffiren yettwassnen</a>"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+msgstr "Xdem ayen ilaqen akken ad teqqimeḍ di tɣellist : ur tales ara aseqdec n wawal-a anida-nniḍen."
+
+#: .es5/templates/partial/password-strength-balloon.mustache:12
+msgid "Remember this password &mdash; resetting it erases your data from our servers."
+msgstr "Cfu ɣef wawal-a uffir : awennez ad yesfeḍ isefka-ik ɣef iqeddacen-nneɣ. "
+
+#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Sken awal uffir"
+
+#: .es5/templates/partial/user-card.mustache:1
+msgid "Use a different email address"
+msgstr "Seqdec tansa-nniḍen n imayl"
+
+#: .es5/views/settings/account_recovery/account_recovery.js:105 .es5/views/settings/account_recovery/account_recovery.js:115 .es5/views/settings/account_recovery/account_recovery.js:117
+msgid "Account Recovery"
+msgstr "Tiririt n umiḍan"
+
+#: .es5/views/settings/account_recovery/recovery_key.js:55 .es5/views/settings/account_recovery/recovery_key.js:61
+msgid "Firefox Recovery Key"
+msgstr "Tasarutt n tririt n Firefox"
+
+#: .es5/lib/auth-errors.js:213 .es5/lib/auth-errors.js:211
+msgid "Invalid recovery key"
+msgstr "Yir tasarutt n tririt"
+
+#: .es5/lib/auth-errors.js:496 .es5/lib/auth-errors.js:500 .es5/lib/auth-errors.js:498
+msgid "Recovery key required"
+msgstr "Tlaq tsarutt n tririt"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
+msgid "Reset password with recovery key"
+msgstr "Wennez awal uffir s tsarutt n tririt"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Sekcem tasarutt n tririt ara tesqedceḍ tikkelt kan, i teskelseḍ deg umḍiq aɣelsan akken ad tkecmeḍ ɣer umiḍan-ik/im Firefox."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">TAZMILT:</span> Ma twennzeḍ awal uffir-ik/im u ur tesɛiḍ ara tasarutt n tririt ittwakelsen, kra n isefka ad ttwaksen (ula d isefka n uqeddac yemtawin am umezray akked tecraḍ n "
+"isebtar)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Enter recovery key"
+msgstr "Sekcem tasarutt n tririt"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Confirm recovery key"
+msgstr "Sentem tasarutt n tririt"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:13
+msgid "Don't have a recovery key?"
+msgstr "Ur ɣur-k ara tasarutt n tririt?"
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Terriḍ-d akken iwata amiḍan-ik/im s tsarutt n tririt. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan."
+
+#: .es5/templates/ready.mustache:9
+msgid "Generate a new recovery key"
+msgstr "Sirew tasarutt n tririt tamaynut"
+
+#: .es5/templates/ready.mustache:10
+msgid "Continue to my account"
+msgstr "Kemmel ɣer umiḍan-iw"
+
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
 msgstr "Tiririt n umiḍan"
@@ -1697,331 +2129,98 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Amecwaṛ 2 ɣef 2: Sekles tasarut n tririt"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">NOTE: </span>Ma tettuḍ awal uffir-ik/im, tasarutt-agi tettwasra akken ad tizmireḍ ad tkecmeḍ ɣer isefka-inek/inem. Sekles tasarutt-ik/im n tririt deg umḍiq ilaqen."
 
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3
+msgid "Print button image"
+msgstr "Tugna n tqeffalt n usiggez"
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:5
+msgid "Download button image"
+msgstr "Tugna n tqeffalt n usider"
+
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:7 .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
 msgstr "Immed, Tasarutt n tririt tettwasekles"
 
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "Acḥal awtay inek?"
+#: .es5/lib/auth-errors.js:205 .es5/lib/auth-errors.js:203
+msgid "Valid code required"
+msgstr "Tangalt tameɣtut tettwasra"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "Awal uffir n umiḍan-ik Firefox"
+#: .es5/lib/auth-errors.js:217 .es5/lib/auth-errors.js:215
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Asuter-a isra sin waḥricen n usesteb iremden deg umiḍan-ik."
 
-#: .es5/templates/partial/password-strength-balloon.mustache:6
-msgid "Must not be your email address"
-msgstr "Yessefk ad yimgired d tansa-ik imayl"
+#: .es5/lib/auth-errors.js:504 .es5/lib/auth-errors.js:502
+msgid "Please enter verification code"
+msgstr "Ma ulac aɣilif sekcem tangalt n usenqed"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:10
-msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Yessef ad yili yemgared akked <a %(escapedCommonPasswordLinkAttrs)s>tebdart n wawalen uffiren yettwassnen</a>"
+#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
+msgid "Error connecting to remote device"
+msgstr "Tuccḍa deg tuqqna ɣer ibenk anmeggag"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "Xdem ayen ilaqen akken ad teqqimeḍ di tɣellist : ur tales ara aseqdec n wawal-a anida-nniḍen."
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Invalid message from the remote device"
+msgstr "Izen sɣur ibenk anmeggag mačči d ameɣtu"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Cfu ɣef wawal-a uffir : awennez ad yesfeḍ isefka-ik ɣef iqeddacen-nneɣ. "
+#: .es5/lib/channel-server-client-errors.js:59
+msgid "Could not decrypt message from the remote device"
+msgstr "Ur izmir ara ad isewgleh izen sɣur ibenk anmeggag"
 
-#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
-msgid "Show password"
-msgstr "Sken awal uffir"
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Use security code"
+msgstr "Seqdec tangalt n tɣellist"
 
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Tettnadiḍ Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>bdu dagi</a>"
+#: .es5/views/confirm_reset_password.js:221
+msgid "Sign in to continue."
+msgstr "Kcem akken ad tkemmleḍ."
 
-#: .es5/templates/partial/user-card.mustache:1
-msgid "Use a different email address"
-msgstr "Seqdec tansa-nniḍen n imayl"
+#: .es5/views/mixins/save-options-mixin.js:59 .es5/views/mixins/save-options-mixin.js:60
+msgid "Copied"
+msgstr "Inɣel"
 
-#~ msgid "Codes copied"
-#~ msgstr "Tingalin ttwaneɣlent"
+#: .es5/views/mixins/save-options-mixin.js:61 .es5/views/mixins/save-options-mixin.js:62
+msgid "Failed to copy. Please manually copy."
+msgstr "Ur yessaweḍ ara ad yenɣel. Ma ulac aɣilif nɣel-itent s ufus."
 
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "Ur yessaweḍ ara ad yenɣel tingalin. Ma ulac aɣilif nɣel-itent s ufus."
+#: .es5/views/mixins/save-options-mixin.js:74 .es5/views/mixins/save-options-mixin.js:75
+msgid "Downloaded"
+msgstr "Yettusider"
 
-#~ msgid "Print button image"
-#~ msgstr "Tugna n tqeffalt n usiggez"
+#: .es5/views/mixins/save-options-mixin.js:85 .es5/views/mixins/save-options-mixin.js:86
+msgid "Printed"
+msgstr "Ittwasiggez"
 
-#~ msgid "Download button image"
-#~ msgstr "Tugna n tqeffalt n usider"
+#. submit button
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
+msgctxt "submit button"
+msgid "Sign in"
+msgstr "Kcem"
 
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Tangalt n unekcum mačči d tameɣtut"
+#. header text
+#: app/scripts/views/sign_in.js:93
+msgctxt "header text"
+msgid "Sign in"
+msgstr "Kcem"
 
-#~ msgid "%(permissionName)s (required)"
-#~ msgstr "%(permissionName)s (yettwasra)"
-
-#~ msgid "Email address"
-#~ msgstr "Tansa imayl"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Amiḍan Firefox arussin. <a href=\"/signup\">Jerred</a> s useqdec n tensa imayl i tesqedceḍ yakan ɣef usmel n izegrar akken ad tkecmeḍ ar isefka inek."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "Aseɣwen n usnas yettazen ar %(phoneNumber)s"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "Yefka-t-id <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Tuffɣa seg ujerred yedda akken iwata"
-
-#~ msgid "Email resent"
-#~ msgstr "Imayl yettwazen tikelt nniḍen"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Gravatar ur yettwaf ara"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "Tebɣiḍ ad tiniḍ <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Asali n tiɣbula ur iddi yara"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Tuccḍa n tiɣbula tarussint"
-
-#~ msgid "Script error"
-#~ msgstr "Tucḍa deg uskript"
-
-#~ msgid "SMS sent"
-#~ msgstr "SMS ittwazen"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Uṭṭun inek iwḥel."
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "SMS ur ittwazen ara .Ttxilek εreḍ tikelt nniḍen"
-
-#~ msgid "Learn more."
-#~ msgstr "Issin ugar."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s ittwarna"
-
-#~ msgid "Passwords"
-#~ msgstr "Awalen uffiren"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Izegrar akked ismenyifen ur ttumtawin ara akka tura ɣef ibenkan izirazen."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Sit akken ad d-remseḍ aseɣwen amaynut"
-
-#~ msgid "Enter new password"
-#~ msgstr "Sekcem awal uffir amaynut"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Issin amek iteddu Sync."
-
-#~ msgid "Submit new password"
-#~ msgstr "Azen awal uffir nniḍen"
-
-#~ msgid "Email Sent"
-#~ msgstr "Imayl yettwazen"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Aseɣwen n usenqed yettwazen&nbsp;ɣer %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "Akken ad ttummestnen isefka yinek n Firefox, nuzen-ak-d aseɣwen n usentem ɣer %(email)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "IZen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Sit ɣef useɣwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
-
-#~ msgid "This device is connected"
-#~ msgstr "Ibenk-agi yeqqen"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Ldi iɣewwaṛen sakin fren Qqen s Firefox akken ad tfakeḍ tawila"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Acuɣer ilaq waya?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> n imeẓla n usigna Firefox."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Imeẓla n usigna n Firefox"
-
-#~ msgid "Proceed"
-#~ msgstr "Kemmel"
-
-#~ msgid "Reset account"
-#~ msgstr "Wennez tikelt nniden amiḍan"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Ticki yettuwennez wawal inek uffir, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Cfu ɣef awal uffir? Kcem."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar? <a href=\"/signup\">Rnu amiḍan Firefox</a> s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Kcem ɣer umiḍan n Firefox akken ad tawiḍ isefka n umtawi yinek aniɣeṛ nniḍen."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Akken ad temmestenen akken iwata isefka yinek Firefox, tangalt n tsiregt tettraǧu-k di tensa %(email)s."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Tettnadiḍ Firefox Sunc? <a href=\"%(escapedSyncSuggestionUrl)s\">Wal idagi</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Rnu amiḍan n Firefox akken ad tawiḍ isefka yinek n umatwi aniɣeṛ nniḍen."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar?  Rnu amiḍan Firefox s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Yiwen kan n wawal uffir uǧhid ad yegber Firefox inek d aɣelsan seg ijenṭaḍ."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "Rmes yal aggur tabratt n telɣut n Firefox."
+#. button text
+#: app/scripts/views/sign_in.js:90
+msgctxt "button text"
+msgid "Sign in"
+msgstr "Kcem"
 
 #~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "Tanfa tella kan i uṭṭunen n tiliγṛi n tmurt n Marikan. SMS &amp; Isefka zemren ad awin kra n tedrimt. Inermasen n imayl neγ SMS ilaq ad qeblen aya.  <a %(escapedLearnMoreAttributes)s> Issin ugar "
-#~ "</a>"
-
-#~ msgid "Maybe later"
-#~ msgstr "Ahat ticki"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa deg uṭṭun?</a>"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Acuɛe amtawi n sin (neɣ ugar!) n ibenkan?"
+#~ "<span>REMEMBER</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken "
+#~ "ad naḥrez tabaḍbit-ik."
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, sakin"
-#~ " ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum ɣef "
-#~ "yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Sekles"
-
-#~ msgid "current device"
-#~ msgstr "ibenk amiran"
-
-#~ msgid "current session"
-#~ msgstr "tiɣimit tamirant"
-
-#~ msgid "none connected"
-#~ msgstr "ula d yiwen ur iqqin"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "Rmes yal aggur izen n telɣutn Firefox."
-
-#~ msgid "Email preferences"
-#~ msgstr "Ismenyifen n yimayl"
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Ffeɣ seg ujerred"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Tebɣiḍ ad tekksed amiḍan inek? Ur tezmireḍ ara ad tuɣaleḍ ɣer deffir ma tekkseḍ-t."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Kcem ɣer Synch"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Fren amiḍan i tebɣiḍ ad tesqedceḍ deg umtawi n yiccaren inek, ticṛaḍ n isebtar, awalen uffiren d wayen nniḍen."
-
-#~ msgid "Use OpenID"
-#~ msgstr "Seqdec OpenID"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Seqdec amiḍan Firefox"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "amtawi amezwaru %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "amtawi aneggaru %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "armud aneggaru: %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "akud n umtawi aneggaru d arussin"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "%(escapedEmail)s ittwasekles. <a %(escapedBackLinkParams)s>tucḍa di tira n imayl?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer useɣwen n tuqna ɣer %(email)s"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "Ajered yentem"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Ilγa  n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Yezmer ad aken-nazen imaylen yerzan amiḍan-ik Firefox."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Tzemreḍ ad tferneḍ tuzna n issalen ɣef Mozilla d Firefox."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "Imayl wis sin d tansa nniḍen akken ad k-id-awḍen ilγa n teγlist akked usentem n umtawi n ibenkan imaynuten."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "Mačči deg tebbaṭ n unekcum neɣ afaylu n ispamen? Ales tuzna?"
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Kcem"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Kcem"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Kcem"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
-#~ msgstr ""
-#~ "<span>REMEMBER</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
-#~ "naḥrez tabaḍbit-ik."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>NOTE</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
 #~ "naḥrez tabaḍbit-ik."
@@ -2139,16 +2338,19 @@ msgstr "Seqdec tansa-nniḍen n imayl"
 #~ msgid "Sync preferences"
 #~ msgstr "Ismenyifen n umtawi"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Tettnadiḍ Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Bdu dagi</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ɛur-k amiḍan s yimayl nniḍen? <a href=\"%(signinUri)s\">Kcem</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Armud aneggaru: %(translatedTimeAgo)s"
