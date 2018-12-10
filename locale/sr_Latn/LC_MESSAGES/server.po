@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-23 16:02+0000\n"
+"POT-Creation-Date: 2018-12-10 16:05+0000\n"
 "PO-Revision-Date: 2018-09-01 11:34+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,9 +159,8 @@ msgstr ""
 #: lib/senders/templates/post_verify_secondary.txt:5
 #: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
 #: lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5
-#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
+#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7
 #: lib/senders/templates/verify_login.txt:6
 #: lib/senders/templates/verify_login_code.html:7
 #: lib/senders/templates/verify_login_code.txt:6
@@ -199,8 +198,8 @@ msgstr "Generiši kodove:"
 #: lib/senders/templates/post_remove_account_recovery.txt:7
 #: lib/senders/templates/post_remove_secondary.txt:5
 #: lib/senders/templates/post_remove_two_step_authentication.txt:6
-#: lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6
+#: lib/senders/templates/verify.txt:5
 #: lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6
 #: lib/senders/templates/verify_secondary.txt:6
