@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-10 16:05+0000\n"
-"PO-Revision-Date: 2018-11-24 06:11+0000\n"
+"PO-Revision-Date: 2018-12-11 04:47+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -32,11 +32,11 @@ msgstr "Đã đặt lại mật khẩu. Đăng nhập để tiếp tục."
 
 #: app/scripts/views/permissions.js:26 .es5/views/permissions.js:28 .es5/views/permissions.js:59 .es5/views/permissions.js:57
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (yêu cầu)"
 
 #: app/scripts/views/permissions.js:32 .es5/views/permissions.js:33 .es5/views/permissions.js:64 .es5/views/permissions.js:62
 msgid "Email address"
-msgstr ""
+msgstr "Địa chỉ email"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6 .es5/views/permissions.js:37
 #: .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:68 .es5/views/permissions.js:66
@@ -80,7 +80,7 @@ msgstr "Không xác định được tài khoản. <a href=\"/signup\">Đăng k�
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Không tìm thấy tài khoản Firefox. <a href=\"/signup\">Đăng ký</a> bằng địa chỉ email tài khoản Tiện ích bổ sung trước đây của bạn để truy cập dữ liệu Tiện ích của bạn."
 
 #: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55 .es5/views/sign_up.js:54 .es5/views/sign_up.js:53 .es5/views/sign_up.js:51
 msgid "Account no longer exists. Recreate it?"
@@ -92,7 +92,7 @@ msgstr "Tài khoản đã tồn tại. <a href=\"/signin\">Đăng nhập</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Liên kết ứng dụng đã gửi lại đến %(phoneNumber)s"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -131,7 +131,7 @@ msgstr "Đăng ký thành công"
 
 #: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Hủy đăng ký thành công"
 
 #: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43 .es5/views/settings/delete_account.js:44 .es5/views/settings/delete_account.js:45
 #: .es5/views/settings/delete_account.js:42
@@ -175,7 +175,7 @@ msgstr "Mở Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "Đã gửi lại email"
 
 #: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59 .es5/models/reliers/sync.js:66 .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
@@ -405,7 +405,7 @@ msgstr "Bạn phải nhập tuổi của bạn để đăng ký"
 
 #: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Không tìm thấy Gravatar"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343 .es5/lib/auth-errors.js:381 .es5/lib/auth-errors.js:385 .es5/lib/auth-errors.js:389 .es5/lib/auth-errors.js:387
 msgid "Account no longer exists."
@@ -460,7 +460,7 @@ msgstr "Cấu hình không hợp lệ"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Ý bạn là <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41 .es5/lib/marketing-email-errors.js:43 .es5/lib/marketing-email-errors.js:40 .es5/lib/marketing-email-errors.js:42
 msgid "Please try again later"
@@ -534,7 +534,7 @@ msgstr "Lỗi xử lý hình ảnh"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Không tải được tài nguyên"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
@@ -557,9 +557,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26 .es5/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1177,7 +1175,7 @@ msgstr "Thay đổi"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "Lưu"
 
 #: app/scripts/templates/settings/change_password.mustache:3 .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1282,11 +1280,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
-msgstr ""
+msgstr "Tuỳ chọn email"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Hủy đăng ký"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
 #: .es5/templates/settings/communication_preferences.mustache:9
@@ -1304,7 +1302,7 @@ msgstr "Xóa…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Bạn có chắc rằng bạn muốn xóa tài khoản? Hành động này không thể hoàn tác được."
 
 #: app/scripts/templates/settings/display_name.mustache:5 .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1316,7 +1314,7 @@ msgstr "Bạn bao nhiêu tuổi?"
 
 #: app/scripts/templates/openid/start.mustache:1 .es5/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Đăng nhập để Đồng bộ hóa"
 
 #: app/scripts/templates/openid/start.mustache:2 .es5/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
@@ -1324,11 +1322,11 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3 .es5/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Sử dụng OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4 .es5/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Sử dụng tài khoản Firefox"
 
 #: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
@@ -1397,7 +1395,7 @@ msgstr "Ý bạn là <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</sp
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s đã đăng ký. <a %(escapedBackLinkParams)s>Nhập sai email?</a>"
 
 #: app/scripts/templates/complete_reset_password.mustache:3 .es5/templates/complete_reset_password.mustache:3 .es5/templates/account_recovery_confirm_key.mustache:3
 msgid "Receive new link"
@@ -1409,7 +1407,7 @@ msgstr "Kiểm tra email của bạn để tìm liên kết xác minh đã đư�
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Kiểm tra email của bạn để biết liên kết xác nhận đăng nhập đã được gửi tới %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4
@@ -1419,7 +1417,7 @@ msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "Đã xác nhận đăng nhập"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4 .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
@@ -1441,7 +1439,7 @@ msgstr "Nhập email của bạn"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Thông báo về tài khoản giờ cũng sẽ được gửi tới %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1 .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1504,11 +1502,11 @@ msgstr "Thu hồi"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Chúng tôi có thể gửi cho bạn các email liên quan đến Tài khoản Firefox của bạn."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Ngoài ra, bạn có thể đăng ký nhận các tin tức mới nhất về Mozilla và Firefox."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2
 #: .es5/templates/settings/emails.mustache:19 .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:157
@@ -1517,7 +1515,7 @@ msgstr "Email phụ"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Email phụ là địa chỉ bổ sung để nhận thông báo bảo mật và xác nhận thiết bị mới được Đồng bộ hóa."
 
 #: app/scripts/templates/settings/emails.mustache:7 .es5/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1537,7 +1535,7 @@ msgstr "Xóa"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại?"
 
 #: app/scripts/templates/settings/emails.mustache:24 .es5/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1721,7 +1719,7 @@ msgstr "Không thể gửi email"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Invalid sign-in verification code"
-msgstr ""
+msgstr "Mã xác nhận đăng nhập không hợp lệ"
 
 #: .es5/lib/auth-errors.js:209 .es5/lib/auth-errors.js:207
 msgid "This verification code has expired"
@@ -1801,8 +1799,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
-"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
+" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1887,8 +1885,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của "
-"mình ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
+"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
+" ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -2045,8 +2043,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -2128,8 +2125,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Bước 2 của 2: Lưu khóa khôi phục"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ dàng "
 "tìm thấy nó sau này."
@@ -2198,16 +2194,16 @@ msgstr "Đã in"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Đăng nhập"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Đăng nhập"
 
 #. button text
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Đăng nhập"
