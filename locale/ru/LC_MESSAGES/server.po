@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 16:05+0000\n"
+"POT-Creation-Date: 2018-12-12 19:51+0000\n"
 "PO-Revision-Date: 2018-09-02 14:58+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Войти в Синхронизацию"
 msgid "Firefox Accounts"
 msgstr "Аккаунты Firefox"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1198
 msgid "Low recovery codes remaining"
 msgstr "Осталось мало кодов восстановления"
 
@@ -67,7 +67,7 @@ msgstr "Сгенерировать коды"
 msgid "This is an automated email."
 msgstr "Это письмо создано автоматически."
 
-#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:6 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
@@ -76,7 +76,7 @@ msgstr "Это письмо создано автоматически."
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Для получения более подробной информации, посетите <a %(supportLinkAttributes)s>Поддержку Mozilla</a>."
 
-#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
+#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:7 lib/senders/templates/new_device_login.txt:6
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
 #: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
 #: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
@@ -101,7 +101,7 @@ msgstr "Мы заметили, что у вас осталось мало код
 msgid "Generate codes:"
 msgstr "Сгенерировать коды:"
 
-#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
@@ -128,14 +128,28 @@ msgstr "Новый вход в %(clientName)s"
 msgid "IP address: %(ip)s"
 msgstr "IP-адрес: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_account_recovery.html:6 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "Управление аккаунтом"
+
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Это письмо создано автоматически; если вы не авторизовали это действие, то, пожалуйста, <a %(passwordChangeLinkAttributes)s>смените свой пароль.</a>"
 
-#: lib/senders/templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_account_recovery.txt:5 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Управлять аккаунтом:"
+
+#: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Это автоматическое сообщение; если вы не добавляли новое устройство в ваш Аккаунт Firefox, вы должны немедленно сменить свой пароль через %(passwordChangeLink)s"
 
@@ -233,7 +247,7 @@ msgstr "Всего наилучшего,"
 msgid "The Firefox Accounts team"
 msgstr "Команда Аккаунтов Firefox"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1226
 msgid "Account recovery key generated"
 msgstr "Сгенерирован ключ восстановления аккаунта"
 
@@ -245,12 +259,6 @@ msgstr "Вы успешно сгенерировали ключ восстано
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
 msgstr "Если это были не вы, <a %(revokeAccountRecoveryLinkAttributes)s>щёлкните здесь.</a>"
 
-#: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
-#: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
-#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "Управление аккаунтом"
-
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
 msgstr "Вы успешно сгенерировали ключ восстановления аккаунта для вашего Аккаунта Firefox из следующего устройства:"
@@ -259,13 +267,7 @@ msgstr "Вы успешно сгенерировали ключ восстано
 msgid "If this was not you, revoke key."
 msgstr "Если это были не вы, отзовите ключ."
 
-#: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
-#: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
-#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Управлять аккаунтом:"
-
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1070
 msgid "Two-step authentication enabled"
 msgstr "Двухэтапная аутентификация включена"
 
@@ -293,7 +295,7 @@ msgstr ""
 "Вы успешно изменили ваш основной адрес эл. почты на %(email)s. Этот адрес теперь будет вашим именем пользователя для входа в ваш Аккаунт Firefox, а также использоваться для получения оповещений "
 "безопасности и подтверждений входа."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
 msgid "Recovery code consumed"
 msgstr "Код восстановления использован"
 
@@ -305,7 +307,7 @@ msgstr "Вы успешно использовали код восстановл
 msgid "Consumed recovery code"
 msgstr "Использованный код восстановления"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1134
 msgid "New recovery codes generated"
 msgstr "Сгенерированы новые коды восстановления"
 
@@ -313,7 +315,7 @@ msgstr "Сгенерированы новые коды восстановлен�
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Вы успешно сгенерировали новые коды восстановления со следующего устройства:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1260
 msgid "Account recovery key removed"
 msgstr "Ключ восстановления аккаунта удалён"
 
@@ -343,7 +345,7 @@ msgstr "Вы успешно удалили альтернативный адре
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1102
 msgid "Two-step authentication disabled"
 msgstr "Двухэтапная аутентификация отключена"
 
@@ -569,23 +571,23 @@ msgstr "Пароль Аккаунта Firefox был изменён"
 msgid "Firefox Account password reset required"
 msgstr "Необходимо сменить пароль Аккаунта Firefox"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:961
 msgid "Firefox Account verified"
 msgstr "Аккаунт Firefox подтверждён"
 
-#: lib/senders/email.js:987
+#: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
 msgstr "Добавлена альтернативная эл. почта для Аккаунта Firefox"
 
-#: lib/senders/email.js:1015
+#: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
 msgstr "Новая основная эл. почта Аккаунта Firefox"
 
-#: lib/senders/email.js:1043
+#: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
 msgstr "Удалена альтернативная эл. почта для Аккаунта Firefox"
 
-#: lib/senders/email.js:1291
+#: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
 msgstr "Сброс пароля Аккаунта Firefox с помощью ключа восстановления"
 

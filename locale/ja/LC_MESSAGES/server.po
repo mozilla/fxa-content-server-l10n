@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 16:05+0000\n"
+"POT-Creation-Date: 2018-12-12 19:51+0000\n"
 "PO-Revision-Date: 2018-09-08 13:45+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -48,7 +48,7 @@ msgstr "Sync へログイン"
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1198
 msgid "Low recovery codes remaining"
 msgstr "回復用コードが残り少なくなっています"
 
@@ -64,7 +64,7 @@ msgstr "コードを生成"
 msgid "This is an automated email."
 msgstr "これは自動送信メールです。"
 
-#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:6 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
@@ -73,7 +73,7 @@ msgstr "これは自動送信メールです。"
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "詳しくは、<a %(supportLinkAttributes)s>Mozilla Support</a> をご覧ください。"
 
-#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
+#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:7 lib/senders/templates/new_device_login.txt:6
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
 #: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
 #: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
@@ -98,7 +98,7 @@ msgstr "あなたの回復用コードは残り少なくなっているようで
 msgid "Generate codes:"
 msgstr "コードを生成:"
 
-#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
@@ -125,14 +125,28 @@ msgstr "%(clientName)s への新規ログイン"
 msgid "IP address: %(ip)s"
 msgstr "IP アドレス: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_account_recovery.html:6 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "アカウントを管理"
+
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "これは自動送信メールです。あなたがこの操作を許可していない場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
 
-#: lib/senders/templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_account_recovery.txt:5 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "アカウントを管理:"
+
+#: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "これは自動送信メールです。あなたが自分の Firefox アカウントに新たな端末を追加していない場合は、今すぐ %(passwordChangeLink)s でパスワードを変更してください。"
 
@@ -230,7 +244,7 @@ msgstr "ご利用ありがとうございます"
 msgid "The Firefox Accounts team"
 msgstr "Firefox アカウントチーム"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1226
 msgid "Account recovery key generated"
 msgstr "アカウント回復用キーが生成されました"
 
@@ -242,12 +256,6 @@ msgstr "以下の端末を使ってあなたの Firefox アカウントの回復
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
 msgstr "これがあなたではない場合は、<a %(revokeAccountRecoveryLinkAttributes)s>こちらをクリックしてください</a>。"
 
-#: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
-#: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
-#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "アカウントを管理"
-
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
 msgstr "以下の端末からあなたの Firefox アカウントの回復用キーの生成が完了しました:"
@@ -256,13 +264,7 @@ msgstr "以下の端末からあなたの Firefox アカウントの回復用キ
 msgid "If this was not you, revoke key."
 msgstr "これがあなたではない場合は、キーを無効化してください。"
 
-#: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
-#: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
-#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "アカウントを管理:"
-
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1070
 msgid "Two-step authentication enabled"
 msgstr "2 段階認証が有効化されました"
 
@@ -288,7 +290,7 @@ msgid ""
 "confirmations."
 msgstr "%(email)s への主要アドレス変更が完了しました。このアドレスは今後、Firefox アカウントへログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
 msgid "Recovery code consumed"
 msgstr "回復用コードが使用されました"
 
@@ -300,7 +302,7 @@ msgstr "次の端末から回復用コードの使用が完了しました:"
 msgid "Consumed recovery code"
 msgstr "使用された回復用コード"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1134
 msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
@@ -308,7 +310,7 @@ msgstr "新しい回復用コードが生成されました"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "次の端末から新しい回復用コードの生成が完了しました:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1260
 msgid "Account recovery key removed"
 msgstr "アカウント回復用キーが削除されました"
 
@@ -338,7 +340,7 @@ msgstr "%(secondaryEmail)s があなたの Firefox アカウントの予備ア�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1102
 msgid "Two-step authentication disabled"
 msgstr "2 段階認証が無効化されました"
 
@@ -560,23 +562,23 @@ msgstr "Firefox Account のパスワードが変更されました"
 msgid "Firefox Account password reset required"
 msgstr "Firefox アカウントのパスワードリセット要求を受けました"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:961
 msgid "Firefox Account verified"
 msgstr "Firefox アカウントが確認されました"
 
-#: lib/senders/email.js:987
+#: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox アカウントに予備アドレスが追加されました"
 
-#: lib/senders/email.js:1015
+#: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
 msgstr "Firefox アカウントの新しい主要アドレス"
 
-#: lib/senders/email.js:1043
+#: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox アカウントの予備アドレスが削除されました"
 
-#: lib/senders/email.js:1291
+#: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
 msgstr "回復用キーを使った Firefox アカウントパスワードのリセット"
 

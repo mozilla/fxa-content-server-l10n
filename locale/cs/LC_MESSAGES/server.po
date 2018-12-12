@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 16:05+0000\n"
+"POT-Creation-Date: 2018-12-12 19:51+0000\n"
 "PO-Revision-Date: 2018-10-03 16:11+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Přihlásit ke službě Sync"
 msgid "Firefox Accounts"
 msgstr "Účet Firefoxu"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1197
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1198
 msgid "Low recovery codes remaining"
 msgstr "Zbývá malé množství záložních kódů"
 
@@ -67,7 +67,7 @@ msgstr "Vygenerovat kódy"
 msgid "This is an automated email."
 msgstr "Toto je automatický e-mail."
 
-#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:6 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
@@ -76,7 +76,7 @@ msgstr "Toto je automatický e-mail."
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Pro více informací navštivte stránky <a %(supportLinkAttributes)s>Podpory Mozilly</a>."
 
-#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5
+#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:7 lib/senders/templates/new_device_login.txt:6
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
 #: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
 #: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
@@ -101,7 +101,7 @@ msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. 
 msgid "Generate codes:"
 msgstr "Vygenerovat kódy:"
 
-#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
@@ -128,14 +128,28 @@ msgstr "Nové přihlášení k %(clientName)s"
 msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_account_recovery.html:6 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "Správa účtu"
+
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Toto je automatický e-mail; pokud jste tuto akci neprovedli, <a %(passwordChangeLinkAttributes)s>změňte si své heslo</a>."
 
-#: lib/senders/templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_account_recovery.txt:5 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Správa účtu:"
+
+#: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Toto je automatický e-mail; pokud jste k účtu Firefoxu nepřidali žádné zařízení, okamžitě si změňte heslo na %(passwordChangeLink)s"
 
@@ -233,7 +247,7 @@ msgstr "Nejlépe,"
 msgid "The Firefox Accounts team"
 msgstr "Tým účtů Firefoxu"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1225
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1226
 msgid "Account recovery key generated"
 msgstr "Obnovovací klíč k účtu byl vygenerován"
 
@@ -245,12 +259,6 @@ msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefo
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
 msgstr "Pokud jste to nebyli vy, <a %(revokeAccountRecoveryLinkAttributes)s>klikněte zde</a>."
 
-#: lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4
-#: lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_account_recovery.html:6
-#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6 lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "Správa účtu"
-
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
 msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
@@ -259,13 +267,7 @@ msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefo
 msgid "If this was not you, revoke key."
 msgstr "Pokud jste to nebyli vy, klíč zrušte."
 
-#: lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3
-#: lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_account_recovery.txt:5
-#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4 lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Správa účtu:"
-
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1069
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1070
 msgid "Two-step authentication enabled"
 msgstr "Dvoufázové ověření je povoleno"
 
@@ -293,7 +295,7 @@ msgstr ""
 "Váš primární e-mail byl úspěšně změněn na %(email)s. Tato adresa bude nyní použita pro přihlašování k vašemu účtu Firefoxu (namísto uživatelského jména) i k zasílání bezpečnostních upozornění a "
 "potvrzení přihlášení."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1165
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
 msgid "Recovery code consumed"
 msgstr "Obnovovací kód byl použit"
 
@@ -305,7 +307,7 @@ msgstr "Úspěšně jste použili obnovovací kód z následujícího zařízen�
 msgid "Consumed recovery code"
 msgstr "Byl použit obnovovací kód"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1133
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1134
 msgid "New recovery codes generated"
 msgstr "Byly vygenerovány nové obnovovací kódy"
 
@@ -313,7 +315,7 @@ msgstr "Byly vygenerovány nové obnovovací kódy"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Úspěšně jste vygenerovali nové obnovovací kódy z následujícího zařízení:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1259
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1260
 msgid "Account recovery key removed"
 msgstr "Obnovovací klíč k účtu byl odstraněn"
 
@@ -343,7 +345,7 @@ msgstr "Úspěšně jste odebrali %(secondaryEmail)s jako zálořní email z va�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Toto je automaticky zaslaný e-mail - pokud jste si jej nevyžádali, můžete jej ignorovat."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1101
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1102
 msgid "Two-step authentication disabled"
 msgstr "Dvoufázové ověření je zakázáno"
 
@@ -567,23 +569,23 @@ msgstr "Heslo účtu Firefoxu bylo změněno"
 msgid "Firefox Account password reset required"
 msgstr "Je vyžadována obnova hesla k účtu Firefoxu"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:961
 msgid "Firefox Account verified"
 msgstr "Účet Firefoxu ověřen"
 
-#: lib/senders/email.js:987
+#: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
 msgstr "Záložní adresa účtu Firefoxu úspěšně přidána"
 
-#: lib/senders/email.js:1015
+#: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
 msgstr "Nový primární e-mail účtu Firefoxu"
 
-#: lib/senders/email.js:1043
+#: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
 msgstr "Záložní e-mailová adresa účtu Firefoxu byla odebrána"
 
-#: lib/senders/email.js:1291
+#: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
 msgstr "Heslo k účtu Firefoxu bylo obnoveno pomocí obnovovacího klíče"
 
