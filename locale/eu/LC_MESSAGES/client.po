@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-10 16:05+0000\n"
-"PO-Revision-Date: 2018-12-12 13:33+0000\n"
+"PO-Revision-Date: 2018-12-12 13:48+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -93,7 +93,7 @@ msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Aplikazio esteka birbidalia %(phoneNumber)s zenbakira"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -1998,19 +1998,19 @@ msgstr "Zure Firefox kontuaren pasahitza"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Badirudi ez dela zure helbide elektronikoa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Ezin du bat etorri <a>pasahitz arrunten zerrendaz %(escapedCommonPasswordLinkAttrs)s </a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Izan originala eta izan segurua &mdash; ez berrerabili pasahitz hau edonon."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Gogoratu pasahitz hau &mdash; berrezarriz zure datuak ezabatuko direla gure zerbitzarietatik."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2080,7 +2080,7 @@ msgstr "Kontua berreskuratzea"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Sortu berreskuratze giltza sarbidea lortzeko berriz Zure Firefox laster-marka, pasahitz eta sinkronizatutako datuetara pasahitza ahaztuz gero."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -2120,7 +2120,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Gerora ezingo duzu erabili zure berreskuratze giltza zure datuetara sarbidea lortzeko zure pasahitza berrezartzen baduzu."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -2129,14 +2129,16 @@ msgstr "2 pausoa 2tik: Gorde berreskuratze giltza"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">OHARRA: </span>Zure pasahitza galduz gero, giltza hau eskatuko da zure datuetara sarbidea emateko. Gorde zure berreskuratze giltza leku seguruan, gerora zuk erraz bilatuko duzu "
+"batean."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Print button image"
-msgstr ""
+msgstr "Inprimatu azpiko irudia"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Download button image"
-msgstr ""
+msgstr "Deskargatu azpiko irudia"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:7 .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2206,7 +2208,7 @@ msgstr "Hasi saioa"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Hasi saioa"
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 #~ msgstr "Segurtasun-abisuak jasotzeko eta Sync gailuak berresteko helbide gehigarria da helbide elektroniko alternatiboa"
