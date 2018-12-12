@@ -8,9 +8,10 @@ jobs:
     steps:
       - checkout
       - run:
+          # https://www.openssl.org/docs/faq.html#USER3
           command: |
 
-            openssl aes-256-cbc -d -in secret-env-cipher -k $KEY >> ~/.circlerc
+            openssl aes-256-cbc -md md5 -d -in secret-env-cipher -k $KEY >> ~/.circlerc
             sudo apt-get update; sudo apt-get install gettext
             sudo npm install -g grunt-cli gh@1.12.14
             source ~/.circlerc
@@ -26,7 +27,7 @@ jobs:
             source ~/.ssh_agent_conf;
 
             ssh-add -D;
-            openssl aes-256-cbc -d -in id_bug_mirror.enc -k $KEY >> ~/.ssh/id_bug_mirror;
+            openssl aes-256-cbc -md md5 -d -in id_bug_mirror.enc -k $KEY >> ~/.ssh/id_bug_mirror;
             chmod 0600 ~/.ssh/id_bug_mirror;
             ssh-add ~/.ssh/id_bug_mirror;
 
