@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-12-10 16:05+0000\n"
+"POT-Creation-Date: 2018-12-12 19:51+0000\n"
 
 #: lib/senders/templates/_pending.txt:1
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:2
 #: lib/senders/templates/low_recovery_codes.txt:1
-#: lib/senders/email.js:1197
+#: lib/senders/email.js:1198
 msgid "Low recovery codes remaining"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgid "This is an automated email."
 msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:6
-#: lib/senders/templates/new_device_login.html:5
+#: lib/senders/templates/new_device_login.html:6
 #: lib/senders/templates/password_changed.html:6
 #: lib/senders/templates/password_reset.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:8
@@ -116,8 +116,8 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:7
 #: lib/senders/templates/low_recovery_codes.txt:5
-#: lib/senders/templates/new_device_login.html:6
-#: lib/senders/templates/new_device_login.txt:5
+#: lib/senders/templates/new_device_login.html:7
+#: lib/senders/templates/new_device_login.txt:6
 #: lib/senders/templates/password_changed.html:7
 #: lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6
@@ -176,7 +176,7 @@ msgid "Generate codes:"
 msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:4
-#: lib/senders/templates/new_device_login.txt:4
+#: lib/senders/templates/new_device_login.txt:5
 #: lib/senders/templates/password_changed.txt:5
 #: lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/password_reset_account_recovery.txt:7
@@ -242,6 +242,19 @@ msgid "IP address: %(ip)s"
 msgstr ""
 
 #: lib/senders/templates/new_device_login.html:4
+#: lib/senders/templates/post_add_account_recovery.html:6
+#: lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4
+#: lib/senders/templates/post_consume_recovery_code.html:5
+#: lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_account_recovery.html:6
+#: lib/senders/templates/post_remove_secondary.html:4
+#: lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr ""
+
+#: lib/senders/templates/new_device_login.html:5
 #: lib/senders/templates/password_reset_account_recovery.html:7
 #: lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7
@@ -258,6 +271,19 @@ msgid ""
 msgstr ""
 
 #: lib/senders/templates/new_device_login.txt:3
+#: lib/senders/templates/post_add_account_recovery.txt:5
+#: lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3
+#: lib/senders/templates/post_consume_recovery_code.txt:4
+#: lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_account_recovery.txt:5
+#: lib/senders/templates/post_remove_secondary.txt:3
+#: lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr ""
+
+#: lib/senders/templates/new_device_login.txt:4
 msgid ""
 "This is an automated email; if you didn’t add a new device to your Firefox "
 "Account, you should change your password immediately at "
@@ -398,7 +424,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_account_recovery.html:2
 #: lib/senders/templates/post_add_account_recovery.txt:1
-#: lib/senders/email.js:1225
+#: lib/senders/email.js:1226
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -414,18 +440,6 @@ msgid ""
 "here.</a>"
 msgstr ""
 
-#: lib/senders/templates/post_add_account_recovery.html:6
-#: lib/senders/templates/post_add_two_step_authentication.html:6
-#: lib/senders/templates/post_change_primary.html:4
-#: lib/senders/templates/post_consume_recovery_code.html:5
-#: lib/senders/templates/post_new_recovery_codes.html:5
-#: lib/senders/templates/post_remove_account_recovery.html:6
-#: lib/senders/templates/post_remove_secondary.html:4
-#: lib/senders/templates/post_remove_two_step_authentication.html:6
-#: lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr ""
-
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid ""
 "You have successfully generated an account recovery key for your Firefox "
@@ -436,21 +450,9 @@ msgstr ""
 msgid "If this was not you, revoke key."
 msgstr ""
 
-#: lib/senders/templates/post_add_account_recovery.txt:5
-#: lib/senders/templates/post_add_two_step_authentication.txt:4
-#: lib/senders/templates/post_change_primary.txt:3
-#: lib/senders/templates/post_consume_recovery_code.txt:4
-#: lib/senders/templates/post_new_recovery_codes.txt:4
-#: lib/senders/templates/post_remove_account_recovery.txt:5
-#: lib/senders/templates/post_remove_secondary.txt:3
-#: lib/senders/templates/post_remove_two_step_authentication.txt:4
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr ""
-
 #: lib/senders/templates/post_add_two_step_authentication.html:2
 #: lib/senders/templates/post_add_two_step_authentication.txt:1
-#: lib/senders/email.js:1069
+#: lib/senders/email.js:1070
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -487,7 +489,7 @@ msgid ""
 msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2
-#: lib/senders/email.js:1165
+#: lib/senders/email.js:1166
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -502,7 +504,7 @@ msgstr ""
 
 #: lib/senders/templates/post_new_recovery_codes.html:2
 #: lib/senders/templates/post_new_recovery_codes.txt:1
-#: lib/senders/email.js:1133
+#: lib/senders/email.js:1134
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -515,7 +517,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:2
 #: lib/senders/templates/post_remove_account_recovery.txt:1
-#: lib/senders/email.js:1259
+#: lib/senders/email.js:1260
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -568,7 +570,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2
 #: lib/senders/templates/post_remove_two_step_authentication.txt:1
-#: lib/senders/email.js:1101
+#: lib/senders/email.js:1102
 msgid "Two-step authentication disabled"
 msgstr ""
 
@@ -854,23 +856,23 @@ msgstr ""
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:961
 msgid "Firefox Account verified"
 msgstr ""
 
-#: lib/senders/email.js:987
+#: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
 msgstr ""
 
-#: lib/senders/email.js:1015
+#: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
 msgstr ""
 
-#: lib/senders/email.js:1043
+#: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
-#: lib/senders/email.js:1291
+#: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
 msgstr ""
 
