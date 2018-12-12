@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-10 16:05+0000\n"
-"PO-Revision-Date: 2018-12-10 12:27+0000\n"
+"PO-Revision-Date: 2018-12-12 13:33+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -461,7 +461,7 @@ msgstr "Konfigurazio baliogabea"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "<span tabindex=\"1\">%(escapedDomain)s</span>esan nahi zenuen?"
 
 #: app/scripts/lib/marketing-email-errors.js:41 .es5/lib/marketing-email-errors.js:43 .es5/lib/marketing-email-errors.js:40 .es5/lib/marketing-email-errors.js:42
 msgid "Please try again later"
@@ -558,12 +558,10 @@ msgid "SMS not sent, please try again"
 msgstr "SMSa ez da bidali, saiatu berriro mesedez"
 
 #: app/scripts/lib/strings.js:22 .es5/lib/strings.js:26 .es5/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
-"a> onartzen dituzu."
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</a>"
+" onartzen dituzu."
 
 #: app/scripts/lib/strings.js:30 .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -741,16 +739,16 @@ msgstr "Mezua bidali da"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Egiaztatze-esteka bidali da helbide&nbsp;honetara:%(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "Zure Firefox datuak hobeto babesteko berrespen esteka bidali dugu %(email)s postara"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Ez da posta iritzi eta ez dago spam karpetan? Birbidali"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1 .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1021,7 +1019,7 @@ msgstr "Baimendu saio-hasiera hau"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Zure Firefox datuak hobeto babesteko, zure zain dago %(email)s posta helbidean baimentze kodea."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4 .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1039,7 +1037,7 @@ msgstr "Sortu Firefoxen kontua"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Firefox Sync bila zabiltza?<a href=\"%(escapedSyncSuggestionUrl)s\">Hasi hemen</a>"
 
 #: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1086,6 +1084,8 @@ msgstr "Bidali"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS zerbitzua Estatu Batuetako zenbakiek bakarrik. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+"gehiago</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1097,7 +1097,7 @@ msgstr "Inatalatu Firefox zure telefonoan eta hasi saioa konfigurazioa amaitzeko
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Aplikazioaren lotura hona bidali da: %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> okerreko zenbakia?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1109,7 +1109,7 @@ msgstr "Ez da iritsi? Birbidali"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Zergatik sinkronizatu bi (edo gehiago!) gailu?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -1476,8 +1476,8 @@ msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide gehiago</"
-"a>"
+"SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+"gehiago</a>"
 
 #: app/scripts/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -2045,8 +2045,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Mesedez sartu erabilera bakarreko berreskuratze giltza toki seguruan gordea duzuna berriz bereganatzeko zure Firefox kontura sarrera."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OHARRA:</span> Pasahitza berrezartzen baduzu eta ez badaukazu berreskuratzeko giltza gordeta, zure hainbat datu ezabatuko dira (historia eta laster-markak bezalako zerbitzarian "
 "sinkronizatutako datuak barne)."
@@ -2128,8 +2127,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 pausoa 2tik: Gorde berreskuratze giltza"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -2500,17 +2498,15 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Kontua baduzu? Hasi saioa."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-"
 #~ "oharra</a> onartzen ditut."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-politika</a> "
-#~ "onartzen ditudala berresten dut."
+#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-politika</a> onartzen "
+#~ "ditudala berresten dut."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Harpidetu Firefoxen berri eta iradokizunetara"
