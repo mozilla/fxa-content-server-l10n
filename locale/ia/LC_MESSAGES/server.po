@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-09-14 07:16+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2018-12-13 20:06+0000\n"
+"Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Tu ha connectite con successo tu prime apparato a tu conto Firefox. Pro tirar le maxime avantage de Sync, connecte etiam qualcunque <a href='%(androidUrl)s'>Firefox pro Android</a> o <a "
 "href='%(iosUrl)s'>Firefox pro iOS</a>."
@@ -436,7 +436,7 @@ msgstr "Activar ora"
 
 #: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr "Verificar le e-posta"
+msgstr "Verificar le email"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
@@ -468,11 +468,11 @@ msgstr "Requesta de modificar le conto per le sequente apparato:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr "Verificar le e-posta "
+msgstr "Verificar le email"
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Post le verifica le cambios del conto, como adder le e-posta secundari, sera possibile per le apparato."
+msgstr "Post le verifica le cambios del conto, como adder le email secundari, sera possibile per le apparato."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -480,7 +480,7 @@ msgstr "Si tu non autorisa iste action, <a %(passwordChangeLinkAttributes)s>per 
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr "Verificar le e-posta: "
+msgstr "Verificar le email: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
@@ -576,7 +576,7 @@ msgstr "Conto Firefox verificate"
 
 #: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
-msgstr "E-posta secundari de conto Firefox addite"
+msgstr "Email secundari de conto Firefox addite"
 
 #: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
@@ -584,7 +584,7 @@ msgstr "Nove email primari del conto Firefox verificate"
 
 #: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
-msgstr "E-posta secundari de conto Firefox removite"
+msgstr "Email secundari de conto Firefox removite"
 
 #: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
@@ -684,15 +684,14 @@ msgstr "Terminos del servicio"
 #~ msgstr "Holla de novo."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
-#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
+#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"
