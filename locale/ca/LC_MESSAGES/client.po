@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-12-16 22:30+0000\n"
+"PO-Revision-Date: 2018-12-16 22:34+0000\n"
 "Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -72,7 +72,7 @@ msgstr "S'ha verificat el correu electrònic principal"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Les notificacions del compte també s'enviaran a  %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
