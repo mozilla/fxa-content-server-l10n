@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-12-17 07:54+0000\n"
+"PO-Revision-Date: 2018-12-17 07:58+0000\n"
 "Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -217,11 +217,11 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
 msgid "Verification email sent"
-msgstr ""
+msgstr "S'ha enviat un missatges de verificació"
 
 #: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Adreça de correu electrònic principal és %(email)s"
 
 #: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -233,7 +233,7 @@ msgstr "Codis de recuperació del Firefox"
 
 #: .es5/views/settings/recovery_codes.js:77
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "S'han generat nous codis de recuperació"
 
 #: .es5/views/settings/recovery_codes.js:111 .es5/views/settings/two_step_authentication.js:143
 msgid "Two-step authentication enabled"
