@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-12-16 22:34+0000\n"
+"PO-Revision-Date: 2018-12-17 07:54+0000\n"
 "Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -52,7 +52,7 @@ msgstr "Ben tornat"
 
 #: .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync es reiniciara en un moment"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
@@ -60,7 +60,7 @@ msgstr "S'ha reiniciat la vostra contrasenya"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Per acabar la configuració introdueix la nova contrasenya a tots en què tinguis Firefox."
 
 #: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
@@ -76,11 +76,11 @@ msgstr "Les notificacions del compte també s'enviaran a  %(secondaryEmailVerifi
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
-msgstr ""
+msgstr "S'ha verificat una adreça de correu electrònic secundària"
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "S'ha confirmat l'inici de sessió"
 
 #: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -104,27 +104,28 @@ msgstr "Ja existeix el compte. <a href=\"/signin\">Inicia la sessió</a>"
 
 #: .es5/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr ""
+msgstr "La contrasenya s'ha canviat correctament"
 
 #: .es5/views/settings/client_disconnect.js:21
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
+"Lamentem aquesta situació. És necessari que canvieu contrasenya del vostre compte de Firefox i busqueu informació del fabricant del vostre dispositiu per esborrar les vostres dades de manera remota."
 
 #: .es5/views/settings/client_disconnect.js:22
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Lamentem aquesta situació. Si no confieu en aquest dispositiu, és necessari que canvieu la contrasenya del vostre compte de Firefox i així com qualsevol altra contrasenya guardada a Firefox."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Última sincronització %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Última sincronització fa més de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Última sincronització %(translatedTimeAgo)s a %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -300,19 +301,19 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "S'ha copiat"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "No s'ha pogut copiar. Feu la copia manualment."
 
 #: .es5/views/mixins/save-options-mixin.js:74
 msgid "Downloaded"
-msgstr ""
+msgstr "S'ha baixat"
 
 #: .es5/views/mixins/save-options-mixin.js:85
 msgid "Printed"
-msgstr ""
+msgstr "S'ha imprès"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
 msgid "Primary email verified successfully"
@@ -460,7 +461,7 @@ msgstr "No es pot enviar a aquest país"
 
 #: .es5/lib/auth-errors.js:136
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "No s'ha pogut enviar un missatge a aquest número"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
