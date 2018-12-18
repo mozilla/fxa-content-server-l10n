@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-12-17 23:46+0000\n"
+"PO-Revision-Date: 2018-12-17 23:56+0000\n"
 "Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:118
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sessió web, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
