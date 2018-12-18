@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-12 19:51+0000\n"
-"PO-Revision-Date: 2018-12-17 23:56+0000\n"
+"PO-Revision-Date: 2018-12-18 00:22+0000\n"
 "Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -197,7 +197,7 @@ msgstr "Sessió web"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Última sincronització desconeguda"
 
 #: .es5/views/settings/communication_preferences.js:124
 msgid "Subscribed successfully"
@@ -213,7 +213,7 @@ msgstr "S'ha actualitzat el nom a mostrar"
 
 #: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
-msgstr ""
+msgstr "S'ha eliminat una adreça de correu electrònic secundària"
 
 #: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
 msgid "Verification email sent"
