@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-12-14 07:18+0000\n"
+"PO-Revision-Date: 2018-12-22 10:31+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -186,6 +186,7 @@ msgstr "Helbide elektronikoa alternatiboa kenduta"
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
+"%(secondaryEmail)s zure bigarren helbide elektronikoa gisa ondo kendu da zure Firefox kontutik. Ez dira gehiago bidaliko segurtasun jakinarazpenak eta saio hasiera baieztapenak helbide horretara."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -204,10 +205,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Arrakastaz lotu duzu zure lehen gailua zure Firefox kontuarekin. Orain beste gailuekin sinkronizatu dezakezu, <a%(androidLinkAttributes)sAndroid></a> eta <a%(iosLinkAttributes)s>iOS</a>gailuak "
+"barne."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Orain saioa hasi dezakezu Sync-en zure beste gailuetan, Android eta iOS-erako Firefox barne."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -220,6 +223,7 @@ msgstr "Helbide elektroniko alternatiboa gehitua"
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
+"Arrakastaz egiaztatu duzu %(secondaryEmail)s zure bigarren helbide elektroniko gisa Firefox kontuan. Segurtasun jakinarazpenak eta saio hasiera egiaztapenak orain bi helbidetara bideratuko dira."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
