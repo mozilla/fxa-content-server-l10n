@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2018-12-22 10:31+0000\n"
+"PO-Revision-Date: 2018-12-22 10:38+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -239,7 +239,7 @@ msgstr "Berrezarri pasahitza"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Eskerrik asko Firefox aukeratzeagatik! Orain mugikorrerako Firefox hemendik instala dezakezu: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -251,11 +251,11 @@ msgstr "Hala bada, hau da behar duzun baimen-kodea:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ez bada, lagun iezaguzu arrotzak kanporatzen eta <a%(reportSignInLinkAttributes)s>eman horren berri guri.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ez bada, lagun iezaguzu arrotzak kanporatzen eta eman horren berri guri."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
 msgid "Hello again."
