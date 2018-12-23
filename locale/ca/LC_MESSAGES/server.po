@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 19:53+0000\n"
+"PO-Revision-Date: 2018-12-23 20:19+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar sessió al Sync des d'altres dispositius, inclosos el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
+"Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
 "href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
@@ -140,7 +140,7 @@ msgstr "Gestiona el compte"
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Aquest és un missatge automàtic, si no heu autoritzat aquesta acció, <a %(passwordChangeLinkAttributes)s>canvieu la vostra contrasenya.</a>"
+msgstr "Aquest és un missatge automàtic; si no heu autoritzat aquesta acció, <a %(passwordChangeLinkAttributes)s>canvieu la contrasenya.</a>"
 
 #: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
 #: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
@@ -155,7 +155,7 @@ msgstr "Aquest és un missatge automàtic; si no heu afegit cap dispositiu nou a
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr "La contrasenya s'ha restablert correctament"
+msgstr "La contrasenya s'ha canviat correctament"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -163,11 +163,11 @@ msgstr "La contrasenya del compte del Firefox s'ha canviat correctament des del 
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Aquest és un missatge automàtic, si no heu autoritzat aquesta acció, <a %(resetLinkAttributes)s>restabliu la contrasenya</a>."
+msgstr "Aquest és un missatge automàtic; si no heu autoritzat aquesta acció, <a %(resetLinkAttributes)s>reinicieu la contrasenya</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Aquest és un missatge automàtic; si no heu canviat la contrasenya del compte del Firefox, restabliu-la immediatament des de %(resetLink)s"
+msgstr "Aquest és un missatge automàtic; si no heu canviat la contrasenya del compte del Firefox, reinicieu-la immediatament des de %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
@@ -179,19 +179,19 @@ msgstr "Cal que inseriu la contrasenya nova als altres dispositius per continuar
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Si no l'heu canviat, <a %(resetLinkAttributes)s>restabliu la contrasenya</a>."
+msgstr "Si no l'heu canviat, <a %(resetLinkAttributes)s>reinicieu la contrasenya</a> ara mateix."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Si no l'heu canviat, restabliu la contrasenya des de %(resetLink)s"
+msgstr "Si no l'heu canviat, reinicieu la contrasenya des de %(resetLink)s ara mateix"
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "S'ha la restablert la contrasenya del compte amb una clau de recuperació"
+msgstr "S'ha reiniciat la contrasenya del compte amb una clau de recuperació"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Heu restablert la contrasenya utilitzant una clau de recuperació des del següent dispositiu:"
+msgstr "Heu reiniciat la contrasenya utilitzant una clau de recuperació des del següent dispositiu:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
@@ -210,7 +210,7 @@ msgstr "Crea una clau de recuperació:"
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
 #: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Si sospiteu que algú està provant d'accedir al vostre compte, és recomanable que canvieu la vostra contrasenya."
+msgstr "Si sospiteu que algú està provant d'accedir al vostre compte, canvieu la contrasenya."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -218,7 +218,7 @@ msgstr "S'ha detectat activitat sospitosa al vostre compte del Firefox. El vostr
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Per impedir més accessos no autoritzats al vostre compte del Firefox, s'ha procedit a restablir la contrasenya i s'envia aquesta notificació com a precaució."
+msgstr "Per impedir més accessos no autoritzats al vostre compte del Firefox, s'ha procedit a reiniciar la contrasenya i s'envia aquesta notificació com a precaució."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -232,8 +232,8 @@ msgstr "Primer, canvieu la contrasenya del compte del Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Segon, si el Firefox ha desat contrasenyes de llocs web, és recomanable que també les canvieu. Un intrús pot haver accedit a les contrasenyes, per tant, es recomanables que comproveu si s'ha produït"
-" alguna activitat sospitosa en aquests comptes."
+"Segon, si el Firefox ha desat contrasenyes de llocs web, és recomanable que també les canvieu. Un intrús pot haver accedit a les contrasenyes, per tant, és recomanable que comproveu si s'ha produït "
+"alguna activitat sospitosa en aquests comptes."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -292,7 +292,7 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Heu canviat l'adreça electrònica principal per %(email)s. Aquesta adreça és el nou nom d'usuari per iniciar la sessió al compte del Firefox, per rebre notificacions de seguretat i confirmacions "
+"Heu canviat l'adreça electrònica principal per %(email)s. Ara aquesta adreça és el nom d'usuari per iniciar la sessió al compte del Firefox, per rebre notificacions de seguretat i confirmacions "
 "d'inici de sessió."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
@@ -343,7 +343,7 @@ msgstr "Heu eliminat %(secondaryEmail)s com a adreça electrònica secundària d
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
 #: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Aquest és un missatge automàtic; si l'heu rebut per error no cal que feu res."
+msgstr "Aquest és un missatge automàtic; si l'heu rebut per error, no cal que feu res."
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1102
 msgid "Two-step authentication disabled"
@@ -359,7 +359,7 @@ msgstr "Ja no es demanaran els codis de seguretat per a cada inici de sessió."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Heu inhabilitat l'autenticació en dos passos per al compte del Firefox. Ja no es demanaran els codis de seguretat per a cada inici de sessió."
+msgstr "Heu inhabilitat l'autenticació en dos passos per al compte del Firefox. Ja no es demanaran els codis de seguretat en iniciar la sessió."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -370,12 +370,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Heu connectat el vostre primer dispositiu al compte de Firefox. Ja podeu iniciar sessió al Sync des d'altres dispositius, inclosos Firefox per a <a %(androidLinkAttributes)s>Android</a> i <a "
-"%(iosLinkAttributes)s>iOS</a>."
+"Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> i "
+"l'<a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Heu connectat el vostre primer dispositiu al compte de Firefox. Ja podeu iniciar sessió al Sync des dels altres dispositius, inclosos Firefox per a Android i iOS."
+msgstr "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'Android i l'iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -387,11 +387,12 @@ msgstr "S'ha afegit l'adreça electrònica secundària"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "S'ha verificat %(secondaryEmail)s com a adreça electrònica secundària del compte de Firefox. S'enviaran notificacions de seguretat i confirmacions d'inici de sessió a les dues adreces."
+msgstr ""
+"Heu verificat %(secondaryEmail)s com a adreça electrònica secundària del compte del Firefox. Les notificacions de seguretat i les confirmacions d'inici de sessió s'enviaran a les dues adreces."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr "Voleu restablir la vostra contrasenya?"
+msgstr "Necessiteu reiniciar la vostra contrasenya?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -403,7 +404,7 @@ msgstr "Crea una nova contrasenya"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Gràcies per escollir Firefox! Instal·leu Firefox per a mòbil des d'aquí: %(link)s"
+msgstr "Gràcies per triar el Firefox! Instal·leu el Firefox per a mòbils des d'aquí: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
@@ -439,7 +440,7 @@ msgstr "Verifiqueu l'adreça electrònica"
 
 #: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Per finalitzar el registre del compte de Firefox, verifiqueu l'adreça electrònica"
+msgstr "Per finalitzar el registre del compte del Firefox, verifiqueu l'adreça electrònica"
 
 #: lib/senders/templates/verify.txt:3
 msgid "Activate now:"
@@ -475,7 +476,7 @@ msgstr "Després de la verificació, es poden fer canvis al compte com afegir un
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Si no heu autoritzat aquesta acció, <a %(passwordChangeLinkAttributes)s> canvieu la contrasenya</a>."
+msgstr "Si no heu autoritzat aquesta acció, <a %(passwordChangeLinkAttributes)s>canvieu la contrasenya</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -491,7 +492,7 @@ msgstr "Verifiqueu l'adreça electrònica secundària"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "S'ha sol·licitat utilitzar %(email)s com a adreça electrònica secundària des del següent compte de Firefox:"
+msgstr "S'ha sol·licitat utilitzar %(email)s com a adreça electrònica secundària des del següent compte del Firefox:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -535,7 +536,7 @@ msgstr "%(country)s (estimació)"
 
 #: lib/senders/email.js:547
 msgid "Verify your Firefox Account"
-msgstr "Verifiqueu el compte de Firefox"
+msgstr "Verifiqueu el compte del Firefox"
 
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
@@ -543,7 +544,7 @@ msgstr "Confirmeu la vostra adreça electrònica i inicieu la sincronització."
 
 #: lib/senders/email.js:608
 msgid "Firefox Account authorization code"
-msgstr "Codi d'autorització del compte de Firefox"
+msgstr "Codi d'autorització del compte del Firefox"
 
 #: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
@@ -555,39 +556,39 @@ msgstr "Codi d'inici de sessió per a Firefox"
 
 #: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
-msgstr "Reinicieu la contrasenya del compte de Firefox"
+msgstr "Reinicieu la contrasenya del compte del Firefox"
 
 #: lib/senders/email.js:853
 msgid "Your Firefox Account password has been changed"
-msgstr "S'ha canviat la contrasenya del compte de Firefox"
+msgstr "S'ha canviat la contrasenya del compte del Firefox"
 
 #: lib/senders/email.js:879
 msgid "Firefox Account password changed"
-msgstr "S'ha canviat la contrasenya del compte de Firefox"
+msgstr "S'ha canviat la contrasenya del compte del Firefox"
 
 #: lib/senders/email.js:901
 msgid "Firefox Account password reset required"
-msgstr "Cal canviar la contrasenya del compte de Firefox"
+msgstr "Cal canviar la contrasenya del compte del Firefox"
 
 #: lib/senders/email.js:961
 msgid "Firefox Account verified"
-msgstr "Compte de Firefox verificat"
+msgstr "S'ha verificat el compte del Firefox"
 
 #: lib/senders/email.js:988
 msgid "Secondary Firefox Account email added"
-msgstr "S'ha afegit una adreça electrònica secundària al compte de Firefox"
+msgstr "S'ha afegit una adreça electrònica secundària al compte del Firefox"
 
 #: lib/senders/email.js:1016
 msgid "Firefox Account new primary email"
-msgstr "Nova adreça electrònica principal del compte de Firefox"
+msgstr "Nova adreça electrònica principal del compte del Firefox"
 
 #: lib/senders/email.js:1044
 msgid "Secondary Firefox Account email removed"
-msgstr "S'ha eliminat una adreça electrònica secundària al compte de Firefox"
+msgstr "S'ha eliminat una adreça electrònica secundària del compte del Firefox"
 
 #: lib/senders/email.js:1292
 msgid "Firefox Account password reset with recovery key"
-msgstr "Canvieu la contrasenya del vostre compte de Firefox amb una clau de recuperació"
+msgstr "S'ha reiniciat la contrasenya del vostre compte del Firefox amb una clau de recuperació"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

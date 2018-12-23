@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 18:47+0000\n"
+"PO-Revision-Date: 2018-12-23 20:18+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr "Reinicia la contrasenya"
 
 #: .es5/views/confirm_reset_password.js:222
 msgid "Password reset successfully. Sign in to continue."
-msgstr "S’ha reiniciat la contrasenya correctament. Inicieu una sessió per continuar."
+msgstr "S’ha reiniciat la contrasenya correctament. Inicieu la sessió per continuar."
 
 #. submit button
 #. header text
@@ -72,7 +72,7 @@ msgstr "S'ha verificat el correu electrònic principal"
 
 #: .es5/views/ready.js:94
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Les notificacions del compte també s'enviaran a  %(secondaryEmailVerified)s."
+msgstr "Les notificacions del compte també s'enviaran a %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
@@ -216,7 +216,7 @@ msgstr "S'ha eliminat l'adreça electrònica secundària"
 
 #: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
 msgid "Verification email sent"
-msgstr "S'ha enviat un missatges de verificació"
+msgstr "S'ha enviat un missatge de verificació"
 
 #: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
@@ -240,7 +240,7 @@ msgstr "S'ha habilitat l'autenticació en dos passos"
 
 #: .es5/views/settings/two_step_authentication.js:114
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Utilitzeu el codi% (code)s per configurar l'autenticació en dos passos en aplicacions compatibles."
+msgstr "Utilitzeu el codi %(code)s per configurar l'autenticació en dos passos en aplicacions compatibles."
 
 #: .es5/views/settings/two_step_authentication.js:127
 msgid "Two-step authentication removed"
@@ -364,7 +364,7 @@ msgstr "L'adreça electrònica secundària s'ha verificat correctament"
 
 #: .es5/models/auth_brokers/web.js:33
 msgid "Password reset successfully"
-msgstr "La contrasenya s'ha restablert correctament"
+msgstr "La contrasenya s'ha reiniciat correctament"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
@@ -372,15 +372,15 @@ msgstr "Error inesperat."
 
 #: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "L'enllaç al que heu clicat per verifica el correu electrònic ha vençut."
+msgstr "L'enllaç al qual heu fet clic per verificar el correu electrònic ha vençut."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:16
 msgid "You've tried too many times. Try again later."
-msgstr "Heu fet massa intents. Torneu-ho a provar més més tard."
+msgstr "Heu fet massa intents. Torneu-ho a provar més tard."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Heu fet massa intents. Torneu-ho a provar % (retryAfterLocalized) s."
+msgstr "Heu fet massa intents. Torneu-ho a provar %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
@@ -464,7 +464,7 @@ msgstr "No s'ha pogut enviar un missatge a aquest número"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Your email was just returned"
-msgstr "S'ha retornat el missatges de correu electrònic"
+msgstr "S'ha retornat el missatge de correu electrònic"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
@@ -472,7 +472,7 @@ msgstr "S'ha retornat el missatge de correu electrònic. Pot ser que l'adreça e
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr "El missatges no s'ha pogut lliurar"
+msgstr "El missatge no s'ha pogut lliurar"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
@@ -524,7 +524,7 @@ msgstr "El codi de verificació ha vençut."
 
 #: .es5/lib/auth-errors.js:213
 msgid "Invalid recovery key"
-msgstr "La clau del recuperació no és vàlida"
+msgstr "La clau de recuperació no és vàlida"
 
 #: .es5/lib/auth-errors.js:217
 msgid "This request requires two step authentication enabled on your account."
@@ -685,7 +685,7 @@ msgstr "Cal un codi de recuperació"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
-msgstr "El codi del recuperació no és vàlid"
+msgstr "El codi de recuperació no és vàlid"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
@@ -883,7 +883,7 @@ msgstr "No es pot crear el compte"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Cal que compliu uns requisits d'edat per a crear un compte del Firefox."
+msgstr "Cal que compliu uns requisits d'edat per crear un compte del Firefox."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1050,7 +1050,7 @@ msgstr "Intenta-ho altre cop"
 
 #: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
-msgstr "Inicieu la sessió per a continuar"
+msgstr "Inicieu la sessió per continuar"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
@@ -1213,7 +1213,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr "Verifiqueu "
+msgstr "Verifiqueu"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
@@ -1536,7 +1536,7 @@ msgstr "Cal verificació"
 
 #: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr "Fer primari"
+msgstr "Converteix en primària"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1586,7 +1586,7 @@ msgstr "Autenticació en dos passos"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr "Activa..."
+msgstr "Activa…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
