@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-11 12:41+0000\n"
-"Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
+"PO-Revision-Date: 2018-12-23 18:29+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Heu connectat el vostre primer dispositiu al compte de Firefox. Per aprofitar Sync al màxim, connecteu <a href='%(androidUrl)s'>Firefox per a Android</a> o <a href='%(iosUrl)s'>Firefox per a iOS</"
-"a>."
+"Heu connectat el vostre primer dispositiu al compte de Firefox. Per aprofitar Sync al màxim, connecteu <a href='%(androidUrl)s'>Firefox per a Android</a> o <a href='%(iosUrl)s'>Firefox per a "
+"iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -140,7 +140,7 @@ msgstr "Gestiona el compte"
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Aquest és un missatge automàtic, si no heu autoritzat aquesta acció, sisplau <a %(passwordChangeLinkAttributes)s>canvieu la vostra contrasenya.</a>"
+msgstr "Aquest és un missatge automàtic, si no heu autoritzat aquesta acció, <a %(passwordChangeLinkAttributes)s>canvieu la vostra contrasenya.</a>"
 
 #: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
 #: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
@@ -232,8 +232,8 @@ msgstr "Primer, canvieu la contrasenya del compte de Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Segon, si el Firefox ha desat contrasenyes de llocs web, és recomanable que també les canvieu. Un intrús pot haver accedit a les contrasenyes, per tant, es recomanables que comproveu si s'ha "
-"produït alguna activitat sospitosa en aquests comptes."
+"Segon, si el Firefox ha desat contrasenyes de llocs web, és recomanable que també les canvieu. Un intrús pot haver accedit a les contrasenyes, per tant, es recomanables que comproveu si s'ha produït"
+" alguna activitat sospitosa en aquests comptes."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
