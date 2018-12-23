@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 18:29+0000\n"
+"PO-Revision-Date: 2018-12-23 18:52+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Heu connectat el vostre primer dispositiu al compte de Firefox. Ara podeu iniciar sessió al Sync des d'altres dispositius, inclosos Firefox per a <a href='%(androidUrl)s'>Android</a> i <a "
+"Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar sessió al Sync des d'altres dispositius, inclosos el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
 "href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
@@ -28,8 +28,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
-"Heu connectat el vostre primer dispositiu al compte de Firefox. Per aprofitar Sync al màxim, connecteu <a href='%(androidUrl)s'>Firefox per a Android</a> o <a href='%(iosUrl)s'>Firefox per a "
-"iOS</a>."
+"Heu connectat el vostre primer dispositiu al compte del Firefox. Per aprofitar el Sync al màxim, connecteu-hi el <a href='%(androidUrl)s'>Firefox per a l'Android</a> o el <a "
+"href='%(iosUrl)s'>Firefox per a l'iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -151,7 +151,7 @@ msgstr "Gestiona el compte:"
 
 #: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Aquest és un missatge automàtic, si no heu afegit un nou dispositiu al vostre compte de Firefox, és recomanables que canvieu la contrasenya immediatament %(passwordChangeLink)s"
+msgstr "Aquest és un missatge automàtic; si no heu afegit cap dispositiu nou al vostre compte del Firefox, canvieu la contrasenya immediatament des de %(passwordChangeLink)s"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -159,7 +159,7 @@ msgstr "La contrasenya s'ha restablert correctament"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "La contrasenya del compte de Firefox s'ha canviat des del següent dispositiu:"
+msgstr "La contrasenya del compte del Firefox s'ha canviat correctament des del dispositiu següent:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -167,7 +167,7 @@ msgstr "Aquest és un missatge automàtic, si no heu autoritzat aquesta acció, 
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Aquest és un missatge automàtic, si no heu canviat la contrasenya del compte de Firefox, és recomanable que la restabliu immediatament des de %(resetLink)s"
+msgstr "Aquest és un missatge automàtic; si no heu canviat la contrasenya del compte del Firefox, restabliu-la immediatament des de %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
@@ -285,7 +285,7 @@ msgstr "Heu habilitat l'autenticació en dos passos per al compte de Firefox. A 
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr "Nova adreça de correu electrònic principal"
+msgstr "Adreça electrònica principal nova"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
@@ -333,7 +333,7 @@ msgstr "S'ha eliminat una clau de recuperació per al vostre compte de Firefox d
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr "S'ha eliminat una adreça de correu electrònic secundària"
+msgstr "S'ha eliminat l'adreça electrònica secundària"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -383,7 +383,7 @@ msgstr "Inicieu la sessió al Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1
 msgid "Secondary email added"
-msgstr "S'ha afegit una adreça de correu electrònic secundària"
+msgstr "S'ha afegit l'adreça electrònica secundària"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."

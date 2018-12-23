@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-18 00:22+0000\n"
-"Last-Translator: Xènia <xeniaamoros@yahoo.es>\n"
+"PO-Revision-Date: 2018-12-23 18:47+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Ben tornat"
 
 #: .es5/views/ready.js:76
 msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync es reiniciara en un moment"
+msgstr "El Firefox Sync reprendrà la sincronització d'aquí a uns instants"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:85
 msgid "Your password has been reset"
@@ -76,7 +76,7 @@ msgstr "Les notificacions del compte també s'enviaran a  %(secondaryEmailVerifi
 
 #: .es5/views/ready.js:96
 msgid "Secondary email verified"
-msgstr "S'ha verificat una adreça de correu electrònic secundària"
+msgstr "S'ha verificat l'adreça electrònica secundària"
 
 #: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -108,12 +108,11 @@ msgstr "La contrasenya s'ha canviat correctament"
 
 #: .es5/views/settings/client_disconnect.js:21
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"Lamentem aquesta situació. És necessari que canvieu contrasenya del vostre compte de Firefox i busqueu informació del fabricant del vostre dispositiu per esborrar les vostres dades de manera remota."
+msgstr "Lamentem aquesta situació. Canvieu la contrasenya del vostre compte del Firefox i cerqueu informació del fabricant del dispositiu per esborrar les vostres dades de manera remota."
 
 #: .es5/views/settings/client_disconnect.js:22
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Lamentem aquesta situació. Si no confieu en aquest dispositiu, és necessari que canvieu la contrasenya del vostre compte de Firefox i així com qualsevol altra contrasenya guardada a Firefox."
+msgstr "Lamentem aquesta situació. Si no confieu en aquest dispositiu, canvieu la contrasenya del vostre compte del Firefox i totes les contrasenyes desades al Firefox."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -213,7 +212,7 @@ msgstr "S'ha actualitzat el nom a mostrar"
 
 #: .es5/views/settings/emails.js:91
 msgid "Secondary email removed"
-msgstr "S'ha eliminat una adreça de correu electrònic secundària"
+msgstr "S'ha eliminat l'adreça electrònica secundària"
 
 #: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
 msgid "Verification email sent"
@@ -221,11 +220,11 @@ msgstr "S'ha enviat un missatges de verificació"
 
 #: .es5/views/settings/emails.js:150
 msgid "Primary email set to %(email)s"
-msgstr "Adreça de correu electrònic principal és %(email)s"
+msgstr "L'adreça electrònica principal s'ha definit en %(email)s"
 
 #: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr "Adreça de correu electrònic secundària"
+msgstr "Adreça electrònica secundària"
 
 #: .es5/views/settings/recovery_codes.js:50
 msgid "Firefox Recovery Codes"
@@ -317,7 +316,7 @@ msgstr "S'ha imprès"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
 msgid "Primary email verified successfully"
-msgstr "L'adreça de correu electrònic principal s'ha verificat correctament"
+msgstr "L'adreça electrònica principal s'ha verificat correctament"
 
 #: .es5/views/behaviors/settings.js:35 .es5/models/auth_brokers/web.js:29
 msgid "Account verified successfully"
@@ -361,7 +360,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:80
 msgid "Secondary email verified successfully"
-msgstr "L'adreça de correu electrònic secundaria s'ha verificat correctament"
+msgstr "L'adreça electrònica secundària s'ha verificat correctament"
 
 #: .es5/models/auth_brokers/web.js:33
 msgid "Password reset successfully"
@@ -469,7 +468,7 @@ msgstr "S'ha retornat el missatges de correu electrònic"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned. Mistyped email?"
-msgstr "S'ha retornat el missatges de correu electrònic. Pot ser que l'adreça estigui mal escrita?"
+msgstr "S'ha retornat el missatge de correu electrònic. Pot ser que l'adreça estigui mal escrita?"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
@@ -610,7 +609,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:324
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Introduïu una adreça de correu vàlida. firefox.com no ofereix correu electrònic"
+msgstr "Introduïu una adreça electrònica vàlida. firefox.com no ofereix correu electrònic."
 
 #: .es5/lib/auth-errors.js:332
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -797,9 +796,7 @@ msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -865,8 +862,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1699,8 +1695,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1879,9 +1874,7 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
