@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 20:19+0000\n"
+"PO-Revision-Date: 2018-12-23 20:29+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr "Conegueu com Firefox recorda les contrasenyes."
+msgstr "Vegeu més informació sobre quines contrasenyes desa el Firefox."
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
@@ -504,11 +504,11 @@ msgstr "Preparats, llestos, sincronitzeu"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Confirmeu que heu rebut aquest correu i rebreu ajuda per instal·lar i sincronitzar Firefox a tots els vostres dispositius que comencin amb:"
+msgstr "Confirmeu que heu rebut aquest correu i us ajudarem a instal·lar i sincronitzar el Firefox en tots els vostres dispositius, començant per:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Després de la confirmació, rebreu ajuda per instal·lar i connectar Firefox com a mínim en un altre dispositiu."
+msgstr "Després de la confirmació, us ajudarem a instal·lar i connectar el Firefox com a mínim en un altre dispositiu."
 
 #: lib/senders/email.js:206
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -552,7 +552,7 @@ msgstr "Confirmeu el nou inici de sessió a %(clientName)s"
 
 #: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
-msgstr "Codi d'inici de sessió per a Firefox"
+msgstr "Codi d'inici de sessió per al Firefox"
 
 #: lib/senders/email.js:825
 msgid "Reset your Firefox Account password"
@@ -628,7 +628,7 @@ msgstr "S'està carregant"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Els comptes de Firefox necessiten JavaScript."
+msgstr "Els comptes del Firefox necessiten JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 20:18+0000\n"
+"PO-Revision-Date: 2018-12-23 20:25+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -60,11 +60,11 @@ msgstr "S'ha reiniciat la vostra contrasenya"
 
 #: .es5/views/ready.js:81 .es5/views/ready.js:86
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Per acabar la configuració introdueix la nova contrasenya a tots en què tinguis Firefox."
+msgstr "Per acabar la configuració, introdueix la contrasenya nova en els altres dispositius on hi tingueu el Firefox."
 
 #: .es5/views/ready.js:89
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Ara esteu a punt per fer canvis en el vostre compte del Firefox."
+msgstr "Esteu a punt per fer canvis en el vostre compte del Firefox."
 
 #: .es5/views/ready.js:91
 msgid "Primary email verified"
@@ -1557,7 +1557,7 @@ msgstr "Codis de recuperació"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr "OBSERVACIÓ:"
+msgstr "NOTA:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
