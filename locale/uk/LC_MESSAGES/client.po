@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:02+0000\n"
-"PO-Revision-Date: 2018-12-24 21:08+0000\n"
+"PO-Revision-Date: 2018-12-26 18:35+0000\n"
 "Last-Translator: Artem Polivanchuk <artem@mozilla.org.ua>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -32,7 +32,7 @@ msgstr "Увійти"
 
 #: .es5/views/permissions.js:59
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (обов'язково)"
+msgstr "%(permissionName)s (обов’язково)"
 
 #: .es5/views/permissions.js:64
 msgid "Email address"
@@ -657,11 +657,11 @@ msgstr "Це посилання для підтвердження вже бул�
 
 #: .es5/lib/auth-errors.js:422
 msgid "This is a required field"
-msgstr "Це обов'язкове поле"
+msgstr "Це обов’язкове поле"
 
 #: .es5/lib/auth-errors.js:426
 msgid "Authorization code required"
-msgstr "Код авторизації обов'язковий"
+msgstr "Код авторизації обов’язковий"
 
 #: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -669,7 +669,7 @@ msgstr "Посилання пошкоджене"
 
 #: .es5/lib/auth-errors.js:457
 msgid "Phone number required"
-msgstr "Номер телефону обов'язковий"
+msgstr "Номер телефону обов’язковий"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Two-step authentication code required"
