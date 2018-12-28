@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:02+0000\n"
+"POT-Creation-Date: 2018-12-28 16:02+0000\n"
 "PO-Revision-Date: 2018-12-08 20:15+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,47 +46,47 @@ msgstr "Näyttönimi"
 msgid "Account picture"
 msgstr "Tilin kuva"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:71
 msgid "Welcome back"
 msgstr "Tervetuloa takaisin"
 
-#: .es5/views/ready.js:76
+#: .es5/views/ready.js:72
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync jatkaa hetken kuluttua"
 
-#: .es5/views/ready.js:80 .es5/views/ready.js:85
+#: .es5/views/ready.js:76 .es5/views/ready.js:81
 msgid "Your password has been reset"
 msgstr "Salasanasi on nollattu"
 
-#: .es5/views/ready.js:81 .es5/views/ready.js:86
+#: .es5/views/ready.js:77 .es5/views/ready.js:82
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Viimeistele asennus syöttämällä uusi salasana muihin Firefox-laitteisiisi."
 
-#: .es5/views/ready.js:89
+#: .es5/views/ready.js:85
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Olet nyt valmis tekemään muutoksia Firefox-tiliisi."
 
-#: .es5/views/ready.js:91
+#: .es5/views/ready.js:87
 msgid "Primary email verified"
 msgstr "Ensisijainen sähköposti vahvistettu"
 
-#: .es5/views/ready.js:94
+#: .es5/views/ready.js:90
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Tilin ilmoitukset lähetetään nyt myös osoitteeseen %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:96
+#: .es5/views/ready.js:92
 msgid "Secondary email verified"
 msgstr "Toissijainen sähköposti vahvistettu"
 
-#: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:97 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Kirjautuminen vahvistettu"
 
-#: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
 
-#: .es5/views/ready.js:106
+#: .es5/views/ready.js:102
 msgid "Account verified"
 msgstr "Tili on vahvistettu"
 
@@ -222,7 +222,7 @@ msgstr "Vahvistussähköposti lähetettiin"
 msgid "Primary email set to %(email)s"
 msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
 
-#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:21
 msgid "Secondary email"
 msgstr "Toissijainen sähköposti"
 
@@ -250,7 +250,7 @@ msgstr "Kaksivaiheinen todennus poistettu käytöstä"
 msgid "Two-step Authentication"
 msgstr "Kaksivaiheinen todennus"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:117
+#: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Tilin palauttaminen"
 
@@ -984,7 +984,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty kirjautumisen vahvistuslinkki"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:18 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ei saapuneissa tai roskapostissa? Lähetä uudestaan"
 
@@ -1131,7 +1131,7 @@ msgstr "Hyväksy"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
+#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
@@ -1390,7 +1390,7 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Tyhjennä"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:24
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Valmis"
@@ -1540,28 +1540,28 @@ msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi t
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Toissijainen sähköpostiosoite on lisäosoite, jota käytetään tietoturvaan liittyviä ilmoituksia ja uusien laitteiden vahvistusta varten."
 
-#: .es5/templates/settings/emails.mustache:7
+#: .es5/templates/settings/emails.mustache:9
 msgid "verified"
 msgstr "vahvistettu"
 
-#: .es5/templates/settings/emails.mustache:9
+#: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
 msgstr "vahvistaminen vaaditaan"
 
-#: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
+#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Make primary"
 msgstr "Tee ensisijaiseksi"
 
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
+#: .es5/templates/settings/emails.mustache:14 .es5/templates/settings/emails.mustache:17
 msgid "Remove"
 msgstr "Poista"
 
-#: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Päivitä tila"
 
-#: .es5/templates/settings/emails.mustache:24
+#: .es5/templates/settings/emails.mustache:26
 msgid "Add"
 msgstr "Lisää"
 

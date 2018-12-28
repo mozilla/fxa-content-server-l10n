@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:02+0000\n"
+"POT-Creation-Date: 2018-12-28 16:02+0000\n"
 "PO-Revision-Date: 2018-11-24 14:24+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,47 +46,47 @@ msgstr "Weergavenaam"
 msgid "Account picture"
 msgstr "Accountafbeelding"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:71
 msgid "Welcome back"
 msgstr "Welkom terug"
 
-#: .es5/views/ready.js:76
+#: .es5/views/ready.js:72
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync zal over enkele ogenblikken worden hervat"
 
-#: .es5/views/ready.js:80 .es5/views/ready.js:85
+#: .es5/views/ready.js:76 .es5/views/ready.js:81
 msgid "Your password has been reset"
 msgstr "Uw wachtwoord is opnieuw ingesteld"
 
-#: .es5/views/ready.js:81 .es5/views/ready.js:86
+#: .es5/views/ready.js:77 .es5/views/ready.js:82
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Voltooi de installatie door het nieuwe wachtwoord op uw andere Firefox-apparaten in te vullen."
 
-#: .es5/views/ready.js:89
+#: .es5/views/ready.js:85
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "U kunt nu wijzigingen aan uw Firefox-account aanbrengen."
 
-#: .es5/views/ready.js:91
+#: .es5/views/ready.js:87
 msgid "Primary email verified"
 msgstr "Primair e-mailadres geverifieerd"
 
-#: .es5/views/ready.js:94
+#: .es5/views/ready.js:90
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Accountmeldingen worden nu ook naar %(secondaryEmailVerified)s verzonden."
 
-#: .es5/views/ready.js:96
+#: .es5/views/ready.js:92
 msgid "Secondary email verified"
 msgstr "Secundair e-mailadres geverifieerd"
 
-#: .es5/views/ready.js:101 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:97 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Aanmelding bevestigd"
 
-#: .es5/views/ready.js:102 .es5/views/ready.js:107 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: .es5/views/ready.js:106
+#: .es5/views/ready.js:102
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
@@ -222,7 +222,7 @@ msgstr "Verificatie-e-mail verzonden"
 msgid "Primary email set to %(email)s"
 msgstr "Primair e-mailadres ingesteld op %(email)s"
 
-#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:19
+#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:21
 msgid "Secondary email"
 msgstr "Secundair e-mailadres"
 
@@ -250,7 +250,7 @@ msgstr "Authenticatie in twee stappen verwijderd"
 msgid "Two-step Authentication"
 msgstr "Authenticatie in twee stappen"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:117
+#: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Accountherstel"
 
@@ -985,7 +985,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Controleer uw e-mail op de bevestigingskoppeling voor aanmelding die naar %(escapedEmail)s is verzonden"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:18 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Niet in Postvak IN of map met spam? Opnieuw verzenden"
 
@@ -1133,7 +1133,7 @@ msgstr "Accepteren"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:25
+#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
 msgid "Cancel"
@@ -1392,7 +1392,7 @@ msgstr "Camera"
 msgid "Clear"
 msgstr "Wissen"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:22
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:24
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Gereed"
@@ -1544,28 +1544,28 @@ msgstr "Kies de naam die u in Firefox en bij het beheren van uw account wilt lat
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Een secundair e-mailadres is een aanvullend adres voor het ontvangen van beveiligingsmeldingen en het bevestigen van nieuwe apparaten."
 
-#: .es5/templates/settings/emails.mustache:7
+#: .es5/templates/settings/emails.mustache:9
 msgid "verified"
 msgstr "geverifieerd"
 
-#: .es5/templates/settings/emails.mustache:9
+#: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
 msgstr "verificatie vereist"
 
-#: .es5/templates/settings/emails.mustache:10 .es5/templates/settings/emails.mustache:13
+#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Make primary"
 msgstr "Primair maken"
 
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
+#: .es5/templates/settings/emails.mustache:14 .es5/templates/settings/emails.mustache:17
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: .es5/templates/settings/emails.mustache:20 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
 msgstr "Status vernieuwen"
 
-#: .es5/templates/settings/emails.mustache:24
+#: .es5/templates/settings/emails.mustache:26
 msgid "Add"
 msgstr "Toevoegen"
 
