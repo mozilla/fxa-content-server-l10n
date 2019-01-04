@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-12-10 17:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,8 +903,8 @@ msgid "Choose what to sync"
 msgstr "चुनें क्या साथ करना है"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "सेटिंग्स सहेजें"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1747,6 +1747,9 @@ msgstr "Firefox संकालन करना चाहते हैं? <a %(
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "किसी भिन्न ईमेल पते का उपयोग करें"
+
+#~ msgid "Save settings"
+#~ msgstr "सेटिंग्स सहेजें"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "अज्ञात Firefox खाता. <a href=\"/signup\">साइन अप</a> करें अपने ऐड-ऑन डेटा तक पहुँचने के लिए अपने पिछले ऐड-ऑन खाता ईमेल पते का उपयोग करें."

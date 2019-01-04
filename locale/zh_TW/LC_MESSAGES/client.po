@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-11-24 02:30+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -901,8 +901,8 @@ msgid "Choose what to sync"
 msgstr "選擇要同步的內容"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "儲存設定"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1741,6 +1741,9 @@ msgstr "在找 Firefox Sync 嗎？<a %(escapedSyncSuggestionAttrs)s>從此處開
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "使用不同的電子郵件信箱"
+
+#~ msgid "Save settings"
+#~ msgstr "儲存設定"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "未知的 Firefox 帳號。請使用您先前的附加元件站帳號的電子郵件地址 <a href=\"/signup\">註冊</a> Firefox 帳號，即可取回原先的資料。"

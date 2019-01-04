@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-11-24 12:19+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -905,8 +905,8 @@ msgid "Choose what to sync"
 msgstr "Auswählen, was synchronisiert werden soll"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "Einstellungen speichern"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1766,6 +1766,9 @@ msgstr "Suchen Sie Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Hier geht es 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Eine andere E-Mail-Adresse verwenden"
+
+#~ msgid "Save settings"
+#~ msgstr "Einstellungen speichern"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "Unbekanntes Firefox-Konto. Sie können sich mit der E-Mail-Adresse Ihres alten Add-ons-Kontos <a href=\"/signup\">registrieren</a>, um auf Ihre Add-ons-Daten zuzugreifen."

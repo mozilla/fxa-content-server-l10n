@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2017-12-01 04:25+0000\n"
 "Last-Translator: cmalatheef <cmalatheef@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -900,8 +900,8 @@ msgid "Choose what to sync"
 msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പിക്കേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "സജ്ജീകരണങ്ങൾ സേവ് ചെയ്യുക"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1740,6 +1740,9 @@ msgstr ""
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Save settings"
+#~ msgstr "സജ്ജീകരണങ്ങൾ സേവ് ചെയ്യുക"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "അജ്ഞാതമായ ഫയർഫോക്സ് അക്കൗണ്ട്. <a href=\"/signup\">Sign up</a> പഴയ Add-ons അക്കൗണ്ടിന്റെ ഈ-മെയിൽ ഉപയോഗിച്ച് Add-ons വസ്‌തുതകള്‍ സമീപിക്കുന്നു."

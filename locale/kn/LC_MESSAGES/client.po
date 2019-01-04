@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-11-17 20:03+0000\n"
 "Last-Translator: pavithra.chihan <pavithra.chihan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -900,8 +900,8 @@ msgid "Choose what to sync"
 msgstr "ಏನು ಸಿಂಕ್ ಮಾಡಿಕೊಳ್ಳಬಹುದೆಂದು ಆಯ್ಕೆಮಾಡು"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "ಸಿದ್ಧತೆಗಳನ್ನು ಉಳಿಸು"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1740,6 +1740,9 @@ msgstr ""
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Save settings"
+#~ msgstr "ಸಿದ್ಧತೆಗಳನ್ನು ಉಳಿಸು"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "ಯಶಸ್ವಿಯಾಗಿ ಚಂದದಾರದಿಂದ ಹೊರಬಂದಿರಿ"
