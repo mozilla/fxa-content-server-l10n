@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-12-16 12:27+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -905,8 +905,8 @@ msgid "Choose what to sync"
 msgstr "Nəyi sinxronlaşdıracağınızı seçin"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "Tənzimləmələri yadda saxla"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1754,6 +1754,9 @@ msgstr "Firefox Sync ilə maraqlanırsız? <a %(escapedSyncSuggestionAttrs)s>Bur
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Fərqli e-poçt ünvanı işlət"
+
+#~ msgid "Save settings"
+#~ msgstr "Tənzimləmələri yadda saxla"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "Bilinməyən Firefox Hesabı. Əlavələr məlumatlarınız üçün əvvəlki Əlavələr e-poçt hesabınızla <a href=\"/signup\">qeyd olun</a>."

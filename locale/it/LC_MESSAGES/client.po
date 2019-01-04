@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-12-03 13:32+0000\n"
 "Last-Translator: Sav22999 <saverio.morelli@outlook.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -909,8 +909,8 @@ msgid "Choose what to sync"
 msgstr "Scegli che cosa sincronizzare"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "Salva impostazioni"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1766,6 +1766,9 @@ msgstr "Vuoi provare Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Inizia da q
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Usa un altro indirizzo email"
+
+#~ msgid "Save settings"
+#~ msgstr "Salva impostazioni"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "Account Firefox non riconosciuto. Per consultare i tuoi dati <a href=\"/signup\">accedi</a> con l'indirizzo email che utilizzavi per gestire i componenti aggiuntivi."

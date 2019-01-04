@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 
 #: .es5/views/confirm_reset_password.js:206
 msgid "Password reset"
@@ -1004,7 +1004,7 @@ msgid "Choose what to sync"
 msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
+msgid "Save selections"
 msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6

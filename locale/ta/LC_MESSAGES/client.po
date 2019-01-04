@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-04-24 18:20+0000\n"
 "Last-Translator: Selva Makilan <66makilan66@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,8 +903,8 @@ msgid "Choose what to sync"
 msgstr "எதை ஒத்திசைக்க வேண்டும் என்பதைத் தேர்"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "அமைவுகளைச் சேமி"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1743,6 +1743,9 @@ msgstr "பயர்பாக்சு ஒத்திசைவை தேடு�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Save settings"
+#~ msgstr "அமைவுகளைச் சேமி"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."

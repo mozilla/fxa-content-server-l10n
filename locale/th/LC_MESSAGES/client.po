@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2018-12-16 00:46+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -901,8 +901,8 @@ msgid "Choose what to sync"
 msgstr "เลือกสิ่งที่จะซิงค์"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "บันทึกการตั้งค่า"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1743,6 +1743,9 @@ msgstr "กำลังมองหา Firefox Sync? <a %(escapedSyncSuggestionA
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "ใช้อยู่อีเมลอื่น"
+
+#~ msgid "Save settings"
+#~ msgstr "บันทึกการตั้งค่า"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\">ลงทะเบียน</a> ด้วยการใช้บัญชีอีเมล Add-ons อันก่อนเพื่อเข้าถึงข้อมูล Add-ons ของคุณ"

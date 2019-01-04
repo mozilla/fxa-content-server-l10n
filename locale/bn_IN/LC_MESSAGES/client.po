@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-28 16:02+0000\n"
+"POT-Creation-Date: 2019-01-04 16:02+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,8 +903,8 @@ msgid "Choose what to sync"
 msgstr "চয়ন করুন কি সিঙ্ক করতে হবে"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
-msgid "Save settings"
-msgstr "সেটিংস্‌গুলি সেভ করুন"
+msgid "Save selections"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1743,6 +1743,9 @@ msgstr ""
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr ""
+
+#~ msgid "Save settings"
+#~ msgstr "সেটিংস্‌গুলি সেভ করুন"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 #~ msgstr "অজানা Firefox অ্যাকাউন্ট। আপনার পূর্ববর্তী অ্যাড-অন অ্যাকাউন্টের ইমেইল ঠিকানা ব্যবহার করে <a href=\"/signup\">সাইন আপ</a> করুন আপনার অ্যাড-অন ডাটা অ্যাক্সেস করার জন্য।"
