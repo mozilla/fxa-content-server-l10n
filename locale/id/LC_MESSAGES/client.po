@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2018-11-24 05:54+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434890279.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Penyetelan ulang sandi"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Sandi sukses disetel ulang. Masuk untuk melanjutkan."
 
@@ -102,7 +102,7 @@ msgstr "Akun sudah tidak ada. Buat ulang?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Sandi sukses diganti"
 

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2018-11-24 23:51+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
+"PO-Revision-Date: 2019-01-04 18:24+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438877493.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Lösenordet återställdes"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lösenordet återställt. Logga in för att fortsätta."
 
@@ -102,7 +102,7 @@ msgstr "Kontot existerar inte längre. Återskapa det?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Lösenordet ändrades"
 
@@ -906,7 +906,7 @@ msgstr "Välj vad som ska synkas"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "Spara val"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"

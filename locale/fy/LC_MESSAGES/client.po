@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2018-11-26 09:24+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
+"PO-Revision-Date: 2019-01-07 19:24+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444650468.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Wachtwurd opnij ynsteld"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 
@@ -102,7 +102,7 @@ msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Wachtwurd mei sukses wizige"
 
@@ -906,7 +906,7 @@ msgstr "Kies wat jo syngronisearje wolle"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "Seleksjes bewarje"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"

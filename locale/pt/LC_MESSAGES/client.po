@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 20:49+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
+"PO-Revision-Date: 2019-01-04 23:18+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Reposição da palavra-passe"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Palavra-passe reposta com sucesso. Inicie sessão para continuar."
 
@@ -101,7 +101,7 @@ msgstr "A conta já não existe. Pretende recreá-la?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Palavra-passe alterada com sucesso"
 
@@ -908,7 +908,7 @@ msgstr "Escolha o que sincronizar"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "Guardar seleções"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"

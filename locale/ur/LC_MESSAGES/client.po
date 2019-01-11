@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2018-12-21 06:11+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "پاس ورڈ دوبارہ سیٹ کریں"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "پاس ورڈ کامیابی سے پھر سیٹ ہو چکا ہے۔ جاری رکھنے کے لئے سائن ان کرے۔"
 
@@ -101,7 +101,7 @@ msgstr "اکاؤنٹ اب موجود نہیں ۔ اس کو دوبارہ تخلی
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "اکائونٹ پہلے سے موجود ہے۔ <a href=\"/signin\">سائن ان کریں</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "پاس ورڈ کامیابی سے تبدیل کر دیا گیا"
 

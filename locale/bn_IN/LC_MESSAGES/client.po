@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432443511.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "পাসওয়ার্ড পুনরায় সেট হয়েছে"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "পাসওয়ার্ড সফলভাবে রিসেট করা হয়েছে। চালিয়ে যেতে সাইন ইন করুন।"
 
@@ -102,7 +102,7 @@ msgstr "অ্যাকাউন্টের আর অস্থিত্ব ন
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট ইতিমধ্যেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "সফলভাবে পাসওয়ার্ড বদল করা হয়েছে"
 

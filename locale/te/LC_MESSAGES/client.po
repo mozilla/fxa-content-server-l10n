@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2018-11-07 11:47+0000\n"
 "Last-Translator: pallavitulluri22 <pallavitulluri22@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "పాస్‌వర్డ్ రీసెట్"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి సైన్ ఇన్ అవ్వండి."
 
@@ -101,7 +101,7 @@ msgstr "ఈ ఖాతా ఇపుడు లేనేలేదు. తిరి�
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">ప్రవేశించండి</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "సంకేతపదం విజయవంతంగా మార్చబడింది"
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2019-01-11 11:16+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Resetarea parolei"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 
@@ -102,7 +102,7 @@ msgstr "Contul nu mai există. Îl recreezi?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Contul există deja. <a href=\"/signin\">Autentifică-te</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Parolă schimbată cu succes"
 
@@ -806,7 +806,9 @@ msgid "Invalid Token"
 msgstr "Jeton invalid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, agreezi <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Politica de confidențialitate</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -874,7 +876,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Te rugăm să introduci cheia de recuperare de unică folosință pe care ai păstrat-o într-un loc sigur pentru a recupera accesul la contul tău Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OBS:</span> Dacă resetezi parola și ai cheia de recuperare a contului salvată, unele date vor fi șterse (inclusiv datele sincronizate de pe server, precum istoricul și "
 "marcajele)."
@@ -1724,7 +1727,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Pasul 2 din 2: Salvează cheia de recuperare"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">ȚINE MINTE:</span> Dacă uiți parola, vei avea nevoie de cheie ca să ai din nou acces la datele tale. Salvează cheia de recuperare într-un loc sigur, unde o poți găsi ușor mai "
 "târziu."
@@ -1912,8 +1916,8 @@ msgstr "Folosește o altă adresă de e-mail"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Serviciul SMS este disponibil numai pentru numere de telefon din S.U.A. Se pot aplica tarife pentru SMS-uri și transferuri de date. Destinatarul vizat al e-mailului sau al SMS-ului trebuie să își fi"
-#~ " dat consimțământul. <a %(escapedLearnMoreAttributes)s>Află mai multe</a>"
+#~ "Serviciul SMS este disponibil numai pentru numere de telefon din S.U.A. Se pot aplica tarife pentru SMS-uri și transferuri de date. Destinatarul vizat al e-mailului sau al SMS-ului trebuie să "
+#~ "își fi dat consimțământul. <a %(escapedLearnMoreAttributes)s>Află mai multe</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Poate mai târziu"
@@ -1925,11 +1929,11 @@ msgstr "Folosește o altă adresă de e-mail"
 #~ msgstr "De ce să sincronizezi două (sau mai multe) dispozitive?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe telefon"
-#~ " sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
+#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe "
+#~ "telefon sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2044,15 +2048,15 @@ msgstr "Folosește o altă adresă de e-mail"
 #~ msgstr "Autentificare"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ATENȚIE:</span> Dacă îți resetezi parola, o parte din datele tale se vor șterge (inclusiv datele sincronizate pe server cum ar fi istoricul și marcajele). Aceasta se întâmplă deoarece noi "
 #~ "criptăm datele tale cu parola ta pentru a-ți proteja confidențialitatea."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>NOTĂ:</span> Dacă resetezi parola, o parte din datele dale se vor șterge (inclusiv date sincronizate pe server cum ar fi istoricul și marcajele). Aceasta se întâmplă deoarece noi criptăm "
 #~ "datele tale cu parola ta pentru a-ți proteja confidențialitatea."
@@ -2159,18 +2163,19 @@ msgstr "Folosește o altă adresă de e-mail"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferințe de sincronizare"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Cauți Sincronizare Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Începe aici</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">Autentifică-te</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Activ ultima dată: %(translatedTimeAgo)s"

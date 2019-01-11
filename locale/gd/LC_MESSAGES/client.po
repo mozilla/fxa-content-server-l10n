@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-11 16:02+0000\n"
 "PO-Revision-Date: 2018-11-04 15:27+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "Facal-faire air ath-shuidheachadh"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Chaidh am facal-faire ath-shuidheachadh. Clàraich a-steach a leantainn air adhart."
 
@@ -101,7 +101,7 @@ msgstr "Chan eil an cunntas seo ann tuilleadh. A bheil thu airson ath-chruthacha
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tha an cunntas seo ann mu thràth. <a href=\"/signin\">Clàraich a-steach</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "Chaidh am facal-faire atharrachadh"
 
