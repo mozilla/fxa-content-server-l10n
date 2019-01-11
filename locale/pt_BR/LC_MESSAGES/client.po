@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-10 20:57+0000\n"
+"PO-Revision-Date: 2019-01-11 16:49+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1301,7 +1301,7 @@ msgstr "Criar conta"
 
 #: .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
-msgstr "Tem uma conta? Identifique-se"
+msgstr "Já tem uma conta? Identifique-se"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
