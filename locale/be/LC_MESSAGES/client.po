@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2018-10-10 18:30+0000\n"
+"PO-Revision-Date: 2019-01-15 10:10+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -63,7 +63,7 @@ msgstr "Закончыце наладку, увёўшы новы пароль н
 
 #: .es5/views/ready.js:85
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Цяпер вы гатовы рабіць змены ў сваім уліковым запісе Firefox."
 
 #: .es5/views/ready.js:87
 msgid "Primary email verified"
@@ -71,7 +71,7 @@ msgstr "Асноўны адрас эл.пошты пацверджаны"
 
 #: .es5/views/ready.js:90
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Абвесткі ўліковага запісу будуць таксама дасылацца на %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:92
 msgid "Secondary email verified"
@@ -107,11 +107,11 @@ msgstr "Пароль паспяхова зменены"
 
 #: .es5/views/settings/client_disconnect.js:21
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Нам шкада чуць пра гэта. Вам варта змяніць пароль свайго ўліковага запісу Firefox і пашукаць інфармацыю ад вытворцы вашай прылады пра аддаленае сціранне дадзеных."
 
 #: .es5/views/settings/client_disconnect.js:22
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Нам шкада чуць пра гэта. Калі гэта была прылада, якой вы сапраўды не давяраеце, вам варта змяніць пароль свайго ўліковага запісу Firefox і ўсе паролі, захаваныя ў Firefox."
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
@@ -123,15 +123,15 @@ msgstr "Апошняя сінхранізацыя больш за %(translatedTi
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:51
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя больш за %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:54
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -795,9 +795,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -863,8 +861,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1697,8 +1694,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
