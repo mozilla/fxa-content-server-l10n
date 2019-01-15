@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-15 10:10+0000\n"
+"PO-Revision-Date: 2019-01-15 10:18+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -135,7 +135,7 @@ msgstr "Апошняя сінхранізацыя %(translatedTimeAgo)s бліз
 
 #: .es5/views/settings/clients.js:55
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя сінхранізацыя больш за %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last active %(translatedTimeAgo)s"
@@ -143,23 +143,23 @@ msgstr "Апошняя актыўнасць %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Апошняя актыўнасць больш за %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць больш за %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць больш за %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
@@ -171,11 +171,11 @@ msgstr "Больш за %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Больш за %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -235,7 +235,7 @@ msgstr "Згенераваны новыя коды аднаўлення"
 
 #: .es5/views/settings/recovery_codes.js:111 .es5/views/settings/two_step_authentication.js:143
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Двухэтапная аўтарызацыя ўключана"
 
 #: .es5/views/settings/two_step_authentication.js:114
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -243,11 +243,11 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:127
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Двухэтапная аўтарызацыя выдалена"
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Двухэтапная аўтарызацыя"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
@@ -259,7 +259,7 @@ msgstr "Адноўны ключ Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:45 .es5/lib/auth-errors.js:115
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ваш уліковы запіс заблакавыны з меркаванняў бяспекі"
 
 #: .es5/views/mixins/account-reset-mixin.js:45 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
