@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-15 10:18+0000\n"
+"PO-Revision-Date: 2019-01-16 19:58+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -560,7 +560,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:254
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Паролі не супадаюць"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Working…"
@@ -997,7 +997,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Адрас эл.пошты пацверджаны"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
 msgid "Success"
