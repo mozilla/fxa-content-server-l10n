@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-16 19:58+0000\n"
+"PO-Revision-Date: 2019-01-17 18:29+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -535,7 +535,7 @@ msgstr "Сервер заняты, паспрабуйце зноў крыху п
 
 #: .es5/lib/auth-errors.js:226
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Функцыя не ўключана"
 
 #: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
@@ -548,7 +548,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:242
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Спроба ўваходу скасавана"
 
 #: .es5/lib/auth-errors.js:246
 msgid "Session expired. Sign in to continue."
