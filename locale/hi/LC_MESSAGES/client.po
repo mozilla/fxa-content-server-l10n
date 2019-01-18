@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 16:02+0000\n"
+"POT-Creation-Date: 2019-01-18 16:02+0000\n"
 "PO-Revision-Date: 2018-12-10 17:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
-#: .es5/views/confirm_reset_password.js:206
+#: .es5/views/confirm_reset_password.js:207
 msgid "Password reset"
 msgstr "कूटशब्द पुनः तैयार करें"
 
-#: .es5/views/confirm_reset_password.js:222
+#: .es5/views/confirm_reset_password.js:223
 msgid "Password reset successfully. Sign in to continue."
 msgstr "कूटशब्द सफलतापूर्वक बदला गया. जारी रखने के लिए साइन इन करें."
 
@@ -104,7 +104,7 @@ msgstr "खाता अब मौजूद नहीं है. इसका �
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
-#: .es5/views/settings/change_password.js:46
+#: .es5/views/settings/change_password.js:69
 msgid "Password changed successfully"
 msgstr "कूटशब्द सफलतापूर्वक बदला गया"
 
@@ -228,15 +228,15 @@ msgstr "प्राथमिक ईमेल को %(email)s सेट कि�
 msgid "Secondary email"
 msgstr "द्वितीयक मेल"
 
-#: .es5/views/settings/recovery_codes.js:50
+#: .es5/views/settings/recovery_codes.js:75
 msgid "Firefox Recovery Codes"
 msgstr "Firefox पुनर्प्राप्त कोड"
 
-#: .es5/views/settings/recovery_codes.js:77
+#: .es5/views/settings/recovery_codes.js:102
 msgid "New recovery codes generated"
 msgstr "नए पुनर्प्राप्त कोड बनाये गये"
 
-#: .es5/views/settings/recovery_codes.js:111 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
 msgid "Two-step authentication enabled"
 msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
