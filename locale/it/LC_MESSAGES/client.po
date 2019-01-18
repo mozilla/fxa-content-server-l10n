@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-18 08:32+0000\n"
+"PO-Revision-Date: 2019-01-18 08:34+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -236,7 +236,7 @@ msgstr "Codici di recupero per Firefox"
 
 #: .es5/views/settings/recovery_codes.js:77
 msgid "New recovery codes generated"
-msgstr "Generati nuovi codici di ripristino"
+msgstr "Generati nuovi codici di recupero"
 
 #: .es5/views/settings/recovery_codes.js:111 .es5/views/settings/two_step_authentication.js:143
 msgid "Two-step authentication enabled"
@@ -685,11 +685,11 @@ msgstr "Codice di autenticazione in due passaggi non valido"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Recovery code required"
-msgstr "È richiesto il codice di ripristino"
+msgstr "È richiesto il codice di recupero"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid recovery code"
-msgstr "Codice di ripristino non valido"
+msgstr "Codice di recupero non valido"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Recovery key required"
@@ -1214,15 +1214,15 @@ msgstr "Non controlli più questo indirizzo email? Crea un nuovo account"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr "Inserire il codice di ripristino"
+msgstr "Inserire il codice di recupero"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Inserire uno dei codici di ripristino ricevuti in fase di configurazione."
+msgstr "Inserire uno dei codici di recupero ricevuti in fase di configurazione."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr "Inserisci il codice di ripristino di 10 cifre"
+msgstr "Inserisci il codice di recupero di 10 cifre"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1266,7 +1266,7 @@ msgstr "Inserisci il codice di 6 cifre"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr "Utilizzare il codice di ripristino"
+msgstr "Utilizzare il codice di recupero"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1572,7 +1572,7 @@ msgstr "Aggiungi"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr "Codici di ripristino"
+msgstr "Codici di recupero"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"

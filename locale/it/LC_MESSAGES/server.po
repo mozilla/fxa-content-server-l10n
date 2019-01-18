@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-18 08:33+0000\n"
+"PO-Revision-Date: 2019-01-18 08:36+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -302,23 +302,23 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
 msgid "Recovery code consumed"
-msgstr "Ripristina codice utilizzato"
+msgstr "Codice di recupero utilizzato"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Hai utilizzato uno dei codici di ripristino dal seguente dispositivo:"
+msgstr "Hai utilizzato uno dei codici di recupero dal seguente dispositivo:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr "Codice di ripristino utilizzato"
+msgstr "Codice di recupero utilizzato"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1134
 msgid "New recovery codes generated"
-msgstr "Nuovi codici di ripristino generati"
+msgstr "Nuovi codici di recupero generati"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Nuovi codici di ripristino sono stati generati correttamente dal seguente dispositivo:"
+msgstr "Nuovi codici di recupero sono stati generati correttamente dal seguente dispositivo:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1260
 msgid "Account recovery key removed"
