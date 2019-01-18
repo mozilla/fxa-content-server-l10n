@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-04 16:02+0000\n"
-"PO-Revision-Date: 2019-01-11 09:05+0000\n"
+"PO-Revision-Date: 2019-01-18 08:32+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1230,7 +1230,7 @@ msgstr "Verifica"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr "Usa il codice di sicurezza"
+msgstr "Usa il codice di verifica"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1254,11 +1254,11 @@ msgstr "Inserisci il codice"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr "Inserisci il codice di sicurezza"
+msgstr "Inserisci il codice di verifica"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Apri l’app di autenticazione e inserisci il codice di sicurezza che genera."
+msgstr "Apri l’app di autenticazione e inserisci il codice di verifica che genera."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1611,7 +1611,7 @@ msgstr "Attiva…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Aggiungi un livello di sicurezza al tuo account richiedendo i codici di sicurezza con una di queste <a %(escapedTotpSupportAttributes)s>applicazioni di autenticazione</a>."
+msgstr "Aggiungi un livello di sicurezza al tuo account richiedendo i codici di verifica con una di queste <a %(escapedTotpSupportAttributes)s>applicazioni di autenticazione</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1639,7 +1639,7 @@ msgstr "Sostituisci i codici di recupero"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Scansiona il codice QR nella tua applicazione di autenticazione, poi inserisci il codice di sicurezza ottenuto."
+msgstr "Scansiona il codice QR nella tua applicazione di autenticazione, poi inserisci il codice di verifica ottenuto."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1651,7 +1651,7 @@ msgstr "Inserisci manualmente la chiave segreta nell’app di autenticazione:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr "Codice di sicurezza"
+msgstr "Codice di verifica"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
