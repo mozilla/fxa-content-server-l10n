@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-01-25 16:02+0000\n"
 "PO-Revision-Date: 2019-01-04 17:43+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr "Account no longer exists. Recreate it?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account already exists. <a href=\"/signin\">Sign in</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:81
 msgid "Password changed successfully"
 msgstr "Password changed successfully"
 
@@ -694,17 +694,17 @@ msgstr "Recovery key required"
 msgid "Please enter verification code"
 msgstr "Please enter verification code"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Error connecting to remote device"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "Invalid message from the remote device"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "Could not decrypt message from the remote device"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -938,7 +938,7 @@ msgstr "You have successfully restored your account using your recovery key. Cre
 msgid "New password"
 msgstr "New password"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:8
 msgid "Re-enter password"
 msgstr "Re-enter password"
 
@@ -1128,7 +1128,7 @@ msgstr "%(serviceName)s wants the following information from your account:"
 msgid "Accept"
 msgstr "Accept"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:10
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
@@ -1397,7 +1397,7 @@ msgstr "Done"
 msgid "Position and rotate your picture as needed"
 msgstr "Position and rotate your picture as needed"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Change"
 
@@ -1753,6 +1753,12 @@ msgstr "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started 
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Use a different email address"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Error connecting to remote device"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Could not decrypt message from the remote device"
 
 #~ msgid "Save settings"
 #~ msgstr "Save settings"

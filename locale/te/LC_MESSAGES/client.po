@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-01-25 16:02+0000\n"
 "PO-Revision-Date: 2018-11-07 11:47+0000\n"
 "Last-Translator: pallavitulluri22 <pallavitulluri22@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr "ఈ ఖాతా ఇపుడు లేనేలేదు. తిరి�
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">ప్రవేశించండి</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:81
 msgid "Password changed successfully"
 msgstr "సంకేతపదం విజయవంతంగా మార్చబడింది"
 
@@ -694,16 +694,16 @@ msgstr ""
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr ""
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr ""
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
 msgstr ""
 
 #: .es5/lib/config-loader.js:105
@@ -933,7 +933,7 @@ msgstr ""
 msgid "New password"
 msgstr "కొత్త సంకేతపదం"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:8
 msgid "Re-enter password"
 msgstr "సంకేతపదాన్ని మరలా ప్రవేశపెట్టండి"
 
@@ -1123,7 +1123,7 @@ msgstr "%(serviceName)s మీ ఖాతా నుండి కింది స�
 msgid "Accept"
 msgstr "అంగీకరించు"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:10
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
@@ -1389,7 +1389,7 @@ msgstr "పూర్తయింది"
 msgid "Position and rotate your picture as needed"
 msgstr "మీ చిత్రాన్ని తగినంత రొటేట్ మరియు సరి చేయండి"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "మార్చు"
 

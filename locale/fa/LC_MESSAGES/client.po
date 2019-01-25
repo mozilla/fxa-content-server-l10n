@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-01-25 16:02+0000\n"
 "PO-Revision-Date: 2018-11-14 08:37+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr "این حساب دیگر وجود ندارد. دوباره ساخته ش
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد شوید</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:81
 msgid "Password changed successfully"
 msgstr "گذرواژه با موفقیت تغییر کرد"
 
@@ -695,17 +695,17 @@ msgstr "کلید بازیابی نیاز است"
 msgid "Please enter verification code"
 msgstr "لطفا کد تاییدیه رو وارد کنید"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "خطا در اتصال به دستگاه از راه دور"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "پیام غیرمعتبر از روی دستگاه راه دور"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "امکان رمزگشاییه این پیام از روی دستگاه راه دور وجود ندارد"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -940,7 +940,7 @@ msgstr "شما به صورت موفقیت آمیز حساب کاربری خود 
 msgid "New password"
 msgstr "گذرواژه جدید"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:8
 msgid "Re-enter password"
 msgstr "وارد کردن مجدد کلمه عبور"
 
@@ -1130,7 +1130,7 @@ msgstr "%(serviceName)s اطلاعات مقابل را از حساب شما می
 msgid "Accept"
 msgstr "تایید"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:10
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
@@ -1400,7 +1400,7 @@ msgstr "انجام شد"
 msgid "Position and rotate your picture as needed"
 msgstr "مکان و چرخش تصویر خود را در صورت نیاز تغییر دهید"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "تغییر"
 
@@ -1753,6 +1753,12 @@ msgstr "به دنبال همگام‌ساز فایرفاکس هستید؟ <a %(e
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "استفاده از یک پست‌الکترونیکی دیگر"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "خطا در اتصال به دستگاه از راه دور"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "امکان رمزگشاییه این پیام از روی دستگاه راه دور وجود ندارد"
 
 #~ msgid "Save settings"
 #~ msgstr "ذخیره تنظیمات"
