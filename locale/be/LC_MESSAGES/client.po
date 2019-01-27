@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-18 16:02+0000\n"
-"PO-Revision-Date: 2019-01-27 13:51+0000\n"
+"PO-Revision-Date: 2019-01-27 13:53+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -580,7 +580,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Мусіць быць не менш за 8 сімвалаў"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Valid password required"
@@ -828,7 +828,7 @@ msgstr ""
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Памылка 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
