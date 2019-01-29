@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-18 16:02+0000\n"
-"PO-Revision-Date: 2019-01-04 06:46+0000\n"
+"PO-Revision-Date: 2019-01-29 08:51+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -796,11 +796,10 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ "
+"ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -865,8 +864,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1342,7 +1340,7 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "ਕਈ ਡਿਵਾਇਸਾਂ ‘ਤੇ ਸਿੰਕ ਕਿਓ ਕਰਨਾ ਹੈ?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1449,7 +1447,7 @@ msgstr "ਵੇਖਾਓ"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਡਿਵਾਈਸ"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1457,11 +1455,11 @@ msgstr "…ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "ਮਨਸੂਖ ਕਰੋ"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
@@ -1469,7 +1467,7 @@ msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "ਕੋਈ ਕਨੈਕਟ ਨਹੀਂ"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -1532,24 +1530,24 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
-msgstr ""
+msgstr "ਤਸਦੀਕ ਕੀਤਾ"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
-msgstr ""
+msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Make primary"
-msgstr ""
+msgstr "ਮੁੱਢਲਾ ਬਣਾਓ"
 
 #: .es5/templates/settings/emails.mustache:14 .es5/templates/settings/emails.mustache:17
 msgid "Remove"
-msgstr ""
+msgstr "ਹਟਾਓ"
 
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "ਹਾਲਤ ਤਾਜ਼ਾ ਕਰੋ"
 
 #: .es5/templates/settings/emails.mustache:26
 msgid "Add"
@@ -1598,23 +1596,23 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਹਾਲਤ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "ਸਮਰੱਥ ਹੈ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "ਅਸਮਰੱਥ ਹੈ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "ਅਸਮਰੱਥ ਕਰੋ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "ਸਮਰੱਥ ਕਰੋ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
@@ -1634,7 +1632,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਆ ਕੋਡ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1646,7 +1644,7 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "ਮੁੱਢਲਾ ਈਮੇਲ"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
@@ -1699,8 +1697,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1906,11 +1903,9 @@ msgstr ""
 #~ msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> "
-#~ "ਲਈ ਮੌਜੂਦ ਹੈ।"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ ਮੌਜੂਦ ਹੈ।"
 
 #~ msgid "Delete"
 #~ msgstr "ਹਟਾਓ"
@@ -2012,7 +2007,9 @@ msgstr ""
 #~ msgstr "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ "
+#~ "ਸ਼ੁਰੂ ਕਰੋ ।"
 
 #~ msgid "Age is required"
 #~ msgstr "ਉਮਰ ਲੋੜੀਂਦੀ ਹੈ ।"
