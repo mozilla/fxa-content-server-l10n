@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-02-01 16:02+0000\n"
 "PO-Revision-Date: 2019-01-10 18:41+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:87
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
@@ -452,7 +452,7 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 msgid "The request was blocked for security reasons"
 msgstr "Kërkesa u bllokua për arsye sigurie"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
 msgid "Invalid authorization code"
 msgstr "Kod i pavlefshëm autorizimi"
 
@@ -529,18 +529,38 @@ msgid "This verification code has expired"
 msgstr "Ky kod verifikimi ka skaduar"
 
 #: .es5/lib/auth-errors.js:213
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:217
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:221
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:225
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:229
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
 msgstr "Kyç rimarrjeje i pavlefshëm"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Kjo kërkesë lyp mirëfilltësim dyhapësh të aktivizuar në llogarinë tuaj."
 
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:246
 msgid "Feature not enabled"
 msgstr "Veçori e paaktivizuar"
 
@@ -553,174 +573,174 @@ msgstr "Veçori e paaktivizuar"
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të
 # mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë
 # tjetër, të po atij veprimi që kishe bërë më parë.
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
 msgstr "Kjo pikë mbarimi s’mbulohet më"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
 msgstr "Përpjekja për hyrje u anulua"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
 msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
 msgstr "Cookie-t janë ende të çaktivizuara"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
 msgstr "Fjalëkalimet nuk përputhen"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:278
 msgid "Working…"
 msgstr "Po punohet…"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
 msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
 msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:290
 msgid "Your new password must be different"
 msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:294 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:298
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:356
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:313
 msgid "A usable image was not found"
 msgstr "Nuk u gjet një figurë e përdorshme"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:317
 msgid "Could not initialize camera"
 msgstr "Nuk u gatit dot kamera"
 
-#: .es5/lib/auth-errors.js:301
+#: .es5/lib/auth-errors.js:321
 msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Llogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Përmasat e figurës duhet të jenë e pakta 100x100px"
 
-#: .es5/lib/auth-errors.js:363
+#: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Regjistrimi po vjen së shpejti edhe te Firefox-i për iOS"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
 msgstr "Duhet të jepni moshën tuaj që të regjistroheni"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:409
 msgid "Account no longer exists."
 msgstr "Llogaria s’ekziston më."
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:413
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Veti e pavlefshme te token-i i rimarrjes: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:417
 msgid "Missing property in resume token: %(property)s"
 msgstr "Token-it të rimarrjes i mungon një veti: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:421
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut i pavlefshëm të dhënash: %(property)s"
 
-#: .es5/lib/auth-errors.js:405
+#: .es5/lib/auth-errors.js:425
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut të dhënash që mungon: %(property)s"
 
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ajo lidhje ripohimi qe përdorur tashmë, dhe mund të përdoret vetëm një herë."
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:442
 msgid "This is a required field"
 msgstr "Kjo është fushë e domosdoshme"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:446
 msgid "Authorization code required"
 msgstr "Lyp kod autorizimi"
 
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Lidhje e dëmtuar"
 
-#: .es5/lib/auth-errors.js:457
+#: .es5/lib/auth-errors.js:477
 msgid "Phone number required"
 msgstr "Lypset numër telefoni"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:496
 msgid "Two-step authentication code required"
 msgstr "Lypset kod mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:500
 msgid "Invalid two-step authentication code"
 msgstr "Kod i pavlefshëm mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:504
 msgid "Recovery code required"
 msgstr "Lypset kod rikthimi"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:508
 msgid "Invalid recovery code"
 msgstr "Kod i pavlefshëm rikthimi"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:520
 msgid "Recovery key required"
 msgstr "Lypset kyç rimarrjeje"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:524
 msgid "Please enter verification code"
 msgstr "Ju lutemi, jepni kod verifikimi"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Gabim gjatë lidhjes te pajisja e largët"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "Mesazh i pavlefshëm nga pajisja e largët"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "S’u shfshehtëzua dot mesazh nga pajisja e largët"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -989,7 +1009,7 @@ msgstr "E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rima
 msgid "New password"
 msgstr "Fjalëkalimi i ri"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
 msgstr "Rijepni fjalëkalimin"
 
@@ -1058,7 +1078,7 @@ msgstr "Ky Firefox është i lidhur"
 msgid "Email verified"
 msgstr "Email-i u verifikua"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Sukses"
 
@@ -1184,7 +1204,8 @@ msgstr "Pranojeni"
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Anuloje"
 
@@ -1815,6 +1836,60 @@ msgstr "Po kërkoni për Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Filloja
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Përdorni një tjetër adresë email"
+
+#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
+msgid "Approve connections <small>to begin syncing</small>"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
+msgid "Approve connection"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+msgid "Device connected"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid "You are now syncing with:"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Manage devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approve this connection <small>from this device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp.mustache:1
+msgid "Attempting to pair"
+msgstr ""
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Gabim gjatë lidhjes te pajisja e largët"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "S’u shfshehtëzua dot mesazh nga pajisja e largët"
 
 #~ msgid "Save settings"
 #~ msgstr "Ruaji rregullimet"

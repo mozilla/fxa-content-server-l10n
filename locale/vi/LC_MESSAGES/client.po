@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-02-01 16:02+0000\n"
 "PO-Revision-Date: 2019-01-26 15:47+0000\n"
 "Last-Translator: Cloney 173741 <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr "Tài khoản không còn tồn tại. Tạo mới nó?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tài khoản đã tồn tại. <a href=\"/signin\">Đăng nhập</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:87
 msgid "Password changed successfully"
 msgstr "Mật khẩu đã thay đổi thành công"
 
@@ -446,7 +446,7 @@ msgstr "Nội dung yêu cầu quá lớn"
 msgid "The request was blocked for security reasons"
 msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
 msgid "Invalid authorization code"
 msgstr "Mã ủy quyền không hợp lệ"
 
@@ -523,189 +523,209 @@ msgid "This verification code has expired"
 msgstr "Mã xác nhận này đã hết hạn"
 
 #: .es5/lib/auth-errors.js:213
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:217
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:221
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:225
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:229
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
 msgstr "Khóa khôi phục không hợp lệ"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Yêu cầu này yêu cầu xác thực hai bước được bật trên tài khoản của bạn."
 
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
 msgstr "Máy chủ bận, hãy thử lại sau"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:246
 msgid "Feature not enabled"
 msgstr "Tính năng không được bật"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Hệ thống không khả dụng, hãy thử lại sau"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
 msgstr "Điểm cuối này không còn được hỗ trợ"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
 msgstr "Đã hủy đăng nhập"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
 msgstr "Phiên đã hết hạn. Đăng nhập để tiếp tục."
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
 msgstr "Cookie vẫn bị tắt"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
 msgstr "Mật khẩu không khớp"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:278
 msgid "Working…"
 msgstr "Đang làm việc…"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
 msgstr "Không thể nhận Thông báo bảo mật"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
 msgstr "Không thể nhận Điều khoản dịch vụ"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:290
 msgid "Your new password must be different"
 msgstr "Mật khẩu mới của bạn phải khác"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:294 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Phải có ít nhất 8 ký tự"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:298
 msgid "Valid password required"
 msgstr "Yêu cầu mật khẩu hợp lệ"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:356
 msgid "Valid email required"
 msgstr "Yêu cầu email hợp lệ"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:313
 msgid "A usable image was not found"
 msgstr "Không tìm thấy hình ảnh có thể sử dụng"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:317
 msgid "Could not initialize camera"
 msgstr "Không thể khởi tạo máy ảnh"
 
-#: .es5/lib/auth-errors.js:301
+#: .es5/lib/auth-errors.js:321
 msgid "Valid URL required"
 msgstr "Yêu cầu URL hợp lệ"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Email xác minh của bạn vừa được trả lại. Sai email?"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Nhập địa chỉ email hợp lệ. firefox.com không cung cấp email."
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Tài khoản Firefox chỉ có thể được đặt trong IFRAME của trang web được phê duyệt"
 
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Liên kết xác nhận bị hỏng"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Kích thước hình ảnh phải có kích thước tối thiểu là 100x100px"
 
-#: .es5/lib/auth-errors.js:363
+#: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Đăng ký sắp có trên Firefox dành cho iOS"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
 msgstr "Bạn phải nhập tuổi của bạn để đăng ký"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:409
 msgid "Account no longer exists."
 msgstr "Tài khoản không còn tồn tại."
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:413
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Thuộc tính không hợp lệ trong token sơ yếu lý lịch: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:417
 msgid "Missing property in resume token: %(property)s"
 msgstr "Thiếu thuộc tính trong token tiếp tục: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:421
 msgid "Invalid data attribute: %(property)s"
 msgstr "Thuộc tính dữ liệu không hợp lệ: %(property)s"
 
-#: .es5/lib/auth-errors.js:405
+#: .es5/lib/auth-errors.js:425
 msgid "Missing data attribute: %(property)s"
 msgstr "Thiếu thuộc tính dữ liệu: %(property)s"
 
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần."
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:442
 msgid "This is a required field"
 msgstr "Đây là một trường bắt buộc"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:446
 msgid "Authorization code required"
 msgstr "Yêu cầu mã ủy quyền"
 
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Liên kết bị hỏng"
 
-#: .es5/lib/auth-errors.js:457
+#: .es5/lib/auth-errors.js:477
 msgid "Phone number required"
 msgstr "Yêu cầu số điện thoại"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:496
 msgid "Two-step authentication code required"
 msgstr "Yêu cầu mã xác thực hai bước"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:500
 msgid "Invalid two-step authentication code"
 msgstr "Mã xác thực hai bước không hợp lệ"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:504
 msgid "Recovery code required"
 msgstr "Yêu cầu mã khôi phục"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:508
 msgid "Invalid recovery code"
 msgstr "Mã khôi phục không hợp lệ"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:520
 msgid "Recovery key required"
 msgstr "Yêu cầu khóa khôi phục"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:524
 msgid "Please enter verification code"
 msgstr "Vui lòng nhập mã xác nhận"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Lỗi khi kết nối với thiết bị từ xa"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "Tin nhắn không hợp lệ từ thiết bị từ xa"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "Không thể giải mã tin nhắn từ thiết bị từ xa"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -796,7 +816,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -864,7 +886,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -937,7 +960,7 @@ msgstr "Bạn đã khôi phục thành công tài khoản của mình bằng kh�
 msgid "New password"
 msgstr "Mật khẩu mới"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
 msgstr "Nhập lại mật khẩu"
 
@@ -1006,7 +1029,7 @@ msgstr "Firefox đã kết nối"
 msgid "Email verified"
 msgstr "Email đã xác minh"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Thành công"
 
@@ -1131,7 +1154,8 @@ msgstr "Chấp nhận"
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
@@ -1168,8 +1192,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
-" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
+"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1528,8 +1552,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
-" ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
+"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của "
+"mình ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1710,7 +1734,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Bước 2 của 2: Lưu khóa khôi phục"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ dàng "
 "tìm thấy nó sau này."
@@ -1754,6 +1779,60 @@ msgstr "Bạn đang tìm kiếm Đồng bộ Firefox? <a %(escapedSyncSuggestion
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Sử dụng địa chỉ email khác"
+
+#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
+msgid "Approve connections <small>to begin syncing</small>"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
+msgid "Approve connection"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+msgid "Device connected"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid "You are now syncing with:"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Manage devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approve this connection <small>from this device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp.mustache:1
+msgid "Attempting to pair"
+msgstr ""
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Lỗi khi kết nối với thiết bị từ xa"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Không thể giải mã tin nhắn từ thiết bị từ xa"
 
 #~ msgid "Save settings"
 #~ msgstr "Lưu cài đặt"
