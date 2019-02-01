@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-18 16:02+0000\n"
-"PO-Revision-Date: 2018-12-23 20:29+0000\n"
+"PO-Revision-Date: 2019-02-01 00:33+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Heu connectat el vostre primer dispositiu al compte del Firefox. Per aprofitar el Sync al màxim, connecteu-hi el <a href='%(androidUrl)s'>Firefox per a l'Android</a> o el <a "
 "href='%(iosUrl)s'>Firefox per a l'iOS</a>."
@@ -113,7 +113,7 @@ msgstr "Per rebre més informació, visiteu %(supportUrl)s"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:923
 msgid "New sign-in to %(clientName)s"
-msgstr "Nou inici de sessió de %(clientName)s"
+msgstr "Inici de sessió nou al %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -548,7 +548,7 @@ msgstr "Codi d'autorització del compte del Firefox"
 
 #: lib/senders/email.js:647
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Confirmeu el nou inici de sessió a %(clientName)s"
+msgstr "Confirmeu l'inici de sessió nou al %(clientName)s"
 
 #: lib/senders/email.js:696
 msgid "Sign-in code for Firefox"
