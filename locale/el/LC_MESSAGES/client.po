@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-02-01 16:02+0000\n"
 "PO-Revision-Date: 2019-01-19 17:04+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Επαναδ
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σύνδεση</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:87
 msgid "Password changed successfully"
 msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
 
@@ -449,7 +449,7 @@ msgstr "Πολύ μεγάλο κύριο μέρος αιτήματος"
 msgid "The request was blocked for security reasons"
 msgstr "Το αίτημα αποκλείστηκε για λόγους ασφαλείας"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
 msgid "Invalid authorization code"
 msgstr "Μη έγκυρος κωδικός πιστοποίησης"
 
@@ -526,189 +526,209 @@ msgid "This verification code has expired"
 msgstr "Αυτός ο κωδικός επαλήθευσης έχει λήξει"
 
 #: .es5/lib/auth-errors.js:213
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:217
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:221
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:225
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:229
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
 msgstr "Άκυρο κλειδί ανάκτησης"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Αυτό το αίτημα απαιτεί επαλήθευση με δύο βήματα στο λογαριασμό σας."
 
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
 msgstr "Απασχολημένος διακομιστής, δοκιμάστε ξανά σύντομα"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:246
 msgid "Feature not enabled"
 msgstr "Η λειτουργία δεν είναι ενεργή"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Μη διαθέσιμο σύστημα, δοκιμάστε πάλι ξανά"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
 msgstr "Αυτό το άκρο δεν υποστηρίζεται πια"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
 msgstr "Η προσπάθεια σύνδεσης ακυρώθηκε"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
 msgstr "Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε."
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
 msgstr "Τα cookies είναι ακόμη ανενεργά"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
 msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:278
 msgid "Working…"
 msgstr "Εργασία…"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
 msgstr "Αδυναμία λήψης σημειώσεων απορρήτου"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
 msgstr "Αδυναμία λήψης όρων υπηρεσίας"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:290
 msgid "Your new password must be different"
 msgstr "Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:294 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:298
 msgid "Valid password required"
 msgstr "Απαιτείται ένας έγκυρος κωδικός πρόσβασης"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:356
 msgid "Valid email required"
 msgstr "Απαιτείται έγκυρο email"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:313
 msgid "A usable image was not found"
 msgstr "Δεν βρέθηκε καμία αξιοποιήσιμη εικόνα"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:317
 msgid "Could not initialize camera"
 msgstr "Αδυναμία εκκίνησης κάμερας"
 
-#: .es5/lib/auth-errors.js:301
+#: .es5/lib/auth-errors.js:321
 msgid "Valid URL required"
 msgstr "Απαιτείται έγκυρο URL"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Το email επικύρωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος το email;"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Εισάγετε μια έγκυρη διεύθυνση email. Το firefox.com δεν προσφέρει email."
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Οι λογαριασμοί Firefox μπορούν να τοποθετηθούν μόνο σε IFRAME στις εγκεκριμένες ιστοσελίδες"
 
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Ο σύνδεσμος επικύρωσης καταστράφηκε"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Οι διαστάσεις της εικόνας πρέπει να είναι τουλάχιστον 100x100px"
 
-#: .es5/lib/auth-errors.js:363
+#: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Η δυνατότητα εγγραφής έρχεται σύντομα στο Firefox για iOS"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
 msgstr "Πρέπει να εισάγετε την ηλικία σας για εγγραφή"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:409
 msgid "Account no longer exists."
 msgstr "Ο λογαριασμός δεν υπάρχει πλέον."
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:413
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Μη έγκυρη ιδιότητα στο σύμβολο συνέχισης: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:417
 msgid "Missing property in resume token: %(property)s"
 msgstr "Απουσία ιδιότητας στο σύμβολο συνέχισης: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:421
 msgid "Invalid data attribute: %(property)s"
 msgstr "Μη έγκυρη ιδιότητα δεδομένων: %(property)s"
 
-#: .es5/lib/auth-errors.js:405
+#: .es5/lib/auth-errors.js:425
 msgid "Missing data attribute: %(property)s"
 msgstr "Απουσία ιδιότητας δεδομένων: %(property)s"
 
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης έχει χρησιμοποιηθεί ήδη και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:442
 msgid "This is a required field"
 msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:446
 msgid "Authorization code required"
 msgstr "Απαιτείται κωδικός πιστοποίησης"
 
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Κατεστραμμένος σύνδεσμος"
 
-#: .es5/lib/auth-errors.js:457
+#: .es5/lib/auth-errors.js:477
 msgid "Phone number required"
 msgstr "Απαιτείται αριθμός τηλεφώνου"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:496
 msgid "Two-step authentication code required"
 msgstr "Απαιτείται κωδικός ταυτοποίησης σε δύο βήματα"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:500
 msgid "Invalid two-step authentication code"
 msgstr "Άκυρος κωδικός ταυτοποίησης σε δύο βήματα"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:504
 msgid "Recovery code required"
 msgstr "Απαιτείται κωδικός ανάκτησης"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:508
 msgid "Invalid recovery code"
 msgstr "Άκυρος κωδικός ανάκτησης"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:520
 msgid "Recovery key required"
 msgstr "Απαιτείται κλειδί ανάκτησης"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:524
 msgid "Please enter verification code"
 msgstr "Παρακαλούμε εισάγετε τον κωδικό επαλήθευσης"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Σφάλμα σύνδεσης σε απομακρυσμένη συσκευή"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "Άκυρο μήνυμα από την απομακρυσμένη συσκευή"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "Αδυναμία αποκρυπτογράφησης μηνύματος από την απομακρυσμένη συσκευή"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -799,7 +819,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο σύμβολο"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -867,7 +889,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Παρακαλούμε εισάγετε το κλειδί ανάκτησης μίας χρήσης που έχετε αποθηκεύσει σε ένα ασφαλές μέρος για ανάκτηση πρόσβασης στο λογαριασμό Firefox σας."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει κλειδί ανάκτησης λογαριασμού, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων "
 "και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες)."
@@ -940,7 +963,7 @@ msgstr "Έχετε ανακτήσει επιτυχώς το λογαριασμό
 msgid "New password"
 msgstr "Νέος κωδικός"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
 msgstr "Εισάγετε ξανά τον κωδικό πρόσβασης"
 
@@ -1009,7 +1032,7 @@ msgstr "Αυτό το Firefox έχει συνδεθεί"
 msgid "Email verified"
 msgstr "Το email επαληθεύτηκε"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Επιτυχία"
 
@@ -1136,7 +1159,8 @@ msgstr "Αποδοχή"
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -1364,8 +1388,8 @@ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγρα
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον κωδικό"
-" πρόσβασής σας."
+"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+"κωδικό πρόσβασής σας."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1721,7 +1745,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Βήμα 2 από 2: Αποθήκευση κλειδιού ανάκτησης"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Αν ξεχάσετε τον κωδικό πρόσβασής σας, αυτό το κλειδί απαιτείται για την ανάκτηση της πρόσβασης στα δεδομένα σας. Αποθηκεύστε το κλειδί ανάκτησης σε μια ασφαλή "
 "τοποθεσία, όπου μπορείτε να το βρείτε εύκολα αργότερα."
@@ -1765,6 +1790,60 @@ msgstr "Ψάχνετε για το Firefox Sync; <a %(escapedSyncSuggestionAttrs
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Χρήση διαφορετικής διεύθυνσης email"
+
+#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
+msgid "Approve connections <small>to begin syncing</small>"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
+msgid "Approve connection"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+msgid "Device connected"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid "You are now syncing with:"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Manage devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approve this connection <small>from this device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp.mustache:1
+msgid "Attempting to pair"
+msgstr ""
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Σφάλμα σύνδεσης σε απομακρυσμένη συσκευή"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Αδυναμία αποκρυπτογράφησης μηνύματος από την απομακρυσμένη συσκευή"
 
 #~ msgid "Save settings"
 #~ msgstr "Αποθήκευση ρυθμίσεων"
@@ -1863,7 +1942,9 @@ msgstr "Χρήση διαφορετικής διεύθυνσης email"
 #~ msgstr "Απαιτούνται τα cookies και η τοπική αποθήκευση."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
+#~ msgstr ""
+#~ "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του "
+#~ "Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Υπηρεσίες cloud του Firefox"
@@ -1920,19 +2001,19 @@ msgstr "Χρήση διαφορετικής διεύθυνσης email"
 #~ msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
-#~ " τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+#~ "στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν είναι "
-#~ "αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του Firefox και "
-#~ "χρήση του Sync σε περισσότερες από μία συσκευές."
+#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν "
+#~ "είναι αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του "
+#~ "Firefox και χρήση του Sync σε περισσότερες από μία συσκευές."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2037,15 +2118,15 @@ msgstr "Χρήση διαφορετικής διεύθυνσης email"
 #~ msgstr "Σύνδεση"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως ιστορικό και "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατέψουμε το απόρρητό σας."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως το ιστορικό και οι "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατεύσουμε το απόρρητό σας."

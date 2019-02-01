@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-02-01 16:02+0000\n"
 "PO-Revision-Date: 2019-01-05 03:17+0000\n"
 "Last-Translator: 우믿트 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr "账户已不存在。重新创建？"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "账户已存在。<a href=\"/signin\">登录</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:87
 msgid "Password changed successfully"
 msgstr "密码更改成功"
 
@@ -447,7 +447,7 @@ msgstr "请求内容太大"
 msgid "The request was blocked for security reasons"
 msgstr "因为安全性因素，已拦截请求"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
 msgid "Invalid authorization code"
 msgstr "授权码无效"
 
@@ -524,189 +524,209 @@ msgid "This verification code has expired"
 msgstr "此验证码已过期"
 
 #: .es5/lib/auth-errors.js:213
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:217
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:221
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:225
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:229
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
 msgstr "无效的救援密钥"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
 msgstr "此请求要求您的账号启用两步验证。"
 
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
 msgstr "系统繁忙，请稍后再试"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:246
 msgid "Feature not enabled"
 msgstr "功能未启用"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "系统不可用，请稍后再试"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
 msgstr "登录尝试已取消"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
 msgstr "会话已过期。请登录以继续。"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被禁用"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
 msgstr "密码不匹配"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:278
 msgid "Working…"
 msgstr "处理中…"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
 msgstr "无法获取隐私政策"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
 msgstr "无法获取服务条款"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:290
 msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:294 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "至少 8 个字符"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:298
 msgid "Valid password required"
 msgstr "需要有效的密码"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:356
 msgid "Valid email required"
 msgstr "需要有效的电子邮件地址"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:313
 msgid "A usable image was not found"
 msgstr "没有找到可使用的图像"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:317
 msgid "Could not initialize camera"
 msgstr "无法初始化摄像头"
 
-#: .es5/lib/auth-errors.js:301
+#: .es5/lib/auth-errors.js:321
 msgid "Valid URL required"
 msgstr "需要有效的 URL"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子邮件服务。"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 账户网站只允许在经过授权的网站上被放入 IFRAME"
 
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "验证链接损坏"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
 msgstr "图像尺寸至少要 100x100 像素"
 
-#: .es5/lib/auth-errors.js:363
+#: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "很快就能在 Firefox for iOS 上注册了"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
 msgstr "您必须输入您的年龄才能注册"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:409
 msgid "Account no longer exists."
 msgstr "账户已不存在。"
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:413
 msgid "Invalid property in resume token: %(property)s"
 msgstr "恢复令牌中有无效属性：%(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:417
 msgid "Missing property in resume token: %(property)s"
 msgstr "恢复令牌中缺失属性：%(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:421
 msgid "Invalid data attribute: %(property)s"
 msgstr "无效数据属性：%(property)s"
 
-#: .es5/lib/auth-errors.js:405
+#: .es5/lib/auth-errors.js:425
 msgid "Missing data attribute: %(property)s"
 msgstr "缺少数据属性：%(property)s"
 
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "此确认链接已被使用，并只能使用一次。"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:442
 msgid "This is a required field"
 msgstr "这是必填项"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:446
 msgid "Authorization code required"
 msgstr "需要授权码"
 
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "链接不完整"
 
-#: .es5/lib/auth-errors.js:457
+#: .es5/lib/auth-errors.js:477
 msgid "Phone number required"
 msgstr "需要手机号码"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:496
 msgid "Two-step authentication code required"
 msgstr "需要两步验证码"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:500
 msgid "Invalid two-step authentication code"
 msgstr "无效的两步验证码"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:504
 msgid "Recovery code required"
 msgstr "需要救援码"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:508
 msgid "Invalid recovery code"
 msgstr "无效的救援码"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:520
 msgid "Recovery key required"
 msgstr "需要救援密钥"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:524
 msgid "Please enter verification code"
 msgstr "请输入验证码"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "连接远程设备时出错"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "收到远程设备的无效消息"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "无法解密来自远程设备的消息"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -935,7 +955,7 @@ msgstr "已成功使用救援密钥恢复您的账号。请设置新的密码来
 msgid "New password"
 msgstr "新密码"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
 msgstr "重新输入密码"
 
@@ -1004,7 +1024,7 @@ msgstr "此 Firefox 已连接"
 msgid "Email verified"
 msgstr "邮箱已验证"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "成功"
 
@@ -1129,7 +1149,8 @@ msgstr "接受"
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "取消"
 
@@ -1742,6 +1763,60 @@ msgstr "在找 Firefox 同步？<a %(escapedSyncSuggestionAttrs)s>从这里开�
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "使用另一个邮件地址"
+
+#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
+msgid "Approve connections <small>to begin syncing</small>"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
+msgid "Approve connection"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+msgid "Device connected"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid "You are now syncing with:"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Manage devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approve this connection <small>from this device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp.mustache:1
+msgid "Attempting to pair"
+msgstr ""
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "连接远程设备时出错"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "无法解密来自远程设备的消息"
 
 #~ msgid "Save settings"
 #~ msgstr "保存设置"

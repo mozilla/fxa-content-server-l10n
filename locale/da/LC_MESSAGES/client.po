@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 16:02+0000\n"
+"POT-Creation-Date: 2019-02-01 16:02+0000\n"
 "PO-Revision-Date: 2019-01-05 12:15+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -102,7 +102,7 @@ msgstr "Kontoen findes ikke længere. Vil du oprette en ny konto?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen findes allerede. <a href=\"/signin\">Log ind</a>"
 
-#: .es5/views/settings/change_password.js:69
+#: .es5/views/settings/change_password.js:87
 msgid "Password changed successfully"
 msgstr "Adgangskode ændret korrekt"
 
@@ -446,7 +446,7 @@ msgstr "Request body er for stor"
 msgid "The request was blocked for security reasons"
 msgstr "Forespørgslen blev blokeret af sikkerhedsmæssige årsager"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
 msgid "Invalid authorization code"
 msgstr "Ugyldig godkendelseskode"
 
@@ -523,189 +523,209 @@ msgid "This verification code has expired"
 msgstr "Denne bekræftelseskode er udløbet"
 
 #: .es5/lib/auth-errors.js:213
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:217
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:221
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:225
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:229
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
 msgstr "Ugyldig genoprettelsesnøgle"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Denne forespørgsel kræver, at totrinsgodkendelse er aktiveret på din konto."
 
-#: .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
 msgstr "Serveren er optaget, prøv igen om lidt"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:246
 msgid "Feature not enabled"
 msgstr "Funktionen er ikke aktiveret"
 
-#: .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:238 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
 msgstr "Dette endpoint understøttes ikke længere"
 
-#: .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
 msgstr "Login-forsøg annulleret"
 
-#: .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
 msgstr "Sessionen udløb. Log ind for at fortsætte."
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
 msgstr "Cookies er stadig deaktiveret"
 
-#: .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
 msgstr "Adgangskoderne matcher ikke"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:278
 msgid "Working…"
 msgstr "Arbejder…"
 
-#: .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
 msgstr "Kunne ikke hente Privatlivspolitik"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
 msgstr "Kunne ikke hente tjenestevilkår"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:290
 msgid "Your new password must be different"
 msgstr "Din nye adgangskode skal være forskellig"
 
-#: .es5/lib/auth-errors.js:274 .es5/templates/settings/change_password.mustache:7 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:294 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Skal indeholde mindst 8 tegn"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:298
 msgid "Valid password required"
 msgstr "Gyldig adgangskode påkrævet"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:356
 msgid "Valid email required"
 msgstr "Gyldig mailadresse påkrævet"
 
-#: .es5/lib/auth-errors.js:293
+#: .es5/lib/auth-errors.js:313
 msgid "A usable image was not found"
 msgstr "Et brugbart billede blev ikke fundet"
 
-#: .es5/lib/auth-errors.js:297
+#: .es5/lib/auth-errors.js:317
 msgid "Could not initialize camera"
 msgstr "Kunne ikke initialisere kamera"
 
-#: .es5/lib/auth-errors.js:301
+#: .es5/lib/auth-errors.js:321
 msgid "Valid URL required"
 msgstr "Gyldig URL påkrævet"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Din bekræftelsesmail kom retur. Forkert indtastet mailadresse?"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Indtast en gyldig mailadresse. firefox.com tilbyder ikke mail."
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-konti kan kun placeres i en IFRAME på godkendte websteder"
 
-#: .es5/lib/auth-errors.js:351 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Bekræftelseslink beskadiget"
 
-#: .es5/lib/auth-errors.js:359
+#: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Billedets dimensioner skal være på mindst 100 x 100 px"
 
-#: .es5/lib/auth-errors.js:363
+#: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Nu er det snart muligt at tilmelde Firefox til iOS"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
 msgstr "Du skal indtaste din alder for at tilmelde dig"
 
-#: .es5/lib/auth-errors.js:389
+#: .es5/lib/auth-errors.js:409
 msgid "Account no longer exists."
 msgstr "Kontoen findes ikke længere."
 
-#: .es5/lib/auth-errors.js:393
+#: .es5/lib/auth-errors.js:413
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ugyldig egenskab i genoptag-token: %(property)s"
 
-#: .es5/lib/auth-errors.js:397
+#: .es5/lib/auth-errors.js:417
 msgid "Missing property in resume token: %(property)s"
 msgstr "Manglende egenskab i genoptag-token: %(property)s"
 
-#: .es5/lib/auth-errors.js:401
+#: .es5/lib/auth-errors.js:421
 msgid "Invalid data attribute: %(property)s"
 msgstr "Ugyldig data-attribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:405
+#: .es5/lib/auth-errors.js:425
 msgid "Missing data attribute: %(property)s"
 msgstr "Manglende data-attribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:472 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Det bekræftelseslink er allerede blevet brugt, og kan kun bruges én gang."
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:442
 msgid "This is a required field"
 msgstr "Dette felt er påkrævet"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:446
 msgid "Authorization code required"
 msgstr "Godkendelseskode påkrævet"
 
-#: .es5/lib/auth-errors.js:434 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Link beskadiget"
 
-#: .es5/lib/auth-errors.js:457
+#: .es5/lib/auth-errors.js:477
 msgid "Phone number required"
 msgstr "Telefonnummer er påkrævet"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:496
 msgid "Two-step authentication code required"
 msgstr "Kode til totrinsgodkendelse påkrævet"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:500
 msgid "Invalid two-step authentication code"
 msgstr "Ugyldig kode til totrinsgodkendelse"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:504
 msgid "Recovery code required"
 msgstr "Genoprettelseskode påkrævet"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:508
 msgid "Invalid recovery code"
 msgstr "Ugyldig genoprettelseskode"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:520
 msgid "Recovery key required"
 msgstr "Genoprettelsesnøgle påkrævet"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:524
 msgid "Please enter verification code"
 msgstr "Indtast bekræftelseskode"
 
-#: .es5/lib/channel-server-client-errors.js:47 .es5/lib/channel-server-client-errors.js:55
-msgid "Error connecting to remote device"
-msgstr "Der opstod en fejl under tilslutning til fjern-enhed"
-
-#: .es5/lib/channel-server-client-errors.js:51
+#: .es5/lib/channel-server-client-errors.js:47
 msgid "Invalid message from the remote device"
 msgstr "Ugyldig meddelelse fra fjern-enhed"
 
-#: .es5/lib/channel-server-client-errors.js:59
-msgid "Could not decrypt message from the remote device"
-msgstr "Kunne ikke dekryptere meddelelse fra fjern-enheden"
+#: .es5/lib/channel-server-client-errors.js:51
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/channel-server-client-errors.js:55
+msgid "Connection to remote device closed, please try again"
+msgstr ""
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -938,7 +958,7 @@ msgstr "Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle. Opr
 msgid "New password"
 msgstr "Ny adgangskode"
 
-#: .es5/templates/complete_reset_password.mustache:14
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
 msgstr "Indtast adgangskode igen"
 
@@ -1007,7 +1027,7 @@ msgstr "Denne Firefox er forbundet"
 msgid "Email verified"
 msgstr "Mailadresse bekræftet"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Lykkedes"
 
@@ -1132,7 +1152,8 @@ msgstr "Accepter"
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:27
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -1757,6 +1778,60 @@ msgstr "Leder du efter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Start her
 #: .es5/templates/partial/user-card.mustache:1
 msgid "Use a different email address"
 msgstr "Brug en anden mailadresse"
+
+#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
+msgid "Approve connections <small>to begin syncing</small>"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
+msgid "Approve connection"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+msgid "Device connected"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid "You are now syncing with:"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Manage devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approve this connection <small>from this device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp.mustache:1
+msgid "Attempting to pair"
+msgstr ""
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Der opstod en fejl under tilslutning til fjern-enhed"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Kunne ikke dekryptere meddelelse fra fjern-enheden"
 
 #~ msgid "Save settings"
 #~ msgstr "Gem indstillinger"
