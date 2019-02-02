@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-02 11:11+0000\n"
+"PO-Revision-Date: 2019-02-02 11:13+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1806,23 +1806,23 @@ msgstr "Koplowanje njejo se raźiło"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Instalěrowański proces jo se skóńcył."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Z nałoženim koplowaś"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Koplowanje jo se raźiło."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Koplowanje se wopytujo"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Zmólka pśi zwězowanju z eksternym rědom"
