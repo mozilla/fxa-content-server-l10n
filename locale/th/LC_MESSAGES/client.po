@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-02 10:49+0000\n"
+"PO-Revision-Date: 2019-02-02 11:09+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -547,7 +547,7 @@ msgstr "กุญแจการกู้คืนใช้ไม่ได้"
 
 #: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "คำขอนี้ต้องเปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนในบัญชีของคุณ"
 
 #: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
 msgid "Server busy, try again soon"
@@ -946,7 +946,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "คุณได้ทำการกู้คืนบัญชีของคุณโดยใช้คีย์การกู้คืนสำเร็จแล้ว สร้างรหัสผ่านใหม่เพื่อรักษาความปลอดภัยของข้อมูลของคุณและเก็บไว้ในตำแหน่งที่ปลอดภัย"
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1676,7 +1676,7 @@ msgstr "การกู้คืนบัญชี"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "สร้างคีย์การกู้คืนเพื่อรับสิทธิ์การเข้าถึงที่คั่นหน้า รหัสผ่าน และข้อมูลที่ซิงค์ใน Firefox อีกครั้งหากคุณลืมรหัสผ่าน"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -1695,6 +1695,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">หมายเหตุ:</span> รหัสผ่าน Firefox Account ของคุณจะเข้ารหัสข้อมูล Firefox ของคุณ เฉพาะรหัสผ่านหรือคีย์กู้คืนของคุณเท่านั้นที่สามารถเข้าถึงข้อมูลของคุณได้ <a "
+"%(escapedLearnMoreLinkAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1722,7 +1724,7 @@ msgstr "ขั้นตอนที่ 2 จาก 2: บันทึกกุ�
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
+msgstr "<span class=\"note\">หมายเหตุ:</span> หากคุณลืมรหัสผ่าน คุณจะต้องใช้คีย์นี้ในการรับสิทธิ์เข้าถึงข้อมูลของคุณอีกครั้ง บันทึกคีย์การกู้คืนของคุณในตำแหน่งที่ปลอดภัยซึ่งคุณสามารถค้นหาได้ในภายหลัง"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1774,7 +1776,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "อุปกรณ์ที่เชื่อมต่อแล้ว"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1782,7 +1784,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "จัดการอุปกรณ์"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
@@ -1806,11 +1808,11 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "การจับคู่สำเร็จแล้ว"
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "พยายามจับคู่"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "มีข้อผิดพลาดในการเชื่อมต่อไปยังอุปกรณ์ที่ไกลออกไป"
