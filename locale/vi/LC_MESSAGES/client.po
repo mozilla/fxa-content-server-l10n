@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-01-26 15:47+0000\n"
+"PO-Revision-Date: 2019-02-02 00:51+0000\n"
 "Last-Translator: Cloney 173741 <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -532,15 +532,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Không tìm thấy mã khôi phục"
 
 #: .es5/lib/auth-errors.js:225
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Lệnh thiết bị không khả dụng"
 
 #: .es5/lib/auth-errors.js:229
 msgid "Recovery key not found"
-msgstr ""
+msgstr "Không tìm thấy khóa khôi phục"
 
 #: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
@@ -721,11 +721,11 @@ msgstr "Tin nhắn không hợp lệ từ thiết bị từ xa"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Lỗi ghép nối với thiết bị từ xa"
 
 #: .es5/lib/channel-server-client-errors.js:55
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Kết nối với thiết bị từ xa đã đóng, vui lòng thử lại"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -816,9 +816,7 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -886,8 +884,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -1192,8 +1189,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
-"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
+" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1552,8 +1549,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của "
-"mình ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
+"Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
+" ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1734,8 +1731,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Bước 2 của 2: Lưu khóa khôi phục"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ dàng "
 "tìm thấy nó sau này."
@@ -1782,27 +1778,27 @@ msgstr "Sử dụng địa chỉ email khác"
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
-msgstr ""
+msgstr "Phê duyệt các kết nối <small>để bắt đầu đồng bộ hóa</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
 msgid "Approve connection"
-msgstr ""
+msgstr "Phê duyệt kết nối"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "Thiết bị đã kết nối"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Bây giờ bạn đang đồng bộ hóa với:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "Quản lý thiết bị"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "Phê duyệt kết nối này <small>từ thiết bị này</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1810,7 +1806,7 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Quá trình thiết lập đã hủy bỏ."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
@@ -1818,7 +1814,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ trong ứng dụng Firefox."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
