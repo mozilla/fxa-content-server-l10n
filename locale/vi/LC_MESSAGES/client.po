@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-02 00:51+0000\n"
+"PO-Revision-Date: 2019-02-02 00:54+0000\n"
 "Last-Translator: Cloney 173741 <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -524,11 +524,11 @@ msgstr "Mã xác nhận này đã hết hạn"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Một token TOTP đã tồn tại cho tài khoản này"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Không tìm thấy token TOTP"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
@@ -1802,7 +1802,7 @@ msgstr "Phê duyệt kết nối này <small>từ thiết bị này</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Ghép nối không thành công"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1810,7 +1810,7 @@ msgstr "Quá trình thiết lập đã hủy bỏ."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Ghép nối bằng ứng dụng"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
@@ -1818,11 +1818,11 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Ghép nối thành công."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Đang thử ghép nối"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Lỗi khi kết nối với thiết bị từ xa"
