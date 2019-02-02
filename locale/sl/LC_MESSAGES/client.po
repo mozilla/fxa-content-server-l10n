@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-01 19:51+0000\n"
+"PO-Revision-Date: 2019-02-02 10:25+0000\n"
 "Last-Translator: Rok Žerdin <rok.zerdin1990@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -524,7 +524,7 @@ msgstr "Potrditvena koda je potekla"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Za ta račun že obstaja žeton TOTP"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
