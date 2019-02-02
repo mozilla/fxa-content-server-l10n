@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-02 10:31+0000\n"
+"PO-Revision-Date: 2019-02-02 11:14+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1819,7 +1819,7 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr "Koplowanje je so poradźiko."
+msgstr "Koplowanje je so poradźiło."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
