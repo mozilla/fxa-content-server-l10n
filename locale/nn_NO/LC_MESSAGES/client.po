@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-02 10:37+0000\n"
+"PO-Revision-Date: 2019-02-03 14:04+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -523,11 +523,11 @@ msgstr "Denne stadfestingskoden har gått ut"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Eit TOTP-token finst allereie for denne kontoen"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
-msgstr ""
+msgstr "TOTP-token ikkje funne"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
@@ -724,7 +724,7 @@ msgstr "Feil under paring med fjerneining"
 
 #: .es5/lib/channel-server-client-errors.js:55
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Tilkopling til ei fjerneining stengd, prøv på nytt"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1778,7 +1778,7 @@ msgstr "Bruk ei anna e-postadresse"
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
-msgstr ""
+msgstr "Godkjenn tilkoplingar <small>for å begynne å synkronisere</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
 msgid "Approve connection"
@@ -1798,15 +1798,15 @@ msgstr "Handter einingar"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "Godkjenn denne tilkoplinga <small>frå denne eininga</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Paring ikkje vellykka"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Installasjonsprosessen vart avslutta."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
@@ -1814,15 +1814,15 @@ msgstr "Paring via ein app"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Brukte du systemkameraet? Du må pare i ein Firefox-app."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Paring vellykka."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Freistar å pare"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Feil ved tilkopling til ekstern eining"
