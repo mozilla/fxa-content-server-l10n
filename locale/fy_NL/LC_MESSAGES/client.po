@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-03 19:25+0000\n"
+"PO-Revision-Date: 2019-02-03 20:31+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -524,7 +524,7 @@ msgstr "Dizze ferifikaasjekoade is ferrûn"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Foar dizze account bestiet al in TOTP-token"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
@@ -532,15 +532,15 @@ msgstr "TOTP-token net fûn"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Werstelkoade net fûn"
 
 #: .es5/lib/auth-errors.js:225
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Net beskikber apparaatkommando"
 
 #: .es5/lib/auth-errors.js:229
 msgid "Recovery key not found"
-msgstr ""
+msgstr "Werstelkaai net fûn"
 
 #: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
@@ -721,7 +721,7 @@ msgstr "Unjildich berjocht fan it eksterne apparaat"
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Flater by keppeljen mei ekstern apparaat"
 
 #: .es5/lib/channel-server-client-errors.js:55
 msgid "Connection to remote device closed, please try again"
