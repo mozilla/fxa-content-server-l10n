@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2017-01-07 13:29+0000\n"
-"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
+"PO-Revision-Date: 2019-02-04 06:37+0000\n"
+"Last-Translator: narendrapetkar <n.v.petkar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "प्रत बनवली"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
@@ -307,11 +307,11 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:74
 msgid "Downloaded"
-msgstr ""
+msgstr "डाउनलोड केले"
 
 #: .es5/views/mixins/save-options-mixin.js:85
 msgid "Printed"
-msgstr ""
+msgstr "मुद्रित"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
 msgid "Primary email verified successfully"
@@ -815,9 +815,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -883,8 +881,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -921,7 +918,7 @@ msgstr "काय समकालन करायचे ते निवडा"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "निवड जतन करा"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1316,7 +1313,7 @@ msgstr "खाते तयार करा"
 
 #: .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "खाते आहे का? साइन इन करा"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
@@ -1718,8 +1715,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8

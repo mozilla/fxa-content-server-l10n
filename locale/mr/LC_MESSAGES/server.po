@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2018-11-23 18:11+0000\n"
-"Last-Translator: pranhdstud <pranhdstud@gmail.com>\n"
+"PO-Revision-Date: 2019-02-04 06:39+0000\n"
+"Last-Translator: narendrapetkar <n.v.petkar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -612,7 +612,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "लोड करत आहे"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
