@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-04 17:33+0000\n"
+"PO-Revision-Date: 2019-02-04 17:36+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -524,11 +524,11 @@ msgstr "Bu doğrulama kodunun süresi bitmiş"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Bu hesaba ait bir TOTP jetonu zaten var"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
-msgstr ""
+msgstr "TOTP jetonu bulunamadı"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
@@ -1789,7 +1789,7 @@ msgstr "Cihaz bağlandı"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Eşitleniyor:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
@@ -1797,7 +1797,7 @@ msgstr "Cihazları yönet"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "<small>Bu cihazdan</small> bağlantıyı onaylayın"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1821,7 +1821,7 @@ msgstr "Eşleştirme başarılı."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Eşleştirmeye çalışılıyor"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Uzak cihaza bağlanma hatası"
