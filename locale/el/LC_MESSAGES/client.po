@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-04 09:56+0000\n"
+"PO-Revision-Date: 2019-02-04 23:04+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -527,19 +527,19 @@ msgstr "Αυτός ο κωδικός επαλήθευσης έχει λήξει"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Υπάρχει ήδη ένα TOTP token για αυτό το λογαριασμό"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Δεν βρέθηκε TOTP token"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Δεν βρέθηκε κωδικός ανάκτησης"
 
 #: .es5/lib/auth-errors.js:225
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Μη διαθέσιμη εντολή συσκευής"
 
 #: .es5/lib/auth-errors.js:229
 msgid "Recovery key not found"
@@ -724,11 +724,11 @@ msgstr "Άκυρο μήνυμα από την απομακρυσμένη συσ�
 
 #: .es5/lib/channel-server-client-errors.js:51
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Σφάλμα σύζευξης με απομακρυσμένη συσκευή"
 
 #: .es5/lib/channel-server-client-errors.js:55
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Η σύνδεση στην απομακρυσμένη συσκευή έκλεισε, παρακαλούμε δοκιμάστε ξανά"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
@@ -1789,7 +1789,7 @@ msgstr "Χρήση διαφορετικής διεύθυνσης email"
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
-msgstr ""
+msgstr "Εγκρίνετε συνδέσεις <small>για έναρξη συγχρονισμού</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
 msgid "Approve connection"
@@ -1801,7 +1801,7 @@ msgstr "Η συσκευή συνδέθηκε"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Τώρα γίνεται συγχρονισμός με:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
@@ -1809,7 +1809,7 @@ msgstr "Διαχείριση συσκευών"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "Έγκριση αυτής της σύνδεσης <small>από αυτή τη συσκευή</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1825,7 +1825,7 @@ msgstr "Σύζευξη με εφαρμογή"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
