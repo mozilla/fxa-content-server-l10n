@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-04 07:25+0000\n"
+"PO-Revision-Date: 2019-02-04 08:22+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1800,19 +1800,19 @@ msgstr "Kudeatu gailuak"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "Onartu konexio hau <small>gailu honentzat</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Parekatzeak kale egin du"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Ezarpen prozedura amaitu da."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Parekatzea aplikazioa erabiliz"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
@@ -1820,11 +1820,11 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Parekatzea ondo egin da."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Parekatzea saiatzen"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Errorea urruneko gailura konektatzean"
