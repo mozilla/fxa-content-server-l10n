@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-04 08:22+0000\n"
+"PO-Revision-Date: 2019-02-05 09:37+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -525,11 +525,11 @@ msgstr "Egiaztatze kodea iraungi da"
 
 #: .es5/lib/auth-errors.js:213
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Badago lehendik TOTP tokena kontu honetarako"
 
 #: .es5/lib/auth-errors.js:217
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Ez da TOTP tokena aurkitu"
 
 #: .es5/lib/auth-errors.js:221
 msgid "Recovery code not found"
@@ -1816,7 +1816,7 @@ msgstr "Parekatzea aplikazioa erabiliz"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
