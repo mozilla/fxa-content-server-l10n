@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2015-06-12 12:43+0000\n"
-"Last-Translator: Kristján Bjarni <kristjanbjarni@gmail.com>\n"
+"PO-Revision-Date: 2019-02-05 17:05+0000\n"
+"Last-Translator: Kristján Geir Mathiesen <k@kasma.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434113016.0\n"
 
 #: .es5/views/confirm_reset_password.js:207
@@ -27,35 +28,35 @@ msgstr "Tókst að endurstilla lykilorð. Skráðu þig inn til að halda áfram
 #: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
-msgstr ""
+msgstr "Innskráning"
 
 #: .es5/views/permissions.js:59
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (krafist)"
 
 #: .es5/views/permissions.js:64
 msgid "Email address"
-msgstr ""
+msgstr "Netfang"
 
 #: .es5/views/permissions.js:68 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr ""
+msgstr "Nafn til birtingar"
 
 #: .es5/views/permissions.js:71 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr ""
+msgstr "Mynd fyrir notandaaðgang"
 
 #: .es5/views/ready.js:71
 msgid "Welcome back"
-msgstr ""
+msgstr "Velkomin aftur"
 
 #: .es5/views/ready.js:72
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox samstilling mun halda áfram eftir augnablik"
 
 #: .es5/views/ready.js:76 .es5/views/ready.js:81
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Lykilorðið þitt hefur verið endurstillt"
 
 #: .es5/views/ready.js:77 .es5/views/ready.js:82
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -79,7 +80,7 @@ msgstr ""
 
 #: .es5/views/ready.js:97 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Innskráning staðfest"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -115,11 +116,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:46
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Síðasta samstilling %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:47
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Síðasta samstilling yfir %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:50
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -163,7 +164,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:74
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Over %(translatedTimeAgo)s"
@@ -263,11 +264,11 @@ msgstr "Búið er að læsa reikningi vegna öryggisástæðna"
 
 #: .es5/views/mixins/account-reset-mixin.js:45 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
-msgstr ""
+msgstr "Endurstilla lykilorð"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:33
 msgid "none"
-msgstr ""
+msgstr "ekkert"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "Last checked: %(lastCheckTime)s"
@@ -275,23 +276,23 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:20
 msgid "Open Gmail"
-msgstr ""
+msgstr "Opna Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Opna Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Opna Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Outlook"
-msgstr ""
+msgstr "Opna Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Restmail"
-msgstr ""
+msgstr "Opna Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:49
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -299,7 +300,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Afritað"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
@@ -307,11 +308,11 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:74
 msgid "Downloaded"
-msgstr ""
+msgstr "Sótt"
 
 #: .es5/views/mixins/save-options-mixin.js:85
 msgid "Printed"
-msgstr ""
+msgstr "Prentað"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
 msgid "Primary email verified successfully"
@@ -323,39 +324,39 @@ msgstr "Tókst að staðfesta reikning"
 
 #: .es5/models/sync-engines.js:44
 msgid "Open tabs"
-msgstr ""
+msgstr "Opnir flipar"
 
 #: .es5/models/sync-engines.js:48
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bókamerki"
 
 #: .es5/models/sync-engines.js:52
 msgid "Add-ons"
-msgstr ""
+msgstr "Viðbætur"
 
 #: .es5/models/sync-engines.js:56
 msgid "Logins"
-msgstr ""
+msgstr "Innskráningar"
 
 #: .es5/models/sync-engines.js:60
 msgid "History"
-msgstr ""
+msgstr "Ferill"
 
 #: .es5/models/sync-engines.js:64
 msgid "Preferences"
-msgstr ""
+msgstr "Kjörstillingar"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Netföng"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "Greiðslukort"
 
 #: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox samstilling"
 
 #: .es5/models/auth_brokers/base.js:80
 msgid "Secondary email verified successfully"
@@ -363,7 +364,7 @@ msgstr ""
 
 #: .es5/models/auth_brokers/web.js:33
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Það tókst að endurstilla lykilorð"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
@@ -423,15 +424,15 @@ msgstr "Ógilt JSON í beiðni"
 
 #: .es5/lib/auth-errors.js:77
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Ógild breyta: %(param)s"
 
 #: .es5/lib/auth-errors.js:81
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Breytu vantar: %(param)s"
 
 #: .es5/lib/auth-errors.js:85
 msgid "Invalid request signature"
-msgstr "Ógild undirskrit í beiðni"
+msgstr "Ógild undirskrift í beiðni"
 
 #: .es5/lib/auth-errors.js:89
 msgid "Missing content-length header"
@@ -815,9 +816,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -883,8 +882,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1718,8 +1716,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
