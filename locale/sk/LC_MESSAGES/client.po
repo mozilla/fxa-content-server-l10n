@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-08 16:02+0000\n"
 "PO-Revision-Date: 2019-01-04 20:10+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,7 +314,7 @@ msgstr "Prevzaté"
 msgid "Printed"
 msgstr "Vytlačené"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
 msgstr "Primárna e-mailová adresa bola úspešne overená"
 
@@ -358,7 +358,7 @@ msgstr "Platobné karty"
 msgid "Firefox Sync"
 msgstr "Služba Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:80
+#: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr "Sekundárna e-mailová adresa bola úspešne overená"
 
@@ -366,7 +366,7 @@ msgstr "Sekundárna e-mailová adresa bola úspešne overená"
 msgid "Password reset successfully"
 msgstr "Heslo bolo úspešne obnovené"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
 msgstr "Neočakávaná chyba"
 
@@ -715,18 +715,6 @@ msgstr "Vyžaduje sa obnovovací kľúč"
 msgid "Please enter verification code"
 msgstr "Prosím, zadajte overovací kód"
 
-#: .es5/lib/channel-server-client-errors.js:47
-msgid "Invalid message from the remote device"
-msgstr "Neplatná správa zo vzdialeného zariadenia"
-
-#: .es5/lib/channel-server-client-errors.js:51
-msgid "Error pairing to remote device"
-msgstr ""
-
-#: .es5/lib/channel-server-client-errors.js:55
-msgid "Connection to remote device closed, please try again"
-msgstr ""
-
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Chýbajúca konfigurácia"
@@ -799,6 +787,18 @@ msgstr "žiadna správa"
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Chýbajúci parameter QAuth: %(param)s"
 
+#: .es5/lib/pairing-channel-client-errors.js:47
+msgid "Invalid message from the remote device"
+msgstr "Neplatná správa zo vzdialeného zariadenia"
+
+#: .es5/lib/pairing-channel-client-errors.js:55
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:59
+msgid "Connection to remote device closed, please try again"
+msgstr ""
+
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Neplatný parameter v tele požiadavky: %(param)s"
@@ -831,7 +831,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Získajte najčerstvejšie novinky o Mozille a Firefoxe."
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
@@ -1747,6 +1747,30 @@ msgstr "Hotovo, obnovovací kľúč bol uložený"
 msgid "How old are you?"
 msgstr "Koľko máte rokov?"
 
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr ""
+
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
 msgstr "Vaše heslo k účtu Firefox"
@@ -1821,10 +1845,6 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
-
-#: .es5/templates/pair/supp.mustache:1
-msgid "Attempting to pair"
 msgstr ""
 
 #~ msgid "Error connecting to remote device"

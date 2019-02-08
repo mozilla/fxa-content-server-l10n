@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-08 16:02+0000\n"
 "PO-Revision-Date: 2018-09-01 11:34+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,6 +74,7 @@ msgstr "Prijavi se na Sync"
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox nalozi"
 
@@ -1028,6 +1029,21 @@ msgstr "Obaveštenje o privatnosti"
 #: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are not supported in your "
+"version of Firefox. Please download and install the latest version of "
+"Firefox to continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
 
 #~ msgid "Two-step authentication removed"
 #~ msgstr "Verifikacija u dva koraka uklonjena"
