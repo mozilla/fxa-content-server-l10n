@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-01 16:02+0000\n"
-"PO-Revision-Date: 2019-02-11 00:33+0000\n"
+"PO-Revision-Date: 2019-02-11 00:36+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -1806,19 +1806,19 @@ msgstr "Quraşdırma prosesi dayandırıldı."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Tətbiq ilə qoş"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Sistem kamerasını işlətdiniz? Firefox tətbiqi içindən qoşmalısınız."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Qoşulma uğurlu oldu."
 
 #: .es5/templates/pair/supp.mustache:1
 msgid "Attempting to pair"
-msgstr ""
+msgstr "Qoşulma cəhdi gedir"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Uzaq cihaza qoşulma xətası"
