@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-15 22:32+0000\n"
+"PO-Revision-Date: 2019-02-15 22:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -652,7 +652,7 @@ msgstr "Aktualizacija Firefox trěbna"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox Accounts funkcije wužiwa, kotrež waša wersija Firefox njepodpěruje. Prošu sćehńće a instalujće najnowšu wersiju Firefox, zo byšće pokročował."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
