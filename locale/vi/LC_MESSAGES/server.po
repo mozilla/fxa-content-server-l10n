@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-15 16:02+0000\n"
 "PO-Revision-Date: 2018-12-14 06:59+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgstr "Đăng nhập vào Đồng bộ"
 #: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
 #: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Tài khoản Firefox"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1198
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1204
 msgid "Low recovery codes remaining"
 msgstr "Còn ít mã phục hồi còn lại"
 
@@ -70,7 +70,7 @@ msgstr "Đây là một email tự động."
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:8
 #: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Để biết thêm thông tin, vui lòng truy cập <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -85,7 +85,7 @@ msgstr "Để biết thêm thông tin, vui lòng truy cập <a %(supportLinkAttr
 #: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8
-#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
@@ -104,13 +104,13 @@ msgstr "Tạo mã:"
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5
 #: lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Để biết thêm thông tin, vui lòng truy cập %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:923
+#: lib/senders/email.js:929
 msgid "New sign-in to %(clientName)s"
 msgstr "Đăng nhập mới vào %(clientName)s"
 
@@ -246,7 +246,7 @@ msgstr "Trân trọng,"
 msgid "The Firefox Accounts team"
 msgstr "Nhóm Tài khoản Firefox"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1226
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1232
 msgid "Account recovery key generated"
 msgstr "Đã tạo khóa khôi phục tài khoản"
 
@@ -266,7 +266,7 @@ msgstr "Bạn đã tạo thành công khóa khôi phục tài khoản cho Tài k
 msgid "If this was not you, revoke key."
 msgstr "Nếu đây không phải là bạn, hãy thu hồi khóa."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1070
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1076
 msgid "Two-step authentication enabled"
 msgstr "Đã bật xác thực hai bước"
 
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 "Bạn đã thay đổi thành công email chính thành %(email)s. Địa chỉ này hiện là tên người dùng của bạn để đăng nhập vào Tài khoản Firefox của bạn, cũng như nhận thông báo bảo mật và xác nhận đăng nhập."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1166
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1172
 msgid "Recovery code consumed"
 msgstr "Mã phục hồi đã được sử dụng"
 
@@ -305,7 +305,7 @@ msgstr "Bạn đã sử dụng thành công mã khôi phục từ thiết bị s
 msgid "Consumed recovery code"
 msgstr "Đã sử dụng mã phục hồi"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1134
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1140
 msgid "New recovery codes generated"
 msgstr "Đã tạo mã khôi phục mới"
 
@@ -313,7 +313,7 @@ msgstr "Đã tạo mã khôi phục mới"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Bạn đã tạo thành công mã khôi phục mới từ thiết bị sau:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1260
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1266
 msgid "Account recovery key removed"
 msgstr "Đã xóa khóa khôi phục tài khoản"
 
@@ -338,12 +338,12 @@ msgid "You have successfully removed %(secondaryEmail)s as a secondary email fro
 msgstr "Bạn đã xóa thành công %(secondaryEmail)s làm email phụ từ Tài khoản Firefox của bạn. Thông báo bảo mật và xác nhận đăng nhập sẽ không còn được gửi tới địa chỉ này nữa."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
 #: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1102
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1108
 msgid "Two-step authentication disabled"
 msgstr "Đã tắt xác thực hai bước"
 
@@ -421,26 +421,34 @@ msgid "If no, help us fend off intruders and report it to us."
 msgstr "Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và báo cáo cho chúng tôi."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
+msgid "Welcome to %(serviceName)s!"
+msgstr ""
+
+#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
 msgstr "Chào mừng!"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "Vui lòng kích hoạt tài khoản của bạn bằng cách xác nhận địa chỉ email này."
+#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
+msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+msgstr ""
 
-#: lib/senders/templates/verify.html:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+msgid "Confirm this email address to activate your Firefox Account."
+msgstr ""
+
+#: lib/senders/templates/verify.html:6
 msgid "Activate now"
 msgstr "Kích hoạt ngay"
 
-#: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
+#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "Xác nhận Email"
 
-#: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Xác nhận email của bạn để hoàn tất đăng ký Tài khoản Firefox của bạn"
 
-#: lib/senders/templates/verify.txt:3
+#: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
 msgstr "Kích hoạt ngay:"
 
@@ -456,7 +464,7 @@ msgstr "Xác nhận lần đăng nhập này"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài khoản của bạn, <a %(passwordChangeLinkAttributes)s>hãy thay đổi mật khẩu của bạn</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:738
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:744
 msgid "Verify primary email"
 msgstr "Xác nhận email chính"
 
@@ -484,7 +492,7 @@ msgstr "Xác nhận email: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Nếu bạn không cho phép hành động này, vui lòng thay đổi mật khẩu của bạn."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:781
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:787
 msgid "Verify secondary email"
 msgstr "Xác nhận email phụ"
 
@@ -536,55 +544,55 @@ msgstr "%(country)s (ước tính)"
 msgid "Verify your Firefox Account"
 msgstr "Xác nhận Tài khoản Firefox của bạn"
 
-#: lib/senders/email.js:565
+#: lib/senders/email.js:567
 msgid "Confirm your email and start to sync!"
 msgstr "Xác nhận email của bạn và bắt đầu đồng bộ hóa!"
 
-#: lib/senders/email.js:608
+#: lib/senders/email.js:614
 msgid "Firefox Account authorization code"
 msgstr "Mã ủy quyền Tài khoản Firefox"
 
-#: lib/senders/email.js:647
+#: lib/senders/email.js:653
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
-#: lib/senders/email.js:696
+#: lib/senders/email.js:702
 msgid "Sign-in code for Firefox"
 msgstr "Mã đăng nhập cho Firefox"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:831
 msgid "Reset your Firefox Account password"
 msgstr "Đặt lại mật khẩu Tài khoản Firefox của bạn"
 
-#: lib/senders/email.js:853
+#: lib/senders/email.js:859
 msgid "Your Firefox Account password has been changed"
 msgstr "Mật khẩu Tài khoản Firefox của bạn đã được thay đổi"
 
-#: lib/senders/email.js:879
+#: lib/senders/email.js:885
 msgid "Firefox Account password changed"
 msgstr "Mật khẩu Tài khoản Firefox đã thay đổi"
 
-#: lib/senders/email.js:901
+#: lib/senders/email.js:907
 msgid "Firefox Account password reset required"
 msgstr "Yêu cầu đặt lại mật khẩu Tài khoản Firefox"
 
-#: lib/senders/email.js:961
+#: lib/senders/email.js:967
 msgid "Firefox Account verified"
 msgstr "Tài khoản Firefox đã được xác minh"
 
-#: lib/senders/email.js:988
+#: lib/senders/email.js:994
 msgid "Secondary Firefox Account email added"
 msgstr "Đã thêm email phụ cho Tài khoản Firefox"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1022
 msgid "Firefox Account new primary email"
 msgstr "Tài khoản Firefox với email chính mới"
 
-#: lib/senders/email.js:1044
+#: lib/senders/email.js:1050
 msgid "Secondary Firefox Account email removed"
 msgstr "Đã xóa email phụ của Tài khoản Firefox"
 
-#: lib/senders/email.js:1292
+#: lib/senders/email.js:1298
 msgid "Firefox Account password reset with recovery key"
 msgstr "Đặt lại mật khẩu tài khoản Firefox bằng khóa khôi phục"
 
@@ -635,3 +643,18 @@ msgstr "Thông báo bảo mật"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Điều khoản dịch vụ"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Vui lòng kích hoạt tài khoản của bạn bằng cách xác nhận địa chỉ email này."

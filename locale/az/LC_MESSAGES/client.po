@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-15 16:02+0000\n"
 "PO-Revision-Date: 2019-02-11 00:36+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,7 +314,7 @@ msgstr "Endirildi"
 msgid "Printed"
 msgstr "Çap olunub"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
 msgstr "Əsas e-poçt müvəffəqiyyətlə təsdiqləndi"
 
@@ -358,7 +358,7 @@ msgstr "Kredit Kartları"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:80
+#: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr "İkincil e-poçt müvəffəqiyyətlə təsdiqləndi"
 
@@ -366,7 +366,7 @@ msgstr "İkincil e-poçt müvəffəqiyyətlə təsdiqləndi"
 msgid "Password reset successfully"
 msgstr "Parol müvəffəqiyyətlə sıfırlandı"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
 msgstr "Gözlənilməz xəta"
 
@@ -715,18 +715,6 @@ msgstr "Bərpa açarı tələb edilir"
 msgid "Please enter verification code"
 msgstr "Lütfən təsdiq kodunu daxil edin"
 
-#: .es5/lib/channel-server-client-errors.js:47
-msgid "Invalid message from the remote device"
-msgstr "Uzaq cihazdan xətalı mesaj"
-
-#: .es5/lib/channel-server-client-errors.js:51
-msgid "Error pairing to remote device"
-msgstr "Uzaq cihazla birləşmə mümkün olmadı"
-
-#: .es5/lib/channel-server-client-errors.js:55
-msgid "Connection to remote device closed, please try again"
-msgstr "Uzaq cihazla əlaqə qopdu, lütfən təkrar yoxlayın"
-
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Əksik konfiqurasiya"
@@ -799,6 +787,18 @@ msgstr "mesaj yoxdur"
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Çatışmayan OAuth parametri: %(param)s"
 
+#: .es5/lib/pairing-channel-client-errors.js:47
+msgid "Invalid message from the remote device"
+msgstr "Uzaq cihazdan xətalı mesaj"
+
+#: .es5/lib/pairing-channel-client-errors.js:55
+msgid "Error pairing to remote device"
+msgstr "Uzaq cihazla birləşmə mümkün olmadı"
+
+#: .es5/lib/pairing-channel-client-errors.js:59
+msgid "Connection to remote device closed, please try again"
+msgstr "Uzaq cihazla əlaqə qopdu, lütfən təkrar yoxlayın"
+
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "İstək bədənində səhv parametr: %(param)s"
@@ -816,7 +816,9 @@ msgid "Invalid Token"
 msgstr "Səhv Token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Davam etməklə %(serviceName) (%(serviceUri)s) xidmətinin <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Şərtləri</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Bildirişi</a> ilə "
 "razılaşmış olursunuz."
@@ -829,7 +831,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla və Firefox haqqında son xəbərləri əldə edin."
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (təxmini)"
 
@@ -884,7 +886,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox Hesabınızın idarəsini qaytarmaq üçün, lütfən, təhlükəsiz yerdə saxladığınız bərpa açarını daxil edin."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">QEYD:</span> Əgər parolu sıfırlamaq istəsəz və saxlanılmış bərpa açarlarınız olmasa, bəzi məlumatlarınız silinəcək (tarixçə və əlfəcinlər kimi sinxronlaşdırılmış server "
 "məlumatları da daxil)."
@@ -1729,7 +1732,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2/2 Addım: Bərpa açarınızı yadda saxlayın"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">QEYD: </span>Əgər parolunuzu itirsəniz məlumatlarınızı açmaq üçün bu açar tələb ediləcək. Bərpa açarınızı asanlıqla tapa biləcəyiniz təhlükəsiz yerdə saxlayın."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1739,6 +1743,30 @@ msgstr "Hazır, Bərpa açarı saxlanıldı"
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Neçə yaşınız var?"
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1816,9 +1844,8 @@ msgstr "Sistem kamerasını işlətdiniz? Firefox tətbiqi içindən qoşmalıs�
 msgid "Pairing was successful."
 msgstr "Qoşulma uğurlu oldu."
 
-#: .es5/templates/pair/supp.mustache:1
-msgid "Attempting to pair"
-msgstr "Qoşulma cəhdi gedir"
+#~ msgid "Attempting to pair"
+#~ msgstr "Qoşulma cəhdi gedir"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Uzaq cihaza qoşulma xətası"
@@ -1923,7 +1950,9 @@ msgstr "Qoşulma cəhdi gedir"
 #~ msgstr "Çərəzlər və lokal yaddaş tələb edilir."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+#~ msgstr ""
+#~ "Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış "
+#~ "olursunuz."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox bulud servisləri"
@@ -1979,8 +2008,8 @@ msgstr "Qoşulma cəhdi gedir"
 #~ msgstr "Niyə birdən çox cihaz Sinxronizasiya edilməlidir?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync bir cihazınızda Firefoxda qeyd etdiyiniz əlfəcin, tarixçə və parolları digər cihazlarınızdakı Firefox ilə paylaşmağınıza imkan verir. Telefon və ya planşetinizdə Firefox-a daxil olun və "
 #~ "Masaüstü üçün Firefox-da saxladığınız hər şey peyda olacaq."
@@ -1989,8 +2018,8 @@ msgstr "Qoşulma cəhdi gedir"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync daimi nüsxə olaraq düşünülməyib – bu sadəcə daxili saxlananları paylaşır. Əgər parolu sıfırlasaz və məlumatlarınız cihazlarınızdan ən az birində saxlanılmayıbsa köhnə parolunuzla bağlı bütün "
-#~ "məlumatları itirəcəksiz. Bu səbəbdən Firefox və Sync-i bir neçə cihazda qurmağınız məsləhətlidir."
+#~ "Sync daimi nüsxə olaraq düşünülməyib – bu sadəcə daxili saxlananları paylaşır. Əgər parolu sıfırlasaz və məlumatlarınız cihazlarınızdan ən az birində saxlanılmayıbsa köhnə parolunuzla bağlı "
+#~ "bütün məlumatları itirəcəksiz. Bu səbəbdən Firefox və Sync-i bir neçə cihazda qurmağınız məsləhətlidir."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2095,15 +2124,15 @@ msgstr "Qoşulma cəhdi gedir"
 #~ msgstr "Daxil ol"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>Yadda Saxla:</span> Əgər parolu sıfırlasanız, bəzi məlumatlarınız silinəcək (tarixçə və əlfəcinlər kimi sinxronlaşdırılmış server məlumatları daxil). Bunun səbəbi təhlükəsizliyiniz üçün "
 #~ "məlumatlarınızı parolunuz ilə şifrələməyimizdir."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>QEYD:</span> Əgər parolu sıfırlasanız, bəzi məlumatlarınız silinəcək (tarixçə və əlfəcinlər kimi sinxronlaşdırılmış server məlumatları daxil). Bunun səbəbi təhlükəsizliyiniz üçün "
 #~ "məlumatlarınızı parolunuz ilə şifrələməyimizdir."
@@ -2225,16 +2254,20 @@ msgstr "Qoşulma cəhdi gedir"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync nizamlamaları"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Firefox Sync üçün baxırsız? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Firefox Sync üçün baxırsız? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Fərqli e-poçtla hesabınız var? <a href=\"%(signinUri)s\">Daxil olun</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> və <a href=\"%(linkLinux)s\">Linux</a> üçün mövcuddur."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> və <a href=\"%(linkLinux)s\">Linux</a> "
+#~ "üçün mövcuddur."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Son aktiv: %(translatedTimeAgo)s"
@@ -2403,8 +2436,8 @@ msgstr "Qoşulma cəhdi gedir"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama işini başlatmaq üçün aşağıda e-poçt ünvanınızı "
-#~ "daxil edin."
+#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama işini başlatmaq üçün aşağıda e-poçt "
+#~ "ünvanınızı daxil edin."
 
 #~ msgid "a day"
 #~ msgstr "bir gün"
@@ -2600,8 +2633,12 @@ msgstr "Qoşulma cəhdi gedir"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Artıq hesabınız var? Daxil olun."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə razıyam."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə "
+#~ "razıyam."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Davam etməklə, mən Firefox bulud xidmətlərinin <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Qeydləri</a> ilə razıyam."

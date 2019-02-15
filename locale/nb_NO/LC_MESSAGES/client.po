@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-15 16:02+0000\n"
 "PO-Revision-Date: 2019-02-02 21:54+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,7 +314,7 @@ msgstr "Lastet ned"
 msgid "Printed"
 msgstr "Skrevet ut"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
 msgstr "Primær e-postadresse bekreftet"
 
@@ -358,7 +358,7 @@ msgstr "Kredittkort"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:80
+#: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr "Sekundær e-postadresse bekreftet"
 
@@ -366,7 +366,7 @@ msgstr "Sekundær e-postadresse bekreftet"
 msgid "Password reset successfully"
 msgstr "Passordet er tilbakestilt"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
 msgstr "Uventet feil"
 
@@ -716,18 +716,6 @@ msgstr "Gjenopprettingsnøkkel nødvendig"
 msgid "Please enter verification code"
 msgstr "Angi verifiseringskode"
 
-#: .es5/lib/channel-server-client-errors.js:47
-msgid "Invalid message from the remote device"
-msgstr "Ugyldig melding fra den eksterne enheten"
-
-#: .es5/lib/channel-server-client-errors.js:51
-msgid "Error pairing to remote device"
-msgstr ""
-
-#: .es5/lib/channel-server-client-errors.js:55
-msgid "Connection to remote device closed, please try again"
-msgstr ""
-
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "Manglende konfigurasjon"
@@ -801,6 +789,18 @@ msgstr "ingen melding"
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Manglende OAuth-parameter: %(param)s"
 
+#: .es5/lib/pairing-channel-client-errors.js:47
+msgid "Invalid message from the remote device"
+msgstr "Ugyldig melding fra den eksterne enheten"
+
+#: .es5/lib/pairing-channel-client-errors.js:55
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:59
+msgid "Connection to remote device closed, please try again"
+msgstr ""
+
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ugyldig parameter i forespørselsinnhold: %(param)s"
@@ -818,7 +818,9 @@ msgid "Invalid Token"
 msgstr "Ugyldig token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -831,7 +833,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Få siste nytt om Mozilla og Firefox."
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimert)"
 
@@ -886,7 +888,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Skriv inn engangs-gjenopprettingsnøkkelen du lagret på et trygt sted, for å få tilgang til din Firefox-konto igjen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">MERK:</span> Hvis du tilbakestiller passordet ditt og ikke har nøkkel for kontogjenoppretting, blir noen av dataene dine slettet (inkludert synkroniserte serverdata som "
 "historikk og bokmerker)."
@@ -1191,8 +1194,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er fordi vi"
-" krypterer dataene dine med passordet ditt for å beskytte ditt personvern."
+"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er fordi "
+"vi krypterer dataene dine med passordet ditt for å beskytte ditt personvern."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1733,7 +1736,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Trinn 2 av 2: Lagre gjenopprettingsnøkkel"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">MERK: </span>Hvis du glemmer passordet ditt, er denne nøkkelen nødvendig for å få tilgang til dine data. Lagre gjenopprettingsnøkkelen på et trygt sted, hvor du lett kan finne "
 "den senere."
@@ -1745,6 +1749,30 @@ msgstr "Ferdig, gjenopprettingsnøkkel lagret"
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Hvor gammel er du?"
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1820,10 +1848,6 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
-
-#: .es5/templates/pair/supp.mustache:1
-msgid "Attempting to pair"
 msgstr ""
 
 #~ msgid "Error connecting to remote device"
@@ -1929,7 +1953,8 @@ msgstr ""
 #~ msgstr "Infokapsler og lokal lagring er påkrevd."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ved å fortsette, aksepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernsbestemmelser</a> for Firefox skytjenester."
+#~ msgstr ""
+#~ "Ved å fortsette, aksepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernsbestemmelser</a> for Firefox skytjenester."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox skytjenester"
@@ -1986,18 +2011,18 @@ msgstr ""
 #~ msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret på "
-#~ "Firefox for PC vil dukke opp."
+#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret "
+#~ "på Firefox for PC vil dukke opp."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste alle "
-#~ "data, som er lagret med ditt gamle passord."
+#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste "
+#~ "alle data, som er lagret med ditt gamle passord."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2105,15 +2130,15 @@ msgstr ""
 #~ msgstr "Logg inn"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>HUSK:</span> Hvis du tilbakestiller passordet ditt, blir noen data slettet (inkludert synkroniserte data på serveren som historikk og bokmerker). Det er fordi vi krypterer dine data med "
 #~ "passordet ditt for å beskytte personvernet ditt."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>OBS:</span> Hvis du tilbakestiller passordet ditt, blir noen data slettet (inkludert synkroniserte data på serveren som historikk og bokmerker). Det er fordi vi krypterer dine data med "
 #~ "passordet ditt for å beskytte personvernet ditt."
@@ -2239,8 +2264,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
-#~ " øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
+#~ "mellom øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"
