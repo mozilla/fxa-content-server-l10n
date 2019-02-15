@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 16:02+0000\n"
+"POT-Creation-Date: 2019-02-15 16:02+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,7 +314,7 @@ msgstr ""
 msgid "Printed"
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:76
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
 msgid "Primary email verified successfully"
 msgstr ""
 
@@ -358,7 +358,7 @@ msgstr ""
 msgid "Firefox Sync"
 msgstr "Firefox সিঙ্ক"
 
-#: .es5/models/auth_brokers/base.js:80
+#: .es5/models/auth_brokers/base.js:82
 msgid "Secondary email verified successfully"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr ""
 msgid "Password reset successfully"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/channel-server-client-errors.js:19 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
 msgid "Unexpected error"
 msgstr "অপ্রত্যাশিত ত্রুটি"
 
@@ -715,18 +715,6 @@ msgstr ""
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/channel-server-client-errors.js:47
-msgid "Invalid message from the remote device"
-msgstr ""
-
-#: .es5/lib/channel-server-client-errors.js:51
-msgid "Error pairing to remote device"
-msgstr ""
-
-#: .es5/lib/channel-server-client-errors.js:55
-msgid "Connection to remote device closed, please try again"
-msgstr ""
-
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
 msgstr "অনুপস্থিত কনফিগারেশন"
@@ -799,6 +787,18 @@ msgstr "কোনো বার্তা নেই"
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth parameter: %(param)s মিস হচ্ছে"
 
+#: .es5/lib/pairing-channel-client-errors.js:47
+msgid "Invalid message from the remote device"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:55
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:59
+msgid "Connection to remote device closed, please try again"
+msgstr ""
+
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "অবৈধ প্যারামিটার রিকোয়েস্ট বডিতে: %(param)সমূহ"
@@ -831,7 +831,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla ও FIrefox সম্পর্কে সর্বশেষ খবর পান।"
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (আনুমানিক)"
 
@@ -1733,6 +1733,30 @@ msgstr ""
 msgid "How old are you?"
 msgstr "আপনার বয়স কত?"
 
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr ""
+
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
 msgstr ""
@@ -1807,10 +1831,6 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
-
-#: .es5/templates/pair/supp.mustache:1
-msgid "Attempting to pair"
 msgstr ""
 
 #~ msgid "Save settings"
