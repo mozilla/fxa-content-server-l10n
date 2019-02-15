@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2018-08-31 16:58+0000\n"
+"PO-Revision-Date: 2019-02-15 20:51+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Pomyślnie połączono pierwsze urządzenie z kontem Firefoksa. Aby jak najlepiej skorzystać z usługi Sync, połącz <a href='%(androidUrl)s'>Firefoksa na Androida</a> lub <a href='%(iosUrl)s'>Firefoksa "
 "na iOS</a>."
@@ -289,8 +289,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Pomyślnie zmieniono główny adres e-mail na %(email)s. Ten adres jest teraz nazwą użytkownika do logowania na koncie Firefoksa, a także adresem odbierającym powiadomienia bezpieczeństwa "
-"i potwierdzenia logowania."
+"Pomyślnie zmieniono główny adres e-mail na %(email)s. Ten adres jest teraz nazwą użytkownika do logowania na koncie Firefoksa, a także adresem odbierającym powiadomienia bezpieczeństwa i "
+"potwierdzenia logowania."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1172
 msgid "Recovery code consumed"
@@ -420,7 +420,7 @@ msgstr "Jeśli nie, prosimy pomóc nam odpędzić intruzów zgłaszając to."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "Witamy w usłudze %(serviceName)s"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -428,11 +428,11 @@ msgstr "Witamy!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Potwierdź ten adres e-mail, aby aktywować konto Firefoksa i przejść do usługi %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Potwierdź ten adres e-mail, aby aktywować konto Firefoksa."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -644,15 +644,15 @@ msgstr "Regulamin usługi"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Wymagana jest aktualizacja Firefoksa"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Usługa kont Firefoksa korzysta z funkcji, które nie są obsługiwane przez używaną wersję Firefoksa. Prosimy pobrać i zainstalować najnowszą wersję, aby kontynuować."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Pobierz najnowszą wersję"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Proszę aktywować konto przez potwierdzenie tego adresu e-mail."
@@ -703,8 +703,8 @@ msgstr ""
 #~ msgstr "Witamy ponownie."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Kilka dni temu utworzono konto Firefoksa, ale nigdy go nie zweryfikowano. Zweryfikowane konto umożliwia dostęp do kart, zakładek, haseł i historii na każdym połączonym urządzeniu. Wystarczy "
 #~ "potwierdzić ten adres e-mail, aby aktywować konto."
@@ -733,8 +733,7 @@ msgstr ""
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Pomyślnie usunięto drugi adres e-mail %(secondaryEmail)s z konta Firefoksa. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Pomyślnie zweryfikowano %(secondaryEmail)s jako drugi adres e-mail dla konta Firefoksa. Powiadomienia bezpieczeństwa i potwierdzenia logowania będą teraz wysyłane na oba adresy."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
