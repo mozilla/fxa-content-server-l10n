@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-16 06:07+0000\n"
+"PO-Revision-Date: 2019-02-16 06:15+0000\n"
 "Last-Translator: 우믿트 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -641,7 +641,7 @@ msgstr "需要更新 Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox 账户须要用到您的 Firefox 版本尚不支持的特性。请下载并安装最新版本的 Firefox 以继续。"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
