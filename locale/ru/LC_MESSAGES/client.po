@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-15 19:11+0000\n"
+"PO-Revision-Date: 2019-02-14 19:49+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -798,7 +798,7 @@ msgstr "Ошибка сопряжения с удалённым устройст
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Подключение к удалённому устройству закрыто, пожалуйста, попробуйте снова"
 
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
