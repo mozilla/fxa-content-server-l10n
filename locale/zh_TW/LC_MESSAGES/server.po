@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2018-08-31 18:01+0000\n"
+"PO-Revision-Date: 2019-02-16 05:48+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -23,8 +23,8 @@ msgstr "您已將第一台裝置連線至您的 Firefox 帳號。您現在可以
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "您已將第一台裝置連線至您的 Firefox 帳號。若要發揮 Sync 的最大用處，請將 <a href='%(androidUrl)s'>Firefox for Android</a> 或 <a href='%(iosUrl)s'>Firefox for iOS</a> 連線到 Sync。"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -413,7 +413,7 @@ msgstr "不是的話，請幫助我們阻擋入侵者，並讓我們知道。"
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "歡迎使用 %(serviceName)s！"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -421,11 +421,11 @@ msgstr "歡迎！"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "確認此電子郵件地址後即可啟用您的 Firefox 帳號，並繼續前往 %(serviceName)s。"
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "確認此電子郵件地址後即可啟用您的 Firefox 帳號。"
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -637,15 +637,15 @@ msgstr "服務條款"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "需要更新 Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox 帳號會需要用到您的版本的 Firefox 仍不支援的功能。請下載安裝最新版的 Firefox 才能繼續。"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "下載最新版本"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "請確認此電子郵件地址為您所有，以啟用帳號。"
@@ -696,8 +696,8 @@ msgstr ""
 #~ msgstr "再次哈囉。"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr "您在幾天前註冊了 Firefox 帳號，但沒有完成驗證。驗證帳號後您將可以在所有連結起來的裝置間開啟分頁、書籤、密碼、瀏覽紀錄等等資料。只要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -724,8 +724,7 @@ msgstr ""
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已成功移除 Firefox 帳號的次要電子郵件地址 %(secondaryEmail)s。我們不會再寄出安全性通知與登入確認信到該信箱。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功將 %(secondaryEmail)s 驗證為您的 Firefox 帳號的次要電子郵件地址。安全性通知與登入確認郵件將寄送到您的所有信箱。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -809,9 +808,7 @@ msgstr ""
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只"
-#~ "要確認此電子郵件地址即可啟用帳號。"
+#~ msgstr "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "env"
 #~ msgstr "env"
