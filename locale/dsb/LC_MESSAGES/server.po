@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2018-08-31 17:54+0000\n"
+"PO-Revision-Date: 2019-02-16 20:31+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. Aby nejwěcej ze Sync wuwónoźeł zwězajśo z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</a>."
 
@@ -423,7 +423,7 @@ msgstr "Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wě
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "Witjaśo k %(serviceName)s!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -431,11 +431,11 @@ msgstr "Witajśo!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto Firefox aktiwěrował a źiśo dalej k %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto Firefox aktiwěrował."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -647,15 +647,15 @@ msgstr "Wužywańske wuměnenja"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Aktualizacija Firefox trěbna"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox Accounts funkcije wužywa, kótarež waša wersija Firefox njepódpěra. Pšosym ześěgniśo a instalěrujśo nejnowšu wersiju Firefox, aby pókšacował."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Nejnowšu ześěgnuś"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Pšosym aktiwěrujśo swójo konto, aby toś tu e-mailowu adresu wobkšuśił."
@@ -706,11 +706,11 @@ msgstr ""
 #~ msgstr "Witaj hyšći raz."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž "
-#~ "jo z nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
+#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž jo z "
+#~ "nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -735,8 +735,7 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sćo swójomu kontoju Firefox wuspěšnje %(secondaryEmail)s ako drugu e-mailowu adresu wobkšuśił. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adrese pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -821,8 +820,8 @@ msgstr ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske "
-#~ "znamjenja a historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
+#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske znamjenja a "
+#~ "historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
 
 #~ msgid "env"
 #~ msgstr "env"
