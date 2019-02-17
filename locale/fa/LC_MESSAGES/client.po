@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-17 08:11+0000\n"
+"PO-Revision-Date: 2019-02-17 08:21+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -797,7 +797,7 @@ msgstr "خطا در جفت سازی دستگاه های راه دور"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "ارتباط به دستگاه از راه دور بسته شد. لطفا بعدا تلاش کنید"
 
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
@@ -923,7 +923,7 @@ msgstr "انتخاب کنید که چه چیزهایی همگام‌ شوند"
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "ذخیره انتخاب ها"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1310,7 +1310,7 @@ msgstr "<span> از کلمه عبور ایمیل خود مجدد استفاده 
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span> رمز عبور خود را به خاطر سپارید</span> اگر نیاز دارید رمز عبور خود را مجدد تنظیم کنید،‌ اطلاعات همگام سازی شده که ممکن است بر روی دستگاه های شما نباشد را از دست دهید."
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1551,6 +1551,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"اگر این برنامه را برای حساب برنامه های موزیلا یا خدماتی همچون AMO،‌ Pocket , یا تصاویر گرفته شده از صفحه استفاده می‌کنید، در ابتدا باید وارد شوید سپس تمام اطلاعات شخصی خود را حذف کنید. هر زمان "
+"اطعلات حساب خود را در اینجا پاک کردید شما ممکن است حساب خود را در جاهای دیگر از دست دهید."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1579,7 +1581,7 @@ msgstr "حذف"
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "نوسازی وضعیت"
 
 #: .es5/templates/settings/emails.mustache:26
 msgid "Add"
@@ -1587,19 +1589,19 @@ msgstr "اضافه کردن"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "شماره‌های بازآوری"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "NOTE:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "با ساختن شماره های بازآوری جدید،‌ تمام شماره های قدیم بی ارزش خواهند شد. لطفا کدهای جدید را در جای امنی قرار دهید."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "ساختن شماره‌ های بازآوری جدید"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
