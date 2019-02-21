@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-19 13:30+0000\n"
+"PO-Revision-Date: 2019-02-21 09:27+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -433,11 +433,11 @@ msgstr "Bainvegni!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Conferma questa adressa d'e-mail per activar tes conto da Firefox e cuntinuar cun %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Conferma questa adressa d'e-mail per activar tes conto da Firefox."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -649,15 +649,15 @@ msgstr "Cundiziuns dal servetsch"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "In'actualisaziun da Firefox è necessaria"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Ils contos da Firefox fan diever da bleras funcziuns betg sustegnidas da tia versiun da Firefox. Telechargia ed installescha per plaschair la versiun la pli nova da Firefox per cuntinuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Telechargiar la pli nova"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Activescha p.pl. tes conto entras confirmar questa adressa dad e-mail."
