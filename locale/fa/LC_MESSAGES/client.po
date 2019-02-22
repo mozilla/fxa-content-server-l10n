@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-17 08:21+0000\n"
-"Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
+"PO-Revision-Date: 2019-02-22 15:52+0000\n"
+"Last-Translator: Amin Mahmudian <amin.mahmudian@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -1658,11 +1658,11 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "نمی‌توانید کد را اسکن کنید؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "به صورت دستی این کلید را در برنامه احراز هویت‌تان وارد کنید:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
@@ -1674,7 +1674,7 @@ msgstr "تایید"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "پیش از این که این بخش را مشاهده یا آن را ویرایش کنید، باید رایانامه‌تان را تایید کنید."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -1682,33 +1682,35 @@ msgstr "پست‌الکترونیکی اصلی"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "بازیابی حساب"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "اگر رمز عبور خود را فراموش کرده‌اید، یک کلید بازیابی برای دسترسی مجدد به نشانک‌های فایرفاکس، رمزهای عبور و داده‌های همگام سازی خود ایجاد کنید."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "کلید بازیابی"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "تعیین نشده"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "ایجاد"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
+"<span class=\"note\">هشدار: </span> رمز عبور حساب فایرفاکس شما اطلاعات فایرفاکس‌تان را رمزنگاری می‌کند. تنها با رمز عبور یا کلید بازیابی می‌توانید به اطلاعات خود دسترسی پیدا کنید. <a "
+"%(escapedLearnMoreLinkAttributes)s>بیشتر بدانید</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "مرحله ۱ از ۲: رمز عبور را دوباره وارد کنید"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
