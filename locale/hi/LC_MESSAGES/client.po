@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-02-22 16:02+0000\n"
 "PO-Revision-Date: 2018-12-10 17:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -316,7 +316,7 @@ msgstr "डाउनलोड की गई"
 msgid "Printed"
 msgstr "मुद्रित"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "प्राथमिक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -360,7 +360,7 @@ msgstr "क्रेडिट कार्ड"
 msgid "Firefox Sync"
 msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -1015,7 +1015,7 @@ msgstr "पुनः तैयार करने का ईमेल भेज�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "अन्य उपकरण से जोड़े"
 
@@ -1825,16 +1825,16 @@ msgstr ""
 msgid "The setup process was terminated."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
 msgstr ""
 
 #~ msgid "Error connecting to remote device"

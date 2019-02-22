@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-02-22 16:02+0000\n"
 "PO-Revision-Date: 2019-02-03 20:41+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -314,7 +314,7 @@ msgstr "Download"
 msgid "Printed"
 msgstr "Ofdrukt"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "Primêr e-mailadres mei sukses ferifiearre"
 
@@ -358,7 +358,7 @@ msgstr "Creditcards"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "Sekundêr e-mailadres mei sukses ferifiearre"
 
@@ -1017,7 +1017,7 @@ msgstr "Keppeling foar opnij ynstellen ferstjoerd"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Klik binnen in oer op de keppeling dy't nei %(email)s ferstjoerd is om in nij wachtwurd oan te meitsjen."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Oar apparaat keppelje"
 
@@ -1837,17 +1837,17 @@ msgstr "Keppeling mislearre"
 msgid "The setup process was terminated."
 msgstr "It ynstelproses is ôfbrutsen."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
-msgid "Pair using an app"
-msgstr "Keppelje mei in app"
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
-
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr "Keppeling slagge."
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+msgid "Pair using an app"
+msgstr "Keppelje mei in app"
+
+#: .es5/templates/pair/unsupported.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
 
 #~ msgid "Attempting to pair"
 #~ msgstr "Keppeling wurdt probearre"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-02-22 16:02+0000\n"
 "PO-Revision-Date: 2019-01-07 09:09+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -315,7 +315,7 @@ msgstr "ダウンロード完了"
 msgid "Printed"
 msgstr "印刷完了"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "主要アドレスの確認が完了しました"
 
@@ -359,7 +359,7 @@ msgstr "クレジットカード"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "予備アドレスの確認が完了しました"
 
@@ -1021,7 +1021,7 @@ msgstr "リセット用のメールが送信されました"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "1 時間以内に %(email)s 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。"
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "他の端末を接続"
 
@@ -1839,16 +1839,16 @@ msgstr ""
 msgid "The setup process was terminated."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
 msgstr ""
 
 #~ msgid "Error connecting to remote device"

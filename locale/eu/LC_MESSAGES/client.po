@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-02-22 16:02+0000\n"
 "PO-Revision-Date: 2019-02-05 09:37+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -315,7 +315,7 @@ msgstr "Deskargatuta"
 msgid "Printed"
 msgstr "Inprimatuta"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "Helbide elektroniko nagusia ondo egiaztatu da"
 
@@ -359,7 +359,7 @@ msgstr "Kreditu-txartelak"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "Helbide elektroniko alternatiboa ondo egiaztatu da"
 
@@ -1018,7 +1018,7 @@ msgstr "Berrezartze-mezua bidali da"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Konektatu beste gailu bat"
 
@@ -1838,17 +1838,17 @@ msgstr "Parekatzeak kale egin du"
 msgid "The setup process was terminated."
 msgstr "Ezarpen prozedura amaitu da."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
-msgid "Pair using an app"
-msgstr "Parekatzea aplikazioa erabiliz"
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
-
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr "Parekatzea ondo egin da."
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+msgid "Pair using an app"
+msgstr "Parekatzea aplikazioa erabiliz"
+
+#: .es5/templates/pair/unsupported.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
 
 #~ msgid "Attempting to pair"
 #~ msgstr "Parekatzea saiatzen"

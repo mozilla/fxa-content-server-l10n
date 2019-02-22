@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2018-09-02 17:58+0000\n"
+"POT-Creation-Date: 2019-02-22 16:02+0000\n"
+"PO-Revision-Date: 2019-02-15 21:58+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -423,7 +423,7 @@ msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till os
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "Välkommen till %(serviceName)s!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -431,11 +431,11 @@ msgstr "Välkommen!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto och fortsätt till %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -647,15 +647,15 @@ msgstr "Tjänstevillkor"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox-uppdatering krävs"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox-konton använder funktioner som inte stöds i din version av Firefox. Vänligen ladda ner och installera den senaste versionen av Firefox för att fortsätta."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Ladda ner senaste"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Aktivera ditt konto genom att bekräfta denna e-postadress."
