@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-21 17:37+0000\n"
-"Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2019-02-24 16:35+0000\n"
+"Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -1824,7 +1824,7 @@ msgstr "Aprobar esta conexión <small>desde este dispositivo</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Error al conectarse"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1832,15 +1832,15 @@ msgstr "Finalizó el proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Conectarse mediante una aplicación"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de Firefox."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Conexión establecida correctamente."
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Error al conectar al dispositivo remoto"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-21 17:38+0000\n"
-"Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2019-02-24 16:35+0000\n"
+"Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -435,11 +435,11 @@ msgstr "¡Te damos la bienvenida!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Confirma esta dirección de correo para activar tu cuenta de Firefox y continuar con %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Confirma esta dirección de correo para activar tu cuenta de Firefox."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -651,15 +651,15 @@ msgstr "Términos del servicio"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Se necesita actualizar Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Las cuentas de Firefox utilizan funciones que no están disponibles en tu versión de Firefox. Descarga e instala la última versión de Firefox para poder continuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Descargar la última versión"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Por favor, activa tu cuenta confirmando la dirección de correo."
