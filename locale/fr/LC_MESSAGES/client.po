@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-21 23:17+0000\n"
-"Last-Translator: laurenttripleor <laurenttripleor@gmail.com>\n"
+"PO-Revision-Date: 2019-02-23 21:20+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -539,7 +539,7 @@ msgstr "Code de secours introuvable"
 
 #: .es5/lib/auth-errors.js:225
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Commande de l’appareil non disponible"
 
 #: .es5/lib/auth-errors.js:229
 msgid "Recovery key not found"
@@ -796,7 +796,7 @@ msgstr "Message invalide reçu de l’appareil distant"
 
 #: .es5/lib/pairing-channel-client-errors.js:55
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Échec du jumelage avec l’appareil distant"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
@@ -1829,23 +1829,23 @@ msgstr "Gérer les appareils"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "Approuver cette connexion <small>à partir de cet appareil</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Échec du jumelage"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Processus d’installation interrompu."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Jumeler en utilisant une application"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Avez-vous utilisé la caméra du système ? Le jumelage doit être effectué depuis une application Firefox."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
