@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-23 21:20+0000\n"
+"PO-Revision-Date: 2019-02-26 13:40+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -796,7 +796,7 @@ msgstr "Message invalide reçu de l’appareil distant"
 
 #: .es5/lib/pairing-channel-client-errors.js:55
 msgid "Error pairing to remote device"
-msgstr "Échec du jumelage avec l’appareil distant"
+msgstr "Échec de l’association avec l’appareil distant"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
@@ -1833,7 +1833,7 @@ msgstr "Approuver cette connexion <small>à partir de cet appareil</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr "Échec du jumelage"
+msgstr "Échec de l’association"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1841,15 +1841,15 @@ msgstr "Processus d’installation interrompu."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr "Jumeler en utilisant une application"
+msgstr "Associer en utilisant une application"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Avez-vous utilisé la caméra du système ? Le jumelage doit être effectué depuis une application Firefox."
+msgstr "Avez-vous utilisé la caméra du système ? L’association doit être effectuée depuis une application Firefox."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr "Jumelage réussi."
+msgstr "Association réussie."
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Erreur de connexion à l’appareil distant"
