@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 16:02+0000\n"
-"PO-Revision-Date: 2019-02-18 19:18+0000\n"
+"PO-Revision-Date: 2019-02-27 03:38+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -792,7 +792,7 @@ msgstr "არამართებული შეტყობინება �
 
 #: .es5/lib/pairing-channel-client-errors.js:55
 msgid "Error pairing to remote device"
-msgstr "შეცდომა დაშორებულ მოწყობილობაზე დაწყვილებისას"
+msgstr "შეცდომა დაშორებულ მოწყობილობასთან მიერთებისას"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
@@ -1825,7 +1825,7 @@ msgstr "კავშირის დამოწმება <small>ამ მ�
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr "დაწყვილება ვერ შესრულდა წარმატებით"
+msgstr "მიერთება ვერ მოხერხდა"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1833,15 +1833,15 @@ msgstr "გამართვის მიმდინარეობა შე�
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Pair using an app"
-msgstr "დაწყვილება აპლიკაციის გამოყენებით"
+msgstr "მიერთება აპლიკაციის გამოყენებით"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "სისტემის კამერას იყენებდით? დაწყვილებაა საჭირო Firefox-ის აპლიკაციიდან."
+msgstr "სისტემის კამერას იყენებდით? მიერთებაა საჭირო Firefox-ის აპლიკაციიდან."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr "დაწყვილება შესრულდა წარმატებით."
+msgstr "მიერთება დასრულდა წარმატებით."
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "შეცდომა მოშორებულ მოწყობილობაზე დაკავშირებისას"
