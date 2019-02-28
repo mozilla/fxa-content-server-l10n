@@ -661,7 +661,7 @@ msgstr "Conturile Firefox utilizează funcționalități care nu au suport în v
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Descarcă cea mai recentă versiune"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Te rugăm să îți activezi contul confirmând această adresă de e-mail."
