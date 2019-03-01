@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-01 16:03+0000\n"
 "PO-Revision-Date: 2018-11-04 15:27+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr "Chaidh am facal-faire ath-shuidheachadh. Clàraich a-steach a leantainn 
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Clàraich a-steach"
 
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Printed"
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "Chaidh am prìomh phost-d a dhearbhadh"
 
@@ -361,7 +361,7 @@ msgstr "Cairtean-creideis"
 msgid "Firefox Sync"
 msgstr "Sioncronachadh Firefox"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "Chaidh am post-d dàrnach a dhearbhadh"
 
@@ -449,7 +449,7 @@ msgstr "Tha bodhaig an iarrtais ro mhòr"
 msgid "The request was blocked for security reasons"
 msgstr "Chaidh an t-iarrtas a bhacadh air sgàth adhbharan tèarainteachd"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:454
 msgid "Invalid authorization code"
 msgstr "Còd ùghdarrachaidh mì-dhligheach"
 
@@ -553,7 +553,7 @@ msgstr "Iuchair aisig mhì-dhligheach"
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Feumaidh an t-iarrtas seo dearbhadh dà-cheumnach a bhith an comas sa chunntas agad."
 
-#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:434
 msgid "Server busy, try again soon"
 msgstr "Tha am frithealaiche trang, feuch ris a-rithist a dh’aithghearr"
 
@@ -654,67 +654,71 @@ msgstr "Tha Signup a’ tighinn gu Firefox airson iOS a dh’aithghearr"
 msgid "You must enter your age to sign up"
 msgstr "Feumaidh tu d’ aois a chur a-steach mus urrainn dhut clàradh"
 
-#: .es5/lib/auth-errors.js:409
+#: .es5/lib/auth-errors.js:398
+msgid "You must enter a valid age to sign up"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."
 msgstr "Chan eil an cunntas seo ann tuilleadh."
 
-#: .es5/lib/auth-errors.js:413
+#: .es5/lib/auth-errors.js:417
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Roghainn mhì-dhligheach san Resume Token: %(property)s"
 
-#: .es5/lib/auth-errors.js:417
+#: .es5/lib/auth-errors.js:421
 msgid "Missing property in resume token: %(property)s"
 msgstr "Roghainn a dhìth san Resume Token: %(property)s"
 
-#: .es5/lib/auth-errors.js:421
+#: .es5/lib/auth-errors.js:425
 msgid "Invalid data attribute: %(property)s"
 msgstr "Buaidh dàta mhì-dhligheach: %(property)s"
 
-#: .es5/lib/auth-errors.js:425
+#: .es5/lib/auth-errors.js:429
 msgid "Missing data attribute: %(property)s"
 msgstr "Buaidh dàta a dhìth: %(property)s"
 
-#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:496 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Chaidh an ceangal dearbhaidh seo a chleachdadh mu thràth ’s cha ghabh a chleachdadh ach aon turas."
 
-#: .es5/lib/auth-errors.js:442
+#: .es5/lib/auth-errors.js:446
 msgid "This is a required field"
 msgstr "Tha an raon seo riatanach"
 
-#: .es5/lib/auth-errors.js:446
+#: .es5/lib/auth-errors.js:450
 msgid "Authorization code required"
 msgstr "Tha feum air còd ùghdarrachaidh"
 
-#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:458 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Ceangal briste"
 
-#: .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
 msgstr "Tha feum air àireamh fòn"
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Two-step authentication code required"
 msgstr "Tha feum air còd dearbhaidh dhà-cheumnaich"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Invalid two-step authentication code"
 msgstr "Còd dearbhaidh dhà-cheumnaich mì-dhligheach"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:508
 msgid "Recovery code required"
 msgstr "Tha feum air còd aisig"
 
-#: .es5/lib/auth-errors.js:508
+#: .es5/lib/auth-errors.js:512
 msgid "Invalid recovery code"
 msgstr "Còd aisig mì-dhligheach"
 
-#: .es5/lib/auth-errors.js:520
+#: .es5/lib/auth-errors.js:524
 msgid "Recovery key required"
 msgstr "Tha feum air iuchair aisig"
 
-#: .es5/lib/auth-errors.js:524
+#: .es5/lib/auth-errors.js:528
 msgid "Please enter verification code"
 msgstr "Cuir a-steach an còd dearbhaidh"
 
@@ -1021,7 +1025,7 @@ msgstr "Chaidh am post-d ath-shuidheachaidh a chur"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Briog air a’ cheangal a chur sinn gu %(email)s taobh a-staigh uair a thìde a chruthachadh facal-faire ùr."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Ceangail ri uidheam eile"
 
@@ -1040,10 +1044,6 @@ msgstr "Soirbheas"
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Clàraich a-steach dhan Firefox seo a choileanadh an t-suidheachaidh"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "Sign in &rarr;"
-msgstr "Clàraich a-steach &rarr;"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
@@ -1849,17 +1849,20 @@ msgstr ""
 msgid "The setup process was terminated."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
-msgid "Pair using an app"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
-
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Clàraich a-steach &rarr;"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "Mearachd a’ ceangal ris an uidheam chèin"

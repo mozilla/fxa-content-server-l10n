@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-01 16:03+0000\n"
 "PO-Revision-Date: 2019-02-15 19:02+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr "Password reset successfully. Sign in to continue."
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Sign in"
 
@@ -313,7 +313,7 @@ msgstr "Downloaded"
 msgid "Printed"
 msgstr "Printed"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "Primary email verified successfully"
 
@@ -357,7 +357,7 @@ msgstr "Credit cards"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "Secondary email verified successfully"
 
@@ -445,7 +445,7 @@ msgstr "Request body too large"
 msgid "The request was blocked for security reasons"
 msgstr "The request was blocked for security reasons"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:454
 msgid "Invalid authorization code"
 msgstr "Invalid authorization code"
 
@@ -549,7 +549,7 @@ msgstr "Invalid recovery key"
 msgid "This request requires two step authentication enabled on your account."
 msgstr "This request requires two step authentication enabled on your account."
 
-#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:434
 msgid "Server busy, try again soon"
 msgstr "Server busy, try again soon"
 
@@ -650,67 +650,71 @@ msgstr "Sign-up is coming soon to Firefox for iOS"
 msgid "You must enter your age to sign up"
 msgstr "You must enter your age to sign up"
 
-#: .es5/lib/auth-errors.js:409
+#: .es5/lib/auth-errors.js:398
+msgid "You must enter a valid age to sign up"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."
 msgstr "Account no longer exists."
 
-#: .es5/lib/auth-errors.js:413
+#: .es5/lib/auth-errors.js:417
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Invalid property in resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:417
+#: .es5/lib/auth-errors.js:421
 msgid "Missing property in resume token: %(property)s"
 msgstr "Missing property in resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:421
+#: .es5/lib/auth-errors.js:425
 msgid "Invalid data attribute: %(property)s"
 msgstr "Invalid data attribute: %(property)s"
 
-#: .es5/lib/auth-errors.js:425
+#: .es5/lib/auth-errors.js:429
 msgid "Missing data attribute: %(property)s"
 msgstr "Missing data attribute: %(property)s"
 
-#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:496 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "That confirmation link was already used, and can only be used once."
 
-#: .es5/lib/auth-errors.js:442
+#: .es5/lib/auth-errors.js:446
 msgid "This is a required field"
 msgstr "This is a required field"
 
-#: .es5/lib/auth-errors.js:446
+#: .es5/lib/auth-errors.js:450
 msgid "Authorization code required"
 msgstr "Authorization code required"
 
-#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:458 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Link damaged"
 
-#: .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
 msgstr "Phone number required"
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Two-step authentication code required"
 msgstr "Two-step authentication code required"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Invalid two-step authentication code"
 msgstr "Invalid two-step authentication code"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:508
 msgid "Recovery code required"
 msgstr "Recovery code required"
 
-#: .es5/lib/auth-errors.js:508
+#: .es5/lib/auth-errors.js:512
 msgid "Invalid recovery code"
 msgstr "Invalid recovery code"
 
-#: .es5/lib/auth-errors.js:520
+#: .es5/lib/auth-errors.js:524
 msgid "Recovery key required"
 msgstr "Recovery key required"
 
-#: .es5/lib/auth-errors.js:524
+#: .es5/lib/auth-errors.js:528
 msgid "Please enter verification code"
 msgstr "Please enter verification code"
 
@@ -815,8 +819,12 @@ msgid "Invalid Token"
 msgstr "Invalid Token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -881,8 +889,10 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1009,7 +1019,7 @@ msgstr "Reset email sent"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Click the link emailed to %(email)s within the next hour to create a new password."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Connect another device"
 
@@ -1028,10 +1038,6 @@ msgstr "Success"
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Sign in to this Firefox to complete set-up"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "Sign in &rarr;"
-msgstr "Sign in &rarr;"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
@@ -1724,8 +1730,10 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Step 2 of 2: Save Recovery key"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1823,17 +1831,20 @@ msgstr "Pairing not successful"
 msgid "The setup process was terminated."
 msgstr "The setup process was terminated."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
-msgid "Pair using an app"
-msgstr "Pair using an app"
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Did you use the system camera? You must pair from within a Firefox app."
-
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr "Pairing was successful."
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+msgid "Pair using an app"
+msgstr "Pair using an app"
+
+#: .es5/templates/pair/unsupported.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Did you use the system camera? You must pair from within a Firefox app."
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Sign in &rarr;"
 
 #~ msgid "Attempting to pair"
 #~ msgstr "Attempting to pair"
@@ -1997,11 +2008,11 @@ msgstr "Pairing was successful."
 #~ msgstr "Why Sync two (or more!) devices?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you’ve saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you’ve saved "
+#~ "to Firefox for desktop will appear."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "

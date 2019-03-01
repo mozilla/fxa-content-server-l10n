@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-01 16:03+0000\n"
 "PO-Revision-Date: 2018-12-10 17:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr "कूटशब्द सफलतापूर्वक बदला ग
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "साइन इन"
 
@@ -316,7 +316,7 @@ msgstr "डाउनलोड की गई"
 msgid "Printed"
 msgstr "मुद्रित"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:78
+#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
 msgid "Primary email verified successfully"
 msgstr "प्राथमिक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -360,7 +360,7 @@ msgstr "क्रेडिट कार्ड"
 msgid "Firefox Sync"
 msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
-#: .es5/models/auth_brokers/base.js:82
+#: .es5/models/auth_brokers/base.js:104
 msgid "Secondary email verified successfully"
 msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -448,7 +448,7 @@ msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा
 msgid "The request was blocked for security reasons"
 msgstr "अनुरोध सुरक्षा कारणों से अवरुद्ध किया गया था"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:450
+#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:454
 msgid "Invalid authorization code"
 msgstr "अवैध अधिकृत कूट"
 
@@ -552,7 +552,7 @@ msgstr "अमान्य पुनर्प्राप्ति कोड"
 msgid "This request requires two step authentication enabled on your account."
 msgstr "इस अनुरोध के लिए आपके खाते पर द्वि-चरण प्रमाणीकरण सक्षम होना आवश्यक है।"
 
-#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:434
 msgid "Server busy, try again soon"
 msgstr "सर्वर व्यस्त, जल्द ही पुन: प्रयास करें"
 
@@ -653,67 +653,71 @@ msgstr "फॉयरफॉक्स के आईओस के लिए पं�
 msgid "You must enter your age to sign up"
 msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
-#: .es5/lib/auth-errors.js:409
+#: .es5/lib/auth-errors.js:398
+msgid "You must enter a valid age to sign up"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."
 msgstr "खाता अब मौजूद नहीं हैं."
 
-#: .es5/lib/auth-errors.js:413
+#: .es5/lib/auth-errors.js:417
 msgid "Invalid property in resume token: %(property)s"
 msgstr "रिज्यूम टोकन में अवैध संपत्ति: %(property)s"
 
-#: .es5/lib/auth-errors.js:417
+#: .es5/lib/auth-errors.js:421
 msgid "Missing property in resume token: %(property)s"
 msgstr "संपत्ति लापता रिज्यूम टोकन: %(property)s"
 
-#: .es5/lib/auth-errors.js:421
+#: .es5/lib/auth-errors.js:425
 msgid "Invalid data attribute: %(property)s"
 msgstr "अमान्य डेटा विशेषता: %(property)s"
 
-#: .es5/lib/auth-errors.js:425
+#: .es5/lib/auth-errors.js:429
 msgid "Missing data attribute: %(property)s"
 msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
 
-#: .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:492 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:496 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
-#: .es5/lib/auth-errors.js:442
+#: .es5/lib/auth-errors.js:446
 msgid "This is a required field"
 msgstr "यह एक ज़रूरी जगह हैं"
 
-#: .es5/lib/auth-errors.js:446
+#: .es5/lib/auth-errors.js:450
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: .es5/lib/auth-errors.js:454 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:458 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
-#: .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
 msgstr "फोन नंबर आवश्यक है"
 
-#: .es5/lib/auth-errors.js:496
+#: .es5/lib/auth-errors.js:500
 msgid "Two-step authentication code required"
 msgstr "द्वि-चरणीय प्रमाणीकरण कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:500
+#: .es5/lib/auth-errors.js:504
 msgid "Invalid two-step authentication code"
 msgstr "अमान्य द्वि-चरणीय प्रमाणीकरण कोड"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:508
 msgid "Recovery code required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:508
+#: .es5/lib/auth-errors.js:512
 msgid "Invalid recovery code"
 msgstr "अमान्य पुनर्प्राप्ति कोड"
 
-#: .es5/lib/auth-errors.js:520
+#: .es5/lib/auth-errors.js:524
 msgid "Recovery key required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:524
+#: .es5/lib/auth-errors.js:528
 msgid "Please enter verification code"
 msgstr "कृपया सत्यापन कोड दर्ज करें"
 
@@ -1015,7 +1019,7 @@ msgstr "पुनः तैयार करने का ईमेल भेज�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "अन्य उपकरण से जोड़े"
 
@@ -1034,10 +1038,6 @@ msgstr "सफल"
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "सम्पूर्ण सेट-अप के लिए इस Firefox में साइन इन करें"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "Sign in &rarr;"
-msgstr "साइन इन करे &rarr;"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"
@@ -1825,17 +1825,20 @@ msgstr ""
 msgid "The setup process was terminated."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
-msgid "Pair using an app"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
-
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:3
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "साइन इन करे &rarr;"
 
 #~ msgid "Error connecting to remote device"
 #~ msgstr "रिमोट उपकरण से कनेक्ट करने में त्रुटि"
