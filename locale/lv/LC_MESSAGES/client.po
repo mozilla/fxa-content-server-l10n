@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2018-03-03 05:55+0000\n"
-"Last-Translator: orvils <orvils@gmail.com>\n"
+"PO-Revision-Date: 2019-03-02 13:41+0000\n"
+"Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -247,7 +247,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:168
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Divpakāpju autentifikācija"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Nokopēts"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
@@ -307,7 +307,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:74
 msgid "Downloaded"
-msgstr ""
+msgstr "Lejupielādēts"
 
 #: .es5/views/mixins/save-options-mixin.js:85
 msgid "Printed"
@@ -347,7 +347,7 @@ msgstr "Iestatījumi"
 
 #: .es5/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Adreses"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
@@ -447,11 +447,11 @@ msgstr "Pieprasījums tika bloķēti drošības apsvērumu dēļ"
 
 #: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:454
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Nederīgs autorizācijas kods"
 
 #: .es5/lib/auth-errors.js:123
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Nederīgs tālruņa numurs"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Cannot send to this country"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:148
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Nevar piegādāt epastu"
 
 #: .es5/lib/auth-errors.js:153
 msgid "This email was already verified by another user"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:201
 msgid "Failed to send email"
-msgstr ""
+msgstr "Neizdevās nosūtīt epastu"
 
 #: .es5/lib/auth-errors.js:205
 msgid "Valid code required"
@@ -692,7 +692,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
-msgstr ""
+msgstr "Nepieciešams tālruņa numurs"
 
 #: .es5/lib/auth-errors.js:500
 msgid "Two-step authentication code required"
@@ -819,9 +819,7 @@ msgid "Invalid Token"
 msgstr "Nederīgs žetons"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Turpinot, jūs piekrītat <a id=\"service-tos\" href=\"%(termsUri)s\">pakalpojuma lietošanas noteikumiem</a> un %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">privātuma "
 "politikai</a>."
@@ -872,7 +870,7 @@ msgstr "Saite jūsu klikšķinājāt savas paroles atstatīšanai vairs nav der�
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Saņemt jaunu saiti"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
@@ -889,8 +887,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1092,7 +1089,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Ievadiet savu epastu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
@@ -1101,7 +1098,7 @@ msgstr "Epasts"
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
-msgstr ""
+msgstr "Turpināt"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1238,7 +1235,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "Verificēt"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
@@ -1334,7 +1331,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
-msgstr ""
+msgstr "Sūtīt"
 
 #: .es5/templates/sms_send.mustache:10
 msgid ""
@@ -1495,11 +1492,11 @@ msgstr ""
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
-msgstr ""
+msgstr "Lejupielādēt"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox Android ierīcēm"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
@@ -1570,7 +1567,7 @@ msgstr ""
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "Atsvaidzināt statusu"
 
 #: .es5/templates/settings/emails.mustache:26
 msgid "Add"
@@ -1599,7 +1596,7 @@ msgstr ""
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
-msgstr ""
+msgstr "Kopēt"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
@@ -1659,7 +1656,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
-msgstr ""
+msgstr "Apstiprināt"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
@@ -1705,7 +1702,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Ievadi paroli"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
@@ -1720,8 +1717,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1750,7 +1746,7 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "Atrašanās vieta nav zināma"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
@@ -1798,7 +1794,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "Ierīce pieslēgta"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1988,19 +1984,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Sync iestatījumi"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Meklē Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Sāc šeit</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Jums ir konts ar citu epastu? <a href=\"%(signinUri)s\">Ieejiet</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ir pieejams uz <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> un <a href="
-#~ "\"%(linkLinux)s\">GNU/Linux</a>."
+#~ "Firefox ir pieejams uz <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> un <a "
+#~ "href=\"%(linkLinux)s\">GNU/Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Pēdējoreiz aktīvs: %(translatedTimeAgo)s"
