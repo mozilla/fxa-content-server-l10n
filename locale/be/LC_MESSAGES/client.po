@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-04 18:11+0000\n"
+"PO-Revision-Date: 2019-03-04 18:15+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -387,7 +387,7 @@ msgstr "Няправільны токен"
 
 #: .es5/lib/auth-errors.js:41
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Няправільная пазнака часу ў подпісе запыту"
 
 #: .es5/lib/auth-errors.js:45
 msgid "Invalid nonce in request signature"
