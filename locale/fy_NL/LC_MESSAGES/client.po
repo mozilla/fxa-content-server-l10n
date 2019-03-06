@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-03 13:14+0000\n"
+"PO-Revision-Date: 2019-03-06 12:46+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -589,7 +589,7 @@ msgstr "Dwaande…"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
-msgstr "Kin privacybetingsten net ophelje"
+msgstr "Kin privacyferklearring net ophelje"
 
 #: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
@@ -1115,7 +1115,7 @@ msgstr "Servicebetingsten"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
-msgstr "Privacybetingsten"
+msgstr "Privacyferklearring"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
