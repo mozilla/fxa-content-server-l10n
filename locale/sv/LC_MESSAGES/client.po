@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-02-15 21:56+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2019-03-08 16:02+0000\n"
+"PO-Revision-Date: 2019-03-01 18:08+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -653,7 +653,7 @@ msgstr "Du måste ange din ålder för att registrera dig"
 
 #: .es5/lib/auth-errors.js:398
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Du måste ange en giltig ålder för att registrera dig"
 
 #: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."

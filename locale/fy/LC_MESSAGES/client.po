@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-02-25 15:40+0000\n"
+"POT-Creation-Date: 2019-03-08 16:02+0000\n"
+"PO-Revision-Date: 2019-03-06 12:46+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -589,7 +589,7 @@ msgstr "Dwaande…"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
-msgstr "Kin privacybetingsten net ophelje"
+msgstr "Kin privacyferklearring net ophelje"
 
 #: .es5/lib/auth-errors.js:286
 msgid "Could not get Terms of Service"
@@ -653,7 +653,7 @@ msgstr "Jo moatte jo leeftyd ynfiere om te registrearjen"
 
 #: .es5/lib/auth-errors.js:398
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Jo moatte in jildige leeftiid ynfiere om te registrearjen"
 
 #: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."
@@ -1118,7 +1118,7 @@ msgstr "Servicebetingsten"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
-msgstr "Privacybetingsten"
+msgstr "Privacyferklearring"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
