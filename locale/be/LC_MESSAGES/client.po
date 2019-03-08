@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-07 18:38+0000\n"
+"PO-Revision-Date: 2019-03-08 09:29+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -543,11 +543,11 @@ msgstr "Ключ аднаўлення не знойдзены"
 
 #: .es5/lib/auth-errors.js:233
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Нядзейсны ключ аднаўлення"
 
 #: .es5/lib/auth-errors.js:237
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Гэты запыт патрабуе, каб двухэтапная аўтарызацыя была ўключана ў вашым уліковым запісе."
 
 #: .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:434
 msgid "Server busy, try again soon"
@@ -560,11 +560,11 @@ msgstr "Функцыя не ўключана"
 #: .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:258 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Сістэма недаступная, паспрабуйце яшчэ раз у бліжэйшы час"
 
 #: .es5/lib/auth-errors.js:254
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Гэты пункт доступу больш не падтрымліваецца"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Login attempt cancelled"
@@ -572,11 +572,11 @@ msgstr "Спроба ўваходу скасавана"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Час сеансу выйшаў. Увайдзіце, каб працягнуць."
 
 #: .es5/lib/auth-errors.js:270
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Кукі па-ранейшаму адключаны"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Passwords do not match"
@@ -584,7 +584,7 @@ msgstr "Паролі не супадаюць"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Working…"
-msgstr ""
+msgstr "Апрацоўка…"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Could not get Privacy Notice"
