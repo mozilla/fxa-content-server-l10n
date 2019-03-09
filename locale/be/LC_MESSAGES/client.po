@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-09 16:08+0000\n"
+"PO-Revision-Date: 2019-03-09 16:20+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -672,11 +672,11 @@ msgstr "Недапушчальны атрыбут дадзеных: %(property)s
 
 #: .es5/lib/auth-errors.js:429
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Адсутнічае атрыбут дадзеных: %(property)s"
 
 #: .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:496 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Гэта спасылка для пацверджання ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз."
 
 #: .es5/lib/auth-errors.js:446
 msgid "This is a required field"
