@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-09 15:51+0000\n"
+"PO-Revision-Date: 2019-03-09 16:08+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -624,27 +624,27 @@ msgstr "Патрабуецца сапраўдны URL"
 
 #: .es5/lib/auth-errors.js:336
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ваш электронны ліст пацверджання толькі што вярнуўся. Памылка ўпісвання адраса?"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Увядзіце сапраўдны адрас электроннай пошты. firefox.com не прапануе электронную пошту."
 
 #: .es5/lib/auth-errors.js:352
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Уліковыя запісы Firefox могуць быць устаўлены ў IFRAME толькі на зацверджаных сайтах"
 
 #: .es5/lib/auth-errors.js:371 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Спасылка для пацверджання пашкоджана"
 
 #: .es5/lib/auth-errors.js:379
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Памеры відарыса мусяць быць па меншай меры 100x100пкс"
 
 #: .es5/lib/auth-errors.js:383
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Рэгістрацыя хутка з'явіцца ў Firefox для iOS"
 
 #: .es5/lib/auth-errors.js:394
 msgid "You must enter your age to sign up"
@@ -652,7 +652,7 @@ msgstr "Вы мусіце ўказаць свой узрост, каб зарэ�
 
 #: .es5/lib/auth-errors.js:398
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Вы мусіце ўказаць правільны ўзрост для рэгістрацыі"
 
 #: .es5/lib/auth-errors.js:413
 msgid "Account no longer exists."
@@ -660,15 +660,15 @@ msgstr "Уліковы запіс больш не існуе."
 
 #: .es5/lib/auth-errors.js:417
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Нядзейсная ўласцівасць у токене ўзнаўлення: %(property)s"
 
 #: .es5/lib/auth-errors.js:421
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Адсутнічае ўласцівасць у токене ўзнаўлення: %(property)s"
 
 #: .es5/lib/auth-errors.js:425
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Недапушчальны атрыбут дадзеных: %(property)s"
 
 #: .es5/lib/auth-errors.js:429
 msgid "Missing data attribute: %(property)s"
