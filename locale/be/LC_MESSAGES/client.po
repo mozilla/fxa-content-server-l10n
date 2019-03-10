@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-09 16:20+0000\n"
+"PO-Revision-Date: 2019-03-10 19:12+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -680,15 +680,15 @@ msgstr "Гэта спасылка для пацверджання ўжо был�
 
 #: .es5/lib/auth-errors.js:446
 msgid "This is a required field"
-msgstr ""
+msgstr "Гэта абавязковае поле"
 
 #: .es5/lib/auth-errors.js:450
 msgid "Authorization code required"
-msgstr ""
+msgstr "Патрабуецца код аўтарызацыі"
 
 #: .es5/lib/auth-errors.js:458 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Спасылка пашкоджана"
 
 #: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
@@ -708,27 +708,27 @@ msgstr "Патрабуецца код аднаўлення"
 
 #: .es5/lib/auth-errors.js:512
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Нядзейсны код аднаўлення"
 
 #: .es5/lib/auth-errors.js:524
 msgid "Recovery key required"
-msgstr ""
+msgstr "Патрабуецца ключ аднаўлення"
 
 #: .es5/lib/auth-errors.js:528
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Калі ласка, увядзіце код пацверджання"
 
 #: .es5/lib/config-loader.js:105
 msgid "Missing configuration"
-msgstr ""
+msgstr "Адсутнічае канфігурацыя"
 
 #: .es5/lib/config-loader.js:109
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Некарэктная канфігурацыя"
 
 #: .es5/lib/mailcheck.js:27
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Вы мелі на ўвазе <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: .es5/lib/marketing-email-errors.js:42
 msgid "Please try again later"
@@ -784,7 +784,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:132
 msgid "no message"
-msgstr ""
+msgstr "няма паведамлення"
 
 #: .es5/lib/oauth-errors.js:136
 msgid "Missing OAuth parameter: %(param)s"
