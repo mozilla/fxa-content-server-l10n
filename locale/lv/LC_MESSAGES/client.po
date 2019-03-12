@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-02 13:41+0000\n"
+"PO-Revision-Date: 2019-03-12 15:32+0000\n"
 "Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:120
 msgid "Web Session"
-msgstr ""
+msgstr "Tīmekļa sesija"
 
 #: .es5/views/settings/clients.js:135
 msgid "Last sync time unknown"
@@ -351,7 +351,7 @@ msgstr "Adreses"
 
 #: .es5/models/sync-engines.js:80
 msgid "Credit cards"
-msgstr ""
+msgstr "Kredītkartes"
 
 #: .es5/models/reliers/sync.js:75
 msgid "Firefox Sync"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:458 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Saite bojāta"
 
 #: .es5/lib/auth-errors.js:481
 msgid "Phone number required"
@@ -732,7 +732,7 @@ msgstr ""
 
 #: .es5/lib/marketing-email-errors.js:42
 msgid "Please try again later"
-msgstr ""
+msgstr "Lūdzu, pamēģiniet vēlreiz vēlāk"
 
 #: .es5/lib/marketing-email-errors.js:74
 msgid "Service unavailable, try again soon"
@@ -940,7 +940,7 @@ msgstr "Saitei uz kuru jūs noklikšķinājāt trūka rakstzīmes, un to varētu
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Izveidot jaunu paroli"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -1015,7 +1015,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Pievienojiet citu ierīci"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -1023,7 +1023,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Epasts apstiprināts"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
@@ -1187,7 +1187,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Sākt atiestatīšanu"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1239,7 +1239,7 @@ msgstr "Verificēt"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Izmantojiet drošības kodu"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1259,11 +1259,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Ievadīt kodu"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Ievadiet drošības kodu"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1271,7 +1271,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Ievadiet 6 ciparu kodu"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1319,7 +1319,7 @@ msgstr "Ir konts? Pieslēdzies"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Nepareizs epasts?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1327,7 +1327,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Mobilā tālruņa numurs"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Sapratu"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
@@ -1443,7 +1443,7 @@ msgstr "Veca vai mainīta iekārta"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Dublēt ierīci"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1467,7 +1467,7 @@ msgstr "Parādīt"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Pašreizējā ierīce"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1475,7 +1475,7 @@ msgstr "Atslēgt…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Pašreizējā sesija"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
