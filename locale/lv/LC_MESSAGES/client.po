@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-12 15:32+0000\n"
+"PO-Revision-Date: 2019-03-12 15:35+0000\n"
 "Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -1479,11 +1479,11 @@ msgstr "Pašreizējā sesija"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "Atcelt"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox iOS ierīcēm"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
@@ -1550,11 +1550,11 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
-msgstr ""
+msgstr "verificēts"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
-msgstr ""
+msgstr "nepieciešama verificēšana"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:15
 msgid "Make primary"
@@ -1562,7 +1562,7 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:14 .es5/templates/settings/emails.mustache:17
 msgid "Remove"
-msgstr ""
+msgstr "Noņemt"
 
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
@@ -1579,7 +1579,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "PIEZĪME:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
@@ -1600,15 +1600,15 @@ msgstr "Kopēt"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
-msgstr ""
+msgstr "Drukāt"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Divpakāpju autentifikācija"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Iespējot…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1616,7 +1616,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Pašreizējais statuss"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
@@ -1652,7 +1652,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "Drošības kods"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1684,7 +1684,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Ģenerēt"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1774,7 +1774,7 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Rādīt paroli"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
