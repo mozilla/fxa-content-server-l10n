@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 16:03+0000\n"
-"PO-Revision-Date: 2019-03-15 15:13+0000\n"
+"PO-Revision-Date: 2019-03-15 15:28+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -793,15 +793,15 @@ msgstr "Липсващ OAuth параметър: %(param)s"
 
 #: .es5/lib/pairing-channel-client-errors.js:47
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Невалидно съобщение от отдалеченото устройство"
 
 #: .es5/lib/pairing-channel-client-errors.js:55
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Грешка при сдвояване с отдалеченото устройство"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Връзката с отдалеченото устройство е затворена, моля, опитайте отново"
 
 #: .es5/lib/profile-errors.js:26
 msgid "Invalid parameter in request body: %(param)s"
@@ -1381,7 +1381,7 @@ msgstr "Разбрах"
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
-msgstr "Промяна…"
+msgstr "Променяне…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
@@ -1414,7 +1414,7 @@ msgstr "Ако е необходимо наместете и завъртете 
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr "Промяна"
+msgstr "Променяне"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1570,7 +1570,7 @@ msgstr "Премахване"
 #: .es5/templates/settings/emails.mustache:22 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "Обновяване на състоянието"
 
 #: .es5/templates/settings/emails.mustache:26
 msgid "Add"
@@ -1671,23 +1671,23 @@ msgstr "Основен ел. адрес"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Възстановяване на профила"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Генерирайте ключ за възстановяване на достъпа до отметките, паролите и синхронизираната информация на Firefox в случай, че забравите паролата си."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Ключ за възстановяване"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Не е създаден"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Генериране"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
@@ -1733,47 +1733,47 @@ msgstr "На колко години сте?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(family)s на %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s (приблизително)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (приблизително)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
-msgstr ""
+msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "Неизвестно местоположение"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "Адрес по IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Вашата парола за Firefox Account"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Не трябва да бъде вашия адрес на ел. поща"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Не трябва да присъства в <a %(escapedCommonPasswordLinkAttrs)s>списъка с често използвани пароли</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Да е оригинална и безопасна – не използвайте тази парола никъде другаде."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Запомнете я – при нулиране данните ви биват изтрити от сървърите."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1805,7 +1805,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "Управление на устройства"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
