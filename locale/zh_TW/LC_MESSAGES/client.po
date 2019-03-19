@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-15 16:02+0000\n"
-"PO-Revision-Date: 2019-03-15 21:01+0000\n"
+"PO-Revision-Date: 2019-03-19 06:06+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1397,7 +1397,7 @@ msgstr "上傳"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr "攝影機"
+msgstr "拍照"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
@@ -1418,7 +1418,7 @@ msgstr "變更"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "當您完成後，請使用新密碼在其他裝置中登入。"
+msgstr "更改完成後，請使用新密碼在其他裝置中登入。"
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1515,7 +1515,7 @@ msgstr "郵件偏好"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr "您將收到關於您的帳號安全性、我們的政策修訂、您的帳號功能與協助您了解 Firefox 帳號的各種功能的初始郵件。"
+msgstr "您將收到關於我們的政策修訂、帳號安全性、帳號功能與協助發揮 Firefox 帳號最大功能的初始郵件。"
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1713,7 +1713,7 @@ msgstr "您確定要註銷嗎？"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "您重設密碼後，將無法再使用這把救援金鑰來存取您的資料。"
+msgstr "重設密碼後，將無法再使用這把救援金鑰來存取您的資料。"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
