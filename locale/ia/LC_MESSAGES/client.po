@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-22 16:03+0000\n"
 "PO-Revision-Date: 2019-03-02 00:15+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,6 +254,14 @@ msgstr "Authentication a duo grados"
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Recuperation del conto"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -724,11 +732,11 @@ msgstr "Clave de recuperation obligatori"
 msgid "Please enter verification code"
 msgstr "Per favor insere codice de verification"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Manca le configuration"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Configuration non valide"
 

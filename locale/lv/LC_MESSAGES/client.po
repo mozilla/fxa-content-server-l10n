@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-22 16:03+0000\n"
 "PO-Revision-Date: 2019-03-12 15:35+0000\n"
 "Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,6 +251,14 @@ msgstr "Divpakāpju autentifikācija"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
 msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
@@ -722,11 +730,11 @@ msgstr ""
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Trūkstoša konfigurācija"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Nederīga konfigurācija"
 

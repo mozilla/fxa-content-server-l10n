@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-22 16:03+0000\n"
 "PO-Revision-Date: 2018-08-20 16:47+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -252,6 +252,14 @@ msgstr "Екі қадамды аутентификация"
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Тіркелгіні қалпына келтіру"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -722,11 +730,11 @@ msgstr "Қалпына келтіру кілті керек"
 msgid "Please enter verification code"
 msgstr "Растау кодын енгізіңіз"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Баптауы жоқ болып тұр"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Баптауы жарамсыз"
 
