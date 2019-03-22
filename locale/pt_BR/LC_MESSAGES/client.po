@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-15 16:02+0000\n"
-"PO-Revision-Date: 2019-03-18 22:02+0000\n"
+"PO-Revision-Date: 2019-03-22 13:24+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -48,7 +48,7 @@ msgstr "Imagem da conta"
 
 #: .es5/views/ready.js:71
 msgid "Welcome back"
-msgstr "Bem-vindo de volta"
+msgstr "Bom ter você de volta"
 
 #: .es5/views/ready.js:72
 msgid "Firefox Sync will resume momentarily"
