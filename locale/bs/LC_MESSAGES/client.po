@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2018-08-01 09:18+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgstr "Sekundarna email adresa potvrđena"
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Spremni ste za korištenje %(serviceName)s"
 
@@ -89,15 +89,19 @@ msgstr "Spremni ste za korištenje %(serviceName)s"
 msgid "Account verified"
 msgstr "Korisnički račun verifikovan"
 
+#: .es5/views/ready.js:107
+msgid "Connected"
+msgstr ""
+
 #: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat račun. <a href=\"/signup\">prijavi se</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:56
 msgid "Account no longer exists. Recreate it?"
 msgstr "Račun više ne postoji. Kreirajte ponovo?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:275
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Račun već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -233,24 +237,32 @@ msgstr "Firefox kodovi za oporavak"
 msgid "New recovery codes generated"
 msgstr "Novi kodovi za oporavak su generisani"
 
-#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
 msgid "Two-step authentication enabled"
 msgstr "Autentifikacija u dva koraka je omogućena"
 
-#: .es5/views/settings/two_step_authentication.js:114
+#: .es5/views/settings/two_step_authentication.js:120
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Koristite kod %(code)s da postavite autentifikaciju u dva koraka u podržanim aplikacijama."
 
-#: .es5/views/settings/two_step_authentication.js:127
+#: .es5/views/settings/two_step_authentication.js:133
 msgid "Two-step authentication removed"
 msgstr "Autentifikacija u dva koraka je uklonjena"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:174
 msgid "Two-step Authentication"
 msgstr "Autentifikacija u dva koraka"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
 msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
@@ -561,7 +573,7 @@ msgstr "Server zauzet, pokušajte ponovo kasnije"
 msgid "Feature not enabled"
 msgstr "Funkcija nije omogućena"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Sistem nije dostupan, pokušajte ponovo kasnije"
@@ -722,11 +734,15 @@ msgstr ""
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:536
+msgid "Accounts with two-step authentication do not support pairing at this time"
+msgstr ""
+
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Nedostaje konfiguracija"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Neispravna konfiguracija"
 
@@ -782,15 +798,15 @@ msgstr "Zabranjeno"
 msgid "Expired token"
 msgstr "Token istekao"
 
-#: .es5/lib/oauth-errors.js:113
+#: .es5/lib/oauth-errors.js:117
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Nešto je pošlo po zlu. Zatvorite ovaj tab i pokušajte ponovo."
 
-#: .es5/lib/oauth-errors.js:132
+#: .es5/lib/oauth-errors.js:136
 msgid "no message"
 msgstr "nema poruka"
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:140
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Nedostaje OAuth parametar: %(param)s"
 

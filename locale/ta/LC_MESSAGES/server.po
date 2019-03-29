@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2018-06-07 11:02+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgstr "ஒத்திசைக்க உள்நுழை"
 msgid "Firefox Accounts"
 msgstr "பயர்பாஃசு கணக்குகள்"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1201
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1245
 msgid "Low recovery codes remaining"
 msgstr ""
 
@@ -66,8 +66,9 @@ msgstr ""
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:8
-#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:7
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8
+#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr ""
 
@@ -81,10 +82,11 @@ msgstr ""
 #: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8
-#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
-#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8
+#: lib/senders/templates/verification_reminder_first.txt:7 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7
+#: lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
+#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "மொசில்லா தனியுரிமை கொள்கைகள்"
 
@@ -100,13 +102,14 @@ msgstr ""
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5
-#: lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
+#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr ""
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:926
+#: lib/senders/email.js:970
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
@@ -240,7 +243,7 @@ msgstr "சிறந்த,"
 msgid "The Firefox Accounts team"
 msgstr ""
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1229
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1273
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -260,7 +263,7 @@ msgstr ""
 msgid "If this was not you, revoke key."
 msgstr ""
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1073
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1117
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -286,7 +289,7 @@ msgid ""
 "confirmations."
 msgstr ""
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1169
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1213
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -298,7 +301,7 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1137
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1181
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -306,7 +309,7 @@ msgstr ""
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr ""
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1263
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1307
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -331,12 +334,13 @@ msgid "You have successfully removed %(secondaryEmail)s as a secondary email fro
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr ""
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1105
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1149
 msgid "Two-step authentication disabled"
 msgstr ""
 
@@ -410,6 +414,46 @@ msgstr "இல்லையெனில், எங்களை ஊடுருப
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "இல்லையெனில், ஊடுருவல்களைத் தடுக்கவும் எங்களுக்கு அதை அறிவிக்கவும் உதவுங்கள்."
 
+#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
+msgid "Hello again."
+msgstr "வணக்கம் வாங்க."
+
+#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
+msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
+msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+msgid "Confirm email"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
+msgid "Confirm email:"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
+msgid "Still there?"
+msgstr "இருக்கிறீர்களா?"
+
+#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
+msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
+msgid "Confirm this email address to activate your account and let us know you're okay."
+msgstr ""
+
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
 msgstr ""
@@ -454,7 +498,7 @@ msgstr "உள்நுழைவை உறுதி படுத்து"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:741
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:785
 msgid "Verify primary email"
 msgstr ""
 
@@ -482,7 +526,7 @@ msgstr "மின்னஞ்சலை உறுதிசெய்யுங்�
 msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:784
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:828
 msgid "Verify secondary email"
 msgstr "இரண்டாம் மின்னஞ்சலைச் சரிபார்க்கவும்"
 
@@ -506,83 +550,83 @@ msgstr "மின்னஞ்சல் பெற்றுள்ளதை உற�
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "உறுதிப்படுத்தியப் பின், பயர்பாஃசை மற்றொரு சாதனத்தில் நிறுவி இணைக்க உதவுவோம்."
 
-#: lib/senders/email.js:206
+#: lib/senders/email.js:207
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s இயங்குதள பதிப்பில் %(uaBrowser)s"
 
-#: lib/senders/email.js:209
+#: lib/senders/email.js:210
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s இயங்குதளத்திலுள்ள %(uaBrowser)s"
 
-#: lib/senders/email.js:236
+#: lib/senders/email.js:237
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (கணக்கிட்டப்படி)"
 
-#: lib/senders/email.js:238
+#: lib/senders/email.js:239
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (மதிப்பிட்டது)"
 
-#: lib/senders/email.js:240
+#: lib/senders/email.js:241
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (கணக்கிடப்பட்டது)"
 
-#: lib/senders/email.js:242
+#: lib/senders/email.js:243
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (மதிப்பிட்டது )"
 
-#: lib/senders/email.js:544
+#: lib/senders/email.js:545
 msgid "Verify your Firefox Account"
 msgstr "உன்னுடைய பயர்பாஃசு கணக்கை உறுதி செய்"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "உங்கள் மின்னஞ்சலை உறுதிப்படுத்தி ஒத்திசைக்க தொடங்குங்கள்!"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:655
 msgid "Firefox Account authorization code"
 msgstr "பயர்பாஃசு கணக்கின் அங்கீகாரக் குறியீடு"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:694
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:699
+#: lib/senders/email.js:743
 msgid "Sign-in code for Firefox"
 msgstr ""
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:872
 msgid "Reset your Firefox Account password"
 msgstr "உங்கள் பயர்பாக்சு கணக்கின் கடவுச்சொல்லை மீட்டமை"
 
-#: lib/senders/email.js:856
+#: lib/senders/email.js:900
 msgid "Your Firefox Account password has been changed"
 msgstr "உங்கள் பயர்பாக்சு கணக்கின் கடவுச்சொல் மாற்றப்பட்டது"
 
-#: lib/senders/email.js:882
+#: lib/senders/email.js:926
 msgid "Firefox Account password changed"
 msgstr ""
 
-#: lib/senders/email.js:904
+#: lib/senders/email.js:948
 msgid "Firefox Account password reset required"
 msgstr "பயர்பாக்ஸ் கணக்கின் கடவுச்சொல்லை மீட்டமைக்கக் கோரு"
 
-#: lib/senders/email.js:964
+#: lib/senders/email.js:1008
 msgid "Firefox Account verified"
 msgstr "பயர்பாஃசு கணக்கு சரிபார்க்கப்பட்டது"
 
-#: lib/senders/email.js:991
+#: lib/senders/email.js:1035
 msgid "Secondary Firefox Account email added"
 msgstr "இரண்டாம்நிலை பயர்பாஃசு கணக்கின் மின்னஞ்சல் சேர்க்கப்பட்டது"
 
-#: lib/senders/email.js:1019
+#: lib/senders/email.js:1063
 msgid "Firefox Account new primary email"
 msgstr ""
 
-#: lib/senders/email.js:1047
+#: lib/senders/email.js:1091
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
-#: lib/senders/email.js:1295
+#: lib/senders/email.js:1339
 msgid "Firefox Account password reset with recovery key"
 msgstr ""
 
@@ -649,17 +693,11 @@ msgstr ""
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
 #~ msgstr "தாங்கள் <strong>காலாவதியான</strong> உலாவியை பயன்படுத்திக் கொண்டிருக்குறீர்கள். புதிய அனுபவத்தை பெற<a href=\"http://browsehappy.com/\"> தங்களது உலாவியை புதுப்பிக்கவும்</a>."
 
-#~ msgid "Still there?"
-#~ msgstr "இருக்கிறீர்களா?"
-
 #~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 #~ msgstr "இது ஒரு தானியங்கி மின்னஞ்சல்; உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை மீட்டமைக்கவில்லையெனில், நீங்கள் உடனடியாக அதை %(resetLink)s தொடுப்பிற்குச் சென்று மீட்டமைக்க வேண்டுகிறோம்"
 
 #~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
 #~ msgstr "அடுத்த மணிநேரத்திற்குள் உங்கள் பயர்பாஃசு கணக்கிற்கான புதிய கடவுச்சொல்லை அமைக்க பொத்தானைச் சொடுக்குங்கள். பின்வரும் சாதனத்திலிருந்து கோரிக்கை வந்தது:"
-
-#~ msgid "Hello again."
-#~ msgstr "வணக்கம் வாங்க."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "பயர்பாக்ஸ் முகில்க் கணிம சேவைகள்"

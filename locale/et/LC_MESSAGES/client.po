@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2018-11-25 10:57+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "Teine e-posti aadress on kinnitatud"
 msgid "Sign-in confirmed"
 msgstr "Sisselogimine on kinnitatud"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s on kasutamiseks valmis."
 
@@ -90,15 +90,19 @@ msgstr "%(serviceName)s on kasutamiseks valmis."
 msgid "Account verified"
 msgstr "Konto on kinnitatud"
 
+#: .es5/views/ready.js:107
+msgid "Connected"
+msgstr ""
+
 #: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tundmatu konto. <a href=\"/signup\">Registreeru</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:56
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot pole enam olemas. Kas soovid selle uuesti luua?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:275
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto on juba olemas. <a href=\"/signin\">Logi sisse</a>"
 
@@ -234,25 +238,33 @@ msgstr "Firefoxi taastamiskoodid"
 msgid "New recovery codes generated"
 msgstr "Genereeriti uued taastamiskoodid"
 
-#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
 msgid "Two-step authentication enabled"
 msgstr "Kaheastmeline autentimine lubati"
 
-#: .es5/views/settings/two_step_authentication.js:114
+#: .es5/views/settings/two_step_authentication.js:120
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Toetatud rakendustes kaheastmelise autentimise seadistamiseks kasuta koodi %(code)s."
 
-#: .es5/views/settings/two_step_authentication.js:127
+#: .es5/views/settings/two_step_authentication.js:133
 msgid "Two-step authentication removed"
 msgstr "Kaheastmeline autentimine eemaldati"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:174
 msgid "Two-step Authentication"
 msgstr "Kaheastmeline autentimine"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Konto taastamine"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -562,7 +574,7 @@ msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
 msgid "Feature not enabled"
 msgstr "Funktsioon pole lubatud"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"
@@ -723,11 +735,15 @@ msgstr "Taastamisvõti on nõutud"
 msgid "Please enter verification code"
 msgstr "Palun sisesta kinnituskood"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:536
+msgid "Accounts with two-step authentication do not support pairing at this time"
+msgstr ""
+
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Puuduv seadistus"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Vigane seadistus"
 
@@ -783,15 +799,15 @@ msgstr "Keelatud"
 msgid "Expired token"
 msgstr "Aegunud turvatõend"
 
-#: .es5/lib/oauth-errors.js:113
+#: .es5/lib/oauth-errors.js:117
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Midagi läks valesti. Palun sulge see kaart ja proovi uuesti."
 
-#: .es5/lib/oauth-errors.js:132
+#: .es5/lib/oauth-errors.js:136
 msgid "no message"
 msgstr "sõnum puudub"
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:140
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Puuduv OAuth parameeter: %(param)s"
 

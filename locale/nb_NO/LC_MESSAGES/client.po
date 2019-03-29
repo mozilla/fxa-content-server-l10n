@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2019-02-02 21:54+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "Sekundær e-postadresse bekreftet"
 msgid "Sign-in confirmed"
 msgstr "Innlogging bekreftet"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du er nå klar til å bruke %(serviceName)s"
 
@@ -90,15 +90,19 @@ msgstr "Du er nå klar til å bruke %(serviceName)s"
 msgid "Account verified"
 msgstr "Konto verifisert"
 
+#: .es5/views/ready.js:107
+msgid "Connected"
+msgstr ""
+
 #: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:56
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finnes ikke lenger. Vil du gjenskape den?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:275
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
@@ -234,25 +238,33 @@ msgstr "Firefox gjenopprettingskoder"
 msgid "New recovery codes generated"
 msgstr "Nye gjenopprettingskoder generert"
 
-#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
 msgid "Two-step authentication enabled"
 msgstr "Totrinns-verifisering aktivert"
 
-#: .es5/views/settings/two_step_authentication.js:114
+#: .es5/views/settings/two_step_authentication.js:120
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Bruk koden %(code)s for å sette opp totrinns-verifisering i støttede apper."
 
-#: .es5/views/settings/two_step_authentication.js:127
+#: .es5/views/settings/two_step_authentication.js:133
 msgid "Two-step authentication removed"
 msgstr "Totrinns-verifisering fjernet"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:174
 msgid "Two-step Authentication"
 msgstr "Totrinns-verifisering"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "Kontogjenoppretting"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -563,7 +575,7 @@ msgstr "Serveren er opptatt, prøv igjen senere"
 msgid "Feature not enabled"
 msgstr "Funksjonen er ikke slått på"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "Systemet er utilgjengelig, prøv igjen senere"
@@ -724,11 +736,15 @@ msgstr "Gjenopprettingsnøkkel nødvendig"
 msgid "Please enter verification code"
 msgstr "Angi verifiseringskode"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:536
+msgid "Accounts with two-step authentication do not support pairing at this time"
+msgstr ""
+
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "Manglende konfigurasjon"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "Ugyldig konfigurasjon"
 
@@ -785,15 +801,15 @@ msgstr "Forbudt"
 msgid "Expired token"
 msgstr "Utgått token"
 
-#: .es5/lib/oauth-errors.js:113
+#: .es5/lib/oauth-errors.js:117
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Noe gikk galt. Lukk denne fanen og prøv igjen."
 
-#: .es5/lib/oauth-errors.js:132
+#: .es5/lib/oauth-errors.js:136
 msgid "no message"
 msgstr "ingen melding"
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:140
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Manglende OAuth-parameter: %(param)s"
 

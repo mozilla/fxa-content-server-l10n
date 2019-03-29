@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2018-12-10 17:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr "द्वितीयक ईमेल सत्यापित"
 msgid "Sign-in confirmed"
 msgstr "साइन इन पुष्टि हो गई"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
 
@@ -92,15 +92,19 @@ msgstr "अब आप %(serviceName)s उपयोग करने के लि
 msgid "Account verified"
 msgstr "खाता सत्यापित"
 
+#: .es5/views/ready.js:107
+msgid "Connected"
+msgstr ""
+
 #: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:56
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है. इसका पुनः निर्माण करे?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:275
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
@@ -236,25 +240,33 @@ msgstr "Firefox पुनर्प्राप्त कोड"
 msgid "New recovery codes generated"
 msgstr "नए पुनर्प्राप्त कोड बनाये गये"
 
-#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
 msgid "Two-step authentication enabled"
 msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
-#: .es5/views/settings/two_step_authentication.js:114
+#: .es5/views/settings/two_step_authentication.js:120
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "%(code)s कोड को समर्थित अनुप्रयोगों में द्वि-चरणीय प्रमाणीकरण स्थापित करने के लिए उपयोग करें."
 
-#: .es5/views/settings/two_step_authentication.js:127
+#: .es5/views/settings/two_step_authentication.js:133
 msgid "Two-step authentication removed"
 msgstr "द्वि-चरणीय प्रमाणीकरण हटाया गया"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:174
 msgid "Two-step Authentication"
 msgstr "द्वि-चरणीय प्रमाणीकरण"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "खाता पुनर्प्राप्ति"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -564,7 +576,7 @@ msgstr "सर्वर व्यस्त, जल्द ही पुन: प�
 msgid "Feature not enabled"
 msgstr "सुविधा सक्षम नहीं है"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
@@ -725,11 +737,15 @@ msgstr "पुनर्प्राप्ति कोड आवश्यक ह
 msgid "Please enter verification code"
 msgstr "कृपया सत्यापन कोड दर्ज करें"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:536
+msgid "Accounts with two-step authentication do not support pairing at this time"
+msgstr ""
+
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "लापता विन्यास"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "अवैध विन्यास"
 
@@ -785,15 +801,15 @@ msgstr "निषिद्ध"
 msgid "Expired token"
 msgstr "गतावधिक टोकन"
 
-#: .es5/lib/oauth-errors.js:113
+#: .es5/lib/oauth-errors.js:117
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "कुछ गलती हुई. कृपया इस टैब को बंद कर पुनः प्रयास करें."
 
-#: .es5/lib/oauth-errors.js:132
+#: .es5/lib/oauth-errors.js:136
 msgid "no message"
 msgstr "संदेश नहीं"
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:140
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2018-08-23 16:38+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "כתובת הדוא״ל המשנית עברה אימות"
 msgid "Sign-in confirmed"
 msgstr "ההתחברות אומתה"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 
@@ -90,15 +90,19 @@ msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 msgid "Account verified"
 msgstr "החשבון אומת"
 
+#: .es5/views/ready.js:107
+msgid "Connected"
+msgstr ""
+
 #: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "חשבון לא מוכר. <a href=\"/signup\">הרשמה</a>"
 
-#: .es5/views/sign_up.js:54
+#: .es5/views/sign_up.js:56
 msgid "Account no longer exists. Recreate it?"
 msgstr "החשבון כבר אינו קיים. האם ליצור אותו מחדש?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:275
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "חשבון זה כבר קיים. <a href=\"/signin\">התחברות</a>"
 
@@ -234,25 +238,33 @@ msgstr "קודים של Firefox לשחזור"
 msgid "New recovery codes generated"
 msgstr "נוצרו קודים חדשים לשחזור"
 
-#: .es5/views/settings/recovery_codes.js:136 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
 msgid "Two-step authentication enabled"
 msgstr "אימות דו־שלבי הופעל"
 
-#: .es5/views/settings/two_step_authentication.js:114
+#: .es5/views/settings/two_step_authentication.js:120
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "ניתן להשתמש בקוד %(code)s כדי להגדיר אימות דו־שלבי ביישומים נתמכים."
 
-#: .es5/views/settings/two_step_authentication.js:127
+#: .es5/views/settings/two_step_authentication.js:133
 msgid "Two-step authentication removed"
 msgstr "אימות דו־שלבי הוסר"
 
-#: .es5/views/settings/two_step_authentication.js:168
+#: .es5/views/settings/two_step_authentication.js:174
 msgid "Two-step Authentication"
 msgstr "אימות דו־שלבי"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:96
 msgid "Account Recovery"
 msgstr "שחזור חשבון"
+
+#: .es5/views/settings/account_recovery/confirm_password.js:76
+msgid "Account recovery enabled"
+msgstr ""
+
+#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+msgid "Account recovery revoked"
+msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -562,7 +574,7 @@ msgstr "השרת עמוס, נא לנסות שוב במועד מאוחר יותר
 msgid "Feature not enabled"
 msgstr "התכונה אינה מופעלת"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:105 .es5/lib/profile-errors.js:38
+#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
 #: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
 msgid "System unavailable, try again soon"
 msgstr "המערכת אינה זמינה, נא לנסות שוב במועד מאוחר יותר"
@@ -723,11 +735,15 @@ msgstr "נדרש מפתח שחזור"
 msgid "Please enter verification code"
 msgstr "נא להקליד את קוד האימות"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/auth-errors.js:536
+msgid "Accounts with two-step authentication do not support pairing at this time"
+msgstr ""
+
+#: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
 msgstr "תצורה חסרה"
 
-#: .es5/lib/config-loader.js:109
+#: .es5/lib/config-loader.js:112
 msgid "Invalid configuration"
 msgstr "תצורה פגומה"
 
@@ -783,15 +799,15 @@ msgstr "אסור"
 msgid "Expired token"
 msgstr "אסימון פג"
 
-#: .es5/lib/oauth-errors.js:113
+#: .es5/lib/oauth-errors.js:117
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "משהו השתבש. נא לסגור לשונית זו ולנסות שוב."
 
-#: .es5/lib/oauth-errors.js:132
+#: .es5/lib/oauth-errors.js:136
 msgid "no message"
 msgstr "אין הודעות"
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:140
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "פרמטר OAuth חסר: %(param)s"
 
