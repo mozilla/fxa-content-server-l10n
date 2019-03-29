@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-29 17:14+0000\n"
+"PO-Revision-Date: 2019-03-29 17:54+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -433,7 +433,7 @@ msgstr "Pozdravljeni še enkrat."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Pred kratkim ste ustvarili Firefox Račun, niste pa še potrdili svojega e-poštnega naslova."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
