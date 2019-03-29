@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-02-15 21:58+0000\n"
+"PO-Revision-Date: 2019-03-29 17:59+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Du har anslutit din första enhet till ditt Firefox-konto. För att få ut det mesta av Sync, anslut <a href='%(androidUrl)s'>Firefox för Android</a> eller <a href='%(iosUrl)s'>Firefox för iOS</a>."
 
@@ -427,7 +427,7 @@ msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till os
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Påminnelse: Bekräfta din e-postadress för att aktivera ditt Firefox-konto"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -435,23 +435,23 @@ msgstr "Hej igen."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Du har nyligen skapat ett Firefox-konto, men har ännu inte bekräftat din e-post."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Bekräfta din e-post så att du kan börja använda Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor och mer."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "Bekräfta e-postadress"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "Bekräfta e-postadress:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Slutlig påminnelse: Bekräfta din e-postadress för att aktivera ditt Firefox-konto"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -459,11 +459,11 @@ msgstr "Fortfarande där?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Nästan för en vecka sedan skapade du ett Firefox-konto men du verifierade aldrig det. Vi undrar vad som hände."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Bekräfta den här e-postadressen för att aktivera ditt konto och meddela oss att du är okej."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -744,11 +744,11 @@ msgstr "Ladda ner senaste"
 #~ msgstr "Återställ lösenordet"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "För några dagar sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Ett verifierat konto låter dig öppna dina flikar, bokmärken, lösenord och historik på alla enheter ansluten "
-#~ "till den. Bekräfta denna e-postadress för att aktivera ditt konto."
+#~ "För några dagar sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Ett verifierat konto låter dig öppna dina flikar, bokmärken, lösenord och historik på alla enheter ansluten till "
+#~ "den. Bekräfta denna e-postadress för att aktivera ditt konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "För en vecka sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Vi är oroliga för dig. Bekräfta denna e-postadress för att aktivera ditt konto och låt oss veta du är okej."
@@ -773,19 +773,17 @@ msgstr "Ladda ner senaste"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Du har framgångsrikt tagit bort %(secondaryEmail)s som en sekundär e-postadress till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till "
-#~ "den här adressen."
+#~ "Du har framgångsrikt tagit bort %(secondaryEmail)s som en sekundär e-postadress till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den "
+#~ "här adressen."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har verifierat %(secondaryEmail)s som en sekundär e-post till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "På begäran, här är en länk för att installera Firefox på din mobila enhet: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr ""
-#~ "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
+#~ msgstr "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum och tid:"
