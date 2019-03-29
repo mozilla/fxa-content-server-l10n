@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 16:02+0000\n"
+"POT-Creation-Date: 2019-03-29 16:02+0000\n"
 "PO-Revision-Date: 2019-02-25 16:16+0000\n"
 "Last-Translator: Breana Gonzales <breanajones@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "Inicia sesión para sincronizar"
 msgid "Firefox Accounts"
 msgstr "Cuentas de Firefox"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1201
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1245
 msgid "Low recovery codes remaining"
 msgstr "Quedan pocos códigos de recuperación"
 
@@ -70,8 +70,9 @@ msgstr "Este es un correo electrónico automatizado."
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:8
-#: lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:7
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8
+#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Para más información, por favor visita <a %(supportLinkAttributes)s>Soporte de Mozilla</a>."
 
@@ -85,10 +86,11 @@ msgstr "Para más información, por favor visita <a %(supportLinkAttributes)s>So
 #: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.html:8
-#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
-#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8
+#: lib/senders/templates/verification_reminder_first.txt:7 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7
+#: lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
+#: lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Política de Privacidad de Mozilla"
 
@@ -104,13 +106,14 @@ msgstr "Generar códigos:"
 #: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5
-#: lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
+#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Para más información, por favor visita %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:926
+#: lib/senders/email.js:970
 msgid "New sign-in to %(clientName)s"
 msgstr "Nuevo inicio de sesión en %(clientName)s"
 
@@ -246,7 +249,7 @@ msgstr "Mejor,"
 msgid "The Firefox Accounts team"
 msgstr "El equipo de cuentas de Firefox"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1229
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1273
 msgid "Account recovery key generated"
 msgstr "Llave de recuperación de cuenta generada"
 
@@ -266,7 +269,7 @@ msgstr "Haz generado exitosamente una llave de recuperación para tu cuenta de F
 msgid "If this was not you, revoke key."
 msgstr "Si no fuiste tú, puedes revocar la llave."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1073
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1117
 msgid "Two-step authentication enabled"
 msgstr "Autenticación en dos pasos activada"
 
@@ -296,7 +299,7 @@ msgstr ""
 "Cambiaste exitosamente tu correo principal a %(email)s. Este correo es ahora tu nombre de usuario para conectarte a tu cuenta de Firefox, así como para recibir notificaciones de seguridad y "
 "confirmaciones de inicio de sesión."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1169
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1213
 msgid "Recovery code consumed"
 msgstr "Código de recuperación utilizado"
 
@@ -308,7 +311,7 @@ msgstr "Has utilizado exitosamente un código de recuperación desde el siguient
 msgid "Consumed recovery code"
 msgstr "Código de recuperación utilizado"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1137
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1181
 msgid "New recovery codes generated"
 msgstr "Nuevos códigos de recuperación generados"
 
@@ -316,7 +319,7 @@ msgstr "Nuevos códigos de recuperación generados"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Has generado correctamente nuevos códigos de recuperación desde el siguiente dispositivo:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1263
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1307
 msgid "Account recovery key removed"
 msgstr "Llave de recuperación de cuenta revocada"
 
@@ -343,12 +346,13 @@ msgstr ""
 "esta dirección."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1105
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1149
 msgid "Two-step authentication disabled"
 msgstr "Autenticación en dos pasos desactivada"
 
@@ -426,6 +430,46 @@ msgstr "Si no es así, ayúdanos a defendernos de los intrusos e <a %(reportSign
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Si no es así, ayúdanos a defendernos de los intrusos e informarnos."
 
+#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
+msgid "Hello again."
+msgstr "Hola de nuevo."
+
+#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
+msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
+msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+msgid "Confirm email"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
+msgid "Confirm email:"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
+msgid "Still there?"
+msgstr "¿Sigues ahí?"
+
+#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
+msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
+msgid "Confirm this email address to activate your account and let us know you're okay."
+msgstr ""
+
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
 msgstr ""
@@ -470,7 +514,7 @@ msgstr "Confirmar inicio de sesión"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Si sospechas que alguien está intentando acceder a tu cuenta, <a %(passwordChangeLinkAttributes)s>por favor, cambia tu contraseña</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:741
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:785
 msgid "Verify primary email"
 msgstr "Verificar correo electrónico principal"
 
@@ -498,7 +542,7 @@ msgstr "Verificar correo electrónico: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Si no autorizaste esta acción, por favor cambia tu contraseña."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:784
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:828
 msgid "Verify secondary email"
 msgstr "Verificar correo electrónico secundario"
 
@@ -522,83 +566,83 @@ msgstr "Confirma que has recibido este correo y te ayudaremos a instalar y sincr
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox en al menos otro dispositivo."
 
-#: lib/senders/email.js:206
+#: lib/senders/email.js:207
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s en %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:209
+#: lib/senders/email.js:210
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s en %(uaOS)s"
 
-#: lib/senders/email.js:236
+#: lib/senders/email.js:237
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:238
+#: lib/senders/email.js:239
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:240
+#: lib/senders/email.js:241
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:242
+#: lib/senders/email.js:243
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimado)"
 
-#: lib/senders/email.js:544
+#: lib/senders/email.js:545
 msgid "Verify your Firefox Account"
 msgstr "Verifica tu cuenta de Firefox"
 
-#: lib/senders/email.js:564
+#: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "¡Confirma tu correo electrónico y comienza a sincronizar!"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:655
 msgid "Firefox Account authorization code"
 msgstr "Código de autorización para la cuenta de Firefox"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:694
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirmar nuevo inicio de sesión en %(clientName)s"
 
-#: lib/senders/email.js:699
+#: lib/senders/email.js:743
 msgid "Sign-in code for Firefox"
 msgstr "Código para iniciar sesión en Firefox"
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:872
 msgid "Reset your Firefox Account password"
 msgstr "Restablece la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:856
+#: lib/senders/email.js:900
 msgid "Your Firefox Account password has been changed"
 msgstr "La contraseña de tu cuenta de Firefox ha sido cambiada"
 
-#: lib/senders/email.js:882
+#: lib/senders/email.js:926
 msgid "Firefox Account password changed"
 msgstr "Se cambió la contraseña de la cuenta de Firefox"
 
-#: lib/senders/email.js:904
+#: lib/senders/email.js:948
 msgid "Firefox Account password reset required"
 msgstr "Se requiere restablecer la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:964
+#: lib/senders/email.js:1008
 msgid "Firefox Account verified"
 msgstr "Cuenta de Firefox verificada"
 
-#: lib/senders/email.js:991
+#: lib/senders/email.js:1035
 msgid "Secondary Firefox Account email added"
 msgstr "Correo electrónico secundario para la cuenta de Firefox ha sido agregado"
 
-#: lib/senders/email.js:1019
+#: lib/senders/email.js:1063
 msgid "Firefox Account new primary email"
 msgstr "Nuevo correo principal de cuenta de Firefox"
 
-#: lib/senders/email.js:1047
+#: lib/senders/email.js:1091
 msgid "Secondary Firefox Account email removed"
 msgstr "Correo secundario de tu cuenta de Firefox eliminado"
 
-#: lib/senders/email.js:1295
+#: lib/senders/email.js:1339
 msgid "Firefox Account password reset with recovery key"
 msgstr "Restablecimiento de contraseña de cuenta de Firefox con llave de recuperación"
 
@@ -674,9 +718,6 @@ msgstr "Descargar la última versión"
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
 #~ msgstr "Estás usando una versión <strong>desactualizada</strong> del navegador. Por favor <a href=\"http://browsehappy.com/\">actualiza tu navegador</a> para mejorar la experiencia."
 
-#~ msgid "Still there?"
-#~ msgstr "¿Sigues ahí?"
-
 #~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
 #~ msgstr "Hace un rato creaste una cuenta Firefox pero nunca la verificaste. Haz clic en el siguiente enlace para activar tu cuenta."
 
@@ -706,9 +747,6 @@ msgstr "Descargar la última versión"
 
 #~ msgid "Reset password"
 #~ msgstr "Restablecer contraseña"
-
-#~ msgid "Hello again."
-#~ msgstr "Hola de nuevo."
 
 #~ msgid ""
 #~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
