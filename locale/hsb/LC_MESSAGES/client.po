@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-29 21:44+0000\n"
+"PO-Revision-Date: 2019-03-30 14:39+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -737,7 +737,7 @@ msgstr "Prošu zapodajće wobkrućenski kod"
 
 #: .es5/lib/auth-errors.js:536
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Konta z dwukročelowej awtentifikaciju tuchwilu koplowanje njepodpěruja"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
