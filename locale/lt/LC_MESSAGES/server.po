@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-02-16 11:01+0000\n"
+"PO-Revision-Date: 2019-03-31 09:04+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Jūs sėkmingai susiejote su savo „Firefox“ paskyra pirmąjį įrenginį. Kad „Sync“ paslauga jums būtų tikrai naudinga, susiekite su šia paskyra ir kitus įrenginius, pavyzdžiui, „Firefox“, skirtą <a "
 "href='%(androidUrl)s'>„Android“</a> ar <a href='%(iosUrl)s'>„iOS“</a> platformai."
@@ -427,7 +427,7 @@ msgstr "Jei ne, padėkite mums kovoti su įsilaužėliais – praneškite apie j
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Priminimas: jūsų „Firefox“ paskyra bus aktyvuota jums patvirtinus el. pašto adresą"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -435,23 +435,23 @@ msgstr "Sveiki dar kartą."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Jūs neseniai susikūrėte „Firefox“ paskyrą, tačiau dar nepatvirtinote savo el. pašto."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Patvirtinę savo el. pašto adresą galėsite pradėti naudotis „Firefox Sync“, „Pocket“, „Lockbox“, „Firefox Send“, „Monitor“ ir daugiau."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "Patvirtinkite el. paštą"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "Patvirtinkite el. paštą:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Paskutinis priminimas: aktyvuokite savo „Firefox“ paskyrą patvirtindami el. pašto adresą"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -459,11 +459,11 @@ msgstr "Ar nepamiršote?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Prieš beveik savaitę susikūrėte „Firefox“ paskyrą, tačiau dar nepatvirtinote. Mes šiek tiek nerimaujame."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Patvirtinę šį el. pašto adresą aktyvuosite savo paskyrą ir pranešite mums, kad jums viskas gerai."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -738,11 +738,11 @@ msgstr "Atsisiųsti paskiausią"
 #~ msgstr "Atkurti slaptažodį"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Prieš keletą dienų jūs susikūrėte „Firefox“ paskyrą, tačiau jos taip ir nepatvirtinote. Patvirtinę paskyrą, turėsite prieigą prie savo naršyklėje atvertų kortelių, įrašytų slaptodžių, adresyno "
-#~ "ir žurnalo bet kuriame su paskyra susietame įrenginyje. Paskyros aktyvinimui tereikia, kad patvirtintumėte šį savo el. pašto adresą."
+#~ "Prieš keletą dienų jūs susikūrėte „Firefox“ paskyrą, tačiau jos taip ir nepatvirtinote. Patvirtinę paskyrą, turėsite prieigą prie savo naršyklėje atvertų kortelių, įrašytų slaptodžių, adresyno ir "
+#~ "žurnalo bet kuriame su paskyra susietame įrenginyje. Paskyros aktyvinimui tereikia, kad patvirtintumėte šį savo el. pašto adresą."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -764,11 +764,9 @@ msgstr "Atsisiųsti paskiausią"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "„Firefox“ paskyros el. pašto patvirtinimas"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Jūs sėkmingai patvirtinote %(secondaryEmail)s kaip savo „Firefox“ paskyros atsarginį el. pašto adresą. Saugumo pranešimai ir prisijungimo patvirtinimai dabar bus pristatomi į abu el. pašto "
-#~ "adresus."
+#~ "Jūs sėkmingai patvirtinote %(secondaryEmail)s kaip savo „Firefox“ paskyros atsarginį el. pašto adresą. Saugumo pranešimai ir prisijungimo patvirtinimai dabar bus pristatomi į abu el. pašto adresus."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Kaip ir pageidavote, štai saitas „Firefox“ įdiegimui į jūsų mobilųjį įrenginį: %(link)s"
