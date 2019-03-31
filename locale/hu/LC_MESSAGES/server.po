@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-02-18 08:26+0000\n"
+"PO-Revision-Date: 2019-03-31 16:41+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a href='%(iosUrl)s'>Firefox "
 "for iOS</a> böngészőjét is."
@@ -431,7 +431,7 @@ msgstr "Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk."
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Emlékeztető: Erősítse meg az e-mail címét a Firefox-fiókja aktiválásához"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -439,23 +439,23 @@ msgstr "Üdvözöljük újra."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Nemrég létrehozott egy Firefox-fiókot, de még nem erősítette meg az e-mail címét."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Erősítse meg az e-mail címét, hogy elkezdhesse a Firefox Sync, a Pocket, a Lockbox, a Firefox Send, a Monitor és még sok más használatát."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "E-mail cím megerősítése"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "E-mail cím megerősítése:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Végső emlékeztető: Erősítse meg az e-mail címét a Firefox-fiókja aktiválásához"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -463,11 +463,11 @@ msgstr "Ott van még?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Majd egy héttel ezelőtt létrehozott egy Firefox-fiókot, de nem erősítette meg. Aggódunk Ön miatt. "
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Erősítse meg ezt az e-mail címet a fiók aktiválásához, és tudassa velünk, hogy rendben van."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -748,8 +748,8 @@ msgstr "Legfrissebb letöltése"
 #~ msgstr "Jelszó visszaállítása"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Néhány napja létrehozott egy Firefox fiókot, de nem erősítette meg. A megerősített fiókkal elérheti lapjait, könyvjelzőit, jelszavait és előzményeit bármely eszközéről. A fiók aktiválásához "
 #~ "egyszerűen erősítse meg ezt az e-mail címet."
@@ -780,11 +780,10 @@ msgstr "Legfrissebb letöltése"
 #~ "Sikeresen eltávolítottuk a következő másodlagos e-mail címe a Firefox fiókjából: %(secondaryEmail)s. A biztonsági értesítések és a bejelentkezési megerősítések nem lesznek többé kiküldve erre a "
 #~ "címre."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre "
-#~ "kézbesítve lesznek."
+#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre kézbesítve "
+#~ "lesznek."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Ahogy kérte, itt egy hivatkozás a Firefox telepítéséről a mobileszközére: %(link)s"
