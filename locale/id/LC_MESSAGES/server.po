@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-31 06:31+0000\n"
+"PO-Revision-Date: 2019-03-31 06:32+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -458,11 +458,11 @@ msgstr "Masih di sana?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Hampir sepekan yang lalu Anda membuat Firefox Account namun tidak pernah memverifikasinya. Kami khawatir tentang Anda."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Konfirmasikan alamat surel ini untuk mengaktifkan akun Anda dan beri tahu kami bahwa Anda baik-baik saja."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
