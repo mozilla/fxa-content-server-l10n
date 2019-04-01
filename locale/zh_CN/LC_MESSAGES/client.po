@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-30 06:47+0000\n"
+"PO-Revision-Date: 2019-03-30 06:50+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -261,11 +261,11 @@ msgstr "账户救援"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:76
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "账户救援已启用"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:63
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "账户救援已撤销"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:61
 msgid "Firefox Recovery Key"
@@ -738,7 +738,7 @@ msgstr "请输入验证码"
 
 #: .es5/lib/auth-errors.js:536
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "暂不支持与开启两步验证的账户配对"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
