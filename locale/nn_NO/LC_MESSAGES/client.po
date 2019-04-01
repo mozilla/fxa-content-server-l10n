@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-30 02:15+0000\n"
+"PO-Revision-Date: 2019-04-01 04:47+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -736,7 +736,7 @@ msgstr "Skriv inn stadfestingskode"
 
 #: .es5/lib/auth-errors.js:536
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Kontoar med tostegs-autentisering støttar ikkje paring no"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
