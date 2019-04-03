@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-03-30 02:13+0000\n"
+"PO-Revision-Date: 2019-04-03 16:52+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -426,7 +426,7 @@ msgstr "Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til 
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Påminning: Stadfest e-postadressa di for å aktivere Firefox-kontoen din"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -434,11 +434,11 @@ msgstr "Hei igjen."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Du har nettopp oppretta ein Firefox-konto, men har enno ikkje stadfesta e-postadressa di."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Stadfest e-posadressa di slik at du kan begynne å bruke Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor, og så bortetter."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -450,7 +450,7 @@ msgstr "Stadfest e-posadressa:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Siste påminning: Stadfest e-postadressa di for å aktivere Firefox-kontoen din"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -458,7 +458,7 @@ msgstr "Framleis der?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "For nesten ei veke sidan oppretta du ein Firefox-konto, men stadfesta han ikkje. Vi lurer på kva som skjedde."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
