@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-03 16:52+0000\n"
+"PO-Revision-Date: 2019-04-03 16:55+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -462,7 +462,7 @@ msgstr "For nesten ei veke sidan oppretta du ein Firefox-konto, men stadfesta ha
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Stadfest denne e-postadressa for å aktivere kontoen din, og la oss få vite at alt er bra."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
