@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-04 08:35+0000\n"
+"PO-Revision-Date: 2019-04-04 09:10+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -737,7 +737,7 @@ msgstr "لطفا کد تاییدیه رو وارد کنید"
 
 #: .es5/lib/auth-errors.js:536
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "حساب های کاربری با احراز هویت دو مرحله ای در این لحظه جفت سازی را پشتیبانی نمی‌ کند"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
@@ -1676,7 +1676,7 @@ msgstr "تعویض کدهایِ بازآوری"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "کد QR را در برنامه احراز هویت خود اسکن کنید و کد امنیتی ارائه شده را وارد کنید."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1748,7 +1748,7 @@ msgstr "آیا در مورد لغو اطمینان دارید؟"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "در زمان از نوسازی کلمه عبور نمی‌توانید به کلید بازیابی اطلاعات خود دسترسی داشته باشید."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -1757,6 +1757,8 @@ msgstr "مرحله ۲ از ۲: ذخیره‌ی کلید بازیابی"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">NOTE:</span>اگر رمز عبور خود را فراموش کنید، این کلید برای بازگرداندن دسترسی به داده های شما الزامی ست. کلید بازیابی خود را در یک مکان امن ذخیره کنید، جایی که می توانید آن را به"
+" راحتی بعدا پیدا کنید."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1796,19 +1798,19 @@ msgstr "گذرواژه‌ی حساب فایرفاکس شما"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "نباید نشانی پست الکترونیکی شما باشد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "نباید با این لیست از <a %(escapedCommonPasswordLinkAttrs)s>گذرواژه های متداول</a> مطابقت داشته باشد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "اصلی باشید و امن بمانید &mdash; این رمز عبور را هر جا استفاده نکنید."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "این گذرواژه را به یاد داشته باشید &mdash; بازنشانی آن اطلاعات شما را از سرور های ما پاک می کند."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1824,11 +1826,11 @@ msgstr "استفاده از یک پست‌الکترونیکی دیگر"
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
-msgstr ""
+msgstr "اتصال ها را <small>برای شروع همگام سازی</small> تایید کنید"
 
 #: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
 msgid "Approve connection"
-msgstr ""
+msgstr "تأیید اتصال"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1836,19 +1838,19 @@ msgstr "دستگاه متصل شد"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "شما هم اکنون در همگام سازی هستید با:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "مدیریت دستگاه‌ ها"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "این ارتباط را <small>از این دستگاه</small> تایید کنید"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "جفت سازی موفق نبود"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
