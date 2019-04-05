@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 16:02+0000\n"
+"POT-Creation-Date: 2019-04-05 16:02+0000\n"
 "PO-Revision-Date: 2019-03-21 23:55+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr "Το συνθηματικό ανανεώθηκε επιτυχώς. Συ�
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:46 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Είσοδος"
@@ -93,15 +93,15 @@ msgstr "Ο λογαριασμός επαληθεύτηκε"
 msgid "Connected"
 msgstr ""
 
-#: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
+#: .es5/views/reset_password.js:94 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Άγνωστος λογαριασμός. <a href=\"/signup\">Εγγραφή</a>"
 
-#: .es5/views/sign_up.js:56
+#: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Επαναδημιουργία;"
 
-#: .es5/views/sign_up.js:275
+#: .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σύνδεση</a>"
 
@@ -109,127 +109,127 @@ msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σ�
 msgid "Password changed successfully"
 msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
 
-#: .es5/views/settings/client_disconnect.js:21
+#: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
 "Λυπούμαστε που το ακούμε αυτό. Θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη "
 "διαγραφή των δεδομένων σας."
 
-#: .es5/views/settings/client_disconnect.js:22
+#: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 "Λυπούμαστε που το ακούμε αυτό. Αν αυτή δεν είναι μια αξιόπιστη συσκευή, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και να αλλάξετε τυχόν κωδικούς πρόσβασης που "
 "αποθηκεύσατε στο Firefox."
 
-#: .es5/views/settings/clients.js:46
+#: .es5/views/settings/clients.js:43
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:47
+#: .es5/views/settings/clients.js:44
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:50
+#: .es5/views/settings/clients.js:47
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:51
+#: .es5/views/settings/clients.js:48
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:54
+#: .es5/views/settings/clients.js:51
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:55
+#: .es5/views/settings/clients.js:52
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:60
+#: .es5/views/settings/clients.js:57
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:58
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:64
+#: .es5/views/settings/clients.js:61
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:62
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:68
+#: .es5/views/settings/clients.js:65
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:66
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:74
+#: .es5/views/settings/clients.js:71
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:72
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Πάνω από %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:78
+#: .es5/views/settings/clients.js:75
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:76
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:82
+#: .es5/views/settings/clients.js:79
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:80
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:118
+#: .es5/views/settings/clients.js:115
 msgid "Web Session, %(userAgent)s"
 msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:120
+#: .es5/views/settings/clients.js:117
 msgid "Web Session"
 msgstr "Διαδικτυακή συνεδρία"
 
-#: .es5/views/settings/clients.js:135
+#: .es5/views/settings/clients.js:132
 msgid "Last sync time unknown"
 msgstr "Άγνωστος χρόνος τελευταίου συγχρονισμού"
 
-#: .es5/views/settings/communication_preferences.js:124
+#: .es5/views/settings/communication_preferences.js:121
 msgid "Subscribed successfully"
 msgstr "Επιτυχής εγγραφή"
 
-#: .es5/views/settings/delete_account.js:45
+#: .es5/views/settings/delete_account.js:42
 msgid "Account deleted successfully"
 msgstr "Ο λογαριασμός διαγράφηκε επιτυχώς"
 
-#: .es5/views/settings/display_name.js:58
+#: .es5/views/settings/display_name.js:55
 msgid "Display name updated"
 msgstr "Το εμφανιζόμενο όνομα άλλαξε"
 
-#: .es5/views/settings/emails.js:91
+#: .es5/views/settings/emails.js:88
 msgid "Secondary email removed"
 msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
 
-#: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
+#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:89
 msgid "Verification email sent"
 msgstr "Απεστάλη e-mail επαλήθευσης"
 
-#: .es5/views/settings/emails.js:150
+#: .es5/views/settings/emails.js:147
 msgid "Primary email set to %(email)s"
 msgstr "Το πρωτεύον e-mail ορίστηκε σε %(email)s"
 
-#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "Δευτερεύον e-mail"
 
@@ -273,11 +273,11 @@ msgstr ""
 msgid "Firefox Recovery Key"
 msgstr "Κλειδί ανάκτησης Firefox"
 
-#: .es5/views/mixins/account-reset-mixin.js:45 .es5/lib/auth-errors.js:115
+#: .es5/views/mixins/account-reset-mixin.js:42 .es5/lib/auth-errors.js:112
 msgid "Your account has been locked for security reasons"
 msgstr "Ο λογαριασμός σας έχει κλειδωθεί για λόγους ασφαλείας"
 
-#: .es5/views/mixins/account-reset-mixin.js:45 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:42 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Επαναφορά κωδικού πρόσβασης"
 
@@ -289,27 +289,27 @@ msgstr "κανένας"
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Τελευταίος έλεγχος: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:20
+#: .es5/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
 msgstr "Άνοιγμα Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
 msgstr "Άνοιγμα Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
 msgstr "Άνοιγμα Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
 msgstr "Άνοιγμα Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
 msgstr "Άνοιγμα Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:49
+#: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Το email απεστάλη. Προσθέστε το accounts@firefox.com στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση."
 
@@ -329,43 +329,43 @@ msgstr "Ελήφθη"
 msgid "Printed"
 msgstr "Εκτυπώθηκε"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
+#: .es5/views/mixins/upgrade-session-mixin.js:70 .es5/models/auth_brokers/base.js:97
 msgid "Primary email verified successfully"
 msgstr "Επιτυχής επαλήθευση κύριου email"
 
-#: .es5/views/behaviors/settings.js:35 .es5/models/auth_brokers/web.js:29
+#: .es5/views/behaviors/settings.js:32 .es5/models/auth_brokers/web.js:26
 msgid "Account verified successfully"
 msgstr "Επιτυχής επαλήθευση λογαριασμού"
 
-#: .es5/models/sync-engines.js:44
+#: .es5/models/sync-engines.js:41
 msgid "Open tabs"
 msgstr "Ανοικτές καρτέλες"
 
-#: .es5/models/sync-engines.js:48
+#: .es5/models/sync-engines.js:45
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-#: .es5/models/sync-engines.js:52
+#: .es5/models/sync-engines.js:49
 msgid "Add-ons"
 msgstr "Πρόσθετα"
 
-#: .es5/models/sync-engines.js:56
+#: .es5/models/sync-engines.js:53
 msgid "Logins"
 msgstr "Συνδέσεις"
 
-#: .es5/models/sync-engines.js:60
+#: .es5/models/sync-engines.js:57
 msgid "History"
 msgstr "Ιστορικό"
 
-#: .es5/models/sync-engines.js:64
+#: .es5/models/sync-engines.js:61
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
-#: .es5/models/sync-engines.js:72
+#: .es5/models/sync-engines.js:69
 msgid "Addresses"
 msgstr "Διευθύνσεις"
 
-#: .es5/models/sync-engines.js:80
+#: .es5/models/sync-engines.js:77
 msgid "Credit cards"
 msgstr "Πιστωτικές κάρτες"
 
@@ -373,372 +373,372 @@ msgstr "Πιστωτικές κάρτες"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:104
+#: .es5/models/auth_brokers/base.js:101
 msgid "Secondary email verified successfully"
 msgstr "Επιτυχής επαλήθευση δευτερεύοντος email"
 
-#: .es5/models/auth_brokers/web.js:33
+#: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "Επιτυχής επαναφορά κωδικού πρόσβασης"
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:18 .es5/lib/marketing-email-errors.js:15 .es5/lib/oauth-errors.js:18 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:63
 msgid "Unexpected error"
 msgstr "Μη αναμενόμενο σφάλμα"
 
-#: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:19 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Ο σύνδεσμος που πατήσατε για την επαλήθευση του email σας έληξε."
 
-#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:16
+#: .es5/lib/auth-errors.js:20 .es5/lib/profile-errors.js:13
 msgid "You've tried too many times. Try again later."
 msgstr "Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά αργότερα."
 
-#: .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:24
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:51
+#: .es5/lib/auth-errors.js:34 .es5/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Μη έγκυρο διακριτικό"
 
-#: .es5/lib/auth-errors.js:41
+#: .es5/lib/auth-errors.js:38
 msgid "Invalid timestamp in request signature"
 msgstr "Μη έγκυρη χρονοσήμανση στην υπογραφή του αιτήματος"
 
-#: .es5/lib/auth-errors.js:45
+#: .es5/lib/auth-errors.js:42
 msgid "Invalid nonce in request signature"
 msgstr "Μη έγκυρος αριθμός μιας χρήσης στην υπογραφή του αιτήματος"
 
-#: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
+#: .es5/lib/auth-errors.js:46 .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:162
 msgid "Account already exists"
 msgstr "Ο λογαριασμός υπάρχει ήδη"
 
-#: .es5/lib/auth-errors.js:53
+#: .es5/lib/auth-errors.js:50
 msgid "Unknown account"
 msgstr "Άγνωστος λογαριασμός"
 
-#: .es5/lib/auth-errors.js:57
+#: .es5/lib/auth-errors.js:54
 msgid "Incorrect email case"
 msgstr "Λανθασμένη περίπτωση ηλ. διεύθυνσης"
 
-#: .es5/lib/auth-errors.js:61
+#: .es5/lib/auth-errors.js:58
 msgid "Incorrect password"
 msgstr "Λανθασμένος κωδικός"
 
-#: .es5/lib/auth-errors.js:65
+#: .es5/lib/auth-errors.js:62
 msgid "Unverified account"
 msgstr "Μη επαληθευμένος λογαριασμός"
 
-#: .es5/lib/auth-errors.js:69
+#: .es5/lib/auth-errors.js:66
 msgid "Invalid verification code"
 msgstr "Μη έγκυρος κωδικός επαλήθευσης"
 
-#: .es5/lib/auth-errors.js:73
+#: .es5/lib/auth-errors.js:70
 msgid "Invalid JSON in request body"
 msgstr "Μη έγκυρο JSON στο σώμα του αιτήματος"
 
-#: .es5/lib/auth-errors.js:77
+#: .es5/lib/auth-errors.js:74
 msgid "Invalid parameter: %(param)s"
 msgstr "Μη έγκυρη παράμετρος: %(param)s"
 
-#: .es5/lib/auth-errors.js:81
+#: .es5/lib/auth-errors.js:78
 msgid "Missing parameter: %(param)s"
 msgstr "Παράμετρος που λείπει: %(param)s"
 
-#: .es5/lib/auth-errors.js:85
+#: .es5/lib/auth-errors.js:82
 msgid "Invalid request signature"
 msgstr "Μη έγκυρη υπογραφή αιτήματος"
 
-#: .es5/lib/auth-errors.js:89
+#: .es5/lib/auth-errors.js:86
 msgid "Missing content-length header"
 msgstr "Έλλειψη της κεφαλίδας content-length"
 
-#: .es5/lib/auth-errors.js:93
+#: .es5/lib/auth-errors.js:90
 msgid "Request body too large"
 msgstr "Πολύ μεγάλο κύριο μέρος αιτήματος"
 
-#: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:54
+#: .es5/lib/auth-errors.js:108 .es5/lib/profile-errors.js:51
 msgid "The request was blocked for security reasons"
 msgstr "Το αίτημα αποκλείστηκε για λόγους ασφαλείας"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:116 .es5/lib/auth-errors.js:455
 msgid "Invalid authorization code"
 msgstr "Μη έγκυρος κωδικός πιστοποίησης"
 
-#: .es5/lib/auth-errors.js:123
+#: .es5/lib/auth-errors.js:120
 msgid "Invalid phone number"
 msgstr "Μη έγκυρος αριθμός τηλεφώνου"
 
-#: .es5/lib/auth-errors.js:127
+#: .es5/lib/auth-errors.js:124
 msgid "Cannot send to this country"
 msgstr "Αδυναμία αποστολής σε αυτή τη χώρα"
 
-#: .es5/lib/auth-errors.js:136
+#: .es5/lib/auth-errors.js:133
 msgid "Could not send a message to this number"
 msgstr "Αδυναμία αποστολής μηνύματος σε αυτό τον αριθμό"
 
-#: .es5/lib/auth-errors.js:140
+#: .es5/lib/auth-errors.js:137
 msgid "Your email was just returned"
 msgstr "Το e-mail σας μόλις επιστράφηκε"
 
-#: .es5/lib/auth-errors.js:144
+#: .es5/lib/auth-errors.js:141
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Το e-mail σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;"
 
-#: .es5/lib/auth-errors.js:148
+#: .es5/lib/auth-errors.js:145
 msgid "Unable to deliver email"
 msgstr "Αδυναμία παράδοσης e-mail"
 
-#: .es5/lib/auth-errors.js:153
+#: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
 msgstr "Αυτό το e-mail επαληθεύτηκε ήδη από κάποιο άλλο χρήστη"
 
-#: .es5/lib/auth-errors.js:157
+#: .es5/lib/auth-errors.js:154
 msgid "Secondary email must be different than your account email"
 msgstr "Το δευτερεύον e-mail πρέπει να είναι διαφορετικό από το λογαριασμό e-mail σας"
 
-#: .es5/lib/auth-errors.js:169
+#: .es5/lib/auth-errors.js:166
 msgid "Primary account email required for sign-in"
 msgstr "Απαιτείται ο πρωτεύων λογαριασμός e-mail για σύνδεση"
 
-#: .es5/lib/auth-errors.js:173
+#: .es5/lib/auth-errors.js:170
 msgid "Address in use by another account"
 msgstr "Η διεύθυνση χρησιμοποιείται από κάποιο άλλο λογαριασμό"
 
-#: .es5/lib/auth-errors.js:177
+#: .es5/lib/auth-errors.js:174
 msgid "Primary account email required for reset"
 msgstr "Απαιτείται ο πρωτεύων λογαριασμός e-mail για επαναφορά"
 
-#: .es5/lib/auth-errors.js:181
+#: .es5/lib/auth-errors.js:178
 msgid "Invalid signin code"
 msgstr "Μη έγκυρος κώδικας σύνδεσης"
 
-#: .es5/lib/auth-errors.js:185
+#: .es5/lib/auth-errors.js:182
 msgid "Can not change primary email to an unverified email"
 msgstr "Δεν μπορείτε να αλλάξετε το κύριο email σε μη επαληθευμένο email"
 
-#: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
+#: .es5/lib/auth-errors.js:186 .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Δεν μπορείτε να αλλάξετε το κύριο email σε email που δεν ανήκει σε αυτό το λογαριασμό"
 
-#: .es5/lib/auth-errors.js:193
+#: .es5/lib/auth-errors.js:190
 msgid "This email can not currently be used to login"
 msgstr "Αυτό το email δεν μπορεί να χρησιμοποιηθεί για σύνδεση αυτή τη στιγμή"
 
-#: .es5/lib/auth-errors.js:201
+#: .es5/lib/auth-errors.js:198
 msgid "Failed to send email"
 msgstr "Αποτυχία αποστολής email"
 
-#: .es5/lib/auth-errors.js:205
+#: .es5/lib/auth-errors.js:202
 msgid "Valid code required"
 msgstr "Απαιτείται έγκυρος κωδικός"
 
-#: .es5/lib/auth-errors.js:209
+#: .es5/lib/auth-errors.js:206
 msgid "This verification code has expired"
 msgstr "Αυτός ο κωδικός επαλήθευσης έχει λήξει"
 
-#: .es5/lib/auth-errors.js:213
+#: .es5/lib/auth-errors.js:210
 msgid "A TOTP token already exists for this account"
 msgstr "Υπάρχει ήδη ένα TOTP token για αυτό το λογαριασμό"
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:214
 msgid "TOTP token not found"
 msgstr "Δεν βρέθηκε TOTP token"
 
-#: .es5/lib/auth-errors.js:221
+#: .es5/lib/auth-errors.js:218
 msgid "Recovery code not found"
 msgstr "Δεν βρέθηκε κωδικός ανάκτησης"
 
-#: .es5/lib/auth-errors.js:225
+#: .es5/lib/auth-errors.js:222
 msgid "Unavailable device command"
 msgstr "Μη διαθέσιμη εντολή συσκευής"
 
-#: .es5/lib/auth-errors.js:229
+#: .es5/lib/auth-errors.js:226
 msgid "Recovery key not found"
 msgstr "Δεν βρέθηκε κλειδί ανάκτησης"
 
-#: .es5/lib/auth-errors.js:233
+#: .es5/lib/auth-errors.js:230
 msgid "Invalid recovery key"
 msgstr "Άκυρο κλειδί ανάκτησης"
 
-#: .es5/lib/auth-errors.js:237
+#: .es5/lib/auth-errors.js:234
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Αυτό το αίτημα απαιτεί επαλήθευση με δύο βήματα στο λογαριασμό σας."
 
-#: .es5/lib/auth-errors.js:241
+#: .es5/lib/auth-errors.js:238
 msgid "Failed due to a conflicting request, please try again."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:435
 msgid "Server busy, try again soon"
 msgstr "Απασχολημένος διακομιστής, δοκιμάστε ξανά σύντομα"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:247
 msgid "Feature not enabled"
 msgstr "Η λειτουργία δεν είναι ενεργή"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
-#: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:259 .es5/lib/marketing-email-errors.js:23 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:59
 msgid "System unavailable, try again soon"
 msgstr "Μη διαθέσιμο σύστημα, δοκιμάστε πάλι ξανά"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:255
 msgid "This endpoint is no longer supported"
 msgstr "Αυτό το άκρο δεν υποστηρίζεται πια"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:263
 msgid "Login attempt cancelled"
 msgstr "Η προσπάθεια σύνδεσης ακυρώθηκε"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:267
 msgid "Session expired. Sign in to continue."
 msgstr "Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε."
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:271
 msgid "Cookies are still disabled"
 msgstr "Τα cookies είναι ακόμη ανενεργά"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:275
 msgid "Passwords do not match"
 msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 
-#: .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:279
 msgid "Working…"
 msgstr "Εργασία…"
 
-#: .es5/lib/auth-errors.js:286
+#: .es5/lib/auth-errors.js:283
 msgid "Could not get Privacy Notice"
 msgstr "Αδυναμία λήψης σημειώσεων απορρήτου"
 
-#: .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:287
 msgid "Could not get Terms of Service"
 msgstr "Αδυναμία λήψης όρων υπηρεσίας"
 
-#: .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:291
 msgid "Your new password must be different"
 msgstr "Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός"
 
-#: .es5/lib/auth-errors.js:298 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:295 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες"
 
-#: .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:299
 msgid "Valid password required"
 msgstr "Απαιτείται ένας έγκυρος κωδικός πρόσβασης"
 
-#: .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:360
+#: .es5/lib/auth-errors.js:303 .es5/lib/auth-errors.js:341 .es5/lib/auth-errors.js:357
 msgid "Valid email required"
 msgstr "Απαιτείται έγκυρο email"
 
-#: .es5/lib/auth-errors.js:317
+#: .es5/lib/auth-errors.js:314
 msgid "A usable image was not found"
 msgstr "Δεν βρέθηκε καμία αξιοποιήσιμη εικόνα"
 
-#: .es5/lib/auth-errors.js:321
+#: .es5/lib/auth-errors.js:318
 msgid "Could not initialize camera"
 msgstr "Αδυναμία εκκίνησης κάμερας"
 
-#: .es5/lib/auth-errors.js:325
+#: .es5/lib/auth-errors.js:322
 msgid "Valid URL required"
 msgstr "Απαιτείται έγκυρο URL"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:337
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Το email επικύρωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος το email;"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:345
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Εισάγετε μια έγκυρη διεύθυνση email. Το firefox.com δεν προσφέρει email."
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:353
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Οι λογαριασμοί Firefox μπορούν να τοποθετηθούν μόνο σε IFRAME στις εγκεκριμένες ιστοσελίδες"
 
-#: .es5/lib/auth-errors.js:375 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:372 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Ο σύνδεσμος επικύρωσης καταστράφηκε"
 
-#: .es5/lib/auth-errors.js:383
+#: .es5/lib/auth-errors.js:380
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Οι διαστάσεις της εικόνας πρέπει να είναι τουλάχιστον 100x100px"
 
-#: .es5/lib/auth-errors.js:387
+#: .es5/lib/auth-errors.js:384
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Η δυνατότητα εγγραφής έρχεται σύντομα στο Firefox για iOS"
 
-#: .es5/lib/auth-errors.js:398
+#: .es5/lib/auth-errors.js:395
 msgid "You must enter your age to sign up"
 msgstr "Πρέπει να εισάγετε την ηλικία σας για εγγραφή"
 
-#: .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:399
 msgid "You must enter a valid age to sign up"
 msgstr "Πρέπει να εισάγετε μια έγκυρη ηλικία για εγγραφή"
 
-#: .es5/lib/auth-errors.js:417
+#: .es5/lib/auth-errors.js:414
 msgid "Account no longer exists."
 msgstr "Ο λογαριασμός δεν υπάρχει πλέον."
 
-#: .es5/lib/auth-errors.js:421
+#: .es5/lib/auth-errors.js:418
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Μη έγκυρη ιδιότητα στο σύμβολο συνέχισης: %(property)s"
 
-#: .es5/lib/auth-errors.js:425
+#: .es5/lib/auth-errors.js:422
 msgid "Missing property in resume token: %(property)s"
 msgstr "Απουσία ιδιότητας στο σύμβολο συνέχισης: %(property)s"
 
-#: .es5/lib/auth-errors.js:429
+#: .es5/lib/auth-errors.js:426
 msgid "Invalid data attribute: %(property)s"
 msgstr "Μη έγκυρη ιδιότητα δεδομένων: %(property)s"
 
-#: .es5/lib/auth-errors.js:433
+#: .es5/lib/auth-errors.js:430
 msgid "Missing data attribute: %(property)s"
 msgstr "Απουσία ιδιότητας δεδομένων: %(property)s"
 
-#: .es5/lib/auth-errors.js:446 .es5/lib/auth-errors.js:500 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:497 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης έχει χρησιμοποιηθεί ήδη και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
-#: .es5/lib/auth-errors.js:450
+#: .es5/lib/auth-errors.js:447
 msgid "This is a required field"
 msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
 
-#: .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:451
 msgid "Authorization code required"
 msgstr "Απαιτείται κωδικός πιστοποίησης"
 
-#: .es5/lib/auth-errors.js:462 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:459 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Κατεστραμμένος σύνδεσμος"
 
-#: .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:482
 msgid "Phone number required"
 msgstr "Απαιτείται αριθμός τηλεφώνου"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:501
 msgid "Two-step authentication code required"
 msgstr "Απαιτείται κωδικός ταυτοποίησης σε δύο βήματα"
 
-#: .es5/lib/auth-errors.js:508
+#: .es5/lib/auth-errors.js:505
 msgid "Invalid two-step authentication code"
 msgstr "Άκυρος κωδικός ταυτοποίησης σε δύο βήματα"
 
-#: .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:509
 msgid "Recovery code required"
 msgstr "Απαιτείται κωδικός ανάκτησης"
 
-#: .es5/lib/auth-errors.js:516
+#: .es5/lib/auth-errors.js:513
 msgid "Invalid recovery code"
 msgstr "Άκυρος κωδικός ανάκτησης"
 
-#: .es5/lib/auth-errors.js:528
+#: .es5/lib/auth-errors.js:525
 msgid "Recovery key required"
 msgstr "Απαιτείται κλειδί ανάκτησης"
 
-#: .es5/lib/auth-errors.js:532
+#: .es5/lib/auth-errors.js:529
 msgid "Please enter verification code"
 msgstr "Παρακαλούμε εισάγετε τον κωδικό επαλήθευσης"
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:533
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr ""
 
@@ -750,67 +750,67 @@ msgstr "Απουσία ρύθμισης"
 msgid "Invalid configuration"
 msgstr "Μη έγκυρη ρύθμιση"
 
-#: .es5/lib/mailcheck.js:27
+#: .es5/lib/mailcheck.js:24
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Μήπως εννοούσατε το <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>;"
 
-#: .es5/lib/marketing-email-errors.js:42
+#: .es5/lib/marketing-email-errors.js:39
 msgid "Please try again later"
 msgstr "Παρακαλώ δοκιμάστε ξανά αργότερα"
 
-#: .es5/lib/marketing-email-errors.js:74
+#: .es5/lib/marketing-email-errors.js:71
 msgid "Service unavailable, try again soon"
 msgstr "Μη διαθέσιμη υπηρεσία, δοκιμάστε ξανά σύντομα"
 
-#: .es5/lib/oauth-errors.js:27
+#: .es5/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Άγνωστος δέκτης"
 
-#: .es5/lib/oauth-errors.js:31
+#: .es5/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "Εσφαλμένο redirect_uri"
 
-#: .es5/lib/oauth-errors.js:35
+#: .es5/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Μη έγκυρος ισχυρισμός"
 
-#: .es5/lib/oauth-errors.js:39
+#: .es5/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "Άγνωστος κωδικός"
 
-#: .es5/lib/oauth-errors.js:43
+#: .es5/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "Εσφαλμένος κωδικός"
 
-#: .es5/lib/oauth-errors.js:47
+#: .es5/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "Ληγμένος κωδικός"
 
-#: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
+#: .es5/lib/oauth-errors.js:52 .es5/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Μη έγκυρη παράμετρος OAuth: %(param)s"
 
-#: .es5/lib/oauth-errors.js:63 .es5/lib/profile-errors.js:22
+#: .es5/lib/oauth-errors.js:60 .es5/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Μη πιστοποιημένο"
 
-#: .es5/lib/oauth-errors.js:67
+#: .es5/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Απαγορεύεται"
 
-#: .es5/lib/oauth-errors.js:81
+#: .es5/lib/oauth-errors.js:78
 msgid "Expired token"
 msgstr "Σύμβολο που έχει λήξει"
 
-#: .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτή την καρτέλα και δοκιμάστε ξανά."
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:133
 msgid "no message"
 msgstr "κανένα μήνυμα"
 
-#: .es5/lib/oauth-errors.js:140
+#: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Απουσία παραμέτρου OAuth: %(param)s"
 
@@ -826,23 +826,23 @@ msgstr "Σφάλμα σύζευξης με απομακρυσμένη συσκε
 msgid "Connection to remote device closed, please try again"
 msgstr "Η σύνδεση στην απομακρυσμένη συσκευή έκλεισε, παρακαλούμε δοκιμάστε ξανά"
 
-#: .es5/lib/profile-errors.js:26
+#: .es5/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Μη έγκυρη παράμετρος στο κυρίως μέρος του αιτήματος: %(param)s"
 
-#: .es5/lib/profile-errors.js:30
+#: .es5/lib/profile-errors.js:27
 msgid "Unsupported image provider"
 msgstr "Μη υποστηριζόμενος πάροχος εικόνας"
 
-#: .es5/lib/profile-errors.js:34
+#: .es5/lib/profile-errors.js:31
 msgid "Image processing error"
 msgstr "Σφάλμα επεξεργασίας εικόνας"
 
-#: .es5/lib/profile-errors.js:46
+#: .es5/lib/profile-errors.js:43
 msgid "Invalid Token"
 msgstr "Μη έγκυρο σύμβολο"
 
-#: .es5/lib/strings.js:26
+#: .es5/lib/strings.js:23
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
@@ -850,27 +850,27 @@ msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
 
-#: .es5/lib/strings.js:33
+#: .es5/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Βοήθεια</a>"
 
-#: .es5/lib/strings.js:37
+#: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Λάβετε τα τελευταία νέα του Mozilla και του Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:37 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (εκτίμηση)"
 
-#: .es5/lib/strings.js:41
+#: .es5/lib/strings.js:38
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (εκτίμηση)"
 
-#: .es5/lib/strings.js:42
+#: .es5/lib/strings.js:39
 msgid "IP address: %(ip)s"
 msgstr "Διεύθυνση IP: %(ip)s"
 
-#: .es5/lib/strings.js:43
+#: .es5/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Για επιπρόσθετη ασφάλεια, επιβεβαιώστε αυτήν την σύνδεση για την εκκίνηση του συγχρονισμού της συσκευής:"
 
@@ -1111,7 +1111,7 @@ msgstr "Συνδεθείτε για να συνεχίσετε"
 msgid "Password"
 msgstr "Κωδικός"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Ξεχάσατε τον κωδικό σας;"
@@ -1232,7 +1232,8 @@ msgstr "Λογαριασμοί Firefox"
 msgid "Sign out"
 msgstr "Έξοδος"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Χρήση διαφορετικού λογαριασμού"
 
@@ -1831,10 +1832,6 @@ msgstr "Εμφάνιση κωδικού πρόσβασης"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Ψάχνετε για το Firefox Sync; <a %(escapedSyncSuggestionAttrs)s>Ξεκινήστε εδώ</a>"
 
-#: .es5/templates/partial/user-card.mustache:1
-msgid "Use a different email address"
-msgstr "Χρήση διαφορετικής διεύθυνσης email"
-
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
 msgstr "Εγκρίνετε συνδέσεις <small>για έναρξη συγχρονισμού</small>"
@@ -1878,6 +1875,9 @@ msgstr "Σύζευξη με εφαρμογή"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
+
+#~ msgid "Use a different email address"
+#~ msgstr "Χρήση διαφορετικής διεύθυνσης email"
 
 #~ msgid "Sign in &rarr;"
 #~ msgstr "Είσοδος &rarr;"
