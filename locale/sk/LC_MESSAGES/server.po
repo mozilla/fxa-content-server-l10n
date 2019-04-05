@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-02-22 13:06+0000\n"
+"PO-Revision-Date: 2019-04-04 20:31+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -427,31 +427,31 @@ msgstr "Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to."
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Pripomienka: potvrďte svoju e-mailovú adresu a aktivujte svoj účet Firefox"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Zdravím."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Nedávno ste si vytvorili účet Firefox, no zatiaľ ste nepotvrdili svoju e-mailovú adresu."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Potvrďte svoju e-mailovú adresu a začnite používať Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor a ďalšie služby."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "Potvrdiť e-mailovú adresu"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "Potvrdiť e-mailovú adresu:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Posledná pripomienka: potvrďte svoju e-mailovú adresu a aktivujte svoj účet Firefox"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -459,11 +459,11 @@ msgstr "Ste tu ešte?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Takmer pred týždňom ste si vytvorili účet Firefox, no nepotvrdili ste ho. Bojíme sa o vás."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Potvrďte túto e-mailovú adresu a aktivujte svoj účet."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
