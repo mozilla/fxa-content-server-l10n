@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-06 04:33+0000\n"
+"PO-Revision-Date: 2019-04-07 14:09+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -430,7 +430,7 @@ msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε του�
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Υπενθύμιση: Επιβεβαιώστε το email σας για να ενεργοποιήσετε το λογαριασμό Firefox σας"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -438,11 +438,11 @@ msgstr "Γεια σας και πάλι."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Δημιουργήσατε πρόσφατα ένα λογαριασμό Firefox, αλλά δεν έχετε επιβεβαιώσει ακόμα το email σας."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Επιβεβαιώστε το email σας ώστε να αρχίσετε να χρησιμοποιείτε το Firefox Sync, το Pocket, το Lockbox, το Firefox Send, το Monitor και πολλά άλλα."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -454,7 +454,7 @@ msgstr "Επιβεβαίωση email:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Τελική υπενθύμιση: Επιβεβαιώστε το email σας για να ενεργοποιήσετε το λογαριασμό Firefox σας"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -462,11 +462,11 @@ msgstr "Ακόμη εκεί;"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Σχεδόν μια εβδομάδα πριν δημιουργήσατε ένα λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και να μάς ενημερώσετε ότι είστε εντάξει."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -478,11 +478,11 @@ msgstr "Καλώς ορίσατε!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό Firefox σας και να συνεχίσετε στο %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό Firefox σας."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -699,10 +699,11 @@ msgstr "Απαιτείται ενημέρωση του Firefox"
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
 msgstr ""
+"Οι λογαριασμοί Firefox χρησιμοποιούν λειτουργίες που δεν υποστηρίζονται στην έκδοση του Firefox σας. Παρακαλούμε κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του Firefox για να συνεχίσετε."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Λήψη τελευταίας έκδοσης"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "Παρακαλώ ενεργοποιήστε το λογαριασμό σας επιβεβαιώνοντας αυτή τη διεύθυνση email."
