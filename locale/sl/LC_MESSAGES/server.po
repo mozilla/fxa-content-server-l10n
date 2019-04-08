@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-02 10:40+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-04-08 14:00+0000\n"
+"Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -441,11 +441,11 @@ msgstr "Potrdite e-poštni naslov, da boste lahko začeli uporabljati Firefox Sy
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "Potrdite e-poštni naslov"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "Potrdite e-poštni naslov:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -457,11 +457,11 @@ msgstr "Ste še tu?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Pred slabim tednom ste ustvarili Firefox Račun, vendar ga niste nikoli potrdili. Skrbi nas za vas."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Potrdite ta e-poštni naslov, da omogočite svoj račun in nam sporočite, da ste v redu."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
