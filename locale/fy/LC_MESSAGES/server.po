@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-02-25 15:44+0000\n"
+"POT-Creation-Date: 2019-04-12 16:02+0000\n"
+"PO-Revision-Date: 2019-03-31 15:36+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -428,7 +428,7 @@ msgstr "As nee, help ús ynkringers tsjin te hâlden en rapportearje it oan ús.
 
 #: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Let op: Befêstigje jo e-mailadres om jo Firefox-account te aktivearjen"
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -436,23 +436,23 @@ msgstr "Opnij hallo."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "Jo hawwe koartlyn in Firefox-account oanmakke, mar jo hawwe jo e-mailadres noch net befêstige."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
-msgstr ""
+msgstr "Befêstigje jo e-mailadres sadat jo Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor en mear brûke kinne."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "E-mailadres befêstigje"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "E-mailadres befêstigje:"
 
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Lêste omtinken: Befêstigje jo e-mailadres om jo Firefox-account te aktivearjen"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -460,11 +460,11 @@ msgstr "Binne jo der noch?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Hast in wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Wy meitsje ús soargen oer jo."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Befêstigje dit e-mailadres om jo account te aktivearjen en lit ús witte dat it jo goed giet."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"

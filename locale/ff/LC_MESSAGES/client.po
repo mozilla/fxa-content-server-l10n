@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 16:02+0000\n"
+"POT-Creation-Date: 2019-04-12 16:02+0000\n"
 "PO-Revision-Date: 2018-02-04 20:03+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -25,7 +25,7 @@ msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:46 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Seŋo"
@@ -94,15 +94,15 @@ msgstr "Konte ƴeewtaama"
 msgid "Connected"
 msgstr ""
 
-#: .es5/views/reset_password.js:97 .es5/views/sign_in.js:225
+#: .es5/views/reset_password.js:94 .es5/views/sign_in.js:225
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
-#: .es5/views/sign_up.js:56
+#: .es5/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konte ɗee nattii woodde. Sostu-ɗe?"
 
-#: .es5/views/sign_up.js:275
+#: .es5/views/sign_up.js:272
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
@@ -110,123 +110,123 @@ msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 msgid "Password changed successfully"
 msgstr "Finnde wayliraama no haaniri"
 
-#: .es5/views/settings/client_disconnect.js:21
+#: .es5/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefox, tee njiylo-ɗaa humpito to peewnuɗo kabirgol maa baɗte momtude keɓe maa e goɗɗol."
 
-#: .es5/views/settings/client_disconnect.js:22
+#: .es5/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
 
-#: .es5/views/settings/clients.js:46
+#: .es5/views/settings/clients.js:43
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "Jahdingol wattan %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:47
+#: .es5/views/settings/clients.js:44
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "Jahdingol wattan dow %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:50
+#: .es5/views/settings/clients.js:47
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Jahdingol wattan %(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:51
+#: .es5/views/settings/clients.js:48
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Jahdingol wattan dow %(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:54
+#: .es5/views/settings/clients.js:51
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Jahdingol wattan %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:55
+#: .es5/views/settings/clients.js:52
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Jahdingol wattan dow %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:60
+#: .es5/views/settings/clients.js:57
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:58
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Jahdingol wattan dow %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:64
+#: .es5/views/settings/clients.js:61
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Sakkitii saasde %(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:62
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Sakkitii saasde e %(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:68
+#: .es5/views/settings/clients.js:65
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Sakkitii saasde %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:66
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Sakkitii saasde e %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:74
+#: .es5/views/settings/clients.js:71
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:72
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Dow %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:78
+#: .es5/views/settings/clients.js:75
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:76
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Dow %(translatedTimeAgo)s nder %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:82
+#: .es5/views/settings/clients.js:79
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:80
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Dow %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:118
+#: .es5/views/settings/clients.js:115
 msgid "Web Session, %(userAgent)s"
 msgstr "Rogere Geese, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:120
+#: .es5/views/settings/clients.js:117
 msgid "Web Session"
 msgstr "Rogere Geese"
 
-#: .es5/views/settings/clients.js:135
+#: .es5/views/settings/clients.js:132
 msgid "Last sync time unknown"
 msgstr "Sahaa jahdingol wattan mo anndaaka"
 
-#: .es5/views/settings/communication_preferences.js:124
+#: .es5/views/settings/communication_preferences.js:121
 msgid "Subscribed successfully"
 msgstr "Lulniima no haaniri"
 
-#: .es5/views/settings/delete_account.js:45
+#: .es5/views/settings/delete_account.js:42
 msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
-#: .es5/views/settings/display_name.js:58
+#: .es5/views/settings/display_name.js:55
 msgid "Display name updated"
 msgstr "Innde jaytino hesɗitinaama"
 
-#: .es5/views/settings/emails.js:91
+#: .es5/views/settings/emails.js:88
 msgid "Secondary email removed"
 msgstr "Iimeel ɗiɗaɓo momtaama"
 
-#: .es5/views/settings/emails.js:121 .es5/views/settings/emails.js:134 .es5/views/mixins/upgrade-session-mixin.js:92
+#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:89
 msgid "Verification email sent"
 msgstr "Ƴeewndagol iimeel neldaama"
 
-#: .es5/views/settings/emails.js:150
+#: .es5/views/settings/emails.js:147
 msgid "Primary email set to %(email)s"
 msgstr "Iimeel gadano teeltaama e %(email)s"
 
-#: .es5/views/settings/emails.js:160 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "Iimeel ɗiɗaɓo"
 
@@ -270,11 +270,11 @@ msgstr ""
 msgid "Firefox Recovery Key"
 msgstr ""
 
-#: .es5/views/mixins/account-reset-mixin.js:45 .es5/lib/auth-errors.js:115
+#: .es5/views/mixins/account-reset-mixin.js:42 .es5/lib/auth-errors.js:112
 msgid "Your account has been locked for security reasons"
 msgstr "Konte maa koko ndaaƴaa ngam hisnude"
 
-#: .es5/views/mixins/account-reset-mixin.js:45 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:42 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Firlit finnde"
 
@@ -286,27 +286,27 @@ msgstr ""
 msgid "Last checked: %(lastCheckTime)s"
 msgstr ""
 
-#: .es5/views/mixins/open-webmail-mixin.js:20
+#: .es5/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
 msgstr "Uddit Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
 msgstr "Uddit Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
 msgstr "Uddit Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
 msgstr "Uddit Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
 msgstr "Uddit Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:49
+#: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr ""
 
@@ -326,43 +326,43 @@ msgstr ""
 msgid "Printed"
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:73 .es5/models/auth_brokers/base.js:100
+#: .es5/views/mixins/upgrade-session-mixin.js:70 .es5/models/auth_brokers/base.js:97
 msgid "Primary email verified successfully"
 msgstr "Iimeel gadano ƴeewtaama no haaniri"
 
-#: .es5/views/behaviors/settings.js:35 .es5/models/auth_brokers/web.js:29
+#: .es5/views/behaviors/settings.js:32 .es5/models/auth_brokers/web.js:26
 msgid "Account verified successfully"
 msgstr "Konte ƴeewtoraama no haaniri"
 
-#: .es5/models/sync-engines.js:44
+#: .es5/models/sync-engines.js:41
 msgid "Open tabs"
 msgstr "Tabbe udditiiɗe"
 
-#: .es5/models/sync-engines.js:48
+#: .es5/models/sync-engines.js:45
 msgid "Bookmarks"
 msgstr "Maantore"
 
-#: .es5/models/sync-engines.js:52
+#: .es5/models/sync-engines.js:49
 msgid "Add-ons"
 msgstr "Ɓeyditte"
 
-#: .es5/models/sync-engines.js:56
+#: .es5/models/sync-engines.js:53
 msgid "Logins"
 msgstr "Ceŋorɗe"
 
-#: .es5/models/sync-engines.js:60
+#: .es5/models/sync-engines.js:57
 msgid "History"
 msgstr "Aslol"
 
-#: .es5/models/sync-engines.js:64
+#: .es5/models/sync-engines.js:61
 msgid "Preferences"
 msgstr "Cuɓoraaɗe"
 
-#: .es5/models/sync-engines.js:72
+#: .es5/models/sync-engines.js:69
 msgid "Addresses"
 msgstr "Ñiiɓirɗe"
 
-#: .es5/models/sync-engines.js:80
+#: .es5/models/sync-engines.js:77
 msgid "Credit cards"
 msgstr "Karte banke"
 
@@ -370,372 +370,372 @@ msgstr "Karte banke"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:104
+#: .es5/models/auth_brokers/base.js:101
 msgid "Secondary email verified successfully"
 msgstr "Iimeel ɗiɗaɓo ƴeewtaama no haaniri"
 
-#: .es5/models/auth_brokers/web.js:33
+#: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:21 .es5/lib/marketing-email-errors.js:18 .es5/lib/oauth-errors.js:21 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:58 .es5/lib/profile-errors.js:66
+#: .es5/lib/auth-errors.js:18 .es5/lib/marketing-email-errors.js:15 .es5/lib/oauth-errors.js:18 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:63
 msgid "Unexpected error"
 msgstr "Juumre nde heftinaaka"
 
-#: .es5/lib/auth-errors.js:22 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:19 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Jokkol ndobi-ɗaa ngam ƴeewtaade finnde maa ngol hiiɗtii."
 
-#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:16
+#: .es5/lib/auth-errors.js:20 .es5/lib/profile-errors.js:13
 msgid "You've tried too many times. Try again later."
 msgstr "A etiima laabi keewɗi haa wooroo. Eto kadi so ɓooyii."
 
-#: .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:24
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "You've tried too many times. Eto kadi %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/oauth-errors.js:51
+#: .es5/lib/auth-errors.js:34 .es5/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Tokkunde moƴƴaani"
 
-#: .es5/lib/auth-errors.js:41
+#: .es5/lib/auth-errors.js:38
 msgid "Invalid timestamp in request signature"
 msgstr "Temmbere sahaa e siifannde ɗaɓɓitannde feewaani"
 
-#: .es5/lib/auth-errors.js:45
+#: .es5/lib/auth-errors.js:42
 msgid "Invalid nonce in request signature"
 msgstr "Nonsere e siifannde ɗaɓɓitannde feewaani"
 
-#: .es5/lib/auth-errors.js:49 .es5/lib/auth-errors.js:161 .es5/lib/auth-errors.js:165
+#: .es5/lib/auth-errors.js:46 .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:162
 msgid "Account already exists"
 msgstr "Ɗee konte ena ngoodi kisa"
 
-#: .es5/lib/auth-errors.js:53
+#: .es5/lib/auth-errors.js:50
 msgid "Unknown account"
 msgstr "Konte nganndaaka"
 
-#: .es5/lib/auth-errors.js:57
+#: .es5/lib/auth-errors.js:54
 msgid "Incorrect email case"
 msgstr "Darnde iimeel feewaani"
 
-#: .es5/lib/auth-errors.js:61
+#: .es5/lib/auth-errors.js:58
 msgid "Incorrect password"
 msgstr "Finnde ndee moƴƴaani"
 
-#: .es5/lib/auth-errors.js:65
+#: .es5/lib/auth-errors.js:62
 msgid "Unverified account"
 msgstr "Konte ƴeewtaaka"
 
-#: .es5/lib/auth-errors.js:69
+#: .es5/lib/auth-errors.js:66
 msgid "Invalid verification code"
 msgstr "Kod ƴeewtagol moƴƴaani"
 
-#: .es5/lib/auth-errors.js:73
+#: .es5/lib/auth-errors.js:70
 msgid "Invalid JSON in request body"
 msgstr "JSON e jimme ɗaɓɓitannde moƴƴaani"
 
-#: .es5/lib/auth-errors.js:77
+#: .es5/lib/auth-errors.js:74
 msgid "Invalid parameter: %(param)s"
 msgstr "Teeltol dagnaaka: %(param)s"
 
-#: .es5/lib/auth-errors.js:81
+#: .es5/lib/auth-errors.js:78
 msgid "Missing parameter: %(param)s"
 msgstr "Ena ŋakki teeltol: %(param)s"
 
-#: .es5/lib/auth-errors.js:85
+#: .es5/lib/auth-errors.js:82
 msgid "Invalid request signature"
 msgstr "Siifannde ɗaɓɓitannde feewaani"
 
-#: .es5/lib/auth-errors.js:89
+#: .es5/lib/auth-errors.js:86
 msgid "Missing content-length header"
 msgstr "Tiitoore njuuteendi-loowdi ena ŋakki"
 
-#: .es5/lib/auth-errors.js:93
+#: .es5/lib/auth-errors.js:90
 msgid "Request body too large"
 msgstr "Jimme ɗaɓɓitannde ena mawni haa ɓurti"
 
-#: .es5/lib/auth-errors.js:111 .es5/lib/profile-errors.js:54
+#: .es5/lib/auth-errors.js:108 .es5/lib/profile-errors.js:51
 msgid "The request was blocked for security reasons"
 msgstr "Ɗaɓɓitannde ndee daaƴaama ngam kisal maa"
 
-#: .es5/lib/auth-errors.js:119 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:116 .es5/lib/auth-errors.js:455
 msgid "Invalid authorization code"
 msgstr "Kod yalirirde oo moƴƴaani"
 
-#: .es5/lib/auth-errors.js:123
+#: .es5/lib/auth-errors.js:120
 msgid "Invalid phone number"
 msgstr "Tonngoode cinndel ngel moƴƴaani"
 
-#: .es5/lib/auth-errors.js:127
+#: .es5/lib/auth-errors.js:124
 msgid "Cannot send to this country"
 msgstr "Horiima neldude e ndii leydi"
 
-#: .es5/lib/auth-errors.js:136
+#: .es5/lib/auth-errors.js:133
 msgid "Could not send a message to this number"
 msgstr "Horiima neldude mesaas e ndee tonngoode"
 
-#: .es5/lib/auth-errors.js:140
+#: .es5/lib/auth-errors.js:137
 msgid "Your email was just returned"
 msgstr "Iimeel maa ruttunaama ko ɓooyaani"
 
-#: .es5/lib/auth-errors.js:144
+#: .es5/lib/auth-errors.js:141
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Iimeel maa ruttaama jooni. Tappugol iimeel ngol feewaani?"
 
-#: .es5/lib/auth-errors.js:148
+#: .es5/lib/auth-errors.js:145
 msgid "Unable to deliver email"
 msgstr "Horiima tottirde iimeel"
 
-#: .es5/lib/auth-errors.js:153
+#: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
 msgstr "Kuutoro goɗɗo ƴeewtiima oo iimeel kisa"
 
-#: .es5/lib/auth-errors.js:157
+#: .es5/lib/auth-errors.js:154
 msgid "Secondary email must be different than your account email"
 msgstr "Iimeel ɗiɗaɓo ina foti seertude e iimeel konte maa"
 
-#: .es5/lib/auth-errors.js:169
+#: .es5/lib/auth-errors.js:166
 msgid "Primary account email required for sign-in"
 msgstr "Iimeel konte gadane ɗee ina naamnaa ngam seŋaade"
 
-#: .es5/lib/auth-errors.js:173
+#: .es5/lib/auth-errors.js:170
 msgid "Address in use by another account"
 msgstr "Ñiiɓirde neɗɗo goɗɗo huutortoo"
 
-#: .es5/lib/auth-errors.js:177
+#: .es5/lib/auth-errors.js:174
 msgid "Primary account email required for reset"
 msgstr "Iimeel konte gadane ɗee ina naamnaa ngam fuɗɗitaade"
 
-#: .es5/lib/auth-errors.js:181
+#: .es5/lib/auth-errors.js:178
 msgid "Invalid signin code"
 msgstr "Kod ceŋogol oo moƴƴaani"
 
-#: .es5/lib/auth-errors.js:185
+#: .es5/lib/auth-errors.js:182
 msgid "Can not change primary email to an unverified email"
 msgstr "Gasataa iimeel gadano wayleede e iimeel mo ƴeewtaaka"
 
-#: .es5/lib/auth-errors.js:189 .es5/lib/auth-errors.js:197
+#: .es5/lib/auth-errors.js:186 .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Iimeel gadano oo waawaa waɗteede iimeel mo jeyaaka e ɗee ɗoo konte"
 
-#: .es5/lib/auth-errors.js:193
+#: .es5/lib/auth-errors.js:190
 msgid "This email can not currently be used to login"
 msgstr "Oo iimeel waawaa huutoreede ngam seŋaade e oo sahaa"
 
-#: .es5/lib/auth-errors.js:201
+#: .es5/lib/auth-errors.js:198
 msgid "Failed to send email"
 msgstr "Horiima neldude iimeel"
 
-#: .es5/lib/auth-errors.js:205
+#: .es5/lib/auth-errors.js:202
 msgid "Valid code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:209
+#: .es5/lib/auth-errors.js:206
 msgid "This verification code has expired"
 msgstr "Oo kod ƴeewtorɗo buntii"
 
-#: .es5/lib/auth-errors.js:213
+#: .es5/lib/auth-errors.js:210
 msgid "A TOTP token already exists for this account"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:217
+#: .es5/lib/auth-errors.js:214
 msgid "TOTP token not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:221
+#: .es5/lib/auth-errors.js:218
 msgid "Recovery code not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:225
+#: .es5/lib/auth-errors.js:222
 msgid "Unavailable device command"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:229
+#: .es5/lib/auth-errors.js:226
 msgid "Recovery key not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:233
+#: .es5/lib/auth-errors.js:230
 msgid "Invalid recovery key"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:237
+#: .es5/lib/auth-errors.js:234
 msgid "This request requires two step authentication enabled on your account."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:241
+#: .es5/lib/auth-errors.js:238
 msgid "Failed due to a conflicting request, please try again."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:435
 msgid "Server busy, try again soon"
 msgstr "Sarworde ena halji, eto ɗoo e yeeso"
 
-#: .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:247
 msgid "Feature not enabled"
 msgstr "Fannu oo hurminaaka"
 
-#: .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:262 .es5/lib/marketing-email-errors.js:26 .es5/lib/marketing-email-errors.js:84 .es5/lib/oauth-errors.js:109 .es5/lib/profile-errors.js:38
-#: .es5/lib/profile-errors.js:42 .es5/lib/profile-errors.js:62
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:259 .es5/lib/marketing-email-errors.js:23 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:59
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
-#: .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:255
 msgid "This endpoint is no longer supported"
 msgstr "Ndeen toɓɓere wattan nattii tammbiteede"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:263
 msgid "Login attempt cancelled"
 msgstr "Etogol seŋaade haaytii"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:267
 msgid "Session expired. Sign in to continue."
 msgstr "Naatannde hiiɗtii. Seŋo ngam jokkude."
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:271
 msgid "Cookies are still disabled"
 msgstr "Kukiije ko daaƴaaɗe tawo"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:275
 msgid "Passwords do not match"
 msgstr "Finndeeji nanndaani"
 
-#: .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:279
 msgid "Working…"
 msgstr "Nana golla…"
 
-#: .es5/lib/auth-errors.js:286
+#: .es5/lib/auth-errors.js:283
 msgid "Could not get Privacy Notice"
 msgstr "Horiima heɓde Tintinol Suturo"
 
-#: .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:287
 msgid "Could not get Terms of Service"
 msgstr "Horiima heɓde Sarɗiiji Carwe"
 
-#: .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:291
 msgid "Your new password must be different"
 msgstr "Finnde maa hesere ndee ena foti seertude"
 
-#: .es5/lib/auth-errors.js:298 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:295 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Ena foti waɗde alkule 8 so famɗii"
 
-#: .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:299
 msgid "Valid password required"
 msgstr "Finnde moƴƴere ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:360
+#: .es5/lib/auth-errors.js:303 .es5/lib/auth-errors.js:341 .es5/lib/auth-errors.js:357
 msgid "Valid email required"
 msgstr "Iimeel moƴƴo ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:317
+#: .es5/lib/auth-errors.js:314
 msgid "A usable image was not found"
 msgstr "Natal baawngal huutoreede yiyaaka"
 
-#: .es5/lib/auth-errors.js:321
+#: .es5/lib/auth-errors.js:318
 msgid "Could not initialize camera"
 msgstr "Horiima heblitaade kamaraa"
 
-#: .es5/lib/auth-errors.js:325
+#: .es5/lib/auth-errors.js:322
 msgid "Valid URL required"
 msgstr "URL moƴƴo ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:337
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Iimeel ƴeewtoɗo oo ruttinaama. Juumre binndol?"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:345
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Naatnu ñiiɓirde iimeel moƴƴere. firefox.com hokkataa ñiiɓirɗe."
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:353
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Konte Firefox mbaawi wonde tan ko e IFRAME e lowe jamiraaɗe"
 
-#: .es5/lib/auth-errors.js:375 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:372 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Jokkol ƴeewtagol koko boni"
 
-#: .es5/lib/auth-errors.js:383
+#: .es5/lib/auth-errors.js:380
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Natal ngal ena foti fotde e 100x100px walla ɓura"
 
-#: .es5/lib/auth-errors.js:387
+#: .es5/lib/auth-errors.js:384
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Binnditagol jooni ara e Firefox mo iOS"
 
-#: .es5/lib/auth-errors.js:398
+#: .es5/lib/auth-errors.js:395
 msgid "You must enter your age to sign up"
 msgstr "Maa naatnaa duuɓi maa nde mbinndito-ɗaa"
 
-#: .es5/lib/auth-errors.js:402
+#: .es5/lib/auth-errors.js:399
 msgid "You must enter a valid age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:417
+#: .es5/lib/auth-errors.js:414
 msgid "Account no longer exists."
 msgstr "Konte ɗee nattii woodde."
 
-#: .es5/lib/auth-errors.js:421
+#: .es5/lib/auth-errors.js:418
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Heeroraango dagnaaka e tokken jokkugol: %(property)s"
 
-#: .es5/lib/auth-errors.js:425
+#: .es5/lib/auth-errors.js:422
 msgid "Missing property in resume token: %(property)s"
 msgstr "Heeroraango ena ŋ&kki e tokken jokkugol: %(property)s"
 
-#: .es5/lib/auth-errors.js:429
+#: .es5/lib/auth-errors.js:426
 msgid "Invalid data attribute: %(property)s"
 msgstr "Joopol keɓe dagnaaka: %(property)s"
 
-#: .es5/lib/auth-errors.js:433
+#: .es5/lib/auth-errors.js:430
 msgid "Missing data attribute: %(property)s"
 msgstr "Joopol keɓe ena ŋakki: %(property)s"
 
-#: .es5/lib/auth-errors.js:446 .es5/lib/auth-errors.js:500 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:497 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ngol jokkol teeŋtinol koko huutoraa kisa, tee huutortee tan ko gootol."
 
-#: .es5/lib/auth-errors.js:450
+#: .es5/lib/auth-errors.js:447
 msgid "This is a required field"
 msgstr "Ɗum ko gallol baɗɗingol"
 
-#: .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:451
 msgid "Authorization code required"
 msgstr "Kod jamirgol ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:462 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:459 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Jokkol bonii"
 
-#: .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:482
 msgid "Phone number required"
 msgstr "Tonngoode noddirgel ina soklaa"
 
-#: .es5/lib/auth-errors.js:504
+#: .es5/lib/auth-errors.js:501
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:508
+#: .es5/lib/auth-errors.js:505
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:509
 msgid "Recovery code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:516
+#: .es5/lib/auth-errors.js:513
 msgid "Invalid recovery code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:528
+#: .es5/lib/auth-errors.js:525
 msgid "Recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:532
+#: .es5/lib/auth-errors.js:529
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:533
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr ""
 
@@ -747,67 +747,67 @@ msgstr "Teeltol ena ŋakki"
 msgid "Invalid configuration"
 msgstr "Teeltol dagnaaka"
 
-#: .es5/lib/mailcheck.js:27
+#: .es5/lib/mailcheck.js:24
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Njidnoɗaa wiyde ko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:42
+#: .es5/lib/marketing-email-errors.js:39
 msgid "Please try again later"
 msgstr "Eto kadi so ɓooyii njaafoɗaa"
 
-#: .es5/lib/marketing-email-errors.js:74
+#: .es5/lib/marketing-email-errors.js:71
 msgid "Service unavailable, try again soon"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:27
+#: .es5/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Kiliyaan nganndaaka"
 
-#: .es5/lib/oauth-errors.js:31
+#: .es5/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri feewaani"
 
-#: .es5/lib/oauth-errors.js:35
+#: .es5/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Tokkunde moƴƴaani"
 
-#: .es5/lib/oauth-errors.js:39
+#: .es5/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "Kod anndaaka"
 
-#: .es5/lib/oauth-errors.js:43
+#: .es5/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "Kod moƴƴaani"
 
-#: .es5/lib/oauth-errors.js:47
+#: .es5/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "Kod hiiɗtii"
 
-#: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
+#: .es5/lib/oauth-errors.js:52 .es5/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Teeltol OAuth dagnaaka: %(param)s"
 
-#: .es5/lib/oauth-errors.js:63 .es5/lib/profile-errors.js:22
+#: .es5/lib/oauth-errors.js:60 .es5/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Yamiraaka"
 
-#: .es5/lib/oauth-errors.js:67
+#: .es5/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Koko haɗaa"
 
-#: .es5/lib/oauth-errors.js:81
+#: .es5/lib/oauth-errors.js:78
 msgid "Expired token"
 msgstr "Seede oo buntii"
 
-#: .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:114
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Won caɗeele mbaɗi. Tiiɗno uddu ndee tabbere kisa puɗɗito-ɗaa."
 
-#: .es5/lib/oauth-errors.js:136
+#: .es5/lib/oauth-errors.js:133
 msgid "no message"
 msgstr "alaa ɓatakuru"
 
-#: .es5/lib/oauth-errors.js:140
+#: .es5/lib/oauth-errors.js:137
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Ena ŋakki OAuth parameter: %(param)s"
 
@@ -823,50 +823,50 @@ msgstr ""
 msgid "Connection to remote device closed, please try again"
 msgstr ""
 
-#: .es5/lib/profile-errors.js:26
+#: .es5/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Teeltol e jimme ɗaɓɓitannde moƴƴaani: %(param)s"
 
-#: .es5/lib/profile-errors.js:30
+#: .es5/lib/profile-errors.js:27
 msgid "Unsupported image provider"
 msgstr "Carwinoowo nate jaaɓaaka"
 
-#: .es5/lib/profile-errors.js:34
+#: .es5/lib/profile-errors.js:31
 msgid "Image processing error"
 msgstr "Juumre lijjitgol natal"
 
-#: .es5/lib/profile-errors.js:46
+#: .es5/lib/profile-errors.js:43
 msgid "Invalid Token"
 msgstr "Tokkunde Toƴƴaani"
 
-#: .es5/lib/strings.js:26
+#: .es5/lib/strings.js:23
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
 
-#: .es5/lib/strings.js:33
+#: .es5/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ballal</a>"
 
-#: .es5/lib/strings.js:37
+#: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Heɓ kabaruuji cakkitiiɗi baɗte Mozilla e Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:37 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (e ko hiisaa)"
 
-#: .es5/lib/strings.js:41
+#: .es5/lib/strings.js:38
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (e ko hiisaa)"
 
-#: .es5/lib/strings.js:42
+#: .es5/lib/strings.js:39
 msgid "IP address: %(ip)s"
 msgstr "Ñiiɓirde IP: %(ip)s"
 
-#: .es5/lib/strings.js:43
+#: .es5/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Ngam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade syncude e ngol kaɓirgol:"
 
@@ -1101,7 +1101,7 @@ msgstr "Seŋo ngam jokkude"
 msgid "Password"
 msgstr "Finnde"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "A yejjit finnde ndee?"
@@ -1220,7 +1220,8 @@ msgstr "Konte Firefox"
 msgid "Sign out"
 msgstr "Seŋto"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8 .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Huutoro konte goɗɗe"
 
@@ -1803,10 +1804,6 @@ msgstr ""
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Ngonɗaa ko e yiylaade jahdingol Firefox? <a %(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
-
-#: .es5/templates/partial/user-card.mustache:1
-msgid "Use a different email address"
-msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
