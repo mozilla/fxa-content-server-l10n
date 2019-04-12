@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-12 17:30+0000\n"
+"PO-Revision-Date: 2019-04-12 17:52+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1590,7 +1590,7 @@ msgstr "Alege numele pe care îl dorești să apară în Firefox și în momentu
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Un e-mail secundar este o altă adresă pentru a primi avertizări de securitate și pentru confirmarea dispozitivelor noi."
+msgstr "O adresă de e-mail secundară este o altă adresă pentru a primi avertizări de securitate și pentru confirmarea dispozitivelor noi."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -1611,7 +1611,7 @@ msgstr "Elimină"
 #: .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr "Reverifică starea"
+msgstr "Reîmprospătează starea"
 
 #: .es5/templates/settings/emails.mustache:28
 msgid "Add"
@@ -1737,7 +1737,7 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">NOTĂ:</span>Parola contului de Firefox criptează datele tale din Firefox. Poți avea acces la date numai cu parola sau cu cheia de recuperare. <a "
+"<span class=\"note\">NOTĂ: </span>Parola contului de Firefox criptează datele tale din Firefox. Poți avea acces la date numai cu parola sau cu cheia de recuperare. <a "
 "%(escapedLearnMoreLinkAttributes)s>Află mai multe</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
