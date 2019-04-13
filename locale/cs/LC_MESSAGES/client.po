@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 16:02+0000\n"
-"PO-Revision-Date: 2019-04-09 07:19+0000\n"
-"Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
+"PO-Revision-Date: 2019-04-09 17:20+0000\n"
+"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -737,7 +737,7 @@ msgstr "Zadejte prosím znovu ověřovací kód"
 
 #: .es5/lib/auth-errors.js:536
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Účty s dvoufázovým ověřením aktuálně nepodporují párování"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
