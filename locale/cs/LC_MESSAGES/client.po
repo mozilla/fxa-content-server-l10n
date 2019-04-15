@@ -737,7 +737,7 @@ msgstr "Zadejte prosím znovu ověřovací kód"
 
 #: .es5/lib/auth-errors.js:533
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Účty s dvoufázovým ověřením aktuálně nepodporují párování"
 
 #: .es5/lib/config-loader.js:108
 msgid "Missing configuration"
