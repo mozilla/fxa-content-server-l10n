@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 16:02+0000\n"
-"PO-Revision-Date: 2019-04-17 07:53+0000\n"
+"PO-Revision-Date: 2019-04-18 01:05+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1202,7 +1202,7 @@ msgstr "이런 일이 왜 일어나나요?"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
-msgstr ""
+msgstr "<span>안내:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 때문입니다."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1251,7 +1251,7 @@ msgstr "설정하는동안 제공된 복구 코드를 입력하십시오."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "10자리 숫자 복구 코드 입력"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1259,7 +1259,7 @@ msgstr "확인"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "보안 코드 사용"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1319,11 +1319,11 @@ msgstr "이 암호를 잃어버리지 마십시오. 이를 재설정하면 Sync 
 
 #: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>이메일 비밀번호를 다시 사용하지 마세요</span>만약 누군가 당신의 이메일 비밀번호를 알게되면 새 기기에서 Firefox 로그인을 승인하고 데이터에 접근할 수 있습니다."
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>비밀번호를 기억하세요</span>비밀번호를 재설정이 필요하면 어느 기기에도 없는 동기화 데이터는 잃게 됩니다."
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "추가로, Mozilla와 Firefox에 관한 최신 소식이 포함된 프로모션 이메일을 받으실 수 있습니다."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1558,7 +1558,7 @@ msgstr "삭제…"
 msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
-msgstr ""
+msgstr "만약 이 계정을 AMO, Pocket, 혹은 Screenshots와 같은 Mozilla 앱 및 서비스에 사용한다면 먼저 로그인하여 저장된 개인 정보를 삭제해야합니다. 계정을 삭제하게 되면 모든 곳에 접근할 수 없게 됩니다."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1587,7 +1587,7 @@ msgstr "삭제"
 #: .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh Status"
-msgstr ""
+msgstr "상태 새로고침"
 
 #: .es5/templates/settings/emails.mustache:28
 msgid "Add"
@@ -1599,19 +1599,19 @@ msgstr "복구 코드"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "안내:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "새 복구 코드를 생성하면, 이전 코드는 무효가 됩니다. 안전한 장소에 새 코드를 저장하세요."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "새 복구 코드 생성"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "한 번만 사용할 수 있는 복구 코드입니다. 모바일 기기에 접근할 수 없는 상황에도 사용할 수 있는 안전한 장소에 보관하십시오. 이 코드는 다시 볼 수 없습니다."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1628,51 +1628,51 @@ msgstr "2단계 인증"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "활성화…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "다음과 같은 <a %(escapedTotpSupportAttributes)s>인증 앱</a>중 하나에 보안 코드를 요청하게 하여 계정의 보안을 한 층 높입니다."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "현재 상태"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "활성화됨"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "비활성화됨"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "비활성화"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "활성화"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "복구 코드 대체"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "인증 앱에서 QR 코드를 스캔하고 인증 앱에서 제공하는 보안 코드를 입력하세요."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "코드를 스캔할 수 없나요?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "인증 앱에 비밀 키를 수동으로 입력해주세요:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "보안 코드"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1680,69 +1680,69 @@ msgstr "확인"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "이 부분을 보거나 변경하기 전에 이메일 주소를 검증해야합니다."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "주 이메일"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "계정 복구"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "비밀번호를 잊었을 때 Firefox 북마크, 비밀번호, 동기화된 데이터에 접근하기 위해 복구 키를 생성합니다."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "복구 키"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "설정되지 않음"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "생성하기"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
-msgstr ""
+msgstr "<span class=\"note\">안내: </span>Firefox 계정 비밀번호는 Firefox 데이터를 암호화합니다. 비밀번호나 복구키만이 데이터에 접근할 수 있습니다. <a %(escapedLearnMoreLinkAttributes)s>더 알아보기</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "2단계 중 1단계: 비밀번호 재입력"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "복구 키를 보기 위해 비밀번호를 입력합니다."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "비밀번호 입력"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "정말로 해제하시겠습니까?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "비빌번호를 재설정했을 때 데이터에 접근하는 데 복구 키를 사용할 수 없게 됩니다."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2단계 중 2단계: 복구 키 저장"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
+msgstr "<span class=\"note\">안내: </span>비밀번호를 잊어버린 경우, 이 키는 데이터에 다시 접근하는 데 필요합니다. 나중에 쉽게 찾을 수 있는, 안전한 장소에 복구 키를 저장하세요."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "완료되었습니다, 복구 키가 저장되었습니다"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1754,27 +1754,27 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s %(city)s, %(country)s (추정)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (추정)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
-msgstr ""
+msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "알 수 없는 위치"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "IP 주소: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "Firefox 계정 비밀번호"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1794,7 +1794,7 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "비밀번호 보기"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1802,43 +1802,43 @@ msgstr "Firefox Sync를 찾고 계신가요? <a %(escapedSyncSuggestionAttrs)s>�
 
 #: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
 msgid "Approve connections <small>to begin syncing</small>"
-msgstr ""
+msgstr "<small>동기화를 시작하기 위해</small> 연결 승인"
 
 #: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
 msgid "Approve connection"
-msgstr ""
+msgstr "연결 승인"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "기기 연결됨"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "이제 다음과 동기화됩니다:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "기기 관리"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
-msgstr ""
+msgstr "<small>이 기기에서</small> 이 연결 승인"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "페어링에 실패함"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "설정 과정이 종료되었습니다."
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "성공적으로 페어링되었습니다."
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "앱으로 페어링"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
