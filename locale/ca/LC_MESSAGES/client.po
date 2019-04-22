@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 16:02+0000\n"
-"PO-Revision-Date: 2019-02-01 00:38+0000\n"
+"PO-Revision-Date: 2019-04-22 14:07+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -500,7 +500,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:170
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Un altre compte fa servir l'adreça"
 
 #: .es5/lib/auth-errors.js:174
 msgid "Primary account email required for reset"
@@ -528,7 +528,7 @@ msgstr "No s'ha pogut enviar el correu electrònic"
 
 #: .es5/lib/auth-errors.js:202
 msgid "Valid code required"
-msgstr ""
+msgstr "Cal un codi vàlid"
 
 #: .es5/lib/auth-errors.js:206
 msgid "This verification code has expired"
@@ -544,15 +544,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:218
 msgid "Recovery code not found"
-msgstr ""
+msgstr "No s'ha trobat el codi de recuperació"
 
 #: .es5/lib/auth-errors.js:222
 msgid "Unavailable device command"
-msgstr ""
+msgstr "L'ordre del dispositiu no està disponible"
 
 #: .es5/lib/auth-errors.js:226
 msgid "Recovery key not found"
-msgstr ""
+msgstr "No s'ha trobat la clau de recuperació"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Invalid recovery key"
@@ -572,12 +572,12 @@ msgstr "El servidor està ocupat, torneu-ho a provar"
 
 #: .es5/lib/auth-errors.js:247
 msgid "Feature not enabled"
-msgstr ""
+msgstr "La funció no està activada"
 
 #: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:259 .es5/lib/marketing-email-errors.js:23 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:35
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:59
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "El sistema no està disponible; torneu-ho a intentar més tard"
 
 #: .es5/lib/auth-errors.js:255
 msgid "This endpoint is no longer supported"
@@ -585,7 +585,7 @@ msgstr "Aquest extrem ja no s'admet"
 
 #: .es5/lib/auth-errors.js:263
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "S'ha cancel·lat l'intent d'inici de sessió"
 
 #: .es5/lib/auth-errors.js:267
 msgid "Session expired. Sign in to continue."
@@ -593,7 +593,7 @@ msgstr "La sessió ha caducat. Inicieu la sessió per continuar."
 
 #: .es5/lib/auth-errors.js:271
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Les galetes encara estan desactivades"
 
 #: .es5/lib/auth-errors.js:275
 msgid "Passwords do not match"
@@ -629,7 +629,7 @@ msgstr "Cal una adreça electrònica vàlida"
 
 #: .es5/lib/auth-errors.js:314
 msgid "A usable image was not found"
-msgstr ""
+msgstr "No s'ha trobat cap imatge utilitzable"
 
 #: .es5/lib/auth-errors.js:318
 msgid "Could not initialize camera"
@@ -840,9 +840,7 @@ msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:23
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:30
@@ -851,7 +849,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Rebeu les notícies més recents sobre Mozilla i el Firefox."
 
 #: .es5/lib/strings.js:37 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
@@ -908,8 +906,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1246,7 +1243,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Introduïu el codi de recuperació"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1547,7 +1544,7 @@ msgstr "Subscriu"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Gestiona les subscripcions"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1610,7 +1607,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Genera codis de recuperació nous"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1659,7 +1656,7 @@ msgstr "Activa"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Reemplaça els codis de recuperació"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1667,7 +1664,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "No podeu escanejar el codi?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1675,7 +1672,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "Codi de seguretat"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1687,11 +1684,11 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Adreça electrònica principal"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Recuperació del compte"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -1699,7 +1696,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Clau de recuperació"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
@@ -1740,8 +1737,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1750,7 +1746,7 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Quants anys teniu?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1774,15 +1770,15 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "Adreça IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "La contrasenya del compte del Firefox"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "No pot ser la vostra adreça electrònica"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
@@ -1822,7 +1818,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "Gestiona els dispositius"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approve this connection <small>from this device</small>"
@@ -1993,9 +1989,7 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
