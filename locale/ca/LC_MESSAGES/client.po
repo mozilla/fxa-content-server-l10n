@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 16:02+0000\n"
-"PO-Revision-Date: 2019-04-22 14:07+0000\n"
+"PO-Revision-Date: 2019-04-23 10:46+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -536,11 +536,11 @@ msgstr "El codi de verificació ha vençut."
 
 #: .es5/lib/auth-errors.js:210
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Ja existeix un testimoni TOTP per a aquest compte"
 
 #: .es5/lib/auth-errors.js:214
 msgid "TOTP token not found"
-msgstr ""
+msgstr "No s'ha trobat el testimoni TOTP"
 
 #: .es5/lib/auth-errors.js:218
 msgid "Recovery code not found"
