@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 16:02+0000\n"
-"PO-Revision-Date: 2019-04-23 21:08+0000\n"
+"PO-Revision-Date: 2019-04-23 21:15+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -464,7 +464,7 @@ msgstr "K'o chik jun wuqq'ij tatz'uk jun Rub'i' Ataqoya'l richin Firefox xa xe c
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Tajikib'a' ri rochochib'al taqoya'l richin natzïj ri rub'i' ataqoya'l ke ri' niqetamaj chi ronojel nib'iyin ütz."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
