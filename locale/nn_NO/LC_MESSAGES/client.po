@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 16:02+0000\n"
-"PO-Revision-Date: 2019-04-23 18:05+0000\n"
+"PO-Revision-Date: 2019-04-23 18:26+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -652,7 +652,7 @@ msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettsider
 
 #: .es5/lib/auth-errors.js:372 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr "Stadfestingslenka er skadd"
+msgstr "Stadfestingslenka er skada"
 
 #: .es5/lib/auth-errors.js:380
 msgid "The image dimensions must be at least 100x100px"
@@ -1016,7 +1016,7 @@ msgstr "Stadfest denne innlogginga"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Sjekk e-posten din for ei stadfestingslenka som er sendt&nbsp;til %(escapedEmail)s"
+msgstr "Sjekk e-posten din for stadfestingslenka som er sendt&nbsp;til %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1029,7 +1029,7 @@ msgstr "Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "E-post for stadfesting sendt"
+msgstr "E-post for tilbakestilling er sendt"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1236,7 +1236,7 @@ msgstr "Beklagar. Vi har låst kontoen&nbsp;din."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Stadfestings e-posten vi sende til %(email)s kom i retur, og vi låste kontoen din for å verne Firefox-dataa dine."
+msgstr "E-poststadfestinga vi sende til %(email)s kom i retur, og vi låste kontoen din for å verne Firefox-dataa dine."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
