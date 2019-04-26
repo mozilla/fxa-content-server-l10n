@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-12 16:02+0000\n"
+"POT-Creation-Date: 2019-04-26 18:02+0000\n"
 "PO-Revision-Date: 2017-12-01 04:25+0000\n"
 "Last-Translator: cmalatheef <cmalatheef@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,799 +14,815 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:207
+#: .es5/views/confirm_reset_password.js:211
 msgid "Password reset"
 msgstr "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കല്‍"
 
-#: .es5/views/confirm_reset_password.js:223
+#: .es5/views/confirm_reset_password.js:227
 msgid "Password reset successfully. Sign in to continue."
 msgstr "പാസ്‌വേർഡ് വിജയകരമായി പുനഃസ്ഥാപിച്ചു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:46 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "പ്രവേശിക്കുക"
 
-#: .es5/views/permissions.js:59
+#: .es5/views/permissions.js:63
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (ആവശ്യമാണ്)"
 
-#: .es5/views/permissions.js:64
+#: .es5/views/permissions.js:68
 msgid "Email address"
 msgstr "ഇമെയില്‍ വിലാസം"
 
-#: .es5/views/permissions.js:68 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "പ്രദര്‍ശന നാമം"
 
-#: .es5/views/permissions.js:71 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "അക്കൌണ്ട് ചിത്രം"
 
-#: .es5/views/ready.js:71
+#: .es5/views/ready.js:79
 msgid "Welcome back"
 msgstr "തിരികെ സ്വാഗതം"
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:80
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ഉടനെ തുടരും"
 
-#: .es5/views/ready.js:76 .es5/views/ready.js:81
+#: .es5/views/ready.js:84 .es5/views/ready.js:89
 msgid "Your password has been reset"
 msgstr ""
 
-#: .es5/views/ready.js:77 .es5/views/ready.js:82
+#: .es5/views/ready.js:85 .es5/views/ready.js:90
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "നിങ്ങളുടെ മറ്റേ ഫയർഫോക്സിൽ പുതിയ പാസ്‌വേർഡ് നൽകി സജ്ജീകരണം പൂർത്തിയാക്കുക."
 
-#: .es5/views/ready.js:85
+#: .es5/views/ready.js:93
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "ഇപ്പോൾ നിങ്ങൾ നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന് മാറ്റങ്ങൾ വരുത്താൻ തയ്യാറായിക്കഴിഞ്ഞു."
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:95
 msgid "Primary email verified"
 msgstr "പ്രാഥമിക ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
 
-#: .es5/views/ready.js:90
+#: .es5/views/ready.js:98
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "അക്കൗണ്ട് അറിയിപ്പുകൾ ഇപ്പോൾ %(secondaryEmailVerified)s ലേക്കും അയയ്ക്കുന്നതാണ്."
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:100
 msgid "Secondary email verified"
 msgstr "രണ്ടാം ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
 
-#: .es5/views/ready.js:97 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "സൈൻ-ഇൻ സ്ഥിരീകരിച്ചു"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "നിങ്ങൾ ഇപ്പോൾ %(serviceName)s ഉപയോഗിക്കാൻ തയ്യാറാണ്"
 
-#: .es5/views/ready.js:102
+#: .es5/views/ready.js:110
 msgid "Account verified"
 msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
 
-#: .es5/views/ready.js:107
+#: .es5/views/ready.js:115
 msgid "Connected"
 msgstr ""
 
-#: .es5/views/reset_password.js:94 .es5/views/sign_in.js:225
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "അജ്ഞാതമായ അക്കൗണ്ട്. <a href=\"/signup\">സൈൻ അപ്പ്</a>"
 
-#: .es5/views/sign_up.js:53
+#: .es5/views/sign_up.js:112
 msgid "Account no longer exists. Recreate it?"
 msgstr "അക്കൗണ്ട് നിലകൊള്ളുന്നില്ല. പുതിയ അക്കൗണ്ട് ഉണ്ടാക്കട്ടെ?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:331
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "അക്കൌണ്ട് നിലവിലുണ്ട്. <a href=\"/signin\">സൈൻ ഇൻ ചെയ്യുക</a>"
 
-#: .es5/views/settings/change_password.js:87
+#: .es5/views/settings/change_password.js:91
 msgid "Password changed successfully"
 msgstr "പാസ്‌വേർഡ് വിജയകരമായി മാറ്റി"
 
-#: .es5/views/settings/client_disconnect.js:18
+#: .es5/views/settings/client_disconnect.js:42
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "ഞങ്ങൾക്ക് ഖേദമുണ്ട്. നിങ്ങൾ നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ പാസ്‌വേർഡ് മാറ്റിയിട്ട് നിങ്ങളുടെ ഉപകരണത്തിന്റെ നിർമാതാവിന്റെ നിർദേശം അനുസരിച്ചു നിങ്ങളുടെ ഡാറ്റ വിദൂരമായി നീക്കം ചെയ്യുക."
 
-#: .es5/views/settings/client_disconnect.js:19
+#: .es5/views/settings/client_disconnect.js:43
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
 
-#: .es5/views/settings/clients.js:43
+#: .es5/views/settings/clients.js:84
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "അവസാന സിങ്ക് %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:44
+#: .es5/views/settings/clients.js:85
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:47
+#: .es5/views/settings/clients.js:88
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:48
+#: .es5/views/settings/clients.js:89
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:51
+#: .es5/views/settings/clients.js:92
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:52
+#: .es5/views/settings/clients.js:93
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:57
+#: .es5/views/settings/clients.js:98
 msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:58
+#: .es5/views/settings/clients.js:99
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:102
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:103
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:106
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:107
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:71
+#: .es5/views/settings/clients.js:112
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:72
+#: .es5/views/settings/clients.js:113
 msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:116
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:117
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:120
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:121
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: .es5/views/settings/clients.js:115
+#: .es5/views/settings/clients.js:156
 msgid "Web Session, %(userAgent)s"
 msgstr "വെബ് സെഷൻ, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:117
+#: .es5/views/settings/clients.js:158
 msgid "Web Session"
 msgstr "വെബ് സെഷൻ"
 
-#: .es5/views/settings/clients.js:132
+#: .es5/views/settings/clients.js:173
 msgid "Last sync time unknown"
 msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാണ്"
 
-#: .es5/views/settings/communication_preferences.js:121
+#: .es5/views/settings/communication_preferences.js:153
 msgid "Subscribed successfully"
 msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെയ്തു"
 
-#: .es5/views/settings/delete_account.js:42
+#: .es5/views/settings/delete_account.js:71
 msgid "Account deleted successfully"
 msgstr "അക്കൗണ്ട് വിജയകരമായി നീക്കം ചെയ്തു"
 
-#: .es5/views/settings/display_name.js:55
+#: .es5/views/settings/display_name.js:78
 msgid "Display name updated"
 msgstr "പ്രദർശനനാമം പുതുക്കി"
 
-#: .es5/views/settings/emails.js:88
+#: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ നീക്കംചെയ്തു"
 
-#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:89
+#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113
 msgid "Verification email sent"
 msgstr "പരിശോധനാ ഇമെയിൽ അയച്ചു"
 
-#: .es5/views/settings/emails.js:147
+#: .es5/views/settings/emails.js:188
 msgid "Primary email set to %(email)s"
 msgstr "%(email)s പ്രാഥമിക ഇമെയിൽ ആയി സജ്ജമാക്കി"
 
-#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ"
 
-#: .es5/views/settings/recovery_codes.js:75
+#: .es5/views/settings/recovery_codes.js:78
 msgid "Firefox Recovery Codes"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:102
+#: .es5/views/settings/recovery_codes.js:105
 msgid "New recovery codes generated"
 msgstr ""
 
-#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
+#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step authentication enabled"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:120
+#: .es5/views/settings/two_step_authentication.js:153
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:133
+#: .es5/views/settings/two_step_authentication.js:166
 msgid "Two-step authentication removed"
 msgstr ""
 
-#: .es5/views/settings/two_step_authentication.js:174
+#: .es5/views/settings/two_step_authentication.js:207
 msgid "Two-step Authentication"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/account_recovery.js:96
+#: .es5/views/settings/account_recovery/account_recovery.js:100
 msgid "Account Recovery"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/confirm_password.js:76
+#: .es5/views/settings/account_recovery/confirm_password.js:82
 msgid "Account recovery enabled"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+#: .es5/views/settings/account_recovery/confirm_revoke.js:73
 msgid "Account recovery revoked"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/recovery_key.js:61
+#: .es5/views/settings/account_recovery/recovery_key.js:65
 msgid "Firefox Recovery Key"
 msgstr ""
 
-#: .es5/views/mixins/account-reset-mixin.js:42 .es5/lib/auth-errors.js:112
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125
 msgid "Your account has been locked for security reasons"
 msgstr "താങ്കളുടെ അക്കൗണ്ട് സുരക്ഷാ കാരണത്താൽ ലോക്ക് ചെയ്തു"
 
-#: .es5/views/mixins/account-reset-mixin.js:42 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "പ്രവേശന കോഡ് പുനഃക്രമീകരിക്കുക"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:33
+#: .es5/views/mixins/last-checked-time-mixin.js:36
 msgid "none"
 msgstr ""
 
-#: .es5/views/mixins/last-checked-time-mixin.js:37
+#: .es5/views/mixins/last-checked-time-mixin.js:40
 msgid "Last checked: %(lastCheckTime)s"
 msgstr ""
 
-#: .es5/views/mixins/open-webmail-mixin.js:17
+#: .es5/views/mixins/open-webmail-mixin.js:26
 msgid "Open Gmail"
 msgstr "Gmail തുറക്കുക"
 
-#: .es5/views/mixins/open-webmail-mixin.js:22
+#: .es5/views/mixins/open-webmail-mixin.js:31
 msgid "Open Hotmail"
 msgstr "Hotmail തുറക്കുക"
 
-#: .es5/views/mixins/open-webmail-mixin.js:27
+#: .es5/views/mixins/open-webmail-mixin.js:36
 msgid "Open Yahoo"
 msgstr "Yahoo തുറക്കുക"
 
-#: .es5/views/mixins/open-webmail-mixin.js:32
+#: .es5/views/mixins/open-webmail-mixin.js:41
 msgid "Open Outlook"
 msgstr "Outlook തുറക്കുക"
 
-#: .es5/views/mixins/open-webmail-mixin.js:37
+#: .es5/views/mixins/open-webmail-mixin.js:46
 msgid "Open Restmail"
 msgstr "Restmail തുറക്കുക"
 
-#: .es5/views/mixins/resend-mixin.js:46
+#: .es5/views/mixins/resend-mixin.js:11
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr ""
 
-#: .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:63
 msgid "Copied"
 msgstr ""
 
-#: .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:65
 msgid "Failed to copy. Please manually copy."
 msgstr ""
 
-#: .es5/views/mixins/save-options-mixin.js:74
+#: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
 msgstr ""
 
-#: .es5/views/mixins/save-options-mixin.js:85
+#: .es5/views/mixins/save-options-mixin.js:89
 msgid "Printed"
 msgstr ""
 
-#: .es5/views/mixins/upgrade-session-mixin.js:70 .es5/models/auth_brokers/base.js:97
+#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139
 msgid "Primary email verified successfully"
 msgstr "പ്രാഥമിക ഇമെയിൽ വിജയകരമായി പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
 
-#: .es5/views/behaviors/settings.js:32 .es5/models/auth_brokers/web.js:26
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40
 msgid "Account verified successfully"
 msgstr "അക്കൌണ്ട് വിജയകരമായി തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
 
-#: .es5/models/sync-engines.js:41
+#: .es5/models/sync-engines.js:59
 msgid "Open tabs"
 msgstr "തുറന്ന ടാബുകള്‍"
 
-#: .es5/models/sync-engines.js:45
+#: .es5/models/sync-engines.js:63
 msgid "Bookmarks"
 msgstr "അടയാളക്കുറിപ്പുകള്‍"
 
-#: .es5/models/sync-engines.js:49
+#: .es5/models/sync-engines.js:67
 msgid "Add-ons"
 msgstr "ആഡ്-ഓണുകൾ"
 
-#: .es5/models/sync-engines.js:53
+#: .es5/models/sync-engines.js:71
 msgid "Logins"
 msgstr ""
 
-#: .es5/models/sync-engines.js:57
+#: .es5/models/sync-engines.js:75
 msgid "History"
 msgstr "ചരിത്രം"
 
-#: .es5/models/sync-engines.js:61
+#: .es5/models/sync-engines.js:79
 msgid "Preferences"
 msgstr "മുൻഗണനകൾ"
 
-#: .es5/models/sync-engines.js:69
+#: .es5/models/sync-engines.js:87
 msgid "Addresses"
 msgstr "വിലാസങ്ങള്‍"
 
-#: .es5/models/sync-engines.js:77
+#: .es5/models/sync-engines.js:95
 msgid "Credit cards"
 msgstr "ക്രെഡിറ്റ് കാര്‍ഡുകള്‍"
 
-#: .es5/models/reliers/sync.js:75
+#: .es5/models/reliers/sync.js:81
 msgid "Firefox Sync"
 msgstr "ഫയർഫോക്സ് സമന്വയം"
 
-#: .es5/models/auth_brokers/base.js:101
+#: .es5/models/auth_brokers/base.js:143
 msgid "Secondary email verified successfully"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ വിജയകരമായി പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
 
-#: .es5/models/auth_brokers/web.js:30
+#: .es5/models/auth_brokers/web.js:44
 msgid "Password reset successfully"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:18 .es5/lib/marketing-email-errors.js:15 .es5/lib/oauth-errors.js:18 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:63
+#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 msgid "Unexpected error"
 msgstr "പ്രതീക്ഷിക്കാത്ത തകരാര്‍"
 
-#: .es5/lib/auth-errors.js:19 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കാൻ നിങ്ങൾ ക്ലിക്കുചെയ്ത ലിങ്ക് കാലഹരണപ്പെട്ടു."
 
-#: .es5/lib/auth-errors.js:20 .es5/lib/profile-errors.js:13
+#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25
 msgid "You've tried too many times. Try again later."
 msgstr "നിങ്ങൾ നിരവധി തവണ ശ്രമിച്ചിരിക്കുന്നു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
 
-#: .es5/lib/auth-errors.js:24
+#: .es5/lib/auth-errors.js:37
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "നിങ്ങൾ നിരവധി തവണ ശ്രമിച്ചിരിക്കുന്നു. വീണ്ടും ശ്രമിക്കുക %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:34 .es5/lib/oauth-errors.js:48
+#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65
 msgid "Invalid token"
 msgstr "അസാധുവായ ടോക്കൺ"
 
-#: .es5/lib/auth-errors.js:38
+#: .es5/lib/auth-errors.js:51
 msgid "Invalid timestamp in request signature"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:42
+#: .es5/lib/auth-errors.js:55
 msgid "Invalid nonce in request signature"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:46 .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:162
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175
 msgid "Account already exists"
 msgstr "അക്കൗണ്ട് ഇതിനകം നിലവിലുണ്ട്"
 
-#: .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:63
 msgid "Unknown account"
 msgstr "അജ്ഞാത അക്കൗണ്ട്"
 
-#: .es5/lib/auth-errors.js:54
+#: .es5/lib/auth-errors.js:67
 msgid "Incorrect email case"
 msgstr "തെറ്റായ ഇമെയിൽ കേസ്"
 
-#: .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:71
 msgid "Incorrect password"
 msgstr "തെറ്റായ രഹസ്യവാക്ക്"
 
-#: .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:75
 msgid "Unverified account"
 msgstr "സ്ഥിരീകരിക്കാത്ത അക്കൗണ്ട്"
 
-#: .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:79
 msgid "Invalid verification code"
 msgstr "അസാധുവായ പരിശോധനാ കോഡ്"
 
-#: .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:83
 msgid "Invalid JSON in request body"
 msgstr "റിക്വസ്റ്റ് ബോഡിയിൽ തെറ്റായ JSON"
 
-#: .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:87
 msgid "Invalid parameter: %(param)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:91
 msgid "Missing parameter: %(param)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:95
 msgid "Invalid request signature"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:99
 msgid "Missing content-length header"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:103
 msgid "Request body too large"
 msgstr "റിക്വസ്റ്റ് ബോഡി വളരെ വലുത്"
 
-#: .es5/lib/auth-errors.js:108 .es5/lib/profile-errors.js:51
+#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63
 msgid "The request was blocked for security reasons"
 msgstr "സുരക്ഷാകാരണങ്ങളാൽ അപേക്ഷ തള്ളിയിരിക്കുന്നു"
 
-#: .es5/lib/auth-errors.js:116 .es5/lib/auth-errors.js:455
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484
 msgid "Invalid authorization code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:120
+#: .es5/lib/auth-errors.js:133
 msgid "Invalid phone number"
 msgstr "തെറ്റായ ഫോൺനമ്പർ"
 
-#: .es5/lib/auth-errors.js:124
+#: .es5/lib/auth-errors.js:137
 msgid "Cannot send to this country"
 msgstr "ഈ രാജ്യത്തേക്ക് അയക്കാൻ സാദ്ധ്യമല്ല"
 
-#: .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:146
 msgid "Could not send a message to this number"
 msgstr "ഈ നമ്പറിലേക്ക് ഒരു സന്ദേശം അയയ്ക്കാൻ സാധിച്ചില്ല"
 
-#: .es5/lib/auth-errors.js:137
+#: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned"
 msgstr "നിങ്ങളുടെ ഇമെയിൽ ഇപ്പോൾ മടങ്ങി"
 
-#: .es5/lib/auth-errors.js:141
+#: .es5/lib/auth-errors.js:154
 msgid "Your email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:145
+#: .es5/lib/auth-errors.js:158
 msgid "Unable to deliver email"
 msgstr "ഇമെയിൽ ഡെലിവർ ചെയ്യാനായില്ല"
 
-#: .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:163
 msgid "This email was already verified by another user"
 msgstr "ഈ ഇമെയിൽ ഇതിനകം മറ്റൊരു ഉപയോക്താവ് പരിശോധിച്ചുറപ്പിച്ചിരിക്കുന്നു"
 
-#: .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:167
 msgid "Secondary email must be different than your account email"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ നിങ്ങളുടെ അക്കൌണ്ട് ഇമെയിലിൽ നിന്നും വ്യത്യസ്തമായിരിക്കണം"
 
-#: .es5/lib/auth-errors.js:166
+#: .es5/lib/auth-errors.js:179
 msgid "Primary account email required for sign-in"
 msgstr "പ്രവേശനത്തിനായി പ്രാഥമിക അക്കൗണ്ട് ഇമെയിൽ ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:170
+#: .es5/lib/auth-errors.js:183
 msgid "Address in use by another account"
 msgstr "മറ്റൊരു അക്കൗണ്ട് ഉപയോഗത്തിലുള്ള വിലാസം"
 
-#: .es5/lib/auth-errors.js:174
+#: .es5/lib/auth-errors.js:187
 msgid "Primary account email required for reset"
 msgstr "പുനസജ്ജമാക്കുന്നതിന് പ്രാഥമിക അക്കൗണ്ട് ഇമെയിൽ ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:178
+#: .es5/lib/auth-errors.js:191
 msgid "Invalid signin code"
 msgstr "അസാധുവായ സൈൻ-ഇൻ കോഡ്"
 
-#: .es5/lib/auth-errors.js:182
+#: .es5/lib/auth-errors.js:195
 msgid "Can not change primary email to an unverified email"
 msgstr "പ്രാഥമിക ഇമെയിൽ ഒരു സ്ഥിരീകരിക്കാത്ത ഇമെയിലിലേക്ക് മാറ്റാൻ സാധിക്കില്ല"
 
-#: .es5/lib/auth-errors.js:186 .es5/lib/auth-errors.js:194
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "ഈ അക്കൗണ്ടിൽ ഉൾപ്പെടാത്ത ഒരു ഇമെയിൽ പ്രാഥമിക ഇമെയിൽ ആയി മാറ്റാൻ സാധിക്കില്ല"
 
-#: .es5/lib/auth-errors.js:190
+#: .es5/lib/auth-errors.js:203
 msgid "This email can not currently be used to login"
 msgstr "ഈ ഇമെയിൽ നിലവിൽ പ്രവേശിക്കാൻ ഉപയോഗിക്കാനാവില്ല"
 
-#: .es5/lib/auth-errors.js:198
+#: .es5/lib/auth-errors.js:211
 msgid "Failed to send email"
 msgstr "ഇമെയിൽ അയയ്ക്കുന്നത് പരാജയപ്പെട്ടു"
 
-#: .es5/lib/auth-errors.js:202
+#: .es5/lib/auth-errors.js:215
 msgid "Valid code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:206
+#: .es5/lib/auth-errors.js:219
 msgid "This verification code has expired"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:210
+#: .es5/lib/auth-errors.js:223
 msgid "A TOTP token already exists for this account"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:214
+#: .es5/lib/auth-errors.js:227
 msgid "TOTP token not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:231
 msgid "Recovery code not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:235
 msgid "Unavailable device command"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:239
 msgid "Recovery key not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:243
 msgid "Invalid recovery key"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:247
 msgid "This request requires two step authentication enabled on your account."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:251
 msgid "Failed due to a conflicting request, please try again."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:435
-msgid "Server busy, try again soon"
-msgstr "സെർവർ തിരക്കിലാണ്, കുറച്ചു സമയത്തിനു ശേഷം വീണ്ടും ശ്രമിക്കുക"
-
-#: .es5/lib/auth-errors.js:247
-msgid "Feature not enabled"
-msgstr "സവിശേഷത പ്രാപ്തമാക്കിയിട്ടില്ല"
-
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:259 .es5/lib/marketing-email-errors.js:23 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:35
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:59
-msgid "System unavailable, try again soon"
-msgstr "സിസ്റ്റം ലഭ്യമല്ല, ഉടൻ വീണ്ടും ശ്രമിക്കുക"
-
 #: .es5/lib/auth-errors.js:255
-msgid "This endpoint is no longer supported"
+msgid "Unknown customer for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:259
+msgid "Unknown subscription."
 msgstr ""
 
 #: .es5/lib/auth-errors.js:263
+msgid "Unknown plan for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:267
+msgid "Invalid payment token for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
+msgid "Server busy, try again soon"
+msgstr "സെർവർ തിരക്കിലാണ്, കുറച്ചു സമയത്തിനു ശേഷം വീണ്ടും ശ്രമിക്കുക"
+
+#: .es5/lib/auth-errors.js:276
+msgid "Feature not enabled"
+msgstr "സവിശേഷത പ്രാപ്തമാക്കിയിട്ടില്ല"
+
+#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
+#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71
+msgid "System unavailable, try again soon"
+msgstr "സിസ്റ്റം ലഭ്യമല്ല, ഉടൻ വീണ്ടും ശ്രമിക്കുക"
+
+#: .es5/lib/auth-errors.js:284
+msgid "This endpoint is no longer supported"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:292
 msgid "Login attempt cancelled"
 msgstr "പ്രവേശന ശ്രമം റദ്ദാക്കി"
 
-#: .es5/lib/auth-errors.js:267
+#: .es5/lib/auth-errors.js:296
 msgid "Session expired. Sign in to continue."
 msgstr "സെഷൻ കാലഹരണപ്പെട്ടു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
-#: .es5/lib/auth-errors.js:271
+#: .es5/lib/auth-errors.js:300
 msgid "Cookies are still disabled"
 msgstr "കുക്കികൾ ഇപ്പോഴും പ്രവർത്തനരഹിതമാണ്"
 
-#: .es5/lib/auth-errors.js:275
+#: .es5/lib/auth-errors.js:304
 msgid "Passwords do not match"
 msgstr "രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല"
 
-#: .es5/lib/auth-errors.js:279
+#: .es5/lib/auth-errors.js:308
 msgid "Working…"
 msgstr "പ്രവര്‍ത്തിക്കുന്നു…"
 
-#: .es5/lib/auth-errors.js:283
+#: .es5/lib/auth-errors.js:312
 msgid "Could not get Privacy Notice"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:287
+#: .es5/lib/auth-errors.js:316
 msgid "Could not get Terms of Service"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:291
+#: .es5/lib/auth-errors.js:320
 msgid "Your new password must be different"
 msgstr "നിങ്ങളുടെ പുതിയ രഹസ്യവാക്ക് വ്യത്യസ്തമായിരിക്കണം"
 
-#: .es5/lib/auth-errors.js:295 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "ചുരുങ്ങിയത് 8 അക്ഷരങ്ങൾ ഉണ്ടായിരിക്കണം"
 
-#: .es5/lib/auth-errors.js:299
+#: .es5/lib/auth-errors.js:328
 msgid "Valid password required"
 msgstr "സാധുവായ രഹസ്യവാക്ക് ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:303 .es5/lib/auth-errors.js:341 .es5/lib/auth-errors.js:357
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386
 msgid "Valid email required"
 msgstr "സാധുവായ ഇമെയിൽ ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:343
 msgid "A usable image was not found"
 msgstr "ഉപയോഗയോഗ്യമായ ഒരു ചിത്രം കണ്ടെത്താനായില്ല"
 
-#: .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:347
 msgid "Could not initialize camera"
 msgstr "ക്യാമറ ആരംഭിക്കാനായില്ല"
 
-#: .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:351
 msgid "Valid URL required"
 msgstr "സാധുവായ URL ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:337
+#: .es5/lib/auth-errors.js:366
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:345
+#: .es5/lib/auth-errors.js:374
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക. firefox.com ഇമെയിൽ പ്രദാനം ചെയ്യുന്നില്ല."
 
-#: .es5/lib/auth-errors.js:353
+#: .es5/lib/auth-errors.js:382
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "അംഗീകൃത സൈറ്റുകളിൽ Firefox അക്കൗണ്ടുകൾ IFRAME ൽ മാത്രമേ സ്ഥാപിക്കാൻ കഴിയൂ"
 
-#: .es5/lib/auth-errors.js:372 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "സ്ഥിരീകരണ ലിങ്ക് നശിച്ചു"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:409
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:413
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS നു വേണ്ടിയുള്ള ഫയർഫോക്സിൽ ഉടൻതന്നെ സൈൻ-അപ്പ് വരുന്നു"
 
-#: .es5/lib/auth-errors.js:395
+#: .es5/lib/auth-errors.js:424
 msgid "You must enter your age to sign up"
 msgstr "നിങ്ങൾക്ക് സൈൻ-അപ്പ് ചെയ്യാൻ നിങ്ങളുടെ പ്രായം നൽകണം"
 
-#: .es5/lib/auth-errors.js:399
+#: .es5/lib/auth-errors.js:428
 msgid "You must enter a valid age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:443
 msgid "Account no longer exists."
 msgstr "അക്കൗണ്ട് നിലവിലില്ല."
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:447
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:451
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:455
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:459
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:497 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ആ സ്ഥിരീകരണ ലിങ്ക് ഇതിനകം ഉപയോഗിച്ചു, മാത്രമല്ല ഒരിക്കൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ."
 
-#: .es5/lib/auth-errors.js:447
+#: .es5/lib/auth-errors.js:476
 msgid "This is a required field"
 msgstr "ഇത് ആവശ്യമുള്ള ഫീൽഡ് ആണ്"
 
-#: .es5/lib/auth-errors.js:451
+#: .es5/lib/auth-errors.js:480
 msgid "Authorization code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:459 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "ലിങ്ക് നശിച്ചു"
 
-#: .es5/lib/auth-errors.js:482
+#: .es5/lib/auth-errors.js:511
 msgid "Phone number required"
 msgstr "ഫോൺ നമ്പർ ആവശ്യമാണ്"
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:530
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:534
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:538
 msgid "Recovery code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:542
 msgid "Invalid recovery code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:525
+#: .es5/lib/auth-errors.js:554
 msgid "Recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:529
+#: .es5/lib/auth-errors.js:558
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:533
+#: .es5/lib/auth-errors.js:562
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr ""
 
-#: .es5/lib/config-loader.js:108
+#: .es5/lib/config-loader.js:125
 msgid "Missing configuration"
 msgstr ""
 
-#: .es5/lib/config-loader.js:112
+#: .es5/lib/config-loader.js:129
 msgid "Invalid configuration"
 msgstr "അസാധുവായ കോൺഫിഗറേഷൻ"
 
-#: .es5/lib/mailcheck.js:24
+#: .es5/lib/mailcheck.js:42
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "നിങ്ങൾ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> എന്നാണോ ഉദ്ദേശിച്ചത്?"
 
-#: .es5/lib/marketing-email-errors.js:39
+#: .es5/lib/marketing-email-errors.js:51
 msgid "Please try again later"
 msgstr "ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക"
 
-#: .es5/lib/marketing-email-errors.js:71
+#: .es5/lib/marketing-email-errors.js:83
 msgid "Service unavailable, try again soon"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:24
+#: .es5/lib/oauth-errors.js:41
 msgid "Unknown client"
 msgstr "അജ്ഞാതമായ ക്ലയന്റ്"
 
-#: .es5/lib/oauth-errors.js:28
+#: .es5/lib/oauth-errors.js:45
 msgid "Incorrect redirect_uri"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:32
+#: .es5/lib/oauth-errors.js:49
 msgid "Invalid assertion"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:36
+#: .es5/lib/oauth-errors.js:53
 msgid "Unknown code"
 msgstr "അജ്ഞാത കോഡ്"
 
-#: .es5/lib/oauth-errors.js:40
+#: .es5/lib/oauth-errors.js:57
 msgid "Incorrect code"
 msgstr "തെറ്റായ കോഡ്"
 
-#: .es5/lib/oauth-errors.js:44
+#: .es5/lib/oauth-errors.js:61
 msgid "Expired code"
 msgstr "കാലഹരണപ്പെട്ട കോഡ്"
 
-#: .es5/lib/oauth-errors.js:52 .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:60 .es5/lib/profile-errors.js:19
+#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31
 msgid "Unauthorized"
 msgstr "അംഗീകൃതമല്ലാത്തത്"
 
-#: .es5/lib/oauth-errors.js:64
+#: .es5/lib/oauth-errors.js:81
 msgid "Forbidden"
 msgstr "വിലക്കപ്പെട്ടത്"
 
-#: .es5/lib/oauth-errors.js:78
+#: .es5/lib/oauth-errors.js:95
 msgid "Expired token"
 msgstr "കാലഹരണപ്പെട്ട ടോക്കൺ"
 
-#: .es5/lib/oauth-errors.js:114
+#: .es5/lib/oauth-errors.js:131
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "എന്തോ പന്തികേട് സംഭവിച്ചിരിക്കുന്നു. ഈ ടാബ് അടച്ച് വീണ്ടും ശ്രമിക്കുക."
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:150
 msgid "no message"
 msgstr "സന്ദേശങ്ങളില്ല"
 
-#: .es5/lib/oauth-errors.js:137
+#: .es5/lib/oauth-errors.js:154
 msgid "Missing OAuth parameter: %(param)s"
 msgstr ""
 
@@ -822,49 +838,49 @@ msgstr ""
 msgid "Connection to remote device closed, please try again"
 msgstr ""
 
-#: .es5/lib/profile-errors.js:23
+#: .es5/lib/profile-errors.js:35
 msgid "Invalid parameter in request body: %(param)s"
 msgstr ""
 
-#: .es5/lib/profile-errors.js:27
+#: .es5/lib/profile-errors.js:39
 msgid "Unsupported image provider"
 msgstr ""
 
-#: .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:43
 msgid "Image processing error"
 msgstr ""
 
-#: .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:55
 msgid "Invalid Token"
 msgstr "അസാധുവായ ടോക്കൺ"
 
-#: .es5/lib/strings.js:23
+#: .es5/lib/strings.js:26
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 
-#: .es5/lib/strings.js:30
+#: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr ""
 
-#: .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "മോസില്ല, ഫയർഫോക്സ് എന്നിവയെക്കുറിച്ചുള്ള ഏറ്റവും പുതിയ വാർത്തകൾ ലഭിക്കുക."
 
-#: .es5/lib/strings.js:37 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
-#: .es5/lib/strings.js:38
+#: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: .es5/lib/strings.js:39
+#: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
 msgstr "IP വിലാസം: %(ip)s"
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "അധിക സുരക്ഷക്കായി, ഈ ഉപകരണത്തിൽ സമന്വയിപ്പിക്കാൻ ആരംഭിക്കുന്നതിന് ദയവായി ഈ സൈൻ-ഇൻ സ്ഥിരീകരിക്കുക:"
 
@@ -936,8 +952,8 @@ msgid "Learn more"
 msgstr "കൂടുതൽ അറിയുക"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s registered."
-msgstr "%(email)s രജിസ്റ്റർ ചെയ്തു."
+msgid "%(email)s registered"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -1524,12 +1540,13 @@ msgstr ""
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: .es5/templates/settings/clients.mustache:26
-msgid "Refresh"
+#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
+msgid "Refresh status"
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
+msgid "Email preferences"
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:7
@@ -1545,7 +1562,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage Subscriptions"
+msgid "Manage preferences"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
@@ -1584,11 +1601,6 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
 msgid "Remove"
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh Status"
 msgstr ""
 
 #: .es5/templates/settings/emails.mustache:28
@@ -1803,12 +1815,12 @@ msgstr ""
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr ""
 
-#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
-msgid "Approve connections <small>to begin syncing</small>"
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Approve new device <small>for %(email)s</small>"
 msgstr ""
 
-#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
-msgid "Approve connection"
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid "Approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
@@ -1824,7 +1836,7 @@ msgid "Manage devices"
 msgstr ""
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approve this connection <small>from this device</small>"
+msgid "Approval now required <small>from your other device</small>"
 msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
@@ -1835,8 +1847,28 @@ msgstr ""
 msgid "The setup process was terminated."
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "Open the code scanner on your Firefox app and show code when ready."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Show code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Get App"
+msgstr ""
+
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr ""
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
 msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
@@ -1846,6 +1878,9 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s രജിസ്റ്റർ ചെയ്തു."
 
 #~ msgid "Sign in &rarr;"
 #~ msgstr "&rarr; പ്രവേശിക്കുക"
