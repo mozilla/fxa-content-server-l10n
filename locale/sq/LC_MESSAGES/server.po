@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-12 16:02+0000\n"
+"POT-Creation-Date: 2019-04-26 18:02+0000\n"
 "PO-Revision-Date: 2019-03-30 16:21+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,10 +44,10 @@ msgstr "Bëni hyrjen që të Njëkohësoni"
 #: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
 #: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
-#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
+#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
+#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Llogari Firefox-i"
 
@@ -423,10 +423,6 @@ msgstr "Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe <a %(re
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne."
 
-#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
-msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr "Ju kujtojmë: Që të aktivizohet Llogaria juaj Firefox, ripohoni email-n tuaj"
-
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Tungjatjeta sërish."
@@ -446,10 +442,6 @@ msgstr "Ripohoni email-in"
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
 msgstr "Ripohoni email-in:"
-
-#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr "Jua kujtojmë për herë të fundit: Që të aktivizohet Llogaria juaj Firefox, ripohoni email-n tuaj"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -590,6 +582,14 @@ msgstr "Verifikoni Llogarinë tuaj Firefox"
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "Ripohoni email0in tuaj dhe filloni të njëkohësoni gjëra!"
+
+#: lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr "Ju kujtojmë: Që të aktivizohet Llogaria juaj Firefox, ripohoni email-n tuaj"
+
+#: lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr "Jua kujtojmë për herë të fundit: Që të aktivizohet Llogaria juaj Firefox, ripohoni email-n tuaj"
 
 #: lib/senders/email.js:655
 msgid "Firefox Account authorization code"

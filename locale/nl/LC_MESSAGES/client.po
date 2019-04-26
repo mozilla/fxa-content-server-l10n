@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-12 16:02+0000\n"
+"POT-Creation-Date: 2019-04-26 18:02+0000\n"
 "PO-Revision-Date: 2019-03-31 11:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,799 +15,815 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447423715.0\n"
 
-#: .es5/views/confirm_reset_password.js:207
+#: .es5/views/confirm_reset_password.js:211
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: .es5/views/confirm_reset_password.js:223
+#: .es5/views/confirm_reset_password.js:227
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
 #. submit button
 #. header text
-#: .es5/views/force_auth.js:185 .es5/views/sign_in.js:132 .es5/views/sign_in.js:135 .es5/lib/strings.js:46 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Aanmelden"
 
-#: .es5/views/permissions.js:59
+#: .es5/views/permissions.js:63
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (vereist)"
 
-#: .es5/views/permissions.js:64
+#: .es5/views/permissions.js:68
 msgid "Email address"
 msgstr "E-mailadres"
 
-#: .es5/views/permissions.js:68 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Weergavenaam"
 
-#: .es5/views/permissions.js:71 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Accountafbeelding"
 
-#: .es5/views/ready.js:71
+#: .es5/views/ready.js:79
 msgid "Welcome back"
 msgstr "Welkom terug"
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:80
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync zal over enkele ogenblikken worden hervat"
 
-#: .es5/views/ready.js:76 .es5/views/ready.js:81
+#: .es5/views/ready.js:84 .es5/views/ready.js:89
 msgid "Your password has been reset"
 msgstr "Uw wachtwoord is opnieuw ingesteld"
 
-#: .es5/views/ready.js:77 .es5/views/ready.js:82
+#: .es5/views/ready.js:85 .es5/views/ready.js:90
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Voltooi de installatie door het nieuwe wachtwoord op uw andere Firefox-apparaten in te vullen."
 
-#: .es5/views/ready.js:85
+#: .es5/views/ready.js:93
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "U kunt nu wijzigingen aan uw Firefox-account aanbrengen."
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:95
 msgid "Primary email verified"
 msgstr "Primair e-mailadres geverifieerd"
 
-#: .es5/views/ready.js:90
+#: .es5/views/ready.js:98
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Accountmeldingen worden nu ook naar %(secondaryEmailVerified)s verzonden."
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:100
 msgid "Secondary email verified"
 msgstr "Secundair e-mailadres geverifieerd"
 
-#: .es5/views/ready.js:97 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Aanmelding bevestigd"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:103 .es5/views/ready.js:108 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: .es5/views/ready.js:102
+#: .es5/views/ready.js:110
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
-#: .es5/views/ready.js:107
+#: .es5/views/ready.js:115
 msgid "Connected"
 msgstr "Verbonden"
 
-#: .es5/views/reset_password.js:94 .es5/views/sign_in.js:225
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: .es5/views/sign_up.js:53
+#: .es5/views/sign_up.js:112
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestaat niet meer. Opnieuw aanmaken?"
 
-#: .es5/views/sign_up.js:272
+#: .es5/views/sign_up.js:331
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
-#: .es5/views/settings/change_password.js:87
+#: .es5/views/settings/change_password.js:91
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: .es5/views/settings/client_disconnect.js:18
+#: .es5/views/settings/client_disconnect.js:42
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Het spijt ons dit te horen. U dient uw Firefox-accountwachtwoord te wijzigen en informatie van uw apparaatfabrikant over het op afstand wissen van uw gegevens te raadplegen."
 
-#: .es5/views/settings/client_disconnect.js:19
+#: .es5/views/settings/client_disconnect.js:43
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Het spijt ons dit te horen. Als dit een apparaat was dat u echt niet vertrouwt, dient u zowel uw Firefox-accountwachtwoord als alle opgeslagen wachtwoorden in Firefox te wijzigen."
 
-#: .es5/views/settings/clients.js:43
+#: .es5/views/settings/clients.js:84
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "Laatste synchronisatie: %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:44
+#: .es5/views/settings/clients.js:85
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:47
+#: .es5/views/settings/clients.js:88
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Laatste synchronisatie: %(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:48
+#: .es5/views/settings/clients.js:89
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:51
+#: .es5/views/settings/clients.js:92
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Laatste synchronisatie: %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:52
+#: .es5/views/settings/clients.js:93
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Laatste synchronisatie: meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:57
+#: .es5/views/settings/clients.js:98
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Laatst actief: %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:58
+#: .es5/views/settings/clients.js:99
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Laatst actief: meer dan %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:102
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Laatst actief: %(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:103
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Laatst actief: meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:106
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Laatst actief: %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:107
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Laatst actief: meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:71
+#: .es5/views/settings/clients.js:112
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:72
+#: .es5/views/settings/clients.js:113
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Meer dan %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:116
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:117
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Meer dan %(translatedTimeAgo)s in %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:120
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:121
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Meer dan %(translatedTimeAgo)s nabij %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:115
+#: .es5/views/settings/clients.js:156
 msgid "Web Session, %(userAgent)s"
 msgstr "Websessie, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:117
+#: .es5/views/settings/clients.js:158
 msgid "Web Session"
 msgstr "Websessie"
 
-#: .es5/views/settings/clients.js:132
+#: .es5/views/settings/clients.js:173
 msgid "Last sync time unknown"
 msgstr "Laatste synchronisatietijdstip onbekend"
 
-#: .es5/views/settings/communication_preferences.js:121
+#: .es5/views/settings/communication_preferences.js:153
 msgid "Subscribed successfully"
 msgstr "Inschrijven gelukt"
 
-#: .es5/views/settings/delete_account.js:42
+#: .es5/views/settings/delete_account.js:71
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: .es5/views/settings/display_name.js:55
+#: .es5/views/settings/display_name.js:78
 msgid "Display name updated"
 msgstr "Weergavenaam bijgewerkt"
 
-#: .es5/views/settings/emails.js:88
+#: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
 msgstr "Secundair e-mailadres verwijderd"
 
-#: .es5/views/settings/emails.js:118 .es5/views/settings/emails.js:131 .es5/views/mixins/upgrade-session-mixin.js:89
+#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113
 msgid "Verification email sent"
 msgstr "Verificatie-e-mail verzonden"
 
-#: .es5/views/settings/emails.js:147
+#: .es5/views/settings/emails.js:188
 msgid "Primary email set to %(email)s"
 msgstr "Primair e-mailadres ingesteld op %(email)s"
 
-#: .es5/views/settings/emails.js:157 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "Secundair e-mailadres"
 
-#: .es5/views/settings/recovery_codes.js:75
+#: .es5/views/settings/recovery_codes.js:78
 msgid "Firefox Recovery Codes"
 msgstr "Firefox-herstelcodes"
 
-#: .es5/views/settings/recovery_codes.js:102
+#: .es5/views/settings/recovery_codes.js:105
 msgid "New recovery codes generated"
 msgstr "Nieuwe herstelcodes gegenereerd"
 
-#: .es5/views/settings/recovery_codes.js:149 .es5/views/settings/two_step_authentication.js:149
+#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182
 msgid "Two-step authentication enabled"
 msgstr "Authenticatie in twee stappen ingeschakeld"
 
-#: .es5/views/settings/two_step_authentication.js:120
+#: .es5/views/settings/two_step_authentication.js:153
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Gebruik de code %(code)s om authenticatie in twee stappen in ondersteunde toepassingen in te schakelen."
 
-#: .es5/views/settings/two_step_authentication.js:133
+#: .es5/views/settings/two_step_authentication.js:166
 msgid "Two-step authentication removed"
 msgstr "Authenticatie in twee stappen verwijderd"
 
-#: .es5/views/settings/two_step_authentication.js:174
+#: .es5/views/settings/two_step_authentication.js:207
 msgid "Two-step Authentication"
 msgstr "Authenticatie in twee stappen"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:96
+#: .es5/views/settings/account_recovery/account_recovery.js:100
 msgid "Account Recovery"
 msgstr "Accountherstel"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:76
+#: .es5/views/settings/account_recovery/confirm_password.js:82
 msgid "Account recovery enabled"
 msgstr "Accountherstel ingeschakeld"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:63
+#: .es5/views/settings/account_recovery/confirm_revoke.js:73
 msgid "Account recovery revoked"
 msgstr "Accountherstel ingetrokken"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:61
+#: .es5/views/settings/account_recovery/recovery_key.js:65
 msgid "Firefox Recovery Key"
 msgstr "Firefox-herstelsleutel"
 
-#: .es5/views/mixins/account-reset-mixin.js:42 .es5/lib/auth-errors.js:112
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125
 msgid "Your account has been locked for security reasons"
 msgstr "Uw account is om veiligheidsredenen vergrendeld"
 
-#: .es5/views/mixins/account-reset-mixin.js:42 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Wachtwoord opnieuw instellen"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:33
+#: .es5/views/mixins/last-checked-time-mixin.js:36
 msgid "none"
 msgstr "geen"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:37
+#: .es5/views/mixins/last-checked-time-mixin.js:40
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Laatst gecontroleerd: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:17
+#: .es5/views/mixins/open-webmail-mixin.js:26
 msgid "Open Gmail"
 msgstr "Gmail openen"
 
-#: .es5/views/mixins/open-webmail-mixin.js:22
+#: .es5/views/mixins/open-webmail-mixin.js:31
 msgid "Open Hotmail"
 msgstr "Hotmail openen"
 
-#: .es5/views/mixins/open-webmail-mixin.js:27
+#: .es5/views/mixins/open-webmail-mixin.js:36
 msgid "Open Yahoo"
 msgstr "Yahoo openen"
 
-#: .es5/views/mixins/open-webmail-mixin.js:32
+#: .es5/views/mixins/open-webmail-mixin.js:41
 msgid "Open Outlook"
 msgstr "Outlook openen"
 
-#: .es5/views/mixins/open-webmail-mixin.js:37
+#: .es5/views/mixins/open-webmail-mixin.js:46
 msgid "Open Restmail"
 msgstr "Restmail openen"
 
-#: .es5/views/mixins/resend-mixin.js:46
+#: .es5/views/mixins/resend-mixin.js:11
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "E-mailbericht opnieuw verzonden. Voeg accounts@firefox.com toe aan uw contacten om een probleemloze levering te garanderen."
 
-#: .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:63
 msgid "Copied"
 msgstr "Gekopieerd"
 
-#: .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:65
 msgid "Failed to copy. Please manually copy."
 msgstr "Kopiëren mislukt. Kopieer handmatig."
 
-#: .es5/views/mixins/save-options-mixin.js:74
+#: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
 msgstr "Gedownload"
 
-#: .es5/views/mixins/save-options-mixin.js:85
+#: .es5/views/mixins/save-options-mixin.js:89
 msgid "Printed"
 msgstr "Afgedrukt"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:70 .es5/models/auth_brokers/base.js:97
+#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139
 msgid "Primary email verified successfully"
 msgstr "Primair e-mailadres met succes geverifieerd"
 
-#: .es5/views/behaviors/settings.js:32 .es5/models/auth_brokers/web.js:26
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
-#: .es5/models/sync-engines.js:41
+#: .es5/models/sync-engines.js:59
 msgid "Open tabs"
 msgstr "Open tabbladen"
 
-#: .es5/models/sync-engines.js:45
+#: .es5/models/sync-engines.js:63
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: .es5/models/sync-engines.js:49
+#: .es5/models/sync-engines.js:67
 msgid "Add-ons"
 msgstr "Add-ons"
 
-#: .es5/models/sync-engines.js:53
+#: .es5/models/sync-engines.js:71
 msgid "Logins"
 msgstr "Aanmeldingen"
 
-#: .es5/models/sync-engines.js:57
+#: .es5/models/sync-engines.js:75
 msgid "History"
 msgstr "Geschiedenis"
 
-#: .es5/models/sync-engines.js:61
+#: .es5/models/sync-engines.js:79
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: .es5/models/sync-engines.js:69
+#: .es5/models/sync-engines.js:87
 msgid "Addresses"
 msgstr "Adressen"
 
-#: .es5/models/sync-engines.js:77
+#: .es5/models/sync-engines.js:95
 msgid "Credit cards"
 msgstr "Creditcards"
 
-#: .es5/models/reliers/sync.js:75
+#: .es5/models/reliers/sync.js:81
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:101
+#: .es5/models/auth_brokers/base.js:143
 msgid "Secondary email verified successfully"
 msgstr "Secundair e-mailadres met succes geverifieerd"
 
-#: .es5/models/auth_brokers/web.js:30
+#: .es5/models/auth_brokers/web.js:44
 msgid "Password reset successfully"
 msgstr "Wachtwoord met succes opnieuw ingesteld"
 
-#: .es5/lib/auth-errors.js:18 .es5/lib/marketing-email-errors.js:15 .es5/lib/oauth-errors.js:18 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:63
+#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: .es5/lib/auth-errors.js:19 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "De koppeling waarop u hebt geklikt voor het verifiëren van uw e-mailadres is verlopen."
 
-#: .es5/lib/auth-errors.js:20 .es5/lib/profile-errors.js:13
+#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25
 msgid "You've tried too many times. Try again later."
 msgstr "U hebt het te vaak geprobeerd. Probeer het later opnieuw."
 
-#: .es5/lib/auth-errors.js:24
+#: .es5/lib/auth-errors.js:37
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "U hebt het te vaak geprobeerd. Probeer het over %(retryAfterLocalized)s opnieuw."
 
-#: .es5/lib/auth-errors.js:34 .es5/lib/oauth-errors.js:48
+#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65
 msgid "Invalid token"
 msgstr "Ongeldige token"
 
-#: .es5/lib/auth-errors.js:38
+#: .es5/lib/auth-errors.js:51
 msgid "Invalid timestamp in request signature"
 msgstr "Ongeldige tijdstempel in aanvraaghandtekening"
 
-#: .es5/lib/auth-errors.js:42
+#: .es5/lib/auth-errors.js:55
 msgid "Invalid nonce in request signature"
 msgstr "Ongeldige nonce in aanvraaghandtekening"
 
-#: .es5/lib/auth-errors.js:46 .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:162
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175
 msgid "Account already exists"
 msgstr "Account bestaat al"
 
-#: .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:63
 msgid "Unknown account"
 msgstr "Onbekende account"
 
-#: .es5/lib/auth-errors.js:54
+#: .es5/lib/auth-errors.js:67
 msgid "Incorrect email case"
 msgstr "Onjuiste letters in e-mailadres"
 
-#: .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:71
 msgid "Incorrect password"
 msgstr "Onjuist wachtwoord"
 
-#: .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:75
 msgid "Unverified account"
 msgstr "Niet-geverifieerde account"
 
-#: .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:79
 msgid "Invalid verification code"
 msgstr "Ongeldige verificatiecode"
 
-#: .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:83
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:87
 msgid "Invalid parameter: %(param)s"
 msgstr "Ongeldige parameter: %(param)s"
 
-#: .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:91
 msgid "Missing parameter: %(param)s"
 msgstr "Ontbrekende parameter: %(param)s"
 
-#: .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:95
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
-#: .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:99
 msgid "Missing content-length header"
 msgstr "Header content-length ontbreekt"
 
-#: .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:103
 msgid "Request body too large"
 msgstr "Aanvraagtekst te lang"
 
-#: .es5/lib/auth-errors.js:108 .es5/lib/profile-errors.js:51
+#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63
 msgid "The request was blocked for security reasons"
 msgstr "De aanvraag is om veiligheidsredenen geblokkeerd"
 
-#: .es5/lib/auth-errors.js:116 .es5/lib/auth-errors.js:455
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484
 msgid "Invalid authorization code"
 msgstr "Ongeldige autorisatiecode"
 
-#: .es5/lib/auth-errors.js:120
+#: .es5/lib/auth-errors.js:133
 msgid "Invalid phone number"
 msgstr "Ongeldig telefoonnummer"
 
-#: .es5/lib/auth-errors.js:124
+#: .es5/lib/auth-errors.js:137
 msgid "Cannot send to this country"
 msgstr "Kan niet naar dit land verzenden"
 
-#: .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:146
 msgid "Could not send a message to this number"
 msgstr "Kan geen bericht naar dit nummer verzenden"
 
-#: .es5/lib/auth-errors.js:137
+#: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned"
 msgstr "Uw e-mailbericht is zojuist geretourneerd"
 
-#: .es5/lib/auth-errors.js:141
+#: .es5/lib/auth-errors.js:154
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Uw e-mailbericht is zojuist geretourneerd. Typefout in e-mailadres?"
 
-#: .es5/lib/auth-errors.js:145
+#: .es5/lib/auth-errors.js:158
 msgid "Unable to deliver email"
 msgstr "Kan e-mailbericht niet afleveren"
 
-#: .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:163
 msgid "This email was already verified by another user"
 msgstr "Dit e-mailadres is al door een andere gebruiker geverifieerd"
 
-#: .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:167
 msgid "Secondary email must be different than your account email"
 msgstr "Secundair e-mailadres moet anders zijn dan uw account-e-mailadres"
 
-#: .es5/lib/auth-errors.js:166
+#: .es5/lib/auth-errors.js:179
 msgid "Primary account email required for sign-in"
 msgstr "Primair e-mailadres van account vereist voor aanmelding"
 
-#: .es5/lib/auth-errors.js:170
+#: .es5/lib/auth-errors.js:183
 msgid "Address in use by another account"
 msgstr "Adres in gebruik door andere account"
 
-#: .es5/lib/auth-errors.js:174
+#: .es5/lib/auth-errors.js:187
 msgid "Primary account email required for reset"
 msgstr "Primair e-mailadres van account vereist voor herinitialisatie"
 
-#: .es5/lib/auth-errors.js:178
+#: .es5/lib/auth-errors.js:191
 msgid "Invalid signin code"
 msgstr "Ongeldige aanmeldingscode"
 
-#: .es5/lib/auth-errors.js:182
+#: .es5/lib/auth-errors.js:195
 msgid "Can not change primary email to an unverified email"
 msgstr "Kan primair e-mailadres niet wijzigen naar een niet-geverifieerd e-mailadres"
 
-#: .es5/lib/auth-errors.js:186 .es5/lib/auth-errors.js:194
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Kan primair e-mailadres niet wijzigen naar een e-mailadres dat niet bij deze account hoort"
 
-#: .es5/lib/auth-errors.js:190
+#: .es5/lib/auth-errors.js:203
 msgid "This email can not currently be used to login"
 msgstr "Dit e-mailadres kan momenteel niet voor aanmelding worden gebruikt"
 
-#: .es5/lib/auth-errors.js:198
+#: .es5/lib/auth-errors.js:211
 msgid "Failed to send email"
 msgstr "Verzenden van e-mailbericht is mislukt"
 
-#: .es5/lib/auth-errors.js:202
+#: .es5/lib/auth-errors.js:215
 msgid "Valid code required"
 msgstr "Geldige code vereist"
 
-#: .es5/lib/auth-errors.js:206
+#: .es5/lib/auth-errors.js:219
 msgid "This verification code has expired"
 msgstr "Deze verificatiecode is verlopen"
 
-#: .es5/lib/auth-errors.js:210
+#: .es5/lib/auth-errors.js:223
 msgid "A TOTP token already exists for this account"
 msgstr "Er bestaat al een TOTP-token voor deze account"
 
-#: .es5/lib/auth-errors.js:214
+#: .es5/lib/auth-errors.js:227
 msgid "TOTP token not found"
 msgstr "TOTP-token niet gevonden"
 
-#: .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:231
 msgid "Recovery code not found"
 msgstr "Herstelcode niet gevonden"
 
-#: .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:235
 msgid "Unavailable device command"
 msgstr "Niet-beschikbare apparaatopdracht"
 
-#: .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:239
 msgid "Recovery key not found"
 msgstr "Herstelsleutel niet gevonden"
 
-#: .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:243
 msgid "Invalid recovery key"
 msgstr "Ongeldige herstelsleutel"
 
-#: .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:247
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Deze aanvraag vereist ingeschakelde authenticatie in twee stappen op uw account."
 
-#: .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:251
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Mislukt vanwege een conflicterende aanvraag, probeer het opnieuw."
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:435
+#: .es5/lib/auth-errors.js:255
+msgid "Unknown customer for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:259
+msgid "Unknown subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:263
+msgid "Unknown plan for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:267
+msgid "Invalid payment token for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
 msgstr "Server bezet, probeer het later opnieuw"
 
-#: .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:276
 msgid "Feature not enabled"
 msgstr "Functie niet ingeschakeld"
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:259 .es5/lib/marketing-email-errors.js:23 .es5/lib/marketing-email-errors.js:81 .es5/lib/oauth-errors.js:106 .es5/lib/profile-errors.js:35
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
+#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:284
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
-#: .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:292
 msgid "Login attempt cancelled"
 msgstr "Aanmeldingspoging geannuleerd"
 
-#: .es5/lib/auth-errors.js:267
+#: .es5/lib/auth-errors.js:296
 msgid "Session expired. Sign in to continue."
 msgstr "Sessie verlopen. Meld u aan om door te gaan."
 
-#: .es5/lib/auth-errors.js:271
+#: .es5/lib/auth-errors.js:300
 msgid "Cookies are still disabled"
 msgstr "Cookies zijn nog uitgeschakeld"
 
-#: .es5/lib/auth-errors.js:275
+#: .es5/lib/auth-errors.js:304
 msgid "Passwords do not match"
 msgstr "Wachtwoorden komen niet overeen"
 
-#: .es5/lib/auth-errors.js:279
+#: .es5/lib/auth-errors.js:308
 msgid "Working…"
 msgstr "Bezig…"
 
-#: .es5/lib/auth-errors.js:283
+#: .es5/lib/auth-errors.js:312
 msgid "Could not get Privacy Notice"
 msgstr "Kan privacyverklaring niet ophalen"
 
-#: .es5/lib/auth-errors.js:287
+#: .es5/lib/auth-errors.js:316
 msgid "Could not get Terms of Service"
 msgstr "Kan servicevoorwaarden niet ophalen"
 
-#: .es5/lib/auth-errors.js:291
+#: .es5/lib/auth-errors.js:320
 msgid "Your new password must be different"
 msgstr "Uw oude en nieuwe wachtwoord moeten verschillen"
 
-#: .es5/lib/auth-errors.js:295 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
 
-#: .es5/lib/auth-errors.js:299
+#: .es5/lib/auth-errors.js:328
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
-#: .es5/lib/auth-errors.js:303 .es5/lib/auth-errors.js:341 .es5/lib/auth-errors.js:357
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
 
-#: .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:343
 msgid "A usable image was not found"
 msgstr "Er is geen bruikbare afbeelding gevonden"
 
-#: .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:347
 msgid "Could not initialize camera"
 msgstr "Kon camera niet initialiseren"
 
-#: .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:351
 msgid "Valid URL required"
 msgstr "Geldige URL vereist"
 
-#: .es5/lib/auth-errors.js:337
+#: .es5/lib/auth-errors.js:366
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres?"
 
-#: .es5/lib/auth-errors.js:345
+#: .es5/lib/auth-errors.js:374
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Voer een geldig e-mailadres in. firefox.com biedt geen e-mail."
 
-#: .es5/lib/auth-errors.js:353
+#: .es5/lib/auth-errors.js:382
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden geplaatst"
 
-#: .es5/lib/auth-errors.js:372 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Verificatiekoppeling beschadigd"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:409
 msgid "The image dimensions must be at least 100x100px"
 msgstr "De afmetingen van de afbeelding moeten minstens 100x100px zijn"
 
-#: .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:413
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Binnenkort komt registratie naar Firefox voor iOS"
 
-#: .es5/lib/auth-errors.js:395
+#: .es5/lib/auth-errors.js:424
 msgid "You must enter your age to sign up"
 msgstr "U moet uw leeftijd invoeren om te registreren"
 
-#: .es5/lib/auth-errors.js:399
+#: .es5/lib/auth-errors.js:428
 msgid "You must enter a valid age to sign up"
 msgstr "U moet een geldige leeftijd invoeren om te registreren"
 
-#: .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:443
 msgid "Account no longer exists."
 msgstr "Account bestaat niet meer."
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:447
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ongeldige eigenschap in hervattingstoken: %(property)s"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:451
 msgid "Missing property in resume token: %(property)s"
 msgstr "Ontbrekende eigenschap in hervattingstoken: %(property)s"
 
-#: .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:455
 msgid "Invalid data attribute: %(property)s"
 msgstr "Gegevenskenmerk ongeldig: %(property)s"
 
-#: .es5/lib/auth-errors.js:430
+#: .es5/lib/auth-errors.js:459
 msgid "Missing data attribute: %(property)s"
 msgstr "Gegevenskenmerk ontbreekt: %(property)s"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:497 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt."
 
-#: .es5/lib/auth-errors.js:447
+#: .es5/lib/auth-errors.js:476
 msgid "This is a required field"
 msgstr "Dit veld is verplicht"
 
-#: .es5/lib/auth-errors.js:451
+#: .es5/lib/auth-errors.js:480
 msgid "Authorization code required"
 msgstr "Autorisatiecode vereist"
 
-#: .es5/lib/auth-errors.js:459 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Koppeling beschadigd"
 
-#: .es5/lib/auth-errors.js:482
+#: .es5/lib/auth-errors.js:511
 msgid "Phone number required"
 msgstr "Telefoonnummer vereist"
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:530
 msgid "Two-step authentication code required"
 msgstr "Code voor authenticatie in twee stappen vereist"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:534
 msgid "Invalid two-step authentication code"
 msgstr "Ongeldige code voor authenticatie in twee stappen"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:538
 msgid "Recovery code required"
 msgstr "Herstelcode vereist"
 
-#: .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:542
 msgid "Invalid recovery code"
 msgstr "Ongeldige herstelcode"
 
-#: .es5/lib/auth-errors.js:525
+#: .es5/lib/auth-errors.js:554
 msgid "Recovery key required"
 msgstr "Herstelsleutel vereist"
 
-#: .es5/lib/auth-errors.js:529
+#: .es5/lib/auth-errors.js:558
 msgid "Please enter verification code"
 msgstr "Voer verificatiecode in"
 
-#: .es5/lib/auth-errors.js:533
+#: .es5/lib/auth-errors.js:562
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "Accounts met authenticatie in twee stappen ondersteunen momenteel geen koppelen"
 
-#: .es5/lib/config-loader.js:108
+#: .es5/lib/config-loader.js:125
 msgid "Missing configuration"
 msgstr "Configuratie ontbreekt"
 
-#: .es5/lib/config-loader.js:112
+#: .es5/lib/config-loader.js:129
 msgid "Invalid configuration"
 msgstr "Ongeldige configuratie"
 
-#: .es5/lib/mailcheck.js:24
+#: .es5/lib/mailcheck.js:42
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Bedoelde u <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:39
+#: .es5/lib/marketing-email-errors.js:51
 msgid "Please try again later"
 msgstr "Probeer het later opnieuw"
 
-#: .es5/lib/marketing-email-errors.js:71
+#: .es5/lib/marketing-email-errors.js:83
 msgid "Service unavailable, try again soon"
 msgstr "Service niet beschikbaar, probeer het later opnieuw"
 
-#: .es5/lib/oauth-errors.js:24
+#: .es5/lib/oauth-errors.js:41
 msgid "Unknown client"
 msgstr "Onbekende client"
 
-#: .es5/lib/oauth-errors.js:28
+#: .es5/lib/oauth-errors.js:45
 msgid "Incorrect redirect_uri"
 msgstr "Onjuiste redirect_uri"
 
-#: .es5/lib/oauth-errors.js:32
+#: .es5/lib/oauth-errors.js:49
 msgid "Invalid assertion"
 msgstr "Ongeldige bevestiging"
 
-#: .es5/lib/oauth-errors.js:36
+#: .es5/lib/oauth-errors.js:53
 msgid "Unknown code"
 msgstr "Onbekende code"
 
-#: .es5/lib/oauth-errors.js:40
+#: .es5/lib/oauth-errors.js:57
 msgid "Incorrect code"
 msgstr "Onjuiste code"
 
-#: .es5/lib/oauth-errors.js:44
+#: .es5/lib/oauth-errors.js:61
 msgid "Expired code"
 msgstr "Verlopen code"
 
-#: .es5/lib/oauth-errors.js:52 .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Ongeldige OAuth-parameter: %(param)s"
 
-#: .es5/lib/oauth-errors.js:60 .es5/lib/profile-errors.js:19
+#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31
 msgid "Unauthorized"
 msgstr "Niet geautoriseerd"
 
-#: .es5/lib/oauth-errors.js:64
+#: .es5/lib/oauth-errors.js:81
 msgid "Forbidden"
 msgstr "Niet toegestaan"
 
-#: .es5/lib/oauth-errors.js:78
+#: .es5/lib/oauth-errors.js:95
 msgid "Expired token"
 msgstr "Token verlopen"
 
-#: .es5/lib/oauth-errors.js:114
+#: .es5/lib/oauth-errors.js:131
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw."
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:150
 msgid "no message"
 msgstr "geen melding"
 
-#: .es5/lib/oauth-errors.js:137
+#: .es5/lib/oauth-errors.js:154
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth-parameter ontbreekt: %(param)s"
 
@@ -823,23 +839,23 @@ msgstr "Fout bij koppelen met extern apparaat"
 msgid "Connection to remote device closed, please try again"
 msgstr "Verbinding met extern apparaat gesloten, probeer het opnieuw"
 
-#: .es5/lib/profile-errors.js:23
+#: .es5/lib/profile-errors.js:35
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 
-#: .es5/lib/profile-errors.js:27
+#: .es5/lib/profile-errors.js:39
 msgid "Unsupported image provider"
 msgstr "Niet-ondersteunde afbeeldingsprovider"
 
-#: .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:43
 msgid "Image processing error"
 msgstr "Fout bij verwerken van afbeelding"
 
-#: .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:55
 msgid "Invalid Token"
 msgstr "Ongeldige token"
 
-#: .es5/lib/strings.js:23
+#: .es5/lib/strings.js:26
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
@@ -847,27 +863,27 @@ msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
 
-#: .es5/lib/strings.js:30
+#: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 
-#: .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ontvang het laatste nieuws over Mozilla en Firefox."
 
-#: .es5/lib/strings.js:37 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (geschat)"
 
-#: .es5/lib/strings.js:38
+#: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (geschat)"
 
-#: .es5/lib/strings.js:39
+#: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
 msgstr "IP-adres: %(ip)s"
 
-#: .es5/lib/strings.js:40
+#: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Bevestig voor extra beveiliging deze aanmelding om met het synchroniseren met dit apparaat te beginnen:"
 
@@ -941,8 +957,8 @@ msgid "Learn more"
 msgstr "Meer info"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s registered."
-msgstr "%(email)s geregistreerd."
+msgid "%(email)s registered"
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -1536,13 +1552,14 @@ msgstr "Firefox voor Android"
 msgid "Missing or duplicate items?"
 msgstr "Ontbrekende of dubbele items?"
 
-#: .es5/templates/settings/clients.mustache:26
-msgid "Refresh"
-msgstr "Vernieuwen"
+#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
+msgid "Refresh status"
+msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "Communicatievoorkeuren"
+msgid "Email preferences"
+msgstr "E-mailvoorkeuren"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
@@ -1559,8 +1576,8 @@ msgid "Subscribe"
 msgstr "Inschrijven"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage Subscriptions"
-msgstr "Inschrijvingen beheren"
+msgid "Manage preferences"
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1601,11 +1618,6 @@ msgstr "Primair maken"
 #: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
 msgid "Remove"
 msgstr "Verwijderen"
-
-#: .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh Status"
-msgstr "Status vernieuwen"
 
 #: .es5/templates/settings/emails.mustache:28
 msgid "Add"
@@ -1823,13 +1835,13 @@ msgstr "Wachtwoord tonen"
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Zoekt u Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Begin hier</a>"
 
-#: .es5/templates/pair/auth_allow.mustache:1 .es5/templates/pair/supp_allow.mustache:1
-msgid "Approve connections <small>to begin syncing</small>"
-msgstr "Keur verbindingen goed <small>om met synchroniseren te beginnen</small>"
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Approve new device <small>for %(email)s</small>"
+msgstr ""
 
-#: .es5/templates/pair/auth_allow.mustache:2 .es5/templates/pair/supp_allow.mustache:2
-msgid "Approve connection"
-msgstr "Verbinding goedkeuren"
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid "Approve device"
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1844,8 +1856,8 @@ msgid "Manage devices"
 msgstr "Apparaten beheren"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approve this connection <small>from this device</small>"
-msgstr "Keur deze verbinding goed <small>vanaf dit apparaat</small>"
+msgid "Approval now required <small>from your other device</small>"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1855,9 +1867,29 @@ msgstr "Koppelen mislukt"
 msgid "The setup process was terminated."
 msgstr "Het installatieproces is beëindigd."
 
+#: .es5/templates/pair/index.mustache:2
+msgid "Open the code scanner on your Firefox app and show code when ready."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Show code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Get App"
+msgstr ""
+
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
 msgstr "Koppelen gelukt."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr ""
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
@@ -1866,6 +1898,30 @@ msgstr "Koppelen via een app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app."
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s geregistreerd."
+
+#~ msgid "Refresh"
+#~ msgstr "Vernieuwen"
+
+#~ msgid "Communication preferences"
+#~ msgstr "Communicatievoorkeuren"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Inschrijvingen beheren"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Status vernieuwen"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Keur verbindingen goed <small>om met synchroniseren te beginnen</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Verbinding goedkeuren"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Keur deze verbinding goed <small>vanaf dit apparaat</small>"
 
 #~ msgid "Use a different email address"
 #~ msgstr "Een ander e-mailadres gebruiken"
@@ -2068,9 +2124,6 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 
 #~ msgid "Receive the monthly Firefox newsletter."
 #~ msgstr "De maandelijks nieuwsbrief ontvangen"
-
-#~ msgid "Email preferences"
-#~ msgstr "E-mailvoorkeuren"
 
 #~ msgid "Unsubscribe"
 #~ msgstr "Uitschrijven"
