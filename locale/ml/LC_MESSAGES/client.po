@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-26 08:42+0000\n"
-"Last-Translator: ജോയ്സ് <joicefootball@gmail.com>\n"
+"PO-Revision-Date: 2019-04-27 05:57+0000\n"
+"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -960,7 +960,7 @@ msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പ�
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "തെരഞ്ഞെടുത്തതു് സംരക്ഷിക്കുക"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -968,7 +968,7 @@ msgstr "തിരികെ"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "രഹസ്യവാക്ക് പുനസജ്ജീകരണ ലിങ്ക് നാശമായി"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -976,7 +976,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുക"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -994,11 +994,11 @@ msgstr "പുതിയ രഹസ്യവാക്ക്"
 
 #: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
-msgstr ""
+msgstr "രഹസ്യവാക്ക് ആവർത്തിക്കുക"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "രഹസ്യവാക്ക് ഓർമിക്കണോ? പ്രവേശിയ്ക്കുക"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1043,7 +1043,7 @@ msgstr "ഇൻബോക്സിലോ സ്പാം ഫോൾഡറിലോ 
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "അയച്ച ഇമെയിൽ പുനഃസജ്ജമാക്കുക"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1067,7 +1067,7 @@ msgstr "വിജയം"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "ഫയർ ഫോക്സിലേക്ക് പ്രവേശിച്ച് സജ്ജീകരണങ്ങള്‍ പൂർത്തിയാക്കുക"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 msgid "Still adding devices?"

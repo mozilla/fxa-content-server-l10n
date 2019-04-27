@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2017-11-30 08:07+0000\n"
-"Last-Translator: Kannan V M <kannan@disroot.org>\n"
+"PO-Revision-Date: 2019-04-27 06:02+0000\n"
+"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,24 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് വിജയകരമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് സമന്വയത്തിൽ <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സ് കൂടാതെ മറ്റു "
-"ഉപകരണങ്ങിൽ നിന്നും പ്രവേശിക്കാനാകും."
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം വിജയകരമായി ഫയർഫോക്സ് അക്കൌണ്ടുമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സില്‍ "
+"പ്രവേശിച്ച് സമന്വയം സാധ്യമാക്കാം."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടുമായി വിജയകരമായി ബന്ധിപ്പിച്ചു. സമന്വയം ഏറ്റവും മികച്ചതാക്കാൻ <a href='%(androidUrl)s'>ആന്‍ഡ്രോയ്ഡിനായുള്ള ഫയർഫോക്സ്</a>അല്ലെങ്കിൽ <a "
+"href='%(iosUrl)s'>ഐ.ഓ.എസ്സിനായുള്ള ഫയർഫോക്സ്</a> ഇവയുമായി ബന്ധിപ്പിക്കുക."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr "മറ്റൊരു ഉപകരണം കണക്റ്റുചെയ്യുക"
+msgstr "മറ്റൊരു ഉപകരണം കണക്റ്റു ചെയ്യുക"
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
@@ -46,11 +48,11 @@ msgstr ""
 #: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾ"
+msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ടുകള്‍"
 
 #: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1245
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "കുറഞ്ഞ വീണ്ടെടുക്കൽ കോഡുകൾ മാത്രം ശേഷിക്കുന്നു"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -466,15 +468,15 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
-msgstr "സജീവമാക്കുക"
+msgstr "ഇപ്പോൾ സജീവമാക്കുക"
 
 #: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "ഇമെയില്‍ സ്ഥിരീകരിയ്ക്കുക"
 
 #: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സ് രജിസ്ട്രേഷൻ പൂർത്തിയാക്കുന്നതിന് നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
