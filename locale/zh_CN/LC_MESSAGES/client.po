@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 00:25+0000\n"
+"PO-Revision-Date: 2019-04-27 07:20+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -569,19 +569,19 @@ msgstr "请求发生冲突而失败，请重试。"
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "未知的订阅客户。"
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
-msgstr ""
+msgstr "未知的订阅。"
 
 #: .es5/lib/auth-errors.js:263
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "未知的订阅方案。"
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "无效的订阅付款令牌（Token）。"
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
@@ -952,7 +952,7 @@ msgstr "详细了解。"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s 已注册"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -1815,11 +1815,11 @@ msgstr "在找 Firefox 同步？<a %(escapedSyncSuggestionAttrs)s>从这里开�
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "确认加入新设备 <small>%(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "确认设备"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
