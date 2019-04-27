@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 14:43+0000\n"
+"PO-Revision-Date: 2019-04-27 14:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1830,7 +1830,7 @@ msgstr "Szukasz usługi Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Załóż
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr "Zatwierdź nowe urządzenia <small>dla adresu %(email)s</small>"
+msgstr "Zatwierdź nowe urządzenie <small>dla adresu %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
