@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 06:51+0000\n"
+"PO-Revision-Date: 2019-04-27 06:58+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
@@ -169,11 +169,11 @@ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; ഫയർ ഫോക്സിനുള്ള നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റിയിട്ടില്ലെങ്കിൽ, നിങ്ങൾ ഉടനെ തന്നെ %(resetLink)sല്‍ നിന്ന് അത് പുനഃസജ്ജമാക്കണം"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "നിങ്ങളുടെ അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റി"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
@@ -197,15 +197,15 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "നിങ്ങൾ ഒരു പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കേണ്ടതുണ്ട്."
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
-msgstr ""
+msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:5
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക:"
 
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
@@ -224,7 +224,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "നിങ്ങള്‍ എന്ത് ചെയ്യും?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
@@ -241,7 +241,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "സ്നേഹപൂര്‍വ്വം,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
@@ -249,85 +249,87 @@ msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ടീം"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1273
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണം ഉപയോഗിച്ച് നിങ്ങളുടെ ഫയർ ഫോക്സിനുള്ള അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി സൃഷ്ടിച്ചു:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "ഇത് നിങ്ങൾ ആല്ലായിരുന്നെല്ലെങ്കിൽ <a %(revokeAccountRecoveryLinkAttributes)s>ഇവിടെ ക്ലിക്കുചെയ്യുക.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ടിനായുള്ല അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി സൃഷ്ടിച്ചു:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "ഇത് നിങ്ങളല്ലായിരുന്നെങ്കിൽ, കീ പിൻവലിക്കുക."
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1117
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "രണ്ടു-ഘട്ട പ്രാമാണീകരണം പ്രാപ്തമാക്കി"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്നും നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കിയിരിക്കുന്നു:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ സൈൻ ഇൻ ചെയ്യലും ആവശ്യമാണ്."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
 msgstr ""
+"നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കി. നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ പ്രവേശനത്തിലും ആവശ്യമാണ്."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "പുതിയ പ്രാഥമിക ഇമെയിൽ"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"നിങ്ങൾ പ്രാഥമിക ഇമെയിൽ വിജയകരമായി %(email)sആക്കി മാറ്റി. ഈ വിലാസം ഇപ്പോൾ നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് പ്രവേശിക്കുന്നതിനും സുരക്ഷ അറിയിപ്പുകളും പ്രവേശനസ്ഥിരീകരണങ്ങള്‍ക്കുമുള്ല ഉപയോക്തൃനാമമാണ്."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1213
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങൾ വീണ്ടെടുക്കൽ കോഡ് വിജയകരമായി പ്രയോജനപ്പെടുത്തിയിരിക്കുന്നു:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1181
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നും നിങ്ങൾ വിജയകരമായി പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1307
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ നീക്കം ചെയ്തിരിക്കുന്നു"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണമുപയോഗിച്ച് നിങ്ങളുടെ ഫയർ ഫോക്സിനുള്ള അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി നീക്കംചെയ്തു:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "നിങ്ങളുടെ വീണ്ടെടുക്കൽ കീ മേലിൽ നിങ്ങളുടെ അക്കൗണ്ട് വീണ്ടെടുക്കുന്നതിന് ഉപയോഗിക്കാനാവില്ല."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ടിന്റെ ഒരു വീണ്ടെടുക്കൽ കീ വിജയകരമായി നീക്കംചെയ്തു:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -335,30 +337,30 @@ msgstr "ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്�
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സിന്റെ അക്കൌണ്ടിന്റെ ദ്വിതീയ ഇമെയിൽ %(secondaryEmail)s നീക്കംചെയ്തു. സുരക്ഷാ അറിയിപ്പുകളും സൈൻ ഇൻ സ്ഥിരീകരണങ്ങളും ഈ വിലാസത്തിലേക്ക് ഇനി അയയ്ക്കുന്നതല്ല."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5
 #: lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
 #: lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; അബദ്ധവശാലാണ് നിങ്ങൾക്ക് ഈ ഇമെയില്‍ വന്നതെങ്കില്‍ ഒന്നും ചെയ്യണ്ട."
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1149
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "ഇരട്ട-സ്റ്റെപ്പ് പ്രാമാണീകരണം അപ്രാപ്തമാക്കി"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയർഫോക്സിലെ രണ്ട് ഘട്ട പരിശോധന വിജയകരമായി അപ്രാപ്തമാക്കി:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "ഓരോ പ്രവേശനത്തിലും ഇനി സുരക്ഷാ കോഡുകളുടെ ആവശ്യമില്ല."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം അപ്രാപ്തമാക്കി. ഓരോ പ്രവേശനത്തിലും ഇനി സുരക്ഷാ കോഡുകളുടെ ആവശ്യമില്ല."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -388,35 +390,35 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "നിങ്ങളുടെ രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കേണ്ടതുണ്ടോ?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "ഒരു പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുന്നതിനായി അടുത്ത മണിക്കൂറിനുള്ളിൽ ബട്ടണിൽ ക്ലിക്കുചെയ്യുക. ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നാണ് അഭ്യർത്ഥന വന്നത്:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
-msgstr ""
+msgstr "പുതിയ രഹസ്യവാക്ക് ശ്രഷ്ടിക്കുക"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "ഫയർഫോക്സ് തിരഞ്ഞെടുക്കുന്നതിന് നന്ദി! മൊബൈലിലെ ഫയർഫോക്സ് നിങ്ങൾക്കിവിടെ ഇൻസ്റ്റാൾ ചെയ്യാം: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "അതെ എങ്കില്‍, ഇതാ നിങ്ങൾക്ക് ആവശ്യമുള്ള അംഗീകരിക്കൽ കോഡ്:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "ഇല്ലെങ്കിൽ, അത് <a %(reportSignInLinkAttributes)s>റിപ്പോർട്ടുചെയ്ത് </a>നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -424,7 +426,7 @@ msgstr "വീണ്ടും നമസ്കാരം."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "You recently created a Firefox Account but haven't confirmed your email yet."
-msgstr ""
+msgstr "നിങ്ങൾ അടുത്തിടെ ഒരു ഫയർഫോക്സ് അക്കൗണ്ട് സൃഷ്ടിച്ചു, എന്നാൽ ഇതുവരെ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ചിട്ടില്ല."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
@@ -444,7 +446,7 @@ msgstr "ഇപ്പോഴും അവിടെയുണ്ടോ?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "ഒരു ആഴ്ച മുൻപ് നിങ്ങൾ ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിച്ചു പക്ഷെ അതിനെ ഒരിക്കലും സ്ഥിരീകരിച്ചിട്ടില്ല. നിങ്ങളെക്കുറിച്ച് ഞങ്ങൾക്ക് ആശങ്കയുണ്ട്."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
@@ -452,7 +454,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "%(serviceName)s ലേക്ക് സ്വാഗതം!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -460,11 +462,11 @@ msgstr "സ്വാഗതം!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കുന്നതിനും %(serviceName)sകൾ തുടരുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് സജീവമാക്കുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -480,15 +482,15 @@ msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സ് രജിസ്
 
 #: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
-msgstr "സജീവമാക്കുക:"
+msgstr "ഇപ്പോൾ സജീവമാക്കുക:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "അധിക സുരക്ഷക്കായി, ദയവായി ഈ ഉപകരണത്തിൽ നിന്നുള്ള പ്രവേശനം സ്ഥിരീകരിക്കുക:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -504,11 +506,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "ഇമെയില്‍ സ്ഥിരീകരിക്കുക "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "ഒരിക്കൽ പരിശോധിച്ചുറപ്പിച്ചാൽ, ദ്വിതീയ ഇമെയിൽ ചേർക്കുന്നതു പോലെ അക്കൗണ്ട് മാറ്റങ്ങൾ ഈ ഉപകരണത്തിൽ സാധ്യമാകും."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -516,15 +518,15 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "ഇമെയില്‍ സ്ഥിരീകരിക്കുക: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "ഈ പ്രവൃത്തി അംഗീകരിക്കുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റുക."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:828
 msgid "Verify secondary email"
-msgstr ""
+msgstr "ദ്വിതീയ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -532,15 +534,15 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "പരിശോധിച്ചു കഴിഞ്ഞാൽ, ഈ വിലാസം സുരക്ഷാ അറിയിപ്പുകളും സ്ഥിരീകരണങ്ങളും സ്വീകരിച്ചുതുടങ്ങും."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "റെഡി, സെറ്റ്, സമന്വയിപ്പിക്കുക"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "നിങ്ങൾക്ക് ഈ ഇമെയിൽ ലഭിച്ചുവെന്ന് സ്ഥിരീകരിക്കുക, കൂടാതെ നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിലും ഫയർ ഫോക്സ് ഇൻസ്റ്റാൾ ചെയ്യുകയും സമന്വയിപ്പിക്കുകയും ചെയ്യുന്നതിന് ഞങ്ങൾ സഹായിക്കും:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -580,7 +582,7 @@ msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകര�
 
 #: lib/senders/email.js:600
 msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "ഓര്‍മ്മപ്പെടുത്തല്‍: നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കാൻ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/email.js:602
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -592,23 +594,23 @@ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീ�
 
 #: lib/senders/email.js:694
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s ലേക്കുള്ള പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
 #: lib/senders/email.js:743
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "ഫയര്‍ഫോക്സിലേക്കുള്ള പ്രവേശന കോഡ്"
 
 #: lib/senders/email.js:872
 msgid "Reset your Firefox Account password"
-msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
 
 #: lib/senders/email.js:900
 msgid "Your Firefox Account password has been changed"
-msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
 
 #: lib/senders/email.js:926
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് മാറ്റി"
 
 #: lib/senders/email.js:948
 msgid "Firefox Account password reset required"
@@ -616,31 +618,31 @@ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്�
 
 #: lib/senders/email.js:1008
 msgid "Firefox Account verified"
-msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് പരിശോധിച്ചു"
+msgstr "ഫയര്‍ഫോക്സ് അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
 
 #: lib/senders/email.js:1035
 msgid "Secondary Firefox Account email added"
-msgstr "രണ്ടാം ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ഇമെയിൽ ചേർത്തു"
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ടില്‍ ദ്വിതീയ ഇമെയിൽ ചേർത്തു"
 
 #: lib/senders/email.js:1063
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ പുതിയ പ്രാഥമിക ഇമെയിൽ"
 
 #: lib/senders/email.js:1091
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു"
 
 #: lib/senders/email.js:1339
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "വീണ്ടെടുക്കൽ കീയുപയോഗിച്ച് ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിച്ചു"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr "താള് കണ്ടെത്തിയില്ല"
+msgstr "താള്‍ കണ്ടെത്തിയില്ല"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള് കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
+msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള്‍ കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
