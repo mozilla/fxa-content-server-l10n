@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 21:50+0000\n"
+"PO-Revision-Date: 2019-04-27 22:01+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -569,7 +569,7 @@ msgstr "Fallite per un requesta in conflicto, reproba."
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Cliente pro le inscription incognite."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
@@ -1880,11 +1880,11 @@ msgstr "Accopulamento con successo."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Confirmar accopulamento <small>de %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Confirmar le accopulamento"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
