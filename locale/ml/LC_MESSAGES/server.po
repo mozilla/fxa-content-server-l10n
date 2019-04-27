@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 06:21+0000\n"
+"PO-Revision-Date: 2019-04-27 06:51+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
@@ -142,7 +142,7 @@ msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യു�
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില്‍ ആണ്; ഈ പ്രവർത്തനം നിങ്ങൾ അംഗീകരിയ്ക്കുന്നില്ലെങ്കില്‍ <a %(passwordChangeLinkAttributes)s>നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റുക.</a>"
 
 #: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
 #: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
@@ -153,19 +153,19 @@ msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യു�
 
 #: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; നിങ്ങളുടെ ഫയർഫോക്സിനൊപ്പം നിങ്ങൾ ഒരു പുതിയ ഉപകരണം ചേർത്തില്ലെങ്കിൽ, നിങ്ങൾ ഉടനെ നിങ്ങളുടെ രഹസ്യവാക്ക് %(passwordChangeLink)sമാറ്റണം"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr "പാസ്‌വേർഡ് വിജയകരമായി മാറ്റി"
+msgstr "രഹസ്യവാക്ക് വിജയകരമായി മാറ്റി"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് വിജയകരമായി മാറ്റിയിരിക്കുന്നു:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; നിങ്ങൾ ഈ പ്രവർത്തനം അംഗീകരിയ്ക്കുന്നില്ലെങ്കില്‍, <a %(resetLinkAttributes)s>ദയവായി നിങ്ങളുടെ രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കുക </a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
