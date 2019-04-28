@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-28 16:11+0000\n"
+"PO-Revision-Date: 2019-04-28 16:14+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1831,11 +1831,11 @@ msgstr "Pytaśo Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Zachopśo how</a
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr "Nowy rěd <small>za %(email)s</small> schwaliś"
+msgstr "Nowy rěd <small>za %(email)s</small> pśizwóliś"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr "Rěd schwaliś"
+msgstr "Rěd pśizwóliś"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1851,7 +1851,7 @@ msgstr "Rědy zastojaś"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Pśizwólenje jo něnto <small>wót wašogo drugego rěda</small> trěbne"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1863,15 +1863,15 @@ msgstr "Instalěrowański proces jo se skóńcył."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Wócyńśo kodowy skanner w swójom nałoženju Firefox a pokažćo kod, gaž sćo gótowy."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Kod pokazaś"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Nałoženje wobstaraś"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1879,11 +1879,11 @@ msgstr "Koplowanje jo se raźiło."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Wobkšuśćo koplowanje <small>za %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Koplowanje wobkšuśiś"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
