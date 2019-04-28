@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-28 08:31+0000\n"
+"PO-Revision-Date: 2019-04-28 08:36+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -1576,7 +1576,7 @@ msgstr "Prenumeruoti"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Tvarkyti nuostatas"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1835,11 +1835,11 @@ msgstr "Ieškote „Firefox Sync“? <a %(escapedSyncSuggestionAttrs)s>Pradėkit
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Patvirtinkite naują įrenginį, <small>%(email)s paskyrai</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "Patvirtinkite įrenginį"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1855,7 +1855,7 @@ msgstr "Tvarkyti įrenginius"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Reikia patvirtinimo <small>iš kito jūsų įrenginio</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1867,15 +1867,15 @@ msgstr "Sąrankos procesas buvo nutrauktas."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Atverkite kodų skaitytuvą savo „Firefox“ programėlėje ir parodykite kodą."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Rodyti kodą"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Gauti programėlę"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1883,11 +1883,11 @@ msgstr "Susiejimas pavyko."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Patvirtinkite susiejimą <small>su %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Patvirtinkite susiejimą"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
