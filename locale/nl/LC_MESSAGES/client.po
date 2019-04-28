@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-03-31 11:09+0000\n"
-"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
+"PO-Revision-Date: 2019-04-28 14:51+0000\n"
+"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -568,19 +568,19 @@ msgstr "Mislukt vanwege een conflicterende aanvraag, probeer het opnieuw."
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Onbekende klant voor abonnement."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Onbekend abonnement."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Onbekend abonnementsplan."
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Ongeldig betalingstoken voor abonnement."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
@@ -856,9 +856,7 @@ msgid "Invalid Token"
 msgstr "Ongeldige token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
@@ -926,8 +924,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Voer de herstelsleutel voor eenmalig gebruik die u op een veilige plek hebt opgeslagen in om weer toegang tot uw Firefox-account te krijgen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOOT:</span> als u uw wachtwoord opnieuw instelt en geen sleutel voor accountherstel hebt opgeslagen, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde "
 "servergegevens zoals geschiedenis en bladwijzers)."
@@ -958,7 +955,7 @@ msgstr "Meer info"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s geregistreerd"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -1555,7 +1552,7 @@ msgstr "Ontbrekende of dubbele items?"
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Status vernieuwen"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
@@ -1564,8 +1561,8 @@ msgstr "E-mailvoorkeuren"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
-"Om u te helpen het meeste uit uw Firefox-account te halen, ontvangt u berichten met betrekking tot uw accountbeveiliging, wijzigingen aan ons beleid, de functionaliteit van uw account, en "
-"inleidende e-mails."
+"Om u te helpen het meeste uit uw Firefox-account te halen, ontvangt u berichten met betrekking tot uw accountbeveiliging, wijzigingen aan ons beleid, de functionaliteit van uw account, en inleidende"
+" e-mails."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1577,7 +1574,7 @@ msgstr "Inschrijven"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Voorkeuren beheren"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1592,8 +1589,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Als u deze account voor Mozilla-apps en -services zoals AMO, Pocket en Screenshots gebruikt, dient u zich eerst aan te melden en alle opgeslagen persoonlijke gegevens te verwijderen. Zodra u hier "
-"uw account verwijdert, kunt u de toegang hiertoe overal kwijtraken."
+"Als u deze account voor Mozilla-apps en -services zoals AMO, Pocket en Screenshots gebruikt, dient u zich eerst aan te melden en alle opgeslagen persoonlijke gegevens te verwijderen. Zodra u hier uw"
+" account verwijdert, kunt u de toegang hiertoe overal kwijtraken."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1769,8 +1766,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Stap 2 van 2: herstelsleutel opslaan"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">NOOT: </span>als u uw wachtwoord vergeet, is deze sleutel vereist om weer toegang tot uw gegevens te krijgen. Sla uw herstelsleutel op een veilige locatie op, waar u deze later "
 "makkelijk kunt vinden."
@@ -1837,11 +1833,11 @@ msgstr "Zoekt u Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Begin hier</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Nieuw apparaat goedkeuren <small>voor %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "Apparaat goedkeuren"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1857,7 +1853,7 @@ msgstr "Apparaten beheren"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Goedkeuring <small>vanaf uw andere apparaat</small> nu vereist"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1869,7 +1865,7 @@ msgstr "Het installatieproces is beëindigd."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Open de codescanner in uw Firefox-app en laat de code zien wanneer u gereed bent."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2035,9 +2031,7 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgstr "Cookies en lokale opslag zijn vereist."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-"
-#~ "cloudservices."
+#~ msgstr "Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox-cloudservices"
@@ -2094,11 +2088,11 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgstr "Waarom twee (of meer!) apparaten synchroniseren?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en "
-#~ "alle in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
+#~ "Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en alle"
+#~ " in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2210,18 +2204,18 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgstr "Aanmelden"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>ONTHOUD:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat "
-#~ "we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOOT:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we "
+#~ "<span>ONTHOUD:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we "
 #~ "uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>NOOT:</span> als u uw wachtwoord opnieuw instelt, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde servergegevens, zoals geschiedenis en bladwijzers). Dit komt doordat we uw "
+#~ "gegevens met uw wachtwoord versleutelen om uw privacy te beschermen."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Voeg een extra beveiligingslaag toe aan uw account door beveiligingscodes van een van <a %(escapedTotpSupportAttributes)s>deze apps voor authenticatie</a> te vereisen."
@@ -2232,8 +2226,7 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ "            "
 #~ msgstr ""
 #~ "\n"
-#~ "                Deze codes zullen alleen worden weergegeven en kunnen maar eenmalig worden gebruikt. Bewaar ze op een veilige plek voor het geval dat u geen toegang meer hebt tot uw mobiele "
-#~ "apparaat.\n"
+#~ "                Deze codes zullen alleen worden weergegeven en kunnen maar eenmalig worden gebruikt. Bewaar ze op een veilige plek voor het geval dat u geen toegang meer hebt tot uw mobiele apparaat.\n"
 #~ "            "
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
@@ -2350,19 +2343,18 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-voorkeuren"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Zoekt u Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Begin hier</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Hebt u een account met een ander e-mailadres? <a href=\"%(signinUri)s\">Aanmelden</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Laatst actief: %(translatedTimeAgo)s"
@@ -2468,8 +2460,8 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar "
-#~ "%(email)s is verzonden"
+#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar %(email)s is"
+#~ " verzonden"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registratie is uitgeschakeld"
@@ -2533,8 +2525,8 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres "
-#~ "in te voeren."
+#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres in "
+#~ "te voeren."
 
 #~ msgid "a day"
 #~ msgstr "een dag"
@@ -2591,8 +2583,8 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het "
-#~ "onthouden van u tussen sessies."
+#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het onthouden "
+#~ "van u tussen sessies."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Binnenkort komt Firefox naar iOS!"
@@ -2735,17 +2727,13 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hebt u al een account? Meld u aan."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van "
-#~ "%(serviceName)s (%(serviceUri)s)."
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-"
-#~ "cloudservices."
+#~ msgstr "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonneren op Firefox-nieuws en -tips"
