@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 22:01+0000\n"
+"PO-Revision-Date: 2019-04-28 03:45+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -581,7 +581,7 @@ msgstr "Plano pro le inscription incognite."
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Jeton de pagamento pro le inscription non valide."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
@@ -1832,7 +1832,7 @@ msgstr "Desira tu probar Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comenci
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Approbar un nove apparato <small>pro %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -1864,7 +1864,7 @@ msgstr "Le procedura de installation ha essite terminate."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Aperi Code scanner sur tu app Firefox e monstra le codice quando preste."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
