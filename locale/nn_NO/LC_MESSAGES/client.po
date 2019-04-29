@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-28 14:53+0000\n"
+"PO-Revision-Date: 2019-04-29 13:49+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -575,7 +575,7 @@ msgstr "Ukjent abonnement."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Ukjend abonnementsplan."
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
@@ -1831,7 +1831,7 @@ msgstr "Leitar du etter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Kom i ga
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Godkjenn ny eining <small>for %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
