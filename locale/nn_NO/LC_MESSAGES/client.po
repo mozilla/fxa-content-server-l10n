@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-29 13:49+0000\n"
+"PO-Revision-Date: 2019-04-29 13:56+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -567,7 +567,7 @@ msgstr "Mislykka på grunn av ein motstridande førespurnad, prøv igjen."
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Ukjend kunde for abonnement."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
@@ -579,7 +579,7 @@ msgstr "Ukjend abonnementsplan."
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Ugyldig betalingsteikn for abonnement."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
@@ -1851,7 +1851,7 @@ msgstr "Handter einingar"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Godkjenning er no påkravd <small>frå den andre eininga di</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1863,7 +1863,7 @@ msgstr "Installasjonsprosessen vart avslutta."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Opne kodeskannaren i Firefox-appen og vis koden når du er klar."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
