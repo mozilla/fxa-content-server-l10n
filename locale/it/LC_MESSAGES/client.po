@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-28 12:24+0000\n"
+"PO-Revision-Date: 2019-04-28 12:23+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1871,7 +1871,7 @@ msgstr "Processo di installazione interrotto."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Apri lo scanner di codice sull’app Firefox e inquadra il codice appena disponibile."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
