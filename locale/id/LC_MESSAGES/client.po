@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-29 23:52+0000\n"
+"PO-Revision-Date: 2019-05-01 05:24+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -572,7 +572,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Langganan tidak dikenal."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Unknown plan for subscription."
@@ -1549,7 +1549,7 @@ msgstr "Item hilang atau terduplikasi?"
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Segarkan status"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
