@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-01 11:42+0000\n"
+"PO-Revision-Date: 2019-05-01 13:12+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -828,31 +828,31 @@ msgstr "Адсутнічае параметр OAuth: %(param)s"
 
 #: .es5/lib/pairing-channel-client-errors.js:47
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Неправільнае паведамленне ад аддаленай прылады"
 
 #: .es5/lib/pairing-channel-client-errors.js:55
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Памылка спарвання з аддаленай прыладай"
 
 #: .es5/lib/pairing-channel-client-errors.js:59
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Падключэнне да аддаленай прылады закрыта, калі ласка, паспрабуйце зноў"
 
 #: .es5/lib/profile-errors.js:35
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Недапушчальны параметр у целе запыту: %(param)s"
 
 #: .es5/lib/profile-errors.js:39
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Непадтрыманы правайдар відарысаў"
 
 #: .es5/lib/profile-errors.js:43
 msgid "Image processing error"
-msgstr ""
+msgstr "Памылка апрацоўкі відарыса"
 
 #: .es5/lib/profile-errors.js:55
 msgid "Invalid Token"
-msgstr ""
+msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
