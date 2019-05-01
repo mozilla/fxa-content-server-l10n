@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2018-11-18 03:07+0000\n"
-"Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
+"PO-Revision-Date: 2019-05-01 16:09+0000\n"
+"Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "အကောင့်အား အတည်ပြုပြီး"
 
 #: .es5/views/ready.js:115
 msgid "Connected"
-msgstr ""
+msgstr "ချိတ်ဆက်ထားသည်။"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -111,11 +111,15 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 
 #: .es5/views/settings/client_disconnect.js:42
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို ရှာဖွေကြည့်ရှုပါ။"
+msgstr ""
+"ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို "
+"ရှာဖွေကြည့်ရှုပါ။"
 
 #: .es5/views/settings/client_disconnect.js:43
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
+msgstr ""
+"ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော "
+"စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: .es5/views/settings/clients.js:84
 msgid "Last sync %(translatedTimeAgo)s"
@@ -267,7 +271,7 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "မီးမြေခွေး၏ပြန်လည်ရယူကီးများ"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125
 msgid "Your account has been locked for security reasons"
@@ -311,7 +315,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:63
 msgid "Copied"
-msgstr ""
+msgstr "ကူးယူပြီး"
 
 #: .es5/views/mixins/save-options-mixin.js:65
 msgid "Failed to copy. Please manually copy."
@@ -319,11 +323,11 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "ဒေါင်းလုပ်ဆွဲပြီး"
 
 #: .es5/views/mixins/save-options-mixin.js:89
 msgid "Printed"
-msgstr ""
+msgstr "ပုံနှိပ်ပြီး"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139
 msgid "Primary email verified successfully"
@@ -855,9 +859,7 @@ msgid "Invalid Token"
 msgstr "မှားယွင်းနေသော တိုကင်"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -923,8 +925,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -961,7 +962,7 @@ msgstr "ထပ်တူပြုလိုသည်များကို ရွ�
 
 #: .es5/templates/choose_what_to_sync.mustache:5
 msgid "Save selections"
-msgstr ""
+msgstr "ရွေးချယ်မှုများသိမ်းပါ"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -999,7 +1000,7 @@ msgstr "စကားဝှက်ကို ထပ်မံ ရေးထည့်�
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "စကားဝှက်မှတ်မိလား။ ဝင်ရောက်ပါ။"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1019,7 +1020,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "အတည်ပြုချက်မှားယွင်းမှု"
 
 #: .es5/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -1321,11 +1322,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "အခွင့်ပြုကုဒ်ဝင်ပါ"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "မီးမြေခွေးအကောင့်ဖန်တီးပါ"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
@@ -1751,8 +1752,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1781,7 +1781,7 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "မသိသောတည်နေရာ"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
@@ -1789,7 +1789,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "သင့်firefoxအကောင့်စကားဝှက်"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
