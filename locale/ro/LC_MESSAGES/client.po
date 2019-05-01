@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-01 03:07+0000\n"
+"PO-Revision-Date: 2019-05-01 07:09+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -575,19 +575,19 @@ msgstr "Eșec din cauza unei solicitări conflictuale, te rugăm să încerci di
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Client necunoscut pentru abonament."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Abonament necunoscut."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Plan de abonament necunoscut."
 
 #: .es5/lib/auth-errors.js:267
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Jeton de plată invalid pentru abonament."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
 msgid "Server busy, try again soon"
@@ -965,7 +965,7 @@ msgstr "Află mai multe"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s înregistrat"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -1562,7 +1562,7 @@ msgstr "Obiecte lipsă sau duplicate?"
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Actualizează starea"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
@@ -1584,7 +1584,7 @@ msgstr "Abonare"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Gestionează preferințele"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1844,11 +1844,11 @@ msgstr "Cauți Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Pornește aici</a
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Aprobă dispozitiv nou <small>pentru %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "Aprobă dispozitivul"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1864,7 +1864,7 @@ msgstr "Gestionează dispozitivele"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Acum este necesară aprobarea <small>de pe celălalt dispozitiv</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1876,15 +1876,15 @@ msgstr "Procesul de configurare a fost întrerupt."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Deschide scanerul de coduri din aplicația Firefox și prezintă codul când este gata."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Arată codul"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Descarcă aplicația"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1892,11 +1892,11 @@ msgstr "Asociere reușită."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Confirmă asocierea <small>pentru %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Confirmă asocierea"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
