@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-01 11:29+0000\n"
+"PO-Revision-Date: 2019-05-01 11:42+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -816,7 +816,7 @@ msgstr "Пратэрмінаваны токен"
 
 #: .es5/lib/oauth-errors.js:131
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Нешта пайшло не так. Калі ласка, закрыйце гэту картку і паспрабуйце зноў."
 
 #: .es5/lib/oauth-errors.js:150
 msgid "no message"
@@ -824,7 +824,7 @@ msgstr "няма паведамлення"
 
 #: .es5/lib/oauth-errors.js:154
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Адсутнічае параметр OAuth: %(param)s"
 
 #: .es5/lib/pairing-channel-client-errors.js:47
 msgid "Invalid message from the remote device"
