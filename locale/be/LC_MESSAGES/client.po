@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-01 10:49+0000\n"
+"PO-Revision-Date: 2019-05-01 11:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -259,11 +259,11 @@ msgstr "Аднаўленне ўліковага запісу"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Аднаўленне ўліковага запісу ўключана"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Аднаўленне ўліковага запісу адклікана"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65
 msgid "Firefox Recovery Key"
