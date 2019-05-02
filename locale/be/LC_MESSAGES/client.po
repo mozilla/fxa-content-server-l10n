@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-01 13:18+0000\n"
+"PO-Revision-Date: 2019-05-02 19:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -870,19 +870,19 @@ msgstr "Атрымліваць апошнія навіны пра Mozilla і Fir
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (прыблізна)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (прыблізна)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-адрас: %(ip)s"
 
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Для дадатковай бяспекі, калі ласка, пацвердзіце гэты ўваход, каб пачаць сінхранізацыю з гэтай прыладай:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -898,15 +898,15 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Спасылка для скіду пароля пратэрмінаваная"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Атрымаць новую спасылку"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
