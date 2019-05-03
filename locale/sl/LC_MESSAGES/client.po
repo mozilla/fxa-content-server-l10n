@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 10:53+0000\n"
+"PO-Revision-Date: 2019-05-03 21:22+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1860,7 +1860,7 @@ msgstr "Postopek nastavitve je bil prekinjen."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Odprite bralnik kode v aplikaciji Firefox in pokažite kodo, ko boste pripravljeni."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
