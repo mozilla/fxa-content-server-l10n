@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 18:02+0000\n"
+"POT-Creation-Date: 2019-05-03 16:02+0000\n"
 "PO-Revision-Date: 2019-04-23 21:15+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,10 +43,10 @@ msgstr "Titikirisäx molojri'ïl pa Sync"
 #: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
 #: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
-#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -426,6 +426,10 @@ msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwäch ri nachanela' c
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwa ri nachanela' chuqa' ke'asujuj pe."
 
+#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr "Tanataj: K'o chi najikib'a' ri ataqoya'l richin natzij ri Rub'i' Ataqoy'al richin Firefox"
+
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Ïx ütz."
@@ -445,6 +449,10 @@ msgstr "Tijikib'äx taqoya'l"
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
 msgstr "Tijikib'äx taqoya'l:"
+
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr "Ruk'isib'äl runataxik: K'o chi najikib'a' ri ataqoya'l richin natzij ri Rub'i' Ataqoy'al richin Firefox"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -585,14 +593,6 @@ msgstr "Tanik'oj ri Ataqoya'l richin Firefox"
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "¡Tajikib'a' ri ataqoya'l richin natikirisaj ri ximojri'ïl!"
-
-#: lib/senders/email.js:600
-msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr "Tanataj: K'o chi najikib'a' ri ataqoya'l richin natzij ri Rub'i' Ataqoy'al richin Firefox"
-
-#: lib/senders/email.js:602
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr "Ruk'isib'äl runataxik: K'o chi najikib'a' ri ataqoya'l richin natzij ri Rub'i' Ataqoy'al richin Firefox"
 
 #: lib/senders/email.js:655
 msgid "Firefox Account authorization code"

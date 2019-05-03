@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 18:02+0000\n"
+"POT-Creation-Date: 2019-05-03 16:02+0000\n"
 "PO-Revision-Date: 2019-04-27 06:58+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +19,15 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം വിജയകരമായി ഫയർഫോക്സ് അക്കൌണ്ടുമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സില്‍ "
-"പ്രവേശിച്ച് സമന്വയം സാധ്യമാക്കാം."
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം വിജയകരമായി ഫയർഫോക്സ് അക്കൌണ്ടുമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സില്‍ പ്രവേശിച്ച് സമന്വയം സാധ്യമാക്കാം."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടുമായി വിജയകരമായി ബന്ധിപ്പിച്ചു. സമന്വയം ഏറ്റവും മികച്ചതാക്കാൻ <a href='%(androidUrl)s'>ആന്‍ഡ്രോയ്ഡിനായുള്ള ഫയർഫോക്സ്</a>അല്ലെങ്കിൽ <a "
-"href='%(iosUrl)s'>ഐ.ഓ.എസ്സിനായുള്ള ഫയർഫോക്സ്</a> ഇവയുമായി ബന്ധിപ്പിക്കുക."
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടുമായി വിജയകരമായി ബന്ധിപ്പിച്ചു. സമന്വയം ഏറ്റവും മികച്ചതാക്കാൻ <a href='%(androidUrl)s'>ആന്‍ഡ്രോയ്ഡിനായുള്ള ഫയർഫോക്സ്</a>അല്ലെങ്കിൽ <a href='%(iosUrl)s'>ഐ.ഓ.എസ്സിനായുള്ള "
+"ഫയർഫോക്സ്</a> ഇവയുമായി ബന്ധിപ്പിക്കുക."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -43,10 +42,10 @@ msgstr "സമന്വയിപ്പിക്കാനായി പ്രവ�
 #: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
 #: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
-#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ടുകള്‍"
 
@@ -281,8 +280,7 @@ msgstr "നിങ്ങളുടെ പ്രാമാണീകരണ അപ്�
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
-"നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കി. നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ പ്രവേശനത്തിലും ആവശ്യമാണ്."
+msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കി. നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ പ്രവേശനത്തിലും ആവശ്യമാണ്."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -292,8 +290,7 @@ msgstr "പുതിയ പ്രാഥമിക ഇമെയിൽ"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr ""
-"നിങ്ങൾ പ്രാഥമിക ഇമെയിൽ വിജയകരമായി %(email)sആക്കി മാറ്റി. ഈ വിലാസം ഇപ്പോൾ നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് പ്രവേശിക്കുന്നതിനും സുരക്ഷ അറിയിപ്പുകളും പ്രവേശനസ്ഥിരീകരണങ്ങള്‍ക്കുമുള്ല ഉപയോക്തൃനാമമാണ്."
+msgstr "നിങ്ങൾ പ്രാഥമിക ഇമെയിൽ വിജയകരമായി %(email)sആക്കി മാറ്റി. ഈ വിലാസം ഇപ്പോൾ നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് പ്രവേശിക്കുന്നതിനും സുരക്ഷ അറിയിപ്പുകളും പ്രവേശനസ്ഥിരീകരണങ്ങള്‍ക്കുമുള്ല ഉപയോക്തൃനാമമാണ്."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1213
 msgid "Recovery code consumed"
@@ -420,6 +417,10 @@ msgstr "ഇല്ലെങ്കിൽ, അത് <a %(reportSignInLinkAttribute
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ."
 
+#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr "ഓര്‍മ്മപ്പെടുത്തല്‍: നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കാൻ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
+
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "വീണ്ടും നമസ്കാരം."
@@ -439,6 +440,10 @@ msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
 msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക:"
+
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -579,14 +584,6 @@ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്ക�
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
-
-#: lib/senders/email.js:600
-msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr "ഓര്‍മ്മപ്പെടുത്തല്‍: നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കാൻ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
-
-#: lib/senders/email.js:602
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
 
 #: lib/senders/email.js:655
 msgid "Firefox Account authorization code"

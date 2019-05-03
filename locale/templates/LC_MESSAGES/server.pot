@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-04-26 18:02+0000\n"
+"POT-Creation-Date: 2019-05-03 16:02+0000\n"
 
 #: lib/senders/templates/_pending.txt:1
 msgid ""
@@ -52,8 +52,6 @@ msgstr ""
 #: lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/recovery.html:1
 #: lib/senders/templates/unblock_code.html:1
-#: lib/senders/templates/verification_reminder_first.html:1
-#: lib/senders/templates/verification_reminder_second.html:1
 #: lib/senders/templates/verify.html:1
 #: lib/senders/templates/verify_login.html:1
 #: lib/senders/templates/verify_login_code.html:1
@@ -688,6 +686,11 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
+#: lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
 #: lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
@@ -713,6 +716,11 @@ msgstr ""
 #: lib/senders/templates/verification_reminder_first.txt:4
 #: lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:1
+#: lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr ""
 
 #: lib/senders/templates/verification_reminder_second.html:2
@@ -899,14 +907,6 @@ msgstr ""
 
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
-msgstr ""
-
-#: lib/senders/email.js:600
-msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
-
-#: lib/senders/email.js:602
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr ""
 
 #: lib/senders/email.js:655

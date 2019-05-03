@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 18:02+0000\n"
+"POT-Creation-Date: 2019-05-03 16:02+0000\n"
 "PO-Revision-Date: 2019-04-21 08:43+0000\n"
 "Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,10 +39,10 @@ msgstr "ลงชื่อเข้า Sync"
 #: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
 #: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
-#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -414,6 +414,10 @@ msgstr "ถ้าไม่ใช่ ช่วยเรากำจัดผู�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา"
 
+#: lib/senders/templates/verification_reminder_first.html:1 lib/senders/email.js:600
+msgid "Reminder: Confirm your email to activate your Firefox Account"
+msgstr "เตือนความจำ: ยืนยันอีเมลของคุณเพื่อเปิดใช้งานบัญชี Firefox ของคุณ"
+
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "สวัสดีอีกครั้ง"
@@ -433,6 +437,10 @@ msgstr "ยืนยันอีเมล"
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
 msgstr "ยืนยันอีเมล:"
+
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/email.js:602
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr "เตือนความจำครั้งสุดท้าย: ยืนยันอีเมลของคุณเพื่อเปิดใช้งานบัญชี Firefox ของคุณ"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -573,14 +581,6 @@ msgstr "ตรวจสอบบัญชี Firefox ของคุณ"
 #: lib/senders/email.js:565
 msgid "Confirm your email and start to sync!"
 msgstr "ยืนยันอีเมลของคุณและเริ่มการซิงค์!"
-
-#: lib/senders/email.js:600
-msgid "Reminder: Confirm your email to activate your Firefox Account"
-msgstr "เตือนความจำ: ยืนยันอีเมลของคุณเพื่อเปิดใช้งานบัญชี Firefox ของคุณ"
-
-#: lib/senders/email.js:602
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr "เตือนความจำครั้งสุดท้าย: ยืนยันอีเมลของคุณเพื่อเปิดใช้งานบัญชี Firefox ของคุณ"
 
 #: lib/senders/email.js:655
 msgid "Firefox Account authorization code"
