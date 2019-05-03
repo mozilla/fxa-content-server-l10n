@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-02 19:11+0000\n"
+"PO-Revision-Date: 2019-05-03 18:47+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -910,7 +910,7 @@ msgstr "Атрымаць новую спасылку"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Скід пароля з ключом аднаўлення"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
@@ -928,19 +928,19 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Увядзіце ключ аднаўлення"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Пацвердзіце ключ аднаўлення"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Не маеце ключа аднаўлення?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Не ўдаецца стварыць уліковы запіс"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
@@ -952,7 +952,7 @@ msgstr "Даведацца больш"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s зарэгістраваны"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
 msgid "Choose what to sync"
@@ -968,7 +968,7 @@ msgstr "Назад"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Спасылка для скіду пароля пашкоджана"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -976,7 +976,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Стварыць новы пароль"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
