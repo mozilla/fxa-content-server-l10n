@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-03 18:47+0000\n"
+"PO-Revision-Date: 2019-05-04 18:00+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -998,43 +998,43 @@ msgstr "Увядзіце пароль ізноў"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Памятаеце пароль? Увайсці"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Асноўны адрас эл.пошты ўжо пацверджаны"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Уваход у сістэму ўжо пацверджаны"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Спасылка для пацверджання пратэрмінавана"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Націсніце тут, каб атрымаць новую спасылку"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Памылка пацверджання"
 
 #: .es5/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Пацвердзіце свой уліковы запіс"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Пацвердзіце гэты ўваход"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Пашукайце ў сваёй пошце спасылку для пацверждання, дасланую&nbsp;на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Пашукайце ў сваёй пошце спасылку для пацверждання ўваходу, дасланую на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
