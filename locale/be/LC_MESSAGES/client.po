@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-05 14:22+0000\n"
+"PO-Revision-Date: 2019-05-05 15:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1099,7 +1099,7 @@ msgstr "Патрабуецца падтрымка кукаў і лакальна
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да ўліковых запісаў Firefox. Гэта дасць магчымасць помніць вас паміж сеансамі."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1107,7 +1107,7 @@ msgstr "Паспрабаваць зноў"
 
 #: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Увайдзіце, каб працягнуць"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
@@ -1117,11 +1117,11 @@ msgstr "Пароль"
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr ""
+msgstr "Забылі пароль?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай прыватнасці</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
