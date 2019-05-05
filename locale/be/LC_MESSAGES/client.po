@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-05 15:11+0000\n"
+"PO-Revision-Date: 2019-05-05 15:23+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1138,7 +1138,7 @@ msgstr "Працягнуць"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Прававыя звесткі"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
