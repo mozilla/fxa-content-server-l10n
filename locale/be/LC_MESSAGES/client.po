@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-05 15:23+0000\n"
+"PO-Revision-Date: 2019-05-05 15:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1155,28 +1155,28 @@ msgstr ""
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Сцягніце Firefox для iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Сцягніце Firefox для Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Сцягніце Firefox для мабільных прылад."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Запыт дазволу"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s хоча наступную інфармацыю з вашага ўліковага запісу:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Прыняць"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
@@ -1189,7 +1189,7 @@ msgstr "Скасаваць"
 
 #: .es5/templates/ready.mustache:8
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Ваш уліковы запіс гатовы!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
