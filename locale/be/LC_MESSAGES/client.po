@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-04 18:00+0000\n"
+"PO-Revision-Date: 2019-05-05 13:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1039,23 +1039,23 @@ msgstr "Пашукайце ў сваёй пошце спасылку для па
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Няма ў уваходных ці ў спаме? Выслаць яшчэ раз"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Ліст для скіду пароля дасланы"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Прайдзіце па спасылцы, дасланай на %(email)s, цягам наступнай гадзіны, каб стварыць новы пароль."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Злучыць іншую прыладу"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Гэты Firefox злучаны"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
