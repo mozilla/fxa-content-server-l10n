@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-05 15:51+0000\n"
+"PO-Revision-Date: 2019-05-06 15:53+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1193,37 +1193,39 @@ msgstr "Ваш уліковы запіс гатовы!"
 
 #: .es5/templates/ready.mustache:9
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Стварыць новы ключ аднаўлення"
 
 #: .es5/templates/ready.mustache:10
 msgid "Continue to my account"
-msgstr ""
+msgstr "Працягнуць у мой уліковы запіс"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Паведаміць пра неаўтарызаваны ўваход?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Вы атрымалі ліст аб спробе доступу да вашага ўліковага запісу. Ці хочаце паведаміць пра гэту дзейнасць як пра падазроную?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Паведаміць"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Чаму гэта адбываецца?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>ЗАЎВАГА:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
+"дадзеныя з паролем, каб абараніць вашу прыватнасць."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Пачаць скід"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1236,7 +1238,7 @@ msgstr "Выйсці"
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
-msgstr ""
+msgstr "Выкарыстаць іншы уліковы запіс"
 
 #: .es5/templates/sign_in.mustache:14
 msgid "Create an account"
@@ -1244,7 +1246,7 @@ msgstr "Стварыць уліковы запіс"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Прабачце. Мы заблакавалі ваш уліковы запіс."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1256,15 +1258,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Больш не валодаеце гэтым адрасам эл.пошты? Стварыць новы ўліковы запіс"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Увядзіце код аднаўлення"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Калі ласка, увядзіце код аднаўлення, які вы атрымалі ў працэсе ўстаноўкі."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
