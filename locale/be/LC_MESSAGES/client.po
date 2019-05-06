@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-06 16:46+0000\n"
+"PO-Revision-Date: 2019-05-06 17:05+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1512,7 +1512,7 @@ msgstr "Цяперашняя прылада"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Адлучыцца…"
+msgstr "Адлучыць…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
@@ -1528,7 +1528,7 @@ msgstr "Firefox для iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Нічога не злучана"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -1541,24 +1541,26 @@ msgstr "Firefox для Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Адсутнічаюць або дублююцца элементы?"
 
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Абнавіць статус"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
-msgstr ""
+msgstr "Налады эл.пошты"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Вы будзеце атрымліваць паведамленні, якія тычацца бяспекі вашага ўліковага запісу, змен у нашай палітыцы, функцыянальнасці вашага ўліковага запісу і пачатковыя лісты, каб дапамагчы вам атрымаць "
+"максімум ад вашага акаўнта Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Акрамя таго, вы можаце падпісацца на атрыманне рэкламных лістоў з апошнімі навінамі ад Mozilla і Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1566,11 +1568,11 @@ msgstr "Падпісацца"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Кіраваць наладамі"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Выдаліць уліковы запіс"
 
 #: .es5/templates/settings/delete_account.mustache:2
 msgid "Delete…"
