@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-06 16:32+0000\n"
+"PO-Revision-Date: 2019-05-06 16:46+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1419,19 +1419,19 @@ msgstr "Зразумела"
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
-msgstr ""
+msgstr "Змяніць…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Дадаць…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Зрабіць здымак"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Зацягнуць"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
@@ -1448,7 +1448,7 @@ msgstr "Гатова"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Перамясціце і павярніце сваю выяву, калі неабходна"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
@@ -1456,7 +1456,7 @@ msgstr "Змяніць"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Пасля таго, як скончыце, выкарыстоўвайце новы пароль для ўваходу на ўсіх сваіх прыладах."
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1468,23 +1468,23 @@ msgstr "Адлучыцца ад Sync?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Вашы звесткі пра агляданне застануцца на %(deviceName)s, але больш не будуць сінхранізавацца з уліковым запісам."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Падазроная прылада"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Згубленая або скрадзеная прылада"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Старая або замененая прылада"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Дублікат прылады"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1500,7 +1500,7 @@ msgstr ""
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Прылады і праграмы"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
@@ -1508,11 +1508,11 @@ msgstr "Паказаць"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Цяперашняя прылада"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Адлучыцца…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
