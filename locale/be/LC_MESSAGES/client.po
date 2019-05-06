@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-06 16:12+0000\n"
+"PO-Revision-Date: 2019-05-06 16:32+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1344,35 +1344,35 @@ msgstr ""
 
 #: .es5/templates/sign_up.mustache:12
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Запомніце свой пароль</span>Калі вам спатрэбіцца скінуць пароль, вы страціце ўсе сінхранізаваныя звесткі, якіх няма на адной з вашых прылад."
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Атрымліваць апошнія навіны пра Mozilla і Firefox"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
 msgid "Create account"
-msgstr ""
+msgstr "Стварыць уліковы запіс"
 
 #: .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Ужо маеце ўліковы запіс? Увайсці"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Няправільна набраны адрас пошты?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Адпраўце Firefox прама на ваш смартфон і ўвайдзіце ў сістэму, каб завяршыць устаноўку"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Нумар мабільнага тэлефона"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Send"
-msgstr ""
+msgstr "Адправіць"
 
 #: .es5/templates/sms_send.mustache:10
 msgid ""
@@ -1393,27 +1393,27 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Калі вы не атрымліваеце тэкставае паведамленне, вы можаце сцягнуць праграмы ўручную."
 
 #: .es5/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Не прыйшло? Даслаць яшчэ раз"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Навошта сінхранізаваць некалькі прылад?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Служба сінхранізацыі не з'яўляецца сталай рэзервовай копіяй, гэта проста бяспечны спосаб перадачы захаваных закладак, гісторыі і пароляў паміж вашымі прыладамі."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Вы мусіце ўсталяваць Firefox і сінхранізаваць па меншай меры дзве прылады для абароны ад страты дадзеных, калі вам трэба аднавіць іх, але вы забылі свой пароль."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Зразумела"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
