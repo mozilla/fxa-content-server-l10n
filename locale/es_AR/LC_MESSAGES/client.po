@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-07 16:54+0000\n"
+"PO-Revision-Date: 2019-05-07 16:57+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1866,15 +1866,15 @@ msgstr "Se terminó el proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Abrir el escáner de código en la aplicación de Firefox y mostrarlo cuando esté listo."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Mostrar el código"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Obtener la aplicación"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1882,11 +1882,11 @@ msgstr "Se conectó correctamente."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Confirmar conexión <small>para %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Confirmar conexión"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
