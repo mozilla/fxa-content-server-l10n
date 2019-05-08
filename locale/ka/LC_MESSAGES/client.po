@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-04-27 13:05+0000\n"
+"PO-Revision-Date: 2019-05-08 05:10+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -950,7 +950,7 @@ msgstr "Firefox&nbsp;ანგარიშის შესაქმენლა�
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr "შეიტყვეთ მეტი"
+msgstr "იხილეთ ვრცლად"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
