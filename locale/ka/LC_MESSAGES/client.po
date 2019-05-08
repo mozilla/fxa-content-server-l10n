@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 18:02+0000\n"
-"PO-Revision-Date: 2019-05-08 05:10+0000\n"
+"PO-Revision-Date: 2019-05-08 19:21+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -844,7 +844,7 @@ msgstr "უვარგისი მახასიათებელი მო�
 
 #: .es5/lib/profile-errors.js:39
 msgid "Unsupported image provider"
-msgstr "სურათის მომწოდებელი არ არის მხარაჭერილი"
+msgstr "გამოსახულების მხარდაუჭერელი მომწოდებელი"
 
 #: .es5/lib/profile-errors.js:43
 msgid "Image processing error"
