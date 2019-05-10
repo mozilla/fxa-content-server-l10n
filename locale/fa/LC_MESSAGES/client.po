@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 18:02+0000\n"
+"POT-Creation-Date: 2019-05-10 17:21+0000\n"
 "PO-Revision-Date: 2019-04-04 09:10+0000\n"
 "Last-Translator: reza.habibi2008 <reza.habibi2008@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,306 +15,309 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423490224.0\n"
 
-#: .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "بازنشانی گذرواژه"
 
-#: .es5/views/confirm_reset_password.js:227
+#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
 msgstr "بازنشانی گذرواژه با موفقیت انجام شد. برای ادامه وارد شوید."
 
 #. submit button
 #. header text
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
-#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
+#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44
 msgid "Sign in"
 msgstr "ورود"
 
-#: .es5/views/permissions.js:63
+#: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (لازم است)"
 
-#: .es5/views/permissions.js:68
+#: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
 msgstr "آدرس پست‌الکترونیکی"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "نمایش نام"
 
-#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "تصویرِ حساب"
 
-#: .es5/views/ready.js:79
+#: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
 msgstr "خوش‌آمدید"
 
-#: .es5/views/ready.js:80
+#: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
 msgstr "هم‌گام‌سازی فایرفاکس لحظاتی دیگر ادامه پیدا می‌کند"
 
-#: .es5/views/ready.js:84 .es5/views/ready.js:89
+#: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
 msgstr "کلمه عبور شو از نو تنظیم شد"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "برپاسازی را با وارد کردن گذرواژه جدید در سایز دستگاه‌های فایرفاکس خود تکمیل کنید."
 
-#: .es5/views/ready.js:93
+#: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "حالا شما برای ایجاد تغییرات در حساب فایرفاکس خود آماده‌اید."
 
-#: .es5/views/ready.js:95
+#: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
 msgstr "رایانامهٔ اصلی تایید شد"
 
-#: .es5/views/ready.js:98
+#: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "حالا اعلان‌های مرتبط با حساب به %(secondaryEmailVerified)s ارسال خواهد شد."
 
-#: .es5/views/ready.js:100
+#: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
 msgstr "رایانامهٔ دوم تایید شد"
 
-#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
 msgstr "ورود تایید شد"
 
-#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 msgid "You are now ready to use %(serviceName)s"
 msgstr "حالا شما برای استفاده از %(serviceName)s آماده هستید"
 
-#: .es5/views/ready.js:110
+#: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
 msgstr "حساب تایید شد"
 
-#: .es5/views/ready.js:115
+#: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
 msgstr "متصل شد"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 
-#: .es5/views/sign_up.js:112
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76
 msgid "Account no longer exists. Recreate it?"
 msgstr "این حساب دیگر وجود ندارد. دوباره ساخته شود؟"
 
-#: .es5/views/sign_up.js:331
+#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد شوید</a>"
 
-#: .es5/views/settings/change_password.js:91
+#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
 msgstr "گذرواژه با موفقیت تغییر کرد"
 
-#: .es5/views/settings/client_disconnect.js:42
+#: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "متاسفیم که این اتفاق افتاده. شما باید گذرواژه حساب فایرفاکس خود را تغییر دهید، و اطلاعاتی در مورد چگونگی پاک کردن داده‌های خود از راه دور از طریق تولیدکننده دستگاه خود بدست آورید."
 
-#: .es5/views/settings/client_disconnect.js:43
+#: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "متاسفیم که این اتفاق پیش آمده. اگر این واقعا دستگاهی است که به آن اعتماد ندارید، شما باید گذرواژه حساب فایرفاکس خود را تغییر دهید، و تمام گذرواژهای ذخیره شده در فایرفاکس را عوض کنید."
 
-#: .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "آخرین همگام‌سازی %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:85
+#: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "آخرین همگام‌سازی روی%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:88
+#: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "آخرین همگام سازی%(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "آخرین همگام سازی روی %(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:92
+#: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "آخرین بروزرسانی %(translatedTimeAgo)s نزدیک %(translatedCity)s، %(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "آخرین بروزرسانی %(translatedTimeAgo)s نزدیک %(translatedCity)s،‌%(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "آخرین فعالیت %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:99
+#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "آخرین بروزرسانی روی %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:102
+#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "آخرین فعالیت%(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:103
+#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "آخرین فعالیت روی %(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:106
+#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "آخرین فعالیت %(translatedTimeAgo)s نزدیک %(translatedCity)s، %(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:107
+#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "آخرین فعالیت %(translatedTimeAgo)s نزدیک %(translatedCity)s، %(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:112
+#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:113
+#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
 msgstr "بیش‌تر از %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:116
+#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:117
+#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "بیش‌تر از %(translatedTimeAgo)s در %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:120
+#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s نزدیک %(translatedCity)s، %(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:121
+#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "بیش‌تر از %(translatedTimeAgo)s نزدیک %(translatedCity)s، %(translatedState)s، %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:156
+#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
 msgstr "نشست وب، %(userAgent)s"
 
-#: .es5/views/settings/clients.js:158
+#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
 msgid "Web Session"
 msgstr "نشست وب"
 
-#: .es5/views/settings/clients.js:173
+#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
 msgstr "زمان آخرین همگام‌سازی نامشخص"
 
-#: .es5/views/settings/communication_preferences.js:153
+#: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
 msgstr "با موفقیت عضو شدید"
 
-#: .es5/views/settings/delete_account.js:71
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
-#: .es5/views/settings/display_name.js:78
+#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "نمایش نام به روز شد"
 
-#: .es5/views/settings/emails.js:129
+#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
 msgstr "رایانامهٔ دوم حذف شد"
 
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113
+#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
+#: .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "رایانامهٔ تایید ارسال شد"
 
-#: .es5/views/settings/emails.js:188
+#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
 msgstr "ایمیل اصلی تنظیم شد به %(email)s"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
 msgstr "رایانامه کمکی"
 
-#: .es5/views/settings/recovery_codes.js:78
+#: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
 msgstr "کدهای بازیابی فایرفکس"
 
-#: .es5/views/settings/recovery_codes.js:105
+#: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
 msgstr "کدهای بازآوری جدید ایجاد شدند"
 
-#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182
+#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
 msgstr "تایید هویت دو مرحله‌ای فعال شد"
 
-#: .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "از کد %(code)s برای تنظیم ارزیابی دو مرحله‌ای که در برنامه ها پشتیبانی می‌شود استفاده کنید."
 
-#: .es5/views/settings/two_step_authentication.js:166
+#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
 msgstr "تایید هویت دو مرحله‌ای حذف شد"
 
-#: .es5/views/settings/two_step_authentication.js:207
+#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
 msgstr "تایید هویت دو مرحله‌ای"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100
+#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
 msgstr "بازیابی حساب‌ کاربری"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:82
+#: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
 msgstr "بازگردانی حساب کاربری فعال شد"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:73
+#: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
 msgstr "بازگردانی حساب کاربری لغو شد"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:65
+#: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
 msgstr "کلید بازیابی فایرفاکس"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
 msgstr "حساب شما به دلایل امنیتی قفل شده است"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
 msgstr "بازنشانی گذرواژه"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:36
+#: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
 msgstr "هیچکدام"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:40
+#: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "آخرین زمان بررسی: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:26
+#: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
 msgstr "بازکردن Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:31
+#: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
 msgstr "باز کردن Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:36
+#: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
 msgstr "باز کردن Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:41
+#: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
 msgstr "باز کردن Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:46
+#: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "باز کردن Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:11
+#: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "ارسال مجدد ایمیل. اضافه کردنaccounts@firefox.com در لیست مخاطبین خودتون برای اینکه مطمئنید به شید به راحتی به مقصد میرسه."
 
-#: .es5/views/mixins/save-options-mixin.js:63
+#: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
 msgstr "برداشته شده"
 
-#: .es5/views/mixins/save-options-mixin.js:65
+#: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
 msgstr "خطار در برداشت. لطفا به صورت دستی برداشت کنید."
 
@@ -322,360 +325,362 @@ msgstr "خطار در برداشت. لطفا به صورت دستی برداشت
 msgid "Downloaded"
 msgstr "دریافت شد"
 
-#: .es5/views/mixins/save-options-mixin.js:89
+#: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
 msgstr "چاپ شد"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139
+#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
 msgstr "رایانامه اصلی با موفقیت تایید شد"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
 msgstr "حساب با موفقیت تایید شد"
 
-#: .es5/models/sync-engines.js:59
+#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54
 msgid "Open tabs"
 msgstr "زبانه‌های باز"
 
-#: .es5/models/sync-engines.js:63
+#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58
 msgid "Bookmarks"
 msgstr "نشانک‌ها"
 
-#: .es5/models/sync-engines.js:67
+#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62
 msgid "Add-ons"
 msgstr "افزودنی‌ها"
 
-#: .es5/models/sync-engines.js:71
+#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66
 msgid "Logins"
 msgstr "ورودها"
 
-#: .es5/models/sync-engines.js:75
+#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70
 msgid "History"
 msgstr "تاریخچه"
 
-#: .es5/models/sync-engines.js:79
+#: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
 msgid "Preferences"
 msgstr "ترجیحات"
 
-#: .es5/models/sync-engines.js:87
+#: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
 msgid "Addresses"
 msgstr "نشانی‌ها"
 
-#: .es5/models/sync-engines.js:95
+#: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
 msgid "Credit cards"
 msgstr "کارت‌های اعتباری"
 
-#: .es5/models/reliers/sync.js:81
+#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
 msgstr "بهنگام‌سازی فایرفاکس"
 
-#: .es5/models/auth_brokers/base.js:143
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
 msgstr "رایانامه ثانوی با موفقیت تایید شد"
 
-#: .es5/models/auth_brokers/web.js:44
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
 msgstr "تنظیم مجدد کلمه عبور با موفقیت انجام شد"
 
 #: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
+#: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "خطای غیرمترقبه"
 
-#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
 
-#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25
+#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "شما تعداد دفعات زیادی تلاش کردید. بعدا دوباره سعی کنید."
 
-#: .es5/lib/auth-errors.js:37
+#: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "شما تعداد دفعات زیادی تلاش کردید. پس از %(retryAfterLocalized)s دوباره سعی کنید."
 
-#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65
+#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
 msgstr "ژتون نامعتبر"
 
-#: .es5/lib/auth-errors.js:51
+#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "برچسب زمان در امضای درخواست نامعتبر است"
 
-#: .es5/lib/auth-errors.js:55
+#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "مقدار نامعتبر در امضا درخواست"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
 msgid "Account already exists"
 msgstr "حساب از پیش وجود داشته"
 
-#: .es5/lib/auth-errors.js:63
+#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
 msgid "Unknown account"
 msgstr "حساب ناشناخته"
 
-#: .es5/lib/auth-errors.js:67
+#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
 msgstr "بزرگی و کوچکی حروف ایمیل نادرست است"
 
-#: .es5/lib/auth-errors.js:71
+#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "گذرواژه نادرست است"
 
-#: .es5/lib/auth-errors.js:75
+#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
 msgid "Unverified account"
 msgstr "حساب تایید نشده"
 
-#: .es5/lib/auth-errors.js:79
+#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
 msgstr "کد تایید نامعتبر"
 
-#: .es5/lib/auth-errors.js:83
+#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
 msgstr "JSON نامعتبر در متن درخواست"
 
-#: .es5/lib/auth-errors.js:87
+#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
 msgstr "پارامتر نا معتبر : %(param)s"
 
-#: .es5/lib/auth-errors.js:91
+#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
 msgstr "پارامتر گم شده: %(param)s"
 
-#: .es5/lib/auth-errors.js:95
+#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
 msgstr "امضا درخواست نامعتبر است"
 
-#: .es5/lib/auth-errors.js:99
+#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
 msgstr "سرصفحه content-length موجود نیست"
 
-#: .es5/lib/auth-errors.js:103
+#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
 msgid "Request body too large"
 msgstr "متن درخواست بسیار بزرگ است"
 
-#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63
+#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
 msgstr "این درخواست بنا بر مسائل امنیتی مسدود شد"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
 msgid "Invalid authorization code"
 msgstr "کد تصدیق هویت نامعتبر است"
 
-#: .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
 msgstr "شماره تلفن نامعتبر"
 
-#: .es5/lib/auth-errors.js:137
+#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
 msgstr "نمی‌توان به این کشور ارسال کرد"
 
-#: .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
 msgstr "امکان ارسال پیام به این شماره نبود"
 
-#: .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
 msgstr "پست‌الکترونیکی شما هم‌اکنون برگشت خورد"
 
-#: .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
 msgstr "پست‌الکترونیکی تایید شما هم‌اکنون برگشت خورد. پست‌الکترونیکی خود را اشتباه تایپ کردید؟"
 
-#: .es5/lib/auth-errors.js:158
+#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
 msgstr "امکان ارسال پست‌الکترونیکی وجود ندارد"
 
-#: .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
 msgstr "این رایانامه پیش از این توسط کاربر دیگری تایید شده است"
 
-#: .es5/lib/auth-errors.js:167
+#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
 msgstr "رایانامه کمکی باید با رایانامه حساب‌کاربری شما متفاوت باشد"
 
-#: .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
 msgstr "رایانامه اصلی حساب‌کاربری برای ورود مورد نیاز است"
 
-#: .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
 msgstr "نشانی توسط حساب‌کاربری دیگری در حال استفاده است"
 
-#: .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
 msgstr "برای تنظیم دوباره، رایانامه اصلی خساب‌کاربری مورد نیاز است"
 
-#: .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
 msgstr "کد ورود نامعتبر"
 
-#: .es5/lib/auth-errors.js:195
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
 msgstr "نمی‌توان رایانامه اصلی را به یک رایانامهٔ تایید نشده تغییر داد"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "نمی‌توان رایانامه اصلی را به رایانامه‌ای که به این حساب متعلق نیست تغییر داد"
 
-#: .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
 msgid "This email can not currently be used to login"
 msgstr "در حال حاضر از این رایانامه برای وارد شدن نمی‌توانید استفاده کنید"
 
-#: .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
 msgid "Failed to send email"
 msgstr "ارسال رایانامه شکست خورد"
 
-#: .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
 msgid "Valid code required"
 msgstr "یک کد معتبر ضروریه"
 
-#: .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
 msgid "This verification code has expired"
 msgstr "این کد تاییدیه منقضی شده است"
 
-#: .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
 msgid "A TOTP token already exists for this account"
 msgstr "یک نشانهTOTP در حال حاضر برای این حساب وجود دارد"
 
-#: .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
 msgid "TOTP token not found"
 msgstr "رمز TOTP پیدا نشد"
 
-#: .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
 msgid "Recovery code not found"
 msgstr "کد باآوری پیدا نشد"
 
-#: .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
 msgid "Unavailable device command"
 msgstr "دستورهای دستگاه در دسترس نیست"
 
-#: .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
 msgid "Recovery key not found"
 msgstr "کلید بازآوری پیدا نشد"
 
-#: .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
 msgid "Invalid recovery key"
 msgstr "کلید بازیابی غیرمعتبر"
 
-#: .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
 msgid "This request requires two step authentication enabled on your account."
 msgstr "این درخواست نیازمند یک ارزیابی دو مرحله ای که بر روی حساب کاربری شما فعال شده است."
 
-#: .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
 msgid "Failed due to a conflicting request, please try again."
 msgstr "خطا به علت تداخل درخواست ها،‌ لطفا بعدا مراجعه کنید."
 
-#: .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:267
+#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
 msgstr "کارگزار مشغول است، کمی بعد مجددا تلاش کنید"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
 msgid "Feature not enabled"
 msgstr "این ویژگی فعال نشده"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
-#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71
+#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "سیستم در دسترس نیست، کمی بعد مجددا تلاش کنید"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
 msgid "This endpoint is no longer supported"
 msgstr "از این مقصد دیگر پشتیبانی نمی‌شود"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
 msgstr "تلاش برای ورود لغو شد"
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
 msgstr "نشست منقضی شده است. برای ادامه وارد شوید."
 
-#: .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
 msgstr "کوکی‌ها هنوز غیرفعال هستند"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
 msgstr "گذرواژه‌ها منطبق نیستند"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
 msgid "Working…"
 msgstr "درحال کار…"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
 msgid "Could not get Privacy Notice"
 msgstr "امکان دریافت اطلاعیه حریم‌خصوصی نبود"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
 msgid "Could not get Terms of Service"
 msgstr "امکان دریافت قوانین استفاده از سرویس نبود"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
 msgstr "گذرواژه جدید شما باید متفاوت باشد"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
 msgid "Must be at least 8 characters"
 msgstr "حداقل باید دارای ۸ حرف باشد"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
 msgid "Valid password required"
 msgstr "گذرواژه معتبر لازم است"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
 msgid "Valid email required"
 msgstr "ایمیل معتبر مورد نیاز است"
 
-#: .es5/lib/auth-errors.js:343
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
 msgstr "تصویر قابل استفاده‌ای پیدا نشد"
 
-#: .es5/lib/auth-errors.js:347
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
 msgid "Could not initialize camera"
 msgstr "نمی‌توان دوربین را راه‌اندازی کرد"
 
-#: .es5/lib/auth-errors.js:351
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
 msgstr "آدرس اینترنتی معتبر لازم است"
 
-#: .es5/lib/auth-errors.js:366
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "ایمیل تایید شما هم‌اکنون مرجوع شد. ایمیل خود را اشتباه تایپ کردید؟"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ایمیل ارائه نمی‌کند."
 
-#: .es5/lib/auth-errors.js:382
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
 msgid "Verification link damaged"
 msgstr "پیوندِ تایید معیوب است"
 
-#: .es5/lib/auth-errors.js:409
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ابعاد تصویر باید حداقل ۱۰۰×۱۰۰ پیکسل باشد"
 
-#: .es5/lib/auth-errors.js:413
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "ثبت‌نام به زودی برای فایرفاکس iOS خواهد آمد"
 
@@ -687,175 +692,175 @@ msgstr "باید سن خود را وارد کنید تا ثبت‌نام کنی�
 msgid "You must enter a valid age to sign up"
 msgstr "شما باید یک سن درست را برای ثبت نام وارد کنید"
 
-#: .es5/lib/auth-errors.js:443
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
 msgstr "این حساب دیگر وجود ندارد."
 
-#: .es5/lib/auth-errors.js:447
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
 msgstr "موارد نامعتبر در رزومه نشانه: %(property)s"
 
-#: .es5/lib/auth-errors.js:451
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
 msgid "Missing property in resume token: %(property)s"
 msgstr "موارد گم‌شده در رزومه نشانه: %(property)s"
 
-#: .es5/lib/auth-errors.js:455
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
 msgstr "متغیر داده نامعتبر: %(property)s"
 
-#: .es5/lib/auth-errors.js:459
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
 msgstr "متغیر داده ذکر نشده: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "پیوند تایید قبلا استفاده شده است، و تنها می‌توان یکبار از آن استفاده کرد."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
 msgid "This is a required field"
 msgstr "پر کردن این فیلد اجباری است"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
 msgid "Authorization code required"
 msgstr "کد تصدیق هویت لازم است"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
 msgid "Link damaged"
 msgstr "پیوند خراب است"
 
-#: .es5/lib/auth-errors.js:511
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
 msgid "Phone number required"
 msgstr "شماره تلفن لازم است"
 
-#: .es5/lib/auth-errors.js:530
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
 msgstr "ارزیابی دو مرحله ای نیازمند کد است"
 
-#: .es5/lib/auth-errors.js:534
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
 msgid "Invalid two-step authentication code"
 msgstr "کد ارزیابی دو مرحله‌ای غیرمعتبر"
 
-#: .es5/lib/auth-errors.js:538
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
 msgid "Recovery code required"
 msgstr "کدِ بازآوری لازم است"
 
-#: .es5/lib/auth-errors.js:542
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
 msgid "Invalid recovery code"
 msgstr "کد بازآوری صحیح نیست"
 
-#: .es5/lib/auth-errors.js:554
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
 msgid "Recovery key required"
 msgstr "کلید بازیابی نیاز است"
 
-#: .es5/lib/auth-errors.js:558
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
 msgid "Please enter verification code"
 msgstr "لطفا کد تاییدیه رو وارد کنید"
 
-#: .es5/lib/auth-errors.js:562
+#: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "حساب های کاربری با احراز هویت دو مرحله ای در این لحظه جفت سازی را پشتیبانی نمی‌ کند"
 
-#: .es5/lib/config-loader.js:125
+#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "پیکربندی موجود نیست"
 
-#: .es5/lib/config-loader.js:129
+#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
 msgstr "پیکربندی نامعتبر"
 
-#: .es5/lib/mailcheck.js:42
+#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "آیا منظور شما این است <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>؟"
 
-#: .es5/lib/marketing-email-errors.js:51
+#: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
 msgstr "لطفا بعدا دوباره تلاش کنید"
 
-#: .es5/lib/marketing-email-errors.js:83
+#: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
 msgstr "سرویس در دسترس نیست، دوباره تلاش کن"
 
-#: .es5/lib/oauth-errors.js:41
+#: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
 msgstr "کارگیر ناشناس"
 
-#: .es5/lib/oauth-errors.js:45
+#: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri نامعتبر"
 
-#: .es5/lib/oauth-errors.js:49
+#: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
 msgstr "اعلان نامعتبر"
 
-#: .es5/lib/oauth-errors.js:53
+#: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
 msgstr "کد نامعتبر"
 
-#: .es5/lib/oauth-errors.js:57
+#: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
 msgstr "کد نادرست"
 
-#: .es5/lib/oauth-errors.js:61
+#: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
 msgid "Expired code"
 msgstr "کد منقضی شده"
 
-#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91
+#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "پارامتر OAuth نامعتبر: %(param)s"
 
-#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31
+#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
 msgstr "دسترسی مجاز نیست"
 
-#: .es5/lib/oauth-errors.js:81
+#: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
 msgstr "ممنوع"
 
-#: .es5/lib/oauth-errors.js:95
+#: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
 msgstr "توکن منقضی شده"
 
-#: .es5/lib/oauth-errors.js:131
+#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "خطایی پیش آمد. لطفا این زبانه را ببندید و دوباره تلاش کنید."
 
-#: .es5/lib/oauth-errors.js:150
+#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
 msgid "no message"
 msgstr "بدون پیام"
 
-#: .es5/lib/oauth-errors.js:154
+#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "پارامتر OAuth ناموجود: %(param)s"
 
-#: .es5/lib/pairing-channel-client-errors.js:47
+#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
 msgstr "پیام غیرمعتبر از روی دستگاه راه دور"
 
-#: .es5/lib/pairing-channel-client-errors.js:55
+#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
 msgstr "خطا در جفت سازی دستگاه های راه دور"
 
-#: .es5/lib/pairing-channel-client-errors.js:59
+#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
 msgstr "ارتباط به دستگاه از راه دور بسته شد. لطفا بعدا تلاش کنید"
 
-#: .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "پارامتر نامعتبر در متن درخواست: %(param)s"
 
-#: .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
 msgstr "این ارائه‌دهنده‌ی تصویر پشتیبانی نمی‌شود"
 
-#: .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
 msgid "Image processing error"
 msgstr "خطای پردازش تصویر"
 
-#: .es5/lib/profile-errors.js:55
+#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
 msgstr "نشانه نامعتبر"
 
-#: .es5/lib/strings.js:26
+#: .es5/lib/strings.js:26 .es5/lib/strings.js:25
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
@@ -863,27 +868,27 @@ msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
 
-#: .es5/lib/strings.js:33
+#: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">راهنما</a>"
 
-#: .es5/lib/strings.js:37
+#: .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "آخرین اخبار فایرفاکس و موزیلا را دریافت کنید."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (تخمینی)"
 
-#: .es5/lib/strings.js:41
+#: .es5/lib/strings.js:41 .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (تخمینی)"
 
-#: .es5/lib/strings.js:42
+#: .es5/lib/strings.js:42 .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "آدرس IP: %(ip)s"
 
-#: .es5/lib/strings.js:43
+#: .es5/lib/strings.js:43 .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "برای امنیت بیشتر، لطفا این ورود را تایید کنید تا همگام‌سازی با این دستگاه آغاز شود:"
 
@@ -1899,6 +1904,22 @@ msgstr "جفت سازی با استفاده از برنامه"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "آیا از دوربین سیستم استفاده کردید؟ شما باید از درون یک برنامه فایرفاکس جفت سازی کنید."
+
+#: .es5/templates/settings/emails.mustache:9
+msgid "Verified"
+msgstr ""
+
+#: .es5/templates/settings/emails.mustache:11
+msgid "Verification required"
+msgstr ""
+
+#: .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr ""
+
+#: .es5/templates/settings/subscription.mustache:2
+msgid "Manage…"
+msgstr ""
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s ثبت‌نام شد."
