@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-05-11 07:13+0000\n"
+"PO-Revision-Date: 2019-05-11 07:26+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "10-ਅੰਕਾਂ ਦਾ ਰਿਕਵਰੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
@@ -1286,7 +1286,7 @@ msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਵਰਤੋਂ"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "ਤੁਹਾਡੀ ਸਾਵਧਾਨੀ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1294,19 +1294,19 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "%(email)s ਉੱਤੇ ਭੇਜੇ ਗਈ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1314,7 +1314,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1322,11 +1322,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "%(email)s ਨੂੰ ਭੇਜੇ ਗਏ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
@@ -1338,7 +1338,7 @@ msgstr "ਪਾਸਵਰਡ ਦੁਹਰਾਉ"
 
 #: .es5/templates/sign_up.mustache:10
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "ਇਹ ਪਾਸਵਰਡ ਗੁਆ ਨਾ ਦਿਓ। ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਪਈ ਤਾਂ ਤੁਸੀਂ ਸਿੰਕ ਕੀਤਾ ਡਾਟਾ ਗੁਆ ਦਿਓਗੇ।"
 
 #: .es5/templates/sign_up.mustache:11
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1358,15 +1358,15 @@ msgstr "ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/templates/sign_up.mustache:21
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "ਖਾਤਾ ਹੈ? ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "ਈਮੇਲ ਗਲਤ ਲਿਖੀ?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਿੱਧਾ ਆਪਣੇ ਸਮਾਰਟ-ਫੋਨ ਉੱਤੇ ਭੇਜੋ ਅਤੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Mobile phone number"
@@ -1395,11 +1395,11 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "ਜੇ ਤੁਸੀਂ ਲਿਖਤ ਸੁਨੇਹੇ ਸਿੱਧੇ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਐਪਾਂ ਨੂੰ ਖੁਦ ਵੀ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ।"
 
 #: .es5/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "ਹਾਲੇ ਵੀ ਆਇਆ? ਮੁੜ-ਭੇਜੋ"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1548,7 +1548,7 @@ msgstr ""
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "ਹਾਲਤ ਤਾਜ਼ਾ ਕਰੋ"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
@@ -1568,7 +1568,7 @@ msgstr "ਮੈਂਬਰ ਬਣੋ"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "ਪਸੰਦਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1618,7 +1618,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "ਸੂਚਨਾ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
@@ -1635,19 +1635,19 @@ msgstr ""
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
-msgstr ""
+msgstr "ਕਾਪੀ ਕਰੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
-msgstr ""
+msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "…ਸਮਰੱਥ ਕਰੋ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1683,7 +1683,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਹੋ?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1733,7 +1733,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "2 ’ਚੋਂ 1 ਪੜਾਅ: ਪਾਸਵਰਡ ਮੁੜ-ਦਿਓ"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -1741,7 +1741,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਦਿਓ"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
@@ -1753,7 +1753,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2 ’ਚੋਂ 2 ਪੜਾਅ: ਰਿਕਰਵੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
@@ -1769,27 +1769,27 @@ msgstr "ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(OS)s ’ਤੇ %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s (ਅੰਦਾਜ਼ਾ)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (ਅੰਦਾਜ਼ਾ)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
-msgstr ""
+msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "ਅਣਪਛਾਤਾ ਟਿਕਾਣਾ"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "IP ਸਿਰਨਾਵਾਂ: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1813,31 +1813,31 @@ msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਵੇਖੋ"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਲੱਭ ਰਹੇ ਹੋ? <a %(escapedSyncSuggestionAttrs)s>ਇਥੋਂ ਸ਼ੁਰੂ ਕਰੋ</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "<small>%(email)s ਲਈ</small> ਨਵੇਂ ਡਿਵਾਈਸ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰੋ"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਮਨਜ਼ੂਰ ਕਰੋ"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "ਤੁਸੀਂ ਹੁਣ ਇਸ ਨਾਲ ਸਿੰਕ ਕਰ ਰਹੇ ਹੋ:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "ਡਿਵਾਈਸਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
@@ -1845,7 +1845,7 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "ਪੇਅਰ ਕਰਨਾ ਕਾਮਯਾਬ ਨਹੀਂ ਹੈ"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1853,19 +1853,19 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "ਆਪਣੀ ਫਾਇਰਫਾਕਸ ਐਪ ਉੱਤੇ ਕੋਡ-ਸਕੈਨਰ ਖੋਲ੍ਹੋ ਅਤੇ ਜਦੋਂ ਤਿਆਰ ਹੋਵੇ ਤਾਂ ਕੋਡ ਵੇਖਾਓ।"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "ਕੋਡ ਵੇਖਾਓ"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "ਐਪ ਲਵੋ"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "ਪੇਅਰ ਕਰਨਾ ਕਾਮਯਾਬ ਹੈ।"
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
@@ -1885,19 +1885,19 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "Verified"
-msgstr ""
+msgstr "ਤਸਦੀਕ ਕੀਤਾ"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr ""
+msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "ਮੈਂਬਰੀ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
-msgstr ""
+msgstr "…ਬੰਦੋਬਸਤ"
 
 #~ msgid "Refresh"
 #~ msgstr "ਤਾਜ਼ਾ ਕਰੋ"
