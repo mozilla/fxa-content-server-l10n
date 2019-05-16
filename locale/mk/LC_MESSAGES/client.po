@@ -1,14 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-05-16 21:30+0000\n"
+"Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1 || n%10==1 ? 0 : 1);\n"
+"X-Generator: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
@@ -24,35 +28,35 @@ msgstr ""
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44
 msgid "Sign in"
-msgstr ""
+msgstr "Најавете се"
 
 #: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (потребно)"
 
 #: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Е-пошта"
 
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
 msgid "Display name"
-msgstr ""
+msgstr "Прикажано име"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr ""
+msgstr "Слика на сметка"
 
 #: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr ""
+msgstr "Добредојдовте назад"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync ќе продолжи веднаш"
 
 #: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Вашата лозинка беше ресетирана"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -64,7 +68,7 @@ msgstr ""
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Примарната е-пошта е потврдена"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -72,15 +76,15 @@ msgstr ""
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Секундарната е-пошта е потврдена"
 
 #: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Најавата е потврдена"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Сега сте подготвени да користите %(serviceName)s"
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
@@ -88,7 +92,7 @@ msgstr ""
 
 #: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Поврзани"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -104,7 +108,7 @@ msgstr ""
 
 #: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Лозинката е успешно променета"
 
 #: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
@@ -196,7 +200,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Времето на последната синхронизација не е познато"
 
 #: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
@@ -856,9 +860,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
@@ -924,8 +926,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1752,8 +1753,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
