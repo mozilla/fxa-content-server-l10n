@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-05-16 21:30+0000\n"
+"PO-Revision-Date: 2019-05-16 21:51+0000\n"
 "Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mk\n"
@@ -221,301 +221,301 @@ msgstr ""
 #: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
 #: .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
-msgstr ""
+msgstr "Испратена е е-пошта за потврда"
 
 #: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Примарната е-пошта е поставена на %(email)s"
 
 #: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
-msgstr ""
+msgstr "Секундарна е-пошта"
 
 #: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Кодови за обнова на Firefox"
 
 #: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Нови кодови за обнова се генерирани"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Овозможена е дво-чекорна автентификација"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Користете го кодот %(code)s за да поставите дво-чекорна автентификација во поддржаните апликации."
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Дво-чекорната автентификација е отстранета"
 
 #: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Дво -чекорна автентикација"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
-msgstr ""
+msgstr "Обнова на сметка"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Обновувањето на сметка е овозможено"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Откажувањето на сметка е отповикано"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Клуч за обнова на Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Вашата сметка е заклучена поради безбедносни причини"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr ""
+msgstr "Рестирај лозинка"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "ништо"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Последно проверено: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Отвори Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Отвори Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Отвори Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Отвори Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Отвори Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Испратена е е-пошта. Додајте ја accounts@firefox.com во вашите контакти за да осигурате непречена испорака."
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Копирано"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Копирањето не успеа. Ве молам копирајте рачно."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Преземено"
 
 #: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Испечатено"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Примарната е-пошта е успешно потврдена"
 
 #: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Сметката е успешно потврдена"
 
 #: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54
 msgid "Open tabs"
-msgstr ""
+msgstr "Отворени јазичиња"
 
 #: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr ""
+msgstr "Обележувачи"
 
 #: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62
 msgid "Add-ons"
-msgstr ""
+msgstr "Додатоци"
 
 #: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66
 msgid "Logins"
-msgstr ""
+msgstr "Најавувања"
 
 #: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70
 msgid "History"
-msgstr ""
+msgstr "Историја"
 
 #: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
 msgid "Preferences"
-msgstr ""
+msgstr "Преференции"
 
 #: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
 msgid "Addresses"
-msgstr ""
+msgstr "Адреси"
 
 #: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
 msgid "Credit cards"
-msgstr ""
+msgstr "Кредитни картички"
 
 #: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Секундарната е-пошта е успешно потврдена"
 
 #: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Лозинката е успешно ресетирана"
 
 #: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
-msgstr ""
+msgstr "Неочекувана грешка"
 
 #: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Врската што ја кликнавте за да ја потврдите вашата е-пошта е истечена."
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Пробавте премногу пати. Обидете се повторно подоцна."
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Пробавте премногу пати. Обидете се повторно со %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr ""
+msgstr "Невалиден токен"
 
 #: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Невалидна временска ознака во барањето за потпис"
 
 #: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Навалиден код во барањето за потпис"
 
 #: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
 msgid "Account already exists"
-msgstr ""
+msgstr "Сметката веќе постои"
 
 #: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
 msgid "Unknown account"
-msgstr ""
+msgstr "Непозната сметка"
 
 #: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Неточна е-пошта"
 
 #: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
-msgstr ""
+msgstr "Погрешна лозинка"
 
 #: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
 msgid "Unverified account"
-msgstr ""
+msgstr "Непотврдена сметка"
 
 #: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Невалиден код за верификација"
 
 #: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Невалиден JSON во телото на барање"
 
 #: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Невалиден параметар: %(param)s"
 
 #: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Параметар што недостасува: %(param)s"
 
 #: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Неважечки потпис на барањето"
 
 #: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Недостасува заглавие за должина на содржината"
 
 #: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
 msgid "Request body too large"
-msgstr ""
+msgstr "Бараното тело е премногу големо"
 
 #: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Барањето беше блокирано поради безбедносни причини"
 
 #: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Невалиден код за авторизација"
 
 #: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Невалиден телефонски број"
 
 #: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Не може да се испрати во оваа земја"
 
 #: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Не можам да испратам порака на овој број"
 
 #: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Вашата е-пошта штотуку беше вратена"
 
 #: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Вашата е-пошта штотуку беше вратена. Грешка во е-пошта?"
 
 #: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Не може да се испрати е-пошта"
 
 #: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Оваа е-пошта веќе е потврдена од друг корисник"
 
 #: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Секундарната е-пошта мора да биде различна од вашата е-пошта"
 
 #: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Потребна е примарна е-пошта за најавување"
 
 #: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Адресата се користи од друга сметка"
 
 #: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Потребно е ресетирање на примарната е-пошта"
 
 #: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Невалиден код за најавување"
 
 #: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Не може да се промени примарната е-пошта на непотврдена адреса за е-пошта"
 
 #: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
