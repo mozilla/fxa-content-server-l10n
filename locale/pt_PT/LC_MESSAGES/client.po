@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-05-10 22:13+0000\n"
+"PO-Revision-Date: 2019-05-17 11:20+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -48,7 +48,7 @@ msgstr "Imagem da conta"
 
 #: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr "Olá mais uma vez"
+msgstr "Bem-vindo(a) de volta"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
@@ -1618,7 +1618,7 @@ msgstr "verificação requerida"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
-msgstr "Fazer primário"
+msgstr "Tornar primário"
 
 #: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
 msgid "Remove"
