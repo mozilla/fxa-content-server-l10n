@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-03-29 19:37+0000\n"
+"POT-Creation-Date: 2019-05-17 16:02+0000\n"
+"PO-Revision-Date: 2019-05-17 11:20+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -461,7 +461,7 @@ msgstr "Confirme este endereço de email para ativar a sua conta e deixe-nos sab
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr "Bem-vindo(a) %(serviceName)s!"
+msgstr "Bem-vindo(a) ao %(serviceName)s!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"

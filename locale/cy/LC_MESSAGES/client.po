@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 17:21+0000\n"
+"POT-Creation-Date: 2019-05-17 16:02+0000\n"
 "PO-Revision-Date: 2019-05-14 10:45+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,309 +15,305 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432911472.0\n"
 
-#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "Ailosod cyfrinair"
 
-#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
 #. submit button
-#. header text
-#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
-#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
-#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:105 .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Mewngofnodi"
 
-#: .es5/views/permissions.js:63 .es5/views/permissions.js:41
+#: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
 msgstr "(Mae angen) %(permissionName)s"
 
-#: .es5/views/permissions.js:68 .es5/views/permissions.js:45
+#: .es5/views/permissions.js:45
 msgid "Email address"
 msgstr "Cyfeiriad e-bost"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
+#: .es5/views/permissions.js:49 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Enw dangos"
 
-#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
+#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Llun cyfrif"
 
-#: .es5/views/ready.js:79 .es5/views/ready.js:56
+#: .es5/views/ready.js:56
 msgid "Welcome back"
 msgstr "Croeso nôl"
 
-#: .es5/views/ready.js:80 .es5/views/ready.js:57
+#: .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
 msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
 
-#: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
 msgstr "Mae eich cyfrinair wedi ei ailosod"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Cwblhewch y gosod drwy gynnig eich cyfrinair ar eich dyfeisiau Firefox eraill."
 
-#: .es5/views/ready.js:93 .es5/views/ready.js:70
+#: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Rydych nawr yn barod i wneud newidiadau i'ch Cyfrif Firefox."
 
-#: .es5/views/ready.js:95 .es5/views/ready.js:72
+#: .es5/views/ready.js:72
 msgid "Primary email verified"
 msgstr "Dilyswyd y prif e-bost"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:75
+#: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:100 .es5/views/ready.js:77
+#: .es5/views/ready.js:77
 msgid "Secondary email verified"
 msgstr "Dilyswyd yr ail e-bost"
 
-#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
+#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Mewngofnodi wedi ei gadarnhau"
 
-#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
-#: .es5/views/ready.js:110 .es5/views/ready.js:87
+#: .es5/views/ready.js:87
 msgid "Account verified"
 msgstr "Cyfrif wedi ei ddilysu"
 
-#: .es5/views/ready.js:115 .es5/views/ready.js:92
+#: .es5/views/ready.js:92
 msgid "Connected"
 msgstr "Wedi cysylltu"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
+#: .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76
+#: .es5/views/sign_up.js:76
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nid yw'r cyfrif yn bodoli bellach. Ei ail-greu?"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288
+#: .es5/views/sign_up.js:288
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
-#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
-#: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
+#: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Rydym yn flin i glywed am hyn. Rhaid i chi newid cyfrinair eich Cyfrif Firefox a chwilio am wybodaeth gan wneuthurwr eich dyfais am ddileu eich data o bell."
 
-#: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
+#: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
 
-#: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "Cydweddiad diwethaf %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "Cydweddiad diwethaf ers %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
+#: .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Gweithredol diwethaf %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Gweithredol ers %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Gweithredol %(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Gweithredol ers %(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Gweithredol diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Gweithredol diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
+#: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Dros %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
+#: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Dros %(translatedTimeAgo)s yn %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
+#: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Dros %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
+#: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiwn Gwe, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
+#: .es5/views/settings/clients.js:138
 msgid "Web Session"
 msgstr "Sesiwn Gwe"
 
-#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
 msgstr "Mae'r amser cydweddu diwethaf yn anhysbys"
 
-#: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
+#: .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
 msgstr "Tanysgrifiwyd yn llwyddiannus"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
-#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
+#: .es5/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "Diweddarwyd yr enw dangos"
 
-#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
+#: .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
 msgstr "Mae'r ail gyfrif e-bost wedi ei dynnu"
 
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
-#: .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "Anfonwyd yr e-bost dilysu"
 
-#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
+#: .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
 msgstr "Mae'r prif e-bost wedi ei osod i %(email)s"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
+#: .es5/views/settings/emails.js:179 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "Ail e-bost"
 
-#: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
+#: .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
 msgstr "Codau Adfer Firefox"
 
-#: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
+#: .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
 msgstr "Cynhyrchwyd codau adfer newydd"
 
-#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
+#: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
 msgstr "Mae dilysu dau gam wedi ei alluogi"
 
-#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
+#: .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Defnyddiwch y cod %(code)s i greu dilysiad dau gam yn y rhaglenni sy'n cynnal hynny."
 
-#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
 msgstr "Mae dilysu dau gam wedi ei dynnu"
 
-#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
+#: .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
 msgstr "Dilysu Dau Gam"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
+#: .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
 msgstr "Adfer Cyfrif"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
 msgstr "Galluogi adfer y cyfrif"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
+#: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
 msgstr "Analluogi adfer y cyfrif"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
+#: .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
 msgstr "Allwedd Adfer Firefox"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
 msgstr "Mae eich cyfrif wedi ei gloi am resymau diogelwch"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
-#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "Ailosod y cyfrinair"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
 msgstr "dim"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Gwiriwyd diwethaf: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
 msgstr "Agor Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
 msgstr "Agor Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
 msgstr "Agor Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
 msgstr "Agor Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "Agor Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "E-bost wedi ei ail-anfon. Ychwanegwch accounts@firefox.com i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel."
 
-#: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
 msgstr "Wedi'i gopïo"
 
-#: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
 msgstr "Wedi methu â chopi. Copïwch â llaw."
 
@@ -325,362 +321,360 @@ msgstr "Wedi methu â chopi. Copïwch â llaw."
 msgid "Downloaded"
 msgstr "Wedi ei lwytho i lawr"
 
-#: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
 msgstr "Argraffwyd"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
 msgstr "Dilyswyd y brif e-bost yn llwyddiannus"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
 msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 
-#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54
-msgid "Open tabs"
-msgstr "Agor tabiau"
-
-#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
 msgstr "Nodau Tudalen"
 
-#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62
-msgid "Add-ons"
-msgstr "Ychwanegion"
-
-#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:58
 msgid "Logins"
 msgstr "Mewngofnodion"
 
-#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:62
+msgid "Open tabs"
+msgstr "Agor tabiau"
+
+#: .es5/models/sync-engines.js:66
 msgid "History"
 msgstr "Hanes"
 
-#: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Ychwanegion"
+
+#: .es5/models/sync-engines.js:74
 msgid "Preferences"
 msgstr "Dewisiadau"
 
-#: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
+#: .es5/models/sync-engines.js:82
 msgid "Addresses"
 msgstr "Cyfeiriadau"
 
-#: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
+#: .es5/models/sync-engines.js:90
 msgid "Credit cards"
 msgstr "Cardiau credyd"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
+#: .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
 msgstr "Dilyswyd yr ail e-bost yn llwyddiannus"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
 msgstr "Mae'r cyfrinair wedi ei ailosod yn llwyddiannus"
 
-#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "Gwall anhysbys"
 
-#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Mae'r ddolen rydych newydd ei chlicio i ddilysu eich e-bost wedi dod i ben."
 
-#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach."
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
 msgstr "Tocyn annilys"
 
-#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
+#: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "Stamp amser annilys yn y llofnod cais"
 
-#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "Nonce annilys yn y llofnod cais"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
+#: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:171
 msgid "Account already exists"
 msgstr "Mae'r cyfrif yn bodoli'n barod"
 
-#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:58
 msgid "Unknown account"
 msgstr "Cyfrif anhysbys"
 
-#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
 msgstr "Maint nodau e-bost anghywir"
 
-#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "Cyfrinair anghywir"
 
-#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:70
 msgid "Unverified account"
 msgstr "Cyfrif heb ei ddilysu"
 
-#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
 msgstr "Cod dilysu annilys"
 
-#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
 msgstr "Cais JSON annilys yn y corff"
 
-#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
 msgstr "Paramedr annilys: %(param)s"
 
-#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
 msgstr "Paramedr coll: %(param)s"
 
-#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
 msgstr "Llofnod cais annilys"
 
-#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
+#: .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
 msgstr "Pennyn hyd cynnwys coll"
 
-#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
+#: .es5/lib/auth-errors.js:98
 msgid "Request body too large"
 msgstr "Corff gofyn yn rhy fawr"
 
-#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
 msgstr "Cafodd y cais ei rwystro am resymau diogelwch"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
 msgid "Invalid authorization code"
 msgstr "Cod awdurdodi annilys"
 
-#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
+#: .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
 msgstr "Rhif ffôn annilys"
 
-#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
 msgstr "Methu anfon i'r wlad hon"
 
-#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
+#: .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
 msgstr "Methu anfon neges i'r rhif yma"
 
-#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
 msgstr "Cafodd eich e-bost ei ddychwelyd"
 
-#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Cafodd eich e-bost ei ddychwelyd. E-bost wedi ei gam-deipio?"
 
-#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
 msgstr "Methu anfon yr e-bost"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
+#: .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
 msgstr "Mae'r e-bost eisoes wedi ei ddilysu gan ddefnyddiwr arall"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
 msgstr "Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
 msgstr "Rhaid defnyddio eich prif gyfrif ar gyfer mewngofnodi"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
 msgstr "Mae'r cyfeiriad yn cael ei ddefnyddio gan gyfrif arall"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
 msgstr "Mae angen defnyddio'r prif gyfrif ar gyfer ei ailosod"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
 msgstr "Cod mewngofnodi annilys"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
 msgstr "Nid oes modd i chi newid eich prif e-bost i e-bost heb ei ddilysu"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Nid oes modd newid prif e-bost i e-bost nad yw'n perthyn i'r cyfrif hwn"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
+#: .es5/lib/auth-errors.js:199
 msgid "This email can not currently be used to login"
 msgstr "Ar hyn o bryd, nid oes modd defnyddio'r e-bost hwn i fewngofnodi"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:207
 msgid "Failed to send email"
 msgstr "Methwyd anfon e-bost"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:211
 msgid "Valid code required"
 msgstr "Mae angen codi dilys"
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:215
 msgid "This verification code has expired"
 msgstr "Mae'r cod dilysu hwn wedi dod i ben"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:219
 msgid "A TOTP token already exists for this account"
 msgstr "Mae tocyn TOTP eisoes yn bodoli ar gyfer y cyfrif hwn"
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:223
 msgid "TOTP token not found"
 msgstr "Heb ganfod tocyn TOTP"
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:227
 msgid "Recovery code not found"
 msgstr "Heb ganfod y cod adfer"
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:231
 msgid "Unavailable device command"
 msgstr "Gorchymyn dyfais ddim ar gael"
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:235
 msgid "Recovery key not found"
 msgstr "Heb ganfod yr allwedd adfer"
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:239
 msgid "Invalid recovery key"
 msgstr "Allwedd adfer annilys"
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:243
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Mae angen dilysu dau gam ar eich cyfrif ar gyfer hyn."
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:247
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Methiant oherwydd ceisiadau gwrthgyferbyniol, ceisiwch eto."
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
 msgstr "Cwsmer anhysbys tanysgrifio."
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
 msgstr "Tanysgrifiad anhysbys."
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
 msgstr "Cynllun tanysgrifio anhysbys."
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
 msgstr "Tocyn talu annilys i danysgrifio."
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
+#: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
 msgstr "Mae'r gweinydd yn brysur, ceisiwch eto"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:272
 msgid "Feature not enabled"
 msgstr "Nid yw'r nodwedd wedi ei alluogi"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
-#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:280
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
 msgstr "Diddymwyd yr ymgais i fewngofnodi"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
 msgstr "Daeth y sesiwn i ben. Mewngofnodi i barhau."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
 msgstr "Mae'r cwcis wedi eu hanalluogi"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
 msgstr "Nid yw'r cyfrineiriau'n cydweddu"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:304
 msgid "Working…"
 msgstr "Gweithio…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:308
 msgid "Could not get Privacy Notice"
 msgstr "Methu estyn Hysbysiad Preifatrwydd"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:312
 msgid "Could not get Terms of Service"
 msgstr "Methu estyn yr Amodau Gwasanaeth"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
 msgstr "Rhaid i gyfrinair newydd fod yn wahanol"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:320 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Rhaid bod o leiaf 8 nod"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:324
 msgid "Valid password required"
 msgstr "Rhaid darparu cyfrinair dilys"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
 msgid "Valid email required"
 msgstr "Mae angen e-bost dilys"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
 msgstr "Nid oes delwedd ddefnyddiol wedi ei chanfod"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:344
 msgid "Could not initialize camera"
 msgstr "Methu cychwyn y camera"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
 msgstr "Mae angen URL dilys"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Rhowch gyfeiriad e-bost dilys. Nid yw firefox.com yn cynnig e-bost."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:380
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Dim ond ar wefannau cymeradwy y mae modd gosod Cyfrifon Firefox mewn IFRAME"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:400 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Rhaid i ddimensiynau'r ddelwedd fod o leiaf 100x100px"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bydd modd ymuno yn dod i Firefox iOS cyn bo hir"
 
@@ -692,199 +686,203 @@ msgstr "Mae'n rhaid i chi nodi eich oed er mwyn ymuno"
 msgid "You must enter a valid age to sign up"
 msgstr "Rhaid rhoi oed dilys er mwyn cofrestru"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
 msgstr "Nid yw'r cyfrif yn bodoli bellach."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Priodwedd annilys yn y tocyn ailgychwyn: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:452
 msgid "Missing property in resume token: %(property)s"
 msgstr "Priodwedd coll yn y tocyn ail gychwyn: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
 msgstr "Priodweddau data annilys: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
 msgstr "Priodwedd data coll: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
+#: .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:477
 msgid "This is a required field"
 msgstr "Mae hwn yn faes angenrheidiol"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:481
 msgid "Authorization code required"
 msgstr "Mae angen cod awdurdodi"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:489 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Mae'r ddolen wedi ei difrodi"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:512
 msgid "Phone number required"
 msgstr "Mae angen rhif ffôn"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
 msgstr "Mae angen cod dilysu dau gam"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:535
 msgid "Invalid two-step authentication code"
 msgstr "Cod dilysu dau gam annilys"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:539
 msgid "Recovery code required"
 msgstr "Mae angen cod adfer"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:543
 msgid "Invalid recovery code"
 msgstr "Cod adfer annilys"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:557
 msgid "Recovery key required"
 msgstr "Mae angen allwedd adfer"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:561
 msgid "Please enter verification code"
 msgstr "Rhowch god dilysu"
 
-#: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
+#: .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "Nid yw cyfrifon gyda dilysu dau gam yn cefnogi paru ar hyn o bryd"
 
-#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
+#: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "Ffurfweddiad coll"
 
-#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
+#: .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
 msgstr "Ffurfweddiad annilys"
 
-#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
+#: .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Ydych chi'n golygu <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
+#: .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
 msgstr "Ceisiwch eto'n hwyrach"
 
-#: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
+#: .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
 msgstr "Nid yw'r gwasanaeth ar gael., ceisiwch eto"
 
-#: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
+#: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
 msgstr "Cleient anhysbys"
 
-#: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri anghywir"
 
-#: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
 msgstr "Honiad annilys"
 
-#: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
 msgstr "Cod anhysbys"
 
-#: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
 msgstr "Cod anghywir"
 
-#: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
 msgstr "Cod wedi dod i ben"
 
-#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Paramedrau OAuth annilys: %(param)s"
 
-#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
 msgstr "Heb awdurdod"
 
-#: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
 msgstr "Gwaharddedig"
 
-#: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
 msgstr "Tocyn wedi dod i ben"
 
-#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:125
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto."
 
-#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
+#: .es5/lib/oauth-errors.js:145
 msgid "no message"
 msgstr "dim neges"
 
-#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
+#: .es5/lib/oauth-errors.js:149
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Paramedr OAuth coll: %(param)s"
 
-#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
+#: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
 msgstr "Neges annilys o'r ddyfais bell"
 
-#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
+#: .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
 msgstr "Gwall paru â dyfais bell"
 
-#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
+#: .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
 msgstr "Caeodd y cysylltiad â'r ddyfais pell, ceisiwch eto"
 
-#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
 
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
 msgstr "Darparwr delweddau sydd ddim yn cael ei gynnal"
 
-#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:39
 msgid "Image processing error"
 msgstr "Gwall prosesu delwedd"
 
-#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
+#: .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
 msgstr "Tocyn Annilys"
 
-#: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
-#: .es5/lib/strings.js:33 .es5/lib/strings.js:31
+#: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Cymorth</a>"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:34
+#: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Derbyniwch y newyddion diweddaraf am Mozilla a Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
-#: .es5/lib/strings.js:41 .es5/lib/strings.js:37
+#: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
 
-#: .es5/lib/strings.js:42 .es5/lib/strings.js:38
+#: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "Cyfeiriad IP: %(ip)s"
 
-#: .es5/lib/strings.js:43 .es5/lib/strings.js:39
+#: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn cydweddu gyda'r ddyfais hon:"
 
@@ -927,7 +925,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Rhowch yr allwedd adfer defnydd unwaith rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch Cyfrif Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei "
 "gydweddu fel hanes a nodau tudalen)."
@@ -1603,12 +1602,12 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr "Mae ail e-bost yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau newydd."
 
 #: .es5/templates/settings/emails.mustache:9
-msgid "verified"
-msgstr "dilyswyd"
+msgid "Verified"
+msgstr "Dilyswyd"
 
 #: .es5/templates/settings/emails.mustache:11
-msgid "verification required"
-msgstr "mae angen dilysu"
+msgid "Verification required"
+msgstr "Mae angen dilysu"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
@@ -1650,6 +1649,14 @@ msgstr "Copïo"
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Argraffu"
+
+#: .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "Tanysgrifiadau"
+
+#: .es5/templates/settings/subscription.mustache:2
+msgid "Manage…"
+msgstr "Rheoli…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1768,10 +1775,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Cam 2 o 2: Cadw Allwedd Adfer"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
-"<span class=\"note\">NOTE: </span>Os fyddwch yn anghofio eich cyfrinair, mae angen yr allwedd yma i chi gael ad-ennill mynediad i'ch data. Cadwch eich allwedd adfer mewn man diogel, lle gallwch ddod"
-" o hyd iddo'n hawdd."
+"<span class=\"note\">NOTE: </span>Os fyddwch yn anghofio eich cyfrinair, mae angen yr allwedd yma i chi gael ad-ennill mynediad i'ch data. Cadwch eich allwedd adfer mewn man diogel, lle gallwch "
+"ddod o hyd iddo'n hawdd."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1897,21 +1905,11 @@ msgstr "Paru gan ddefnyddio ap"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
 
-#: .es5/templates/settings/emails.mustache:9
-msgid "Verified"
-msgstr "Dilyswyd"
+#~ msgid "verified"
+#~ msgstr "dilyswyd"
 
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Mae angen dilysu"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Tanysgrifiadau"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Rheoli…"
+#~ msgid "verification required"
+#~ msgstr "mae angen dilysu"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s wedi eu cofrestri."
@@ -2049,7 +2047,8 @@ msgstr "Rheoli…"
 #~ msgstr "Mae angen cwcis a storfa leol."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ msgstr ""
+#~ "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Gwasanaethau cwmwl Firefox"
@@ -2106,18 +2105,19 @@ msgstr "Rheoli…"
 #~ msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a bydd"
-#~ " popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
+#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a "
+#~ "bydd popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi ei "
-#~ "gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un ddyfais."
+#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi "
+#~ "ei gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un "
+#~ "ddyfais."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2222,18 +2222,18 @@ msgstr "Rheoli…"
 #~ msgstr "Mewngofnodi"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>COFIWCH:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
+#~ "<span>COFIWCH:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn "
+#~ "amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>SYLWC:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
+#~ "<span>SYLWC:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn "
+#~ "amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan un o'r <a %(escapedTotpSupportAttributes)s>apiau dilysu hyn.</a>"
@@ -2332,11 +2332,11 @@ msgstr "Rheoli…"
 #~ msgstr "A oes gennych gyfrif gydag e-bost gwahanol? <a href=\"%(signinUri)s\">Mewngofnodi</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Dileu"
@@ -2506,7 +2506,8 @@ msgstr "Rheoli…"
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
+#~ msgstr ""
+#~ "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Mae Firefox yn dod i iOS cyn bo hir!"
@@ -2647,7 +2648,8 @@ msgstr "Rheoli…"
 #~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ msgstr ""
+#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
