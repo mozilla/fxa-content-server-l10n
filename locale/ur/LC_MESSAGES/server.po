@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-05-19 10:31+0000\n"
+"PO-Revision-Date: 2019-05-19 10:32+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "تازہ ترین ڈاؤن لوڈ کریں"
 
 #~ msgid "Please activate your account by confirming this email address."
 #~ msgstr "براہ مہربانی اپنے اکاؤنٹ کو چالو کرنے کے لِئے اس ای میل کے پتہ کی تصدیق کریں۔"
