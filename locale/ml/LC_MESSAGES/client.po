@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-04-27 06:50+0000\n"
-"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
+"PO-Revision-Date: 2019-05-15 07:37+0000\n"
+"Last-Translator: Serin Tony <serintony@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,9 @@ msgstr "ഞങ്ങൾക്ക് ഖേദമുണ്ട്. നിങ്ങ
 
 #: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
+msgstr ""
+"ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ "
+"രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
 
 #: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
@@ -132,7 +134,7 @@ msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeA
 
 #: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
 
 #: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -140,7 +142,7 @@ msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാ
 
 #: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
 
 #: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -148,7 +150,7 @@ msgstr "ഒടുവില്‍ സജ്ജീവമായിരുന്ന�
 
 #: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ഒടുവില്‍ സജ്ജീവമായിരുന്നത് %(translatedTimeAgo)s ന് മുമ്പായിരുന്നു"
 
 #: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -860,9 +862,7 @@ msgid "Invalid Token"
 msgstr "അസാധുവായ ടോക്കൺ"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
@@ -928,8 +928,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ട് വീണ്ടെടുക്കുന്നതിന് ഒരു സുരക്ഷിത സ്ഥലത്ത് നിങ്ങൾ ശേഖരിച്ച ഒരു വീണ്ടെടുക്കൽ കീ സൂക്ഷിയ്ക്കുക."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1756,8 +1755,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
