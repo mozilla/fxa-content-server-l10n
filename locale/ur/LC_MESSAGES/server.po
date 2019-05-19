@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2018-10-09 15:42+0000\n"
-"Last-Translator: Md Shahbaz Alam <shahbazalam17feb@gmail.com>\n"
+"PO-Revision-Date: 2019-05-19 10:31+0000\n"
+"Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
@@ -428,11 +428,11 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
-msgstr ""
+msgstr "ای میل کی توثیق کریں"
 
 #: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
 msgid "Confirm email:"
-msgstr ""
+msgstr "ای میل کی توثیق کریں:"
 
 #: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
 msgid "Still there?"
@@ -726,8 +726,7 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
