@@ -51,9 +51,9 @@ case $param in
 esac
 done
 
-if [[ ! $1 =~ ^[0-9]+$ ]]; then
-    usage;
-fi
+#if [[ ! $1 =~ ^[0-9]+$ ]]; then
+    #usage;
+#fi
 
 TRAIN_NUMBER=$1
 
