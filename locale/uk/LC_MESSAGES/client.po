@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 17:21+0000\n"
+"POT-Creation-Date: 2019-05-20 21:14+0000\n"
 "PO-Revision-Date: 2019-04-30 06:57+0000\n"
 "Last-Translator: Artem Polivanchuk <artem@mozilla.org.ua>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,8 @@ msgstr "Пароль успішно скинуто. Увійдіть для пр
 #. header text
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
-#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44
+#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:9
 msgid "Sign in"
 msgstr "Увійти"
 
@@ -99,11 +100,11 @@ msgstr "З'єднано"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Невідомий обліковий запис. <a href=\"/signup\">Зареєструватись</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
 msgid "Account no longer exists. Recreate it?"
 msgstr "Обліковий запис більше не існує. Повторно створити його?"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288
+#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Обліковий запис вже існує. <a href=\"/signin\">Увійти</a>"
 
@@ -337,23 +338,23 @@ msgstr "Основна адреса електронної пошти успіш
 msgid "Account verified successfully"
 msgstr "Обліковий запис успішно перевірено"
 
-#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54
+#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62
 msgid "Open tabs"
 msgstr "Відкриті вкладки"
 
-#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62
+#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
 msgid "Add-ons"
 msgstr "Додатки"
 
-#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58
 msgid "Logins"
 msgstr "Паролі"
 
-#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66
 msgid "History"
 msgstr "Історія"
 
@@ -922,7 +923,8 @@ msgstr "Відновити пароль за допомогою ключа"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
+#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
 msgid "Continue to %(serviceName)s"
 msgstr "Продовжити в %(serviceName)s"
 
@@ -959,19 +961,20 @@ msgstr "Ви повинні відповідати віковим вимогам
 msgid "Learn more"
 msgstr "Дізнатись більше"
 
-#: .es5/templates/choose_what_to_sync.mustache:1
+#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
 msgid "%(email)s registered"
 msgstr "%(email)s зареєстровано"
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Виберіть що синхронізувати"
 
-#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24
 msgid "Save selections"
 msgstr "Зберегти вибране"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19
 msgid "Back"
 msgstr "Назад"
 
@@ -1031,24 +1034,25 @@ msgstr "Клацніть тут щоб отримати нове посилан�
 msgid "Verification error"
 msgstr "Помилка підтвердження"
 
-#: .es5/templates/confirm.mustache:1
+#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6
 msgid "Confirm your account"
 msgstr "Підтвердження облікового запису"
 
-#: .es5/templates/confirm.mustache:3
+#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8
 msgid "Confirm this sign-in"
 msgstr "Підтвердіть цей вхід"
 
-#: .es5/templates/confirm.mustache:5
+#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Знайдіть лист з посиланням для підтвердження, надісланий на %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Знайдіть лист з посиланням для підтвердження входу, надісланий на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
+#: .es5/templates/confirm.mustache:18
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Немає у вхідних чи у спамі? Надіслати ще раз"
 
@@ -1064,7 +1068,7 @@ msgstr "Перейдіть за посиланням, надісланим на 
 msgid "Connect another device"
 msgstr "Під'єднати інший пристрій"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
 msgstr "Цей Firefox під'єднано"
 
@@ -1073,6 +1077,7 @@ msgid "Email verified"
 msgstr "Адресу електронної пошти підтверджено"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
 msgid "Success"
 msgstr "Успішно"
 
@@ -1081,6 +1086,7 @@ msgid "Sign in to this Firefox to complete set-up"
 msgstr "Увійдіть в Firefox на цьому пристрої для завершення налаштування"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
+#: .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
 msgstr "Все ще додаєте пристрої?"
 
@@ -1100,7 +1106,7 @@ msgstr "Увійдіть в Firefox для Android, щоб завершити н
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Увійдіть в Firefox для iOS, щоб завершити налаштування"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11
+#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
 msgstr "Чому потрібно більше, ніж один пристрій?"
 
@@ -1116,34 +1122,38 @@ msgstr "Будь ласка, увімкніть в своєму браузері
 msgid "Try again"
 msgstr "Спробувати знову"
 
-#: .es5/templates/force_auth.mustache:4
+#: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
 msgstr "Увійти для продовження"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
 msgid "Password"
 msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in_password.mustache:11
 msgid "Forgot password?"
 msgstr "Забули пароль?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням про приватність</a>."
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
 msgstr "Адреса електронної пошти"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
+#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
 msgid "Email"
 msgstr "Електронна пошта"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9
 msgid "Continue"
 msgstr "Продовжити"
 
@@ -1247,11 +1257,11 @@ msgid "Sign out"
 msgstr "Вийти"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
 msgid "Use a different account"
 msgstr "Використати інший обліковий запис"
 
-#: .es5/templates/sign_in.mustache:14
+#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16
 msgid "Create an account"
 msgstr "Створити обліковий запис"
 
@@ -1335,80 +1345,81 @@ msgstr "Знайдіть лист з кодом авторизації, наді
 msgid "Enter authorization code"
 msgstr "Введіть код авторизації"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up.mustache:3
+#: .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Створення облікового запису Firefox"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
 msgid "Repeat password"
 msgstr "Повторити пароль"
 
-#: .es5/templates/sign_up.mustache:10
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Збережіть цей пароль. При його скиданні ви можете втратити синхронізовані дані."
 
-#: .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
 "<span>Не використовуйте пароль від своєї електронної пошти</span>Якщо хтось знає ваш пароль електронної пошти, він може скористатися ним для входу на новому пристрої й отримати доступ до ваших "
 "даних."
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Запам'ятайте свій пароль</span>Якщо вам знадобиться скинути пароль, ви втратите будь-які синхронізовані дані, яких немає на вашому пристрої."
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Отримайте останні новини про Mozilla і Firefox"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
 msgstr "Створити обліковий запис"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23
 msgid "Have an account? Sign in"
 msgstr "Маєте обліковий запис? Увійдіть"
 
-#: .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "Mistyped email?"
 msgstr "Помилились при введенні адреси електронної пошти?"
 
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Відправте Firefox прямо на свій смартфон та увійдіть для завершення налаштування"
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
 msgstr "Номер мобільного телефону"
 
-#: .es5/templates/sms_send.mustache:9
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
 msgid "Send"
 msgstr "Надіслати"
 
-#: .es5/templates/sms_send.mustache:10
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Послуга SMS доступна тільки в певних країнах. За SMS і передачу даних може стягуватися плата. Одержувач електронного листа або SMS повинен погодитися на його отримання. <a "
 "%(escapedLearnMoreAttributes)s>Детальніше</a>"
 
-#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Встановіть Firefox на свій смартфон та увійдіть для завершення налаштування"
 
-#: .es5/templates/sms_sent.mustache:2
+#: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "Посилання на програму надіслано на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Неправильний&nbsp;номер?</a>"
 
-#: .es5/templates/sms_sent.mustache:3
+#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "Посилання на програму повторно надіслано на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Неправильний&nbsp;номер?</a>"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "Якщо ви не отримали текстове повідомлення, ви можете також завантажити програму власноруч."
 
-#: .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
 msgstr "Не прийшов? Надіслати повторно"
 
@@ -1917,6 +1928,126 @@ msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Get the most out of your account"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:8
+msgid "Sync these everywhere you sign in"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:12
+msgid "Practical knowledge is coming to your inbox"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:13
+msgid "Sign up for more:"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:15
+msgid "Be safer and smarter online"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:17
+msgid "Invite me to test new Mozilla products"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:19
+msgid "Take action to keep the internet healthy"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:4
+msgid "One last step"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:10
+msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
+msgid "Create your Firefox account"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:8
+msgid "Change email"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:1
+msgid "You did it! You’re signed in."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:7
+msgid "Now get Firefox everywhere else."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:8
+msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+msgid "Why sign in on another device?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+msgid "Start browsing"
+msgstr ""
+
+#: .es5/templates/sms_sent.mustache:1
+msgid "Check your texts"
+msgstr ""
+
+#: .es5/templates/sms_sent.mustache:5
+msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+msgstr ""
+
+#: .es5/templates/sms_sent.mustache:6
+msgid "Wrong number?"
+msgstr ""
+
+#: .es5/templates/sms_sent.mustache:7
+msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Get more from these features:"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:2
+msgid "Firefox browser"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Travel the internet with protection, on every device."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Firefox Lockwise"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Keep your passwords protected and portable."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Firefox Monitor"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Get a lookout for data breaches."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Send"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Share large files without prying eyes."
 msgstr ""
 
 #~ msgid "%(email)s registered."
