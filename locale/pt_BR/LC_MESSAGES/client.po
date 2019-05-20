@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 17:21+0000\n"
-"PO-Revision-Date: 2019-05-10 17:46+0000\n"
+"PO-Revision-Date: 2019-05-20 18:09+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1049,7 +1049,7 @@ msgstr "Confira em seu e-mail o link de confirmação de cadastro enviada para %
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Não está em sua caixa de entrada ou pasta de spam? Reenvie"
+msgstr "Não chegou em sua caixa de entrada ou pasta de spam? Reenvie"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1606,7 +1606,7 @@ msgstr "verificado"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
-msgstr "verificação necessária"
+msgstr "enviado e-mail de verificação"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
