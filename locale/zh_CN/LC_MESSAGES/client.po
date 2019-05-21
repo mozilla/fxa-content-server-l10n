@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 13:47+0000\n"
+"PO-Revision-Date: 2019-05-21 14:08+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1923,7 +1923,7 @@ msgstr "将实用小知识推送给您"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "注册后可享更多功能："
 
 #: .es5/templates/choose_what_to_sync.mustache:15
 msgid "Be safer and smarter online"
@@ -1971,7 +1971,7 @@ msgstr "登录您的其他设备，即可获取 Firefox 的完整产品内容、
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr "为什么要登录其他设备？"
+msgstr "为什么要在其他设备登录？"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
@@ -1995,7 +1995,7 @@ msgstr "若您未收到短信，也可以到应用商店搜索“Firefox”。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "从这些功能获得更多帮助："
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2003,7 +2003,7 @@ msgstr "Firefox 浏览器"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "在每一台设备都提供隐私保护功能。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2011,7 +2011,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "保护密码，又可随身携带。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2027,7 +2027,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "安全地分享大文件。"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s 已注册。"

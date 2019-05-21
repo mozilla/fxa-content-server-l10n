@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 03:43+0000\n"
+"PO-Revision-Date: 2019-05-21 13:59+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -393,11 +393,11 @@ msgstr "欢迎来到 Firefox 大家庭"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "您已登录，可安全地开始探索。"
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "现在到其他设备上登录，发挥 Firefox 的最大功能。"
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -445,11 +445,11 @@ msgstr "如果不是，请帮助我们防范入侵者，向我们报告此事例
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "几天前您创建了 Firefox 账户，但未进行确认。"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "请立即确认，即可获取为您的隐私而战的相关技术、实用知识以及您应得的尊重。"
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -569,11 +569,11 @@ msgstr "在您确认后，我们将帮助您在其他设备上安装和连接 Fi
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "激活 Firefox 系列产品"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "确认您的账户，即可在任何登录的设备中，发挥 Firefox 的最大功能。"
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
