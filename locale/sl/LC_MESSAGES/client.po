@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 09:49+0000\n"
+"PO-Revision-Date: 2019-05-21 10:50+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1988,15 +1988,15 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
-msgstr ""
+msgstr "Začnite z brskanjem"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Preverite sporočila"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Povezava do aplikacije Firefox je bila poslana na %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
