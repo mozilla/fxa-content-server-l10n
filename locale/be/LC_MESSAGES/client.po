@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 17:36+0000\n"
+"PO-Revision-Date: 2019-05-21 18:31+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1853,11 +1853,11 @@ msgstr "Прылада злучана"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Вы зараз сінхранізуецеся з:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "Кіраваць прыладамі"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
@@ -1877,7 +1877,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Паказаць код"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
