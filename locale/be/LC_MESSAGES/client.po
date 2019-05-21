@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 18:31+0000\n"
+"PO-Revision-Date: 2019-05-21 19:01+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1905,19 +1905,19 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "Verified"
-msgstr ""
+msgstr "Пацверджана"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr ""
+msgstr "Патрабуецца пацверджанне"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Падпіскі"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
-msgstr ""
+msgstr "Кіраванне…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
@@ -1949,7 +1949,7 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:4
 msgid "One last step"
-msgstr ""
+msgstr "Апошні крок"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
@@ -1961,11 +1961,11 @@ msgstr ""
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Стварыць уліковы запіс Firefox"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "Змяніць эл.пошту"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
@@ -1985,7 +1985,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
-msgstr ""
+msgstr "Пачаць агляданне"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
