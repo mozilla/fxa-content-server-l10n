@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 09:27+0000\n"
+"PO-Revision-Date: 2019-05-21 11:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -587,11 +587,11 @@ msgstr "Aktiválja a Firefox termékcsaládot"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Erősítse meg fiókját, és hozza ki a lehető legtöbbet a Firefoxból mindenhol, ahol bejelentkezik."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "E-mail cím megerősítése "
 
 #: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -627,11 +627,11 @@ msgstr "Erősítse meg az e-mail címét, és kezdjen szinkronizálni!"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "A fiókja létrehozásának befejezése"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Emlékeztető: Fejezze be a fiókja létrehozását"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -671,7 +671,7 @@ msgstr "Firefox fiók ellenőrizve"
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "A Firefox-fiókja meg lett erősítve"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
