@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 11:05+0000\n"
+"PO-Revision-Date: 2019-05-21 11:13+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -463,7 +463,7 @@ msgstr "Néhány napja létrehozott egy Firefox-fiókot, de azt nem erősítette
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Erősítse meg most, és kapjon olyan technológiát, amely megvédi és küzd az adatvédelméért, felvértezi gyakorlati ismeretekkel, és megadja az Önnek járó tiszteletet."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
