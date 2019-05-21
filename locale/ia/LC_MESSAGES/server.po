@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 00:31+0000\n"
+"PO-Revision-Date: 2019-05-21 00:50+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -167,7 +167,7 @@ msgstr "Le contrasigno de tu conto Firefox ha essite cambiate ab le dispositivo 
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Isto es un email automatic; si tu non autorisa iste action, tunc <a %(resetLinkAttributes)s>per favor remonta tu contrasigno</a>."
+msgstr "Isto es un message automatic; si tu non ha autorisate iste action, per favor <a %(resetLinkAttributes)s>reinitialisa tu contrasigno</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -584,11 +584,11 @@ msgstr "Activar le familia de productos Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu te authentica."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "Confirmar e-mail "
 
 #: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -624,11 +624,11 @@ msgstr "Confirma tu e-mail e comencia a synchronisar!"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Finir le creation del conto"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Rememoration: Fini le creation de tu conto"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -668,7 +668,7 @@ msgstr "Conto Firefox verificate"
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Tu conto de Firefox es confirmate"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"

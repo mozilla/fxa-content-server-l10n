@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 00:23+0000\n"
+"PO-Revision-Date: 2018-05-26 15:44+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -57,7 +57,7 @@ msgstr "Firefox Sync reprendera tosto"
 
 #: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr "Tu contrasigno ha essite restabilite"
+msgstr "Tu contrasigno ha essite reinitialisate"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -281,7 +281,7 @@ msgstr "Tu conto ha essite blocate per rationes de securitate"
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr "Remontar le contrasigno"
+msgstr "Reinitialisar le contrasigno"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
@@ -341,7 +341,7 @@ msgstr "Conto verificate con successo"
 
 #: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62
 msgid "Open tabs"
-msgstr "Schedas aperite"
+msgstr "Schedas aperte"
 
 #: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -390,7 +390,7 @@ msgstr "Error inexpectate"
 
 #: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu email es expirate."
+msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu email ha expirate."
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -474,7 +474,7 @@ msgstr "Numero de telephono invalide"
 
 #: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
-msgstr "Il non se pote inviar a iste pais"
+msgstr "Impossibile inviar a iste pais"
 
 #: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
@@ -494,15 +494,15 @@ msgstr "Incapace de livrar le email"
 
 #: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
-msgstr "Iste email ha ja essite verificate per altere usator"
+msgstr "Iste email ha ja essite verificate per un altere usator"
 
 #: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
-msgstr "Le adresse email secundari debe esser differente del adresse email de tu conto"
+msgstr "Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto"
 
 #: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
-msgstr "Le adresse email primari del conto es necessari pro authenticar se"
+msgstr "Le adresse de e-mail primari del conto es necessari pro authenticar se"
 
 #: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
@@ -510,7 +510,7 @@ msgstr "Adresse in uso per altere conto"
 
 #: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
-msgstr "Le adresse email primari del conto es necessari pro remontar"
+msgstr "Le adresse de e-mail primari del conto es necessari pro reinitialisar"
 
 #: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
@@ -604,7 +604,7 @@ msgstr "Systema indisponibile, retenta plus tarde"
 
 #: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
 msgid "This endpoint is no longer supported"
-msgstr "Iste extremitate non es plus admittite"
+msgstr "Iste dispositivo de usator non es plus supportate"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
@@ -660,7 +660,7 @@ msgstr "Impossibile initialisar le camera"
 
 #: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
-msgstr "Il necessita URL valide"
+msgstr "Il es necesse un URL valide"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
@@ -680,7 +680,7 @@ msgstr "Ligamine de verification damnificate"
 
 #: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
-msgstr "Le dimensiones del imagine debe ser al minus de 100x100px"
+msgstr "Le dimensiones del imagine debe esser al minus 100x100px"
 
 #: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
@@ -696,7 +696,7 @@ msgstr "Tu debe inserer un etate valide pro authenticar te"
 
 #: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
-msgstr "Ce conto non existe plus."
+msgstr "Iste conto non existe plus."
 
 #: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
@@ -708,15 +708,15 @@ msgstr "Proprietate mancante in le token de reprisa: %(property)s"
 
 #: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
-msgstr "Attributo datos invalide: %(property)s"
+msgstr "Attributo de datos invalide: %(property)s"
 
 #: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
-msgstr "Attributo datos mancante: %(property)s"
+msgstr "Attributo de datos mancante: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "Ille ligamine de confirmation era ja usate, e pote ser usate solo un vice."
+msgstr "Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice."
 
 #: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
 msgid "This is a required field"
@@ -724,7 +724,7 @@ msgstr "Iste campo es necessari"
 
 #: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
 msgid "Authorization code required"
-msgstr "Il es necessari le codice de autorisation"
+msgstr "Es necessari un codice de autorisation"
 
 #: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
 msgid "Link damaged"
@@ -732,7 +732,7 @@ msgstr "Ligamine damnificate"
 
 #: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
 msgid "Phone number required"
-msgstr "Il es necessari le numero de telephono"
+msgstr "Es necessari un numero de telephono"
 
 #: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
@@ -852,11 +852,11 @@ msgstr "Parametro invalide in le corpore del requesta: %(param)s"
 
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
-msgstr "Providitor de imagine non gerite"
+msgstr "Fornitor de imagines non supportate"
 
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
 msgid "Image processing error"
-msgstr "Error de processo imagine"
+msgstr "Error de processamento de imagines"
 
 #: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
@@ -906,11 +906,11 @@ msgstr "Guai, qualcosa ha fallite. Nos ha recipite notification e va tosto repar
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Ligamine pro remontar le contrasigno expirate"
+msgstr "Le ligamine pro reinitialisar le contrasigno ha expirate"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Le ligamine su re qual tu ha cliccate pro remontar tu contrasigno ha expirate."
+msgstr "Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -925,7 +925,7 @@ msgstr "Restabilir le contrasigno con le clave de recuperation"
 #: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
 msgid "Continue to %(serviceName)s"
-msgstr "Tu continuara a %(serviceName)s"
+msgstr "Continuar a %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
@@ -967,7 +967,7 @@ msgstr "%(email)s registrate"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20
 msgid "Choose what to sync"
-msgstr "Elige que synchronisar"
+msgstr "Elige lo que synchronisar"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24
 msgid "Save selections"
@@ -980,7 +980,7 @@ msgstr "Retro"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "Ligamine pro remontar le contrasigno damnate"
+msgstr "Ligamine pro reinitialisar contrasigno damnificate"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1108,11 +1108,11 @@ msgstr "Authentica te a Firefox pro iOS pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
-msgstr "Proque es requirite plus de un dispositivo?"
+msgstr "Proque es necessari plus de un dispositivo?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr "Le cookies e le immagazinage local es requirite"
+msgstr "Le cookies e le immagazinage local es necessari"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1193,7 +1193,7 @@ msgstr "Requesta de permission"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s vole the sequente informationes ex tu conto:"
+msgstr "%(serviceName)s vole haber le sequente informationes de tu conto:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
@@ -1234,7 +1234,7 @@ msgstr "Reporto de activitate"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr "Que occurre?"
+msgstr "Proque occurre isto?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1246,7 +1246,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr "Comenciar remontar"
+msgstr "Comenciar reinitialisation"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1267,7 +1267,7 @@ msgstr "Crea un conto"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Conto blocate, nos regretta."
+msgstr "Regrettabilemente, tu conto ha essite blocate."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1419,7 +1419,7 @@ msgstr "Si tu non recipe le message de texto, tu pote etiam discargar manualment
 
 #: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
-msgstr "Non arriva? Reinvio"
+msgstr "Non ha arrivate? Reinviar"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1461,16 +1461,16 @@ msgstr "Camera"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr "Clarar"
+msgstr "Rader"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
-msgstr "Facte"
+msgstr "Facite"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Pone in loco e rota tu photo como besonia"
+msgstr "Positiona e rota tu imagine como necessari"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
@@ -1482,7 +1482,7 @@ msgstr "Un vice terminate, usa tu nove contrasigno pro authenticar te in tote tu
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr "Vetere contrasigno"
+msgstr "Ancian contrasigno"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1490,7 +1490,7 @@ msgstr "Disconnecter se de Sync?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Tu datos de navigation restara in %(deviceName)s, ma illo non sera plus sync con tu conto."
+msgstr "Tu datos de navigation restara in %(deviceName)s, ma illo non plus essera synchronisate con tu conto."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1502,7 +1502,7 @@ msgstr "Apparato perdite o robate"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr "Apparato obsolete"
+msgstr "Apparato obsolete o reimplaciate"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
@@ -1510,7 +1510,7 @@ msgstr "Apparato duplicate"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr "Nulle commento"
+msgstr "Prefere non dicer"
 
 #: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
@@ -1518,7 +1518,7 @@ msgstr "Disconnecter"
 
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr "Disconnectite con bon successo"
+msgstr "Disconnexion succedite"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
