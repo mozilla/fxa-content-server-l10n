@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 03:47+0000\n"
+"PO-Revision-Date: 2019-05-21 13:47+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1911,7 +1911,7 @@ msgstr "管理…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "更有效地用好您的账户"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
@@ -1919,7 +1919,7 @@ msgstr "随处登录进行同步"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "将实用小知识推送给您"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
@@ -1927,7 +1927,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:15
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "上网更智能、更安全"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
@@ -1935,7 +1935,7 @@ msgstr "邀请我测试 Mozilla 的新产品"
 
 #: .es5/templates/choose_what_to_sync.mustache:19
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "采取行动保持互联网健康"
 
 #: .es5/templates/confirm.mustache:4
 msgid "One last step"
@@ -1967,11 +1967,11 @@ msgstr "为其他设备安装 Firefox。"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "登录您的其他设备，即可获取 Firefox 的完整产品内容、实用小知识以及隐私保护功能。"
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "为什么要登录其他设备？"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
@@ -2019,7 +2019,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "检查是否发生数据外泄事件。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
