@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-20 23:51+0000\n"
+"PO-Revision-Date: 2019-05-21 00:10+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1960,51 +1960,51 @@ msgstr "Un ultime passo"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Usa le ligamine de confirmation que nos ha inviate a %(escapedEmail)s pro comenciar."
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Authenticar te <span class=\"service\">a tu conto de Firefox</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Crear tu conto de Firefox"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "Cambiar adresse de e-mail"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Multo bon! Tu te ha authenticate."
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Ora obtene Firefox ubique."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Authentica te sur tu altere dispositivos pro beneficiar de tote le productos, cognoscentias e functiones de vita private de Firefox."
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Proque authenticar te sur un altere dispositivo?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
-msgstr ""
+msgstr "Comenciar a navigar"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Reguarda tu messages de texto"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Un ligamine al app de Firefox ha essite inviate a %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "Mal numero?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
