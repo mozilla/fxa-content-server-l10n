@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2018-05-26 15:44+0000\n"
+"PO-Revision-Date: 2019-05-21 00:53+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -37,7 +37,7 @@ msgstr "%(permissionName)s (obligatori)"
 
 #: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Adresse email"
+msgstr "Adresse de e-mail"
 
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
 msgid "Display name"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 00:50+0000\n"
+"PO-Revision-Date: 2019-05-21 00:52+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -171,7 +171,7 @@ msgstr "Isto es un message automatic; si tu non ha autorisate iste action, per f
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Isto es un email automatic; si tu non ha cambiate le contrasigno de tu conto Firefox, tu deberea remontar lo immediatemente in %(resetLink)s"
+msgstr "Isto es un message automatic; si tu non ha cambiate le contrasigno de tu conto Firefox, tu deberea reinitialisar lo immediatemente a %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
@@ -512,7 +512,7 @@ msgstr "Verifica tu adresse de e-mail pro finir le registration de tu conto Fire
 
 #: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
-msgstr "Activar subito:"
+msgstr "Activar ora:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
