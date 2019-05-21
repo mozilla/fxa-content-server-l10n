@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-20 22:28+0000\n"
+"PO-Revision-Date: 2019-05-21 17:12+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1924,11 +1924,11 @@ msgstr "Gerenciar…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "Tire o máximo proveito de sua conta"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "Sincronize isso em todo lugar que você acessar"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
@@ -1940,11 +1940,11 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:15
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Fique mais seguro e esperto online"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr ""
+msgstr "Me convidar para testar novos produtos da Mozilla"
 
 #: .es5/templates/choose_what_to_sync.mustache:19
 msgid "Take action to keep the internet healthy"
@@ -1968,7 +1968,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "Alterar e-mail"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
@@ -1996,11 +1996,11 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Um link para o app Firefox foi enviado para %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "Número errado?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -2012,11 +2012,11 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Navegador Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Viaje na internet com proteção, em qualquer dispositivo."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2024,7 +2024,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Mantenha suas senha protegidas e portáveis."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2040,7 +2040,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Compartilhe arquivos grandes, livre de intrometidos."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrado."
