@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 00:52+0000\n"
+"PO-Revision-Date: 2019-05-21 21:34+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -179,7 +179,7 @@ msgstr "Le contrasigno de tu conto ha essite cambiate"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Il essera necesse que tu insere tu nove contrasigno sur alie apparatos pro resumer le synchronisation."
+msgstr "Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
