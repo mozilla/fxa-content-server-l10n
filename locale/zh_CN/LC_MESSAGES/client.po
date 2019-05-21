@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 03:42+0000\n"
+"PO-Revision-Date: 2019-05-21 03:47+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1943,11 +1943,11 @@ msgstr "最后一步"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "请到 %(escapedEmail)s 确认电子邮件地址，我们就可即刻启程！"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "请登录<span class=\"service\">您的 Firefox 账户</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"

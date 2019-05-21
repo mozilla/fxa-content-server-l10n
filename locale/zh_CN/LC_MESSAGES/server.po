@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 03:14+0000\n"
+"PO-Revision-Date: 2019-05-21 03:43+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -613,11 +613,11 @@ msgstr "确认您的邮箱并开始同步！"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "账户创建完成"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "提醒: 请完成账户创建"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
