@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 17:21+0000\n"
+"PO-Revision-Date: 2019-05-21 17:36+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1932,7 +1932,7 @@ msgstr "Sincronize isso em todo lugar que você acessar"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "Conhecimento prático está indo para sua caixa de entrada"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
@@ -1952,7 +1952,7 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:4
 msgid "One last step"
-msgstr ""
+msgstr "Uma última etapa"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
