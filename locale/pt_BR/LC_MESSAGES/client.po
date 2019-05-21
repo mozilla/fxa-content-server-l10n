@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 17:12+0000\n"
+"PO-Revision-Date: 2019-05-21 17:21+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1960,11 +1960,11 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Entre na <span class=\"service\">sua Conta Firefox</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Crie sua Conta Firefox"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
@@ -2004,7 +2004,7 @@ msgstr "Número errado?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Se não estiver recebendo a mensagem SMS, também pode procurar “Firefox” no instalador de aplicativos."
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
