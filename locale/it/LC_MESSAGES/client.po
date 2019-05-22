@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-22 05:35+0000\n"
+"PO-Revision-Date: 2019-05-22 05:38+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1967,7 +1967,7 @@ msgstr "Un ultimo passo"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Controlla se hai ricevuto il link di conferma all’indirizzo %(escapedEmail)s e sei pronto per partire."
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
@@ -2007,11 +2007,11 @@ msgstr "Controlla i tuoi SMS"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Un link all’app di Firefox è stato inviato a %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "Numero sbagliato?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -2035,7 +2035,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Mantieni le tue password al sicuro e portale sempre con te."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
