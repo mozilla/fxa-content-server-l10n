@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-22 22:31+0000\n"
+"PO-Revision-Date: 2019-05-22 22:50+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1865,7 +1865,7 @@ msgstr "Kenuk'samajïx taq okisab'äl"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Rajowaxik naya' q'ij <small>pa ri ch'aqa' chik awokisab'al</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1877,15 +1877,15 @@ msgstr "Xk'is ri runuk'ulem."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Tijaq ri tz'ajwachib'äl b'itz'ib' pa ruchokoy Firefox richin natz'ajwachib'ej ri b'itz'ib'."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Tik'ut b'itz'ib'"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Tik'ul Chokoy"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1893,11 +1893,11 @@ msgstr "Ütz xok."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Tijikib'äx okem <small> richin %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Tijikib'äx okem"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
@@ -1909,19 +1909,19 @@ msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun rucho
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "Verified"
-msgstr ""
+msgstr "Xjikib'äx"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr ""
+msgstr "xrajo' jikib'anïk"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Kitz'ib'axik b'i'aj"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
-msgstr ""
+msgstr "Tisamajïx…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
