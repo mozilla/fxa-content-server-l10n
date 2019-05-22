@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 17:35+0000\n"
+"PO-Revision-Date: 2019-05-22 20:16+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -37,7 +37,7 @@ msgstr "Conecte outro dispositivo"
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
-msgstr "Identifique-se no Sync"
+msgstr "Entrar no Sync"
 
 #: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
@@ -385,7 +385,7 @@ msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua Conta Firef
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Identifique-se no Sync:"
+msgstr "Entrar no Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1
 msgid "Secondary email added"
