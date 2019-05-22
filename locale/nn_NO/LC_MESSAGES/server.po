@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-22 20:01+0000\n"
+"PO-Revision-Date: 2019-05-22 21:14+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -414,11 +414,11 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Kople til ei anna eining:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Har du spørsmål? Gå til %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
