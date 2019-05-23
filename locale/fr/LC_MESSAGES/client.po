@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 11:51+0000\n"
+"PO-Revision-Date: 2019-05-23 16:50+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Une navigation protégée sur tous vos appareils."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2034,7 +2034,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Des mots de passe sûrs qui vous suivent partout."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2042,7 +2042,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Des alertes en cas de fuite de données."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
@@ -2050,7 +2050,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Un outil sécurisé pour le partage de fichiers volumineux."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s enregistré."
