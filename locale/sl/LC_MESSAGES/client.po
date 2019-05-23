@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 10:50+0000\n"
+"PO-Revision-Date: 2019-05-23 06:09+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Ustvarite Firefox Račun"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
