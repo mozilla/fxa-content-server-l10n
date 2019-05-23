@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 16:46+0000\n"
+"PO-Revision-Date: 2019-05-23 12:11+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1926,19 +1926,19 @@ msgstr "Zarządzaj…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "W pełni wykorzystaj swoje konto"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "Synchronizuj wszędzie, gdzie się zalogujesz"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "Praktyczna wiedza w Twojej skrzynce odbiorczej"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "Zapisz się po więcej:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15
 msgid "Be safer and smarter online"
