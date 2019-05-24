@@ -66,10 +66,10 @@ check_folder $L10N_DIR
 
 set -x
 
-(cd $MAILER_DIR && rm -f server.pot && grunt l10n-extract)
+(cd $MAILER_DIR && rm -f server.pot && npx grunt l10n-extract)
 cp $MAILER_DIR/server.pot $CONTENT_DIR/locale/templates/LC_MESSAGES/
 
-(cd $CONTENT_DIR && grunt l10n-extract)
+(cd $CONTENT_DIR && npx grunt l10n-extract)
 cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 
 # see https://github.com/mozilla/zippy/blob/180f746cd84cb3e409c76649e810485acb4512dc/locale/omg_new_l10n.sh#L90
