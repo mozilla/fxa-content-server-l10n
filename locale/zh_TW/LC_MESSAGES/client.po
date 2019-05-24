@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 21:14+0000\n"
+"POT-Creation-Date: 2019-05-24 18:42+0000\n"
 "PO-Revision-Date: 2019-05-21 03:33+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,310 +15,305 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444361176.0\n"
 
-#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "已重設密碼"
 
-#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
 msgstr "成功重設密碼，請登入以繼續。"
 
 #. submit button
-#. header text
-#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
-#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
-#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:105 .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
 msgid "Sign in"
 msgstr "登入"
 
-#: .es5/views/permissions.js:63 .es5/views/permissions.js:41
+#: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s（必需）"
 
-#: .es5/views/permissions.js:68 .es5/views/permissions.js:45
+#: .es5/views/permissions.js:45
 msgid "Email address"
 msgstr "電子郵件地址"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
+#: .es5/views/permissions.js:49 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "顯示名稱"
 
-#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
+#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "帳號圖片"
 
-#: .es5/views/ready.js:79 .es5/views/ready.js:56
+#: .es5/views/ready.js:56
 msgid "Welcome back"
 msgstr "歡迎回來"
 
-#: .es5/views/ready.js:80 .es5/views/ready.js:57
+#: .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox 稍後將會恢復同步"
 
-#: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
 msgstr "已重設您的密碼"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "請到您另一台 Firefox 裝置中輸入新密碼完成設定。"
 
-#: .es5/views/ready.js:93 .es5/views/ready.js:70
+#: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "已經可以修改您的 Firefox 帳號設定。"
 
-#: .es5/views/ready.js:95 .es5/views/ready.js:72
+#: .es5/views/ready.js:72
 msgid "Primary email verified"
 msgstr "已驗證主要電子郵件地址"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:75
+#: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "現在起，與帳號相關的通知也將發送到 %(secondaryEmailVerified)s。"
 
-#: .es5/views/ready.js:100 .es5/views/ready.js:77
+#: .es5/views/ready.js:77
 msgid "Secondary email verified"
 msgstr "已驗證次要電子郵件地址"
 
-#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
+#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "登入完成"
 
-#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "您可以使用 %(serviceName)s 了"
 
-#: .es5/views/ready.js:110 .es5/views/ready.js:87
+#: .es5/views/ready.js:87
 msgid "Account verified"
 msgstr "帳號已驗證"
 
-#: .es5/views/ready.js:115 .es5/views/ready.js:92
+#: .es5/views/ready.js:92
 msgid "Connected"
 msgstr "已連線"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
+#: .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:81
 msgid "Account no longer exists. Recreate it?"
 msgstr "帳號已不存在，要重新建立嗎？"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296
+#: .es5/views/sign_up.js:298
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "帳號已存在。<a href=\"/signin\">登入</a>"
 
-#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
 msgstr "成功變更密碼"
 
-#: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
+#: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "很遺憾聽到這個消息。您應該立刻更換 Firefox 帳號密碼，並且向您的裝置製造商確認遠端清除資料的方式。"
 
-#: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
+#: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "很遺憾聽到這個消息。若這是您不信任的裝置，就應該立刻修改 Firefox 帳號密碼，並修改所有儲存在 Firefox 瀏覽器密碼管理員當中的密碼。"
 
-#: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "上次同步於 %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "上次同步於 %(translatedTimeAgo)s 前"
 
-#: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "上次同步於 %(translatedTimeAgo)s，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "上次同步於 %(translatedTimeAgo)s 前，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "上次同步於 %(translatedTimeAgo)s，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
+#: .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "上次同步於 %(translatedTimeAgo)s 前，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "最近使用 %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "最近使用於 %(translatedTimeAgo)s 前"
 
-#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "最近使用於 %(translatedTimeAgo)s 前，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
+#: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
 msgstr "超過 %(translatedTimeAgo)s 前"
 
-#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
+#: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s 前，在%(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
+#: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s 前，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
-#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
+#: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
 msgstr "網頁瀏覽階段，%(userAgent)s"
 
-#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
+#: .es5/views/settings/clients.js:138
 msgid "Web Session"
 msgstr "網頁使用階段"
 
-#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
 msgstr "上次同步時間未知"
 
-#: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
+#: .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
 msgstr "訂閱成功"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "已成功刪除帳號"
 
-#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
+#: .es5/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "已更新顯示名稱"
 
-#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
+#: .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
 msgstr "已移除次要電子郵件地址"
 
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
-#: .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "已寄出驗證信"
 
-#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
+#: .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
 msgstr "已將主要信箱設定為 %(email)s"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
+#: .es5/views/settings/emails.js:179 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "次要電子郵件地址"
 
-#: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
+#: .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
 msgstr "Firefox 救援碼"
 
-#: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
+#: .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
 msgstr "已產生新的救援碼"
 
-#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
+#: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
 msgstr "已開啟兩階段驗證"
 
-#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
+#: .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "使用代碼 %(code)s 在支援的應用程式中設定兩階段驗證。"
 
-#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
 msgstr "已移除兩階段驗證"
 
-#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
+#: .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
 msgstr "兩階段驗證"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
+#: .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
 msgstr "帳號救援"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
 msgstr "已產生帳號救援碼"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
+#: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
 msgstr "已註銷帳號救援碼"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
+#: .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
 msgstr "Firefox 救援金鑰"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
 msgstr "由於安全性因素，您的帳號已被鎖定"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
-#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "重設密碼"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
 msgstr "無"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "上次檢查: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
 msgstr "開啟 Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
 msgstr "開啟 Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
 msgstr "開啟 Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
 msgstr "開啟 Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "開啟 Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "已重新寄出郵件。請將 accounts@firefox.com 加到通訊錄以確保收信正常。"
 
-#: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
 msgstr "已複製"
 
-#: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
 msgstr "複製失敗，請手動複製。"
 
@@ -326,362 +321,360 @@ msgstr "複製失敗，請手動複製。"
 msgid "Downloaded"
 msgstr "已下載"
 
-#: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
 msgstr "已列印"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
 msgstr "成功驗證主要電子郵件地址"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
 msgstr "成功驗證帳號"
 
-#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62
-msgid "Open tabs"
-msgstr "開啟分頁"
-
-#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
+#: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
-msgid "Add-ons"
-msgstr "附加元件"
-
-#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58
-msgid "Logins"
-msgstr "登入資訊"
-
-#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:58
 msgid "History"
 msgstr "紀錄"
 
-#: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:62
+msgid "Logins"
+msgstr "登入資訊"
+
+#: .es5/models/sync-engines.js:66
+msgid "Add-ons"
+msgstr "附加元件"
+
+#: .es5/models/sync-engines.js:70
+msgid "Open tabs"
+msgstr "開啟分頁"
+
+#: .es5/models/sync-engines.js:74
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
+#: .es5/models/sync-engines.js:82
 msgid "Addresses"
 msgstr "地址"
 
-#: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
+#: .es5/models/sync-engines.js:90
 msgid "Credit cards"
 msgstr "信用卡"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
+#: .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
 msgstr "成功驗證次要電子郵件地址"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
 msgstr "成功重設密碼"
 
-#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "未預期的錯誤"
 
-#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
-#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "您已嘗試太多次，請稍候再試。"
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "您已嘗試太多次，請等 %(retryAfterLocalized)s 後再試。"
 
-#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
 msgstr "token 無效"
 
-#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
+#: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "請求簽章中的時間戳記無效"
 
-#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "請求簽章中的隨機數無效"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
+#: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:171
 msgid "Account already exists"
 msgstr "帳號已存在"
 
-#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:58
 msgid "Unknown account"
 msgstr "未知帳號"
 
-#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
 msgstr "電子信箱大小寫錯誤"
 
-#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "密碼錯誤"
 
-#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:70
 msgid "Unverified account"
 msgstr "帳號未驗證"
 
-#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
 msgstr "驗證碼無效"
 
-#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
 msgstr "請求內容的 JSON 無效"
 
-#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
 msgstr "無效參數: %(param)s"
 
-#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
 msgstr "缺少參數: %(param)s"
 
-#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
 msgstr "請求簽章無效"
 
-#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
+#: .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
 msgstr "缺少 content-length 檔頭"
 
-#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
+#: .es5/lib/auth-errors.js:98
 msgid "Request body too large"
 msgstr "請求內容太大"
 
-#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
 msgstr "因為安全性因素，已封鎖請求"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
 msgid "Invalid authorization code"
 msgstr "授權碼無效"
 
-#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
+#: .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
 msgstr "電話號碼無效"
 
-#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
 msgstr "無法傳送至此國家"
 
-#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
+#: .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
 msgstr "無法傳送簡訊至此號碼"
 
-#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
 msgstr "您的信件被退回了"
 
-#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
 msgstr "您的信件被退回了，打錯地址了嗎？"
 
-#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
 msgstr "無法寄送郵件"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
+#: .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
 msgstr "此信箱已被其他使用者驗證"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
 msgstr "次要信箱必須與您的帳號信箱不同"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
 msgstr "必須使用主要帳號信箱登入"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
 msgstr "地址已被其他帳號使用"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
 msgstr "重設時，需要輸入主要信箱帳號"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
 msgstr "登入碼無效"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
 msgstr "無法將主要電子郵件地址變更為未驗證的電子郵件地址"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "無法將主要電子郵件地址變更為不屬於此帳號的地址"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
+#: .es5/lib/auth-errors.js:199
 msgid "This email can not currently be used to login"
 msgstr "目前無法使用此電子郵件地址登入"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:207
 msgid "Failed to send email"
 msgstr "郵件傳送失敗"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:211
 msgid "Valid code required"
 msgstr "請輸入有效驗證碼"
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:215
 msgid "This verification code has expired"
 msgstr "驗證碼已過期"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:219
 msgid "A TOTP token already exists for this account"
 msgstr "此帳戶已有 TOTP token 存在"
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:223
 msgid "TOTP token not found"
 msgstr "找不到 TOTP token"
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:227
 msgid "Recovery code not found"
 msgstr "找不到救援碼"
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:231
 msgid "Unavailable device command"
 msgstr "無法使用的裝置指令"
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:235
 msgid "Recovery key not found"
 msgstr "找不到救援金鑰"
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:239
 msgid "Invalid recovery key"
 msgstr "救援金鑰無效"
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:243
 msgid "This request requires two step authentication enabled on your account."
 msgstr "您的帳號必須開啟兩步驟驗證，才可送出此請求。"
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:247
 msgid "Failed due to a conflicting request, please try again."
 msgstr "請求發生衝突而失敗，請再試一次。"
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
 msgstr "未知的訂閱使用者。"
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
 msgstr "未知的訂閱。"
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
 msgstr "未知的訂閱方案。"
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
 msgstr "無效的訂閱付款 token。"
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
+#: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
 msgstr "伺服器忙碌中，請稍後再試一次"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:272
 msgid "Feature not enabled"
 msgstr "功能未啟用"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
-#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43
+#: .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "系統暫時無法使用，請稍後再試一次"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:280
 msgid "This endpoint is no longer supported"
 msgstr "不再支援此端點"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
 msgstr "已取消登入嘗試"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
 msgstr "登入階段已結束，請登入以繼續。"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被停用"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
 msgstr "密碼不符合"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:304
 msgid "Working…"
 msgstr "處理中…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:308
 msgid "Could not get Privacy Notice"
 msgstr "無法取得隱私權保護政策"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:312
 msgid "Could not get Terms of Service"
 msgstr "無法取得服務條款"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
 msgstr "您的新密碼必須與舊密碼不同"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:320 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "至少要 8 個字元長"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:324
 msgid "Valid password required"
 msgstr "必須輸入有效的密碼"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
 msgid "Valid email required"
 msgstr "必須輸入有效的電子郵件地址"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
 msgstr "找不到可用的圖片"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:344
 msgid "Could not initialize camera"
 msgstr "無法初始化攝影機"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
 msgstr "必須輸入有效的網址"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "您的驗證信被退了，是不是輸錯電子郵件地址了？"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "請輸入有效的電子郵件地址，firefox.com 不提供郵件服務。"
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:380
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 帳號僅能被嵌入至經審查的網站的 IFRAME 當中"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:400 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "驗證鏈結已毀損"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
 msgstr "圖片尺寸需大於 100x100 像素"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "即將可在 Firefox for iOS 上註冊"
 
@@ -693,199 +686,217 @@ msgstr "您必須輸入年齡才能註冊"
 msgid "You must enter a valid age to sign up"
 msgstr "必須輸入有效年齡才能註冊"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
 msgstr "帳號已不存在。"
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
 msgstr "resume token 中有無效屬性: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:452
 msgid "Missing property in resume token: %(property)s"
 msgstr "resume token 中缺少屬性: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
 msgstr "無效 data 屬性: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
 msgstr "缺少 data 屬性: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
+#: .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "該確認鏈結只能使用一次，已經被使用過了。"
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:477
 msgid "This is a required field"
 msgstr "這是必填欄位"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:481
 msgid "Authorization code required"
 msgstr "需要輸入授權碼"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:489 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "鏈結毀損"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:512
 msgid "Phone number required"
 msgstr "需要輸入電話號碼"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
 msgstr "需要輸入兩階段驗證碼"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:535
 msgid "Invalid two-step authentication code"
 msgstr "無效的兩階段驗證碼"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:539
 msgid "Recovery code required"
 msgstr "需要輸入救援碼"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:543
 msgid "Invalid recovery code"
 msgstr "救援碼無效"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:557
 msgid "Recovery key required"
 msgstr "需要輸入救援金鑰"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:561
 msgid "Please enter verification code"
 msgstr "請輸入驗證碼"
 
-#: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
+#: .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "開啟兩步驟驗證機制的帳號，目前暫時無法配對"
 
-#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
+#: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "缺少設定"
 
-#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
+#: .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
 msgstr "設定無效"
 
-#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
+#: .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "您是不是要打 <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>？"
 
-#: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
+#: .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
 msgstr "請稍後再試"
 
-#: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
+#: .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
 msgstr "服務無法使用，請稍後再試一次"
 
-#: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr ""
+
+#: .es5/lib/newsletters.js:29
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "取得 Mozilla 與 Firefox 的最新消息。"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "採取行動，保護網際網路的健康"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "更聰明、更安全上網"
+
+#: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
 msgstr "未知客戶端"
 
-#: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri 不正確"
 
-#: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
 msgstr "assertion 無效"
 
-#: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
 msgstr "未知的代碼"
 
-#: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
 msgstr "代碼錯誤"
 
-#: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
 msgstr "代碼已過期"
 
-#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "無效的 OAuth 參數: %(param)s"
 
-#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
 msgstr "未授權"
 
-#: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
 msgstr "被禁止"
 
-#: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
 msgstr "token 已過期"
 
-#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:125
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "有些東西不對勁，請關閉此分頁再試一次。"
 
-#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
+#: .es5/lib/oauth-errors.js:145
 msgid "no message"
 msgstr "無訊息"
 
-#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
+#: .es5/lib/oauth-errors.js:149
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "缺少 OAuth 參數: %(param)s"
 
-#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
+#: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
 msgstr "收到遠端裝置的無效訊息"
 
-#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
+#: .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
 msgstr "與遠端裝置配對時發生錯誤"
 
-#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
+#: .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
 msgstr "與遠端裝置的連線已關閉，請再試一次"
 
-#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "請求內容中的參數無效: %(param)s"
 
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
 msgstr "不支援的圖片提供者"
 
-#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:39
 msgid "Image processing error"
 msgstr "圖片處理錯誤"
 
-#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
+#: .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
 msgstr "Token 無效"
 
-#: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
-#: .es5/lib/strings.js:33 .es5/lib/strings.js:31
+#: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">說明</a>"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:34
+#: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "取得 Mozilla 與 Firefox 的最新消息。"
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s %(city)s（估計地點）"
 
-#: .es5/lib/strings.js:41 .es5/lib/strings.js:37
+#: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估計地點）"
 
-#: .es5/lib/strings.js:42 .es5/lib/strings.js:38
+#: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "IP 地址: %(ip)s"
 
-#: .es5/lib/strings.js:43 .es5/lib/strings.js:39
+#: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "為了加強保護，請確認這次登入後才會開始與這部裝置同步:"
 
@@ -917,10 +928,9 @@ msgstr "收信取得新鏈結"
 msgid "Reset password with recovery key"
 msgstr "使用救援金鑰重設密碼"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
-#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
 msgid "Continue to %(serviceName)s"
 msgstr "繼續前往 %(serviceName)s"
 
@@ -929,7 +939,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "請輸入您先前產生的單次使用救援金鑰，以取回 Firefox 帳號的使用權限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">註: </span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -960,16 +971,28 @@ msgstr "了解更多資訊"
 msgid "%(email)s registered"
 msgstr "%(email)s 已註冊"
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Get the most out of your account"
+msgstr "讓您的帳號發揮最大威力"
+
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
 msgstr "選擇要同步的內容"
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24
+#: .es5/templates/choose_what_to_sync.mustache:8
+msgid "Sync these everywhere you sign in"
+msgstr "隨處登入進行同步"
+
+#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:9 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+msgid "Continue"
+msgstr "繼續"
+
+#: .es5/templates/choose_what_to_sync.mustache:14
 msgid "Save selections"
 msgstr "儲存選擇"
 
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
-#: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19
+#: .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "上一步"
 
@@ -1027,25 +1050,32 @@ msgstr "點擊此處以取得新的確認鏈結"
 msgid "Verification error"
 msgstr "驗證錯誤"
 
-#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6
+#: .es5/templates/confirm.mustache:3
+msgid "One last step"
+msgstr "最後一步"
+
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "確認您的帳號"
 
-#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8
+#: .es5/templates/confirm.mustache:7
 msgid "Confirm this sign-in"
 msgstr "確認此次登入"
 
-#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12
+#: .es5/templates/confirm.mustache:9
+msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+msgstr "請到 %(escapedEmail)s 收信驗證信箱，我們就可以出發！"
+
+#: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "請到 %(escapedEmail)s 信箱收信，點擊驗證鏈結"
 
-#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14
+#: .es5/templates/confirm.mustache:13
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "請到 %(escapedEmail)s 信箱收信，點擊登入確認鏈結"
 
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
-#: .es5/templates/confirm.mustache:18
+#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "沒在收件匣或垃圾信件匣中找到嗎？點此重送"
 
@@ -1061,7 +1091,7 @@ msgstr "請在一小時內點擊我們發送到 %(email)s 的鏈結，以設定�
 msgid "Connect another device"
 msgstr "連結其他裝置"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
 msgstr "已連結 Firefox"
 
@@ -1069,8 +1099,8 @@ msgstr "已連結 Firefox"
 msgid "Email verified"
 msgstr "已驗證信箱"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "成功"
 
@@ -1078,8 +1108,7 @@ msgstr "成功"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "登入至此 Firefox 帳號完成設定"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
-#: .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
 msgstr "還要新增裝置嗎？"
 
@@ -1099,7 +1128,7 @@ msgstr "登入至 Firefox for Android 完成設定"
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "登入至 Firefox for iOS 完成設定"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
 msgstr "為什麼需要超過一台裝置？"
 
@@ -1115,40 +1144,36 @@ msgstr "請在開啟 Cookies 與本機儲存空間以讓瀏覽器存取 Firefox 
 msgid "Try again"
 msgstr "再試一次"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+msgstr "請登入<span class=\"service\">您的 Firefox 帳號</span>"
+
+#: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
 msgstr "登入以繼續"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
-#: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "密碼"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
-#: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
-#: .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17 .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "忘記密碼？"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
-#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:17
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "若繼續，代表您同意<a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
 msgstr "請輸入您的電子郵件地址"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
-#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
 msgid "Email"
 msgstr "電子郵件地址"
-
-#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9
-msgid "Continue"
-msgstr "繼續"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1247,12 +1272,12 @@ msgstr "Firefox 帳號"
 msgid "Sign out"
 msgstr "登出"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "使用另一個帳號"
 
-#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16
+#: .es5/templates/sign_in.mustache:16
 msgid "Create an account"
 msgstr "註冊帳號"
 
@@ -1336,77 +1361,120 @@ msgstr "請到 %(email)s 信箱收信，取得授權碼。"
 msgid "Enter authorization code"
 msgstr "輸入授權碼"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up.mustache:3
-#: .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
+msgid "Create your Firefox account"
+msgstr "註冊 Firefox 帳號"
+
+#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "註冊 Firefox 帳號"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
 msgid "Repeat password"
 msgstr "重複輸入密碼"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "請不要搞丟這組密碼，若進行重設後，可能會失去部分佟不資料。"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
+#: .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>請勿使用您的信箱密碼</span>若有人知道您的信箱密碼，就可允許在新裝置上的 Firefox 登入，並取得您的資料。"
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>牢記您的密碼</span>若您需要重設密碼，就會失去尚未同步完成的任何 Sync 資料。"
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "取得 Mozilla 與 Firefox 的最新消息。"
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr ""
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
 msgstr "建立帳號"
 
-#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23
+#: .es5/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
 msgstr "已經有帳號嗎？請登入"
 
-#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/sign_up_password.mustache:8
+msgid "Change email"
+msgstr "更改電子郵件地址"
+
+#: .es5/templates/sign_up_password.mustache:20
 msgid "Mistyped email?"
 msgstr "打錯信箱地址？"
 
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
+#: .es5/templates/sms_send.mustache:1
+msgid "You did it! You’re signed in."
+msgstr "成功了！已經登入完成。"
+
+#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "直接將 Firefox 傳到手機裡，登入即可完成設定"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:7
+msgid "Now get Firefox everywhere else."
+msgstr "為其他裝置安裝 Firefox。"
+
+#: .es5/templates/sms_send.mustache:8
+msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+msgstr "也到您的其他裝置登入，即可獲得 Firefox 的完整產品內容、實用小知識以及隱私保護功能。"
+
+#: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
 msgstr "手機號碼"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:14
 msgid "Send"
 msgstr "傳送"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:15
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "簡訊服務僅限於部分國家；您可能會被收取簡訊及數據費用。寄發郵件或簡訊時，收件者必須已經同意接收，<a %(escapedLearnMoreAttributes)s>在此了解更多資訊</a>"
 
-#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+msgid "Why sign in on another device?"
+msgstr "為什麼要在另一台裝置登入？"
+
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+msgid "Start browsing"
+msgstr "開始上網"
+
+#: .es5/templates/sms_sent.mustache:1
+msgid "Check your texts"
+msgstr "請收簡訊"
+
+#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "到您的智慧型手機上安裝 Firefox 並登入以完成設定"
 
-#: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
+#: .es5/templates/sms_sent.mustache:5
+msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+msgstr "已將 Firefox App 的鏈結發送到 %(escapedPhoneNumber)s"
+
+#: .es5/templates/sms_sent.mustache:6
+msgid "Wrong number?"
+msgstr "號碼不對嗎？"
+
+#: .es5/templates/sms_sent.mustache:7
+msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+msgstr "若您沒有收到簡訊，也可以到手機商店搜尋「Firefox」。"
+
+#: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "已將程式下載鏈結傳送到 %(escapedPhoneNumber)s。<a %(escapedBackLinkAttrs)s>打錯號碼了？</a>"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
+#: .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "已將程式下載鏈結重送到 %(escapedPhoneNumber)s。<a %(escapedBackLinkAttrs)s>打錯號碼了？</a>"
 
-#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
+#: .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "若您沒收到簡訊，也可以手動下載程式。"
 
-#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
 msgstr "沒收到嗎？重發"
 
@@ -1602,11 +1670,11 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr "次要地址是可讓您接收安全性通知以及確認新裝置的信箱地址。"
 
 #: .es5/templates/settings/emails.mustache:9
-msgid "verified"
+msgid "Verified"
 msgstr "已驗證"
 
 #: .es5/templates/settings/emails.mustache:11
-msgid "verification required"
+msgid "Verification required"
 msgstr "需要驗證"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
@@ -1649,6 +1717,14 @@ msgstr "複製"
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "列印"
+
+#: .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "訂閱"
+
+#: .es5/templates/settings/subscription.mustache:2
+msgid "Manage…"
+msgstr "管理…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1765,7 +1841,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "第 2 步，共 2 步: 儲存救援金鑰"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">註： </span>若您忘記密碼，必須使用這把金鑰才能取回資料。請將這把金鑰放在未來可以簡單取回，而安全的位置。"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1799,6 +1876,42 @@ msgstr "未知地點"
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
 msgstr "IP 位置: %(ipAddress)s"
+
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Get more from these features:"
+msgstr "從這些功能獲得更多幫助:"
+
+#: .es5/templates/partial/firefox-family-services.mustache:2
+msgid "Firefox browser"
+msgstr "Firefox 瀏覽器"
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Travel the internet with protection, on every device."
+msgstr "在每一台裝置都提供隱私保護通能。"
+
+#: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Firefox Lockwise"
+msgstr "Firefox Lockwise"
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Keep your passwords protected and portable."
+msgstr "保護密碼，又可隨身攜帶。"
+
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Firefox Monitor"
+msgstr "Firefox Monitor"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Get a lookout for data breaches."
+msgstr "檢查是否發生資料外洩事件。"
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Send"
+msgstr "Firefox Send"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Share large files without prying eyes."
+msgstr "安全地分享大檔案。"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1892,141 +2005,20 @@ msgstr "使用應用程式配對"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對。"
 
-#: .es5/templates/settings/emails.mustache:9
-msgid "Verified"
-msgstr "已驗證"
+#~ msgid "verified"
+#~ msgstr "已驗證"
 
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "需要驗證"
+#~ msgid "verification required"
+#~ msgstr "需要驗證"
 
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "訂閱"
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "將發送實用小知識給您"
 
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "管理…"
+#~ msgid "Sign up for more:"
+#~ msgstr "註冊後還有更多功能:"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "讓您的帳號發揮最大威力"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "隨處登入進行同步"
-
-#: .es5/templates/choose_what_to_sync.mustache:12
-msgid "Practical knowledge is coming to your inbox"
-msgstr "將發送實用小知識給您"
-
-#: .es5/templates/choose_what_to_sync.mustache:13
-msgid "Sign up for more:"
-msgstr "註冊後還有更多功能:"
-
-#: .es5/templates/choose_what_to_sync.mustache:15
-msgid "Be safer and smarter online"
-msgstr "更聰明、更安全上網"
-
-#: .es5/templates/choose_what_to_sync.mustache:17
-msgid "Invite me to test new Mozilla products"
-msgstr "邀請我測試 Mozilla 的新產品"
-
-#: .es5/templates/choose_what_to_sync.mustache:19
-msgid "Take action to keep the internet healthy"
-msgstr "採取行動，保護網際網路的健康"
-
-#: .es5/templates/confirm.mustache:4
-msgid "One last step"
-msgstr "最後一步"
-
-#: .es5/templates/confirm.mustache:10
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "請到 %(escapedEmail)s 收信驗證信箱，我們就可以出發！"
-
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "請登入<span class=\"service\">您的 Firefox 帳號</span>"
-
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
-msgid "Create your Firefox account"
-msgstr "註冊 Firefox 帳號"
-
-#: .es5/templates/sign_up_password.mustache:8
-msgid "Change email"
-msgstr "更改電子郵件地址"
-
-#: .es5/templates/sms_send.mustache:1
-msgid "You did it! You’re signed in."
-msgstr "成功了！已經登入完成。"
-
-#: .es5/templates/sms_send.mustache:7
-msgid "Now get Firefox everywhere else."
-msgstr "為其他裝置安裝 Firefox。"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr "也到您的其他裝置登入，即可獲得 Firefox 的完整產品內容、實用小知識以及隱私保護功能。"
-
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
-msgid "Why sign in on another device?"
-msgstr "為什麼要在另一台裝置登入？"
-
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
-msgid "Start browsing"
-msgstr "開始上網"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "請收簡訊"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "已將 Firefox App 的鏈結發送到 %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Wrong number?"
-msgstr "號碼不對嗎？"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "若您沒有收到簡訊，也可以到手機商店搜尋「Firefox」。"
-
-#: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Get more from these features:"
-msgstr "從這些功能獲得更多幫助:"
-
-#: .es5/templates/partial/firefox-family-services.mustache:2
-msgid "Firefox browser"
-msgstr "Firefox 瀏覽器"
-
-#: .es5/templates/partial/firefox-family-services.mustache:3
-msgid "Travel the internet with protection, on every device."
-msgstr "在每一台裝置都提供隱私保護通能。"
-
-#: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Keep your passwords protected and portable."
-msgstr "保護密碼，又可隨身攜帶。"
-
-#: .es5/templates/partial/firefox-family-services.mustache:6
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Get a lookout for data breaches."
-msgstr "檢查是否發生資料外洩事件。"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Share large files without prying eyes."
-msgstr "安全地分享大檔案。"
+#~ msgid "Invite me to test new Mozilla products"
+#~ msgstr "邀請我測試 Mozilla 的新產品"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s 已註冊。"
@@ -2219,14 +2211,16 @@ msgstr "安全地分享大檔案。"
 #~ msgstr "為什麼要同步兩台（或者更多台）裝置？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "Sync 功能可讓您將一台裝置上的 Firefox 所儲存的書籤、瀏覽紀錄、網頁密碼等資料同步到其他裝置。在手機或平板電腦登入至 Firefox 後，桌面板上的東西也會出現。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，並同步至少兩台裝置。"
+#~ msgstr ""
+#~ "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 "
+#~ "Firefox，並同步至少兩台裝置。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2331,13 +2325,13 @@ msgstr "安全地分享大檔案。"
 #~ msgstr "登入"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
@@ -2469,16 +2463,19 @@ msgstr "安全地分享大檔案。"
 #~ msgid "Sync preferences"
 #~ msgstr "同步設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "在尋找 Firefox Sync 嗎？<a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">從此處開始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "有使用不同電子郵件地址的帳號嗎？<a href=\"%(signinUri)s\">請登入</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</"
+#~ "a> 版本可供使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最後使用: %(translatedTimeAgo)s"
@@ -2845,7 +2842,9 @@ msgstr "安全地分享大檔案。"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

@@ -19,5 +19,8 @@
     "grunt-l10n-lint": "0.0.1",
     "load-grunt-tasks": "4.0.0",
     "time-grunt": "1.2.1"
+  },
+  "dependencies": {
+    "gruntcli": "0.0.2-security"
   }
 }

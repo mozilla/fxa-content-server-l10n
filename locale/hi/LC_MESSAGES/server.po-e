@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-01 21:13+0000\n"
-"PO-Revision-Date: 2018-04-12 06:12+0000\n"
-"Last-Translator: Umesh Agarwal <umesh.agarwal1@gmail.com>\n"
+"POT-Creation-Date: 2019-05-24 18:42+0000\n"
+"PO-Revision-Date: 2018-12-10 17:15+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for iOS </a>."
 
-#: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4
+#: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
 msgstr "अन्य उपकरण से जोड़े"
 
@@ -36,24 +36,92 @@ msgstr "अन्य उपकरण से जोड़े"
 msgid "Sign in to Sync"
 msgstr "सिंक में साइन इन करें"
 
-#: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
+#: lib/senders/templates/low_recovery_codes.html:1 lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1
+#: lib/senders/templates/password_reset_account_recovery.html:1 lib/senders/templates/password_reset_required.html:1 lib/senders/templates/post_add_account_recovery.html:1
 #: lib/senders/templates/post_add_two_step_authentication.html:1 lib/senders/templates/post_change_primary.html:1 lib/senders/templates/post_consume_recovery_code.html:1
-#: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_remove_two_step_authentication.html:1
-#: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1 lib/senders/templates/verify_primary.html:1
-#: lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/post_new_recovery_codes.html:1 lib/senders/templates/post_remove_account_recovery.html:1 lib/senders/templates/post_remove_secondary.html:1
+#: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
+#: lib/senders/templates/post_verify_trailhead.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 lib/senders/templates/verify_trailhead.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox खाता"
 
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+msgid "Low recovery codes remaining"
+msgstr ""
+
+#: lib/senders/templates/low_recovery_codes.html:3
+msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+msgstr ""
+
+#: lib/senders/templates/low_recovery_codes.html:4
+msgid "Generate codes"
+msgstr ""
+
+#: lib/senders/templates/low_recovery_codes.html:5
+msgid "This is an automated email."
+msgstr ""
+
+#: lib/senders/templates/low_recovery_codes.html:6 lib/senders/templates/new_device_login.html:6 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
+#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
+#: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:7
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8
+#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+msgstr "अधिक जानकारी के लिए, कृपया<a %(supportLinkAttributes)s>मोज़िला सपोर्ट</a>जाएँ."
+
+#: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:7 lib/senders/templates/new_device_login.txt:6
+#: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
+#: lib/senders/templates/password_reset_account_recovery.html:9 lib/senders/templates/password_reset_account_recovery.txt:8 lib/senders/templates/password_reset_required.html:10
+#: lib/senders/templates/password_reset_required.txt:9 lib/senders/templates/post_add_account_recovery.html:9 lib/senders/templates/post_add_account_recovery.txt:8
+#: lib/senders/templates/post_add_two_step_authentication.html:9 lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7
+#: lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7
+#: lib/senders/templates/post_new_recovery_codes.html:8 lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_account_recovery.html:9
+#: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
+#: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
+#: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/post_verify_trailhead.html:7
+#: lib/senders/templates/post_verify_trailhead.txt:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_first.txt:7
+#: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
+#: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
+msgid "Mozilla Privacy Policy"
+msgstr "Mozilla गोपनीयता नीति"
+
+#: lib/senders/templates/low_recovery_codes.txt:2
+msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+msgstr ""
+
+#: lib/senders/templates/low_recovery_codes.txt:3
+msgid "Generate codes:"
+msgstr "कोड तैयार करें:"
+
+#: lib/senders/templates/low_recovery_codes.txt:4 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/password_reset_account_recovery.txt:7 lib/senders/templates/post_add_account_recovery.txt:7 lib/senders/templates/post_add_two_step_authentication.txt:6
+#: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
+#: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
+#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr "और अधिक जानकारी के लिए कृपया विजिट करें%(supportUrl)s"
+
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:753
+#: lib/senders/email.js:981
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
-#: lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3 lib/senders/templates/post_consume_recovery_code.html:4
-#: lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4 lib/senders/templates/post_new_recovery_codes.txt:3
+#: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
+#: lib/senders/templates/post_add_account_recovery.txt:3 lib/senders/templates/post_add_two_step_authentication.html:4 lib/senders/templates/post_add_two_step_authentication.txt:3
+#: lib/senders/templates/post_consume_recovery_code.html:4 lib/senders/templates/post_consume_recovery_code.txt:3 lib/senders/templates/post_new_recovery_codes.html:4
+#: lib/senders/templates/post_new_recovery_codes.txt:3 lib/senders/templates/post_remove_account_recovery.html:4 lib/senders/templates/post_remove_account_recovery.txt:3
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
@@ -62,45 +130,30 @@ msgstr ""
 msgid "IP address: %(ip)s"
 msgstr "आईपी ​​पता: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5
-#: lib/senders/templates/post_consume_recovery_code.html:6 lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_two_step_authentication.html:7
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6
+#: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5
+#: lib/senders/templates/post_remove_account_recovery.html:6 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
+#: lib/senders/templates/post_verify_secondary.html:4
+msgid "Manage account"
+msgstr "खाता प्रबंधित करें"
+
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
+#: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
+#: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदल लें.</a>"
 
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_add_two_step_authentication.html:8
-#: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
-#: lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verify.html:6 lib/senders/templates/verify_login_code.html:6
-#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "अधिक जानकारी के लिए, कृपया<a %(supportLinkAttributes)s>मोज़िला सपोर्ट</a>जाएँ."
+#: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
+#: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
+#: lib/senders/templates/post_remove_account_recovery.txt:5 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "खाता प्रबंधित करें:"
 
-#: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
-#: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_add_two_step_authentication.html:9 lib/senders/templates/post_add_two_step_authentication.txt:7 lib/senders/templates/post_change_primary.html:7
-#: lib/senders/templates/post_change_primary.txt:6 lib/senders/templates/post_consume_recovery_code.html:8 lib/senders/templates/post_consume_recovery_code.txt:7
-#: lib/senders/templates/post_new_recovery_codes.html:8 lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_secondary.html:7
-#: lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5
-#: lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verify.html:7
-#: lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7
-#: lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9
-#: lib/senders/templates/verify_secondary.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
-msgid "Mozilla Privacy Policy"
-msgstr "Mozilla गोपनीयता नीति"
-
-#: lib/senders/templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "यह एक स्वचालित ईमेल है; आप अपने Firefox खाते में एक नई डिवाइस नहीं जोड़ा था, तो आपको तुरंत अपना पासवर्ड बदलना चाहिए %(passwordChangeLink)sपर"
-
-#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_add_two_step_authentication.txt:6
-#: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
-#: lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6 lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6
-#: lib/senders/templates/verify.txt:5 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "और अधिक जानकारी के लिए कृपया विजिट करें%(supportUrl)s"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -133,6 +186,33 @@ msgstr ""
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
 msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
+msgid "Your account password was reset with a recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
+msgid "You have successfully reset your password using a recovery key from the following device:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
+msgid "You will need to generate a new recovery key."
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.html:6
+msgid "Create new recovery key"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:5
+msgid "Create new recovery key:"
+msgstr ""
+
+#: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
+#: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
+#: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+msgstr "यदि आपको संदेह है कि कोई आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो कृपया अपना पासवर्ड बदल लें."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -168,7 +248,27 @@ msgstr "श्रेष्ठ,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox विवरण टीम"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:919
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+msgid "Account recovery key generated"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:3
+msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.html:5
+msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:2
+msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_add_account_recovery.txt:4
+msgid "If this was not you, revoke key."
+msgstr ""
+
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
 msgid "Two-step authentication enabled"
 msgstr ""
 
@@ -180,27 +280,9 @@ msgstr ""
 msgid "Security codes from your authentication app will now be required at each sign-in."
 msgstr ""
 
-#: lib/senders/templates/post_add_two_step_authentication.html:6 lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5
-#: lib/senders/templates/post_new_recovery_codes.html:5 lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_remove_two_step_authentication.html:6
-#: lib/senders/templates/post_verify_secondary.html:4
-msgid "Manage account"
-msgstr "खाता प्रबंधित करें"
-
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
 msgstr ""
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:4 lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4
-#: lib/senders/templates/post_new_recovery_codes.txt:4 lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_remove_two_step_authentication.txt:4
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "खाता प्रबंधित करें:"
-
-#: lib/senders/templates/post_add_two_step_authentication.txt:5 lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5
-#: lib/senders/templates/post_new_recovery_codes.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "यदि आपको संदेह है कि कोई आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो कृपया अपना पासवर्ड बदल लें."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -212,7 +294,7 @@ msgid ""
 "confirmations."
 msgstr "आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1027
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
 msgid "Recovery code consumed"
 msgstr ""
 
@@ -224,12 +306,28 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:991
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
 msgid "New recovery codes generated"
 msgstr ""
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+msgid "Account recovery key removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:3
+msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
+msgid "This recovery key can no longer be used to recover your account."
+msgstr ""
+
+#: lib/senders/templates/post_remove_account_recovery.txt:2
+msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
@@ -241,14 +339,16 @@ msgid "You have successfully removed %(secondaryEmail)s as a secondary email fro
 msgstr "आपने अपने Firefox खाते से एक द्वितीयक ईमेल के रूप में %(secondaryEmail)s को सफलतापूर्वक निकाल दिया हैं। सुरक्षा सूचनाएं और साइन-इन पुष्टियां अब इस पते पर डिलीवर नहीं की जाएंगी।"
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6
+#: lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verification_reminder_second.txt:5
+#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "यह एक स्वाचालित ईमेल है; यदि आपने इसको किसी त्रुटि के तहत प्राप्त किया है, कोई क्रिया आवश्यक नहीं."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:955
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण अक्षम"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -290,9 +390,34 @@ msgstr "द्वितीयक ई-मेल जोड़ा गया"
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "आपने अपने Firefox खाते के लिए द्वितीयक ईमेल के रूप में %(secondaryEmail)s का सफलतापूर्वक सत्यापन कर लिया हैं। सुरक्षा सूचनाएं एवं साइन-इन पुष्टियां अब दोनों ईमेल पतों पर डिलीवर की जाएंगी।"
 
+#: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
+#: lib/senders/templates/verification_reminder_first.txt:1
+msgid "Welcome to the Firefox family"
+msgstr ""
+
+#: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr ""
+
+#: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr ""
+
+#: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
+msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+msgstr ""
+
+#: lib/senders/templates/post_verify_trailhead.txt:4
+msgid "Connect another device:"
+msgstr ""
+
+#: lib/senders/templates/post_verify_trailhead.txt:6
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr ""
+
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "क्या कूटशब्द पुनः ठीक करने की आवश्यकता है?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -322,27 +447,63 @@ msgstr "यदि नहीं, तो हमें घुसपैठियो�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "यदि नहीं, तो हमें घुसपैठियों को रोकने मे मदद करें और हमें इसकी रिपोर्ट करें।"
 
+#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
+msgid "A few days ago you created a Firefox account, but never confirmed it."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
+msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+msgid "Confirm email"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.txt:4
+msgid "Confirm email:"
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1
+msgid "Still there?"
+msgstr "वहाँ अभी भी?"
+
+#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
+msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+msgstr ""
+
+#: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
+msgid "Confirm this email address to activate your account and let us know you're okay."
+msgstr ""
+
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
+msgid "Welcome to %(serviceName)s!"
+msgstr ""
+
+#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
 msgstr "स्वागत है!"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "इस ईमेल के पते की पुष्टि करके अपने खाते को सक्रिय करें."
+#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
+msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+msgstr ""
 
-#: lib/senders/templates/verify.html:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+msgid "Confirm this email address to activate your Firefox Account."
+msgstr ""
+
+#: lib/senders/templates/verify.html:6
 msgid "Activate now"
 msgstr "अब सक्रिय करें"
 
-#: lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
+#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_trailhead.html:7
 msgid "Verify Email"
 msgstr "ईमेल सत्यापित करें"
 
-#: lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "अपना Firefox खाता पंजीकरण समाप्त करने के लिए अपना ईमेल सत्यापित करें"
 
-#: lib/senders/templates/verify.txt:3
+#: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
 msgstr "अभी सक्रिय करें:"
 
@@ -358,7 +519,7 @@ msgstr "साइन-इन की पुष्टि करें"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "यदि आपको संदेह है कि कोई को आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदलें</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:545
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
 msgid "Verify primary email"
 msgstr "प्राथमिक ईमेल सत्यापित करें"
 
@@ -386,7 +547,7 @@ msgstr "ईमेल सत्यापित करें: "
 msgid "If you did not authorize this action, please change your password."
 msgstr ""
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:592
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
 msgid "Verify secondary email"
 msgstr "द्वितीयक ई-मेल सत्यापित करें"
 
@@ -410,81 +571,113 @@ msgstr "पुष्टि करें कि आपको यह ईमेल 
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "एक बार पुष्टि होते ही, हम आपको कम से कम एक अन्य डिवाइस पर Firefox स्थापित और कनेक्ट करने में मदद करेंगे।"
 
-#: lib/senders/email.js:178
+#: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
+msgid "Activate the Firefox family of products"
+msgstr ""
+
+#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr ""
+
+#: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
+msgid "Confirm email "
+msgstr ""
+
+#: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:181
+#: lib/senders/email.js:214
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:208
+#: lib/senders/email.js:241
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:210
+#: lib/senders/email.js:243
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:212
+#: lib/senders/email.js:245
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:247
 msgid "%(country)s (estimated)"
 msgstr "%(country)s(अनुमानित)"
 
-#: lib/senders/email.js:335
+#: lib/senders/email.js:549
 msgid "Verify your Firefox Account"
 msgstr "अपना फ़ायरफ़ॉक्स खाता सत्यापित करें"
 
-#: lib/senders/email.js:357
+#: lib/senders/email.js:570
 msgid "Confirm your email and start to sync!"
 msgstr "अपने ईमेल की पुष्टि करें और संकालन करना प्रारंभ करें!"
 
-#: lib/senders/email.js:403
+#: lib/senders/email.js:578
+msgid "Finish Creating Your Account"
+msgstr ""
+
+#: lib/senders/email.js:611
+msgid "Reminder: Finish Creating Your Account"
+msgstr ""
+
+#: lib/senders/email.js:613
+msgid "Final reminder: Confirm your email to activate your Firefox Account"
+msgstr ""
+
+#: lib/senders/email.js:666
 msgid "Firefox Account authorization code"
 msgstr "Firefox खाता प्राधिकरण कोड"
 
-#: lib/senders/email.js:446
+#: lib/senders/email.js:705
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:499
+#: lib/senders/email.js:754
 msgid "Sign-in code for Firefox"
 msgstr "Firefox के लिए साइन इन कोड"
 
-#: lib/senders/email.js:639
+#: lib/senders/email.js:883
 msgid "Reset your Firefox Account password"
 msgstr "अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार करें"
 
-#: lib/senders/email.js:671
+#: lib/senders/email.js:911
 msgid "Your Firefox Account password has been changed"
 msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द परिवर्तित कर दिया गया है"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:937
 msgid "Firefox Account password changed"
 msgstr ""
 
-#: lib/senders/email.js:727
+#: lib/senders/email.js:959
 msgid "Firefox Account password reset required"
 msgstr "Firefox खाते का पासवर्ड पुनः तैयार करने की आवश्यकता है"
 
-#: lib/senders/email.js:794
+#: lib/senders/email.js:1011
 msgid "Firefox Account verified"
 msgstr "Firefox खाता सत्यापित"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:1016
+msgid "Your Firefox Account is Confirmed"
+msgstr ""
+
+#: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
 msgstr "द्वितीयक Firefox खाता ई-मेल जोड़ा गया"
 
-#: lib/senders/email.js:857
+#: lib/senders/email.js:1084
 msgid "Firefox Account new primary email"
 msgstr "Firefox खाते का नया प्राथमिक ईमेल"
 
-#: lib/senders/email.js:889
+#: lib/senders/email.js:1112
 msgid "Secondary Firefox Account email removed"
 msgstr "द्वितीयक Firefox खाता ई-मेल हटाया गया"
+
+#: lib/senders/email.js:1360
+msgid "Firefox Account password reset with recovery key"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -519,6 +712,10 @@ msgid "We are currently under heavy strain and are working to return the system 
 msgstr "हम भारी दबाव के तहत वर्तमान में कर रहे हैं और जितनी जल्दी हो सके सामान्य करने के लिए प्रणाली वापस करने के लिए काम कर रहे हैं."
 
 #: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "फ़ायरफ़ॉक्स खातों को JavaScript आवश्यक है."
 
@@ -530,11 +727,26 @@ msgstr "गोपनीयता सूचना"
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "Hello again."
+#~ msgstr "फिर से हैलो."
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "इस ईमेल के पते की पुष्टि करके अपने खाते को सक्रिय करें."
+
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
 #~ msgstr "आप एक <strong>अप्रचलित</strong> ब्राउज़र प्रयोग कर रहे हैं. कृपया <a href=\"http://browsehappy.com/\">अपना ब्राउज़र उन्नत करें</a> बेहतर अनुभव के लिए."
-
-#~ msgid "Still there?"
-#~ msgstr "वहाँ अभी भी?"
 
 #~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
 #~ msgstr "एक समय पहले आपने एक Firefox खाता बनाया है, लेकिन उसे कभी नहीं सत्यापित किया. अपने खाते को सक्रिय करने के लिए नीचे दिए गए लिंक पर क्लिक करें."
@@ -562,9 +774,6 @@ msgstr "सेवा की शर्तें"
 
 #~ msgid "Reset password"
 #~ msgstr "कूटशब्द पुनः तैयार करें"
-
-#~ msgid "Hello again."
-#~ msgstr "फिर से हैलो."
 
 #~ msgid ""
 #~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
