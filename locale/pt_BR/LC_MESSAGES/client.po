@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 17:36+0000\n"
+"PO-Revision-Date: 2019-05-24 19:38+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1948,7 +1948,7 @@ msgstr "Me convidar para testar novos produtos da Mozilla"
 
 #: .es5/templates/choose_what_to_sync.mustache:19
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Tome uma atitude para manter a internet saudável"
 
 #: .es5/templates/confirm.mustache:4
 msgid "One last step"
