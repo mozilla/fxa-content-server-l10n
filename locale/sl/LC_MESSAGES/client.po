@@ -1928,7 +1928,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "Sinhronizirajte jih povsod, kjer se prijavite"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
@@ -1952,7 +1952,7 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:4
 msgid "One last step"
-msgstr ""
+msgstr "Še zadnji korak"
 
 #: .es5/templates/confirm.mustache:10
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
@@ -1972,7 +1972,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Uspelo je! Prijavljeni ste."
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
