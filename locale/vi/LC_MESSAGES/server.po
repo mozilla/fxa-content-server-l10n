@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-20 21:14+0000\n"
-"PO-Revision-Date: 2019-05-21 08:00+0000\n"
+"PO-Revision-Date: 2019-05-24 11:32+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -398,7 +398,7 @@ msgstr "Bạn đã xác minh thành công %(secondaryEmail)s làm email phụ ch
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Chào mừng đến với gia đình Firefox"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -578,7 +578,7 @@ msgstr "Sau khi xác nhận, chúng tôi sẽ giúp bạn cài đặt và kết 
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Kích hoạt dòng sản phẩm của gia đình Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
