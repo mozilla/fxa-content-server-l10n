@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 21:14+0000\n"
+"POT-Creation-Date: 2019-05-24 16:02+0000\n"
 "PO-Revision-Date: 2019-05-24 11:32+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Để tận dụng tối đa Đồng bộ hóa, hãy kết nối mọi ứng dụng <a href='%(androidUrl)s'>Firefox dành cho Android</a> hoặc <a "
 "href='%(iosUrl)s'>Firefox dành cho iOS</a>."
