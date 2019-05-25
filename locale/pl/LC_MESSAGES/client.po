@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 13:32+0000\n"
+"PO-Revision-Date: 2019-05-25 13:33+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1402,7 +1402,7 @@ msgstr "Utwórz konto"
 
 #: .es5/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr "Już posiadasz konto? Zaloguj się"
+msgstr "Już masz konto? Zaloguj się"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
