@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 13:00+0000\n"
+"PO-Revision-Date: 2019-05-25 15:46+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -580,7 +580,7 @@ msgstr "Hdyž je wobkrućena, budźemy wam pomhać, Firefox na znajmjeńša jedn
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Swójbu produktow Firefox aktiwizować"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -624,11 +624,11 @@ msgstr "Wobkrućće swoju e-mejl a započńće synchronizować!"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Skónčće załoženje swojeho konta"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Dopomnjeće: Skónčće załoženje swojeho konta"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -668,7 +668,7 @@ msgstr "Konto Firefox wobkrućene"
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Waše konto firefox je wobkrućene"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
