@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-23 12:24+0000\n"
+"PO-Revision-Date: 2019-05-25 13:32+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -775,7 +775,7 @@ msgstr "Usługa jest niedostępna, spróbuj ponownie później"
 
 #: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Testuj nowe produkty Firefoksa"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -870,9 +870,7 @@ msgid "Invalid Token"
 msgstr "Nieprawidłowy token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">zasady ochrony prywatności</a> usługi "
 "%(serviceName)s (%(serviceUri)s)."
@@ -940,8 +938,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Proszę wpisać jednorazowy klucz odzyskiwania przechowany w bezpiecznym miejscu, aby odzyskać dostęp do konta Firefoksa."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">UWAGA:</span> zmiana hasła bez dostępu do zachowanego klucza odzyskiwania konta spowoduje usunięcie części danych (w tym danych synchronizowanych na serwerze, takich jak "
 "historia i zakładki)."
@@ -1397,7 +1394,7 @@ msgstr "<span>Zapamiętaj swoje hasło</span>Wszystkie synchronizowane dane, kt�
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Praktyczna wiedza w Twojej skrzynce. Zapisz się po więcej:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1857,8 +1854,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2. krok z 2: zachowaj klucz odzyskiwania"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">UWAGA: </span>w razie zapomnienia hasła ten klucz jest wymagany, aby odzyskać dostęp do danych. Zachowaj go w bezpiecznym miejscu, gdzie będzie można łatwo go znaleźć."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2172,8 +2168,7 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 #~ msgstr "Wymagana jest obsługa ciasteczek i lokalnego przechowywania danych."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\">Zasady ochrony prywatności</a> usług Firefox cloud."
+#~ msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\">Zasady ochrony prywatności</a> usług Firefox cloud."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Usługi Firefox cloud"
@@ -2217,8 +2212,8 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
-#~ "SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
+#~ " musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Może później"
@@ -2230,8 +2225,8 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 #~ msgstr "Dlaczego synchronizować dwa urządzenia (lub więcej!)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Synchronizacja umożliwia współdzielenie zakładek, historii i haseł zachowywanych w Firefoksie na jednym urządzeniu z Firefoksem na innych urządzeniach. Zaloguj się do Firefoksa na telefonie lub "
 #~ "tablecie, a pojawi się na nim wszystko, co zachowano w Firefoksie na komputerze."
@@ -2346,18 +2341,18 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 #~ msgstr "Zaloguj się"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>PAMIĘTAJ:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania "
-#~ "danych, aby chronić prywatność użytkownika."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>UWAGA:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, "
+#~ "<span>PAMIĘTAJ:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, "
 #~ "aby chronić prywatność użytkownika."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>UWAGA:</span> zmiana hasła spowoduje usunięcie części danych (w tym zsynchronizowanych danych na serwerze, takich jak historia i zakładki), ponieważ używamy hasła do zaszyfrowania danych, aby "
+#~ "chronić prywatność użytkownika."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Dodaj warstwę zabezpieczeń do swojego konta — kody zabezpieczeń z jednej z <a %(escapedTotpSupportAttributes)s>tych aplikacji uwierzytelniania</a>."
@@ -2400,8 +2395,7 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 
 #~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Nie używaj tutaj swojego hasła poczty e-mail</span><br/>Jeśli ktoś zna Twoje hasło do poczty, to może zatwierdzić logowanie do Firefoksa na nowym urządzeniu i uzyskać dostęp do Twoich "
-#~ "danych."
+#~ "<span>Nie używaj tutaj swojego hasła poczty e-mail</span><br/>Jeśli ktoś zna Twoje hasło do poczty, to może zatwierdzić logowanie do Firefoksa na nowym urządzeniu i uzyskać dostęp do Twoich danych."
 
 #~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Zapamiętaj swoje hasło</span><br/>Wszystkie synchronizowane dane, które nie znajdują się na żadnym urządzeniu, zostaną utracone po zmianie hasła."
