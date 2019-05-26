@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 15:46+0000\n"
+"PO-Revision-Date: 2019-05-26 19:17+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -404,7 +404,7 @@ msgstr "Witajće k swójbje Firefox"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Sće přizjewjeny a hotowy, wěsće a škitane wuslědźić."
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
@@ -412,7 +412,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Maće prašenja? Wopytajće prošu <a %(supportLinkAttributes)s>Pomoc Mozilla</a>."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
@@ -456,7 +456,7 @@ msgstr "Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Před někotrymi dnjemi sće konto Firefox załožił, ale nichtó njeje jo wobkrućił."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -584,7 +584,7 @@ msgstr "Swójbu produktow Firefox aktiwizować"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hdźež so přizjewjeće."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
