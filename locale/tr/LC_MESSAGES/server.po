@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 17:45+0000\n"
+"PO-Revision-Date: 2019-05-26 17:55+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -579,7 +579,7 @@ msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize v
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Firefox ürün ailesini etkinleştirin"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -623,11 +623,11 @@ msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Hesabınızı oluşturmayı tamamlayın"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
