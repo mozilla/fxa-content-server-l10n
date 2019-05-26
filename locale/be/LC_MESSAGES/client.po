@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-24 18:43+0000\n"
+"PO-Revision-Date: 2019-05-26 09:30+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -870,9 +870,7 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -940,8 +938,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1667,8 +1664,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як "
-"вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
+" выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1852,8 +1849,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1898,19 +1894,19 @@ msgstr "Браўзер Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Падарожнічай па інтэрнэце з аховай, на кожнай прыладзе."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
-msgstr ""
+msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Трымайце свае паролі абароненымі і пераноснымі."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
-msgstr ""
+msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
@@ -1922,7 +1918,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Дзяліцеся вялікімі файламі без старонніх вачэй."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -1974,7 +1970,7 @@ msgstr "Кіраваць прыладамі"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Зараз патрабуецца зацверджанне <small>з іншай вашай прылады</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
