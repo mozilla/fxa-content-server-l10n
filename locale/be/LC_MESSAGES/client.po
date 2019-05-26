@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 09:30+0000\n"
+"PO-Revision-Date: 2019-05-26 09:32+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1982,7 +1982,7 @@ msgstr "Працэс усталявання быў спынены."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Адкрыйце сканер кодаў у сваёй праграме Firefox і пакажыце код, калі будзеце гатовы."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
