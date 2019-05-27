@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 08:40+0000\n"
+"PO-Revision-Date: 2019-05-27 10:12+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -403,23 +403,23 @@ msgstr "Croeso i deulu Firefox"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Rydych wedi eich mewngofnodi ac yn barod i grwydro'n saff a diogel."
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "I gael y mwyaf allan o Firefox mewngofnodwch ym mhob man byddwch yn pori."
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Unrhyw gwestiynau? Ewch i <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Cysylltwch ddyfais arall:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -455,11 +455,11 @@ msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif Firefox, ond heb ei gadarnhau."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Cadarnhewch nawr a chael technoleg sy'n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a'r parch rydych yn ei haeddu."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -579,15 +579,15 @@ msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysy
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Defnyddiwch gynnyrch teulu Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi iddo."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "E-bost cadarnhau "
 
 #: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
