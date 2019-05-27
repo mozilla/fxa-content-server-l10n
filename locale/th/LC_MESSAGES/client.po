@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 08:37+0000\n"
-"Last-Translator: Top <teerapatxtop@yahoo.com>\n"
+"PO-Revision-Date: 2019-05-27 10:57+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -1050,7 +1050,7 @@ msgstr "ข้อผิดพลาดการตรวจสอบ"
 
 #: .es5/templates/confirm.mustache:3
 msgid "One last step"
-msgstr ""
+msgstr "ขั้นตอนสุดท้าย"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
@@ -1456,7 +1456,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "เลขหมายไม่ถูกต้อง?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
