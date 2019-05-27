@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 04:17+0000\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -2005,7 +2005,7 @@ msgstr "Deschide scanerul de coduri din aplicația Firefox și prezintă codul c
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr "Arată codul"
+msgstr "Afișează codul"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
