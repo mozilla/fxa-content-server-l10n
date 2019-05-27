@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 18:52+0000\n"
+"PO-Revision-Date: 2019-05-27 19:04+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -783,7 +783,7 @@ msgstr "Få siste nytt om Mozilla og Firefox"
 
 #: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Gjer noko for å halde nettet friskt og raskt"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
@@ -1064,7 +1064,7 @@ msgstr "Stadfest denne innlogginga"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Sjekk %(escapedEmail)s for ei stadfestingslenke for å kome i gang."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1391,7 +1391,7 @@ msgstr "<span>Hugs passordet ditt</span>Viss du må nullstille passordet ditt, v
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Praktisk info i innboksen din. Registrer deg for meir:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1411,7 +1411,7 @@ msgstr "Feilksriven e-postadresse?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Ferdig! DU er innlogga."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1423,7 +1423,7 @@ msgstr "No kan du få Firefox overalt."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Logg inn på dei andre einingane dine for å få alle produkta, all kunskapen, og tryggingsfunksjonane i Firefox."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1466,7 +1466,7 @@ msgstr "Feil nummer?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Om du ikkje får SMS-meldinga kan du også søkje i appbutikken etter ‹‹Firefox››."
 
 #: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1908,7 +1908,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Beskytt passorda dine og ta dei med overalt."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
