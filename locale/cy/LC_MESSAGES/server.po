@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 10:12+0000\n"
+"PO-Revision-Date: 2019-05-27 10:13+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -623,11 +623,11 @@ msgstr "Cadarnewch eich e-bost a chychwyn cydweddu!"
 
 #: lib/senders/email.js:578
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Gorffen Creu Eich Cyfrif"
 
 #: lib/senders/email.js:611
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Nodyn Atgoffa: Gorffen Creu Eich Cyfrif"
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -667,7 +667,7 @@ msgstr "Cyfrif Firefox wedi ei wirio"
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Mae eich Cyfrif Firefox wedi ei Gadarnhau"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
