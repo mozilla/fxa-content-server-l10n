@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 09:32+0000\n"
+"PO-Revision-Date: 2019-05-27 18:31+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -775,7 +775,7 @@ msgstr "Сэрвіс недаступны, паспрабуйце зноў кр�
 
 #: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Выпрабоўвайце новыя прадукты Firefox"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -787,7 +787,7 @@ msgstr "Прыміце меры, каб захаваць інтэрнэт зда
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Будзьце больш разумнымі і бяспечнымі ў сеціве"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -901,7 +901,7 @@ msgstr "Для дадатковай бяспекі, калі ласка, пац�
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Дрэнны запыт"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
@@ -909,7 +909,7 @@ msgstr "Памылка 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Ах, нешта пайшло не так. Мы апавешчаныя і пачнём працу над выпраўленнем."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -979,7 +979,7 @@ msgstr "Выберыце, што сінхранізаваць"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "Сінхранізуйце ўсюды, дзе ўвайшлі ў сістэму"
 
 #: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:9 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -988,7 +988,7 @@ msgstr "Працягнуць"
 
 #: .es5/templates/choose_what_to_sync.mustache:14
 msgid "Save selections"
-msgstr ""
+msgstr "Захаваць вылучэнне"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 msgid "Back"
@@ -1062,7 +1062,7 @@ msgstr "Пацвердзіце гэты ўваход"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Праверце ў %(escapedEmail)s спасылку для пацверджання, і мы падтрымаем вас на вашым шляху."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1886,7 +1886,7 @@ msgstr "IP-адрас: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "Атрымайце больш ад гэтых функцый:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
