@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 18:31+0000\n"
+"PO-Revision-Date: 2019-05-27 18:34+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1144,7 +1144,7 @@ msgstr "Паспрабаваць зноў"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Увайдзіце <span class=\"service\">ў свой уліковы запіс Firefox</span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1187,7 +1187,7 @@ msgstr "Паведамленнем аб прыватнасці"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Скарыстайцеся ўсімі перавагамі сінхранізацыі."
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
@@ -1417,7 +1417,7 @@ msgstr "Адпраўце Firefox прама на ваш смартфон і ўв
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Цяпер атрымайце Firefox на ўсіх астатніх прыладах."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
