@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 22:54+0000\n"
+"PO-Revision-Date: 2019-05-28 21:14+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1414,7 +1414,7 @@ msgstr "¿Correo electrónico mal escrito?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "¡Lo hiciste! Iniciaste sesión."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
