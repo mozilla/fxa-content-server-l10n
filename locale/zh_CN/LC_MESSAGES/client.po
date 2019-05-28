@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 08:56+0000\n"
+"PO-Revision-Date: 2019-05-28 13:42+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1972,7 +1972,7 @@ msgstr "设置过程已终止。"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "打开 Firefox 的二维码扫描器，就绪后点按“显示配对码”。"
+msgstr "打开 Firefox 的二维码扫描器，就绪后点击“显示配对码”。"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
