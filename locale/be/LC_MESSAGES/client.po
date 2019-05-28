@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 18:34+0000\n"
+"PO-Revision-Date: 2019-05-28 18:33+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -959,7 +959,7 @@ msgstr "Не ўдаецца стварыць уліковы запіс"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Вы мусіце адпавядаць пэўным патрабаванням па ўзросту, каб стварыць уліковы запіс Firefox."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1014,7 +1014,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны вашых дадзеных, і захоўвайце яго ў бяспечным месцы."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1331,7 +1331,7 @@ msgstr "Аўтарызаваць гэты ўваход"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Праверце ў сваёй электроннай пошце код, дасланы на %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1355,7 +1355,7 @@ msgstr "Выкарыстаць код аднаўлення"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Праверце ў сваёй электроннай пошце код аўтарызацыі, дасланы на %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1389,7 +1389,7 @@ msgstr "<span>Запомніце свой пароль</span>Калі вам с�
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Практычныя веды ў вашай уваходнай пошце. Падпішыцеся на больш:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1421,7 +1421,7 @@ msgstr "Цяпер атрымайце Firefox на ўсіх астатніх п�
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Увайдзіце на іншых прыладах, каб атрымаць усе прадукты, веды і магчымасці прыватнасці Firefox."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1450,7 +1450,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Усталюйце Firefox на свой смартфон і ўвайдзіце ў сістэму, каб завяршыць устаноўку"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
