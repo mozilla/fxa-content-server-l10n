@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-28 18:33+0000\n"
+"PO-Revision-Date: 2019-05-28 18:42+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1454,7 +1454,7 @@ msgstr "Усталюйце Firefox на свой смартфон і ўвайд�
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Спасылка на праграму Firefox была адпраўлена на %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
@@ -1569,7 +1569,7 @@ msgstr "Дублікат прылады"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Не ўказваць"
 
 #: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
@@ -1577,7 +1577,7 @@ msgstr "Адлучыць"
 
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Адлучэнне прайшло паспяхова"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
@@ -1770,7 +1770,7 @@ msgstr "Замяніць коды аднаўлення"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Скануйце QR-код у праграме аўтэнтыфікацыі, а затым ўвядзіце код бяспекі, які яна выдае."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1910,11 +1910,11 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Праяўляйце пільнасць да ўцечак дадзеных."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
-msgstr ""
+msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
