@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"PO-Revision-Date: 2019-05-28 04:56+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -35,15 +35,15 @@ msgstr "%(permissionName)s (necesar)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Adresa de e-mail"
+msgstr "Adresă de e-mail"
 
 #: .es5/views/permissions.js:49 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr "Numele afișat"
+msgstr "Nume afișat"
 
 #: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr "Imaginea contului"
+msgstr "Imagine cont"
 
 #: .es5/views/ready.js:56
 msgid "Welcome back"
