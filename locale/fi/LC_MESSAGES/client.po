@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 20:11+0000\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
+"PO-Revision-Date: 2019-05-28 18:52+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -776,7 +776,7 @@ msgstr "Palvelu ei ole saatavilla, yritä hetken päästä uudelleen"
 
 #: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Testaa uusia Firefox-tuotteita"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -784,11 +784,11 @@ msgstr "Tilaa uusimmat Mozilla- ja Firefox-uutiset"
 
 #: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Aktivoidu pitääksesi internetin terveenä"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Pysy turvassa ja fiksuna verkossa"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1951,7 +1951,7 @@ msgstr "Etsitkö Firefox Sync -palvelua? <a %(escapedSyncSuggestionAttrs)s>Aloit
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Hyväksy uusi laite <small>tilille %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
