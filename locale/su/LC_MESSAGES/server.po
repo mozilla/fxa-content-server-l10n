@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 15:08+0000\n"
+"PO-Revision-Date: 2019-05-29 15:18+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -665,11 +665,11 @@ msgstr "Surélék sékundér Firefox Account geus ditambahkeun"
 
 #: lib/senders/email.js:1084
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Surélék utama anyar Firefox Account"
 
 #: lib/senders/email.js:1112
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Surélék sékundér Firefox Account dilaan"
 
 #: lib/senders/email.js:1360
 msgid "Firefox Account password reset with recovery key"
@@ -717,11 +717,11 @@ msgstr ""
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Wawar Privasi"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Katangtuan Layanan"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -733,4 +733,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Undeur panganyarna"

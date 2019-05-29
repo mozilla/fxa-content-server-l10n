@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 14:58+0000\n"
+"PO-Revision-Date: 2019-05-29 15:30+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1178,7 +1178,7 @@ msgstr "Légal"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
-msgstr ""
+msgstr "Katangtuan Layanan"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
 msgid "Privacy Notice"
@@ -1186,7 +1186,7 @@ msgstr "Wawar Privasi"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Meunangkeun pangalaman Sync sagemblengna"
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
@@ -1237,7 +1237,7 @@ msgstr "Tuluykeun ka akun kuring"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Laporkeun peta asup teu kaotorisasi?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -1249,7 +1249,7 @@ msgstr "Laporan aktivitas"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Naha kajadian kieu?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1280,11 +1280,11 @@ msgstr "Jieun akun"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Hampura, kami ngonci akun anjeun."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Surélék konfirmasi nu kami kirim ka %(email)s téh baruk dipulangkeun deui, atuh ku kami dikonci baé pikeun ngamankeun data Firefox anjeun."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
@@ -1316,7 +1316,7 @@ msgstr "Paké kodeu kaamanan"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Panuhun kana kawaspadaan anjeun"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1404,7 +1404,7 @@ msgstr "Salah ngetik surélék?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Hadé euy! Anjeun geus asup."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1420,7 +1420,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Nomer telepon sélulér"
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Send"
