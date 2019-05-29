@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 12:11+0000\n"
+"PO-Revision-Date: 2019-05-29 12:24+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1477,7 +1477,7 @@ msgstr "Teu nepi? Kirim deui"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Naha nyingkronkeun loba parangkat?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1524,7 +1524,7 @@ msgstr "Anggeus"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Perenahkeun jeung rotasi gambar anjeun mun diperlukeun"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
 msgid "Change"
@@ -1540,7 +1540,7 @@ msgstr "Sandi heubeul"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Pegatkeun Singkronan?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1560,39 +1560,39 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Gandakeun parangkat"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Hadé kénéh cicing"
 
 #: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr ""
+msgstr "Pegatkeun"
 
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Megatkeun Ngahasil"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Parangkat & aplikasi"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
-msgstr ""
+msgstr "Témbongkeun"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Parangkat kiwari"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Pegatkeun…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Sési kiwari"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
@@ -1600,20 +1600,20 @@ msgstr "Cabut"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox jang iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Euweuh nu nyambung"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
-msgstr ""
+msgstr "Undeur"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox jang Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
@@ -1622,11 +1622,11 @@ msgstr ""
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Segerkeun status"
 
 #: .es5/templates/settings/communication_preferences.mustache:3
 msgid "Email preferences"
-msgstr ""
+msgstr "Préférénsi surélék"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
@@ -1638,19 +1638,19 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
-msgstr ""
+msgstr "Langganan"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Kokolakeun préférénsi"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Pupus akun"
 
 #: .es5/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Pupus…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
