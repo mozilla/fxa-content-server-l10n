@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 18:50+0000\n"
+"PO-Revision-Date: 2019-05-29 19:11+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -503,7 +503,7 @@ msgstr "Alamat dipaké ku akun séjén"
 
 #: .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Surélék utama perlu disetél ulang"
 
 #: .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
@@ -620,11 +620,11 @@ msgstr "Digawé…"
 
 #: .es5/lib/auth-errors.js:308
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Teu bisa nyomot Wawar Privasi"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Teu bisa nyomot Katangtuan Layanan"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
@@ -684,7 +684,7 @@ msgstr "Anjeun kudu ngasupkeun umur pikeun daptar."
 
 #: .es5/lib/auth-errors.js:428
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Anjeun kudu ngasupkeun umur nu bener pikeun daptar"
 
 #: .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
@@ -852,15 +852,15 @@ msgstr "Gagal ngadumaniskeun parangkat anggang"
 
 #: .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Sambungan ka parangkat anggang pegat, geura pecakan deui"
 
 #: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Paraméter dina eusi pundutan teu sah: %(param)s"
 
 #: .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Panyadia gambar teu dirojong"
 
 #: .es5/lib/profile-errors.js:39
 msgid "Image processing error"
@@ -908,7 +908,7 @@ msgstr "Éror 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Duh lur, aya nu salah ieu téh. Kami geus diwawaran sarta bakal digawé pikeun menerkeunana."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -1074,7 +1074,7 @@ msgstr ""
 #: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Euweuh na kotak asup atawa folder spam? Kirim deui"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1103,7 +1103,7 @@ msgstr "Suksés"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Asup ka ieu Firefox pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
@@ -1111,19 +1111,19 @@ msgstr "Nambahkeun parangkat kénéh?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Asup ka ieu Firefox na parangkat séjén pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Nambahkeun parangkat kénéh? Asup ka Firefox na parangkat séjén pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Asup ka ieu Firefox Android pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Asup ka ieu Firefox iOS pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Kuki jeung panyimpenan lokal diperlukeun"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1408,11 +1408,11 @@ msgstr "Hadé euy! Anjeun geus asup."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Kirim Firefox langsung ka ponsél pinter sarta asup pikeun mungkaskeun panataharan"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Ayeuna mah meunangkeun Firefox dimana baé"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
@@ -1445,7 +1445,7 @@ msgstr "Cék téks anjeun"
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Pasang Firefox na ponsél pinter anjeun sarta asup pikeun mungkaskeun panataharan"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"

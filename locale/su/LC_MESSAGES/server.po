@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 15:49+0000\n"
+"PO-Revision-Date: 2019-05-29 18:55+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -625,7 +625,7 @@ msgstr "Pangéling-ngéling pamungkas: Konfirmasi surélék anjeun pikeun ngakti
 
 #: lib/senders/email.js:666
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Kodeu otorisasi Firefox Account"
 
 #: lib/senders/email.js:705
 msgid "Confirm new sign-in to %(clientName)s"
@@ -649,7 +649,7 @@ msgstr "Sandi Firefox Account geus dirobah"
 
 #: lib/senders/email.js:959
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Nyetél ulang sandi Firefox Account diperlukeun"
 
 #: lib/senders/email.js:1011
 msgid "Firefox Account verified"
@@ -673,7 +673,7 @@ msgstr "Surélék sékundér Firefox Account dilaan"
 
 #: lib/senders/email.js:1360
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Setél ulang sandi Firefox Account kalawan konci pamulangan"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -713,7 +713,7 @@ msgstr "Ngamuat"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox Accounts merlukeun JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
