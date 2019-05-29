@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 21:24+0000\n"
+"PO-Revision-Date: 2019-05-29 22:30+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -567,19 +567,19 @@ msgstr "Gagal lantaran pamundut nu silih pasalia, prak pecakan deui."
 
 #: .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Palanggan teu dipikawawuh keur balanggan"
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Langganan teu dipikawawuh"
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Pakét balanggan teu dipikawawuh"
 
 #: .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Token babayaran teu sah keur balanggan."
 
 #: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
@@ -604,7 +604,7 @@ msgstr "Pamecakan asup dibolaykeun"
 
 #: .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Sési kadaluwarsa. Asup pikeun nuluykeun."
 
 #: .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
@@ -676,7 +676,7 @@ msgstr "Diménsi gambar sahenteuna kudu 100x100px"
 
 #: .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Padaptaran Firefox téréh dibuka jang iOS"
 
 #: .es5/lib/auth-errors.js:424
 msgid "You must enter your age to sign up"
@@ -700,7 +700,7 @@ msgstr "Leungiteun properti na token hanca: %(property)s"
 
 #: .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Atribut data teu sah: %(property)s"
 
 #: .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
@@ -880,11 +880,11 @@ msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Meunangkeun warta panganyarna ngeunaan Mozilla jeung Firefox."
 
 #: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (kira)"
 
 #: .es5/lib/strings.js:37 .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
@@ -1127,7 +1127,7 @@ msgstr "Asup ka ieu Firefox iOS pikeun mungkaskeun panataharan"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Naha merlukeun loba parangkat?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1328,7 +1328,7 @@ msgstr "Otorisasi ieu peta asup"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Pariksa surélék anjeun sabab kodeus geus dikirim ka %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1449,7 +1449,7 @@ msgstr "Pasang Firefox na ponsél pinter anjeun sarta asup pikeun mungkaskeun pa
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Tutumbu ka aplikasi Firefox geus dikirim ka %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
@@ -1461,7 +1461,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tutumbu aplikasi geus dikirim ka %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ngetik&nbsp;nomer lin?</a>"
 
 #: .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
