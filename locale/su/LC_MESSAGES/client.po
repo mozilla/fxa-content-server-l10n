@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 04:11+0000\n"
+"PO-Revision-Date: 2019-05-29 04:24+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -63,7 +63,7 @@ msgstr "Lengekepan panataharan kalawan ngasupkeun sandi anyar di parangkat Firef
 
 #: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Anjeun ayeuna siap nyieun parobahan kana Akun Firefox anjeun."
+msgstr "Anjeun ayeuna siap nyieun parobahan kana Firefox Account anjeun."
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
@@ -111,7 +111,7 @@ msgstr "Ngarobah sandi geus hasil"
 
 #: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Hanjakal kami ngadangu ieu. Anjeun dihaturan ngarobah sandi Akun Firefox anjeun, sarta ilikan info ti manufaktur parangkat anjeun ngeunaan mupus data anjeun ti kaanggangan."
+msgstr "Hanjakal kami ngadangu ieu. Anjeun dihaturan ngarobah sandi Firefox Account anjeun, sarta ilikan info ti manufaktur parangkat anjeun ngeunaan mupus data anjeun ti kaanggangan."
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -119,95 +119,95 @@ msgstr "Hanjakal kami ngadangu ieu. Mun anjeun teu percaya ieu parangkat, anjeun
 
 #: .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s leuwih"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s leuwih di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Singkronan panungtung %(translatedTimeAgo)s leuwih deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s leuwih"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s leuwih di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Aktif panungtung %(translatedTimeAgo)s leuwih deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s leuwih"
 
 #: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s leuwih di %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s leuwih deukeut %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sési wéb, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:138
 msgid "Web Session"
-msgstr ""
+msgstr "Sési wéb"
 
 #: .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Waktu singkronan panungtung teu kanyahoan"
 
 #: .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Balangganan ngahasil"
 
 #: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Mupus akun ngahasil"
 
 #: .es5/views/settings/display_name.js:66
 msgid "Display name updated"
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
-msgstr ""
+msgstr "Asupkeun deui sandi"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
