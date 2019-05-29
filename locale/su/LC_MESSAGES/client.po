@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 04:24+0000\n"
+"PO-Revision-Date: 2019-05-29 05:33+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -279,107 +279,107 @@ msgstr ""
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "euweuhan"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Panungtung dipariksa: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Buka Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Buka Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Buka Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Buka Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Buka Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Surélék dikirim deui. Tambahkeun accounts@firefox.com kana kontak anjeun pikeun muguhkeun pangirimanna lancar."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Ditiron"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Gagal niron. Tiron manual wé."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Kaundeur"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Kacitak"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Surélék utama ngahasil divérifikasi"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Akun ngahasil divérifikasi"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
-msgstr ""
+msgstr "Markah"
 
 #: .es5/models/sync-engines.js:58
 msgid "History"
-msgstr ""
+msgstr "Jujutan"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins"
-msgstr ""
+msgstr "Asup"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
-msgstr ""
+msgstr "Émbohan"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open tabs"
-msgstr ""
+msgstr "Buka tab"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
-msgstr ""
+msgstr "Préférénsi"
 
 #: .es5/models/sync-engines.js:82
 msgid "Addresses"
-msgstr ""
+msgstr "Alamat"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit cards"
-msgstr ""
+msgstr "Kartu kiridit"
 
 #: .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Surélék sékundér ngahasil divérifikasi"
 
 #: .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Nyetél ulang sandi geus hasil"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
-msgstr ""
+msgstr "Éror teu dinyana"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
