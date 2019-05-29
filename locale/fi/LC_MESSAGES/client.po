@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-28 18:52+0000\n"
+"PO-Revision-Date: 2019-05-29 07:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1065,7 +1065,7 @@ msgstr "Vahvista tämä kirjautuminen"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Tarkista sähköpostisi %(escapedEmail)s vahvistuslinkin osalta, niin ohjaamme sinut eteenpäin."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1422,7 +1422,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Kirjaudu muille laitteillesi saadaksesi kaikki Firefox-tuotteet, -tietouden ja -yksityisyysominaisuudet."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1449,7 +1449,7 @@ msgstr "Aloita selaaminen"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Tarkista saamasi tekstiviestit"
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
