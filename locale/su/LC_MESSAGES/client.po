@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 13:59+0000\n"
+"PO-Revision-Date: 2019-05-29 14:31+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -435,11 +435,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Paraméter teu sah: %(param)s"
 
 #: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Paraméter leungit: %(param)s"
 
 #: .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
@@ -451,7 +451,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:98
 msgid "Request body too large"
-msgstr ""
+msgstr "Eusi pundutan kagedéan"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
@@ -583,7 +583,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Sérver keur teu ari, pecakan deui geura."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Feature not enabled"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Sandi teu akur"
 
 #: .es5/lib/auth-errors.js:304
 msgid "Working…"
@@ -636,11 +636,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:324
 msgid "Valid password required"
-msgstr ""
+msgstr "Sandi sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
 msgid "Valid email required"
-msgstr ""
+msgstr "Surélék sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
-msgstr ""
+msgstr "URL sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
@@ -668,7 +668,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:400 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Tutumbu vérifikasi rajét"
 
 #: .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Akun geus kamana boa."
 
 #: .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
@@ -720,11 +720,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:489 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Tutumbu rajét"
 
 #: .es5/lib/auth-errors.js:512
 msgid "Phone number required"
-msgstr ""
+msgstr "Nomer telepon diperlukan"
 
 #: .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
@@ -756,15 +756,15 @@ msgstr "Akun kalawan oténtikasi dua léngkah kiwari teu ngarojong aadumanisan"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
-msgstr ""
+msgstr "Konfigurasi leungit"
 
 #: .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Konfigurasi teu sah"
 
 #: .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Maksud anjeun <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> lin?"
 
 #: .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
@@ -836,7 +836,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:145
 msgid "no message"
-msgstr ""
+msgstr "taya talatah"
 
 #: .es5/lib/oauth-errors.js:149
 msgid "Missing OAuth parameter: %(param)s"
@@ -995,7 +995,7 @@ msgstr "Mundur"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Tutumbu panyetélan ulang sandi rajét"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1191,7 +1191,7 @@ msgstr ""
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Undeur Firefox jang iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
