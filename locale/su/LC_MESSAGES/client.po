@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 15:45+0000\n"
+"PO-Revision-Date: 2019-05-29 16:09+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kuki dipareuman kénéh"
 
 #: .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
@@ -628,11 +628,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Sandi anyar anjeun kudu béda"
 
 #: .es5/lib/auth-errors.js:320 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Sahenteuna kudu 8 karakter"
 
 #: .es5/lib/auth-errors.js:324
 msgid "Valid password required"
@@ -644,7 +644,7 @@ msgstr "Surélék sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Taya gambar nu bisa dipaké"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Could not initialize camera"
@@ -660,11 +660,11 @@ msgstr "Surélék vérifikasi anjeun cik kénéh dipulangkeun deui. Salah ngetik
 
 #: .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Asupkeun alamat surélék sah. firefox.com mah teu nawaran surélék."
 
 #: .es5/lib/auth-errors.js:380
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox Accounts kur bisa ditapelkeun kana IFRAME dina situs nu disatujuan"
 
 #: .es5/lib/auth-errors.js:400 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
@@ -672,7 +672,7 @@ msgstr "Tutumbu vérifikasi rajét"
 
 #: .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Diménsi gambar sahenteuna kudu 100x100px"
 
 #: .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:424
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Anjeun kudu ngasupkeun umur pikeun daptar."
 
 #: .es5/lib/auth-errors.js:428
 msgid "You must enter a valid age to sign up"
