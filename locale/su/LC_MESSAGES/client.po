@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 14:54+0000\n"
+"PO-Revision-Date: 2019-05-29 14:58+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -479,7 +479,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Surélék anjeun cik kénéh dipulangkeun deui. Salah ngetik surélék boa?"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
@@ -656,7 +656,7 @@ msgstr "URL sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Surélék vérifikasi anjeun cik kénéh dipulangkeun deui. Salah ngetik surélék boa?"
 
 #: .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
