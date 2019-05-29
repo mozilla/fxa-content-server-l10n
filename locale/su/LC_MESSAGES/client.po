@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 11:30+0000\n"
+"PO-Revision-Date: 2019-05-29 11:44+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -600,7 +600,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Pamecakan asup dibolaykeun"
 
 #: .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
@@ -1596,7 +1596,7 @@ msgstr ""
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "Cabut"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
@@ -1829,7 +1829,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "Anjeun yakin rék nyabut?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
