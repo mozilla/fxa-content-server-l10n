@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 22:50+0000\n"
+"PO-Revision-Date: 2019-05-29 23:15+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -497,7 +497,7 @@ msgstr "Vérifikasi Surélék"
 
 #: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Vérifikasi surélék anjeun pikeun mungkas padaptaran Firefox Account anjeun"
 
 #: lib/senders/templates/verify.txt:5
 msgid "Activate now:"
@@ -505,7 +505,7 @@ msgstr "Aktifkeun ayeuna:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Pikeun nambahan kaamanan, prak konfirmasi ieu peta asup ti parangkat di handap:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"

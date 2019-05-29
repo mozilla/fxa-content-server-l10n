@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 22:48+0000\n"
+"PO-Revision-Date: 2019-05-29 23:28+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -399,11 +399,11 @@ msgstr "Token teu sah"
 
 #: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Cap waktu teu sah dina tawis pamundutan"
 
 #: .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Teu sah dina tawis pamundutan"
 
 #: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:171
 msgid "Account already exists"
@@ -970,7 +970,7 @@ msgstr "%(email)s geus kadaptar"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "Meunangkeun kajembaran akun anjeun"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
@@ -1696,7 +1696,7 @@ msgstr "CATETAN:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Ku pangjieunkeun kodeu pamulangan anyar, sakur kodeu saméméhna bakal jadi teu sah. Prak dihadé-hadé kodeu anyar anjeun."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
