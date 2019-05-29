@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 11:44+0000\n"
+"PO-Revision-Date: 2019-05-29 12:11+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1245,7 +1245,7 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Laporan aktivitas"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -1259,7 +1259,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Vérifikasi"
 
 #: .es5/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1272,7 +1272,7 @@ msgstr "Kaluar"
 #: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
-msgstr ""
+msgstr "Paké akun nu béda"
 
 #: .es5/templates/sign_in.mustache:16
 msgid "Create an account"
@@ -1308,11 +1308,11 @@ msgstr "Asupkeun 10-digit kodeu pamulangan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
-msgstr ""
+msgstr "Vérifikasi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Paké kodeu kaamanan"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1324,7 +1324,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Otorisasi ieu peta asup"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1332,11 +1332,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Asupkeun kodeu"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Asupkeun kodeu kaamanan"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
@@ -1344,7 +1344,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Asupkeun kodeu 6-digit"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1356,19 +1356,19 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Asupkeun kodeu oténtikasi"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Jieun akun Firefox anjeun"
 
 #: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Jieun Firefox Account"
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
 msgid "Repeat password"
-msgstr ""
+msgstr "Ulang sandi"
 
 #: .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
@@ -1437,11 +1437,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
-msgstr ""
+msgstr "Mitembeyan nyungsi"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Cék téks anjeun"
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "Salah nomor?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -1473,7 +1473,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Teu nepi? Kirim deui"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Sandi heubeul"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
