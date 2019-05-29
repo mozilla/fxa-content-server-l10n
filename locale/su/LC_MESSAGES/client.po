@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 22:30+0000\n"
+"PO-Revision-Date: 2019-05-29 22:48+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1465,11 +1465,11 @@ msgstr "Tutumbu aplikasi geus dikirim ka %(escapedPhoneNumber)s. <a %(escapedBac
 
 #: .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tutumbu aplikasi dikirim deui ka %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ngetik&nbsp;nomer lin?</a>"
 
 #: .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Mun anjeun can nampa waé SMSna, anjeun bisa ngundeur aplikasina sacara manual."
 
 #: .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
@@ -1885,7 +1885,7 @@ msgstr "Panyungsi Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Kuliksek internét kalawan pangamanan, na sakumna parangkat."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 19:27+0000\n"
+"PO-Revision-Date: 2019-05-29 22:50+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -72,7 +72,7 @@ msgstr "Ieu mangrupa surélék otomatis"
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8
 #: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Pikeun infomasi lianna, mangga sorang <a %(supportLinkAttributes)s>Rojongan Mozilla</a>."
 
 #: lib/senders/templates/low_recovery_codes.html:7 lib/senders/templates/low_recovery_codes.txt:5 lib/senders/templates/new_device_login.html:7 lib/senders/templates/new_device_login.txt:6
 #: lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6 lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5
@@ -109,7 +109,7 @@ msgstr "Pangjieunkeun kodeu:"
 #: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
 #: lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Pikeun informasi lianna, mangga sorang %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:981
