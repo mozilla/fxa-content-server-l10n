@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 19:11+0000\n"
+"PO-Revision-Date: 2019-05-29 19:26+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -439,7 +439,7 @@ msgstr "Paraméter teu sah: %(param)s"
 
 #: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
-msgstr "Paraméter leungit: %(param)s"
+msgstr "Leungiteun paraméter: %(param)s"
 
 #: .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
@@ -447,7 +447,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Leungiteun panjang kontén header"
 
 #: .es5/lib/auth-errors.js:98
 msgid "Request body too large"
@@ -692,11 +692,11 @@ msgstr "Akun geus kamana boa."
 
 #: .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Properti teu sah na token hanca: %(property)s"
 
 #: .es5/lib/auth-errors.js:452
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Leungiteun properti na token hanca: %(property)s"
 
 #: .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
@@ -704,7 +704,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Leungiteun atribut data: %(property)s"
 
 #: .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -756,7 +756,7 @@ msgstr "Akun kalawan oténtikasi dua léngkah kiwari teu ngarojong aadumanisan"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
-msgstr "Konfigurasi leungit"
+msgstr "Leungiteun konfigurasi"
 
 #: .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
@@ -1917,7 +1917,7 @@ msgstr "Sandi Firefox Account anjeun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Ulah maké alamat surélék anjeun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
