@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 06:04+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"PO-Revision-Date: 2019-05-29 09:30+0000\n"
+"Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
@@ -211,55 +211,55 @@ msgstr "Mupus akun ngahasil"
 
 #: .es5/views/settings/display_name.js:66
 msgid "Display name updated"
-msgstr ""
+msgstr "Sandiasma geus dianyarkeun"
 
 #: .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Surél kadua geus dilaan"
 
 #: .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
-msgstr ""
+msgstr "Surél vérifikasi dikirim"
 
 #: .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Surél utama disetél ka %(email)s"
 
 #: .es5/views/settings/emails.js:179 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
-msgstr ""
+msgstr "Surél sékundér"
 
 #: .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Kodeu Pamulangan Firefox"
 
 #: .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Kodeu pamulangan anyar dipangnyieunkeun"
 
 #: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Oténtikasi dua léngkah dihurungkeun"
 
 #: .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Paké kodeu %(code)s pikeun ngatur oténtikasi dua léngkah di aplikasi nu dirojong."
 
 #: .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Oténtikasi dua léngkah dilaan"
 
 #: .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Oténtikasi dua léngkah"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
-msgstr ""
+msgstr "Pamulangan Akun"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Pamulangan akun dihurungkeun"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
