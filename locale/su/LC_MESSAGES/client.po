@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 15:30+0000\n"
+"PO-Revision-Date: 2019-05-29 15:45+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -463,19 +463,19 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Nomer telepon teu sah"
 
 #: .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Teu bisa ngirim ka ieu nagara"
 
 #: .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Teu bisa ngirim talatah ka ieu nomer"
 
 #: .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Surélék anjeun cik kénéh dipulangkeun deui"
 
 #: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
@@ -487,19 +487,19 @@ msgstr "Teu bisa nepikeun surélék"
 
 #: .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Ieu surélék geus divérifikasi ku batur"
 
 #: .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Surélék sékundér kudu béda jeung surélék akun anjeun"
 
 #: .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Surélék utama akun diperlukeun jang asup"
 
 #: .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Alamat dipaké ku akun séjén"
 
 #: .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
@@ -1548,7 +1548,7 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Parangkat nyurigakeun"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
@@ -1717,7 +1717,7 @@ msgstr "Citak"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Balangganan"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1893,7 +1893,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Simpen, amankeun, sarta bawa sandi anjeun kamabaé."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -1909,7 +1909,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Bagikeun koropak badag tanpa kudu tibeberegég."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
