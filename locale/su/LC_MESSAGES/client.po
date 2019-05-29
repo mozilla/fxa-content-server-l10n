@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 09:46+0000\n"
+"PO-Revision-Date: 2019-05-29 10:11+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -828,7 +828,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Token kadaluwarsa"
 
 #: .es5/lib/oauth-errors.js:125
 msgid "Something went wrong. Please close this tab and try again."
@@ -900,7 +900,7 @@ msgstr ""
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Pamundut goréng"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
@@ -1017,7 +1017,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "Sandi anyar"
 
 #: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
 msgid "Re-enter password"
@@ -1025,15 +1025,15 @@ msgstr "Asupkeun deui sandi"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Inget sandi? Asup"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Surélék utama geus dikonfirmasi"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Peta asup geus dikonfirmasi"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
