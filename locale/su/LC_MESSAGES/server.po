@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:32+0000\n"
+"PO-Revision-Date: 2019-05-30 06:49+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -164,7 +164,7 @@ msgstr "Ngarobah sandi geus hasil"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Sandi Firefox Account anjeun geus hasil diganti tina parangkat di handap:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."

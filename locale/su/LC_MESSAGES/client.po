@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:28+0000\n"
+"PO-Revision-Date: 2019-05-30 06:48+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1662,7 +1662,7 @@ msgstr ""
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Pilih ngaran ku anjeun dipikahayang jang pidangan Firefox jeung nalika anjeun ngokolakeun akun."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
