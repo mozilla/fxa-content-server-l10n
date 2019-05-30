@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 01:47+0000\n"
+"PO-Revision-Date: 2019-05-30 02:10+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Ieu surélék geus teu dipaké lin? Jieun akun anyar"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1352,7 +1352,7 @@ msgstr "Paké kodeu pamulangan"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Pariksa surélék anjeun sabab kodeu otorisasi geus dikirim ka %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1769,7 +1769,7 @@ msgstr "Teu bisa néplak kodeu?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Asupkeun ieu konci rusiah sacara manual kana aplikasi oténtikasi anjeun:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
