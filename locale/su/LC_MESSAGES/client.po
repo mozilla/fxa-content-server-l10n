@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 02:10+0000\n"
+"PO-Revision-Date: 2019-05-30 02:25+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1328,7 +1328,7 @@ msgstr "Otorisasi ieu peta asup"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr "Pariksa surélék anjeun sabab kodeus geus dikirim ka %(email)s."
+msgstr "Pariksa surélék anjeun sabab kodeu geus dikirim ka %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1429,7 +1429,7 @@ msgstr "Kirim"
 #: .es5/templates/sms_send.mustache:15
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Layanan SMS hungkul nu sayaga di ieu nagara mah. SMS &amp; biaya data mumkin tumerap. Panarima surélék atawa SMS nu dimaksud kudu nyatujuan. <a %(escapedLearnMoreAttributes)s>Lenyepan</a>"
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
@@ -1457,7 +1457,7 @@ msgstr "Salah nomor?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Mun anjeun teu naeima talatah SMS, anjeun bisa ogé maluruh “Firefox” dina app store."
 
 #: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1634,7 +1634,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Tatambahna, anjeun bisa balanggan sangkan nampa surélék promosi kalawan warta panganyarna ti Mozilla jeung Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1921,7 +1921,7 @@ msgstr "Ulah maké alamat surélék anjeun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Kudu ulah misaru jeung ieu <a %(escapedCommonPasswordLinkAttrs)s>daptar sandi basajan</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."

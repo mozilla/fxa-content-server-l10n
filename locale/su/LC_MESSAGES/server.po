@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 02:07+0000\n"
+"PO-Revision-Date: 2019-05-30 02:27+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -405,7 +405,7 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Aya tanyakeuneun? Sorang <a %(supportLinkAttributes)s>Rojongan Mozilla</a>."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
@@ -445,7 +445,7 @@ msgstr ""
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Mun henteu, bantuan kami nyingkahan nu ngaganggu sarta laporkeun ka kami."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
