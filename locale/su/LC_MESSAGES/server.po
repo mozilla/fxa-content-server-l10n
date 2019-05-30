@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 04:47+0000\n"
+"PO-Revision-Date: 2019-05-30 05:30+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -256,11 +256,11 @@ msgstr "Konci pamulangan akun dipangnyieunkeun"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil pangjieunkeun konci akun pamulangan pikeun Firefox Account anjeun maké parangkat di handap:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Mun ieu lain anjeun, <a %(revokeAccountRecoveryLinkAttributes)s>klik didieu.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
@@ -401,7 +401,7 @@ msgstr "Anjeun geus asup sarta siap mitembeyan ngalanglang kalawan aman tur sala
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Ayeuna meunangkeun mangpaat ti Firefox sagemblengna ku cara asup timana waé anjeun nyungsi."
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -473,7 +473,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Konfirmasi ieu alamat surélék pikeun ngaktifkeun akun anjeun sarta béjaan kami hibar anjeun."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -489,7 +489,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Konfirmasi ieu alamat surélék pikeun ngaktifkeun Firefox Account anjeun."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -553,7 +553,7 @@ msgstr "Vérifikasi surélék sékundér"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Pamundutan pikeun maké %(email)s minangka surélék sékundér téh geus dijieun ti Firefox Account ieu:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
