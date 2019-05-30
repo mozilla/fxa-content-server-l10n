@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-29 23:15+0000\n"
+"PO-Revision-Date: 2019-05-30 01:31+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -20,12 +20,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Anjeun geus hasil nyambungkeun parangkat munggaran anjeun kana Firefox Account anjeun. Ayeuna anjeun bisa asup kana Singkronan ti parangkat anjeun nu séjén, kaasup Firefox jang <a "
+"href='%(androidUrl)s'>Android</a> jeung <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Anjeun geus hasil nyambungkeun parangkat munggaran anjeun kana Firefox Account anjeun. Pikeun nyingkronkeunna, sambungkeun <a href='%(androidUrl)s'>Firefox jang Android</a> atawa <a "
+"href='%(iosUrl)s'>Firefox jang iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -272,7 +276,7 @@ msgstr "Oténtikasi dua léngkah dihurungkeun"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
