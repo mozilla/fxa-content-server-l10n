@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-28 21:14+0000\n"
-"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
+"PO-Revision-Date: 2019-05-30 18:41+0000\n"
+"Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -788,7 +788,7 @@ msgstr "Actuá para mantener a Internet saludable"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Permanecé más seguro en línea"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -974,7 +974,7 @@ msgstr "%(email)s registrado/s"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "Sacale el máximo partido a tu cuenta"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
@@ -982,7 +982,7 @@ msgstr "Elija qué sincronizar"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "Sincronizá cada vez que iniciás una sesión"
 
 #: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:9 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1067,7 +1067,7 @@ msgstr "Confirmá tu inicio de sesión"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Habilitá %(escapedEmail)s para recibir un enlace de confirmación para continuar."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1149,7 +1149,7 @@ msgstr "Intentá de nuevo"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Iniciá la sesión <span class=\"service\">en tu cuenta Firefox</span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1422,7 +1422,7 @@ msgstr "Enviá Firefox directamente a tu smartphone e ingresá para completar la
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Ahora llevá Firefox a cualquier parte."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
