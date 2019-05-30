@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-25 08:37+0000\n"
-"Last-Translator: Top <teerapatxtop@yahoo.com>\n"
+"PO-Revision-Date: 2019-05-30 11:09+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -392,7 +392,7 @@ msgstr "คุณได้ยืนยัน %(secondaryEmail)s เป็นอ�
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "ยินดีต้อนรับเข้าสู่ครอบครัว Firefox"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -580,7 +580,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "ยืนยันอีเมล "
 
 #: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -660,7 +660,7 @@ msgstr "บัญชี Firefox ได้รับการยืนยันแ
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Firefox Account ของคุณได้รับการยืนยันแล้ว"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
