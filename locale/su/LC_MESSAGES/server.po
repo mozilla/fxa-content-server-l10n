@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 09:10+0000\n"
+"PO-Revision-Date: 2019-05-30 09:19+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -58,7 +58,7 @@ msgstr "Kodeu pamulangan sayaga sakeudeung deui"
 
 #: lib/senders/templates/low_recovery_codes.html:3
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Kami perhatikeun yén anjeun béakkeun kodeu pamulangan. Pék tinimbangan nyieun kodeu anyar téh pikeun nyingkahan kakoncina akun anjeun."
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
@@ -219,11 +219,11 @@ msgstr "Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura ro
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Kami ngadétéksi aktivitas nu nyurigakeun dina Firefox Account anjeun. Akun anjeun meureun baé geus diseselan."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Pikeun nyingkahan aksés teu sah nu kamalinaan ka Firefox Account anjeun, kami geus nyetél ulang sandi anjeun sarta ngabaran anjeun minangka tarékah panyingkahan."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -738,7 +738,7 @@ msgstr "Perlu ngapdét Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr ""
+msgstr "Firefox Account ngamangpaatkeun fitur nu teu dirojong di vérsi Firefox anjeun. Prak undeur sarta pasang vérsi Firefox panganyarna pikeun nuluykeunana."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"

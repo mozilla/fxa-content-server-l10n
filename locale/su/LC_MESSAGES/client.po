@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 09:05+0000\n"
+"PO-Revision-Date: 2019-05-30 09:15+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1141,7 +1141,7 @@ msgstr "Kuki jeung panyimpenan lokal diperlukeun"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Prak hurungkeun kuki jeung panyimpenan lokal di panyungsi anjeun pikeun ngaksés Firefox Account. Ku cara kitu ngamungkinkeun fungsionalitas saperti nginget anjeun di antara sési."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1716,7 +1716,7 @@ msgstr "Pangjieunkeun kodeu pamulangan anyar"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Ieu téh kodeu pamulangan anjeun sakalieun maké. Simpen di tempat nu aman mun anjeun kaleungitan aksés ka parangkat sélulér anjeun. Anjeun moal bisa nempo ieu kodeu deui."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1745,7 +1745,7 @@ msgstr "Hurungkeun…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Tambahkeun tilam kaamanan kana akun anjeun kalawan merlukeun kodeu kaamanan ti salah sahiji<a %(escapedTotpSupportAttributes)s>aplikasi oténtikasi ieu</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
