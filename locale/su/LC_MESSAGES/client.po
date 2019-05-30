@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 02:25+0000\n"
+"PO-Revision-Date: 2019-05-30 04:30+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -708,7 +708,7 @@ msgstr "Leungiteun atribut data: %(property)s"
 
 #: .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Tutumbu konfirmasi éta geus dipaké, kur bisa dipaké sakali."
 
 #: .es5/lib/auth-errors.js:477
 msgid "This is a required field"
@@ -873,10 +873,12 @@ msgstr "Token teu sah"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Pitulung</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
