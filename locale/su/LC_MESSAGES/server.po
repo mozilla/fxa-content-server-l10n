@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:49+0000\n"
+"PO-Revision-Date: 2019-05-30 08:08+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -443,7 +443,7 @@ msgstr "Mun enya mah, ieu kodeu otorisasi nu anjeun perlukeun:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Mun henteu, bantuan kami nyingkahan nu ngaganggu sarta <a %(reportSignInLinkAttributes)s>laporkeun hal éta ka kami.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
@@ -571,7 +571,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Sanggeus dikonfirmasi, kami bakal mantuan anjeun masangkeun sarta nyambungkeun Firefox sahenteuna ka hiji parangkat séjén."
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"

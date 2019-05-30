@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:56+0000\n"
+"PO-Revision-Date: 2019-05-30 08:06+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1260,6 +1260,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>CATETAN:</span> Nalika anjeung nyetél ulang sandi anjeun, anjeun ogé nyetél ulang akun anjeun. Anjeung munkin kaleungitan sababaraha informasi pribadi (kaasup jujutan, markah, jeung sandi). "
+"Éta téh alatan kami ngaénkripsi data anjeun ku sandi anjeun pikeun ngamankeun privasi anjeun."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1292,7 +1294,7 @@ msgstr "Surélék konfirmasi nu kami kirim ka %(email)s téh baruk dipulangkeun 
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Mun ieu mangrupa alamat surélék sah, <a %(escapedSupportLinkAttrs)s>béjaan kami</a> sangkan kami bisa mantuan muka akun anjeun."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1380,11 +1382,11 @@ msgstr "Ulah nika leungit ieu sandi téh. Saupama anjeun perlu nyetél ulang, an
 
 #: .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Ulah maké sandi surélék anjeun deui</span> Mun batur nyahoeun sandi surélék anjeun, maranéhna bisa nyatujuan Firefox anjeun asup ka parangkat anyar sarta ngaksés data anjeun."
 
 #: .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Ingetkeun sandi anjeun</span> Mun anjeun perlu nyetél ulang sandi anjeun, anjeun bakal kaleungitan sawaréh data Sync nu euweuh di salasahiji parangkat anjeun."
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
