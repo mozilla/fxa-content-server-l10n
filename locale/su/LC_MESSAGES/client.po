@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 08:06+0000\n"
+"PO-Revision-Date: 2019-05-30 08:24+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1014,6 +1014,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span> TENGETKEUN:</span> Nalika anjeung nyetél ulang sandi anjeun, anjeun ogé nyetél ulang akun anjeun. Anjeung munkin kaleungitan sababaraha informasi pribadi (kaasup jujutan, markah, jeung "
+"sandi). Éta téh alatan kami ngaénkripsi data anjeun ku sandi anjeun pikeun ngamankeun privasi anjeun."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1670,7 +1672,7 @@ msgstr "Pilih ngaran ku anjeun dipikahayang jang pidangan Firefox jeung nalika a
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Surélék sékundér mah alamat tatambah pikeun narima iber kaamanan sarta ngonfirmasi parangkat anyar."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1931,7 +1933,7 @@ msgstr "Kudu ulah misaru jeung ieu <a %(escapedCommonPasswordLinkAttrs)s>daptar 
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "Anu pituin sarta aman &mdash; ulah ngagunakeun deui ieu sandi di séjén tempat."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."

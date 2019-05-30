@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 08:08+0000\n"
+"PO-Revision-Date: 2019-05-30 08:30+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -184,7 +184,7 @@ msgstr "Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pi
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Lamun anjeun teu rumasa ngarobah ieu, prak <a %(resetLinkAttributes)s>setél ulang sandi anjeun</a> ayeuna kénéh"
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -340,7 +340,7 @@ msgstr "Surélék sékunder geus dilaan"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Anjeun geus hasil ngalaan %(secondaryEmail)s minangka surélék sékundér ti Firefox Account anjeun. Iber kaamanan sarta konfirmasi peta asup moal ditepikeun ka ieu alamat."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6
@@ -375,10 +375,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Anjeun geus hasil nyambungkeun parangkat munggaran anjeun kana Firefox Account anjeun. Ayeuna anjeun bisa asup kana Singkronan ti parangkat anjeun nu séjén, kaasup Firefox jang <a "
+"%(androidLinkAttributes)s>Android</a> jeung <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr ""
+"Anjeun geus hasil nyambungkeun parangkat munggaran anjeun kana Firefox Account anjeun. Ayeuna anjeun bisa asup kana Singkronan ti parangkat anjeun nu séjén, kaasup Firefox jang Android jeung iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -390,7 +393,7 @@ msgstr "Surélék sékundér ditambahkeun"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Anjeun geus hasil mérivikasi %(secondaryEmail)s minangka surélék sékundér jang Firefox Account anjeun. Iber kaamanan sarta konfirmasi peta asup ayeuna mah bakal ditepikeun ka sakumna alamat."
 
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
@@ -423,7 +426,7 @@ msgstr "Perlu nyetél ulang sandi anjeun?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Klik tumbul selang sajam deui pikeun nyieun sandi anyar. Pamundut datang ti parangkat di handap:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -455,7 +458,7 @@ msgstr "Kamari ieu téh anjeun kungsi nyieun akun Firefox, ngan teu werat dikonf
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Konfirmasikeun ayeuna sarta meunangkeun téhnologi anu bajuang jeung ngamankeun privasi anjeun, méré anjeun pangaweruh praktis, ogé rasa hormat nu sakuduna ka anjeun."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -471,7 +474,7 @@ msgstr "Aya kénéh?"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Ampir heuleut saminggu anjeun nyieun Firefox Account tapi teu werat divérifikasi waé. Kami semang ka anjeun."
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
@@ -487,7 +490,7 @@ msgstr "Wilujeng Sumping!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr ""
+msgstr "Konfirmasi ieu alamat surélék pikeun ngaktifkeun Firefox Account anjeun sarta tuluykeun ka %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
@@ -559,7 +562,7 @@ msgstr "Pamundutan pikeun maké %(email)s minangka surélék sékundér téh geu
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Sanggeus divérifikasi, ieu alamat bakal narima iber sarta konfirmasi kaamanan."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -567,7 +570,7 @@ msgstr "Saged, setél, singkronkeun"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Konfirmasikeun yén anjeun geus nampa ieu surélék sarta kami bakal mantuan anjeun masangkeun jeung nyinkronkeun Firefox di sakumna parangkat anjeun dimimitian ku:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
