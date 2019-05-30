@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 05:46+0000\n"
+"PO-Revision-Date: 2019-05-30 06:10+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -960,7 +960,7 @@ msgstr "Teu bisa nyieun akun"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Anjeun kudu nyumponan sarat minimum umur pikeun nyieun Firefox Account."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1063,7 +1063,7 @@ msgstr "Konfirmasi ieu peta asup"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Pariksa tutumbu konfirmasi dina %(escapedEmail)s sarta kami bakal nganggeuskeunana jang anjeun."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1084,7 +1084,7 @@ msgstr "Kiriman ulang surélék dikirim"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Klik tutumbu nu disurélékkeun ka %(email)s dina sawatara jam pikeun nyieun sandi anyar."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1164,7 +1164,7 @@ msgstr "Poho sandi?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:17
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\">Wawar Privasi</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1302,7 +1302,7 @@ msgstr "Asupkeun kodeu pamulangan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Prak asupkeun kodeu pamulangan nu geus disayagakeun nalika panataharan."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1374,7 +1374,7 @@ msgstr "Ulang sandi"
 
 #: .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Ulah nika leungit ieu sandi téh. Saupama anjeun perlu nyetél ulang, anjeun bisa kaleungitan data Sync."
 
 #: .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1386,7 +1386,7 @@ msgstr ""
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Pangaweruh praktis bakal asup kana kotak asup anjeun. Daptar pikeun leuwih loba:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1534,7 +1534,7 @@ msgstr "Robah"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Saanggeusna, gunakeun sandi anyar anjeun pikeun asup di sakumna parangkat anjeun."
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
