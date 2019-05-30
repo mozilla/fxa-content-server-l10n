@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:01+0000\n"
+"PO-Revision-Date: 2019-05-30 06:32+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -196,7 +196,7 @@ msgstr "Sandi akun anjeun geus disetél ulang ku konci pamulangan"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil nyetél ulang sandi anjeun maké konci pamulangan ti parangkat di handap:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
@@ -237,6 +237,8 @@ msgstr "Mimiti mah, robah sandi Firefox Account anjeun."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"Kadua, mun Firefox neundeun sandi ka situs wéb, anjeun ogé kudu ngarobah éta sandi. Panarajang meureun baé boga aksés kana éta sandi, jadi anjeun kudu ngariksa éta akun sangkan mikanyaho aktivitas "
+"nu nyurigakeun."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -256,7 +258,7 @@ msgstr "Konci pamulangan akun dipangnyieunkeun"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Anjeun geus hasil pangjieunkeun konci akun pamulangan pikeun Firefox Account anjeun maké parangkat di handap:"
+msgstr "Anjeun geus hasil dipangnyieunkeun konci akun pamulangan pikeun Firefox Account anjeun maké parangkat di handap:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -264,7 +266,7 @@ msgstr "Mun ieu lain anjeun, <a %(revokeAccountRecoveryLinkAttributes)s>klik did
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil dipangnyieunkeun konci akun pamulangan pikeun Firefox Account anjeun ti parangkat di handap:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
@@ -276,7 +278,7 @@ msgstr "Oténtikasi dua léngkah dihurungkeun"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu:"
+msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu di handap:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -294,7 +296,7 @@ msgstr "Surélék utama anyar"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr ""
+msgstr "Anjeun geus hasil ngarobah surélék utama anjeun ka %(email)s. Ieu alamat ayeuna jadi sandiasma pikeun peta asup kana Firefox Account anjeun, sarta nampa iber kaamanan jeung konfirmasi asup."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
 msgid "Recovery code consumed"
@@ -302,7 +304,7 @@ msgstr "Kodeu pamulangan geus digunakeun"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Anjeung geus ngahasil ngagunakeun kodeu pamulangan tina ieu parangkat:"
+msgstr "Anjeung geus ngahasil ngagunakeun kodeu pamulangan tina ieu parangkat di handap:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
@@ -314,7 +316,7 @@ msgstr "Kodeu pamulangan anyar dipangnyieunkeun"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Anjeung geus ngahasil dipangnyieunkeun kodeu pamulangan anyar ti ieu parangkat di handap:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
 msgid "Account recovery key removed"
@@ -322,7 +324,7 @@ msgstr "Konci pamulangan akun dilaan"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil ngalaan konci akun pamulangan pikeun Firefox Account anjeun maké parangkat di handap:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
@@ -354,7 +356,7 @@ msgstr "Oténtikasi dua léngkah dipareuman"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Anjeun geus hasil mareuman oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu:"
+msgstr "Anjeun geus hasil mareuman oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu di handap:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."

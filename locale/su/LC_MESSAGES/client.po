@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 06:10+0000\n"
+"PO-Revision-Date: 2019-05-30 06:28+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1015,7 +1015,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Anjeun geus hasil mulangkeun akun anjeun maké konci pamulangan anjeun. Jieun sandi anyar jang ngamankeun data anjeun, sarta dihadé-hadé di tempat aman."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1243,7 +1243,7 @@ msgstr "Laporkeun peta asup teu kaotorisasi?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Anjeun geus nampa surélék ngeunaan pamecakan aksés kana akun anjeun. Rék ngalaporkeun atuh ieu aktivitas téh minangka hal nu nyurigakeun?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1322,7 +1322,7 @@ msgstr "Panuhun kana kawaspadaan anjeun"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Tim kami geus diwawaran. Laporan nu kawas kieu téh mantuan kami nyingkahan nu ngaganggu."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1483,7 +1483,7 @@ msgstr "Naha nyingkronkeun loba parangkat?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Layanan Sync lain cadangan permanén, ieu mah saukur cara aman pikeun neransferkeun markah, jujutan, jeung sandi nu kasimpen di antara parangkat anjeun sorangan."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
@@ -1795,7 +1795,7 @@ msgstr "Pamulangan akun"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Jieunkeun konci pamulangan pikeun ngaksés deui ka markah Firefox, sandi, sarta data nu disingkronkeun saupamana anjeun poho sandi."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
