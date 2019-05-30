@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 08:24+0000\n"
+"PO-Revision-Date: 2019-05-30 08:48+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -936,7 +936,7 @@ msgstr "Laju ka %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Prak asupkeun konci pamulangan sakali nu disimpen ku anjeun di tempat nu aman pikeun meunangkeun deui aksés ka Firefox Account anjeun."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1424,7 +1424,7 @@ msgstr "Ayeuna mah meunangkeun Firefox dimana baé"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Asup ka parangkat anjeun nu séjén pikeun meunangkeun sakumna produk, pangaweruh sarta fitur privasi Firefox."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1552,7 +1552,7 @@ msgstr "Pegatkeun Singkronan?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Dada sungsian anjeun bakal nyangkaruk dina %(deviceName)s, ngan moal disingkronkeun kana akun anjeun mah."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1789,7 +1789,7 @@ msgstr "Konfirmasi"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Méméh anjeun bisa nempo atawa ngarobah ka ieu bag, anjeun bakal perlu mérivikasi alamat surélék anjeun."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -1841,7 +1841,7 @@ msgstr "Anjeun yakin rék nyabut?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Anjeun moal bisa ngagunakeun konci pamulangan pikeun ngaksés data mun anjeun nyetél ulang sandi anjeun."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -1850,6 +1850,8 @@ msgstr "Léngkah 2 ti 2: Simpen konci Pamulangan"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
+"<span class=\"note\">CATETAN: </span>Mun anjeun poho sandi, ieu konci diperlukeun pikeun meunangkeun deui aksés ka data anjeun. Simpen konci pamulangan anjeun di tempat nu aman, tempat nu gampang "
+"kapanggih ku anjeun engkéna."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1937,7 +1939,7 @@ msgstr "Anu pituin sarta aman &mdash; ulah ngagunakeun deui ieu sandi di séjén
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "Ingetkeun ieu sandi &mdash; ngasét ulang ieu mupus data anjeun  ti sérver kami."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"

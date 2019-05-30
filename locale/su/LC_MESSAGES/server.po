@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 08:30+0000\n"
+"PO-Revision-Date: 2019-05-30 08:42+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -145,7 +145,7 @@ msgstr "Kokolakeun akun"
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
 #: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "Ieu mah surélék otomatis; mun anjeun teu rumasa ngaotorisasi ieu peta, mangka <a %(passwordChangeLinkAttributes)s>geura robah sandi anjeun.</a>"
 
 #: lib/senders/templates/new_device_login.txt:3 lib/senders/templates/post_add_account_recovery.txt:5 lib/senders/templates/post_add_two_step_authentication.txt:4
 #: lib/senders/templates/post_change_primary.txt:3 lib/senders/templates/post_consume_recovery_code.txt:4 lib/senders/templates/post_new_recovery_codes.txt:4
@@ -156,7 +156,7 @@ msgstr "Kokolakeun akun:"
 
 #: lib/senders/templates/new_device_login.txt:4
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Ieu mah surélék otomatis; mun anjeun teu rumasa nambahkeun parangkat anyar kana Firefox Account anjeun, hadéna mah geuwat anjeun robah sandina di %(passwordChangeLink)s"
 
 #: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -168,11 +168,11 @@ msgstr "Sandi Firefox Account anjeun geus hasil diganti tina parangkat di handap
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Ieu mah surélék otomatis; mun anjeun teu rumasa ngaotorisasi ieu peta, mangka <a %(resetLinkAttributes)s>geura setél ulang sandi anjeun.</a>"
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Ieu mah surélék otomatis; mun anjeun teu rumasa ngarobah sandi Firefox Account anjeun, hadéna mah geuwat anjeun setél ulang di %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2 lib/senders/templates/password_reset.txt:1
 msgid "Your account password was changed"
@@ -538,11 +538,11 @@ msgstr "Vérifikasi surélék"
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Sanggeus divérifikasi, parobahan akun saperti nambahkeun surélék sékundér bakal mumkin ti ieu parangkat."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Mun anjeun teu rumasa ngaotorisasi ieu peta, <a %(passwordChangeLinkAttributes)s>prak robah sandi anjeun</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -714,7 +714,7 @@ msgstr "Sérver keur teu ari, pecakan deui geura."
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Kiwari kami keur kasedekkeun pisan sarta sabisa-bisa malikkeun sistem sangkan normal deui kalawan sagancangna."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
