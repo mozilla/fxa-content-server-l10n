@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 01:31+0000\n"
+"PO-Revision-Date: 2019-05-30 01:36+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -284,7 +284,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun. Kodeu kaamanan ti aplikasi oténtikasi anjeun ayeuna mah bakal diperlukeun mangsa rék asup."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -354,7 +354,7 @@ msgstr "Oténtikasi dua léngkah dipareuman"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Anjeun geus hasil mareuman oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
@@ -362,7 +362,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun. Kodeu kaamanan nu leungit bakal diperlukeun mangsa rék asup."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"

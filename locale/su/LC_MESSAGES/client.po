@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 01:29+0000\n"
+"PO-Revision-Date: 2019-05-30 01:47+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1065,11 +1065,11 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Pariksa surélék anjeun sabab tutumbu vérifikasi geus dikirim&nbsp;ka %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:13
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Pariksa surélék anjeun sabab tutumbu konfirmasi geus dikirim&nbsp;ka %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
@@ -1761,7 +1761,7 @@ msgstr "Genti kodeu pamulangan"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Téplak kodeu QR na aplikasi oténtikasi jeung tuluy asupkeun kodeu kaamanan nu mucunghul."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1941,7 +1941,7 @@ msgstr "Ngilikan Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Pitembeyan didi
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Satujuan parangkat anyar <small>pikeun %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -1961,7 +1961,7 @@ msgstr "Kokolakeun parangkat"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Panyatujuan ayeuna mah diperlukeun <small>ti parangkat anjeun nu séjén</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1973,7 +1973,7 @@ msgstr "Prosés pangaturan dipeunggas."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Buka panéplak kodeu na aplikasi Firefox anjeuhn sarta ilikan kodeu nalika sayaga."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
