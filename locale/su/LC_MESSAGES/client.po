@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 04:40+0000\n"
+"PO-Revision-Date: 2019-05-30 05:46+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1342,7 +1342,7 @@ msgstr "Asupkeun kodeu kaamanan"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Buka aplikasi oténtikasi anjeun sarta asupkeun kodeu kaamanan nu mucunghul."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 05:30+0000\n"
+"PO-Revision-Date: 2019-05-30 05:49+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Lenyepan cara nempoan sandi nu diteundeun Firefox jang anjeun."
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
@@ -358,7 +358,7 @@ msgstr "Anjeun geus hasil mareuman oténtikasi dua léngkah na Firefox Account a
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr "Kodeu kaamanan nu leungit bakal diperlukeun mangsa rék asup."
+msgstr "Geus teu perlu deui kodeu kaamanan mun arék asup téh."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
