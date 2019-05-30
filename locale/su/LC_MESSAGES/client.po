@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 08:48+0000\n"
+"PO-Revision-Date: 2019-05-30 09:05+0000\n"
 "Last-Translator: yusup.ramdani <yusup.ramdani@wikimedia.or.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1003,7 +1003,7 @@ msgstr "Tutumbu panyetélan ulang sandi rajét"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Tutumbu nu diklik ku anjeun teu mibanda karakter, jeung deuih meureun geus dipiceun ku klien surélék anjeun. Tiron alamat kalawan ati-ati, sarta pecakan deui."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1639,6 +1639,8 @@ msgstr "Préférénsi surélék"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Anjeun bakal nampa komunikasi nu patali jeung kaamanan akun anjeun, parobahan kawijakan kami, fungsionalitas akun anjeun sarta surélék awal pikeun mantuan anjeun meunangkeun hasil nu mucekil tina "
+"Firefox Account anjeun."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1665,6 +1667,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus anjeun"
+" mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
