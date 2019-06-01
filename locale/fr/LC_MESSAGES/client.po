@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 23:08+0000\n"
+"PO-Revision-Date: 2019-06-01 10:35+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -791,7 +791,7 @@ msgstr "Agir pour la bonne santé d’Internet"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr "Apprendre à naviguer intelligemment et en toute sécurité"
+msgstr "Apprendre à naviguer intelligemment et en sécurité"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
