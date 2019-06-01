@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-01 16:10+0000\n"
+"PO-Revision-Date: 2019-06-01 16:14+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1067,7 +1067,7 @@ msgstr "Toś to pśizjawjenje wobkšuśiś"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Glědajśo do %(escapedEmail)s za wobkšuśeńskim wótkazom a pótom móžomy zachopiś."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1149,7 +1149,7 @@ msgstr "Wopytajśo hyšći raz"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Pśizjawśo se <span class=\"service\">pla swójogo konta Firefox</span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1368,7 +1368,7 @@ msgstr "Awtorizěrowański kod zapódaś"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "Załožćo swójo konto Firefox"
 
 #: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
 msgid "Create a Firefox Account"
@@ -1392,7 +1392,7 @@ msgstr "<span>Spomnjejśo sej swójo gronidło</span>Jolic musyśo swójo gronid
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Praktiska wěda do wašogo postowego kašćika dójźo. Registrěrujśo se za wěcej:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1404,7 +1404,7 @@ msgstr "Maśo konto? Pśizjawśo se"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "E-mailowu adresu změniś"
 
 #: .es5/templates/sign_up_password.mustache:20
 msgid "Mistyped email?"
@@ -1412,7 +1412,7 @@ msgstr "Sćo e-mailowu adresu wopak napisał?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Docynjone! Sćo pśizjawjony."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1420,7 +1420,7 @@ msgstr "Pósćelśo Firefox direktnje na waš smartfon a pśizjaw se, aby instal
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Wobstarajśo se Firefox wšuźi."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
