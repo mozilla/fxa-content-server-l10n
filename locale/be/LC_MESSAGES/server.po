@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 16:11+0000\n"
+"PO-Revision-Date: 2019-06-02 16:29+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -626,31 +626,31 @@ msgstr "Апошняе напамінанне: Пацвердзіце адрас
 
 #: lib/senders/email.js:666
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Код аўтарызацыі ўліковага запісу Firefox"
 
 #: lib/senders/email.js:705
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Пацвердзіце новы ўваход у %(clientName)s"
 
 #: lib/senders/email.js:754
 msgid "Sign-in code for Firefox"
-msgstr ""
+msgstr "Код для ўваходу ў Firefox"
 
 #: lib/senders/email.js:883
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Скінуць пароль для ўліковага запісу Firefox"
 
 #: lib/senders/email.js:911
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Пароль вашага ўліковага запісу Firefox быў зменены"
 
 #: lib/senders/email.js:937
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Пароль уліковага запісу Firefox зменены"
 
 #: lib/senders/email.js:959
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Патрэбен скід пароля ўліковага запісу Firefox"
 
 #: lib/senders/email.js:1011
 msgid "Firefox Account verified"
@@ -658,23 +658,23 @@ msgstr "Уліковы запіс Firefox пацверджаны"
 
 #: lib/senders/email.js:1016
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Ваш уліковы запіс Firefox пацверджаны"
 
 #: lib/senders/email.js:1056
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Дададзены другі адрас эл.пошты для ўліковага запісу Firefox"
 
 #: lib/senders/email.js:1084
 msgid "Firefox Account new primary email"
-msgstr ""
+msgstr "Новы асноўны адрас эл.пошты для ўліковага запісу Firefox"
 
 #: lib/senders/email.js:1112
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Выдалены другі адрас эл.пошты для ўліковага запісу Firefox"
 
 #: lib/senders/email.js:1360
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "Скід пароля ўліковага запісу Firefox з дапамогай ключа аднаўлення"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
