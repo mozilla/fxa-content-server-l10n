@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 17:51+0000\n"
+"PO-Revision-Date: 2019-06-02 18:09+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -349,7 +349,7 @@ msgstr "Вы паспяхова выдалілі другі адрас %(seconda
 #: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5
 #: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць."
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
 msgid "Two-step authentication disabled"
@@ -357,15 +357,15 @@ msgstr "Двухэтапная аўтарызацыя адключана"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Вы паспяхова адключылі двухэтапную аўтарызацыю ў вашым ўліковым запісе Firefox з наступнай прылады:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе."
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Вы паспяхова адключылі двухэтапную аўтарызацыю ў вашым ўліковым запісе Firefox. Коды бяспекі больш не будуць патрабавацца пры кожным уваходзе."
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -376,10 +376,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Цяпер вы можаце ўвайсці ў сістэму для сінхранізацыі з іншымі прыладамі, у тым ліку на Firefox для <a "
+"%(androidLinkAttributes)s>Android</a> і <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Цяпер вы можаце ўвайсці ў сістэму для сінхранізацыі з іншымі прыладамі, у тым ліку на Firefox для Android і iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -391,7 +393,7 @@ msgstr "Дададзены другі адрас эл.пошты"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Вы паспяхова пацвердзілі другі адрас %(secondaryEmail)s для вашага ўліковага запісу Firefox. Абвесткі бяспекі і пацвярджэнні ўваходу цяпер будуць дасылацца на абодва адрасы электроннай пошты."
 
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
@@ -424,7 +426,7 @@ msgstr "Трэба скінуць пароль?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Націсніце кнопку цягам наступнай гадзіны, каб стварыць новы пароль. Запыт прыйшоў з наступнай прылады:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
