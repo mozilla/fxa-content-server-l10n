@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 17:09+0000\n"
+"PO-Revision-Date: 2019-06-02 17:24+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -195,7 +195,7 @@ msgstr "Ваш пароль быў скінуты з дапамогай ключ
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Вы паспяхова скінулі свой пароль з дапамогай ключа аднаўлення з наступнай прылады:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
@@ -214,15 +214,15 @@ msgstr "Стварыць новы ключ аднаўлення:"
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
 #: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль."
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Мы выявілі падазроную актыўнасць у вашым уліковым запісе Firefox. Магчыма, ваш уліковы запіс быў узламаны."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Для прадухілення далейшага несанкцыянаванага доступу да вашага ўліковага запісу Firefox, мы скінулі пароль і паведамляем вам аб гэтым у якасці меры засцярогі."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -257,15 +257,15 @@ msgstr "Ключ аднаўлення ўліковага запісу згене
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Вы паспяхова згенеравалі ключ аднаўлення ўліковага запісу для вашага ўліковага запісу Firefox з дапамогай наступнай прылады:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Калі гэта былі не вы, <a %(revokeAccountRecoveryLinkAttributes)s>націсніце тут.</a>"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Вы паспяхова згенеравалі ключ аднаўлення ўліковага запісу для вашага ўліковага запісу Firefox з наступнай прылады:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
@@ -277,7 +277,7 @@ msgstr "Двухэтапная аўтарызацыя ўключана"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Вы паспяхова ўключылі двухэтапную аўтарызацыю ў вашым ўліковым запісе Firefox з наступнай прылады:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
