@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 15:11+0000\n"
+"PO-Revision-Date: 2019-06-02 15:21+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1468,15 +1468,15 @@ msgstr "Няправільны нумар?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Калі вы не атрымліваеце SMS-паведамленне, вы можаце пашукаць у сваёй краме праграм па запыце «Firefox»."
 
 #: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Спасылка на праграму адпраўлена %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Памылка ўпісвання нумару?</a>"
 
 #: .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Спасылка на праграму адпраўлена паўторна %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Памылковы&nbsp;нумар?</a>"
 
 #: .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1748,7 +1748,7 @@ msgstr "Уключыць…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Дадайце ўзровень бяспекі да свайго ўліковага запісу, патрабуючы коды бяспекі адной з <a %(escapedTotpSupportAttributes)s>гэтых праграм аўтарызацыі</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
