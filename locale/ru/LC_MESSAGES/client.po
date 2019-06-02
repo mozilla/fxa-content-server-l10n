@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-27 15:18+0000\n"
+"PO-Revision-Date: 2019-06-02 12:31+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -777,7 +777,7 @@ msgstr "Служба недоступна, подождите и повтори�
 
 #: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Попробуйте новые продукты Firefox"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -785,11 +785,11 @@ msgstr "Получать последние новости о Mozilla и Firefox
 
 #: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Помогите здоровому Интернету оставаться таким"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Станьте безопаснее и умнее в Интернете"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1066,7 +1066,7 @@ msgstr "Подтвердить этот вход"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Проверьте %(escapedEmail)s — туда придет ссылка подтверждения, после чего мы отправим вас в путь."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1148,7 +1148,7 @@ msgstr "Попробовать снова"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Войдите в <span class=\"service\">ваш аккаунт Firefox</span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
