@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 17:24+0000\n"
+"PO-Revision-Date: 2019-06-02 17:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -19,8 +19,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Цяпер вы можаце ўвайсці ў сістэму для сінхранізацыі з іншымі прыладамі, у тым ліку на Firefox для <a href='%(androidUrl)s'>Android</a> і <a href='%(iosUrl)s'>iOS</a>.\n"
-"\n"
+"Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Цяпер вы можаце ўвайсці ў сістэму для сінхранізацыі з іншымі прыладамі, у тым ліку на Firefox для <a "
+"href='%(androidUrl)s'>Android</a> і <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
@@ -281,11 +281,11 @@ msgstr "Вы паспяхова ўключылі двухэтапную аўта
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Цяпер пры кожным уваходзе спатрэбіцца код бяспекі ад вашай праграмы аўтэнтыфікацыі."
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Вы паспяхова ўключылі двухэтапную аўтарызацыю ў вашым ўліковым запісе Firefox. Цяпер пры кожным уваходзе спатрэбіцца код бяспекі ад вашай праграмы аўтэнтыфікацыі."
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
@@ -296,6 +296,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
+" пацвярджэння ўваходаў."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
 msgid "Recovery code consumed"
@@ -303,7 +305,7 @@ msgstr "Код аднаўлення выкарыстаны"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Вы паспяхова выкарысталі код аднаўлення з наступнай прылады:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
@@ -315,7 +317,7 @@ msgstr "Згенераваны новыя коды аднаўлення"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Вы паспяхова згенеравалі новыя коды аднаўлення з наступнай прылады:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
 msgid "Account recovery key removed"
@@ -323,15 +325,15 @@ msgstr "Ключ аднаўлення ўліковага запісу выдал
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Вы паспяхова выдалілі ключ аднаўлення ўліковага запісу для вашага ўліковага запісу Firefox з дапамогай наступнай прылады:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Гэты ключ аднаўлення больш не можа быць выкарыстаны для аднаўлення ўліковага запісу."
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Вы паспяхова выдалілі ключ аднаўлення ўліковага запісу для вашага ўліковага запісу Firefox з наступнай прылады:"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
@@ -339,7 +341,7 @@ msgstr "Другі адрас эл.пошты выдалены"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Вы паспяхова выдалілі другі адрас %(secondaryEmail)s з вашага ўліковага запісу Firefox. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6
