@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-02 15:51+0000\n"
+"PO-Revision-Date: 2019-06-02 16:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -430,23 +430,23 @@ msgstr "Дзякуем за выбар Firefox! Вы можаце ўсталяв
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Гэта вы ўваходзіце?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Калі так, вось код аўтарызацыі, які вам патрэбен:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Калі не, дапамажыце нам стрымліваць зламыснікаў і <a %(reportSignInLinkAttributes)s>паведамце нам аб гэтым.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Некалькі дзён таму вы стварылі ўліковы запіс Firefox, але так і не пацвердзілі яго."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -542,7 +542,7 @@ msgstr "Пацвердзіць эл.пошту: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "Калі вы не аўтарызавалі гэта дзеянне, калі ласка, змяніце пароль."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
 msgid "Verify secondary email"
@@ -550,11 +550,11 @@ msgstr "Пацвердзіць другі адрас эл.пошты"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Запыт на выкарыстанне %(email)s у якасці другога адрасу электроннай пошты быў зроблены з наступнага ўліковага запісу Firefox:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Пасля праверкі, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -562,11 +562,11 @@ msgstr "На старт, увага, сінхранізацыя"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Пацвердзіце, што вы атрымалі гэты ліст, і мы дапаможам вам усталяваць і сінхранізаваць Firefox на ўсіх прыладах, пачынаючы з:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Пасля пацвярджэння, мы дапаможам вам усталяваць і злучыць Firefox прынамсі на яшчэ адной прыладзе."
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
@@ -574,7 +574,7 @@ msgstr "Актываваць сямейства прадуктаў Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад Firefox усюды, дзе ўвайшлі."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
@@ -622,7 +622,7 @@ msgstr "Напамін: Завяршыць стварэнне ўліковага
 
 #: lib/senders/email.js:613
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "Апошняе напамінанне: Пацвердзіце адрас электроннай пошты для актывацыі ўліковага запісу Firefox"
 
 #: lib/senders/email.js:666
 msgid "Firefox Account authorization code"
