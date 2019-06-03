@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-30 17:01+0000\n"
-"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
+"PO-Revision-Date: 2019-06-03 10:08+0000\n"
+"Last-Translator: Kim Ludvigsen <kim@kimsside.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -567,7 +567,7 @@ msgstr "Mislykkedes på grund af en modstridende forespørgsel, prøv igen."
 
 #: .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Ukendt kunde for abonnement."
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
@@ -575,7 +575,7 @@ msgstr "Ukendt abonnement."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Ukendt plan for abonnement."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
@@ -1390,7 +1390,7 @@ msgstr "<span>Husk din adgangskode</span>Hvis du får brug for at nulstille din 
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Tilmeld dig for at få nyttig viden i din indbakke:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1418,11 +1418,11 @@ msgstr "Send Firefox direkte til din smartphone og log ind for at fuldføre ops�
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Få også Firefox alle andre steder."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Få privatlivsfunktionerne i Firefox på alle dine enheder og styr dem med en Firefox-konto."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1907,7 +1907,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Brug sikre og bærbare adgangskoder."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -1915,7 +1915,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Få holdt øje med datalæk."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
