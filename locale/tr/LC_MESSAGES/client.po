@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 17:43+0000\n"
+"PO-Revision-Date: 2019-06-04 12:39+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1390,7 +1390,7 @@ msgstr "<span>Parolanızı unutmayın</span>Parolanızı sıfırlamanız gerekir
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Pratik bilgiler gelen kutunuza geliyor. Daha fazlası için kaydolun:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"

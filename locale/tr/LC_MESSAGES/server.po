@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-26 17:55+0000\n"
+"PO-Revision-Date: 2019-06-04 12:41+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -459,7 +459,7 @@ msgstr "Birkaç gün önce bir Firefox hesabı açtınız ama hesabınız onayla
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Hesabınızı şimdi doğrulayın; gizliliğiniz için mücadele eden, sizi pratik bilgilerle donatan ve size hak ettiğiniz saygıyı gösteren teknolojiye kavuşun."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
 msgid "Confirm email"
@@ -583,11 +583,11 @@ msgstr "Firefox ürün ailesini etkinleştirin"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "E-postanızı doğrulayın "
 
 #: lib/senders/email.js:211
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
