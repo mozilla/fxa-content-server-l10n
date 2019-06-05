@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-05 15:31+0000\n"
+"PO-Revision-Date: 2019-06-05 15:36+0000\n"
 "Last-Translator: Breana Gonzales <breanajones@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1405,7 +1405,7 @@ msgstr "¿Tienes una cuenta? Inicia sesión"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "Cambiar correo electrónico"
 
 #: .es5/templates/sign_up_password.mustache:20
 msgid "Mistyped email?"
@@ -1413,7 +1413,7 @@ msgstr "¿Escribiste mal tu correo?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "¡Lo hiciste! Has iniciado sesión."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "¿Por qué iniciar sesión en otro dispositivo?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
@@ -1464,7 +1464,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "¿Número equivocado?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -1893,11 +1893,11 @@ msgstr "Dirección IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "Obtén más de estas características:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Navegador Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
@@ -1961,7 +1961,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "Aprobar dispositivo"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -1997,7 +1997,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
-msgstr ""
+msgstr "Obtener aplicación"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
