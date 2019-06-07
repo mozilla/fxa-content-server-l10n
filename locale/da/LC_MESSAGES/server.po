@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2019-05-30 17:04+0000\n"
 "Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a href='%(iosUrl)s'>Firefox"
-" til iOS-enhed</a>."
+"Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a "
+"href='%(iosUrl)s'>Firefox til iOS-enhed</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -96,6 +96,25 @@ msgstr "For mere information, besøg <a %(supportLinkAttributes)s>Mozilla Suppor
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozillas privatlivspolitik"
+
+#: lib/senders/templates/low_recovery_codes.html:8 lib/senders/templates/low_recovery_codes.txt:6 lib/senders/templates/new_device_login.html:8 lib/senders/templates/new_device_login.txt:7
+#: lib/senders/templates/password_changed.html:8 lib/senders/templates/password_changed.txt:7 lib/senders/templates/password_reset.html:7 lib/senders/templates/password_reset.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:10 lib/senders/templates/password_reset_account_recovery.txt:9 lib/senders/templates/password_reset_required.html:11
+#: lib/senders/templates/password_reset_required.txt:10 lib/senders/templates/post_add_account_recovery.html:10 lib/senders/templates/post_add_account_recovery.txt:9
+#: lib/senders/templates/post_add_two_step_authentication.html:10 lib/senders/templates/post_add_two_step_authentication.txt:8 lib/senders/templates/post_change_primary.html:8
+#: lib/senders/templates/post_change_primary.txt:7 lib/senders/templates/post_consume_recovery_code.html:9 lib/senders/templates/post_consume_recovery_code.txt:8
+#: lib/senders/templates/post_new_recovery_codes.html:9 lib/senders/templates/post_new_recovery_codes.txt:8 lib/senders/templates/post_remove_account_recovery.html:10
+#: lib/senders/templates/post_remove_account_recovery.txt:9 lib/senders/templates/post_remove_secondary.html:8 lib/senders/templates/post_remove_secondary.txt:7
+#: lib/senders/templates/post_remove_two_step_authentication.html:10 lib/senders/templates/post_remove_two_step_authentication.txt:8 lib/senders/templates/post_verify.html:8
+#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:8
+#: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
+#: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
+#: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
+#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
+msgid "Firefox Cloud Terms of Service"
+msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -459,7 +478,8 @@ msgstr "For et par dage siden oprettede du en Firefox-konto, men bekræftede den
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Bekræft nu og få adgang til teknik, der kæmper for din ret til privatliv på nettet, giver dig nyttig viden og den respekt, du fortjener."
 
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.html:10
 msgid "Confirm email"
 msgstr "Bekræft mailadresse"
 
@@ -499,11 +519,11 @@ msgstr "Bekræft denne mailadresse for at aktivere din Firefox-konto."
 msgid "Activate now"
 msgstr "Aktiver nu"
 
-#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:8
 msgid "Verify Email"
 msgstr "Bekræft mailadresse"
 
-#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:12 lib/senders/templates/verify_sync.html:12
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Bekræft din mailadresse for at afslutte din registrering af din Firefox-konto"
 
@@ -579,7 +599,7 @@ msgstr "Efter bekræftelsen hjælper vi dig med at installere og forbinde Firefo
 msgid "Activate the Firefox family of products"
 msgstr "Aktiver hele Firefox-familien"
 
-#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
+#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Bekræft din konto og få mest muligt ud af Firefox, hvor du logger ind."
 
@@ -798,11 +818,11 @@ msgstr "Hent seneste"
 #~ msgstr "Nulstil adgangskode"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som er "
-#~ "forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
+#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som "
+#~ "er forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "For en uge siden oprettede du en Firefox-konto, men bekræftede den aldrig. Vi er bekymrede for dig. Bekræft denne mailadresse for at aktivere din konto og lade os vide, at du er ok."
@@ -828,7 +848,8 @@ msgstr "Hent seneste"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har bekræftet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2019-05-29 07:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/views/sign_in.js:105 .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:48
+#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
 msgid "Sign in"
 msgstr "Kirjaudu sisään"
 
@@ -201,10 +201,6 @@ msgstr "Verkkoistunto"
 msgid "Last sync time unknown"
 msgstr "Viimeisimmän synkronoinnin ajankohta tuntematon"
 
-#: .es5/views/settings/communication_preferences.js:132
-msgid "Subscribed successfully"
-msgstr "Tilaus onnistui"
-
 #: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Tilin poistaminen onnistui"
@@ -377,7 +373,7 @@ msgstr "Toissijaisen sähköpostin vahvistaminen onnistui"
 msgid "Password reset successfully"
 msgstr "Salasana nollattu onnistuneesti"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "Odottamaton virhe"
 
@@ -589,8 +585,7 @@ msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 msgid "Feature not enabled"
 msgstr "Ominaisuus ei ole käytössä"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Järjestelmään ei saada yhteyttä, yritä myöhemmin uudelleen"
 
@@ -750,10 +745,6 @@ msgstr "Palautusavain vaaditaan"
 msgid "Please enter verification code"
 msgstr "Kirjoita kelvollinen vahvistuskoodi"
 
-#: .es5/lib/auth-errors.js:565
-msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr "Kaksivaiheisella todennuksella varustetut tilit eivät tue parittamista tällä hetkellä"
-
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "Puuttuvat asetukset"
@@ -766,15 +757,7 @@ msgstr "Virheelliset asetukset"
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Tarkoititko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:46
-msgid "Please try again later"
-msgstr "Yritä myöhemmin uudestaan"
-
-#: .es5/lib/marketing-email-errors.js:78
-msgid "Service unavailable, try again soon"
-msgstr "Palvelu ei ole saatavilla, yritä hetken päästä uudelleen"
-
-#: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
+#: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
 msgstr "Testaa uusia Firefox-tuotteita"
 
@@ -782,11 +765,11 @@ msgstr "Testaa uusia Firefox-tuotteita"
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Tilaa uusimmat Mozilla- ja Firefox-uutiset"
 
-#: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
+#: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
 msgstr "Aktivoidu pitääksesi internetin terveenä"
 
-#: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
+#: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Pysy turvassa ja fiksuna verkossa"
 
@@ -871,8 +854,11 @@ msgid "Invalid Token"
 msgstr "Virheellinen tunniste"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -882,19 +868,19 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Saa uusimmat Mozilla- ja Firefox-uutiset."
 
-#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:40
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (arvio)"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:41
+#: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (arvio)"
 
-#: .es5/lib/strings.js:38 .es5/lib/strings.js:42
+#: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "IP-osoite: %(ip)s"
 
-#: .es5/lib/strings.js:39 .es5/lib/strings.js:43
+#: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi synkronointi tämän laitteen kanssa:"
 
@@ -928,7 +914,7 @@ msgstr "Nollaa salasana palautusavaimella"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr "Jatka palveluun %(serviceName)s"
 
@@ -937,7 +923,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen palautusavain, jotta pääset jälleen käyttämään Firefox-tiliäsi."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">HUOMAA:</span> Jos nollaat salasanasi etkä ole tallentanut palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja "
 "kirjanmerkit)."
@@ -1154,7 +1141,7 @@ msgid "Sign in to continue"
 msgstr "Jatka kirjautumalla sisään"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Salasana"
 
@@ -1164,7 +1151,7 @@ msgid "Forgot password?"
 msgstr "Unohditko salasanan?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
-#: .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Jatkamalla hyväksyt palvelun <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
 
@@ -1219,8 +1206,7 @@ msgid "Accept"
 msgstr "Hyväksy"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
+#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3
@@ -1364,15 +1350,15 @@ msgstr "Katso osoitteeseen %(email)s lähetetty valtuuskoodi."
 msgid "Enter authorization code"
 msgstr "Kirjoita valtuuskoodi"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
 msgstr "Luo Firefox-tili"
 
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
 msgstr "Luo Firefox-tili"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
 msgid "Repeat password"
 msgstr "Toista salasana"
 
@@ -1388,11 +1374,11 @@ msgstr "<span>Älä käytä samaa salasanaa kuin sähköpostissasi</span>Jos jok
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Muista salasanasi</span>Jos sinun tarvitsee nollata salasanasi, menetät kaikki Sync-tietosi, jotka eivät ole tallessa jollain laitteistasi."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:18
 msgid "Create account"
 msgstr "Luo tili"
 
@@ -1400,11 +1386,11 @@ msgstr "Luo tili"
 msgid "Have an account? Sign in"
 msgstr "Onko sinulla jo tili? Kirjaudu sisään"
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:7
 msgid "Change email"
 msgstr "Vaihda sähköpostiosoitetta"
 
-#: .es5/templates/sign_up_password.mustache:20
+#: .es5/templates/sign_up_password.mustache:19
 msgid "Mistyped email?"
 msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
 
@@ -1499,9 +1485,8 @@ msgstr "Firefox on asennettava vähintään kahteen eri laitteeseen ja tiedot on
 msgid "Got it"
 msgstr "Selvä"
 
-#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
-#: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Muuta…"
 
@@ -1525,8 +1510,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Tyhjennä"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/recovery_codes.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Valmis"
 
@@ -1632,25 +1617,9 @@ msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
 msgid "Refresh status"
 msgstr "Päivitä tila"
 
-#: .es5/templates/settings/communication_preferences.mustache:3
+#: .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
 msgstr "Sähköpostiasetukset"
-
-#: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr "Vastaanotat viestintää tilisi tietoturvaan, käytäntöihimme liittyviin muutoksiin ja tilisi toiminnallisuuteen liittyen."
-
-#: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr "Lisäksi voi halutessasi vastaanottaa markkinointipainotteisia viestejä liittyen uusimpiin Mozilla- ja Firefox-uutisiin."
-
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr "Tilaa"
-
-#: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage preferences"
-msgstr "Hallitse asetuksia"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1850,7 +1819,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Vaihe 2/2: Tallenna palautusavain"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">HUOMAA: </span>Jos unohdat salasanasi, tämä avain tarvitaan tietojesi käyttämiseen. Talleta palautusavain turvalliseen paikkaan, josta löydät sen helposti myöhemmin."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2012,6 +1982,30 @@ msgstr "Parita käyttäen sovellusta"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sovelluksesta."
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Tilaus onnistui"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "Kaksivaiheisella todennuksella varustetut tilit eivät tue parittamista tällä hetkellä"
+
+#~ msgid "Please try again later"
+#~ msgstr "Yritä myöhemmin uudestaan"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Palvelu ei ole saatavilla, yritä hetken päästä uudelleen"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr "Vastaanotat viestintää tilisi tietoturvaan, käytäntöihimme liittyviin muutoksiin ja tilisi toiminnallisuuteen liittyen."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Lisäksi voi halutessasi vastaanottaa markkinointipainotteisia viestejä liittyen uusimpiin Mozilla- ja Firefox-uutisiin."
+
+#~ msgid "Subscribe"
+#~ msgstr "Tilaa"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Hallitse asetuksia"
 
 #~ msgid "verified"
 #~ msgstr "vahvistettu"
@@ -2322,15 +2316,16 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 #~ msgid "Sync preferences"
 #~ msgstr "Synkronointiasetukset"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Etsitkö Firefox Synciä? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Aloita täältä</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
 #~ "Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
 #~ "href=\"%(linkLinux)s\">Linuxille</a>."

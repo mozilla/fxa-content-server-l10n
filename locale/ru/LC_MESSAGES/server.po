@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2019-06-02 12:39+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Чтобы использовать Синхронизацию по полной, подключите к ней свой <a href='%(androidUrl)s'>Firefox для Android</a> или <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -96,6 +96,25 @@ msgstr "Для получения более подробной информац
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Политика конфиденциальности Mozilla"
+
+#: lib/senders/templates/low_recovery_codes.html:8 lib/senders/templates/low_recovery_codes.txt:6 lib/senders/templates/new_device_login.html:8 lib/senders/templates/new_device_login.txt:7
+#: lib/senders/templates/password_changed.html:8 lib/senders/templates/password_changed.txt:7 lib/senders/templates/password_reset.html:7 lib/senders/templates/password_reset.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:10 lib/senders/templates/password_reset_account_recovery.txt:9 lib/senders/templates/password_reset_required.html:11
+#: lib/senders/templates/password_reset_required.txt:10 lib/senders/templates/post_add_account_recovery.html:10 lib/senders/templates/post_add_account_recovery.txt:9
+#: lib/senders/templates/post_add_two_step_authentication.html:10 lib/senders/templates/post_add_two_step_authentication.txt:8 lib/senders/templates/post_change_primary.html:8
+#: lib/senders/templates/post_change_primary.txt:7 lib/senders/templates/post_consume_recovery_code.html:9 lib/senders/templates/post_consume_recovery_code.txt:8
+#: lib/senders/templates/post_new_recovery_codes.html:9 lib/senders/templates/post_new_recovery_codes.txt:8 lib/senders/templates/post_remove_account_recovery.html:10
+#: lib/senders/templates/post_remove_account_recovery.txt:9 lib/senders/templates/post_remove_secondary.html:8 lib/senders/templates/post_remove_secondary.txt:7
+#: lib/senders/templates/post_remove_two_step_authentication.html:10 lib/senders/templates/post_remove_two_step_authentication.txt:8 lib/senders/templates/post_verify.html:8
+#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:8
+#: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
+#: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
+#: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
+#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
+msgid "Firefox Cloud Terms of Service"
+msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -463,7 +482,8 @@ msgstr "Несколько дней назад вы создали аккаун�
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Подтвердите сейчас — и получите технологию, которая защищает и сражается за вашу конфиденциальность, вооружает вас знанием об этом и, прежде всего, уважает вас."
 
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.html:10
 msgid "Confirm email"
 msgstr "Подтвердить электронную почту"
 
@@ -503,11 +523,11 @@ msgstr "Подтвердите этот адрес электронной поч
 msgid "Activate now"
 msgstr "Активировать сейчас"
 
-#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:8
 msgid "Verify Email"
 msgstr "Подтвердить адрес эл. почты"
 
-#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:12 lib/senders/templates/verify_sync.html:12
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Подтвердите свою почту, чтобы закончить регистрацию Аккаунта Firefox"
 
@@ -583,7 +603,7 @@ msgstr "После подтверждения мы поможем вам уст�
 msgid "Activate the Firefox family of products"
 msgstr "Активируйте семейство продуктов Firefox"
 
-#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
+#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Подтвердите свой аккаунт и получите максимум от Firefox везде, где бы вы не вошли."
 
@@ -802,14 +822,15 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Восстановить пароль"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 #~ "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
+#~ msgstr ""
+#~ "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
@@ -831,18 +852,21 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот адрес."
+#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот "
+#~ "адрес."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Как запрошено, вот ссылка для установки Firefox на ваше мобильное устройство: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ к "
-#~ "вашему Аккаунту Firefox."
+#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ "
+#~ "к вашему Аккаунту Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата и время:"
@@ -896,7 +920,8 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr ""
+#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"

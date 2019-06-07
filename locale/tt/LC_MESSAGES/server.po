@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2018-08-31 20:55+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,6 +95,25 @@ msgstr "Күбрәк белү өчен, <a %(supportLinkAttributes)s>Mozilla Я�
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla'ның Хосусыйлык Сәясәте"
+
+#: lib/senders/templates/low_recovery_codes.html:8 lib/senders/templates/low_recovery_codes.txt:6 lib/senders/templates/new_device_login.html:8 lib/senders/templates/new_device_login.txt:7
+#: lib/senders/templates/password_changed.html:8 lib/senders/templates/password_changed.txt:7 lib/senders/templates/password_reset.html:7 lib/senders/templates/password_reset.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:10 lib/senders/templates/password_reset_account_recovery.txt:9 lib/senders/templates/password_reset_required.html:11
+#: lib/senders/templates/password_reset_required.txt:10 lib/senders/templates/post_add_account_recovery.html:10 lib/senders/templates/post_add_account_recovery.txt:9
+#: lib/senders/templates/post_add_two_step_authentication.html:10 lib/senders/templates/post_add_two_step_authentication.txt:8 lib/senders/templates/post_change_primary.html:8
+#: lib/senders/templates/post_change_primary.txt:7 lib/senders/templates/post_consume_recovery_code.html:9 lib/senders/templates/post_consume_recovery_code.txt:8
+#: lib/senders/templates/post_new_recovery_codes.html:9 lib/senders/templates/post_new_recovery_codes.txt:8 lib/senders/templates/post_remove_account_recovery.html:10
+#: lib/senders/templates/post_remove_account_recovery.txt:9 lib/senders/templates/post_remove_secondary.html:8 lib/senders/templates/post_remove_secondary.txt:7
+#: lib/senders/templates/post_remove_two_step_authentication.html:10 lib/senders/templates/post_remove_two_step_authentication.txt:8 lib/senders/templates/post_verify.html:8
+#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:8
+#: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
+#: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
+#: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
+#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
+msgid "Firefox Cloud Terms of Service"
+msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -460,7 +479,8 @@ msgstr ""
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr ""
 
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.html:10
 msgid "Confirm email"
 msgstr ""
 
@@ -500,11 +520,11 @@ msgstr ""
 msgid "Activate now"
 msgstr "Хәзер активләштерү"
 
-#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:8
 msgid "Verify Email"
 msgstr "Эл. почтаны раслау"
 
-#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:12 lib/senders/templates/verify_sync.html:12
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Firefox Хисабын теркәүне тәмамлау өчен эл. почтагызны раслагыз"
 
@@ -580,7 +600,7 @@ msgstr "Раслаганнан соң, без Сезгә Firefox'ны кимен
 msgid "Activate the Firefox family of products"
 msgstr ""
 
-#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
+#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
 

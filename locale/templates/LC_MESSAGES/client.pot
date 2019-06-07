@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 
 #: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
@@ -28,7 +28,6 @@ msgstr ""
 #: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:6
 #: .es5/templates/sign_in_password.mustache:9
-#: .es5/lib/strings.js:48
 #. submit button
 msgid "Sign in"
 msgstr ""
@@ -233,10 +232,6 @@ msgstr ""
 msgid "Last sync time unknown"
 msgstr ""
 
-#: .es5/views/settings/communication_preferences.js:132
-msgid "Subscribed successfully"
-msgstr ""
-
 #: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr ""
@@ -425,7 +420,6 @@ msgid "Password reset successfully"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:26
-#: .es5/lib/marketing-email-errors.js:22
 #: .es5/lib/oauth-errors.js:28
 #: .es5/lib/pairing-channel-client-errors.js:18
 #: .es5/lib/profile-errors.js:63
@@ -654,8 +648,6 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:276
 #: .es5/lib/auth-errors.js:284
-#: .es5/lib/marketing-email-errors.js:30
-#: .es5/lib/marketing-email-errors.js:87
 #: .es5/lib/oauth-errors.js:117
 #: .es5/lib/profile-errors.js:43
 #: .es5/lib/profile-errors.js:47
@@ -826,10 +818,6 @@ msgstr ""
 msgid "Please enter verification code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:565
-msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
-
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr ""
@@ -842,16 +830,7 @@ msgstr ""
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr ""
 
-#: .es5/lib/marketing-email-errors.js:46
-msgid "Please try again later"
-msgstr ""
-
-#: .es5/lib/marketing-email-errors.js:78
-msgid "Service unavailable, try again soon"
-msgstr ""
-
 #: .es5/lib/newsletters.js:25
-#: .es5/lib/strings.js:36
 msgid "Test new Firefox products"
 msgstr ""
 
@@ -860,12 +839,10 @@ msgid "Get the latest news about Mozilla and Firefox"
 msgstr ""
 
 #: .es5/lib/newsletters.js:33
-#: .es5/lib/strings.js:37
 msgid "Take action to keep the internet healthy"
 msgstr ""
 
 #: .es5/lib/newsletters.js:37
-#: .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
 msgstr ""
 
@@ -972,22 +949,18 @@ msgstr ""
 
 #: .es5/lib/strings.js:36
 #: .es5/templates/partial/device-being-paired.mustache:5
-#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
 #: .es5/lib/strings.js:37
-#: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
 msgstr ""
 
 #: .es5/lib/strings.js:38
-#: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
 msgstr ""
 
 #: .es5/lib/strings.js:39
-#: .es5/lib/strings.js:43
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with this "
 "device:"
@@ -1036,7 +1009,7 @@ msgstr ""
 #: .es5/templates/sign_in_recovery_code.mustache:2
 #: .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up.mustache:4
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
@@ -1319,7 +1292,7 @@ msgstr ""
 #: .es5/templates/sign_in.mustache:14
 #: .es5/templates/sign_in_password.mustache:7
 #: .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:1
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -1338,8 +1311,8 @@ msgstr ""
 #: .es5/templates/sign_in.mustache:18
 #: .es5/templates/sign_up.mustache:15
 #: .es5/templates/sign_up.mustache:20
-#: .es5/templates/sign_up_password.mustache:12
-#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:16
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
@@ -1418,8 +1391,6 @@ msgstr ""
 #: .es5/templates/settings/avatar_crop.mustache:3
 #: .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/communication_preferences.mustache:5
-#: .es5/templates/settings/communication_preferences.mustache:10
 #: .es5/templates/settings/delete_account.mustache:6
 #: .es5/templates/settings/display_name.mustache:8
 #: .es5/templates/settings/emails.mustache:29
@@ -1587,19 +1558,19 @@ msgid "Enter authorization code"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:1
-#: .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:3
 #: .es5/templates/sign_up.mustache:6
-#: .es5/templates/sign_up_password.mustache:4
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Repeat password"
 msgstr ""
 
@@ -1621,12 +1592,12 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:16
-#: .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
 #: .es5/templates/sign_up.mustache:22
-#: .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/sign_up_password.mustache:18
 msgid "Create account"
 msgstr ""
 
@@ -1634,11 +1605,11 @@ msgstr ""
 msgid "Have an account? Sign in"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:7
 msgid "Change email"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:20
+#: .es5/templates/sign_up_password.mustache:19
 msgid "Mistyped email?"
 msgstr ""
 
@@ -1754,7 +1725,6 @@ msgstr ""
 
 #: .es5/templates/settings/avatar.mustache:2
 #: .es5/templates/settings/change_password.mustache:2
-#: .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2
 #: .es5/templates/settings/emails.mustache:3
 #: .es5/templates/settings/two_step_authentication.mustache:4
@@ -1786,7 +1756,6 @@ msgstr ""
 
 #: .es5/templates/settings/avatar_change.mustache:4
 #: .es5/templates/settings/clients.mustache:27
-#: .es5/templates/settings/communication_preferences.mustache:12
 #: .es5/templates/settings/emails.mustache:26
 #: .es5/templates/settings/recovery_codes.mustache:16
 #: .es5/templates/settings/upgrade_session.mustache:8
@@ -1912,29 +1881,8 @@ msgstr ""
 msgid "Refresh status"
 msgstr ""
 
-#: .es5/templates/settings/communication_preferences.mustache:3
+#: .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:7
-msgid ""
-"You will receive communications relating to your account security, changes "
-"to our policy, your account’s functionality and initial emails to help you "
-"get the most from your Firefox Account."
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:8
-msgid ""
-"Additionally, you can subscribe to receive promotional emails with the "
-"latest news from Mozilla and Firefox."
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage preferences"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:1

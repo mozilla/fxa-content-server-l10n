@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2019-05-26 09:35+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/views/sign_in.js:105 .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:48
+#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
 msgid "Sign in"
 msgstr "Prisijunkite"
 
@@ -204,10 +204,6 @@ msgstr "Saityno seansas"
 msgid "Last sync time unknown"
 msgstr "Paskiausios sinchronizacijos laikas nežinomas"
 
-#: .es5/views/settings/communication_preferences.js:132
-msgid "Subscribed successfully"
-msgstr "Užsiprenumeravote sėkmingai"
-
 #: .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Paskyra pašalinta sėkmingai"
@@ -380,7 +376,7 @@ msgstr "Antrinis el. paštas sėkmingai patvirtintas"
 msgid "Password reset successfully"
 msgstr "Slaptažodis atkurtas sėkmingai"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "Netikėta klaida"
 
@@ -592,8 +588,7 @@ msgstr "Serveris užimtas, bandykite vėliau"
 msgid "Feature not enabled"
 msgstr "Ši funkcija neįgalinta"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Sistema nepasiekiama, bandykite vėliau"
 
@@ -755,10 +750,6 @@ msgstr "Būtina įvesti atkūrimo raktą"
 msgid "Please enter verification code"
 msgstr "Įveskite patvirtinimo kodą"
 
-#: .es5/lib/auth-errors.js:565
-msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr "Paskyros su dviejų etapų tapatybės patvirtinimu kol kas nepalaiko susiejimo"
-
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "Trūksta konfigūracijos"
@@ -771,15 +762,7 @@ msgstr "Netinkama konfigūracija"
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Ar turėjote omenyje <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:46
-msgid "Please try again later"
-msgstr "Prašome bandyti vėliau"
-
-#: .es5/lib/marketing-email-errors.js:78
-msgid "Service unavailable, try again soon"
-msgstr "Paslauga nepasiekiama, pamėginkite vėliau"
-
-#: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
+#: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
 msgstr "Išbandykite naujus „Firefox“ produktus"
 
@@ -787,11 +770,11 @@ msgstr "Išbandykite naujus „Firefox“ produktus"
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Gaukite paskiausias naujienas apie „Mozillą“ ir „Firefox“"
 
-#: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
+#: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
 msgstr "Imkitės veiksmų, kad internetas liktų sveikas"
 
-#: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
+#: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Būkite saugesni ir protingesni internete"
 
@@ -876,8 +859,12 @@ msgid "Invalid Token"
 msgstr "Neteisingas prieigos raktas"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo pranešimu</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo "
+"pranešimu</a>."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -887,19 +874,19 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Gaukite naujausią informaciją apie „Mozilla“ ir „Firefox“."
 
-#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:40
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (apskaičiuota)"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:41
+#: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (apskaičiuota)"
 
-#: .es5/lib/strings.js:38 .es5/lib/strings.js:42
+#: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "IP adresas: %(ip)s"
 
-#: .es5/lib/strings.js:39 .es5/lib/strings.js:43
+#: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Papildomo saugumo vardan, prieš pradedant sinchronizuoti šį įrenginį, prašome patvirtinti šį prisijungimą:"
 
@@ -933,7 +920,7 @@ msgstr "Pakeisti slaptažodį atkūrimo rakto pagalba"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr "norėdami tęsti su „%(serviceName)s“"
 
@@ -942,7 +929,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prieigai prie savo „Firefox“ paskyros atgauti įveskite vienkartinį atkūrimo raktą, kurį laikėte saugioje vietoje."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">SVARBU!</span> Jeigu atkursite slaptažodį, tačiau neturėsite įrašyto paskyros atkūrimo rakto, dalis jūsų duomenų bus pašalinta (įskaitant serveryje sinchronizuotais duomenimis, "
 "tokiais, kaip naršymo žurnalas ir adresaynas)."
@@ -1017,8 +1005,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>NEPAMIRŠKITE!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip yra"
-" todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
+"<span>NEPAMIRŠKITE!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip "
+"yra todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1159,7 +1147,7 @@ msgid "Sign in to continue"
 msgstr "Norėdami tęsti, prisijunkite"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Slaptažodis"
 
@@ -1169,7 +1157,7 @@ msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
-#: .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Tęsdami, išreiškiate sutikimą su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo pranešimu</a>."
 
@@ -1224,8 +1212,7 @@ msgid "Accept"
 msgstr "Priimti"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
+#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3
@@ -1369,15 +1356,15 @@ msgstr "Pasitikrinkite paštą – autorizacijos kodas išsiųstas adresu %(emai
 msgid "Enter authorization code"
 msgstr "Įveskite patvirtinimo kodą"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
 msgstr "Susikurkite savo „Firefox“ paskyrą"
 
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
 msgstr "Susikurkite „Firefox“ paskyrą"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
 msgid "Repeat password"
 msgstr "Pakartokite slaptažodį"
 
@@ -1395,11 +1382,11 @@ msgstr ""
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Nepamirškite savo slaptažodžio!</span> Jeigu tektų slaptažodį atkurti, bus prarasti visi serveryje laikomi sinchronizuoti duomenys."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Į jūsų pašto dėžutę atkeliaus praktinių žinių. Prisijungę gausite daugiau:"
 
-#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:18
 msgid "Create account"
 msgstr "Kurti paskyrą"
 
@@ -1407,11 +1394,11 @@ msgstr "Kurti paskyrą"
 msgid "Have an account? Sign in"
 msgstr "Jau turite paskyrą? Prisijunkite"
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:7
 msgid "Change email"
 msgstr "Keisti el. pašto adresą"
 
-#: .es5/templates/sign_up_password.mustache:20
+#: .es5/templates/sign_up_password.mustache:19
 msgid "Mistyped email?"
 msgstr "Klaida adrese?"
 
@@ -1506,9 +1493,8 @@ msgstr ""
 msgid "Got it"
 msgstr "Supratau"
 
-#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
-#: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3
+#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Keisti…"
 
@@ -1532,8 +1518,8 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Išvalyti"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/recovery_codes.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "Baigta"
 
@@ -1639,25 +1625,9 @@ msgstr "Trūkstami arba besikartojantys įrašai?"
 msgid "Refresh status"
 msgstr "Atnaujinti būseną"
 
-#: .es5/templates/settings/communication_preferences.mustache:3
+#: .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
 msgstr "El. pašto parinktys"
-
-#: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr "Gausite informaciją, susijusią su jūsų paskyros saugumu, mūsų nuostatų pakeitimais, paskyros funkcionalumu bei pradinius el. laiškus, padėsiančius geriau išnaudoti jūsų „Firefox“ paskyrą."
-
-#: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr "Be to, galite užsiprenumeruoti ir gauti informacinius laiškus su šviežiausiomis „Mozillos“ ir „Firefox“ naujienomis."
-
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr "Prenumeruoti"
-
-#: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage preferences"
-msgstr "Tvarkyti nuostatas"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1857,7 +1827,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Antrasis žingsnis: išsisaugokite atkūrimo raktą"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">SVARBU!</span> Šio rakto reikės, jeigu ateityje pamirštumėte savo slaptažodį, bet norėtumėte pasiekti savo duomenis. Atkūrimo raktą laikykite saugioje vietoje, kurioje vėliau "
 "galėsite jį lengvai surasti."
@@ -2022,6 +1993,30 @@ msgstr "Susieti naudojant programą"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
 
+#~ msgid "Subscribed successfully"
+#~ msgstr "Užsiprenumeravote sėkmingai"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "Paskyros su dviejų etapų tapatybės patvirtinimu kol kas nepalaiko susiejimo"
+
+#~ msgid "Please try again later"
+#~ msgstr "Prašome bandyti vėliau"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Paslauga nepasiekiama, pamėginkite vėliau"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr "Gausite informaciją, susijusią su jūsų paskyros saugumu, mūsų nuostatų pakeitimais, paskyros funkcionalumu bei pradinius el. laiškus, padėsiančius geriau išnaudoti jūsų „Firefox“ paskyrą."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Be to, galite užsiprenumeruoti ir gauti informacinius laiškus su šviežiausiomis „Mozillos“ ir „Firefox“ naujienomis."
+
+#~ msgid "Subscribe"
+#~ msgstr "Prenumeruoti"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Tvarkyti nuostatas"
+
 #~ msgid "verified"
 #~ msgstr "patvirtintas"
 
@@ -2166,7 +2161,8 @@ msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ progr
 #~ msgstr "Paslaugai veikti būtini slapukai ir vietinė saugykla."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
+#~ msgstr ""
+#~ "Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "„Firefox“ debesijos paslaugos"
@@ -2223,19 +2219,19 @@ msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ progr
 #~ msgstr "Kodėl verta sinchronizuoti įrenginius?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "„Sync“ pagalba galite bendrinti viename įrenginyje su „Firefox“ naršykle sukurtus adresyno ar žurnalo įrašus bei įrašytus slaptažodžius su kituose įrenginiuose jūsų naudojama „Firefox“. Prisijungę "
-#~ "prie „Firefox“ savo telefone ar planšetėje, joje galėsite rasti viską, ką sinchronizavote iš staliniame kompiuteryje veikiančios „Firefox“."
+#~ "„Sync“ pagalba galite bendrinti viename įrenginyje su „Firefox“ naršykle sukurtus adresyno ar žurnalo įrašus bei įrašytus slaptažodžius su kituose įrenginiuose jūsų naudojama „Firefox“. "
+#~ "Prisijungę prie „Firefox“ savo telefone ar planšetėje, joje galėsite rasti viską, ką sinchronizavote iš staliniame kompiuteryje veikiančios „Firefox“."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Ši sinchronizavimo paslauga neatlieka ilgalaikės archyvinės kopijos funkcijos – ji tik padeda viename įrenginyje esančius duomenis pasiekti kitu. Jeigu užmirštumėte savo slaptažodį ir jį tektų "
-#~ "atkurti, visi su senuoju slaptažodžiu susieti duomenys, neįrašyti nė viename kitame jūsų įrenginyje, būtų prarasti. Dėl šios priežasties rekomenduojame naudotis „Firefox“ ir „Sync“ paslauga daugiau "
-#~ "nei viename įrenginyje."
+#~ "atkurti, visi su senuoju slaptažodžiu susieti duomenys, neįrašyti nė viename kitame jūsų įrenginyje, būtų prarasti. Dėl šios priežasties rekomenduojame naudotis „Firefox“ ir „Sync“ paslauga "
+#~ "daugiau nei viename įrenginyje."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravataras"
@@ -2292,15 +2288,15 @@ msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ progr
 #~ msgstr "Norėdami tęsti, prisijunkite."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>SVARBU!</span> Atkūrus slaptažodį, dalis jūsų duomenų (įskaitant serveryje sinchronizuotus duomenis, tokius kaip žurnalas ir adresynas) bus pašalinta. Taip yra dėl to, kad privatumo sumetimais"
-#~ " visi jūsų duomenys yra šifruojami naudojant jūsų slaptažodį."
+#~ "<span>SVARBU!</span> Atkūrus slaptažodį, dalis jūsų duomenų (įskaitant serveryje sinchronizuotus duomenis, tokius kaip žurnalas ir adresynas) bus pašalinta. Taip yra dėl to, kad privatumo "
+#~ "sumetimais visi jūsų duomenys yra šifruojami naudojant jūsų slaptažodį."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>PASTABA:</span> atkūrus slaptažodį, dalis jūsų duomenų (įskaitant serveryje sinchronizuotus duomenis, tokius kaip žurnalas ir adresynas) bus pašalinta. Taip yra dėl to, kad privatumo "
 #~ "sumetimais visi jūsų duomenys yra šifruojami naudojant jūsų slaptažodį."
@@ -2432,8 +2428,8 @@ msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ progr
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų veikimą,"
-#~ " pvz., atsiminti jus tarp sesijų."
+#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų "
+#~ "veikimą, pvz., atsiminti jus tarp sesijų."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "„Firefox“ greitai pasirodys iOS!"

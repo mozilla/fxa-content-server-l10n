@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-07 16:02+0000\n"
 "PO-Revision-Date: 2019-05-26 04:17+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Ai conectat cu succes primul dispozitiv la contul tău Firefox. Pentru a profita la maxim de Sync, conectează orice dispozitiv care rulează <a href='%(androidUrl)s'>Firefox pentru Android</a> sau <a "
 "href='%(iosUrl)s'>Firefox pentru iOS</a>."
@@ -96,6 +96,25 @@ msgstr "Pentru mai multe informații te rugăm să vizitezi <a %(supportLinkAttr
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Politica de confidențialitate Mozilla"
+
+#: lib/senders/templates/low_recovery_codes.html:8 lib/senders/templates/low_recovery_codes.txt:6 lib/senders/templates/new_device_login.html:8 lib/senders/templates/new_device_login.txt:7
+#: lib/senders/templates/password_changed.html:8 lib/senders/templates/password_changed.txt:7 lib/senders/templates/password_reset.html:7 lib/senders/templates/password_reset.txt:6
+#: lib/senders/templates/password_reset_account_recovery.html:10 lib/senders/templates/password_reset_account_recovery.txt:9 lib/senders/templates/password_reset_required.html:11
+#: lib/senders/templates/password_reset_required.txt:10 lib/senders/templates/post_add_account_recovery.html:10 lib/senders/templates/post_add_account_recovery.txt:9
+#: lib/senders/templates/post_add_two_step_authentication.html:10 lib/senders/templates/post_add_two_step_authentication.txt:8 lib/senders/templates/post_change_primary.html:8
+#: lib/senders/templates/post_change_primary.txt:7 lib/senders/templates/post_consume_recovery_code.html:9 lib/senders/templates/post_consume_recovery_code.txt:8
+#: lib/senders/templates/post_new_recovery_codes.html:9 lib/senders/templates/post_new_recovery_codes.txt:8 lib/senders/templates/post_remove_account_recovery.html:10
+#: lib/senders/templates/post_remove_account_recovery.txt:9 lib/senders/templates/post_remove_secondary.html:8 lib/senders/templates/post_remove_secondary.txt:7
+#: lib/senders/templates/post_remove_two_step_authentication.html:10 lib/senders/templates/post_remove_two_step_authentication.txt:8 lib/senders/templates/post_verify.html:8
+#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:8
+#: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
+#: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
+#: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
+#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
+msgid "Firefox Cloud Terms of Service"
+msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -466,7 +485,8 @@ msgstr "Acum câteva zile ai creat un cont Firefox, dar nu l-ai confirmat."
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Confirmă-l acum și obține tehnologia care luptă pentru și îți protejează intimitatea, te înarmează cu cunoștințe practice și îți acordă respectul pe care îl meriți."
 
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.html:10
 msgid "Confirm email"
 msgstr "Confirmă adresa de e-mail"
 
@@ -506,11 +526,11 @@ msgstr "Confirmă această adresă de e-mail ca să îți activezi contul Firefo
 msgid "Activate now"
 msgstr "Activează acum"
 
-#: lib/senders/templates/verify.html:10 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:8
 msgid "Verify Email"
 msgstr "Verifică e-mailul"
 
-#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11
+#: lib/senders/templates/verify.html:12 lib/senders/templates/verify_sync.html:12
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Verifică adresa ta de e-mail pentru a finaliza înregistrarea contului Firefox"
 
@@ -586,7 +606,7 @@ msgstr "Odată confirmat, te vom ajuta să instalezi și să te conectezi la Fir
 msgid "Activate the Firefox family of products"
 msgstr "Activează familia de produse Firefox"
 
-#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:2
+#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autentifici."
 
@@ -802,16 +822,16 @@ msgstr "Descarcă cea mai recentă versiune"
 #~ msgstr "Resetează parola"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Ai creat un cont Firefox Account acum câteva zile, dar nu l-ai verificat niciodată. Un cont verificat îți permite să accesezi filele, semnele de carte, parolele și istoricul de pe orice dispozitiv "
-#~ "conectat la acesta. Pur și simplu confirmă această adresă de e-mail pentru a activa contul tău."
+#~ "Ai creat un cont Firefox Account acum câteva zile, dar nu l-ai verificat niciodată. Un cont verificat îți permite să accesezi filele, semnele de carte, parolele și istoricul de pe orice "
+#~ "dispozitiv conectat la acesta. Pur și simplu confirmă această adresă de e-mail pentru a activa contul tău."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "În urmă cu o săptămână ai creat un cont Firefox, însă nu l-ai verificat niciodată. Suntem îngrijorați în privința ta. Confirmă această adresă de e-mail pentru a-ți activa contul și spune-ne că ești "
-#~ "în regulă."
+#~ "În urmă cu o săptămână ai creat un cont Firefox, însă nu l-ai verificat niciodată. Suntem îngrijorați în privința ta. Confirmă această adresă de e-mail pentru a-ți activa contul și spune-ne că "
+#~ "ești în regulă."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Ca o măsură de securitate suplimentară, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu acest dispozitiv:"
@@ -914,8 +934,8 @@ msgstr "Descarcă cea mai recentă versiune"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți sincroniza "
-#~ "parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
+#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți "
+#~ "sincroniza parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
 
 #~ msgid "env"
 #~ msgstr "env"
