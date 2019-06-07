@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-05-23 06:09+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-06-07 16:16+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -567,7 +567,7 @@ msgstr "Napaka zaradi protislovne zahteve, poskusite znova."
 
 #: .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Neznana stranka za naročnino."
 
 #: .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
@@ -575,11 +575,11 @@ msgstr "Neznana naročnina."
 
 #: .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Neznan načrt za naročnino."
 
 #: .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Neveljaven žeton plačila za naročnino."
 
 #: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
@@ -776,7 +776,7 @@ msgstr "Storitev ni dosegljiva, poskusite znova pozneje"
 
 #: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Preizkusite nove izdelke Firefox"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -788,7 +788,7 @@ msgstr "Ukrepajte in ohranite internet zdrav"
 
 #: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Bodite varnejši in pametnejši na spletu"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -972,7 +972,7 @@ msgstr "%(email)s registriran"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "Izkoristite svoj račun v polni meri"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
@@ -1065,7 +1065,7 @@ msgstr "Potrdite prijavo"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Preverite potrditveno povezavo v poštnem predalu %(escapedEmail)s in pomagali vam bomo začeti."
 
 #: .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1147,7 +1147,7 @@ msgstr "Poskusite znova"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Prijavite se <span class=\"service\">v svoj Firefox Račun</span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1390,7 +1390,7 @@ msgstr "<span>Zapomnite si geslo</span>Če ga boste morali ponastaviti, boste iz
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Praktično znanje prihaja v vaš nabiralnik. Prijavite se za več:"
 
 #: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
 msgid "Create account"
@@ -1402,7 +1402,7 @@ msgstr "Imate račun? Prijavite se"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Change email"
-msgstr ""
+msgstr "Sprememba e-pošte"
 
 #: .es5/templates/sign_up_password.mustache:20
 msgid "Mistyped email?"
@@ -1418,7 +1418,7 @@ msgstr "Pošljite si Firefox naravnost na pametni telefon in se prijavite za dok
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Zdaj si priskrbite Firefox za druge naprave."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
@@ -1441,7 +1441,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Zakaj se prijaviti na drugi napravi?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
 msgid "Start browsing"
@@ -1465,7 +1465,7 @@ msgstr "Napačna številka?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Če niste prejeli sporočila SMS, lahko v trgovini aplikacij poiščete \"Firefox\"."
 
 #: .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1889,7 +1889,7 @@ msgstr "IP-naslov: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "Bolje izkoristite te funkcije:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -1905,7 +1905,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Imejte gesla zaščitena in pri roki."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -1913,7 +1913,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Bodite obveščeni o krajah podatkov."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
@@ -1921,7 +1921,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Delite velike datoteke brez radovednih oči."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
