@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-07 16:16+0000\n"
+"PO-Revision-Date: 2019-06-08 08:18+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1422,7 +1422,7 @@ msgstr "Zdaj si priskrbite Firefox za druge naprave."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Prijavite se v druge naprave, da dobite vse izdelke, znanje in zmogljivosti zasebnosti Firefoxa."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
