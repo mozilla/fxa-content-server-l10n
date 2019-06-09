@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 23:13+0000\n"
-"PO-Revision-Date: 2019-06-09 03:30+0000\n"
+"PO-Revision-Date: 2019-06-09 03:42+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -118,7 +118,7 @@ msgstr "Para mais informações, visite %(supportUrl)s"
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:981
 msgid "New sign-in to %(clientName)s"
-msgstr "Nova entrada no %(clientName)s"
+msgstr "Novo acesso no %(clientName)s"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -515,11 +515,11 @@ msgstr "Ativar agora:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Para segurança adicional, por favor confirme esta identificação dos seguintes dispositivos:"
+msgstr "Para segurança adicional, confirme este acesso no seguinte dispositivo:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Confirmar identificação"
+msgstr "Confirmar acesso"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -639,7 +639,7 @@ msgstr "Código de autorização da Conta Firefox"
 
 #: lib/senders/email.js:705
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Confirme a nova entrada no %(clientName)s"
+msgstr "Confirmar novo acesso no %(clientName)s"
 
 #: lib/senders/email.js:754
 msgid "Sign-in code for Firefox"
