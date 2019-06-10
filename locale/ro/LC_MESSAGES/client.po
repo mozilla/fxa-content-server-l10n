@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 23:13+0000\n"
+"POT-Creation-Date: 2019-06-10 09:05+0000\n"
 "PO-Revision-Date: 2019-06-08 15:41+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,305 +15,310 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
 
-#: .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
 msgstr "Resetarea parolei"
 
-#: .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:105 .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:48
+#. header text
+#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
+#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41
 msgid "Sign in"
 msgstr "Autentifică-te"
 
-#: .es5/views/permissions.js:41
+#: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (necesar)"
 
-#: .es5/views/permissions.js:45
+#: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
 msgstr "Adresă de e-mail"
 
-#: .es5/views/permissions.js:49 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Nume afișat"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Imagine cont"
 
-#: .es5/views/ready.js:56
+#: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
 msgstr "Bine ai revenit"
 
-#: .es5/views/ready.js:57
+#: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync va continua în câteva momente"
 
-#: .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
 msgstr "Parola a fost resetată"
 
-#: .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Finalizează configurarea prin introducerea noii parole pe celelalte dispozitive Firefox."
 
-#: .es5/views/ready.js:70
+#: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Acum poți aduce modificări contului tău Firefox."
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
 msgstr "E-mail principal verificat"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Notificările despre cont vor fi de acum trimise și la %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:77
+#: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
 msgstr "E-mail secundar verificat"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
 msgstr "Autentificare confirmată"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:3
+#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ești gata să folosești %(serviceName)s"
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
 msgstr "Cont verificat"
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
 msgstr "Conectat"
 
-#: .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrează-te</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
 msgid "Account no longer exists. Recreate it?"
 msgstr "Contul nu mai există. Îl recreezi?"
 
-#: .es5/views/sign_up.js:298
+#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Contul există deja. <a href=\"/signin\">Autentifică-te</a>"
 
-#: .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
 msgstr "Parolă schimbată cu succes"
 
-#: .es5/views/settings/client_disconnect.js:30
+#: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Ne pare rău. Trebuie să schimbi parola contului tău de Firefox și să cauți informații despre ștergerea datelor de la distanță furnizate de producătorul dispozitivului."
 
-#: .es5/views/settings/client_disconnect.js:31
+#: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ne pare rău. Dacă a fost un dispozitiv în care chiar nu ai încredere, trebuie să schimbi parola contului de Firefox și toate parolele salvate în Firefox."
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
 msgstr "Ultima sincronizare %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
 msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Ultima sincronizare %(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Ultima sincronizare %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:70
+#: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Activ ultima dată %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Activ ultima dată %(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Activ ultima dată %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:90
+#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Cu peste %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:94
+#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:97
+#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:134
+#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiune web, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:138
+#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
 msgid "Web Session"
 msgstr "Sesiune web"
 
-#: .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
 msgid "Last sync time unknown"
 msgstr "Data ultimei sincronizări necunoscută"
 
-#: .es5/views/settings/communication_preferences.js:132
+#: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
 msgstr "Te-ai abonat cu succes"
 
-#: .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Cont șters cu succes"
 
-#: .es5/views/settings/display_name.js:66
+#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "Nume afișat actualizat"
 
-#: .es5/views/settings/emails.js:103
+#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
 msgstr "E-mail secundar eliminat"
 
-#: .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
+#: .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "E-mail de verificare trimis"
 
-#: .es5/views/settings/emails.js:166
+#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
 msgstr "E-mail principal setat pe %(email)s"
 
-#: .es5/views/settings/emails.js:179 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
 msgstr "E-mail secundar"
 
-#: .es5/views/settings/recovery_codes.js:61
+#: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
 msgstr "Coduri de recuperare Firefox"
 
-#: .es5/views/settings/recovery_codes.js:94
+#: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
 msgstr "Coduri noi de recuperare generate"
 
-#: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
+#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
 msgstr "Autentificare în doi pași activată"
 
-#: .es5/views/settings/two_step_authentication.js:135
+#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Folosește codul %(code)s și configurează autentificarea în doi pași în aplicațiile acceptate."
 
-#: .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
 msgstr "Autentificare în doi pași eliminată"
 
-#: .es5/views/settings/two_step_authentication.js:194
+#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
 msgstr "Autentificare în doi pași"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:84
+#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
 msgstr "Recuperare cont"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
 msgstr "Recuperarea contului activată"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
+#: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
 msgstr "Recuperarea contului revocată"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:51
+#: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
 msgstr "Cheie de recuperare cont Firefox"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
 msgstr "Contul tău a fost blocat din motive de securitate"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
+#: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
 msgstr "Resetează parola"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
 msgstr "niciunul"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Ultima verificare: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
 msgstr "Deschide Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
 msgstr "Deschide Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
 msgstr "Deschide Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
 msgstr "Deschide Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "Deschide Restmail"
 
-#: .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Mesaj pe e-mail retrimis. Adaugă accounts@firefox.com în lista de contacte pentru a te asigura că nu sunt probleme la primire."
 
-#: .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
 msgstr "Copiat"
 
-#: .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
 msgstr "Copiere eșuată. Te rugăm să copiezi manual."
 
@@ -321,370 +326,372 @@ msgstr "Copiere eșuată. Te rugăm să copiezi manual."
 msgid "Downloaded"
 msgstr "Descărcat"
 
-#: .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
 msgstr "Tipărit"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
 msgstr "E-mail principal verificat cu succes"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
 msgstr "Cont verificat cu succes"
 
-#: .es5/models/sync-engines.js:54
-msgid "Bookmarks"
-msgstr "Marcaje"
-
-#: .es5/models/sync-engines.js:58
-msgid "History"
-msgstr "Istoric"
-
-#: .es5/models/sync-engines.js:62
-msgid "Logins"
-msgstr "Autentificări"
-
-#: .es5/models/sync-engines.js:66
-msgid "Add-ons"
-msgstr "Suplimente"
-
-#: .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
 msgid "Open tabs"
 msgstr "Deschide filele"
 
-#: .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
+msgid "Bookmarks"
+msgstr "Marcaje"
+
+#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66
+msgid "Add-ons"
+msgstr "Suplimente"
+
+#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:62
+msgid "Logins"
+msgstr "Autentificări"
+
+#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58
+msgid "History"
+msgstr "Istoric"
+
+#: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
 msgid "Preferences"
 msgstr "Preferințe"
 
-#: .es5/models/sync-engines.js:82
+#: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
 msgid "Addresses"
 msgstr "Adrese"
 
-#: .es5/models/sync-engines.js:90
+#: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
 msgid "Credit cards"
 msgstr "Carduri de credit"
 
-#: .es5/models/reliers/sync.js:71
+#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
 msgid "Secondary email verified successfully"
 msgstr "E-mail secundar verificat cu succes"
 
-#: .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
 msgid "Password reset successfully"
 msgstr "Parolă resetată cu succes"
 
+#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "Eroare neașteptată"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linkul pe care ai dat clic pentru verificarea e-mailului a expirat."
 
-#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "Ai încercat de prea multe ori. Încearcă din nou mai târziu."
 
-#: .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Ai încercat de prea multe ori. Încearcă din nou %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
 msgstr "Jeton invalid"
 
 # Timestamp: termen de jargon informatic și probabil un parametru pentru o
 # cerere programatică API.
-#: .es5/lib/auth-errors.js:46
+#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "Marcaj de timp invalid în semnătura solicitării"
 
 # Nonce: termen de jargon informatic și probabil un parametru pentru o cerere
 # programatică API. Înseamnă „număr unic”.
-#: .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "Număr unic aleatoriu invalid în semnătura solicitării"
 
-#: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:171
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
 msgid "Account already exists"
 msgstr "Contul există deja"
 
-#: .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
 msgid "Unknown account"
 msgstr "Cont necunoscut"
 
-#: .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
 msgstr "Adresă de e-mail scrisă cu minuscule/majuscule incorecte"
 
-#: .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "Parolă incorectă"
 
-#: .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
 msgid "Unverified account"
 msgstr "Cont neverificat"
 
-#: .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
 msgstr "Cod de verificare invalid"
 
 # JSON: format de interschimbare date folosit programatic, e vorba de o
 # autentificare programatică, nu una a unui utilizator
-#: .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
 msgstr "JSON invalid în corpul cererii"
 
-#: .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
 msgstr "Parametru invalid: %(param)s"
 
-#: .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
 msgstr "Parametru lipsă: %(param)s"
 
-#: .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
 msgstr "Semnătură invalidă a cererii"
 
 # Header e termen programatic, la fel și content-length, alea nu se traduc.
-#: .es5/lib/auth-errors.js:94
+#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
 msgstr "Antet content-length lipsă"
 
-#: .es5/lib/auth-errors.js:98
+#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
 msgid "Request body too large"
 msgstr "Corpul cererii este prea mare"
 
-#: .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
 msgstr "Cererea a fost blocată din motive de securitate"
 
-#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
 msgid "Invalid authorization code"
 msgstr "Cod de autorizare invalid"
 
-#: .es5/lib/auth-errors.js:129
+#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
 msgstr "Număr de telefon invalid"
 
-#: .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
 msgstr "Nu se poate trimite către această țară"
 
-#: .es5/lib/auth-errors.js:142
+#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
 msgstr "Nu s-a putut trimite un mesaj către acest număr"
 
-#: .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
 msgstr "E-mailul tău tocmai a fost returnat"
 
-#: .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Mesajul tău de e-mail tocmai a fost returnat. Sigur ai scris corect adresa?"
 
-#: .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
 msgstr "Nu se poate trimite mesajul de e-mail"
 
-#: .es5/lib/auth-errors.js:159
+#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
 msgid "This email was already verified by another user"
 msgstr "Această adresă de e-mail a fost deja verificată de alt utilizator"
 
-#: .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
 msgid "Secondary email must be different than your account email"
 msgstr "E-mailul secundar trebuie să fie diferit de cel principal"
 
-#: .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
 msgid "Primary account email required for sign-in"
 msgstr "Este necesar e-mailul principal pentru autentificare"
 
-#: .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
 msgid "Address in use by another account"
 msgstr "Adresa este folosită de alt cont"
 
-#: .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
 msgstr "Este necesar e-mailul principal pentru resetare"
 
-#: .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
 msgstr "Cod de autentificare invalid"
 
-#: .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
 msgstr "E-mailul principal nu poate fi schimbat cu o adresă neverificată"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "E-mailul principal nu poate fi schimbat cu o adresă de e-mail care nu este asociată acestui cont"
 
-#: .es5/lib/auth-errors.js:199
+#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
 msgid "This email can not currently be used to login"
 msgstr "Această adresă de e-mail nu poate fi momentan utilizată pentru autentificare"
 
-#: .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
 msgid "Failed to send email"
 msgstr "Nu s-a reușit trimiterea e-mailului"
 
-#: .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
 msgid "Valid code required"
 msgstr "Este necesar un cod valid"
 
-#: .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
 msgid "This verification code has expired"
 msgstr "Acest cod de verificare a expirat"
 
-#: .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
 msgid "A TOTP token already exists for this account"
 msgstr "Deja există un jeton TOTP pentru acest cont"
 
-#: .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
 msgid "TOTP token not found"
 msgstr "Jetonul TOTP nu a fost găsit"
 
-#: .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
 msgid "Recovery code not found"
 msgstr "Cod de recuperare negăsit"
 
-#: .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
 msgid "Unavailable device command"
 msgstr "Comandă de dispozitiv indisponibilă"
 
-#: .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
 msgid "Recovery key not found"
 msgstr "Cheie de recuperare negăsită"
 
-#: .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
 msgid "Invalid recovery key"
 msgstr "Cheie de recuperare invalidă"
 
-#: .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Această cerere necesită ca autentificarea în doi pași să fie activată în contul tău."
 
-#: .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Eșec din cauza unei solicitări conflictuale, te rugăm să încerci din nou."
 
-#: .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
 msgstr "Client necunoscut pentru abonament."
 
-#: .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
 msgstr "Abonament necunoscut."
 
-#: .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
 msgstr "Plan de abonament necunoscut."
 
-#: .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
 msgstr "Jeton de plată invalid pentru abonament."
 
-#: .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
 msgid "Server busy, try again soon"
 msgstr "Serverul este ocupat; încearcă din nou mai târziu"
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
 msgid "Feature not enabled"
 msgstr "Funcționalitate neactivată"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87 .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43
-#: .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
+#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
+#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Sistem indisponibil; încearcă din nou mai târziu"
 
 # „Endpoint” are o semnificație precisă, e o denumire de metodă pentru un API
 # Web (de regulă REST) și nu se traduce
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
 msgid "This endpoint is no longer supported"
 msgstr "Acest punct terminal nu mai este suportat"
 
-#: .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
 msgid "Login attempt cancelled"
 msgstr "Încercare de autentificare anulată"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
 msgid "Session expired. Sign in to continue."
 msgstr "Sesiune expirată. Autentifică-te pentru a continua."
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
 msgstr "Cookie-urile sunt încă dezactivate"
 
-#: .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
 msgstr "Parolele nu se potrivesc"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
 msgid "Working…"
 msgstr "Se lucrează…"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
 msgid "Could not get Privacy Notice"
 msgstr "Nu s-a putut găsi Declarația de confidențialitate"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
 msgid "Could not get Terms of Service"
 msgstr "Nu s-au putut găsi Termenii de utilizare a serviciilor"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
 msgid "Your new password must be different"
 msgstr "Parola nouă trebuie să fie diferită"
 
-#: .es5/lib/auth-errors.js:320 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
 msgid "Must be at least 8 characters"
 msgstr "Trebuie să aibă cel puțin 8 caractere"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
 msgid "Valid password required"
 msgstr "Este necesară o parolă validă"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
 msgid "Valid email required"
 msgstr "Este necesară o adresă de e-mail validă"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
 msgid "A usable image was not found"
 msgstr "Nu s-a găsit o imagine utilizabilă"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
 msgid "Could not initialize camera"
 msgstr "Nu s-a putut inițializa camera"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
 msgid "Valid URL required"
 msgstr "Este necesar un URL valid"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Mesajul de verificare pe e-mail tocmai a fost returnat. Sigur ai scris corect adresa?"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă adrese de e-mail."
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate numai într-un IFRAME pe site-urile aprobate"
 
-#: .es5/lib/auth-errors.js:400 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
 msgid "Verification link damaged"
 msgstr "Link de verificare corupt"
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensiunile imaginii trebuie să fie de cel puțin 100x100px"
 
 # Signup poate fi un nume de serviciu
-#: .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "În curând te vei putea înregistra și de pe Firefox pentru iOS"
 
@@ -696,217 +703,203 @@ msgstr "Trebuie să introduci vârsta pentru a te înregistra"
 msgid "You must enter a valid age to sign up"
 msgstr "Pentru a te înregistra, trebuie să introduci o vârstă validă"
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
 msgid "Account no longer exists."
 msgstr "Contul nu mai există."
 
-#: .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietate invalidă în jetonul de continuare: %(property)s"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate lipsă în jetonul de continuare: %(property)s"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut de date invalid: %(property)s"
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut de date lipsă: %(property)s"
 
-#: .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Linkul de confirmare a fost deja folosit și nu poate fi reutilizat."
 
-#: .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
 msgid "This is a required field"
 msgstr "Acesta este un câmp obligatoriu"
 
-#: .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
 msgid "Authorization code required"
 msgstr "Este necesar un cod de autorizare"
 
-#: .es5/lib/auth-errors.js:489 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
 msgid "Link damaged"
 msgstr "Link corupt"
 
-#: .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
 msgid "Phone number required"
 msgstr "Este necesar un număr de telefon"
 
-#: .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
 msgid "Two-step authentication code required"
 msgstr "Este necesar codul de autentificare în doi pași"
 
-#: .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
 msgid "Invalid two-step authentication code"
 msgstr "Cod de autentificare în doi pași invalid"
 
-#: .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
 msgid "Recovery code required"
 msgstr "Este necesar un cod de recuperare"
 
-#: .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
 msgid "Invalid recovery code"
 msgstr "Cod de recuperare invalid"
 
-#: .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
 msgid "Recovery key required"
 msgstr "Este necesară o cheie de recuperare"
 
-#: .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
 msgid "Please enter verification code"
 msgstr "Te rugăm să introduci un cod de verificare"
 
-#: .es5/lib/auth-errors.js:565
+#: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "Conturile cu autentificare în doi pași nu suportă asocierea în acest moment"
 
-#: .es5/lib/config-loader.js:118
+#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "Configurație lipsă"
 
-#: .es5/lib/config-loader.js:122
+#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
 msgstr "Configurație invalidă"
 
-#: .es5/lib/mailcheck.js:34
+#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Doreai să scrii <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
-#: .es5/lib/marketing-email-errors.js:46
+#: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
 msgstr "Te rugăm să încerci din nou mai târziu"
 
-#: .es5/lib/marketing-email-errors.js:78
+#: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
 msgstr "Serviciul este indisponibil; încearcă din nou mai târziu"
 
-#: .es5/lib/newsletters.js:25 .es5/lib/strings.js:36
-msgid "Test new Firefox products"
-msgstr "Testează noi produse Firefox"
-
-#: .es5/lib/newsletters.js:29
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "Primește ultimele știri despre Mozilla și Firefox"
-
-#: .es5/lib/newsletters.js:33 .es5/lib/strings.js:37
-msgid "Take action to keep the internet healthy"
-msgstr "Ia măsuri pentru a păstra Internetul sănătos"
-
-#: .es5/lib/newsletters.js:37 .es5/lib/strings.js:38
-msgid "Be safer and smarter online"
-msgstr "Fii mai în siguranță și mai inteligent online"
-
-#: .es5/lib/oauth-errors.js:34
+#: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
 msgstr "Client necunoscut"
 
-#: .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri incorect"
 
-#: .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
 msgstr "Aserțiune invalidă"
 
-#: .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
 msgstr "Cod necunoscut"
 
-#: .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
 msgstr "Cod incorect"
 
-#: .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
 msgid "Expired code"
 msgstr "Cod expirat"
 
-#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Parametru OAuth invalid: %(param)s"
 
-#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
+#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
 msgstr "Neautorizat"
 
-#: .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
 msgstr "Interzis"
 
-#: .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
 msgstr "Jeton expirat"
 
-#: .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Ceva nu a funcționat. Te rugăm să închizi această filă și să încerci din nou."
 
-#: .es5/lib/oauth-errors.js:145
+#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
 msgid "no message"
 msgstr "niciun mesaj"
 
-#: .es5/lib/oauth-errors.js:149
+#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Parametru OAuth lipsă: %(param)s"
 
-#: .es5/lib/pairing-channel-client-errors.js:45
+#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
 msgstr "Mesaj invalid de la dispozitivul la distanță"
 
-#: .es5/lib/pairing-channel-client-errors.js:53
+#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
 msgstr "Eroare de asociere cu dispozitivul la distanță"
 
-#: .es5/lib/pairing-channel-client-errors.js:57
+#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
 msgstr "Conexiunea la dispozitivul la distanță a fost închisă. Te rugăm să încerci din nou"
 
-#: .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametru invalid în corpul cererii: %(param)s"
 
-#: .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
 msgstr "Furnizor de imagine nesuportat"
 
-#: .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
 msgid "Image processing error"
 msgstr "Eroare la procesarea imaginii"
 
-#: .es5/lib/profile-errors.js:51
+#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
 msgstr "Jeton invalid"
 
-#: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#: .es5/lib/strings.js:26 .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Declarația de "
 "confidențialitate</a> %(serviceName)s (%(serviceUri)s)."
 
-#: .es5/lib/strings.js:31
+#: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ajutor</a>"
 
-#: .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Primește cele mai recente știri despre Mozilla și Firefox."
 
-#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:40
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimativ)"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:41
+#: .es5/lib/strings.js:41 .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimativ)"
 
-#: .es5/lib/strings.js:38 .es5/lib/strings.js:42
+#: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
 msgstr "Adresă IP: %(ip)s"
 
-#: .es5/lib/strings.js:39 .es5/lib/strings.js:43
+#: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Pentru un plus de securitate, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu dispozitivul:"
 
@@ -938,9 +931,10 @@ msgstr "Primește un link nou"
 msgid "Reset password with recovery key"
 msgstr "Resetează parola cu cheia de recuperare"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
+#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr "Continuă cu %(serviceName)s"
 
@@ -949,7 +943,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Te rugăm să introduci cheia de recuperare de unică folosință pe care ai păstrat-o într-un loc sigur pentru a recupera accesul la contul tău Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OBS:</span> Dacă resetezi parola și ai cheia de recuperare a contului salvată, unele date vor fi șterse (inclusiv datele sincronizate de pe server, precum istoricul și "
 "marcajele)."
@@ -982,28 +977,16 @@ msgstr "Află mai multe"
 msgid "%(email)s registered"
 msgstr "%(email)s înregistrat"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "Profită la maxim de contul tău"
-
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:24
+#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
 msgstr "Alege ce să sincronizezi"
 
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "Sincronizează aceste elemente oriunde te conectezi"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:9 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
-msgid "Continue"
-msgstr "Continuă"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24 .es5/templates/choose_what_to_sync.mustache:14
 msgid "Save selections"
 msgstr "Salvează selecțiile"
 
-#: .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
 msgid "Back"
 msgstr "Înapoi"
 
@@ -1063,32 +1046,25 @@ msgstr "Dă clic aici pentru a primi un link nou de verificare"
 msgid "Verification error"
 msgstr "Eroare de verificare"
 
-#: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "Un ultim pas"
-
-#: .es5/templates/confirm.mustache:5
+#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "Confirmă contul"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7
 msgid "Confirm this sign-in"
 msgstr "Confirmă această autentificare"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "Verifică %(escapedEmail)s pentru un link de confirmare și vei fi gata să începi."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Verifică-ți e-mailul pentru linkul de verificare trimis&nbsp;la %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Verifică-ți e-mailul pentru linkul de confirmare a autentificării, trimis la %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
+#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nu e în căsuța poștală sau în dosarul de spam? Retrimite"
 
@@ -1104,7 +1080,7 @@ msgstr "Clic pe linkul trimis la %(email)s în următoarea oră pentru a crea o 
 msgid "Connect another device"
 msgstr "Conectează alt dispozitiv"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
 msgstr "Acest Firefox este conectat"
 
@@ -1112,8 +1088,8 @@ msgstr "Acest Firefox este conectat"
 msgid "Email verified"
 msgstr "E-mail verificat"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
 msgid "Success"
 msgstr "Succes"
 
@@ -1121,7 +1097,8 @@ msgstr "Succes"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Autentifică-te în acest Firefox pentru a finaliza configurarea"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
+#: .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
 msgstr "Adaugi și alte dispozitive?"
 
@@ -1141,7 +1118,7 @@ msgstr "Autentifică-te în Firefox pentru Android ca să finalizezi configurare
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Autentifică-te în Firefox pentru iOS ca să finalizezi configurarea"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
 msgstr "De ce este nevoie de mai multe dispozitive?"
 
@@ -1157,36 +1134,43 @@ msgstr "Te rugăm să activezi în browser cookie-urile și stocarea locală pen
 msgid "Try again"
 msgstr "Încearcă din nou"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Autentifică-te în <span class=\"service\">contul tău de Firefox</span>"
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
 msgstr "Autentifică-te pentru a continua"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:9
 msgid "Password"
 msgstr "Parola"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17 .es5/templates/sign_in_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:5
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in_password.mustache:11
 msgid "Forgot password?"
 msgstr "Ai uitat parola?"
 
-#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
-#: .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Prin continuare, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciilor</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">Declarația de confidențialitate</a>."
+msgstr ""
+"Prin continuare, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciilor</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">Declarația de confidențialitate</a>."
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
 msgstr "Introdu adresa de e-mail"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
+#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
 msgid "Email"
 msgstr "E-mail"
+
+#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
+msgid "Continue"
+msgstr "Continuă"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1272,8 +1256,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-ți proteja"
-" confidențialitatea."
+"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-ți "
+"proteja confidențialitatea."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1288,12 +1272,12 @@ msgid "Sign out"
 msgstr "Deconectare"
 
 # Sau „Schimbă contul”
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
 msgid "Use a different account"
 msgstr "Folosește un alt cont"
 
-#: .es5/templates/sign_in.mustache:16
+#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16
 msgid "Create an account"
 msgstr "Creează un cont"
 
@@ -1377,122 +1361,81 @@ msgstr "Verifică e-mailul pentru codul de autorizare trimis către %(email)s."
 msgid "Enter authorization code"
 msgstr "Introdu codul de autorizare"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2
-msgid "Create your Firefox account"
-msgstr "Creează-ți contul de Firefox"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up.mustache:3
+#: .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
 msgstr "Creează un cont Firefox"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Repeat password"
 msgstr "Repetă parola"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Nu pierde această parolă. Dacă trebuie să o resetezi ai putea pierde datele de sincronizare."
 
-#: .es5/templates/sign_up.mustache:13
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr "<span>Nu refolosi parola de la e-mail-ul tău</span>Dacă cineva îți află parola de e-mail aceștia pot aproba autentificarea pe alte dispozitive și accesa datele tale."
 
-#: .es5/templates/sign_up.mustache:14
+#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "<span>Reține parola ta</span>Dacă trebuie să resetezi parola, vei pierde datele care nu mai sunt sincronizate pe alte dispozitive."
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Cunoștințele practice îți sunt trimise direct în căsuța poștală. Abonează-te la mai multe:"
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/lib/newsletters.js:29
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Primește ultimele știri despre Mozilla și Firefox"
 
-#: .es5/templates/sign_up.mustache:22 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
+#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18
 msgid "Create account"
 msgstr "Creează cont"
 
-#: .es5/templates/sign_up.mustache:27
+#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
 msgstr "Ai un cont? Autentifică-te"
 
-#: .es5/templates/sign_up_password.mustache:8
-msgid "Change email"
-msgstr "Modifică e-mailul"
-
-#: .es5/templates/sign_up_password.mustache:20
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16 .es5/templates/sign_up_password.mustache:20 .es5/templates/sign_up_password.mustache:19
 msgid "Mistyped email?"
 msgstr "Sigur ai scris corect adresa?"
 
-#: .es5/templates/sms_send.mustache:1
-msgid "You did it! You’re signed in."
-msgstr "Gata! Ești autentificat(ă)."
-
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Trimite Firefox direct telefonului tău și autentifică-te pentru a termina înregistrarea"
 
-#: .es5/templates/sms_send.mustache:7
-msgid "Now get Firefox everywhere else."
-msgstr "Acum ia cu tine Firefox peste tot."
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr "Autentifică-te pe celelalte dispozitive pentru a obține toate produsele, cunoștințele și funcționalitățile de confidențialitate din Firefox."
-
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
 msgstr "Număr de telefon mobil"
 
-#: .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
 msgid "Send"
 msgstr "Trimite"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Serviciul SMS este disponibil numai în anumite țări. Se pot aplica tarife pentru SMS-uri și transferuri de date. Destinatarul vizat al e-mailului sau al SMS-ului trebuie să își fi dat "
 "consimțământul. <a %(escapedLearnMoreAttributes)s>Află mai multe</a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
-msgid "Why sign in on another device?"
-msgstr "De ce să te autentifici pe alt dispozitiv?"
-
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
-msgid "Start browsing"
-msgstr "Începe să navighezi"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Verifică-ți textele"
-
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
+#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Instalează Firefox pe smartphone și conectează-te pentru a încheia configurarea"
 
-#: .es5/templates/sms_sent.mustache:5
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "A fost trimis un link pentru aplicația Firefox către %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Wrong number?"
-msgstr "Număr greșit?"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Dacă nu ai primit mesajul SMS, poți căuta „Firefox” în magazinul de aplicații."
-
-#: .es5/templates/sms_sent.mustache:11
+#: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "Linkul cu aplicația a fost trimis la %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ai scris greșit&nbsp;numărul?</a>"
 
-#: .es5/templates/sms_sent.mustache:12
+#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr "Linkul cu aplicația a fost retrimis la %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ai scris greșit&nbsp;numărul?</a>"
 
-#: .es5/templates/sms_sent.mustache:16
+#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "Dacă nu primești mesajul text, poți descărca de asemenea aplicațiile manual."
 
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
 msgid "Didn't arrive? Resend"
 msgstr "Nu a ajuns? Retrimite"
 
@@ -1645,7 +1588,7 @@ msgstr "Obiecte lipsă sau duplicate?"
 msgid "Refresh status"
 msgstr "Actualizează starea"
 
-#: .es5/templates/settings/communication_preferences.mustache:3
+#: .es5/templates/settings/communication_preferences.mustache:3 .es5/lib/strings.js:43 .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
 msgstr "Preferințe privind e-mailurile"
 
@@ -1692,12 +1635,12 @@ msgid "A secondary email is an additional address for receiving security notices
 msgstr "O adresă de e-mail secundară este o altă adresă pentru a primi avertizări de securitate și pentru confirmarea dispozitivelor noi."
 
 #: .es5/templates/settings/emails.mustache:9
-msgid "Verified"
-msgstr "Verificat"
+msgid "verified"
+msgstr "verificat"
 
 #: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Necesită verificare"
+msgid "verification required"
+msgstr "verificare necesară"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
@@ -1741,14 +1684,6 @@ msgstr "Copiază"
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "Tipărește"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Abonamente"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Gestionează…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1867,7 +1802,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Pasul 2 din 2: Salvează cheia de recuperare"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">NOTĂ:</span> Dacă uiți parola, vei avea nevoie de cheie ca să ai din nou acces la datele tale. Salvează cheia de recuperare într-un loc sigur, unde o poți găsi ușor mai târziu."
 
@@ -1902,42 +1838,6 @@ msgstr "Locație necunoscută"
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
 msgstr "Adresă IP: %(ipAddress)s"
-
-#: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Get more from these features:"
-msgstr "Obține mai multe de la aceste funcționalități:"
-
-#: .es5/templates/partial/firefox-family-services.mustache:2
-msgid "Firefox browser"
-msgstr "Browser Firefox"
-
-#: .es5/templates/partial/firefox-family-services.mustache:3
-msgid "Travel the internet with protection, on every device."
-msgstr "Călătorește pe internet cu protecție pe fiecare dispozitiv."
-
-#: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Keep your passwords protected and portable."
-msgstr "Păstrează-ți parolele protejate și portabile."
-
-#: .es5/templates/partial/firefox-family-services.mustache:6
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Get a lookout for data breaches."
-msgstr "Obține monitorizare pentru breșe de date."
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Share large files without prying eyes."
-msgstr "Partajează fișiere mari fără priviri indiscrete."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -2031,20 +1931,149 @@ msgstr "Asociere folosind o aplicație"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație Firefox."
 
-#~ msgid "verified"
-#~ msgstr "verificat"
+#: .es5/templates/settings/emails.mustache:9
+msgid "Verified"
+msgstr "Verificat"
 
-#~ msgid "verification required"
-#~ msgstr "verificare necesară"
+#: .es5/templates/settings/emails.mustache:11
+msgid "Verification required"
+msgstr "Necesită verificare"
 
-#~ msgid "Practical knowledge is coming to your inbox"
-#~ msgstr "Cunoștințele practice ajung în căsuța ta poștală"
+#: .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "Abonamente"
 
-#~ msgid "Sign up for more:"
-#~ msgstr "Înscrie-te pentru mai multe:"
+#: .es5/templates/settings/subscription.mustache:2
+msgid "Manage…"
+msgstr "Gestionează…"
 
-#~ msgid "Invite me to test new Mozilla products"
-#~ msgstr "Invită-mă să testez produse Mozilla noi"
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Get the most out of your account"
+msgstr "Profită la maxim de contul tău"
+
+#: .es5/templates/choose_what_to_sync.mustache:8
+msgid "Sync these everywhere you sign in"
+msgstr "Sincronizează aceste elemente oriunde te conectezi"
+
+#: .es5/templates/choose_what_to_sync.mustache:12
+msgid "Practical knowledge is coming to your inbox"
+msgstr "Cunoștințele practice ajung în căsuța ta poștală"
+
+#: .es5/templates/choose_what_to_sync.mustache:13
+msgid "Sign up for more:"
+msgstr "Înscrie-te pentru mai multe:"
+
+#: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Fii mai în siguranță și mai inteligent online"
+
+#: .es5/templates/choose_what_to_sync.mustache:17
+msgid "Invite me to test new Mozilla products"
+msgstr "Invită-mă să testez produse Mozilla noi"
+
+#: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "Ia măsuri pentru a păstra Internetul sănătos"
+
+#: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
+msgid "One last step"
+msgstr "Un ultim pas"
+
+#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
+msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+msgstr "Verifică %(escapedEmail)s pentru un link de confirmare și vei fi gata să începi."
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+msgstr "Autentifică-te în <span class=\"service\">contul tău de Firefox</span>"
+
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
+msgid "Create your Firefox account"
+msgstr "Creează-ți contul de Firefox"
+
+#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7
+msgid "Change email"
+msgstr "Modifică e-mailul"
+
+#: .es5/templates/sms_send.mustache:1
+msgid "You did it! You’re signed in."
+msgstr "Gata! Ești autentificat(ă)."
+
+#: .es5/templates/sms_send.mustache:7
+msgid "Now get Firefox everywhere else."
+msgstr "Acum ia cu tine Firefox peste tot."
+
+#: .es5/templates/sms_send.mustache:8
+msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+msgstr "Autentifică-te pe celelalte dispozitive pentru a obține toate produsele, cunoștințele și funcționalitățile de confidențialitate din Firefox."
+
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+msgid "Why sign in on another device?"
+msgstr "De ce să te autentifici pe alt dispozitiv?"
+
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+msgid "Start browsing"
+msgstr "Începe să navighezi"
+
+#: .es5/templates/sms_sent.mustache:1
+msgid "Check your texts"
+msgstr "Verifică-ți textele"
+
+#: .es5/templates/sms_sent.mustache:5
+msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+msgstr "A fost trimis un link pentru aplicația Firefox către %(escapedPhoneNumber)s"
+
+#: .es5/templates/sms_sent.mustache:6
+msgid "Wrong number?"
+msgstr "Număr greșit?"
+
+#: .es5/templates/sms_sent.mustache:7
+msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+msgstr "Dacă nu ai primit mesajul SMS, poți căuta „Firefox” în magazinul de aplicații."
+
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Get more from these features:"
+msgstr "Obține mai multe de la aceste funcționalități:"
+
+#: .es5/templates/partial/firefox-family-services.mustache:2
+msgid "Firefox browser"
+msgstr "Browser Firefox"
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Travel the internet with protection, on every device."
+msgstr "Călătorește pe internet cu protecție pe fiecare dispozitiv."
+
+#: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Firefox Lockwise"
+msgstr "Firefox Lockwise"
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Keep your passwords protected and portable."
+msgstr "Păstrează-ți parolele protejate și portabile."
+
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Firefox Monitor"
+msgstr "Firefox Monitor"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Get a lookout for data breaches."
+msgstr "Obține monitorizare pentru breșe de date."
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Send"
+msgstr "Firefox Send"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Share large files without prying eyes."
+msgstr "Partajează fișiere mari fără priviri indiscrete."
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Testează noi produse Firefox"
+
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "Cunoștințele practice îți sunt trimise direct în căsuța poștală. Abonează-te la mai multe:"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s înregistrat."
@@ -2225,8 +2254,8 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Serviciul SMS este disponibil numai pentru numere de telefon din S.U.A. Se pot aplica tarife pentru SMS-uri și transferuri de date. Destinatarul vizat al e-mailului sau al SMS-ului trebuie să își fi"
-#~ " dat consimțământul. <a %(escapedLearnMoreAttributes)s>Află mai multe</a>"
+#~ "Serviciul SMS este disponibil numai pentru numere de telefon din S.U.A. Se pot aplica tarife pentru SMS-uri și transferuri de date. Destinatarul vizat al e-mailului sau al SMS-ului trebuie să "
+#~ "își fi dat consimțământul. <a %(escapedLearnMoreAttributes)s>Află mai multe</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Poate mai târziu"
@@ -2238,11 +2267,11 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 #~ msgstr "De ce să sincronizezi două (sau mai multe) dispozitive?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe telefon"
-#~ " sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
+#~ "Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe "
+#~ "telefon sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2354,15 +2383,15 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 #~ msgstr "Autentificare"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ATENȚIE:</span> Dacă îți resetezi parola, o parte din datele tale se vor șterge (inclusiv datele sincronizate pe server cum ar fi istoricul și marcajele). Aceasta se întâmplă deoarece noi "
 #~ "criptăm datele tale cu parola ta pentru a-ți proteja confidențialitatea."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>NOTĂ:</span> Dacă resetezi parola, o parte din datele dale se vor șterge (inclusiv date sincronizate pe server cum ar fi istoricul și marcajele). Aceasta se întâmplă deoarece noi criptăm "
 #~ "datele tale cu parola ta pentru a-ți proteja confidențialitatea."
@@ -2469,18 +2498,19 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 #~ msgid "Sync preferences"
 #~ msgstr "Preferințe de sincronizare"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Cauți Sincronizare Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Începe aici</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">Autentifică-te</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Activ ultima dată: %(translatedTimeAgo)s"
