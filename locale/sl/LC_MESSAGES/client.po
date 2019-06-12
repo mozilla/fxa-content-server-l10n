@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-10 09:05+0000\n"
-"PO-Revision-Date: 2019-06-10 09:24+0000\n"
+"PO-Revision-Date: 2019-06-12 09:20+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1936,7 +1936,7 @@ msgstr "Sinhronizirajte jih povsod, kjer se prijavite"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "Praktično znanje prihaja v vaš nabiralnik"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
