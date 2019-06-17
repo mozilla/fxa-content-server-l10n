@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-10 09:05+0000\n"
-"PO-Revision-Date: 2019-06-12 22:00+0000\n"
+"PO-Revision-Date: 2019-06-17 12:56+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1109,11 +1109,11 @@ msgstr "Adaugi și alte dispozitive? Autentifică-te în Firefox de pe alt dispo
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Autentifică-te în Firefox pentru Android ca să finalizezi configurarea"
+msgstr "Autentifică-te în Firefox pentru Android pentru a finaliza configurarea"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Autentifică-te în Firefox pentru iOS ca să finalizezi configurarea"
+msgstr "Autentifică-te în Firefox pentru iOS pentru a finaliza configurarea"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
