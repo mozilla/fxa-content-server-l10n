@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-10 09:05+0000\n"
-"PO-Revision-Date: 2019-06-10 13:11+0000\n"
+"PO-Revision-Date: 2019-06-18 12:45+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -2014,7 +2014,7 @@ msgstr "¿Número equivocado?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Si no recibiste el mensaje vía SMS, podés buscaar “Firefox” en tu app store."
+msgstr "Si no recibiste el mensaje vía SMS, podés buscar “Firefox” en la tienda de aplicaciones"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
