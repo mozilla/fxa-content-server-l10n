@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-10 09:05+0000\n"
+"POT-Creation-Date: 2019-06-24 12:39+0000\n"
 "PO-Revision-Date: 2019-05-25 18:28+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,7 @@ msgid "Sign-in confirmed"
 msgstr "Accesso confermato"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
+#: .es5/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ora puoi utilizzare %(serviceName)s"
 
@@ -467,7 +468,7 @@ msgstr "Testo della richiesta troppo lungo"
 msgid "The request was blocked for security reasons"
 msgstr "La richiesta è stata bloccata per motivi di sicurezza"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489
 msgid "Invalid authorization code"
 msgstr "Codice di autorizzazione non valido"
 
@@ -591,7 +592,7 @@ msgstr "Piano sconosciuto per la sottoscrizione."
 msgid "Invalid payment token for subscription."
 msgstr "Token di pagamento non valido per la sottoscrizione."
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469
 msgid "Server busy, try again soon"
 msgstr "Il server è occupato, riprova tra qualche secondo"
 
@@ -601,7 +602,7 @@ msgstr "Caratteristica non attivata"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 msgid "System unavailable, try again soon"
 msgstr "Il sistema non è disponibile, riprova tra qualche secondo"
 
@@ -649,115 +650,117 @@ msgstr "Deve contenere almeno 8 caratteri"
 msgid "Valid password required"
 msgstr "È necessario inserire una password valida"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:388
 msgid "Valid email required"
 msgstr "È necessario inserire un indirizzo email valido"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344
 msgid "A usable image was not found"
 msgstr "Non è stata rilevata alcuna immagine utilizzabile per questo account"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348
 msgid "Could not initialize camera"
 msgstr "Impossibile inizializzare la fotocamera"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352
 msgid "Valid URL required"
 msgstr "È necessario fornire un URL valido"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "L’email di verifica è stata respinta. Verifica di aver digitato correttamente l’indirizzo email."
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Inserisci un indirizzo email valido. firefox.com non offre servizi come provider di posta elettronica."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "L’integrazione di Account Firefox tramite IFRAME è consentita ai soli siti web autorizzati"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404
 msgid "Verification link damaged"
 msgstr "Il link di verifica è danneggiato"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412
 msgid "The image dimensions must be at least 100x100px"
 msgstr "L’immagine deve avere dimensioni minime di 100×100 pixel"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrazione con Firefox per iOS disponibile prossimamente"
 
-#: .es5/lib/auth-errors.js:424
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428
 msgid "You must enter your age to sign up"
 msgstr "Per completare la registrazione devi inserire la tua età"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432
 msgid "You must enter a valid age to sign up"
 msgstr "Per completare la registrazione inserire un’età valida"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448
 msgid "Account no longer exists."
 msgstr "Questo account non esiste più."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietà non valida nel token riassuntivo: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietà mancante nel token riassuntivo: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460
 msgid "Invalid data attribute: %(property)s"
 msgstr "Attributo dati non valido: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464
 msgid "Missing data attribute: %(property)s"
 msgstr "Attributo dati mancante: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:531
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Questo link di conferma è già stato utilizzato (e può essere utilizzato una sola volta)."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481
 msgid "This is a required field"
 msgstr "Questo campo è obbligatorio"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485
 msgid "Authorization code required"
 msgstr "È necessario inserire il codice di autorizzazione"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493
 msgid "Link damaged"
 msgstr "Il link non è valido"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516
 msgid "Phone number required"
 msgstr "Il numero di telefono è obbligatorio"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535
 msgid "Two-step authentication code required"
 msgstr "È richiesto il codice di autenticazione in due passaggi"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539
 msgid "Invalid two-step authentication code"
 msgstr "Codice di autenticazione in due passaggi non valido"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543
 msgid "Recovery code required"
 msgstr "È richiesto il codice di recupero"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547
 msgid "Invalid recovery code"
 msgstr "Codice di recupero non valido"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561
 msgid "Recovery key required"
 msgstr "È richiesta la chiave di recupero"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565
 msgid "Please enter verification code"
 msgstr "Inserire il codice di verifica"
 
@@ -825,15 +828,15 @@ msgstr "Non consentito"
 msgid "Expired token"
 msgstr "Token scaduto"
 
-#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Qualcosa è andato storto. Chiudi questa scheda e riprova."
 
-#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
+#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
 msgid "no message"
 msgstr "nessun messaggio"
 
-#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
+#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149 .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Parametro OAuth non specificato: %(param)s"
 
@@ -1163,6 +1166,7 @@ msgstr "Email"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
+#: .es5/templates/ready.mustache:6
 msgid "Continue"
 msgstr "Avanti"
 
@@ -1217,15 +1221,15 @@ msgstr "Accetta"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: .es5/templates/ready.mustache:8
+#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Ora l’account è pronto!"
 
-#: .es5/templates/ready.mustache:9
+#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
 msgid "Generate a new recovery key"
 msgstr "Genera una nuova chiave di recupero"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12
 msgid "Continue to my account"
 msgstr "Vai al mio account"
 
@@ -2005,7 +2009,7 @@ msgstr "Accedi dagli altri dispositivi per usufruire di tutti i prodotti, le con
 msgid "Why sign in on another device?"
 msgstr "Perché accedere da un altro dispositivo?"
 
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Inizia a navigare"
 
@@ -2068,6 +2072,10 @@ msgstr "Prova i nuovi prodotti Firefox"
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Ricevi suggerimenti pratici direttamente nella tua casella di posta. Registrati per saperne di più:"
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Get app"
+msgstr "Scarica l’app"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrata."
@@ -2484,9 +2492,6 @@ msgstr "Ricevi suggerimenti pratici direttamente nella tua casella di posta. Reg
 
 #~ msgid "Forgot password"
 #~ msgstr "Password dimenticata"
-
-#~ msgid "Get app"
-#~ msgstr "Scarica l’app"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox Sync verrà attivato a momenti"

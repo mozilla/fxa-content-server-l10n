@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-10 09:05+0000\n"
+"POT-Creation-Date: 2019-06-24 12:39+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,7 @@ msgid "Sign-in confirmed"
 msgstr "সাইন-ইন নিশ্চিত হয়েছে"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
+#: .es5/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "আপনি এখন %(serviceName)s ব্যবহার করতে তৈরি।"
 
@@ -463,7 +464,7 @@ msgstr "আবেদন বডি খুব বড়ো"
 msgid "The request was blocked for security reasons"
 msgstr "নিরাপত্তার কারণে আপনার আবেদন ব্লক করা হয়েছে"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489
 msgid "Invalid authorization code"
 msgstr "অবৈধ অথোরাইজেশন কোড"
 
@@ -587,7 +588,7 @@ msgstr ""
 msgid "Invalid payment token for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, কিছুক্ষণের মধ্যে আবার চেষ্টা করুন"
 
@@ -597,7 +598,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম অনুপলব্ধ, কিছুক্ষণের মধ্যে আবার চেষ্টা করুন"
 
@@ -645,115 +646,117 @@ msgstr "কমপক্ষে 8 অক্ষর হতেই হবে।"
 msgid "Valid password required"
 msgstr "যাচিত পাসওয়ার্ড প্রয়োজন"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:388
 msgid "Valid email required"
 msgstr "যাচিত ইমেইল প্রয়োজন।"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344
 msgid "A usable image was not found"
 msgstr "একটি ব্যবহারযোগ্য ছবি খুঁজে পাওয়া যায়নি"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা চালু করা যাচ্ছে না"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352
 msgid "Valid URL required"
 msgstr "বৈধ URL প্রয়োজন"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "আপনার যাচাইকরণ মেইল এইমাত্র ফেরত এসেছে। ইমেইল ভুল টাইপ হয়েছে?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "একটি বৈধ ইমেইল ঠিকানা প্রবেশ করান। firefox.com ইমেইল অফার করে না।"
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox অ্যাকাউন্ট শুধুমাত্র একটি পর্যালোচিত সাইটে IFRAME-ই রাখা যায়"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404
 msgid "Verification link damaged"
 msgstr "যাচাই করবার লিঙ্ক নষ্ট হয়ে গেছে।"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ছবির দিক মাত্রা অবশ্যই কমপক্ষে 100 x 100 px হতে হবে"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox for iOS-এর জন্য শীঘ্রই সাইন আপ আসছে"
 
-#: .es5/lib/auth-errors.js:424
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428
 msgid "You must enter your age to sign up"
 msgstr "আপনাকে সাইন আপ করার জন্য আপনার বয়স দিতেই হবে"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432
 msgid "You must enter a valid age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448
 msgid "Account no longer exists."
 msgstr "অ্যাকাউন্ট আর উপস্থিত নেই।"
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452
 msgid "Invalid property in resume token: %(property)s"
 msgstr "নমুনায় অবৈধ বৈশিষ্ট্য: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456
 msgid "Missing property in resume token: %(property)s"
 msgstr "নমুনায় লুপ্ত বৈশিষ্ট্য: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460
 msgid "Invalid data attribute: %(property)s"
 msgstr "অবৈধ ডেটা অ্যাট্রিবিউট: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464
 msgid "Missing data attribute: %(property)s"
 msgstr "তথ্য বৈশিষ্ট্য নিখোঁজ: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527
+#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:531
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ওই নিশ্চিতকরণ লিঙ্কটি ইতিমধ্যে ব্যবহৃত, এবং একবারই ব্যবহার করা যাবে।"
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481
 msgid "This is a required field"
 msgstr "এটি একটি প্রয়োজনীয় ক্ষেত্র"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485
 msgid "Authorization code required"
 msgstr "অনুমোদন কোড প্রয়োজন"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493
 msgid "Link damaged"
 msgstr "লিংক ক্ষতিগ্রস্ত"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516
 msgid "Phone number required"
 msgstr "ফোন নম্বর প্রয়োজন"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543
 msgid "Recovery code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547
 msgid "Invalid recovery code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561
 msgid "Recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565
 msgid "Please enter verification code"
 msgstr ""
 
@@ -821,15 +824,15 @@ msgstr "ক্ষমাপ্রার্থী"
 msgid "Expired token"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "কিছু একটা ভুল হয়েছে। অনুগ্রহ করে এই ট্যাব টি বন্ধ করুন এবং পুনরায় চেষ্টা করুন।"
 
-#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145
+#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
 msgid "no message"
 msgstr "কোনো বার্তা নেই"
 
-#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149
+#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149 .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth parameter: %(param)s মিস হচ্ছে"
 
@@ -1154,6 +1157,7 @@ msgstr "ইমেইল"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
+#: .es5/templates/ready.mustache:6
 msgid "Continue"
 msgstr "চালু রাখুন"
 
@@ -1208,15 +1212,15 @@ msgstr "স্বীকার করুন"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-#: .es5/templates/ready.mustache:8
+#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "আপনার অ্যাকাউন্ট তৈরি!"
 
-#: .es5/templates/ready.mustache:9
+#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
 msgid "Generate a new recovery key"
 msgstr ""
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12
 msgid "Continue to my account"
 msgstr ""
 
@@ -1982,7 +1986,7 @@ msgstr ""
 msgid "Why sign in on another device?"
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr ""
 
@@ -2045,6 +2049,10 @@ msgstr ""
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Get app"
+msgstr "অ্যাপ পান"
 
 #~ msgid "Refresh"
 #~ msgstr "রিফ্রেশ"
@@ -2226,9 +2234,6 @@ msgstr ""
 
 #~ msgid "Forgot password"
 #~ msgstr "পাসওয়ার্ড ভুলে গেছেন"
-
-#~ msgid "Get app"
-#~ msgstr "অ্যাপ পান"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "এক্ষুণি Firefox Sync শুরু হবে"
