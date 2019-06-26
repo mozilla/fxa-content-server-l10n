@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-06-25 07:13+0000\n"
+"PO-Revision-Date: 2019-06-20 08:55+0000\n"
 "Last-Translator: kumincir <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -616,7 +616,7 @@ msgstr "Sési kadaluwarsa. Asup pikeun nuluykeun."
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
 msgid "Cookies are still disabled"
-msgstr "Kuki dipareuman kénéh"
+msgstr "Réréméh dipareuman kénéh"
 
 #: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
 msgid "Passwords do not match"
@@ -1114,11 +1114,11 @@ msgstr "Naha merlukeun loba parangkat?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr "Kuki jeung panyimpenan lokal diperlukeun"
+msgstr "Réréméh jeung panyimpenan lokal diperlukeun"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Prak hurungkeun kuki jeung panyimpenan lokal di panyungsi anjeun pikeun ngaksés Firefox Account. Ku cara kitu ngamungkinkeun fungsionalitas saperti nginget anjeun di antara sési."
+msgstr "Mangga hurungkeun réréméh jeung panyimpenan lokal di panyungsi anjeun pikeun ngaksés Firefox Account. Ku cara kitu ngamungkinkeun fungsionalitas saperti nginget anjeun di antara sési."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
