@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-06-27 17:28+0000\n"
+"PO-Revision-Date: 2019-06-27 23:55+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1900,7 +1900,7 @@ msgstr "Procesul de configurare a fost întrerupt."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Deschide scanerul de coduri din aplicația Firefox și prezintă codul când este gata."
+msgstr "Deschide scannerul de coduri din aplicația Firefox și afișează codul când ești pregătit."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
