@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-06-28 16:01+0000\n"
 "PO-Revision-Date: 2019-06-12 04:03+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "Masuk untuk sinkronisasi"
 msgid "Firefox Accounts"
 msgstr "Firefox Account"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "Kode pemulihan tersedia sedikit lagi"
 
@@ -135,7 +135,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Untuk informasi lebih lanjut, silakan kunjungi %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "Proses masuk baru ke %(clientName)s"
 
@@ -271,7 +271,7 @@ msgstr "Salam,"
 msgid "The Firefox Accounts team"
 msgstr "Tim Firefox Account"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "Kunci pemulihan akun dibuat"
 
@@ -291,7 +291,7 @@ msgstr "Anda berhasil membuat kunci pemulihan akun Firefox dari peranti berikut:
 msgid "If this was not you, revoke key."
 msgstr "Jika ini bukan Anda, cabut kuncinya."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "Autentikasi dua langkah diaktifkan"
 
@@ -318,7 +318,7 @@ msgid ""
 msgstr ""
 "Anda sukses mengubah surel utama Anda ke %(email)s. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke Firefox Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "Kode pemulihan telah terpakai"
 
@@ -330,7 +330,7 @@ msgstr "Anda berhasil memakai kode pemulihan dari perangkat berikut:"
 msgid "Consumed recovery code"
 msgstr "Kode pemulihan yang telah terpakai"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "Kode pemulihan baru dibuat"
 
@@ -338,7 +338,7 @@ msgstr "Kode pemulihan baru dibuat"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Anda berhasil membuat kode pemulihan baru dari peranti berikut:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "Kunci pemulihan akun dihapus"
 
@@ -370,7 +370,7 @@ msgstr "Anda telah berhasil menghapus %(secondaryEmail)s sebagai email sekunder 
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "Autentikasi dua langkah dinonaktifkan"
 
@@ -544,7 +544,7 @@ msgstr "Mengkonfirmasi proses masuk"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jika Anda mencurigai bahwa seseorang mencoba mendapatkan akses ke akun Anda, <a %(passwordChangeLinkAttributes)s>silakan ubah kata sandi Anda</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "Verifikasi surel utama"
 
@@ -572,7 +572,7 @@ msgstr "Verifikasi surel: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Jika Anda tidak melakukan tindakan ini, ubah sandi Anda."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "Verifikasi surel sekunder"
 
@@ -608,99 +608,99 @@ msgstr "Konfirmasikan akun Anda dan dapatkan manfaat maksimal dari Firefox, dari
 msgid "Confirm email "
 msgstr "Konfirmasikan email "
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s pada %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s pada %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (perkiraan)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimasi)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (perkiraan)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimasi)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "Verifikasi Firefox Account Anda"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "Konfirmasikan surel Anda dan mulai menyinkronkan!"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr "Selesaikan Pembuatan Akun Anda"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr "Pengingat: Selesaikan Pembuatan Akun Anda"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr "Peringatan terakhir: Konfirmasikan surel Anda untuk mengaktifkan Firefox Account Anda"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Kode otorisasi Firefox Account"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Konfirmasi proses masuk baru ke %(clientName)s"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Kode masuk untuk Firefox"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "Setel ulang sandi Firefox Account Anda"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "Sandi Firefox Account Anda telah diubah"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "Sandi Firefox Account diubah"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Perubahan kata sandi Firefox Account diperlukan"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "Firefox Account terverifikasi"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr "Akun Firefox Anda telah Dikonfirmasi"
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "Surel sekunder Firefox Account ditambahkan"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "Surel utama baru Firefox Account"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Email sekunder Firefox Account dihapus"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "Sandi Firefox Account diatur ulang menggunakan kunci pemulihan"
 
@@ -709,8 +709,10 @@ msgid "Page not found"
 msgstr "Laman tidak ditemukan"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "Laman yang Anda minta tidak ditemukan. Kami telah menerima pemberitahuannya dan akan berusaha memperbaiki tautan yang mungkin rusak."
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -721,8 +723,10 @@ msgid "500 Error"
 msgstr "Kesalahan 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Oh dear, sepertinya terjadi kesalahan. Kami telah diberitahukan dan akan bekerja untuk perbaikannya."
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -733,8 +737,10 @@ msgid "Server busy, try again soon"
 msgstr "Server sibuk, coba lagi nanti"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Kami sedang mendapatkan beban berat dan bekerja keras untuk mengembalikan sistem agar kembali normal secepatnya."
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -757,12 +763,28 @@ msgid "Firefox update required"
 msgstr "Perlu pembaruan Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "Firefox Accounts menggunakan fitur yang tidak didukung pada versi Firefox yang Anda gunakan. Mohon unduh dan pasang Firefox versi terbaru untuk melanjutkan."
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Unduh terbaru"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "Laman yang Anda minta tidak ditemukan. Kami telah menerima pemberitahuannya dan akan berusaha memperbaiki tautan yang mungkin rusak."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Oh dear, sepertinya terjadi kesalahan. Kami telah diberitahukan dan akan bekerja untuk perbaikannya."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Kami sedang mendapatkan beban berat dan bekerja keras untuk mengembalikan sistem agar kembali normal secepatnya."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Firefox Accounts menggunakan fitur yang tidak didukung pada versi Firefox yang Anda gunakan. Mohon unduh dan pasang Firefox versi terbaru untuk melanjutkan."
 
 #~ msgid "Hello again."
 #~ msgstr "Jumpa lagi."

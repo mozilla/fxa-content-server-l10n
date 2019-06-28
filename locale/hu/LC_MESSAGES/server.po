@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-06-28 16:01+0000\n"
 "PO-Revision-Date: 2019-06-10 09:42+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "Jelentkezzen be a Syncbe"
 msgid "Firefox Accounts"
 msgstr "Firefox fiókok"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "Kevés helyreállító kód maradt"
 
@@ -135,7 +135,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "További információkért keresse fel a %(supportUrl)s oldalt"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "Új bejelentkezés itt: %(clientName)s"
 
@@ -271,7 +271,7 @@ msgstr "A legjobbakat,"
 msgid "The Firefox Accounts team"
 msgstr "A Firefox fiókok csapata"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "Fiók helyreállítási kulcs előállítva"
 
@@ -291,7 +291,7 @@ msgstr "Sikeresen előállított egy fiók helyreállítási kulcsot a Firefox f
 msgid "If this was not you, revoke key."
 msgstr "Ha ez nem Ön volt, vonja vissza a kulcsot."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "Kétlépcsős hitelesítés engedélyezve"
 
@@ -319,7 +319,7 @@ msgstr ""
 "Sikeresen megváltoztatta az elsődleges e-mail címét erre: %(email)s. Ez az cím mostantól a felhasználóneve a Firefox fiókba bejelentkezéshez, és ide fognal érkezni a biztonsági értesítések, és a "
 "bejelentkezési visszaigazolások."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "Helyreállítási kód elhasználva"
 
@@ -331,7 +331,7 @@ msgstr "Sikeresen elhasznált egy helyreállítási kódot a következő eszköz
 msgid "Consumed recovery code"
 msgstr "Felhasznált helyreállítási kód"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "Új helyreállítási kódok előállítva"
 
@@ -339,7 +339,7 @@ msgstr "Új helyreállítási kódok előállítva"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sikeresen állított elő új helyreállítási kódokat a következő eszközön:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "Fiók helyreállítási kulcs eltávolítva"
 
@@ -373,7 +373,7 @@ msgstr ""
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "Kétlépcsős hitelesítés letiltva"
 
@@ -549,7 +549,7 @@ msgstr "Bejelentkezés megerősítése"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, <a %(passwordChangeLinkAttributes)s>kérjük változtassa meg jelszavát</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "Elsődleges e-mail cím megerősítése"
 
@@ -577,7 +577,7 @@ msgstr "E-mail megerősítése: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg a jelszavát."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "Másodlagos e-mail megerősítése"
 
@@ -613,99 +613,99 @@ msgstr "Erősítse meg fiókját, és hozza ki a lehető legtöbbet a Firefoxbó
 msgid "Confirm email "
 msgstr "E-mail cím megerősítése "
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s ezen: %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s ezen: %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (becsült)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "Ellenőrizze Firefox fiókját"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "Erősítse meg az e-mail címét, és kezdjen szinkronizálni!"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr "A fiókja létrehozásának befejezése"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr "Emlékeztető: Fejezze be a fiókja létrehozását"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr "Végső emlékeztető: Erősítse meg az e-mail címét a Firefox-fiókja aktiválásához"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Firefox fiók engedélyezési kód"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Erősítse meg bejelentkezését ide: %(clientName)s"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Bejelentkezési kód a Firefoxhoz"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "Állítsa vissza Firefox fiókjának jelszavát"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "A Firefox fiókjának jelszava módosítva"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "A Firefox fiók jelszava megváltozott"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Firefox fiók jelszó helyreállítása szükséges"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "Firefox fiók ellenőrizve"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr "A Firefox-fiókja meg lett erősítve"
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "Másodlagos Firefox fiók e-mail hozzáadva"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "Új elsődleges email a Firefox fiókhoz"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Másodlagos Firefox fiók e-mail cím eltávolítva"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "Firefox fiók jelszó helyreállítása a helyreállítási kulccsal"
 
@@ -714,8 +714,10 @@ msgid "Page not found"
 msgstr "Az oldal nem található"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "A kért oldal nem található. Erről értesítést kaptunk, és megjavítunk minden, esetleg hibás hivatkozást."
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -726,8 +728,10 @@ msgid "500 Error"
 msgstr "500-as hiba"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Ó jaj, valami hiba történt. Értesítést kaptunk, és elkezdünk a javításon dolgozni."
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -738,8 +742,10 @@ msgid "Server busy, try again soon"
 msgstr "A kiszolgáló elfoglalt, próbálja újra később"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Jelenleg erős terhelés alatt állunk, és dolgozunk a rendszer normális működésének mielőbbi helyreállításán."
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -762,12 +768,28 @@ msgid "Firefox update required"
 msgstr "Firefox frissítés szükséges"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "A Firefox fiókok olyan funkciókat használ, amely nem támogatott az Ön Firefox verziójában. A folytatáshoz töltse le és telepítse a Firefox legfrissebb verzióját."
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Legfrissebb letöltése"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "A kért oldal nem található. Erről értesítést kaptunk, és megjavítunk minden, esetleg hibás hivatkozást."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Ó jaj, valami hiba történt. Értesítést kaptunk, és elkezdünk a javításon dolgozni."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Jelenleg erős terhelés alatt állunk, és dolgozunk a rendszer normális működésének mielőbbi helyreállításán."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "A Firefox fiókok olyan funkciókat használ, amely nem támogatott az Ön Firefox verziójában. A folytatáshoz töltse le és telepítse a Firefox legfrissebb verzióját."
 
 #~ msgid "Hello again."
 #~ msgstr "Üdvözöljük újra."

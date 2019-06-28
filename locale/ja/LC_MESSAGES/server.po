@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-06-28 16:01+0000\n"
 "PO-Revision-Date: 2019-02-25 14:33+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -49,7 +49,7 @@ msgstr "Sync へログイン"
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "回復用コードが残り少なくなっています"
 
@@ -132,7 +132,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "詳しい情報は %(supportUrl)s をご覧ください。"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログイン"
 
@@ -268,7 +268,7 @@ msgstr "ご利用ありがとうございます"
 msgid "The Firefox Accounts team"
 msgstr "Firefox アカウントチーム"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "アカウント回復用キーが生成されました"
 
@@ -288,7 +288,7 @@ msgstr "以下の端末からあなたの Firefox アカウントの回復用キ
 msgid "If this was not you, revoke key."
 msgstr "これがあなたではない場合は、キーを無効化してください。"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "2 段階認証が有効化されました"
 
@@ -314,7 +314,7 @@ msgid ""
 "confirmations."
 msgstr "%(email)s への主要アドレス変更が完了しました。このアドレスは今後、Firefox アカウントへログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "回復用コードが使用されました"
 
@@ -326,7 +326,7 @@ msgstr "次の端末から回復用コードの使用が完了しました:"
 msgid "Consumed recovery code"
 msgstr "使用された回復用コード"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
@@ -334,7 +334,7 @@ msgstr "新しい回復用コードが生成されました"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "次の端末から新しい回復用コードの生成が完了しました:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "アカウント回復用キーが削除されました"
 
@@ -366,7 +366,7 @@ msgstr "%(secondaryEmail)s があなたの Firefox アカウントの予備ア�
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "2 段階認証が無効化されました"
 
@@ -538,7 +538,7 @@ msgstr "ログインを確認"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "主要アドレスを確認"
 
@@ -566,7 +566,7 @@ msgstr "メールアドレスを確認: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "あなたがこの操作を許可していない場合は、パスワードを変更してください。"
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "予備アドレスを確認"
 
@@ -602,99 +602,99 @@ msgstr ""
 msgid "Confirm email "
 msgstr ""
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s / %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s / %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s、%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s、%(city)s (おおよその位置)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "Firefox アカウントを確認"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "メールアドレスを確認して同期を開始しましょう！"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr ""
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Firefox アカウント認証コード"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログインを確認"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Firefox 用のログインコード"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "Firefox アカウントのパスワードをリセット"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox アカウントのパスワードが変更されました"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "Firefox Account のパスワードが変更されました"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Firefox アカウントのパスワードリセット要求を受けました"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "Firefox アカウントが確認されました"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox アカウントに予備アドレスが追加されました"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "Firefox アカウントの新しい主要アドレス"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox アカウントの予備アドレスが削除されました"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "回復用キーを使った Firefox アカウントパスワードのリセット"
 
@@ -703,8 +703,10 @@ msgid "Page not found"
 msgstr "ページが見つかりませんでした"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "リクエストされたページは見つかりませんでした。サーバー管理者が通知を受け取り、サイト内でリンク切れがある場合は修正します。"
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -715,8 +717,10 @@ msgid "500 Error"
 msgstr "500 エラー"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "申し訳ありませんが、何か問題が発生しました。サーバー管理者が通知を受け取り、修正に取りかかります。"
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -727,8 +731,10 @@ msgid "Server busy, try again soon"
 msgstr "サーバーがビジーです。また後でお試しください"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "現在サーバーに過度な負担が掛かっており、できる限り早くシステムを正常な状態に戻すべく取り組んでいます。"
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -751,12 +757,28 @@ msgid "Firefox update required"
 msgstr "Firefox の更新が必要です"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "Firefox アカウントがご使用の Firefox のバージョンでサポートされていない機能を使用しようとしています。続けるには、最新バージョンの Firefox をダウンロードし、インストールしてください。"
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "最新バージョンをダウンロードする"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "リクエストされたページは見つかりませんでした。サーバー管理者が通知を受け取り、サイト内でリンク切れがある場合は修正します。"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "申し訳ありませんが、何か問題が発生しました。サーバー管理者が通知を受け取り、修正に取りかかります。"
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "現在サーバーに過度な負担が掛かっており、できる限り早くシステムを正常な状態に戻すべく取り組んでいます。"
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Firefox アカウントがご使用の Firefox のバージョンでサポートされていない機能を使用しようとしています。続けるには、最新バージョンの Firefox をダウンロードし、インストールしてください。"
 
 #~ msgid "Hello again."
 #~ msgstr "お帰りなさい。"

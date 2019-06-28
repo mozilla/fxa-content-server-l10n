@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-06-28 16:01+0000\n"
 "PO-Revision-Date: 2019-06-01 07:27+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "Kirjaudu Sync-palveluun"
 msgid "Firefox Accounts"
 msgstr "Firefox-tilit"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "Palautuskoodit vähissä"
 
@@ -135,7 +135,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Lisätietoja on osoitteessa %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "Uusi kirjautuminen: %(clientName)s"
 
@@ -271,7 +271,7 @@ msgstr "Terveisin"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Accounts -tiimi"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "Tilin palautusavain luotu"
 
@@ -291,7 +291,7 @@ msgstr "Olet luonut tilin palautusavaimen Firefox-tilillesi seuraavasta laittees
 msgid "If this was not you, revoke key."
 msgstr "Jos et tehnyt tätä, kumoa avain."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "Kaksivaiheinen todennus otettu käyttöön"
 
@@ -319,7 +319,7 @@ msgstr ""
 "Olet vaihtanut ensisijaisen sähköpostin osoitteeseen %(email)s. Tämä osoite on nyt käyttäjätunnuksesi Firefox-tilille kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisen "
 "vahvistuksen saapuvat."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "Palautuskoodi käytetty"
 
@@ -331,7 +331,7 @@ msgstr "Olet käyttänyt turvallisuuskoodin laitteella:"
 msgid "Consumed recovery code"
 msgstr "Käytetty palautuskoodi"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "Uudet palautuskoodit on luotu"
 
@@ -339,7 +339,7 @@ msgstr "Uudet palautuskoodit on luotu"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Olet luonut uudet palautuskoodit laitteella:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "Tilin palautusavain poistettu"
 
@@ -371,7 +371,7 @@ msgstr "Olet poistanut toissijaisen sähköpostiosoitteen %(secondaryEmail)s Fir
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "Kaksivaiheinen todennus poistettu käytöstä"
 
@@ -546,7 +546,7 @@ msgstr "Vahvista kirjautuminen"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jos epäilet, että joku yrittää murtautua tilillesi, <a %(passwordChangeLinkAttributes)s>vaihda salasanasi</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "Ensisijaisen sähköpostin vahvistaminen"
 
@@ -574,7 +574,7 @@ msgstr "Vahvista sähköposti: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Jos et sallinut tätä toimintoa, vaihda salasanasi."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "Toissijaisen sähköpostin vahvistaminen"
 
@@ -610,99 +610,99 @@ msgstr "Vahvista tilisi ja ota kaikki hyöty irti Firefoxista kaikkialla missä 
 msgid "Confirm email "
 msgstr "Vahvista sähköposti "
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (arvio)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "Vahvista Firefox-tilisi"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "Vahvista sähköpostisi ja aloita synkronointi!"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr "Viimeistele tilin luominen"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr "Muistutus: Viimeistele tilin luominen"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr "Viimeinen muistutus: vahvista sähköpostiosoitteesi aktivoidaksesi Firefox-tilisi"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Firefox-tilin valtuuskoodi"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Vahvista uusi kirjautuminen: %(clientName)s"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Kirjautumiskoodi Firefoxia varten"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "Firefox-tilisi salasanan nollaus"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox-tilisi salasana on vaihdettu"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "Firefox-tilin salasana vaihdettu"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Firefox-tilin salasanan nollaus vaaditaan"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "Firefox-tili vahvistettu"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr "Firefox-tilisi on vahvistettu"
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "Toissijainen sähköposti lisätty Firefox-tiliin"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "Firefox-tilin uusi ensisijainen sähköposti"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox-tilin toissijainen sähköposti poistettiin"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "Firefox-tilin salasanan nollaaminen palautusavaimella"
 
@@ -711,8 +711,10 @@ msgid "Page not found"
 msgstr "Sivua ei löydy"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit."
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -723,8 +725,10 @@ msgid "500 Error"
 msgstr "500 Virhe"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Oho, jokin meni pieleen! Olemme saaneet tästä tiedon ja ryhdymme korjaamaan virhettä."
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -735,8 +739,10 @@ msgid "Server busy, try again soon"
 msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Järjestelmä on tällä hetkellä ylikuormittunut. Teemme parhaamme palauttaaksemme sen normaalitilaan niin pian kuin mahdollista."
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -759,12 +765,28 @@ msgid "Firefox update required"
 msgstr "Firefox-päivitys vaaditaan"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "Firefox-tilit käyttää ominaisuuksia, jotka eivät ole tuettuja käyttämässäsi Firefox-versiossa. Lataa ja asenna Firefoxin uusin versio jatkaaksesi."
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lataa viimeisin"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Oho, jokin meni pieleen! Olemme saaneet tästä tiedon ja ryhdymme korjaamaan virhettä."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Järjestelmä on tällä hetkellä ylikuormittunut. Teemme parhaamme palauttaaksemme sen normaalitilaan niin pian kuin mahdollista."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Firefox-tilit käyttää ominaisuuksia, jotka eivät ole tuettuja käyttämässäsi Firefox-versiossa. Lataa ja asenna Firefoxin uusin versio jatkaaksesi."
 
 #~ msgid "Hello again."
 #~ msgstr "Hei taas."

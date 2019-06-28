@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-06-28 16:01+0000\n"
 "PO-Revision-Date: 2019-05-10 16:24+0000\n"
 "Last-Translator: Kiran Johns <kiranjohns101@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "സമന്വയിപ്പിക്കാനായി പ്രവ�
 msgid "Firefox Accounts"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ടുകള്‍"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "വീണ്ടെടുക്കൽ കോഡുകൾ കുറവാണ്"
 
@@ -133,7 +133,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "കൂടുതൽ വിവരങ്ങൾക്ക് ദയവായി %(supportUrl)s സന്ദർശിക്കുക"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s ലേയ്ക്കുള്ള പുതിയ പ്രവേശനം"
 
@@ -267,7 +267,7 @@ msgstr "സ്നേഹപൂര്‍വ്വം,"
 msgid "The Firefox Accounts team"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ടീം"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു"
 
@@ -287,7 +287,7 @@ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ ന�
 msgid "If this was not you, revoke key."
 msgstr "ഇത് നിങ്ങളല്ലായിരുന്നെങ്കിൽ, കീ പിൻവലിക്കുക."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "രണ്ടു-ഘട്ട പ്രാമാണീകരണം പ്രാപ്തമാക്കി"
 
@@ -313,7 +313,7 @@ msgid ""
 "confirmations."
 msgstr "നിങ്ങൾ പ്രാഥമിക ഇമെയിൽ വിജയകരമായി %(email)sആക്കി മാറ്റി. ഈ വിലാസം ഇപ്പോൾ നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് പ്രവേശിക്കുന്നതിനും സുരക്ഷ അറിയിപ്പുകളും പ്രവേശനസ്ഥിരീകരണങ്ങള്‍ക്കുമുള്ല ഉപയോക്തൃനാമമാണ്."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
 
@@ -325,7 +325,7 @@ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ ന�
 msgid "Consumed recovery code"
 msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു"
 
@@ -333,7 +333,7 @@ msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃ
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നും നിങ്ങൾ വിജയകരമായി പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ നീക്കം ചെയ്തിരിക്കുന്നു"
 
@@ -365,7 +365,7 @@ msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സിന്റെ അ
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; അബദ്ധവശാലാണ് നിങ്ങൾക്ക് ഈ ഇമെയില്‍ വന്നതെങ്കില്‍ ഒന്നും ചെയ്യണ്ട."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "ഇരട്ട-സ്റ്റെപ്പ് പ്രാമാണീകരണം അപ്രാപ്തമാക്കി"
 
@@ -537,7 +537,7 @@ msgstr "പ്രവേശനം സ്ഥിരീകരിക്കുക"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr ""
 
@@ -565,7 +565,7 @@ msgstr "ഇമെയില്‍ സ്ഥിരീകരിക്കുക: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "ഈ പ്രവൃത്തി അംഗീകരിക്കുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റുക."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "ദ്വിതീയ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 
@@ -601,99 +601,99 @@ msgstr ""
 msgid "Confirm email "
 msgstr ""
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s-ന്റെ മേൽ %(uaBrowser)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s-ന്റെ മേൽ %(uaBrowser)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് പരിശോധിക്കുക"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr ""
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീകാര കോഡ്"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s ലേക്കുള്ള പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "ഫയര്‍ഫോക്സിലേക്കുള്ള പ്രവേശന കോഡ്"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് മാറ്റി"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്കിന്റെ പുനഃസജ്ജീകരണം ആവശ്യമാണ്"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടില്‍ ദ്വിതീയ ഇമെയിൽ ചേർത്തു"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ പുതിയ പ്രാഥമിക ഇമെയിൽ"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "വീണ്ടെടുക്കൽ കീയുപയോഗിച്ച് ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിച്ചു"
 
@@ -702,8 +702,10 @@ msgid "Page not found"
 msgstr "താള്‍ കണ്ടെത്തിയില്ല"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള്‍ കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -714,8 +716,10 @@ msgid "500 Error"
 msgstr "500 പിശക്"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിച്ചിട്ടുണ്ട്, അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം ഉടന്‍ തുടങ്ങുന്നതാണ്."
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -726,8 +730,10 @@ msgid "Server busy, try again soon"
 msgstr "സെർവർ തിരക്കിലാണ്, വീണ്ടും ഉടൻ ശ്രമിക്കുക"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -750,12 +756,25 @@ msgid "Firefox update required"
 msgstr "ഫയർഫോക്സ് കാലികമാക്കേണ്ടതുണ്ട്"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "പരിഷ്കരണം ഡൌണ്‍ലോഡ് ചെയ്യൂ"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള്‍ കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിച്ചിട്ടുണ്ട്, അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം ഉടന്‍ തുടങ്ങുന്നതാണ്."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
 
 #~ msgid "Hello again."
 #~ msgstr "വീണ്ടും നമസ്കാരം."
