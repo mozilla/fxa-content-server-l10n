@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-06-27 23:55+0000\n"
+"PO-Revision-Date: 2019-06-29 13:51+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -890,11 +890,11 @@ msgstr "Primește cele mai recente știri despre Mozilla și Firefox."
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (estimativ)"
+msgstr "%(city)s, %(country)s (locație estimată)"
 
 #: .es5/lib/strings.js:41 .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (estimativ)"
+msgstr "%(country)s (locație estimată)"
 
 #: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
