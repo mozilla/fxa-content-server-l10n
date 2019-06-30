@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-06-30 21:52+0000\n"
+"PO-Revision-Date: 2019-06-30 21:59+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -574,19 +574,19 @@ msgstr "Vastuolulise taotluse tõttu ebaõnnestus, palun proovi uuesti."
 
 #: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Tundmatu klient tellimuse esitamiseks."
 
 #: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Tundmatu tellimus."
 
 #: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Tundmatu plaan tellimuse esitamiseks."
 
 #: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Kehtetu maksevahend tellimuse esitamiseks."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469
 msgid "Server busy, try again soon"
@@ -693,7 +693,7 @@ msgstr "Registreerumiseks pead sisestama enda vanuse."
 
 #: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Registreerumiseks pead sisestama korrektse vanuse"
 
 #: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448
 msgid "Account no longer exists."
@@ -762,7 +762,7 @@ msgstr "Palun sisesta kinnituskood"
 
 #: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Kaheastmelise autentimisega kontode puhul pole paaristamine praegu toetatud"
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -842,11 +842,11 @@ msgstr "Kaugseadmelt võeti vastu vigane sõnum"
 
 #: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Kaugseadmega paaristamisel esines viga"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Kaugseadmega loodud ühendus suleti, palun proovi uuesti"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
@@ -962,7 +962,7 @@ msgstr "Rohkem teavet"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s on registreeritud"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
@@ -970,7 +970,7 @@ msgstr "Sünkroniseeritavate asjade valik"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24 .es5/templates/choose_what_to_sync.mustache:14
 msgid "Save selections"
-msgstr ""
+msgstr "Salvesta valikud"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
@@ -1572,7 +1572,7 @@ msgstr "Puuduvad või topeltkirjed?"
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Värskenda olekut"
 
 #: .es5/templates/settings/communication_preferences.mustache:3 .es5/lib/strings.js:43 .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
@@ -1592,7 +1592,7 @@ msgstr "Telli"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Halda sätteid"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
