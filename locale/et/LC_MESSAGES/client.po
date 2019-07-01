@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-07-01 14:07+0000\n"
+"PO-Revision-Date: 2019-07-01 14:27+0000\n"
 "Last-Translator: Sander Lepik <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1898,39 +1898,39 @@ msgstr "Paaristamine õnnestus."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Kinnita paaristamine kontoga <small>%(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Kinnita paaristamine"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Paarista äpiga"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Kas kasutasid süsteemset kaamerat? Paaristama peab kasutades Firefoxi äppi."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "Verified"
-msgstr ""
+msgstr "Kinnitatud"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr ""
+msgstr "Vajalik on kinnitamine"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Tellimused"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
-msgstr ""
+msgstr "Halda…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "Võta oma kontost viimast"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
