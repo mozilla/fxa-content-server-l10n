@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-05-27 10:57+0000\n"
+"PO-Revision-Date: 2019-07-02 21:29+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -864,11 +864,8 @@ msgid "Invalid Token"
 msgstr "โทเคนไม่ถูกต้อง"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -934,8 +931,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "โปรดป้อนคีย์การกู้คืนแบบใช้ครั้งเดียวที่คุณเก็บไว้ในที่ปลอดภัยเพื่อรับสิทธิ์การเข้าถึง Firefox Account ของคุณอีกครั้ง"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">หมายเหตุ:</span> หากคุณรีเซ็ตรหัสผ่านและไม่ได้บันทึกคีย์การกู้คืนบัญชี ข้อมูลบางส่วนของคุณจะถูกลบ (รวมถึงข้อมูลเซิร์ฟเวอร์ที่ซิงค์ เช่น ประวัติ และที่คั่นหน้า)"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -996,7 +992,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
+"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1244,7 +1241,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
+"<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1604,7 +1602,9 @@ msgstr "ลบ…"
 msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
-msgstr "หากคุณใช้บัญชีนี้สำหรับแอพและบริการของ Firefox เช่น AMO, Pocket, และ Screenshots คุณควรเข้าสู่ระบบก่อน แล้วลบข้อมูลส่วนตัวใดๆ ที่คุณได้บันทึกไว้ เมื่อคุณลบบัญชีของคุณที่นี่แล้ว คุณจะไม่สามารถเข้าถึงแอพและบริการอื่นๆ ได้อีกต่อไป"
+msgstr ""
+"หากคุณใช้บัญชีนี้สำหรับแอพและบริการของ Firefox เช่น AMO, Pocket, และ Screenshots คุณควรเข้าสู่ระบบก่อน แล้วลบข้อมูลส่วนตัวใดๆ ที่คุณได้บันทึกไว้ เมื่อคุณลบบัญชีของคุณที่นี่แล้ว "
+"คุณจะไม่สามารถเข้าถึงแอพและบริการอื่นๆ ได้อีกต่อไป"
 
 #: .es5/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1752,7 +1752,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">หมายเหตุ:</span> รหัสผ่าน Firefox Account ของคุณจะเข้ารหัสข้อมูล Firefox ของคุณ เฉพาะรหัสผ่านหรือคีย์กู้คืนของคุณเท่านั้นที่สามารถเข้าถึงข้อมูลของคุณได้ <a %(escapedLearnMoreLinkAttributes)s>เรียนรู้เพิ่มเติม</a>"
+"<span class=\"note\">หมายเหตุ:</span> รหัสผ่าน Firefox Account ของคุณจะเข้ารหัสข้อมูล Firefox ของคุณ เฉพาะรหัสผ่านหรือคีย์กู้คืนของคุณเท่านั้นที่สามารถเข้าถึงข้อมูลของคุณได้ <a "
+"%(escapedLearnMoreLinkAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1779,8 +1780,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "ขั้นตอนที่ 2 จาก 2: บันทึกกุญแจการกู้คืน"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">หมายเหตุ:</span> หากคุณลืมรหัสผ่าน คุณจะต้องใช้คีย์นี้ในการรับสิทธิ์เข้าถึงข้อมูลของคุณอีกครั้ง บันทึกคีย์การกู้คืนของคุณในตำแหน่งที่ปลอดภัยซึ่งคุณสามารถค้นหาได้ในภายหลัง"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1925,31 +1925,31 @@ msgstr "จัดการ…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr ""
+msgstr "ใช้บัญชีของคุณเพื่อให้ได้ประโยชน์สูงสุด"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "ซิงค์สิ่งเหล่านี้ทุกที่ที่คุณลงชื่อเข้าใช้"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "ความรู้ที่เป็นประโยชน์กำลังมาถึงในกล่องจดหมายขาเข้าของคุณ"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติม:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "อยู่บนโลกออนไลน์ได้อย่างปลอดภัยและฉลาดขึ้น"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr ""
+msgstr "เชิญฉันมาทดสอบผลิตภัณฑ์ใหม่ของ Mozilla"
 
 #: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "ร่วมลงมือสร้างอินเตอร์เน็ตที่ดี"
 
 #: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
 msgid "One last step"
@@ -1957,11 +1957,11 @@ msgstr "ขั้นตอนสุดท้าย"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "ตรวจสอบ %(escapedEmail)s เพื่อรับลิงก์ยืนยันแล้วเราจะพาคุณไปต่อ"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้<span class=\"service\">ไปยังบัญชี Firefox ของคุณ</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
@@ -1973,7 +1973,7 @@ msgstr "เปลี่ยนอีเมล"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "คุณทำได้! คุณได้ลงชื่อเข้าใช้แล้ว"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
@@ -1981,11 +1981,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "ลงชื่อเข้าใช้บนอุปกรณ์อื่นของคุณเพื่อรับผลิตภัณฑ์ ความรู้ และคุณลักษณะความเป็นส่วนตัวทั้งหมดของ Firefox"
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "ทำไมถึงควรลงชื่อเข้าใช้บนอุปกรณ์อื่น?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
 msgid "Start browsing"
@@ -1997,7 +1997,7 @@ msgstr "ตรวจสอบข้อความของคุณ"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "ลิงก์ไปยังแอพ Firefox ได้ถูกส่งไปยัง %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
@@ -2005,11 +2005,11 @@ msgstr "เลขหมายไม่ถูกต้อง?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "หากคุณยังไม่ได้รับข้อความ SMS คุณสามารถค้นหา “Firefox” ใน app store ของคุณ"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "อ่านเพิ่มเติ่มเพื่อใช้คุณสมบัติเหล่านี้ให้ได้มากที่สุด:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2017,7 +2017,7 @@ msgstr "เบราว์เซอร์ Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "คุ้มครองการท่องอินเทอร์เน็ตอย่างปลอดภัยบนทุกอุปกรณ์"
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2025,7 +2025,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "รักษารหัสผ่านของคุณให้ปลอดภัยและพกพาได้"
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2033,7 +2033,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "ให้เราช่วยคอยเฝ้าระวังดูการละเมิดข้อมูล"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
@@ -2041,7 +2041,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "แชร์ไฟล์ขนาดใหญ่โดยไม่ต้องมีคนอื่นมาสอดรู้สอดเห็น"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -2049,7 +2049,7 @@ msgstr "ทดสอบผลิตภัณฑ์ Firefox ใหม่"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "ความรู้ที่เป็นประโยชน์กำลังมาถึงในกล่องจดหมายขาเข้าของคุณ ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติม:"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
@@ -2243,17 +2243,18 @@ msgstr "รับแอพ"
 #~ msgstr "ทำไมต้องซิงค์สองอุปกรณ์ (หรือมากกว่า!) ?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
+#~ "ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox "
+#~ "บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง "
-#~ "Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
+#~ "ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง "
+#~ "คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2396,19 +2397,18 @@ msgstr "รับแอพ"
 #~ msgid "Sync preferences"
 #~ msgstr "การตั้งค่า Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "กำลังมองหา Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">เริ่มต้นที่นี่</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "มีบัญชีที่ใช้อีเมลอื่น? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a href="
-#~ "\"%(linkLinux)s\">Linux</a>"
+#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "ใช้งานล่าสุด: %(translatedTimeAgo)s"
