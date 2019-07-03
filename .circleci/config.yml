@@ -57,6 +57,9 @@ workflows:
   send-pr:
     triggers:
       - schedule:
-        cron: "0 8 * * 5" # At 08:00 on Fridays”
+          cron: "0 8 * * 5" # At 08:00 on Fridays”
+          filters:
+            branches:
+              ignore: /.*/
     jobs:
       - build
