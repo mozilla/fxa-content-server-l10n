@@ -31,9 +31,13 @@ jobs:
             chmod 0600 ~/.ssh/id_bug_mirror;
             ssh-add ~/.ssh/id_bug_mirror;
 
-            if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
-              bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master --browser false;
-            fi
+            bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master --browser false;
+
+  ci:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
 
 workflows:
   version: 2
@@ -47,5 +51,12 @@ workflows:
   # see: https://circleci.com/docs/2.0/workflows/#git-tag-job-execution
 
   build-test-push:
+    jobs:
+      - ci
+
+  send-pr:
+    triggers:
+      - schedule:
+        cron: "0 8 * * 5" # At 08:00 on Fridays”
     jobs:
       - build
