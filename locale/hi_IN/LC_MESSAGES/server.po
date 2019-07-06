@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-07-06 18:31+0000\n"
+"PO-Revision-Date: 2019-07-06 18:33+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -289,11 +289,11 @@ msgstr ""
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "यदि यह आप नहीं थे, तो कुंजी को रद्द करें।"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "दो-चरण प्रमाणीकरण सक्षम"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "खाता पुनर्प्राप्ति कुंजी निकाली गई"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -674,7 +674,7 @@ msgstr "आपके फ़ायरफ़ॉक्स खाते का कूट�
 
 #: lib/senders/email.js:937
 msgid "Firefox Account password changed"
-msgstr ""
+msgstr "Firefox खाते का पासवर्ड बदल दिया गया है"
 
 #: lib/senders/email.js:959
 msgid "Firefox Account password reset required"
@@ -754,7 +754,7 @@ msgstr "सेवा की शर्तें"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox अद्यतन की आवश्यकता है"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
@@ -762,7 +762,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "नवीनतम डाउनलोड करें"
 
 #~ msgid "Hello again."
 #~ msgstr "फिर से हैलो."
