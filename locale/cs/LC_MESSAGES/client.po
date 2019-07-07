@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-07-07 09:25+0000\n"
+"PO-Revision-Date: 2019-07-07 09:41+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -70,7 +70,7 @@ msgstr "Nyní můžete provést změny ve svém účtu Firefoxu."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr "Primární e-mail ověřen"
+msgstr "Hlavní e-mail ověřen"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -228,7 +228,7 @@ msgstr "E-mail s ověřením byl odeslán"
 
 #: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr "Primární e-mail byl nastaven na %(email)s"
+msgstr "Hlavní e-mail byl nastaven na %(email)s"
 
 #: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
@@ -333,7 +333,7 @@ msgstr "Vytištěno"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 msgid "Primary email verified successfully"
-msgstr "Primární adresa byla úspěšně ověřena"
+msgstr "Hlavní adresa byla úspěšně ověřena"
 
 #: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
 msgid "Account verified successfully"
@@ -510,7 +510,7 @@ msgstr "Adresu už používá jiný účet"
 
 #: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
 msgid "Primary account email required for reset"
-msgstr "Pro obnovu je vyžadována primární e-mailová adresa"
+msgstr "Pro obnovu je vyžadována hlavní e-mailová adresa"
 
 #: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
 msgid "Invalid signin code"
@@ -518,11 +518,11 @@ msgstr "Neplatný kód pro přihlášení"
 
 #: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
 msgid "Can not change primary email to an unverified email"
-msgstr "Nelze změnit primární e-mailovou adresu na neověřený e-mail"
+msgstr "Hlavní e-mailovou adresu nelze změnit na neověřený e-mail"
 
 #: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Nelze změnit primární e-mailovou adresu na adresu, která nepatří k tomuto účtu"
+msgstr "Hlavní e-mail nelze změnit na adresu, která nepatří k tomuto účtu"
 
 #: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
 msgid "This email can not currently be used to login"
@@ -1018,7 +1018,7 @@ msgstr "Pamatujete si heslo? Přihlaste se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Primární adresa již byla ověřena"
+msgstr "Hlavní adresa již byla ověřena"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1464,11 +1464,11 @@ msgstr "Nahrát"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr "Fotoaparát"
+msgstr "Vyfotit"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr "Vyčistit"
+msgstr "Odstranit"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
@@ -1621,7 +1621,7 @@ msgstr "Nastavte si jméno, které chcete, aby se zobrazovalo ve Firefoxu při s
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Záložní e-mail je další adresa pro přijímání upozornění o zabezpečení a pro potvrzení nových zařízení."
+msgstr "Záložní e-mail slouží k zasílání bezpečnostních upozornění a potvrzování nových zařízení."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -1633,7 +1633,7 @@ msgstr "vyžadováno ověření"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
-msgstr "Nastavit jako primární"
+msgstr "Nastavit jako hlavní"
 
 #: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
 msgid "Remove"
@@ -1734,7 +1734,7 @@ msgstr "Před provedením změn v této sekci prosím ověřte svou e-mailovou a
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr "Primární e-mail"
+msgstr "Hlavní e-mail"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"

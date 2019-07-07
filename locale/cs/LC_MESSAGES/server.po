@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-24 12:39+0000\n"
-"PO-Revision-Date: 2019-07-07 09:28+0000\n"
+"PO-Revision-Date: 2019-07-07 09:41+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -309,14 +309,14 @@ msgstr "Úspěšně jste povolili dvoufázové ověření na vašem účtu Firef
 
 #: lib/senders/templates/post_change_primary.html:2 lib/senders/templates/post_change_primary.txt:1
 msgid "New primary email"
-msgstr "Nový primární email"
+msgstr "Nový hlavní e-mail"
 
 #: lib/senders/templates/post_change_primary.html:3 lib/senders/templates/post_change_primary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Váš primární e-mail byl úspěšně změněn na %(email)s. Tato adresa bude nyní použita pro přihlašování k vašemu účtu Firefoxu (namísto uživatelského jména) i k zasílání bezpečnostních upozornění a "
+"Váš hlavní e-mail byl úspěšně změněn na %(email)s. Tato adresa bude nyní použita pro přihlašování k vašemu účtu Firefoxu (namísto uživatelského jména) i k zasílání bezpečnostních upozornění a "
 "potvrzení přihlášení."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
@@ -548,7 +548,7 @@ msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat př
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
 msgid "Verify primary email"
-msgstr "Ověřte svou primární e-mailovou adresu"
+msgstr "Ověřte svou hlavní e-mailovou adresu"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -696,7 +696,7 @@ msgstr "Záložní adresa účtu Firefoxu úspěšně přidána"
 
 #: lib/senders/email.js:1084
 msgid "Firefox Account new primary email"
-msgstr "Nový primární e-mail účtu Firefoxu"
+msgstr "Nový hlavní e-mail účtu Firefoxu"
 
 #: lib/senders/email.js:1112
 msgid "Secondary Firefox Account email removed"
