@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-08 15:11+0000\n"
+"PO-Revision-Date: 2019-07-08 15:18+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1855,7 +1855,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr ""
+msgstr "डिवाइस कनेक्ट किया गया"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1919,7 +1919,7 @@ msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "सदस्यताएँ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1955,7 +1955,7 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
 msgid "One last step"
-msgstr ""
+msgstr "एक आखिरी कदम"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
@@ -1967,11 +1967,11 @@ msgstr ""
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "अपना Firefox खाता बनाएँ"
 
 #: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7
 msgid "Change email"
-msgstr ""
+msgstr "ईमेल बदलें"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
@@ -1979,7 +1979,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "अब हर जगह Firefox प्राप्त करें।"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
@@ -1987,11 +1987,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "किसी अन्य डिवाइस पर साइन इन क्यों करें?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
 msgid "Start browsing"
-msgstr ""
+msgstr "ब्राउजिंग शुरू करें"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -2003,7 +2003,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
-msgstr ""
+msgstr "गलत नंबर?"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -2015,7 +2015,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Firefox ब्राउज़र"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
