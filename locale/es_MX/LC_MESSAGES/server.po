@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-06-17 14:50+0000\n"
+"PO-Revision-Date: 2019-07-08 14:16+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -19,16 +19,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</"
-"a> y <a href='%(iosUrl)s'>iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a>"
+" y <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o "
-"<a href='%(iosUrl)s'>Firefox para iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a"
+" href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -255,8 +255,8 @@ msgstr "Primero, cambia la contraseña de tu cuenta de Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Segundo, si Firefox almacena las contraseñas de los sitios Web, tendrías que cambiar esas contraseñas también. Los atacantes pueden tener acceso a esas contraseñas por lo que deberías controlar "
-"esas cuentas por si hubiera actividad sospechosa."
+"Segundo, si Firefox almacena las contraseñas de los sitios Web, tendrías que cambiar esas contraseñas también. Los atacantes pueden tener acceso a esas contraseñas por lo que deberías controlar esas"
+" cuentas por si hubiera actividad sospechosa."
 
 #: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -417,8 +417,8 @@ msgstr "Correo electrónico secundario agregado"
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Has verificado correctamente %(secondaryEmail)s como correo electrónico secundario para tu cuenta de Firefox. Las notificaciones de seguridad y confirmación de inicio de sesión ahora se entregarán "
-"a las dos direcciones de correo electrónico."
+"Has verificado correctamente %(secondaryEmail)s como correo electrónico secundario para tu cuenta de Firefox. Las notificaciones de seguridad y confirmación de inicio de sesión ahora se entregarán a"
+" las dos direcciones de correo electrónico."
 
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
@@ -604,7 +604,7 @@ msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox en al me
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr "Activa los productos de la familia de Firefox"
+msgstr "Activa la familia de productos de Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -719,6 +719,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"La página que solicitaste no ha sido encontrada. Hemos sido\n"
+"                    notificados y arreglaremos cualquier enlace que pueda estar roto."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -733,6 +735,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Rayos, algo salió mal. Hemos sido\n"
+"                    notificados y estaremos trabajando para repararlo."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -747,6 +751,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Actualmente estamos bajo una fuerte presión y estamos trabajando para\n"
+"                    devolver el sistema a la normalidad tan pronto como sea posible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -775,6 +781,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Las cuentas de Firefox hacen uso de características que son\n"
+"                        No es compatible con tu versión de Firefox. Por favor\n"
+"                         Descarga e instala la última versión de Firefox para\n"
+"                        continuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -838,15 +848,14 @@ msgstr "Descargar la última versión"
 #~ msgstr "Restablecer contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Hace algunos días creaste tu cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial de cualquier dispositivos "
-#~ "al que estés conectado. Simplemente confirma esta dirección de correo electrónico para activar tu cuenta."
+#~ "Hace algunos días creaste tu cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial de cualquier dispositivos al "
+#~ "que estés conectado. Simplemente confirma esta dirección de correo electrónico para activar tu cuenta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Hace una semana creaste tu cuenta de Firefox, pero nunca la verificaste. Estamos preocupados por ti. Confirma este correo electrónico para activar tu cuenta y dejarnos saber que estás bien."
+#~ msgstr "Hace una semana creaste tu cuenta de Firefox, pero nunca la verificaste. Estamos preocupados por ti. Confirma este correo electrónico para activar tu cuenta y dejarnos saber que estás bien."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Para mayor seguridad, por favor, confirma este inicio de sesión para comenzar a sincronizar con este dispositivo:"
@@ -868,14 +877,12 @@ msgstr "Descargar la última versión"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Has eliminado con éxito %(secondaryEmail)s como correo secundario de tu cuenta de Firefox. Las notificaciones de seguridad y las confirmaciones de inicio de sesión ya no se enviarán a esa "
-#~ "dirección."
+#~ "Has eliminado con éxito %(secondaryEmail)s como correo secundario de tu cuenta de Firefox. Las notificaciones de seguridad y las confirmaciones de inicio de sesión ya no se enviarán a esa dirección."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Has verificado correctamente %(secondaryEmail)s como el correo electrónico secundario para tu cuenta de Firefox. Notificaciones de seguridad y confirmaciones de inicio de sesión no serán "
-#~ "enviadas a ambos correos electrónicos."
+#~ "Has verificado correctamente %(secondaryEmail)s como el correo electrónico secundario para tu cuenta de Firefox. Notificaciones de seguridad y confirmaciones de inicio de sesión no serán enviadas a "
+#~ "ambos correos electrónicos."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Según lo solicitado, aquí está un enlace para instalar Firefox en tu dispositivo móvil: %(link)s"
