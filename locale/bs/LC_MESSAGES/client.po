@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-07-08 10:32+0000\n"
 "PO-Revision-Date: 2018-08-01 09:18+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,8 @@ msgstr "%(permissionName)s (potrebno)"
 msgid "Email address"
 msgstr "Email adresa"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
+#: .es5/views/settings/display_name.js:169
 msgid "Display name"
 msgstr "Ime za prikaz"
 
@@ -212,7 +213,7 @@ msgstr "Pretplata uspješna"
 msgid "Account deleted successfully"
 msgstr "Račun je uspješno izbrisan"
 
-#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
+#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66 .es5/views/settings/display_name.js:225
 msgid "Display name updated"
 msgstr "Ime prikaza ažurirano"
 
@@ -411,7 +412,7 @@ msgstr "Nevažeća vremenska oznaka u potpisivanju zahtjeva"
 msgid "Invalid nonce in request signature"
 msgstr "Nevažeći noonce u zahtjevu potpisa"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
 msgstr "Račun već postoji"
 
@@ -463,7 +464,7 @@ msgstr "Zahtjevano tijelo je preveliko"
 msgid "The request was blocked for security reasons"
 msgstr "Zahtjev je blokiran zbog sigurnosnih razloga"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495
 msgid "Invalid authorization code"
 msgstr "Neispravan kod autorizacije"
 
@@ -491,271 +492,272 @@ msgstr "Vaš email je upravo vraćen. Pogrešno napisan email?"
 msgid "Unable to deliver email"
 msgstr "Nije moguće dostaviti email"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
+#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:158
 msgid "This email was already verified by another user"
 msgstr "Ovaj email je već verifikovan od strane drugog korisnika"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162
 msgid "Secondary email must be different than your account email"
 msgstr "Sekundarni email mora biti drugačiji od vašeg korisničkog emaila"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
 msgstr "Primarni email korisničkog računa potreban za prijavu"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
 msgstr "Adresu koristi drugi račun"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:182
 msgid "Primary account email required for reset"
 msgstr "Primarni email korisničkog računa potreban za reset"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:186
 msgid "Invalid signin code"
 msgstr "Neispravan kod prijave"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
 msgstr "Primarni email se ne može promijeniti u neprovjeren email"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Primarni email se ne može promijeniti u email koji ne pripada ovom računu"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
+#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
 msgstr "Ovaj email se trenutno ne može koristiti za prijavu"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
 msgstr "Slanje poruke nije uspjelo"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
 msgid "Valid code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
 msgstr "Ovaj kod verifikacije je istekao"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222
 msgid "TOTP token not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226
 msgid "Recovery code not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230
 msgid "Unavailable device command"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234
 msgid "Recovery key not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:238
 msgid "Invalid recovery key"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242
 msgid "This request requires two step authentication enabled on your account."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 msgid "Server busy, try again soon"
 msgstr "Server zauzet, pokušajte ponovo kasnije"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278
 msgid "Feature not enabled"
 msgstr "Funkcija nije omogućena"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294
 msgid "System unavailable, try again soon"
 msgstr "Sistem nije dostupan, pokušajte ponovo kasnije"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290
 msgid "This endpoint is no longer supported"
 msgstr "Ovaj endpoint više nije podržan"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298
 msgid "Login attempt cancelled"
 msgstr "Pokušaj prijave otkazan"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302
 msgid "Session expired. Sign in to continue."
 msgstr "Sesija istekla. Prijavite se za nastavak."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306
 msgid "Cookies are still disabled"
 msgstr "Kolačići su i dalje onemogućeni"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310
 msgid "Passwords do not match"
 msgstr "Lozinke se ne poklapaju"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314
 msgid "Working…"
 msgstr "U toku..."
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318
 msgid "Could not get Privacy Notice"
 msgstr "Nije bilo moguće dobiti obavijest o privatnosti"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322
 msgid "Could not get Terms of Service"
 msgstr "Nije bilo moguće dobiti Uvjete pružanja usluge"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326
 msgid "Your new password must be different"
 msgstr "Vaša nova lozinka mora biti drugačija"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330
 msgid "Must be at least 8 characters"
 msgstr "Mora biti najmanje 8 znakova"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334
 msgid "Valid password required"
 msgstr "Potrebna ispravna lozinka"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
 msgid "Valid email required"
 msgstr "Potreban ispravan email"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350
 msgid "A usable image was not found"
 msgstr "Upotrebljiva slika nije pronađena"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354
 msgid "Could not initialize camera"
 msgstr "Ne može se pokrenuti kameru"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358
 msgid "Valid URL required"
 msgstr "Ispravan URL potreban"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Vaš email za verifikaciju je upravo vraćen. Pogrešno napisan email?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Unesite važeću email adresu. firefox.com ne nudi email opciju."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox računi mogu samo biti ubačeni u IFRAME na odobrenim stranicama"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410
 msgid "Verification link damaged"
 msgstr "Link za verifikaciju oštećen"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimenzije slike moraju biti najmanje 100x100px"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Prijava uskoro dolazi za Firefox za iOS"
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434
 msgid "You must enter your age to sign up"
 msgstr "Morate unijeti vaše godine za prijavu"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438
 msgid "You must enter a valid age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454
 msgid "Account no longer exists."
 msgstr "Račun više ne postoji."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Nevažeća svojstva u tokenu nastavi: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462
 msgid "Missing property in resume token: %(property)s"
 msgstr "Nedostaje svojstvo u tokenu nastavi: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466
 msgid "Invalid data attribute: %(property)s"
 msgstr "Nevažeći atribut podataka: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje atribut podataka: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ta link za potvrdu već upotrijebljen i može se upotrebiti samo jednom."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487
 msgid "This is a required field"
 msgstr "Ovo polje je potrebno"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491
 msgid "Authorization code required"
 msgstr "Kod autorizacije potreban"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499
 msgid "Link damaged"
 msgstr "Link oštećen"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522
 msgid "Phone number required"
 msgstr "Potreban broj telefona"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541
 msgid "Two-step authentication code required"
 msgstr "Potrebna je autentifikacija u dva koraka"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545
 msgid "Invalid two-step authentication code"
 msgstr "Neispravan kod za autentifikaciju u dva koraka"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549
 msgid "Recovery code required"
 msgstr "Potreban kod za oporavak"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553
 msgid "Invalid recovery code"
 msgstr "Neispravan kod za oporavak"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567
 msgid "Recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571
 msgid "Please enter verification code"
 msgstr ""
 
@@ -1207,7 +1209,7 @@ msgstr "Prihvati"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -1442,11 +1444,11 @@ msgstr "Razumijem"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4 .es5/views/settings/display_name.js:90
 msgid "Change…"
 msgstr "Promijeni…"
 
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/views/settings/display_name.js:97
 msgid "Add…"
 msgstr "Dodaj…"
 
@@ -1475,7 +1477,7 @@ msgstr "Gotovo"
 msgid "Position and rotate your picture as needed"
 msgstr "Pozicioniraj i okreni sliku po potrebi"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
 msgid "Change"
 msgstr "Promijeni"
 
@@ -1610,7 +1612,7 @@ msgstr ""
 "Ako koristite ovaj račun za Mozilla aplikacije i usluge poput AMO, Pocket i Screenshots trebate se prvo prijaviti i ukloniti bilo kakvu sačuvanu ličnu informaciju. Kada jednom izbrišete vaš račun "
 "ovdje možda ćete izgubiti pristup za njega svugdje."
 
-#: .es5/templates/settings/display_name.mustache:5
+#: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Izaberite ime koje želite da se prikaže u Firefoxu i kada uređujete vaš račun."
 
@@ -2056,6 +2058,14 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:266
+msgid "Subscription has already been cancelled"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:270
+msgid "Update was rejected, please try again"
 msgstr ""
 
 #~ msgid "%(email)s registered."

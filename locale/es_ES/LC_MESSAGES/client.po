@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-07-08 10:32+0000\n"
 "PO-Revision-Date: 2019-06-25 00:48+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,8 @@ msgstr "%(permissionName)s (obligatorio)"
 msgid "Email address"
 msgstr "Dirección de correo"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49
+#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
+#: .es5/views/settings/display_name.js:169
 msgid "Display name"
 msgstr "Nombre visible"
 
@@ -212,7 +213,7 @@ msgstr "Te suscribiste correctamente"
 msgid "Account deleted successfully"
 msgstr "Eliminaste la cuenta correctamente"
 
-#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66
+#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66 .es5/views/settings/display_name.js:225
 msgid "Display name updated"
 msgstr "Nombre visible actualizado"
 
@@ -411,7 +412,7 @@ msgstr "Marca de tiempo no válida en la solicitud de firma"
 msgid "Invalid nonce in request signature"
 msgstr "No es válido el valor de seguridad (nonce) en la firma de la solicitud"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167
+#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
 msgstr "La cuenta ya existe"
 
@@ -463,7 +464,7 @@ msgstr "El cuerpo de la petición es demasiado grande"
 msgid "The request was blocked for security reasons"
 msgstr "Se bloqueó la solicitud por motivos de seguridad"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495
 msgid "Invalid authorization code"
 msgstr "Código de autorización incorrecto"
 
@@ -491,271 +492,272 @@ msgstr "Tu correo electrónico ha sido devuelto. Comprueba que la dirección es 
 msgid "Unable to deliver email"
 msgstr "No se ha podido entregar el correo electrónico"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159
+#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:158
 msgid "This email was already verified by another user"
 msgstr "Este correo electrónico ya ha sido verificado por otro usuario"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163
+#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162
 msgid "Secondary email must be different than your account email"
 msgstr "El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175
+#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
 msgstr "Es necesario el correo electrónico principal para iniciar sesión"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179
+#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
 msgstr "La dirección está en uso por otra cuenta"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183
+#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:182
 msgid "Primary account email required for reset"
 msgstr "Se requiere el correo electrónico principal para reiniciar"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187
+#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:186
 msgid "Invalid signin code"
 msgstr "Código de firma inválido"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
 msgstr "No se puede cambiar el correo principal por un correo no verificado"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "No se puede cambiar el correo principal por una dirección de correo que no pertenece a esta cuenta"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199
+#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
 msgstr "No se puede utilizar esta dirección de correo para iniciar sesión"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207
+#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
 msgstr "Fallo al enviar el correo"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211
+#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
 msgid "Valid code required"
 msgstr "Se requiere un código válido"
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215
+#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
 msgstr "Este código de verificación ha expirado"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219
+#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
 msgstr "Ya existe un token TOTP para esta cuenta"
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223
+#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222
 msgid "TOTP token not found"
 msgstr "Token TOTP no encontrado"
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227
+#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226
 msgid "Recovery code not found"
 msgstr "No se ha encontrado el código de recuperación"
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231
+#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230
 msgid "Unavailable device command"
 msgstr "Comando de dispositivo no disponible"
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235
+#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234
 msgid "Recovery key not found"
 msgstr "No se ha encontrado la clave de recuperación"
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:238
 msgid "Invalid recovery key"
 msgstr "Clave de recuperación no válida"
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243
+#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Esta solicitud requiere la autenticación en dos pasos habilitada en tu cuenta."
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Error por un conflicto en la solicitud. Inténtalo de nuevo."
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251
+#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
 msgstr "Cliente desconocido para la suscripción."
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255
+#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
 msgstr "Suscripción desconocida."
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259
+#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
 msgstr "Plan de suscripción desconocido."
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263
+#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
 msgstr "Token de pago no válido para la suscripción."
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469
+#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 msgid "Server busy, try again soon"
 msgstr "Servidor ocupado, vuelve a intentarlo en unos segundos"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278
 msgid "Feature not enabled"
 msgstr "Función no activada"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294
 msgid "System unavailable, try again soon"
 msgstr "Sistema no disponible, vuelve a intentarlo en unos segundos"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290
 msgid "This endpoint is no longer supported"
 msgstr "Este extremo ya no se admite"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298
 msgid "Login attempt cancelled"
 msgstr "Se ha cancelado el inicio de sesión"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302
 msgid "Session expired. Sign in to continue."
 msgstr "La sesión expiró. Inicia sesión para continuar."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306
 msgid "Cookies are still disabled"
 msgstr "Las cookies siguen desactivadas"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310
 msgid "Passwords do not match"
 msgstr "Las contraseñas no coinciden"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314
 msgid "Working…"
 msgstr "Trabajando…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318
 msgid "Could not get Privacy Notice"
 msgstr "No se pudo acceder al Aviso de privacidad"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322
 msgid "Could not get Terms of Service"
 msgstr "No se pudo acceder a los Términos del servicio"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326
 msgid "Your new password must be different"
 msgstr "La nueva contraseña debe ser diferente"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330
 msgid "Must be at least 8 characters"
 msgstr "Debe contener al menos 8 caracteres"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334
 msgid "Valid password required"
 msgstr "Introduce una contraseña válida"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
 msgid "Valid email required"
 msgstr "Introduce una dirección de correo válida"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350
 msgid "A usable image was not found"
 msgstr "No se encontró ninguna imagen utilizable"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354
 msgid "Could not initialize camera"
 msgstr "No se pudo iniciar la cámara"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358
 msgid "Valid URL required"
 msgstr "Introduce una URL válida"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Se ha devuelto el correo de verificación. ¿Estaba mal escrito?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Introduce una dirección de correo válida. firefox.com no ofrece dirección de correo."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Solo se puede colocar Firefox Accounts en un IFRAME en páginas autorizadas"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410
 msgid "Verification link damaged"
 msgstr "Enlace de verificación dañado"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418
 msgid "The image dimensions must be at least 100x100px"
 msgstr "El tamaño de la imagen debe ser 100×100 px"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "El registro llegará próximamente a Firefox para iOS"
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434
 msgid "You must enter your age to sign up"
 msgstr "Debes introducir la edad para registrarte"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438
 msgid "You must enter a valid age to sign up"
 msgstr "Debes introducir una edad válida para registrarte"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454
 msgid "Account no longer exists."
 msgstr "La cuenta ya no existe."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Propiedad no válida en la clave de continuación: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462
 msgid "Missing property in resume token: %(property)s"
 msgstr "Falta la propiedad en la clave de continuación: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atributo de datos no válido: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470
 msgid "Missing data attribute: %(property)s"
 msgstr "Falta un atributo de datos: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531
+#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ese enlace de confirmación ya ha sido usado y solo puede usarse una vez."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487
 msgid "This is a required field"
 msgstr "Este campo es obligatorio"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491
 msgid "Authorization code required"
 msgstr "Se requiere un código de autorización"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499
 msgid "Link damaged"
 msgstr "Enlace dañado"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522
 msgid "Phone number required"
 msgstr "Número de teléfono obligatorio"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541
 msgid "Two-step authentication code required"
 msgstr "Se requiere el código de autenticación en dos pasos"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545
 msgid "Invalid two-step authentication code"
 msgstr "Código de autenticación en dos pasos incorrecto"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549
 msgid "Recovery code required"
 msgstr "Código de recuperación obligatorio"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553
 msgid "Invalid recovery code"
 msgstr "Código de recuperación no válido"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567
 msgid "Recovery key required"
 msgstr "Es necesaria una clave de recuperación"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571
 msgid "Please enter verification code"
 msgstr "Introduzca código de verificación"
 
@@ -864,8 +866,12 @@ msgid "Invalid Token"
 msgstr "Token no válido"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -931,7 +937,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Escribe la clave de recuperación de un solo uso que guardaste en un lugar seguro para recuperar el acceso a tu cuenta de Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> si reinicias tu contraseña y no tienes guardada la clave de recuperación de la cuenta, algunos de tus datos serán borrados (incluyendo datos sincronizados del "
 "servidor como historial y marcadores)."
@@ -1206,7 +1213,7 @@ msgstr "Aceptar"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1444,11 +1451,11 @@ msgstr "Entendido"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4 .es5/views/settings/display_name.js:90
 msgid "Change…"
 msgstr "Cambiar…"
 
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5
+#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/views/settings/display_name.js:97
 msgid "Add…"
 msgstr "Añadir…"
 
@@ -1477,7 +1484,7 @@ msgstr "Hecho"
 msgid "Position and rotate your picture as needed"
 msgstr "Posiciona y rota la imagen"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7
+#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
 msgid "Change"
 msgstr "Cambiar"
 
@@ -1612,7 +1619,7 @@ msgstr ""
 "Si usas esta cuenta para aplicaciones y servicios de Mozilla como AMO, Pocket y Screenshots primero debes iniciar sesión y eliminar cualquier información personal guardada. Una vez que elimines tu "
 "cuenta aquí perderás el acceso a ella en todas partes."
 
-#: .es5/templates/settings/display_name.mustache:5
+#: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Elige el nombre con el que te gustaría aparecer en Firefox y cuando administres tu cuenta."
 
@@ -1786,10 +1793,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Paso 2 de 2: guardar tu clave de recuperación"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
-"<span class=\"note\">NOTA: </span>si olvidas tu contraseña, esta clave es necesaria para recuperar el acceso a tus datos. Guarda tu clave de recuperación en un lugar seguro, donde puedas encontrarla"
-" fácilmente más tarde."
+"<span class=\"note\">NOTA: </span>si olvidas tu contraseña, esta clave es necesaria para recuperar el acceso a tus datos. Guarda tu clave de recuperación en un lugar seguro, donde puedas "
+"encontrarla fácilmente más tarde."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2063,6 +2071,14 @@ msgstr "El conocimiento práctico está llegando a tu bandeja de entrada. Regís
 msgid "Get app"
 msgstr "Obtener app"
 
+#: .es5/lib/auth-errors.js:266
+msgid "Subscription has already been cancelled"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:270
+msgid "Update was rejected, please try again"
+msgstr ""
+
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrado."
 
@@ -2240,8 +2256,8 @@ msgstr "Obtener app"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "El servicio SMS solo está disponible para teléfonos de USA. Puede que se apliquen tarifas SMS &amp;. El destinatario del correo o SMS debe haber dado su permiso. <a %(escapedLearnMoreAttributes)s> "
-#~ "Descubre más</a>"
+#~ "El servicio SMS solo está disponible para teléfonos de USA. Puede que se apliquen tarifas SMS &amp;. El destinatario del correo o SMS debe haber dado su permiso. <a "
+#~ "%(escapedLearnMoreAttributes)s> Descubre más</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Quizás más tarde"
@@ -2253,18 +2269,18 @@ msgstr "Obtener app"
 #~ msgstr "¿Por qué sincronizar dos (o más) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync te permite compartir en otros dispositivos los marcadores, historial y contraseñas que guardas en un dispositivo con Firefox. Inicia sesión en Firefox desde tu teléfono o tableta y aparecerá "
-#~ "todo lo que hayas guardado desde tu Firefox de escritorio."
+#~ "Sync te permite compartir en otros dispositivos los marcadores, historial y contraseñas que guardas en un dispositivo con Firefox. Inicia sesión en Firefox desde tu teléfono o tableta y "
+#~ "aparecerá todo lo que hayas guardado desde tu Firefox de escritorio."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync no está diseñado como una copia de seguridad permanente, es solo una forma de compartir lo que has guardado localmente. Si reinicias tu contraseña y los datos no están almacenados al menos en "
-#~ "otro dispositivo, puedes perder toda la información asociada a la antigua contraseña. Por eso deberías instalar Firefox y usar Sync en más de un dispositivo."
+#~ "Sync no está diseñado como una copia de seguridad permanente, es solo una forma de compartir lo que has guardado localmente. Si reinicias tu contraseña y los datos no están almacenados al menos "
+#~ "en otro dispositivo, puedes perder toda la información asociada a la antigua contraseña. Por eso deberías instalar Firefox y usar Sync en más de un dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2369,18 +2385,18 @@ msgstr "Obtener app"
 #~ msgstr "Iniciar sesión"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>RECUERDA:</span> Si restableces la contraseña se eliminarán algunos datos (incluida la información sincronizada, como historial y marcadores). Esto se debe al cifrado de la información a "
 #~ "través de la contraseña para proteger tu privacidad."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTA:</span> Si restableces la contraseña se eliminarán algunos datos (incluida la información sincronizada, como historial y marcadores). Esto se debe al cifrado de la información a través de"
-#~ " la contraseña para proteger tu privacidad."
+#~ "<span>NOTA:</span> Si restableces la contraseña se eliminarán algunos datos (incluida la información sincronizada, como historial y marcadores). Esto se debe al cifrado de la información a "
+#~ "través de la contraseña para proteger tu privacidad."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Añade un extra de seguridad a tu cuenta solicitando códigos de seguridad a una de <a %(escapedTotpSupportAttributes)s>estas aplicaciones de autenticación.</a>"
@@ -2505,18 +2521,19 @@ msgstr "Obtener app"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencias de Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Buscas Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empieza por aquí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con un correo diferente? <a href=\"%(signinUri)s\">Inicia sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Últ. vez activo: %(translatedTimeAgo)s"
@@ -2685,5 +2702,5 @@ msgstr "Obtener app"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Si la restableces, se eliminarán los datos de navegación de nuestros servidores. Los datos almacenados en tus dispositivos no se eliminarán. Para restablecer la contraseña, introduce tu dirección de"
-#~ " correo más abajo."
+#~ "Si la restableces, se eliminarán los datos de navegación de nuestros servidores. Los datos almacenados en tus dispositivos no se eliminarán. Para restablecer la contraseña, introduce tu "
+#~ "dirección de correo más abajo."

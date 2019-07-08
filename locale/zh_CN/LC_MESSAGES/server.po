@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-07-08 10:32+0000\n"
 "PO-Revision-Date: 2019-06-12 06:18+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr "登录同步服务"
 msgid "Firefox Accounts"
 msgstr "Firefox 账户"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "剩余的救援码较少"
 
@@ -131,7 +131,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "更多信息请访问 %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s 有新的登录活动"
 
@@ -265,7 +265,7 @@ msgstr "祝好，"
 msgid "The Firefox Accounts team"
 msgstr "Firefox 账户团队"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "已生成新的救援密钥"
 
@@ -285,7 +285,7 @@ msgstr "您已使用下列设备，成功生成新的 Firefox 账户救援密钥
 msgid "If this was not you, revoke key."
 msgstr "若不是您操作的，请注销该密钥。"
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "两步验证已启用"
 
@@ -311,7 +311,7 @@ msgid ""
 "confirmations."
 msgstr "您已成功将您的主要邮件地址更改为 %(email)s。此邮件地址现在是您用于登录 Firefox 账户的用户名，以及用于接收安全通知和登录确认。"
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "救援码已被使用"
 
@@ -323,7 +323,7 @@ msgstr "您已成功在下列设备上使用救援码登录："
 msgid "Consumed recovery code"
 msgstr "用过的救援码"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "已生成新的救援码"
 
@@ -331,7 +331,7 @@ msgstr "已生成新的救援码"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "您已成功用下列设备生成新的救援码："
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "已移除账户救援密钥"
 
@@ -363,7 +363,7 @@ msgstr "您已成功移除您的 Firefox 账户中的次要邮箱地址 %(second
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。"
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "两步验证已禁用"
 
@@ -535,7 +535,7 @@ msgstr "确认登录"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "如果您怀疑有人在试图访问您的账户，<a %(passwordChangeLinkAttributes)s>请更改您的密码</a>。"
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "验证主邮箱"
 
@@ -563,7 +563,7 @@ msgstr "验证地址："
 msgid "If you did not authorize this action, please change your password."
 msgstr "如果您并未授权此操作，请更改您的密码。"
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "验证次要邮件地址"
 
@@ -599,99 +599,99 @@ msgstr "确认您的账户，即可在任何登录的设备中，发挥 Firefox 
 msgid "Confirm email "
 msgstr "确认电子邮件地址 "
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s 运行于 %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s 运行于 %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s，%(stateCode)s，%(city)s（估计）"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s，%(city)s（估计）"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s，%(stateCode)s（估计）"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估计）"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "验证您的 Firefox 账户"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "确认您的邮箱并开始同步！"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr "账户创建完成"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr "提醒: 请完成账户创建"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr "最后提醒：请确认您的电子邮件地址以激活您的 Firefox 账户"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Firefox 账户授权码"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "确认新的 %(clientName)s 登录活动"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Firefox 的登录代码"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "重置您 Firefox 账户的密码"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "您 Firefox 账号的密码已被更改"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "Firefox 账户的密码已更改完毕"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Firefox 账户的密码必须重置"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "已验证 Firefox 账户"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr "Firefox 账户确认完成"
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "已添加 Firefox 账号 次要邮件地址"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "新的 Firefox 账号主邮箱"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox 账户次要邮箱已移除"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "使用救援密钥重置 Firefox 账户密码"
 
@@ -700,8 +700,10 @@ msgid "Page not found"
 msgstr "页面未找到"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "找不到您要打开的页面，我们已收到此通知并会修复出现故障的链接。"
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -712,8 +714,10 @@ msgid "500 Error"
 msgstr "500 错误"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "噢抱歉，出了点问题。我们已经记录下来并将进行修复。"
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -724,8 +728,10 @@ msgid "Server busy, try again soon"
 msgstr "服务器繁忙，请稍后再试"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "我们目前有大量用户正在访问中，会尽快恢复系统的正常运转。"
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -748,12 +754,28 @@ msgid "Firefox update required"
 msgstr "需要更新 Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "Firefox 账户须要用到您的 Firefox 版本尚不支持的特性。请下载并安装最新版本的 Firefox 以继续。"
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "下载最新版本"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "找不到您要打开的页面，我们已收到此通知并会修复出现故障的链接。"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "噢抱歉，出了点问题。我们已经记录下来并将进行修复。"
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "我们目前有大量用户正在访问中，会尽快恢复系统的正常运转。"
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Firefox 账户须要用到您的 Firefox 版本尚不支持的特性。请下载并安装最新版本的 Firefox 以继续。"
 
 #~ msgid "Hello again."
 #~ msgstr "我们又见面了。"

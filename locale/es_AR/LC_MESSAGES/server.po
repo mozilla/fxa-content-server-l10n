@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 12:39+0000\n"
+"POT-Creation-Date: 2019-07-08 10:32+0000\n"
 "PO-Revision-Date: 2019-06-10 13:11+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "Logueate a Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1266
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
 msgid "Low recovery codes remaining"
 msgstr "Quedan pocos códigos de recuperación"
 
@@ -135,7 +135,7 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Para más información, por favor visitá %(supportUrl)s"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:981
+#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "Nuevo ingreso a %(clientName)s"
 
@@ -271,7 +271,7 @@ msgstr "Saludos,"
 msgid "The Firefox Accounts team"
 msgstr "El equipo de cuentas de Firefox"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1294
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
 msgid "Account recovery key generated"
 msgstr "Se generó una clave de recuperación de la cuenta"
 
@@ -291,7 +291,7 @@ msgstr "Generó exitosamente una clave de recuperación de cuenta para su cuenta
 msgid "If this was not you, revoke key."
 msgstr "Si no fue usted, anule la clave."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1138
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
 msgid "Two-step authentication enabled"
 msgstr "Se habilitó la autenticación en dos pasos"
 
@@ -321,7 +321,7 @@ msgstr ""
 "Cambiaste exitosamente tu correo electrónico primario a %(email)s. Esta dirección es ahora tu nombre de usuario para ingresar a tu cuenta de Firefox como para recibir notificaciones de seguridad y "
 "confirmaciones de ingreso."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1234
+#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
 msgstr "Utilizó un código de recuperación"
 
@@ -333,7 +333,7 @@ msgstr "Utilizó correctamente un código de recuperación desde el siguiente di
 msgid "Consumed recovery code"
 msgstr "Utilizó un código de recuperación"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1202
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
 msgstr "Se generaron nuevos códigos de recuperación"
 
@@ -341,7 +341,7 @@ msgstr "Se generaron nuevos códigos de recuperación"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Generó correctamente nuevos códigos de recuperación desde el siguiente dispositivo:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1328
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
 msgstr "Se eliminó la clave de recuperación de la cuenta"
 
@@ -375,7 +375,7 @@ msgstr ""
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1170
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
 msgid "Two-step authentication disabled"
 msgstr "Se deshabilitó la autenticación en dos pasos"
 
@@ -553,7 +553,7 @@ msgstr "Confirmar inicio de sesión"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Si creés que alguien está intentando acceder a tu cuenta, <a %(passwordChangeLinkAttributes)s>por favor cambiá la contraseña</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:796
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
 msgid "Verify primary email"
 msgstr "Verificar correo electrónico primario"
 
@@ -581,7 +581,7 @@ msgstr "Verificar correo electrónico: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Si no autorizó esta acción, por favor cambie su contraseña."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:839
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
 msgstr "Verificar correo electrónico secundario"
 
@@ -617,99 +617,99 @@ msgstr "Confirmá tu cuenta y aprovechá Firefox al máximo cada vez que inicies
 msgid "Confirm email "
 msgstr "Confirmar correo electrónico "
 
-#: lib/senders/email.js:211
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s en %(uaOS)s%(uaOSVersion)s"
 
-#: lib/senders/email.js:214
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s en %(uaOS)s"
 
-#: lib/senders/email.js:241
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:243
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:245
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:247
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimado)"
 
-#: lib/senders/email.js:549
+#: lib/senders/email.js:635
 msgid "Verify your Firefox Account"
 msgstr "Confirmá tu cuenta de Firefox"
 
-#: lib/senders/email.js:570
+#: lib/senders/email.js:669
 msgid "Confirm your email and start to sync!"
 msgstr "¡Confirmá tu correo electrónico y empezá a sincronizar!"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
 msgstr "Terminar de crear la cuenta"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
 msgstr "Recordatorio: terminá de crear tu cuenta"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
 msgstr "Último recordatorio: confirmá tu correo electrónico para activar tu cuenta Firefox"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
 msgstr "Código de autorización de la cuenta de Firefox"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirmar nuevo ingreso a %(clientName)s"
 
-#: lib/senders/email.js:754
+#: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
 msgstr "Código para ingresar a Firefox"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:1094
 msgid "Reset your Firefox Account password"
 msgstr "Restablecé la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:1132
 msgid "Your Firefox Account password has been changed"
 msgstr "Se cambió la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:937
+#: lib/senders/email.js:1168
 msgid "Firefox Account password changed"
 msgstr "Se cambió la contraseña de la cuenta de Firefox"
 
-#: lib/senders/email.js:959
+#: lib/senders/email.js:1197
 msgid "Firefox Account password reset required"
 msgstr "Se requiere restablecer la contraseña de la cuenta de Firefox"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1263
 msgid "Firefox Account verified"
 msgstr "Cuenta de Firefox verificada"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
 msgstr "Tu cuenta de Firefox está confirmada"
 
-#: lib/senders/email.js:1056
+#: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
 msgstr "Correo electrónico secundario de Cuentas de Firefox agregada"
 
-#: lib/senders/email.js:1084
+#: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
 msgstr "Nuevo correo electrónico principal para la cuenta de Firefox"
 
-#: lib/senders/email.js:1112
+#: lib/senders/email.js:1385
 msgid "Secondary Firefox Account email removed"
 msgstr "Correo electrónico secundario de Firefox Account eliminado"
 
-#: lib/senders/email.js:1360
+#: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
 msgstr "Restablecer la contraseña de la cuenta de Firefox con una clave de recuperación"
 
@@ -718,8 +718,10 @@ msgid "Page not found"
 msgstr "No se encontró la página"
 
 #: server/templates/pages/src/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "No se encontró la página solicitada. Hemos sido notificados y vamos a arreglar cualquier enlace que pueda estar roto."
+msgid ""
+"The page you requested is not found. We've been\n"
+"                    notified and will fix any links that may be broken."
+msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -730,8 +732,10 @@ msgid "500 Error"
 msgstr "Error 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "¡Oh, oh! Hubo un problema. Tomamos nota y trabajaremos para solucionarlo."
+msgid ""
+"Oh dear, something went wrong there. We've been\n"
+"                    notified and will get working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -742,8 +746,10 @@ msgid "Server busy, try again soon"
 msgstr "El servidor está ocupado, intentá nuevamente después"
 
 #: server/templates/pages/src/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Estamos con mucha demanda y trabajando para restablecer el sistema a la normalidad tan pronto sea posible."
+msgid ""
+"We are currently under heavy strain and are working to\n"
+"                    return the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -766,12 +772,28 @@ msgid "Firefox update required"
 msgstr "Se necesita actualizar Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
-msgstr "Las cuentas de Firefox usan funciones que no son compatibles con tu versión de Firefox. Por favor descargá e instalá la última versión de Firefox para continuar."
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Descargar la actualización más reciente"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "No se encontró la página solicitada. Hemos sido notificados y vamos a arreglar cualquier enlace que pueda estar roto."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "¡Oh, oh! Hubo un problema. Tomamos nota y trabajaremos para solucionarlo."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Estamos con mucha demanda y trabajando para restablecer el sistema a la normalidad tan pronto sea posible."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Las cuentas de Firefox usan funciones que no son compatibles con tu versión de Firefox. Por favor descargá e instalá la última versión de Firefox para continuar."
 
 #~ msgid "Hello again."
 #~ msgstr "Hola de nuevo."
