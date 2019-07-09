@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-09 14:09+0000\n"
+"PO-Revision-Date: 2019-07-09 14:14+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2066,7 +2066,7 @@ msgstr "Obter app"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "A inscrição já foi cancelada"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
