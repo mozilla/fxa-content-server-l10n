@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
@@ -644,7 +644,7 @@ msgstr ""
 
 #: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
-msgstr "பயர்பாஃசு கணக்கின் அங்கீகாரக் குறியீடு"
+msgstr ""
 
 #: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
@@ -672,7 +672,7 @@ msgstr "பயர்பாக்ஸ் கணக்கின் கடவுச�
 
 #: lib/senders/email.js:1263
 msgid "Firefox Account verified"
-msgstr "பயர்பாஃசு கணக்கு சரிபார்க்கப்பட்டது"
+msgstr ""
 
 #: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
-msgstr "இரண்டாம்நிலை பயர்பாஃசு கணக்கின் மின்னஞ்சல் சேர்க்கப்பட்டது"
+msgstr ""
 
 #: lib/senders/email.js:1352
 msgid "Firefox Account new primary email"
@@ -791,9 +791,9 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "கோரிக்கைப்படி, உங்கள் செல்பேசியில் பயர்பாஃசை நிறுவுவதற்கான ஒரு தொடுப்பு: %(link)s"
