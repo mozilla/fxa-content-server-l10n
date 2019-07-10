@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-06-10 10:27+0000\n"
+"PO-Revision-Date: 2019-07-10 03:02+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Để tận dụng tối đa Đồng bộ hóa, hãy kết nối mọi ứng dụng <a href='%(androidUrl)s'>Firefox dành cho Android</a> hoặc <a "
 "href='%(iosUrl)s'>Firefox dành cho iOS</a>."
@@ -713,6 +713,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Trang bạn yêu cầu không tìm thấy. Chúng tôi đã được\n"
+"                     thông báo và sẽ sửa chữa bất kỳ liên kết có thể bị hỏng."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -727,6 +729,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Ôi trời, có gì đó không ổn ở đó. Chúng tôi đã được\n"
+"                    thông báo và sẽ sớm khắc phục vấn đề này."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -741,6 +745,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Hệ thống hiện đang chịu tải nặng và chúng tôi đang nỗ lực\n"
+"                    để đưa nó trở lại bình thường càng sớm càng tốt."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -769,6 +775,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Tài khoản Firefox sử dụng các tính năng\n"
+"                        mà không được hỗ trợ trong phiên bản Firefox của bạn. Vui lòng\n"
+"                        tải xuống và cài đặt phiên bản Firefox mới nhất để\n"
+"                        tiếp tục."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
