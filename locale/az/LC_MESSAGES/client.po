@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-10 10:36+0000\n"
+"PO-Revision-Date: 2019-07-11 11:03+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -1941,27 +1941,27 @@ msgstr "Bunları daxil olduğunuz hər yerdə sinxronlaşdırın"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "Praktiki biliklər birbaşa e-poçt qutunuza gəlir"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "Daha çoxu üçün qeyd olun:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "İnternetdə daha ağıllı və güvəndə olun"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr ""
+msgstr "Məni yeni Mozilla məhsullarını yoxlamağa dəvət edin"
 
 #: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "İnterneti sağlam qorumaq üçün kömək edin"
 
 #: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
 msgid "One last step"
-msgstr ""
+msgstr "Son addım"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
