@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-04-04 20:31+0000\n"
+"PO-Revision-Date: 2019-07-12 22:01+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z <a href='%(androidUrl)s'>Firefoxu pre Android</a> alebo <a "
 "href='%(iosUrl)s'>Firefoxu pre iOS</a>."
@@ -114,7 +114,7 @@ msgstr "Zásady ochrany súkromia"
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
 #: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Podmienky poskytovania služby Firefox Cloud"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -418,27 +418,27 @@ msgstr "Úspešne ste overili %(secondaryEmail)s ako sekundárnu e-mailovú adre
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Vitajte v rodine Firefoxu"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Ste prihlásení a môžete začať bezpečne prehliadať."
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Využite Firefox naplno a prihláste sa vo všetkých svojich zariadeniach."
 
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
 msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Máte otázky? Navštívte <a %(supportLinkAttributes)s>Podporu Mozilly</a>."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Pripojiť ďalšie zariadenie:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Máte otázky? Navštívte %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -474,11 +474,11 @@ msgstr "Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Pred niekoľkými dňami ste si vytvorili účet Firefox, ale nikdy ste ho nepotvrdili."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Potvrďte ho teraz a získajte technológiu, ktorá bojuje za vaše súkromie a chráni ho, vyzbrojuje vás praktickými znalosťami a prejavuje vám zaslúžený rešpekt."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
 #: lib/senders/templates/verification_reminder_second.html:10
@@ -599,15 +599,15 @@ msgstr "Okamžite, ako bude overenie dokončené, pomôžeme vám nainštalovať
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Aktivujte si celú rodinu produktov Firefoxu"
 
 #: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Potvrďte svoj účet a využívajte výhody všade, kde sa prihlásite."
 
 #: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "Potvrdiť e-mailovú adresu "
 
 #: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -643,11 +643,11 @@ msgstr "Potvrďte svoj e-mail a začnite synchronizovať!"
 
 #: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Dokončite vytváranie svojho účtu"
 
 #: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
-msgstr ""
+msgstr "Pripomenutie: dokončite vytváranie svojho účtu"
 
 #: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
@@ -687,7 +687,7 @@ msgstr "Účet Firefox bol overený"
 
 #: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Váš účet Firefox je potvrdený"
 
 #: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
@@ -714,6 +714,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Požadovaná stránka nebola nájdená. Boli sme na to upozornení\n"
+"                    a prípadné odkazy smerujúce na túto stránku opravíme."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -728,6 +730,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Ups, niečo sa pokazilo. Boli sme na to upozornení\n"
+"                    a pracujeme na oprave."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -742,6 +746,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Server je práve pod veľkým náporom. Pracujeme na tom,\n"
+"                    aby sme sa čo najskôr vrátili do normálneho stavu."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -770,6 +776,9 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Účet Firefox využíva funkcie, ktoré vo vašej verzii Firefoxu\n"
+"                        nie sú podporované. Prosím, prevezmite a\n"
+"                        nainštalujte si najnovšiu verziu Firefoxu."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -839,11 +848,11 @@ msgstr "Prevziať najnovšiu verziu"
 #~ msgstr "Obnoviť heslo"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k "
-#~ "nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
+#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k nemu "
+#~ "pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -867,19 +876,18 @@ msgstr "Prevziať najnovšiu verziu"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Overiť e-mailovú adresu pre účet Firefox"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe e-"
-#~ "mailové adresy."
+#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe "
+#~ "e-mailové adresy."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Tu je požadovaný odkaz na inštaláciu Firefoxu na vaše mobilné zariadenie: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
-#~ "niekto ďalší."
+#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
+#~ " ďalší."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Dátum a čas:"
