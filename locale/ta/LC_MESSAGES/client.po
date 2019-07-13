@@ -261,7 +261,7 @@ msgstr ""
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
-msgstr ""
+msgstr "கணக்கு மீட்பு"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
@@ -780,7 +780,7 @@ msgstr ""
 
 #: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
-msgstr "தயவு செய்து மீண்டும் முயற்சிக்கவும்"
+msgstr ""
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
@@ -941,11 +941,11 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "மீட்பு குறியீட்டை உள்ளிடுக"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "மீட்பு குறியீட்டை உறுதிப்படுத்தவும்"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
@@ -1147,7 +1147,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
-msgstr "உங்கள் மின்னஞ்சலை உள்ளிடவும்"
+msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
 #: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
@@ -1213,7 +1213,7 @@ msgstr "ரத்து செய்"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr "உங்கள் கணக்கு தயாராக உள்ளது!"
+msgstr ""
 
 #: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
 msgid "Generate a new recovery key"
@@ -1233,7 +1233,7 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr "செயல்பாட்டைப் புகாரளி"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -1304,7 +1304,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr "உங்கள் விழிப்புணர்வுக்கு நன்றி"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr "இந்த உள்நுழைவை அங்கீகரிக்கவும்"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1320,7 +1320,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "குறியீட்டை உள்ளிடவும்"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1391,11 +1391,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
-msgstr "அலைபேசி எண்"
+msgstr ""
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
 msgid "Send"
-msgstr "அனுப்பு"
+msgstr ""
 
 #: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
 msgid ""
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr "அறிந்துகொண்டேன்"
+msgstr ""
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
@@ -1531,7 +1531,7 @@ msgstr "காண்பி"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "தற்போதைய சாதனம்"
+msgstr ""
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1539,11 +1539,11 @@ msgstr "துண்டி…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr "தற்போதைய அமர்வு"
+msgstr ""
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr "திரும்பப்பெறு"
+msgstr ""
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
@@ -1551,7 +1551,7 @@ msgstr "iOS தளத்திற்கான பயர்பாஃசு"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr "எதுவும் இணயவில்லை"
+msgstr ""
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
