@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 09:53+0000\n"
+"PO-Revision-Date: 2019-07-15 19:51+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1869,11 +1869,11 @@ msgstr "Sefrek ibenkan"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Asentem yettwasra tura <small>seg ibenk-ik/im nniḍen</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Acuddu ur yeddi ara akken iwata"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -1989,7 +1989,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Acuɣer tuqqna deg ibenk nniḍen?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
 msgid "Start browsing"
