@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 09:51+0000\n"
+"PO-Revision-Date: 2019-07-15 09:52+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -760,7 +760,7 @@ msgstr "Tiwtilin n useqdec"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Lqem n Firefox yettwasra"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""

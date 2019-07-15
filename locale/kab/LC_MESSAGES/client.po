@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 09:50+0000\n"
+"PO-Revision-Date: 2019-07-15 09:53+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1885,7 +1885,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Sken tangalt"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
