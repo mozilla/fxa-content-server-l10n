@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 19:51+0000\n"
+"PO-Revision-Date: 2019-07-15 19:53+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -2001,7 +2001,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Aseɣwen ɣer usnas Firefox yettwazen ɣer %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"

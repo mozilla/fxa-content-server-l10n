@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 09:52+0000\n"
+"PO-Revision-Date: 2019-07-15 20:04+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -437,7 +437,7 @@ msgstr "Qqen ibenk-nniḍen:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -473,7 +473,7 @@ msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Kra n wussan aya terniḍ amiḑan Firefox, dacu mazal ur t-tsentmeḍ ara."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -514,7 +514,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Sentem imayl-agi akken ad tremdeḍ amiḍan-ik/im Firefox."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -686,7 +686,7 @@ msgstr "Amiḍan Firefox yettwasenqed"
 
 #: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "Amiḍan Firefox yentem"
 
 #: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"
@@ -713,6 +713,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Asebter i d-sutreḍ ulac-it.\n"
+"                     Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -727,6 +729,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Teḍra-d tuccḍa. Yebbeḍ-aɣ-d \n"
+"                    ulɣu udiɣ ad nteddu ad nseɣti ayagi."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
