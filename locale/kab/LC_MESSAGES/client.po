@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-15 07:30+0000\n"
+"PO-Revision-Date: 2019-07-15 09:28+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1901,11 +1901,11 @@ msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Sentem acuddu"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Cudd s usnas"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
@@ -1921,7 +1921,7 @@ msgstr "Isra asenqed"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Ajerred"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1941,7 +1941,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "Jerred akken ad twaliḍ ugar:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -1965,7 +1965,7 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Jerred ɣer <span class=\"service\">ar umiḍan-ik/im Firefox</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
@@ -1973,7 +1973,7 @@ msgstr "Rnu amiḍan Firefox"
 
 #: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7
 msgid "Change email"
-msgstr ""
+msgstr "Snifel imayl"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
