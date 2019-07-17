@@ -771,7 +771,7 @@ msgstr "दो-चरण प्रमाणीकरण वाले खात�
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
-msgstr "लापता विन्यास"
+msgstr ""
 
 #: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
