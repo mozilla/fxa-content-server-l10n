@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-08 12:43+0000\n"
-"Last-Translator: passionforlife <eloli@foxmail.com>\n"
+"PO-Revision-Date: 2019-07-21 06:27+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,17 @@ msgstr ""
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr "您已成功连接了首台设备到您的 Firefox 账户。现在您可以在您的其他设备上登录和开始“同步”了，包括 Firefox 的 <a href='%(androidUrl)s'>Android</a> 和 <a href='%(iosUrl)s'>iOS</a> 版本。"
+msgstr "成功为您的 Firefox 账户绑上第一台设备。再来把其他设备（包括 Firefox 的 <a href='%(androidUrl)s'>Android</a> 和 <a href='%(iosUrl)s'>iOS</a> 版本）绑上同步服务吧。"
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
-msgstr "您已成功连接了首台设备到您的 Firefox 账户。为了充分使用同步，连接任何 <a href='%(androidUrl)s'>Firefox Android 版</a> 或者 <a href='%(iosUrl)s'>Firefox iOS 版</a>吧。"
+msgstr "成功为您的 Firefox 账户绑上第一台设备。若要发挥同步服务最大效用，再把您的 <a href='%(androidUrl)s'>Firefox Android 版</a> 或者 <a href='%(iosUrl)s'>Firefox iOS 版</a> 绑定同步服务吧。"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
-msgstr "连接另一台设备"
+msgstr "把其他设备也绑定上吧"
 
 #: lib/senders/templates/_pending.txt:4
 msgid "Sign in to Sync"
@@ -387,11 +387,11 @@ msgstr "已验证账户！"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr "您已成功连接您的首个设备到您的 Firefox 账户。现在您可以在您的其他设备上登录“同步”功能，包括 Firefox 的 <a %(androidLinkAttributes)s>Android</a> 和 <a %(iosLinkAttributes)s>iOS</a> 版。"
+msgstr "成功为您的 Firefox 账户绑上第一台设备。再来把其他设备（包括 Firefox 的 <a %(androidLinkAttributes)s>Android</a> 和 <a %(iosLinkAttributes)s>iOS</a> 版本）绑上同步服务吧。"
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "您已成功连接了首台设备到您的 Firefox 账户。现在您可以在您的其他设备上登录和开始“同步”了，包括 Firefox 的 Android 和 iOS 版本。"
+msgstr "成功为您的 Firefox 账户绑上第一台设备。再来把其他设备（包括 Firefox 的 Android 和 iOS 版本）绑上同步服务吧。"
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -585,7 +585,7 @@ msgstr "确认您已收到这封邮件，我们将帮助您在您的所有设备
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "在您确认后，我们将帮助您在其他设备上安装和连接 Firefox。"
+msgstr "完成身份验证后，我们会协助您安装并连接其他设备上的 Firefox。"
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
