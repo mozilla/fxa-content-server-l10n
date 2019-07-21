@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-21 22:52+0000\n"
+"PO-Revision-Date: 2019-07-21 22:57+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1065,7 +1065,7 @@ msgstr "ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਲਈ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ %(email)s ਵਾਲੇ ਈ-ਮੇਲ ਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1103,7 +1103,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਐਂਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
@@ -1119,7 +1119,7 @@ msgstr "ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਲੋੜ�
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਸਮਰੱਥ ਕਰੋ। ਅਜਿਹਾ ਕਰਨਾ ਕਾਰਜ-ਸਮਰੱਥਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਜਿਵੇਂ ਕਿ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣਾ।"
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1220,7 +1220,7 @@ msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!"
 
 #: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "ਨਵੀਂ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12
 msgid "Continue to my account"
@@ -1228,11 +1228,11 @@ msgstr "ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "ਅਣ-ਅਧਿਕਾਰਤ ਸਾਈਨ-ਇਨ ਦੀ ਰਿਪੋਰਟ ਕਰਨੀ ਨੈ?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਪਹੁੰਚ ਦੀ ਕੋਸ਼ਿਸ਼ ਬਾਰੇ ਈਮੇਲ ਮਿਲੀ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਸਰਗਰਮੀ ਨੂੰ ਸ਼ੱਕੀ ਵਜੋਂ ਰਿਪੋਰਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1271,11 +1271,11 @@ msgstr "ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "ਅਫ਼ਸੋਸ, ਅਸੀਂ ਤੁਹਾਡੇ &nbsp;ਖਾਤੇ ਨੂੰ ਲਾਕ ਕਰ ਚੁੱਕੇ ਹਾਂ।"
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "ਸਾਡੇ ਵਲੋਂ %(email)s ਲਈ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਵਾਪਸ ਆ ਗਈ ਸੀ ਅਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਲਾਕ ਕਰ ਚੁੱਕੇ ਹਾਂ।"
+msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
