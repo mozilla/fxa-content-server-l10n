@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-07-08 15:20+0000\n"
-"Last-Translator: ravi <ravi.103151@gmail.com>\n"
+"PO-Revision-Date: 2019-07-21 17:18+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -642,7 +642,7 @@ msgstr "अपने ईमेल की पुष्टि करें और 
 
 #: lib/senders/email.js:677
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "अपना खाता बनाना पूर्ण करें"
 
 #: lib/senders/email.js:713
 msgid "Reminder: Finish Creating Your Account"
