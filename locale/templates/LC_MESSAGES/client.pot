@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-07-08 10:32+0000\n"
+"POT-Creation-Date: 2019-07-22 14:49+0000\n"
 
 #: .es5/views/confirm_reset_password.js:211
 #: .es5/views/confirm_reset_password.js:195
@@ -295,6 +295,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:173
 #: .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
 msgstr ""
 
@@ -1830,6 +1831,7 @@ msgstr ""
 #: .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3
 #: .es5/views/settings/display_name.js:185
+#: .es5/templates/settings/avatar_crop.mustache:4
 msgid "Cancel"
 msgstr ""
 
@@ -2188,6 +2190,7 @@ msgid "Done"
 msgstr ""
 
 #: .es5/templates/settings/avatar_crop.mustache:1
+#: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr ""
 
@@ -2195,6 +2198,7 @@ msgstr ""
 #: .es5/templates/settings/change_password.mustache:8
 #: .es5/templates/settings/display_name.mustache:7
 #: .es5/views/settings/display_name.js:183
+#: .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr ""
 
@@ -2871,4 +2875,8 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
+msgstr ""
+
+#: .es5/templates/settings/avatar_crop.mustache:1
+msgid "Avatar"
 msgstr ""
