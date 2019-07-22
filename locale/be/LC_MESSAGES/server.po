@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-08 10:32+0000\n"
+"POT-Creation-Date: 2019-07-22 14:49+0000\n"
 "PO-Revision-Date: 2019-07-08 18:36+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Каб атрымаць поўную аддачу ад сінхранізацыі, падключыце любы <a href='%(androidUrl)s'>Firefox для Android</a> ці <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -71,9 +71,9 @@ msgstr "Гэта паведамленне створана аўтаматычн�
 #: lib/senders/templates/password_reset_account_recovery.html:8 lib/senders/templates/post_add_account_recovery.html:8 lib/senders/templates/post_add_two_step_authentication.html:8
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:7
-#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6 lib/senders/templates/verify_primary.html:8
-#: lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
+#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
+#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8 lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Для больш падрабязнай інфармацыі, калі ласка, наведайце <a %(supportLinkAttributes)s>Падтрымку Mozilla</a>."
 
@@ -86,13 +86,13 @@ msgstr "Для больш падрабязнай інфармацыі, калі 
 #: lib/senders/templates/post_new_recovery_codes.html:8 lib/senders/templates/post_new_recovery_codes.txt:7 lib/senders/templates/post_remove_account_recovery.html:9
 #: lib/senders/templates/post_remove_account_recovery.txt:8 lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_remove_two_step_authentication.html:9 lib/senders/templates/post_remove_two_step_authentication.txt:7 lib/senders/templates/post_verify.html:7
-#: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/post_verify_trailhead.html:7
+#: lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/post_verify_trailhead.html:8
 #: lib/senders/templates/post_verify_trailhead.txt:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
 #: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_first.txt:7
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:6
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Палітыка прыватнасці Mozilla"
 
@@ -105,13 +105,13 @@ msgstr "Палітыка прыватнасці Mozilla"
 #: lib/senders/templates/post_new_recovery_codes.html:9 lib/senders/templates/post_new_recovery_codes.txt:8 lib/senders/templates/post_remove_account_recovery.html:10
 #: lib/senders/templates/post_remove_account_recovery.txt:9 lib/senders/templates/post_remove_secondary.html:8 lib/senders/templates/post_remove_secondary.txt:7
 #: lib/senders/templates/post_remove_two_step_authentication.html:10 lib/senders/templates/post_remove_two_step_authentication.txt:8 lib/senders/templates/post_verify.html:8
-#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:8
+#: lib/senders/templates/post_verify.txt:7 lib/senders/templates/post_verify_secondary.html:8 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_trailhead.html:9
 #: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
 #: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
 #: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
-#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:7 lib/senders/templates/verify_trailhead.txt:7
+#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
 msgstr "Умовы выкарыстання Firefox Cloud"
 
@@ -147,7 +147,7 @@ msgstr "Новы ўваход у %(clientName)s"
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
 #: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
-#: lib/senders/templates/verify_sync.txt:3
+#: lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
 msgid "IP address: %(ip)s"
 msgstr "IP-адрас: %(ip)s"
 
@@ -315,8 +315,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
-" пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
+"і пацвярджэння ўваходаў."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
@@ -363,10 +363,11 @@ msgid "You have successfully removed %(secondaryEmail)s as a secondary email fro
 msgstr "Вы паспяхова выдалілі другі адрас %(secondaryEmail)s з вашага ўліковага запісу Firefox. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць."
 
 #: lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4
-#: lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:6
-#: lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verification_reminder_second.txt:5
-#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7 lib/senders/templates/verify_secondary.txt:5
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.txt:4
+#: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
+#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6
+#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
+#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6
+#: lib/senders/templates/verify_trailhead.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць."
 
@@ -426,10 +427,6 @@ msgstr "Вы ўвайшлі і гатовы пачаць бяспечнае і �
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
 msgstr "Цяпер атрымайце максімум ад Firefox, увайшоўшы ўсюды, дзе вы аглядаеце."
-
-#: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/verify_trailhead.html:5
-msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Ёсць пытанні? Наведайце <a %(supportLinkAttributes)s>Падтрымку Mozilla</a>."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
@@ -520,7 +517,7 @@ msgstr "Пацвердзіце адрас электроннай пошты дл
 msgid "Activate now"
 msgstr "Актываваць зараз"
 
-#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:8
+#: lib/senders/templates/verify.html:11 lib/senders/templates/verify_sync.html:11 lib/senders/templates/verify_trailhead.html:10
 msgid "Verify Email"
 msgstr "Пацвердзіць эл.пошту"
 
@@ -600,13 +597,17 @@ msgstr "Пасля пацвярджэння, мы дапаможам вам ус
 msgid "Activate the Firefox family of products"
 msgstr "Актываваць сямейства прадуктаў Firefox"
 
-#: lib/senders/templates/verify_trailhead.html:3 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад Firefox усюды, дзе ўвайшлі."
+#: lib/senders/templates/verify_trailhead.html:3
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr ""
 
-#: lib/senders/templates/verify_trailhead.html:4 lib/senders/templates/verify_trailhead.txt:3
+#: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
 msgstr "Пацвердзіць эл.пошту "
+
+#: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад Firefox усюды, дзе ўвайшлі."
 
 #: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -783,6 +784,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Сцягнуць найноўшую версію"
+
+#~ msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Ёсць пытанні? Наведайце <a %(supportLinkAttributes)s>Падтрымку Mozilla</a>."
 
 #~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
 #~ msgstr "Запытаная старонка не знойдзена. Мы атрымалі паведамленне і будзем выпраўляць усе спасылкі, якія могуць быць пашкоджаны."

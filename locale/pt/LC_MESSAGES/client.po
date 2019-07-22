@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-08 10:32+0000\n"
-"PO-Revision-Date: 2019-06-13 15:52+0000\n"
-"Last-Translator: Manuela Silva <manuelarodsilva@gmail.com>\n"
+"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"PO-Revision-Date: 2019-07-09 21:28+0000\n"
+"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -204,7 +204,7 @@ msgstr "Sessão Web, %(userAgent)s"
 msgid "Web Session"
 msgstr "Sessão Web"
 
-#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
 msgstr "Último tempo de sincronização desconhecido"
 
@@ -910,7 +910,7 @@ msgstr "Erro 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Oh não, algo correu mal. Fomos notificados e iremos trabalhar numa correção."
+msgstr "Oh não, algo correu mal aqui. Fomos notificados e iremos trabalhar numa correção."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -1216,7 +1216,7 @@ msgstr "Aceitar"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1484,11 +1484,12 @@ msgstr "Limpar"
 msgid "Done"
 msgstr "Feito"
 
-#: .es5/templates/settings/avatar_crop.mustache:1
+#: .es5/templates/settings/avatar_crop.mustache:1 .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "Posicione e rode a imagem como seja necessário"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
+#: .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Alterar"
 
@@ -2078,10 +2079,14 @@ msgstr "Obter app"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "A subscrição já foi cancelada"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
+msgstr "A atualização foi rejeitada, por favor tente novamente"
+
+#: .es5/templates/settings/avatar_crop.mustache:1
+msgid "Avatar"
 msgstr ""
 
 #~ msgid "%(email)s registered."

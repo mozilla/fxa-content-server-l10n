@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-08 10:32+0000\n"
+"POT-Creation-Date: 2019-07-22 14:49+0000\n"
 "PO-Revision-Date: 2018-10-28 19:55+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,6 +271,7 @@ msgid "Web Session"
 msgstr "Veb sesije"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153
+#: .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
 msgstr "Poslednje vreme sinhronizovanja je nepoznato"
 
@@ -1606,6 +1607,7 @@ msgstr "Prihvati"
 #: .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3
 #: .es5/views/settings/display_name.js:185
+#: .es5/templates/settings/avatar_crop.mustache:4
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -1978,6 +1980,7 @@ msgid "Done"
 msgstr "Gotovo"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
+#: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "Pozicionirajte i rotirajte vašu sliku po vašim potrebama"
 
@@ -1985,6 +1988,7 @@ msgstr "Pozicionirajte i rotirajte vašu sliku po vašim potrebama"
 #: .es5/templates/settings/change_password.mustache:8
 #: .es5/templates/settings/display_name.mustache:7
 #: .es5/views/settings/display_name.js:183
+#: .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Izmeni"
 
@@ -2698,6 +2702,10 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
+msgstr ""
+
+#: .es5/templates/settings/avatar_crop.mustache:1
+msgid "Avatar"
 msgstr ""
 
 #~ msgid "%(email)s registered."
