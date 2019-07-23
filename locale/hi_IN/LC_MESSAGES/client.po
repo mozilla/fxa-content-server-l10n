@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-23 15:50+0000\n"
+"PO-Revision-Date: 2019-07-23 16:00+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1003,7 +1003,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "आपने अपनी पुनर्प्राप्ति कुंजी का उपयोग करके अपने खाते को सफलतापूर्वक पुनर्स्थापित कर लिया है। अपने डेटा को सुरक्षित करने के लिए एक नया पासवर्ड बनाएं, और इसे सुरक्षित स्थान पर संग्रहीत करें।"
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1240,7 +1240,7 @@ msgstr "गतिविधि रिपोर्ट"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr "क्यों यह हो रहा है?"
+msgstr "यह क्यों हो रहा है?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1367,11 +1367,11 @@ msgstr "यह कूटशब्द न खो दें। यदि आपक
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>अपने ईमेल पासवर्ड का पुनः उपयोग न करें</span>यदि कोई व्यक्ति आपका ईमेल पासवर्ड जानता है, तो वे आपके Firefox साइन-इन को एक नए डिवाइस पर अनुमोदित कर सकते है और आपके डेटा तक पहुंच सकता है।"
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>अपना पासवर्ड याद रखें</span>यदि आपको अपना पासवर्ड रीसेट करने की आवश्यकता है, तो आप कोई भी सिंक डेटा खो देंगे जो आपके किसी एक डिवाइस पर नहीं है।"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1481,7 +1481,7 @@ msgstr "अपने चित्र को उपयुक्त स्था�
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
 #: .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
-msgstr "बदली करें"
+msgstr "बदलें"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1653,7 +1653,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "नए पुनर्प्राप्ति कोड बनाएं"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1706,7 +1706,7 @@ msgstr "पुनर्प्राप्ति कोड बदलें"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "अपने प्रमाणीकरण ऐप में क्यूआर कोड को स्कैन करें और फिर उसके सुरक्षा कोड को दर्ज करें।"
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1726,7 +1726,7 @@ msgstr "पुष्टि"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "इस भाग में परिवर्तन देखने या करने से पहले, आपको अपना ईमेल पता सत्यापित करना होगा।"
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
