@@ -60,6 +60,6 @@ workflows:
           cron: "0 8 * * 5" # At 08:00 on Fridays”
           filters:
             branches:
-              ignore: /.*/
+              only: master
     jobs:
       - build
