@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-23 16:00+0000\n"
+"PO-Revision-Date: 2019-07-25 15:12+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -851,7 +851,7 @@ msgstr "रिमोट उपकरण से पेयरिंग करन�
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "दूरस्थ उपकरण का कनेक्शन बंद हो गया, कृपया पुनः प्रयास करें"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
@@ -1587,7 +1587,7 @@ msgstr ""
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "इसके अतिरिक्त, आप Mozilla और Firefox से नवीनतम समाचारों के साथ प्रचार ईमेल प्राप्त करने के लिए सदस्यता ले सकते हैं।"
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1595,7 +1595,7 @@ msgstr "अभिदत्त"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "प्राथमिकताएँ प्रबंधित करें"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1829,14 +1829,16 @@ msgstr "आपका ईमेल पता नहीं होना चाह�
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr ""
+"<a %(escapedCommonPasswordLinkAttrs)s>सामान्य पास्वर्ड की यह सूची </a> से मेल नहीं खाना चाहिए\n"
+"\n"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
+msgstr "मूल रहें और सुरक्षित रहें &mdash; कहीं और इस पासवर्ड का पुन: उपयोग न करें।"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr ""
+msgstr "इस पासवर्ड को याद रखें &mdash; इसे रीसेट करने से आपका डेटा हमारे सर्वर से मिट जाता है।"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1848,7 +1850,7 @@ msgstr "Firefox संकालन करना चाहते हैं? <a %(
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "<small>%(email)s के लिए</small> नयी डिवाइस को स्वीकृत करें"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -1868,7 +1870,7 @@ msgstr "उपकरणों को प्रबंधित करें"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "<small>अब आपके अन्य डिवाइस </ small> से स्वीकृति की आवश्यकता है"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
