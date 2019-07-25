@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-25 15:12+0000\n"
+"PO-Revision-Date: 2019-07-25 15:13+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1870,7 +1870,7 @@ msgstr "उपकरणों को प्रबंधित करें"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr "<small>अब आपके अन्य डिवाइस </ small> से स्वीकृति की आवश्यकता है"
+msgstr "<small>अब आपके अन्य डिवाइस </small> से स्वीकृति की आवश्यकता है"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -1878,7 +1878,7 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "सेटअप प्रक्रिया समाप्त कर दी गई थी।"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
