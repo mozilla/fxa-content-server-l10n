@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-21 17:18+0000\n"
-"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
+"POT-Creation-Date: 2019-07-26 08:01+0000\n"
+"PO-Revision-Date: 2019-07-24 17:30+0000\n"
+"Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -196,7 +196,7 @@ msgstr "आपके खाते का पासवर्ड बदला ग�
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "सिंकिंग को फिर से शुरू करने के लिए आपको अन्य उपकरणों पर अपना नया पासवर्ड दर्ज करना होगा।"
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -494,7 +494,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "%(serviceName)s में स्वागत!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -506,7 +506,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "अपने Firefox खाता को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें।"
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -740,7 +740,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "लोड हो रहा है"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."

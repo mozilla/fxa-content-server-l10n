@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-08 12:49+0000\n"
+"POT-Creation-Date: 2019-07-26 08:01+0000\n"
+"PO-Revision-Date: 2019-07-23 08:56+0000\n"
 "Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -600,7 +600,7 @@ msgstr "Aktivera Firefox-familjen av produkter"
 
 #: lib/senders/templates/verify_trailhead.html:3
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in med:"
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
@@ -748,7 +748,7 @@ msgid ""
 "                    return the system to normal as soon as possible."
 msgstr ""
 "Vi är för närvarande under tung belastning och arbetar för att\n"
-"                    returnera systemet till normalt så snart som möjligt."
+"                    återställa systemet till normalt så snart som möjligt."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

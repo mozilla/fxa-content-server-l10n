@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-09 21:33+0000\n"
+"POT-Creation-Date: 2019-07-26 08:01+0000\n"
+"PO-Revision-Date: 2019-07-23 21:34+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -602,7 +602,7 @@ msgstr "Ative a família de produtos do Firefox"
 
 #: lib/senders/templates/verify_trailhead.html:3
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Confirme a sua conta e aproveite ao máximo o Firefox em todos os lugares em que iniciar sessão, a começar por:"
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
