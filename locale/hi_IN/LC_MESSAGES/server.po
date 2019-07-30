@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-30 15:31+0000\n"
+"PO-Revision-Date: 2019-07-30 15:40+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -332,11 +332,11 @@ msgstr ""
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "नए पुनर्प्राप्ति कुंजी उत्पन्न हुए"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस से नए पुनर्प्राप्ति कुंजी सफलतापूर्वक उत्पन्न की गयी हैं:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
 msgid "Account recovery key removed"
@@ -348,7 +348,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "यह पुनर्प्राप्ति कुंजी अब आपके खाते को पुनर्प्राप्त करने के लिए उपयोग नहीं की जा सकती है।"
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
@@ -377,11 +377,11 @@ msgstr "द्वि-चरणीय प्रमाणीकरण अक्ष
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस से अपने Firefox खाते पर दो-चरणीय प्रमाणीकरण को सफलतापूर्वक अक्षम कर दिया है:"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "प्रत्येक साइन-इन पर सुरक्षा कोड की आवश्यकता नहीं होगी।"
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
@@ -442,7 +442,7 @@ msgstr "क्या कूटशब्द पुनः ठीक करने �
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "नया पासवर्ड बनाने के लिए अगले एक घंटे के भीतर बटन पर क्लिक करें। निम्न डिवाइस से अनुरोध आया है:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Create new password"
@@ -531,7 +531,7 @@ msgstr "अभी सक्रिय करें:"
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "अतिरिक्त सुरक्षा के लिए, कृपया निम्न डिवाइस से इस साइन-इन की पुष्टि करें:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -567,7 +567,7 @@ msgstr "ईमेल सत्यापित करें: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr ""
+msgstr "यदि आपने इस कार्रवाई को अधिकृत नहीं किया है, तो कृपया अपना पासवर्ड बदलें।"
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
 msgid "Verify secondary email"
@@ -659,7 +659,7 @@ msgstr "Firefox खाता प्राधिकरण कोड"
 
 #: lib/senders/email.js:839
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s पर नए साइन-इन की पुष्टि करें"
 
 #: lib/senders/email.js:909
 msgid "Sign-in code for Firefox"
