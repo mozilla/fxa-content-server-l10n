@@ -1148,8 +1148,8 @@ msgstr "Заборавили сте лозинку?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Настављањем прихватате <a id=\"fxa-tos\" href=\"/legal/terms\">услове коришћења</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">политику приватности</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Настављањем прихватате <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">услове коришћења</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">политику приватности</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2204,9 +2204,9 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Потребни су колачићи и локално складиште."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Обавештењем о приватности</a> Firefox cloud сервиса."
+#~ "Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Обавештењем о приватности</a> Firefox cloud сервиса."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox cloud usluge"
@@ -2855,8 +2855,8 @@ msgstr ""
 #~ "Ако наставите, слажете се са <a id=\"service-tos\" href=\"%(termsUri)s\">условима коришћења услуге</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">обавештењем о приватности</a> сервиса "
 #~ "%(serviceName)s (%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Уколико наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Полисом приватности</a> Firefox cloud сервиса."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Уколико наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Условима коришћења</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Полисом приватности</a> Firefox cloud сервиса."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Преплатите се на вести и савете за Firefox"

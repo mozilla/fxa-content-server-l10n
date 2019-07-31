@@ -1144,7 +1144,7 @@ msgstr "A yejjit finnde ndee?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
@@ -2176,8 +2176,8 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Kukiije e ndesgu nokku ena mbaɗɗii."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Tintinol Suturo</a> mo carwe ruulde Firefox."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Tintinol Suturo</a> mo carwe ruulde Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Carwe ruulde Firefox"
@@ -2499,8 +2499,8 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Aɗa jogii konnte kisa? Seŋo."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ɓennude ɗoo firti ko mi jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Tintinol Suturo</a> mo carwe ruulde Firefox."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Ɓennude ɗoo firti ko mi jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Tintinol Suturo</a> mo carwe ruulde Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Lulno e kabaruuji e tinndinooje Firefox"

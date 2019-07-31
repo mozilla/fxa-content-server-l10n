@@ -1150,9 +1150,9 @@ msgstr "Emblidà il pled-clav?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 msgstr ""
-"Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">infurmaziuns davart la protecziun da datas</a>."
+"Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">infurmaziuns davart la protecziun da datas</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2228,9 +2228,9 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies e memoria locala èn necessaris."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms\">Contract da licenza</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">Infurmaziuns davart la protecziun da datas</a> "
+#~ "Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Infurmaziuns davart la protecziun da datas</a> "
 #~ "dals servetschs da cloud da Firefox."
 
 #~ msgid "Firefox cloud services"
@@ -2752,9 +2752,9 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Has gia in conto? S'annunzia."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\">Directivas per protecziun da datas</a> dals "
+#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Directivas per protecziun da datas</a> dals "
 #~ "servetschs da cloud da Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
