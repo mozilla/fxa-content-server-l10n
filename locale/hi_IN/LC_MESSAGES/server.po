@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-08-03 05:08+0000\n"
+"PO-Revision-Date: 2019-08-03 05:22+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: lib/senders/templates/low_recovery_codes.html:4
 msgid "Generate codes"
-msgstr ""
+msgstr "कोड जनरेट करें"
 
 #: lib/senders/templates/low_recovery_codes.html:5
 msgid "This is an automated email."
@@ -277,11 +277,11 @@ msgstr "खाता पुनर्प्राप्ति कुंजी उ
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस का उपयोग करके अपने Firefox खाता के लिए खाता पुनर्प्राप्ति कुंजी सफलतापूर्वक तैयार की है:"
 
 #: lib/senders/templates/post_add_account_recovery.html:5
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "यदि यह आप नही थे, <a %(revokeAccountRecoveryLinkAttributes)s>यहां क्लिक करे।</a>"
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
@@ -320,11 +320,11 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "पुनर्प्राप्ति कोड की खपत"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस से पुनर्प्राप्ति कोड का सफलतापूर्वक खपत किया है:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
@@ -703,7 +703,7 @@ msgstr "द्वितीयक Firefox खाता ई-मेल हटाय
 
 #: lib/senders/email.js:1695
 msgid "Firefox Account password reset with recovery key"
-msgstr ""
+msgstr "पुनर्प्राप्ति कुंजी के साथ Firefox खाता पासवर्ड रीसेट करे"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
