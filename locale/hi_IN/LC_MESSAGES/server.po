@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-08-03 05:22+0000\n"
+"PO-Revision-Date: 2019-08-03 18:22+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -470,7 +470,7 @@ msgstr "यदि नहीं, तो हमें घुसपैठियो�
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "कुछ दिनों पहले आपने फ़ायरफ़ॉक्स खाता बनाया था, लेकिन इसकी पुष्टि कभी नहीं की।"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -651,7 +651,7 @@ msgstr ""
 
 #: lib/senders/email.js:715
 msgid "Final reminder: Confirm your email to activate your Firefox Account"
-msgstr ""
+msgstr "अंतिम अनुस्मारक: अपने Firefox खाते को सक्रिय करने के लिए अपने ईमेल की पुष्टि करें"
 
 #: lib/senders/email.js:781
 msgid "Firefox Account authorization code"
@@ -687,7 +687,7 @@ msgstr "Firefox खाता सत्यापित"
 
 #: lib/senders/email.js:1268
 msgid "Your Firefox Account is Confirmed"
-msgstr ""
+msgstr "आपके Firefox खाते की पुष्टि हो गई"
 
 #: lib/senders/email.js:1319
 msgid "Secondary Firefox Account email added"

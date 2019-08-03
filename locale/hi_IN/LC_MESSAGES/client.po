@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-28 03:56+0000\n"
+"PO-Revision-Date: 2019-08-03 18:16+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1882,7 +1882,7 @@ msgstr "सेटअप प्रक्रिया समाप्त कर �
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "अपने Firefox ऐप पर कोड स्कैनर खोलें और तैयार होने पर कोड दिखाएं।"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2058,15 +2058,15 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
-msgstr ""
+msgstr "ऐप पाएँ"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "सदस्यता पहले ही रद्द कर दी गई है"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "अद्यतन अस्वीकार कर दिया गया था, कृपया पुनः प्रयास करें"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
