@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-08-03 03:40+0000\n"
+"PO-Revision-Date: 2019-08-03 05:08+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: lib/senders/templates/post_add_account_recovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस से अपने Firefox खाते के लिए सफलतापूर्वक एक खाता पुनर्प्राप्ति कुंजी तैयार की है:"
 
 #: lib/senders/templates/post_add_account_recovery.txt:4
 msgid "If this was not you, revoke key."
@@ -297,11 +297,11 @@ msgstr "दो-चरण प्रमाणीकरण सक्षम"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "आपने निम्न डिवाइस से अपने Firefox खाते पर दो-चरणीय प्रमाणीकरण सफलतापूर्वक सक्षम किया है:"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:5
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "आपके प्रमाणीकरण ऐप से सुरक्षा कोड अब प्रत्येक साइन-इन पर आवश्यक होंगे।"
 
 #: lib/senders/templates/post_add_two_step_authentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
