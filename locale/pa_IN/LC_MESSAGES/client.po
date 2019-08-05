@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-03 17:30+0000\n"
-"Last-Translator: Suhail Singh Bains <suhail.singhyo@gmail.com>\n"
+"PO-Revision-Date: 2019-08-05 00:44+0000\n"
+"Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
 "MIME-Version: 1.0\n"
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "ਆਪਣੇ ਸਮਾਰਟ-ਫ਼ੋਨ ‘ਤੇ ਫਾਇਰਫਾਕਸ ਇੰਸਟਾਲ ਕਰੋ ਅਤੇ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1651,7 +1651,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਓ"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -2066,7 +2066,7 @@ msgstr ""
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "ਅਵਤਾਰ"
 
 #~ msgid "Refresh"
 #~ msgstr "ਤਾਜ਼ਾ ਕਰੋ"
