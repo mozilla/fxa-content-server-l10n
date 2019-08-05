@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1146,8 +1146,8 @@ msgstr "Sće hesło zabył?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosće</a> zwolił."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosće</a> zwolił."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2216,8 +2216,8 @@ msgstr "Awatar"
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Placki a lokalny składowak stej trěbnej."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">prawidłow priwatnosće</a> mróčelowych słužbow Firefox."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">prawidłow priwatnosće</a> mróčelowych słužbow Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Mróčelowe słužby Firefox"
@@ -2873,8 +2873,8 @@ msgstr "Awatar"
 #~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s (%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće </a> mróčelowych słužbow Firefox."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zdźělenki priwatnosće </a> mróčelowych słužbow Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowinki a pokiwy za Firefox abonować"

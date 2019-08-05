@@ -1145,7 +1145,7 @@ msgstr "கடவுச்சொல்லை மறந்துவிட்�
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
@@ -2135,8 +2135,8 @@ msgstr ""
 #~ msgid "Click here to receive a new reset link"
 #~ msgstr "ஒரு புதிய மீட்டமைக்கும் தொடுப்பைப் பெற இங்கே சொடுக்கவும்"
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "தொடர்வதன் மூலம், பயர்பாக்ஸ் முகில்கணிமச் சேவைகளின் <a id=\"fxa-tos\" href=\"/legal/terms\">விதிமுறைகளையும்</a> தனியுரிமை <a id=\"fxa-pp\" href=\"/legal/privacy\">அறிகைளையும்</a> ஒப்புக்குகொள்கிறோம்."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "தொடர்வதன் மூலம், பயர்பாக்ஸ் முகில்கணிமச் சேவைகளின் <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">விதிமுறைகளையும்</a> தனியுரிமை <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">அறிகைளையும்</a> ஒப்புக்குகொள்கிறோம்."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "பயர்பாக்ஸ் முகில்கணிமச் சேவைகள்"

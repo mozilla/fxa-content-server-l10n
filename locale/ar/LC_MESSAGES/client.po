@@ -1145,8 +1145,8 @@ msgstr "هل نسيت كلمة السرّ؟"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">تنويه الخصوصيّة</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">تنويه الخصوصيّة</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2195,8 +2195,8 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "الكعكات والتخزين المحلي مطلوبة."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">سياسة الخصوصيّة</a> لخدمات فَيَرفُكس السحابية."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">سياسة الخصوصيّة</a> لخدمات فَيَرفُكس السحابية."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "خدمات فَيَرفُكس السّحابيّة"

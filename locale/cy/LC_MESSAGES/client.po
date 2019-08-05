@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1144,8 +1144,8 @@ msgstr "Wedi anghofio'r cyfrinair?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2214,8 +2214,8 @@ msgstr "Afatar"
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Mae angen cwcis a storfa leol."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Gwasanaethau cwmwl Firefox"
@@ -2812,8 +2812,8 @@ msgstr "Afatar"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"

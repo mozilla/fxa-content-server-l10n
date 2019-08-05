@@ -1199,8 +1199,8 @@ msgstr "Harruat  fjalëkalimin?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Duke vazhduar, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Njoftimin mbi Privatësinë</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Duke vazhduar, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Njoftimin mbi Privatësinë</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2277,9 +2277,9 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookie-t dhe depozitimi vendor janë të domosdoshëm."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
+#~ "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
 #~ "Firefox-it."
 
 #~ msgid "Firefox cloud services"

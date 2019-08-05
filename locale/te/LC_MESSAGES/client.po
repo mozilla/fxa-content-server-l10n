@@ -1142,7 +1142,7 @@ msgstr "సంకేతపదం మరిచిపోయారా?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
@@ -2183,8 +2183,8 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "కుకీలు మరియు లోకల్ స్టోరేజ్ అవసరం."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox క్లౌడ్ సేవలు"

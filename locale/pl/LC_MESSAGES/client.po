@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -1147,8 +1147,8 @@ msgstr "Nie pamiętasz hasła?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\">regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\">zasady ochrony prywatności</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zasady ochrony prywatności</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2214,8 +2214,8 @@ msgstr "Awatar"
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Wymagana jest obsługa ciasteczek i lokalnego przechowywania danych."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\">Zasady ochrony prywatności</a> usług Firefox cloud."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zasady ochrony prywatności</a> usług Firefox cloud."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Usługi Firefox cloud"

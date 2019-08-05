@@ -1507,11 +1507,11 @@ msgstr "Zaboravili ste lozinku?"
 #: .es5/templates/sign_up_password.mustache:16
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy "
 "Notice</a>."
 msgstr ""
-"Nastavljanjem prihvatate <a id=\"fxa-tos\" href=\"/legal/terms\">uslove "
-"korišćenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">politiku "
+"Nastavljanjem prihvatate <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">uslove "
+"korišćenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">politiku "
 "privatnosti</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4

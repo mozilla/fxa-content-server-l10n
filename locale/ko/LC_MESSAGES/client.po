@@ -1147,8 +1147,8 @@ msgstr "암호를 잊어버리셨습니까?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>에 동의하는 것으로 간주합니다."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급 방침</a>에 동의하는 것으로 간주합니다."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2197,9 +2197,9 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "쿠키와 로컬 저장소가 필요합니다."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+#~ "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox 클라우드 서비스"
@@ -2700,8 +2700,8 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "이미 계정이 있나요? 로그인하세요."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인 정보 보호 정책</a>에 동의한다."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 약관</a>과 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인 정보 보호 정책</a>에 동의한다."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox 뉴스와 사용방법 구독"
