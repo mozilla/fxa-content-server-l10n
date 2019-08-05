@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 16:49+0000\n"
+"PO-Revision-Date: 2019-08-05 18:02+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1147,7 +1147,7 @@ msgstr "Glömt lösenordet?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2104,7 +2104,7 @@ msgstr "Ogiltig omdirigering"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Det gick inte att få användarvillkor för prenumerationsplattformen"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2125,11 +2125,11 @@ msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Ditt kreditkort har upphört. Uppdatera den <a %(escapedCcExpiredLinkAttrs)s>här</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Användarvillkor för prenumerationsplattform"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2149,7 +2149,7 @@ msgstr "Betalning & fakturering"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Anslutningsproblem"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
@@ -2169,11 +2169,11 @@ msgstr "Beskrivning av problem"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Du har anslutit ditt Firefox-konto till Mozilla-produkter som håller dig säker och produktiv på webben:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Bekräfta det genom att ta bort ditt konto:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
@@ -2185,11 +2185,11 @@ msgstr "Du kan tappa sparad information och funktioner i Mozilla-produkter"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Återaktivering med det här e-postadressen kanske inte återställer din sparade information"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, vi har problem med vårt system. Vi arbetar med att fixa det åt dig och ber om ursäkt för besväret. Försök igen senare."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrerad."
