@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 15:41+0000\n"
+"PO-Revision-Date: 2019-08-05 16:27+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -682,7 +682,7 @@ msgstr "%(country)s (estimert)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Stadfest kontoen din"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -726,15 +726,15 @@ msgstr ""
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Passord endra"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Passord oppdatert"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Mistenkeleg aktivitet: Tilbakestilling av passord påkravd"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
@@ -750,7 +750,7 @@ msgstr ""
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Sekundær e-post lagt til"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
