@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 18:52+0000\n"
+"PO-Revision-Date: 2019-08-05 19:07+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -535,7 +535,7 @@ msgstr "Не ўдалося выслаць ліст"
 
 #: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
 msgid "Valid code required"
-msgstr "Патрабуецца дзейсны код"
+msgstr "Патрэбен дзейсны код"
 
 #: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
@@ -646,12 +646,12 @@ msgstr "Мусіць быць не менш за 8 сімвалаў"
 
 #: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334
 msgid "Valid password required"
-msgstr "Патрабуецца дзейсны пароль"
+msgstr "Патрэбен дзейсны пароль"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
 #: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
 msgid "Valid email required"
-msgstr "Патрабуецца сапраўдны адрас эл.пошты"
+msgstr "Патрэбен сапраўдны адрас эл.пошты"
 
 #: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350
 msgid "A usable image was not found"
@@ -663,7 +663,7 @@ msgstr "Немагчыма ініцыялізаваць камеру"
 
 #: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358
 msgid "Valid URL required"
-msgstr "Патрабуецца сапраўдны URL"
+msgstr "Патрэбен сапраўдны URL"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374
 msgid "Your verification email was just returned. Mistyped email?"
@@ -728,7 +728,7 @@ msgstr "Гэта абавязковае поле"
 
 #: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491
 msgid "Authorization code required"
-msgstr "Патрабуецца код аўтарызацыі"
+msgstr "Патрэбен код аўтарызацыі"
 
 #: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499
 msgid "Link damaged"
@@ -736,11 +736,11 @@ msgstr "Спасылка пашкоджана"
 
 #: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522
 msgid "Phone number required"
-msgstr "Патрабуецца нумар тэлефона"
+msgstr "Патрэбен нумар тэлефона"
 
 #: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541
 msgid "Two-step authentication code required"
-msgstr "Патрабуецца код двухэтапнай аўтарызацыі"
+msgstr "Патрэбен код двухэтапнай аўтарызацыі"
 
 #: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545
 msgid "Invalid two-step authentication code"
@@ -748,7 +748,7 @@ msgstr "Няправільны код двухэтапнай аўтарызац�
 
 #: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549
 msgid "Recovery code required"
-msgstr "Патрабуецца код аднаўлення"
+msgstr "Патрэбен код аднаўлення"
 
 #: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553
 msgid "Invalid recovery code"
@@ -756,7 +756,7 @@ msgstr "Нядзейсны код аднаўлення"
 
 #: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567
 msgid "Recovery key required"
-msgstr "Патрабуецца ключ аднаўлення"
+msgstr "Патрэбен ключ аднаўлення"
 
 #: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571
 msgid "Please enter verification code"
@@ -1175,7 +1175,7 @@ msgstr "Умовы абслугоўвання"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
-msgstr "Паведамленнем аб прыватнасці"
+msgstr "Паведамленне аб прыватнасці"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1932,7 +1932,7 @@ msgstr "Пацверджана"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr "Патрабуецца пацверджанне"
+msgstr "Патрэбна пацверджанне"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -2173,27 +2173,27 @@ msgstr "Апісанне праблемы"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Вы падключылі свой уліковы запіс Firefox да прадуктаў Mozilla, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Усялякія вашы падпіскі будуць ануляваныя"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Паўторнае падключэнне на гэту электронную пошту можа не аднавіць захаваную інфармацыю"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Хм, у нас праблемы з нашай сістэмай. Мы працуем над тым, каб выправіць гэта, і просім прабачэння за нязручнасці. Калі ласка, паспрабуйце зноў пазней."
 
 #~ msgid "Refresh"
 #~ msgstr "Абнавіць"
