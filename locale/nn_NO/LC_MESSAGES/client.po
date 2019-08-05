@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 15:37+0000\n"
+"PO-Revision-Date: 2019-08-05 16:36+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
-msgstr "Passordet er tilbakestilt"
+msgstr "Passordtilbakestilling"
 
 #: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
