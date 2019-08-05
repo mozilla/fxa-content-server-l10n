@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 13:26+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-08-05 18:38+0000\n"
+"Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -705,7 +705,7 @@ msgstr ""
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Potrdite novo prijavo"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
@@ -721,15 +721,15 @@ msgstr ""
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Ponastavite geslo"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Geslo je spremenjeno"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Geslo je posodobljeno"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
@@ -761,11 +761,11 @@ msgstr "Drugi e-poštni naslov odstranjen"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Overitev v dveh korakih je omogočena"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Overitev v dveh korakih je onemogočena"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
