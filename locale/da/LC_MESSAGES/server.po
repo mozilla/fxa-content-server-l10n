@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 20:17+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2019-08-05 21:33+0000\n"
+"Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -609,19 +609,19 @@ msgstr "Bekræft din konto og få mest muligt ud af Firefox, hvor du logger ind.
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Hvis du ikke allerede har downloaded %(product)s, så lad os komme i gang med at bruge alle de funktioner, som følger med dit abonnement."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Har du spørgsmål om dit abonnement? Vores <a %(supportLinkAttributes)s>supportteam</a> står klar til at hjælpe dig."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Hvis du ikke allerede har downloaded %(product)s, så lad os komme i gang med at bruge alle de funktioner, som følger med dit abonnement:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Har du spørgsmål om dit abonnement? Vores supportteam står klar til at hjælpe dig:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -745,63 +745,63 @@ msgstr "Konto bekræftet"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Konto bekræftet"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Sekundær mailadresse tilføjet"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Ny primær mailadresse"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Sekundær mailadresse fjernet"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Totrinsgodkendelse aktiveret"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Totrinsgodkendelse deaktiveret"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nye genoprettelseskoder genereret"
 
 #: lib/senders/email.js:1562
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Genoprettelseskode brugt"
 
 #: lib/senders/email.js:1604
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 genoprettelseskode tilbage"
 
 #: lib/senders/email.js:1606
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s genoprettelseskoder tilbage"
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Genoprettelsesnøgle til konto oprettet"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Genoprettelsesnøgle til kontoen blev fjernet"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Adgangskode opdateret ved hjælp af genoprettelsesnøgle"
 
 #: lib/senders/email.js:1773
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "Velkommen til Secure Proxy!"
 
 #: lib/senders/email.js:1774
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Hent Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -861,7 +861,7 @@ msgstr "Privatlivspolitik"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Tjenestevilkår for abonnementsplatform"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"

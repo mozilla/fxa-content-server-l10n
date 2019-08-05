@@ -2170,11 +2170,11 @@ msgstr "Beskrivelse af problem"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Du har knyttet din Firefox-konto til Mozilla-produkter, som sikrer dit privatliv og øger din produktivitet på nettet:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Bekræft venligst, at når du sletter din konto:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
