@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-03 03:10+0000\n"
+"PO-Revision-Date: 2019-08-05 13:11+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -868,9 +868,7 @@ msgid "Invalid Token"
 msgstr "Token 無效"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
@@ -937,8 +935,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "請輸入您先前產生的單次使用救援金鑰，以取回 Firefox 帳號的使用權限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">註: </span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1146,7 +1143,7 @@ msgstr "忘記密碼？"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "若繼續，代表您同意<a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1649,7 +1646,7 @@ msgstr "註:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "產生新的救援代碼後，所有先前產生的代碼皆將失效。請將新代碼儲存於安全的地方。"
+msgstr "產生新的救援碼後，所有先前產生的救援碼皆將失效。請將新代碼儲存於安全的地方。"
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
@@ -1657,7 +1654,7 @@ msgstr "產生新的救援碼"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "以下是您可單次使用的救援代碼。請將這些代碼保存於安全的地方，一旦您無法使用您的行動裝置進行驗證，即可輸入使用。關閉此畫面後，您將無法再看到這些代碼。"
+msgstr "以下是您可單次使用的救援碼。請將代碼存放於安全的地方，一旦您無法使用您的行動裝置進行驗證，即可輸入使用。關閉此畫面後，您將無法再看到這些代碼。"
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1783,8 +1780,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "第 2 步，共 2 步: 儲存救援金鑰"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">註： </span>若您忘記密碼，必須使用這把金鑰才能取回資料。請將這把金鑰放在未來可以簡單取回，而安全的位置。"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2073,39 +2069,39 @@ msgstr "頭像"
 
 #: .es5/views/support.js:67
 msgid "Please Select One"
-msgstr ""
+msgstr "請選擇一項"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "登入資訊與密碼"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "開啟分頁"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "信用卡"
 
 #: .es5/lib/auth-errors.js:583
 msgid "Invalid redirect"
-msgstr ""
+msgstr "重導無效"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "無法取得訂閱平台服務條款"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "使用者並未登入"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "另一個使用者已登入"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "未驗證的使用者或上網階段"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
@@ -2114,71 +2110,71 @@ msgstr "若繼續，代表您同意<a id=\"fxa-tos\" href=\"/legal/terms\" tabin
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "您的信用卡已過期。請<a %(escapedCcExpiredLinkAttrs)s>在此更新相關資料</a>。"
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "訂閱平台服務條款"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "聯絡我們"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "有什麼需要幫忙的地方？"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "一般查詢"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "付款與帳務問題"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "連線問題"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "開始使用"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "帳號問題"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "主旨（非必填）"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "問題描述"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "您已將 Firefox 帳號連結到可讓您在網路世界中更加安全、做事更有效率的 Mozilla 產品:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "請確認若刪除帳號:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "將取消您的所有訂閱內容"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "您可能會失去 Mozilla 產品中儲存的資訊與部分功能"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "就算重新啟用此信箱，也不會恢復原存的資訊"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "嗯…系統好像有點問題。我們將盡快修正，請稍後再試一次，很抱歉讓您覺得不方便。"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s 已註冊。"
@@ -2315,9 +2311,7 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "需要使用 Cookies 與本機儲存空間。"
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "若繼續，代表您同意 Firefox 雲端服務的<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">服務條款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">隱私權公告</a>。"
 
 #~ msgid "Firefox cloud services"
@@ -2373,16 +2367,14 @@ msgstr ""
 #~ msgstr "為什麼要同步兩台（或者更多台）裝置？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr "Sync 功能可讓您將一台裝置上的 Firefox 所儲存的書籤、瀏覽紀錄、網頁密碼等資料同步到其他裝置。在手機或平板電腦登入至 Firefox 後，桌面板上的東西也會出現。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 "
-#~ "Firefox，並同步至少兩台裝置。"
+#~ msgstr "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，並同步至少兩台裝置。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2487,13 +2479,13 @@ msgstr ""
 #~ msgstr "登入"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
@@ -2622,19 +2614,16 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "同步設定"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "在尋找 Firefox Sync 嗎？<a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">從此處開始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "有使用不同電子郵件地址的帳號嗎？<a href=\"%(signinUri)s\">請登入</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</"
-#~ "a> 版本可供使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最後使用: %(translatedTimeAgo)s"
@@ -3001,14 +2990,10 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">服務條款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">隱私權保護政策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
