@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 12:43+0000\n"
+"PO-Revision-Date: 2019-08-05 16:57+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -615,19 +615,19 @@ msgstr "Erősítse meg fiókját, és hozza ki a lehető legtöbbet a Firefoxbó
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Ha még nem töltötte le a %(product)s terméket, akkor kezdjen neki az összes az előfizetésében lévő szolgáltatás használatának."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Kérdése van az előfizetéséről? A <a %(supportLinkAttributes)s>támogatási csapatunk</a> itt van, hogy segítsen."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Ha még nem töltötte le a %(product)s terméket, akkor kezdjen neki az összes az előfizetésében lévő szolgáltatás használatának:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
