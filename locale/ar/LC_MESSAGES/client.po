@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"POT-Creation-Date: 2019-08-05 12:05+0000\n"
 "PO-Revision-Date: 2019-02-03 10:02+0000\n"
 "Last-Translator: Ruba <ruba.awayes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,7 +209,7 @@ msgstr "وقت آخر مزامنة مجهول"
 msgid "Subscribed successfully"
 msgstr "اشتركت بنجاح"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
 msgid "Account deleted successfully"
 msgstr "حُذف الحساب بنجاح"
 
@@ -332,10 +332,11 @@ msgid "Printed"
 msgstr "طُبع"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/models/auth_brokers/base.js:111
 msgid "Primary email verified successfully"
 msgstr "أُكِّد البريد الإلكتروني الأولي بنجاح"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "أُكّد الحساب بنجاح"
 
@@ -375,11 +376,11 @@ msgstr "بطاقات الائتمان"
 msgid "Firefox Sync"
 msgstr "«تزامُن فَيَرفُكس»"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
 msgid "Secondary email verified successfully"
 msgstr "أُكِّد البريد الإلكتروني الثانوي بنجاح"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "صُفّرت كلمة السر بنجاح"
 
@@ -978,6 +979,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
+#: .es5/templates/subscription_terms.mustache:2
 msgid "Back"
 msgstr "رجوع"
 
@@ -1132,7 +1134,7 @@ msgstr "لِج للمتابعة"
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "كلمة السرّ"
 
@@ -1145,8 +1147,8 @@ msgstr "هل نسيت كلمة السرّ؟"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">تنويه الخصوصيّة</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1167,11 +1169,11 @@ msgstr "استمر"
 msgid "Legal"
 msgstr "قانوني"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 msgid "Terms of Service"
 msgstr "شروط الخدمة"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "سياسة الخصوصيّة"
 
@@ -1210,7 +1212,8 @@ msgstr "اقبل"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Cancel"
 msgstr "ألغِ"
 
@@ -1254,11 +1257,11 @@ msgstr ""
 msgid "Begin reset"
 msgstr "ابدأ التصفير"
 
-#: .es5/templates/settings.mustache:1
+#: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "حسابات فَيَرفُكس"
 
-#: .es5/templates/settings.mustache:2
+#: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
 msgid "Sign out"
 msgstr "تسجيل الخروج"
 
@@ -1398,7 +1401,7 @@ msgstr "أرسل فَيَرفُكس مباشرةً إلى هاتفك الذكي 
 msgid "Mobile phone number"
 msgstr "رقم الهاتف المحمول"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
 msgid "Send"
 msgstr "أرسِل"
 
@@ -1599,11 +1602,12 @@ msgstr "اشترك"
 msgid "Manage preferences"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Delete account"
 msgstr "احذف الحساب"
 
-#: .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
 msgstr "احذف…"
 
@@ -2075,6 +2079,115 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
+#: .es5/views/support.js:67
+msgid "Please Select One"
+msgstr ""
+
+#: .es5/models/sync-engines.js:62
+msgid "Logins and Passwords"
+msgstr ""
+
+#: .es5/models/sync-engines.js:70
+msgid "Open Tabs"
+msgstr ""
+
+#: .es5/models/sync-engines.js:90
+msgid "Credit Cards"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:583
+msgid "Invalid redirect"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:587
+msgid "Could not get Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">تنويه الخصوصيّة</a>."
+
+#: .es5/templates/settings.mustache:1
+msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+msgstr ""
+
+#: .es5/templates/subscription_terms.mustache:1
+msgid "Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/templates/support.mustache:2
+msgid "Contact Us"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What do you need help with?"
+msgstr ""
+
+#: .es5/templates/support.mustache:4
+msgid "General inquiries"
+msgstr ""
+
+#: .es5/templates/support.mustache:5
+msgid "Payment & billing"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
+msgid "Connection issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:7
+msgid "Getting started"
+msgstr ""
+
+#: .es5/templates/support.mustache:8
+msgid "Account issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
+msgid "Description of Issue"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:5
+msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:14
+msgid "Please acknowledge that by deleting your account:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:16
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:17
+msgid "Reactivating with this email may not restore your saved information"
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
 #~ msgid "%(email)s registered."
 #~ msgstr "سُجّل %(email)s."
 
@@ -2195,8 +2308,12 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "الكعكات والتخزين المحلي مطلوبة."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">سياسة الخصوصيّة</a> لخدمات فَيَرفُكس السحابية."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">شروط الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">سياسة الخصوصيّة</a> لخدمات فَيَرفُكس "
+#~ "السحابية."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "خدمات فَيَرفُكس السّحابيّة"

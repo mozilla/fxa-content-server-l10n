@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"POT-Creation-Date: 2019-08-05 12:05+0000\n"
 "PO-Revision-Date: 2019-07-30 22:50+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,7 +210,7 @@ msgstr "Man etaman ta ruk'isib'äl ramaj ximon"
 msgid "Subscribed successfully"
 msgstr "Ütz xtz'ib'äx"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
 msgid "Account deleted successfully"
 msgstr "Xyuj ütz ri rub'i' taqoya'l"
 
@@ -333,10 +333,11 @@ msgid "Printed"
 msgstr "Tz'ajb'en"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/models/auth_brokers/base.js:111
 msgid "Primary email verified successfully"
 msgstr "Ütz xub'än toq xjikib'äx ri nab'ey taqoya'l"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
@@ -376,11 +377,11 @@ msgstr "Taq ch'utit'im pwäq"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
 msgid "Secondary email verified successfully"
 msgstr "Ütz xub'än toq xjikib'äx ri ruka'n taqoya'l"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Xtzolïx ütz ri ewan tzij"
 
@@ -867,8 +868,12 @@ msgid "Invalid Token"
 msgstr "Me'okel Jaqb'äl"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -934,7 +939,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Tatz'ib'aj ri kolonel ewan tzij xa xe jun rokisaxik xayäk pa jun ütz k'ojlib'äl richin naköl awokem pa ri Rub'i' Ataqoya'l richin Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE:</span> We natzolij ri ewan atzij xa xe chi man ayakon ta ri kolonel ewan rutzij ataqoya'l, xkeyujtäj jun taq atzij (ke ri' ri taq rutzij k'uxasamaj eximon, achi'el ri "
 "natab'äl chuqa' ri taq yaketal)."
@@ -977,6 +983,7 @@ msgstr "Keyak taq cha'oj"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
+#: .es5/templates/subscription_terms.mustache:2
 msgid "Back"
 msgstr "Chi rij"
 
@@ -997,8 +1004,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>TANATAJ:</span> Toq ye'atzolij ewan taq tzij, chuqa' natzolij ri rub'i' ataqoya'l. Rik'in jub'a' k'o awetamab'al xkesach (natab'äl, ewan taq tzij chuqa' taq yaketal). Nik'ulwachitäj ruma qewan"
-" rusik'ixik ri awetamab'al rik'in ri ewan atzij richin niqachajij ri awichinanem."
+"<span>TANATAJ:</span> Toq ye'atzolij ewan taq tzij, chuqa' natzolij ri rub'i' ataqoya'l. Rik'in jub'a' k'o awetamab'al xkesach (natab'äl, ewan taq tzij chuqa' taq yaketal). Nik'ulwachitäj ruma "
+"qewan rusik'ixik ri awetamab'al rik'in ri ewan atzij richin niqachajij ri awichinanem."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1131,7 +1138,7 @@ msgstr "Titikirisäx molojri'ïl richin ri samaj"
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Ewan tzij"
 
@@ -1144,8 +1151,8 @@ msgstr "¿La xmestäx ri ewan tzij?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Rutzijol Ichinanem</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1166,11 +1173,11 @@ msgstr "Titikïr chik el"
 msgid "Legal"
 msgstr "Taqanel rutzijol"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 msgid "Terms of Service"
 msgstr "Taq Rojqanem Samaj"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Rutzijol Ichinanem"
 
@@ -1209,7 +1216,8 @@ msgstr "Tik'ul"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Cancel"
 msgstr "Tiq'at"
 
@@ -1253,11 +1261,11 @@ msgstr ""
 msgid "Begin reset"
 msgstr "Titikirisäx nitzolïx"
 
-#: .es5/templates/settings.mustache:1
+#: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: .es5/templates/settings.mustache:2
+#: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
 msgid "Sign out"
 msgstr "Titz'apïx molojri'ïl"
 
@@ -1397,7 +1405,7 @@ msgstr "Jumul tataqa' ri Firefox pan awoyonib'al chuqa' tatikirisaj molojri'ïl 
 msgid "Mobile phone number"
 msgstr "Rajilab'al k'wayel oyonib'ä"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
 msgid "Send"
 msgstr "Titaq"
 
@@ -1600,11 +1608,12 @@ msgstr "Titz'ib'äx nub'i'"
 msgid "Manage preferences"
 msgstr "Kenuk'samajïx taq ajowanïk"
 
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Delete account"
 msgstr "Tiyuj rub'i' taqoya'l"
 
-#: .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
 msgstr "Tiyuj…"
 
@@ -1613,8 +1622,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"We nawokisaj re rub'i' taqoya'l re pa taq chokoy chuqa' taq rusamaj Mozilla achi'el AMO, Pocket chuqa' Screenshots nab'ey k'atzinel natikirisaj molojri'ïl chuqa' ye'ayüj xab'achike awetamab'al yakäl"
-" kan. Toq nayüj ri rub'i' ataqoya'l wawe', man xkatok ta chik chupam pa xab'akuchi'."
+"We nawokisaj re rub'i' taqoya'l re pa taq chokoy chuqa' taq rusamaj Mozilla achi'el AMO, Pocket chuqa' Screenshots nab'ey k'atzinel natikirisaj molojri'ïl chuqa' ye'ayüj xab'achike awetamab'al "
+"yakäl kan. Toq nayüj ri rub'i' ataqoya'l wawe', man xkatok ta chik chupam pa xab'akuchi'."
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1790,7 +1799,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 ruxak 2: Tiyak Kolonel Ewan Tzij"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">NOTE: </span>We namestaj ri ewan atzij, re ewan tzij re' k'atzinel richin naköl awokem pa ri taq atzij. Tayaka' ri kolonel ewan atzij pa jun ütz k'ojlib'äl, akuchi' anin nawïl."
 
@@ -2078,6 +2088,115 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
+#: .es5/views/support.js:67
+msgid "Please Select One"
+msgstr ""
+
+#: .es5/models/sync-engines.js:62
+msgid "Logins and Passwords"
+msgstr ""
+
+#: .es5/models/sync-engines.js:70
+msgid "Open Tabs"
+msgstr ""
+
+#: .es5/models/sync-engines.js:90
+msgid "Credit Cards"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:583
+msgid "Invalid redirect"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:587
+msgid "Could not get Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Rutzijol Ichinanem</a>."
+
+#: .es5/templates/settings.mustache:1
+msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+msgstr ""
+
+#: .es5/templates/subscription_terms.mustache:1
+msgid "Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/templates/support.mustache:2
+msgid "Contact Us"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What do you need help with?"
+msgstr ""
+
+#: .es5/templates/support.mustache:4
+msgid "General inquiries"
+msgstr ""
+
+#: .es5/templates/support.mustache:5
+msgid "Payment & billing"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
+msgid "Connection issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:7
+msgid "Getting started"
+msgstr ""
+
+#: .es5/templates/support.mustache:8
+msgid "Account issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
+msgid "Description of Issue"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:5
+msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:14
+msgid "Please acknowledge that by deleting your account:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:16
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:17
+msgid "Reactivating with this email may not restore your saved information"
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s xtz'ib'äx rub'i'."
 
@@ -2210,8 +2329,12 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "E k'atzinel ri taq kaxlanwey chuqa' ri aj wawe' yakoj etamab'äl."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Rutzijol Ichinanem</a> "
+#~ "richin ri taq samaj pa rusutz' Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Taq samaj pa rusutz' Firefox"
@@ -2267,8 +2390,8 @@ msgstr ""
 #~ msgstr "¿Achike ruma toq yexim ka'i' (o ch'aqa' chik!) taq okisaxel?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Ri Sync nuya' q'ij chawe ye'akomonij pa ch'aqa' chik taq okisaxel ri taq yaketal, natab'äl chuqa' taq ewan tzij ri ye'ayäk pa jun okisaxel rik'in Firefox. Tatikirisaj molojri'ïl pa Firefox pan "
 #~ "awoyonib'al o na'onel kematz'ib' richin nib'eq'alajin pe ronojel ri ayakon pa ri ajch'atal Firefox."
@@ -2383,18 +2506,18 @@ msgstr ""
 #~ msgstr "Titikirisäx molojri'ïl"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>REMEMBER:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij "
 #~ "rik'in ri ewan atzij richin niqachajij ri awichinanem."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTE:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij rik'in ri"
-#~ " ewan atzij richin niqachajij ri awichinanem."
+#~ "<span>NOTE:</span> We natzolij ri ewan atzij, xkeyujtäj el jujun taq atzij (achi'el ri ximon taq rutzij k'uxasamaj, achi'el ri natab'äl chuqa' taq yaketal). Ruma chi qewan rusik'ixik atzij "
+#~ "rik'in ri ewan atzij richin niqachajij ri awichinanem."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Titz'aqatisäx jun rutz'aqat rij rujikomal rub'i' ataqoya'l rik'in nak'utuj jikomal taq b'itz'ib' pa jun chi ke <a %(escapedTotpSupportAttributes)s>re taq ruchokoy jikib'anïk.</a>"

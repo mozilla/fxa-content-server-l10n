@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"POT-Creation-Date: 2019-08-05 12:05+0000\n"
 "PO-Revision-Date: 2018-08-31 20:55+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,11 +47,11 @@ msgstr "Синхронлауга керү"
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
 #: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 lib/senders/templates/verify_trailhead.html:1
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Хисаплары"
 
-#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1 lib/senders/email.js:1576
+#: lib/senders/templates/low_recovery_codes.html:2 lib/senders/templates/low_recovery_codes.txt:1
 msgid "Low recovery codes remaining"
 msgstr "Коткару кодлары аз калды"
 
@@ -134,7 +134,6 @@ msgid "For more information, please visit %(supportUrl)s"
 msgstr "Күбрәк белү өчен, %(supportUrl)s адресын зиярәт итегез"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:1224
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s өчен яңа керү"
 
@@ -270,7 +269,7 @@ msgstr "Хөрмәт илә,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Хисап язмалары такымы"
 
-#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1 lib/senders/email.js:1609
+#: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1
 msgid "Account recovery key generated"
 msgstr "Хисапны торгызу ачкычы яратылды"
 
@@ -290,7 +289,7 @@ msgstr "Түбәндәге җиһазны кулланып, Firefox Хисап �
 msgid "If this was not you, revoke key."
 msgstr "Әгәр дә моны Сез эшләмәгән булсагыз, ачкычны кире кайтарыгыз."
 
-#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1 lib/senders/email.js:1416
+#: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1
 msgid "Two-step authentication enabled"
 msgstr "Ике адымлы аутентификация кабызылды"
 
@@ -318,7 +317,7 @@ msgstr ""
 "Төп электрон почта адресыгызны %(email)s адресына уңышлы үзгәрттегез. Бу адрес хәзер Firefox хисап язмагызга керү өчен кулланучы исемегез булачак. Хәвефсезлек белдерүләре һәм хисап язмагызга керү "
 "хакындагы раслаулар да бу адресыгызга киләчәк."
 
-#: lib/senders/templates/post_consume_recovery_code.html:2 lib/senders/email.js:1536
+#: lib/senders/templates/post_consume_recovery_code.html:2
 msgid "Recovery code consumed"
 msgstr "Коткару коды кулланылды"
 
@@ -330,7 +329,7 @@ msgstr "Түбәндәге җиһаздан алынган коткару код
 msgid "Consumed recovery code"
 msgstr "Кулланылган коткару коды"
 
-#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1 lib/senders/email.js:1496
+#: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1
 msgid "New recovery codes generated"
 msgstr "Яңа коткару кодлары яратылды"
 
@@ -338,7 +337,7 @@ msgstr "Яңа коткару кодлары яратылды"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Түбәндәге җиһаз ярдәмендә яңа коткару кодларын яратттыгыз:"
 
-#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1 lib/senders/email.js:1652
+#: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1
 msgid "Account recovery key removed"
 msgstr "Хисапны коткару ачкычы бетерелде"
 
@@ -367,11 +366,11 @@ msgstr "Сез Firefox хисап язмагызда икенче электро
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
 #: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6
-#: lib/senders/templates/verify_trailhead.txt:4
+#: lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2 lib/senders/subscription-templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Бу автоматик электрон хат. Аның килүе бер хата аркасында булды дип уйласагыз, берни дә эшләргә кирәкми."
 
-#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1 lib/senders/email.js:1456
+#: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
 msgstr "Ике адымлы аутентификация сүндерелде"
 
@@ -541,7 +540,7 @@ msgstr "Керүне раслау"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Әгәр кем дә булса Сезнең хисабыгызга ирешергә тырыша дип уйласагыз, <a %(passwordChangeLinkAttributes)s>зинһар паролыгызны авыштырыгыз</a>."
 
-#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:970
+#: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1
 msgid "Verify primary email"
 msgstr "Беренчел эл. почтагызны раслау"
 
@@ -569,7 +568,7 @@ msgstr "Эл. почта раслау: "
 msgid "If you did not authorize this action, please change your password."
 msgstr "Әгәр дә Сез бу гамәлгә рөхсәт бирмәгәнсез икән, паролыгызны үзгәртегез."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:1032
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
 msgstr "Икенчел эл. почтаны раслау"
 
@@ -609,101 +608,201 @@ msgstr ""
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
 
-#: lib/senders/email.js:229
+#: lib/senders/subscription-templates/downloadSubscription.html:2
+msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+msgstr ""
+
+#: lib/senders/subscription-templates/downloadSubscription.html:3
+msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/subscription-templates/downloadSubscription.txt:2
+msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/subscription-templates/downloadSubscription.txt:3
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.html:3
+msgid "Terms and cancellation policy"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.html:4
+msgid "Privacy notice"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.txt:2
+msgid "Terms and cancellation policy:"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.txt:3
+msgid "Privacy notice:"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.txt:4
+msgid "Cancel subscription:"
+msgstr ""
+
+#: lib/senders/subscription-templates/layouts/subscription.txt:5
+msgid "Update billing information:"
+msgstr ""
+
+#: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s ОС'ында %(uaBrowser)s"
 
-#: lib/senders/email.js:234
+#: lib/senders/email.js:249
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s ОС'ында %(uaBrowser)s"
 
-#: lib/senders/email.js:260
+#: lib/senders/email.js:275
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (чама белән)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:282
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (чама белән)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:287
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (чама белән)"
 
-#: lib/senders/email.js:277
+#: lib/senders/email.js:292
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (чама белән)"
 
-#: lib/senders/email.js:635
-msgid "Verify your Firefox Account"
-msgstr "Firefox Хисабыгызны раслагыз"
+#: lib/senders/email.js:667
+msgid "Verify Your Account"
+msgstr ""
 
-#: lib/senders/email.js:669
+#: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
 msgstr "Эл. почтагызны раслагыз һәм синхронлый башлагыз!"
 
-#: lib/senders/email.js:677
+#: lib/senders/email.js:709
 msgid "Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:713
-msgid "Reminder: Finish Creating Your Account"
+#: lib/senders/email.js:745
+msgid "Reminder: Complete Registration"
 msgstr ""
 
-#: lib/senders/email.js:715
-msgid "Final reminder: Confirm your email to activate your Firefox Account"
+#: lib/senders/email.js:747
+msgid "Final Reminder: Activate Your Account"
 msgstr ""
 
-#: lib/senders/email.js:781
-msgid "Firefox Account authorization code"
-msgstr "Firefox хисабыгызның авторизация коды"
-
-#: lib/senders/email.js:839
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "%(clientName)s җиһазына яңа керүне раслагыз"
-
-#: lib/senders/email.js:909
-msgid "Sign-in code for Firefox"
-msgstr "Firefox'ка керү коды"
-
-#: lib/senders/email.js:1094
-msgid "Reset your Firefox Account password"
-msgstr "Firefox Хисабы паролын алыштыру"
-
-#: lib/senders/email.js:1132
-msgid "Your Firefox Account password has been changed"
-msgstr "Сезнең Firefox Хисабыгызның паролы үзгәртелде"
-
-#: lib/senders/email.js:1168
-msgid "Firefox Account password changed"
-msgstr "Firefox Хисабының паролы үзгәртелде"
-
-#: lib/senders/email.js:1197
-msgid "Firefox Account password reset required"
-msgstr "Firefox хисабының паролын үзгәртү кирәк"
-
-#: lib/senders/email.js:1263
-msgid "Firefox Account verified"
-msgstr "Firefox хисап язмасы расланды"
-
-#: lib/senders/email.js:1268
-msgid "Your Firefox Account is Confirmed"
+#: lib/senders/email.js:813
+msgid "Authorization Code for %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:1319
-msgid "Secondary Firefox Account email added"
-msgstr "Firefox Хисабына икенчел эл. почта өстәлде"
+#: lib/senders/email.js:871
+msgid "Confirm New Sign-in"
+msgstr ""
 
-#: lib/senders/email.js:1352
-msgid "Firefox Account new primary email"
-msgstr "Firefox Хисабының яңа беренчел эл. почтасы"
+#: lib/senders/email.js:939
+msgid "Sign-in Code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:1385
-msgid "Secondary Firefox Account email removed"
-msgstr "Икенчел Firefox Хисабы эл. почтасы бетерелде"
+#: lib/senders/email.js:1001
+msgid "Verify Primary Email"
+msgstr ""
 
-#: lib/senders/email.js:1695
-msgid "Firefox Account password reset with recovery key"
-msgstr "Firefox Хисабының паролы коткару коды ярдәмендә алыштырылды"
+#: lib/senders/email.js:1063
+msgid "Verify Secondary Email"
+msgstr ""
+
+#: lib/senders/email.js:1125
+msgid "Reset Your Password"
+msgstr ""
+
+#: lib/senders/email.js:1163
+msgid "Password Changed"
+msgstr ""
+
+#: lib/senders/email.js:1199
+msgid "Password Updated"
+msgstr ""
+
+#: lib/senders/email.js:1228
+msgid "Suspicious Activity: Password Reset Required"
+msgstr ""
+
+#: lib/senders/email.js:1254
+msgid "New Sign-in to %(clientName)s"
+msgstr ""
+
+#: lib/senders/email.js:1289
+msgid "Account Verified"
+msgstr ""
+
+#: lib/senders/email.js:1294
+msgid "Account Confirmed"
+msgstr ""
+
+#: lib/senders/email.js:1345
+msgid "Secondary Email Added"
+msgstr ""
+
+#: lib/senders/email.js:1378
+msgid "New Primary Email"
+msgstr ""
+
+#: lib/senders/email.js:1411
+msgid "Secondary Email Removed"
+msgstr ""
+
+#: lib/senders/email.js:1442
+msgid "Two-Step Authentication Enabled"
+msgstr ""
+
+#: lib/senders/email.js:1482
+msgid "Two-Step Authentication Disabled"
+msgstr ""
+
+#: lib/senders/email.js:1522
+msgid "New Recovery Codes Generated"
+msgstr ""
+
+#: lib/senders/email.js:1562
+msgid "Recovery Code Used"
+msgstr ""
+
+#: lib/senders/email.js:1604
+msgid "1 Recovery Code Remaining"
+msgstr ""
+
+#: lib/senders/email.js:1606
+msgid "%(numberRemaining)s Recovery Codes Remaining"
+msgstr ""
+
+#: lib/senders/email.js:1646
+msgid "Account Recovery Key Generated"
+msgstr ""
+
+#: lib/senders/email.js:1689
+msgid "Account Recovery Key Removed"
+msgstr ""
+
+#: lib/senders/email.js:1732
+msgid "Password Updated Using Recovery Key"
+msgstr ""
+
+#: lib/senders/email.js:1773
+msgid "Welcome to Secure Proxy!"
+msgstr ""
+
+#: lib/senders/email.js:1774
+msgid "Download Secure Proxy"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -755,6 +854,10 @@ msgstr "Firefox хисап язмалары өчен JavaScript кирәк."
 msgid "Privacy Notice"
 msgstr "Хосусыйлык искәртүе"
 
+#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
+msgid "Subscription Platform Terms of Service"
+msgstr ""
+
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Куллану шартлары"
@@ -774,6 +877,45 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Firefox Хисабыгызны раслагыз"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Firefox хисабыгызның авторизация коды"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "%(clientName)s җиһазына яңа керүне раслагыз"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Firefox'ка керү коды"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Firefox Хисабы паролын алыштыру"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Сезнең Firefox Хисабыгызның паролы үзгәртелде"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Firefox Хисабының паролы үзгәртелде"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Firefox хисабының паролын үзгәртү кирәк"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Firefox хисап язмасы расланды"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Firefox Хисабына икенчел эл. почта өстәлде"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Firefox Хисабының яңа беренчел эл. почтасы"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "Икенчел Firefox Хисабы эл. почтасы бетерелде"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "Firefox Хисабының паролы коткару коды ярдәмендә алыштырылды"
 
 #~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
 #~ msgstr "Сез сораган бит табылмады. Без моның турында хәбәр алдык, һәм хаталы була алучы сылтамаларны төзәтәчәкбез."

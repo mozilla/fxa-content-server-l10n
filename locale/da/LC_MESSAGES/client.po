@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"POT-Creation-Date: 2019-08-05 12:05+0000\n"
 "PO-Revision-Date: 2019-07-26 09:29+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -210,7 +210,7 @@ msgstr "Seneste synkroniseringstidspunkt ukendt"
 msgid "Subscribed successfully"
 msgstr "Abonnement startet"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
 msgid "Account deleted successfully"
 msgstr "Kontoen er slettet"
 
@@ -333,10 +333,11 @@ msgid "Printed"
 msgstr "Udskrevet"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/models/auth_brokers/base.js:111
 msgid "Primary email verified successfully"
 msgstr "Primær mailadresse bekræftet"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Konto bekræftet"
 
@@ -376,11 +377,11 @@ msgstr "Kreditkort"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
 msgid "Secondary email verified successfully"
 msgstr "Sekundær mailadresse bekræftet"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Adgangskoden er blevet nulstillet"
 
@@ -867,7 +868,9 @@ msgid "Invalid Token"
 msgstr "Ugyldigt token"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
@@ -934,10 +937,11 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Indtast engangs-genoprettelsesnøglen, du gemte et sikkert sted, for at få adgang til din Firefox-konto igen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data"
-" som fx historik og bogmærker)."
+"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-"
+"data som fx historik og bogmærker)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -977,6 +981,7 @@ msgstr "Gem valg"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
+#: .es5/templates/subscription_terms.mustache:2
 msgid "Back"
 msgstr "Tilbage"
 
@@ -1131,7 +1136,7 @@ msgstr "Log ind for at fortsætte"
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Adgangskode"
 
@@ -1144,8 +1149,8 @@ msgstr "Glemt adgangskode?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "Ved at fortsætte accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitikken</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1166,11 +1171,11 @@ msgstr "Fortsæt"
 msgid "Legal"
 msgstr "Juridisk"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 msgid "Terms of Service"
 msgstr "Tjenestevilkår"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Privatlivspolitik"
 
@@ -1209,7 +1214,8 @@ msgstr "Accepter"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -1253,11 +1259,11 @@ msgstr ""
 msgid "Begin reset"
 msgstr "Start nulstilling"
 
-#: .es5/templates/settings.mustache:1
+#: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
 
-#: .es5/templates/settings.mustache:2
+#: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
 msgid "Sign out"
 msgstr "Log ud"
 
@@ -1397,7 +1403,7 @@ msgstr "Send Firefox direkte til din smartphone og log ind for at fuldføre ops�
 msgid "Mobile phone number"
 msgstr "Mobilnummer"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
 msgid "Send"
 msgstr "Send"
 
@@ -1600,11 +1606,12 @@ msgstr "Abonner"
 msgid "Manage preferences"
 msgstr "Håndter indstillinger"
 
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Delete account"
 msgstr "Slet konto"
 
-#: .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
 msgstr "Slet…"
 
@@ -1790,7 +1797,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Trin 2 af 2: Gem genoprettelsesnøgle"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">BEMÆRK: </span>Hvis du glemmer din adgangskode, er denne nøgle påkrævet for at få adgang til dine data. Gem din genoprettelsesnøgle et sikkert sted, hvor du nemt kan finde den "
 "senere."
@@ -2079,6 +2087,116 @@ msgstr "Opdateringen blev afvist, prøv igen"
 msgid "Avatar"
 msgstr "Avatar"
 
+#: .es5/views/support.js:67
+msgid "Please Select One"
+msgstr ""
+
+#: .es5/models/sync-engines.js:62
+msgid "Logins and Passwords"
+msgstr ""
+
+#: .es5/models/sync-engines.js:70
+msgid "Open Tabs"
+msgstr ""
+
+#: .es5/models/sync-engines.js:90
+msgid "Credit Cards"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:583
+msgid "Invalid redirect"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:587
+msgid "Could not get Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr ""
+"Ved at fortsætte accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitikken</a>."
+
+#: .es5/templates/settings.mustache:1
+msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+msgstr ""
+
+#: .es5/templates/subscription_terms.mustache:1
+msgid "Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/templates/support.mustache:2
+msgid "Contact Us"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What do you need help with?"
+msgstr ""
+
+#: .es5/templates/support.mustache:4
+msgid "General inquiries"
+msgstr ""
+
+#: .es5/templates/support.mustache:5
+msgid "Payment & billing"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
+msgid "Connection issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:7
+msgid "Getting started"
+msgstr ""
+
+#: .es5/templates/support.mustache:8
+msgid "Account issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
+msgid "Description of Issue"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:5
+msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:14
+msgid "Please acknowledge that by deleting your account:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:16
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:17
+msgid "Reactivating with this email may not restore your saved information"
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registreret."
 
@@ -2214,8 +2332,12 @@ msgstr "Avatar"
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies og lokalt lager er påkrævet."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">vilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitik</a> for Firefox Cloud Services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">vilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitik</a> for Firefox "
+#~ "Cloud Services."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox Cloud Services"
@@ -2272,18 +2394,18 @@ msgstr "Avatar"
 #~ msgstr "Hvorfor synkronisere to (eller flere) enheder?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du har "
-#~ "gemt på Firefox til computer vil dukke op."
+#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du "
+#~ "har gemt på Firefox til computer vil dukke op."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du miste "
-#~ "alle data, som er gemt med den gamle adgangskode."
+#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du "
+#~ "miste alle data, som er gemt med den gamle adgangskode."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2388,18 +2510,18 @@ msgstr "Avatar"
 #~ msgstr "Log ind"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>Husk:</span> Hvis du nulstiller din adgangskode, vil nogle af dine data blive slettet (inklusive synkroniserede server-data som fx historik og bogmærker). Det skyldes, at vi krypterer dine "
 #~ "data med din adgangskode for at beskytte dit privatliv."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>Bemærk:</span> Hvis du nulstiller din adgangskode, vil nogle af dine data blive slettet (inklusive synkroniserede server-data som fx historik og bogmærker). Det skyldes, at vi krypterer dine "
-#~ "data med din adgangskode for at beskytte dit privatliv."
+#~ "<span>Bemærk:</span> Hvis du nulstiller din adgangskode, vil nogle af dine data blive slettet (inklusive synkroniserede server-data som fx historik og bogmærker). Det skyldes, at vi krypterer "
+#~ "dine data med din adgangskode for at beskytte dit privatliv."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Tilføj et ekstra sikkerhedslag til din konto ved at kræve sikkerhedskoder fra en af <a %(escapedTotpSupportAttributes)s>disse godkendelsesapps.</a>"
@@ -2524,18 +2646,20 @@ msgstr "Avatar"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-indstillinger"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du en konto med en anden mailadresse? <a href=\"%(signinUri)s\">Log ind</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sidst aktiv: %(translatedTimeAgo)s"
@@ -2902,11 +3026,19 @@ msgstr "Avatar"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du allerede en konto? Log ind."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a>."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</"
+#~ "a>."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">tjenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitik</a> for Firefox online-tjenester."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">tjenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">privatlivspolitik</a> for "
+#~ "Firefox online-tjenester."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonner på nyheder og tips om Firefox"
