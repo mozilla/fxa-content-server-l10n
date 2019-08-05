@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-22 14:49+0000\n"
-"PO-Revision-Date: 2019-07-26 09:34+0000\n"
+"PO-Revision-Date: 2019-08-05 10:07+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -598,7 +598,7 @@ msgstr "Aktivirajte družino Firefoxovih izdelkov"
 
 #: lib/senders/templates/verify_trailhead.html:3
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Potrdite svoj račun in kar najbolje izkoristite Firefox na vseh napravah, začenši z:"
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
