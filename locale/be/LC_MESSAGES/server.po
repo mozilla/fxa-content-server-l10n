@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 19:33+0000\n"
+"PO-Revision-Date: 2019-08-05 19:38+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -610,19 +610,19 @@ msgstr "Пацвердзіце свой уліковы запіс і атрым�
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Пытанні наконт вашай падпіскі? Наша <a %(supportLinkAttributes)s>служба падтрымкі</a> тут, каб дапамагчы вам."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
