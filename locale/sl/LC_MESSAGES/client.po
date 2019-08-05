@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:49+0000\n"
+"POT-Creation-Date: 2019-08-05 12:05+0000\n"
 "PO-Revision-Date: 2019-07-22 19:14+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,7 +210,7 @@ msgstr "Čas zadnje sinhronizacije neznan"
 msgid "Subscribed successfully"
 msgstr "Prijava uspešna"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
 msgid "Account deleted successfully"
 msgstr "Vaš račun je bil uspešno izbrisan"
 
@@ -333,10 +333,11 @@ msgid "Printed"
 msgstr "Natisnjeno"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
+#: .es5/models/auth_brokers/base.js:111
 msgid "Primary email verified successfully"
 msgstr "Glavni e-poštni naslov uspešno potrjen"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33
+#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Račun uspešno potrjen"
 
@@ -376,11 +377,11 @@ msgstr "Kreditne kartice"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
 msgid "Secondary email verified successfully"
 msgstr "Drugi e-poštni naslov uspešno potrjen"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36
+#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Geslo uspešno ponastavljeno"
 
@@ -867,8 +868,12 @@ msgid "Invalid Token"
 msgstr "Neveljaven žeton"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -934,7 +939,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Da si povrnete dostop do Firefox Računa, vnesite obnovitveni ključ za enkratno uporabo, ki ste ga bili shranili na varnem mestu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">POZOR:</span> Če ponastavite svoje geslo, ne da bi vnesli obnovitveni ključ, bodo nekateri od vaših podatkov izbrisani (vključno s sinhroniziranimi podatki, kot so zaznamki in "
 "zgodovina)."
@@ -977,6 +983,7 @@ msgstr "Shrani izbire"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
+#: .es5/templates/subscription_terms.mustache:2
 msgid "Back"
 msgstr "Nazaj"
 
@@ -1131,7 +1138,7 @@ msgstr "Prijavite se za nadaljevanje"
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Geslo"
 
@@ -1144,8 +1151,8 @@ msgstr "Ste pozabili geslo?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">obvestilo o zasebnosti</a>."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1166,11 +1173,11 @@ msgstr "Nadaljuj"
 msgid "Legal"
 msgstr "Pravni pouk"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 msgid "Terms of Service"
 msgstr "Pogoji uporabe"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Obvestilo o zasebnosti"
 
@@ -1209,7 +1216,8 @@ msgstr "Sprejmi"
 #: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4
+#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Cancel"
 msgstr "Prekliči"
 
@@ -1253,11 +1261,11 @@ msgstr ""
 msgid "Begin reset"
 msgstr "Začni ponastavitev"
 
-#: .es5/templates/settings.mustache:1
+#: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
-#: .es5/templates/settings.mustache:2
+#: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
 msgid "Sign out"
 msgstr "Odjava"
 
@@ -1397,7 +1405,7 @@ msgstr "Pošljite si Firefox naravnost na pametni telefon in se prijavite za dok
 msgid "Mobile phone number"
 msgstr "Številka mobilnega telefona"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
 msgid "Send"
 msgstr "Pošlji"
 
@@ -1598,11 +1606,12 @@ msgstr "Prijava"
 msgid "Manage preferences"
 msgstr "Upravljanje nastavitev"
 
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Delete account"
 msgstr "Odstrani račun"
 
-#: .es5/templates/settings/delete_account.mustache:2
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
 msgstr "Izbriši …"
 
@@ -1788,7 +1797,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Korak 2 od 2: Shranite obnovitveni ključ"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">POZOR: </span>Če pozabite geslo računa, boste potrebovali ta ključ za povrnitev dostopa do svojih podatkov. Shranite obnovitveni ključ na varno mesto, kjer ga boste po potrebi "
 "imeli pri roki."
@@ -2077,6 +2087,115 @@ msgstr "Posodobitev je bila zavrnjena, poskusite znova"
 msgid "Avatar"
 msgstr "Avatar"
 
+#: .es5/views/support.js:67
+msgid "Please Select One"
+msgstr ""
+
+#: .es5/models/sync-engines.js:62
+msgid "Logins and Passwords"
+msgstr ""
+
+#: .es5/models/sync-engines.js:70
+msgid "Open Tabs"
+msgstr ""
+
+#: .es5/models/sync-engines.js:90
+msgid "Credit Cards"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:583
+msgid "Invalid redirect"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:587
+msgid "Could not get Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
+#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+msgstr "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">obvestilo o zasebnosti</a>."
+
+#: .es5/templates/settings.mustache:1
+msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+msgstr ""
+
+#: .es5/templates/subscription_terms.mustache:1
+msgid "Subscription Platform Terms of Service"
+msgstr ""
+
+#: .es5/templates/support.mustache:2
+msgid "Contact Us"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What do you need help with?"
+msgstr ""
+
+#: .es5/templates/support.mustache:4
+msgid "General inquiries"
+msgstr ""
+
+#: .es5/templates/support.mustache:5
+msgid "Payment & billing"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
+msgid "Connection issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:7
+msgid "Getting started"
+msgstr ""
+
+#: .es5/templates/support.mustache:8
+msgid "Account issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
+msgid "Description of Issue"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:5
+msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:14
+msgid "Please acknowledge that by deleting your account:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:16
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:17
+msgid "Reactivating with this email may not restore your saved information"
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registriran."
 
@@ -2209,8 +2328,12 @@ msgstr "Avatar"
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Piškotki in lokalna shramba so obvezni."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Obvestilo o zasebnosti</a> storitev Firefox v oblaku."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Obvestilo o zasebnosti</a> "
+#~ "storitev Firefox v oblaku."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Storitve Firefox v oblaku"
@@ -2267,11 +2390,11 @@ msgstr "Avatar"
 #~ msgstr "Zakaj naj sinhroniziram več naprav?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sinhronizacija vam omogoča deliti zaznamke, zgodovino in gesla, ki ste jih shranili v Firefoxu na eni napravi, z drugimi napravami. Prijavite se v Firefox na telefonu ali tablici in pojavilo se bo "
-#~ "vse, kar ste shranili v Firefoxu za namizja."
+#~ "Sinhronizacija vam omogoča deliti zaznamke, zgodovino in gesla, ki ste jih shranili v Firefoxu na eni napravi, z drugimi napravami. Prijavite se v Firefox na telefonu ali tablici in pojavilo se "
+#~ "bo vse, kar ste shranili v Firefoxu za namizja."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2383,15 +2506,15 @@ msgstr "Avatar"
 #~ msgstr "Prijava"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>POMEMBNO:</span> S ponastavitvijo gesla bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki na strežniku, kot so zgodovina in zaznamki). To je neizogibno, saj zaradi "
 #~ "zaščite zasebnosti vaše podatke šifriramo na osnovi vašega gesla."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>OPOMBA:</span> S ponastavitvijo gesla bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki na strežniku, kot so zgodovina in zaznamki). To je neizogibno, saj zaradi "
 #~ "zaščite zasebnosti vaše podatke šifriramo na osnovi vašega gesla."
@@ -2516,16 +2639,19 @@ msgstr "Avatar"
 #~ msgid "Sync preferences"
 #~ msgstr "Nastavitve sinhronizacije"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Iščete Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite tukaj</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Imate račun z drugačnim e-poštnim naslovom? <a href=\"%(signinUri)s\">Prijava</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox je na voljo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> in <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox je na voljo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> in <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Zadnja aktivnost: %(translatedTimeAgo)s"
@@ -2711,7 +2837,8 @@ msgstr "Avatar"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Prosimo, omogočite piškotke v brskalniku, saj so zahtevani za Firefox Račune. Piškotki so majhni delci datotek, ki se shranjujejo v brskalniku in med drugim omogočajo, da si vas zapomni med sejami."
+#~ "Prosimo, omogočite piškotke v brskalniku, saj so zahtevani za Firefox Račune. Piškotki so majhni delci datotek, ki se shranjujejo v brskalniku in med drugim omogočajo, da si vas zapomni med "
+#~ "sejami."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kmalu prihaja na iOS!"
@@ -2854,11 +2981,19 @@ msgstr "Avatar"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Že imate račun? Prijavite se."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Z nadaljevanjem sprejemam <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Obvestilo o zasebnosti</a> storitev Firefox v oblaku."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Z nadaljevanjem sprejemam <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Pogoje uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Obvestilo o zasebnosti</a> "
+#~ "storitev Firefox v oblaku."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Naročite se na novice in nasvete o Firefoxu"
