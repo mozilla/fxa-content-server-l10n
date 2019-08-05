@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 17:25+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2019-08-05 21:25+0000\n"
+"Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -1147,7 +1147,7 @@ msgstr "Glemt adgangskode?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ved at fortsætte accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">privatlivspolitikken</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2085,39 +2085,39 @@ msgstr "Avatar"
 
 #: .es5/views/support.js:67
 msgid "Please Select One"
-msgstr ""
+msgstr "Vælg én"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Logins og adgangskoder"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Åbne faneblade"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Betalingskort"
 
 #: .es5/lib/auth-errors.js:583
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Ugyldig omdirigering"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Kunne ikke hente tjenestevilkår for abonnementsplatform"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Bruger er ikke logget ind"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "En anden bruger er logget ind"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Bruger eller session ikke bekræftet"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
@@ -2126,47 +2126,47 @@ msgstr "Ved at fortsætte accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\" 
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Dit betalingskort er udløbet. Opdater det <a %(escapedCcExpiredLinkAttrs)s>her</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Tjenestevilkår for abonnementsplatform"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Kontakt os"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Hvad har du brug for hjælp til?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "Generelle spørgsmål"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Betaling og fakturering"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Forbindelsesproblemer"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "Sådan kommer du i gang"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "Kontoproblemer"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Emne (valgfri)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Beskrivelse af problem"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -2178,19 +2178,19 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Bliver alle dine abonnementer annulleret"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Kan du miste gemte oplysninger og funktioner i Mozilla-produkter"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Vil genaktivering med denne mailadresse muligvis ikke gendanne dine gemte oplysninger"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, vi har problemer med vores system. Vi arbejder på at løse dem for dig og undskylder ulejligheden. Prøv igen senere."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registreret."
