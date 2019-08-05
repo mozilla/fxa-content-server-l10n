@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 19:32+0000\n"
+"PO-Revision-Date: 2019-08-05 19:47+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -2107,19 +2107,19 @@ msgstr "Njepłaćiwe dalesposrědkowanje"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Wužiwanske wuměnjenja abonementoweje platformy njedachu so wotwołać"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Wužiwar přizjewjeny njeje"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Druhi wužiwar je přizjewjeny"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Njewobkrućeny wužiwar abo njewobkrućene posedźenje"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
@@ -2128,47 +2128,47 @@ msgstr "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabi
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Waša kreditna karta je spadnyła. Prošu aktualizujće <a %(escapedCcExpiredLinkAttrs)s>tu</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Wužiwanske wuměnjenja abonementoweje platformy"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Kontakt"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Za čo trjebaće pomoc?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "Powšitkowne prašenja"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Płaćenje a wotličenje"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Zwiskowe problemy"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "Prěnje kroki"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "Problemy z wužiwarskim kontom"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Tema (na přeće)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Wopisanje problema"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
