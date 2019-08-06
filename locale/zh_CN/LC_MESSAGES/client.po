@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-06 00:19+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2019-08-06 00:22+0000\n"
+"Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -2090,7 +2090,7 @@ msgstr "无效重定向"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "无法获取订阅平台服务条款"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2115,7 +2115,7 @@ msgstr "您的信用卡已过期。请<a %(escapedCcExpiredLinkAttrs)s>点击这
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "订阅平台服务条款"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2139,7 +2139,7 @@ msgstr "连接问题"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "开始使用"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
