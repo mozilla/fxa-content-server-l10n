@@ -733,7 +733,7 @@ msgstr "Geslo je posodobljeno"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Sumljiva dejavnost: Potrebna je ponastavitev gesla"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
