@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 23:21+0000\n"
+"PO-Revision-Date: 2019-08-06 00:05+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -2070,7 +2070,7 @@ msgstr "头像"
 
 #: .es5/views/support.js:67
 msgid "Please Select One"
-msgstr ""
+msgstr "请选择一项"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
@@ -2119,7 +2119,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "联系我们"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
@@ -2127,7 +2127,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "常规查询"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
