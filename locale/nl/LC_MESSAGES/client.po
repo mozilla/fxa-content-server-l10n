@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 11:52+0000\n"
+"PO-Revision-Date: 2019-08-07 11:54+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -2137,39 +2137,39 @@ msgstr "Servicevoorwaarden van het abonnementplatform"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Contact"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Waarmee hebt u hulp nodig?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "Algemene vragen"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Betaling & facturatie"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Verbindingsproblemen"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "Aan de slag"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "Accountproblemen"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Onderwerp (optioneel)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Omschrijving van het probleem"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
