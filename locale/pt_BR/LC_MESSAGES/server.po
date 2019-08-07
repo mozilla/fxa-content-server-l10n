@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 12:06+0000\n"
+"PO-Revision-Date: 2019-08-07 17:32+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -627,7 +627,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Termos e política de cancelamento"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -643,7 +643,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Termos e política de cancelamento:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -683,7 +683,7 @@ msgstr "%(country)s (estimado)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Confirme sua conta"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -695,7 +695,7 @@ msgstr "Finalize a criação da sua conta"
 
 #: lib/senders/email.js:745
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Lembrete: Conclua o cadastro"
 
 #: lib/senders/email.js:747
 msgid "Final Reminder: Activate Your Account"
