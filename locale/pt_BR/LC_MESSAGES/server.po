@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 17:32+0000\n"
+"PO-Revision-Date: 2019-08-07 17:38+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -683,7 +683,7 @@ msgstr "%(country)s (estimado)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr "Confirme sua conta"
+msgstr "Verifique sua conta"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -699,11 +699,11 @@ msgstr "Lembrete: Conclua o cadastro"
 
 #: lib/senders/email.js:747
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Lembrete final: Ative sua conta"
 
 #: lib/senders/email.js:813
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Código de autorização de %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
@@ -723,7 +723,7 @@ msgstr ""
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Redefina sua senha"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
@@ -743,23 +743,23 @@ msgstr ""
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
-msgstr ""
+msgstr "Conta verificada"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Conta confirmada"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "E-mail secundário adicionado"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Novo e-mail principal"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "E-mail secundário removido"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
