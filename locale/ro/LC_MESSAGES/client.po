@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 22:30+0000\n"
+"PO-Revision-Date: 2019-08-07 22:52+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -75,7 +75,7 @@ msgstr "E-mail principal verificat"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Notificările despre cont vor fi de acum trimise și la %(secondaryEmailVerified)s."
+msgstr "Notificările privind contul vor fi de acum trimise și la %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
@@ -1639,7 +1639,7 @@ msgstr "Alege numele care să apară în Firefox când gestionezi contul."
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "O adresă de e-mail secundară este o altă adresă pentru a primi avertizări de securitate și pentru confirmarea dispozitivelor noi."
+msgstr "Un e-mail secundar este o altă adresă pentru primirea avertizărilor de securitate și pentru confirmarea dispozitivelor noi."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -2123,15 +2123,15 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Utilizatorul nu este conectat"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Un alt utilizator este conectat"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Utilizator sau sesiune neverificată"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
@@ -2162,11 +2162,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Plată și facturare"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Probleme privind conexiunea"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
@@ -2174,7 +2174,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "Probleme cu contul"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
