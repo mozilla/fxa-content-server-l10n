@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 18:22+0000\n"
+"PO-Revision-Date: 2019-08-08 01:13+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -639,7 +639,7 @@ msgstr "Cancelar inscrição"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Atualizar informações de cobrança"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -655,7 +655,7 @@ msgstr "Cancelar inscrição:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Atualizar informações de cobrança:"
 
 #: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -707,19 +707,19 @@ msgstr "Código de autorização de %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Confirmar novo acesso"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Código de acesso em %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Verificar e-mail principal"
 
 #: lib/senders/email.js:1063
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Verificar e-mail secundário"
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
@@ -735,7 +735,7 @@ msgstr "Senha atializada"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Atividade suspeita: Necessário redefinir a senha"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
