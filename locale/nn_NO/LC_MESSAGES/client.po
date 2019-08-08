@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 09:51+0000\n"
+"PO-Revision-Date: 2019-08-08 10:17+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1502,7 +1502,7 @@ msgstr "Kopla frå Sync?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Nettlesardataa vil framleis vera på %(deviceName)s, men vil ikkje lenger verta synkronisert med kontoen din."
+msgstr "Nettlesardataa vil framleis vere på %(deviceName)s, men vil ikkje lenger vere synkroniserte med kontoen din."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
