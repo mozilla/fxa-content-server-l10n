@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 08:50+0000\n"
+"PO-Revision-Date: 2019-08-08 09:26+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1146,7 +1146,7 @@ msgstr "Gløymt passordet?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ved å fortsetJe, godtek du <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernpraksis</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2086,11 +2086,11 @@ msgstr "Avatar"
 
 #: .es5/views/support.js:67
 msgid "Please Select One"
-msgstr ""
+msgstr "Vel ein"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Innloggingar og passord"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
