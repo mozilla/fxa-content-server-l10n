@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 09:26+0000\n"
+"PO-Revision-Date: 2019-08-08 09:51+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -325,7 +325,7 @@ msgstr "Klarte ikkje å kopiere. Kopier manuelt."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr "Lasta ned"
+msgstr "Nedlasta"
 
 #: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
@@ -575,7 +575,7 @@ msgstr "Mislykka på grunn av ein motstridande førespurnad, prøv igjen."
 
 #: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
-msgstr "Ukjend kunde for abonnement."
+msgstr "Ukjend abonnementsmottakar."
 
 #: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
@@ -1233,7 +1233,7 @@ msgstr "Rapportera uautorisert inloggning?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Du har fått e-post om forsøk på å få tillgang til kontoen din. Vil du rapportera denne aktiviteten som mistenkjeleg?"
+msgstr "Du har fått e-post om forsøk på å få tillgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkjeleg?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1530,7 +1530,7 @@ msgstr "Kople frå"
 
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr "Kopla frå"
+msgstr "Fråkopla"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
