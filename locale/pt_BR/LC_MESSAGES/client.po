@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 01:06+0000\n"
+"PO-Revision-Date: 2019-08-08 01:25+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2170,7 +2170,7 @@ msgstr "Descrição do problema"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Você conectou sua Conta Firefox a produtos da Mozilla que mantêm você seguro e produtivo na web:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
@@ -2182,15 +2182,15 @@ msgstr "Qualquer inscrição que você tenha será cancelada"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Você pode perder resursos e informações salvas dentro de produtos da Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Reativar com este e-mail pode não restaurar suas informações salvas"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, estamos com problemas em nosso sistema. Estamos trabalhando para corrigir para você e pedimos desculpas pelo transtorno. Tente novamente mais tarde."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrado."

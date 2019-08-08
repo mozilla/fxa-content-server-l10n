@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 01:13+0000\n"
+"PO-Revision-Date: 2019-08-08 01:30+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -611,7 +611,7 @@ msgstr "Confirme sua conta e tire o máximo proveito do Firefox onde quer que vo
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Se você ainda não baixou o %(product)s, vamos apresentar como usar todos os recursos incluídos em sua inscrição."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
@@ -619,7 +619,7 @@ msgstr "Dúvidas sobre sua inscrição? Nossa <a %(supportLinkAttributes)s>equip
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Se você ainda não baixou o %(product)s, vamos apresentar como usar todos os recursos incluídos em sua inscrição:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -739,7 +739,7 @@ msgstr "Atividade suspeita: Necessário redefinir a senha"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Novo acesso de %(clientName)s"
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
@@ -863,7 +863,7 @@ msgstr "Aviso de privacidade"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Termos do serviço da plataforma de inscrições"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
