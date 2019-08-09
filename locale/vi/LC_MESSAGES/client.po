@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-06 04:29+0000\n"
+"PO-Revision-Date: 2019-08-09 01:17+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -1151,7 +1151,7 @@ msgstr "Quên mật khẩu?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -2108,7 +2108,7 @@ msgstr "Chuyển hướng không hợp lệ"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Không thể nhận điều khoản dịch vụ nền tảng đăng ký"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2129,11 +2129,11 @@ msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Thẻ tín dụng của bạn đã hết hạn. Vui lòng cập nhật nó <a %(escapedCcExpiredLinkAttrs)s>tại đây</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Điều khoản dịch vụ nền tảng đăng ký"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2177,11 +2177,11 @@ msgstr "Bạn đã kết nối tài khoản Firefox của mình với các sản
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Mọi đăng ký bạn có sẽ bị hủy"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
