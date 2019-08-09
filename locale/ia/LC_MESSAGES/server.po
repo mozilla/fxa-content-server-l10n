@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-09 00:32+0000\n"
+"PO-Revision-Date: 2019-08-09 00:41+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -708,31 +708,31 @@ msgstr "Codice de autorisation pro %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Confirmar nove accesso"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Codice de accesso pro %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Verifica email primari"
 
 #: lib/senders/email.js:1063
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Verifica email secundari"
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Restabili tu contrasigno"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Contrasigno cambiate"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Contrasigno actualisate"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
@@ -740,71 +740,71 @@ msgstr ""
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nove accesso a %(clientName)s"
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
-msgstr ""
+msgstr "Conto verificate"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Conto confirmate"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Adresse email secundari addite"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Nove email primari"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Email secundari removite"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Authentication a duo-grados activate"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Authentication a duo-grados disactivate"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nove codices de recuperation generate"
 
 #: lib/senders/email.js:1562
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Codices de recuperation usate"
 
 #: lib/senders/email.js:1604
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 Codice de recuperation restante"
 
 #: lib/senders/email.js:1606
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s Codices de recuperation restante"
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Clave de recuperation del conto generate"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Clave de recuperation del conto removite"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Contrasigno actualisate per le clave de recuperation"
 
 #: lib/senders/email.js:1773
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "Benvenite al proxy de securitate!"
 
 #: lib/senders/email.js:1774
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Discargar proxy secur"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -864,7 +864,7 @@ msgstr "Notification de confidentialitate"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Terminos de servicio del platteforma de subscription"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
