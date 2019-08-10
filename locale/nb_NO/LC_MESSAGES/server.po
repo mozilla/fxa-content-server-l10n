@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-09 20:27+0000\n"
+"PO-Revision-Date: 2019-08-10 11:05+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -603,7 +603,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "Bekreft e-postadresse "
 
 #: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -631,31 +631,31 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Personvernbestemmelser"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Avbryt abonnement"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Oppdater faktureringsinformasjon"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Vilkår og avbestillingsregler:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Personvernbestemmelser:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Avbryt abonnement:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Oppdater faktureringsinformasjon:"
 
 #: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -683,7 +683,7 @@ msgstr "%(country)s (estimert)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Bekreft kontoen din"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -691,47 +691,47 @@ msgstr "Bekreft din e-postadresse og begynn å synkronisere!"
 
 #: lib/senders/email.js:709
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "Fullfør oppretting av kontoen din"
 
 #: lib/senders/email.js:745
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Påminning: Fullør registrering"
 
 #: lib/senders/email.js:747
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Siste påminnelse: Aktiver din konto"
 
 #: lib/senders/email.js:813
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Godkjenningskode for %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Bekreft ny innloggning"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Innloggingskode for %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Bekreft primær e-post"
 
 #: lib/senders/email.js:1063
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Bekreft sekundær e-post"
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Tilbakestill ditt passord"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Passord endret"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Passord oppdatert"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
