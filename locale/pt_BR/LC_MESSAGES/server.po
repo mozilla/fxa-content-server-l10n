@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:55+0000\n"
+"PO-Revision-Date: 2019-08-10 03:17+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -839,7 +839,7 @@ msgstr "Erro 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "O servidor está ocupado, tente de novo mais tarde"
+msgstr "Servidor ocupado, tente novamente mais tarde"
 
 #: server/templates/pages/src/503.html:3
 msgid ""

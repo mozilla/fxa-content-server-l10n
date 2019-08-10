@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 03:11+0000\n"
+"PO-Revision-Date: 2019-08-10 03:18+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -241,7 +241,7 @@ msgstr "Códigos de recuperação do Firefox"
 
 #: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr "Novos códigos de recuperação gerados"
+msgstr "Gerados novos códigos de recuperação"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
@@ -1437,7 +1437,7 @@ msgstr "Por que sincronizar vários dispositivos?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "O serviço de sincronização não é um backup permanente, é simplesmente uma maneira segura de transferência de favoritos, histórico e senhas entre seus dispositivos."
+msgstr "O serviço de sincronização não é uma cópia de segurança permanente, é simplesmente uma maneira segura de transferir favoritos, histórico e senhas salvos entre seus dispositivos."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
