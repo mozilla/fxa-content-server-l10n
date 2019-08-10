@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-09 20:45+0000\n"
+"PO-Revision-Date: 2019-08-10 00:32+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1952,31 +1952,31 @@ msgstr "Synkroniser disse overalt hvor du logger deg på"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "Praktisk kunnskap kommer til innboksen din"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "Registrer deg og få mer:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Vær tryggere og smartere på nettet"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr ""
+msgstr "Inviter meg til å teste nye Mozilla-produkter"
 
 #: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Gjør tiltak for å holde internettet friskt og raskt"
 
 #: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
 msgid "One last step"
-msgstr ""
+msgstr "Et siste steg"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Sjekk %(escapedEmail)s for en bekreftelseslenke for å komme i gang."
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
