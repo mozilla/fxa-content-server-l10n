@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 18:37+0000\n"
-"Last-Translator: Rail <dawid.perzanowski.02@gmail.com>\n"
+"PO-Revision-Date: 2019-08-10 11:53+0000\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -608,27 +608,27 @@ msgstr "Potwierdź konto i w pełni wykorzystaj Firefoksa wszędzie, gdzie si�
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Jeśli jeszcze nie pobrano programu %(product)s, to zacznijmy od korzystania ze wszystkich funkcji zawartych w subskrypcji."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Masz pytania dotyczące subskrypcji? Nasz <a %(supportLinkAttributes)s>zespół wsparcia</a> Ci pomoże."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Jeśli jeszcze nie pobrano programu %(product)s, to zacznijmy od korzystania ze wszystkich funkcji zawartych w subskrypcji:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Regulamin i zasady anulowania"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Zasady ochrony prywatności"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
@@ -636,23 +636,23 @@ msgstr "Anuluj subskrypcję"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Zaktualizuj dane płatnicze"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Regulamin i zasady anulowania:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Zasady ochrony prywatności:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Anuluj subskrypcję:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Zaktualizuj dane płatnicze:"
 
 #: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -680,7 +680,7 @@ msgstr "%(country)s (przybliżone)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Zweryfikuj konto"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -692,43 +692,43 @@ msgstr "Dokończ tworzenie konta"
 
 #: lib/senders/email.js:745
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Przypomnienie: dokończ rejestrację"
 
 #: lib/senders/email.js:747
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Ostatnie przypomnienie: aktywuj swoje konto"
 
 #: lib/senders/email.js:813
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Kod upoważnienia dla: %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Potwierdź nowe logowanie"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Kod logowania usługi %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Zweryfikuj główny adres e-mail"
 
 #: lib/senders/email.js:1063
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Zweryfikuj drugi adres e-mail"
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Zmień hasło"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Zmieniono hasło"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Zaktualizowano hasło"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
