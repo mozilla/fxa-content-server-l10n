@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 10:17+0000\n"
-"Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
+"PO-Revision-Date: 2019-08-10 00:38+0000\n"
+"Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
 "MIME-Version: 1.0\n"
@@ -1978,7 +1978,7 @@ msgstr "Sjekk %(escapedEmail)s for ei stadfestingslenke for å kome i gang."
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Logg inn på<span class=\"service\">Firefox-kontoen din</span>"
+msgstr "Logg inn på <span class=\"service\">Firefox-kontoen din</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
@@ -1998,7 +1998,7 @@ msgstr "No kan du få Firefox overalt."
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr "Logg inn på dei andre einingane dine for å få alle produkta, all kunskapen, og tryggingsfunksjonane i Firefox."
+msgstr "Logg inn på dei andre einingane dine for å få alle produkta, all kunskapen, og personvernfunksjonane i Firefox."
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
 msgid "Why sign in on another device?"
