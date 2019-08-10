@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 11:59+0000\n"
+"PO-Revision-Date: 2019-08-10 15:53+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -422,19 +422,19 @@ msgstr "Velkommen til Firefox-familien"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Du er innlogget og klar for å begynne å surfe trygt og sikkert."
 
 #: lib/senders/templates/post_verify_trailhead.html:4 lib/senders/templates/post_verify_trailhead.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Få det meste ut av Firefox ved å logge inn overalt hvor du surfer."
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Koble til en annen enhet:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Har du spørsmål? Gå til %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -470,11 +470,11 @@ msgstr "Hvis nei, hjelp oss med å avverge inntrengere og rapporter dette til os
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "For noen dager siden laget du en Firefox-konto, men du bekreftet den aldri."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Bekreft nå og få teknologi som kjemper for og beskytter personvernet ditt, gir deg praktisk kunnskap og respekten du fortjener."
 
 #: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.html:10 lib/senders/templates/verification_reminder_second.html:5
 #: lib/senders/templates/verification_reminder_second.html:10
@@ -511,7 +511,7 @@ msgstr "Bekreft denne e-postadressen for å aktivere Firefox-kontoen din og fort
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "Bekreft denne e-postadressen for å aktivere Firefox-kontoen din."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -595,11 +595,11 @@ msgstr "Etter bekreftelsen hjelper vi deg med å installere og koble til Firefox
 
 #: lib/senders/templates/verify_trailhead.html:2 lib/senders/templates/verify_trailhead.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Aktiver hele Firefox-familien"
 
 #: lib/senders/templates/verify_trailhead.html:3
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Bekreftede kontoen din og få mest mulig ut av Firefox overalt hvor du logger inn, startende med:"
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
@@ -607,27 +607,27 @@ msgstr "Bekreft e-postadresse "
 
 #: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Bekreftede kontoen din og få mest mulig ut av Firefox overalt hvor du logger inn."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Har du spørsmål om ditt abonnement? Vårt <a %(supportLinkAttributes)s>supportteam</a> står klar til å hjelpe deg."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Har du spørsmål om ditt abonnement? Vårt supportteam står klar til å hjelpe deg:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Vilkår og avbestillingsregler"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -739,15 +739,15 @@ msgstr ""
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Ny inloggning på %(clientName)s"
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
-msgstr ""
+msgstr "Konto bekreftet"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Konto bekreftet"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
