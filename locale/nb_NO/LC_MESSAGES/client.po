@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 11:56+0000\n"
+"PO-Revision-Date: 2019-08-10 16:06+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -2189,11 +2189,11 @@ msgstr "Du kan miste lagret informasjon og funksjoner i Mozilla-produkter"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Gjenaktivering med denne e-postadressen vil kanskje ikke gjenopprette den lagrede informasjonen"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, vi har problem med vårt system. Vi jobber med å ordne det for deg og beklager ulempene. Forsøk igjen senere."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrert."

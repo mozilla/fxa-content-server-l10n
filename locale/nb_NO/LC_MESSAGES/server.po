@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 15:53+0000\n"
+"PO-Revision-Date: 2019-08-10 16:03+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -735,7 +735,7 @@ msgstr "Passord oppdatert"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Mistenkelig aktivitet: Tilbakestilling av passord påkrevd"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
@@ -751,59 +751,59 @@ msgstr "Konto bekreftet"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Sekundær e-postadresse lagt til"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Ny primær e-postadresse"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Sekundær e-postadesse fjernet"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Totrinns-verifisering aktivert"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Totrinns-verifisering deaktivert"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nye gjenopprettingskoder generert"
 
 #: lib/senders/email.js:1562
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Gjenopprettingskode brukt"
 
 #: lib/senders/email.js:1604
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 gjenopprettelseskode igjen"
 
 #: lib/senders/email.js:1606
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s gjenopprettelseskoder igjen"
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Gjenopprettingsnøkkel for konto opprettet"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Gjenopprettingsnøkkel for konto fjernet"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Passord oppdatert ved hjelp av gjenopprettingsnøkkel"
 
 #: lib/senders/email.js:1773
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "Velkommen til Secure Proxy!"
 
 #: lib/senders/email.js:1774
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Last ned Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -814,6 +814,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Den forespurte siden ble ikke funnet. Vi har blitt\n"
+"                    varslet, og vil fikse de lenker som ikke virker."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -844,6 +846,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Vi er for tiden under stor belastning og arbeider for\n"
+"                    at systemet så snart som mulig skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -859,7 +863,7 @@ msgstr "Personvernspolicy"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Tjenestevilkår for abonnementsplattform"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
@@ -867,7 +871,7 @@ msgstr "Tjenestevilkår"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox-oppdatering kreves"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -876,10 +880,14 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox-kontoer bruker funksjoner som ikke er\n"
+"                        støttet i din versjon av Firefox. Last ned\n"
+"                        og installer den siste versjonen av Firefox for å\n"
+"                        fortsette."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Last ned siste"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verifiser din Firefox-konto"
