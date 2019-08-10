@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:22+0000\n"
+"PO-Revision-Date: 2019-08-10 02:37+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -198,7 +198,7 @@ msgstr "A senha da sua conta foi alterada"
 
 #: lib/senders/templates/password_reset.html:3 lib/senders/templates/password_reset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Você precisará digitar a sua nova senha em outros dispositivos para continuar a sincronização."
+msgstr "Você precisará digitar a sua nova senha em outros dispositivos para voltar a sincronizar."
 
 #: lib/senders/templates/password_reset.html:4
 msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."

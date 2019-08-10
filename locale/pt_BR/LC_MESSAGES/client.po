@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:33+0000\n"
+"PO-Revision-Date: 2019-08-10 02:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1001,8 +1001,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>REMEMBER:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque nós criptografamos seus "
-"dados com a sua senha para proteger sua privacidade."
+"<span>LEMBRE:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados "
+"com a sua senha para proteger sua privacidade."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1251,8 +1251,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTE:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque nós criptografamos seus dados"
-" com a sua senha para proteger sua privacidade."
+"<span>NOTA:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados com"
+" a sua senha para proteger sua privacidade."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1329,7 +1329,7 @@ msgstr "Verifique se recebeu o e-mail com o código, enviado para %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr "Digitar código"
+msgstr "Digite o código"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1337,7 +1337,7 @@ msgstr "Insira o código de segurança"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Abra o seu aplicativo de autenticação e insira o código de seguraça que ele fornece."
+msgstr "Abra seu aplicativo de autenticação e digite o código de segurança que ele fornece."
 
 #: .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1349,7 +1349,7 @@ msgstr "Usar código de recuperação"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Verifique em seu e-mail o código de autorização enviado para %(email)s."
+msgstr "Verifique se recebeu o e-mail com o código de autorização, enviado para %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1396,7 +1396,7 @@ msgstr "Digitou errado o e-mail?"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Envie o Firefox diretamente para o seu smartphone e identifique-se para completar a configuração"
+msgstr "Envie o Firefox diretamente para seu smartphone e identifique-se para concluir a configuração"
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1697,11 +1697,11 @@ msgstr "Ativado"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr "Desabilitado"
+msgstr "Desativado"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr "Desabilitar"
+msgstr "Desativar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
@@ -1831,7 +1831,7 @@ msgstr "Endereço IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr "Sua senha da Conta Firefox"
+msgstr "Senha da sua Conta Firefox"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1839,7 +1839,7 @@ msgstr "Não deve ser seu endereço de e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Não deve corresponder a <a %(escapedCommonPasswordLinkAttrs)s>lista de senhas comuns</a>"
+msgstr "Não deve ser desta <a %(escapedCommonPasswordLinkAttrs)s>lista de senhas comuns</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
