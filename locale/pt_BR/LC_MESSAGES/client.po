@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:12+0000\n"
+"PO-Revision-Date: 2019-08-10 02:33+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -200,7 +200,7 @@ msgstr "Sessão Web, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
 msgid "Web Session"
-msgstr "Sessão Web"
+msgstr "Sessão web"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
@@ -939,8 +939,8 @@ msgstr "Insira a chave de recuperação de uso único que você armazenou em um 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NOTE:</span> Se você redefinir sua senha e não tiver a chave de recuperação de conta salva, alguns dos seus dados serão apagados (incluindo dados do servidor sincronizado, como "
-"histórico e favoritos)."
+"<span class=\"note\">NOTA:</span> Se você redefinir sua senha e não tiver salva uma chave de recuperação de conta, alguns dos seus dados serão apagados (incluindo dados sincronizados no servidor, "
+"como histórico e favoritos)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1006,7 +1006,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Você restaurou sua conta com sucesso usando sua chave de recuperação. Crie uma nova senha para proteger seus dados e os armazene-a em um local seguro."
+msgstr "Você restaurou sua conta com sucesso usando sua chave de recuperação. Crie uma nova senha para proteger seus dados e a armazene em um local seguro."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -1050,7 +1050,7 @@ msgstr "Confirmar este acesso"
 
 #: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Confira em seu e-mail o link de verificação enviado&nbsp;para %(escapedEmail)s"
+msgstr "Veja se recebeu o e-mail com um link de verificação, enviado&nbsp;para %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1080,7 +1080,7 @@ msgstr "Este Firefox está conectado"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr "E-mail verificado"
+msgstr "E-mail confirmado"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 #: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
@@ -1153,7 +1153,7 @@ msgstr "Ao prosseguir, você concorda com os <a id=\"fxa-tos\" href=\"/legal/ter
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
-msgstr "Digite o seu e-mail"
+msgstr "Digite seu e-mail"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
 #: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
@@ -1281,11 +1281,11 @@ msgstr "Desculpe. Bloqueamos a sua&nbsp;conta."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "O e-mail de confirmação que enviamos para %(email)s retornou e nós bloqueamos a sua conta para proteger os seus dados no Firefox."
+msgstr "O e-mail de confirmação que enviamos para %(email)s retornou e bloqueamos sua conta para proteger seus dados do Firefox."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Se este for um endereço de e-mail válido, <a %(escapedSupportLinkAttrs)s>avise-nos</a> e poderemos ajudá-lo a desbloquear a sua conta."
+msgstr "Se este for um endereço de e-mail válido, <a %(escapedSupportLinkAttrs)s>avise-nos</a> e poderemos ajudar a desbloquear sua conta."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1325,7 +1325,7 @@ msgstr "Autorizar este acesso"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr "Verifique em seu e-mail o código enviado para %(email)s."
+msgstr "Verifique se recebeu o e-mail com o código, enviado para %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1753,7 +1753,7 @@ msgstr "Chave de recuperação"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr "Não definido"
+msgstr "Não definida"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
@@ -1785,7 +1785,7 @@ msgstr "Tem certeza que deseja revogar?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Você não poderá usar sua chave de recuperação para acessar seus dados no caso de redefinir sua senha."
+msgstr "Você não poderá usar sua chave de recuperação para acessar seus dados, caso redefina sua senha."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
