@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 00:38+0000\n"
+"PO-Revision-Date: 2019-08-10 10:51+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -2074,7 +2074,7 @@ msgstr "Last ned appen"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr "Abonnemetet er allereie sagt opp"
+msgstr "Abonnementet er allereie sagt opp"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
