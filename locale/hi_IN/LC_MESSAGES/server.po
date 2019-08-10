@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 15:33+0000\n"
+"PO-Revision-Date: 2019-08-10 12:15+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -469,7 +469,7 @@ msgstr "यदि नहीं, तो हमें घुसपैठियो�
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "कुछ दिनों पहले आपने फ़ायरफ़ॉक्स खाता बनाया था, लेकिन इसकी पुष्टि कभी नहीं की।"
+msgstr "कुछ दिनों पहले आपने Firefox खाता बनाया था, लेकिन इसकी पुष्टि कभी नहीं की।"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
