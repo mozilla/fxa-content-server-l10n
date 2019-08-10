@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 10:25+0000\n"
+"PO-Revision-Date: 2019-08-10 10:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -994,7 +994,7 @@ msgstr "O link que você clicou tem caracteres faltando e pode ter sido quebrado
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr "Criar uma nova senha"
+msgstr "Criar nova senha"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -1664,7 +1664,8 @@ msgstr "Gerar novos códigos de recuperação"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "Estes são seus códigos de recuperação de uso único. Armazene-os em um local seguro caso você perca o acesso ao seu dispositivo móvel. Você não verá esses códigos novamente."
+msgstr ""
+"Estes são seus códigos de recuperação de uso único. Armazene-os em um local seguro, para o caso de perder acesso ao seu dispositivo móvel. Você não conseguirá consultar esses códigos novamente."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1673,7 +1674,7 @@ msgstr "Copiar"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
-msgstr "Imprimiri"
+msgstr "Imprimir"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1709,7 +1710,7 @@ msgstr "Ativar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr "Substituir códigos de segurança"
+msgstr "Substituir códigos de recuperação"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
