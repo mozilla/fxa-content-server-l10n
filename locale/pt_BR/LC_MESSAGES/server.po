@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:37+0000\n"
+"PO-Revision-Date: 2019-08-10 02:55+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -559,7 +559,7 @@ msgstr "Uma vez verificado esse dispositivo, será possível realizar alteraçõ
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>por favor altere a sua senha.</a>."
+msgstr "Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha.</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -567,7 +567,7 @@ msgstr "Verificar e-mail: "
 
 #: lib/senders/templates/verify_primary.txt:5
 msgid "If you did not authorize this action, please change your password."
-msgstr "Se você não autorizou esta ação, por favor altere a sua senha."
+msgstr "Se você não autorizou esta ação, mude sua senha."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"

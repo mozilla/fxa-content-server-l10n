@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 02:52+0000\n"
+"PO-Revision-Date: 2019-08-10 03:11+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -104,7 +104,7 @@ msgstr "Conta desconhecida. <a href=\"/signup\">Cadastre-se</a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
 msgid "Account no longer exists. Recreate it?"
-msgstr "A conta não existe mais. Recriá-la?"
+msgstr "A conta não existe mais. Recriar?"
 
 #: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -196,7 +196,7 @@ msgstr "Há mais de %(translatedTimeAgo)s próximo de %(translatedCity)s, %(tran
 
 #: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
-msgstr "Sessão Web, %(userAgent)s"
+msgstr "Sessão web, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
 msgid "Web Session"
@@ -460,7 +460,7 @@ msgstr "Cabeçalho content-length ausente"
 
 #: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
 msgid "Request body too large"
-msgstr "Corpo da solicitação muito extenso"
+msgstr "Corpo da solicitação grande demais"
 
 #: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
@@ -504,7 +504,7 @@ msgstr "O e-mail secundário deve ser diferente do e-mail da sua conta"
 
 #: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
-msgstr "E-mail da conta principal necessário para iniciar sessão"
+msgstr "E-mail principal da conta necessário para iniciar sessão"
 
 #: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
@@ -528,7 +528,7 @@ msgstr "Não é possível alterar o e-mail principal para um e-mail que não per
 
 #: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
-msgstr "Este email não pode ser usado no momento para fazer login"
+msgstr "Este email não pode ser usado no momento para acessar"
 
 #: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
@@ -615,7 +615,7 @@ msgstr "Tentativa de acesso cancelada"
 
 #: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302
 msgid "Session expired. Sign in to continue."
-msgstr "Sessão expirada. Identifique-se para continuar."
+msgstr "Sessão expirou. Identifique-se para continuar."
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306
 msgid "Cookies are still disabled"
@@ -1018,7 +1018,7 @@ msgstr "Confirme a nova senha"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr "Lembrar senha? Identifique-se"
+msgstr "Lembra a senha? Identifique-se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1317,7 +1317,7 @@ msgstr "Obrigado pela sua vigilância"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "A nossa equipa foi notificada. Relatos como este, nos ajudam a afastar intrusos."
+msgstr "Nossa equipe foi notificada. Relatos como este nos ajudam a evitar intrusos."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1421,7 +1421,7 @@ msgstr "Link do aplicativo enviado para %(escapedPhoneNumber)s. <a %(escapedBack
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Link do aplicativo reenviado para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Número&nbsp;mal escrito?</a>"
+msgstr "Link do aplicativo reenviado para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Número&nbsp;digitado&nbsp;errado?</a>"
 
 #: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
