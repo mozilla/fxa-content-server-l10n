@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 01:25+0000\n"
+"PO-Revision-Date: 2019-08-10 02:12+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -249,7 +249,7 @@ msgstr "Autenticação em duas etapas ativada"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Utilize o código %(code)s para configurar a autenticação de duas etapas em aplicativos com suporte."
+msgstr "Use o código %(code)s para configurar a autenticação em duas etapas em aplicativos suportados."
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
@@ -536,7 +536,7 @@ msgstr "Falha ao enviar e-mail"
 
 #: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
 msgid "Valid code required"
-msgstr "Código válido requerido"
+msgstr "É necessário um código válido"
 
 #: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
@@ -704,11 +704,11 @@ msgstr "Conta não existe mais."
 
 #: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Propriedade inválida no token resumido: %(property)s"
+msgstr "Propriedade inválida no token de continuação: %(property)s"
 
 #: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462
 msgid "Missing property in resume token: %(property)s"
-msgstr "Falta a propriedade no token resumido: %(property)s"
+msgstr "Falta a propriedade no token de continuação: %(property)s"
 
 #: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466
 msgid "Invalid data attribute: %(property)s"
@@ -1367,7 +1367,7 @@ msgstr "Repetir senha"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "Não perca esta senha. Se precisar redefini-la, poderá perder a sincronização de dados."
+msgstr "Não perca esta senha. Se precisar redefinir, poderá perder dados da sincronização."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
