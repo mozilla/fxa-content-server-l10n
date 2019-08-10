@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 11:53+0000\n"
+"PO-Revision-Date: 2019-08-10 11:58+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -700,7 +700,7 @@ msgstr "Ostatnie przypomnienie: aktywuj swoje konto"
 
 #: lib/senders/email.js:813
 msgid "Authorization Code for %(clientName)s"
-msgstr "Kod upoważnienia dla: %(clientName)s"
+msgstr "Kod upoważnienia dla „%(clientName)s”"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
@@ -732,75 +732,75 @@ msgstr "Zaktualizowano hasło"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Podejrzane działania na koncie: wymagana jest zmiana hasła"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nowe logowanie do „%(clientName)s”"
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
-msgstr ""
+msgstr "Zweryfikowano konto"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Potwierdzono konto"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Dodano drugi adres e-mail"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Nowy główny adres e-mail"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Usunięto drugi adres e-mail"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Włączono uwierzytelnianie dwuetapowe"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Wyłączono uwierzytelnianie dwuetapowe"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Utworzono nowe kody odzyskiwania"
 
 #: lib/senders/email.js:1562
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Użyto kod odzyskiwania"
 
 #: lib/senders/email.js:1604
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "Pozostał jeden kod odzyskiwania"
 
 #: lib/senders/email.js:1606
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "Pozostałe kody odzyskiwania: %(numberRemaining)s"
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Utworzono klucz odzyskiwania konta"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Usunięto klucz odzyskiwania konta"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Zaktualizowano hasła za pomocą klucza odzyskiwania"
 
 #: lib/senders/email.js:1773
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "Witamy w Secure Proxy!"
 
 #: lib/senders/email.js:1774
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Pobierz Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -860,7 +860,7 @@ msgstr "Prywatność"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Regulamin usługi platformy subskrypcji"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"

@@ -1241,7 +1241,7 @@ msgstr "To wiadomość o próbie dostępu do konta. Czy zgłosić ją jako pode
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr "Zgłoś działanie"
+msgstr "Zgłoś działania"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
