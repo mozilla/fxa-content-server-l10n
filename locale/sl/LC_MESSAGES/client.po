@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-06 06:32+0000\n"
+"PO-Revision-Date: 2019-08-11 10:14+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -2124,7 +2124,7 @@ msgstr "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\" tabin
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Vaša kreditna kartica je potekla. Posodobite jo <a %(escapedCcExpiredLinkAttrs)s>tukaj</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
@@ -2132,7 +2132,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Pišite nam"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
@@ -2140,7 +2140,7 @@ msgstr "S čim potrebujete pomoč?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "Splošne poizvedbe"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
@@ -2148,11 +2148,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Težave s povezavo"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "Prvi koraki"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
