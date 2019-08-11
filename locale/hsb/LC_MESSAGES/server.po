@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 20:06+0000\n"
+"PO-Revision-Date: 2019-08-11 12:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -612,19 +612,19 @@ msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hd
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Jeli njejsće hišće %(product)s sćahnył, móžeće nětko wšě funkcije swojeho abonementa wužiwać."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Maće prašenja wo swojim abonemenće? Naš <a %(supportLinkAttributes)s>team pomocy</a> je tu, zo by wam pomhał."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Jeli njejsće hišće %(product)s sćahnył, móžeće nětko wšě funkcije swojeho abonementa wužiwać:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Maće prašenja wo swojim abonemenće? Naš team pomocy je tu, zo by wam pomhał:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"

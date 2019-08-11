@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-08 20:52+0000\n"
+"PO-Revision-Date: 2019-08-11 12:30+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -2172,11 +2172,11 @@ msgstr "Wopisanje problema"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Sće swoje konto Firefox z produktami Mozilla zwjazał, kotrež was wěsty a produktiwny we webje dźerža:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Prošu zhašejće swoje konto, zo byšće to wobkrućił:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
@@ -2184,15 +2184,15 @@ msgstr "Wšě abonementy, kotrež maće, so wupowědźa"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Móžeće składowane informacije a funkcije produktow Mozilla zhubić"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hm, mamy problemy ze swojim systemom. Dźěłamy na tym je rozrisać a wodajće nam prošu njepřijomnosće. Prošu spytajće pozdźišo hišće raz."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s je zregistrowana."
