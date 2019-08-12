@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-12 10:50+0000\n"
+"PO-Revision-Date: 2019-08-12 11:18+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -615,7 +615,7 @@ msgstr "Os nad ydych eisoes wedi llwytho %(product)s i lawr, gadewch i ni ddechr
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a %(supportLinkAttributes)s>tîm cymorh</a> yma i'ch helpu chi."
+msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a %(supportLinkAttributes)s>tîm cymorth</a> yma i'ch helpu chi."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
@@ -639,7 +639,7 @@ msgstr "Canslo tanysgrifiad"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr "Diweddaru gwybodaeth filio"
+msgstr "Diweddaru'r manylion bilio"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -655,7 +655,7 @@ msgstr "Canslo tanysgrifiad:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr "Diweddaru gwybodaeth filio:"
+msgstr "Diweddaru'r manylion bilio:"
 
 #: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"

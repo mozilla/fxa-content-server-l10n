@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-12 10:37+0000\n"
+"PO-Revision-Date: 2019-08-12 11:22+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -2089,7 +2089,7 @@ msgstr "Dewiswch Un"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr "Mewngofnodi a Chyfrineiriau"
+msgstr "Mewngofnodion a Chyfrineiriau"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
@@ -2134,7 +2134,7 @@ msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr "Cysylltwch â Ni"
+msgstr "Cysylltu â Ni"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
@@ -2150,7 +2150,7 @@ msgstr "Talu a bilio"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr "Materion cysylltiad"
+msgstr "Materion cysylltu"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
@@ -2170,7 +2170,7 @@ msgstr "Disgrifiad o'r Mater"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Rydych wedi cysylltu'ch cyfrif Firefox â chynhyrch Mozilla sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:"
+msgstr "Rydych wedi cysylltu'ch cyfrif Firefox â chynnyrch Mozilla sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
