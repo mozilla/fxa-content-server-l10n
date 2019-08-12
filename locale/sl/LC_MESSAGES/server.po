@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-06 06:32+0000\n"
+"PO-Revision-Date: 2019-08-12 06:29+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -709,7 +709,7 @@ msgstr "Potrdite novo prijavo"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Koda za prijavo v %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
@@ -785,11 +785,11 @@ msgstr ""
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Obnovitveni ključ za račun ustvarjen"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Obnovitveni ključ za račun odstranjen"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
