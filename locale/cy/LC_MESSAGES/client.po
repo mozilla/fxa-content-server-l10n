@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-12 10:32+0000\n"
+"PO-Revision-Date: 2019-08-12 10:37+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -2126,71 +2126,71 @@ msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Mae eich cerdyn credyd wedi dod i ben. Diweddarwch ef <a %(escapedCcExpiredLinkAttrs)s>yma</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Cysylltwch â Ni"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Gyda beth y mae angen cymorth arnoch chi?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
-msgstr ""
+msgstr "Ymholiadau cyffredinol"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Talu a bilio"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Materion cysylltiad"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
-msgstr ""
+msgstr "Cychwyn arni"
 
 #: .es5/templates/support.mustache:8
 msgid "Account issues"
-msgstr ""
+msgstr "Materion cyfrif"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Pwnc (dewisol)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Disgrifiad o'r Mater"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Rydych wedi cysylltu'ch cyfrif Firefox â chynhyrch Mozilla sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Cydnabyddwch hynny trwy ddileu eich cyfrif:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Bydd unrhyw danysgrifiadau sydd gennych yn cael eu diddymu"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Efallai y byddwch yn colli gwybodaeth a nodweddion sydd wedi'u cadw o fewn cynnyrch Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, rydyn ni'n cael trafferthion gyda'n system. Rydym yn ceisio'i drwsio ar eich rhan ac yn ymddiheuro am yr anghyfleustra. Rhowch gynnig arni eto'n hwyrach."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s wedi eu cofrestri."
