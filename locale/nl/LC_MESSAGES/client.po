@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-07 14:55+0000\n"
-"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
+"PO-Revision-Date: 2019-08-12 06:51+0000\n"
+"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -2108,7 +2108,7 @@ msgstr "Ongeldige omleiding"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr "De servicevoorwaarden van het abonnementenplatform konden niet worden opgeroepen"
+msgstr "Kon de servicevoorwaarden van het abonnementenplatform niet ophalen"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2129,11 +2129,11 @@ msgstr "Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/leg
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Uw creditcard is verlopen. Werk het <a %(escapedCcExpiredLinkAttrs)s>hier</a> bij."
+msgstr "Uw creditcard is verlopen. Werk uw gegevens <a %(escapedCcExpiredLinkAttrs)s>hier</a> bij."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr "Servicevoorwaarden van het abonnementplatform"
+msgstr "Servicevoorwaarden van het abonnementenplatform"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2173,7 +2173,7 @@ msgstr "Omschrijving van het probleem"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "U hebt uw Firefox-account met Mozilla-producten verbonden die u veilig en productief houden op internet:"
+msgstr "U hebt uw Firefox-account verbonden met Mozilla-producten die u veilig en productief houden op internet:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
