@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-05 13:39+0000\n"
+"PO-Revision-Date: 2019-08-13 12:42+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -388,11 +388,11 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"חיברת בהצלחה את ההתקן הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר ההתקנים שלך, כולל Firefox עבור <a %(androidLinkAttributes)s>Android</a> ועבור <a %(iosLinkAttributes)s>iOS</a>."
+"חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור <a %(androidLinkAttributes)s>Android</a> ו־<a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "חיברת בהצלחה את ההתקן הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר ההתקנים שלך, כולל Firefox עבור Android ועבור iOS."
+msgstr "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור Android ו־iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -819,6 +819,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"שוד ושבר, משהו השתבש.\n"
+"                    אנו מודעים לבעיה ופועלים לתיקונה."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
