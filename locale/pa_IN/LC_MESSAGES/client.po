@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-10 19:13+0000\n"
+"PO-Revision-Date: 2019-08-14 14:07+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -2082,15 +2082,15 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "ਲਾਗਇਨ ਅਤੇ ਪਾਸਵਰਡ"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "ਟੈਬਾਂ ਖੋਲ੍ਹੋ"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "ਕਰੈਡਿਟ ਕਾਰਡ"
 
 #: .es5/lib/auth-errors.js:583
 msgid "Invalid redirect"
@@ -2102,7 +2102,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "ਵਰਤੋਂਕਾਰ ਸਾਇਨ ਇਨ ਨਹੀਂ ਹੈ"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
@@ -2127,7 +2127,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
