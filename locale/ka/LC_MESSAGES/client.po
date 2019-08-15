@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-14 20:50+0000\n"
+"PO-Revision-Date: 2019-08-15 22:53+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1554,7 +1554,7 @@ msgstr "მიმდინარე სეანსი"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr "გაუქმება"
+msgstr "უარყოფა"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
@@ -1783,7 +1783,7 @@ msgstr "შეიყვანეთ პაროლი"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr "ნამდვილად გსურთ გაუქმება?"
+msgstr "ნამდვილად გსურთ უარყოფა?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
