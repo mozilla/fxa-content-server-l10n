@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-14 20:54+0000\n"
+"PO-Revision-Date: 2019-08-15 23:28+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -148,7 +148,7 @@ msgstr "ახალი შესვლა %(clientName)s"
 #: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
 #: lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
 msgid "IP address: %(ip)s"
-msgstr "IP მისამართი: %(ip)s"
+msgstr "IP-მისამართი: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/post_add_account_recovery.html:6 lib/senders/templates/post_add_two_step_authentication.html:6
 #: lib/senders/templates/post_change_primary.html:4 lib/senders/templates/post_consume_recovery_code.html:5 lib/senders/templates/post_new_recovery_codes.html:5

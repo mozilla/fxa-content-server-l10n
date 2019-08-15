@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-15 22:53+0000\n"
+"PO-Revision-Date: 2019-08-15 23:28+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -890,7 +890,7 @@ msgstr "%(country)s (მიახლოებითი)"
 
 #: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
-msgstr "IP მისამართი: %(ip)s"
+msgstr "IP-მისამართი: %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
