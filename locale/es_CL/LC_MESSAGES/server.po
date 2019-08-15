@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-11 05:15+0000\n"
+"PO-Revision-Date: 2019-08-15 22:12+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -613,23 +613,23 @@ msgstr "Confirma tu cuenta y sácale el máximo provecho a Firefox donde sea que
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "Si todavía no has bajado %(product)s, que esperas para empezar a usar todas las funcionalidades incluidas en tu suscripción."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "¿Preguntas acerca de tu suscripción? Nuestro <a %(supportLinkAttributes)s>equipo de soporte</a> está aquí para ayudarte."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "Si todavía no has bajado %(product)s, que esperas para empezar a usar todas las funcionalidades incluidas en tu suscripción:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "¿Preguntas sobre tu suscripción? Nuestro equipo de soporte está aquí para ayudarte:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Términos y política de cancelación"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -637,15 +637,15 @@ msgstr "Aviso de privacidad"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Cancelar suscripción"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Actualizar información de pagos"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Términos y política de cancelación:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -653,11 +653,11 @@ msgstr "Aviso de privacidad:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Cancelar suscripción:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Actualizar información de pagos:"
 
 #: lib/senders/email.js:244
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -685,7 +685,7 @@ msgstr "%(country)s (estimado)"
 
 #: lib/senders/email.js:667
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Verifica tu cuenta"
 
 #: lib/senders/email.js:701
 msgid "Confirm your email and start to sync!"
@@ -697,115 +697,115 @@ msgstr "Termina de crear tu cuenta"
 
 #: lib/senders/email.js:745
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Recordatorio: Completa tu registro"
 
 #: lib/senders/email.js:747
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Último recordatorio: Activa tu cuenta"
 
 #: lib/senders/email.js:813
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Código de autorización para %(clientName)s"
 
 #: lib/senders/email.js:871
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Confirmar nueva conexión"
 
 #: lib/senders/email.js:939
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Continuar con %(serviceName)s"
 
 #: lib/senders/email.js:1001
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Verificar correo primario"
 
 #: lib/senders/email.js:1063
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Verificar correo secundario"
 
 #: lib/senders/email.js:1125
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Restablece tu contraseña"
 
 #: lib/senders/email.js:1163
 msgid "Password Changed"
-msgstr ""
+msgstr "Contraseña cambiada"
 
 #: lib/senders/email.js:1199
 msgid "Password Updated"
-msgstr ""
+msgstr "Contraseña actualizada"
 
 #: lib/senders/email.js:1228
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Actividad sospechosa: Se requiere restablecer la contraseña"
 
 #: lib/senders/email.js:1254
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nueva conexión de %(clientName)s"
 
 #: lib/senders/email.js:1289
 msgid "Account Verified"
-msgstr ""
+msgstr "Cuenta verificada"
 
 #: lib/senders/email.js:1294
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Cuenta confirmada"
 
 #: lib/senders/email.js:1345
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Correo secundario añadido"
 
 #: lib/senders/email.js:1378
 msgid "New Primary Email"
-msgstr ""
+msgstr "Nuevo correo primario"
 
 #: lib/senders/email.js:1411
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Correo secundario eliminado"
 
 #: lib/senders/email.js:1442
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Autenticación en dos pasos activada"
 
 #: lib/senders/email.js:1482
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Autenticación en dos pasos desactivada"
 
 #: lib/senders/email.js:1522
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nuevos códigos de recuperación generados"
 
 #: lib/senders/email.js:1562
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Código de recuperación usado"
 
 #: lib/senders/email.js:1604
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "Queda 1 código de recuperación"
 
 #: lib/senders/email.js:1606
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "Quedan %(numberRemaining)s códigos de recuperación"
 
 #: lib/senders/email.js:1646
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Clave de recuperación de cuenta generada"
 
 #: lib/senders/email.js:1689
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Clave de recuperación de cuenta eliminada"
 
 #: lib/senders/email.js:1732
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Contraseña actualizada usando la clave de recuperación"
 
 #: lib/senders/email.js:1773
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "¡Te damos la bienvenida a Secure Proxy!"
 
 #: lib/senders/email.js:1774
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Bajar Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -865,7 +865,7 @@ msgstr "Aviso de privacidad"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Términos del servicio de la plataforma de suscripción"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
