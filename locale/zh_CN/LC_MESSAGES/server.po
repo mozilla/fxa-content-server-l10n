@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 12:05+0000\n"
+"POT-Creation-Date: 2019-08-16 08:01+0000\n"
 "PO-Revision-Date: 2019-08-06 05:14+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr "成功为您的 Firefox 账户绑上第一台设备。再来把其他设
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr "成功为您的 Firefox 账户绑上第一台设备。若要发挥同步服务最大效用，再把您的 <a href='%(androidUrl)s'>Firefox Android 版</a> 或者 <a href='%(iosUrl)s'>Firefox iOS 版</a> 绑定同步服务吧。"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
@@ -42,9 +42,10 @@ msgstr "登录同步服务"
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/post_verify_trailhead.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
-#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 lib/senders/templates/verify_trailhead.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_short_code.html:1 lib/senders/templates/verify_sync.html:1
+#: lib/senders/templates/verify_trailhead.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 账户"
 
@@ -70,7 +71,8 @@ msgstr "这是一封自动发送的邮件。"
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
-#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_short_code.html:7 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "更多信息请访问 <a %(supportLinkAttributes)s>Mozilla 支持</a>。"
 
@@ -89,7 +91,8 @@ msgstr "更多信息请访问 <a %(supportLinkAttributes)s>Mozilla 支持</a>。
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
+#: lib/senders/templates/verify_short_code.html:8 lib/senders/templates/verify_short_code.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla 隐私政策"
 
@@ -108,7 +111,8 @@ msgstr "Mozilla 隐私政策"
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
 #: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
-#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
+#: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
+#: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
 msgstr "Firefox Cloud 服务条款"
 
@@ -126,7 +130,7 @@ msgstr "生成救援码："
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
 #: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
+#: lib/senders/templates/verify_short_code.txt:6 lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "更多信息请访问 %(supportUrl)s"
 
@@ -142,8 +146,8 @@ msgstr "%(clientName)s 有新的登录活动"
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
-#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
-#: lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
+#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_short_code.html:3
+#: lib/senders/templates/verify_short_code.txt:2 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
 msgid "IP address: %(ip)s"
 msgstr "IP 地址：%(ip)s"
 
@@ -358,8 +362,9 @@ msgstr "您已成功移除您的 Firefox 账户中的次要邮箱地址 %(second
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6
-#: lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2 lib/senders/subscription-templates/layouts/subscription.txt:1
+#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_short_code.html:6 lib/senders/templates/verify_short_code.txt:5 lib/senders/templates/verify_sync.html:7
+#: lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2
+#: lib/senders/subscription-templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。"
 
@@ -571,6 +576,18 @@ msgstr "有人请求使用 %(email)s 作为下列 Firefox 账号的次要邮件�
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
 msgstr "在验证后，此地址将接受有关的安全通知和确认邮件。"
 
+#: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
+msgid "Is this you signing up?"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
+msgid "If yes, use this verification code:"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
+msgid "It expires in 20 minutes."
+msgstr ""
+
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
 msgstr "准备、设置、同步"
@@ -647,151 +664,155 @@ msgstr "取消订阅："
 msgid "Update billing information:"
 msgstr "更新结算信息："
 
-#: lib/senders/email.js:244
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s 运行于 %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:249
+#: lib/senders/email.js:239
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s 运行于 %(uaOS)s"
 
-#: lib/senders/email.js:275
+#: lib/senders/email.js:265
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s，%(stateCode)s，%(city)s（估计）"
 
-#: lib/senders/email.js:282
+#: lib/senders/email.js:272
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s，%(city)s（估计）"
 
-#: lib/senders/email.js:287
+#: lib/senders/email.js:277
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s，%(stateCode)s（估计）"
 
-#: lib/senders/email.js:292
+#: lib/senders/email.js:282
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估计）"
 
-#: lib/senders/email.js:667
+#: lib/senders/email.js:452
 msgid "Verify Your Account"
 msgstr "验证您的账户"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
 msgstr "确认您的邮箱并开始同步！"
 
-#: lib/senders/email.js:709
+#: lib/senders/email.js:494
 msgid "Finish Creating Your Account"
 msgstr "账户创建完成"
 
-#: lib/senders/email.js:745
+#: lib/senders/email.js:531
+msgid "Verification code: %(code)s"
+msgstr ""
+
+#: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
 msgstr "提醒：请完成注册"
 
-#: lib/senders/email.js:747
+#: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
 msgstr "最后一次提醒：请激活您的账户"
 
-#: lib/senders/email.js:813
+#: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
 msgstr "%(clientName)s 的授权码"
 
-#: lib/senders/email.js:871
+#: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
 msgstr "确认新的登录活动"
 
-#: lib/senders/email.js:939
+#: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
 msgstr "%(serviceName)s 的登录码"
 
-#: lib/senders/email.js:1001
+#: lib/senders/email.js:828
 msgid "Verify Primary Email"
 msgstr "验证主邮箱"
 
-#: lib/senders/email.js:1063
+#: lib/senders/email.js:890
 msgid "Verify Secondary Email"
 msgstr "验证次要邮件地址"
 
-#: lib/senders/email.js:1125
+#: lib/senders/email.js:952
 msgid "Reset Your Password"
 msgstr "重置密码"
 
-#: lib/senders/email.js:1163
+#: lib/senders/email.js:990
 msgid "Password Changed"
 msgstr "密码已修改"
 
-#: lib/senders/email.js:1199
+#: lib/senders/email.js:1026
 msgid "Password Updated"
 msgstr "密码已更新"
 
-#: lib/senders/email.js:1228
+#: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
 msgstr "可疑活动：请重置密码"
 
-#: lib/senders/email.js:1254
+#: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
 msgstr "%(clientName)s 有新的登录活动"
 
-#: lib/senders/email.js:1289
+#: lib/senders/email.js:1116
 msgid "Account Verified"
 msgstr "账户已验证"
 
-#: lib/senders/email.js:1294
+#: lib/senders/email.js:1121
 msgid "Account Confirmed"
 msgstr "账户已确认"
 
-#: lib/senders/email.js:1345
+#: lib/senders/email.js:1172
 msgid "Secondary Email Added"
 msgstr "次要邮件地址已添加"
 
-#: lib/senders/email.js:1378
+#: lib/senders/email.js:1205
 msgid "New Primary Email"
 msgstr "新的主邮箱"
 
-#: lib/senders/email.js:1411
+#: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
 msgstr "已移除次要邮箱"
 
-#: lib/senders/email.js:1442
+#: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
 msgstr "已启用两步验证"
 
-#: lib/senders/email.js:1482
+#: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
 msgstr "已禁用两步验证"
 
-#: lib/senders/email.js:1522
+#: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
 msgstr "已生成新的救援码"
 
-#: lib/senders/email.js:1562
+#: lib/senders/email.js:1389
 msgid "Recovery Code Used"
 msgstr "已使用救援码"
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
 msgstr "剩余 1 组救援码"
 
-#: lib/senders/email.js:1606
+#: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
 msgstr "剩余 %(numberRemaining)s 组救援码"
 
-#: lib/senders/email.js:1646
+#: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
 msgstr "已生成救援密钥"
 
-#: lib/senders/email.js:1689
+#: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
 msgstr "已移除账户救援密钥"
 
-#: lib/senders/email.js:1732
+#: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
 msgstr "已使用救援码更新密码"
 
-#: lib/senders/email.js:1773
+#: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
 msgstr "欢迎使用 Secure Proxy！"
 
-#: lib/senders/email.js:1774
+#: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
 msgstr "下载 Secure Proxy"
 
@@ -997,8 +1018,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1025,7 +1046,8 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1109,7 +1131,9 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
+#~ msgstr ""
+#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
+#~ "电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"

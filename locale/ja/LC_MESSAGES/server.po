@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 12:05+0000\n"
+"POT-Creation-Date: 2019-08-16 08:01+0000\n"
 "PO-Revision-Date: 2019-02-25 14:33+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -43,9 +43,10 @@ msgstr "Sync へログイン"
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/post_verify_trailhead.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
-#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 lib/senders/templates/verify_trailhead.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_short_code.html:1 lib/senders/templates/verify_sync.html:1
+#: lib/senders/templates/verify_trailhead.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
@@ -71,7 +72,8 @@ msgstr "これは自動送信メールです。"
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
-#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_short_code.html:7 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "詳しくは、<a %(supportLinkAttributes)s>Mozilla Support</a> をご覧ください。"
 
@@ -90,7 +92,8 @@ msgstr "詳しくは、<a %(supportLinkAttributes)s>Mozilla Support</a> をご�
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
+#: lib/senders/templates/verify_short_code.html:8 lib/senders/templates/verify_short_code.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla プライバシーポリシー"
 
@@ -109,7 +112,8 @@ msgstr "Mozilla プライバシーポリシー"
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
 #: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
-#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
+#: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
+#: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
 msgstr ""
 
@@ -127,7 +131,7 @@ msgstr "コードを生成:"
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
 #: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
+#: lib/senders/templates/verify_short_code.txt:6 lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "詳しい情報は %(supportUrl)s をご覧ください。"
 
@@ -143,8 +147,8 @@ msgstr "%(clientName)s への新規ログイン"
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
-#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
-#: lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
+#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_short_code.html:3
+#: lib/senders/templates/verify_short_code.txt:2 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
 msgid "IP address: %(ip)s"
 msgstr "IP アドレス: %(ip)s"
 
@@ -361,8 +365,9 @@ msgstr "%(secondaryEmail)s があなたの Firefox アカウントの予備ア�
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6
-#: lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2 lib/senders/subscription-templates/layouts/subscription.txt:1
+#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_short_code.html:6 lib/senders/templates/verify_short_code.txt:5 lib/senders/templates/verify_sync.html:7
+#: lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2
+#: lib/senders/subscription-templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。"
 
@@ -574,6 +579,18 @@ msgstr "%(email)s を予備アドレスとして使用するためのリクエ�
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
 msgstr "確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。"
 
+#: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
+msgid "Is this you signing up?"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
+msgid "If yes, use this verification code:"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
+msgid "It expires in 20 minutes."
+msgstr ""
+
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
 msgstr "数ステップで簡単に同期"
@@ -650,151 +667,155 @@ msgstr ""
 msgid "Update billing information:"
 msgstr ""
 
-#: lib/senders/email.js:244
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s / %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:249
+#: lib/senders/email.js:239
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s / %(uaOS)s"
 
-#: lib/senders/email.js:275
+#: lib/senders/email.js:265
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s、%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:282
+#: lib/senders/email.js:272
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s、%(city)s (おおよその位置)"
 
-#: lib/senders/email.js:287
+#: lib/senders/email.js:277
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:292
+#: lib/senders/email.js:282
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:667
+#: lib/senders/email.js:452
 msgid "Verify Your Account"
 msgstr ""
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
 msgstr "メールアドレスを確認して同期を開始しましょう！"
 
-#: lib/senders/email.js:709
+#: lib/senders/email.js:494
 msgid "Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:745
+#: lib/senders/email.js:531
+msgid "Verification code: %(code)s"
+msgstr ""
+
+#: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
 msgstr ""
 
-#: lib/senders/email.js:747
+#: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
 msgstr ""
 
-#: lib/senders/email.js:813
+#: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:871
+#: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
 msgstr ""
 
-#: lib/senders/email.js:939
+#: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:1001
+#: lib/senders/email.js:828
 msgid "Verify Primary Email"
 msgstr ""
 
-#: lib/senders/email.js:1063
+#: lib/senders/email.js:890
 msgid "Verify Secondary Email"
 msgstr ""
 
-#: lib/senders/email.js:1125
+#: lib/senders/email.js:952
 msgid "Reset Your Password"
 msgstr ""
 
-#: lib/senders/email.js:1163
+#: lib/senders/email.js:990
 msgid "Password Changed"
 msgstr ""
 
-#: lib/senders/email.js:1199
+#: lib/senders/email.js:1026
 msgid "Password Updated"
 msgstr ""
 
-#: lib/senders/email.js:1228
+#: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
 msgstr ""
 
-#: lib/senders/email.js:1254
+#: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:1289
+#: lib/senders/email.js:1116
 msgid "Account Verified"
 msgstr ""
 
-#: lib/senders/email.js:1294
+#: lib/senders/email.js:1121
 msgid "Account Confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1345
+#: lib/senders/email.js:1172
 msgid "Secondary Email Added"
 msgstr ""
 
-#: lib/senders/email.js:1378
+#: lib/senders/email.js:1205
 msgid "New Primary Email"
 msgstr ""
 
-#: lib/senders/email.js:1411
+#: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
 msgstr ""
 
-#: lib/senders/email.js:1442
+#: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
 msgstr ""
 
-#: lib/senders/email.js:1482
+#: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
 msgstr ""
 
-#: lib/senders/email.js:1522
+#: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
 msgstr ""
 
-#: lib/senders/email.js:1562
+#: lib/senders/email.js:1389
 msgid "Recovery Code Used"
 msgstr ""
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
 msgstr ""
 
-#: lib/senders/email.js:1606
+#: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
 msgstr ""
 
-#: lib/senders/email.js:1646
+#: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
 msgstr ""
 
-#: lib/senders/email.js:1689
+#: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
 msgstr ""
 
-#: lib/senders/email.js:1732
+#: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
 msgstr ""
 
-#: lib/senders/email.js:1773
+#: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
 msgstr ""
 
-#: lib/senders/email.js:1774
+#: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
 msgstr ""
 

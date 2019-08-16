@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 12:05+0000\n"
+"POT-Creation-Date: 2019-08-16 08:01+0000\n"
 "PO-Revision-Date: 2019-08-05 21:33+0000\n"
 "Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a href='%(iosUrl)s'>Firefox"
-" til iOS-enhed</a>."
+"Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a "
+"href='%(iosUrl)s'>Firefox til iOS-enhed</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -46,9 +46,10 @@ msgstr "Log ind på Sync"
 #: lib/senders/templates/post_remove_two_step_authentication.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/post_verify_trailhead.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
 #: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_login_code.html:1
-#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 lib/senders/templates/verify_trailhead.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: lib/senders/templates/verify_primary.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_short_code.html:1 lib/senders/templates/verify_sync.html:1
+#: lib/senders/templates/verify_trailhead.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
 
@@ -74,7 +75,8 @@ msgstr "Denne mail er sendt automatisk."
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
-#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_sync.html:8 lib/senders/templates/verify_trailhead.html:7
+#: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_short_code.html:7 lib/senders/templates/verify_sync.html:8
+#: lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "For mere information, besøg <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
@@ -93,7 +95,8 @@ msgstr "For mere information, besøg <a %(supportLinkAttributes)s>Mozilla Suppor
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8 lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
+#: lib/senders/templates/verify_short_code.html:8 lib/senders/templates/verify_short_code.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozillas privatlivspolitik"
 
@@ -112,7 +115,8 @@ msgstr "Mozillas privatlivspolitik"
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
 #: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
-#: lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9 lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
+#: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
+#: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
 msgstr "Servicevilkår for Firefox Cloud"
 
@@ -130,7 +134,7 @@ msgstr "Generer koder:"
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
 #: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
+#: lib/senders/templates/verify_short_code.txt:6 lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "For mere information, besøg %(supportUrl)s"
 
@@ -146,8 +150,8 @@ msgstr "Nyt login til %(clientName)s"
 #: lib/senders/templates/post_remove_two_step_authentication.html:4 lib/senders/templates/post_remove_two_step_authentication.txt:3 lib/senders/templates/recovery.html:4
 #: lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2 lib/senders/templates/verify_login.html:4
 #: lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_login_code.html:3 lib/senders/templates/verify_login_code.txt:2 lib/senders/templates/verify_primary.html:4
-#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_sync.html:4
-#: lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
+#: lib/senders/templates/verify_primary.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3 lib/senders/templates/verify_short_code.html:3
+#: lib/senders/templates/verify_short_code.txt:2 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3 lib/senders/templates/verify_trailhead.html:4
 msgid "IP address: %(ip)s"
 msgstr "IP-adresse: %(ip)s"
 
@@ -364,8 +368,9 @@ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse fra din Fire
 #: lib/senders/templates/post_verify_trailhead.html:6 lib/senders/templates/post_verify_trailhead.txt:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.html:6
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_secondary.html:7
-#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6
-#: lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2 lib/senders/subscription-templates/layouts/subscription.txt:1
+#: lib/senders/templates/verify_secondary.txt:5 lib/senders/templates/verify_short_code.html:6 lib/senders/templates/verify_short_code.txt:5 lib/senders/templates/verify_sync.html:7
+#: lib/senders/templates/verify_sync.txt:6 lib/senders/templates/verify_trailhead.html:6 lib/senders/templates/verify_trailhead.txt:4 lib/senders/subscription-templates/layouts/subscription.html:2
+#: lib/senders/subscription-templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget."
 
@@ -579,6 +584,18 @@ msgstr "Fra følgende Firefox-konto kommer en forespørgsel om at bruge %(email)
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
 msgstr "Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser."
 
+#: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
+msgid "Is this you signing up?"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
+msgid "If yes, use this verification code:"
+msgstr ""
+
+#: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
+msgid "It expires in 20 minutes."
+msgstr ""
+
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
 msgstr "Klar, parat, synkronisér"
@@ -655,151 +672,155 @@ msgstr "Annuller abonnement:"
 msgid "Update billing information:"
 msgstr "Opdater faktureringsoplysninger:"
 
-#: lib/senders/email.js:244
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:249
+#: lib/senders/email.js:239
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:275
+#: lib/senders/email.js:265
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:282
+#: lib/senders/email.js:272
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:287
+#: lib/senders/email.js:277
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:292
+#: lib/senders/email.js:282
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (anslået)"
 
-#: lib/senders/email.js:667
+#: lib/senders/email.js:452
 msgid "Verify Your Account"
 msgstr "Bekræft din konto"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
 msgstr "Bekræft din mailadresse og begynd at synkronisere!"
 
-#: lib/senders/email.js:709
+#: lib/senders/email.js:494
 msgid "Finish Creating Your Account"
 msgstr "Færdiggør oprettelsen af din konto"
 
-#: lib/senders/email.js:745
+#: lib/senders/email.js:531
+msgid "Verification code: %(code)s"
+msgstr ""
+
+#: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
 msgstr "Påmindelse: Færdiggør registrering"
 
-#: lib/senders/email.js:747
+#: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
 msgstr "Sidste påmindelse: Aktivér din konto"
 
-#: lib/senders/email.js:813
+#: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
 msgstr "Godkendelseskode for %(clientName)s"
 
-#: lib/senders/email.js:871
+#: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
 msgstr "Bekræft nyt login"
 
-#: lib/senders/email.js:939
+#: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
 msgstr "Login-kode til %(serviceName)s"
 
-#: lib/senders/email.js:1001
+#: lib/senders/email.js:828
 msgid "Verify Primary Email"
 msgstr "Bekræft primær mailadresse"
 
-#: lib/senders/email.js:1063
+#: lib/senders/email.js:890
 msgid "Verify Secondary Email"
 msgstr "Bekræft sekundær mailadresse"
 
-#: lib/senders/email.js:1125
+#: lib/senders/email.js:952
 msgid "Reset Your Password"
 msgstr "Nulstil din adgangskode"
 
-#: lib/senders/email.js:1163
+#: lib/senders/email.js:990
 msgid "Password Changed"
 msgstr "Adgangskode ændret"
 
-#: lib/senders/email.js:1199
+#: lib/senders/email.js:1026
 msgid "Password Updated"
 msgstr "Adgangskode opdateret"
 
-#: lib/senders/email.js:1228
+#: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
 msgstr "Mistænkelig aktivitet: Nulstilling af adgangskode påkrævet"
 
-#: lib/senders/email.js:1254
+#: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
 msgstr "Nyt login til %(clientName)s"
 
-#: lib/senders/email.js:1289
+#: lib/senders/email.js:1116
 msgid "Account Verified"
 msgstr "Konto bekræftet"
 
-#: lib/senders/email.js:1294
+#: lib/senders/email.js:1121
 msgid "Account Confirmed"
 msgstr "Konto bekræftet"
 
-#: lib/senders/email.js:1345
+#: lib/senders/email.js:1172
 msgid "Secondary Email Added"
 msgstr "Sekundær mailadresse tilføjet"
 
-#: lib/senders/email.js:1378
+#: lib/senders/email.js:1205
 msgid "New Primary Email"
 msgstr "Ny primær mailadresse"
 
-#: lib/senders/email.js:1411
+#: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
 msgstr "Sekundær mailadresse fjernet"
 
-#: lib/senders/email.js:1442
+#: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
 msgstr "Totrinsgodkendelse aktiveret"
 
-#: lib/senders/email.js:1482
+#: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
 msgstr "Totrinsgodkendelse deaktiveret"
 
-#: lib/senders/email.js:1522
+#: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
 msgstr "Nye genoprettelseskoder genereret"
 
-#: lib/senders/email.js:1562
+#: lib/senders/email.js:1389
 msgid "Recovery Code Used"
 msgstr "Genoprettelseskode brugt"
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
 msgstr "1 genoprettelseskode tilbage"
 
-#: lib/senders/email.js:1606
+#: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
 msgstr "%(numberRemaining)s genoprettelseskoder tilbage"
 
-#: lib/senders/email.js:1646
+#: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
 msgstr "Genoprettelsesnøgle til konto oprettet"
 
-#: lib/senders/email.js:1689
+#: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
 msgstr "Genoprettelsesnøgle til kontoen blev fjernet"
 
-#: lib/senders/email.js:1732
+#: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
 msgstr "Adgangskode opdateret ved hjælp af genoprettelsesnøgle"
 
-#: lib/senders/email.js:1773
+#: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
 msgstr "Velkommen til Secure Proxy!"
 
-#: lib/senders/email.js:1774
+#: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
 msgstr "Hent Secure Proxy"
 
@@ -1005,11 +1026,11 @@ msgstr "Hent seneste"
 #~ msgstr "Nulstil adgangskode"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som er "
-#~ "forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
+#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som "
+#~ "er forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "For en uge siden oprettede du en Firefox-konto, men bekræftede den aldrig. Vi er bekymrede for dig. Bekræft denne mailadresse for at aktivere din konto og lade os vide, at du er ok."
@@ -1035,7 +1056,8 @@ msgstr "Hent seneste"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har bekræftet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
