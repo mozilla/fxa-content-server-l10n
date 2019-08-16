@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-09 01:15+0000\n"
+"PO-Revision-Date: 2019-08-16 15:38+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Để tận dụng tối đa Đồng bộ hóa, hãy kết nối mọi ứng dụng <a href='%(androidUrl)s'>Firefox dành cho Android</a> hoặc <a "
 "href='%(iosUrl)s'>Firefox dành cho iOS</a>."
@@ -587,15 +587,15 @@ msgstr "Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận �
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Đây có phải là bạn đăng nhập không?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Nếu có, hãy sử dụng mã xác minh này:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Nó sẽ hết hạn sau 20 phút."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -711,7 +711,7 @@ msgstr "Kết thúc việc tạo tài khoản của bạn"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Mã xác minh: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
