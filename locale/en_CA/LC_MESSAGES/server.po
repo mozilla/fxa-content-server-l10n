@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-05 15:32+0000\n"
+"PO-Revision-Date: 2019-08-16 11:27+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -587,15 +587,15 @@ msgstr "Once verified, this address will begin receiving security notifications 
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Is this you signing up?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "If yes, use this verification code:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "It expires in 20 minutes."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -711,7 +711,7 @@ msgstr "Finish Creating Your Account"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Verification code: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
