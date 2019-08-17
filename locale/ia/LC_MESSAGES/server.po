@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-17 07:27+0000\n"
+"PO-Revision-Date: 2019-08-17 07:40+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -641,7 +641,7 @@ msgstr "Si tu non ha jam discargate %(product)s, que nos comencia per tote le fu
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -713,7 +713,7 @@ msgstr "Finir le creation del conto"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Codice de verification: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
@@ -757,7 +757,7 @@ msgstr "Contrasigno actualisate"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Activitate suspecte: il es necessari Remontar le contrasigno"
 
 #: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
