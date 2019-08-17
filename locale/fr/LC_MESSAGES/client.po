@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-16 20:01+0000\n"
-"Last-Translator: elched <elched@hotmail.com>\n"
+"PO-Revision-Date: 2019-05-27 20:18+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1456,7 +1456,7 @@ msgstr "Y a-t-il une faute de frappe dans l’adresse électronique ?"
 
 #: .es5/templates/sms_send.mustache:1
 msgid "You did it! You’re signed in."
-msgstr "C’est fait ! Vous êtes connecté(e)."
+msgstr "C’est fait ! Vous êtes connecté·e."
 
 #: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -2054,7 +2054,7 @@ msgstr "Processus d’installation interrompu."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Ouvrez le scanner de code sur votre application Firefox et affichez le code lorsque vous êtes prêt(e)."
+msgstr "Ouvrez le scanner de code sur votre application Firefox et affichez le code lorsque vous êtes prêt·e."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
