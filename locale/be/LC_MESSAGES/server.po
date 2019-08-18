@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-05 19:38+0000\n"
+"PO-Revision-Date: 2019-08-18 17:55+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Каб атрымаць поўную аддачу ад сінхранізацыі, падключыце любы <a href='%(androidUrl)s'>Firefox для Android</a> ці <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -318,8 +318,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
-"і пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
+" пацвярджэння ўваходаў."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2
 msgid "Recovery code consumed"
@@ -587,15 +587,15 @@ msgstr "Пасля праверкі, гэты адрас пачне атрымл
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Гэта вы рэгіструецеся?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Калі так, выкарыстоўвайце гэты код пацвярджэння:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Тэрмін яго дзеяння 20 мінут."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -711,7 +711,7 @@ msgstr "Завяршыць стварэнне ўліковага запісу"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Код пацвярджэння: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
