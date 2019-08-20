@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-20 02:13+0000\n"
+"PO-Revision-Date: 2019-08-20 02:17+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -1528,7 +1528,7 @@ msgstr "Hubungi Kami"
 
 #: .es5/templates/support.mustache:3
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Anda butuh bantuan apa?"
 
 #: .es5/templates/support.mustache:4
 msgid "General inquiries"
@@ -1536,11 +1536,11 @@ msgstr "Pertanyaan umum"
 
 #: .es5/templates/support.mustache:5
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pembayaran & penagihan"
 
 #: .es5/templates/support.mustache:6
 msgid "Connection issues"
-msgstr ""
+msgstr "Masalah sambungan"
 
 #: .es5/templates/support.mustache:7
 msgid "Getting started"
@@ -1556,7 +1556,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Deskripsi masalah"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1719,7 +1719,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Setiap langganan yang Anda miliki akan dibatalkan"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
