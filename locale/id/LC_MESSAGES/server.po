@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-20 02:28+0000\n"
+"PO-Revision-Date: 2019-08-20 02:44+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -631,7 +631,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Ada pertanyaan tentang langganan Anda? <a %(supportLinkAttributes)s>Tim dukungan</a> kami di sini siap membantu Anda."
+msgstr "Ada pertanyaan tentang langganan Anda? <a %(supportLinkAttributes)s>Tim dukungan</a> kami siap membantu Anda."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Ada pertanyaan tentang langganan Anda? Tim dukungan kami siap membantu Anda:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -655,7 +655,7 @@ msgstr "Batal berlangganan"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Perbarui informasi penagihan"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -663,15 +663,15 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Pemberitahuan privasi:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Batal berlangganan:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Perbarui informasi penagihan:"
 
 #: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -699,7 +699,7 @@ msgstr "%(country)s (estimasi)"
 
 #: lib/senders/email.js:452
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Verifikasi Akun Anda"
 
 #: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
@@ -711,19 +711,19 @@ msgstr "Selesaikan Pembuatan Akun Anda"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Kode verifikasi: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Pengingat: Lengkapi Pendaftaran"
 
 #: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Pengingat Terakhir: Aktifkan Akun Anda"
 
 #: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Kode Otorisasi untuk %(clientName)s"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
@@ -743,15 +743,15 @@ msgstr ""
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Setel Ulang Sandi"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
-msgstr ""
+msgstr "Sandi Telah Diubah"
 
 #: lib/senders/email.js:1026
 msgid "Password Updated"
-msgstr ""
+msgstr "Sandi Telah Diperbarui"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
@@ -763,11 +763,11 @@ msgstr ""
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
-msgstr ""
+msgstr "Akun Terverifikasi"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Akun Terkonfirmasi"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
