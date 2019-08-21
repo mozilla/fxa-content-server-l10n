@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-14 12:27+0000\n"
+"PO-Revision-Date: 2019-08-21 13:52+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Sync’ten daha iyi yararlanmak için, kullanıyorsanız <a href='%(androidUrl)s'>Android için Firefox</a> veya <a href='%(iosUrl)s'>iOS için "
 "Firefox</a>’u da bağlayın."
@@ -401,8 +401,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
-"Snc’e giriş yapabilirsiniz."
+"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan Snc’e"
+" giriş yapabilirsiniz."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -588,15 +588,15 @@ msgstr "Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Kaydolan siz misiniz?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Sizdeniz şu doğrulama kodunu kullanın:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Geçerlilik süresi 20 dakikadır."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -712,7 +712,7 @@ msgstr "Hesabınızı oluşturmayı tamamlayın"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Doğrulama kodu: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
@@ -728,11 +728,11 @@ msgstr "%(clientName)s yetki kodu"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Yeni girişi onaylayın"
 
 #: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s giriş kodu"
 
 #: lib/senders/email.js:828
 msgid "Verify Primary Email"
@@ -1028,8 +1028,8 @@ msgstr "Son sürümü indir"
 #~ msgstr "Parolanızı sıfırlayın"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
 #~ "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
@@ -1058,8 +1058,7 @@ msgstr "Son sürümü indir"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızdan ikinci e-posta olarak kaldırdınız. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s adresinizi Firefox Hesabınızın ikinci e-posta adresi olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki e-posta adresine birden gönderilecektir."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
