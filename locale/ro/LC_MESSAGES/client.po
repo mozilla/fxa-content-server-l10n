@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-22 14:51+0000\n"
+"PO-Revision-Date: 2019-08-22 15:01+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1316,7 +1316,7 @@ msgstr "Începe resetarea"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Cardul tău de credit a expirat. Te rugăm să-l actualizezi <a %(escapedCcExpiredLinkAttrs)s>aici</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1565,7 +1565,7 @@ msgstr "Probleme cu contul"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Subiect (opțional)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
