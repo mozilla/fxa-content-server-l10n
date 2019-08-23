@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-08-18 17:55+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Вы паспяхова злучылі сваю першую прыладу з сваім уліковым запісам Firefox. Каб атрымаць поўную аддачу ад сінхранізацыі, падключыце любы <a href='%(androidUrl)s'>Firefox для Android</a> ці <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -318,8 +318,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
-" пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
+"і пацвярджэння ўваходаў."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2
 msgid "Recovery code consumed"
@@ -625,22 +625,6 @@ msgstr "Пацвердзіць эл.пошту "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад Firefox усюды, дзе ўвайшлі."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Пытанні наконт вашай падпіскі? Наша <a %(supportLinkAttributes)s>служба падтрымкі</a> тут, каб дапамагчы вам."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Умовы і палітыка адмовы ад паслуг"
@@ -817,14 +801,6 @@ msgstr "Ключ аднаўлення ўліковага запісу выдал
 msgid "Password Updated Using Recovery Key"
 msgstr "Абноўлены пароль пры дапамозе ключа аднаўлення"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Сардэчна запрашаем у бяспечны проксі!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Сцягнуць бяспечны проксі"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Старонка не знойдзена"
@@ -908,6 +884,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Сцягнуць найноўшую версію"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Пытанні наконт вашай падпіскі? Наша <a %(supportLinkAttributes)s>служба падтрымкі</a> тут, каб дапамагчы вам."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Сардэчна запрашаем у бяспечны проксі!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Сцягнуць бяспечны проксі"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Пацвердзіце свой уліковы запіс"

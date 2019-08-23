@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-08-05 19:07+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,7 +108,48 @@ msgstr "Уліковы запіс ужо існуе. <a href=\"/signin\">Ува�
 msgid "Please Select One"
 msgstr "Калі ласка, абярыце што-небудзь"
 
-#: .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+msgid "Password"
+msgstr "Пароль"
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:219
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Пасля таго, як скончыце, выкарыстоўвайце новы пароль для ўваходу на ўсіх сваіх прыладах."
+
+#: .es5/views/settings/change_password.js:229
+msgid "Old password"
+msgstr "Стары пароль"
+
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+msgid "Forgot password?"
+msgstr "Забылі пароль?"
+
+#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "Новы пароль"
+
+#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Увядзіце пароль ізноў"
+
+#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+msgid "Change"
+msgstr "Змяніць"
+
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Скасаваць"
+
+#: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "Пароль паспяхова зменены"
 
@@ -204,12 +245,12 @@ msgstr "Вэб-сеанс"
 msgid "Last sync time unknown"
 msgstr "Час апошняй сінхранізацыі невядомы"
 
-#: .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "Уліковы запіс паспяхова выдалены"
 
-#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Змяніць…"
 
@@ -220,18 +261,6 @@ msgstr "Дадаць…"
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Выберыце імя, якое вы хацелі б бачыць у Firefox і пры кіраванні сваім уліковым запісам."
-
-#: .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:8
-msgid "Change"
-msgstr "Змяніць"
-
-#: .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11 .es5/templates/settings/avatar_camera.mustache:2
-#: .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Скасаваць"
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -1060,14 +1089,6 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны вашых дадзеных, і захоўвайце яго ў бяспечным месцы."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
-msgid "New password"
-msgstr "Новы пароль"
-
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
-msgid "Re-enter password"
-msgstr "Увядзіце пароль ізноў"
-
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Памятаеце пароль? Увайсці"
@@ -1198,19 +1219,9 @@ msgstr "Увайдзіце <span class=\"service\">ў свой уліковы з
 msgid "Sign in to continue"
 msgstr "Увайдзіце, каб працягнуць"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:18
-msgid "Password"
-msgstr "Пароль"
-
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай прыватнасці</a>."
-
-#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "Забылі пароль?"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1609,14 +1620,6 @@ msgstr "Аватар"
 msgid "Position and rotate your picture as needed"
 msgstr "Перамясціце і павярніце сваю выяву, калі неабходна"
 
-#: .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Пасля таго, як скончыце, выкарыстоўвайце новы пароль для ўваходу на ўсіх сваіх прыладах."
-
-#: .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Стары пароль"
-
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
 msgstr "Адлучыцца ад Sync?"
@@ -1724,8 +1727,8 @@ msgid "Please acknowledge that by deleting your account:"
 msgstr "Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:"
 
 #: .es5/templates/settings/delete_account.mustache:15
-msgid "Any subscriptions you have will be cancelled"
-msgstr "Усялякія вашы падпіскі будуць ануляваныя"
+msgid "Any paid subscriptions you have will be cancelled"
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -2082,6 +2085,9 @@ msgstr "Спарванне з дапамогай праграмы"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы Firefox."
+
+#~ msgid "Any subscriptions you have will be cancelled"
+#~ msgstr "Усялякія вашы падпіскі будуць ануляваныя"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Паспяхова падпісаны"

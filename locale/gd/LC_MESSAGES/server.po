@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-04-16 22:40+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -627,22 +627,6 @@ msgstr ""
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr ""
@@ -817,14 +801,6 @@ msgstr ""
 
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr ""
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
 msgstr ""
 
 #: server/templates/pages/src/404.html:2

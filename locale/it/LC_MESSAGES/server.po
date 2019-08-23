@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-08-09 14:41+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -637,22 +637,6 @@ msgstr "Verifica indirizzo email "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Conferma il tuo account e ottieni il massimo da Firefox su tutti i dispositivi sincronizzati."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Se non hai ancora scaricato %(product)s, inizia a utilizzare le funzionalità incluse nella sottoscrizione."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Hai delle domande sulle sottoscrizioni? Il <a %(supportLinkAttributes)s>team di supporto</a> è a tua disposizione."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Se non hai ancora scaricato %(product)s, inizia a utilizzare le funzionalità incluse nella sottoscrizione:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Hai delle domande sulle sottoscrizioni? Il team di supporto è a tua disposizione:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Termini e condizioni di annullamento"
@@ -829,14 +813,6 @@ msgstr "Eliminata chiave di recupero account"
 msgid "Password Updated Using Recovery Key"
 msgstr "Password aggiornata utilizzando la chiave di recupero"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Benvenuto su Secure Proxy!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Scarica Secure Proxy"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Pagina non trovata"
@@ -910,6 +886,24 @@ msgstr "Firefox Accounts utilizza delle funzionalità che non sono supportate da
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Scarica l’ultima versione"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Se non hai ancora scaricato %(product)s, inizia a utilizzare le funzionalità incluse nella sottoscrizione."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Hai delle domande sulle sottoscrizioni? Il <a %(supportLinkAttributes)s>team di supporto</a> è a tua disposizione."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Se non hai ancora scaricato %(product)s, inizia a utilizzare le funzionalità incluse nella sottoscrizione:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Hai delle domande sulle sottoscrizioni? Il team di supporto è a tua disposizione:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Benvenuto su Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Scarica Secure Proxy"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verifica l’account Firefox"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-06-13 10:07+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -110,7 +110,48 @@ msgstr "このアカウントは既に存在します。<a href=\"/signin\">ロ�
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+msgid "Password"
+msgstr "パスワード"
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:219
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインしてください。"
+
+#: .es5/views/settings/change_password.js:229
+msgid "Old password"
+msgstr "旧パスワード"
+
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか？"
+
+#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "パスワードを再入力"
+
+#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+msgid "Change"
+msgstr "変更"
+
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "パスワードの変更が完了しました"
 
@@ -206,12 +247,12 @@ msgstr "ウェブセッション"
 msgid "Last sync time unknown"
 msgstr "最終同期日時: 不明"
 
-#: .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
-#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "変更..."
 
@@ -222,18 +263,6 @@ msgstr "追加..."
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
-
-#: .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:8
-msgid "Change"
-msgstr "変更"
-
-#: .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11 .es5/templates/settings/avatar_camera.mustache:2
-#: .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "キャンセル"
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -1065,14 +1094,6 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。"
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
-msgid "New password"
-msgstr "新しいパスワード"
-
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
-msgid "Re-enter password"
-msgstr "パスワードを再入力"
-
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "パスワードを覚えていますか？ ログイン"
@@ -1204,19 +1225,9 @@ msgstr ""
 msgid "Sign in to continue"
 msgstr "ログインして続ける"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:18
-msgid "Password"
-msgstr "パスワード"
-
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-
-#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "パスワードをお忘れですか？"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1614,14 +1625,6 @@ msgstr ""
 msgid "Position and rotate your picture as needed"
 msgstr "必要に応じて、写真の位置や角度を調整してください"
 
-#: .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインしてください。"
-
-#: .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "旧パスワード"
-
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
 msgstr "Sync から接続を解除しますか？"
@@ -1729,7 +1732,7 @@ msgid "Please acknowledge that by deleting your account:"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:15
-msgid "Any subscriptions you have will be cancelled"
+msgid "Any paid subscriptions you have will be cancelled"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16

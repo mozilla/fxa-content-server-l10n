@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-23 08:01+0000\n"
 "PO-Revision-Date: 2019-08-17 07:40+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Tu ha connectite con successo tu prime apparato a tu conto Firefox. Pro tirar le maxime avantage de Sync, connecte etiam qualcunque <a href='%(androidUrl)s'>Firefox pro Android</a> o <a "
 "href='%(iosUrl)s'>Firefox pro iOS</a>."
@@ -627,22 +627,6 @@ msgstr "Confirmar e-mail "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu te authentica."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Si tu non ha jam discargate %(product)s, que nos comencia per tote le functionalitates includite in tu subscription."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Questiones re tu subscription? Nostre <a %(supportLinkAttributes)s>equipa de supporto</a> es ci pro te adjutar."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Si tu non ha jam discargate %(product)s, que nos comencia per tote le functionalitates includite in tu subscription:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Regulas de terminos e cancellation"
@@ -819,14 +803,6 @@ msgstr "Clave de recuperation del conto removite"
 msgid "Password Updated Using Recovery Key"
 msgstr "Contrasigno actualisate per le clave de recuperation"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Benvenite al proxy de securitate!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Discargar proxy secur"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Pagina non trovate"
@@ -910,6 +886,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Discargar ultimo"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Si tu non ha jam discargate %(product)s, que nos comencia per tote le functionalitates includite in tu subscription."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Questiones re tu subscription? Nostre <a %(supportLinkAttributes)s>equipa de supporto</a> es ci pro te adjutar."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Si tu non ha jam discargate %(product)s, que nos comencia per tote le functionalitates includite in tu subscription:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Benvenite al proxy de securitate!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Discargar proxy secur"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verificar tu conto Firefox"
@@ -1029,14 +1023,15 @@ msgstr "Discargar ultimo"
 #~ msgstr "Remontar le contrasigno"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
-#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
+#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr ""
+#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"
