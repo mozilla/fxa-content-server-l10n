@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-07-24 08:51+0000\n"
+"PO-Revision-Date: 2019-08-23 08:48+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -107,7 +107,7 @@ msgstr "Akun geus aya. <a href=\"/signin\">Asup</a>"
 
 #: .es5/views/support.js:67
 msgid "Please Select One"
-msgstr ""
+msgstr "Mangga Pilih Hiji"
 
 #: .es5/views/settings/change_password.js:73
 msgid "Password changed successfully"
@@ -368,7 +368,7 @@ msgstr "Jujutan"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Login & Sandi"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -376,7 +376,7 @@ msgstr "Émbohan"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Buka Tab"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -388,7 +388,7 @@ msgstr "Alamat"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Kartu Kiridit"
 
 #: .es5/models/reliers/sync.js:69
 msgid "Firefox Sync"
@@ -912,9 +912,7 @@ msgid "Invalid Token"
 msgstr "Token teu sah"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -982,8 +980,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prak asupkeun konci pamulangan sakali nu disimpen ku anjeun di tempat nu aman pikeun meunangkeun deui aksés ka Firefox Account anjeun."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\"> CATETAN:</span> Mun anjeun nyetél sandi anjeun sarta teu boga konci pamulangan akun nu kasimpen, sawaréh data anjeun bakal kapupus (kaasup singkronan sérver kayaning jujutan "
 "jeung markah)."
@@ -1910,8 +1907,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Léngkah 2 ti 2: Simpen konci Pamulangan"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">CATETAN: </span>Mun anjeun poho sandi, ieu konci diperlukeun pikeun meunangkeun deui aksés ka data anjeun. Simpen konci pamulangan anjeun di tempat nu aman, tempat nu gampang "
 "kapanggih ku anjeun engkéna."
@@ -2103,8 +2099,8 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Anjeun bakal nampa komunikasi nu patali jeung kaamanan akun anjeun, parobahan kawijakan kami, fungsionalitas akun anjeun sarta surélék awal pikeun mantuan anjeun meunangkeun hasil nu mucekil "
-#~ "tina Firefox Account anjeun."
+#~ "Anjeun bakal nampa komunikasi nu patali jeung kaamanan akun anjeun, parobahan kawijakan kami, fungsionalitas akun anjeun sarta surélék awal pikeun mantuan anjeun meunangkeun hasil nu mucekil tina "
+#~ "Firefox Account anjeun."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Tatambahna, anjeun bisa balanggan sangkan nampa surélék promosi kalawan warta panganyarna ti Mozilla jeung Firefox."
@@ -2116,11 +2112,11 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 #~ msgstr "Kokolakeun préférénsi"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus "
-#~ "anjeun mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
+#~ "Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus anjeun"
+#~ " mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
 
 #~ msgid "verified"
 #~ msgstr "divérifikasi"
@@ -2141,6 +2137,4 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 #~ msgstr "Ondang kami pikeun nguji produk Mozilla anyar"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</"
-#~ "a>."
+#~ msgstr "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</a>."
