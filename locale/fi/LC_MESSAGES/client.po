@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-19 14:34+0000\n"
+"PO-Revision-Date: 2019-08-24 20:55+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -83,7 +83,7 @@ msgstr "Kirjautuminen vahvistettu"
 
 #: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
+msgstr "Voit nyt aloittaa %(serviceName)s -palvelun käyttämisen"
 
 #: .es5/views/ready.js:87
 msgid "Account verified"
@@ -2032,7 +2032,7 @@ msgstr "Hallitse laitteita"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr "Hyväksyntä vaaditaan nyt <small>toiselta laitteeltasi</small>"
+msgstr "Hyväksyntä vaaditaan <small>nyt toiselta laitteeltasi</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -2044,7 +2044,7 @@ msgstr "Asetusprosessi lopetettiin."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Avaa koodiskanneri Firefox-sovelluksessasi ja paina Näytä koodi, kun olet valmiina."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2060,7 +2060,7 @@ msgstr "Paritus onnistui."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Vahvista paritus <small>tilille %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
