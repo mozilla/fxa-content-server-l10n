@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-22 15:01+0000\n"
+"PO-Revision-Date: 2019-08-24 21:17+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -447,7 +447,7 @@ msgstr "Ai întrebări? Intră pe %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr "Ai nevoie să resetezi parola?"
+msgstr "Trebuie să îți resetați parola?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"

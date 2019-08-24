@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-24 21:11+0000\n"
+"PO-Revision-Date: 2019-08-24 21:24+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -236,7 +236,7 @@ msgstr "Renunță"
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
-msgstr "Nume afișat actualizat"
+msgstr "Numele afișat actualizat"
 
 #: .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
@@ -1078,7 +1078,7 @@ msgstr "Reintrodu parola"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr "Cu memorarea parolei? Autentifică-te"
+msgstr "Îți amintești parola? Autentifică-te"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1135,7 +1135,7 @@ msgstr "Înapoi"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "E-mail de resetare trimis"
+msgstr "E-mailul de resetare trimis"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1324,7 +1324,7 @@ msgstr "Conturi Firefox"
 
 #: .es5/templates/settings.mustache:4
 msgid "Sign out"
-msgstr "Deconectare"
+msgstr "Deconectează-te"
 
 # Sau „Schimbă contul”
 #: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
@@ -1618,7 +1618,7 @@ msgstr "Poziționează și rotește poza după necesități"
 
 #: .es5/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "După ce ai terminat, folosește parola nouă pentru a te autentifica pe toate dispozitivele."
+msgstr "După ce ai terminat, folosește noua parolă pentru a te autentifica pe toate dispozitivele."
 
 #: .es5/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1823,11 +1823,11 @@ msgstr "Starea actuală"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
-msgstr "Activat"
+msgstr "Activată"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr "Dezactivat"
+msgstr "Dezactivată"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
