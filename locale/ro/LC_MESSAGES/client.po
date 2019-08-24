@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-24 21:24+0000\n"
+"PO-Revision-Date: 2019-08-24 22:12+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -420,19 +420,19 @@ msgstr "Ai încercat de prea multe ori. Încearcă din nou %(retryAfterLocalized
 
 #: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr "Jeton invalid"
+msgstr "Jeton nevalid"
 
 # Timestamp: termen de jargon informatic și probabil un parametru pentru o
 # cerere programatică API.
 #: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
-msgstr "Marcaj de timp invalid în semnătura solicitării"
+msgstr "Marcaj de timp nevalid în semnătura solicitării"
 
 # Nonce: termen de jargon informatic și probabil un parametru pentru o cerere
 # programatică API. Înseamnă „număr unic”.
 #: .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
-msgstr "Număr unic aleatoriu invalid în semnătura solicitării"
+msgstr "Număr unic aleatoriu nevalid în semnătura solicitării"
 
 #: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
@@ -456,17 +456,17 @@ msgstr "Cont neverificat"
 
 #: .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
-msgstr "Cod de verificare invalid"
+msgstr "Cod de verificare nevalid"
 
 # JSON: format de interschimbare date folosit programatic, e vorba de o
 # autentificare programatică, nu una a unui utilizator
 #: .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
-msgstr "JSON invalid în corpul cererii"
+msgstr "JSON nevalid în corpul cererii"
 
 #: .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
-msgstr "Parametru invalid: %(param)s"
+msgstr "Parametru nevalid: %(param)s"
 
 #: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
@@ -491,11 +491,11 @@ msgstr "Cererea a fost blocată din motive de securitate"
 
 #: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:495
 msgid "Invalid authorization code"
-msgstr "Cod de autorizare invalid"
+msgstr "Cod de autorizare nevalid"
 
 #: .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
-msgstr "Număr de telefon invalid"
+msgstr "Număr de telefon nevalid"
 
 #: .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
@@ -855,7 +855,7 @@ msgstr "Cod expirat"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Parametru OAuth invalid: %(param)s"
+msgstr "Parametru OAuth nevalid: %(param)s"
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
@@ -907,7 +907,7 @@ msgstr "Conexiunea la dispozitivul la distanță a fost închisă. Te rugăm să
 
 #: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "Parametru invalid în corpul cererii: %(param)s"
+msgstr "Parametru nevalid în corpul cererii: %(param)s"
 
 #: .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
