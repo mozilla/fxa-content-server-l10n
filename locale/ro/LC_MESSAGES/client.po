@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-22 15:01+0000\n"
+"PO-Revision-Date: 2019-08-24 18:35+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1670,7 +1670,7 @@ msgstr "Afișează"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Dispozitiv actual"
+msgstr "Dispozitivul actual"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
