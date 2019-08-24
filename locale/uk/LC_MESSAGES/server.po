@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-18 16:08+0000\n"
-"PO-Revision-Date: 2017-08-23 10:24+0000\n"
-"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
+"PO-Revision-Date: 2019-08-24 14:39+0000\n"
+"Last-Translator: Artem Polivanchuk <artem@mozilla.org.ua>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -277,7 +277,7 @@ msgstr "Підтвердити адресу електронної пошти"
 
 #: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Підтвердіть свою адресу електронної пошти для завершення реєстрації облікового запису Firefox"
+msgstr "Підтвердьте свою адресу електронної пошти для завершення реєстрації облікового запису Firefox"
 
 #: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
@@ -314,7 +314,7 @@ msgstr "Якщо ви підозрюєте, що хтось намагаєтьс
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr "Підтвердіть альтернативну електронну пошту"
+msgstr "Підтвердьте альтернативну е-пошту"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -338,7 +338,7 @@ msgstr "На старт, увага, синхронізація"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Підтвердіть, що ви отримали цей лист, і ми допоможемо вам встановити і синхронізувати Firefox на всіх ваших пристроях, починаючи з:"
+msgstr "Підтвердьте, що ви отримали цей лист, і ми допоможемо вам встановити і синхронізувати Firefox на всіх ваших пристроях, починаючи з:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -374,7 +374,7 @@ msgstr "Підтвердження облікового запису Firefox"
 
 #: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
-msgstr "Підтвердіть свою адресу електронної пошти й почніть синхронізацію!"
+msgstr "Підтвердьте свою адресу електронної пошти й почніть синхронізацію!"
 
 #: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
