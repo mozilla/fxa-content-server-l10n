@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-25 17:13+0000\n"
+"PO-Revision-Date: 2019-08-25 17:18+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -596,7 +596,7 @@ msgstr "Una vez verificada, esta dirección comenzará a recibir notificaciones 
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "¿Te estás registrando?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "¿Preguntas acerca de la suscripción? Nuestro <a %(supportLinkAttributes)s>equipo de soporte</a> está acá para ayudarte."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
@@ -648,11 +648,11 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "¿Preguntas acerca de la suscripción? Nuestro equipo de soporte está acá para ayudarte:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Términos y política de cancelación"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -804,35 +804,35 @@ msgstr "Se generaron nuevos códigos de recuperación"
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Código de recuperación utilizado"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 código de recuperación restante"
 
 #: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s códigos de recuperación restantes"
 
 #: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Se generó una clave de recuperación de la cuenta"
 
 #: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Se eliminó la clave de recuperación de la cuenta"
 
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Contraseña actualizada usando la clave de recuperación"
 
 #: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "¡Bienvenido a Secure Proxy!"
 
 #: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Descargar Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -892,7 +892,7 @@ msgstr "Notificación de privacidad"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Términos de servicio de la plataforma de suscripción"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
