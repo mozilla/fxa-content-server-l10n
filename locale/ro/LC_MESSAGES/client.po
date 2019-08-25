@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-24 23:47+0000\n"
+"PO-Revision-Date: 2019-08-25 10:20+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -127,7 +127,7 @@ msgstr "Ultima sincronizare %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s"
+msgstr "Ultima sincronizare acum peste %(translatedTimeAgo)s.replace(/^acum /g, '')"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -135,7 +135,7 @@ msgstr "Ultima sincronizare %(translatedTimeAgo)s în %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
+msgstr "Ultima sincronizare acum peste %(translatedTimeAgo)s.replace(/^acum /g, '')"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -143,7 +143,7 @@ msgstr "Ultima sincronizare %(translatedTimeAgo)s lângă %(translatedCity)s, %(
 
 #: .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultima sincronizare cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Ultima sincronizare acum peste %(translatedTimeAgo)s.replace(/^acum /g, '') lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -151,7 +151,7 @@ msgstr "Activ ultima dată %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s"
+msgstr "Activ ultima dată acum peste %(translatedTimeAgo)s.replace(/^acum /g, '')"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -159,7 +159,7 @@ msgstr "Activ ultima dată %(translatedTimeAgo)s în %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
+msgstr "Activ ultima dată acum peste %(translatedTimeAgo)s.replace(/^acum /g, '') în %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -167,7 +167,7 @@ msgstr "Activ ultima dată %(translatedTimeAgo)s lângă %(translatedCity)s, %(t
 
 #: .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Activ ultima dată cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Activ ultima dată acum peste %(translatedTimeAgo)s.replace(/^acum /g, '') lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
@@ -175,7 +175,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
-msgstr "Cu peste %(translatedTimeAgo)s"
+msgstr "Acum peste %(translatedTimeAgo)s.replace(/^acum /g, '')"
 
 #: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -183,7 +183,7 @@ msgstr "%(translatedTimeAgo)s în %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Cu peste %(translatedTimeAgo)s în %(translatedCountry)s"
+msgstr "Acum peste %(translatedTimeAgo)s.replace(/^acum /g, '') în %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -191,7 +191,7 @@ msgstr "%(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %
 
 #: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Cu peste %(translatedTimeAgo)s lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Acum peste %(translatedTimeAgo)s.replace(/^acum /g, '') lângă %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
