@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-19 11:00+0000\n"
+"PO-Revision-Date: 2019-08-27 06:09+0000\n"
 "Last-Translator: Can <udomc.can@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -641,7 +641,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "ประกาศความเป็นส่วนตัว"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
@@ -693,7 +693,7 @@ msgstr "%(country)s (โดยประมาณ)"
 
 #: lib/senders/email.js:452
 msgid "Verify Your Account"
-msgstr ""
+msgstr "ยืนยันบัญชีของคุณ"
 
 #: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
@@ -721,7 +721,7 @@ msgstr ""
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "ยืนยันการลงชื่อเข้าใช้ใหม่"
 
 #: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
@@ -729,15 +729,15 @@ msgstr ""
 
 #: lib/senders/email.js:828
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "ยืนยันอีเมลหลัก"
 
 #: lib/senders/email.js:890
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "ยืนยันอีเมลสำรอง"
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
@@ -757,19 +757,19 @@ msgstr ""
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
-msgstr ""
+msgstr "ตรวจสอบบัญชีแล้ว"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "ยืนยันบัญชีแล้ว"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "เพิ่มอีเมลสำรองแล้ว"
 
 #: lib/senders/email.js:1205
 msgid "New Primary Email"
-msgstr ""
+msgstr "อีเมลหลักใหม่"
 
 #: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
@@ -789,7 +789,7 @@ msgstr ""
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "ได้ใช้รหัสการกู้คืนแล้ว"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
@@ -813,11 +813,11 @@ msgstr ""
 
 #: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "ยินดีต้อนรับสู่ Secure Proxy!"
 
 #: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "ดาวน์โหลด Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
