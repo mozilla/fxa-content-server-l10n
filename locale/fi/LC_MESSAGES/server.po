@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-19 14:35+0000\n"
+"PO-Revision-Date: 2019-08-27 20:45+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -118,7 +118,7 @@ msgstr "Mozillan tietosuojakäytäntö"
 #: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
 #: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Cloud -käyttöehdot"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -761,7 +761,7 @@ msgstr "Epäilyttävää toimintaa: salasanan nollaus vaaditaan"
 
 #: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Uusi kirjautuminen: %(clientName)s"
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
