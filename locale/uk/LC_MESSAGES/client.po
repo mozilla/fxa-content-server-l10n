@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-24 14:36+0000\n"
+"PO-Revision-Date: 2019-08-27 05:45+0000\n"
 "Last-Translator: Artem Polivanchuk <artem@mozilla.org.ua>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -392,7 +392,7 @@ msgstr "Кредитні картки"
 
 #: .es5/models/reliers/sync.js:69
 msgid "Firefox Sync"
-msgstr "Firefox Sync"
+msgstr "Синхронізація Firefox"
 
 #: .es5/models/auth_brokers/base.js:115
 msgid "Secondary email verified successfully"
