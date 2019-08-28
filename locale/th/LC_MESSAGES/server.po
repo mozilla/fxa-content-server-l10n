@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-26 17:47+0000\n"
+"PO-Revision-Date: 2019-08-24 06:51+0000\n"
 "Last-Translator: Wannaphong Phatthiyaphaibun <wannaphong@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -657,7 +657,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "ประกาศความเป็นส่วนตัว:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
