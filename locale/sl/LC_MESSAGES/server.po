@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-20 12:47+0000\n"
+"PO-Revision-Date: 2019-08-28 06:38+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -642,7 +642,7 @@ msgstr "Imate vprašanja o vaši naročnini? Naša ekipa za podporo je tu, da va
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Pogoji in pravila odpovedi"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -658,7 +658,7 @@ msgstr "Posodobi podatke za račun"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Pogoji in pravila odpovedi:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -714,15 +714,15 @@ msgstr "Potrditvena koda: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Opomnik: Dokončajte registracijo"
 
 #: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Zadnji opomnik: Aktivirajte svoj račun"
 
 #: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Overitvena koda za %(clientName)s"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
@@ -798,11 +798,11 @@ msgstr "Uporabljene obnovitvene kode"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 preostala obnovitvena koda"
 
 #: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s preostalih obnovitvenih kod"
 
 #: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"

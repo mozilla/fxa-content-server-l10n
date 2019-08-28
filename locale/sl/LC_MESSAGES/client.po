@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-20 08:47+0000\n"
+"PO-Revision-Date: 2019-08-28 06:34+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -789,7 +789,7 @@ msgstr "Neveljavna preusmeritev"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Pogojev uporabe naročniške platforme ni mogoče pridobiti"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
