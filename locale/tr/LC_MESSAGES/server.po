@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-21 13:52+0000\n"
+"PO-Revision-Date: 2019-08-29 12:21+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -628,15 +628,15 @@ msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan 
 
 #: lib/senders/subscription-templates/downloadSubscription.html:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
+msgstr "%(product)s yazılımını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın."
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "Aboneliğinizle ilgili sorularınız mı var? <a %(supportLinkAttributes)s>Destek ekibimiz</a> size yardımcı olabilir."
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
+msgstr "%(product)s yazılımını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın:"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:3
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -796,7 +796,7 @@ msgstr "Yeni kurtarma kodları üretildi"
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Kullanılan kurtarma kodu"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
