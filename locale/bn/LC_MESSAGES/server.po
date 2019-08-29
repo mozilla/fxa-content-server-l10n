@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-29 15:06+0000\n"
+"PO-Revision-Date: 2019-08-29 15:45+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn\n"
@@ -290,7 +290,7 @@ msgstr "যদি এটি আপনি না হন, তবে কী বা�
 
 #: lib/senders/templates/post_add_two_step_authentication.html:2 lib/senders/templates/post_add_two_step_authentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "দুই প্রস্থ প্রমাণীকরণ সক্রিয় করুন"
 
 #: lib/senders/templates/post_add_two_step_authentication.html:3
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -508,7 +508,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr ""
+msgstr "এই ইমেইলটি নিশ্চিত করুন আপনার Firefox Account সক্রিয় করতে।"
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -580,15 +580,15 @@ msgstr "একবার ভেরিফাই হয়ে গেলে, আপন�
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "এটি কি আপনি যে সাইন আপ করছেন?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "যদি হ্যাঁ হয়, যাচাইকরণ কোড ব্যবহার করুন:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "এর মেয়াদ 20 মিনিটের মধ্যে শেষ হয়ে যাবে।"
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
-msgstr ""
+msgstr "ইমেইল নিশ্চিত করুন "
 
 #: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -624,7 +624,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/downloadSubscription.html:3
 msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
+msgstr "আপনার সাবস্ক্রিপশন সম্পর্কে প্রশ্ন রয়েছে? আমাদের <a %(supportLinkAttributes)s>সাপোর্ট টীম</a> এখানে আপনাকে সহায়তার জন্য আছে।"
 
 #: lib/senders/subscription-templates/downloadSubscription.txt:2
 msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
@@ -644,7 +644,7 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "সাবস্ক্রিপশন বাতিল করুন"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
@@ -660,11 +660,11 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "সাবস্ক্রিপশন বাতিল:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "বিলিং তথ্য হালনাগাদ:"
 
 #: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -692,7 +692,7 @@ msgstr "%(country)s (আনুমানিক)"
 
 #: lib/senders/email.js:452
 msgid "Verify Your Account"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্ট যাচাই করুন"
 
 #: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
@@ -736,15 +736,15 @@ msgstr ""
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "আপনার পাসওয়ার্ডটি পুনরায় সেট করুন"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
-msgstr ""
+msgstr "পাসওয়ার্ড পরিবর্তন হয়েছে"
 
 #: lib/senders/email.js:1026
 msgid "Password Updated"
-msgstr ""
+msgstr "পাসওয়ার্ড হালনাগাদ হয়েছে"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
@@ -756,11 +756,11 @@ msgstr ""
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
-msgstr ""
+msgstr "অ্যাকাউন্ট যাচাই করা হয়েছে"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "অ্যাকাউন্ট নিশ্চিত করা হয়েছে"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
@@ -812,11 +812,11 @@ msgstr ""
 
 #: lib/senders/email.js:1600
 msgid "Welcome to Secure Proxy!"
-msgstr ""
+msgstr "সুরক্ষিত প্রক্সিতে আপনাকে স্বাগতম!"
 
 #: lib/senders/email.js:1601
 msgid "Download Secure Proxy"
-msgstr ""
+msgstr "সুরক্ষিত প্রক্সি ডাউনলোড করুন"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -878,7 +878,7 @@ msgstr "সেবার শর্ত সমূহ"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox হালনাগাদ প্রয়োজন"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -890,7 +890,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "সর্বশেষটি ডাউনলোড করুন"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "আপনার Firefox Account যাচাই করুন"
