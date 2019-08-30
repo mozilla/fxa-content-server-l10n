@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
 "PO-Revision-Date: 2019-08-16 15:38+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Bạn đã kết nối thành công thiết bị đầu tiên với Tài khoản Firefox của mình. Để tận dụng tối đa Đồng bộ hóa, hãy kết nối mọi ứng dụng <a href='%(androidUrl)s'>Firefox dành cho Android</a> hoặc <a "
 "href='%(iosUrl)s'>Firefox dành cho iOS</a>."
@@ -625,22 +625,6 @@ msgstr "Xác nhận email "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Xác nhận tài khoản của bạn và tận dụng tối đa Firefox ở mọi nơi bạn đăng nhập."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Nếu bạn chưa tải xuống %(product)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Có câu hỏi về đăng ký của bạn? <a %(supportLinkAttributes)s>Nhóm hỗ trợ</a> của chúng tôi sẵn sàng giúp bạn."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Nếu bạn chưa tải xuống %(product)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Có câu hỏi về đăng ký của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Điều khoản và chính sách hủy bỏ"
@@ -817,14 +801,6 @@ msgstr "Đã xóa khóa khôi phục tài khoản"
 msgid "Password Updated Using Recovery Key"
 msgstr "Đã cập nhật mật khẩu bằng khóa khôi phục"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Chào mừng bạn đến với Secure Proxy!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Tải xuống Secure Proxy"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Không tìm thấy trang"
@@ -908,6 +884,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Tải xuống"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Nếu bạn chưa tải xuống %(product)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Có câu hỏi về đăng ký của bạn? <a %(supportLinkAttributes)s>Nhóm hỗ trợ</a> của chúng tôi sẵn sàng giúp bạn."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Nếu bạn chưa tải xuống %(product)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Có câu hỏi về đăng ký của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Chào mừng bạn đến với Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Tải xuống Secure Proxy"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Xác nhận Tài khoản Firefox của bạn"

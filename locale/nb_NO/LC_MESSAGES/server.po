@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
 "PO-Revision-Date: 2019-08-17 20:03+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
 msgid "Connect another device"
@@ -626,22 +626,6 @@ msgstr "Bekreft e-postadresse "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Bekreftede kontoen din og få mest mulig ut av Firefox overalt hvor du logger inn."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Har du spørsmål om ditt abonnement? Vårt <a %(supportLinkAttributes)s>supportteam</a> står klar til å hjelpe deg."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Har du spørsmål om ditt abonnement? Vårt supportteam står klar til å hjelpe deg:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Vilkår og avbestillingsregler"
@@ -818,14 +802,6 @@ msgstr "Gjenopprettingsnøkkel for konto fjernet"
 msgid "Password Updated Using Recovery Key"
 msgstr "Passord oppdatert ved hjelp av gjenopprettingsnøkkel"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Velkommen til Secure Proxy!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Last ned Secure Proxy"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Siden ble ikke funnet"
@@ -909,6 +885,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Last ned siste"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Har du spørsmål om ditt abonnement? Vårt <a %(supportLinkAttributes)s>supportteam</a> står klar til å hjelpe deg."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Hvis du ikke allerede har lastet ned %(product)s, la oss begynne å bruke alle funksjonene som er inkludert i abonnementet ditt:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Har du spørsmål om ditt abonnement? Vårt supportteam står klar til å hjelpe deg:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Velkommen til Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Last ned Secure Proxy"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verifiser din Firefox-konto"
@@ -1004,11 +998,11 @@ msgstr "Last ned siste"
 #~ msgstr "Tilbakestill passord"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet til"
-#~ " den. Bekreft denne e-postadressen for å aktivere din konto."
+#~ "For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet "
+#~ "til den. Bekreft denne e-postadressen for å aktivere din konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "For en uke siden opprettet du en Firefox-konto, men bekreftet den aldri. Vi er bekymret for deg. Bekreft denne e-postadressen for å aktivere din konto og la oss vite, at du er ok."
@@ -1034,7 +1028,8 @@ msgstr "Last ned siste"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær e-postadresse fra Firefox-kontoen din. Sikkerhetsvarsler og påloggingsbekreftelser vil ikke lenger bli leverte til denne adressen."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har bekreftet %(secondaryEmail)s som en sekundær e-post for din Firefox-konto. Sikkerhetsvarsler og påloggingsbekreftelser vil nå bli levert til begge e-postadressene."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-08-05 18:12+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -588,15 +588,15 @@ msgstr "När den är verifierad, kommer att denna adress börja ta emot säkerhe
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Är det du som registrerar dig?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Om ja, använd den här verifieringskoden:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Den upphör om 20 minuter."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -625,22 +625,6 @@ msgstr "Bekräfta e-postadress "
 #: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "Om du inte redan har hämtat %(product)s, låt oss börja genom att använda alla funktioner som ingår i ditt prenumeration."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Frågor om din prenumeration? Vårt <a %(supportLinkAttributes)s>supportteam</a> är här för att hjälpa dig."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "Om du inte redan har hämtat %(product)s, låt oss börja genom att använda alla funktioner som ingår i ditt prenumeration:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Frågor om din prenumeration? Vårt supportteam är här för att hjälpa dig:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -712,7 +696,7 @@ msgstr "Slutför skapade av ditt konto"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Verifieringskod: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
@@ -818,14 +802,6 @@ msgstr "Återställningsnyckel borttagen för konto"
 msgid "Password Updated Using Recovery Key"
 msgstr "Lösenord uppdaterat med återställningsnyckel"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Välkommen till Secure Proxy!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Hämta Secure Proxy"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Sidan hittades inte"
@@ -910,6 +886,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Ladda ner senaste"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Om du inte redan har hämtat %(product)s, låt oss börja genom att använda alla funktioner som ingår i ditt prenumeration."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Frågor om din prenumeration? Vårt <a %(supportLinkAttributes)s>supportteam</a> är här för att hjälpa dig."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Om du inte redan har hämtat %(product)s, låt oss börja genom att använda alla funktioner som ingår i ditt prenumeration:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Frågor om din prenumeration? Vårt supportteam är här för att hjälpa dig:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Välkommen till Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Hämta Secure Proxy"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verifiera ditt Firefox-konto"

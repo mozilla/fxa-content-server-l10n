@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
 "PO-Revision-Date: 2019-06-21 11:01+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,11 +105,52 @@ msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
-#: .es5/views/support.js:67
+#: .es5/views/support.js:72
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:219
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Pasi të përfundoni, përdorni fjalëkalimin tuaj të ri për të hyrë në krejt pajisjet tuaja."
+
+#: .es5/views/settings/change_password.js:229
+msgid "Old password"
+msgstr "Fjalëkalimi i vjetër"
+
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+msgid "Forgot password?"
+msgstr "Harruat  fjalëkalimin?"
+
+#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "Fjalëkalimi i ri"
+
+#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Rijepni fjalëkalimin"
+
+#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+msgid "Change"
+msgstr "Ndryshoje"
+
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:14
+#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Anuloje"
+
+#: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
@@ -209,12 +250,12 @@ msgstr "Sesion Web"
 msgid "Last sync time unknown"
 msgstr "Nuk dihet koha e njëkohësimit të fundit"
 
-#: .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
-#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Ndryshoni…"
 
@@ -225,18 +266,6 @@ msgstr "Shtoni…"
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Zgjidhni emrin që do të donit të shfaqet te Firefox-i dhe kur punoni me llogarinë tuaj."
-
-#: .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:8
-msgid "Change"
-msgstr "Ndryshoje"
-
-#: .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11 .es5/templates/settings/avatar_camera.mustache:2
-#: .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Anuloje"
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -488,7 +517,7 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 msgid "The request was blocked for security reasons"
 msgstr "Kërkesa u bllokua për arsye sigurie"
 
-#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:499
 msgid "Invalid authorization code"
 msgstr "Kod i pavlefshëm autorizimi"
 
@@ -620,11 +649,15 @@ msgstr ""
 msgid "Update was rejected, please try again"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
+#: .es5/lib/auth-errors.js:274
+msgid "Expired or invalid signup code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
 msgstr "Veçori e paaktivizuar"
 
@@ -637,172 +670,172 @@ msgstr "Veçori e paaktivizuar"
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të
 # mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë
 # tjetër, të po atij veprimi që kishe bërë më parë.
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
 msgstr "Kjo pikë mbarimi s’mbulohet më"
 
-#: .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
 msgstr "Përpjekja për hyrje u anulua"
 
-#: .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
 msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
 
-#: .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
 msgstr "Cookie-t janë ende të çaktivizuara"
 
-#: .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
 msgstr "Fjalëkalimet nuk përputhen"
 
-#: .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:318
 msgid "Working…"
 msgstr "Po punohet…"
 
-#: .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
 msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
-#: .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
 msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
-#: .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
 msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
-#: .es5/lib/auth-errors.js:330 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:334 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:338
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: .es5/lib/auth-errors.js:350
+#: .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
 msgstr "Nuk u gjet një figurë e përdorshme"
 
-#: .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
 msgstr "Nuk u gatit dot kamera"
 
-#: .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
-#: .es5/lib/auth-errors.js:382
+#: .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
-#: .es5/lib/auth-errors.js:390
+#: .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Llogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
-#: .es5/lib/auth-errors.js:410 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:414 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:422
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Përmasat e figurës duhet të jenë e pakta 100x100px"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Regjistrimi po vjen së shpejti edhe te Firefox-i për iOS"
 
-#: .es5/lib/auth-errors.js:434
+#: .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
 msgstr "Duhet të jepni moshën tuaj që të regjistroheni"
 
-#: .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
 msgstr "Që të regjistroheni, duhet të jepni një moshë të vlefshme"
 
-#: .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
 msgstr "Llogaria s’ekziston më."
 
-#: .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Veti e pavlefshme te token-i i rimarrjes: %(property)s"
 
-#: .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
 msgstr "Token-it të rimarrjes i mungon një veti: %(property)s"
 
-#: .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut i pavlefshëm të dhënash: %(property)s"
 
-#: .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:474
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut të dhënash që mungon: %(property)s"
 
-#: .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ajo lidhje ripohimi qe përdorur tashmë, dhe mund të përdoret vetëm një herë."
 
-#: .es5/lib/auth-errors.js:487
+#: .es5/lib/auth-errors.js:491
 msgid "This is a required field"
 msgstr "Kjo është fushë e domosdoshme"
 
-#: .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:495
 msgid "Authorization code required"
 msgstr "Lyp kod autorizimi"
 
-#: .es5/lib/auth-errors.js:499 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:503 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Lidhje e dëmtuar"
 
-#: .es5/lib/auth-errors.js:522
+#: .es5/lib/auth-errors.js:526
 msgid "Phone number required"
 msgstr "Lypset numër telefoni"
 
-#: .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
 msgstr "Lypset kod mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
 msgstr "Kod i pavlefshëm mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
 msgstr "Lypset kod rikthimi"
 
-#: .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:557
 msgid "Invalid recovery code"
 msgstr "Kod i pavlefshëm rikthimi"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Recovery key required"
 msgstr "Lypset kyç rimarrjeje"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
 msgstr "Ju lutemi, jepni kod verifikimi"
 
-#: .es5/lib/auth-errors.js:583
+#: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:587
+#: .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
 msgstr ""
 
@@ -988,9 +1021,9 @@ msgstr "Merrni lidhje të re"
 msgid "Reset password with recovery key"
 msgstr "Ricaktoni fjalëkalimin me kyç rimarrjeje"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr "Vazhdoni te %(serviceName)s"
 
@@ -1110,14 +1143,6 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezikuar."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
-msgid "New password"
-msgstr "Fjalëkalimi i ri"
-
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
-msgid "Re-enter password"
-msgstr "Rijepni fjalëkalimin"
-
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "E mbani mend fjalëkalimin? Hyni"
@@ -1166,8 +1191,8 @@ msgstr "Kontrolloni email-in tuaj për një lidhje verifikimi dërguar&nbsp;për
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Kontrolloni email-in tuaj për lidhjen e ripohimit të hyrjes, dërguar te %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "S’gjendet te dosja e të marrëve apo e të padëshiruarave? Ridërgojeni"
 
@@ -1182,6 +1207,22 @@ msgstr "Email-i për ricaktim u dërgua"
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Për të krijuar një fjalëkalim të ri, klikoni mbi lidhjen që u dërgua me email te %(email)s brenda orës që vjen."
+
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+msgid "Enter verification code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:6
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr "Jepni kodin 6-shifror"
+
+#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+msgid "Verify"
+msgstr "Verifikoje"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1249,19 +1290,9 @@ msgstr "Bëni hyrjen <span class=\"service\">te llogaria juaj Firefox</span>"
 msgid "Sign in to continue"
 msgstr "Bëni hyrjen që të vazhdohet"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:18
-msgid "Password"
-msgstr "Fjalëkalimi"
-
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-
-#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "Harruat  fjalëkalimin?"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1275,11 +1306,11 @@ msgstr "Email"
 msgid "Legal"
 msgstr "Ligjore"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:16 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:17
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
 
@@ -1357,6 +1388,34 @@ msgstr ""
 msgid "Begin reset"
 msgstr "Filloni ricaktimin"
 
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+msgid "Recent Activity"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+msgid "Verified"
+msgstr "U verifikua"
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr ""
+
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
 msgstr ""
@@ -1406,10 +1465,6 @@ msgstr "Ju lutemi, jepni një kod rikthimi që ju qe dhënë gjatë rregullimit 
 msgid "Enter 10-digit recovery code"
 msgstr "Jepni kod 10-shifror rikthimi"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
-msgid "Verify"
-msgstr "Verifikoje"
-
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
 msgstr "Përdor kod sigurie"
@@ -1441,10 +1496,6 @@ msgstr "Jepni kod sigurie"
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Hapni aplikacionin tuaj të mirëfilltësimeve dhe jepni kodin e sigurisë që ofron."
-
-#: .es5/templates/sign_in_totp_code.mustache:5
-msgid "Enter 6-digit code"
-msgstr "Jepni kodin 6-shifror"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1523,7 +1574,7 @@ msgstr "Hyni që nga pajisjet tuaja të tjera, që të merrni krejt produktet, d
 msgid "Mobile phone number"
 msgstr "Numër telefoni celular"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "Dërgoje"
 
@@ -1583,34 +1634,42 @@ msgid "Contact Us"
 msgstr ""
 
 #: .es5/templates/support.mustache:3
-msgid "What do you need help with?"
-msgstr ""
-
-#: .es5/templates/support.mustache:4
-msgid "General inquiries"
+msgid "What are you contacting us about?"
 msgstr ""
 
 #: .es5/templates/support.mustache:5
-msgid "Payment & billing"
+msgid "Other"
 msgstr ""
 
 #: .es5/templates/support.mustache:6
-msgid "Connection issues"
+msgid "What do you need help with?"
 msgstr ""
 
 #: .es5/templates/support.mustache:7
-msgid "Getting started"
+msgid "General inquiries"
 msgstr ""
 
 #: .es5/templates/support.mustache:8
-msgid "Account issues"
+msgid "Payment & billing"
 msgstr ""
 
 #: .es5/templates/support.mustache:9
-msgid "Subject (optional)"
+msgid "Connection issues"
 msgstr ""
 
 #: .es5/templates/support.mustache:10
+msgid "Getting started"
+msgstr ""
+
+#: .es5/templates/support.mustache:11
+msgid "Account issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:12
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:13
 msgid "Description of Issue"
 msgstr ""
 
@@ -1661,14 +1720,6 @@ msgstr ""
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "Vendoseni dhe rrotullojeni foton tuaj sipas nevojës"
-
-#: .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Pasi të përfundoni, përdorni fjalëkalimin tuaj të ri për të hyrë në krejt pajisjet tuaja."
-
-#: .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Fjalëkalimi i vjetër"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1777,7 +1828,7 @@ msgid "Please acknowledge that by deleting your account:"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:15
-msgid "Any subscriptions you have will be cancelled"
+msgid "Any paid subscriptions you have will be cancelled"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
@@ -1791,10 +1842,6 @@ msgstr ""
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Një email dytësor përfaqëson një adresë shtesë për të marrë njoftime sigurie dhe ripohimi pajisjesh të reja."
-
-#: .es5/templates/settings/emails.mustache:9
-msgid "Verified"
-msgstr "U verifikua"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"

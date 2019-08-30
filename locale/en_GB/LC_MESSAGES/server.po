@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
 "PO-Revision-Date: 2019-08-13 09:08+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -625,22 +625,6 @@ msgstr "Confirm email "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Confirm your account and get the most out of Firefox everywhere you sign in."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Questions about your subscription? Our support team is here to help you:"
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
 msgstr "Terms and cancellation policy"
@@ -817,14 +801,6 @@ msgstr "Account Recovery Key Removed"
 msgid "Password Updated Using Recovery Key"
 msgstr "Password Updated Using Recovery Key"
 
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr "Welcome to Secure Proxy!"
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr "Download Secure Proxy"
-
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Page not found"
@@ -908,6 +884,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Download latest"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Questions about your subscription? Our support team is here to help you:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Welcome to Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Download Secure Proxy"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Verify your Firefox Account"
