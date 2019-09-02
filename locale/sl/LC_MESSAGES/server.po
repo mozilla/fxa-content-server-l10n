@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-08-28 06:38+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"PO-Revision-Date: 2019-08-30 11:45+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -590,7 +590,7 @@ msgstr "Se prijavljate vi?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Če da, uporabite to potrditveno kodo:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
@@ -623,6 +623,22 @@ msgstr "Potrdite e-poštni naslov "
 #: lib/senders/templates/verify_trailhead.html:11 lib/senders/templates/verify_trailhead.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Potrdite svoj račun in kar najbolje izkoristite Firefox na vseh napravah."
+
+#: lib/senders/subscription-templates/downloadSubscription.html:2
+msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+msgstr "Če še niste prenesli %(product)s, začnimo z uporabo vse zmogljivosti, ki so vključene v vašo naročnino."
+
+#: lib/senders/subscription-templates/downloadSubscription.html:3
+msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+msgstr "Imate vprašanja o vaši naročnini? Naša <a %(supportLinkAttributes)s>ekipa za podporo</a> je tu, da vam pomaga."
+
+#: lib/senders/subscription-templates/downloadSubscription.txt:2
+msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+msgstr "Če še niste prenesli %(product)s, začnimo z uporabo vse zmogljivosti, ki so vključene v vašo naročnino:"
+
+#: lib/senders/subscription-templates/downloadSubscription.txt:3
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "Imate vprašanja o vaši naročnini? Naša ekipa za podporo je tu, da vam pomaga:"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-08-16 15:00+0000\n"
+"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"PO-Revision-Date: 2019-09-01 17:26+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -801,6 +801,14 @@ msgstr "Removida chave de recuperação da conta"
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
 msgstr "Senha atualizada usando chave de recuperação"
+
+#: lib/senders/email.js:1600
+msgid "Welcome to Secure Proxy!"
+msgstr "Boas-vindas ao Secure Proxy!"
+
+#: lib/senders/email.js:1601
+msgid "Download Secure Proxy"
+msgstr "Baixe o Secure Proxy"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
