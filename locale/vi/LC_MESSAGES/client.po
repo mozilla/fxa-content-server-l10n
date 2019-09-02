@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
 "PO-Revision-Date: 2019-08-09 01:17+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,11 +104,52 @@ msgstr "Tài khoản không còn tồn tại. Tạo mới nó?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tài khoản đã tồn tại. <a href=\"/signin\">Đăng nhập</a>"
 
-#: .es5/views/support.js:67
+#: .es5/views/support.js:72
 msgid "Please Select One"
 msgstr "Vui lòng chọn một"
 
-#: .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:219
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Khi bạn đã hoàn tất, hãy sử dụng mật khẩu mới của bạn để đăng nhập trên tất cả các thiết bị của bạn."
+
+#: .es5/views/settings/change_password.js:229
+msgid "Old password"
+msgstr "Mật khẩu cũ"
+
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+msgid "Forgot password?"
+msgstr "Quên mật khẩu?"
+
+#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Nhập lại mật khẩu"
+
+#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+msgid "Change"
+msgstr "Thay đổi"
+
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:14
+#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "Mật khẩu đã thay đổi thành công"
 
@@ -205,12 +246,12 @@ msgstr "Phiên Web"
 msgid "Last sync time unknown"
 msgstr "Lần đồng bộ hóa cuối cùng không xác định"
 
-#: .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "Đã xóa tài khoản thành công"
 
-#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/emails.mustache:3
-#: .es5/templates/settings/two_step_authentication.mustache:4 .es5/templates/settings/account_recovery/account_recovery.mustache:4
+#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Thay đổi…"
 
@@ -221,18 +262,6 @@ msgstr "Thêm…"
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Chọn tên bạn muốn xuất hiện trong Firefox và khi quản lý tài khoản của bạn."
-
-#: .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:8
-msgid "Change"
-msgstr "Thay đổi"
-
-#: .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11 .es5/templates/settings/avatar_camera.mustache:2
-#: .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/change_password.mustache:9 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Hủy bỏ"
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -482,7 +511,7 @@ msgstr "Nội dung yêu cầu quá lớn"
 msgid "The request was blocked for security reasons"
 msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
-#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:499
 msgid "Invalid authorization code"
 msgstr "Mã ủy quyền không hợp lệ"
 
@@ -614,180 +643,184 @@ msgstr "Đăng ký đã bị hủy trước đó"
 msgid "Update was rejected, please try again"
 msgstr "Cập nhật đã bị từ chối, vui lòng thử lại"
 
-#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
+#: .es5/lib/auth-errors.js:274
+msgid "Expired or invalid signup code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
 msgstr "Máy chủ bận, hãy thử lại sau"
 
-#: .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
 msgstr "Tính năng không được bật"
 
-#: .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "Hệ thống không khả dụng, hãy thử lại sau"
 
-#: .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
 msgstr "Điểm cuối này không còn được hỗ trợ"
 
-#: .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
 msgstr "Đã hủy đăng nhập"
 
-#: .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
 msgstr "Phiên đã hết hạn. Đăng nhập để tiếp tục."
 
-#: .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
 msgstr "Cookie vẫn bị tắt"
 
-#: .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
 msgstr "Mật khẩu không khớp"
 
-#: .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:318
 msgid "Working…"
 msgstr "Đang làm việc…"
 
-#: .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
 msgstr "Không thể nhận Thông báo bảo mật"
 
-#: .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
 msgstr "Không thể nhận Điều khoản dịch vụ"
 
-#: .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
 msgstr "Mật khẩu mới của bạn phải khác"
 
-#: .es5/lib/auth-errors.js:330 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:334 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Phải có ít nhất 8 ký tự"
 
-#: .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:338
 msgid "Valid password required"
 msgstr "Yêu cầu mật khẩu hợp lệ"
 
-#: .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
 msgstr "Yêu cầu email hợp lệ"
 
-#: .es5/lib/auth-errors.js:350
+#: .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
 msgstr "Không tìm thấy hình ảnh có thể sử dụng"
 
-#: .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
 msgstr "Không thể khởi tạo máy ảnh"
 
-#: .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
 msgstr "Yêu cầu URL hợp lệ"
 
-#: .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Email xác minh của bạn vừa được trả lại. Sai email?"
 
-#: .es5/lib/auth-errors.js:382
+#: .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Nhập địa chỉ email hợp lệ. firefox.com không cung cấp email."
 
-#: .es5/lib/auth-errors.js:390
+#: .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Tài khoản Firefox chỉ có thể được đặt trong IFRAME của trang web được phê duyệt"
 
-#: .es5/lib/auth-errors.js:410 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:414 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Liên kết xác nhận bị hỏng"
 
-#: .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:422
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Kích thước hình ảnh phải có kích thước tối thiểu là 100x100px"
 
-#: .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Đăng ký sắp có trên Firefox dành cho iOS"
 
-#: .es5/lib/auth-errors.js:434
+#: .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
 msgstr "Bạn phải nhập tuổi của bạn để đăng ký"
 
-#: .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
 msgstr "Bạn phải nhập tuổi hợp lệ để đăng ký"
 
-#: .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
 msgstr "Tài khoản không còn tồn tại."
 
-#: .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Thuộc tính không hợp lệ trong token sơ yếu lý lịch: %(property)s"
 
-#: .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
 msgstr "Thiếu thuộc tính trong token tiếp tục: %(property)s"
 
-#: .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
 msgstr "Thuộc tính dữ liệu không hợp lệ: %(property)s"
 
-#: .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:474
 msgid "Missing data attribute: %(property)s"
 msgstr "Thiếu thuộc tính dữ liệu: %(property)s"
 
-#: .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần."
 
-#: .es5/lib/auth-errors.js:487
+#: .es5/lib/auth-errors.js:491
 msgid "This is a required field"
 msgstr "Đây là một trường bắt buộc"
 
-#: .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:495
 msgid "Authorization code required"
 msgstr "Yêu cầu mã ủy quyền"
 
-#: .es5/lib/auth-errors.js:499 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:503 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Liên kết bị hỏng"
 
-#: .es5/lib/auth-errors.js:522
+#: .es5/lib/auth-errors.js:526
 msgid "Phone number required"
 msgstr "Yêu cầu số điện thoại"
 
-#: .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
 msgstr "Yêu cầu mã xác thực hai bước"
 
-#: .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
 msgstr "Mã xác thực hai bước không hợp lệ"
 
-#: .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
 msgstr "Yêu cầu mã khôi phục"
 
-#: .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:557
 msgid "Invalid recovery code"
 msgstr "Mã khôi phục không hợp lệ"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Recovery key required"
 msgstr "Yêu cầu khóa khôi phục"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
 msgstr "Vui lòng nhập mã xác nhận"
 
-#: .es5/lib/auth-errors.js:583
+#: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
 msgstr "Chuyển hướng không hợp lệ"
 
-#: .es5/lib/auth-errors.js:587
+#: .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
 msgstr "Không thể nhận điều khoản dịch vụ nền tảng đăng ký"
 
@@ -971,9 +1004,9 @@ msgstr "Nhận liên kết mới"
 msgid "Reset password with recovery key"
 msgstr "Đặt lại mật khẩu bằng khóa khôi phục"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
 msgid "Continue to %(serviceName)s"
 msgstr "Tiếp tục đến %(serviceName)s"
 
@@ -1061,14 +1094,6 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Bạn đã khôi phục thành công tài khoản của mình bằng khóa khôi phục. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ nó ở một vị trí an toàn."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
-msgid "New password"
-msgstr "Mật khẩu mới"
-
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
-msgid "Re-enter password"
-msgstr "Nhập lại mật khẩu"
-
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "Đã nhớ mật khẩu? Đăng nhập"
@@ -1117,8 +1142,8 @@ msgstr "Kiểm tra email của bạn để tìm liên kết xác minh đã đư�
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Kiểm tra liên kết đã được gửi đến email %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
@@ -1133,6 +1158,22 @@ msgstr "Đã gửi email đặt lại"
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Nhấp vào liên kết được gửi qua email tới %(email)s trong vòng một giờ tới để tạo mật khẩu mới."
+
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+msgid "Enter verification code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:6
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr "Nhập mã gồm 6 chữ số"
+
+#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+msgid "Verify"
+msgstr "Xác nhận"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1199,19 +1240,9 @@ msgstr "Đăng nhập <span class=\"service\">vào tài khoản Firefox của b�
 msgid "Sign in to continue"
 msgstr "Đăng nhập để tiếp tục"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:18
-msgid "Password"
-msgstr "Mật khẩu"
-
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a>."
-
-#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
-#: .es5/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "Quên mật khẩu?"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1225,11 +1256,11 @@ msgstr "Email"
 msgid "Legal"
 msgstr "Pháp lí"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:16 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Điều khoản dịch vụ"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:17
 msgid "Privacy Notice"
 msgstr "Thông báo bảo mật"
 
@@ -1307,6 +1338,34 @@ msgstr ""
 msgid "Begin reset"
 msgstr "Bắt đầu đặt lại"
 
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+msgid "Recent Activity"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+msgid "Verified"
+msgstr "Đã xác minh"
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr ""
+
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
 msgstr "Thẻ tín dụng của bạn đã hết hạn. Vui lòng cập nhật nó <a %(escapedCcExpiredLinkAttrs)s>tại đây</a>."
@@ -1356,10 +1415,6 @@ msgstr "Vui lòng nhập mã khôi phục đã được cung cấp cho bạn tro
 msgid "Enter 10-digit recovery code"
 msgstr "Nhập mã khôi phục gồm 10 chữ số"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
-msgid "Verify"
-msgstr "Xác nhận"
-
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
 msgstr "Sử dụng mã bảo mật"
@@ -1391,10 +1446,6 @@ msgstr "Nhập mã bảo mật"
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp."
-
-#: .es5/templates/sign_in_totp_code.mustache:5
-msgid "Enter 6-digit code"
-msgstr "Nhập mã gồm 6 chữ số"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
@@ -1472,7 +1523,7 @@ msgstr "Đăng nhập trên các thiết bị khác của bạn để nhận t�
 msgid "Mobile phone number"
 msgstr "Số điện thoại di động"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "Gửi"
 
@@ -1531,34 +1582,42 @@ msgid "Contact Us"
 msgstr "Liên hệ với chúng tôi"
 
 #: .es5/templates/support.mustache:3
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:5
+msgid "Other"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Bạn cần trợ giúp về cái gì?"
 
-#: .es5/templates/support.mustache:4
+#: .es5/templates/support.mustache:7
 msgid "General inquiries"
 msgstr "Thắc mắc chung"
 
-#: .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:8
 msgid "Payment & billing"
 msgstr "Thanh toán"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:9
 msgid "Connection issues"
 msgstr "Vấn đề về kết nối"
 
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:10
 msgid "Getting started"
 msgstr "Bắt đầu"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:11
 msgid "Account issues"
 msgstr "Vấn đề về tài khoản"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:12
 msgid "Subject (optional)"
 msgstr "Chủ đề (không bắt buộc)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:13
 msgid "Description of Issue"
 msgstr "Mô tả vấn đề"
 
@@ -1606,14 +1665,6 @@ msgstr "Ảnh đại diện"
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "Định vị và xoay ảnh của bạn nếu cần"
-
-#: .es5/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Khi bạn đã hoàn tất, hãy sử dụng mật khẩu mới của bạn để đăng nhập trên tất cả các thiết bị của bạn."
-
-#: .es5/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Mật khẩu cũ"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1722,8 +1773,8 @@ msgid "Please acknowledge that by deleting your account:"
 msgstr "Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:"
 
 #: .es5/templates/settings/delete_account.mustache:15
-msgid "Any subscriptions you have will be cancelled"
-msgstr "Mọi đăng ký bạn có sẽ bị hủy"
+msgid "Any paid subscriptions you have will be cancelled"
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -1736,10 +1787,6 @@ msgstr "Kích hoạt lại với email này có thể không khôi phục thông
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr "Email phụ là địa chỉ bổ sung để nhận thông báo bảo mật và xác nhận thiết bị mới."
-
-#: .es5/templates/settings/emails.mustache:9
-msgid "Verified"
-msgstr "Đã xác minh"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
@@ -2080,6 +2127,9 @@ msgstr "Ghép nối bằng ứng dụng"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ trong ứng dụng Firefox."
+
+#~ msgid "Any subscriptions you have will be cancelled"
+#~ msgstr "Mọi đăng ký bạn có sẽ bị hủy"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Đăng ký thành công"

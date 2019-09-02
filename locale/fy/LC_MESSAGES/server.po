@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 08:01+0000\n"
-"PO-Revision-Date: 2019-07-08 12:58+0000\n"
+"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"PO-Revision-Date: 2019-08-16 12:27+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -589,15 +589,15 @@ msgstr "Nei ferifikaasje wurde op dit adres befeiligingsmeldingen en befêstigin
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Is dit jo registraasje?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Sa ja, brûk dan dizze ferifikaasjekoade:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Dizze ferrint oer 20 minuten."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -617,7 +617,7 @@ msgstr "Aktivearje de Firefox-produktfamylje"
 
 #: lib/senders/templates/verify_trailhead.html:3
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox, te begjinnen mei:"
 
 #: lib/senders/templates/verify_trailhead.html:5 lib/senders/templates/verify_trailhead.txt:3
 msgid "Confirm email "
@@ -627,53 +627,37 @@ msgstr "E-mailadres befêstigje "
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox."
 
-#: lib/senders/subscription-templates/downloadSubscription.html:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.html:3
-msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:2
-msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
-msgstr ""
-
-#: lib/senders/subscription-templates/downloadSubscription.txt:3
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
-
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Betingsten en annulearringsbelied"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Privacyferklearring"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Abonnemint annulearje"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Fakturaasjegegevens bywurkje"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Betingsten en annulearringsbelied:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Privacyferklearring:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Abonnemint annulearje:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Fakturaasjegegevens bywurkje:"
 
 #: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -701,7 +685,7 @@ msgstr "%(country)s (skat)"
 
 #: lib/senders/email.js:452
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Jo account ferifiearje"
 
 #: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
@@ -713,119 +697,111 @@ msgstr "Oanmeitsjen fan jo account foltôgje"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Ferifikaasjekoade: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Omtinken: foltôgje jo registraasje"
 
 #: lib/senders/email.js:574
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Lêste omtinken: aktivearje jo account"
 
 #: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Autorisaasjekoade foar %(clientName)s"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Nije oanmelding befêstigje"
 
 #: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Oanmeldkoade foar %(serviceName)s"
 
 #: lib/senders/email.js:828
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Primêr e-mailadres ferifiearje"
 
 #: lib/senders/email.js:890
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Sekundêr e-mailadres ferifiearje"
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Jo wachtwurd opnij ynstelle"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
-msgstr ""
+msgstr "Wachtwurd wizige"
 
 #: lib/senders/email.js:1026
 msgid "Password Updated"
-msgstr ""
+msgstr "Wachtwurd bywurke"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Fertochte aktiviteit: wachtwurd opnij ynstelle fereaske"
 
 #: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Nije oanmelding by %(clientName)s"
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
-msgstr ""
+msgstr "Account ferifiearre"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Account befêstige"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Sekundêr e-mailadres tafoege"
 
 #: lib/senders/email.js:1205
 msgid "New Primary Email"
-msgstr ""
+msgstr "Nij primêr e-mailadres"
 
 #: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Sekundêr e-mailadres fuortsmiten"
 
 #: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Autentikaasje yn twa stappen ynskeakele"
 
 #: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Autentikaasje yn twa stappen útskeakele"
 
 #: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nije werstelkoaden generearre"
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Werstelkoade brûkt"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 werstelkoade oer"
 
 #: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s werstelkoaden oer"
 
 #: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Kaai foar accountwerstel generearre"
 
 #: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Kaai foar accountwerstel fuortsmiten"
 
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1600
-msgid "Welcome to Secure Proxy!"
-msgstr ""
-
-#: lib/senders/email.js:1601
-msgid "Download Secure Proxy"
-msgstr ""
+msgstr "Wachtwurd bywurke mei werstelkaai"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -885,7 +861,7 @@ msgstr "Privacyferklearring"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Servicebetingsten fan it abonneminteplatfoarm"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
@@ -910,6 +886,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lêste downloade"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "As jo %(product) s noch net download hawwe, litte wy dan no oan it wurk gean mei alle mooglikheden fan jo abonnemint."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Fragen oer jo abonnemint? Us <a %(supportLinkAttributes)s>stipeteam</a> is der om jo te helpen."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "As jo %(product)s noch net download hawwe, litte wy dan no oan it wurk gean mei alle mooglikheden fan jo abonnemint:"
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Fragen oer jo abonnemint? Us stipeteam is der om jo te helpen:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Wolkom by Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Secure Proxy downloade"
 
 #~ msgid "Verify your Firefox Account"
 #~ msgstr "Ferifiearje jo Firefox-account"
