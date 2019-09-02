@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-02 15:28+0000\n"
+"PO-Revision-Date: 2019-09-02 15:40+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1162,7 +1162,7 @@ msgstr "Ingresar código de verificación"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Ingrese el código de verificación que se envió a %(escapedEmail)s en un plazo de 20 minutos."
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1337,15 +1337,15 @@ msgstr "Iniciar restablecimiento"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Actividad reciente"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Eventos de seguridad"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Nombre del evento"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1353,15 +1353,15 @@ msgstr "Verificada"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Creado en"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Eliminar eventos"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Volver a ajustes"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1583,11 +1583,11 @@ msgstr "Contactanos"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "¿Sobre qué nos contacta?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1774,7 +1774,7 @@ msgstr "Tené en cuenta que al borrar tu cuenta:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Cualquier suscripción paga que tengas se va a cancelar"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
