@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-02 17:51+0000\n"
+"PO-Revision-Date: 2019-09-02 17:58+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1414,7 +1414,7 @@ msgstr "Digite o código de recuperação de 10 dígitos"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr "Usar código de sergurança"
+msgstr "Usar código de segurança"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
