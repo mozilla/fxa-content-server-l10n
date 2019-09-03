@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-02 18:20+0000\n"
+"PO-Revision-Date: 2019-09-03 08:52+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1156,7 +1156,7 @@ msgstr "V naslednji uri kliknite na povezavo, poslano na %(email)s, da ustvarite
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
 msgid "Enter verification code"
-msgstr ""
+msgstr "Vnesite potrditveno kodo"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Varnostni dogodki"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
@@ -1359,7 +1359,7 @@ msgstr "Izbriši dogodke"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Nazaj na nastavitve"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1770,7 +1770,7 @@ msgstr "Zavedajte se, da z izbrisom računa:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "prekličete vse plačane naročnine"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
