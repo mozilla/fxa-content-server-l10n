@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-08-17 07:40+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2019-09-03 22:19+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Tu ha connectite con successo tu prime apparato a tu conto Firefox. Pro tirar le maxime avantage de Sync, connecte etiam qualcunque <a href='%(androidUrl)s'>Firefox pro Android</a> o <a "
 "href='%(iosUrl)s'>Firefox pro iOS</a>."
@@ -318,8 +318,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Tu modificava tu email primari in %(email)s con successo. Iste adresse es ora tu nomine de usator pro accreditar te a tu conto Firefox, e tamben pro reciper notificationes de securitate e "
-"confirmationes de accreditamento."
+"Tu ha correctemente cambiate tu adresse de e-mail primari a %(email)s. Iste adresse es ora tu nomine de usator pro acceder a tu conto Firefox, e pro reciper notificationes de securitate e "
+"confirmationes de accesso."
 
 #: lib/senders/templates/post_consume_recovery_code.html:2
 msgid "Recovery code consumed"
@@ -414,7 +414,7 @@ msgstr "Authenticar se a Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1
 msgid "Secondary email added"
-msgstr "Adresse email secundari addite"
+msgstr "Adresse de e-mail secundari addite"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -501,7 +501,7 @@ msgstr "Quasi un septimana retro tu creava un conto de Firefox ma jammais tu ha 
 
 #: lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verification_reminder_second.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Confirma iste adresse de email pro activar tu conto e face nos saper que tu es de accordo."
+msgstr "Confirma iste adresse de e-mail pro activar tu conto e facer nos saper que toto es in ordine."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
@@ -513,11 +513,11 @@ msgstr "Benvenite!"
 
 #: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:2
 msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Confirma iste adresse de email pro activate tu conto de Firefox e continuar pro %(serviceName)s."
+msgstr "Confirma iste adresse de e-mail pro activar tu conto de Firefox e continuar a %(serviceName)s."
 
 #: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Confirma iste adresse de email pro activar tu conto de Firefox."
+msgstr "Confirma iste adresse de e-mail pro activar tu conto de Firefox."
 
 #: lib/senders/templates/verify.html:6
 msgid "Activate now"
@@ -757,7 +757,7 @@ msgstr "Conto confirmate"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
-msgstr "Adresse email secundari addite"
+msgstr "Adresse de e-mail secundari addite"
 
 #: lib/senders/email.js:1205
 msgid "New Primary Email"
@@ -1023,15 +1023,14 @@ msgstr "Discargar ultimo"
 #~ msgstr "Remontar le contrasigno"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
-#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
+#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"
