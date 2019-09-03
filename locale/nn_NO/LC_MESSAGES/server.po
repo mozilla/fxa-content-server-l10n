@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-03 05:55+0000\n"
+"PO-Revision-Date: 2019-09-03 06:02+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -587,15 +587,15 @@ msgstr "Når e-postadressa er stadfesta, vil denne adressa begynneå ta imot try
 
 #: lib/senders/templates/verify_short_code.html:2 lib/senders/templates/verify_short_code.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Er det du som registrerer deg?"
 
 #: lib/senders/templates/verify_short_code.html:4 lib/senders/templates/verify_short_code.txt:3
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Dersom ja, bruk denne stadfestingskoden:"
 
 #: lib/senders/templates/verify_short_code.html:5 lib/senders/templates/verify_short_code.txt:4
 msgid "It expires in 20 minutes."
-msgstr ""
+msgstr "Han går ut om 20 minutt."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -627,7 +627,7 @@ msgstr "Stadfest kontoen din og få det meste ut av Firefox overalt der du logga
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Vilkår og avbestillingsreglar"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -727,7 +727,7 @@ msgstr "Stadfest sekundær e-post"
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Tilbakestill passordet ditt"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
@@ -743,7 +743,7 @@ msgstr "Mistenkeleg aktivitet: Tilbakestilling av passord påkravd"
 
 #: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Ny inlogging på %(clientName)s"
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
@@ -751,7 +751,7 @@ msgstr "Konto stadfesta"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Konto stadfesta"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
@@ -763,43 +763,43 @@ msgstr "Ny primær e-post"
 
 #: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Sekundær e-postadesse fjerna"
 
 #: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Totstegs-verifisering aktivert"
 
 #: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Tostegs-verifisering deaktivert"
 
 #: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Nye gjenopprettingskodar genererte"
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Gjenopprettingskode brukt"
 
 #: lib/senders/email.js:1431
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "1 gjenopprettelseskode att"
 
 #: lib/senders/email.js:1433
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "%(numberRemaining)s gjenopprettelseskodar att"
 
 #: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Gjenopprettingsnøkkel for konto oppretta"
 
 #: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Gjenopprettingsnøkkel for konto fjerna"
 
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Passord oppdatert ved hjelp av gjenopprettingsnøkkel"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -859,7 +859,7 @@ msgstr "Personvernmerknad"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Tenestevilkår for abonnementsplattform"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
