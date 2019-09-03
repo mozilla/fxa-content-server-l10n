@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-02 20:08+0000\n"
-"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
+"PO-Revision-Date: 2019-09-03 06:09+0000\n"
+"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -1162,7 +1162,7 @@ msgstr "Voer verificatiecode in"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr "Voer de verificatiecode in die binnen 20 minuten naar %(escapedEmail)s is verzonden."
+msgstr "Voer binnen 20 minuten de verificatiecode in die naar %(escapedEmail)s is verzonden."
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1773,7 +1773,7 @@ msgstr "Bevestig dat door uw account te verwijderen:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Alle betaalde abonnementen die u hebt worden geannuleerd"
+msgstr "Al uw betaalde abonnementen worden geannuleerd"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
