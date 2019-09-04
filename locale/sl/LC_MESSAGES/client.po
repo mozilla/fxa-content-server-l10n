@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-03 08:49+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-09-04 10:16+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -1335,7 +1335,7 @@ msgstr "Začni ponastavitev"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Nedavne dejavnosti"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -1351,7 +1351,7 @@ msgstr "Potrjeno"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Ustvarjeno ob"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
@@ -1579,11 +1579,11 @@ msgstr "Pišite nam"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Zakaj se obračate na nas?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Drugo"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
