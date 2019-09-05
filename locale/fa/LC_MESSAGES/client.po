@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-05 13:33+0000\n"
+"PO-Revision-Date: 2019-09-05 13:34+0000\n"
 "Last-Translator: Reza Habibi <reza.hbi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -838,7 +838,7 @@ msgstr "آیا منظور شما این است <span %(escapedEmailSuggestionAtt
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "آزمون این محصول جدید فایرفاکس"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -846,11 +846,11 @@ msgstr "دریافت آخرین اخبار از موزیلا و فایرفاکس
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "کاری برای سالم ماندن اینترنت انجام دهید"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "به صورت آنلاین امن‌تر و باهوش‌تر بمانید"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -906,15 +906,15 @@ msgstr "پارامتر OAuth ناموجود: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "کاربر وارد نشده است"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "یک کاربر متفاوت وارد شده است"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "جلسه یا کاربر تایید نشده"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
