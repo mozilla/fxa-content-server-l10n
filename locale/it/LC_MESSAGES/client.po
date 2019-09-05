@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-05 08:34+0000\n"
+"PO-Revision-Date: 2019-09-05 08:27+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1162,11 +1162,11 @@ msgstr "Per impostare una nuova password fai clic sul link inviato a %(email)s e
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
 msgid "Enter verification code"
-msgstr ""
+msgstr "Inserisci il codice di verifica"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Inserisci entro 20 minuti il codice di verifica che è stato inviato a %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
