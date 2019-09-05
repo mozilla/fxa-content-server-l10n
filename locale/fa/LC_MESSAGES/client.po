@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-05 20:34+0000\n"
+"PO-Revision-Date: 2019-09-05 20:36+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -2030,7 +2030,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "پرونده‌های بزرگ را بدون نگاه‌های کنجکاو ارسال کنید."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
@@ -2058,7 +2058,7 @@ msgstr "نمایش گذرواژه"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "هممم... به نظر میاد در سیستم به مشکلی خورده‌ایم. ما در تلاش برای اشکال هستیم و از این بابت عذرخواهی می‌کنیم. لطفاً بعدا دوباره تلاش کنید."
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -2066,7 +2066,7 @@ msgstr "به دنبال همگام‌ساز فایرفاکس هستید؟ <a %(e
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "تایید دستگاه جدید <small>برای %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
