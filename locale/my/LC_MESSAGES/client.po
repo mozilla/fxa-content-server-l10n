@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-05-01 16:09+0000\n"
 "Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ကျော်ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s က"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s ကျော်ကျော်က"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s က"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s ကျော်ကျော်က"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "ဝဘ်အသုံးပြုကာလ"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "နောက်ဆုံး sync ခဲ့သည့်အချိန်ကို မသိရပါ"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2113,6 +2113,27 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ကျော်ခန့်တွင် နောက်ဆုံး sync ခဲ့သည်"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s က"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ တွင် %(translatedTimeAgo)s ကျော်ကျော်က"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s က"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "နောက်ဆုံးထပ်တူပြုချိန် %(translatedCountry)s နိုင်ငံ၊ %(translatedState)s နယ်၊ %(translatedCity)s မြို့အနား %(translatedTimeAgo)s ကျော်ကျော်က"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "နောက်ဆုံး sync ခဲ့သည့်အချိန်ကို မသိရပါ"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "စာရင်းပေးသွင်းမှု အောင်မြင်ပါသည်"

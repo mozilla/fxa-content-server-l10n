@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 
 #: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
@@ -209,30 +209,30 @@ msgid ""
 msgstr ""
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:69
 msgid ""
-"Last sync %(translatedTimeAgo)s near %(translatedCity)s, "
+"Last seen %(translatedTimeAgo)s near %(translatedCity)s, "
 "%(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:70
 msgid ""
-"Last sync over %(translatedTimeAgo)s near %(translatedCity)s, "
+"Last seen over %(translatedTimeAgo)s near %(translatedCity)s, "
 "%(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
@@ -301,7 +301,7 @@ msgid "Web Session"
 msgstr ""
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
+msgid "Last seen time unknown"
 msgstr ""
 
 #: .es5/views/settings/delete_account.js:227

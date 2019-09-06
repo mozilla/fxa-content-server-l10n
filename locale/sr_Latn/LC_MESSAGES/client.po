@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2018-10-28 19:55+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,39 +214,32 @@ msgstr ""
 "sačuvali u Firefox-u."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Poslednje sinhronizovanje %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Poslednja sinhronizacija pre %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
-"Poslednja sinhronizacija %(translatedTimeAgo)s u državi %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
-"Poslednja sinhronizacija pre %(translatedTimeAgo)s u državi "
-"%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid ""
-"Last sync %(translatedTimeAgo)s near %(translatedCity)s, "
+"Last seen %(translatedTimeAgo)s near %(translatedCity)s, "
 "%(translatedState)s, %(translatedCountry)s"
 msgstr ""
-"Poslednja sinhronizacija %(translatedTimeAgo)s u blizini grada "
-"%(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid ""
-"Last sync over %(translatedTimeAgo)s near %(translatedCity)s, "
+"Last seen over %(translatedTimeAgo)s near %(translatedCity)s, "
 "%(translatedState)s, %(translatedCountry)s"
 msgstr ""
-"Poslednja sinrhonizacija %(translatedTimeAgo)s, %(translatedCity)s, "
-"%(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -321,8 +314,8 @@ msgid "Web Session"
 msgstr "Veb sesije"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "Poslednje vreme sinhronizovanja je nepoznato"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2540,6 +2533,39 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Poslednje sinhronizovanje %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Poslednja sinhronizacija pre %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr ""
+#~ "Poslednja sinhronizacija %(translatedTimeAgo)s u državi "
+#~ "%(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr ""
+#~ "Poslednja sinhronizacija pre %(translatedTimeAgo)s u državi "
+#~ "%(translatedCountry)s"
+
+#~ msgid ""
+#~ "Last sync %(translatedTimeAgo)s near %(translatedCity)s, "
+#~ "%(translatedState)s, %(translatedCountry)s"
+#~ msgstr ""
+#~ "Poslednja sinhronizacija %(translatedTimeAgo)s u blizini grada "
+#~ "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid ""
+#~ "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, "
+#~ "%(translatedState)s, %(translatedCountry)s"
+#~ msgstr ""
+#~ "Poslednja sinrhonizacija %(translatedTimeAgo)s, %(translatedCity)s, "
+#~ "%(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Poslednje vreme sinhronizovanja je nepoznato"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Uspešna pretplata"

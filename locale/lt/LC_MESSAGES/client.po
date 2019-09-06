@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-07-27 10:22+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,28 +166,28 @@ msgstr ""
 "Apgailestaujame, jog taip nutiko. Jei tai įrenginys, kuriuo tikrai nepasitikite, rekomenduojame jums pakeisti savo „Firefox“ paskyros slaptažodį ir visus „Firefox“ naršyklėje įrašytus slaptažodžius."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -246,8 +246,8 @@ msgid "Web Session"
 msgstr "Saityno seansas"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "Paskiausios sinchronizacijos laikas nežinomas"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2135,6 +2135,27 @@ msgstr "Susieti naudojant programą"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Paskiausios sinchronizacijos laikas nežinomas"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Užsiprenumeravote sėkmingai"

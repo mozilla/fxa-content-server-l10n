@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-07-05 13:42+0000\n"
 "Last-Translator: ജോയ്സ് <joicefootball@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "അവസാന സിങ്ക് %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s മുമ്പാണ് അവസാനമായി സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "വെബ് സെഷൻ"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാണ്"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2113,6 +2113,27 @@ msgstr "ഒരു അപ്ലിക്കേഷൻ ഉപയോഗിച്ച�
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "അവസാന സിങ്ക് %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s മുമ്പാണ് അവസാനമായി സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാണ്"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെയ്തു"

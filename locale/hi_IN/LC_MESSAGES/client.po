@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-08-05 15:31+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,28 +165,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "अंतिम संकालन %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "अंतिम संकालन %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "अंतिम संकालन क़रीब %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "अंतिम संकालन %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -245,8 +245,8 @@ msgid "Web Session"
 msgstr "वेब सत्र"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "अंतिम संकालन समय अज्ञात"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2122,6 +2122,27 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "अंतिम संकालन %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "अंतिम संकालन %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "अंतिम संकालन क़रीब %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "अंतिम संकालन %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "अंतिम संकालन समय अज्ञात"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "सफलतापूर्वक अभिदत्त किया गया"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-01-08 04:57+0000\n"
 "Last-Translator: Sovichet <sovichet.tep@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,27 +162,27 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ​លើសពី %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ធ្វើសមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s ក្នុង %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:75
@@ -242,7 +242,7 @@ msgid "Web Session"
 msgstr ""
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
+msgid "Last seen time unknown"
 msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
@@ -2113,6 +2113,15 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ​លើសពី %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ធ្វើសមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s ក្នុង %(translatedCountry)s"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "បាន​ជាវ​ដោយ​ជោគជ័យ"

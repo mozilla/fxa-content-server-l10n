@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-07-01 19:47+0000\n"
 "Last-Translator: Selva Makilan <66makilan66@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,27 +163,27 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. நீங்கள் நம்பக்கூடிய சாதனமாக இல்லையெனில்  உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை கணடிப்பாக மாற்றுவதுடன் பயர்பாஃசில் சேமித்த கடவுச்சொற்களையும் மாற்றவும்."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "கடைசி ஒத்திசைவு %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "கடைசி ஒத்திசைவு முடிந்தது %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:75
@@ -243,7 +243,7 @@ msgid "Web Session"
 msgstr "வலை அமர்வு"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
+msgid "Last seen time unknown"
 msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
@@ -2116,6 +2116,12 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "கடைசி ஒத்திசைவு %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "கடைசி ஒத்திசைவு முடிந்தது %(translatedTimeAgo)s"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "வெற்றிகரமாக சந்தாபடுத்தப்பட்டது"

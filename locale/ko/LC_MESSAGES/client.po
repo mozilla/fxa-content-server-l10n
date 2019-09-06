@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-07-05 03:20+0000\n"
 "Last-Translator: 종이상자 <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,28 +163,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "죄송합니다. 이 기기를 신뢰하지 못한다면, Firefox 계정의 비밀번호를 바꾸고, Firefox에 저장된 비밀번호를 바꿔야 합니다."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,8 +243,8 @@ msgid "Web Session"
 msgstr "웹 세션"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "마지막 동기화 시간 알 수 없음"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2121,6 +2121,27 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "마지막 동기화 시간 알 수 없음"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "구독 성공"

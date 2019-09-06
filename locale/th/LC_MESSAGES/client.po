@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-08-19 11:00+0000\n"
 "Last-Translator: Can <udomc.can@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "เราเสียใจที่ได้ยินเกี่ยวกับสิ่งนี้ หากนี่เป็นอุปกรณ์ที่คุณไม่เชื่อถือ คุณควรเปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ และเปลี่ยนรหัสผ่านใด ๆ ที่บันทึกไว้ใน Firefox"
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s ใน %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s ใน %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ซิงค์ครั้งสุดท้ายเมื่อ %(translatedTimeAgo)s ใกล้ %(translatedCity)s %(translatedState)s %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ซิงค์ครั้งล่าสุดนานกว่า %(translatedTimeAgo)s ใกล้ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "เว็บเซสชัน"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "ไม่ทราบเวลาซิงค์ครั้งสุดท้าย"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2117,6 +2117,27 @@ msgstr "จับคู่โดยใช้แอป"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ซิงค์ครั้งสุดท้าย %(translatedTimeAgo)s ใน %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ซิงค์ครั้งสุดท้ายนานกว่า %(translatedTimeAgo)s ใน %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ซิงค์ครั้งสุดท้ายเมื่อ %(translatedTimeAgo)s ใกล้ %(translatedCity)s %(translatedState)s %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ซิงค์ครั้งล่าสุดนานกว่า %(translatedTimeAgo)s ใกล้ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "ไม่ทราบเวลาซิงค์ครั้งสุดท้าย"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "ได้บอกรับเรียบร้อยแล้ว"

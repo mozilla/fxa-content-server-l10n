@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-08-11 09:55+0000\n"
 "Last-Translator: Sahithi <sahithi@swecha.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,27 +162,27 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "ఇది తెలిసి చింతిస్తున్నాం. ఇది మీరు అస్సలు నమ్మదగని పరికరం అయి ఉంటే మీరు మీ ఫైర్‌ఫాక్స్ ఖాతా సంకేతపదాన్ని, అలాగే ఫైర్‌ఫాక్స్‌లో భద్రపరచిన సంకేతపదాలన్నింటినీ మార్చుకోండి."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s లో చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s లో చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s సమీపంలో"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:75
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "వెబ్ సెషన్"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "చివరి సింకు సమయం తెలియదు"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2113,6 +2113,24 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s సమీపంలో"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "చివరి సింకు సమయం తెలియదు"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "విజయవంతంగా సబ్స్క్రైబ్ అయ్యారు"

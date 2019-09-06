@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-08-23 15:17+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,28 +163,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "ਆਖਰੀ ਵਾਰ ਸਿੰਕ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਕੀਤਾ"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ ਆਖਰੀ ਸਿੰਕ %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਵਾਰ"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s, %(translatedState)s, %(translatedCity)s ਦੇ ਨੇੜੇ ਤੇੜੇ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਸਿੰਕ"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s %(translatedCity)s %(translatedState)s %(translatedCountry)s ਦੇ ਨੇੜੇ ਕੀਤਾ ਗਿਆ"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,8 +243,8 @@ msgid "Web Session"
 msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "ਆਖਰੀ ਸਿੰਕ ਸਮੇਂ ਅਣਜਾਣ"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2117,6 +2117,27 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ ਸਿੰਕ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਕੀਤਾ"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ ਆਖਰੀ ਸਿੰਕ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਵਾਰ"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s, %(translatedState)s, %(translatedCity)s ਦੇ ਨੇੜੇ ਤੇੜੇ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਸਿੰਕ"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s %(translatedCity)s %(translatedState)s %(translatedCountry)s ਦੇ ਨੇੜੇ ਕੀਤਾ ਗਿਆ"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "ਆਖਰੀ ਸਿੰਕ ਸਮੇਂ ਅਣਜਾਣ"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"

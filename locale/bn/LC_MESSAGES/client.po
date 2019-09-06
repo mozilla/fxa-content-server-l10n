@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-06 08:01+0000\n"
 "PO-Revision-Date: 2019-08-27 11:19+0000\n"
 "Last-Translator: nanditasilvia <nanditasilvia@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,27 +163,27 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "আমার তা শুনে দুঃখিত। যদি ডিভাইসটিকে বিশ্বাসযোগ্য না হয়, তাহলে আপনার উচিত Firefox Account এর পাসওয়ার্ড পরিবর্তন করা এবং Firefox এ সংরক্ষিত সব পাসওয়ার্ড পরিবর্তন করুন।"
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "সর্বশেষ সিঙ্ক %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "সর্বশেষ সিঙ্ক %(translatedTimeAgo)s আগে শেষ হয়েছে"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "সর্বশেস সিঙ্ক %(translatedCountry)s এ %(translatedTimeAgo)s আগে হয়েছে"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
 #: .es5/views/settings/clients.js:75
@@ -243,8 +243,8 @@ msgid "Web Session"
 msgstr "ওয়েব সেশন"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "সর্বশেষ সিঙ্কের সময় অজানা"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -2115,6 +2115,18 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "সর্বশেষ সিঙ্ক %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "সর্বশেষ সিঙ্ক %(translatedTimeAgo)s আগে শেষ হয়েছে"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "সর্বশেস সিঙ্ক %(translatedCountry)s এ %(translatedTimeAgo)s আগে হয়েছে"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "সর্বশেষ সিঙ্কের সময় অজানা"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
