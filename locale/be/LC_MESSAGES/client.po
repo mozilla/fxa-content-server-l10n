@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-02 20:59+0000\n"
+"PO-Revision-Date: 2019-09-06 18:56+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1161,7 +1161,7 @@ msgstr "Увядзіце код пацверджання"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас %(escapedEmail)s на працягу 20 хвілін."
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1336,15 +1336,15 @@ msgstr "Пачаць скід"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Апошняя актыўнасць"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Падзеі бяспекі"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Назва падзеі"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1352,15 +1352,15 @@ msgstr "Пацверджана"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Створана"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Выдаліць падзеі"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Вярнуцца да наладаў"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1582,11 +1582,11 @@ msgstr "Сувязь з намі"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Якое ў вас пытанне да нас?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Іншае"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1773,7 +1773,7 @@ msgstr "Калі ласка, пацвердзіце, што пры выдале�
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Усе вашы платныя падпіскі будуць ануляваныя"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
