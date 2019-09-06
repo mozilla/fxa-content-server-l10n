@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-05 21:30+0000\n"
-"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
+"PO-Revision-Date: 2019-09-06 03:30+0000\n"
+"Last-Translator: Reza Habibi <reza.hbi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -1514,7 +1514,7 @@ msgstr "حالا فایرفاکس را در جاهای دیگه هم نصب کن
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "بر روی دستگاه‌ های دیگر خود وارد شوید و از تمام محصولات،‌ دانش،‌ حریم شخصی و امکانات فایرفاکس بهره‌ مند شوید."
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1765,23 +1765,23 @@ msgstr "حذف…"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "شما حساب فایرفاکس خود را به محصولات موزیلا متصل کرده‌اید که باعث می‌شود شما تجربه وبگردی امن و پرباری داشته باشید:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "لطفا تصدیق کنید با پاک کردن حساب کاربری خود:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "هرگونه اشتراک پرداخت شده توسط شما لغو خواهد شد"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "شما ممکن است اطلاعات ذخیره شده و تعداد ویژیگی همراه محصولات موزیلا را از دست دهید"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "فعال‌ سازی مجدد با این پست الکترونیکی ممکن است همراه با بازنگشتن اطلاعات ذخیره شده شود"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -2086,7 +2086,7 @@ msgstr "مدیریت دستگاه‌ ها"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "هم اکنون نیازمند تایید<small> از روی دستگاه‌های دیگر شما است</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -2098,7 +2098,7 @@ msgstr "روند راه اندازی خاتمه یافت."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "دستگاه کد خوان بر روی برنامه فایرفاکس را بعد از اماده شدن کد باز کنید."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2114,11 +2114,11 @@ msgstr "جفت سازی موفقیت آمیز بود."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "تایید جفت شدن با<small> برای %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "تایید جفت شدن"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
