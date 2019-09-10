@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-08-29 15:45+0000\n"
-"Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
+"PO-Revision-Date: 2019-09-04 15:22+0000\n"
+"Last-Translator: sadi06888 <sadi06888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "আপনি Firefox Account আপনার প্রথম ডিভ�
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "আপনি Firefox Account এ আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত হয়েছেন। Sync কে সর্বোচ্চ কার্যকর করতে, যেকোনো Android এর জন্য Firefox অথবা iOS এর জন্য Firefox এ সংযোগ করুন।"
 
 #: lib/senders/templates/_pending.txt:3 lib/senders/templates/post_verify.html:4 lib/senders/templates/post_verify_trailhead.html:5
@@ -114,7 +114,7 @@ msgstr "Mozilla গোপনীয়তা নীতি"
 #: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
 #: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Cloud ব্যবহারের শর্তাবলী"
 
 #: lib/senders/templates/low_recovery_codes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -136,7 +136,7 @@ msgstr "আরও তথ্যের জন্য, ভিজিট করুন 
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s এর নতুন সাইন ইন"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/password_reset_account_recovery.html:4 lib/senders/templates/password_reset_account_recovery.txt:3 lib/senders/templates/post_add_account_recovery.html:4
@@ -210,15 +210,15 @@ msgstr "যদি আপনি এটি পরিবর্তন না কর�
 
 #: lib/senders/templates/password_reset_account_recovery.html:2 lib/senders/templates/password_reset_account_recovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্টের পাসওয়ার্ডটি একটি পুনরুদ্ধার কী দিয়ে পুনরায় সেট করা হয়েছিল"
 
 #: lib/senders/templates/password_reset_account_recovery.html:3 lib/senders/templates/password_reset_account_recovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "আপনি নিম্নলিখিত ডিভাইসটি থেকে পুনরুদ্ধার কী ব্যবহার করে সফলভাবে আপনার পাসওয়ার্ডটি পুনরায় সেট করেছেন:"
 
 #: lib/senders/templates/password_reset_account_recovery.html:5 lib/senders/templates/password_reset_account_recovery.txt:4
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "আপনাকে একটি নতুন পুনরুদ্ধার কী তৈরি করতে হবে।"
 
 #: lib/senders/templates/password_reset_account_recovery.html:6
 msgid "Create new recovery key"
@@ -270,7 +270,7 @@ msgstr "Firefox Account টিম"
 
 #: lib/senders/templates/post_add_account_recovery.html:2 lib/senders/templates/post_add_account_recovery.txt:1
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "অ্যাকাউন্ট পুনরুদ্ধার কী সৃষ্টি হয়েছে"
 
 #: lib/senders/templates/post_add_account_recovery.html:3
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
@@ -316,27 +316,27 @@ msgstr ""
 
 #: lib/senders/templates/post_consume_recovery_code.html:2
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "পুনরুদ্ধার কোড ব্যবহৃত"
 
 #: lib/senders/templates/post_consume_recovery_code.html:3 lib/senders/templates/post_consume_recovery_code.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "আপনি নিম্নলিখিত ডিভাইসটি থেকে সফলভাবে একটি পুনরুদ্ধার কোড ব্যবহার করেছেন:"
 
 #: lib/senders/templates/post_consume_recovery_code.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "পুনরুদ্ধার কোড গ্রহণ করা হয়েছে"
 
 #: lib/senders/templates/post_new_recovery_codes.html:2 lib/senders/templates/post_new_recovery_codes.txt:1
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "নতুন পুনরুদ্ধার কোড উৎপন্ন হয়েছে"
 
 #: lib/senders/templates/post_new_recovery_codes.html:3 lib/senders/templates/post_new_recovery_codes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "আপনি নিম্নলিখিত ডিভাইসটি থেকে সফলভাবে নতুন পুনরুদ্ধার কোডগুলো তৈরি করেছেন:"
 
 #: lib/senders/templates/post_remove_account_recovery.html:2 lib/senders/templates/post_remove_account_recovery.txt:1
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "অ্যাকাউন্ট পুনরুদ্ধার কী সরানো হয়েছে"
 
 #: lib/senders/templates/post_remove_account_recovery.html:3
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_account_recovery.html:5 lib/senders/templates/post_remove_account_recovery.txt:4
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "এই পুনরুদ্ধার কী আর আপনার অ্যাকাউন্টটি পুনরুদ্ধার করতে ব্যবহার করা যাবে না।"
 
 #: lib/senders/templates/post_remove_account_recovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "সেকেন্ডারি ইমেইল অপসারিত"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -370,7 +370,7 @@ msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল; �
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:2 lib/senders/templates/post_remove_two_step_authentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "টু-স্টেপ অথেনটিকেশন নিষ্ক্রিয় হয়েছে"
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:3
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -378,11 +378,11 @@ msgstr ""
 
 #: lib/senders/templates/post_remove_two_step_authentication.html:5
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "সুরক্ষা কোডগুলো আর প্রতিটি সাইন-ইন করার সময় প্রয়োজন হবে না।"
 
 #: lib/senders/templates/post_remove_two_step_authentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "আপনি সফলভাবে আপনার Firefox অ্যাকাউন্টে টু-স্টেপ অথেনটিকেশন বন্ধ করেছেন। সুরক্ষা কোডগুলো আর প্রতিটি সাইন-ইন করার সময় প্রয়োজন হবে না।"
 
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -415,7 +415,7 @@ msgstr ""
 #: lib/senders/templates/post_verify_trailhead.html:2 lib/senders/templates/post_verify_trailhead.txt:1 lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Firefox পরিবারে আপনাকে স্বাগতম"
 
 #: lib/senders/templates/post_verify_trailhead.html:3 lib/senders/templates/post_verify_trailhead.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -427,15 +427,15 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_trailhead.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "অন্য ডিভাইস সংযুক্ত করুন:"
 
 #: lib/senders/templates/post_verify_trailhead.txt:6
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "প্রশ্ন আছে? %(supportUrl)s এ দেখুন"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "আপনার পাসওয়ার্ড পুনরায় সেট করতে চান?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -447,7 +447,7 @@ msgstr "নতুন পাসওয়ার্ড তৈরি করুন"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Firefox বেছে নেওয়ার জন্য ধন্যবাদ! আপনি মোবাইলের জন্য Firefox ইনস্টল করতে পারেন এখানে: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1 lib/senders/templates/verify_login_code.html:2 lib/senders/templates/verify_login_code.txt:1
 msgid "Is this you signing in?"
@@ -467,7 +467,7 @@ msgstr "যদি না হয়, অামাদের সাহায্য ক
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "কিছু দিন আগে আপনি একটি Firefox অ্যাকাউন্ট তৈরি করেছেন, তবে এটি কখনও নিশ্চিত করেন নি।"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_first.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -496,7 +496,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome to %(serviceName)s!"
-msgstr ""
+msgstr "%(serviceName)s এ আপনাকে স্বাগতম!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:3
 msgid "Welcome!"
@@ -620,11 +620,11 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "শর্তাদি এবং বাতিলকরণের নীতি"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "গোপনীয়তা নীতিমালা"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:5
 msgid "Cancel subscription"
@@ -632,15 +632,15 @@ msgstr "সাবস্ক্রিপশন বাতিল করুন"
 
 #: lib/senders/subscription-templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "বিলিং তথ্য হালনাগাদ"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "শর্তাদি এবং বাতিলকরণ নীতি:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "গোপনীয়তা নীতিমালা:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
@@ -684,11 +684,11 @@ msgstr "আপনার ইমেইল নিশ্চিত করুন এ�
 
 #: lib/senders/email.js:494
 msgid "Finish Creating Your Account"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্ট তৈরি করা শেষ করুন"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "যাচাইকরণ কোড: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
@@ -700,23 +700,23 @@ msgstr ""
 
 #: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s এর জন্য অনুমোদনের কোড"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "নতুন সাইন ইন নিশ্চিত করুন"
 
 #: lib/senders/email.js:766
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s এর জন্য সাইন ইন কোড"
 
 #: lib/senders/email.js:828
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "প্রাথমিক ইমেইল যাচাই করুন"
 
 #: lib/senders/email.js:890
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "সেকেন্ডারি ইমেইল যাচাই করুন"
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
@@ -732,11 +732,11 @@ msgstr "পাসওয়ার্ড হালনাগাদ হয়েছে"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "সন্দেহজনক ক্রিয়াকলাপ: পাসওয়ার্ড পুনরায় সেট করা প্রয়োজন"
 
 #: lib/senders/email.js:1081
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s এ নতুন সাইন ইন"
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
@@ -748,27 +748,27 @@ msgstr "অ্যাকাউন্ট নিশ্চিত করা হয়
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "সেকেন্ডারি ইমেইল যুক্ত হয়েছে"
 
 #: lib/senders/email.js:1205
 msgid "New Primary Email"
-msgstr ""
+msgstr "নতুন প্রাথমিক ইমেইল"
 
 #: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "সেকেন্ডারি ইমেল অপসারিত হয়েছে"
 
 #: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "টু-স্টেপ অথেনটিকেশন সক্রিয় হয়েছে"
 
 #: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "টু-স্টেপ অথেনটিকেশন নিষ্ক্রিয় হয়েছে"
 
 #: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "নতুন পুনরুদ্ধার কোড উৎপন্ন হয়েছে"
 
 #: lib/senders/email.js:1389
 msgid "Recovery Code Used"
@@ -784,15 +784,15 @@ msgstr ""
 
 #: lib/senders/email.js:1473
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "অ্যাকাউন্ট পুনরুদ্ধার কী উৎপন্ন হয়েছে"
 
 #: lib/senders/email.js:1516
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "অ্যাকাউন্ট পুনরুদ্ধার কী সরানো হয়েছে"
 
 #: lib/senders/email.js:1559
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "পুনরুদ্ধার কী ব্যবহার করে পাসওয়ার্ড আপডেট হয়েছে"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -846,7 +846,7 @@ msgstr "প্রাইভেসি নোটিশ"
 
 #: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "সাবস্ক্রিপশন প্ল্যাটফর্ম পরিষেবার শর্তাদি"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
@@ -959,14 +959,15 @@ msgstr "সর্বশেষটি ডাউনলোড করুন"
 #~ msgstr "রিসেট পাসওয়ার্ড"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি সক্রিয় করতে শুধু "
-#~ "ইমেইল ঠিকানাটি নিশ্চিত করুন।"
+#~ "কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি "
+#~ "সক্রিয় করতে শুধু ইমেইল ঠিকানাটি নিশ্চিত করুন।"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
+#~ msgstr ""
+#~ "সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "নিরাপত্তা যোগ করতে, ডিভাইসটি সিঙ্ক হতে অনুগ্রহ করে সাইন-ইন করুন:"
@@ -983,8 +984,7 @@ msgstr "সর্বশেষটি ডাউনলোড করুন"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox Account এর জন্য ইমেইল ভেরিফাই করুন"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "আপনি সফলভাবে আপনার Firefox Account এ  %(secondaryEmail)s কে সেকেন্ডারি ইমেইল হিসেবে ভেরিফাই করেছেন। নিরাপত্তা নোটিফিকেশন এবং সাইন-ইন নিশ্চিতকরণ বার্তা এখন থেকে উভয় ইমেইল ঠিকানায় পাঠানো হবে।"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

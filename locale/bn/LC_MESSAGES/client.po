@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-04 14:23+0000\n"
+"PO-Revision-Date: 2019-09-04 14:37+0000\n"
 "Last-Translator: sadi06888 <sadi06888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn\n"
@@ -176,11 +176,11 @@ msgstr "সর্বশেস সিঙ্ক %(translatedCountry)s এ %(transl
 
 #: .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "সর্বশেষ সিঙ্ক %(translatedTimeAgo)s আগে %(translatedCountry)s এর মধ্যে"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "সর্বশেষ %(translatedTimeAgo)s এ সিঙ্ক %(translatedCity)s, %(translatedState)s, %(translatedCountry)s এর নিকটে"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -192,7 +192,7 @@ msgstr "সর্বশেষ সক্রিয় %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "সর্বশেষ সক্রিয় %(translatedTimeAgo)s আগে"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -613,11 +613,11 @@ msgstr "অকার্যকর পুনরুদ্ধার কী"
 
 #: .es5/lib/auth-errors.js:242
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "এই অনুরোধটির জন্য আপনার অ্যাকাউন্টে টু-স্টেপ অথেনটিকেশন চালু করা দরকার।"
 
 #: .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "বিরোধী অনুরোধের কারণে ব্যর্থ হয়েছে, দয়া করে আবার চেষ্টা করুন।"
 
 #: .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
@@ -641,7 +641,7 @@ msgstr "সাবস্ক্রিপশন ইতিমধ্যে বাত�
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "আপডেট বাতিল করা হয়েছিল, দয়া করে আবার চেষ্টা করুন"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid signup code"
@@ -906,27 +906,27 @@ msgstr "অনুপস্থিত OAuth প্যারামিটার: %(p
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "ইউজার সাইন ইন নেই"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "একজন ভিন্ন ইউজার সাইন ইন করেছেন"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "ইউজার বা সেশন যাচাইকৃত নয়"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "দূরবর্তী ডিভাইস থেকে অকার্যকর বার্তা"
 
 #: .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "রিমোট ডিভাইসে যুক্ত করার সময় ত্রুটি"
 
 #: .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "রিমোট ডিভাইসের সাথে সংযোগ বন্ধ, দয়া করে আবার চেষ্টা করুন"
 
 #: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
@@ -998,7 +998,7 @@ msgstr "নতুন লিঙ্ক গ্রহণ করুন"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "পুনরুদ্ধার কী দিয়ে পাসওয়ার্ড পুনরায় সেট করুন"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
@@ -1052,7 +1052,7 @@ msgstr "কি সিঙ্ক করতে হবে তা পছন্দ ক
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr ""
+msgstr "আপনি এগুলোকে সিঙ্ক করুন যেখানেই সাইন ইন করুন না কেন"
 
 #: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1225,7 +1225,7 @@ msgstr "আবার চেষ্টা করুন"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "আপনার ফায়ারফক্স অ্যাকাউন্টে<span class=\"service\">সাইন ইন করুন </span>"
 
 #: .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1345,7 +1345,7 @@ msgstr "যাচাইকৃত"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "এ নির্মিত"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
@@ -1378,7 +1378,7 @@ msgstr "একটি অ্যাকাউন্ট খুলুন"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "দুঃখিত। আমরা আপনার &nbsp;অ্যাকাউন্টটি লক করেছি।"
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "আর সেই ইমেইলের মালিক নন? একটি নতুন অ্যাকাউন্ট তৈরি করুন"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1398,7 +1398,7 @@ msgstr "পুনরুদ্ধার কোড লিখুন"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "দয়া করে একটি পুনরুদ্ধার কোড প্রদান করুন যা আপনাকে সেটআপের সময় সরবরাহ করা হয়েছিল।"
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1422,7 +1422,7 @@ msgstr "এই সাইন-ইন অনুমোদন করুন"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "%(email)s এর কাছে প্রেরিত কোডটির জন্য আপনার ইমেলটি পরীক্ষা করুন।"
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
@@ -1450,7 +1450,7 @@ msgstr "অনুমোদন কোডটি লিখুন"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
-msgstr ""
+msgstr "আপনার Firefox অ্যাকাউন্ট তৈরি করুন"
 
 #: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
@@ -1506,7 +1506,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Firefox এর সমস্ত পণ্য, সংবাদ এবং গোপনীয়তা বৈশিষ্ট্যগুলো পেতে আপনার অন্যান্য ডিভাইসে সাইন ইন করুন।"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Mobile phone number"
@@ -1535,7 +1535,7 @@ msgstr "আপনার স্মার্টফোনে Firefox ইনস্�
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Firefox অ্যাপে একটি লিঙ্ক %(escapedPhoneNumber)s প্রেরণ করা হয়েছিল"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Wrong number?"
@@ -1563,7 +1563,7 @@ msgstr "পৌঁছায়নি? আবার পাঠাও"
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "সাবস্ক্রিপশন প্ল্যাটফর্ম পরিষেবার শর্তাদি"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -1579,7 +1579,7 @@ msgstr "অন্যান্য"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "আপনার কোন ধরনের সাহায্য দরকার?"
 
 #: .es5/templates/support.mustache:7
 msgid "General inquiries"
@@ -1758,7 +1758,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্ট মুছে ফেলার মাধ্যমে দয়া করে স্বীকার করুন:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
@@ -1766,11 +1766,11 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "আপনি Mozilla পণ্যগুলোর মধ্যে সংরক্ষিত তথ্য এবং বৈশিষ্ট্যগুলো হারাতে পারেন"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "এই ইমেইলটি পুনরায় সক্রিয় করলেও আপনার সংরক্ষিত তথ্য পুনরুদ্ধার নাও হতে পারে"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1957,7 +1957,7 @@ msgstr "আপনার বয়স কত?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(OS)s এর উপর %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -1989,7 +1989,7 @@ msgstr "Firefox ব্রাউজার"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "নিরাপদে প্রতিটি ডিভাইসে ইন্টারনেট উপভোগ করুন।"
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -1997,7 +1997,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "আপনার পাসওয়ার্ডগুলো সুরক্ষিত এবং পোর্টেবল রাখুন।"
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2017,7 +2017,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Your Firefox Account password"
-msgstr ""
+msgstr "আপনার Firefox অ্যাকাউন্টের পাসওয়ার্ড"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2061,7 +2061,7 @@ msgstr "সংযুক্ত ডিভাইস"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "আপনি এখন সিঙ্ক করছেন এর সাথে:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
@@ -2073,11 +2073,11 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "যুক্ত করা সফল হয়নি"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "সেটআপ প্রক্রিয়াটি বন্ধ করা হয়েছিল।"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2085,7 +2085,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "কোড দেখান"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
@@ -2093,7 +2093,7 @@ msgstr "অ্যাপ সংগ্রহ করুন"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "পেয়ারিং সফল হয়েছিল।"
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
@@ -2101,15 +2101,15 @@ msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "পেয়ারিং নিশ্চিত করুন"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "একটি অ্যাপ ব্যবহার করে যুক্ত করুন"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "আপনি কি সিস্টেম ক্যামেরা ব্যবহার করেছেন? আপনার অবশ্যই একটি Firefox অ্যাপের মধ্যে থেকে যুক্ত হতে হবে।"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
