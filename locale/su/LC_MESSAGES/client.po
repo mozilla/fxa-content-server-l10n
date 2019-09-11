@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-09-03 03:32+0000\n"
+"PO-Revision-Date: 2019-09-11 06:49+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -645,7 +645,7 @@ msgstr "Pamutahiran ditolak, mangga cobaan deui"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid signup code"
-msgstr ""
+msgstr "Sandi daptarna kadaluwarsa atawa teu bener"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -818,11 +818,11 @@ msgstr "Prak asupkeun kodeu vérifikasi"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Alihan teu bener"
 
 #: .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Teu bisa nyokot Katangtuan Pelayanan Platform Pendaptaran"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -906,11 +906,11 @@ msgstr "Leungiteun paraméter OAuth: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Pamaké teu asup log"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Aya pangguna anu béda geus asup"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
@@ -1158,7 +1158,7 @@ msgstr "Klik tutumbu nu disurélékkeun ka %(email)s dina sawatara jam pikeun ny
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
 msgid "Enter verification code"
-msgstr ""
+msgstr "Asupkeun sandi péripikasi"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
@@ -1239,7 +1239,7 @@ msgstr "Asup pikeun nuluykeun"
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ku nuluykeun, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\">Katangtuan Pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\">Wawar Privasi</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1337,15 +1337,15 @@ msgstr "Vérifikasi"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Kagiatan Anyar"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Acara Kaamanan"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Ngaran Acara"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1353,19 +1353,19 @@ msgstr "Divérifikasi"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Dijieun Di"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Hapus acara"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Balik ka setélan"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Kartu kiridit anjeun geus kadaluwarsa. Mangga anyarkeun <a %(escapedCcExpiredLinkAttrs)s>di dieu</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1575,47 +1575,47 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Talek Kami"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Aya perlu naon?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Lianna"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Perlu dibantu naon?"
 
 #: .es5/templates/support.mustache:7
 msgid "General inquiries"
-msgstr ""
+msgstr "Patalekan umum"
 
 #: .es5/templates/support.mustache:8
 msgid "Payment & billing"
-msgstr ""
+msgstr "Babayar & tagihan"
 
 #: .es5/templates/support.mustache:9
 msgid "Connection issues"
-msgstr ""
+msgstr "Masalah sambungan"
 
 #: .es5/templates/support.mustache:10
 msgid "Getting started"
-msgstr ""
+msgstr "Mitembeyan"
 
 #: .es5/templates/support.mustache:11
 msgid "Account issues"
-msgstr ""
+msgstr "Masalah akun"
 
 #: .es5/templates/support.mustache:12
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Jejer (pilihan)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of Issue"
-msgstr ""
+msgstr "Pedaran Masalah"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
