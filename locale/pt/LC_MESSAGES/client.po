@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-07-23 21:34+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Palavra-passe reposta com sucesso. Inicie sessão para continuar."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Iniciar sessão"
 
@@ -80,7 +80,7 @@ msgstr "Email secundário verificado"
 msgid "Sign-in confirmed"
 msgstr "Início de sessão confirmado"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Está pronto(a) para utilizar o %(serviceName)s"
 
@@ -96,11 +96,11 @@ msgstr "Ligado"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Registar</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "A conta já não existe. Pretende recreá-la?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
@@ -108,8 +108,8 @@ msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Palavra-passe"
 
@@ -125,7 +125,7 @@ msgstr "Após terminar, use a sua nova palavra-passe para iniciar sessão em tod
 msgid "Old password"
 msgstr "Palavra-passe antiga"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "Esqueceu-se da palavra-passe?"
 
@@ -165,28 +165,28 @@ msgstr ""
 "Pedimos desculpa por ouvirmos acerca disto. Se este era um dispositivo que não confiava, deverá alterar a palavra-passe da sua Conta Firefox, e alterar quaisquer palavras-passe guardadas no Firefox."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Última sincronização %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Última sincronização há mais %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Última sincronização %(translatedTimeAgo)s em %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Última sincronização há mais %(translatedTimeAgo)s em %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Última sincronização %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Última sincronização há mais %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -245,8 +245,8 @@ msgid "Web Session"
 msgstr "Sessão Web"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "Último tempo de sincronização desconhecido"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1006,9 +1006,9 @@ msgstr "Receber nova ligação"
 msgid "Reset password with recovery key"
 msgstr "Repor palavra-passe com chave de recuperação"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuar para o %(serviceName)s"
 
@@ -1047,30 +1047,18 @@ msgstr "Tem de cumprir determinados requisitos de idade para poder criar uma Con
 msgid "Learn more"
 msgstr "Saber mais"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "%(email)s registado"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "Aproveite ao máximo a sua conta"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "Escolha o que sincronizar"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "Sincronize estas em todos os lugares em que inicia a sessão"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Continuar"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "Guardar seleções"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1121,35 +1109,27 @@ msgid "Verification error"
 msgstr "Erro de verificação"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "Um último passo"
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "Confirmar a sua conta"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "Confirmar este início de sessão"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "Verifique %(escapedEmail)s por uma ligação de confirmação e iremos colocar-lhe no seu caminho."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Verifique o seu email para a ligação de verificação enviada&nbsp;para %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Verifique o seu email para a ligação de confirmação de início de sessão enviada para %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Retroceder"
 
@@ -1161,19 +1141,19 @@ msgstr "Mensagem de reposição enviada"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Clique na ligação enviada para %(email)s dentro da próxima hora para criar uma nova palavra-passe."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "Introduzir código de 6 dígitos"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "Verificar"
 
@@ -1181,7 +1161,7 @@ msgstr "Verificar"
 msgid "Connect another device"
 msgstr "Ligar outro dispositivo"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "Este Firefox está ligado"
 
@@ -1189,8 +1169,7 @@ msgstr "Este Firefox está ligado"
 msgid "Email verified"
 msgstr "Email verificado"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Sucesso"
 
@@ -1198,7 +1177,7 @@ msgstr "Sucesso"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Iniciar sessão neste Firefox para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "Ainda a adicionar dispositivos?"
 
@@ -1218,7 +1197,7 @@ msgstr "Inicie sessão no Firefox para Android para completar a configuração"
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Inicie sessão no Firefox para iOS para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "Porque é que é requerido mais que um dispositivo?"
 
@@ -1234,23 +1213,19 @@ msgstr "Por favor ative os cookies e armazenamento local no seu navegador para a
 msgid "Try again"
 msgstr "Tentar novamente"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Inicie sessão <span class=\"service\">na sua Conta Firefox</span>"
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Inicie sessão para continuar"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Digite o seu email"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "Email"
 
@@ -1296,19 +1271,19 @@ msgstr "%(serviceName)s pretende aceder à seguinte informação da sua conta:"
 msgid "Accept"
 msgstr "Aceitar"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Começar a navegar"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "A sua conta está pronta!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "Gerar uma nova chave de recuperação"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "Continuar para a minha conta"
 
@@ -1380,12 +1355,12 @@ msgstr "Contas Firefox"
 msgid "Sign out"
 msgstr "Terminar sessão"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Utilizar uma conta diferente"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "Criar uma conta"
 
@@ -1461,84 +1436,62 @@ msgstr "Verifique o seu email para o código de autorização enviado para %(ema
 msgid "Enter authorization code"
 msgstr "Introduzir o código de autorização"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "Crie a sua conta Firefox"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Criar uma Conta Firefox"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Não perca esta palavra-passe. Se precisar de a repor, pode perder dados do Sync."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-"<span>Não reutilize a palavra-passe do seu email</span>Se alguém conhece a palavra-passe do seu email, estes podem aprovar o seu início de sessão do Firefox num novo dispositivo e aceder aos seus "
-"dados."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Memorize a sua palavra-passe</span>Se precisa de repor a sua palavra-passe, irá perder quaisquer dados do Sync que não estão num dos seus dispositivos."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "O conhecimento prático está a chegar à sua caixa de entrada. Inscreva-se para mais:"
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "Criar conta"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "Tem uma conta? Iniciar sessão"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Alterar email"
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "Email mal escrito?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "Conseguiu! Tem sessão iniciada."
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Envie o Firefox diretamente para o seu smartphone e registe-se para completar a configuração"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "Agora obtenha o Firefox em todo o lado."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "Inicie sessão nos seus outros dispositivos para obter todos os produtos, conhecimento e funcionalidades de privacidade do Firefox."
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "Número de telefone móvel"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "Enviar"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber mais</"
 "a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "Por que iniciar sessão noutro dispositivo?"
 
@@ -1546,35 +1499,19 @@ msgstr "Por que iniciar sessão noutro dispositivo?"
 msgid "Check your texts"
 msgstr "Verifique as suas mensagens"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Instale o Firefox no seu smartphone e registe-se para completar a configuração"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "Uma ligação para a aplicação do Firefox foi enviada para %(escapedPhoneNumber)s"
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "Número errado?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "Se não estiver a receber a mensagem SMS, também pode pesquisar na sua loja de aplicações por “Firefox.”"
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Ligação de aplicação enviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Enganou-se a digitar&nbsp;o número?</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Ligação de aplicação reenviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Número&nbsp;mal escrito?</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Se não está a receber a mensagem de texto, pode também transferir as aplicações manualmente."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "Não chegou? Reenviar"
 
@@ -1623,7 +1560,7 @@ msgid "Subject (optional)"
 msgstr ""
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
+msgid "Description of issue"
 msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
@@ -2038,8 +1975,8 @@ msgid "Share large files without prying eyes."
 msgstr "Partilhe ficheiros grandes sem olhares indiscretos."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "A palavra-passe da sua Conta Firefox"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2048,14 +1985,6 @@ msgstr "Não pode ser o seu endereço de email"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "Não pode corresponder a esta <a %(escapedCommonPasswordLinkAttrs)s>lista de palavras-passe comuns</a>"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "Seja original e seguro(a) &mdash; não reutilize esta palavra-passe em mais lado algum."
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Memorize esta palavra-passe &mdash; repo-la irá apagar os seus dados dos nossos servidores."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2132,6 +2061,86 @@ msgstr "Emparelhar utilizando uma aplicação"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação do Firefox."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Última sincronização %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Última sincronização há mais %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Última sincronização %(translatedTimeAgo)s em %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Última sincronização há mais %(translatedTimeAgo)s em %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Última sincronização %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Última sincronização há mais %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Último tempo de sincronização desconhecido"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Aproveite ao máximo a sua conta"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "Escolha o que sincronizar"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Sincronize estas em todos os lugares em que inicia a sessão"
+
+#~ msgid "Save selections"
+#~ msgstr "Guardar seleções"
+
+#~ msgid "One last step"
+#~ msgstr "Um último passo"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "Verifique %(escapedEmail)s por uma ligação de confirmação e iremos colocar-lhe no seu caminho."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Inicie sessão <span class=\"service\">na sua Conta Firefox</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Crie a sua conta Firefox"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>Não reutilize a palavra-passe do seu email</span>Se alguém conhece a palavra-passe do seu email, estes podem aprovar o seu início de sessão do Firefox num novo dispositivo e aceder aos "
+#~ "seus dados."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Memorize a sua palavra-passe</span>Se precisa de repor a sua palavra-passe, irá perder quaisquer dados do Sync que não estão num dos seus dispositivos."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "Email mal escrito?"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Envie o Firefox diretamente para o seu smartphone e registe-se para completar a configuração"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Instale o Firefox no seu smartphone e registe-se para completar a configuração"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ligação de aplicação enviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Enganou-se a digitar&nbsp;o número?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ligação de aplicação reenviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Número&nbsp;mal escrito?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Se não está a receber a mensagem de texto, pode também transferir as aplicações manualmente."
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "A palavra-passe da sua Conta Firefox"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Seja original e seguro(a) &mdash; não reutilize esta palavra-passe em mais lado algum."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Memorize esta palavra-passe &mdash; repo-la irá apagar os seus dados dos nossos servidores."
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Subscrição efetuada com sucesso"

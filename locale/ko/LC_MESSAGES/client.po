@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-07-05 03:20+0000\n"
 "Last-Translator: 종이상자 <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주세요."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
@@ -81,7 +81,7 @@ msgstr "보조 이메일 인증됨"
 msgid "Sign-in confirmed"
 msgstr "로그인 확인됨"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
@@ -97,11 +97,11 @@ msgstr "연결됨"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "계정을 확인할 수 없습니다. <a href=\"/signup\">가입하기</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "이미 있는 계정입니다. <a href=\"/signin\">가입하기</a>"
 
@@ -109,8 +109,8 @@ msgstr "이미 있는 계정입니다. <a href=\"/signin\">가입하기</a>"
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "암호"
 
@@ -126,7 +126,7 @@ msgstr "완료한 후 모든 기기에서 새 비밀번호로 로그인 할 수 
 msgid "Old password"
 msgstr "이전 비밀번호"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "암호를 잊어버리셨습니까?"
 
@@ -163,28 +163,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "죄송합니다. 이 기기를 신뢰하지 못한다면, Firefox 계정의 비밀번호를 바꾸고, Firefox에 저장된 비밀번호를 바꿔야 합니다."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 마지막 동기화"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,8 +243,8 @@ msgid "Web Session"
 msgstr "웹 세션"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "마지막 동기화 시간 알 수 없음"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1004,9 +1004,9 @@ msgstr "새 링크 받기"
 msgid "Reset password with recovery key"
 msgstr "복구 키로 비밀번호 재설정하기"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s으로 계속"
 
@@ -1043,30 +1043,18 @@ msgstr "Firefox&nbsp;계정을 만들기 위해서는 나이 조건을 충족해
 msgid "Learn more"
 msgstr "자세히 보기"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "%(email)s 등록됨"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "계정을 최대한 활용하세요"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "동기화할 대상 선택"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "로그인한 모든 곳에서 동기화하세요"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "계속"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "선택 내용 저장"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1117,35 +1105,27 @@ msgid "Verification error"
 msgstr "확인 오류"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "마지막 한 단계"
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "계정 확인"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "로그인 확인"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "%(escapedEmail)s에서 확인 링크를 선택하면 남은 단계가 처리됩니다."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "%(escapedEmail)s으로 전송된 인증 이메일을 확인하시기 바랍니다."
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "%(escapedEmail)s로 전송된 로그인 확인 링크를 확인하시기 바랍니다."
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "메일함과 스팸메일함에도 없나요? 다시 받기"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "뒤로"
 
@@ -1157,19 +1137,19 @@ msgstr "이메일 전송 재설정"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "새로운 비밀번호를 생성을 위해 %(email)s 이메일로 보낸 링크를 한 시간 이내에 클릭하세요."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "6자리 숫자 코드 입력"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "확인"
 
@@ -1177,7 +1157,7 @@ msgstr "확인"
 msgid "Connect another device"
 msgstr "다른 장치에 연결"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "이 Firefox는 연결되었습니다"
 
@@ -1185,8 +1165,7 @@ msgstr "이 Firefox는 연결되었습니다"
 msgid "Email verified"
 msgstr "이메일 인증됨"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "성공"
 
@@ -1194,7 +1173,7 @@ msgstr "성공"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "이 Firefox에 로그인하여 설정을 완료하세요"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "더 추가할 기기가 있으신가요?"
 
@@ -1214,7 +1193,7 @@ msgstr "Android용 Firefox에 로그인하여 설정을 완료하기"
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "iOS용 Firefox에 로그인하여 설정을 완료하기"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "왜 하나 이상의 기기가 필요한가요?"
 
@@ -1230,23 +1209,19 @@ msgstr "Firefox 계정을 사용하려면 브라우저의 쿠키와 로컬 저�
 msgid "Try again"
 msgstr "다시 시도"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "<span class=\"service\">Firefox 계정</span>에 로그인하세요."
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "계속하려면 로그인"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "이메일을 입력"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "이메일"
 
@@ -1292,19 +1267,19 @@ msgstr "%(serviceName)s이 당신의 계정에서 아래와 같은 정보를 요
 msgid "Accept"
 msgstr "동의"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "탐색 시작"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "계정생성완료!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "새 북구 키 생성"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "내 계정으로 계속"
 
@@ -1376,12 +1351,12 @@ msgstr "Firefox 계정"
 msgid "Sign out"
 msgstr "로그 아웃"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "다른 계정 사용"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "계정 생성"
 
@@ -1457,80 +1432,60 @@ msgstr "%(email)s로 보낸 인증 코드를 확인하세요."
 msgid "Enter authorization code"
 msgstr "인증코드 입력하기"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "Firefox 계정 만들기"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Firefox 계정 생성"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "암호 재입력"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "이 암호를 잃어버리지 마십시오. 이를 재설정하면 Sync 데이터를 잃을수도 있습니다."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>이메일 비밀번호를 다시 사용하지 마세요</span>만약 누군가 당신의 이메일 비밀번호를 알게되면 새 기기에서 Firefox 로그인을 승인하고 데이터에 접근할 수 있습니다."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>비밀번호를 기억하세요</span>비밀번호를 재설정이 필요하면 어느 기기에도 없는 동기화 데이터는 잃게 됩니다."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "계정 생성"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "계정을 가지고 계신가요? 로그인"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "이메일 변경"
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "이메일을 잘못 입력했나요?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "해냈습니다! 로그인이 완료되었습니다."
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Firefox를 스마트폰에 전송하고, 로그인하여 설정을 완료하세요"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "이제 어디에서나 FIrefox를 설치하세요."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "다른 기기에서 로그인 하면 Firefox의 제품과 정보, 개인 정보 보호 기능을 모두 사용할 수 있습니다."
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "핸드폰 번호"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "보내기"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS 서비스는 특정 국가에서만 사용가능합니다. SMS와 데이터 요금이 적용될 수 있습니다. 이메일 또는 SMS 수신자가 동의해야합니다. <a %(escapedLearnMoreAttributes)s>자세히 알아보기</a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "왜 다른 기기에 로그인해야하나요?"
 
@@ -1538,35 +1493,19 @@ msgstr "왜 다른 기기에 로그인해야하나요?"
 msgid "Check your texts"
 msgstr "텍스트 확인"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "스마트폰에 Firefox를 설치하고 로그인 하여 설치 완료"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "%(escapedPhoneNumber)s로 Firefox 앱에 접근하기 위한 링크가 전송되었습니다."
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "번호가 잘못되었나요?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "SMS 메세지를 받지 못했다면 앱 스토어에서 “Firefox”를 검색할 수도 있습니다."
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "앱 링크를 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "앱 링크를 다시 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "만약 문자가 오지 않았다면, 앱을 수동으로 받을 수도 있습니다."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "도착하지 않았나요? 다시 전송"
 
@@ -1615,7 +1554,7 @@ msgid "Subject (optional)"
 msgstr ""
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
+msgid "Description of issue"
 msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
@@ -2027,8 +1966,8 @@ msgid "Share large files without prying eyes."
 msgstr "안전하게 대용량 파일을 공유하세요."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "Firefox 계정 비밀번호"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2037,14 +1976,6 @@ msgstr "이메일 주소가 아니어야 함"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "<a %(escapedCommonPasswordLinkAttrs)s>흔한 암호 목록</a>과 일치하지 않아야 함"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "이 암호를 기억하세요. 재실정시 서버에있는 사용자의 데이터가 지워집니다."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2121,6 +2052,81 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 마지막 동기화"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s %(translatedState)s %(translatedCity)s 근처에서 %(translatedTimeAgo)s 넘어 마지막 동기화"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "마지막 동기화 시간 알 수 없음"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "계정을 최대한 활용하세요"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "동기화할 대상 선택"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "로그인한 모든 곳에서 동기화하세요"
+
+#~ msgid "Save selections"
+#~ msgstr "선택 내용 저장"
+
+#~ msgid "One last step"
+#~ msgstr "마지막 한 단계"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "%(escapedEmail)s에서 확인 링크를 선택하면 남은 단계가 처리됩니다."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "<span class=\"service\">Firefox 계정</span>에 로그인하세요."
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Firefox 계정 만들기"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>이메일 비밀번호를 다시 사용하지 마세요</span>만약 누군가 당신의 이메일 비밀번호를 알게되면 새 기기에서 Firefox 로그인을 승인하고 데이터에 접근할 수 있습니다."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>비밀번호를 기억하세요</span>비밀번호를 재설정이 필요하면 어느 기기에도 없는 동기화 데이터는 잃게 됩니다."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "이메일을 잘못 입력했나요?"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Firefox를 스마트폰에 전송하고, 로그인하여 설정을 완료하세요"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "스마트폰에 Firefox를 설치하고 로그인 하여 설치 완료"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "앱 링크를 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "앱 링크를 다시 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "만약 문자가 오지 않았다면, 앱을 수동으로 받을 수도 있습니다."
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Firefox 계정 비밀번호"
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "이 암호를 기억하세요. 재실정시 서버에있는 사용자의 데이터가 지워집니다."
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "구독 성공"

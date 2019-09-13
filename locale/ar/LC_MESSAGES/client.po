@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-02-03 10:02+0000\n"
 "Last-Translator: Ruba <ruba.awayes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "صُفِّرت كلمة السرّ بنجاح. لُج للاستمرار."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "تسجيل الدخول"
 
@@ -80,7 +80,7 @@ msgstr "أُكِّد البريد الإلكتروني الثانوي"
 msgid "Sign-in confirmed"
 msgstr "أُكِّد الولوج"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "أنت الآن جاهز لاستخدام %(serviceName)s"
 
@@ -96,11 +96,11 @@ msgstr ""
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "الحساب غير معروف. <a href=\"/signup\">أنشئ حسابًا</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "لم يعد الحساب موجودًا. أتريد إعادة إنشائه؟"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "الحساب موجود مسبقًا. <a href=\"/signin\">سجل الدخول</a>"
 
@@ -108,8 +108,8 @@ msgstr "الحساب موجود مسبقًا. <a href=\"/signin\">سجل الد�
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "كلمة السرّ"
 
@@ -125,7 +125,7 @@ msgstr "بمجرد الانتهاء من تغير كلمة السرّ، أستخ
 msgid "Old password"
 msgstr "كلمة السرّ القديمة"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "هل نسيت كلمة السرّ؟"
 
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "نأسف لهذا. إذا كان هذا جهازًا لا تثق به فعلًا، فعليك تغيير كلمة سر حساب فَيَرفُكس، و تغيير أي كلمات سر محفوظة في فَيَرفُكس."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s في %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر في %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "جرت آخ مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "جلسة وِب"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "وقت آخر مزامنة مجهول"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1002,9 +1002,9 @@ msgstr "استلم رابطًا جديدًا"
 msgid "Reset password with recovery key"
 msgstr "صفِّر كلمة السرّ بمفتاح الاستعادة"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "تابِع نحو %(serviceName)s"
 
@@ -1041,30 +1041,18 @@ msgstr "يجب أن تتخطى سنًا معينة لإنشاء حساب فَي�
 msgid "Learn more"
 msgstr "اطّلع على المزيد"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "اختر ما الذي تريد مزامنة"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr ""
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "استمر"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1115,35 +1103,27 @@ msgid "Verification error"
 msgstr "خطأ في التأكيد"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr ""
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "أكّد حسابك"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "أكّد هذا الولوج"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "راجع بريدك الإلكتروني لتجد رابط التأكيد المرسل إلى %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "راجع بريدك الإلكتروني لتجد رابط تأكيد الولوج المرسل إلى %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "ليس في صندوق الوارد أو مجلد السخام؟ أعد إرساله"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "رجوع"
 
@@ -1155,19 +1135,19 @@ msgstr "أُرسِل بريد إعادة تعيين كلمة السرّ"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "انقر الرابط الذي أُرسل إلى بريدك الإلكتروني على %(email)s خلال الساعة القادمة لإنشاء كلمة سر جديدة."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "أدخِل الرمز المكوّن من 6 خانات"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "أكِّد"
 
@@ -1175,7 +1155,7 @@ msgstr "أكِّد"
 msgid "Connect another device"
 msgstr "أوصِل جهازا آخر"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "فَيَرفُكس هذا متصل"
 
@@ -1183,8 +1163,7 @@ msgstr "فَيَرفُكس هذا متصل"
 msgid "Email verified"
 msgstr "اُكّد البريد الإلكتروني"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "تم"
 
@@ -1192,7 +1171,7 @@ msgstr "تم"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "لج إلى فَيَرفُكس هذا لإكمال الإعداد"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "هل ما زلت تضيف أجهزة؟"
 
@@ -1212,7 +1191,7 @@ msgstr "لج إلى فَيَرفُكس أندرويد لإكمال الإعدا�
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "لج إلى فَيَرفُكس لـiOS لإكمال الإعداد"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "لماذا يتطلب أكثر من جهاز واحد؟"
 
@@ -1228,23 +1207,19 @@ msgstr "رجاءً فعّل الكعكات و التخزين المحلي في �
 msgid "Try again"
 msgstr "أعِد المحاولة"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "لِج للمتابعة"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "أدخل بريدك الإلكتروني"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
@@ -1290,19 +1265,19 @@ msgstr "خدمة %(serviceName)s تريد المعلومات التّالية م
 msgid "Accept"
 msgstr "اقبل"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr ""
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "حسابك مفعّل!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "ولّد مفتاح استعادة جديد"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "تابِع نحو حسابي"
 
@@ -1374,12 +1349,12 @@ msgstr "حسابات فَيَرفُكس"
 msgid "Sign out"
 msgstr "تسجيل الخروج"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "استخدام حساب آخر"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "أنشئ حسابًا"
 
@@ -1455,82 +1430,62 @@ msgstr "راجع بريدك الإلكتروني لتجد رمز التخويل 
 msgid "Enter authorization code"
 msgstr "أدخل رمز التخويل"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "أنشئ حسابَ فَيَرفُكس"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "كرر كلمة السرّ"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "لا تنسَ كلمة السر هذه، فإن احتجت إلى تصفيرها قد تفقد البيانات المتزامنة."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>لا تستخدم كلمة سر بريدك الإلكتروني</span>إن كان يعرف أحدهم كلمة سر بريدك الإلكتروني، فيمكنهم تأكيد جلسة ولوج فَيَرفُكس خاصتك على جهاز جديد والدخول إلى بياناتك بعدها."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>تذكّر كلمة السر</span>إن احتجت إلى تصفير كلمة السر، فستفقد كل البيانات المُزامنة غير الموجودة على أي جهاز من الأجهزة لديك."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "أنشئ حسابًا"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "لديك حساب؟ لج"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "هل هناك خطأ في كتابة البريد الإلكتروني؟"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "أرسل فَيَرفُكس مباشرةً إلى هاتفك الذكي و لِج لإكمال الإعداد"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "رقم الهاتف المحمول"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "أرسِل"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "خدمة الرسائل القصيرة متوفرة فقط في بعض البلدان. قد تُطبق أسعار الرسائل القصيرة و البيانات. يجب أن تكون الجهة المقصودة للبريد الإلكتروني أو الرسائل القصيرة قد وافقت على استلامها. <a "
 "%(escapedLearnMoreAttributes)s>اطلع على المزيد</a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr ""
 
@@ -1538,35 +1493,19 @@ msgstr ""
 msgid "Check your texts"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "نصّب فَيَرفُكس على هاتفك الذكي ولج لإكمال الإعداد"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s مرة أخرى. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "إن كانت لا تصلك الرسالة النصية، فيمكنك أيضا تنزيل التطبيقات يدويًا."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "لم يصل؟ أعِد الإرسال"
 
@@ -1615,7 +1554,7 @@ msgid "Subject (optional)"
 msgstr ""
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
+msgid "Description of issue"
 msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
@@ -2027,8 +1966,8 @@ msgid "Share large files without prying eyes."
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "كلمة سر حساب فَيَرفُكس"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2037,14 +1976,6 @@ msgstr "يجب ألا تكون مطابقة لعنوان البريد"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "يجب ألا تتطابق مع <a %(escapedCommonPasswordLinkAttrs)s>قائمة كلمات السر الشائعة</a> هذه"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "فلتكن كلمة أصلية لتكون آمنًا &mdash; لا تُعد استخدام هذه الكلمة في أي مكان آخر."
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "تذكّر كلمة السر هذه &mdash; إن صفّرتها تكون قد مسحت بياناتك من خواديمنا."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2121,6 +2052,63 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "جرت آخر مزامنة %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "جرت آخر مزامنة %(translatedTimeAgo)s في %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر في %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "جرت آخ مزامنة %(translatedTimeAgo)s بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "جرت آخر مزامنة %(translatedTimeAgo)s أو أكثر بقرب %(translatedCity)s، ‏%(translatedState)s، ‏%(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "وقت آخر مزامنة مجهول"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "اختر ما الذي تريد مزامنة"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>لا تستخدم كلمة سر بريدك الإلكتروني</span>إن كان يعرف أحدهم كلمة سر بريدك الإلكتروني، فيمكنهم تأكيد جلسة ولوج فَيَرفُكس خاصتك على جهاز جديد والدخول إلى بياناتك بعدها."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>تذكّر كلمة السر</span>إن احتجت إلى تصفير كلمة السر، فستفقد كل البيانات المُزامنة غير الموجودة على أي جهاز من الأجهزة لديك."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "هل هناك خطأ في كتابة البريد الإلكتروني؟"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "أرسل فَيَرفُكس مباشرةً إلى هاتفك الذكي و لِج لإكمال الإعداد"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "نصّب فَيَرفُكس على هاتفك الذكي ولج لإكمال الإعداد"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s مرة أخرى. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "إن كانت لا تصلك الرسالة النصية، فيمكنك أيضا تنزيل التطبيقات يدويًا."
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "كلمة سر حساب فَيَرفُكس"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "فلتكن كلمة أصلية لتكون آمنًا &mdash; لا تُعد استخدام هذه الكلمة في أي مكان آخر."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "تذكّر كلمة السر هذه &mdash; إن صفّرتها تكون قد مسحت بياناتك من خواديمنا."
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "اشتركت بنجاح"

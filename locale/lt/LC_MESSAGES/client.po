@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-07-27 10:22+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Prisijunkite"
 
@@ -81,7 +81,7 @@ msgstr "Antrinis el. paštas patvirtintas"
 msgid "Sign-in confirmed"
 msgstr "Prisijungimas patvirtintas"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Galite pradėti naudotis „%(serviceName)s“"
 
@@ -97,11 +97,11 @@ msgstr "Prisijungta"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "Jūsų paskyra nebeegzistuoja. Atkurti paskyrą?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
 
@@ -109,8 +109,8 @@ msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Slaptažodis"
 
@@ -126,7 +126,7 @@ msgstr "Kai baigsite, naudokite naująjį slaptažodį prisijungdami visuose sav
 msgid "Old password"
 msgstr "Senas slaptažodis"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
@@ -166,28 +166,28 @@ msgstr ""
 "Apgailestaujame, jog taip nutiko. Jei tai įrenginys, kuriuo tikrai nepasitikite, rekomenduojame jums pakeisti savo „Firefox“ paskyros slaptažodį ir visus „Firefox“ naršyklėje įrašytus slaptažodžius."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -246,8 +246,8 @@ msgid "Web Session"
 msgstr "Saityno seansas"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "Paskiausios sinchronizacijos laikas nežinomas"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1009,9 +1009,9 @@ msgstr "Gauti naują saitą"
 msgid "Reset password with recovery key"
 msgstr "Pakeisti slaptažodį atkūrimo rakto pagalba"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "norėdami tęsti su „%(serviceName)s“"
 
@@ -1050,30 +1050,18 @@ msgstr "Norintiems susikurti „Firefox“ paskyrą naudotojams taikomas amžiau
 msgid "Learn more"
 msgstr "Sužinoti daugiau"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "Paskyra %(email)s užregistruota"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "Išnaudokite savo paskyrą visokeriopai"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "Pasirinkite, ką sinchronizuosite"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "Sinchronizuokite tai visuose savo įrenginiuose"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Tęsti"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "Įrašyti pasirinkimus"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1124,35 +1112,27 @@ msgid "Verification error"
 msgstr "Patvirtinimo klaida"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "Paskutinis žingsnis"
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "Patvirtinkie savo paskyrą"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "Patvirtinkite šį prisijungimą"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "Į %(escapedEmail)s gausite patvirtinimo saitą, o mes paruošime visa kita."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Pasitikrinkite paštą – patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Pasitikrinkite paštą – prisijungimo patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nerandate laiško gautųjų ar brukalo aplanke? Galime jį išsiųsti pakartotinai"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Atgal"
 
@@ -1164,19 +1144,19 @@ msgstr "Atkūrimo laiškas išsiųstas"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Kad pasikeistumėte slaptažodį, valandos bėgyje spustelėkite saitą, jums išsiųstą adresu %(email)s."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "Įveskite šešių skaitmenų kodą"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "Patvirtinti"
 
@@ -1184,7 +1164,7 @@ msgstr "Patvirtinti"
 msgid "Connect another device"
 msgstr "Prijungti kitą įrenginį"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "„Firefox“ naršyklė prijungta"
 
@@ -1192,8 +1172,7 @@ msgstr "„Firefox“ naršyklė prijungta"
 msgid "Email verified"
 msgstr "El. pašto adresas patvirtintas"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Atlikta sėkmingai"
 
@@ -1201,7 +1180,7 @@ msgstr "Atlikta sėkmingai"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Prisijunkite prie šios „Firefox“ naršyklės, kad užbaigtumėte diegimą"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "Norite pridėti daugiau įrenginių?"
 
@@ -1221,7 +1200,7 @@ msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „Androi
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“ įrenginyje"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "Kodėl reikia daugiau kaip vieno įrenginio?"
 
@@ -1237,23 +1216,19 @@ msgstr "Prieigai prie „Firefox“ paskyros prašome įgalinti slapukus ir viet
 msgid "Try again"
 msgstr "Bandykite dar kartą"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Prisijunkite <span class=\"service\">prie savo „Firefox“ paskyros</span>"
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Norėdami tęsti, prisijunkite"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Įveskite savo el. pašto adresą"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "El. paštas"
 
@@ -1299,19 +1274,19 @@ msgstr "%(serviceName)s nori gauti šią informaciją iš jūsų paskyros:"
 msgid "Accept"
 msgstr "Priimti"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Pradėti naršymą"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "Jūsų paskyra parengta darbui!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "Generuoti naują atkūrimo raktą"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "Eiti į paskyrą"
 
@@ -1383,12 +1358,12 @@ msgstr "„Firefox“ paskyros"
 msgid "Sign out"
 msgstr "Atsijungti"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "Naudoti kitą paskyrą"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "Sukurti paskyrą"
 
@@ -1464,83 +1439,61 @@ msgstr "Pasitikrinkite paštą – autorizacijos kodas išsiųstas adresu %(emai
 msgid "Enter authorization code"
 msgstr "Įveskite patvirtinimo kodą"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "Susikurkite savo „Firefox“ paskyrą"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Susikurkite „Firefox“ paskyrą"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "Pakartokite slaptažodį"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Nepameskite šio slaptažodžio. Jeigu tektų jį atkurti, galite prarasti sinchronizuotus duomenis."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-"<span>Nenaudokite savo el. pašto slaptažodžio!</span> Jei kas nors žino jūsų el. pašto slaptažodį, toks asmuo galės patvirtinti jūsų prisijungimą prie „Firefox“ naujame įrenginyje ir pasiekti jūsų "
-"duomenis."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Nepamirškite savo slaptažodžio!</span> Jeigu tektų slaptažodį atkurti, bus prarasti visi serveryje laikomi sinchronizuoti duomenys."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Į jūsų pašto dėžutę atkeliaus praktinių žinių. Prisijungę gausite daugiau:"
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "Kurti paskyrą"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "Jau turite paskyrą? Prisijunkite"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Keisti el. pašto adresą"
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "Klaida adrese?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "Jums pavyko! Prisijungėte."
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "Dabar paruoškite „Firefox“ visur kitur."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "Prisijunkite kituose įrenginiuose, kad gautumėte visus „FIrefox“ produktus, žinias, ir privatumo privalumus."
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "Mobiliojo telefono numeris"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "Siųsti"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "SMS paslauga teikiama ne visose šalyse. Gali būti taikomi SMS ir duomenų perdavimo mokesčiai. Būtinas el. laiško ar SMS gavėjo sutikimas. <a %(escapedLearnMoreAttributes)s>Sužinoti daugiau</a> "
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "Kodėl prisijungti kitame įrenginyje?"
 
@@ -1548,35 +1501,19 @@ msgstr "Kodėl prisijungti kitame įrenginyje?"
 msgid "Check your texts"
 msgstr "Pasitikrinkite savo žinutes"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Įsidiekite „Firefox“ savo išmaniajame įrenginyje bei prisijunkite, norėdami užbaigti paruošimą"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "Į %(escapedPhoneNumber)s buvo nusiųstas saitas „Firefox“ parsisiuntimui"
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "Blogas numeris?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "Jei negaunate SMS pranešimo, galite savo programų parduotuvėje paieškoti „Firefox“."
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Saitas į programą išsiųstas telefonu %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Suklydote įvesdami numerį?</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Saitas į programą išsiųstas adresu %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Suklydote įv esdami adresą?</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Jeigu SMS pranešimo negaunate, galite programą parsisiųsti savarankiškai."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "Negavote? Nusiųskite iš naujo"
 
@@ -1625,7 +1562,7 @@ msgid "Subject (optional)"
 msgstr ""
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
+msgid "Description of issue"
 msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
@@ -2041,8 +1978,8 @@ msgid "Share large files without prying eyes."
 msgstr "Dalinkitės dideliais failais be smalsių akių."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "Jūsų „Firefox“ paskyros slaptažodis"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2051,14 +1988,6 @@ msgstr "Negali būti jūsų el. pašto adresas"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "Negali sutapti su vienu iš <a %(escapedCommonPasswordLinkAttrs)s>dažnai naudojamų slaptažodžių</a>"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "Būkite originalūs ir tuo pačiu saugūs – nenaudokite šio slaptažodžio niekur kitur."
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Įsiminkite šį slaptažodį – jį atkūrus iš naujo, jūsų duomenys mūsų serveriuose bus pašalinti."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2135,6 +2064,86 @@ msgstr "Susieti naudojant programą"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Paskiausiai sinchronizuota seniau kaip %(translatedTimeAgo)s, vieta – netoli %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Paskiausios sinchronizacijos laikas nežinomas"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Išnaudokite savo paskyrą visokeriopai"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "Pasirinkite, ką sinchronizuosite"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Sinchronizuokite tai visuose savo įrenginiuose"
+
+#~ msgid "Save selections"
+#~ msgstr "Įrašyti pasirinkimus"
+
+#~ msgid "One last step"
+#~ msgstr "Paskutinis žingsnis"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "Į %(escapedEmail)s gausite patvirtinimo saitą, o mes paruošime visa kita."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Prisijunkite <span class=\"service\">prie savo „Firefox“ paskyros</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Susikurkite savo „Firefox“ paskyrą"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>Nenaudokite savo el. pašto slaptažodžio!</span> Jei kas nors žino jūsų el. pašto slaptažodį, toks asmuo galės patvirtinti jūsų prisijungimą prie „Firefox“ naujame įrenginyje ir pasiekti "
+#~ "jūsų duomenis."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Nepamirškite savo slaptažodžio!</span> Jeigu tektų slaptažodį atkurti, bus prarasti visi serveryje laikomi sinchronizuoti duomenys."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "Klaida adrese?"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Įsidiekite „Firefox“ savo išmaniajame įrenginyje bei prisijunkite, norėdami užbaigti paruošimą"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Saitas į programą išsiųstas telefonu %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Suklydote įvesdami numerį?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Saitas į programą išsiųstas adresu %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Suklydote įv esdami adresą?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Jeigu SMS pranešimo negaunate, galite programą parsisiųsti savarankiškai."
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Jūsų „Firefox“ paskyros slaptažodis"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Būkite originalūs ir tuo pačiu saugūs – nenaudokite šio slaptažodžio niekur kitur."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Įsiminkite šį slaptažodį – jį atkūrus iš naujo, jūsų duomenys mūsų serveriuose bus pašalinti."
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "Užsiprenumeravote sėkmingai"
