@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-03 02:27+0000\n"
+"PO-Revision-Date: 2019-09-13 11:49+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -163,27 +163,27 @@ msgstr "We’re sorry to hear about this. If this was a device you really don’
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Last seen %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Last seen over %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,7 +243,7 @@ msgstr "Web Session"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Last seen time unknown"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -944,12 +944,8 @@ msgid "Invalid Token"
 msgstr "Invalid Token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1014,10 +1010,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr "<span class=\"note\">NOTE:</span> If you reset your password and don’t have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1029,7 +1023,7 @@ msgstr "Confirm recovery key"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr "Don't have a recovery key?"
+msgstr "Don’t have a recovery key?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -1049,7 +1043,7 @@ msgstr "%(email)s registered"
 
 #: .es5/templates/choose_what_to_sync.mustache:2
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Sync these everywhere you sign in:"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1556,7 +1550,7 @@ msgstr "Subject (optional)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
-msgstr ""
+msgstr "Description of issue"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1895,10 +1889,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Step 2 of 2: Save Recovery key"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -1970,7 +1962,7 @@ msgstr "Share large files without prying eyes."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Stay safe &mdash; don’t reuse passwords."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2162,8 +2154,7 @@ msgstr "Did you use the system camera? You must pair from within a Firefox app."
 #~ msgstr "Service unavailable, try again soon"
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr ""
-#~ "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -2175,11 +2166,11 @@ msgstr "Did you use the system camera? You must pair from within a Firefox app."
 #~ msgstr "Manage preferences"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 
 #~ msgid "verified"
 #~ msgstr "verified"
@@ -2200,8 +2191,7 @@ msgstr "Did you use the system camera? You must pair from within a Firefox app."
 #~ msgstr "Invite me to test new Mozilla products"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registered."
@@ -2338,12 +2328,8 @@ msgstr "Did you use the system camera? You must pair from within a Firefox app."
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies and local storage are required."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox cloud services"
@@ -2399,11 +2385,11 @@ msgstr "Did you use the system camera? You must pair from within a Firefox app."
 #~ msgstr "Why Sync two (or more!) devices?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you’ve saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you’ve saved to "
+#~ "Firefox for desktop will appear."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
