@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-13 11:13+0000\n"
+"PO-Revision-Date: 2019-09-13 11:14+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1557,7 +1557,7 @@ msgstr "Subjecto (optional)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
-msgstr ""
+msgstr "Description del problema"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
