@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-08-15 23:28+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "პაროლი წარმატებით განულდა. შედით გასაგრძელებლად."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "შესვლა"
 
@@ -80,7 +80,7 @@ msgstr "დამატებითი ელფოსტა დამოწმ�
 msgid "Sign-in confirmed"
 msgstr "შესვლა დადასტურებულია"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "თქვენ უკვე მზად ხართ %(serviceName)s-ის გამოსაყენებლად"
 
@@ -96,11 +96,11 @@ msgstr "დაკავშირებულია"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ასეთი ანგარიში ვერ მოიძებნა <a href=\"/signup\">რეგისტრაცია</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "ასეთი ანგარიში აღარ არსებობს. გსურთ ახლიდან შექმნა?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ასეთი ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
 
@@ -108,8 +108,8 @@ msgstr "ასეთი ანგარიში უკვე არსებო
 msgid "Please Select One"
 msgstr "გთხოვთ, შეარჩიოთ ერთი"
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "პაროლი"
 
@@ -125,7 +125,7 @@ msgstr "როგორც კი დაასრულებთ, გამო�
 msgid "Old password"
 msgstr "ძველი პაროლი"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "დაგავიწყდათ პაროლი?"
 
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "სამწუხაროა. თუ ეს მოწყობილობა არაა სანდო, შეცვალეთ Firefox-ანგარიშის პაროლი და ყველა სხვა დანარჩენი პაროლიც, რაც Firefox-ში ინახება."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "ვებსეანსი"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "ბოლო დასინქრონების დრო დაუდგენელია"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1003,9 +1003,9 @@ msgstr "ახალი ბმულის მიღება"
 msgid "Reset password with recovery key"
 msgstr "პაროლის განულება აღდგენის გასაღებით"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s-ზე გადასვლა"
 
@@ -1044,30 +1044,18 @@ msgstr "Firefox&nbsp;ანგარიშის შესაქმენლა�
 msgid "Learn more"
 msgstr "იხილეთ ვრცლად"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "%(email)s დარეგისტრებულია"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "სრულად გამოიყენეთ თქვენი ანგარიშის შესაძლებლობები"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "მონაცემების შერჩევა დასასინქრონებელად"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "დაასინქრონეთ ყველგან, ანგარიშზე შესვლით"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "გაგრძელება"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "შერჩეულების შენახვა"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1118,35 +1106,27 @@ msgid "Verification error"
 msgstr "შეცდომა დადასტურებისას"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "კიდევ ერთი ნაბიჯი"
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "დაადასტურეთ თქვენი ანგარიში"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "დაადასტურეთ ეს შესვლა"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "შეამოწმეთ %(escapedEmail)s და გადადით დადასტურების ბმულზე."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "შეამოწმეთ თქვენი ელფოსტა %(escapedEmail)s, რომელზეც გამოგზავნილია დასადასტურებელი ბმული&nbsp;"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "შეამოწმეთ თქვენი ელფოსტა %(escapedEmail)s, რომელზეც გამოგზავნილია შესვლის დასადასტურებელი ბმული"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "არ მიგიღიათ და არც სპამ საქაღალდეშია? გაგზავნეთ ხელახლა"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "უკან"
 
@@ -1158,19 +1138,19 @@ msgstr "აღსადგენი შეტყობინება გამ�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "დააწკაპეთ %(email)s-ზე ჩვენს მიერ გამოგზავნილ ბმულზე უახლოესი ერთი საათის განმავლობაში და მიუთითეთ ახალი პაროლი."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "შეიყვანეთ 6-ციფრიანი კოდი"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "დამოწმება"
 
@@ -1178,7 +1158,7 @@ msgstr "დამოწმება"
 msgid "Connect another device"
 msgstr "სხვა მოწყობილობასთან დაკავშირება"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "ეს Firefox უკვე დაკავშირებულია"
 
@@ -1186,8 +1166,7 @@ msgstr "ეს Firefox უკვე დაკავშირებულია"
 msgid "Email verified"
 msgstr "ელფოსტა დამოწმებულია"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "შესრულდა"
 
@@ -1195,7 +1174,7 @@ msgstr "შესრულდა"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "შედით ამ Firefox-ში გამართვის დასასრულებლად"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "კიდევ ამატებთ მოწყობილობებს?"
 
@@ -1215,7 +1194,7 @@ msgstr "შედით Firefox Android-ში გამართვის დ�
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "შედით Firefox iOS-ში გამართვის დასასრულებლად"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "რატომ არის საჭირო, ერთზე მეტი მოწყობილობის დამატება?"
 
@@ -1231,24 +1210,20 @@ msgstr "გთხოვთ ჩართოთ ბრაუზერში ფუ
 msgid "Try again"
 msgstr "სცადეთ ხელახლა"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "შედით <span class=\"service\">თქვენს Firefox-ანგარიშზე</span>"
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "გასაგრძელებლად შედით ანგარიშზე"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 "გაგრძელების შემთხვევაში, თქვენ ეთანხმებით <a id=\"fxa-tos\" href=\"/legal/terms\">გამოყენების პირობებსა</a> და <a id=\"fxa-pp\" href=\"/legal/privacy\">პირადი მონაცემების დაცვის განაცხადს</a>."
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "შეიყვანეთ თქვენი ელფოსტა"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "ელფოსტა"
 
@@ -1294,19 +1269,19 @@ msgstr "%(serviceName)s ითხოვს თქვენი ანგარი
 msgid "Accept"
 msgstr "დათანხმება"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "დაიწყეთ მოგზაურობა ინტერნეტში"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "თქვენი ანგარიში მზადაა!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "აღდგენის ახალი გასაღების შექმნა"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "ანგარიშზე გადასვლა"
 
@@ -1378,12 +1353,12 @@ msgstr "Firefox-ანგარიშები"
 msgid "Sign out"
 msgstr "გასვლა"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "სხვა ანგარიშის გამოყენება"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "ანგარიშის შექმნა"
 
@@ -1459,82 +1434,62 @@ msgstr "შეამოწმეთ თქვენი ელფოსტა %(e
 msgid "Enter authorization code"
 msgstr "შეიყვანეთ დაშვების კოდი"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "შექმენით თქვენი Firefox-ანგარიში"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Firefox-ანგარიშის შექმნა"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "გაიმეორეთ პაროლი"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "არ დაკარგოთ ეს პაროლი. მისი განულების შემთხვევაში, შეიძლება დასინქრონებული მონაცემები წაიშალოს."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>არ გამოიყენოთ თქვენი ელფოსტის პაროლი</span>თუ ვიღაც გაიგებს თქვენი ელფოსტის პაროლს, ის ასევე შეძლებს თქვენს Firefox-ანგარიშზე შესვლასა და თქვენს მონაცემებთან წვდომის მიღებას."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>კარგად დაიხსომეთ თქვენი პაროლი</span>მისი განულების შემთხვევაში, სრულად დაკარგავთ იმ დასინქრონებულ მონაცემებს, რომლებიც არცერთ მოწყობილობაზე არ ინახება."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "გამოსადეგი მასალები ცოდნის ასამაღლებლად პირდაპირ თქვენს საფოსტო ყუთში. გამოიწერეთ:"
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "ანგარიშის შექმნა"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "გაქვთ ანგარიში? შესვლა"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "ელფოსტის შეცვლა"
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "არასწორადაა აკრეფილი ელფოსტის მისამართი?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "მზადაა! თქვენ უკვე შესული ხართ."
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "გააგზავნეთ Firefox პირდაპირ თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "ახლა კი გადმოწერეთ Firefox ყველგან, სადაც გსურთ."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "შედით სხვა მოწყობილობებიდანაც და სრულყოფილად გამოიყენეთ ყველა პროდუქტი, ცოდნა და უსაფრთხოების საშუალებები, Firefox-თან ერთად."
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "ტელეფონის ნომერი"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "გაგზავნა"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "SMS მომსახურება, მხოლოდ ზოგიერთ ქვეყანაშია ხელმისაწვდომი. შეიძლება ჩამოგეჭრათ SMS &amp; მობილური ინტერნეტის საფასური, ანგარიშიდან. ელფოსტის ან SMS-ის მიმღების თანხმობა აუცილებელია. <a "
 "%(escapedLearnMoreAttributes)s>იხილეთ ვრცლად</a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "რა საჭიროა სხვა მოწყობილობიდან შესვლა?"
 
@@ -1542,35 +1497,19 @@ msgstr "რა საჭიროა სხვა მოწყობილობ
 msgid "Check your texts"
 msgstr "შეამოწმეთ თქვენი ტექსტები"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "დააყენეთ Firefox თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "Firefox-პროგრამის ბმული გამოიგზავნა მისამართზე %(escapedPhoneNumber)s"
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "არასწორი ნომერია?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "თუ არ მიგიღიათ SMS-შეტყობინება, შეგიძლიათ „Firefox“ მოიძიოთ Appstore-ში."
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი არასწორადაა აკრეფილი?</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი&nbsp;არასწორადაა&nbsp;აკრეფილი?</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "თუ ვერ ახერხებთ ტექსტური შეტყობინების მიღებას, პროგრამის ჩამოტვირთვა ხელითაც შეგიძლიათ."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "არ მიგიღიათ? გაგზავნეთ ხელახლა"
 
@@ -1619,8 +1558,8 @@ msgid "Subject (optional)"
 msgstr "საკითხი (არასავალდებულო)"
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
-msgstr "ხარვეზის აღწერა"
+msgid "Description of issue"
+msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -2034,8 +1973,8 @@ msgid "Share large files without prying eyes."
 msgstr "გააზიარეთ დიდი ზომის ფაილები, ცნობისმოყვარეების გარეშე."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "თქვენი Firefox-ანგარიშის პაროლი"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2044,14 +1983,6 @@ msgstr "არ უნდა ემთხვეოდეს ელფოსტი
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "არ უნდა ემთხვეოდეს <a %(escapedCommonPasswordLinkAttrs)s>ხშირად გამოყენებულ პაროლებს</a>"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "უსაფრთხოებისთვის, პაროლი უნდა იყოს უნიკალური &mdash; არ გამოიყენოთ სხვაგან."
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "დაიხსომეთ ეს პაროლი &mdash; მისი განულების შემთხვევაში, ყველა მონაცემი წაიშლება ჩვენი სერვერებიდან."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2128,6 +2059,87 @@ msgstr "მიერთება აპლიკაციის გამოყ�
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "სისტემის კამერას იყენებდით? მიერთებაა საჭირო Firefox-ის აპლიკაციიდან."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ბოლო დასინქრონება %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "ბოლო დასინქრონების დრო დაუდგენელია"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "სრულად გამოიყენეთ თქვენი ანგარიშის შესაძლებლობები"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "მონაცემების შერჩევა დასასინქრონებელად"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "დაასინქრონეთ ყველგან, ანგარიშზე შესვლით"
+
+#~ msgid "Save selections"
+#~ msgstr "შერჩეულების შენახვა"
+
+#~ msgid "One last step"
+#~ msgstr "კიდევ ერთი ნაბიჯი"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "შეამოწმეთ %(escapedEmail)s და გადადით დადასტურების ბმულზე."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "შედით <span class=\"service\">თქვენს Firefox-ანგარიშზე</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "შექმენით თქვენი Firefox-ანგარიში"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>არ გამოიყენოთ თქვენი ელფოსტის პაროლი</span>თუ ვიღაც გაიგებს თქვენი ელფოსტის პაროლს, ის ასევე შეძლებს თქვენს Firefox-ანგარიშზე შესვლასა და თქვენს მონაცემებთან წვდომის მიღებას."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>კარგად დაიხსომეთ თქვენი პაროლი</span>მისი განულების შემთხვევაში, სრულად დაკარგავთ იმ დასინქრონებულ მონაცემებს, რომლებიც არცერთ მოწყობილობაზე არ ინახება."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "არასწორადაა აკრეფილი ელფოსტის მისამართი?"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "გააგზავნეთ Firefox პირდაპირ თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "დააყენეთ Firefox თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი არასწორადაა აკრეფილი?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი&nbsp;არასწორადაა&nbsp;აკრეფილი?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "თუ ვერ ახერხებთ ტექსტური შეტყობინების მიღებას, პროგრამის ჩამოტვირთვა ხელითაც შეგიძლიათ."
+
+#~ msgid "Description of Issue"
+#~ msgstr "ხარვეზის აღწერა"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "თქვენი Firefox-ანგარიშის პაროლი"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "უსაფრთხოებისთვის, პაროლი უნდა იყოს უნიკალური &mdash; არ გამოიყენოთ სხვაგან."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "დაიხსომეთ ეს პაროლი &mdash; მისი განულების შემთხვევაში, ყველა მონაცემი წაიშლება ჩვენი სერვერებიდან."
 
 #~ msgid "Any subscriptions you have will be cancelled"
 #~ msgstr "თქვენი ნებისმიერი გამოწერა გაუქმდება"

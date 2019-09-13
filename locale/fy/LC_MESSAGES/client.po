@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
-"PO-Revision-Date: 2019-08-16 12:12+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
+"PO-Revision-Date: 2019-09-02 20:28+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -24,8 +24,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Oanmelde"
 
@@ -81,7 +81,7 @@ msgstr "Sekundêr e-mailadres ferifiearre"
 msgid "Sign-in confirmed"
 msgstr "Oanmelding befêstige"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Jo kinne %(serviceName)s no brûke"
 
@@ -97,11 +97,11 @@ msgstr "Ferbûn"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
@@ -109,14 +109,14 @@ msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 msgid "Please Select One"
 msgstr "Selektearje ien"
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "Wachtwurd"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Wizigje…"
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -126,7 +126,7 @@ msgstr "Brûk jo nije wachtwurd foar it oanmelden op al jo apparaten sa gau as j
 msgid "Old password"
 msgstr "Alde wachtwurd"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
@@ -163,28 +163,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "Wy fine it spitich om dit te hearen. As dit in apparaat wie dat jo echt net fertrouwe, dan moatte jo it wachtwurd foar Firefox Account wizigje, en elk wachtwurd bewarre yn Firefox wizigje."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s yn %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,8 +243,8 @@ msgid "Web Session"
 msgstr "Websesje"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "Lêste syngronisaasjetiidstip ûnbekend"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -645,7 +645,7 @@ msgstr "Fernijing waard wegere, probearje it nochris"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid signup code"
-msgstr ""
+msgstr "Ferrûne of ûnjildige registraasjekoade"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -1004,9 +1004,9 @@ msgstr "Nije keppeling ûntfange"
 msgid "Reset password with recovery key"
 msgstr "Wachtwurd opnij ynstelle mei werstelkaai"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Trochgean nei %(serviceName)s"
 
@@ -1045,30 +1045,18 @@ msgstr "Jo moatte oan bepaalde leeftiidskritearia foldwaan om in Firefox-account
 msgid "Learn more"
 msgstr "Mear ynfo"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "%(email)s registrearre"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "Helje it measte út jo account"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "Kies wat jo syngronisearje wolle"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "Syngronisearje oeral wêr't jo jo oanmelde"
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Trochgean"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "Seleksjes bewarje"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1119,35 +1107,27 @@ msgid "Verification error"
 msgstr "Ferifikaasjeflater"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "In lêste stap"
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "Befêstigje jo account"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "Dizze oanmelding befêstigje"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "Kontrolearje %(escapedEmail)s foar in befêstigingskeppeling en wy sille jo op paad helpe."
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Kontrolearje jo e-mail op de ferifikaasjekeppeling dy't&nbsp;nei %(escapedEmail)s is ferstjoerd"
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei %(escapedEmail)s ferstjoerd is"
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Tebek"
 
@@ -1159,19 +1139,19 @@ msgstr "Keppeling foar opnij ynstellen ferstjoerd"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Klik binnen in oer op de keppeling dy't nei %(email)s ferstjoerd is om in nij wachtwurd oan te meitsjen."
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Fier ferifikaasjekoade yn"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Fier de ferifikaasjekoade yn dy't binnen 20 minuten nei %(escapedEmail)s ferstjoerd is."
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "Fier 6-siferige koade yn"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "Ferifiearje"
 
@@ -1179,7 +1159,7 @@ msgstr "Ferifiearje"
 msgid "Connect another device"
 msgstr "Oar apparaat keppelje"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "Dizze Firefox is ferbûn"
 
@@ -1187,8 +1167,7 @@ msgstr "Dizze Firefox is ferbûn"
 msgid "Email verified"
 msgstr "E-mailadres ferifiearre"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Slagge"
 
@@ -1196,7 +1175,7 @@ msgstr "Slagge"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Meld jo oan by dizze Firefox om de ynstallaasje te foltôgjen"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "Foegje jo noch mear apparaten ta?"
 
@@ -1216,7 +1195,7 @@ msgstr "Meld jo oan by Firefox foar Android om de ynstallaasje te foltôgjen"
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Meld jo oan by Firefox foar iOS om de ynstallaasje te foltôgjen"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "Wêrom is mear as ien apparaat nedich?"
 
@@ -1232,23 +1211,19 @@ msgstr "Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta Firefo
 msgid "Try again"
 msgstr "Opnij probearje"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Meld jo oan <span class=\"service\">by jo Firefox-account</span>"
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "Meld jo oan om troch te gean"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a>."
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Fier jo e-mailadres yn"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "E-mailadres"
 
@@ -1294,19 +1269,19 @@ msgstr "%(serviceName)s freget om de folgjende ynformaasje fan jo account:"
 msgid "Accept"
 msgstr "Akseptearje"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Begjinne mei sneupjen"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "Jo account is ree!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "In nije werstelkaai generearje"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "Trochgean nei myn account"
 
@@ -1340,15 +1315,15 @@ msgstr "Werinisjalisaasje begjinne"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Resinte aktiviteit"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Befeiligingsbarrens"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Namme barren"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1356,15 +1331,15 @@ msgstr "Ferifiearre"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Oanmakke op"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Barrens fuortsmite"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Tebek nei ynstellingen"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1378,12 +1353,12 @@ msgstr "Firefox-accounts"
 msgid "Sign out"
 msgstr "Ofmelde"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "In oar account brûke"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "In account oanmeitsje"
 
@@ -1459,82 +1434,62 @@ msgstr "Kontrolearje jo e-mail op de autorisaasjekoade dy't nei %(email)s is fer
 msgid "Enter authorization code"
 msgstr "Autorisaasjekoade ynfiere"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "Jo Firefox-account oanmeitsje"
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "In Firefox-account oanmeitsje"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "Nochris it wachtwurd"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Ferlies dit wachtwurd net. As jo it opnij ynstelle moatte, kinne jo Sync-gegevens kwytreitsje."
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Unthâld jo wachtwurd</span>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Praktyske kennis komt nei jo Postfek YN. Skriuw jo yn foar mear:"
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "Account oanmeitsje"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "Hawwe jo in account? Oanmelde"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "E-mailadres wizigje"
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "Typflater yn e-mailadres?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "Slagge! Jo binne oanmeld."
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Stjoer Firefox daliks nei jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "Ynstallearje no oeral Firefox."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "Meld jo oan op jo oare apparaten om alle produkten, kennis en privacyfunksjes fan Firefox te ûntfangen."
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "Mobile telefoannûmer"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "Ferstjoere"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "De sms-tsjinst is allinnich yn bepaalde lannen beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De beëage ûntfanger fan it e-mail- of sms-berjocht moat hjirmei akkoard gien "
 "wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "Wêrom oanmelde op in oar apparaat?"
 
@@ -1542,35 +1497,19 @@ msgstr "Wêrom oanmelde op in oar apparaat?"
 msgid "Check your texts"
 msgstr "Kontrolearje jo sms-berjochten"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "Der is in keppeling nei de Firefox-app ferstjoerd nei %(escapedPhoneNumber)s"
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "Ferkeard nûmer?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "As jo it sms-berjocht net ûntfange, dan kinne jo ek yn jo app-winkel nei ‘Firefox’ sykje."
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "App-keppeling ferstjoerd nei %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "App-keppeling opnij ferstjoerd nij %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "As jo it sms-berjocht net ûntfange, kinne jo de apps ek hânmjittich downloade."
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "Net oankommen? Opnij ferstjoere"
 
@@ -1584,11 +1523,11 @@ msgstr "Kontakt"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Wêroer nimme jo kontakt mei ús op?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Oars"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1619,8 +1558,8 @@ msgid "Subject (optional)"
 msgstr "Underwerp (opsjoneel)"
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
-msgstr "Omskriuwing fan it probleem"
+msgid "Description of issue"
+msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1701,7 +1640,7 @@ msgstr "Ferbining ferbrekke"
 
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr "Ferbrekken suksesfol"
+msgstr "Ferbrekken is slagge"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
@@ -1775,7 +1714,7 @@ msgstr "Befêstigje dat troch jo account fuort te smiten:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Alle betelle abonneminten dy't jo hawwe wurde annulearre"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -2034,8 +1973,8 @@ msgid "Share large files without prying eyes."
 msgstr "Diel grutte bestannen sûnder nijsgjirrige blikken."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "Wachtwurd fan jo Firefox-account"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2044,14 +1983,6 @@ msgstr "Mei net jo e-mailadres wêze"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "Mei net foarkomme yn dizze <a %(escapedCommonPasswordLinkAttrs)s>list mei faak brûkte wachtwurden</a>"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "Wês orizjineel en feilich &ndash; brûk dit wachtwurd nearne oars."
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Unthâld dit wachtwurd &ndash; troch it opnij yn te stellen, wurde jo gegevens fan ús servers wiske."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2128,6 +2059,87 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s yn %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Lêste syngronisaasjetiidstip ûnbekend"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Helje it measte út jo account"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "Kies wat jo syngronisearje wolle"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Syngronisearje oeral wêr't jo jo oanmelde"
+
+#~ msgid "Save selections"
+#~ msgstr "Seleksjes bewarje"
+
+#~ msgid "One last step"
+#~ msgstr "In lêste stap"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "Kontrolearje %(escapedEmail)s foar in befêstigingskeppeling en wy sille jo op paad helpe."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Meld jo oan <span class=\"service\">by jo Firefox-account</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Jo Firefox-account oanmeitsje"
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Unthâld jo wachtwurd</span>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
+
+#~ msgid "Mistyped email?"
+#~ msgstr "Typflater yn e-mailadres?"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Stjoer Firefox daliks nei jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "App-keppeling ferstjoerd nei %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "App-keppeling opnij ferstjoerd nij %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "As jo it sms-berjocht net ûntfange, kinne jo de apps ek hânmjittich downloade."
+
+#~ msgid "Description of Issue"
+#~ msgstr "Omskriuwing fan it probleem"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Wachtwurd fan jo Firefox-account"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Wês orizjineel en feilich &ndash; brûk dit wachtwurd nearne oars."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Unthâld dit wachtwurd &ndash; troch it opnij yn te stellen, wurde jo gegevens fan ús servers wiske."
 
 #~ msgid "Any subscriptions you have will be cancelled"
 #~ msgstr "Alle abonneminten dy't jo hawwe wurde annulearre"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 08:01+0000\n"
+"POT-Creation-Date: 2019-09-13 08:01+0000\n"
 "PO-Revision-Date: 2019-07-05 13:42+0000\n"
 "Last-Translator: ജോയ്സ് <joicefootball@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "രഹസ്യവാക്ക് വിജയകരമായി പുനഃസ്ഥാപിച്ചു. തുടരാൻ സൈൻ ഇൻ ചെയ്യുക."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3
-#: .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_password.mustache:9
+#: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "പ്രവേശിക്കുക"
 
@@ -80,7 +80,7 @@ msgstr "രണ്ടാം ഇമെയിൽ പരിശോധിച്ചു�
 msgid "Sign-in confirmed"
 msgstr "സൈൻ-ഇൻ സ്ഥിരീകരിച്ചു"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:5
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "നിങ്ങൾ ഇപ്പോൾ %(serviceName)s ഉപയോഗിക്കാൻ തയ്യാറാണ്"
 
@@ -96,11 +96,11 @@ msgstr "ബന്ധിപ്പിച്ചു"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "അജ്ഞാതമായ അക്കൗണ്ട്. <a href=\"/signup\">സൈൻ അപ്പ്</a>"
 
-#: .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "അക്കൗണ്ട് നിലകൊള്ളുന്നില്ല. പുതിയ അക്കൗണ്ട് ഉണ്ടാക്കട്ടെ?"
 
-#: .es5/views/sign_up.js:290
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "അക്കൌണ്ട് നിലവിലുണ്ട്. <a href=\"/signin\">സൈൻ ഇൻ ചെയ്യുക</a>"
 
@@ -108,8 +108,8 @@ msgstr "അക്കൌണ്ട് നിലവിലുണ്ട്. <a href=\
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
 msgid "Password"
 msgstr "രഹസ്യവാക്ക്"
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Old password"
 msgstr "പഴയ രഹസ്യവാക്ക്"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:11 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_in_password.mustache:11
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
 msgid "Forgot password?"
 msgstr "നിങ്ങളുടെ രഹസ്യവാക്ക് മറന്നോ?"
 
@@ -162,28 +162,28 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr "ഇത് കേൾക്കേണ്ടിവന്നതിൽ ഞങ്ങൾ ദുഃഖിക്കുന്നു. ഇത് ശരിക്കും നിങ്ങൾക്ക് വിശ്വാസമില്ലാത്ത ഒരു ഉപകരണമാണെങ്കിൽ, നിങ്ങളുടെ ഫയർ ഫോക്സ് അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റുകയും ഫയർഫോക്സിൽ സംരക്ഷിച്ച എല്ലാ രഹസ്യവാക്കുകളും മാറ്റുകയും വേണം."
 
 #: .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "അവസാന സിങ്ക് %(translatedTimeAgo)s"
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s മുമ്പാണ് അവസാനമായി സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -242,8 +242,8 @@ msgid "Web Session"
 msgstr "വെബ് സെഷൻ"
 
 #: .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാണ്"
+msgid "Last seen time unknown"
+msgstr ""
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1001,9 +1001,9 @@ msgstr "പുതിയ ലിങ്ക് സ്വീകരിക്കുക"
 msgid "Reset password with recovery key"
 msgstr "വീണ്ടെടുക്കൽ കീ ഉപയോഗിച്ച് രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കുക"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:3 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:3 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s എന്നതിലേക്ക് തുടരുക"
 
@@ -1040,30 +1040,18 @@ msgstr ""
 msgid "Learn more"
 msgstr "കൂടുതൽ അറിയുക"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s registered"
 msgstr "%(email)s രജിസ്റ്റർ ചെയ്തു"
 
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
+#: .es5/templates/choose_what_to_sync.mustache:2
+msgid "Sync these everywhere you sign in:"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:6
-msgid "Choose what to sync"
-msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പിക്കേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr ""
-
-#: .es5/templates/choose_what_to_sync.mustache:12 .es5/templates/index.mustache:8 .es5/templates/ready.mustache:6 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "തുടരുക"
-
-#: .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "തെരഞ്ഞെടുത്തതു് സംരക്ഷിക്കുക"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1112,35 +1100,27 @@ msgid "Verification error"
 msgstr "സ്ഥിരീകരണ പിശക്"
 
 #: .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr ""
-
-#: .es5/templates/confirm.mustache:5
 msgid "Confirm your account"
 msgstr "നിങ്ങളുടെ അക്കൗണ്ട് ഉറപ്പിക്കുക"
 
-#: .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "ഈ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
-#: .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
-
-#: .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:17 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "ഇൻബോക്സിലോ സ്പാം ഫോൾഡറിലോ ഇല്ലേ? വീണ്ടും അയയ്ക്കുക"
 
-#: .es5/templates/confirm.mustache:18 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/subscription_terms.mustache:2 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "തിരികെ"
 
@@ -1152,19 +1132,19 @@ msgstr "അയച്ച ഇമെയിൽ പുനഃസജ്ജമാക്�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
 msgstr "6 അക്ക കോഡ് നൽകുക"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
 msgid "Verify"
 msgstr "പരിശോധിക്കുക"
 
@@ -1172,7 +1152,7 @@ msgstr "പരിശോധിക്കുക"
 msgid "Connect another device"
 msgstr "മറ്റൊരു ഉപകരണം ബന്ധിപ്പിക്കുക"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "ഈ ഫയർഫോക്സ് ബന്ധിപ്പിച്ചിരിക്കുന്നു"
 
@@ -1180,8 +1160,7 @@ msgstr "ഈ ഫയർഫോക്സ് ബന്ധിപ്പിച്ചി�
 msgid "Email verified"
 msgstr "ഇമെയിൽ പരിശോധിച്ചു"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
-#: .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "വിജയം"
 
@@ -1189,7 +1168,7 @@ msgstr "വിജയം"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ഫയർ ഫോക്സിലേക്ക് പ്രവേശിച്ച് സജ്ജീകരണങ്ങള്‍ പൂർത്തിയാക്കുക"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "ഇപ്പോഴും ഉപകരണങ്ങൾ ചേർക്കുന്നുണ്ടോ?"
 
@@ -1209,7 +1188,7 @@ msgstr "സജ്ജീകരണങ്ങള്‍ പൂർത്തിയാ�
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "സജ്ജീകരണങ്ങള്‍ പൂർത്തിയാക്കാൻ ഐ. ഓ. ​​എസ്സിനായുള്ള ഫയർഫോക്സിലേക്ക് പ്രവേശിക്കുക"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "എന്തുകൊണ്ട് ഒന്നിലധികം ഉപകരണങ്ങള്‍ ആവശ്യമാണ്?"
 
@@ -1225,23 +1204,19 @@ msgstr ""
 msgid "Try again"
 msgstr "വീണ്ടും ശ്രമിയ്ക്കുക"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
-
-#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "സമന്വയത്തിലേയ്ക്ക് പ്രവേശിക്കുക"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "ഇ മെയിൽ നൽകുക"
 
-#: .es5/templates/index.mustache:7 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "ഇമെയില്‍"
 
@@ -1287,19 +1262,19 @@ msgstr ""
 msgid "Accept"
 msgstr "അംഗീകരിക്കുക"
 
-#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "ബ്രൌസിങ് തുടങ്ങാം"
 
-#: .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "നിങ്ങളുടെ അക്കൗണ്ട് തയ്യാറാണ്!"
 
-#: .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "എന്റെ അക്കൌണ്ടിലേക്ക് തുടരുക"
 
@@ -1369,12 +1344,12 @@ msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾ"
 msgid "Sign out"
 msgstr "പുറത്ത് കടക്കുക"
 
-#: .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_in_recovery_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Use a different account"
 msgstr "മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക"
 
-#: .es5/templates/sign_in.mustache:17
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "ഒരു അക്കൗണ്ട് തുടങ്ങു"
 
@@ -1450,80 +1425,60 @@ msgstr ""
 msgid "Enter authorization code"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:3 .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിക്കുക"
 
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "രഹസ്യവാക്ക് ആവർത്തിക്കുക"
 
-#: .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:19 .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "അക്കൌണ്ട് സൃഷ്ടിക്കുക"
 
-#: .es5/templates/sign_up.mustache:21
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "ഒരു അക്കൗണ്ട് ഉണ്ടോ? ഏങ്കില്‍ പ്രവേശിയ്ക്കൂ"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:17
-msgid "Mistyped email?"
-msgstr "തെറ്റായ ഇമെയിൽ വിലാസം?"
-
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
-
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "മൊബൈൽ ഫോൺ നമ്പർ"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
 msgid "Send"
 msgstr "അയയ്ക്കുക"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr ""
 
@@ -1531,35 +1486,19 @@ msgstr ""
 msgid "Check your texts"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "ഇനിയും കിട്ടിയില്ലേ? എങ്കില്‍ വീണ്ടും അയയ്ക്കുക"
 
@@ -1608,7 +1547,7 @@ msgid "Subject (optional)"
 msgstr ""
 
 #: .es5/templates/support.mustache:13
-msgid "Description of Issue"
+msgid "Description of issue"
 msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
@@ -2019,8 +1958,8 @@ msgid "Share large files without prying eyes."
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക്"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2028,14 +1967,6 @@ msgstr "ഇമെയില്‍ വിലാസം എന്റര്‍ ചെ
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
 msgstr ""
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
@@ -2113,6 +2044,39 @@ msgstr "ഒരു അപ്ലിക്കേഷൻ ഉപയോഗിച്ച�
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "അവസാന സിങ്ക് %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s മുമ്പാണ് അവസാനമായി സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയില്‍നിന്ന് %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)sയിലെ %(translatedState)s സംസ്ഥാനത്തെ %(translatedCity)s പട്ടണത്തിനടുത്തുനിന്നും %(translatedTimeAgo)s മുമ്പാണ് ഏറ്റവുമൊടുവില്‍ സമന്വയിപ്പിച്ചത്"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "അവസാന സമന്വയ സമയം അജ്ഞാതമാണ്"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "എന്തൊക്കെയാണ് സമന്വയിപ്പിക്കേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക"
+
+#~ msgid "Save selections"
+#~ msgstr "തെരഞ്ഞെടുത്തതു് സംരക്ഷിക്കുക"
+
+#~ msgid "Mistyped email?"
+#~ msgstr "തെറ്റായ ഇമെയിൽ വിലാസം?"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക്"
 
 #~ msgid "Subscribed successfully"
 #~ msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെയ്തു"
