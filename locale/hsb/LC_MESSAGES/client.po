@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-13 12:18+0000\n"
+"PO-Revision-Date: 2019-09-13 20:10+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -244,7 +244,7 @@ msgstr "Webposedźenje"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Posledni wopyt njeznaty"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -1048,7 +1048,7 @@ msgstr "%(email)s je so zregistrowała"
 
 #: .es5/templates/choose_what_to_sync.mustache:2
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Tute wšudźe synchronizować, hdźež so přizjewiće:"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1556,7 +1556,7 @@ msgstr "Tema (na přeće)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
-msgstr ""
+msgstr "Problemowe wopisanje"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1970,7 +1970,7 @@ msgstr "Dźělće wulke dataje bjez wćipnych wočow."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Wěstoty dla &ndash; wužiwajće hesła jenož jedyn raz."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
