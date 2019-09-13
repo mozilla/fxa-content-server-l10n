@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-07 11:43+0000\n"
+"PO-Revision-Date: 2019-09-11 10:39+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -645,7 +645,7 @@ msgstr "Päivitys hylättiin, yritä uudelleen"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid signup code"
-msgstr ""
+msgstr "Vanhentunut tai virheellinen rekisteröitymiskoodi"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -945,11 +945,8 @@ msgid "Invalid Token"
 msgstr "Virheellinen tunniste"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojaselosteen</a>."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojaselosteen</a>."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1014,8 +1011,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen palautusavain, jotta pääset jälleen käyttämään Firefox-tiliäsi."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">HUOMAA:</span> Jos nollaat salasanasi etkä ole tallentanut palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja "
 "kirjanmerkit)."
@@ -1140,11 +1136,11 @@ msgstr "Luo uusi salasana napsauttamalla osoitteeseen %(email)s lähetetyssä vi
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Kirjoita vahvistuskoodi"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Kirjoita osoitteeseen %(escapedEmail)s lähetetty vahvistuskoodi 20 minuutin sisällä."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1522,7 +1518,7 @@ msgstr "Ota yhteys"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Minkä asian vuoksi haluat olla yhteydessä meihin?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
@@ -1713,7 +1709,7 @@ msgstr "Huomioi, että tilisi poistamalla:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Kaikki maksetut tilaukset perutaan"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -1897,8 +1893,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Vaihe 2/2: Tallenna palautusavain"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">HUOMAA: </span>Jos unohdat salasanasi, tämä avain tarvitaan tietojesi käyttämiseen. Talleta palautusavain turvalliseen paikkaan, josta löydät sen helposti myöhemmin."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1987,7 +1982,7 @@ msgstr "Näytä salasana"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, järjestelmissämme on ilmeisesti ongelmia. Korjaamme vikaa ja pahoittelemme tapahtunutta. Yritä myöhemmin uudelleen."
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -2175,11 +2170,11 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 #~ msgstr "Hallitse asetuksia"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Jos käytät tätä tiliä Mozilla-sovelluksissa ja -palveluissa, kuten AMO, Pocket ja Screenshots, sinun tulisi ensin kirjautua niihin ja poistaa kaikki tallennetut henkilökohtaiset tiedot. Kun "
-#~ "poistat tilisi täällä, saatat menettää pääsyn siihen kaikkialla."
+#~ "Jos käytät tätä tiliä Mozilla-sovelluksissa ja -palveluissa, kuten AMO, Pocket ja Screenshots, sinun tulisi ensin kirjautua niihin ja poistaa kaikki tallennetut henkilökohtaiset tiedot. Kun poistat "
+#~ "tilisi täällä, saatat menettää pääsyn siihen kaikkialla."
 
 #~ msgid "verified"
 #~ msgstr "vahvistettu"
@@ -2322,12 +2317,8 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">tietosuojakäytännön</a>."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">tietosuojakäytännön</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox pilvipalvelut"
@@ -2506,16 +2497,15 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 #~ msgid "Sync preferences"
 #~ msgstr "Synkronointiasetukset"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Etsitkö Firefox Synciä? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Aloita täältä</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
 #~ "Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
 #~ "href=\"%(linkLinux)s\">Linuxille</a>."
@@ -2779,12 +2769,8 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Onko sinulla jo tili? Kirjaudu sisään."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Jatkamalla hyväksyn Firefox pilvipalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">käyttöehdot</a> ja<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">tietosuojakäytännön</a>."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Jatkamalla hyväksyn Firefox pilvipalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">käyttöehdot</a> ja<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">tietosuojakäytännön</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tilaa Firefoxin uutiset ja vihjeet -uutiskirje"
