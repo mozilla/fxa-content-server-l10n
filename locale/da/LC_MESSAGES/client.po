@@ -216,7 +216,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
-msgstr "Mere end %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -224,7 +224,7 @@ msgstr "%(translatedTimeAgo)s i %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Mere end %(translatedTimeAgo)s i %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -232,7 +232,7 @@ msgstr "%(translatedTimeAgo)s nær %(translatedCity)s, %(translatedState)s, %(tr
 
 #: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Mere end %(translatedTimeAgo)s nær %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
 #: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
