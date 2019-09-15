@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-14 08:12+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2019-09-15 07:07+0000\n"
+"Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -1046,7 +1046,7 @@ msgstr "%(email)s registreret"
 
 #: .es5/templates/choose_what_to_sync.mustache:2
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Synkroniser disse data alle steder, du logger ind:"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1968,7 +1968,7 @@ msgstr "Del store filer uden nysgerrige øjne."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Beskyt dig selv &mdash; genbrug ikke adgangskoder forskellige steder."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
