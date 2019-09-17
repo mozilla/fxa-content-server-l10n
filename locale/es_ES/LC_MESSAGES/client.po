@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-17 17:49+0000\n"
+"PO-Revision-Date: 2019-09-17 20:33+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -1309,15 +1309,15 @@ msgstr "Comenzar restablecimiento"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Actividad reciente"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Eventos de seguridad"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Nombre del evento"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1325,19 +1325,19 @@ msgstr "Verificado"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Creado el"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Eliminar eventos"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Volver a los ajustes"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "La tarjeta ha expirado. Actualízala <a %(escapedCcExpiredLinkAttrs)s>aquí</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1509,51 +1509,51 @@ msgstr "¿No ha llegado? Reenvía"
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Términos del Servicio de la Plataforma de suscripción"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Contáctanos"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "¿Por qué te pones en contacto con nosotros?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "¿En qué podemos ayudarte?"
 
 #: .es5/templates/support.mustache:7
 msgid "General inquiries"
-msgstr ""
+msgstr "Preguntas generales"
 
 #: .es5/templates/support.mustache:8
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pagos y facturas"
 
 #: .es5/templates/support.mustache:9
 msgid "Connection issues"
-msgstr ""
+msgstr "Problemas de conexión"
 
 #: .es5/templates/support.mustache:10
 msgid "Getting started"
-msgstr ""
+msgstr "Cómo empezar"
 
 #: .es5/templates/support.mustache:11
 msgid "Account issues"
-msgstr ""
+msgstr "Problemas con la cuenta"
 
 #: .es5/templates/support.mustache:12
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Asunto (opcional)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
-msgstr ""
+msgstr "Descripción del problema"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1700,19 +1700,19 @@ msgstr "Eliminar…"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Has conectado tu cuenta Firefox a los productos de Mozilla que te mantienen seguro y productivo en la web:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Recuerda que si eliminas tu cuenta:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Las suscripciones que hayas pagado se cancelarán"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Puede que pierdas información y funciones guardadas en los productos de Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
