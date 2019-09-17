@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-17 20:33+0000\n"
+"PO-Revision-Date: 2019-09-17 20:44+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -179,7 +179,7 @@ msgstr "Visto por última vez hace más de %(translatedTimeAgo)s en %(translated
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Visto por última vez: %(translatedTimeAgo)s cerca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -1211,7 +1211,7 @@ msgstr "Inicia sesión para continuar"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Al continuar aceptas los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del Servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1716,7 +1716,7 @@ msgstr "Puede que pierdas información y funciones guardadas en los productos de
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "La reactivación de este correo no implica recuperar la información guardada"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1967,7 +1967,7 @@ msgstr "Comparte archivos grandes sin miradas indiscretas."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Mantente seguro &mdash; no reutilices tus contraseñas."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1983,7 +1983,7 @@ msgstr "Mostrar contraseña"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Vaya, estamos teniendo problemas con el sistema. Estamos trabajando para solucionarlo y lamentamos los inconvenientes. Vuelve a intentarlo más tarde."
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
