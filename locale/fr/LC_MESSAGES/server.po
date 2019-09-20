@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 08:01+0000\n"
+"POT-Creation-Date: 2019-09-20 08:01+0000\n"
 "PO-Revision-Date: 2019-08-16 10:42+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr "Ceci est un message automatique."
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
+#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:7
 #: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_short_code.html:7 lib/senders/templates/verify_sync.html:8
 #: lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -93,7 +93,7 @@ msgstr "Pour plus d’informations, veuillez consulter <a %(supportLinkAttribute
 #: lib/senders/templates/post_verify_trailhead.txt:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
 #: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_first.txt:7
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
 #: lib/senders/templates/verify_short_code.html:8 lib/senders/templates/verify_short_code.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 #: lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
@@ -113,7 +113,7 @@ msgstr "Politique de confidentialité de Mozilla"
 #: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
 #: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
-#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:9 lib/senders/templates/verify_login_code.txt:8
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
 #: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
 #: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
@@ -133,7 +133,7 @@ msgstr "Générer des codes :"
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
-#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
 #: lib/senders/templates/verify_short_code.txt:6 lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Pour davantage d’informations, veuillez consulter %(supportUrl)s"
@@ -165,7 +165,7 @@ msgstr "Gérer le compte"
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
-#: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
+#: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:6
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Ceci est un courrier électronique automatique ; si vous n’avez pas autorisé cette action,  <a %(passwordChangeLinkAttributes)s>veuillez changer votre mot de passe.</a>"
 
@@ -235,7 +235,7 @@ msgstr "Créer une nouvelle clé de récupération :"
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe."
 
@@ -466,7 +466,7 @@ msgstr "Merci d’avoir choisi Firefox ! Vous pouvez installer Firefox pour mob
 msgid "Is this you signing in?"
 msgstr "Étiez-vous à l’origine de cette connexion ?"
 
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "Si oui, voici le code d’autorisation dont vous avez besoin :"
 
@@ -550,6 +550,14 @@ msgstr "Confirmer la connexion"
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, <a %(passwordChangeLinkAttributes)s>veuillez changer votre mot de passe</a>."
+
+#: lib/senders/templates/verify_login_code.html:4
+msgid "If yes, here is the verification code:"
+msgstr ""
+
+#: lib/senders/templates/verify_login_code.html:5 lib/senders/templates/verify_login_code.txt:4
+msgid "It expires in 5 minutes."
+msgstr ""
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1
 msgid "Verify primary email"
@@ -663,147 +671,147 @@ msgstr "Annuler l’abonnement :"
 msgid "Update billing information:"
 msgstr "Mettre à jour les informations de facturation :"
 
-#: lib/senders/email.js:234
+#: lib/senders/email.js:235
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s sur %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s sur %(uaOS)s"
 
-#: lib/senders/email.js:265
+#: lib/senders/email.js:266
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (approximatif)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:273
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (approximatif)"
 
-#: lib/senders/email.js:277
+#: lib/senders/email.js:278
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (approximatif)"
 
-#: lib/senders/email.js:282
+#: lib/senders/email.js:283
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (approximatif)"
 
-#: lib/senders/email.js:452
+#: lib/senders/email.js:453
 msgid "Verify Your Account"
 msgstr "Vérifiez votre compte"
 
-#: lib/senders/email.js:486
+#: lib/senders/email.js:487
 msgid "Confirm your email and start to sync!"
 msgstr "Confirmez votre adresse électronique et lancez la synchronisation !"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:495
 msgid "Finish Creating Your Account"
 msgstr "Terminez la création de votre compte"
 
-#: lib/senders/email.js:531
+#: lib/senders/email.js:532
 msgid "Verification code: %(code)s"
 msgstr "Code de vérification : %(code)s"
 
-#: lib/senders/email.js:572
+#: lib/senders/email.js:573
 msgid "Reminder: Complete Registration"
 msgstr "Rappel : terminez votre inscription"
 
-#: lib/senders/email.js:574
+#: lib/senders/email.js:575
 msgid "Final Reminder: Activate Your Account"
 msgstr "Dernier rappel : activez votre compte"
 
-#: lib/senders/email.js:640
+#: lib/senders/email.js:641
 msgid "Authorization Code for %(clientName)s"
 msgstr "Code d’autorisation pour %(clientName)s"
 
-#: lib/senders/email.js:698
+#: lib/senders/email.js:699
 msgid "Confirm New Sign-in"
 msgstr "Confirmer la nouvelle connexion"
 
-#: lib/senders/email.js:766
+#: lib/senders/email.js:767
 msgid "Sign-in Code for %(serviceName)s"
 msgstr "Code de connexion pour %(serviceName)s"
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:829
 msgid "Verify Primary Email"
 msgstr "Vérifier l’adresse principale"
 
-#: lib/senders/email.js:890
+#: lib/senders/email.js:891
 msgid "Verify Secondary Email"
 msgstr "Vérifier l’adresse secondaire"
 
-#: lib/senders/email.js:952
+#: lib/senders/email.js:953
 msgid "Reset Your Password"
 msgstr "Réinitialisez votre mot de passe"
 
-#: lib/senders/email.js:990
+#: lib/senders/email.js:991
 msgid "Password Changed"
 msgstr "Mot de passe changé"
 
-#: lib/senders/email.js:1026
+#: lib/senders/email.js:1027
 msgid "Password Updated"
 msgstr "Mot de passe mis à jour"
 
-#: lib/senders/email.js:1055
+#: lib/senders/email.js:1056
 msgid "Suspicious Activity: Password Reset Required"
 msgstr "Activité suspecte : réinitialisation du mot de passe nécessaire"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1082
 msgid "New Sign-in to %(clientName)s"
 msgstr "Nouvelle connexion via %(clientName)s"
 
-#: lib/senders/email.js:1116
+#: lib/senders/email.js:1117
 msgid "Account Verified"
 msgstr "Compte vérifié"
 
-#: lib/senders/email.js:1121
+#: lib/senders/email.js:1122
 msgid "Account Confirmed"
 msgstr "Compte confirmé"
 
-#: lib/senders/email.js:1172
+#: lib/senders/email.js:1173
 msgid "Secondary Email Added"
 msgstr "Adresse électronique secondaire ajoutée"
 
-#: lib/senders/email.js:1205
+#: lib/senders/email.js:1206
 msgid "New Primary Email"
 msgstr "Nouvelle adresse électronique principale"
 
-#: lib/senders/email.js:1238
+#: lib/senders/email.js:1239
 msgid "Secondary Email Removed"
 msgstr "L’adresse électronique secondaire a été supprimée"
 
-#: lib/senders/email.js:1269
+#: lib/senders/email.js:1270
 msgid "Two-Step Authentication Enabled"
 msgstr "Validation en deux étapes activée"
 
-#: lib/senders/email.js:1309
+#: lib/senders/email.js:1310
 msgid "Two-Step Authentication Disabled"
 msgstr "Validation en deux étapes désactivée"
 
-#: lib/senders/email.js:1349
+#: lib/senders/email.js:1350
 msgid "New Recovery Codes Generated"
 msgstr "Nouveaux codes de secours générés"
 
-#: lib/senders/email.js:1389
+#: lib/senders/email.js:1390
 msgid "Recovery Code Used"
 msgstr "Code de secours utilisé"
 
-#: lib/senders/email.js:1431
+#: lib/senders/email.js:1432
 msgid "1 Recovery Code Remaining"
 msgstr "1 code de secours restant"
 
-#: lib/senders/email.js:1433
+#: lib/senders/email.js:1434
 msgid "%(numberRemaining)s Recovery Codes Remaining"
 msgstr "%(numberRemaining)s codes de secours restants"
 
-#: lib/senders/email.js:1473
+#: lib/senders/email.js:1474
 msgid "Account Recovery Key Generated"
 msgstr "La clé de récupération du compte a été générée"
 
-#: lib/senders/email.js:1516
+#: lib/senders/email.js:1517
 msgid "Account Recovery Key Removed"
 msgstr "La clé de récupération a été supprimée"
 
-#: lib/senders/email.js:1559
+#: lib/senders/email.js:1560
 msgid "Password Updated Using Recovery Key"
 msgstr "Le mot de passe a été mis à jour à l’aide de la clé de récupération"
 

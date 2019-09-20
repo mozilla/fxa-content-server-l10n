@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 08:01+0000\n"
+"POT-Creation-Date: 2019-09-20 08:01+0000\n"
 "PO-Revision-Date: 2019-09-06 18:56+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,9 +104,21 @@ msgstr "Уліковы запіс больш не існуе. Стварыць �
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Уліковы запіс ужо існуе. <a href=\"/signin\">Увайсці</a>"
 
-#: .es5/views/support.js:72
+#: .es5/views/support.js:80
 msgid "Please Select One"
 msgstr "Калі ласка, абярыце што-небудзь"
+
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+msgid "Other"
+msgstr "Іншае"
+
+#: .es5/views/support.js:216
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/support.js:218
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
 #: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
@@ -141,7 +153,7 @@ msgstr "Увядзіце пароль ізноў"
 msgid "Change"
 msgstr "Змяніць"
 
-#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:14
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
 #: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -385,6 +397,26 @@ msgstr "Асноўны адрас эл.пошты паспяхова пацве�
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Уліковы запіс паспяхова пацверджаны"
+
+#: .es5/models/support-form.js:25
+msgid "General inquiries"
+msgstr "Агульныя запыты"
+
+#: .es5/models/support-form.js:25
+msgid "Payment & billing"
+msgstr "Аплата і выстаўленне рахункаў"
+
+#: .es5/models/support-form.js:25
+msgid "Connection issues"
+msgstr "Праблемы з падключэннем"
+
+#: .es5/models/support-form.js:25
+msgid "Getting started"
+msgstr "Пачатак працы"
+
+#: .es5/models/support-form.js:25
+msgid "Account issues"
+msgstr "Праблемы з уліковым запісам"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -643,8 +675,8 @@ msgid "Update was rejected, please try again"
 msgstr "Абнаўленне было адхілена, паспрабуйце яшчэ раз"
 
 #: .es5/lib/auth-errors.js:274
-msgid "Expired or invalid signup code"
-msgstr "Код рэгістрацыі пратэрмінаваны або нядзейсны"
+msgid "Expired or invalid code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -1122,7 +1154,8 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Пашукайце ў сваёй пошце спасылку для пацверждання ўваходу, дасланую на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/confirm_signup_code.mustache:8
-#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20
+#: .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Няма ў уваходных ці ў спаме? Выслаць яшчэ раз"
 
@@ -1230,11 +1263,11 @@ msgstr "Эл.пошта"
 msgid "Legal"
 msgstr "Прававыя звесткі"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:16 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Умовы абслугоўвання"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:17
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
 msgstr "Паведамленне аб прыватнасці"
 
@@ -1296,7 +1329,7 @@ msgstr "Вы атрымалі ліст аб спробе доступу да в�
 msgid "Report activity"
 msgstr "Паведаміць"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Чаму гэта адбываецца?"
 
@@ -1477,7 +1510,7 @@ msgstr "Увайдзіце на іншых прыладах, каб атрыма
 msgid "Mobile phone number"
 msgstr "Нумар мабільнага тэлефона"
 
-#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:15
+#: .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Адправіць"
 
@@ -1524,39 +1557,15 @@ msgstr "Сувязь з намі"
 msgid "What are you contacting us about?"
 msgstr "Якое ў вас пытанне да нас?"
 
-#: .es5/templates/support.mustache:5
-msgid "Other"
-msgstr "Іншае"
-
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "У чым вам патрэбна дапамога?"
 
-#: .es5/templates/support.mustache:7
-msgid "General inquiries"
-msgstr "Агульныя запыты"
-
 #: .es5/templates/support.mustache:8
-msgid "Payment & billing"
-msgstr "Аплата і выстаўленне рахункаў"
-
-#: .es5/templates/support.mustache:9
-msgid "Connection issues"
-msgstr "Праблемы з падключэннем"
-
-#: .es5/templates/support.mustache:10
-msgid "Getting started"
-msgstr "Пачатак працы"
-
-#: .es5/templates/support.mustache:11
-msgid "Account issues"
-msgstr "Праблемы з уліковым запісам"
-
-#: .es5/templates/support.mustache:12
 msgid "Subject (optional)"
 msgstr "Тэма (па жаданні)"
 
-#: .es5/templates/support.mustache:13
+#: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr ""
 
@@ -1991,6 +2000,14 @@ msgstr "Паказаць пароль"
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
 msgstr "Хм, у нас праблемы з нашай сістэмай. Мы працуем над тым, каб выправіць гэта, і просім прабачэння за нязручнасці. Калі ласка, паспрабуйце зноў пазней."
 
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr ""
+
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Шукаеце Сінхранізацыю Firefox? <a %(escapedSyncSuggestionAttrs)s>Пачніце тут</a>"
@@ -2058,6 +2075,9 @@ msgstr "Спарванне з дапамогай праграмы"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы Firefox."
+
+#~ msgid "Expired or invalid signup code"
+#~ msgstr "Код рэгістрацыі пратэрмінаваны або нядзейсны"
 
 #~ msgid "Last sync %(translatedTimeAgo)s"
 #~ msgstr "Апошняя сінхранізацыя %(translatedTimeAgo)s"

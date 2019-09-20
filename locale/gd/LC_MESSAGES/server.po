@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 08:01+0000\n"
+"POT-Creation-Date: 2019-09-20 08:01+0000\n"
 "PO-Revision-Date: 2019-04-16 22:40+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr "Seo post-d fèin-obrachail."
 #: lib/senders/templates/post_change_primary.html:6 lib/senders/templates/post_consume_recovery_code.html:7 lib/senders/templates/post_new_recovery_codes.html:7
 #: lib/senders/templates/post_remove_account_recovery.html:8 lib/senders/templates/post_remove_secondary.html:6 lib/senders/templates/post_remove_two_step_authentication.html:8
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_trailhead.html:7 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:6
+#: lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verify.html:8 lib/senders/templates/verify_login_code.html:7
 #: lib/senders/templates/verify_primary.html:8 lib/senders/templates/verify_secondary.html:8 lib/senders/templates/verify_short_code.html:7 lib/senders/templates/verify_sync.html:8
 #: lib/senders/templates/verify_trailhead.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -92,7 +92,7 @@ msgstr "Airson barrachd fiosrachaidh, tadhail air <a %(supportLinkAttributes)s>l
 #: lib/senders/templates/post_verify_trailhead.txt:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
 #: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_first.txt:7
 #: lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verification_reminder_second.txt:7 lib/senders/templates/verify.html:9 lib/senders/templates/verify.txt:8
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:7 lib/senders/templates/verify_login_code.txt:6
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
 #: lib/senders/templates/verify_primary.html:9 lib/senders/templates/verify_primary.txt:7 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:7
 #: lib/senders/templates/verify_short_code.html:8 lib/senders/templates/verify_short_code.txt:7 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 #: lib/senders/templates/verify_trailhead.html:8 lib/senders/templates/verify_trailhead.txt:6
@@ -112,7 +112,7 @@ msgstr "Poileasaidh prìobhaideachd Mozilla"
 #: lib/senders/templates/post_verify_trailhead.txt:8 lib/senders/templates/recovery.html:9 lib/senders/templates/recovery.txt:8 lib/senders/templates/unblock_code.html:7
 #: lib/senders/templates/unblock_code.txt:6 lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_first.txt:8
 #: lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verification_reminder_second.txt:8 lib/senders/templates/verify.html:10 lib/senders/templates/verify.txt:9
-#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:8 lib/senders/templates/verify_login_code.txt:7
+#: lib/senders/templates/verify_login.html:8 lib/senders/templates/verify_login.txt:7 lib/senders/templates/verify_login_code.html:9 lib/senders/templates/verify_login_code.txt:8
 #: lib/senders/templates/verify_primary.html:10 lib/senders/templates/verify_primary.txt:8 lib/senders/templates/verify_secondary.html:10 lib/senders/templates/verify_secondary.txt:8
 #: lib/senders/templates/verify_short_code.html:9 lib/senders/templates/verify_short_code.txt:8 lib/senders/templates/verify_sync.html:10 lib/senders/templates/verify_sync.txt:9
 #: lib/senders/templates/verify_trailhead.html:9 lib/senders/templates/verify_trailhead.txt:7
@@ -132,7 +132,7 @@ msgstr "Gin còdan:"
 #: lib/senders/templates/post_change_primary.txt:5 lib/senders/templates/post_consume_recovery_code.txt:6 lib/senders/templates/post_new_recovery_codes.txt:6
 #: lib/senders/templates/post_remove_account_recovery.txt:7 lib/senders/templates/post_remove_secondary.txt:5 lib/senders/templates/post_remove_two_step_authentication.txt:6
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.txt:6
-#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:5 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify.txt:7 lib/senders/templates/verify_login_code.txt:6 lib/senders/templates/verify_primary.txt:6 lib/senders/templates/verify_secondary.txt:6
 #: lib/senders/templates/verify_short_code.txt:6 lib/senders/templates/verify_sync.txt:7 lib/senders/templates/verify_trailhead.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Airson barrachd fiosrachaidh, tadhail air %(supportUrl)s"
@@ -164,7 +164,7 @@ msgstr "Stiùirich an cunntas"
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_reset_account_recovery.html:7 lib/senders/templates/post_add_account_recovery.html:7
 #: lib/senders/templates/post_add_two_step_authentication.html:7 lib/senders/templates/post_change_primary.html:5 lib/senders/templates/post_consume_recovery_code.html:6
 #: lib/senders/templates/post_new_recovery_codes.html:6 lib/senders/templates/post_remove_account_recovery.html:7 lib/senders/templates/post_remove_two_step_authentication.html:7
-#: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:5
+#: lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/verify_login_code.html:6
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
 
@@ -234,7 +234,7 @@ msgstr "Cruthaich iuchair aisig ùr:"
 #: lib/senders/templates/password_reset_account_recovery.txt:6 lib/senders/templates/post_add_account_recovery.txt:6 lib/senders/templates/post_add_two_step_authentication.txt:5
 #: lib/senders/templates/post_change_primary.txt:4 lib/senders/templates/post_consume_recovery_code.txt:5 lib/senders/templates/post_new_recovery_codes.txt:5
 #: lib/senders/templates/post_remove_account_recovery.txt:6 lib/senders/templates/post_remove_two_step_authentication.txt:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:4
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_login_code.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad."
 
@@ -462,7 +462,7 @@ msgstr "Mòran taing airson Firefox a thaghadh! ’S urrainn dhut Firefox airson
 msgid "Is this you signing in?"
 msgstr "An tusa a tha a’ clàradh a-steach?"
 
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.html:4 lib/senders/templates/verify_login_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3 lib/senders/templates/verify_login_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "Mas e, seo an còd ùghdarachaidh a dh’fheumas tu:"
 
@@ -546,6 +546,14 @@ msgstr "Dearbh an clàradh a-steach"
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, <a %(passwordChangeLinkAttributes)s>atharraich am facal-faire agad</a>."
+
+#: lib/senders/templates/verify_login_code.html:4
+msgid "If yes, here is the verification code:"
+msgstr ""
+
+#: lib/senders/templates/verify_login_code.html:5 lib/senders/templates/verify_login_code.txt:4
+msgid "It expires in 5 minutes."
+msgstr ""
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1
 msgid "Verify primary email"
@@ -659,147 +667,147 @@ msgstr ""
 msgid "Update billing information:"
 msgstr ""
 
-#: lib/senders/email.js:234
+#: lib/senders/email.js:235
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s air %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:239
+#: lib/senders/email.js:240
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s air %(uaOS)s"
 
-#: lib/senders/email.js:265
+#: lib/senders/email.js:266
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tuairmeas)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:273
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tuairmeas)"
 
-#: lib/senders/email.js:277
+#: lib/senders/email.js:278
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tuairmeas)"
 
-#: lib/senders/email.js:282
+#: lib/senders/email.js:283
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tuairmeas)"
 
-#: lib/senders/email.js:452
+#: lib/senders/email.js:453
 msgid "Verify Your Account"
 msgstr ""
 
-#: lib/senders/email.js:486
+#: lib/senders/email.js:487
 msgid "Confirm your email and start to sync!"
 msgstr "Dearbh am post-d agad is tòisich air sioncronachadh!"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:495
 msgid "Finish Creating Your Account"
 msgstr ""
 
-#: lib/senders/email.js:531
+#: lib/senders/email.js:532
 msgid "Verification code: %(code)s"
 msgstr ""
 
-#: lib/senders/email.js:572
+#: lib/senders/email.js:573
 msgid "Reminder: Complete Registration"
 msgstr ""
 
-#: lib/senders/email.js:574
+#: lib/senders/email.js:575
 msgid "Final Reminder: Activate Your Account"
 msgstr ""
 
-#: lib/senders/email.js:640
+#: lib/senders/email.js:641
 msgid "Authorization Code for %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:698
+#: lib/senders/email.js:699
 msgid "Confirm New Sign-in"
 msgstr ""
 
-#: lib/senders/email.js:766
+#: lib/senders/email.js:767
 msgid "Sign-in Code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:829
 msgid "Verify Primary Email"
 msgstr ""
 
-#: lib/senders/email.js:890
+#: lib/senders/email.js:891
 msgid "Verify Secondary Email"
 msgstr ""
 
-#: lib/senders/email.js:952
+#: lib/senders/email.js:953
 msgid "Reset Your Password"
 msgstr ""
 
-#: lib/senders/email.js:990
+#: lib/senders/email.js:991
 msgid "Password Changed"
 msgstr ""
 
-#: lib/senders/email.js:1026
+#: lib/senders/email.js:1027
 msgid "Password Updated"
 msgstr ""
 
-#: lib/senders/email.js:1055
+#: lib/senders/email.js:1056
 msgid "Suspicious Activity: Password Reset Required"
 msgstr ""
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1082
 msgid "New Sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:1116
+#: lib/senders/email.js:1117
 msgid "Account Verified"
 msgstr ""
 
-#: lib/senders/email.js:1121
+#: lib/senders/email.js:1122
 msgid "Account Confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1172
+#: lib/senders/email.js:1173
 msgid "Secondary Email Added"
 msgstr ""
 
-#: lib/senders/email.js:1205
+#: lib/senders/email.js:1206
 msgid "New Primary Email"
 msgstr ""
 
-#: lib/senders/email.js:1238
+#: lib/senders/email.js:1239
 msgid "Secondary Email Removed"
 msgstr ""
 
-#: lib/senders/email.js:1269
+#: lib/senders/email.js:1270
 msgid "Two-Step Authentication Enabled"
 msgstr ""
 
-#: lib/senders/email.js:1309
+#: lib/senders/email.js:1310
 msgid "Two-Step Authentication Disabled"
 msgstr ""
 
-#: lib/senders/email.js:1349
+#: lib/senders/email.js:1350
 msgid "New Recovery Codes Generated"
 msgstr ""
 
-#: lib/senders/email.js:1389
+#: lib/senders/email.js:1390
 msgid "Recovery Code Used"
 msgstr ""
 
-#: lib/senders/email.js:1431
+#: lib/senders/email.js:1432
 msgid "1 Recovery Code Remaining"
 msgstr ""
 
-#: lib/senders/email.js:1433
+#: lib/senders/email.js:1434
 msgid "%(numberRemaining)s Recovery Codes Remaining"
 msgstr ""
 
-#: lib/senders/email.js:1473
+#: lib/senders/email.js:1474
 msgid "Account Recovery Key Generated"
 msgstr ""
 
-#: lib/senders/email.js:1516
+#: lib/senders/email.js:1517
 msgid "Account Recovery Key Removed"
 msgstr ""
 
-#: lib/senders/email.js:1559
+#: lib/senders/email.js:1560
 msgid "Password Updated Using Recovery Key"
 msgstr ""
 
