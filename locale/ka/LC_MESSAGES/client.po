@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-23 19:11+0000\n"
+"PO-Revision-Date: 2019-09-23 19:13+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -163,27 +163,27 @@ msgstr "სამწუხაროა. თუ ეს მოწყობილ�
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr "ბოლო ნახვა %(translatedTimeAgo)s"
+msgstr "ბოლო მონახულება %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "ბოლო ნახვა არანაკლებ %(translatedTimeAgo)s"
+msgstr "ბოლო მონახულება არანაკლებ %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ბოლო ნახვა %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
+msgstr "ბოლო მონახულება %(translatedTimeAgo)s მდებარეობა %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ბოლო ნახვა არანაკლებ %(translatedTimeAgo)s, მდებარეობა %(translatedCountry)s"
+msgstr "ბოლო მონახულება არანაკლებ %(translatedTimeAgo)s, მდებარეობა %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ბოლო ნახვა %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "ბოლო მონახულება %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ბოლო ნახვა არანაკლებ %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "ბოლო მონახულება არანაკლებ %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -227,11 +227,11 @@ msgstr "არანაკლებ %(translatedTimeAgo)s, მდებარე
 
 #: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "%(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "არანაკლებ %(translatedTimeAgo)s, მიახლოებითი მდებარეობა %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
