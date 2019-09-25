@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-15 21:06+0000\n"
+"PO-Revision-Date: 2019-09-25 18:56+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -164,27 +164,27 @@ msgstr "Jo nam luto to słyšaś. Jolic to jo rěd było, kótaremuž napšawdu 
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Slědny woglěd %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Slědny woglěd wěcej ako %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Slědny woglěd %(translatedTimeAgo)s w %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Slědny woglěd wěcej ako %(translatedTimeAgo)s w %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Slědny woglěd %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Slědny woglěd wěcej ako %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
