@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-22 18:42+0000\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
+"PO-Revision-Date: 2019-09-26 08:07+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -1046,7 +1046,7 @@ msgstr "%(email)s rekisteröity"
 
 #: .es5/templates/choose_what_to_sync.mustache:2
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Synkronoi nämä missä hyvänsä kirjaudut sisään:"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
