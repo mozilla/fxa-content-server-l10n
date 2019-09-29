@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-24 18:59+0000\n"
+"PO-Revision-Date: 2019-09-29 19:35+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -107,7 +107,7 @@ msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 
 #: .es5/views/support.js:72
 msgid "Please Select One"
-msgstr ""
+msgstr "Prosím, vyberte jednu možnosť"
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
 #: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
@@ -116,7 +116,7 @@ msgstr "Heslo"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Zmeniť..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -818,7 +818,7 @@ msgstr "Prosím, zadajte overovací kód"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Neplatné presmerovanie"
 
 #: .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
@@ -906,15 +906,15 @@ msgstr "Chýbajúci parameter QAuth: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Používateľ nie je prihlásený"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Prihlásený je iný používateľ"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Neoverený používateľ alebo relácia"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
@@ -1136,11 +1136,11 @@ msgstr "Pre vytvorenie nového hesla, najneskôr do jednej hodiny kliknite na od
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Zadajte overovací kód"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Prosím, zadajte overovací kód, ktorý bol odoslaný na %(escapedEmail)s v priebehu 20 minút."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1212,7 +1212,7 @@ msgstr "Ak chcete pokračovať, prihláste sa."
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pokračovaním vyjadrujete súhlas s <a id=\"fxa-tos\" href=\"/legal/terms\">podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany súkromia</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1310,7 +1310,7 @@ msgstr "Spustiť obnovu"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Posledná aktivita"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -1334,11 +1334,11 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Späť na nastavenia"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Platnosť vašej platobnej karty vypršala. Aktualizujte ju <a %(escapedCcExpiredLinkAttrs)s>tu</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1518,39 +1518,39 @@ msgstr "Kontaktujte nás"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Ohľadom čoho nás kontaktujete?"
 
 #: .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Iné"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "S čím potrebujete pomôcť?"
 
 #: .es5/templates/support.mustache:7
 msgid "General inquiries"
-msgstr ""
+msgstr "Všeobecné otázky"
 
 #: .es5/templates/support.mustache:8
 msgid "Payment & billing"
-msgstr ""
+msgstr "Platba a fakturácia"
 
 #: .es5/templates/support.mustache:9
 msgid "Connection issues"
-msgstr ""
+msgstr "Problémy s pripojením"
 
 #: .es5/templates/support.mustache:10
 msgid "Getting started"
-msgstr ""
+msgstr "Ako začať"
 
 #: .es5/templates/support.mustache:11
 msgid "Account issues"
-msgstr ""
+msgstr "Problémy s účtom"
 
 #: .es5/templates/support.mustache:12
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Predmet (voliteľný)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
