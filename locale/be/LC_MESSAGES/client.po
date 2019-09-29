@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-06 18:56+0000\n"
+"PO-Revision-Date: 2019-09-29 16:18+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -163,27 +163,27 @@ msgstr "Нам шкада чуць пра гэта. Калі гэта была �
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Апошняя актыўнасць %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Апошняя актыўнасць: больш за %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць: больш за %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць: больш за %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Апошняя актыўнасць: больш за %(translatedTimeAgo)s блізу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,7 +243,7 @@ msgstr "Вэб-сеанс"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Час апошняй актыўнасці невядомы"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -944,9 +944,7 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1014,8 +1012,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -1050,7 +1047,7 @@ msgstr "%(email)s зарэгістраваны"
 
 #: .es5/templates/choose_what_to_sync.mustache:2
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Сінхранізуйце ўсюды, дзе ўвайшлі ў сістэму:"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
@@ -1558,7 +1555,7 @@ msgstr "Тэма (па жаданні)"
 
 #: .es5/templates/support.mustache:13
 msgid "Description of issue"
-msgstr ""
+msgstr "Апісанне праблемы"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1897,8 +1894,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце знайсці "
 "яго пазней."
@@ -1973,7 +1969,7 @@ msgstr "Дзяліцеся вялікімі файламі без старонн
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Заставайцеся ў бяспецы &mdash; не выкарыстоўвайце паролі паўторна."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2181,11 +2177,11 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Кіраваць наладамі"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, "
-#~ "як вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
+#~ " выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #~ msgid "verified"
 #~ msgstr "пацверджана"
@@ -2206,9 +2202,7 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Запрашаць мяне на тэставанне новых прадуктаў Mozilla"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</"
-#~ "a>."
+#~ msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
 
 #~ msgid "Refresh"
 #~ msgstr "Абнавіць"
