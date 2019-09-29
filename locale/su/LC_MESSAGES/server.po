@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 08:01+0000\n"
-"PO-Revision-Date: 2019-09-11 08:11+0000\n"
-"Last-Translator: nandar <ia.adnan@gmail.com>\n"
+"PO-Revision-Date: 2019-09-23 06:46+0000\n"
+"Last-Translator: mfadhil <technowizard17@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:2
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Anjeun geus hasil nyambungkeun parangkat munggaran anjeun kana Firefox Account anjeun. Pikeun nyingkronkeunna, sambungkeun <a href='%(androidUrl)s'>Firefox jang Android</a> atawa <a "
 "href='%(iosUrl)s'>Firefox jang iOS</a>."
@@ -647,11 +647,11 @@ msgstr ""
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Wawar privasi:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Bolay daptar:"
 
 #: lib/senders/subscription-templates/layouts/subscription.txt:5
 msgid "Update billing information:"
@@ -683,7 +683,7 @@ msgstr "%(country)s (kira)"
 
 #: lib/senders/email.js:452
 msgid "Verify Your Account"
-msgstr ""
+msgstr "Pariksa Akun Anjeun"
 
 #: lib/senders/email.js:486
 msgid "Confirm your email and start to sync!"
@@ -695,7 +695,7 @@ msgstr "Pungkasan Panyieunan Akun Anjeun"
 
 #: lib/senders/email.js:531
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Sandi péripikasi: %(code)s"
 
 #: lib/senders/email.js:572
 msgid "Reminder: Complete Registration"
@@ -707,7 +707,7 @@ msgstr ""
 
 #: lib/senders/email.js:640
 msgid "Authorization Code for %(clientName)s"
-msgstr ""
+msgstr "Sandi Otorisasi pikeun %(clientName)s"
 
 #: lib/senders/email.js:698
 msgid "Confirm New Sign-in"
@@ -719,23 +719,23 @@ msgstr ""
 
 #: lib/senders/email.js:828
 msgid "Verify Primary Email"
-msgstr ""
+msgstr "Pastikeun Surél Utama"
 
 #: lib/senders/email.js:890
 msgid "Verify Secondary Email"
-msgstr ""
+msgstr "Pastikeun Surél Sekundér"
 
 #: lib/senders/email.js:952
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Setél Ulang Sandi Anjeun"
 
 #: lib/senders/email.js:990
 msgid "Password Changed"
-msgstr ""
+msgstr "Sandi Geus Dirubah"
 
 #: lib/senders/email.js:1026
 msgid "Password Updated"
-msgstr ""
+msgstr "Sandi geus Diropéa"
 
 #: lib/senders/email.js:1055
 msgid "Suspicious Activity: Password Reset Required"
@@ -747,31 +747,31 @@ msgstr ""
 
 #: lib/senders/email.js:1116
 msgid "Account Verified"
-msgstr ""
+msgstr "Akun geus Divérifikasi"
 
 #: lib/senders/email.js:1121
 msgid "Account Confirmed"
-msgstr ""
+msgstr "Akun geus Dikonfirmasi"
 
 #: lib/senders/email.js:1172
 msgid "Secondary Email Added"
-msgstr ""
+msgstr "Surél Sékundér Ditambahkeun"
 
 #: lib/senders/email.js:1205
 msgid "New Primary Email"
-msgstr ""
+msgstr "Surél Utama Anyar"
 
 #: lib/senders/email.js:1238
 msgid "Secondary Email Removed"
-msgstr ""
+msgstr "Surél Sékunder Dipiceun"
 
 #: lib/senders/email.js:1269
 msgid "Two-Step Authentication Enabled"
-msgstr ""
+msgstr "Oténtikasi Dua Léngkah Dijalankeun"
 
 #: lib/senders/email.js:1309
 msgid "Two-Step Authentication Disabled"
-msgstr ""
+msgstr "Oténtikasi Dua Léngkah Dipareuman"
 
 #: lib/senders/email.js:1349
 msgid "New Recovery Codes Generated"
