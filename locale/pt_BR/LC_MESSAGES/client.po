@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-30 20:21+0000\n"
+"PO-Revision-Date: 2019-09-30 20:35+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2206,11 +2206,11 @@ msgstr "Outro"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Obrigado por entrar em contato com o Suporte da Mozilla sobre <b>%(escapedLowercaseTopic)s</b>. Entraremos em contato por e-mail assim que possível."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Obrigado por entrar em contato com o Suporte da Mozilla sobre <b>%(escapedLowercaseTopic)s</b> de <b>%(escapedSelectedPlan)s</b>. Entraremos em contato por e-mail assim que possível."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2326,7 +2326,7 @@ msgstr "Sua mensagem foi enviada ao suporte"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Voltar a inscrições"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Código de cadastramento inválido ou já expirado"
