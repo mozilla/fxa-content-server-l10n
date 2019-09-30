@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ex
+
 # syntax:
 # compile-mo.sh locale-dir/
 
