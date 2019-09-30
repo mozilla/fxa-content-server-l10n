@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 12:05+0000\n"
-"PO-Revision-Date: 2019-08-03 18:16+0000\n"
+"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"PO-Revision-Date: 2019-08-05 15:31+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -28,7 +28,7 @@ msgstr "कूटशब्द सफलतापूर्वक बदला ग
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86
 msgid "Sign in"
 msgstr "साइन इन"
 
@@ -88,7 +88,7 @@ msgid "Sign-in confirmed"
 msgstr "साइन इन पुष्टि हो गई"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
-#: .es5/templates/ready.mustache:5
+#: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
 
@@ -100,19 +100,19 @@ msgstr "खाता सत्यापित"
 msgid "Connected"
 msgstr "कनेक्ट हुआ"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है। इसका पुनः निर्माण करे?"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298
+#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298 .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
-#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73 .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "पासवर्ड सफलतापूर्वक बदला गया"
 
@@ -212,7 +212,7 @@ msgstr "अंतिम संकालन समय अज्ञात"
 msgid "Subscribed successfully"
 msgstr "सफलतापूर्वक अभिदत्त किया गया"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
@@ -335,7 +335,7 @@ msgid "Printed"
 msgstr "मुद्रित"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
-#: .es5/models/auth_brokers/base.js:111
+#: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
 msgstr "प्राथमिक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -375,11 +375,11 @@ msgstr "पता"
 msgid "Credit cards"
 msgstr "क्रेडिट कार्ड"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
+#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
 msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115 .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
@@ -468,7 +468,7 @@ msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा
 msgid "The request was blocked for security reasons"
 msgstr "अनुरोध सुरक्षा कारणों से अवरुद्ध किया गया था"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:499
 msgid "Invalid authorization code"
 msgstr "अवैध अधिकृत कूट"
 
@@ -593,175 +593,176 @@ msgid "Invalid payment token for subscription."
 msgstr "सदस्यता के लिए अमान्य भुगतान टोकन।"
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
 msgstr "सर्वर व्यस्त, जल्द ही पुन: प्रयास करें"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
 msgstr "सुविधा सक्षम नहीं है"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
 #: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
-#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
 msgstr "यह समापन बिंदु अब समर्थित नहीं है"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
 msgstr "लॉगिन का प्रयास रद्द कर दिया"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
 msgstr "सत्र समाप्त. जारी रखने के लिए साइन इन करें."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
 msgstr "कुकीज़ अभी भी अक्षम हैं"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
 msgstr "कूटशब्द मेल नहीं खाते"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318
 msgid "Working…"
 msgstr "क्रियाशील…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
 msgstr "गोपनीयता सूचना प्राप्त नहीं हुई"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
 msgstr "सेवा की शर्तें प्राप्त नहीं हुई"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
 msgstr "आपका नया कूटशब्द भिन्न होना चाहिए"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
 msgid "Must be at least 8 characters"
 msgstr "कम से कम 8 अक्षरों का होना चाहिए"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338
 msgid "Valid password required"
 msgstr "वैध कूटशब्द आवश्यक"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
-#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
 msgstr "वैध ईमेल आवश्यक"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
 msgstr "एक प्रयोग करने योग्य छवि नहीं मिली"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
 msgstr "कैमरे को प्रारंभ नहीं किया जा सका"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
 msgstr "मान्य URL आवश्यक"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "आपका सत्यापन ईमेल वापस लौटाया गया. ईमेल गलत टाइप?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "एक वैध ईमेल प्रविष्ट करें. firefox.com ईमेल प्रदान नही करता."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता है"
+msgstr ""
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
 msgid "Verification link damaged"
 msgstr "सत्यापन लिंक क्षतिग्रस्त"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "The image dimensions must be at least 100x100px"
 msgstr "छवि का आयाम कम से कम 100x100px होना चाहिए"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "फॉयरफॉक्स के आईओस के लिए पंजीकरण जल्द ही आ रहा है "
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
 msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
 msgstr "साइन अप करने के लिए आपको एक वैध आयु दर्ज करनी होगी"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
 msgstr "खाता अब मौजूद नहीं हैं."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
 msgstr "रिज्यूम टोकन में अवैध संपत्ति: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
 msgstr "संपत्ति लापता रिज्यूम टोकन: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
 msgstr "अमान्य डेटा विशेषता: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474
 msgid "Missing data attribute: %(property)s"
 msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537
+#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491
 msgid "This is a required field"
 msgstr "यह एक आवश्यक जगह है"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499 .es5/lib/auth-errors.js:503
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526
 msgid "Phone number required"
 msgstr "फोन नंबर आवश्यक है"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
 msgstr "द्वि-चरणीय प्रमाणीकरण कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
 msgstr "अमान्य द्वि-चरणीय प्रमाणीकरण कोड"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557
 msgid "Invalid recovery code"
 msgstr "अमान्य पुनर्प्राप्ति कोड"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571
 msgid "Recovery key required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
 msgstr "कृपया सत्यापन कोड दर्ज करें"
 
@@ -931,6 +932,7 @@ msgstr "रिकवरी कुंजी के साथ पासवर्�
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "जारी रखें %(serviceName)s"
 
@@ -981,7 +983,7 @@ msgstr "चयन सहेजें"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
-#: .es5/templates/subscription_terms.mustache:2
+#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "पीछे"
 
@@ -1009,11 +1011,11 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "आपने अपनी पुनर्प्राप्ति कुंजी का उपयोग करके अपने खाते को सफलतापूर्वक पुनर्स्थापित कर लिया है। अपने डेटा को सुरक्षित करने के लिए एक नया पासवर्ड बनाएं, और इसे सुरक्षित स्थान पर संग्रहीत करें।"
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
 msgid "New password"
 msgstr "नया कूटशब्द"
 
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/views/settings/change_password.js:262
 msgid "Re-enter password"
 msgstr "कूटशब्द फिर डालें"
 
@@ -1041,25 +1043,26 @@ msgstr "नया सत्यापन लिंक प्राप्त क�
 msgid "Verification error"
 msgstr "सत्यापन त्रुटि"
 
-#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5
+#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
 msgstr "अपना खाता स्थायी करें"
 
-#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "इस साइन-इन की पुष्टि करें"
 
-#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11 .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "अपने ईमेल की जाँच करें सत्यापन लिंक के लिए &nbsp;को %(escapedEmail)s भेजा गया है"
 
-#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13 .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "%(escapedEmail)s पर भेजे गए साइन-इन पुष्टिकरण लिंक के लिए अपना ईमेल देखें"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
-#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16
+#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_signup_code.mustache:8
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
@@ -1084,7 +1087,7 @@ msgid "Email verified"
 msgstr "ईमेल सत्यापित हुआ"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
+#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "सफल"
 
@@ -1136,19 +1139,20 @@ msgstr "जारी रखने के लिए साइन इन करे
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
 msgid "Password"
 msgstr "कूटशब्द"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
-#: .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:11 .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:16
 msgid "Forgot password?"
 msgstr "कूटशब्द भूल गए?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -1163,7 +1167,7 @@ msgstr "ईमेल"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
-#: .es5/templates/ready.mustache:6
+#: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5
 msgid "Continue"
 msgstr "जारी रखें"
 
@@ -1172,10 +1176,12 @@ msgid "Legal"
 msgstr "क़ानूनी"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
+#: .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
+#: .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
 msgstr "निजी सूचना"
 
@@ -1215,19 +1221,19 @@ msgstr "स्वीकार"
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10
 msgid "Cancel"
 msgstr "रद्द"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "आपका खाता तैयार है!"
 
-#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11 .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "एक नई रिकवरी कुंजी बनाएँ"
 
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12 .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "मेरे खाते में जारी रखें"
 
@@ -1243,7 +1249,7 @@ msgstr "आपको एक ईमेल प्राप्त हुआअप�
 msgid "Report activity"
 msgstr "गतिविधि रिपोर्ट"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7 .es5/templates/sign_in_token_code.mustache:7
 msgid "Why is this happening?"
 msgstr "यह क्यों हो रहा है?"
 
@@ -1272,7 +1278,7 @@ msgstr "साइन आउट"
 msgid "Use a different account"
 msgstr "भिन्न खाता उपयोग करें"
 
-#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16
+#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "एक खाता बनायें"
 
@@ -1304,7 +1310,7 @@ msgstr "कृपया एक पुनर्प्राप्ति कोड
 msgid "Enter 10-digit recovery code"
 msgstr "10-अंकों का पुनर्प्राप्ति कोड दर्ज करें"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9 .es5/templates/confirm_signup_code.mustache:7
 msgid "Verify"
 msgstr "सत्यापित करें"
 
@@ -1340,7 +1346,7 @@ msgstr "सुरक्षा कोड दर्ज करें"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "अपना प्रमाणीकरण ऐप खोलें और जो इसके द्वारा प्रदान किया गया सुरक्षा कोड दर्ज करें."
 
-#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6-अंकों का कोड दर्ज करें"
 
@@ -1362,11 +1368,11 @@ msgid "Create a Firefox Account"
 msgstr "एक फ़ायरफ़ॉक्स खाता बनायें"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "कूटशब्द आवृत्ति"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "यह कूटशब्द न खो दें। यदि आपको इसे पुनः ठीक करने की आवश्यकता हो, तो आप संकलन डेटा खो सकते हैं।"
 
@@ -1383,11 +1389,11 @@ msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla और Firefox के विषय में नवीनतम समाचार प्राप्त करें"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
-#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18
+#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "खाता बनाएँ"
 
-#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27
+#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "खाता है? साइन इन कीजिये"
 
@@ -1399,15 +1405,15 @@ msgstr "गलत लिखा गया ईमेल?"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "सीधे अपने स्मार्टफ़ोन पर Firefox भेजें और सेट-अप पूरा करने के लिए साइन इन करें"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "मोबाइल फ़ोन नंबर"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "भेजें"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS सेवा केवल कुछ देशों में उपलब्ध है । SMS &amp; डेटा दरें लागू हो सकती हैं । ईमेल या SMS के अभीष्ट प्राप्तकर्ता को सहमति देनी होगी । <a %(escapedLearnMoreAttributes)s>और जानें</a>"
@@ -1428,7 +1434,7 @@ msgstr "अनुप्रयोग लिंक %(escapedPhoneNumber)s को �
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "अगर आपको लिखित सन्देश नहीं आ रहा है, तो आप एप्प्स मैन्युअल रूप से भी डाउनलोड कर सकते हैं."
 
-#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17 .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "नही पंहुचा ? पुन: भेजें"
 
@@ -1484,15 +1490,15 @@ msgid "Position and rotate your picture as needed"
 msgstr "अपने चित्र को उपयुक्त स्थान पर रखें एवं आवश्यकतानुसार घुमायें"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
-#: .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/templates/settings/avatar_crop.mustache:3 .es5/views/settings/change_password.js:273
 msgid "Change"
 msgstr "बदलें"
 
-#: .es5/templates/settings/change_password.mustache:3
+#: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "आप एक बार संपूर्ण करने के बाद, अपने नए कूटशब्द का उपयोग कर अपने संपूर्ण यंत्रों में साइन इन करें."
 
-#: .es5/templates/settings/change_password.mustache:4
+#: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
 msgid "Old password"
 msgstr "पुराना कूटशब्द"
 
@@ -1919,7 +1925,7 @@ msgstr ""
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
 
-#: .es5/templates/settings/emails.mustache:9
+#: .es5/templates/settings/emails.mustache:9 .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "सत्‍यापित किया गया"
 
@@ -1979,27 +1985,27 @@ msgstr ""
 msgid "Create your Firefox account"
 msgstr "अपना Firefox खाता बनाएँ"
 
-#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "ईमेल बदलें"
 
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "अब हर जगह Firefox प्राप्त करें।"
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "किसी अन्य डिवाइस पर साइन इन क्यों करें?"
 
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "ब्राउजिंग शुरू करें"
 
@@ -2007,15 +2013,15 @@ msgstr "ब्राउजिंग शुरू करें"
 msgid "Check your texts"
 msgstr "अपने अवतरणों की जाँच करें"
 
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:5 .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "गलत नंबर?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr ""
 
@@ -2059,7 +2065,8 @@ msgstr ""
 msgid "Test new Firefox products"
 msgstr "नए Firefox उत्पादों का परीक्षण करें"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
@@ -2079,7 +2086,7 @@ msgstr "अद्यतन अस्वीकार कर दिया गय�
 msgid "Avatar"
 msgstr ""
 
-#: .es5/views/support.js:67
+#: .es5/views/support.js:67 .es5/views/support.js:80
 msgid "Please Select One"
 msgstr ""
 
@@ -2095,11 +2102,11 @@ msgstr ""
 msgid "Credit Cards"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:583
+#: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:587
+#: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
 msgstr ""
 
@@ -2130,33 +2137,33 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "हमसे संपर्क करें"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:3 .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr ""
 
-#: .es5/templates/support.mustache:4
+#: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "सामान्य पूछताछ"
 
-#: .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
 msgid "Payment & billing"
 msgstr ""
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
 msgid "Connection issues"
 msgstr ""
 
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
 msgid "Getting started"
 msgstr ""
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:8 .es5/models/support-form.js:25
 msgid "Account issues"
 msgstr ""
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:9 .es5/templates/support.mustache:8
 msgid "Subject (optional)"
 msgstr ""
 
@@ -2186,6 +2193,134 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+msgid "Other"
+msgstr ""
+
+#: .es5/views/support.js:216
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/support.js:218
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/clients.js:61
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:62
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:65
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:66
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:69
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:70
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:149
+msgid "Last seen time unknown"
+msgstr ""
+
+#: .es5/models/reliers/browser.js:75
+msgid "Firefox"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:274
+msgid "Expired or invalid code"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Sync these everywhere you sign in:"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Enable Sync"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
+msgid "Enter verification code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+msgstr ""
+
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+msgid "Recent Activity"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Description of issue"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any paid subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
 msgstr ""
 
 #~ msgid "%(email)s registered."

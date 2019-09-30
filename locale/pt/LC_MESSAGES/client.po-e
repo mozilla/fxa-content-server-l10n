@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 12:05+0000\n"
+"POT-Creation-Date: 2019-09-30 16:37+0000\n"
 "PO-Revision-Date: 2019-07-23 21:34+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr "Palavra-passe reposta com sucesso. Inicie sessão para continuar."
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86
 msgid "Sign in"
 msgstr "Iniciar sessão"
 
@@ -85,7 +85,7 @@ msgid "Sign-in confirmed"
 msgstr "Início de sessão confirmado"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
-#: .es5/templates/ready.mustache:5
+#: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Está pronto(a) para utilizar o %(serviceName)s"
 
@@ -97,19 +97,19 @@ msgstr "Conta verificada"
 msgid "Connected"
 msgstr "Ligado"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195
+#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Registar</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "A conta já não existe. Pretende recreá-la?"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298
+#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298 .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
-#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73
+#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73 .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "Palavra-passe alterada com sucesso"
 
@@ -212,7 +212,7 @@ msgstr "Último tempo de sincronização desconhecido"
 msgid "Subscribed successfully"
 msgstr "Subscrição efetuada com sucesso"
 
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210
+#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
@@ -335,7 +335,7 @@ msgid "Printed"
 msgstr "Impresso"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
-#: .es5/models/auth_brokers/base.js:111
+#: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
 msgstr "Email primário verificado com sucesso"
 
@@ -375,11 +375,11 @@ msgstr "Endereços"
 msgid "Credit cards"
 msgstr "Cartões de crédito"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71
+#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115
+#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115 .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Email secundário verificado com sucesso"
 
@@ -468,7 +468,7 @@ msgstr "Corpo do pedido muito extenso"
 msgid "The request was blocked for security reasons"
 msgstr "O pedido foi bloqueado por questões de segurança"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:499
 msgid "Invalid authorization code"
 msgstr "Código de autorização inválido"
 
@@ -593,175 +593,176 @@ msgid "Invalid payment token for subscription."
 msgstr "Token de pagamento inválido para subscrição."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
 msgstr "Servidor ocupado, tente mais tarde"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
 msgstr "Funcionalidade não ativada"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
 #: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
-#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
 msgid "System unavailable, try again soon"
 msgstr "Sistema indisponível, tente mais tarde"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
 msgstr "Este endpoint não é mais suportado"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
 msgstr "Tentativa de início de sessão cancelada"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
 msgstr "A sessão expirou. Inicie sessão para continuar."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
 msgstr "Os cookies ainda estão desativados"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
 msgstr "As palavras-passe não são coincidentes"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318
 msgid "Working…"
 msgstr "A trabalhar…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
 msgstr "Não foi possível obter o Aviso de privacidade"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
 msgstr "Não foi possível obter os Termos de serviço"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
 msgstr "A sua nova palavra-passe tem de ser diferente"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330
+#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
 msgid "Must be at least 8 characters"
 msgstr "Tem de ter, pelo menos, 8 caracteres"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338
 msgid "Valid password required"
 msgstr "Palavra-passe válida requerida"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
-#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
 msgstr "Email válido requerido"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
 msgstr "Não foi encontrada nenhuma imagem utilizável"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
 msgstr "Não foi possível iniciar a câmara"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
 msgstr "URL válido requerido"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "A sua mensagem de verificação foi devolvida. Enganou-se a digitar o email?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Insira um endereço de email válido. O domínio firefox.com não fornece email."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "As Contas Firefox apenas podem ser colocadas num IFRAME em sites aprovados"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410
+#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
 msgid "Verification link damaged"
 msgstr "Ligação de verificação danificada"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
 msgid "The image dimensions must be at least 100x100px"
 msgstr "As dimensões da imagem devem ser de, pelo menos, 100x100px"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "O registo chegará em breve ao Firefox para iOS"
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
 msgstr "Deve inserir a sua idade para se registar"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
 msgstr "Deve introduzir uma idade válida para se registar"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
 msgstr "A conta já não existe."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Propriedade inválida no token de continuação: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
 msgstr "Propriedade em falta no token de continuação: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atributo de dados inválido: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474
 msgid "Missing data attribute: %(property)s"
 msgstr "Atributo de dados em falta: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537
+#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "A ligação de confirmação já foi utilizada, e só pode ser utilizada uma vez."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491
 msgid "This is a required field"
 msgstr "Este é um campo requerido"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495
 msgid "Authorization code required"
 msgstr "Código de autorização requerido"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499
+#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499 .es5/lib/auth-errors.js:503
 msgid "Link damaged"
 msgstr "Ligação danificada"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526
 msgid "Phone number required"
 msgstr "Número de telefone requerido"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
 msgstr "Código de autenticação de dois passos requerido"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
 msgstr "Código de autenticação de dois passos inválido"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
 msgstr "Código de recuperação requerido"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557
 msgid "Invalid recovery code"
 msgstr "Código de recuperação inválido"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571
 msgid "Recovery key required"
 msgstr "Chave de recuperação requerida"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
 msgstr "Por favor introduza o código de verificação"
 
@@ -933,6 +934,7 @@ msgstr "Repor palavra-passe com chave de recuperação"
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuar para o %(serviceName)s"
 
@@ -985,7 +987,7 @@ msgstr "Guardar seleções"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
-#: .es5/templates/subscription_terms.mustache:2
+#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "Retroceder"
 
@@ -1013,11 +1015,11 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Restaurou a sua conta utilizando a chave de recuperação com sucesso. Crie uma nova palavra-passe para proteger os seus dados, e guarde-a numa localização segura."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
 msgid "New password"
 msgstr "Nova palavra-passe"
 
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/views/settings/change_password.js:262
 msgid "Re-enter password"
 msgstr "Volte a introduzir a palavra-passe"
 
@@ -1045,25 +1047,26 @@ msgstr "Clique aqui para receber uma nova ligação de verificação"
 msgid "Verification error"
 msgstr "Erro de verificação"
 
-#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5
+#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
 msgstr "Confirmar a sua conta"
 
-#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "Confirmar este início de sessão"
 
-#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11
+#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11 .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "Verifique o seu email para a ligação de verificação enviada&nbsp;para %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13 .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Verifique o seu email para a ligação de confirmação de início de sessão enviada para %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
-#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16
+#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_signup_code.mustache:8
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar"
 
@@ -1088,7 +1091,7 @@ msgid "Email verified"
 msgstr "Email verificado"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14
+#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "Sucesso"
 
@@ -1140,19 +1143,20 @@ msgstr "Inicie sessão para continuar"
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
 msgid "Password"
 msgstr "Palavra-passe"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
-#: .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:11 .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:16
 msgid "Forgot password?"
 msgstr "Esqueceu-se da palavra-passe?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -1167,7 +1171,7 @@ msgstr "Email"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
-#: .es5/templates/ready.mustache:6
+#: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1176,10 +1180,12 @@ msgid "Legal"
 msgstr "Informação legal"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
+#: .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12
 msgid "Terms of Service"
 msgstr "Termos de serviço"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
+#: .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
 msgstr "Aviso de privacidade"
 
@@ -1219,19 +1225,19 @@ msgstr "Aceitar"
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "A sua conta está pronta!"
 
-#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11 .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "Gerar uma nova chave de recuperação"
 
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12 .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "Continuar para a minha conta"
 
@@ -1247,7 +1253,7 @@ msgstr "Recebeu um email acerca de uma tentativa de acesso à sua conta. Deseja 
 msgid "Report activity"
 msgstr "Denunciar atividade"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7 .es5/templates/sign_in_token_code.mustache:7
 msgid "Why is this happening?"
 msgstr "O que está a acontecer?"
 
@@ -1276,7 +1282,7 @@ msgstr "Terminar sessão"
 msgid "Use a different account"
 msgstr "Utilizar uma conta diferente"
 
-#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16
+#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "Criar uma conta"
 
@@ -1308,7 +1314,7 @@ msgstr "Por favor introduza um código de recuperação que lhe foi providenciad
 msgid "Enter 10-digit recovery code"
 msgstr "Introduza o código de recuperação de 10 dígitos"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9 .es5/templates/confirm_signup_code.mustache:7
 msgid "Verify"
 msgstr "Verificar"
 
@@ -1344,7 +1350,7 @@ msgstr "Introduzir código de segurança"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Abra a sua aplicação de autenticação e introduza o código de segurança providenciado."
 
-#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Introduzir código de 6 dígitos"
 
@@ -1366,11 +1372,11 @@ msgid "Create a Firefox Account"
 msgstr "Criar uma Conta Firefox"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7
 msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
 msgstr "Não perca esta palavra-passe. Se precisar de a repor, pode perder dados do Sync."
 
@@ -1389,11 +1395,11 @@ msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Obtenha as notícias mais recentes acerca da Mozilla e do Firefox"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
-#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18
+#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
 msgstr "Criar conta"
 
-#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27
+#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "Tem uma conta? Iniciar sessão"
 
@@ -1405,15 +1411,15 @@ msgstr "Email mal escrito?"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Envie o Firefox diretamente para o seu smartphone e registe-se para completar a configuração"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
 msgstr "Número de telefone móvel"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Enviar"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
@@ -1436,7 +1442,7 @@ msgstr "Ligação de aplicação reenviada para %(escapedPhoneNumber)s. <a %(esc
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "Se não está a receber a mensagem de texto, pode também transferir as aplicações manualmente."
 
-#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17
+#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17 .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "Não chegou? Reenviar"
 
@@ -1492,15 +1498,15 @@ msgid "Position and rotate your picture as needed"
 msgstr "Posicione e rode a imagem como seja necessário"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
-#: .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/templates/settings/avatar_crop.mustache:3 .es5/views/settings/change_password.js:273
 msgid "Change"
 msgstr "Alterar"
 
-#: .es5/templates/settings/change_password.mustache:3
+#: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "Após terminar, use a sua nova palavra-passe para iniciar sessão em todos os seus dispositivos."
 
-#: .es5/templates/settings/change_password.mustache:4
+#: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
 msgid "Old password"
 msgstr "Palavra-passe antiga"
 
@@ -1933,7 +1939,7 @@ msgstr "Emparelhar utilizando uma aplicação"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação do Firefox."
 
-#: .es5/templates/settings/emails.mustache:9
+#: .es5/templates/settings/emails.mustache:9 .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Verificado"
 
@@ -1993,27 +1999,27 @@ msgstr "Inicie sessão <span class=\"service\">na sua Conta Firefox</span>"
 msgid "Create your Firefox account"
 msgstr "Crie a sua conta Firefox"
 
-#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Alterar email"
 
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
 msgstr "Conseguiu! Tem sessão iniciada."
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
 msgstr "Agora obtenha o Firefox em todo o lado."
 
-#: .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "Inicie sessão nos seus outros dispositivos para obter todos os produtos, conhecimento e funcionalidades de privacidade do Firefox."
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
 msgstr "Por que iniciar sessão noutro dispositivo?"
 
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2
+#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Começar a navegar"
 
@@ -2021,15 +2027,15 @@ msgstr "Começar a navegar"
 msgid "Check your texts"
 msgstr "Verifique as suas mensagens"
 
-#: .es5/templates/sms_sent.mustache:5
+#: .es5/templates/sms_sent.mustache:5 .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
 msgstr "Uma ligação para a aplicação do Firefox foi enviada para %(escapedPhoneNumber)s"
 
-#: .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
 msgstr "Número errado?"
 
-#: .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
 msgstr "Se não estiver a receber a mensagem SMS, também pode pesquisar na sua loja de aplicações por “Firefox.”"
 
@@ -2073,7 +2079,8 @@ msgstr "Partilhe ficheiros grandes sem olhares indiscretos."
 msgid "Test new Firefox products"
 msgstr "Teste os novos produtos do Firefox"
 
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
+#: .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "O conhecimento prático está a chegar à sua caixa de entrada. Inscreva-se para mais:"
 
@@ -2093,7 +2100,7 @@ msgstr "A atualização foi rejeitada, por favor tente novamente"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: .es5/views/support.js:67
+#: .es5/views/support.js:67 .es5/views/support.js:80
 msgid "Please Select One"
 msgstr ""
 
@@ -2109,11 +2116,11 @@ msgstr ""
 msgid "Credit Cards"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:583
+#: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:587
+#: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
 msgstr ""
 
@@ -2148,31 +2155,31 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:3 .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr ""
 
-#: .es5/templates/support.mustache:4
+#: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
 msgid "General inquiries"
 msgstr ""
 
-#: .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
 msgid "Payment & billing"
 msgstr ""
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
 msgid "Connection issues"
 msgstr ""
 
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
 msgid "Getting started"
 msgstr ""
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:8 .es5/models/support-form.js:25
 msgid "Account issues"
 msgstr ""
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:9 .es5/templates/support.mustache:8
 msgid "Subject (optional)"
 msgstr ""
 
@@ -2202,6 +2209,134 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+msgid "Other"
+msgstr ""
+
+#: .es5/views/support.js:216
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/support.js:218
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr ""
+
+#: .es5/views/settings/clients.js:61
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:62
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:65
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:66
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:69
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:70
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: .es5/views/settings/clients.js:149
+msgid "Last seen time unknown"
+msgstr ""
+
+#: .es5/models/reliers/browser.js:75
+msgid "Firefox"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:274
+msgid "Expired or invalid code"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Sync these everywhere you sign in:"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Enable Sync"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
+msgid "Enter verification code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+msgstr ""
+
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+msgid "Recent Activity"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:9
+msgid "Description of issue"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:15
+msgid "Any paid subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
 msgstr ""
 
 #~ msgid "%(email)s registered."
