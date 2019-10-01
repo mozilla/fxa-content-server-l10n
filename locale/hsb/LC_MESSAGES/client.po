@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-30 21:28+0000\n"
+"PO-Revision-Date: 2019-10-01 13:07+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -2207,11 +2207,11 @@ msgstr "Druhe"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> na pomoc Mozilla wobroćił. Stajimy so přez wašu e-mejlowu adresu tak bórze kaž móžno do zwiska."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedPlan)s</b> na pomoc Mozilla wobroćił. Stajimy so přez wašu e-mejlowu adresu tak bórze kaž móžno do zwiska."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2263,7 +2263,7 @@ msgstr "Sync znjemóžnić"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Tutón grat njesynchronizować"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2307,11 +2307,11 @@ msgstr "Problemowe wopisanje"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Chceće tutón grat ze swojim kontom synchronizować?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Tutón grat synchronizować"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
@@ -2323,7 +2323,7 @@ msgstr "Wěstoty dla &ndash; wužiwajće hesła jenož jedyn raz."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Waša powěsće je so na team pomocy pósłała"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
