@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 20:27+0000\n"
-"Last-Translator: Gabriela <gmontagu@gmail.com>\n"
+"PO-Revision-Date: 2019-10-01 21:21+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -2214,8 +2214,8 @@ msgstr "Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowe
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-"Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowercaseTopic)s%(escapedLowercaseTopic)s por <b>%(escapedSelectedPlan)s</b>. Nos vamos a contactar con vos por correo electrónico"
-" lo antes posible."
+"Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowercaseTopic)s</b> %(escapedLowercaseTopic)s por <b>%(escapedSelectedPlan)s</b>. Nos vamos a contactar con vos por correo "
+"electrónico lo antes posible."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
