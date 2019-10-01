@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 03:31+0000\n"
+"PO-Revision-Date: 2019-10-01 03:33+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -601,7 +601,7 @@ msgstr "Kagiatan Picurigaeun: Kudu Ganti Sandi"
 
 #: lib/senders/email.js:1080
 msgid "New Sign-in to %(clientName)s"
-msgstr ""
+msgstr "Peta Asup Anyar ka %(clientName)s"
 
 #: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
 #: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
@@ -642,19 +642,19 @@ msgstr "Oténtikasi Dua Léngkah Dipareuman"
 
 #: lib/senders/email.js:1360
 msgid "New Recovery Codes Generated"
-msgstr ""
+msgstr "Sandi Pamulangan Anyar Dipangnyieunkeun"
 
 #: lib/senders/email.js:1403
 msgid "Recovery Code Used"
-msgstr ""
+msgstr "Sandi Pamulangan Dipaké"
 
 #: lib/senders/email.js:1456
 msgid "1 Recovery Code Remaining"
-msgstr ""
+msgstr "Sandi Pamulangan Kari 1"
 
 #: lib/senders/email.js:1458
 msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
+msgstr "Sandi Pamulihan Kari %(numberRemaining)s"
 
 #: lib/senders/email.js:1461
 msgid "Generate codes"
@@ -662,15 +662,15 @@ msgstr "Pangjieunkeun kodeu"
 
 #: lib/senders/email.js:1493
 msgid "Account Recovery Key Generated"
-msgstr ""
+msgstr "Konci Pamulihan Akun Dijieun"
 
 #: lib/senders/email.js:1539
 msgid "Account Recovery Key Removed"
-msgstr ""
+msgstr "Konci Pamulihan Akun Dipiceun"
 
 #: lib/senders/email.js:1585
 msgid "Password Updated Using Recovery Key"
-msgstr ""
+msgstr "Sandi Dianyarkeun Maké Konci Pamulihan"
 
 #: lib/senders/email.js:1586
 msgid "Create new recovery key"
