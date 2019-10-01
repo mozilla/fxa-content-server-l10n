@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-23 06:46+0000\n"
-"Last-Translator: mfadhil <technowizard17@gmail.com>\n"
+"PO-Revision-Date: 2019-10-01 03:31+0000\n"
+"Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pi
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pikeun ngahanca singkronan."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -360,11 +360,11 @@ msgstr "Konfirmasi peta asup"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Lamun enya, ieu sandi péripikasina:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Bakal kadaluwarsa dina 5 menit."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -541,7 +541,7 @@ msgstr "Konfirmasi surélék anjeun sarta kawitan nyingkronkeun!"
 
 #: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
 msgid "Verify email"
-msgstr ""
+msgstr "Péripikasi surél"
 
 #: lib/senders/email.js:472
 msgid "Finish Creating Your Account"
@@ -557,11 +557,11 @@ msgstr "Sandi péripikasi: %(code)s"
 
 #: lib/senders/email.js:552
 msgid "Reminder: Complete Registration"
-msgstr ""
+msgstr "Panginget: Lengkepan Pendaptaran"
 
 #: lib/senders/email.js:554
 msgid "Final Reminder: Activate Your Account"
-msgstr ""
+msgstr "Panginget Akhir: Aktipkeun Akun Anjeun"
 
 #: lib/senders/email.js:609
 msgid "Authorization Code for %(clientName)s"
@@ -569,11 +569,11 @@ msgstr "Sandi Otorisasi pikeun %(clientName)s"
 
 #: lib/senders/email.js:681
 msgid "Confirm New Sign-in"
-msgstr ""
+msgstr "Konfirmasi Peta Asup Anyar"
 
 #: lib/senders/email.js:724
 msgid "Sign-in Code for %(serviceName)s"
-msgstr ""
+msgstr "Sandi Asup pikeun %(serviceName)s"
 
 #: lib/senders/email.js:789
 msgid "Verify Primary Email"
@@ -597,7 +597,7 @@ msgstr "Sandi geus Diropéa"
 
 #: lib/senders/email.js:1039
 msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
+msgstr "Kagiatan Picurigaeun: Kudu Ganti Sandi"
 
 #: lib/senders/email.js:1080
 msgid "New Sign-in to %(clientName)s"
