@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-08-16 14:03+0000\n"
+"PO-Revision-Date: 2019-10-01 02:11+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -57,7 +57,7 @@ msgstr "您需要将您的新密码输入到其他设备以继续同步。"
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "您需要将您的新密码输入到其他设备以继续同步。"
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -355,11 +355,11 @@ msgstr "确认登录"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "如果是，请使用此验证码："
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "5 分钟内有效。"
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -427,7 +427,7 @@ msgstr "确认您的账户，即可在任何登录的设备中，发挥 Firefox 
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "这是一封自动发送的电子邮件。如果您没有进行此操作，<a %(passwordChangeLinkAttributes)s>请更改您的密码</a>。"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -536,7 +536,7 @@ msgstr "确认您的邮箱并开始同步！"
 
 #: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
 msgid "Verify email"
-msgstr ""
+msgstr "验证邮箱"
 
 #: lib/senders/email.js:472
 msgid "Finish Creating Your Account"
@@ -939,8 +939,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -967,8 +967,7 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1052,9 +1051,7 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
-#~ "电子邮件地址，以激活您的账号。"
+#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"

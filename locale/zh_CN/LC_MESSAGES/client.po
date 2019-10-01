@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 01:31+0000\n"
+"PO-Revision-Date: 2019-10-01 02:15+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -2190,11 +2190,11 @@ msgstr "其他"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "感谢您就 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持联系。我们将尽快通过电子邮件与您联系。"
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "感谢您就 <b>%(escapedSelectedPlan)s</b> 中的 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持联系。我们将尽快通过电子邮件与您联系。"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2230,11 +2230,11 @@ msgstr "上次连接时间未知"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "过期或无效码"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2242,11 +2242,11 @@ msgstr "随处登录进行同步："
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "启用同步服务"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "不同步此设备"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2290,7 +2290,7 @@ msgstr "问题描述"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "您要将此设备同步到您的账户吗？"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -2310,7 +2310,7 @@ msgstr "您的消息已送达用户支持"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "返回“订阅”"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "注册码过期或无效"
