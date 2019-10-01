@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 17:29+0000\n"
+"PO-Revision-Date: 2019-10-01 17:45+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -2213,6 +2213,7 @@ msgstr "Köszönjük, hogy felkereste a Mozilla támogatást a következő tém�
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Köszönjük, hogy felkereste a Mozilla támogatást a következő témában: <b>%(escapedLowercaseTopic)s</b> (<b>%(escapedSelectedPlan)s</b>). A lehető leghamarabb kapcsolatba lépünk Önnel e-mailben."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2248,11 +2249,11 @@ msgstr "Legutóbbi ismeretlen ideje látva"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Lejárt vagy érvénytelen kód"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2260,11 +2261,11 @@ msgstr "Szinkronizálja ezeket mindenhol, ahol bejelentkezik:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "Sync engedélyezése"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Ne szinkronizálja ezt az eszközt"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2308,11 +2309,11 @@ msgstr "A probléma leírása"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Szeretné szinkronizálni ezt az eszközt a fiókjával?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Eszköz szinkronizálása"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
@@ -2324,11 +2325,11 @@ msgstr "Maradjon biztonságban – ne használja újra a jelszavakat."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Az üzenetét elküldtük a támogatásnak"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Vissza az előfizetésekhez"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Lejárt vagy érvénytelen regisztrációs kód"
