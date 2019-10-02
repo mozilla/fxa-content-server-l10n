@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-02 02:11+0000\n"
+"PO-Revision-Date: 2019-10-02 02:12+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -2327,7 +2327,7 @@ msgstr "თქვენი შეტყობინება გაეგზა�
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "დაბრუნება გამოწერებზე"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "ვადაგასული ან არასწორი კოდი ანგარიშის"
