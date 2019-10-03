@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-03 14:10+0000\n"
+"PO-Revision-Date: 2019-10-03 14:17+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2251,7 +2251,7 @@ msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Codice de inscription expirate o valide"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2259,11 +2259,11 @@ msgstr "Synchronisa istos ubicunque tu te authentica:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "Activar le synchronisation"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Non synchronisar iste apparato"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2307,11 +2307,11 @@ msgstr "Description del problema"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Vole tu synchronisar iste apparato a tu conto?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Synchronisar iste apparato"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
@@ -2323,11 +2323,11 @@ msgstr "Mantene te secur &mdash; non reutilisa le contrasignos."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Tu message ha essite inviate al supporto"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Receder al subscriptiones"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Codice de inscription expirate o valide"
