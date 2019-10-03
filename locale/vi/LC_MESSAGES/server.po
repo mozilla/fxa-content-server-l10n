@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-26 02:04+0000\n"
+"PO-Revision-Date: 2019-10-03 00:54+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -56,7 +56,7 @@ msgstr "Bạn sẽ cần nhập mật khẩu mới của mình trên các thiế
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Bạn sẽ cần nhập mật khẩu mới của mình trên các thiết bị khác để tiếp tục đồng bộ hóa."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -360,11 +360,11 @@ msgstr "Xác nhận lần đăng nhập này"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Nếu có, đây là mã xác minh:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Nó hết hạn sau 5 phút."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -432,7 +432,7 @@ msgstr "Xác nhận tài khoản của bạn và tận dụng tối đa Firefox 
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Đây là một email tự động; nếu bạn không nhận ra hành động này, <a %(passwordChangeLinkAttributes)s>hãy thay đổi mật khẩu của bạn</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -541,7 +541,7 @@ msgstr "Xác nhận email của bạn và bắt đầu đồng bộ hóa!"
 
 #: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
 msgid "Verify email"
-msgstr ""
+msgstr "Xác nhận Email"
 
 #: lib/senders/email.js:472
 msgid "Finish Creating Your Account"
