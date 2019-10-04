@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-10-01 02:11+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "我们注意到您的救援码所剩不多了。请考虑生成一些新
 msgid "Generate codes:"
 msgstr "生成救援码："
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s 有新的登录活动"
 
@@ -116,7 +116,7 @@ msgstr "祝好，"
 msgid "The Firefox Accounts team"
 msgstr "Firefox 账户团队"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "已生成新的救援密钥"
 
@@ -174,7 +174,7 @@ msgstr "您已成功在下列设备上使用救援码登录："
 msgid "Consumed recovery code"
 msgstr "用过的救援码"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "已生成新的救援码"
 
@@ -182,7 +182,7 @@ msgstr "已生成新的救援码"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "您已成功用下列设备生成新的救援码："
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "已移除账户救援密钥"
 
@@ -198,7 +198,7 @@ msgstr "将无法再使用该救援密钥来救援您的账户。"
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "您已使用下列设备，成功移除 Firefox 账户救援密钥："
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "已移除次要邮箱"
 
@@ -240,7 +240,7 @@ msgstr "成功为您的 Firefox 账户绑上第一台设备。再来把其他设
 msgid "Sign in to Sync:"
 msgstr "登录以同步："
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "次要邮件地址已添加"
 
@@ -277,7 +277,7 @@ msgstr "需要重置您的密码？"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "请在一小时内点击下面的按钮来创建新密码。此次重设密码的请求来自以下设备："
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "创建新密码"
 
@@ -349,7 +349,7 @@ msgstr "立即激活："
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "为了您的安全，请确认从下列设备的登录："
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "确认登录"
 
@@ -523,8 +523,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s（估计）"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "验证您的账户"
+msgid "Verify your account"
+msgstr "验证您的账号"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -534,13 +534,13 @@ msgstr "立即激活"
 msgid "Confirm your email and start to sync!"
 msgstr "确认您的邮箱并开始同步！"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr "验证邮箱"
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "账户创建完成"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -551,128 +551,100 @@ msgid "Verification code: %(code)s"
 msgstr "验证码：%(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "提醒：请完成注册"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "最后一次提醒：请激活您的账户"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "%(clientName)s 的授权码"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "确认新的登录活动"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "确认新的 %(clientName)s 登录活动"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "%(serviceName)s 的登录码"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "验证主邮箱"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "验证次要邮件地址"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
+#: lib/senders/email.js:928
+msgid "Reset your password"
 msgstr "重置密码"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "密码已修改"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "密码已更新"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "可疑活动：请重置密码"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "%(clientName)s 有新的登录活动"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "管理账号"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "账户已验证"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "账户已确认"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "把其他设备也绑定上吧"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "次要邮件地址已添加"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "新的主邮箱"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "已移除次要邮箱"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "已启用两步验证"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "已禁用两步验证"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "已生成新的救援码"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "已使用救援码"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "剩余 1 组救援码"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "剩余 %(numberRemaining)s 组救援码"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "生成救援码"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "已生成救援密钥"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "已移除账户救援密钥"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "已使用救援码更新密码"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "生成新的救援密钥"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 账户"
 
@@ -732,10 +704,6 @@ msgstr "启用 JavaScript 后才能使用 Firefox 账户。"
 msgid "Privacy Notice"
 msgstr "隐私政策"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "订阅平台服务条款"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "服务条款"
@@ -759,6 +727,93 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "下载最新版本"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "验证您的账户"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "账户创建完成"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "提醒：请完成注册"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "最后一次提醒：请激活您的账户"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "%(clientName)s 的授权码"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "确认新的登录活动"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "%(serviceName)s 的登录码"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "验证主邮箱"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "验证次要邮件地址"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "重置密码"
+
+#~ msgid "Password Changed"
+#~ msgstr "密码已修改"
+
+#~ msgid "Password Updated"
+#~ msgstr "密码已更新"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "可疑活动：请重置密码"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "%(clientName)s 有新的登录活动"
+
+#~ msgid "Account Verified"
+#~ msgstr "账户已验证"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "账户已确认"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "次要邮件地址已添加"
+
+#~ msgid "New Primary Email"
+#~ msgstr "新的主邮箱"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "已移除次要邮箱"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "已启用两步验证"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "已禁用两步验证"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "已生成新的救援码"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "已使用救援码"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "剩余 1 组救援码"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "剩余 %(numberRemaining)s 组救援码"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "已生成救援密钥"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "已移除账户救援密钥"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "已使用救援码更新密码"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "订阅平台服务条款"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -832,9 +887,6 @@ msgstr "下载最新版本"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox 账户授权码"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "确认新的 %(clientName)s 登录活动"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Firefox 的登录代码"
@@ -939,8 +991,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -967,7 +1019,8 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1051,7 +1104,9 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
+#~ msgstr ""
+#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
+#~ "电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1121,12 +1176,6 @@ msgstr "下载最新版本"
 
 #~ msgid "Verify:"
 #~ msgstr "验证："
-
-#~ msgid "Verify your account"
-#~ msgstr "验证您的账号"
-
-#~ msgid "Reset your password"
-#~ msgstr "重置密码"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "重新验证您的账号"

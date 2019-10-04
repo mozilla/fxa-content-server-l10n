@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-08-18 13:09+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Мы заметили, что у вас осталось мало код
 msgid "Generate codes:"
 msgstr "Сгенерировать коды:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "Новый вход в %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Всего наилучшего,"
 msgid "The Firefox Accounts team"
 msgstr "Команда Аккаунтов Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Сгенерирован ключ восстановления аккаунта"
 
@@ -178,7 +178,7 @@ msgstr "Вы успешно использовали код восстановл
 msgid "Consumed recovery code"
 msgstr "Использованный код восстановления"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "Сгенерированы новые коды восстановления"
 
@@ -186,7 +186,7 @@ msgstr "Сгенерированы новые коды восстановлен�
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Вы успешно сгенерировали новые коды восстановления со следующего устройства:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Ключ восстановления аккаунта удалён"
 
@@ -202,7 +202,7 @@ msgstr "Этот ключ восстановления больше не мож�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Вы успешно удалили ключ восстановления аккаунта для вашего Аккаунта Firefox из следующего устройства:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Удалена альтернативная эл. почта"
 
@@ -246,7 +246,7 @@ msgstr "Вы успешно подключили первое устройств
 msgid "Sign in to Sync:"
 msgstr "Войти в Синхронизацию:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Добавлена альтернативная эл. почта"
 
@@ -285,7 +285,7 @@ msgstr "Нужно сбросить свой пароль?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Щёлкните по кнопке в течение следующего часа, чтобы создать новый пароль. Запрос пришел со следующего устройства:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Создать новый пароль"
 
@@ -357,7 +357,7 @@ msgstr "Активировать сейчас:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход со следующего устройства:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Подтвердить вход"
 
@@ -531,8 +531,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизительно)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Подтвердите свой аккаунт"
+msgid "Verify your account"
+msgstr "Подтвердить ваш аккаунт"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -542,13 +542,13 @@ msgstr "Активировать сейчас"
 msgid "Confirm your email and start to sync!"
 msgstr "Подтвердите ваш адрес электронной почты и начните синхронизацию!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr ""
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Завершите создание вашего Аккаунта"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -559,128 +559,100 @@ msgid "Verification code: %(code)s"
 msgstr "Код подтверждения: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Напоминание: Завершите регистрацию"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Последнее напоминание: Активируйте свой аккаунт"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Код авторизации для %(clientName)s"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Подтвердите новый вход"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Подтвердите новый вход в %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Код для входа в %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Подтвердите основную электронную почту"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Подтвердите альтернативную электронную почту"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Сбросить пароль"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "Восстановить ваш пароль"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Пароль изменён"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Пароль обновлён"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Подозрительная активность: Требуется сброс пароля"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Новый вход в %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Управление аккаунтом"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Аккаунт подтверждён"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Аккаунт подтверждён"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Подсоединить другое устройство"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Добавлена альтернативная электронная почта"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Новая основная электронная почта"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Удалена альтернативная электронная почта"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Двухэтапная аутентификация включена"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Двухэтапная аутентификация отключена"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Сгенерированы новые коды восстановления"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Использован код восстановления"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "Остался 1 код восстановления"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "Осталось %(numberRemaining)s кодов восстановления"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Сгенерировать коды"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Сгенерирован ключ восстановления аккаунта"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Ключ восстановления аккаунта удалён"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Пароль обновлён с использованием ключа восстановления"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Создать новый ключ восстановления"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Аккаунты Firefox"
 
@@ -740,10 +712,6 @@ msgstr "Для Firefox Аккаунтов необходим JavaScript."
 msgid "Privacy Notice"
 msgstr "Уведомление о приватности"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Условия использования платформы подписки"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Условия службы"
@@ -767,6 +735,93 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Загрузить последнюю версию"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Подтвердите свой аккаунт"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Завершите создание вашего Аккаунта"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Напоминание: Завершите регистрацию"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Последнее напоминание: Активируйте свой аккаунт"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Код авторизации для %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Подтвердите новый вход"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Код для входа в %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Подтвердите основную электронную почту"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Подтвердите альтернативную электронную почту"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Сбросить пароль"
+
+#~ msgid "Password Changed"
+#~ msgstr "Пароль изменён"
+
+#~ msgid "Password Updated"
+#~ msgstr "Пароль обновлён"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Подозрительная активность: Требуется сброс пароля"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Новый вход в %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Аккаунт подтверждён"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Аккаунт подтверждён"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Добавлена альтернативная электронная почта"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Новая основная электронная почта"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Удалена альтернативная электронная почта"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Двухэтапная аутентификация включена"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Двухэтапная аутентификация отключена"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Сгенерированы новые коды восстановления"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Использован код восстановления"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "Остался 1 код восстановления"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "Осталось %(numberRemaining)s кодов восстановления"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Сгенерирован ключ восстановления аккаунта"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Ключ восстановления аккаунта удалён"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Пароль обновлён с использованием ключа восстановления"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Условия использования платформы подписки"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -844,9 +899,6 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Код авторизации Аккаунта Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Подтвердите новый вход в %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Код для входа в Firefox"
@@ -1145,12 +1197,6 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "Verify:"
 #~ msgstr "Подтвердите:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Подтвердить ваш аккаунт"
-
-#~ msgid "Reset your password"
-#~ msgstr "Восстановить ваш пароль"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Повторите подтверждение вашего аккаунта"

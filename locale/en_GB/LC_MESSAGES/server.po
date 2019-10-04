@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-09-30 23:52+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "We have noticed that you are running low on recovery codes. Please consi
 msgid "Generate codes:"
 msgstr "Generate codes:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "New sign-in to %(clientName)s"
 
@@ -116,7 +116,7 @@ msgstr "Best,"
 msgid "The Firefox Accounts team"
 msgstr "The Firefox Accounts team"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Account recovery key generated"
 
@@ -176,7 +176,7 @@ msgstr "You have successfully consumed a recovery code from the following device
 msgid "Consumed recovery code"
 msgstr "Consumed recovery code"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "New recovery codes generated"
 
@@ -184,7 +184,7 @@ msgstr "New recovery codes generated"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "You have successfully generated new recovery codes from the following device:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Account recovery key removed"
 
@@ -200,7 +200,7 @@ msgstr "This recovery key can no longer be used to recover your account."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Secondary email removed"
 
@@ -244,7 +244,7 @@ msgstr "You successfully connected your first device to your Firefox Account. No
 msgid "Sign in to Sync:"
 msgstr "Sign in to Sync:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Secondary email added"
 
@@ -282,7 +282,7 @@ msgstr "Need to reset your password?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Click the button within the next hour to create a new password. The request came from the following device:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Create new password"
 
@@ -354,7 +354,7 @@ msgstr "Activate now:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "For added security, please confirm this sign-in from the following device:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Confirm sign-in"
 
@@ -528,8 +528,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimated)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Verify Your Account"
+msgid "Verify your account"
+msgstr "Verify your account"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -539,13 +539,13 @@ msgstr "Activate now"
 msgid "Confirm your email and start to sync!"
 msgstr "Confirm your email and start to synchronise!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr "Verify email"
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Finish Creating Your Account"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -556,128 +556,100 @@ msgid "Verification code: %(code)s"
 msgstr "Verification code: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Reminder: Complete Registration"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Final Reminder: Activate Your Account"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Authorisation Code for %(clientName)s"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Confirm New Sign-in"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Confirm new sign-in to %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Sign-in Code for %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Verify Primary Email"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Verify Secondary Email"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Reset Your Password"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "Reset your password"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Password Changed"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Password Updated"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Suspicious Activity: Password Reset Required"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "New Sign-in to %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Manage account"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Account Verified"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Account Confirmed"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Connect another device"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Secondary Email Added"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "New Primary Email"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Secondary Email Removed"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Two-Step Authentication Enabled"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Two-Step Authentication Disabled"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "New Recovery Codes Generated"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Recovery Code Used"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 Recovery Code Remaining"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s Recovery Codes Remaining"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Generate codes"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Account Recovery Key Generated"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Account Recovery Key Removed"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Password Updated Using Recovery Key"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Create new recovery key"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -737,10 +709,6 @@ msgstr "Firefox Accounts requires JavaScript."
 msgid "Privacy Notice"
 msgstr "Privacy Notice"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Subscription Platform Terms of Service"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Terms of Service"
@@ -764,6 +732,93 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Download latest"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Verify Your Account"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Finish Creating Your Account"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Reminder: Complete Registration"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Final Reminder: Activate Your Account"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Authorisation Code for %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Confirm New Sign-in"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Sign-in Code for %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Verify Primary Email"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Verify Secondary Email"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Reset Your Password"
+
+#~ msgid "Password Changed"
+#~ msgstr "Password Changed"
+
+#~ msgid "Password Updated"
+#~ msgstr "Password Updated"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Suspicious Activity: Password Reset Required"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "New Sign-in to %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Account Verified"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Account Confirmed"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Secondary Email Added"
+
+#~ msgid "New Primary Email"
+#~ msgstr "New Primary Email"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Secondary Email Removed"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Two-Step Authentication Enabled"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Two-Step Authentication Disabled"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "New Recovery Codes Generated"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Recovery Code Used"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 Recovery Code Remaining"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s Recovery Codes Remaining"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Account Recovery Key Generated"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Account Recovery Key Removed"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Password Updated Using Recovery Key"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Subscription Platform Terms of Service"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -841,9 +896,6 @@ msgstr "Download latest"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox Account authorisation code"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Confirm new sign-in to %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Sign-in code for Firefox"
@@ -945,11 +997,11 @@ msgstr "Download latest"
 #~ msgstr "Reset password"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -970,7 +1022,8 @@ msgstr "Download latest"
 #~ msgstr "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
+#~ msgstr ""
+#~ "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Date & Time:"
@@ -1048,8 +1101,8 @@ msgstr "Download latest"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox passwords, "
-#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox "
+#~ "passwords, bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1119,12 +1172,6 @@ msgstr "Download latest"
 
 #~ msgid "Verify:"
 #~ msgstr "Verify:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Verify your account"
-
-#~ msgid "Reset your password"
-#~ msgstr "Reset your password"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Re-verify your account"

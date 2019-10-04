@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-02 19:16+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
+"PO-Revision-Date: 2019-10-02 14:00+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -31,7 +31,7 @@ msgstr "Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje
 msgid "Generate codes:"
 msgstr "Koaden generearje:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "Nije oanmelding by %(clientName)s"
 
@@ -57,7 +57,7 @@ msgstr "Jo moatte jo nije wachtwurd op oare apparaten ynfiere om it syngronisear
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Jo moatte jo nije wachtwurd op oare apparaten ynfiere om de syngronisaasje te ferfetsjen."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -118,7 +118,7 @@ msgstr "Freonlike groetnis,"
 msgid "The Firefox Accounts team"
 msgstr "It Firefox Accounts-team"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Kaai foar accountwerstel generearre"
 
@@ -178,7 +178,7 @@ msgstr "Jo hawwe mei sukses in werstelkoade brûkt fan it folgjende appaaraat ô
 msgid "Consumed recovery code"
 msgstr "Brûkte werstelkoade"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "Nije werstelkoaden generearre"
 
@@ -186,7 +186,7 @@ msgstr "Nije werstelkoaden generearre"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Jo hawwe mei sukses nije werstelkoaden generearre fan it folgjende apparaat ôf:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Kaai foar accountwerstel fuortsmiten"
 
@@ -202,7 +202,7 @@ msgstr "Dizze werstelkaai kin net mear brûkt wurde om jo account te werstellen.
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Jo hawwe mei sukses in kaai foar accountwerstel foar jo Firefox-account fuortsmiten fan it folgjende apparaat ôf:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Sekundêr e-mailadres fuortsmiten"
 
@@ -246,7 +246,7 @@ msgstr "Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. J
 msgid "Sign in to Sync:"
 msgstr "Oanmelde by Sync:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Twadde e-mail tafoege"
 
@@ -284,7 +284,7 @@ msgstr "Moatte jo jo wachtwurd opnij ynstelle?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klik binnen in oer op de knop om in nij wachtwurd oan te meitsjen. De oanfraach is ôfkomstich fan it folgjende apparaat:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Nij wachtwurd oanmeitsje"
 
@@ -356,17 +356,17 @@ msgstr "No aktivearje:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Befêstigje dizze oanmelding fan it folgjende apparaat ôf foar ekstra befeiliging:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Oanmelding befêstigje"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Sa ja, dan is dit de ferifikaasjekoade:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Dizze ferrin oer fiif minuten."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -434,7 +434,7 @@ msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte ú
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a %(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -530,8 +530,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (skat)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Jo account ferifiearje"
+msgid "Verify your account"
+msgstr "Ferifiearje jo account"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -541,13 +541,13 @@ msgstr "No aktivearje"
 msgid "Confirm your email and start to sync!"
 msgstr "Befêstigje jo e-mailadres en begjin mei syngronisearjen!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
-msgstr ""
+msgstr "E-mailadres ferifiearje"
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Oanmeitsjen fan jo account foltôgje"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -558,128 +558,100 @@ msgid "Verification code: %(code)s"
 msgstr "Ferifikaasjekoade: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Omtinken: foltôgje jo registraasje"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Lêste omtinken: aktivearje jo account"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Autorisaasjekoade foar %(clientName)s"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Nije oanmelding befêstigje"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Nije oanmelding by %(clientName)s befêstigje"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Oanmeldkoade foar %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Primêr e-mailadres ferifiearje"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Sekundêr e-mailadres ferifiearje"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Jo wachtwurd opnij ynstelle"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "Wachtwurd werinisjalisearje"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Wachtwurd wizige"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Wachtwurd bywurke"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Fertochte aktiviteit: wachtwurd opnij ynstelle fereaske"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Nije oanmelding by %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Account beheare"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Account ferifiearre"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Account befêstige"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Noch in apparaat keppelje"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Sekundêr e-mailadres tafoege"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Nij primêr e-mailadres"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Sekundêr e-mailadres fuortsmiten"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Autentikaasje yn twa stappen ynskeakele"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Autentikaasje yn twa stappen útskeakele"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Nije werstelkoaden generearre"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Werstelkoade brûkt"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 werstelkoade oer"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s werstelkoaden oer"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Koaden generearje"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Kaai foar accountwerstel generearre"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Kaai foar accountwerstel fuortsmiten"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Wachtwurd bywurke mei werstelkaai"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Nije werstelkaai generearje"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -739,10 +711,6 @@ msgstr "Firefox-accounts fereasket JavaScript."
 msgid "Privacy Notice"
 msgstr "Privacyferklearring"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Servicebetingsten fan it abonneminteplatfoarm"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Servicebetingsten"
@@ -766,6 +734,93 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lêste downloade"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Jo account ferifiearje"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Oanmeitsjen fan jo account foltôgje"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Omtinken: foltôgje jo registraasje"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Lêste omtinken: aktivearje jo account"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Autorisaasjekoade foar %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Nije oanmelding befêstigje"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Oanmeldkoade foar %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Primêr e-mailadres ferifiearje"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Sekundêr e-mailadres ferifiearje"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Jo wachtwurd opnij ynstelle"
+
+#~ msgid "Password Changed"
+#~ msgstr "Wachtwurd wizige"
+
+#~ msgid "Password Updated"
+#~ msgstr "Wachtwurd bywurke"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Fertochte aktiviteit: wachtwurd opnij ynstelle fereaske"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Nije oanmelding by %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Account ferifiearre"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Account befêstige"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Sekundêr e-mailadres tafoege"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Nij primêr e-mailadres"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Sekundêr e-mailadres fuortsmiten"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Autentikaasje yn twa stappen ynskeakele"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Autentikaasje yn twa stappen útskeakele"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Nije werstelkoaden generearre"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Werstelkoade brûkt"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 werstelkoade oer"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s werstelkoaden oer"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Kaai foar accountwerstel generearre"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Kaai foar accountwerstel fuortsmiten"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Wachtwurd bywurke mei werstelkaai"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Servicebetingsten fan it abonneminteplatfoarm"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -843,9 +898,6 @@ msgstr "Lêste downloade"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox Account-autorisaasjekoade"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Nije oanmelding by %(clientName)s befêstigje"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Oanmeldkoade foar Firefox"
@@ -1139,12 +1191,6 @@ msgstr "Lêste downloade"
 
 #~ msgid "Verify:"
 #~ msgstr "Ferifiearje:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Ferifiearje jo account"
-
-#~ msgid "Reset your password"
-#~ msgstr "Wachtwurd werinisjalisearje"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Ferifiearje jo account opnij"

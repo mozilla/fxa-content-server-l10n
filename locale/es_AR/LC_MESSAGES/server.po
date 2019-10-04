@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-10-01 20:29+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Notamos que te estás quedando sin códigos de recuperación. Considerá
 msgid "Generate codes:"
 msgstr "Generar códigos:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "Nuevo inicio de sesión en %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Saludos,"
 msgid "The Firefox Accounts team"
 msgstr "El equipo de Cuentas de Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Se generó una clave de recuperación de la cuenta"
 
@@ -153,8 +153,8 @@ msgstr "A partir de ahora se te van a pedir los códigos de seguridad de tu apli
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
 msgstr ""
-"Activaste correctamente la autenticación en dos pasos en tu cuenta de Firefox. A partir de ahora se te van a pedir los códigos de seguridad de tu aplicación de autenticación cada vez que inicies una"
-" sesión."
+"Activaste correctamente la autenticación en dos pasos en tu cuenta de Firefox. A partir de ahora se te van a pedir los códigos de seguridad de tu aplicación de autenticación cada vez que inicies "
+"una sesión."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -180,7 +180,7 @@ msgstr "Utilizó correctamente un código de recuperación desde el siguiente di
 msgid "Consumed recovery code"
 msgstr "Utilizó un código de recuperación"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "Se generaron nuevos códigos de recuperación"
 
@@ -188,7 +188,7 @@ msgstr "Se generaron nuevos códigos de recuperación"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Generó correctamente nuevos códigos de recuperación desde el siguiente dispositivo:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Se eliminó la clave de recuperación de la cuenta"
 
@@ -204,7 +204,7 @@ msgstr "Esta clave de recuperación ya no puede ser usada para recuperar su cuen
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Eliminó exitosamente una clave de recuperación para su cuenta de Firefox desde el siguiente dispositivo:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Correo electrónico secundario eliminado"
 
@@ -229,8 +229,8 @@ msgstr "Los códigos de seguridad ya no van a ser necesarios en cada inicio de s
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr ""
-"Activaste correctamente la autenticación en dos pasos en tu cuenta de Firefox. A partir de ahora se te van a solicitar los códigos de seguridad de tu aplicación de autenticación cada vez que inicies"
-" una sesión."
+"Activaste correctamente la autenticación en dos pasos en tu cuenta de Firefox. A partir de ahora se te van a solicitar los códigos de seguridad de tu aplicación de autenticación cada vez que "
+"inicies una sesión."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Account verified!"
@@ -252,15 +252,15 @@ msgstr "Conectaste con éxito tu primer dispositivo a tu cuenta de Firefox. Ahor
 msgid "Sign in to Sync:"
 msgstr "Iniciar sesión en Sync:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Correo electrónico secundario añadido"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Confirmaste satisfactoriamente %(secondaryEmail)s como corree electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de inicio de sesión se enviarán a ambas"
-" direcciones de correo electrónico."
+"Confirmaste satisfactoriamente %(secondaryEmail)s como corree electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de inicio de sesión se enviarán a "
+"ambas direcciones de correo electrónico."
 
 #: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
 #: lib/senders/templates/verificationReminderFirst.txt:1
@@ -291,7 +291,7 @@ msgstr "¿Necesita restablecer su contraseña?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Haga clic en el botón dentro la próxima hora para crear una nueva contraseña. Esta solicitud la envió el siguiente dispositivo:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Crear nueva contraseña"
 
@@ -363,7 +363,7 @@ msgstr "Activar ahora:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Para una mayor seguridad, por favor confirmá este inicio de sesión desde el siguiente dispositivo:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Confirmar inicio de sesión"
 
@@ -537,8 +537,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimado)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Verificar cuenta"
+msgid "Verify your account"
+msgstr "Verificá tu cuenta"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -548,13 +548,13 @@ msgstr "Activar ahora"
 msgid "Confirm your email and start to sync!"
 msgstr "¡Confirmá tu correo electrónico y empezá a sincronizar!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr "Verificar correo electrónico"
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Terminar de crear la cuenta"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -565,128 +565,100 @@ msgid "Verification code: %(code)s"
 msgstr "Código de verificación: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Recordatorio: Completar registro"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Recordatorio final: Activá tu cuenta"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Código de autorización para %(clientName)s"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Confirmar nuevo inicio de sesión"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Confirmar nuevo ingreso a %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Código de ingreso para %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Verificar correo electrónico primario"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Verificar correo electrónico secundario"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Restablecer contraseña"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "Restablecé tu contraseña"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Contraseña cambiada"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Contraseña actualizada"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Actividad sospechosa: se requiere restablecer la contraseña"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Nuevo ingreso en %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Administrar cuenta"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Cuenta verificada"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Cuenta confirmada"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Conectá otro dispositivo"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Correo electrónico secundario agregado"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Nuevo correo electrónico primario"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Correo electrónico secundario eliminado"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Se habilitó la autenticación en dos pasos"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Se deshabilitó la autenticación en dos pasos"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Se generaron nuevos códigos de recuperación"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Código de recuperación utilizado"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 código de recuperación restante"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s códigos de recuperación restantes"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Generar códigos"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Se generó una clave de recuperación de la cuenta"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Se eliminó la clave de recuperación de la cuenta"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Contraseña actualizada usando la clave de recuperación"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Crear una nueva clave de recuperación"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -746,10 +718,6 @@ msgstr "Firefox Accounts necesita JavaScript."
 msgid "Privacy Notice"
 msgstr "Notificación de privacidad"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Términos de servicio de la plataforma de suscripción"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Términos de servicio"
@@ -774,19 +742,106 @@ msgstr ""
 msgid "Download latest"
 msgstr "Descargar la actualización más reciente"
 
+#~ msgid "Verify Your Account"
+#~ msgstr "Verificar cuenta"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Terminar de crear la cuenta"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Recordatorio: Completar registro"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Recordatorio final: Activá tu cuenta"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Código de autorización para %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Confirmar nuevo inicio de sesión"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Código de ingreso para %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Verificar correo electrónico primario"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Verificar correo electrónico secundario"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Restablecer contraseña"
+
+#~ msgid "Password Changed"
+#~ msgstr "Contraseña cambiada"
+
+#~ msgid "Password Updated"
+#~ msgstr "Contraseña actualizada"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Actividad sospechosa: se requiere restablecer la contraseña"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Nuevo ingreso en %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Cuenta verificada"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Cuenta confirmada"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Correo electrónico secundario agregado"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Nuevo correo electrónico primario"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Correo electrónico secundario eliminado"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Se habilitó la autenticación en dos pasos"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Se deshabilitó la autenticación en dos pasos"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Se generaron nuevos códigos de recuperación"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Código de recuperación utilizado"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 código de recuperación restante"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s códigos de recuperación restantes"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Se generó una clave de recuperación de la cuenta"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Se eliminó la clave de recuperación de la cuenta"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Contraseña actualizada usando la clave de recuperación"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Términos de servicio de la plataforma de suscripción"
+
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Conectaste correctamente tu primer dispositivo a la cuenta de Firefox. Ahora podés iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a> y "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "Conectaste correctamente tu primer dispositivo a la cuenta de Firefox. Ahora podés iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a> "
+#~ "y <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Conectaste correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conectá cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a "
-#~ "href='%(iosUrl)s'>Firefox para iOS</a>."
+#~ "Conectaste correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conectá cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o "
+#~ "<a href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Iniciá sesión en Sync"
@@ -850,9 +905,6 @@ msgstr "Descargar la actualización más reciente"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Código de autorización de la cuenta de Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Confirmar nuevo ingreso a %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Código de inicio de sesión para Firefox"
@@ -957,16 +1009,16 @@ msgstr "Descargar la actualización más reciente"
 #~ msgstr "Restablecer contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 #~ "conectado a ella. Para activarla solo tenés que confirmar tu dirección de correo electrónico."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Hace una semana atrás creaste una cuenta de Firefox, pero nunca la verificaste. Estamos preocupados. Confirmá esta dirección de correo electrónico para activar tu cuenta y hacernos saber que estás "
-#~ "bien."
+#~ "Hace una semana atrás creaste una cuenta de Firefox, pero nunca la verificaste. Estamos preocupados. Confirmá esta dirección de correo electrónico para activar tu cuenta y hacernos saber que "
+#~ "estás bien."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Para una mayor seguridad, confirmá este ingreso para comenzar a sincronizar con este dispositivo:"
@@ -988,12 +1040,14 @@ msgstr "Descargar la actualización más reciente"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Eliminaste exitosamente %(secondaryEmail)s como correo electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de ingreso no llegarán más a esta dirección."
+#~ "Eliminaste exitosamente %(secondaryEmail)s como correo electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de ingreso no llegarán más a esta "
+#~ "dirección."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Se ha verificado exitosamente %(secondaryEmail)s como correo electrónico secundario para la cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de ingreso ahora se enviarán a ambas "
-#~ "direcciones."
+#~ "Se ha verificado exitosamente %(secondaryEmail)s como correo electrónico secundario para la cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de ingreso ahora se enviarán a "
+#~ "ambas direcciones."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Según lo solicitado, acá está el enlace para instalar Firefox en tu dispositivo móvil: %(link)s"
@@ -1045,12 +1099,6 @@ msgstr "Descargar la actualización más reciente"
 
 #~ msgid "Verify:"
 #~ msgstr "Verificar:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Verificá tu cuenta"
-
-#~ msgid "Reset your password"
-#~ msgstr "Restablecé tu contraseña"
 
 #~ msgid "Congratulations!"
 #~ msgstr "¡Felicitaciones!"

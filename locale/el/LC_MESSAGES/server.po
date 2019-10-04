@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-09-16 16:42+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Παρατηρήσαμε ότι σάς απομένουν λίγοι κ�
 msgid "Generate codes:"
 msgstr "Δημιουργία κωδικών:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "Νέα σύνδεση στο %(clientName)s"
 
@@ -117,7 +117,7 @@ msgstr "Σάς ευχόμαστε τα καλύτερα,"
 msgid "The Firefox Accounts team"
 msgstr "Η ομάδα των Λογαριασμών Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε"
 
@@ -177,7 +177,7 @@ msgstr "Έχετε χρησιμοποιήσει επιτυχώς έναν κωδ
 msgid "Consumed recovery code"
 msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 
@@ -185,7 +185,7 @@ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε"
 
@@ -201,7 +201,7 @@ msgstr "Αυτό το κλειδί ανάκτησης δεν μπορεί να �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
 
@@ -247,7 +247,7 @@ msgstr "Συνδέσατε επιτυχώς την πρώτη σας συσκε�
 msgid "Sign in to Sync:"
 msgstr "Είσοδος στο Συγχρονισμό:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Προστέθηκε δευτερεύον e-mail"
 
@@ -286,7 +286,7 @@ msgstr "Πρέπει να επαναφέρετε τον κωδικό πρόσβ�
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Δημιουργία νέου κωδικού πρόσβασης"
 
@@ -358,7 +358,7 @@ msgstr "Ενεργοποίηση τώρα:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Επιβεβαίωση εισόδου"
 
@@ -532,8 +532,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (εκτίμηση)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Επαλήθευση του λογαριασμού σας"
+msgid "Verify your account"
+msgstr ""
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -543,13 +543,13 @@ msgstr "Ενεργοποίηση τώρα"
 msgid "Confirm your email and start to sync!"
 msgstr "Επιβεβαιώστε το email σας και ξεκινήστε το συγχρονισμό!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr ""
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Ολοκλήρωση δημιουργίας λογαριασμού"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -560,128 +560,100 @@ msgid "Verification code: %(code)s"
 msgstr "Κωδικός επαλήθευσης: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Υπενθύμιση: Ολοκληρώστε την εγγραφή σας"
-
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Τελική υπενθύμιση: Ενεργοποιήστε το λογαριασμό σας"
-
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Κωδικός πιστοποίησης για %(clientName)s"
-
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Επιβεβαίωση νέας σύνδεσης"
-
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Κωδικός σύνδεσης για %(serviceName)s"
-
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Επαλήθευση κύριου email"
-
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Επαλήθευση δευτερεύοντος e-mail"
-
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Επαναφορά κωδικού πρόσβασης"
-
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Ο κωδικός πρόσβασης άλλαξε"
-
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Ο κωδικός πρόσβασης ενημερώθηκε"
-
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
+msgid "Reminder: Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Νέα σύνδεση στο %(clientName)s"
+#: lib/senders/email.js:554
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:609
+msgid "Account authorization code"
+msgstr ""
+
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
+
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
+
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
+
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
+
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr ""
+
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
+
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
+
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Διαχείριση λογαριασμού"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Ο λογαριασμός επαληθεύτηκε"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Ο λογαριασμός επιβεβαιώθηκε"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Σύνδεση άλλης συσκευής"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Προστέθηκε δευτερεύον email"
-
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Νέο κύριο email"
-
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Το δευτερεύον email αφαιρέθηκε"
-
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
-
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε"
-
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
-
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "Απομένει 1 κωδικός ανάκτησης"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "Απομένουν %(numberRemaining)s κωδικοί ανάκτησης"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
+
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
+
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
+
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Δημιουργία κωδικών"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr ""
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
 msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Λογαριασμοί Firefox"
 
@@ -735,10 +707,6 @@ msgstr "Οι Λογαριασμοί Firefox απαιτούν JavaScript."
 msgid "Privacy Notice"
 msgstr "Πολιτική Απορρήτου"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Όροι Υπηρεσίας"
@@ -758,6 +726,75 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Λήψη τελευταίας έκδοσης"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Επαλήθευση του λογαριασμού σας"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Ολοκλήρωση δημιουργίας λογαριασμού"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Υπενθύμιση: Ολοκληρώστε την εγγραφή σας"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Τελική υπενθύμιση: Ενεργοποιήστε το λογαριασμό σας"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Κωδικός πιστοποίησης για %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Επιβεβαίωση νέας σύνδεσης"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Κωδικός σύνδεσης για %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Επαλήθευση κύριου email"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Επαλήθευση δευτερεύοντος e-mail"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#~ msgid "Password Changed"
+#~ msgstr "Ο κωδικός πρόσβασης άλλαξε"
+
+#~ msgid "Password Updated"
+#~ msgstr "Ο κωδικός πρόσβασης ενημερώθηκε"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Νέα σύνδεση στο %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Ο λογαριασμός επαληθεύτηκε"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Ο λογαριασμός επιβεβαιώθηκε"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Προστέθηκε δευτερεύον email"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Νέο κύριο email"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Το δευτερεύον email αφαιρέθηκε"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "Απομένει 1 κωδικός ανάκτησης"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "Απομένουν %(numberRemaining)s κωδικοί ανάκτησης"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -817,9 +854,6 @@ msgstr "Λήψη τελευταίας έκδοσης"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Κωδικός εξουσιοδότησης Λογαριασμού Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Κωδικός σύνδεσης για το Firefox"

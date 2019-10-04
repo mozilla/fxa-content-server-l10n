@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-08-10 12:15+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Generate codes:"
 msgstr "कोड तैयार करें:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s पर नया साइन-इन"
 
@@ -117,7 +117,7 @@ msgstr "श्रेष्ठ,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox विवरण टीम"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "खाता पुनर्प्राप्ति कुंजी उत्पन्न हुई"
 
@@ -175,7 +175,7 @@ msgstr "आपने निम्न डिवाइस से पुनर्�
 msgid "Consumed recovery code"
 msgstr "पुनर्प्राप्ति कुंजी खपत की गयी"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "नए पुनर्प्राप्ति कुंजी उत्पन्न हुए"
 
@@ -183,7 +183,7 @@ msgstr "नए पुनर्प्राप्ति कुंजी उत्
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "आपने निम्न डिवाइस से नए पुनर्प्राप्ति कुंजी सफलतापूर्वक उत्पन्न की गयी हैं:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "खाता पुनर्प्राप्ति कुंजी निकाली गई"
 
@@ -199,7 +199,7 @@ msgstr "यह पुनर्प्राप्ति कुंजी अब �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "आपने निम्न डिवाइस से अपने Firefox खाता के लिए खाता पुनर्प्राप्ति कुंजी को सफलतापूर्वक हटा दिया है:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "द्वितीयक ईमेल हटा दिया गया"
 
@@ -243,7 +243,7 @@ msgstr "आपने सफलतापूर्वक अपना पहला
 msgid "Sign in to Sync:"
 msgstr "सिंक में साइन इन करें:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "द्वितीयक ई-मेल जोड़ा गया"
 
@@ -280,7 +280,7 @@ msgstr "क्या कूटशब्द पुनः ठीक करने �
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "नया पासवर्ड बनाने के लिए अगले एक घंटे के भीतर बटन पर क्लिक करें। निम्न डिवाइस से अनुरोध आया है:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "नया कूटशब्द बनाएँ"
 
@@ -352,7 +352,7 @@ msgstr "अभी सक्रिय करें:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "अतिरिक्त सुरक्षा के लिए, कृपया निम्न डिवाइस से इस साइन-इन की पुष्टि करें:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "साइन-इन की पुष्टि करें"
 
@@ -526,8 +526,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s(अनुमानित)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr ""
+msgid "Verify your account"
+msgstr "अपना खाता सत्यापित करें"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -537,13 +537,13 @@ msgstr "अब सक्रिय करें"
 msgid "Confirm your email and start to sync!"
 msgstr "अपने ईमेल की पुष्टि करें और संकालन करना प्रारंभ करें!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr ""
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "अपना खाता बनाना पूर्ण करें"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -554,128 +554,100 @@ msgid "Verification code: %(code)s"
 msgstr ""
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
+msgid "Reminder: Finish creating your account"
 msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
+msgid "Final reminder: Activate your account"
 msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
+msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "%(clientName)s पर नए साइन-इन की पुष्टि करें"
+
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
 msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
 msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "अपना कूटशब्द बदली करें"
+
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
 msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
 msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr ""
-
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr ""
-
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr ""
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "खाता प्रबंधित करें"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
+#: lib/senders/email.js:1116
+msgid "Account verified"
 msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "अन्य उपकरण से जोड़े"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr ""
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "कोड जनरेट करें"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr ""
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
 msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "नई पुनर्प्राप्ति कुंजी बनाएं"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox खाता"
 
@@ -729,10 +701,6 @@ msgstr "फ़ायरफ़ॉक्स खातों को JavaScript आवश�
 msgid "Privacy Notice"
 msgstr "गोपनीयता सूचना"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
@@ -752,6 +720,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "नवीनतम डाउनलोड करें"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "अपना खाता बनाना पूर्ण करें"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -799,9 +770,6 @@ msgstr "नवीनतम डाउनलोड करें"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox खाता प्राधिकरण कोड"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "%(clientName)s पर नए साइन-इन की पुष्टि करें"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Firefox के लिए साइन इन कोड"
@@ -998,12 +966,6 @@ msgstr "नवीनतम डाउनलोड करें"
 
 #~ msgid "Verify:"
 #~ msgstr "सत्यापित:"
-
-#~ msgid "Verify your account"
-#~ msgstr "अपना खाता सत्यापित करें"
-
-#~ msgid "Reset your password"
-#~ msgstr "अपना कूटशब्द बदली करें"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "अपना खाता पुनः सत्यापित करें"

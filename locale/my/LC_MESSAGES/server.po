@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-05-01 16:10+0000\n"
 "Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Generate codes:"
 msgstr ""
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr "အကောင်းဆုံး၊"
 msgid "The Firefox Accounts team"
 msgstr "Firefox အကောင့်များဆိုင်ရာအဖွဲ့"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr ""
 
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Consumed recovery code"
 msgstr ""
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr ""
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr ""
 
@@ -197,7 +197,7 @@ msgstr ""
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr ""
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "အခြားအီးမေးလ်ကို ဖျက်ခဲ့သည်"
 
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Sign in to Sync:"
 msgstr ""
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr ""
 
@@ -276,7 +276,7 @@ msgstr ""
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr ""
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr ""
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "ဝင်ရောက်မှုကို အတည်ပြုပါ"
 
@@ -522,7 +522,7 @@ msgid "%(country)s (estimated)"
 msgstr ""
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
+msgid "Verify your account"
 msgstr ""
 
 #: lib/senders/email.js:429
@@ -533,12 +533,12 @@ msgstr ""
 msgid "Confirm your email and start to sync!"
 msgstr ""
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr ""
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
+msgid "Finish creating your account"
 msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
@@ -550,128 +550,100 @@ msgid "Verification code: %(code)s"
 msgstr ""
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
+msgid "Reminder: Finish creating your account"
 msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
+msgid "Final reminder: Activate your account"
 msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
+msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
 msgstr ""
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
 msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
 msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
+#: lib/senders/email.js:928
+msgid "Reset your password"
 msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
 msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
 msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr ""
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "အကောင့်ကို စီမံရန်"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
+#: lib/senders/email.js:1116
+msgid "Account verified"
 msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr ""
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr ""
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr ""
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr ""
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
 msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox အကောင့်များ"
 
@@ -724,10 +696,6 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr "ကိုယ်ရေးကာကွယ်မှု သတိပေးချက်"
-
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"

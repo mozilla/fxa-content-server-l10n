@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-04 08:01+0000\n"
 "PO-Revision-Date: 2019-08-20 10:02+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym roz
 msgid "Generate codes:"
 msgstr "Kody napóraś:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1079
 msgid "New sign-in to %(clientName)s"
 msgstr "Nowe pśizjawjenje pla %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Z pśijaśelnym póstrowom,"
 msgid "The Firefox Accounts team"
 msgstr "Team Firefox Accounts"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1492
 msgid "Account recovery key generated"
 msgstr "Kontowy wótnowjeński kluc jo se napórał"
 
@@ -178,7 +178,7 @@ msgstr "Sćo wuspěšnje wužył wótnowjeński kod ze slědujucego rěda:"
 msgid "Consumed recovery code"
 msgstr "Wužyty wótnowjeński kod"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1359
 msgid "New recovery codes generated"
 msgstr "Nowy wótnowjeński kod napórany"
 
@@ -186,7 +186,7 @@ msgstr "Nowy wótnowjeński kod napórany"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sćo wuspěšnje napórał nowe wótnowjeńske kody ze slědujucego rěda:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1538
 msgid "Account recovery key removed"
 msgstr "Kontowy wótnowjeński kluc jo se wótwónoźeł"
 
@@ -202,7 +202,7 @@ msgstr "Toś ten wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo kont
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Sćo wuspěšnje wótwónoźeł nowy wótnowjeński kluc za swójo konto Firefox z slědujucego rěda:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1239
 msgid "Secondary email removed"
 msgstr "Druga e-mailowa adresa jo se wótwónoźeła"
 
@@ -246,7 +246,7 @@ msgstr "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. 
 msgid "Sign in to Sync:"
 msgstr "Pla Sync pśizjawiś:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1167
 msgid "Secondary email added"
 msgstr "Druga e-mailowa adresa jo se pśidała"
 
@@ -284,7 +284,7 @@ msgstr "Musyśo swojo gronidło slědk stajiś?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klikniśo na tłocašk w běgu góźinu, aby napórał nowe gronidło. Napšašowanje pśiźo wót slědujucego rěda:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:929
 msgid "Create new password"
 msgstr "Nowe gronidło napóraś"
 
@@ -356,7 +356,7 @@ msgstr "Něnto aktiwěrowaś:"
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Aby wěstotu pówušył, wobkšuśćo pšosym toś to pśizjawjenje ze slědujucego rěda:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:681
 msgid "Confirm sign-in"
 msgstr "Pśizjawjenje wobkšuśiś"
 
@@ -530,8 +530,8 @@ msgid "%(country)s (estimated)"
 msgstr "%(country)s (licony)"
 
 #: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Wašo konto wobkšuśiś"
+msgid "Verify your account"
+msgstr "Wobkšuśćo swójo konto"
 
 #: lib/senders/email.js:429
 msgid "Activate now"
@@ -541,13 +541,13 @@ msgstr "Něnto aktiwěrowaś"
 msgid "Confirm your email and start to sync!"
 msgstr "Wobkšuśćo swóju e-mail a zachopśo synchronizěrowaś!"
 
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
+#: lib/senders/email.js:464 lib/senders/email.js:789 lib/senders/email.js:848
 msgid "Verify email"
 msgstr ""
 
 #: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Skóńcćo załožowanje swójogo konta"
+msgid "Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:473 lib/senders/email.js:572
 msgid "Confirm email"
@@ -558,128 +558,100 @@ msgid "Verification code: %(code)s"
 msgstr "Wobkšuśeński kod: %(code)s"
 
 #: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Dopomnjeśe: Registrěrowanje dokóńcyś"
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
 #: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Slědne dopomnjeśe: Aktiwěrujśo swójo konto"
+msgid "Final reminder: Activate your account"
+msgstr ""
 
 #: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Awtorizěrowański kod za %(clientName)s"
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Nowe pśizjawjenje wobkšuśiś"
+#: lib/senders/email.js:678
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Nowe pśizjawjenje pla %(clientName)s wobkšuśiś"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Pśizjawjeński kod za %(serviceName)s"
+#: lib/senders/email.js:723
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Primarnu e-maijlowu adresu wobkšuśiś"
+#: lib/senders/email.js:788
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Drugu e-mailowu adresu wobkšuśiś"
+#: lib/senders/email.js:847
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Wašo gronidło slědk stajiś"
+#: lib/senders/email.js:928
+msgid "Reset your password"
+msgstr "Stajśo swójo gronidło slědk"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Gronidło jo se změniło"
+#: lib/senders/email.js:970 lib/senders/email.js:1008
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Gronidło jo se zaktualizěrowało"
+#: lib/senders/email.js:1038
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Zawózdatna aktiwita: Slědkstajenje gronidła trěbne"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Nowe pśizjawjenje pla %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1080 lib/senders/email.js:1168 lib/senders/email.js:1204 lib/senders/email.js:1240 lib/senders/email.js:1274 lib/senders/email.js:1317 lib/senders/email.js:1360
+#: lib/senders/email.js:1403 lib/senders/email.js:1493 lib/senders/email.js:1539
 msgid "Manage account"
 msgstr "Konto zastojaś"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Konto jo wobkšuśone"
+#: lib/senders/email.js:1116
+msgid "Account verified"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Konto jo wobkšuśone"
+#: lib/senders/email.js:1121
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1125
 msgid "Connect another device"
 msgstr "Dalšny rěd zwězaś"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Druga e-mailowa adresa jo se pśidała"
+#: lib/senders/email.js:1203
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Nowa primarna e-mailowa adresa"
+#: lib/senders/email.js:1273
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Druga e-mailowa adresa jo se wótwónoźeła"
+#: lib/senders/email.js:1316
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Dwójokšacowa awtentifikacija jo se zmóžniła"
+#: lib/senders/email.js:1402
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Dwójokšacowa awtentifikacija jo se znjemóžniła"
+#: lib/senders/email.js:1455
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Nowy wótnowjeński kod napórany"
+#: lib/senders/email.js:1457
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Wótnowjeński kod se wužywa"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 wótnowjeński kod wušej"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s wótnowjeńskich kodow wušej"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1460
 msgid "Generate codes"
 msgstr "Kody napóraś"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Kontowy wótnowjeński kluc jo se napórał"
-
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Kontowy wótnowjeński kluc jo se wótwónoźeł"
+#: lib/senders/email.js:1584
+msgid "Password updated using recovery key"
+msgstr ""
 
 #: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Gronidło jo se zaktualizěrowało z pomocu wótnowjeńskego kluca"
-
-#: lib/senders/email.js:1586
 msgid "Create new recovery key"
 msgstr "Nowy wótnowjeński kluc napóraś"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Konta Firefox"
 
@@ -739,10 +711,6 @@ msgstr "Firefox Accounts pomina se JavaScript."
 msgid "Privacy Notice"
 msgstr "Powěźeńka priwatnosći"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Wužywańske wuměnjenja abonementoweje platformy"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Wužywańske wuměnenja"
@@ -767,6 +735,93 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Nejnowšu ześěgnuś"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Wašo konto wobkšuśiś"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Skóńcćo załožowanje swójogo konta"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Dopomnjeśe: Registrěrowanje dokóńcyś"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Slědne dopomnjeśe: Aktiwěrujśo swójo konto"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Awtorizěrowański kod za %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Nowe pśizjawjenje wobkšuśiś"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Pśizjawjeński kod za %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Primarnu e-maijlowu adresu wobkšuśiś"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Drugu e-mailowu adresu wobkšuśiś"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Wašo gronidło slědk stajiś"
+
+#~ msgid "Password Changed"
+#~ msgstr "Gronidło jo se změniło"
+
+#~ msgid "Password Updated"
+#~ msgstr "Gronidło jo se zaktualizěrowało"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Zawózdatna aktiwita: Slědkstajenje gronidła trěbne"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Nowe pśizjawjenje pla %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Konto jo wobkšuśone"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Konto jo wobkšuśone"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Druga e-mailowa adresa jo se pśidała"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Nowa primarna e-mailowa adresa"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Druga e-mailowa adresa jo se wótwónoźeła"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Dwójokšacowa awtentifikacija jo se zmóžniła"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Dwójokšacowa awtentifikacija jo se znjemóžniła"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Nowy wótnowjeński kod napórany"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Wótnowjeński kod se wužywa"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 wótnowjeński kod wušej"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s wótnowjeńskich kodow wušej"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Kontowy wótnowjeński kluc jo se napórał"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Kontowy wótnowjeński kluc jo se wótwónoźeł"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Gronidło jo se zaktualizěrowało z pomocu wótnowjeńskego kluca"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Wužywańske wuměnjenja abonementoweje platformy"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -844,9 +899,6 @@ msgstr "Nejnowšu ześěgnuś"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Awtorizěrowański kod konta Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Nowe pśizjawjenje pla %(clientName)s wobkšuśiś"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Pśizjawjeński kod za Firefox"
@@ -1137,12 +1189,6 @@ msgstr "Nejnowšu ześěgnuś"
 
 #~ msgid "Verify:"
 #~ msgstr "Wobkšuśiś:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Wobkšuśćo swójo konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Stajśo swójo gronidło slědk"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Wobkšuśćo swójo konto hyšći raz"
