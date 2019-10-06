@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 13:07+0000\n"
+"PO-Revision-Date: 2019-10-06 12:15+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -2259,7 +2259,7 @@ msgstr "Tute wšudźe synchronizować, hdźež so přizjewiće:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr "Sync znjemóžnić"
+msgstr "Sync zmóžnić"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -2323,7 +2323,7 @@ msgstr "Wěstoty dla &ndash; wužiwajće hesła jenož jedyn raz."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr "Waša powěsće je so na team pomocy pósłała"
+msgstr "Waša powěsć je so na team pomocy pósłała"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
