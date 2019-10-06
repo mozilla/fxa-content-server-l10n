@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-06 12:14+0000\n"
+"PO-Revision-Date: 2019-10-06 12:15+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -2323,11 +2323,11 @@ msgstr "Wěstoty dla &ndash; wužywajśo gronidła jano jaden raz."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Waša powěsć jo se pósłała na team pomocy"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Slědk k abonementam"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Spadnoeny abo njepłaśiwy registrěrowański kod"
