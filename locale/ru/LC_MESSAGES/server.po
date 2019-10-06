@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-05 13:21+0000\n"
+"PO-Revision-Date: 2019-10-05 13:22+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -435,7 +435,7 @@ msgstr "Подтвердите свой аккаунт и получите ма�
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Это письмо создано автоматически; если вы не совершали этого действия, то, пожалуйста, <a %(passwordChangeLinkAttributes)s>смените свой пароль</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -544,7 +544,7 @@ msgstr "Подтвердите ваш адрес электронной почт
 
 #: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
 msgid "Verify email"
-msgstr ""
+msgstr "Подтвердить почту"
 
 #: lib/senders/email.js:472
 msgid "Finish Creating Your Account"
