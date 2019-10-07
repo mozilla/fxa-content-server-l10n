@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-03 14:17+0000\n"
+"PO-Revision-Date: 2019-10-07 09:15+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2207,11 +2207,11 @@ msgstr "Altero"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Gratias pro attinger a supporto Mozilla re <b>%(escapedLowercaseTopic)s</b>. Nos te contingera via email al plus tosto possibile."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Gratias pro attinger a supporto Mozilla re <b>%(escapedLowercaseTopic)s</b> pro<b>%(escapedSelectedPlan)s</b>. Nos te contingera via email al plus tosto possibile."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
