@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-04 01:11+0000\n"
+"PO-Revision-Date: 2019-10-04 01:10+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -2289,7 +2289,7 @@ msgstr "Nombre del evento"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Creado el"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
@@ -2301,7 +2301,7 @@ msgstr "Regresar a los ajustes"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "¿Cuál es la razón por la que nos contactas?"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
