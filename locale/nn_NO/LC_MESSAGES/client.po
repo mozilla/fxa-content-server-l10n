@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-01 00:25+0000\n"
+"PO-Revision-Date: 2019-10-08 23:47+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -2186,7 +2186,7 @@ msgstr "Stadfest at når du slettar kontoen din:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Eventuelle abonnement du har vil bli annullerte"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -2206,11 +2206,11 @@ msgstr "Anna"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Takk for at du kontakta Mozilla Support om <b>%(escapedLowercaseTopic)s</b>. Vi kontaktar deg via e-post så snart som mogleg."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Takk for at du kontakta Mozilla Support om <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. Vi kontaktar deg via e-post så snart som mogleg."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
