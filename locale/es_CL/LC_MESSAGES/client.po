@@ -2209,11 +2209,11 @@ msgstr "Otro"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Gracias por contactar al soporte de Mozilla acerca de <b>%(escapedLowercaseTopic)s</b>. Te contactaremos a través de correo lo más pronto que podamos."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Gracias por contactar al soporte de Mozilla acerca de <b>%(escapedLowercaseTopic)s</b> para <b>%(escapedSelectedPlan)s</b>. Te contactaremos a través de correo lo más pronto que podamos."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2221,31 +2221,31 @@ msgstr "Cambiar..."
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Visto por última vez hace %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Visto por última vez hace más de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Visto por última vez hace %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Visto por última vez hace más de %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Visto por última vez hace %(translatedTimeAgo)s cerca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Visto por última vez hace más de %(translatedTimeAgo)s cerca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Visto por última vez hace caleta"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
@@ -2309,7 +2309,7 @@ msgstr "Descripción del problema"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "¿Quieres sincronizar este dispositivo con tu cuenta?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -2325,11 +2325,11 @@ msgstr "Mantenete seguro &mdash; no reutilices las contraseñas."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Tu mensaje fue enviado al equipo de soporte"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Regresar a Suscripciones"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Código de registro expirado o no válido"
