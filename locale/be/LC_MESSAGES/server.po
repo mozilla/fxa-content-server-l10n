@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-08-18 17:55+0000\n"
-"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
+"PO-Revision-Date: 2019-10-08 19:43+0000\n"
+"Last-Translator: Mikhas <meequz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "Вам трэба будзе ўвесці новы пароль на і�
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -162,8 +162,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
-"і пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
+" пацвярджэння ўваходаў."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
