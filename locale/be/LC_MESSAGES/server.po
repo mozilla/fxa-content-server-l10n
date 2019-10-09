@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-08 19:43+0000\n"
-"Last-Translator: Mikhas <meequz@gmail.com>\n"
+"PO-Revision-Date: 2019-10-09 17:58+0000\n"
+"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -360,11 +360,11 @@ msgstr "Пацвердзіць уваход"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Калі так, вось код пацвярджэння:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Тэрмін яго дзеяння скончыцца праз 5 хвілін."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -432,7 +432,7 @@ msgstr "Пацвердзіце свой уліковы запіс і атрым�
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Гэта аўтаматычны электронны ліст; калі вы не аўтарызоўвалі гэта дзеянне, <a %(passwordChangeLinkAttributes)s>калі ласка, змяніце пароль.</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -541,7 +541,7 @@ msgstr "Пацвердзіць адрас электроннай пошты і �
 
 #: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
 msgid "Verify email"
-msgstr ""
+msgstr "Пацвердзіць эл.пошту"
 
 #: lib/senders/email.js:472
 msgid "Finish Creating Your Account"
