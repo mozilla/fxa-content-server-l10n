@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-10-08 13:17+0000\n"
+"PO-Revision-Date: 2019-10-10 12:22+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -2031,7 +2031,7 @@ msgstr "SMS gelmezse uygulama mağazasında “Firefox”u arayıp yükleyebilir
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr "Bu özellikleri de deneyin:"
+msgstr "Bu özellikleri de kullanabileceksiniz:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
