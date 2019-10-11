@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-09-30 21:30+0000\n"
+"PO-Revision-Date: 2019-10-11 12:29+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -498,11 +498,11 @@ msgstr "Wobkrućenski kod: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Dopomnjeće: Skónčće załoženje swojeho konta"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Poslednje dopomnjeće: Aktiwizujće swoje konto"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
@@ -514,11 +514,11 @@ msgstr "Nowe přizjewjenje pola %(clientName)s wobkrućić"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Přizjewjenski kod za %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Primarnu e-mejlowu adresu wobkrućić"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -526,7 +526,7 @@ msgstr "E-mejlowu adresu wobkrućić"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Sekundarnu e-mejlowu adresu wobkrućić"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -534,7 +534,7 @@ msgstr "Stajće swoje hesło wróćo"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Hesło je so zaktualizowało"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
@@ -547,7 +547,7 @@ msgstr "Konto rjadować"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Konto je wobkrućene"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -555,7 +555,7 @@ msgstr "Dalši grat zwjazać"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Primarna e-mejlowa adresa je so zaktualizowała"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
@@ -567,15 +567,15 @@ msgstr ""
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Wobnowjenski kod so wužiwa"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 wobnowjenski kod wyše"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s wobnowjenskich kodow wyše"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -583,7 +583,7 @@ msgstr "Kody wutworić"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Hesło je so z pomocu wobnowjenskeho kluča zaktualizowało"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
@@ -813,8 +813,8 @@ msgstr "Najnowšu sćahnyć"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox "
-#~ "za iOS</a>."
+#~ "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za "
+#~ "iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Pola Sync přizjewić"
@@ -982,8 +982,8 @@ msgstr "Najnowšu sćahnyć"
 #~ msgstr "Hesło wróćo stajić"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Před por dnjemi sće konto Firefox załožił, ale njejsće jo ženje wobkrućił. Z wobkrućenym kontom maće přistup na swoje rajtarki, zapołožki, hesła a historiju na kóždym graće, kotryž je z nim "
 #~ "zwjazany. Wokrućće prosće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował."
@@ -1014,8 +1014,7 @@ msgstr "Najnowšu sćahnyć"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Sće %(secondaryEmail)s wuspěšnje jako sekundarnu e-mejlowu adresu swojeho konta firefox wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so hižo na tutu adresu njepósćelu."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sće swojemu kontu Firefox wuspěšnje %(secondaryEmail)s jako druhu e-mejlowu adresu wobkrućił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so nětko na wobě e-mejlowej adresy pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1100,8 +1099,8 @@ msgstr "Najnowšu sćahnyć"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju "
-#~ "Firefox mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
+#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju Firefox "
+#~ "mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
 
 #~ msgid "env"
 #~ msgstr "env"
