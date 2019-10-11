@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-01 02:11+0000\n"
+"PO-Revision-Date: 2019-10-11 10:48+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -481,7 +481,7 @@ msgstr "%(country)s（估计）"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "账户创建完成"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -493,15 +493,15 @@ msgstr "验证码：%(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "提醒: 请完成账户创建"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "最后一次提醒：请激活您的账户"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "账户授权码"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -509,11 +509,11 @@ msgstr "确认新的 %(clientName)s 登录活动"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s 的登录码"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "确认主邮箱"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -521,7 +521,7 @@ msgstr "验证邮箱"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "确认次要邮件地址"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -529,11 +529,11 @@ msgstr "重置密码"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "密码已更新"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "检测到可疑活动"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -542,7 +542,7 @@ msgstr "管理账号"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "账户已确认"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -550,27 +550,27 @@ msgstr "把其他设备也绑定上吧"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "主邮箱已更新"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "已启用两步验证"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "已关闭两步验证"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "已使用救援码"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "剩余 1 组救援码"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "剩余 %(numberRemaining)s 组救援码"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -578,7 +578,7 @@ msgstr "生成救援码"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "已使用救援码更新密码"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
@@ -970,8 +970,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -998,8 +998,7 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1083,9 +1082,7 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
-#~ "电子邮件地址，以激活您的账号。"
+#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"
