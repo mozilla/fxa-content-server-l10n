@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-10-08 13:20+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın 
 msgid "Generate codes:"
 msgstr "Kodları oluştur:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişi"
 
@@ -118,7 +118,7 @@ msgstr "Sevgiler,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Hesapları Ekibi"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "Hesap kurtarma anahtarı oluşturuldu"
 
@@ -178,7 +178,7 @@ msgstr "Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:"
 msgid "Consumed recovery code"
 msgstr "Kullanılan kurtarma kodu"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları üretildi"
 
@@ -186,7 +186,7 @@ msgstr "Yeni kurtarma kodları üretildi"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "Hesap kurtarma anahtarı silindi"
 
@@ -202,7 +202,7 @@ msgstr "Bu kurtarma anahtarı artık hesabınızı kurtarmak için kullanılamaz
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için bir hesap kurtarma anahtarını başarıyla sildiniz:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "İkinci e-posta silindi"
 
@@ -226,54 +226,33 @@ msgstr "Artık her girişte güvenlik kodları sorulmayacaktır."
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Firefox Hesabınızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "Hesap doğrulandı!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Firefox ailesine hoş geldiniz"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan Snc’e"
-" giriş yapabilirsiniz."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "Giriş yaptınız ve internette güvenle gezinmeye hazırsınız."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş yapabilirsiniz."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "Şimdi internete bağlandığınız her cihazdan giriş yaparak Firefox’tan en iyi şekilde yararlanın."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Eşitlemek için giriş yapın:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "Başka bir cihaz bağla:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "Sorularınız mı var? %(supportUrl)s adresini ziyaret edin"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "İkinci e-posta eklendi"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "%(secondaryEmail)s adresini Firefox Hesabınızın ikinci e-postası olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki adresinize de gönderilecektir."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Firefox ailesine hoş geldiniz"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Giriş yaptınız ve internette güvenle gezinmeye hazırsınız."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Şimdi internete bağlandığınız her cihazdan giriş yaparak Firefox’tan en iyi şekilde yararlanın."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "Başka bir cihaz bağla:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Sorularınız mı var? %(supportUrl)s adresini ziyaret edin"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -283,7 +262,7 @@ msgstr "Parolanızı sıfırlamanız mı gerekiyor?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "Yeni parola oluştur"
 
@@ -315,7 +294,7 @@ msgstr "Birkaç gün önce bir Firefox hesabı açtınız ama hesabınız onayla
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Hesabınızı şimdi doğrulayın; gizliliğiniz için mücadele eden, sizi pratik bilgilerle donatan ve size hak ettiğiniz saygıyı gösteren teknolojiye kavuşun."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "E-postanızı doğrulayın:"
 
@@ -332,30 +311,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "Her şey yolundaysa hesabınızı etkinleştirmek için bu e-posta adresini onaylayın."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "%(serviceName)s servisine hoş geldiniz!"
+msgid "Activate the Firefox family of products"
+msgstr "Firefox ürün ailesini etkinleştirin"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "Hoş geldiniz!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın. İlk olarak…"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Firefox Hesabınızı etkinleştirmek ve %(serviceName)s servisine devam etmek için bu e-posta adresini onaylayın."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Firefox Hesabınızı etkinleştirmek için bu e-posta adresini onaylayın."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "Şimdi etkinleştir:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan giriş yaptığınızı onaylayın:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "Girişi onayla"
 
@@ -363,7 +334,7 @@ msgstr "Girişi onayla"
 msgid "If yes, here is the verification code:"
 msgstr "Doğrulama kodunuz:"
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr "Kodun geçerlilik süresi 5 dakikadır."
 
@@ -403,10 +374,6 @@ msgstr "Kaydolan siz misiniz?"
 msgid "If yes, use this verification code:"
 msgstr "Sizseniz şu doğrulama kodunu kullanın:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "Geçerlilik süresi 20 dakikadır."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "Rahat, hazır ol, eşitle"
@@ -418,18 +385,6 @@ msgstr "Bu e-postayı aldığınızı onayladıktan sonra tüm cihazlarınıza F
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize ve hesabınıza bağlamanıza yardım edeceğiz."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Firefox ürün ailesini etkinleştirin"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın. İlk olarak…"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -504,181 +459,137 @@ msgstr "Aboneliği iptal et:"
 msgid "Update billing information:"
 msgstr "Fatura bilgilerini güncelle:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Hesabınızı doğrulayın"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "Şimdi etkinleştir"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
-msgstr "E-postayı doğrula"
-
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Hesabınızı oluşturmayı tamamlayın"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "E-postanızı doğrulayın"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "Doğrulama kodu: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Hatırlatma: Kaydınızı tamamlayın"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "%(clientName)s yetki kodu"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Yeni girişi onaylayın"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Yeni %(clientName)s girişini onaylayın"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "%(serviceName)s giriş kodu"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Ana e-posta adresini doğrula"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "İkinci e-postayı doğrula"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr "E-postayı doğrula"
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Parolayı sıfırla"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Parola değiştirildi"
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr "Parolanızı sıfırlayın"
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Parola güncellendi"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Şüpheli etkinlik: Parolanızı sıfırlamalısınız"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Yeni %(clientName)s girişi"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "Hesabı yönet"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Hesap doğrulandı"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Hesap onaylandı"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "Başka bir cihaz bağla"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "İkinci e-posta eklendi"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Yeni ana e-posta"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "İkinci e-posta silindi"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "İki aşamalı kimlik doğrulama kapatıldı"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Yeni kurtarma kodları üretildi"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Kullanılan kurtarma kodu"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 kurtarma kodu kaldı"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s kurtarma kodu kaldı"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "Kodları oluştur"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Hesap kurtarma anahtarı oluşturuldu"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Hesap kurtarma anahtarı silindi"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "Yeni kurtarma anahtarı oluştur"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
@@ -738,10 +649,6 @@ msgstr "Firefox Hesapları’nı kullanmak için JavaScript açık olmalıdır."
 msgid "Privacy Notice"
 msgstr "Gizlilik Bildirimi"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Abonelik Platformu Hizmet Koşulları"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
@@ -765,6 +672,133 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Son sürümü indir"
+
+#~ msgid "Account verified!"
+#~ msgstr "Hesap doğrulandı!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
+#~ "Snc’e giriş yapabilirsiniz."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş yapabilirsiniz."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Eşitlemek için giriş yapın:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "%(serviceName)s servisine hoş geldiniz!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Hoş geldiniz!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Firefox Hesabınızı etkinleştirmek ve %(serviceName)s servisine devam etmek için bu e-posta adresini onaylayın."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Firefox Hesabınızı etkinleştirmek için bu e-posta adresini onaylayın."
+
+#~ msgid "Activate now:"
+#~ msgstr "Şimdi etkinleştir:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Geçerlilik süresi 20 dakikadır."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Hesabınızı doğrulayın"
+
+#~ msgid "Activate now"
+#~ msgstr "Şimdi etkinleştir"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Hatırlatma: Kaydınızı tamamlayın"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "%(clientName)s yetki kodu"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Yeni girişi onaylayın"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "%(serviceName)s giriş kodu"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Ana e-posta adresini doğrula"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "İkinci e-postayı doğrula"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Parolayı sıfırla"
+
+#~ msgid "Password Changed"
+#~ msgstr "Parola değiştirildi"
+
+#~ msgid "Password Updated"
+#~ msgstr "Parola güncellendi"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Şüpheli etkinlik: Parolanızı sıfırlamalısınız"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişi"
+
+#~ msgid "Account Verified"
+#~ msgstr "Hesap doğrulandı"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Hesap onaylandı"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "İkinci e-posta eklendi"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Yeni ana e-posta"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "İkinci e-posta silindi"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "İki aşamalı kimlik doğrulama kapatıldı"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Yeni kurtarma kodları üretildi"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Kullanılan kurtarma kodu"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 kurtarma kodu kaldı"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s kurtarma kodu kaldı"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Hesap kurtarma anahtarı oluşturuldu"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Hesap kurtarma anahtarı silindi"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Abonelik Platformu Hizmet Koşulları"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -842,9 +876,6 @@ msgstr "Son sürümü indir"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox Hesabı yetkilendirme kodu"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Yeni %(clientName)s girişini onaylayın"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Firefox giriş kodu"
@@ -949,8 +980,8 @@ msgstr "Son sürümü indir"
 #~ msgstr "Parolanızı sıfırlayın"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
 #~ "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
@@ -979,7 +1010,8 @@ msgstr "Son sürümü indir"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızdan ikinci e-posta olarak kaldırdınız. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s adresinizi Firefox Hesabınızın ikinci e-posta adresi olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki e-posta adresine birden gönderilecektir."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1138,9 +1170,6 @@ msgstr "Son sürümü indir"
 
 #~ msgid "Verify your account"
 #~ msgstr "Hesabınızı doğrulayın"
-
-#~ msgid "Reset your password"
-#~ msgstr "Parolanızı sıfırlayın"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Hesabınızı yeniden doğrulayın"

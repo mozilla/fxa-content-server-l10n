@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-09-30 21:30+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Smy zwěsćili, zo mało wobnowjenskich kodow wužiwaće. Prošu rozwaž
 msgid "Generate codes:"
 msgstr "Kody wutworić:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "Nowe přizjewjenje pola %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Z přećelnym postrowom,"
 msgid "The Firefox Accounts team"
 msgstr "Team Firefox Accounts"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "Kontowy wobnowjenski kluč je so wutworił"
 
@@ -178,7 +178,7 @@ msgstr "Sće wobnowjenski kod ze slědowaceho grata wuspěšnje wužił:"
 msgid "Consumed recovery code"
 msgstr "Wužity wobnowjenski kod"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "Nowy wobnowjenski kod wutworjeny"
 
@@ -186,7 +186,7 @@ msgstr "Nowy wobnowjenski kod wutworjeny"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sće nowe wobnowjenske kody ze slědowaceho grata wuspěšnje wutworił:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "Kontowy wobnowjenski kluč je so wotstronił"
 
@@ -202,7 +202,7 @@ msgstr "Tutón wobnowjenski kluč njeda so hižo wužiwać, zo by waše konto wo
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Sće wuspěšnje nowy wobnowjenski kluč za swoje konto Firefox ze slědowaceho grata wotstronił:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "Sekundarna e-mejlowa adresa wotstronjena"
 
@@ -226,27 +226,27 @@ msgstr "Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejs
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Sće dwukročelowu awtentifikaciju na swojim konće Firefox wuspěšnje znjemóžnił. Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "Konto je so wobkrućiło!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Witajće k swójbje Firefox"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"Sće swój prěni grat wuspěšnje z kontom Firefox zwjazał. Nětko móžeće so wot swojich druhich gratow pola Sync přizjewić, inkluziwnje Firefox za <a %(androidLinkAttributes)s>Android</a> a <a "
-"%(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "Sće přizjewjeny a hotowy, wěsće a škitane wuslědźić."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće so pola Sync ze swojich druhich gratow přizjewić, inkluziwnje Firefox za Android a iOS."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "Přizjewće so wšudźe, hdźež přehladujeće, zo byšće najlěpše z Firefox wućahnył."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Pola Sync přizjewić:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "Z druhim gratom zwjazać:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "Maće prašenja? Wopytajće %(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "Druha e-mejlowa adresa je so přidała"
 
@@ -254,27 +254,6 @@ msgstr "Druha e-mejlowa adresa je so přidała"
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
 "Sće %(secondaryEmail)s wuspěšnje jako sekundarnu e-mejlowu adresu za swoje konto Firefox wobkrućił. Wěstotne zdźělenki a přizjewjenske wobkrućenja budu so nětko na wobě e-mejlowej adresy słać."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Witajće k swójbje Firefox"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Sće přizjewjeny a hotowy, wěsće a škitane wuslědźić."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Přizjewće so wšudźe, hdźež přehladujeće, zo byšće najlěpše z Firefox wućahnył."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "Z druhim gratom zwjazać:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Maće prašenja? Wopytajće %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -284,7 +263,7 @@ msgstr "Dyrbiće swoje hesło wróćo stajić?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klikńće na tłóčatko wob hodźinu, zo byšće nowe hesło wutworił. Naprašowanje přińdźe wot slědowaceho grata:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "Nowe hesło wutworić"
 
@@ -316,7 +295,7 @@ msgstr "Před někotrymi dnjemi sće konto Firefox załožił, ale nichtó njeje
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Wobkrućće nětko a wobstarajće sej technologiju, kotraž za wašu priwatnosć wojuje a ju škita, was z praktiskej wědu a respekt wuhotuje, kotryž sej zasłuži."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "E-mejlowu adresu wobkrućić:"
 
@@ -333,30 +312,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, zo wam derje dźe."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "Witjaće k %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "Swójbu produktow Firefox aktiwizować"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "Witajće!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hdźež so přizjewjeće, započinajo z:"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto Firefox aktiwizował a dźiće dale k %(serviceName)s."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto Firefox aktiwizował."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "Nětko aktiwizować:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hdźež so přizjewjeće."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Zo byšće wěstotu powyšił, wobkrućće prošu tute přizjewjenje ze slědowaceho grata:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "Přizjewjenje wobkrućić"
 
@@ -364,7 +335,7 @@ msgstr "Přizjewjenje wobkrućić"
 msgid "If yes, here is the verification code:"
 msgstr "Jeli haj, tu je wobkrućenski kod:"
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr "Spadnje za 5 mjeńšin."
 
@@ -404,10 +375,6 @@ msgstr "Registrujeće wy?"
 msgid "If yes, use this verification code:"
 msgstr "Jeli haj, wužiwajće tutón wobkrućenski kod:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "Spadnje za 20 mjeńšin."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "Hotowo, nastajić, synchronizować"
@@ -419,18 +386,6 @@ msgstr "Wobkrućće, zo sće tutu e-mejlku dóstał a budźemy wam pomhać, Fire
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Hdyž je wobkrućena, budźemy wam pomhać, Firefox na znajmjeńša jednym druhim graće instalować a zwjazać."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Swójbu produktow Firefox aktiwizować"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hdźež so přizjewjeće, započinajo z:"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Wobkrućće swoje konto a wućehńće najlěpše z Firefox, wšudźe, hdźež so přizjewjeće."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -505,181 +460,137 @@ msgstr "Abonement wupowědźić:"
 msgid "Update billing information:"
 msgstr "Płaćenske informacije aktualizować:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (trochowane)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (trochowane)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (trochowane)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (trochowany)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Waše konto wobkrućić"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "Nětko aktiwizować"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "Wobkrućće swoju e-mejl a započńće synchronizować!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
-msgstr "E-mejlowu adresu wobkrućić"
-
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Skónčće załoženje swojeho konta"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "E-mejlowu adresu wobkrućić"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "Wobkrućenski kod: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Dopomnjeće: Registrowanje dokónčić"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Poslednje dopomnjeće: Aktiwizujće swoje konto"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Awtorizowanski kod za %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Nowe přizjewjenje wobkrućić"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Nowe přizjewjenje pola %(clientName)s wobkrućić"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Přizjewjenski kod za %(serviceName)s"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Primarnu e-mejlowu adresu přepruwować"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Druhu e-mejlowu adresu wobkrućić"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr "E-mejlowu adresu wobkrućić"
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Waše hesło wróćo stajić"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Hesło je so změniło"
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr "Stajće swoje hesło wróćo"
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Hesło je so zaktualizowało"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Podhladna aktiwita: Wróćostajenje hesła trěbne"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Nowe přizjewjenje pola %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "Konto rjadować"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Konto je přepruwowane"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Konto je wobkrućene"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "Dalši grat zwjazać"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Druha e-mejlowa adresa je so přidała"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Nowa primarna e-mejlowa adresa"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Druha e-mejlowa adresa je so wotstroniła"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Dwukročelowa awtentifikacija je zmóžnjena"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Dwukročelowa awtentifikacija je znjemóžnjena"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Nowy wobnowjenski kod je wutworjeny"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Wobnowjenski kod so wužiwa"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 wobnowjenski kod wyše"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s wobnowjenskich kodow wyše"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "Kody wutworić"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Kontowy wobnowjenski kluč je so wutworił"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Kontowy wobnowjenski kluč je so wotstronił"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Hesło je so z pomocu wobnowjenskeho kluča zaktualizowało"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "Nowy wobnowjenski kluč wutworić"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -739,10 +650,6 @@ msgstr "Firefox Accounts wužaduje sej JavaScript."
 msgid "Privacy Notice"
 msgstr "Zdźělenka priwatnosće"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Wužiwanske wuměnjenja abonementoweje platformy"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnenja"
@@ -768,6 +675,133 @@ msgstr ""
 msgid "Download latest"
 msgstr "Najnowšu sćahnyć"
 
+#~ msgid "Account verified!"
+#~ msgstr "Konto je so wobkrućiło!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Sće swój prěni grat wuspěšnje z kontom Firefox zwjazał. Nětko móžeće so wot swojich druhich gratow pola Sync přizjewić, inkluziwnje Firefox za <a %(androidLinkAttributes)s>Android</a> a <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće so pola Sync ze swojich druhich gratow přizjewić, inkluziwnje Firefox za Android a iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Pola Sync přizjewić:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Witjaće k %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Witajće!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto Firefox aktiwizował a dźiće dale k %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto Firefox aktiwizował."
+
+#~ msgid "Activate now:"
+#~ msgstr "Nětko aktiwizować:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Spadnje za 20 mjeńšin."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Waše konto wobkrućić"
+
+#~ msgid "Activate now"
+#~ msgstr "Nětko aktiwizować"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Wobkrućće swoju e-mejl a započńće synchronizować!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Skónčće załoženje swojeho konta"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Dopomnjeće: Registrowanje dokónčić"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Poslednje dopomnjeće: Aktiwizujće swoje konto"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Awtorizowanski kod za %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Nowe přizjewjenje wobkrućić"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Přizjewjenski kod za %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Primarnu e-mejlowu adresu přepruwować"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Druhu e-mejlowu adresu wobkrućić"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Waše hesło wróćo stajić"
+
+#~ msgid "Password Changed"
+#~ msgstr "Hesło je so změniło"
+
+#~ msgid "Password Updated"
+#~ msgstr "Hesło je so zaktualizowało"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Podhladna aktiwita: Wróćostajenje hesła trěbne"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Nowe přizjewjenje pola %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Konto je přepruwowane"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Konto je wobkrućene"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Druha e-mejlowa adresa je so přidała"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Nowa primarna e-mejlowa adresa"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Druha e-mejlowa adresa je so wotstroniła"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Dwukročelowa awtentifikacija je zmóžnjena"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Dwukročelowa awtentifikacija je znjemóžnjena"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Nowy wobnowjenski kod je wutworjeny"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Wobnowjenski kod so wužiwa"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 wobnowjenski kod wyše"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s wobnowjenskich kodow wyše"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Kontowy wobnowjenski kluč je so wutworił"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Kontowy wobnowjenski kluč je so wotstronił"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Hesło je so z pomocu wobnowjenskeho kluča zaktualizowało"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Wužiwanske wuměnjenja abonementoweje platformy"
+
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
@@ -779,8 +813,8 @@ msgstr "Najnowšu sćahnyć"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za "
-#~ "iOS</a>."
+#~ "Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox "
+#~ "za iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Pola Sync přizjewić"
@@ -844,9 +878,6 @@ msgstr "Najnowšu sćahnyć"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Awtorizowanski kod konta Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Nowe přizjewjenje pola %(clientName)s wobkrućić"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Přizjewjenski kod za Firefox"
@@ -951,8 +982,8 @@ msgstr "Najnowšu sćahnyć"
 #~ msgstr "Hesło wróćo stajić"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Před por dnjemi sće konto Firefox załožił, ale njejsće jo ženje wobkrućił. Z wobkrućenym kontom maće přistup na swoje rajtarki, zapołožki, hesła a historiju na kóždym graće, kotryž je z nim "
 #~ "zwjazany. Wokrućće prosće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował."
@@ -983,7 +1014,8 @@ msgstr "Najnowšu sćahnyć"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Sće %(secondaryEmail)s wuspěšnje jako sekundarnu e-mejlowu adresu swojeho konta firefox wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so hižo na tutu adresu njepósćelu."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sće swojemu kontu Firefox wuspěšnje %(secondaryEmail)s jako druhu e-mejlowu adresu wobkrućił. Wěstotne zdźělenki a přizjewjenske wobkrućenja so nětko na wobě e-mejlowej adresy pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1068,8 +1100,8 @@ msgstr "Najnowšu sćahnyć"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju Firefox "
-#~ "mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
+#~ "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžeće swoje hesła, zapołožki a historiju "
+#~ "Firefox mjez nimi wšěmi synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1142,9 +1174,6 @@ msgstr "Najnowšu sćahnyć"
 
 #~ msgid "Verify your account"
 #~ msgstr "Wobkrućće swoje konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Stajće swoje hesło wróćo"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Wobkrućće swoje konto hišće raz"

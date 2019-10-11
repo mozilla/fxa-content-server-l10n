@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-05-10 16:24+0000\n"
 "Last-Translator: Kiran Johns <kiranjohns101@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "നിങ്ങളുടെ കൈയ്യില്‍ ഇനി വീ
 msgid "Generate codes:"
 msgstr "കോഡുകൾ ജനറേറ്റുചെയ്യുക:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s ലേയ്ക്കുള്ള പുതിയ പ്രവേശനം"
 
@@ -115,7 +115,7 @@ msgstr "സ്നേഹപൂര്‍വ്വം,"
 msgid "The Firefox Accounts team"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ടീം"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു"
 
@@ -173,7 +173,7 @@ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ ന�
 msgid "Consumed recovery code"
 msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു"
 
@@ -181,7 +181,7 @@ msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃ
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നും നിങ്ങൾ വിജയകരമായി പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ നീക്കം ചെയ്തിരിക്കുന്നു"
 
@@ -197,7 +197,7 @@ msgstr "നിങ്ങളുടെ വീണ്ടെടുക്കൽ കീ 
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ടിന്റെ ഒരു വീണ്ടെടുക്കൽ കീ വിജയകരമായി നീക്കംചെയ്തു:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു"
 
@@ -221,51 +221,32 @@ msgstr "ഓരോ പ്രവേശനത്തിലും ഇനി സുര
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം അപ്രാപ്തമാക്കി. ഓരോ പ്രവേശനത്തിലും ഇനി സുരക്ഷാ കോഡുകളുടെ ആവശ്യമില്ല."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു!"
-
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക:"
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr ""
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr ""
+
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr ""
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "ദ്വിതീയ ഇമെയിൽ ചേർത്തു"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
 msgstr ""
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
@@ -276,7 +257,7 @@ msgstr "നിങ്ങളുടെ രഹസ്യവാക്ക് പുന�
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "ഒരു പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുന്നതിനായി അടുത്ത മണിക്കൂറിനുള്ളിൽ ബട്ടണിൽ ക്ലിക്കുചെയ്യുക. ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നാണ് അഭ്യർത്ഥന വന്നത്:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "പുതിയ രഹസ്യവാക്ക് ശ്രഷ്ടിക്കുക"
 
@@ -308,7 +289,7 @@ msgstr ""
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr ""
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക:"
 
@@ -325,30 +306,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "%(serviceName)s ലേക്ക് സ്വാഗതം!"
+msgid "Activate the Firefox family of products"
+msgstr ""
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "സ്വാഗതം!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr ""
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കുന്നതിനും %(serviceName)sകൾ തുടരുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് സജീവമാക്കുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "ഇപ്പോൾ സജീവമാക്കുക:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr ""
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "അധിക സുരക്ഷക്കായി, ദയവായി ഈ ഉപകരണത്തിൽ നിന്നുള്ള പ്രവേശനം സ്ഥിരീകരിക്കുക:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
@@ -356,7 +329,7 @@ msgstr "പ്രവേശനം സ്ഥിരീകരിക്കുക"
 msgid "If yes, here is the verification code:"
 msgstr ""
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr ""
 
@@ -396,10 +369,6 @@ msgstr ""
 msgid "If yes, use this verification code:"
 msgstr ""
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr ""
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "റെഡി, സെറ്റ്, സമന്വയിപ്പിക്കുക"
@@ -410,18 +379,6 @@ msgstr "നിങ്ങൾക്ക് ഈ ഇമെയിൽ ലഭിച്ച
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr ""
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
@@ -497,181 +454,137 @@ msgstr ""
 msgid "Update billing information:"
 msgstr ""
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s-ന്റെ മേൽ %(uaBrowser)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s-ന്റെ മേൽ %(uaBrowser)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (കണക്കാക്കിയത്)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "ഇപ്പോൾ സജീവമാക്കുക"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
-msgstr ""
-
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr ""
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr ""
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
 msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "%(clientName)s ലേക്കുള്ള പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
+
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
 msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
 msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
 msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
+#: lib/senders/email.js:906
+msgid "Reset your password"
 msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
 msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
 msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr ""
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr ""
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr ""
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "മറ്റൊരു ഉപകരണം കണക്റ്റു ചെയ്യുക"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr ""
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr ""
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "കോഡുകൾ ജനറേറ്റ് ചെയ്യുക"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr ""
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr ""
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ടുകള്‍"
 
@@ -725,10 +638,6 @@ msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾക്�
 msgid "Privacy Notice"
 msgstr "സ്വകാര്യതാ അറിയിപ്പ്"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "സേവന നിബന്ധനകൾ"
@@ -748,6 +657,33 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "പരിഷ്കരണം ഡൌണ്‍ലോഡ് ചെയ്യൂ"
+
+#~ msgid "Account verified!"
+#~ msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു!"
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "%(serviceName)s ലേക്ക് സ്വാഗതം!"
+
+#~ msgid "Welcome!"
+#~ msgstr "സ്വാഗതം!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കുന്നതിനും %(serviceName)sകൾ തുടരുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് സജീവമാക്കുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
+
+#~ msgid "Activate now:"
+#~ msgstr "ഇപ്പോൾ സജീവമാക്കുക:"
+
+#~ msgid "Activate now"
+#~ msgstr "ഇപ്പോൾ സജീവമാക്കുക"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -792,9 +728,6 @@ msgstr "പരിഷ്കരണം ഡൌണ്‍ലോഡ് ചെയ്യ�
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീകാര കോഡ്"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "%(clientName)s ലേക്കുള്ള പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "ഫയര്‍ഫോക്സിലേക്കുള്ള പ്രവേശന കോഡ്"

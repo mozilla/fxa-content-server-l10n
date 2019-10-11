@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-10-01 18:42+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "שמנו לב שמפתחות השחזור שלך הולכים ואוזל
 msgid "Generate codes:"
 msgstr "יצירת קודים:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "כניסה חדשה ל־%(clientName)s"
 
@@ -116,7 +116,7 @@ msgstr "בברכה,"
 msgid "The Firefox Accounts team"
 msgstr "צוות Firefox Accounts"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "נוצר מפתח לשחזור החשבון"
 
@@ -174,7 +174,7 @@ msgstr "השתמשת בהצלחה בקוד שחזור מהמכשיר הבא:"
 msgid "Consumed recovery code"
 msgstr "קוד שחזור הופעל"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "נוצרו קודים חדשים לשחזור"
 
@@ -182,7 +182,7 @@ msgstr "נוצרו קודים חדשים לשחזור"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "ייצרת בהצלחה קודים חדשים לשחזור מההתקן הבא:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "מפתח לשחזור החשבון הוסר"
 
@@ -198,7 +198,7 @@ msgstr "לא ניתן יותר להשתמש במפתח שחזור זה כדי ל
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "הסרת בהצלחה מפתח לשחזור חשבון ה־Firefox שלך מהמכשיר הבא:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "כתובת דוא״ל משנית הוסרה"
 
@@ -222,53 +222,33 @@ msgstr "לא תופיע דרישה לקודים של אבטחה עם כל כני
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "ניטרלת בהצלחה את האימות הדו־שלבי בחשבון ה־Firefox שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "החשבון אומת!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "ברוכים הבאים למשפחת Firefox"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
 msgstr ""
-"חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור <a %(androidLinkAttributes)s>Android</a> ו־<a %(iosLinkAttributes)s>iOS</a>."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור Android ו־iOS."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "התחברות אל Sync:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "חיבור מכשיר נוסף:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "יש לך שאלות? ניתן לבקר ב־%(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "נוספה כתובת דוא״ל משנית"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "אימתת בהצלחה את %(secondaryEmail)s ככתובת הדוא״ל המשנית עבור חשבון ה־Firefox שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "ברוכים הבאים למשפחת Firefox"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "חיבור מכשיר נוסף:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "יש לך שאלות? ניתן לבקר ב־%(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -278,7 +258,7 @@ msgstr "עליך לאפס את ססמתך?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "יש ללחוץ על הכפתור בשעה הקרובה כדי ליצור ססמה חדשה. הבקשה הגיעה מהמכשיר הבא:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "יצירת ססמה חדשה"
 
@@ -310,7 +290,7 @@ msgstr ""
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr ""
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr ""
 
@@ -327,30 +307,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "ברוכים הבאים אל %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "הפעלת משפחת המוצרים של Firefox"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "ברוכים הבאים!"
-
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
 msgstr ""
 
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "הפעלה כעת:"
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "לשיפור האבטחה, נא לאשר את הכניסה מהמכשיר הבא:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "אישור התחברות"
 
@@ -358,7 +330,7 @@ msgstr "אישור התחברות"
 msgid "If yes, here is the verification code:"
 msgstr ""
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr ""
 
@@ -398,10 +370,6 @@ msgstr ""
 msgid "If yes, use this verification code:"
 msgstr ""
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr ""
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "למקומות, הכן, סנכרן!"
@@ -413,18 +381,6 @@ msgstr "נא לאשר שקיבלת את ההודעה הזו בדוא״ל ואנ�
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "ברגע שיאושר, נעזור לך להתקין ולחבר את Firefox על התקן אחד נוסף או יותר."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "הפעלת משפחת המוצרים של Firefox"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -499,181 +455,137 @@ msgstr ""
 msgid "Update billing information:"
 msgstr "עדכון פרטי החיוב:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s על %(uaOS)s ‏%(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s על %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (מוערך)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (מוערך)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (מוערך)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (מוערך)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "אימות החשבון שלך"
-
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "הפעלה כעת"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "אימות כתובת הדוא״ל והתחלה בסנכרון!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "סיום יצירת החשבון שלך"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr ""
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "קוד אימות: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "תזכורת: השלמת ההרשמה"
-
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "תזכורת אחרונה: הפעלת החשבון שלך"
-
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "קוד הרשאה עבור %(clientName)s"
-
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
 msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "אימות כתובת דוא״ל ראשית"
-
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "אימות כתובת דוא״ל משנית"
-
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "איפוס הססמה שלך"
-
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "הססמה שונתה"
-
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "הססמה עודכנה"
-
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "פעילות חשודה: נדרש איפוס ססמה"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "אישור כניסה חדשה אל %(clientName)s"
+
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
+
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
+
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr ""
+
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
+
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr "איפוס ססמה"
+
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
+
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
+
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "ניהול חשבון"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr ""
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "חיבור מכשיר אחר"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "נוספה כתובת דוא״ל משנית"
-
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "כתובת דוא״ל ראשית חדשה"
-
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "כתובת הדוא״ל המשנית הוסרה"
-
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "אימות דו־שלבי הופעל"
-
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "אימות דו־שלבי הושבת"
-
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "נוצרו קודים חדשים לשחזור"
-
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "נותר קוד אחד לשחזור"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "נותרו %(numberRemaining)s קודים לשחזור"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
+
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
+
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
+
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "יצירת קודים"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "נוצר מפתח לשחזור החשבון"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "מפתח לשחזור החשבון הוסר"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "הססמה עודכנה באמצעות מפתח השחזור"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "יצירת מפתח שחזור חדש"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -731,10 +643,6 @@ msgstr "Firefox Accounts דורש JavaScript."
 msgid "Privacy Notice"
 msgstr "הצהרת פרטיות"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "תנאי שירות"
@@ -755,6 +663,102 @@ msgstr ""
 msgid "Download latest"
 msgstr "הורדת העדכני ביותר"
 
+#~ msgid "Account verified!"
+#~ msgstr "החשבון אומת!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור <a %(androidLinkAttributes)s>Android</a> ו־<a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כעת ניתן להתחבר אל Sync משאר המכשירים שלך, לרבות Firefox עבור Android ו־iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "התחברות אל Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "ברוכים הבאים אל %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "ברוכים הבאים!"
+
+#~ msgid "Activate now:"
+#~ msgstr "הפעלה כעת:"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "אימות החשבון שלך"
+
+#~ msgid "Activate now"
+#~ msgstr "הפעלה כעת"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "אימות כתובת הדוא״ל והתחלה בסנכרון!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "סיום יצירת החשבון שלך"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "תזכורת: השלמת ההרשמה"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "תזכורת אחרונה: הפעלת החשבון שלך"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "קוד הרשאה עבור %(clientName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "אימות כתובת דוא״ל ראשית"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "אימות כתובת דוא״ל משנית"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "איפוס הססמה שלך"
+
+#~ msgid "Password Changed"
+#~ msgstr "הססמה שונתה"
+
+#~ msgid "Password Updated"
+#~ msgstr "הססמה עודכנה"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "פעילות חשודה: נדרש איפוס ססמה"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "נוספה כתובת דוא״ל משנית"
+
+#~ msgid "New Primary Email"
+#~ msgstr "כתובת דוא״ל ראשית חדשה"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "כתובת הדוא״ל המשנית הוסרה"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "אימות דו־שלבי הופעל"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "אימות דו־שלבי הושבת"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "נוצרו קודים חדשים לשחזור"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "נותר קוד אחד לשחזור"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "נותרו %(numberRemaining)s קודים לשחזור"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "נוצר מפתח לשחזור החשבון"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "מפתח לשחזור החשבון הוסר"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "הססמה עודכנה באמצעות מפתח השחזור"
+
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
@@ -763,7 +767,8 @@ msgstr "הורדת העדכני ביותר"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כדי להפיק את המיטב מ־Sync, כדאי לחבר כל <a href='%(androidUrl)s'>Firefox עבור Android</a> או <a href='%(iosUrl)s'>Firefox עבור iOS</a>."
+#~ msgstr ""
+#~ "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כדי להפיק את המיטב מ־Sync, כדאי לחבר כל <a href='%(androidUrl)s'>Firefox עבור Android</a> או <a href='%(iosUrl)s'>Firefox עבור iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "התחברות ל־Sync"
@@ -800,9 +805,6 @@ msgstr "הורדת העדכני ביותר"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "קוד הרשאה ל־Firefox Account"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "אישור כניסה חדשה אל %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "קוד התחברות עבור Firefox"
@@ -880,14 +882,15 @@ msgstr "הורדת העדכני ביותר"
 #~ msgstr "איפוס ססמה"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "לפני מספר ימים יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו. חשבון מאומת מאפשר גישה ללשוניות, סימניות, ססמאות ולהיסטוריה שלך מכל התקן המחובר אליו. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני"
-#~ " שלך כדי להפעיל את החשבון."
+#~ "לפני מספר ימים יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו. חשבון מאומת מאפשר גישה ללשוניות, סימניות, ססמאות ולהיסטוריה שלך מכל התקן המחובר אליו. כל שעליך לעשות זה לאמת את כתובת הדואר "
+#~ "האלקטרוני שלך כדי להפעיל את החשבון."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "לפני כשבוע יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו.  אנחנו מודאגים לגביך. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני שלך כדי להפעיל את החשבון, כדי שנדע שהכול מתפקד כשורה אצלך."
+#~ msgstr ""
+#~ "לפני כשבוע יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו.  אנחנו מודאגים לגביך. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני שלך כדי להפעיל את החשבון, כדי שנדע שהכול מתפקד כשורה אצלך."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם התקן זה:"
@@ -904,7 +907,8 @@ msgstr "הורדת העדכני ביותר"
 #~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "זוהי הודעת דוא״ל אוטומטית, אם קיבלת אותה בטעות ולא אישרת את הפעולה הזאת עדיף <a %(passwordChangeLinkAttributes)s>להחליף את הססמה שלך</a>."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "אימתת בהצלחה את %(secondaryEmail)s ככתובת דוא״ל משנית לחשבון ה־Firefox שלך. התרעות אבטחה ואימות כניסה יישלחו מעתה לשתי כתובות הדוא״ל."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -972,9 +976,6 @@ msgstr "הורדת העדכני ביותר"
 
 #~ msgid "Verify your account"
 #~ msgstr "אימות החשבון שלך"
-
-#~ msgid "Reset your password"
-#~ msgstr "איפוס ססמה"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "בקשה לאיפוס ססמה"

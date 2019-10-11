@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-08-26 15:14+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
+"PO-Revision-Date: 2019-09-30 23:09+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -31,7 +31,7 @@ msgstr "Få återställningskoder återstår. Tänk på att generera nya koder f
 msgid "Generate codes:"
 msgstr "Generera koder:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "Ny inloggning till %(clientName)s"
 
@@ -53,11 +53,11 @@ msgstr "Ditt lösenord till kontot ändrades"
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Du behöver ange ditt nya lösenord på övriga enheter för att återuppta synkning."
+msgstr "Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -118,7 +118,7 @@ msgstr "Bästa,"
 msgid "The Firefox Accounts team"
 msgstr "Gruppen Firefox-konto"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "Återställningsnyckel genererad"
 
@@ -178,7 +178,7 @@ msgstr "Du har förbrukat en återställningskod från följande enhet:"
 msgid "Consumed recovery code"
 msgstr "Förbrukad återställningskod"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "Nya återställningskoder genererade"
 
@@ -186,7 +186,7 @@ msgstr "Nya återställningskoder genererade"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Du har genererat nya återställningskoder från följande enhet:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "Kontoåterställningsnyckeln borttagen"
 
@@ -202,7 +202,7 @@ msgstr "Den här återställningsnyckeln kan inte längre användas för att åt
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Du har framgångsrikt tagit bort en kontoåterställningsnyckel för ditt Firefox-konto från följande enhet:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "Sekundär e-postadress borttagen"
 
@@ -227,54 +227,33 @@ msgstr "Säkerhetskoder behövs inte längre vid varje inloggning."
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Du har inaktiverat tvåstegsautentisering på ditt Firefox-konto. Säkerhetskoder behövs inte längre vid varje inloggning."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "Konto verifierat!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Välkommen till Firefox-familjen"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"Du har anslutit din första enhet till ditt Firefox-konto. Du kan nu logga in på Sync från dina andra enheter, inklusive Firefox för <a %(androidLinkAttributes)s>Android</a> och <a "
-"%(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "Du är inloggad och redo att börja surfa säkert."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Du har anslutit din första enhet till ditt Firefox-konto. Nu kan du logga in till Sync från dina andra enheter, inklusive Firefox för Android och iOS."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "Få ut det mesta av Firefox genom att logga in överallt du surfar."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Logga in till Sync:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "Anslut en annan enhet:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "Har du frågor? Besök %(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "Sekundär e-post tillagd"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "Du har verifierat %(secondaryEmail)s som en sekundär e-postadress för ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att skickas till båda e-postadresserna."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Välkommen till Firefox-familjen"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Du är inloggad och redo att börja surfa säkert."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Få ut det mesta av Firefox genom att logga in överallt du surfar."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "Anslut en annan enhet:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Har du frågor? Besök %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -284,7 +263,7 @@ msgstr "Behöver du återställa ditt lösenord?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klicka på knappen inom den närmaste timmen för att skapa ett nytt lösenord. Begäran kom från följande enhet:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "Skapa nytt lösenord"
 
@@ -316,7 +295,7 @@ msgstr "För några dagar sedan skapade du ett Firefox-konto, men du bekräftade
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Bekräfta nu och få teknik som bekämpar och skyddar din integritet och ger dig den praktiska kunskapen och respekten du förtjänar."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "Bekräfta e-postadress:"
 
@@ -333,40 +312,32 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "Bekräfta den här e-postadressen för att aktivera ditt konto och meddela oss att du är okej."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "Välkommen till %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "Aktivera Firefox-familjen av produkter"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "Välkommen!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in med:"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto och fortsätt till %(serviceName)s."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "Aktivera nu:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "För extra säkerhet, vänligen bekräfta denna inloggning från följande enhet:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "Bekräfta inloggning"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Om ja, här är verifieringskoden:"
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Den upphör om 5 minuter."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -404,10 +375,6 @@ msgstr "Är det du som registrerar dig?"
 msgid "If yes, use this verification code:"
 msgstr "Om ja, använd den här verifieringskoden:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "Den upphör om 20 minuter."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "Klara, färdiga, synka"
@@ -420,21 +387,9 @@ msgstr "Bekräfta att du har fått det här e-postmeddelandet och vi kommer att 
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Aktivera Firefox-familjen av produkter"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in med:"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Bekräfta ditt konto och få ut det mesta av Firefox överallt du loggar in."
-
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Detta är ett automatiserat e-postmeddelande; om du inte godkände den här åtgärden ska du <a %(passwordChangeLinkAttributes)s>ändra ditt lösenord</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -505,181 +460,137 @@ msgstr "Avbryt prenumeration:"
 msgid "Update billing information:"
 msgstr "Uppdatera faktureringsinformation:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (uppskattad)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Verifiera ditt konto"
-
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "Aktivera nu"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "Bekräfta din e-post och börja synkronisera!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Slutför skapade av ditt konto"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "Bekräfta e-postadress"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "Verifieringskod: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Påminnelse: Komplettera registrering"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Slutlig påminnelse: Aktivera ditt konto"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Behörighetskod för %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Bekräfta ny inloggning"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Bekräfta ny inloggning till %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Inloggningskod för %(serviceName)s"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Verifiera primär e-post"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Verifiera sekundär e-post"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr "Verifiera e-postadress"
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Återställ ditt lösenord"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Lösenordet ändrat"
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr "Återställ lösenordet"
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Lösenord uppdaterat"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Misstänkt aktivitet: Återställning av lösenord krävs"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Ny inloggning till %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "Hantera konto"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Konto verifierat"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Konto bekräftat"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "Ansluta en annan enhet"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Sekundär e-post tillagd"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Ny primär e-post"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Sekundär e-post borttagen"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Tvåstegsautentisering aktiverad"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Tvåstegsautentisering inaktiverad"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Nya återställningskoder genererade"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Återställningskod använd"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 återställningskod återstår"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s återställningskoder återstår"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "Generera koder"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Återställningsnyckel genererad för konto"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Återställningsnyckel borttagen för konto"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Lösenord uppdaterat med återställningsnyckel"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "Skapa ny återställningsnyckel"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konton"
 
@@ -739,10 +650,6 @@ msgstr "Firefox-konton kräver JavaScript."
 msgid "Privacy Notice"
 msgstr "Sekretesspolicy"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Användarvillkor för prenumerationsplattform"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Tjänstevillkor"
@@ -767,6 +674,133 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Ladda ner senaste"
+
+#~ msgid "Account verified!"
+#~ msgstr "Konto verifierat!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Du har anslutit din första enhet till ditt Firefox-konto. Du kan nu logga in på Sync från dina andra enheter, inklusive Firefox för <a %(androidLinkAttributes)s>Android</a> och <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Du har anslutit din första enhet till ditt Firefox-konto. Nu kan du logga in till Sync från dina andra enheter, inklusive Firefox för Android och iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Logga in till Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Välkommen till %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Välkommen!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto och fortsätt till %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Bekräfta den här e-postadressen för att aktivera ditt Firefox-konto."
+
+#~ msgid "Activate now:"
+#~ msgstr "Aktivera nu:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Den upphör om 20 minuter."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Verifiera ditt konto"
+
+#~ msgid "Activate now"
+#~ msgstr "Aktivera nu"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Bekräfta din e-post och börja synkronisera!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Slutför skapade av ditt konto"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Påminnelse: Komplettera registrering"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Slutlig påminnelse: Aktivera ditt konto"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Behörighetskod för %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Bekräfta ny inloggning"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Inloggningskod för %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Verifiera primär e-post"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Verifiera sekundär e-post"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Återställ ditt lösenord"
+
+#~ msgid "Password Changed"
+#~ msgstr "Lösenordet ändrat"
+
+#~ msgid "Password Updated"
+#~ msgstr "Lösenord uppdaterat"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Misstänkt aktivitet: Återställning av lösenord krävs"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Ny inloggning till %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Konto verifierat"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Konto bekräftat"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Sekundär e-post tillagd"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Ny primär e-post"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Sekundär e-post borttagen"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Tvåstegsautentisering aktiverad"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Tvåstegsautentisering inaktiverad"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Nya återställningskoder genererade"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Återställningskod använd"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 återställningskod återstår"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s återställningskoder återstår"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Återställningsnyckel genererad för konto"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Återställningsnyckel borttagen för konto"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Lösenord uppdaterat med återställningsnyckel"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Användarvillkor för prenumerationsplattform"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -843,9 +877,6 @@ msgstr "Ladda ner senaste"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox-konto behörighetskod"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Bekräfta ny inloggning till %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Inloggningskod för Firefox"
@@ -1143,9 +1174,6 @@ msgstr "Ladda ner senaste"
 
 #~ msgid "Verify your account"
 #~ msgstr "Verifiera ditt konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Återställ lösenordet"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Återverifiera ditt konto"

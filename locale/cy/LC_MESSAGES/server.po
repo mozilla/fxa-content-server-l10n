@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-10-01 09:36+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Rydym wedi sylwi eich bod yn fyr o godau adfer. Ystyriwch greu codau new
 msgid "Generate codes:"
 msgstr "Creu codau:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "Mewngofnodi newydd i %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Hwyl,"
 msgid "The Firefox Accounts team"
 msgstr "Tîm Cyfrif Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "Cynhyrchwyd allwedd adfer cyfrif"
 
@@ -178,7 +178,7 @@ msgstr "Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:"
 msgid "Consumed recovery code"
 msgstr "Cod adfer wedi ei ddefnyddio"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "Wedi creu cod adfer newydd"
 
@@ -186,7 +186,7 @@ msgstr "Wedi creu cod adfer newydd"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "Tynnwyd yr allwedd adfer cyfrif"
 
@@ -202,7 +202,7 @@ msgstr "Nid oes modd defnyddio'r allwedd adfer hwn bellach i adfer eich cyfrif."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "Tynnwyd yr ail e-bost"
 
@@ -226,54 +226,33 @@ msgstr "Ni fydd angen codau diogel bellach wrth fewngofnodi."
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "Cyfrif wedi ei wirio!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Croeso i deulu Firefox"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch cyfrif Firefox. Nawr gallwch fewngofnodi er mwyn cydweddu eich dyfeisiau eraill, gan gynnwys Firefox ar gyfer <a "
-"%(androidLinkAttributes)s>Android</a> ac <a %(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "Rydych wedi eich mewngofnodi ac yn barod i grwydro'n saff a diogel."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Rydych wedi cysylltu eich dyfais gyntaf i'ch Cyfrif Firefox. Mae modd i chi nawr fewngofnodi i gydweddu o'ch dyfeisiau eraill, gan gynnwys Firefox Android ac iOS."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "I gael y mwyaf allan o Firefox mewngofnodwch ym mhob man byddwch yn pori."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Mewngofnodi i Sync:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "Cysylltwch ddyfais arall:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "Ychwanegwyd ail e-bost"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu anfon i'r ddau gyfeiriad."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Croeso i deulu Firefox"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Rydych wedi eich mewngofnodi ac yn barod i grwydro'n saff a diogel."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "I gael y mwyaf allan o Firefox mewngofnodwch ym mhob man byddwch yn pori."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "Cysylltwch ddyfais arall:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -283,7 +262,7 @@ msgstr "Angen ailosod eich cyfrinair?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "Creu cyfrinair newydd"
 
@@ -315,7 +294,7 @@ msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif Firefox, ond heb ei
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Cadarnhewch nawr a chael technoleg sy'n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a'r parch rydych yn ei haeddu."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "E-bost cadarnhau:"
 
@@ -332,30 +311,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi'n iawn."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "Croeso i %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "Defnyddiwch gynnyrch teulu Firefox"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "Croeso!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi gan gychwyn yn:"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu'ch Cyfrif Firefox a pharhau i %(serviceName)s."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu'ch Cyfrif Firefox."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "Agor nawr:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi iddo."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "Cadarnhau eich mewngofnodi"
 
@@ -363,7 +334,7 @@ msgstr "Cadarnhau eich mewngofnodi"
 msgid "If yes, here is the verification code:"
 msgstr "Os ydyw, defnyddiwch y cod dilysu hwn:"
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr "Daw i ben mewn 5 munud."
 
@@ -403,10 +374,6 @@ msgstr "Ai hyn yw chi wedi cofrestru?"
 msgid "If yes, use this verification code:"
 msgstr "Os ydyw, defnyddiwch y cod dilysu hwn:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "Daw i ben mewn 20 munud."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "Un, dau, tri, cydweddu"
@@ -418,18 +385,6 @@ msgstr "Cadarnhewch eich bod wedi derbyn yr e-bost hwn ac mi wnawn ni eich cynor
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysylltu Firefox ar o leiaf un ddyfais arall."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Defnyddiwch gynnyrch teulu Firefox"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi gan gychwyn yn:"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi iddo."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -504,181 +459,137 @@ msgstr "Canslo tanysgrifiad:"
 msgid "Update billing information:"
 msgstr "Diweddaru'r manylion bilio:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Gwirio eich Cyfrif"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "Agorwch y cyfrif nawr"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "Cadarnewch eich e-bost a chychwyn cydweddu!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
-msgstr "Dilysu'r e-bost"
-
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Gorffen Creu Eich Cyfrif"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "E-bost cadarnhau"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "Cod dilysu: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Nodyn i'ch atgoffa: Cwblhewch eich Cofrestriad"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Nodyn Atgoffa Terfynol: Agor Eich Cyfrif"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Cod Awdurdodi ar gyfer %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Cadarnhau Mewngofnodi Newydd"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Cod Mewngofnodi ar gyfer %(serviceName)s"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Dilysu'ch Prif E-bost"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Dilysu'ch Ail E-bost"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr "Dilysu'r e-bost"
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "Ailosod eich Cyfrinair"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Newidiwyd y Cyfrinair"
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr "Ailosod eich cyfrinair"
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Diweddarwyd y Cyfrinair"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Gweithgaredd Amheus: Angen Ailosod y Cyfrinair"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "Mewngofnodi Newydd i %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "Rheoli cyfrif"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Cyfrif wedi ei Ddilysu"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Cyfrif wedi'i Gadarnhau"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "Cysylltwch ddyfais arall"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "Ychwanegwyd Ail E-bost"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "Prif E-bost Newydd"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "Tynnwyd yr Ail E-bost"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Dilysu Dau Gam wedi'i Alluogi"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Dilysu Dau Gam wedi ei Analluogi"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Codau Adfer Newydd wedi'u Cynhyrchu"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Cod Adfer wedi'u Ddefnyddio"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 Cod Adfer yn Weddill"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s Cod Adfer yn weddill"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "Creu codau"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Cynhyrchwyd Allwedd Adfer Cyfrif"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Allwedd Adfer Cyfrif wedi'i Dynnu"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Diweddarwyd Cyfrinair gan Ddefnyddio Allwedd Adfer"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "Creu allwedd adfer newydd"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Cyfrifon Firefox"
 
@@ -738,10 +649,6 @@ msgstr "Mae Cyfrifon Firefox angen JavaScript."
 msgid "Privacy Notice"
 msgstr "Hysbysiad Preifatrwydd"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Amodau Gwasanaeth"
@@ -766,12 +673,139 @@ msgstr ""
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
+#~ msgid "Account verified!"
+#~ msgstr "Cyfrif wedi ei wirio!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch cyfrif Firefox. Nawr gallwch fewngofnodi er mwyn cydweddu eich dyfeisiau eraill, gan gynnwys Firefox ar gyfer <a "
+#~ "%(androidLinkAttributes)s>Android</a> ac <a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Rydych wedi cysylltu eich dyfais gyntaf i'ch Cyfrif Firefox. Mae modd i chi nawr fewngofnodi i gydweddu o'ch dyfeisiau eraill, gan gynnwys Firefox Android ac iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Mewngofnodi i Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Croeso i %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Croeso!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu'ch Cyfrif Firefox a pharhau i %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu'ch Cyfrif Firefox."
+
+#~ msgid "Activate now:"
+#~ msgstr "Agor nawr:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Daw i ben mewn 20 munud."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Gwirio eich Cyfrif"
+
+#~ msgid "Activate now"
+#~ msgstr "Agorwch y cyfrif nawr"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Cadarnewch eich e-bost a chychwyn cydweddu!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Gorffen Creu Eich Cyfrif"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Nodyn i'ch atgoffa: Cwblhewch eich Cofrestriad"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Nodyn Atgoffa Terfynol: Agor Eich Cyfrif"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Cod Awdurdodi ar gyfer %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Cadarnhau Mewngofnodi Newydd"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Cod Mewngofnodi ar gyfer %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Dilysu'ch Prif E-bost"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Dilysu'ch Ail E-bost"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Ailosod eich Cyfrinair"
+
+#~ msgid "Password Changed"
+#~ msgstr "Newidiwyd y Cyfrinair"
+
+#~ msgid "Password Updated"
+#~ msgstr "Diweddarwyd y Cyfrinair"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Gweithgaredd Amheus: Angen Ailosod y Cyfrinair"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Mewngofnodi Newydd i %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Cyfrif wedi ei Ddilysu"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Cyfrif wedi'i Gadarnhau"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "Ychwanegwyd Ail E-bost"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Prif E-bost Newydd"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "Tynnwyd yr Ail E-bost"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Dilysu Dau Gam wedi'i Alluogi"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Dilysu Dau Gam wedi ei Analluogi"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Codau Adfer Newydd wedi'u Cynhyrchu"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Cod Adfer wedi'u Ddefnyddio"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 Cod Adfer yn Weddill"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s Cod Adfer yn weddill"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Cynhyrchwyd Allwedd Adfer Cyfrif"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Allwedd Adfer Cyfrif wedi'i Dynnu"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Diweddarwyd Cyfrinair gan Ddefnyddio Allwedd Adfer"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
+
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a <a"
-#~ " href='%(iosUrl)s'>iOS</a>."
+#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> "
+#~ "a <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -842,9 +876,6 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Cod awdurdodi Cyfrif Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Cod mewngofnodi ar gyfer Firefox"
@@ -949,8 +980,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Ailosod y cyfrinair"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Ychydig ddyddiau'n ôl, roeddech wedi creu Cyfrif Firefox ond heb ei wirio. Mae cyfrif wedi ei wirio'n caniatáu i chi gael mynediad at eich tabiau, nodau tudalen, cyfrineiriau a hanes ar unrhyw "
 #~ "ddyfais sydd wedi cysylltu iddo. Cadarnhewch y cyfeiriad e-bost hwn i wirio eich cyfrif."
@@ -977,9 +1008,11 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Dilysu e-byst ar gyfer Cyfrif Firefox"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
+#~ msgstr ""
+#~ "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel e-bost eilradd i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi nawr yn cael eu hanfon i'r ddau gyfeiriad e-bost."
 
@@ -1138,9 +1171,6 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
 #~ msgid "Verify your account"
 #~ msgstr "Cadarnhau eich cyfrif"
-
-#~ msgid "Reset your password"
-#~ msgstr "Ailosod eich cyfrinair"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Ail ddilysu eich cyfrif"
