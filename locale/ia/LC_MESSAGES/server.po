@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 13:13+0000\n"
+"PO-Revision-Date: 2019-10-11 13:15+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -559,23 +559,23 @@ msgstr "E-mail primari actualisate"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Verification in duo passos activate"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Verification in duo passos disactivate"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Codice de recuperation usate"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 codice de recuperation restante"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s codices de recuperation restante"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -583,7 +583,7 @@ msgstr "Generar codices"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Contrasigno actualisate con clave de recuperation"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
