@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 12:29+0000\n"
+"PO-Revision-Date: 2019-10-11 12:41+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -486,7 +486,7 @@ msgstr "%(country)s (trochowany)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Dokónčće załoženje swojeho konta"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -498,7 +498,7 @@ msgstr "Wobkrućenski kod: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr "Dopomnjeće: Skónčće załoženje swojeho konta"
+msgstr "Dopomnjeće: Dokónčće załoženje swojeho konta"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
@@ -506,7 +506,7 @@ msgstr "Poslednje dopomnjeće: Aktiwizujće swoje konto"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Kod kontoweje awtorizacije"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -538,7 +538,7 @@ msgstr "Hesło je so zaktualizowało"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Podhladna aktiwita wotkryta"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -559,11 +559,11 @@ msgstr "Primarna e-mejlowa adresa je so zaktualizowała"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Dwukročelowa awtentifikacija zmóžnjena"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Dwukročelowa awtentifikacija znjemóžnjena"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
