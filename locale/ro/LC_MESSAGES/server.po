@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-08-24 21:17+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Am observat că mai ai doar câteva coduri de recuperare disponibile. Te
 msgid "Generate codes:"
 msgstr "Generează coduri:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "O nouă autentificare în %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Toate cele bune,"
 msgid "The Firefox Accounts team"
 msgstr "Echipa Conturi Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "Cheie de recuperare a contului generată"
 
@@ -180,7 +180,7 @@ msgstr "Ai consumat cu succes un cod de recuperare de pe următorul dispozitiv:"
 msgid "Consumed recovery code"
 msgstr "Cod de recuperare consumat"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "Coduri noi de recuperare generate"
 
@@ -188,7 +188,7 @@ msgstr "Coduri noi de recuperare generate"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Ai generat cu succes coduri noi de recuperare de pe următorul dispozitiv:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "Cheie de recuperare a contului eliminată"
 
@@ -204,7 +204,7 @@ msgstr "Această cheie de recuperare nu mai poate fi folosită pentru recuperare
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Ai eliminat cu succes o cheie de recuperare a contului tău Firefox de pe următorul dispozitiv:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "E-mail secundar eliminat"
 
@@ -228,27 +228,27 @@ msgstr "Codurile de securitate nu vor mai fi necesare la fiecare autentificare."
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Ai dezactivat cu succes autentificarea în doi pași pentru contul tău Firefox. Codurile de securitate nu vor mai fi necesare la fiecare autentificare."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "Cont verificat!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Bine ai venit în familia Firefox"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"Ai conectat cu succes primul dispozitiv la contul tău Firefox. Acum te poți autentifica în Sync de pe celelalte dispozitive, inclusiv Firefox pentru <a %(androidLinkAttributes)s>Android</a> și <a "
-"%(iosLinkAttributes)s>iOS</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "Ești autentificat(ă) și gata să începi explorarea în siguranță și securitate."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Ai conectat cu succes primul dispozitiv la contul tău Firefox. Acum te poți autentifica în Sync de pe celelalte dispozitive, inclusiv de pe Firefox pentru Android și iOS."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "Acum obține maximul de la Firefox autentificându-te pe toate dispozitivele cu care navighezi."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Autentifică-te la Sync:"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "Conectează un alt dispozitiv:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "Ai întrebări? Intră pe %(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "E-mail secundar adăugat"
 
@@ -258,27 +258,6 @@ msgstr ""
 "Ai verificat cu succes %(secondaryEmail)s ca e-mail secundar pentru contul tău Firefox. Notificările de securitate și confirmările de autentificare vor fi trimise de acum înainte la ambele adrese "
 "de e-mail."
 
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Bine ai venit în familia Firefox"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Ești autentificat(ă) și gata să începi explorarea în siguranță și securitate."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Acum obține maximul de la Firefox autentificându-te pe toate dispozitivele cu care navighezi."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "Conectează un alt dispozitiv:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Ai întrebări? Intră pe %(supportUrl)s"
-
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
 msgstr "Trebuie să îți resetați parola?"
@@ -287,7 +266,7 @@ msgstr "Trebuie să îți resetați parola?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Dă clic pe buton în următoarea oră pentru a crea o nouă parolă. Solicitarea a venit de pe următorul dispozitiv:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "Creează o parolă nouă"
 
@@ -319,7 +298,7 @@ msgstr "Acum câteva zile ai creat un cont Firefox, dar nu l-ai confirmat."
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "Confirmă-l acum și obține tehnologia care luptă pentru și îți protejează intimitatea, te înarmează cu cunoștințe practice și îți acordă respectul pe care îl meriți."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "Confirmă adresa de e-mail:"
 
@@ -336,30 +315,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "Confirmă această adresă de e-mail pentru a-ți activa contul și dă-ne un semn că ești în regulă."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "Bine ai venit la %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "Activează familia de produse Firefox"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "Bine ai venit!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autentifici, începând cu:"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "Confirmă această adresă de e-mail ca să îți activezi contul de Firefox și să continui cu %(serviceName)s."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "Confirmă această adresă de e-mail ca să îți activezi contul Firefox."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "Activează acum:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autentifici."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Pentru un plus de securitate, te rugăm să confirmi această autentificare de pe următorul dispozitiv:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "Confirmă autentificarea"
 
@@ -367,7 +338,7 @@ msgstr "Confirmă autentificarea"
 msgid "If yes, here is the verification code:"
 msgstr ""
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr ""
 
@@ -407,10 +378,6 @@ msgstr "Tu ești cel/cea care se înscrie?"
 msgid "If yes, use this verification code:"
 msgstr "Dacă da, folosește acest cod de verificare:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "Expiră în 20 de minute."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "Pe locuri, fii gata, sincronizează"
@@ -422,18 +389,6 @@ msgstr "Confirmă că ai primit acest mesaj, iar noi te vom ajuta să instalezi 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Odată confirmat, te vom ajuta să instalezi și să te conectezi la Firefox de pe cel puțin un alt dispozitiv."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Activează familia de produse Firefox"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autentifici, începând cu:"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autentifici."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -508,181 +463,137 @@ msgstr "Anulează abonamentul:"
 msgid "Update billing information:"
 msgstr "Actualizează informațiile de facturare:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s pe %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s pe %(uaOS)s"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (locație estimată)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "Verifică-ți contul"
-
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "Activează acum"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "Confirmă e-mailul și începe sincronizarea!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "Finalizează crearea contului"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "Confirmă adresa de e-mail"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "Cod de verificare: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "Memento: Finalizează înregistrarea"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "Memento final: Activează-ți contul"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "Codul de autorizare pentru %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "Confirmă noua autentificare"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Confirmă noua autentificare în %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "Cod de conectare pentru %(serviceName)s"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "Verifică e-mailul primar"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "Verifică e-mailul secundar"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr ""
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
+
+#: lib/senders/email.js:906
+msgid "Reset your password"
 msgstr "Resetează-ți parola"
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "Parolă modificată"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "Parolă actualizată"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "Activitate suspectă: Resetarea parolei obligatorie"
-
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "O nouă autentificare în %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "Gestionează contul"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "Cont verificat"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "Cont confirmat"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "Conectează alt dispozitiv"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "E-mail secundar adăugat"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "E-mail primar nou"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "E-mail secundar eliminat"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "Autentificare în doi pași activată"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "Autentificare în doi pași dezactivată"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "Coduri noi de recuperare generate"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "Cod de recuperare folosit"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 cod de recuperare rămas"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s coduri de recuperare rămase"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "Generează coduri"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "Cheie de recuperare a contului generată"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "Cheie de recuperare a contului eliminată"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "Parolă actualizată folosind cheia de recuperare"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "Creează o cheie nouă de recuperare"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Conturi Firefox"
 
@@ -742,10 +653,6 @@ msgstr "Conturile Firefox necesită JavaScript."
 msgid "Privacy Notice"
 msgstr "Declarație de confidențialitate"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Termenii de utilizare a serviciilor"
@@ -769,6 +676,130 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Descarcă cea mai recentă versiune"
+
+#~ msgid "Account verified!"
+#~ msgstr "Cont verificat!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Ai conectat cu succes primul dispozitiv la contul tău Firefox. Acum te poți autentifica în Sync de pe celelalte dispozitive, inclusiv Firefox pentru <a %(androidLinkAttributes)s>Android</a> și "
+#~ "<a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Ai conectat cu succes primul dispozitiv la contul tău Firefox. Acum te poți autentifica în Sync de pe celelalte dispozitive, inclusiv de pe Firefox pentru Android și iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Autentifică-te la Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Bine ai venit la %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Bine ai venit!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Confirmă această adresă de e-mail ca să îți activezi contul de Firefox și să continui cu %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Confirmă această adresă de e-mail ca să îți activezi contul Firefox."
+
+#~ msgid "Activate now:"
+#~ msgstr "Activează acum:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Expiră în 20 de minute."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Verifică-ți contul"
+
+#~ msgid "Activate now"
+#~ msgstr "Activează acum"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Confirmă e-mailul și începe sincronizarea!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Finalizează crearea contului"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Memento: Finalizează înregistrarea"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Memento final: Activează-ți contul"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Codul de autorizare pentru %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Confirmă noua autentificare"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Cod de conectare pentru %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Verifică e-mailul primar"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Verifică e-mailul secundar"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Resetează-ți parola"
+
+#~ msgid "Password Changed"
+#~ msgstr "Parolă modificată"
+
+#~ msgid "Password Updated"
+#~ msgstr "Parolă actualizată"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Activitate suspectă: Resetarea parolei obligatorie"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "O nouă autentificare în %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Cont verificat"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Cont confirmat"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "E-mail secundar adăugat"
+
+#~ msgid "New Primary Email"
+#~ msgstr "E-mail primar nou"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "E-mail secundar eliminat"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Autentificare în doi pași activată"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Autentificare în doi pași dezactivată"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Coduri noi de recuperare generate"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Cod de recuperare folosit"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 cod de recuperare rămas"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s coduri de recuperare rămase"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Cheie de recuperare a contului generată"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Cheie de recuperare a contului eliminată"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Parolă actualizată folosind cheia de recuperare"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -837,9 +868,6 @@ msgstr "Descarcă cea mai recentă versiune"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Cod de autorizare pentru contul Firefox"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Confirmă noua autentificare în %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "Cod de autentificare pentru Firefox"
@@ -1124,9 +1152,6 @@ msgstr "Descarcă cea mai recentă versiune"
 
 #~ msgid "Verify your account"
 #~ msgstr "Verifică-ți contul"
-
-#~ msgid "Reset your password"
-#~ msgstr "Resetează-ți parola"
 
 #~ msgid "Re-verify your account"
 #~ msgstr "Reverifică-ți contul"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
+"POT-Creation-Date: 2019-10-11 08:01+0000\n"
 "PO-Revision-Date: 2019-10-02 02:14+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "ჩვენ შევამჩნიეთ, რომ აღდგე�
 msgid "Generate codes:"
 msgstr "კოდების შექმნა:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
 msgid "New sign-in to %(clientName)s"
 msgstr "ახალი შესვლა %(clientName)s"
 
@@ -115,7 +115,7 @@ msgstr "საუკეთესო სურვილებით,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox-ანგარიშების გუნდი"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
 msgid "Account recovery key generated"
 msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
 
@@ -175,7 +175,7 @@ msgstr "თქვენ წარმატებით გამოიყენ�
 msgid "Consumed recovery code"
 msgstr "გამოყენებული აღდგენის კოდი"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
 msgstr "შექმნილია აღდგენის ახალი კოდები"
 
@@ -183,7 +183,7 @@ msgstr "შექმნილია აღდგენის ახალი კ
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი კოდები შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
 msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
 
@@ -199,7 +199,7 @@ msgstr "ეს აღდგენის გასაღები აღარ �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
 msgstr "დამატებითი ელფოსტა მოცილებულია"
 
@@ -225,27 +225,27 @@ msgstr "უსაფრთხოების კოდების შეყვ�
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "ორსაფეხურიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს Firefox-ანგარიშზე. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Account verified!"
-msgstr "ანგარიში დამოწმდა!"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "მოგესალმებათ Firefox-ოჯახი"
 
-#: lib/senders/templates/postVerify.html:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox-ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</a> და"
-" <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
+#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
+msgid "You're signed in and ready to start exploring safely and securely."
+msgstr "თქვენ შესული ხართ ანგარიშზე და მზად ხართ ინტერნეტის უსაფრთხოდ და დაცულად გამოყენებისთვის."
 
-#: lib/senders/templates/postVerify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "თქვენ წარმატებით დაუკავშირეთ თქვენი პირველი მოწყობილობა Firefox-ანგარიშს. ახლა უკვე შეგიძლიათ Sync-ში შესვლა, სხვა მოწყობილობიდან, მათ შორის Firefox-ის Android და iOS ვერსიებიდან."
+#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
+msgid "Now get the most of Firefox by signing in everywhere you browse."
+msgstr "სრულყოფილად გამოიყენეთ Firefox ყველგან, ანგარიშის მეშვეობით."
 
-#: lib/senders/templates/postVerify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Sync-ში შესვლა"
+#: lib/senders/templates/postVerify.txt:4
+msgid "Connect another device:"
+msgstr "სხვა მოწყობილობის დაკავშირება:"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1
+#: lib/senders/templates/postVerify.txt:5
+msgid "Have questions? Visit %(supportUrl)s"
+msgstr "კითხვები გაქვთ? იხილეთ %(supportUrl)s"
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
 msgstr "ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
 
@@ -253,27 +253,6 @@ msgstr "ელფოსტის დამატებითი მისამ�
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
 "Firefox-ანგარიშის დამატებითი ელფოსტის მისამართი %(secondaryEmail)s წარმატებით დამოწმდა. უსაფრთხოების შეტყობინებები და შესვლების დასადასტურებელი მოთხოვნები, ამიერიდან ორივე მისამართზე გამოიგზავნება."
-
-#: lib/senders/templates/postVerifyTrailhead.html:1 lib/senders/templates/postVerifyTrailhead.txt:1 lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "მოგესალმებათ Firefox-ოჯახი"
-
-#: lib/senders/templates/postVerifyTrailhead.html:2 lib/senders/templates/postVerifyTrailhead.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "თქვენ შესული ხართ ანგარიშზე და მზად ხართ ინტერნეტის უსაფრთხოდ და დაცულად გამოყენებისთვის."
-
-#: lib/senders/templates/postVerifyTrailhead.html:3 lib/senders/templates/postVerifyTrailhead.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "სრულყოფილად გამოიყენეთ Firefox ყველგან, ანგარიშის მეშვეობით."
-
-#: lib/senders/templates/postVerifyTrailhead.txt:4
-msgid "Connect another device:"
-msgstr "სხვა მოწყობილობის დაკავშირება:"
-
-#: lib/senders/templates/postVerifyTrailhead.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "კითხვები გაქვთ? იხილეთ %(supportUrl)s"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -283,7 +262,7 @@ msgstr "გესაჭიროებათ პაროლის განუ�
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
 msgstr "შეიყვანეთ ახალი პაროლი"
 
@@ -315,7 +294,7 @@ msgstr "რამდენიმე დღის წინ თქვენ შ�
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
 msgstr "დაამოწმეთ ახლავე და მიიღეთ ყველა ის საშუალება, რომელიც იბრძვის თქვენი პირადი მონაცემების უსაფრთხოებისთვის, უზრუნველგყოფთ გამოსადეგი ცოდნითა და გეპყრობათ სათანადო პატივისცემით."
 
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verifyTrailhead.txt:3
+#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
 msgstr "ელფოსტის დადასტურება:"
 
@@ -332,30 +311,22 @@ msgid "Confirm this email address to activate your account and let us know you'r
 msgstr "დაადასტურეთ ელფოსტის ეს მისამართი, რითიც აამოქმედებთ თქვენს ანგარიშს და გვაცნობებთ, რომ ყველაფერი რიგზე გაქვთ."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Welcome to %(serviceName)s!"
-msgstr "მოგესალმებათ %(serviceName)s!"
+msgid "Activate the Firefox family of products"
+msgstr "აამოქმედეთ Firefox-ის პროდუქტების სრული ოჯახი"
 
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:3
-msgid "Welcome!"
-msgstr "მოგესალმებით!"
+#: lib/senders/templates/verify.html:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით:"
 
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
-msgstr "დაადასტურეთ ელფოსტის ეს მისამართი, თქვენი Firefox-ანგარიშის ასამოქმედებლად და %(serviceName)s-ზე გადასასვლელად."
-
-#: lib/senders/templates/verify.html:4 lib/senders/templates/verify.txt:4
-msgid "Confirm this email address to activate your Firefox Account."
-msgstr "დაადასტურეთ ელფოსტის ეს მისამართი თქვენი Firefox-ანგარიშის ასამოქმედებლად."
-
-#: lib/senders/templates/verify.txt:5
-msgid "Activate now:"
-msgstr "ახლავე ამოქმედება:"
+#: lib/senders/templates/verify.txt:2
+msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ, დაადასტუროთ ეს შესვლა შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:682
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
 msgstr "შესვლის დადასტურება"
 
@@ -363,7 +334,7 @@ msgstr "შესვლის დადასტურება"
 msgid "If yes, here is the verification code:"
 msgstr "თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:"
 
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3
+#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
 msgstr "ვადა გაუვა 5 წუთში."
 
@@ -403,10 +374,6 @@ msgstr "ეს ანგარიში თქვენ შექმენით
 msgid "If yes, use this verification code:"
 msgstr "თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:"
 
-#: lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 20 minutes."
-msgstr "ვადა გაუვა 20 წუთში."
-
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
 msgstr "მოემზადეთ, ყურადღება, დასინქრონება"
@@ -418,18 +385,6 @@ msgstr "დაადასტურეთ, რომ მიიღეთ ეს �
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "დამოწმებისთანავე, დაგეხმარებით Firefox-ის დაყენებასა დაკავშირებაში, სულ მცირე კიდევ ერთ მოწყობილობაზე."
-
-#: lib/senders/templates/verifyTrailhead.html:1 lib/senders/templates/verifyTrailhead.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "აამოქმედეთ Firefox-ის პროდუქტების სრული ოჯახი"
-
-#: lib/senders/templates/verifyTrailhead.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით:"
-
-#: lib/senders/templates/verifyTrailhead.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -504,181 +459,137 @@ msgstr "გამოწერის გაუქმება:"
 msgid "Update billing information:"
 msgstr "ანგარიშსწორების მონაცემების განახლება:"
 
-#: lib/senders/email.js:224
+#: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ზე"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s %(uaOS)s-ზე"
 
-#: lib/senders/email.js:255
+#: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:428
-msgid "Verify Your Account"
-msgstr "დაამოწმეთ ანგარიში"
+#: lib/senders/email.js:421
+msgid "Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:429
-msgid "Activate now"
-msgstr "ახლავე ამოქმედება"
-
-#: lib/senders/email.js:463
-msgid "Confirm your email and start to sync!"
-msgstr "დაამოწმეთ ელფოსტის მისამართი და დაიწყეთ დასინქრონება!"
-
-#: lib/senders/email.js:464 lib/senders/email.js:790 lib/senders/email.js:849
-msgid "Verify email"
-msgstr "ელფოსტის დამოწმება"
-
-#: lib/senders/email.js:472
-msgid "Finish Creating Your Account"
-msgstr "ანგარიშის შექმნის დასრულება"
-
-#: lib/senders/email.js:473 lib/senders/email.js:572
+#: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
 msgstr "ელფოსტის დადასტურება"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
 msgstr "დამადასტურებელი კოდი: %(code)s"
 
-#: lib/senders/email.js:552
-msgid "Reminder: Complete Registration"
-msgstr "შეხსენება: ანგარიშის შექმნის დასრულება"
+#: lib/senders/email.js:530
+msgid "Reminder: Finish creating your account"
+msgstr ""
 
-#: lib/senders/email.js:554
-msgid "Final Reminder: Activate Your Account"
-msgstr "საბოლოო შეხსენება: აამოქმედეთ თქვენი ანგარიში"
+#: lib/senders/email.js:532
+msgid "Final reminder: Activate your account"
+msgstr ""
 
-#: lib/senders/email.js:609
-msgid "Authorization Code for %(clientName)s"
-msgstr "შესვლის კოდი მომხმარებლისთვის %(clientName)s"
+#: lib/senders/email.js:587
+msgid "Account authorization code"
+msgstr ""
 
-#: lib/senders/email.js:681
-msgid "Confirm New Sign-in"
-msgstr "დაამოწმეთ ახალი შესვლა"
+#: lib/senders/email.js:656
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "ახალი შესვლის დადასტურება %(clientName)s"
 
-#: lib/senders/email.js:724
-msgid "Sign-in Code for %(serviceName)s"
-msgstr "შესვლის კოდი მომხმარებლისთვის %(serviceName)s"
+#: lib/senders/email.js:701
+msgid "Sign-in code for %(serviceName)s"
+msgstr ""
 
-#: lib/senders/email.js:789
-msgid "Verify Primary Email"
-msgstr "მთავარი ელფოსტის დამოწმება"
+#: lib/senders/email.js:766
+msgid "Confirm primary email"
+msgstr ""
 
-#: lib/senders/email.js:848
-msgid "Verify Secondary Email"
-msgstr "დამატებითი ელფოსტის დამოწმება"
+#: lib/senders/email.js:767 lib/senders/email.js:826
+msgid "Verify email"
+msgstr "ელფოსტის დამოწმება"
 
-#: lib/senders/email.js:929
-msgid "Reset Your Password"
-msgstr "პაროლის განულება"
+#: lib/senders/email.js:825
+msgid "Confirm secondary email"
+msgstr ""
 
-#: lib/senders/email.js:971
-msgid "Password Changed"
-msgstr "პაროლი შეიცვალა"
+#: lib/senders/email.js:906
+msgid "Reset your password"
+msgstr ""
 
-#: lib/senders/email.js:1009
-msgid "Password Updated"
-msgstr "პაროლი განახლდა"
+#: lib/senders/email.js:948 lib/senders/email.js:986
+msgid "Password updated"
+msgstr ""
 
-#: lib/senders/email.js:1039
-msgid "Suspicious Activity: Password Reset Required"
-msgstr "საეჭვო მოქმედება: საჭიროა პაროლის აღდგენა"
+#: lib/senders/email.js:1016
+msgid "Suspicious activity detected"
+msgstr ""
 
-#: lib/senders/email.js:1080
-msgid "New Sign-in to %(clientName)s"
-msgstr "ახალი შესვლა ანგარიშზე %(clientName)s"
-
-#: lib/senders/email.js:1081 lib/senders/email.js:1169 lib/senders/email.js:1205 lib/senders/email.js:1241 lib/senders/email.js:1275 lib/senders/email.js:1318 lib/senders/email.js:1361
-#: lib/senders/email.js:1404 lib/senders/email.js:1494 lib/senders/email.js:1540
+#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
+#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
 msgstr "ანგარიშის მართვა"
 
-#: lib/senders/email.js:1117
-msgid "Account Verified"
-msgstr "ანგარიში დამოწმდა"
+#: lib/senders/email.js:1094
+msgid "Account confirmed"
+msgstr ""
 
-#: lib/senders/email.js:1122
-msgid "Account Confirmed"
-msgstr "ანგარიში დადასტურდა"
-
-#: lib/senders/email.js:1126
+#: lib/senders/email.js:1097
 msgid "Connect another device"
 msgstr "მოწყობილობის დამატება"
 
-#: lib/senders/email.js:1168
-msgid "Secondary Email Added"
-msgstr "დამატებითი ელფოსტა დაემატა"
+#: lib/senders/email.js:1175
+msgid "Primary email updated"
+msgstr ""
 
-#: lib/senders/email.js:1204
-msgid "New Primary Email"
-msgstr "ახალი მთავარი ელფოსტა"
+#: lib/senders/email.js:1245
+msgid "Two-step verification enabled"
+msgstr ""
 
-#: lib/senders/email.js:1240
-msgid "Secondary Email Removed"
-msgstr "დამატებითი ელფოსტა მოცილებულია"
+#: lib/senders/email.js:1288
+msgid "Two-step verification is off"
+msgstr ""
 
-#: lib/senders/email.js:1274
-msgid "Two-Step Authentication Enabled"
-msgstr "ორსაფეხურიანი დამოწმება შესვლისას ჩართულია"
+#: lib/senders/email.js:1374
+msgid "Recovery code used"
+msgstr ""
 
-#: lib/senders/email.js:1317
-msgid "Two-Step Authentication Disabled"
-msgstr "ორსაფეხურიანი დამოწმება შესვლისას გამორთულია"
+#: lib/senders/email.js:1427
+msgid "1 recovery code remaining"
+msgstr ""
 
-#: lib/senders/email.js:1360
-msgid "New Recovery Codes Generated"
-msgstr "შექმნილია აღდგენის ახალი კოდები"
+#: lib/senders/email.js:1429
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr ""
 
-#: lib/senders/email.js:1403
-msgid "Recovery Code Used"
-msgstr "აღდგენის კოდი გამოყენებულია"
-
-#: lib/senders/email.js:1456
-msgid "1 Recovery Code Remaining"
-msgstr "1 აღდგენის კოდია დარჩენილია"
-
-#: lib/senders/email.js:1458
-msgid "%(numberRemaining)s Recovery Codes Remaining"
-msgstr "%(numberRemaining)s აღდგენის კოდია დარჩენილი"
-
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1432
 msgid "Generate codes"
 msgstr "კოდების შექმნა"
 
-#: lib/senders/email.js:1493
-msgid "Account Recovery Key Generated"
-msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
+#: lib/senders/email.js:1556
+msgid "Password updated using recovery key"
+msgstr ""
 
-#: lib/senders/email.js:1539
-msgid "Account Recovery Key Removed"
-msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
-
-#: lib/senders/email.js:1585
-msgid "Password Updated Using Recovery Key"
-msgstr "პაროლი განახლებულია აღდგენის გასაღების გამოყენებით"
-
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1557
 msgid "Create new recovery key"
 msgstr "აღდგენის ახალი გასაღების შექმნა"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/subscription_terms.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-ანგარიშები"
 
@@ -738,10 +649,6 @@ msgstr "Firefox-ანგარიშით სარგებლობისთ
 msgid "Privacy Notice"
 msgstr "პირადი მონაცემების დებულება"
 
-#: server/templates/pages/src/subscription_terms.html:2 server/templates/pages/src/subscription_terms.html:3
-msgid "Subscription Platform Terms of Service"
-msgstr "გამოწერის მომსახურების პირობები"
-
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "მომსახურების პირობები"
@@ -765,6 +672,133 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "უახლესის ჩამოტვირთვა"
+
+#~ msgid "Account verified!"
+#~ msgstr "ანგარიში დამოწმდა!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox-ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</"
+#~ "a> და <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "თქვენ წარმატებით დაუკავშირეთ თქვენი პირველი მოწყობილობა Firefox-ანგარიშს. ახლა უკვე შეგიძლიათ Sync-ში შესვლა, სხვა მოწყობილობიდან, მათ შორის Firefox-ის Android და iOS ვერსიებიდან."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Sync-ში შესვლა"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "მოგესალმებათ %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "მოგესალმებით!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "დაადასტურეთ ელფოსტის ეს მისამართი, თქვენი Firefox-ანგარიშის ასამოქმედებლად და %(serviceName)s-ზე გადასასვლელად."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "დაადასტურეთ ელფოსტის ეს მისამართი თქვენი Firefox-ანგარიშის ასამოქმედებლად."
+
+#~ msgid "Activate now:"
+#~ msgstr "ახლავე ამოქმედება:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "ვადა გაუვა 20 წუთში."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "დაამოწმეთ ანგარიში"
+
+#~ msgid "Activate now"
+#~ msgstr "ახლავე ამოქმედება"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "დაამოწმეთ ელფოსტის მისამართი და დაიწყეთ დასინქრონება!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "ანგარიშის შექმნის დასრულება"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "შეხსენება: ანგარიშის შექმნის დასრულება"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "საბოლოო შეხსენება: აამოქმედეთ თქვენი ანგარიში"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "შესვლის კოდი მომხმარებლისთვის %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "დაამოწმეთ ახალი შესვლა"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "შესვლის კოდი მომხმარებლისთვის %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "მთავარი ელფოსტის დამოწმება"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "დამატებითი ელფოსტის დამოწმება"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "პაროლის განულება"
+
+#~ msgid "Password Changed"
+#~ msgstr "პაროლი შეიცვალა"
+
+#~ msgid "Password Updated"
+#~ msgstr "პაროლი განახლდა"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "საეჭვო მოქმედება: საჭიროა პაროლის აღდგენა"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "ახალი შესვლა ანგარიშზე %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "ანგარიში დამოწმდა"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "ანგარიში დადასტურდა"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "დამატებითი ელფოსტა დაემატა"
+
+#~ msgid "New Primary Email"
+#~ msgstr "ახალი მთავარი ელფოსტა"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "დამატებითი ელფოსტა მოცილებულია"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "ორსაფეხურიანი დამოწმება შესვლისას ჩართულია"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "ორსაფეხურიანი დამოწმება შესვლისას გამორთულია"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "შექმნილია აღდგენის ახალი კოდები"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "აღდგენის კოდი გამოყენებულია"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 აღდგენის კოდია დარჩენილია"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s აღდგენის კოდია დარჩენილი"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "პაროლი განახლებულია აღდგენის გასაღების გამოყენებით"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "გამოწერის მომსახურების პირობები"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
@@ -842,9 +876,6 @@ msgstr "უახლესის ჩამოტვირთვა"
 
 #~ msgid "Firefox Account authorization code"
 #~ msgstr "Firefox-ანგარიშის დაშვების კოდი"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "ახალი შესვლის დადასტურება %(clientName)s"
 
 #~ msgid "Sign-in code for Firefox"
 #~ msgstr "შესვლის კოდი Firefox-ისთვის"
@@ -949,11 +980,11 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ msgstr "პაროლის აღდგენა"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნებზე, პაროლებსა და ისტორიაზე, ნებისმიერი "
-#~ "დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
+#~ "რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნებზე, პაროლებსა და ისტორიაზე, "
+#~ "ნებისმიერი დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "ერთი კვირის წინ Firefox ანგარიში შექმენით, რომელიც არ დაგიმოწმებიათ. ვღელავთ თქვენზე. დაადასტურეთ ეს ელფოსტა თქვენი ანგარიშის ასამოქმედებლად და გვაცნობეთ, რომ ყველაფერი რიგზეა."
@@ -979,7 +1010,8 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s ელფოსტის მისამართი ამოღებულია Firefox ანგარიშის დამატებითი მისამართებიდან. უსაფრთხოების შეტყობინებები და შესვლების დადასტურებები, ამ მისამართზე აღარ მოგივათ."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "თქვენ წარმატებით დაამოწმეთ %(secondaryEmail)s ელ-ფოსტის დამატებით მისამართად Firefox ანგარიშზე. უსაფრთხოების შეტყობინებებს და შესვლის დასადასტურებელ მოთხოვნებს, ახლა უკვე ორივე ფოსტაზე მიიღებთ."
 
@@ -1062,8 +1094,8 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ დაასინქრონოთ "
-#~ "თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
+#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ "
+#~ "დაასინქრონოთ თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
 
 #~ msgid "env"
 #~ msgstr "env"
