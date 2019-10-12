@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-03 00:54+0000\n"
+"PO-Revision-Date: 2019-10-12 08:24+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -483,7 +483,7 @@ msgstr "%(country)s (ước tính)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Kết thúc việc tạo tài khoản của bạn"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -495,15 +495,15 @@ msgstr "Mã xác minh: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Nhắc nhở: Hoàn tất tạo tài khoản của bạn"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Lời nhắc cuối cùng: Kích hoạt tài khoản của bạn"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Mã ủy quyền tài khoản"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -511,11 +511,11 @@ msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Mã đăng nhập cho %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Xác nhận email chính"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -523,19 +523,19 @@ msgstr "Xác nhận Email"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Xác nhận email phụ"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Đặt lại mật khẩu của bạn"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Đã cập nhật mật khẩu"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Phát hiện hoạt động đáng ngờ"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -544,7 +544,7 @@ msgstr "Quản lý tài khoản"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Tài khoản đã xác minh"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -552,27 +552,27 @@ msgstr "Kết nối với thiết bị khác"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Email chính đã xác minh"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Đã bật xác thực hai bước"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Đã tắt xác thực hai bước"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Mã khôi phục đã sử dụng"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 mã khôi phục còn lại"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s mã khôi phục còn lại"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -580,7 +580,7 @@ msgstr "Tạo mã"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Đã cập nhật mật khẩu bằng khóa khôi phục"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
