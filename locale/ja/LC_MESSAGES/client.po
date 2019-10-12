@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-12 00:13+0000\n"
+"PO-Revision-Date: 2019-10-12 00:24+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1710,23 +1710,23 @@ msgstr "削除..."
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "あなたの Firefox アカウントが、ウェブ上での安全と生産性を保つ Mozilla 製品と接続されました:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "アカウントを削除する前に、以下の事項をご確認ください:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "有料の購読はすべてキャンセルされます"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Mozilla 製品内の保存された情報と機能が失われる可能性があります"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "このメールアドレスで再有効化しても、保存された情報が復元できない場合があります"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1937,7 +1937,7 @@ msgstr "IP アドレス: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "これらの機能をさらに活用しょう:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -1965,15 +1965,15 @@ msgstr "データ漏洩をロックアウトしましょう。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
-msgstr ""
+msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "のぞき見されることなく大きなファイルを共有できます。"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "安全のため、パスワードを再利用してはいけません。"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2005,11 +2005,11 @@ msgstr "Firefox Sync をお探しですか？ <a %(escapedSyncSuggestionAttrs)s>
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "<small>%(email)s</small> の新しい端末を承認"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr ""
+msgstr "端末を承認"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
@@ -2025,7 +2025,7 @@ msgstr "端末の管理"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "<small>他の端末から</small> の承認が必要です"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -2037,7 +2037,7 @@ msgstr "セットアップ処理が中断されました。"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Firefox アプリでコードスキャナを開き、準備ができたらコードを表示します。"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2053,7 +2053,7 @@ msgstr "ペアリングに成功しました。"
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "<small>%(email)s</small> のペアリングを確認"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
@@ -2065,7 +2065,7 @@ msgstr "アプリを使用してペアリング"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "システムカメラを使用しましたか？ Firefox アプリ内からペアリングする必要があります。"
 
 #~ msgid "Last sync %(translatedTimeAgo)s"
 #~ msgstr "最終同期日時: %(translatedTimeAgo)s"

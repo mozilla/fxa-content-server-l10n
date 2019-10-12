@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 23:49+0000\n"
+"PO-Revision-Date: 2019-10-12 00:26+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -57,7 +57,7 @@ msgstr "同期を再開するには他の端末上で新しいパスワードを
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "同期を再開するには、他の端末で新しいパスワードを入力する必要があります。"
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -224,7 +224,7 @@ msgstr "Firefox アカウント上の 2 段階認証の無効化が完了しま�
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Firefox ファミリーへようこそ"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -236,7 +236,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "別の端末を接続:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
