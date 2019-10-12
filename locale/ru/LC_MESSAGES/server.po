@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-05 13:22+0000\n"
-"Last-Translator: Victor Bychek <a@bychek.ru>\n"
+"PO-Revision-Date: 2019-10-12 15:08+0000\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -487,7 +487,7 @@ msgstr "%(country)s (приблизительно)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Завершите создание вашего аккаунта"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -499,15 +499,15 @@ msgstr "Код подтверждения: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Напоминание: Завершите создание вашего аккаунта"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Последнее напоминание: Активируйте ваш аккаунт"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Код авторизации аккаунта"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -515,11 +515,11 @@ msgstr "Подтвердите новый вход в %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Код для входа в %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Подтвердите основную электронную почту"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -527,7 +527,7 @@ msgstr "Подтвердить почту"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Подтвердите альтернативную электронную почту"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -535,11 +535,11 @@ msgstr "Восстановить ваш пароль"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Пароль изменён"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Обнаружена подозрительная активность"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -548,7 +548,7 @@ msgstr "Управление аккаунтом"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Аккаунт подтверждён"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -556,27 +556,27 @@ msgstr "Подсоединить другое устройство"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Основная электронная почта изменена"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Двухэтапная авторизация включена"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Двухэтапная авторизация отключена"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Использован код восстановления"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Остался 1 код восстановления"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Осталось %(numberRemaining)s кодов восстановления"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -584,7 +584,7 @@ msgstr "Сгенерировать коды"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Пароль изменён с использованием ключа восстановления"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
@@ -806,8 +806,8 @@ msgstr "Загрузить последнюю версию"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -982,15 +982,14 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Восстановить пароль"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 #~ "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
+#~ msgstr "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
@@ -1012,21 +1011,18 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот "
-#~ "адрес."
+#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот адрес."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr ""
-#~ "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Как запрошено, вот ссылка для установки Firefox на ваше мобильное устройство: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ "
-#~ "к вашему Аккаунту Firefox."
+#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ к "
+#~ "вашему Аккаунту Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата и время:"
@@ -1080,8 +1076,7 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr ""
-#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"
