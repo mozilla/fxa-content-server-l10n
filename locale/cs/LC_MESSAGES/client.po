@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-12 06:59+0000\n"
+"PO-Revision-Date: 2019-10-13 14:54+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -762,7 +762,7 @@ msgstr "Váš e-mail pro ověření se vrátil. Nezadali jste chybný e-mail?"
 
 #: .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Vložte platnou e-mailovou adresu. firefox.com neposkytuje e-mailové služby."
+msgstr "Zadejte platnou e-mailovou adresu. firefox.com neposkytuje e-mailové služby."
 
 #: .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -1250,7 +1250,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
-msgstr "Vložte svůj e-mail"
+msgstr "Zadejte svou e-mailovou adresu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
