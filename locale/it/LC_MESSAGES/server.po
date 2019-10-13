@@ -513,7 +513,7 @@ msgstr "Ultimo promemoria: attiva il tuo account"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Codice di autorizzazione per l’account"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -578,11 +578,11 @@ msgstr "Codice di recupero utilizzato"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "È rimasto 1 codice di recupero"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Sono rimasti %(numberRemaining)s codici di recupero"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
