@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 14:15+0000\n"
+"PO-Revision-Date: 2019-10-14 20:18+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1478,7 +1478,7 @@ msgstr "Não perca esta senha. Se precisar redefinir, poderá perder dados da si
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Conhecimento prático está indo para sua caixa de entrada. Cadastre-se para ter mais:"
+msgstr "Conhecimento prático em sua caixa de entrada. Inscreva-se para receber mais:"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
