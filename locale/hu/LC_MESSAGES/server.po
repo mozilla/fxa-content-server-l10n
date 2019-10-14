@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-14 17:12+0000\n"
+"PO-Revision-Date: 2019-10-14 17:13+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -558,27 +558,27 @@ msgstr "Másik készülék csatlakoztatása"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Elsődleges e-mail frissítve"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Kétlépcsős ellenőrzés engedélyezve"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Kétlépcsős ellenőrzés kikapcsolva"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Helyreállítási kód felhasználva"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 helyreállítási kód maradt"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s helyreállítási kód maradt"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -586,7 +586,7 @@ msgstr "Kódok előállítása"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Jelszó frissítve egy helyreállítási kulcs használatával"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
