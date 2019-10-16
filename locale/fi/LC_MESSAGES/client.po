@@ -657,7 +657,7 @@ msgstr "Epäonnistui ristiriitaisen pyynnön vuoksi, yritä uudelleen."
 
 #: .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Tuntematon asiakas tilaukselle."
 
 #: .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
