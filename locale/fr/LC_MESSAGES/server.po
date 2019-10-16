@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-13 07:43+0000\n"
-"Last-Translator: Elched <elched@hotmail.com>\n"
+"PO-Revision-Date: 2019-10-16 10:30+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Vous devrez saisir votre nouveau mot de passe sur vos autres appareils p
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Vous devrez saisir votre nouveau mot de passe sur vos autres appareils pour reprendre la synchronisation."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -335,11 +335,11 @@ msgstr "Confirmer la connexion"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Si oui, voici le code de vérification :"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Il expire dans 5 minutes."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -391,7 +391,7 @@ msgstr "Une fois confirmé, nous vous aiderons à installer et connecter Firefox
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ceci est un courrier électronique automatique ; si vous n’avez pas autorisé cette action, <a %(passwordChangeLinkAttributes)s>veuillez changer votre mot de passe</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -524,7 +524,7 @@ msgstr "Confirmer l’adresse principale"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Vérifier l’adresse électronique"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
@@ -549,7 +549,7 @@ msgstr "Gérer le compte"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Compte confirmé"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -557,27 +557,27 @@ msgstr "Connecter un autre appareil"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Adresse électronique principale mise à jour"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Validation en deux étapes activée"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "La validation en deux étapes est désactivée"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Code de secours utilisé"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 code de secours restant"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s codes de secours restants"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -585,7 +585,7 @@ msgstr "Générer des codes"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Le mot de passe a été mis à jour à l’aide de la clé de récupération"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
