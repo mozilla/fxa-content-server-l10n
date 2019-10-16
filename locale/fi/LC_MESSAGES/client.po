@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 15:32+0000\n"
+"PO-Revision-Date: 2019-10-16 16:05+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -115,7 +115,7 @@ msgstr "Muu"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Kiitos, että otit yhteyttä Mozilla-tukeen aiheesta <b>%(escapedLowercaseTopic)s</b>. Otamme sinuun yhteyttä sähköpostitse pikimmiten."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
@@ -325,11 +325,11 @@ msgstr "Tilin palauttaminen"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Tilin palauttaminen kytketty päälle"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Tilin palauttaminen peruutettu"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
