@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 16:47+0000\n"
+"PO-Revision-Date: 2019-10-16 17:13+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -449,7 +449,7 @@ msgstr "Taq ochochib'äl"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Taq Ch'utit'im Pwäq"
 
 #: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
@@ -457,7 +457,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -673,15 +673,15 @@ msgstr "Man okel ta rutojik token richin rutz'ib'anïk b'i'aj."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Xq'at yan ri tz'ib'anïk b'i'aj"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Xq'at ri k'exoj, tatojtob'ej chik"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Man okel ta o xk'is ruq'ijl ri rub'itz'ib' jikib'anem"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -854,7 +854,7 @@ msgstr "Tatz'ib'aj jikib'anel b'itz'ib'"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Man okel ta nitaq chik"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -938,7 +938,7 @@ msgstr "Xsach OAuth ko'öl etab'äl: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Man rutikirisan ta molojri'ïl ri winäq"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
