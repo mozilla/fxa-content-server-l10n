@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 17:13+0000\n"
+"PO-Revision-Date: 2019-10-16 17:14+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -942,11 +942,11 @@ msgstr "Man rutikirisan ta molojri'ïl ri winäq"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Jun chik winäq xutikirisaj molojri'ïl"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Man jikib'an ta ri winäq o ri molojri'ïl"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
