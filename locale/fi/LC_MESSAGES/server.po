@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-05 20:07+0000\n"
-"Last-Translator: Teemu <teemu.kaiturinmaki@gmail.com>\n"
+"PO-Revision-Date: 2019-10-12 10:13+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -518,7 +518,7 @@ msgstr ""
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Vahvista ensisijainen sähköpostiosoite"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -526,7 +526,7 @@ msgstr "Vahvista sähköpostiosoite"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Vahvista toissijainen sähköpostiosoite"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -534,11 +534,11 @@ msgstr "Nollaa salasanasi"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Salasana päivitetty"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Epäilyttävää toimintaa havaittu"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -547,7 +547,7 @@ msgstr "Hallinnoi tiliä"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Tili vahvistettu"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -555,7 +555,7 @@ msgstr "Yhdistä toinen laite"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Ensisijainen sähköpostiosoite päivitetty"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
@@ -567,15 +567,15 @@ msgstr ""
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Palautuskoodi käytetty"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 palautuskoodi jäljellä"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s palautuskoodia jäljellä"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -610,7 +610,7 @@ msgstr "Etusivu"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr "500 Virhe"
+msgstr "Virhe 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
@@ -620,7 +620,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr "502 virhe"
+msgstr "Virhe 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -941,11 +941,11 @@ msgstr "Lataa viimeisin"
 #~ msgstr "Nollaa salasana"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa "
-#~ "tiliin yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
+#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa tiliin"
+#~ " yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
@@ -1038,8 +1038,8 @@ msgstr "Lataa viimeisin"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida "
-#~ "Firefoxin salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
+#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida Firefoxin"
+#~ " salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "env"
 #~ msgstr "env"
