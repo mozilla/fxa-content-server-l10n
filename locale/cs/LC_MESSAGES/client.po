@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-13 14:54+0000\n"
+"PO-Revision-Date: 2019-10-16 18:56+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -107,7 +107,7 @@ msgstr "Účet již existuje. <a href=\"/signin\">Přihlášení</a>"
 
 #: .es5/views/support.js:80
 msgid "Please Select One"
-msgstr ""
+msgstr "Vyberte prosím jednu z možností"
 
 #: .es5/views/support.js:215 .es5/templates/support.mustache:5
 msgid "Other"
@@ -938,7 +938,7 @@ msgstr "Chybějící parametr QAuth: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Uživatel není přihlášen"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
@@ -1084,7 +1084,7 @@ msgstr "Zapnout synchronizaci"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Toto zařízení nesynchronizovat"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1246,7 +1246,7 @@ msgstr "Pro pokračování se přihlaste"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních údajů</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1353,11 +1353,11 @@ msgstr "Nedávná aktivita"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Události týkající se bezpečnosti"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Název události"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1369,7 +1369,7 @@ msgstr "Vytvořeno v"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Vymazat události"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
@@ -1377,7 +1377,7 @@ msgstr "Zpět do nastavení"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Platnost vaší platební karty vypršela. Aktualizujte jí <a %(escapedCcExpiredLinkAttrs)s>zde</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1502,7 +1502,7 @@ msgstr "Teď si můžete vzít Firefox všude s sebou."
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Přihlaste se do svých ostatních zařízení a získejte všechny produkty, znalosti a bezpečnostní funkce Firefoxu."
 
 #: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
@@ -1549,7 +1549,7 @@ msgstr "Kontaktujte nás"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Za jakým účelem nás kontaktujete?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1581,7 +1581,7 @@ msgstr "Chápu"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Chcete toto zařízení synchronizovat se svým účtem?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1716,15 +1716,15 @@ msgstr "Smazat…"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Připojili jste svůj účet Firefoxu k produktům Mozilly, které vám na webu pomohou zajistit bezpečí a produktivitu:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Potvrďte prosím, že smazáním účtu:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Budou zrušena všechna předplatná, která máte"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
@@ -1955,7 +1955,7 @@ msgstr "Prohlížeč Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Prohlížejte internet bezpečně na každém svém zařízení."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -1963,7 +1963,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Mějte svá hesla chráněná a pořád s sebou."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2003,7 +2003,7 @@ msgstr "Hmm, máme problémy s naším systémem. Pracujeme na jeho opravě a om
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Vaše zpráva byla odeslána podpoře"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
