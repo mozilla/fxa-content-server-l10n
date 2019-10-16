@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 16:32+0000\n"
+"PO-Revision-Date: 2019-10-16 16:47+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -176,27 +176,27 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Ruk'isib'al samaj %(translatedTimeAgo)s"
+msgstr "Ruk'isib'al rutz'etik %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Ruk'isib'al tz'etoj pa %(translatedTimeAgo)s"
+msgstr "Ruk'isib'al xtz'et pa %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ruk'isib'al tz'etoj %(translatedTimeAgo)s pa %(translatedCountry)s"
+msgstr "Ruk'isib'al xtz'et %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al xtz'et pa %(translatedTimeAgo)s pa %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al xtz'et %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ruk'isib'al xtz'et pa %(translatedTimeAgo)s naqaj chi re %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -256,7 +256,7 @@ msgstr "Ajk'amaya'l Molojri'ïl"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Man etaman ta ruk'isib'al q'ijul xtz'et"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -401,23 +401,23 @@ msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
 #: .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "Chijun taq k'utunïk"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Rutojik & rupaktura'"
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Ruk'ayewal okem"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Nab'ey taq xak"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Ruk'ayewal Rub'i' Taqoya'l"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -429,7 +429,7 @@ msgstr "Natab'äl"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Kitikirisaxik Molojri'ïl chuqa' Ewan taq Tzij"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -437,7 +437,7 @@ msgstr "Taq tz'aqat"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Jaqon taq Ruwi'"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
