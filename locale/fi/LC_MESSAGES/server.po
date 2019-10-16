@@ -57,7 +57,7 @@ msgstr "Syötä uusi salasanasi muihin laitteisiin jatkaaksesi synkronointia."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Syötä uusi salasanasi muihin laitteisiisi jatkaaksesi synkronointia."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -333,11 +333,11 @@ msgstr "Vahvista kirjautuminen"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Jos kyllä, tässä on vahvistuskoodi:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Se vanhenee viidessä minuutissa."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -486,7 +486,7 @@ msgstr "%(country)s (arvio)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Viimeistele tilisi luominen"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -498,11 +498,11 @@ msgstr "Vahvistuskoodi: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Muistutus: viimeistele tilisi luominen"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Viimeinen muistutus: aktivoi tilisi"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
@@ -514,7 +514,7 @@ msgstr "Vahvista uusi kirjautuminen: %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Kirjautumiskoodi palveluun %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"

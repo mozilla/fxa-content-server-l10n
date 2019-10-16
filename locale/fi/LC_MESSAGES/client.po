@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-15 10:51+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2019-10-16 15:32+0000\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +180,7 @@ msgstr "Viimeksi nähty %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Viimeksi nähty yli %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -188,15 +188,15 @@ msgstr "Viimeksi nähty %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Viimeksi nähty yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Viimeksi nähty %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Viimeksi nähty yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -485,7 +485,7 @@ msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan %(retryAfterLocaliz
 
 #: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr "Virheellinen tunniste"
+msgstr "Virheellinen poletti"
 
 #: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
@@ -625,11 +625,11 @@ msgstr "Tämä vahvistuskoodi on vanhentunut"
 
 #: .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "TOTP-poletti on jo olemassa tälle tilille"
 
 #: .es5/lib/auth-errors.js:222
 msgid "TOTP token not found"
-msgstr ""
+msgstr "TOTP-polettia ei löytynyt"
 
 #: .es5/lib/auth-errors.js:226
 msgid "Recovery code not found"
@@ -637,7 +637,7 @@ msgstr "Palautuskoodia ei löytynyt"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Tämä laitekomento ei ole käytettävissä"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Recovery key not found"
@@ -669,7 +669,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Virheellinen maksupoletti tilaukselle."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
@@ -681,7 +681,7 @@ msgstr "Päivitys hylättiin, yritä uudelleen"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Virheellinen tai vanhentunut vahvistuskoodi"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -794,11 +794,11 @@ msgstr "Tiliä ei ole enää olemassa."
 
 #: .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
+msgstr "Virheellinen ominaisuus jatkamispoletissa: %(property)s"
 
 #: .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
-msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
+msgstr "Virheellinen ominaisuus jatkamispoletissa: %(property)s"
 
 #: .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
@@ -1172,7 +1172,7 @@ msgstr "Kirjoita vahvistuskoodi"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Kirjoita osoitteeseen %(escapedEmail)s lähetetty vahvistuskoodi 5 minuutin kuluessa."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1579,11 +1579,11 @@ msgstr "Selvä"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Haluatko synkronoida tämän laitteen tilillesi?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Synkronoi tämä laite"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1999,11 +1999,11 @@ msgstr "Hmm, järjestelmissämme on ilmeisesti ongelmia. Korjaamme vikaa ja paho
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Viestisi lähetettiin tuelle"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Takaisin tilauksiin"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
