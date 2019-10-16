@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-13 17:40+0000\n"
+"PO-Revision-Date: 2019-10-16 19:11+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -114,11 +114,11 @@ msgstr "Іншае"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Дзякуем, што звярнуліся ў службу падтрымкі Mozilla па пытанні <b>%(escapedLowercaseTopic)s</b>. Мы звяжамся з вамі па электроннай пошце як мага хутчэй."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Дзякуем, што звярнуліся ў службу падтрымкі Mozilla па пытанні <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedPlan)s</b>. Мы звяжамся з вамі па электроннай пошце як мага хутчэй."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
 #: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
