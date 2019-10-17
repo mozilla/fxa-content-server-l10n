@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-17 22:51+0000\n"
+"PO-Revision-Date: 2019-10-17 23:04+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1551,15 +1551,15 @@ msgstr "¿Achike ruma toq yojakanoj?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "¿Achike rub'eyal yojtikïr yatqato'?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Taqikil (cha'öy)"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "Rucholik k'ayewal"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1579,11 +1579,11 @@ msgstr "Xik'o pa nuwi'"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "¿La nawajo' naxïm re okisab'äl re' rik'in ri rub'i' ataqoya'l?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Tixim re okisab'äl re'"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1608,7 +1608,7 @@ msgstr "Xk'is"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "Awatar"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
@@ -1718,7 +1718,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Tanataj chi toq nayüj el ri rub'i' ataqoya'l:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
