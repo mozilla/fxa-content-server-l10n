@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-17 14:50+0000\n"
+"PO-Revision-Date: 2019-10-17 14:57+0000\n"
 "Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -387,7 +387,7 @@ msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt-agi, ihi <a %(passwordChangeLinkAttributes)s>snifel awal-inek uffir.</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -520,7 +520,7 @@ msgstr ""
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Seqed tansa-inek imayl"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
@@ -528,11 +528,11 @@ msgstr ""
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Wennez awal uffir-ik"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Awal uffir yettuleqqem"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
@@ -553,7 +553,7 @@ msgstr "Qqen ibenk-nniḍen"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Imayl amezwaru ittuleqqem"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
@@ -569,11 +569,11 @@ msgstr ""
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Qqiment-d 1 n tigalin n usellek"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s tigalin n usellek id-yeqqimen"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -664,7 +664,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Sider aneggaru"
 
 #~ msgid "Account verified!"
 #~ msgstr "Amiḍan yettwasenqed!"
