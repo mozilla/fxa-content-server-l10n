@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 21:57+0000\n"
+"PO-Revision-Date: 2019-10-17 00:31+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -557,11 +557,11 @@ msgstr ""
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Tostegs-verifisering aktivert"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Tostegs-verifisering er slått av"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
