@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 18:15+0000\n"
+"PO-Revision-Date: 2019-10-17 22:51+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1244,7 +1244,7 @@ msgstr "Titikirisäx molojri'ïl richin ri samaj"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1347,15 +1347,15 @@ msgstr "Titikirisäx nitzolïx"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "K'ak'a' Samaj"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Jikon taq Nimaq'ij"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Rub'i' Nimaq'ij"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1363,19 +1363,19 @@ msgstr "Xjikib'äx"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "B'anon Pa"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Keyuj nimaq'ij"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Tib'an chik runuk'ulem"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Ri kredito atarjeta xk'is ruq'ijul. Tak'exa' <a %(escapedCcExpiredLinkAttrs)s>wawe'</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1476,7 +1476,7 @@ msgstr "Man tasäch re ewan tzij re'. We nawajo' natzolij chik, rik'in jub'a' ye
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Choj ruxe' etamab'äl niqatäq chawe. Tatz'ib'aj ab'i' richin nawetamaj ch'aqa' chik:"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
@@ -1492,15 +1492,15 @@ msgstr "Tijal taqoya'l"
 
 #: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "¡Xb'anatäj! Xatikirisaj molojri'ïl."
 
 #: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Wakami jantape' tak'waj ri Firefox awik'in."
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Tatikirisaj molojri'ïl pa jun chik okisab'äl richin yatok pa ronojel rutikomal,  retamab'al chuqa' rusamaj richinanem ri Firefox."
 
 #: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
@@ -1519,23 +1519,23 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "¿Achike ruma toq k'o chi nintikirisaj molojri'ïl pa jun chik okisab'äl?"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Tanik'oj ri atz'ib'anik"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Jun ximonel pa Firefox chokoy xtaq pa %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "¿La man e ütz ta ri taq ajilab'äl?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "We man nak'ül ta ri SMS rutzijol, yatikïr nakanoj ruchokoy ri “Firefox.”"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1543,11 +1543,11 @@ msgstr "¿La man xapon ta? Titaq chik"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Kojakanoj"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "¿Achike ruma toq yojakanoj?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
