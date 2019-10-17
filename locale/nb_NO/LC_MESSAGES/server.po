@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 21:31+0000\n"
+"PO-Revision-Date: 2019-10-17 11:04+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -505,7 +505,7 @@ msgstr "Siste påminnelse: Aktiver din konto"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr "G odkjenningskode for konto"
+msgstr "Godkjenningskode for konto"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
