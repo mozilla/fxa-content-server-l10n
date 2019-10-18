@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-17 14:52+0000\n"
-"Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
+"PO-Revision-Date: 2019-10-18 09:40+0000\n"
+"Last-Translator: Selyan Slimane Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -416,7 +416,7 @@ msgstr "Bdu"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Uguren n umiḍan"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -672,15 +672,15 @@ msgstr "Lexlas n ujiṭun i umulteɣ mačči d ameɣtu."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Ajerrrd ittwafsex yakan"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Ur ittwaqbel ara uleqqem, ttxil ɛreḍ tikkelt-nniḍen"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Tangalt n usentem mačči d tameɣtut neɣ temmut"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
