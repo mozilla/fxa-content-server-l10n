@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
+"POT-Creation-Date: 2019-10-18 08:01+0000\n"
 "PO-Revision-Date: 2019-08-11 09:55+0000\n"
 "Last-Translator: Sahithi <sahithi@swecha.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +104,19 @@ msgstr "ఈ ఖాతా ఇపుడు లేనేలేదు. తిరి�
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">ప్రవేశించండి</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr ""
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 

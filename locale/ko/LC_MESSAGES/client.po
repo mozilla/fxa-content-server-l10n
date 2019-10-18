@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
+"POT-Creation-Date: 2019-10-18 08:01+0000\n"
 "PO-Revision-Date: 2019-07-05 03:20+0000\n"
 "Last-Translator: 종이상자 <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습�
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "이미 있는 계정입니다. <a href=\"/signin\">가입하기</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
 msgstr ""
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr ""
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 

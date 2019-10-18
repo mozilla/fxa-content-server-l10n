@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-09-30 23:09+0000\n"
+"POT-Creation-Date: 2019-10-18 08:01+0000\n"
+"PO-Revision-Date: 2019-10-11 15:55+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
-msgstr "Få återställningskoder kvar"
+msgstr "Få återställningskoder återstår"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -486,7 +486,7 @@ msgstr "%(country)s (uppskattad)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Slutför skapande av ditt konto"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -498,15 +498,15 @@ msgstr "Verifieringskod: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Påminnelse: Slutför skapande av ditt konto"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Sista påminnelse: Aktivera ditt konto"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Behörighetskod för konto"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -514,11 +514,11 @@ msgstr "Bekräfta ny inloggning till %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Inloggningskod för %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Bekräfta primär e-postadress"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -526,7 +526,7 @@ msgstr "Verifiera e-postadress"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Bekräfta sekundär e-postadress"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -534,11 +534,11 @@ msgstr "Återställ lösenordet"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Lösenord uppdaterat"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Misstänkt aktivitet upptäckt"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -547,7 +547,7 @@ msgstr "Hantera konto"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Kontot bekräftat"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -555,27 +555,27 @@ msgstr "Ansluta en annan enhet"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Primär e-post uppdaterad"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Tvåstegsverifiering aktiverad"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Tvåstegsverifiering är avstängd"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Återställningskod använd"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 återställningskod återstår"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s återställningskoder återstår"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -583,7 +583,7 @@ msgstr "Generera koder"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Lösenord uppdaterat med återställningsnyckel"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"

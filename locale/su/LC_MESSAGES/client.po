@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
+"POT-Creation-Date: 2019-10-18 08:01+0000\n"
 "PO-Revision-Date: 2019-10-10 06:15+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "Horéng akun téh euweuh. Jieun ulang baé?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun geus aya. <a href=\"/signin\">Asup</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
 msgstr "Mangga Pilih Hiji"
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Lianna"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Nuhun geus nepungan Mozilla Support ngeunaan <b>%(escapedLowercaseTopic)s</b>. Dia bakal diiberan maké surél sagancangna."
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "Nuhun geus nepungan Mozilla Support ngeunaan <b>%(escapedLowercaseTopic)s</b> pikeun <b>%(escapedSelectedPlan)s</b>. Dia bakal diiberan maké surél sagancangna."
 
