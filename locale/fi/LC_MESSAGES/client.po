@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-16 16:05+0000\n"
+"PO-Revision-Date: 2019-10-18 19:08+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -119,7 +119,7 @@ msgstr "Kiitos, että otit yhteyttä Mozilla-tukeen aiheesta <b>%(escapedLowerca
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Kiitos, että otit yhteyttä Mozilla-tukeen aiheesta <b>%(escapedLowercaseTopic)s</b> tasolle <b>%(escapedSelectedPlan)s</b>. Otamme sinuun yhteyttä sähköpostitse pikimmiten."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
 #: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
@@ -665,7 +665,7 @@ msgstr "Tuntematon tilaus."
 
 #: .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Tuntematon tilaustaso."
 
 #: .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
