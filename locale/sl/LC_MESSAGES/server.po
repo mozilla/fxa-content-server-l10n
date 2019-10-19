@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-11 10:02+0000\n"
+"PO-Revision-Date: 2019-10-18 05:57+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -503,7 +503,7 @@ msgstr "Zadnji opomnik: Aktivirajte svoj račun"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Overitvena koda računa"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -515,7 +515,7 @@ msgstr "Koda za prijavo v %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Potrdi glavni e-poštni naslov"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -523,7 +523,7 @@ msgstr "Potrdi e-poštni naslov"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Potrdi drugi e-poštni naslov"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -556,11 +556,11 @@ msgstr "Glavni e-poštni naslov posodobljen"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Preverjanje v dveh korakih je omogočeno"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Preverjanje v dveh korakih je izključeno"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
