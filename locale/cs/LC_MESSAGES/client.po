@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-19 15:31+0000\n"
+"PO-Revision-Date: 2019-10-19 15:45+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -99,11 +99,11 @@ msgstr "Neznámý účet. <a href=\"/signup\">Registrace</a>"
 
 #: .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
-msgstr "Účet již neexistuje. Znovu jej vytvořit?"
+msgstr "Účet už neexistuje. Chcete ho znovu vytvořit?"
 
 #: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Účet již existuje. <a href=\"/signin\">Přihlášení</a>"
+msgstr "Účet už existuje. <a href=\"/signin\">Přihlaste se</a>"
 
 #: .es5/views/support.js:80
 msgid "Please Select One"
@@ -305,7 +305,7 @@ msgstr "Vygenerovány nové obnovovací kódy"
 
 #: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
-msgstr "Dvoufázové ověření zapnuto"
+msgstr "Dvoufázové ověřování zapnuto"
 
 #: .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -313,11 +313,11 @@ msgstr "Pro nastavení dvoufázového ověřování v podporovaných aplikacích
 
 #: .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
-msgstr "Dvoufázové ověření zrušeno"
+msgstr "Dvoufázové ověřování zrušeno"
 
 #: .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
-msgstr "Dvoufázové ověření"
+msgstr "Dvoufázové ověřování"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
@@ -473,7 +473,7 @@ msgstr "Neočekávaná chyba"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
+msgstr "Platnost tohoto odkazu pro ověření vaší e-mailové adresy už vypršela."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -497,7 +497,7 @@ msgstr "Neplatné ověření v podpisu požadavku"
 
 #: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
-msgstr "Účet již existuje"
+msgstr "Účet už existuje"
 
 #: .es5/lib/auth-errors.js:58
 msgid "Unknown account"
@@ -673,7 +673,7 @@ msgstr "Neplatný platební token předplatného."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr "Předplatné již bylo zrušeno"
+msgstr "Předplatné už bylo zrušeno"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
@@ -698,7 +698,7 @@ msgstr "Systém je nedostupný, zkuste to znovu později"
 
 #: .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
-msgstr "Tento koncový bod již není podporován"
+msgstr "Tento koncový bod už není podporován"
 
 #: .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
@@ -778,7 +778,7 @@ msgstr "Rozměry obrázku musí být minimálně 100x100px"
 
 #: .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Přihlášení k Firefoxu pro iOS již brzy"
+msgstr "Přihlášení k Firefoxu pro iOS už brzy"
 
 #: .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
@@ -790,7 +790,7 @@ msgstr "Pro registraci musíte zadat platný věk"
 
 #: .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
-msgstr "Účet již neexistuje."
+msgstr "Účet už neexistuje."
 
 #: .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
@@ -810,7 +810,7 @@ msgstr "Chybějící datový atribut: %(property)s"
 
 #: .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "Tento potvrzovací odkaz již byl použit (každý odkaz lze použít pouze jednou)."
+msgstr "Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit."
 
 #: .es5/lib/auth-errors.js:491
 msgid "This is a required field"
@@ -1024,7 +1024,7 @@ msgstr "Platnost odkazu pro obnovení hesla vypršela"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Platnost odkazu pro obnovení hesla již vypršela."
+msgstr "Platnost odkazu pro obnovení hesla už vypršela."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -1108,7 +1108,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si jej na bezpečné místo."
+msgstr "Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné místo."
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -1116,11 +1116,11 @@ msgstr "Pamatujete si heslo? Přihlaste se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Hlavní adresa již byla ověřena"
+msgstr "Hlavní adresa už byla ověřena"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr "Přihlášení již bylo potvrzeno"
+msgstr "Přihlášení už bylo potvrzeno"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
@@ -1410,7 +1410,7 @@ msgstr "Pokud se jedná o platnou e-mailovou adresu, <a %(escapedSupportLinkAttr
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Již tento e-mail nevlastníte? Vytvořte si nový účet"
+msgstr "Už tento e-mail nevlastníte? Vytvořte si nový účet"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1622,7 +1622,7 @@ msgstr "Odpojit od služby Sync?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Soukromá data na zařízení %(deviceName)s zůstanou, ale již se nadále nebudou synchronizovat s vaším účtem."
+msgstr "Soukromá data na zařízení %(deviceName)s zůstanou, ale už se nadále nebudou synchronizovat s vaším účtem."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1793,7 +1793,7 @@ msgstr "Správa…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr "Dvoufázové ověření"
+msgstr "Dvoufázové ověřování"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
