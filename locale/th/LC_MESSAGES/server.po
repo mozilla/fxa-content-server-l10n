@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-14 11:51+0000\n"
-"Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
+"PO-Revision-Date: 2019-10-19 11:36+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -425,7 +425,7 @@ msgstr "ข้อกำหนดในการให้บริการขอ
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "ข้อกำหนดและนโยบายการยกเลิก"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -441,7 +441,7 @@ msgstr "อัปเดตข้อมูลการเรียกเก็บ
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "ข้อกำหนดและนโยบายการยกเลิก:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -497,7 +497,7 @@ msgstr "แจ้งเตือน: สร้างบัญชีของค�
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "การแจ้งเตือนครั้งสุดท้าย: เปิดใช้งานบัญชีของคุณ"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
@@ -517,7 +517,7 @@ msgstr "ยืนยันอีเมลหลัก"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "ยืนยันอีเมล"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
@@ -525,15 +525,15 @@ msgstr "ยืนยันอีเมลสำรอง"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "รหัสผ่านได้ถูกเปลี่ยนแล้ว"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "ตรวจพบกิจกรรมที่น่าสงสัย"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -550,7 +550,7 @@ msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "อีเมลหลักได้รับการปรับปรุงแล้ว"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
