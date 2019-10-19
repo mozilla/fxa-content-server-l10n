@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-18 20:15+0000\n"
+"PO-Revision-Date: 2019-10-19 13:30+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -257,7 +257,7 @@ msgstr "Sesida web"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Ultima data d'access nunenconuschenta"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -402,23 +402,23 @@ msgstr "Reussì da verifitgar il conto"
 
 #: .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "Dumondas generalas"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pajaments & facturaziun"
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Problems da connexiun"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Entschaiver"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Problems cun il conto"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -430,7 +430,7 @@ msgstr "Cronologia"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Infurmaziuns d'annunzia e pleds-clav"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -438,7 +438,7 @@ msgstr "Supplements"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Tabs averts"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -450,7 +450,7 @@ msgstr "Adressas"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Cartas da credit"
 
 #: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
@@ -458,7 +458,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -674,15 +674,15 @@ msgstr "Token da pajament nunvalid per l'abunament."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "L'abunament è gia vegnì annullà"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "L'actualisaziun è vegnida refusada, per plaschair empruvar anc ina giada"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Code da verificaziun nunvalid u scrudà"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -855,7 +855,7 @@ msgstr "Endatescha per plaschair il code da verificaziun"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Renviament nunvalid"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -871,7 +871,7 @@ msgstr "Has ti manegià <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s<
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Testescha novs products da Firefox"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -939,15 +939,15 @@ msgstr "Parameter dad OAuth mancant: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "L'utilisader n'è betg annunzià"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "In auter utilisader è annunzià"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Utilisader/utilisadra u sessiun betg verifitgada"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
@@ -1077,15 +1077,15 @@ msgstr "Dapli infurmaziuns"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "Sincronisescha questas datas sin tut ils apparats annunziads:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "Activar Sync"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Betg sincronisar quest apparat"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1171,7 +1171,7 @@ msgstr "Clicca entaifer la proxima ura sin la colliaziun tramessa via e-mail a %
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Endatar il code da verificaziun"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
