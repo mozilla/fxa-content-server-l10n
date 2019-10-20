@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-19 13:30+0000\n"
+"PO-Revision-Date: 2019-10-20 09:53+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -181,23 +181,23 @@ msgstr "Vis l'ultima giada %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli)"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Vis l'ultima giada %(translatedTimeAgo)s en: %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli) en: %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Vis l'ultima giada %(translatedTimeAgo)s damanaivel da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli) damanaivel da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -1175,7 +1175,7 @@ msgstr "Endatar il code da verificaziun"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Per plaschair endatar entaifer 5 minutas il code da verificaziun ch'è vegnì tramess a %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1247,7 +1247,7 @@ msgstr "S'annunziar per cuntinuar"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">directivas davart la protecziun da datas</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1306,7 +1306,7 @@ msgstr "Acceptar"
 
 #: .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
-msgstr ""
+msgstr "Cumenzar a navigar"
 
 #: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
@@ -1350,15 +1350,15 @@ msgstr "Cumenzar da redefinir"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Activitad recenta"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Eveniments da segirezza"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Num da l'eveniment"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1366,19 +1366,19 @@ msgstr "Verifitgà"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Creà ils"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Stizzar ils eveniments"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Turnar als parameters"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Tia carta da credit è scrudada. Per plaschair l'actualisar <a %(escapedCcExpiredLinkAttrs)s>qua</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1479,7 +1479,7 @@ msgstr "Na perda betg quest pled-clav. Sche ti al stos reinizialisar, perdas ti 
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Ti retschaivas tips pratics directamain en tia chascha postala. Ta registrescha per vegnir a savair anc dapli:"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
@@ -1491,19 +1491,19 @@ msgstr "Has ti in conto? T'annunzia"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
-msgstr ""
+msgstr "Midar l'adressa dad e-mail"
 
 #: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "Fatg! Ti es annunzià."
 
 #: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Installescha Firefox sin tut tes apparats."
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "T'annunzia cun tes auters apparats per profitar da tut ils products, las enconuschientschas e las funcziuns per la protecziun da datas da Firefox."
 
 #: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
@@ -1522,23 +1522,23 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Pertge s'annunziar cun in auter apparat?"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Controllescha tes SMS"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Ina colliaziun a l'app da Firefox è vegnida tramessa a %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Numer sbaglià?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Sche ti na survegns betg il SMS, pos ti era tschertgar «Firefox» en tes app store."
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1546,23 +1546,23 @@ msgstr "Betg arrivà? Trametter anc ina giada"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Ans contactescha"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Pertge ans contacteschas?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Co ta pudain nus gidar?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Object (facultativ)"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "Descripziun dal problem"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1584,11 +1584,11 @@ msgstr "Jau hai chapì"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Vuls ti sincronisar quest apparat cun tes conto?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sincronisar quest apparat"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1613,7 +1613,7 @@ msgstr "Finì"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
@@ -1719,23 +1719,23 @@ msgstr "Stizzar…"
 
 #: .es5/templates/settings/delete_account.mustache:5
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Ti has connectà tes conto da Firefox cun products da Mozilla che ta gidan da navigar a moda segira e productiva en il web:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Considerescha, cun stizzar tes conto:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Vegnan annullads eventuals abunaments pajads"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Perdas ti eventualmain infurmaziuns memorisadas e funcziuns che fan part da products da Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "La reactivaziun cun questa adressa dad e-mail na po betg restaurar tias infurmaziuns memorisadas"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
