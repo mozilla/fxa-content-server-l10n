@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-08-05 15:31+0000\n"
-"Last-Translator: ravi <ravi.103151@gmail.com>\n"
+"PO-Revision-Date: 2019-10-21 17:51+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -109,11 +109,11 @@ msgstr "खाता पहले से मौजूद है. <a href=\"/sign
 
 #: .es5/views/support.js:80
 msgid "Please Select One"
-msgstr ""
+msgstr "कृपया एक का चयन करें"
 
 #: .es5/views/support.js:215 .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "अन्य"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -174,7 +174,8 @@ msgstr "हमें इस बारे में सुन के खेद �
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
+msgstr ""
+"हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
@@ -258,7 +259,7 @@ msgstr "वेब सत्र"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "अंतिम बार देखा गया समय अज्ञात"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -407,19 +408,19 @@ msgstr "सामान्य पूछताछ"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "भुगतान और बिलिंग"
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "संपर्क समस्याएँ"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "प्रारंभ हो रहा है"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "खाते की समस्याएँ"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -431,7 +432,7 @@ msgstr "इतिहास"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "लॉगिन और पासवर्ड"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -439,7 +440,7 @@ msgstr "ऐड-ऑन्स"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "टैब खोलें"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -451,7 +452,7 @@ msgstr "पता"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "क्रेडिट कार्ड"
 
 #: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
@@ -459,7 +460,7 @@ msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -940,15 +941,15 @@ msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "उपयोगकर्ता साइन इन नहीं है"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "एक अन्य उपयोगकर्ता साइन इन है"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "असत्यापित उपयोगकर्ता या सत्र"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
@@ -979,9 +980,7 @@ msgid "Invalid Token"
 msgstr "अमान्य टोकन"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
@@ -1047,8 +1046,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "कृपया अपने Firefox खाते तक पहुंच प्राप्त करने के लिए एक सुरक्षित स्थान पर संग्रहीत रिकवरी कुंजी का उपयोग करें।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1081,11 +1079,11 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "सिंक सक्षम करें"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "इस उपकरण को सिंक न करें"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1104,8 +1102,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता को "
-"सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
+"<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि "
+"हम आपकी गोपनीयता को सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1171,7 +1169,7 @@ msgstr "नया पासवर्ड बनाने के लिए अग�
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "सत्यापन कोड दर्ज करें"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1341,8 +1339,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता की सुरक्षा के लिए "
-"आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
+"<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी "
+"गोपनीयता की सुरक्षा के लिए आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1350,15 +1348,15 @@ msgstr "रीसेट शुरू करें"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "हाल की गतिविधि"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "सुरक्षा उपक्रम"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "उपक्रम नाम"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1366,15 +1364,15 @@ msgstr "सत्‍यापित किया गया"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "पर निर्मित"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "उपक्रमों को हटाएँ"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "वापस सेटिंग पर"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1548,19 +1546,19 @@ msgstr "हमसे संपर्क करें"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "आप हमसे किस बारे में संपर्क कर रहे हैं?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "आपको क्या सहायता चाहिए?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
-msgstr ""
+msgstr "विषय (वैकल्पिक)"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "समस्या का विवरण"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1580,11 +1578,11 @@ msgstr "समझ गए"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "क्या आप इस उपकरण को अपने खाते से सिंक करना चाहेंगे?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "इस उपकरण को सिंक करें"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1609,7 +1607,7 @@ msgstr "समाप्त"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "अवतार"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
@@ -1905,8 +1903,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 का चरण 2: रिकवरी कुंजी सहेजें"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1919,7 +1916,7 @@ msgstr "आपकी उम्र क्या है?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(OS)s पर %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -1971,7 +1968,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
-msgstr ""
+msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
@@ -2005,7 +2002,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "वापस सदस्यताओं पर"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -2037,7 +2034,7 @@ msgstr "<small>अब आपके अन्य डिवाइस </small> स�
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "संसर्ग सफल नहीं रहा"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -2309,12 +2306,10 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड "
-#~ "सेवाओं की."
+#~ "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">निजी सूचना</a> "
+#~ "फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "फ़ायरफ़ॉक्स क्लाउड सेवायें"
@@ -2598,7 +2593,9 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
+#~ msgstr ""
+#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी "
+#~ "कार्यात्मकता प्रदान करते हैं."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
@@ -2730,7 +2727,8 @@ msgstr ""
 #~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
+#~ msgstr ""
+#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #~ msgid "You are signed in as"
 #~ msgstr "आप निम्न के रूप में साइन इन हैं"
