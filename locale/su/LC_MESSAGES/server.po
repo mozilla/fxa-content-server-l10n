@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-22 07:53+0000\n"
+"PO-Revision-Date: 2019-10-22 07:55+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -527,15 +527,15 @@ msgstr "Puguhkeun surél sekundér"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Setél ulang kecap sandi anjeun"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Kecap sandi geus diropéa"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Aya kagiatan picurigaeun"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -544,7 +544,7 @@ msgstr "Kokolakeun akun"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Akun geus dikonfirmasi"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
