@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-23 16:09+0000\n"
+"PO-Revision-Date: 2019-10-23 16:14+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -395,7 +395,7 @@ msgstr "Impresso"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Email primário verificado com sucesso"
+msgstr "E-mail principal confirmado com sucesso"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
@@ -403,23 +403,23 @@ msgstr "Conta verificada com sucesso"
 
 #: .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "Perguntas gerais"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pagamento e faturação"
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Problemas de ligação"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Começar"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Problemas com a conta"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -431,7 +431,7 @@ msgstr "Histórico"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Credenciais e palavras-passe"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -439,7 +439,7 @@ msgstr "Extras"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Separadores abertos"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -451,7 +451,7 @@ msgstr "Endereços"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Cartões de crédito"
 
 #: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
@@ -459,7 +459,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -683,7 +683,7 @@ msgstr "A atualização foi rejeitada, por favor tente novamente"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Código de confirmação inválido ou expirado"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -856,7 +856,7 @@ msgstr "Por favor introduza o código de verificação"
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Redirecionamento inválido"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -940,7 +940,7 @@ msgstr "Parâmetro OAuth em falta: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "O utilizador não iniciou sessão"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
