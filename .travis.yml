@@ -21,7 +21,7 @@ notifications:
       - rfk@mozilla.com
       - stomlinson@mozilla.com
       - vfilippov@mozilla.com
-      - pbooth@mozilla.com
+      - wclouser@mozilla.com
     on_success: change
     on_failure: always
 
