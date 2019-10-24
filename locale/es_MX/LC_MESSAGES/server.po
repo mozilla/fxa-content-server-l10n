@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-21 18:56+0000\n"
+"PO-Revision-Date: 2019-10-24 18:04+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -434,35 +434,35 @@ msgstr "Términos del servicio de Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Términos y política de cancelación"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Aviso de privacidad"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Cancelar suscripción"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Actualizar información de facturación"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Términos y política de cancelación:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Aviso de privacidad:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Cancelar suscripción:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Actualizar información de facturación:"
 
 #: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -490,7 +490,7 @@ msgstr "%(country)s (estimado)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Terminar de crear tu cuenta"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -498,19 +498,19 @@ msgstr "Confirmar correo electrónico"
 
 #: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Código de verificación: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Recordatorio: Terminar de crear tu cuenta"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Recordatorio final: Activa tu cuenta"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Código de autorización de la cuenta"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -518,31 +518,31 @@ msgstr "Confirmar nuevo inicio de sesión en %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Código de inicio de sesión para %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Confirmar correo principal"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Verificar correo"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Confirmar correo secundario"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Restablecer tu contraseña"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Contraseña actualizada"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Actividad sospechosa detectada"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -551,7 +551,7 @@ msgstr "Administrar cuenta"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Cuenta confirmada"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -559,27 +559,27 @@ msgstr "Conectar otro dispositivo"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Correo principal actualizado"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Verificación en dos pasos habilitada"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Verificación en dos pasos deshabilitada"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Código de recuperación utilizado"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Queda 1 código de recuperación"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Quedan %(numberRemaining)s códigos de recuperación"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -587,7 +587,7 @@ msgstr "Generar códigos"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Contraseña actualizada usando la clave de recuperación"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
