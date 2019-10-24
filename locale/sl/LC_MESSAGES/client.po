@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-18 05:54+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-10-24 13:06+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgstr "Drugo"
 
 #: .es5/views/support.js:216
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Hvala, ker ste se obrnili na Mozillino podporo o <b>%(escapedLowercaseTopic)s</b>. V najkrajšem možnem času se bomo obrnili na vas po e-pošti."
 
 #: .es5/views/support.js:218
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
@@ -176,7 +176,7 @@ msgstr "Žal nam je. Če je to naprava, ki ji ne zaupate, spremenite geslo za Fi
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Nazadnje viden %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
