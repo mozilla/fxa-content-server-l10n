@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-18 09:36+0000\n"
+"PO-Revision-Date: 2019-10-24 08:27+0000\n"
 "Last-Translator: Selyan Slimane Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Ad immet deg 5 n tseddatin."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -367,7 +367,7 @@ msgstr "Ticki ittwasenqed, tansa-yagi ad s-yaweḍ isentam akked ilγa n tγelli
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "D kečč i d-yessutren ajerred-agi?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
