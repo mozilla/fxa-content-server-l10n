@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-02 13:58+0000\n"
+"POT-Creation-Date: 2019-10-25 08:01+0000\n"
+"PO-Revision-Date: 2019-10-17 17:11+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -105,24 +105,24 @@ msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
 msgstr "Selektearje ien"
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Oars"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b> foar <b>%(escapedSelectedPlan)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
-#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Wachtwurd"
 
@@ -156,7 +156,7 @@ msgstr "Wizigje"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -681,7 +681,7 @@ msgstr "Fernijing waard wegere, probearje it nochris"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Unjildige of ferrûne ferifikaasjekoade"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -1159,7 +1159,7 @@ msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Tebek"
 
@@ -1177,7 +1177,7 @@ msgstr "Fier ferifikaasjekoade yn"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei %(escapedEmail)s ferstjoerd is."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5
 msgid "Enter 6-digit code"
@@ -1390,8 +1390,7 @@ msgstr "Firefox-accounts"
 msgid "Sign out"
 msgstr "Ofmelde"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "In oar account brûke"
 
@@ -1427,9 +1426,9 @@ msgstr "Fier in werstelkoade yn dy't by it ynstellen opjûn is."
 msgid "Enter 10-digit recovery code"
 msgstr "Fier 10-siferige werstelkoade yn"
 
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Use security code"
-msgstr "Befeiligingskoade brûke"
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1455,9 +1454,9 @@ msgstr "Fier befeiligingskoade yn"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn."
 
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Use recovery code"
-msgstr "Werstelkoade brûke"
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1709,7 +1708,7 @@ msgstr "Steat fernije"
 msgid "Email preferences"
 msgstr "E-mailfoarkarren"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Account fuortsmite"
 
@@ -1717,23 +1716,27 @@ msgstr "Account fuortsmite"
 msgid "Delete…"
 msgstr "Fuortsmite…"
 
-#: .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Jo hawwe jo Firefox-account ferbûn mei Mozilla-produkten dy't jo feilich en produktyf hâlde op ynternet:"
 
-#: .es5/templates/settings/delete_account.mustache:14
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
 msgstr "Befêstigje dat troch jo account fuort te smiten:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Alle betelle abonneminten dy't jo hawwe wurde annulearre"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Jo bewarre ynformaasje en funksjes yn Mozilla-produkten ferlieze kinne"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje"
 
@@ -2080,6 +2083,12 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "Use security code"
+#~ msgstr "Befeiligingskoade brûke"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Werstelkoade brûke"
 
 #~ msgid "Last sync %(translatedTimeAgo)s"
 #~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
+"POT-Creation-Date: 2019-10-25 08:01+0000\n"
 "PO-Revision-Date: 2019-10-10 07:46+0000\n"
 "Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,24 +105,24 @@ msgstr "Akun sudah tidak ada. Buat ulang?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
 msgstr "Silakan Pilih Satu"
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Lainnya"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
-#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Sandi"
 
@@ -156,7 +156,7 @@ msgstr "Ganti"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -1159,7 +1159,7 @@ msgstr "Periksa surel Anda untuk tautan konfirmasi proses masuk yang dikirim ke 
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Tak ada di kotak masuk atau folder spam? Kirim ulang"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "Kembali"
 
@@ -1390,8 +1390,7 @@ msgstr "Firefox Account"
 msgid "Sign out"
 msgstr "Keluar"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "Gunakan akun lain"
 
@@ -1427,9 +1426,9 @@ msgstr "Silakan masukkan kode pemulihan yang tersedia pada saat pengaturan."
 msgid "Enter 10-digit recovery code"
 msgstr "Masukkan 10 digit kode pemulihan"
 
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Use security code"
-msgstr "Gunakan kode keamanan"
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1455,9 +1454,9 @@ msgstr "Masukkan kode keamanan"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Buka aplikasi autentikasi Anda dan masukkan kode keamanan yang disediakan."
 
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Use recovery code"
-msgstr "Gunakan kode pemulihan"
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1709,7 +1708,7 @@ msgstr "Segarkan status"
 msgid "Email preferences"
 msgstr "Pengaturan email"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Hapus akun"
 
@@ -1717,23 +1716,27 @@ msgstr "Hapus akun"
 msgid "Delete…"
 msgstr "Hapus…"
 
-#: .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:14
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr ""
 
@@ -2080,6 +2083,12 @@ msgstr "Pasangkan menggunakan aplikasi"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam aplikasi Firefox."
+
+#~ msgid "Use security code"
+#~ msgstr "Gunakan kode keamanan"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Gunakan kode pemulihan"
 
 #~ msgid "Last sync %(translatedTimeAgo)s"
 #~ msgstr "Terakhir disinkronkan %(translatedTimeAgo)s"

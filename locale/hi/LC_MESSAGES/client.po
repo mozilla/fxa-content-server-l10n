@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-08-05 15:31+0000\n"
-"Last-Translator: ravi <ravi.103151@gmail.com>\n"
+"POT-Creation-Date: 2019-10-25 08:01+0000\n"
+"PO-Revision-Date: 2019-10-21 18:09+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -107,30 +107,30 @@ msgstr "खाता अब मौजूद नहीं है। इसका 
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
-#: .es5/views/support.js:80
+#: .es5/views/support.js:82
 msgid "Please Select One"
-msgstr ""
+msgstr "कृपया एक का चयन करें"
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:219 .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "अन्य"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:220
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:222
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
-#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:6 .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "कूटशब्द"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "बदलें..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -158,7 +158,7 @@ msgstr "बदलें"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:9
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -178,7 +178,7 @@ msgstr "हमें इसके बारे में सुनने के 
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "अंतिम बार देखा गया %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
@@ -258,7 +258,7 @@ msgstr "वेब सत्र"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "अंतिम बार देखा गया समय अज्ञात"
 
 #: .es5/views/settings/delete_account.js:227
 msgid "Account deleted successfully"
@@ -407,19 +407,19 @@ msgstr "सामान्य पूछताछ"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "भुगतान और बिलिंग"
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "संपर्क समस्याएँ"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "प्रारंभ हो रहा है"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "खाते की समस्याएँ"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -431,7 +431,7 @@ msgstr "इतिहास"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "लॉगिन और पासवर्ड"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -439,7 +439,7 @@ msgstr "ऐड-ऑन्स"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "टैब खोलें"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -451,7 +451,7 @@ msgstr "पता"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "क्रेडिट कार्ड"
 
 #: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
@@ -459,7 +459,7 @@ msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -683,7 +683,7 @@ msgstr "अद्यतन अस्वीकार कर दिया गय�
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "अमान्य या समाप्त सत्यापन कोड"
 
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
@@ -856,7 +856,7 @@ msgstr "कृपया सत्यापन कोड दर्ज करे�
 
 #: .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "अमान्य पुनर्निर्देश"
 
 #: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -940,15 +940,15 @@ msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "उपयोगकर्ता साइन इन नहीं है"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "एक अन्य उपयोगकर्ता साइन इन है"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "असत्यापित उपयोगकर्ता या सत्र"
 
 #: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
@@ -1077,15 +1077,15 @@ msgstr "अधिक जानें"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "इन्हें सभी जगह सिंक करें जहाँ आप साइन इन करते हैं:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "सिंक सक्षम करें"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "इस उपकरण को सिंक न करें"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1157,7 +1157,7 @@ msgstr "%(escapedEmail)s पर भेजे गए साइन-इन पु�
 msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/tos.mustache:2
 msgid "Back"
 msgstr "पीछे"
 
@@ -1171,7 +1171,7 @@ msgstr "नया पासवर्ड बनाने के लिए अग�
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "सत्यापन कोड दर्ज करें"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1350,15 +1350,15 @@ msgstr "रीसेट शुरू करें"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "हाल की गतिविधि"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "सुरक्षा उपक्रम"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "उपक्रम नाम"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1366,15 +1366,15 @@ msgstr "सत्‍यापित किया गया"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "पर निर्मित"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "उपक्रमों को हटाएँ"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "वापस सेटिंग पर"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1388,8 +1388,7 @@ msgstr "Firefox खाता"
 msgid "Sign out"
 msgstr "साइन आउट"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "भिन्न खाता उपयोग करें"
 
@@ -1425,9 +1424,9 @@ msgstr "कृपया एक पुनर्प्राप्ति कोड
 msgid "Enter 10-digit recovery code"
 msgstr "10-अंकों का पुनर्प्राप्ति कोड दर्ज करें"
 
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Use security code"
-msgstr "सुरक्षा कोड का प्रयोग करें"
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1453,9 +1452,9 @@ msgstr "सुरक्षा कोड दर्ज करें"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "अपना प्रमाणीकरण ऐप खोलें और जो इसके द्वारा प्रदान किया गया सुरक्षा कोड दर्ज करें."
 
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Use recovery code"
-msgstr "पुनर्प्राप्त कोड का प्रयोग करें"
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1548,19 +1547,19 @@ msgstr "हमसे संपर्क करें"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "आप हमसे किस बारे में संपर्क कर रहे हैं?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "आपको क्या सहायता चाहिए?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
-msgstr ""
+msgstr "विषय (वैकल्पिक)"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "समस्या का विवरण"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1580,11 +1579,11 @@ msgstr "समझ गए"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "क्या आप इस उपकरण को अपने खाते से सिंक करना चाहेंगे?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "इस उपकरण को सिंक करें"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1609,7 +1608,7 @@ msgstr "समाप्त"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "अवतार"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
@@ -1705,7 +1704,7 @@ msgstr "स्थिति ताज़ा करें"
 msgid "Email preferences"
 msgstr "ईमेल अधिमान"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "खाता नष्ट करें"
 
@@ -1713,23 +1712,27 @@ msgstr "खाता नष्ट करें"
 msgid "Delete…"
 msgstr "मिटाएँ…"
 
-#: .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:14
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr ""
 
@@ -1919,7 +1922,7 @@ msgstr "आपकी उम्र क्या है?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(OS)s पर %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -1967,11 +1970,11 @@ msgstr "Firefox मॉनीटर"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "डेटा उल्लंघनों की तलाश करें।"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
-msgstr ""
+msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
@@ -2005,7 +2008,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "वापस सदस्यताओं पर"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -2037,7 +2040,7 @@ msgstr "<small>अब आपके अन्य डिवाइस </small> स�
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "संसर्ग सफल नहीं रहा"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -2074,6 +2077,12 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Use security code"
+#~ msgstr "सुरक्षा कोड का प्रयोग करें"
+
+#~ msgid "Use recovery code"
+#~ msgstr "पुनर्प्राप्त कोड का प्रयोग करें"
 
 #~ msgid "Last sync %(translatedTimeAgo)s"
 #~ msgstr "अंतिम संकालन %(translatedTimeAgo)s"

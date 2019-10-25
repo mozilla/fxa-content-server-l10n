@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-02 14:00+0000\n"
+"POT-Creation-Date: 2019-10-25 08:01+0000\n"
+"PO-Revision-Date: 2019-10-17 17:15+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -486,7 +486,7 @@ msgstr "%(country)s (skat)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Oanmeitsjen fan jo account foltôgje"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -498,15 +498,15 @@ msgstr "Ferifikaasjekoade: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Oantinken: foltôgje it oanmeitsjen fan jo account"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Lêste oantinken: aktivearje jo account"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Accountautorisaasjekoade"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -514,11 +514,11 @@ msgstr "Nije oanmelding by %(clientName)s befêstigje"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Oanmeldkoade foar %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Primêr e-mailadres befêstigje"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
@@ -526,7 +526,7 @@ msgstr "E-mailadres ferifiearje"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Sekundêr e-mailadres befêstigje"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -534,11 +534,11 @@ msgstr "Wachtwurd werinisjalisearje"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Wachtwurd bywurke"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Fertochte aktiviteit detektearre"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -547,7 +547,7 @@ msgstr "Account beheare"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Account befêstige"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -555,27 +555,27 @@ msgstr "Noch in apparaat keppelje"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Primêr e-mailadres fernijd"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Autentikaasje yn twa stappen ynskeakele"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Autentikaasje yn twa stappen útskeakele"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Werstelkoade brûkt"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 werstelkoade oer"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s werstelkoaden oer"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -583,7 +583,7 @@ msgstr "Koaden generearje"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Wachtwurd bywurke mei werstelkaai"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
