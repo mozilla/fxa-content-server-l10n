@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-25 13:54+0000\n"
+"PO-Revision-Date: 2019-10-25 14:20+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Masalah akun"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1347,7 +1347,7 @@ msgstr "Mulai setel ulang"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Aktivitas Terkini"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -1371,7 +1371,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Kembali ke pengaturan"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
