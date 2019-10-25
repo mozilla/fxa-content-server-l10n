@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-19 15:47+0000\n"
+"PO-Revision-Date: 2019-10-25 14:37+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -332,7 +332,7 @@ msgstr "Potvrdit přihlášení"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Pokud ano, tady je ověřovací kód:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
@@ -517,15 +517,15 @@ msgstr "Přihlašovací kód pro %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Ověřit hlavní e-mailovou adresu"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Ověřit e-mailovou adresu"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Ověřit záložní e-mailovou adresu"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -554,7 +554,7 @@ msgstr "Připojit další zařízení"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Hlavní e-mailová adresa aktualizována"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
@@ -657,7 +657,7 @@ msgid ""
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
-msgstr ""
+msgstr "Účet Firefoxu využívá funkce, které ve vaší verzi prohlížeče Firefox nejsou dostupné. Abyste mohli pokračovat, stáhněte a nainstalujte si prosím nejnovější verzi Firefoxu."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
