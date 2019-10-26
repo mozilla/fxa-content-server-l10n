@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-14 11:46+0000\n"
-"Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
+"PO-Revision-Date: 2019-10-26 10:03+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -1348,11 +1348,11 @@ msgstr "กิจกรรมล่าสุด"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "เหตุการณ์ด้านความปลอดภัย"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "ชื่อเหตุการณ์"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
