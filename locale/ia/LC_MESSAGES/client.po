@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-22 14:33+0000\n"
+"PO-Revision-Date: 2019-10-26 18:21+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:195
 msgid "Password reset"
-msgstr "Restabilir le contrasigno"
+msgstr "Contrasigno reinitialisate"
 
 #: .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
@@ -1163,7 +1163,7 @@ msgstr "Retro"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Email de remontar inviate"
+msgstr "Message de reinitialisation inviate"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
