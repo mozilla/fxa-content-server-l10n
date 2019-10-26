@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-22 14:36+0000\n"
+"PO-Revision-Date: 2019-10-26 18:50+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -88,7 +88,7 @@ msgstr "Nos ha detegite activitate suspecte sur tu conto Firefox. Es possibile q
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Pro impedir futur accessos non autorisate a tu conto Firefox, nos ha remontate tu contrasigno, e te notifica per precaution."
+msgstr "Per favor sia informate que, a fin de impedir futur accessos non autorisate a tu conto de Firefox, nos ha reinitialisate tu contrasigno."
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"

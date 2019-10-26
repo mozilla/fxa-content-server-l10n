@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-26 18:21+0000\n"
+"PO-Revision-Date: 2017-10-22 13:52+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -20,7 +20,7 @@ msgstr "Contrasigno reinitialisate"
 
 #: .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Contrasigno restabilite con successo. Authentica te pro continuar."
+msgstr "Contrasigno reinitialisate con successo. Authentica te pro continuar."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
