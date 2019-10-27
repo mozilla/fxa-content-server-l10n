@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-27 21:12+0000\n"
+"PO-Revision-Date: 2019-10-27 21:28+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -20,13 +20,13 @@ msgstr "Contrasigno reinitialisate"
 
 #: .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Contrasigno reinitialisate con successo. Authentica te pro continuar."
+msgstr "Contrasigno reinitialisate con successo. Aperi session pro continuar."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
-msgstr "Authenticar se"
+msgstr "Aperir session"
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -78,7 +78,7 @@ msgstr "E-mail secundari verificate"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr "Authentication confirmate"
+msgstr "Apertura de session confirmate"
 
 #: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
@@ -131,7 +131,7 @@ msgstr "Cambio..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Un vice terminate, usa tu nove contrasigno pro authenticar te in tote tu apparatos."
+msgstr "Quando tu ha terminate, usa tu nove contrasigno pro aperir session in tote tu dispositivos."
 
 #: .es5/views/settings/change_password.js:229
 msgid "Old password"
@@ -374,7 +374,7 @@ msgstr "Aperir Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Email reinviate. Adde accounts@firefox.com a tu contactos pro assecurar te un facile consignation."
+msgstr "Message reinviate. Adde accounts@firefox.com a tu contactos pro assecurar le livration."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -430,7 +430,7 @@ msgstr "Chronologia"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr "Connexiones e contrasignos"
+msgstr "Contos e contrasignos"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -466,7 +466,7 @@ msgstr "Email secundari verificate con successo"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr "Contrasigno restabilite con successo"
+msgstr "Contrasigno reinitialisate correctemente"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
@@ -586,7 +586,7 @@ msgstr "Le adresse de e-mail secundari debe esser differente del adresse de e-ma
 
 #: .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
-msgstr "Le adresse de e-mail primari del conto es necessari pro authenticar se"
+msgstr "Le adresse de e-mail primari del conto es necessari pro aperir session"
 
 #: .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
@@ -598,7 +598,7 @@ msgstr "Le adresse de e-mail primari del conto es necessari pro reinitialisar"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Invalid signin code"
-msgstr "Codice de authentication invalide"
+msgstr "Codice de apertura de session invalide"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
@@ -707,7 +707,7 @@ msgstr "Tentativa de authentication cancellate"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
-msgstr "Session expirate. Authentica te pro continuar."
+msgstr "Session expirate. Reaperi session pro continuar."
 
 #: .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
@@ -715,7 +715,7 @@ msgstr "Le cookies es ancora inactive"
 
 #: .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
-msgstr "Le contrasignos non se corresponde"
+msgstr "Le contrasignos non corresponde"
 
 #: .es5/lib/auth-errors.js:318
 msgid "Working…"
@@ -739,7 +739,7 @@ msgstr "Debe continer al minus 8 characteres"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Valid password required"
-msgstr "Un contrasigno valide necesse"
+msgstr "Un contrasigno valide es necessari"
 
 #: .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
@@ -779,7 +779,7 @@ msgstr "Le dimensiones del imagine debe esser al minus 100x100px"
 
 #: .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Il essera tosto possibile authenticar se in Firefox pro iOS"
+msgstr "Il essera tosto possibile aperir session in Firefox pro iOS"
 
 #: .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
@@ -939,11 +939,11 @@ msgstr "Parametro OAuth mancante: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr "Le usator non es connexe"
+msgstr "Le usator non ha aperite session"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr "Un altere usator accedeva"
+msgstr "Un altere usator ha aperite session"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
@@ -1005,7 +1005,7 @@ msgstr "Addresse IP: %(ip)s"
 
 #: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Pro securitate additional, confirma iste authentication ante de synchronisar con iste dispositivo:"
+msgstr "Pro securitate additional, confirma iste apertura de session ante de synchronisar con iste dispositivo:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -1033,7 +1033,7 @@ msgstr "Recipe un nove ligamine"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr "Restabilir le contrasigno con le clave de recuperation"
+msgstr "Reinitialisar le contrasigno con le clave de recuperation"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
@@ -1048,8 +1048,8 @@ msgstr "Per favor insere le clave de recuperation a uso unic tu servava in un lo
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NOTA:</span> Si tu restabili tu contrasigno e non ha salvate un clave de recuperation del conto, alcun de tu datos sera cancellate (anque le datos de servitor synchronisate como"
-" chronologia e marcapaginas)."
+"<span class=\"note\">NOTA:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como "
+"chronologia e marcapaginas)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
@@ -1077,7 +1077,7 @@ msgstr "Apprende plus"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
-msgstr "Synchronisa istos ubicunque tu te authentica:"
+msgstr "Synchronisa istes ubicunque tu aperi session:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
@@ -1104,12 +1104,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>REMEMBER:</span> Quando tu restabili tu contrasigno, tu restabili tu conto. Tu pote perder alcun de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto perque nos "
-"cifra tu datos per tu contrasigno pro proteger tu confidentialitate."
+"<span>NON OBLIDA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto "
+"es perque nos crypta tu datos con tu contrasigno pro proteger tu vita private."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Tu ha restaurate con successo tu conto per tu clave de recuperation. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur."
+msgstr "Tu ha correctemente restaurate tu conto usante tu clave de recuperation. Crea un nove contrasigno pro securisar tu datos, e immagazina lo in un loco secur."
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -1215,15 +1215,15 @@ msgstr "Aperi session a Firefox sur un altere dispositivo pro completar le confi
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Adder ancora apparatos? Authentica te a Firefox sur un altere apparato pro completar le configuration"
+msgstr "Adder ancora dispositivos? Aperi session te a Firefox sur un altere dispositivo pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Authentica te a Firefox pro Android pro completar le configuration"
+msgstr "Aperi session a Firefox pro Android pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Authentica te a Firefox pro iOS pro completar le configuration"
+msgstr "Aperi session a Firefox pro iOS pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
@@ -1243,7 +1243,7 @@ msgstr "Retenta"
 
 #: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
-msgstr "Authentica te pro continuar"
+msgstr "Aperi session pro continuar"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:13
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1322,7 +1322,7 @@ msgstr "Continuar a mi conto"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr "Reporta tu un authentication non autorisate?"
+msgstr "Reportar un apertura de session non autorisate?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
