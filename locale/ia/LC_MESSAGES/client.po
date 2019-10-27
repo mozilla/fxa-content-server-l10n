@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2017-10-22 13:52+0000\n"
+"PO-Revision-Date: 2019-10-27 21:12+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1113,7 +1113,7 @@ msgstr "Tu ha restaurate con successo tu conto per tu clave de recuperation. Cre
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr "Contrasigno rememorate? Authentica te"
+msgstr "Contrasigno rememorate? Aperi session"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1121,7 +1121,7 @@ msgstr "Email primari ja confirmate"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr "Authentication ja confirmate"
+msgstr "Session ja confirmate"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
@@ -1141,7 +1141,7 @@ msgstr "Confirma tu conto"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr "Confirma iste authentication"
+msgstr "Confirmar iste session"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1167,7 +1167,7 @@ msgstr "Message de reinitialisation inviate"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Clicca le ligamine del email a %(email)s intra le hora sequente pro crear un nove contrasigno."
+msgstr "Clicca sur le ligamine inviate a %(email)s intra le proxime hora pro crear un nove contrasigno."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -1203,7 +1203,7 @@ msgstr "Successo"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr "Authentica te a iste Firefox pro completar le configuration"
+msgstr "Aperi session a iste Firefox pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
@@ -1211,7 +1211,7 @@ msgstr "Adder altere dispositivos?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Authentica te a Firefox sur un altere apparato pro completar le configuration"
+msgstr "Aperi session a Firefox sur un altere dispositivo pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1341,8 +1341,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTE:</span> Quando tu restabili tu contrasigno, tu restabili tu conto. Tu pote perder alcun de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto perque nos "
-"cifra tu datos per tu contrasigno pro proteger tu confidentialitate."
+"<span>NOTA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto es "
+"perque nos crypta tu datos con tu contrasigno pro proteger tu vita private."
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -1386,7 +1386,7 @@ msgstr "Contos de Firefox"
 
 #: .es5/templates/settings.mustache:4
 msgid "Sign out"
-msgstr "Disconnexion"
+msgstr "Clauder session"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8
@@ -1439,7 +1439,7 @@ msgstr "Nostre equipa recipeva tu nota. Iste reportos nos adjuta a luctar contra
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr "Autorisa iste authentication"
+msgstr "Autorisar iste session"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1475,7 +1475,7 @@ msgstr "Repete le contrasigno"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "Non perder iste contrasigno. Si tu besonia de lo restabilir, tu pote perder le datos de Sync."
+msgstr "Non perde iste contrasigno. Si tu debe reinitialisar lo, tu pote perder le datos de Sync."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1487,7 +1487,7 @@ msgstr "Crear un conto"
 
 #: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
-msgstr "Ha tu un conto? Authentica te"
+msgstr "Ha tu un conto? Aperi session"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
@@ -1495,7 +1495,7 @@ msgstr "Cambiar adresse de e-mail"
 
 #: .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
-msgstr "Multo bon! Tu te ha authenticate."
+msgstr "Multo bon! Tu es in session."
 
 #: .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
@@ -1503,7 +1503,7 @@ msgstr "Ora obtene Firefox ubique."
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr "Authentica te sur tu altere dispositivos pro beneficiar de tote le productos, cognoscentias e functiones de vita private de Firefox."
+msgstr "Aperi session sur tu altere dispositivos pro beneficiar de tote le productos, cognoscentias e functiones de vita private de Firefox."
 
 #: .es5/templates/sms_send.mustache:6
 msgid "Mobile phone number"
@@ -1522,7 +1522,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr "Proque authenticar te sur un altere dispositivo?"
+msgstr "Proque aperir session sur un altere dispositivo?"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"

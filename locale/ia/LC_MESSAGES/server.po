@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-27 20:51+0000\n"
+"PO-Revision-Date: 2019-10-27 21:01+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -36,7 +36,7 @@ msgstr "Nove authentication a %(clientName)s"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr "Contrasigno modificate con bon successo"
+msgstr "Contrasigno cambiate correctemente"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -60,15 +60,15 @@ msgstr "Il essera necesse que tu insere tu nove contrasigno sur altere apparatos
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Si tu non lo ha cambiate, per favor restabili tu contrasigno ora in %(resetLink)s"
+msgstr "Si tu non lo ha cambiate, per favor reinitialisa tu contrasigno ora in %(resetLink)s"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "Tu contrasigno de conto esseva restabilite per un clave de recuperation"
+msgstr "Le contrasigno de tu conto ha essite reinitialisate con un clave de recuperation"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Tu ha restabilite con successo tu contrasigno per un codice de recuperation ab le sequente apparato:"
+msgstr "Tu ha correctemente reinitialisate tu contrasigno usante un codice de recuperation ab le sequente dispositivo:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
@@ -147,11 +147,11 @@ msgstr "Tu ha activate con bon successo le authentication a duo grados su tu con
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Le codices de securitate essera ora requirite ab tu application de authentication a cata authentication."
+msgstr "Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Tu ha activate con bon successo le authentication a duo grados sur tu conto Firefox. Le codices de securitate essera ora requirite ab tu application de authentication a cata authentication."
+msgstr "Tu ha correctemente activate le authentication a duo passos sur tu conto Firefox. Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
