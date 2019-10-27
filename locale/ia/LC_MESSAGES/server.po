@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-26 18:50+0000\n"
+"PO-Revision-Date: 2019-10-27 20:32+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -232,11 +232,11 @@ msgstr "Benvenite al familia de Firefox"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Tu es authenticate e preste a comenciar le exploration in tote securitate."
+msgstr "Tu ha aperite session e es preste a comenciar le exploration in tote securitate."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Ora tira le maximo de Firefox per authenticar te ubicunque tu naviga."
+msgstr "Ora tira le maximo de Firefox per aperir session ubicunque tu naviga."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
@@ -257,7 +257,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr "Besonia tu de restabilir tu contrasigno?"
+msgstr "Debe tu reinitialisar tu contrasigno?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -273,7 +273,7 @@ msgstr "Gratias pro seliger Firefox! Tu pote installar Firefox pro mobile hic: %
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr "Es tu qui te authentica?"
+msgstr "Es tu qui aperi session?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
@@ -317,19 +317,19 @@ msgstr "Activar le familia de productos Firefox"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Confirma tu conto e recipe le maximo ab Firefox ubique tu accede comenciante con:"
+msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu aperi session, a comenciar per:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu te authentica."
+msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu aperi session."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Pro ulterior securitate, per favor confirma iste authentication ab le sequente dispositivo:"
+msgstr "Pro ulterior securitate, per favor confirma iste apertura de session ab le sequente dispositivo:"
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
-msgstr "Confirmar authentication"
+msgstr "Confirmar apertura de session"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
@@ -369,7 +369,7 @@ msgstr "Un vice verificate, iste adresse comenciara a reciper notificationes e c
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr "Es vermente tu qui va inscriber te?"
+msgstr "Es vermente tu qui vole inscriber se?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -510,7 +510,7 @@ msgstr "Codice de autorisation del conto"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Confirmar nove authentication a %(clientName)s"
+msgstr "Confirmar apertura de session a %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
