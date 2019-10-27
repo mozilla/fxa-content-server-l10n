@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-10-27 21:28+0000\n"
+"PO-Revision-Date: 2019-10-27 23:44+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1479,7 +1479,7 @@ msgstr "Non perde iste contrasigno. Si tu debe reinitialisar lo, tu pote perder 
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:9
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Cognoscentias practic veni a tu cassa de ingresso. Inscribe te pro saper plus:"
+msgstr "Le cognoscentia practic veni a tu cassa de entrata. Inscribe te:"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 msgid "Create account"
