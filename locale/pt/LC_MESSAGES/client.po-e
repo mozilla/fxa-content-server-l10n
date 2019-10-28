@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-07-23 21:34+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"POT-Creation-Date: 2019-10-28 14:10+0000\n"
+"PO-Revision-Date: 2019-10-23 16:14+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -222,20 +222,20 @@ msgstr "Nome de apresentação atualizado"
 
 #: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
 msgid "Secondary email removed"
-msgstr "Email secundário removido"
+msgstr "E-mail secundário removido"
 
 #: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
 #: .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
-msgstr "Email de verificação enviado"
+msgstr "E-mail de verificação enviado"
 
 #: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr "Email primário definido para %(email)s"
+msgstr "E-mail principal definido para %(email)s"
 
 #: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
-msgstr "Email secundário"
+msgstr "E-mail secundário"
 
 #: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
@@ -243,7 +243,7 @@ msgstr "Códigos de recuperação do Firefox"
 
 #: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr "Novo código de recuperação gerado"
+msgstr "Gerado novo código de recuperação"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
@@ -316,7 +316,7 @@ msgstr "Abrir Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Email reenviado. Adicione accounts@firefox.com aos seus contactos para assegurar uma entrega suave."
+msgstr "E-mail reenviado. Adicione accounts@firefox.com aos seus contactos para assegurar uma entrega suave."
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -324,7 +324,7 @@ msgstr "Copiado"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr "Falha ao copiar. Por favor copie manualmente."
+msgstr "A copia falhou. Por favor, copie manualmente."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
@@ -337,7 +337,7 @@ msgstr "Impresso"
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 #: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Email primário verificado com sucesso"
+msgstr "E-mail principal confirmado com sucesso"
 
 #: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
@@ -987,7 +987,7 @@ msgstr "Guardar seleções"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
-#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14
+#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14 .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Back"
 msgstr "Retroceder"
 
@@ -1144,6 +1144,7 @@ msgstr "Inicie sessão para continuar"
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Palavra-passe"
 
@@ -1225,7 +1226,7 @@ msgstr "Aceitar"
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
-#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10
+#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1279,6 +1280,7 @@ msgstr "Terminar sessão"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "Utilizar uma conta diferente"
 
@@ -1350,7 +1352,7 @@ msgstr "Introduzir código de segurança"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Abra a sua aplicação de autenticação e introduza o código de segurança providenciado."
 
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
 msgstr "Introduzir código de 6 dígitos"
 
@@ -1619,7 +1621,7 @@ msgid "Manage preferences"
 msgstr "Gerir preferências"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:19 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Apagar conta"
 
@@ -2100,25 +2102,25 @@ msgstr "A atualização foi rejeitada, por favor tente novamente"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: .es5/views/support.js:67 .es5/views/support.js:80
+#: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82
 msgid "Please Select One"
-msgstr ""
+msgstr "Por favor, selecione um"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Credenciais e palavras-passe"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Separadores abertos"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Cartões de crédito"
 
 #: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Redirecionamento inválido"
 
 #: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
@@ -2126,7 +2128,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "O utilizador não iniciou sessão"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
@@ -2161,23 +2163,23 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "Perguntas gerais"
 
 #: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pagamento e faturação"
 
 #: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Problemas de ligação"
 
 #: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Começar"
 
 #: .es5/templates/support.mustache:8 .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Problemas com a conta"
 
 #: .es5/templates/support.mustache:9 .es5/templates/support.mustache:8
 msgid "Subject (optional)"
@@ -2187,11 +2189,11 @@ msgstr ""
 msgid "Description of Issue"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:14
+#: .es5/templates/settings/delete_account.mustache:14 .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
 msgstr ""
 
@@ -2199,11 +2201,11 @@ msgstr ""
 msgid "Any subscriptions you have will be cancelled"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:17 .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr ""
 
@@ -2211,53 +2213,53 @@ msgstr ""
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
 msgstr ""
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:216 .es5/views/support.js:230
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Obrigado por contactar o Apoio da Mozilla sobre <b>%(escapedLowercaseTopic)s</b>. Nós iremos contactá-lo por e-mail assim que possível."
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:218 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Obrigado por contactar o Apoio da Mozilla sobre <b>%(escapedLowercaseTopic)s</b> para <b>%(escapedSelectedPlan)s</b>. Nós iremos contactá-lo por e-mail assim que possível."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Alterar..."
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Visto pela última vez há %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Visto pela última vez há mais de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Visto pela última vez há %(translatedTimeAgo)s em %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Visto pela última vez há mais de %(translatedTimeAgo)s em %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Visto pela última vez há %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Visto pela última vez há mais de %(translatedTimeAgo)s perto de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Sem informação sobre o último acesso"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
@@ -2323,7 +2325,7 @@ msgstr ""
 msgid "Sync this device"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:15 .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr ""
 
@@ -2337,6 +2339,30 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:274
+msgid "Invalid or expired verification code"
+msgstr "Código de confirmação inválido ou expirado"
+
+#: .es5/templates/confirm_signup_code.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
 msgstr ""
 
 #~ msgid "%(email)s registered."

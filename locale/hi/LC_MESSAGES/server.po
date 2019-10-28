@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 08:01+0000\n"
-"PO-Revision-Date: 2019-08-10 12:15+0000\n"
-"Last-Translator: ravi <ravi.103151@gmail.com>\n"
+"POT-Creation-Date: 2019-10-28 14:10+0000\n"
+"PO-Revision-Date: 2019-10-21 18:03+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -309,7 +309,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "उत्पादों के Firefox परिवार को सक्रिय करें"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
@@ -329,11 +329,11 @@ msgstr "साइन-इन की पुष्टि करें"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "यदि हाँ, तो सत्यापन कोड यहाँ है:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "यह 5 मिनट में समाप्त हो जाता है।"
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -365,11 +365,11 @@ msgstr "सत्यापित करने के बाद, यह पता
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "क्या आप ही साइन-इन कर रहे हैं?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "यदि हाँ, तो यह सत्यापन कोड उपयोग करें:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -422,39 +422,39 @@ msgstr "Mozilla गोपनीयता नीति"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox क्लाउड सेवा की शर्तें"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "शर्तें और रद्द करने की नीति"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "गोपनीयता सूचना"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "सदस्यता रद्द करें"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "बिलिंग जानकारी को सामयिक करें"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "शर्तें और रद्द करने की नीति:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "गोपनीयता सूचना:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "सदस्यता रद्द करें:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "बिलिंग जानकारी को सामयिक करें:"
 
 #: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -482,7 +482,7 @@ msgstr "%(country)s(अनुमानित)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "अपना खाता बनाना पूर्ण करें"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -490,19 +490,19 @@ msgstr "ईमेल की पुष्टि करें"
 
 #: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "सत्यापन कोड: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "अनुस्मारक: अपना खाता बनाना पूर्ण करें"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "अंतिम अनुस्मारक: अपने खाते को सक्रिय करें"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "खाता प्राधिकरण कोड"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -510,19 +510,19 @@ msgstr "%(clientName)s पर नए साइन-इन की पुष्ट�
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s के लिए साइन-इन कोड"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "प्राथमिक ईमेल की पुष्टि करें"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "ईमेल सत्यापित करें"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "द्वितीयक ईमेल की पुष्टि करें"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
@@ -530,11 +530,11 @@ msgstr "अपना कूटशब्द बदली करें"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "पासवर्ड अपडेट किया गया"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "संदिग्ध गतिविधि का पता चला"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -543,7 +543,7 @@ msgstr "खाता प्रबंधित करें"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "खाते की पुष्टि हुई"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -551,23 +551,23 @@ msgstr "अन्य उपकरण से जोड़े"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "प्राथमिक ईमेल अपडेट किया गया"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "दो-चरणीय सत्यापन बंद है"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "पुनर्प्राप्ति कोड का उपयोग किया गया"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 पुनर्प्राप्ति कोड शेष"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
