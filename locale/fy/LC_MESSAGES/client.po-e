@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 16:37+0000\n"
-"PO-Revision-Date: 2019-09-13 13:47+0000\n"
+"POT-Creation-Date: 2019-10-28 14:10+0000\n"
+"PO-Revision-Date: 2019-10-17 17:11+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -985,7 +985,7 @@ msgstr "Seleksjes bewarje"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
-#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14
+#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14 .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Back"
 msgstr "Tebek"
 
@@ -1142,6 +1142,7 @@ msgstr "Meld jo oan om troch te gean"
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Wachtwurd"
 
@@ -1223,7 +1224,7 @@ msgstr "Akseptearje"
 #: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
-#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10
+#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
 msgid "Cancel"
 msgstr "Annulearje"
 
@@ -1277,6 +1278,7 @@ msgstr "Ofmelde"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "In oar account brûke"
 
@@ -1348,7 +1350,7 @@ msgstr "Fier befeiligingskoade yn"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn."
 
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
 msgstr "Fier 6-siferige koade yn"
 
@@ -1615,7 +1617,7 @@ msgid "Manage preferences"
 msgstr "Foarkarren beheare"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:19 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Account fuortsmite"
 
@@ -2096,7 +2098,7 @@ msgstr "Fernijing waard wegere, probearje it nochris"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: .es5/views/support.js:67 .es5/views/support.js:80
+#: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82
 msgid "Please Select One"
 msgstr "Selektearje ien"
 
@@ -2183,11 +2185,11 @@ msgstr "Underwerp (opsjoneel)"
 msgid "Description of Issue"
 msgstr "Omskriuwing fan it probleem"
 
-#: .es5/templates/settings/delete_account.mustache:5
+#: .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Jo hawwe jo Firefox-account ferbûn mei Mozilla-produkten dy't jo feilich en produktyf hâlde op ynternet:"
 
-#: .es5/templates/settings/delete_account.mustache:14
+#: .es5/templates/settings/delete_account.mustache:14 .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
 msgstr "Befêstigje dat troch jo account fuort te smiten:"
 
@@ -2195,11 +2197,11 @@ msgstr "Befêstigje dat troch jo account fuort te smiten:"
 msgid "Any subscriptions you have will be cancelled"
 msgstr "Alle abonneminten dy't jo hawwe wurde annulearre"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Jo bewarre ynformaasje en funksjes yn Mozilla-produkten ferlieze kinne"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:17 .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje"
 
@@ -2207,17 +2209,17 @@ msgstr "Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mai
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
 msgstr "Hmm, wy hawwe problemen mei ús systeem. Wy wurkje der oan om it foar jo op te lossen, ús ekskús foar it ûngemak. Probearje it letter opnij."
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
 msgid "Other"
 msgstr "Oars"
 
-#: .es5/views/support.js:216
+#: .es5/views/support.js:216 .es5/views/support.js:230
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
-#: .es5/views/support.js:218
+#: .es5/views/support.js:218 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b> foar <b>%(escapedSelectedPlan)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2253,11 +2255,11 @@ msgstr "Lêst sjoen: ûnbekend"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Ferrûn of ûnjildige koade"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2265,11 +2267,11 @@ msgstr "Syngronisearje oeral wêr't jo jo oanmelde:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "Sync ynskeakelje"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Dit apparaat net syngronisearje"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2313,13 +2315,13 @@ msgstr "Omskriuwing fan it probleem"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Wolle jo dit apparaat mei jo account syngronisearje?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Dit apparaat syngronisearje"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:15 .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Alle betelle abonneminten dy't jo hawwe wurde annulearre"
 
@@ -2329,10 +2331,34 @@ msgstr "Bliuw feilich &mdash; brûk wachtwurden net opnij."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Jo berjocht is oan de stipeôfdieling ferstjoerd"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
+msgstr "Tebek nei Abonneminten"
+
+#: .es5/lib/auth-errors.js:274
+msgid "Invalid or expired verification code"
+msgstr "Unjildige of ferrûne ferifikaasjekoade"
+
+#: .es5/templates/confirm_signup_code.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei %(escapedEmail)s ferstjoerd is."
+
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
 msgstr ""
 
 #~ msgid "Expired or invalid signup code"
