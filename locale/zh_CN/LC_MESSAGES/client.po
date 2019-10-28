@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-28 15:52+0000\n"
+"PO-Revision-Date: 2019-10-28 16:02+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -2324,11 +2324,11 @@ msgstr "请在 5 分钟内输入发送到 %(escapedEmail)s 的验证码。"
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "被锁定了吗？"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "输入码时遇到问题？"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
@@ -2336,7 +2336,7 @@ msgstr "想要取消付费订阅？前往<a href=\"/subscriptions\">订阅管理
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "您的消息已送达用户支持"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "注册码过期或无效"
