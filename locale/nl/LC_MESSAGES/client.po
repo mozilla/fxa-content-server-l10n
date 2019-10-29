@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-28 20:23+0000\n"
-"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
+"PO-Revision-Date: 2019-10-29 07:40+0000\n"
+"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -2190,7 +2190,7 @@ msgstr "Bevestig dat door uw account te verwijderen:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr "Alle abonnementen die u hebt worden geannuleerd"
+msgstr "Al uw abonnementen worden geannuleerd"
 
 #: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
@@ -2350,7 +2350,7 @@ msgstr "Problemen bij het invoeren van de code?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "Wilt u een betaald abonnement annuleren? Ga naar <a href=\"/subscriptions\">Beheer abonnementen</a>."
+msgstr "Wilt u een betaald abonnement annuleren? Ga naar <a href=\"/subscriptions\">Abonnementen beheren</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
