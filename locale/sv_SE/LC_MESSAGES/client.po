@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-28 18:11+0000\n"
-"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
+"PO-Revision-Date: 2019-10-29 15:43+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -1968,7 +1968,7 @@ msgstr "Bli säkrare och smartare online"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr "Bjud in mig att beta testa nya Mozilla-produkter"
+msgstr "Bjud in mig att testa nya Mozilla-produkter"
 
 #: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
@@ -2346,7 +2346,7 @@ msgstr "Har du problem att ange koden?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "Vill du avsluta en betald prenumeration? Gå till <a href=\"/subscriptions\">Hantera prenumerationer </a>."
+msgstr "Vill du avsluta en betald prenumeration? Gå till <a href=\"/subscriptions\">Hantera prenumerationer</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
