@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-29 11:17+0000\n"
+"PO-Revision-Date: 2019-10-29 17:03+0000\n"
 "Last-Translator: Anh Vỹ <anhvy@madeezi.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -2342,7 +2342,7 @@ msgstr "Vui lòng nhập mã xác minh đã được gửi tới %(escapedEmail)
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Bạn đang bị khóa?"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
@@ -2350,11 +2350,11 @@ msgstr "Khó khăn khi nhập mã?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "Tìm cách để hủy đăng ký trả phí? Truy cập <a href=\"/subscriptions\">Quản lý đăng ký</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Tin nhắn của bạn đã được gửi tới bộ phận Hỗ trợ"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Mã đăng ký đã hết hạn hoặc không hợp lệ"
