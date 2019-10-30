@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 12:12+0000\n"
+"PO-Revision-Date: 2019-10-30 12:31+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -589,7 +589,7 @@ msgstr "Plano incognite pro le subscription."
 
 #: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
-msgstr "Jeton de pagamento pro le inscription non valide."
+msgstr "Jeton de pagamento pro le subscription non valide."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
@@ -658,7 +658,7 @@ msgstr "Es necessari un adresse de e-mail valide"
 
 #: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
-msgstr "Imagine utile non trovate"
+msgstr "Nulle imagine usabile ha essite trovate"
 
 #: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
@@ -666,7 +666,7 @@ msgstr "Impossibile initialisar le camera"
 
 #: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
-msgstr "Il es necesse un URL valide"
+msgstr "Es requirite un URL valide"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
@@ -706,11 +706,11 @@ msgstr "Iste conto non existe plus."
 
 #: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Proprietate invalide in le token de reprisa: %(property)s"
+msgstr "Proprietate invalide in jeton de reprisa: %(property)s"
 
 #: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
-msgstr "Proprietate mancante in le token de reprisa: %(property)s"
+msgstr "Proprietate mancante in jeton de reprisa: %(property)s"
 
 #: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
@@ -743,11 +743,11 @@ msgstr "Es necessari un numero de telephono"
 
 #: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
-msgstr "Authentication a duo grados necessari"
+msgstr "Authentication a duo passos necessari"
 
 #: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
-msgstr "Codice de authentication a duo grados non valide"
+msgstr "Codice de authentication a duo passos non valide"
 
 #: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
@@ -767,7 +767,7 @@ msgstr "Per favor insere codice de verification"
 
 #: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr "Le contos con authentication a duo grados non supporta al momento le accopulamento"
+msgstr "Le contos con authentication a duo passos non supporta al momento le accopulamento"
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -827,11 +827,11 @@ msgstr "Non consentite"
 
 #: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr "Token expirate"
+msgstr "Jeton expirate"
 
 #: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Alco falleva. Per favor claude iste scheda e retenta."
+msgstr "Un error ha occurrite. Per favor claude iste scheda e retenta."
 
 #: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
 msgid "no message"
@@ -847,11 +847,11 @@ msgstr "Message non valide ab le apparato remote"
 
 #: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
-msgstr "Error durante le accopulamento a apparato remote"
+msgstr "Error durante le accopulamento al dispositivo remote"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr "Connexion a apparato remote clause, reprobar"
+msgstr "Connexion al apparato remote claudite, per favor reproba"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
@@ -867,7 +867,7 @@ msgstr "Error de processamento de imagines"
 
 #: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
-msgstr "Token non valide"
+msgstr "Jeton non valide"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -881,7 +881,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 
 #: .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Recipe le ultime novas re Mozilla e Firefox."
+msgstr "Recipe le ultime novas sur Mozilla e Firefox."
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
 msgid "%(city)s, %(country)s (estimated)"
@@ -937,7 +937,7 @@ msgstr "Continuar a %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Per favor insere le clave de recuperation a uso unic tu servava in un loco secur pro reganiar accesso a tu conto de Firefox."
+msgstr "Per favor insere le clave de recuperation a uso unic que tu ha conservate in un loco secur pro reganiar le accesso a tu conto Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -993,7 +993,7 @@ msgstr "Ligamine pro reinitialisar contrasigno damnificate"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Il manca characteres al ligamine cliccate, forsan tu cliente e-mail lo ha corrumpite. Copia ben le adresse, e retenta."
+msgstr "Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1080,7 +1080,7 @@ msgstr "Connecte un altere apparato"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
-msgstr "Iste Firefox es connexe"
+msgstr "Iste Firefox es connectite"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1130,7 +1130,7 @@ msgstr "Per favor, activa le cookies e le immagazinage local in tu navigator pro
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Retenta"
+msgstr "Tentar de novo"
 
 #: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
@@ -1159,12 +1159,12 @@ msgstr "Si tu procede, tu concorda al <a id=\"fxa-tos\" href=\"/legal/terms\">Te
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
-msgstr "Insere tu email"
+msgstr "Insere tu adresse de e-mail"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
 #: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
@@ -1174,7 +1174,7 @@ msgstr "Continuar"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr "Legal"
+msgstr "Juridic"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 #: .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12
