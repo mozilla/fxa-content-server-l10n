@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 15:36+0000\n"
+"PO-Revision-Date: 2019-10-30 15:37+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2244,11 +2244,11 @@ msgstr "Ultime accesso: %(translatedTimeAgo)s presso %(translatedCity)s, %(trans
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Vidite ultimemente le %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Ultime accesso: %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr "Tempore del ultime activitate incognite"
+msgstr "Data del ultime accesso incognite"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
