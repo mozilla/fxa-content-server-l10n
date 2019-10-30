@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 13:41+0000\n"
+"PO-Revision-Date: 2019-10-30 14:05+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1934,7 +1934,7 @@ msgstr "Accopulamento per un application"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Es que tu usa le camera de systema? Tu debe accopular ab intra un application de Firefox."
+msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un application de Firefox."
 
 #: .es5/templates/settings/emails.mustache:9 .es5/templates/security_events.mustache:4
 msgid "Verified"
@@ -1954,11 +1954,11 @@ msgstr "Gerer…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr "Tira le maximo de tu conto"
+msgstr "Tira le maxime avantage de tu conto"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"
-msgstr "Synchronisa istes ubicunque tu te authentica"
+msgstr "Synchronisa istes ubicunque tu aperi session"
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
@@ -1990,7 +1990,7 @@ msgstr "Usa le ligamine de confirmation que nos ha inviate a %(escapedEmail)s pr
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "Authenticar te <span class=\"service\">a tu conto de Firefox</span>"
+msgstr "Aperi session <span class=\"service\">a tu conto de Firefox</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
