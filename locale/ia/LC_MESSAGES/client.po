@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 15:37+0000\n"
+"PO-Revision-Date: 2019-10-30 15:40+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2256,7 +2256,7 @@ msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr "Codice de inscription expirate o valide"
+msgstr "Codice expirate o invalide"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2268,7 +2268,7 @@ msgstr "Activar le synchronisation"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr "Non synchronisar iste apparato"
+msgstr "Non synchronisar iste dispositivo"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
@@ -2300,7 +2300,7 @@ msgstr "Deler eventos"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr "Receder al parametros"
+msgstr "Retornar al configuration"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
@@ -2332,7 +2332,7 @@ msgstr "Tu message ha essite inviate al supporto"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr "Receder al subscriptiones"
+msgstr "Retornar al subscriptiones"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
