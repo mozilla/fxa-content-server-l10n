@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 15:44+0000\n"
+"PO-Revision-Date: 2019-10-30 15:51+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -217,7 +217,7 @@ msgstr "Authentication a duo passos disactivate"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Tu ha disactivate con successo la authentication a duo grados sur tu Conto Firefox ab le sequente apparato:"
+msgstr "Tu ha disactivate con successo le authentication a duo passos sur tu Conto Firefox ab le sequente dispositivo:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
@@ -225,7 +225,7 @@ msgstr "Le codices de securitate non essera plus necessari a cata authentication
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Tu ha disactivate con bon successo le authentication a duo grados sur tu conto Firefox. Le codices de securitate non essera plus necessari a cata authentication."
+msgstr "Tu ha correctemente disactivate le authentication a duo passos sur tu conto Firefox. Le codices de securitate non essera plus requirite a cata authentication."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
@@ -374,7 +374,7 @@ msgstr "Es vermente tu qui vole inscriber se?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr "Si si, usa iste codice de verification:"
+msgstr "Si assi, usa iste codice de verification:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -560,11 +560,11 @@ msgstr "E-mail primari actualisate"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr "Verification in duo passos activate"
+msgstr "Verification a duo passos activate"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr "Verification in duo passos disactivate"
+msgstr "Verification a duo passos disactivate"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr "A casa"
+msgstr "Initio"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -637,7 +637,7 @@ msgid ""
 "                    return the system to normal as soon as possible."
 msgstr ""
 "Nos es sub un pesante carga e nos labora pro\n"
-"                     restabilir le systema al norma al plus tosto possibile."
+"                     retornar le systema al normalitate le plus tosto possibile."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -666,14 +666,14 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox Accounts usa functionalitates que es\n"
-"                        non supportate in tu version de Firefox. \n"
-"                        Discarga e installa le ultima version de Firefox pro\n"
+"Firefox Accounts utilisa functiones que non\n"
+"                        es supportate in tu version de Firefox. \n"
+"                        Discarga e installa le ultime version de Firefox pro\n"
 "                        continuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr "Discargar ultimo"
+msgstr "Discargar ultime version"
 
 #~ msgid "Account verified!"
 #~ msgstr "Conto verificate!"
