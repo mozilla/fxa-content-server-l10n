@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-29 20:27+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2019-10-30 08:34+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -2348,7 +2348,7 @@ msgstr "Inserisci entro 5 minuti il codice di verifica che è stato inviato a %(
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Sei tagliato fuori dal tuo account?"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
@@ -2356,11 +2356,11 @@ msgstr "Problemi a inserire il codice?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "Vuoi interrompere una sottoscrizione a pagamento? Vai a <a href=\"/subscriptions\">Gestione sottoscrizioni</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Il tuo messaggio è stato inviato alla sezione Supporto"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Codice di registrazione scaduto o non valido"
