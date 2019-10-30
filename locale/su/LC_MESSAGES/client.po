@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 03:04+0000\n"
+"PO-Revision-Date: 2019-10-30 03:14+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -2347,11 +2347,11 @@ msgstr "Hésé ngasupkeun kodeu?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "Hoyong ngabedokeun langganan anu mayar? Buka <a href=\"/subscriptions\">Kokolakeun Langganan</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Surat anjeun geus dikirim ka Pangrojong"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Sandi daptarna kadaluwarsa atawa teu bener"
