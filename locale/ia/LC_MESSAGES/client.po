@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 13:31+0000\n"
+"PO-Revision-Date: 2019-10-30 13:41+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1779,7 +1779,7 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">NOTA: </span>Tu contrasigno del conto de Firefox cifra tu datos de Firefox. Solo tu contrasigno o clave de recuperation pote acceder tu datos. <a "
+"<span class=\"note\">NOTA: </span>Le contrasigno de tu conto Firefox es usate pro cryptar tu datos de Firefox. Solmente tu contrasigno o clave de recuperation es capace de acceder a tu datos. <a "
 "%(escapedLearnMoreLinkAttributes)s>Saper plus</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
@@ -1800,7 +1800,7 @@ msgstr "Desira tu vermente revocar?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Tu non potera usar tu clave de recuperation pro acceder tu datos in caso que tu restabili tu contrasigno."
+msgstr "Tu non potera usar tu clave de recuperation pro acceder a tu datos si tu reinitialisa tu contrasigno."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
@@ -1809,7 +1809,7 @@ msgstr "Grado 2 de 2: Salva le clave de recuperation"
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
-"<span class=\"note\">NOTA: </span>Si tu oblida tu contrasigno, iste clave es necessari pro reganiar accesso a tu datos. Salva tu clave de recuperation in un loco secur, ubi tu pote lo trovar "
+"<span class=\"note\">NOTA: </span>Si tu oblida tu contrasigno, iste clave es necessari pro reganiar le accesso a tu datos. Guarda tu clave de recuperation in un loco secur ubi tu pote trovar lo "
 "facilemente plus tarde."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -1838,7 +1838,7 @@ msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr "Location incognite"
+msgstr "Loco incognite"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
@@ -1854,15 +1854,15 @@ msgstr "Non debe esser tu adresse de e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Non debe concordar iste <a %(escapedCommonPasswordLinkAttrs)s>lista de contrasignos commun</a>"
+msgstr "Non debe figurar in iste <a %(escapedCommonPasswordLinkAttrs)s>lista de contrasignos commun</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "Que tu es original e secur &mdash; non reusar iste contrasigno ubicunque altere."
+msgstr "Sia original e sia secur &mdash; nunquam reusa iste contrasigno in altere parte."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "Memora iste contrasigno &mdash; restabilir illo cancellera tote tu datos ex nostre servitor."
+msgstr "Rememora iste contrasigno &mdash; reinitialisar lo cancellera tote tu datos de nostre servitores."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1874,15 +1874,15 @@ msgstr "Desira tu probar Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comenci
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr "Approbar un nove apparato <small>pro %(email)s</small>"
+msgstr "Approbar un nove dispositivo <small>pro %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr "Approbar apparato"
+msgstr "Approbar dispositivo"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr "Apparato connectite"
+msgstr "Dispositivo connectite"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1890,7 +1890,7 @@ msgstr "Tu es ora synchronisate con:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr "Gerer apparatos"
+msgstr "Gerer dispositivos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
@@ -1906,7 +1906,7 @@ msgstr "Le procedura de installation ha essite terminate."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Aperi Code scanner sur tu app Firefox e monstra le codice quando preste."
+msgstr "Aperi le scanner de codice sur tu app Firefox e monstra le codice quando preste."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
