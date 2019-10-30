@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-28 17:43+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2019-10-30 12:12+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -62,23 +62,23 @@ msgstr "Tu contrasigno ha essite reinitialisate"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Completa le configuration inserente le nove contrasigno in tu altere apparatos de Firefox."
+msgstr "Pro terminar le configuration, insere le nove contrasigno in tu altere dispositivos Firefox."
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Tu es ora preste a modificar tu conto Firefox."
+msgstr "Tu es ora preste pro modificar tu conto Firefox."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr "Email primari verificate"
+msgstr "Adresse de e-mail primari verificate"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Le notificationes del conto sera ora inviate anque a %(secondaryEmailVerified)s."
+msgstr "Le notificationes del conto essera ora inviate anque a %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr "E-mail secundari verificate"
+msgstr "Adresse de e-mail secundari verificate"
 
 #: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
@@ -129,7 +129,7 @@ msgstr "Ultime synchronisation %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "Ultime synchronisation del %(translatedTimeAgo)s"
+msgstr "Ultime synchronisation plus de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -137,7 +137,7 @@ msgstr "Ultime synchronisation %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultime synchronisation del %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Ultime synchronisation plus de %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -145,7 +145,7 @@ msgstr "Ultime synchronisation %(translatedTimeAgo)s presso %(translatedCity)s, 
 
 #: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultime synchronisation del %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Ultime synchronisation plus de %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
@@ -153,7 +153,7 @@ msgstr "Ultime activitate: %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Ultime activitate del %(translatedTimeAgo)s"
+msgstr "Ultime activitate plus de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -161,7 +161,7 @@ msgstr "Ultime activitate %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultime activitate del %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr "Ultime activitate plus de %(translatedTimeAgo)s in %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -169,7 +169,7 @@ msgstr "Ultime activitate %(translatedTimeAgo)s presso %(translatedCity)s, %(tra
 
 #: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultime activitate del %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Ultime activitate plus de %(translatedTimeAgo)s presso %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
@@ -205,7 +205,7 @@ msgstr "Session web"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
-msgstr "Ultime synchronisation incognite"
+msgstr "Hora del ultime synchronisation incognite"
 
 #: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
@@ -234,7 +234,7 @@ msgstr "Adresse de e-mail primari definite como %(email)s"
 
 #: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
 msgid "Secondary email"
-msgstr "Email secundari"
+msgstr "Adresse de e-mail secundari"
 
 #: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
@@ -246,19 +246,19 @@ msgstr "Nove codices de recuperation generate"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 msgid "Two-step authentication enabled"
-msgstr "Authentication a duo grados activate"
+msgstr "Authentication a duo passos activate"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Usar le codice %(code)s pro eliger le authentication a duo grados in applicationes que lo supporta."
+msgstr "Usa le codice %(code)s pro configurar le authentication a duo passos in applicationes que lo supporta."
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
 msgid "Two-step authentication removed"
-msgstr "Authentication a duo grados removite"
+msgstr "Authentication a duo passos removite"
 
 #: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
 msgid "Two-step Authentication"
-msgstr "Authentication a duo grados"
+msgstr "Authentication a duo passos"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
 msgid "Account Recovery"
@@ -291,7 +291,7 @@ msgstr "nulle"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr "Ultimo controlate: %(lastCheckTime)s"
+msgstr "Ultime verification: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -336,7 +336,7 @@ msgstr "Imprimite"
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 #: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Email primari verificate con successo"
+msgstr "Adresse de e-mail primari verificate correctemente"
 
 #: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
@@ -380,7 +380,7 @@ msgstr "Firefox Sync"
 
 #: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115 .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Email secundari verificate con successo"
+msgstr "Adresse de e-mail secundari verificate correctemente"
 
 #: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -393,7 +393,7 @@ msgstr "Error inexpectate"
 
 #: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu email ha expirate."
+msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu adresse de e-mail ha expirate."
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -521,15 +521,15 @@ msgstr "Codice de apertura de session invalide"
 
 #: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
-msgstr "Impossibile cambiar le email primari a un email non verificate"
+msgstr "Impossibile cambiar le adresse de e-mail primari a un adresse non verificate"
 
 #: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Impossibile cambiar le email primari a un email a un email que non pertine a iste conto"
+msgstr "Impossibile cambiar le adresse de e-mail primari a un adresse que non pertine a iste conto"
 
 #: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
-msgstr "Iste email non pote ser usate actualmente pro initiar un session"
+msgstr "Al momento non es possibile usar iste adresse de e-mail pro aperir session"
 
 #: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
@@ -541,7 +541,7 @@ msgstr "Codice valide requirite"
 
 #: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
-msgstr "Iste codice de verification es expirate"
+msgstr "Iste codice de verification ha expirate"
 
 #: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
@@ -569,23 +569,23 @@ msgstr "Clave de recuperation non valide"
 
 #: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242
 msgid "This request requires two step authentication enabled on your account."
-msgstr "Iste requesta require le authentication a duo grados activate sur tu conto."
+msgstr "Iste requesta require le authentication a duo passos activate sur tu conto."
 
 #: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Fallite per un requesta in conflicto, reproba."
+msgstr "Fallite a causa de un conflicto inter requestas. Per favor reproba."
 
 #: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
-msgstr "Cliente pro le inscription incognite."
+msgstr "Cliente incognite pro le subscription."
 
 #: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
-msgstr "Inscription incognite."
+msgstr "Subscription incognite."
 
 #: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
-msgstr "Plano pro le inscription incognite."
+msgstr "Plano incognite pro le subscription."
 
 #: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
