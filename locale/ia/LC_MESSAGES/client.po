@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 12:42+0000\n"
+"PO-Revision-Date: 2019-10-30 13:31+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1476,7 +1476,7 @@ msgstr "Prende un photo"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr "Carga"
+msgstr "Inviar"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
@@ -1518,19 +1518,19 @@ msgstr "Tu datos de navigation restara in %(deviceName)s, ma illo non plus esser
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr "Apparato suspecte"
+msgstr "Dispositivo suspecte"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr "Apparato perdite o robate"
+msgstr "Dispositivo perdite o robate"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr "Apparato obsolete o reimplaciate"
+msgstr "Dispositivo obsolete o reimplaciate"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr "Apparato duplicate"
+msgstr "Dispositivo duplicate"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1546,7 +1546,7 @@ msgstr "Disconnexion succedite"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr "Apparatos e applicationes"
+msgstr "Dispositivos e applicationes"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
@@ -1554,11 +1554,11 @@ msgstr "Monstrar"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Apparato actual"
+msgstr "Dispositivo actual"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Disconnexion…"
+msgstr "Disconnecter…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
@@ -1574,7 +1574,7 @@ msgstr "Firefox pro iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr "Nulle connexion"
+msgstr "Nihil connectite"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
@@ -1592,7 +1592,7 @@ msgstr "Elementos mancante o duplicate?"
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr "Stato del actualisation"
+msgstr "Actualisar stato"
 
 #: .es5/templates/settings/communication_preferences.mustache:3 .es5/lib/strings.js:43 .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
@@ -1601,11 +1601,12 @@ msgstr "Preferentias de e-posta"
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
-"Tu recipera communicationes associate al securitate de tu conto, cambios a nostre regulamento, functionalitate de tu conto e emails initial pro te adjutar a obtener le plus ab tu conto Firefox."
+"Tu recipera communicationes associate al securitate de tu conto, cambios a nostre regulamento, le functionalitate de tu conto, e messages introductive pro adjutar te a tirar le maxime avantage de tu"
+" conto Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr "In addition, tu pote te subscriber pro reciper emails promotional con le ultime novas de Mozilla e Firefox."
+msgstr "In addition, tu pote subscriber te a messages promotional con le ultime novas de Mozilla e Firefox."
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
@@ -1613,7 +1614,7 @@ msgstr "Subscriber"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr "Preferentias de gestion"
+msgstr "Gerer preferentias"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
 #: .es5/templates/settings/delete_account.mustache:19 .es5/templates/settings/delete_account.mustache:21
@@ -1638,7 +1639,7 @@ msgstr "Elige le nomine que tu vole facer apparer in Firefox e quando tu gere tu
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Un adresse de e-mail secundari es un adresse additional pro reciper notificationes de securitate e pro confirmar nove apparatos."
+msgstr "Un adresse de e-mail secundari es un adresse additional pro reciper notificationes de securitate e pro confirmar nove dispositivos."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -1678,7 +1679,7 @@ msgstr "Generar nove codices de recuperation"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "Ecce tu codices de recuperation a uso unic. Immagazina los in un loco secur in caso que tu perde le accesso a tu apparato mobile. Iste codices non essera monstrate un altere vice."
+msgstr "Ecce tu codices de recuperation a uso unic. Immagazina los in un loco secur in caso que tu perde le accesso a tu dispositivo mobile. Iste codices non essera monstrate un altere vice."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1691,15 +1692,15 @@ msgstr "Imprimer"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr "Authentication in duo grados"
+msgstr "Authentication a duo passos"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr "Activation…"
+msgstr "Activar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Adder un strato de securitate a tu conto per requirer le codices per un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication</a>."
+msgstr "Adde un nivello de securitate a tu conto per requirer codices de securitate ab un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1723,15 +1724,15 @@ msgstr "Activar"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr "Supplanta le codice de recuperation"
+msgstr "Reimplaciar le codices de recuperation"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Scande le codice QR in tu application de authentication e pois insere le codice de securitate que illo forni."
+msgstr "Scanna le codice QR in tu application de authentication e pois insere le codice de securitate que illo forni."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr "Non pote tu scander le codice?"
+msgstr "Non pote scannar le codice?"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
@@ -1751,7 +1752,7 @@ msgstr "Ante que tu pote vider o facer cambios a iste section, tu debe verificar
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr "Email primari"
+msgstr "Adresse de e-mail primari"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
