@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-10-30 15:51+0000\n"
+"PO-Revision-Date: 2019-10-30 20:58+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -431,7 +431,7 @@ msgstr "Terminos de servicio de Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr "Regulas de terminos e cancellation"
+msgstr "Terminos e politica de cancellation"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -447,7 +447,7 @@ msgstr "Actualisar le informationes de factura"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr "Regulas de terminos e cancellation:"
+msgstr "Terminos e politica de cancellation:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
