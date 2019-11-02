@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-01 23:52+0000\n"
+"PO-Revision-Date: 2019-11-02 00:11+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -500,11 +500,11 @@ msgstr "Este correo electrónico ya fue verificado por otro usuario"
 
 #: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162
 msgid "Secondary email must be different than your account email"
-msgstr "El correo electrónico secundario debe ser diferente del correo electrónico de la cuenta"
+msgstr "El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta"
 
 #: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
-msgstr "Para ingresar se requiere la cuenta de correo electrónico primaria"
+msgstr "Para iniciar sesión se requiere la cuenta de correo electrónico primaria"
 
 #: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
@@ -540,7 +540,7 @@ msgstr "Se requiere un código válido"
 
 #: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
-msgstr "Este código de verificación está vencido"
+msgstr "Este código de verificación ya caducó"
 
 #: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
@@ -572,7 +572,7 @@ msgstr "Esta solicitud requiere autenticación de dos pasos habilitada en la cue
 
 #: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Falló debido a una solicitud que genera conflicto, por favor intente de nuevo."
+msgstr "Falló debido a una solicitud que genera conflicto, intentá de nuevo."
 
 #: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
@@ -593,7 +593,7 @@ msgstr "Token de pago inválido para la suscripción."
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
-msgstr "Servidor ocupado, intente de nuevo en breve"
+msgstr "Servidor ocupado, intentá de nuevo en unos minutos"
 
 #: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
@@ -604,7 +604,7 @@ msgstr "Función no habilitada"
 #: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
 msgid "System unavailable, try again soon"
-msgstr "El sistema no está disponible, vuelva a intentarlo en breve"
+msgstr "El sistema no está disponible, volvé a probar en unos minutos"
 
 #: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
@@ -612,15 +612,15 @@ msgstr "Este extremo ya no se admite"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
-msgstr "Intento de ingreso cancelado"
+msgstr "Intento de inicio de sesión de cancelado"
 
 #: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
-msgstr "Se terminó tu sesión. Ingresá nuevamente."
+msgstr "La sesión caducó. Iniciá sesión de nuevo para conituar."
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
-msgstr "Las cookies aún están deshabilitadas"
+msgstr "Las cookies tdavía están deshabilitadas"
 
 #: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
@@ -632,7 +632,7 @@ msgstr "Trabajando…"
 
 #: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
-msgstr "No se pudo acceder a la Nota sobre privacidad"
+msgstr "No se pudo conseguir la Nota de privacidad"
 
 #: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
@@ -640,7 +640,7 @@ msgstr "No se pudo acceder a los Términos del servicio"
 
 #: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
-msgstr "Su nueva contraseña debe ser diferente"
+msgstr "Tu nueva contraseña tiene que ser diferente"
 
 #: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
 msgid "Must be at least 8 characters"
@@ -669,15 +669,15 @@ msgstr "Se requiere una URL válida"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Su correo electrónico de verificación no pudo ser enviado. ¿Habrá escrito mal alguna letra?"
+msgstr "TSu correo electrónico de verificación fue devuelto. ¿Habrá algún error en la dirección?"
 
 #: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Ingrese una dirección de correo electrónico válida. firefox.com no ofrece correo electrónico."
+msgstr "Ingresá una dirección de correo electrónico válida. firefox.com no ofrece correo electrónico."
 
 #: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Las cuentas de Firefox pueden ubicarse en un IFRAME solo en sitios aprobados"
+msgstr "Las cuentas de Firefox solo pueden ubicarse en un IFRAME en sitios aprobados"
 
 #: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
 msgid "Verification link damaged"
@@ -693,7 +693,7 @@ msgstr "Falta poco para poder usar Firefox Account en Firefox para iOS"
 
 #: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
-msgstr "Tenés que ingresar su edad para registrarte"
+msgstr "Tenés que ingresar tu edad para registrarte"
 
 #: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
@@ -722,7 +722,7 @@ msgstr "Atributo de datos faltante: %(property)s"
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
 #: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "Ese enlace de confirmación ya fue utilizado y se puede usar solo una sola vez."
+msgstr "Ese enlace de confirmación ya fue utilizado y se puede usar una sola vez."
 
 #: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491
 msgid "This is a required field"
@@ -762,11 +762,11 @@ msgstr "Se requiere el código de recuperación"
 
 #: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
-msgstr "Por favor ingrese el código de verificación"
+msgstr "Ingresá el código de verificación"
 
 #: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr "Las cuentas con autenticación de dos pasos no sportar emparejamiento en este momento"
+msgstr "Las cuentas con autenticación de dos pasos no son compatibles con el emparejamiento en este momento"
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -778,11 +778,11 @@ msgstr "Configuración no válida"
 
 #: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr "¿Quiso decir <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr "¿Quisiste decir <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
-msgstr "Por favor intente nuevamente más tarde"
+msgstr "Intenta de nuevo más tarde"
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
