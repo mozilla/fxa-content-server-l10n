@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-05 12:11+0000\n"
+"PO-Revision-Date: 2019-11-05 12:32+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -34,32 +34,32 @@ msgstr "Eñepyrũ tembiapo"
 
 #: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (orekova’erã)"
 
 #: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Ñandutiveve kundaharape"
 
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
 #: .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr ""
+msgstr "Téra ehechauka hag̃ua"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr ""
+msgstr "Mba’ete ra’ãnga"
 
 #: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr ""
+msgstr "Eg̃uahẽporãjey"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync oku’ejeýta ag̃aite"
 
 #: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Oikojeýma ne ñe’ẽñemi"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -92,11 +92,11 @@ msgstr ""
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
-msgstr ""
+msgstr "Mba’ete ojehechajeýva"
 
 #: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Jeikepyre"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
 msgid "Web Session"
-msgstr ""
+msgstr "Web rembiapo"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
@@ -286,7 +286,7 @@ msgstr ""
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "avave"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
@@ -294,23 +294,23 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Embojuruja Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Embojuruja Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Embojuruja Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Embojuruja Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Embojuruja Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -318,7 +318,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Monguatiapyre"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
@@ -326,11 +326,11 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Mboguejypyre"
 
 #: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Monguatiapyre"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 #: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
@@ -343,7 +343,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
 msgid "Open tabs"
-msgstr ""
+msgstr "Tendayke ijurujáva"
 
 #: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
 msgid "Bookmarks"
