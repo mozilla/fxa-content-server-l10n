@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-05 16:51+0000\n"
+"PO-Revision-Date: 2019-11-05 17:11+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -128,47 +128,47 @@ msgstr "Ñembojuehe ipyahuvéva %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva are’íma %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
 msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
 msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva are’íma %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
 msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva %(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva are’íma %(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Tembiapo ramovéva %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Tembiapo ramovéva are’íma %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovéva %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovéva are’íma %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovéva %(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovéva are’íma %(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
@@ -176,7 +176,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ojapóma %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
@@ -184,15 +184,15 @@ msgstr "%(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Ojapóma %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Ojapóma %(translatedTimeAgo)s ag̃ui %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
