@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-05 12:58+0000\n"
+"PO-Revision-Date: 2019-11-05 16:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -21,7 +21,7 @@ msgstr "Embojevyjey ñe’ẽñemi"
 
 #: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Ñe’ẽñemi jeguerujey. Ejekuaauka eku’ejey hag̃ua."
 
 #. submit button
 #. header text
@@ -63,7 +63,7 @@ msgstr "Oikojeýma ne ñe’ẽñemi"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka Firefox peguápe."
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
@@ -71,24 +71,24 @@ msgstr ""
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Ñanduti veve ypygua hechapyre"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Umi marandu’i mba’ete rehegua oñemondóta %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Ñanduti veve mokõiguáva hechapyre"
 
 #: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Tembiapo ñepyrũ moneĩmbyre"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 #: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Ikatúma eipuru %(serviceName)s"
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
@@ -100,7 +100,7 @@ msgstr "Jeikepyre"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Mba’ete ojekuaa’ỹva. <a href=\"/signup\">Mboheraguapy</a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ñembojuehe ipyahuvéva %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
