@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-05 17:11+0000\n"
+"PO-Revision-Date: 2019-11-06 12:34+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -404,7 +404,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr ""
+msgstr "Kuaaukaha noikóiva"
 
 #: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
@@ -532,11 +532,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
-msgstr ""
+msgstr "Ojavy ne ñanduti veve ñemondo"
 
 #: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
 msgid "Valid code required"
-msgstr ""
+msgstr "Eikotevẽ ayvu oikóva"
 
 #: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
@@ -580,20 +580,20 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Mboheraguapy ojekuaa’ỹva."
 
 #: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Mboheraguapy rape ojekuaa’ỹva."
 
 #: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "Token jehepyme’ẽ oiko’ỹva eñemboheraguapy hag̃ua."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Mohendahavusu ojepuru, eha’ãjey upéi"
 
 #: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
