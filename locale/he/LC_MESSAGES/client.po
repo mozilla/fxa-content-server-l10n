@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-06 19:48+0000\n"
+"PO-Revision-Date: 2019-11-06 20:01+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1989,7 +1989,7 @@ msgstr "שינוי דוא״ל"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "עשית את זה! התחברת."
 
 #: .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
@@ -2191,7 +2191,7 @@ msgstr "הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר א
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "הממ, יש בעיה במערכת שלנו. אנו מתקנים זאת כעת ומצטערים על אי הנוחות. נא לנסות שוב מאוחר יותר."
 
 #: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
 msgid "Other"
@@ -2199,11 +2199,11 @@ msgstr "אחר"
 
 #: .es5/views/support.js:216 .es5/views/support.js:230
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "תודה שפנית לתמיכה של Mozilla לגבי <b>%(escapedLowercaseTopic)s</b>. ניצור איתך קשר בדוא״ל בהקדם האפשרי."
 
 #: .es5/views/support.js:218 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "תודה שפנית לתמיכה של Mozilla לגבי <b>%(escapedLowercaseTopic)s</b> עבור <b>%(escapedSelectedPlan)s</b>. ניצור איתך קשר בדוא״ל בהקדם האפשרי."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
@@ -2211,7 +2211,7 @@ msgstr "שינוי..."
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "נראה לאחרונה %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62
 msgid "Last seen over %(translatedTimeAgo)s"
@@ -2219,7 +2219,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "נראה לאחרונה %(translatedTimeAgo)s בֿ%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -2227,7 +2227,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "נראה לאחרונה %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -2235,7 +2235,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "נראה לאחרונה בזמן לא ידוע"
 
 #: .es5/models/reliers/browser.js:75
 msgid "Firefox"
@@ -2251,7 +2251,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "הפעלת סנכרון"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -2279,7 +2279,7 @@ msgstr "שם אירוע"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "נוצר בתאריך"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
@@ -2291,7 +2291,7 @@ msgstr "חזרה להגדרות"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "מה נושא הפניה?"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
@@ -2299,11 +2299,11 @@ msgstr "תיאור הבעיה"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "האם ברצונך לסנכרן מכשיר זה לחשבון שלך?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "סנכרון מכשיר זה"
 
 #: .es5/templates/settings/delete_account.mustache:15 .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
@@ -2319,15 +2319,15 @@ msgstr "ההודעה שלך נשלחה לתמיכה"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "חזרה למינויים"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "קוד אימות לא חוקי או שפג תוקפו"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 5 דקות."
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
