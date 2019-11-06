@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-06 12:34+0000\n"
+"PO-Revision-Date: 2019-11-06 12:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -597,38 +597,38 @@ msgstr "Mohendahavusu ojepuru, eha’ãjey upéi"
 
 #: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Tembiapoite ijuruja’ỹva"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
 #: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Apopyvusu ndoikói, eha’ãjey upéi"
 
 #: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Ko apýra noñemoneĩvéima"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Ojejokóma tembiapo ñepyrũ"
 
 #: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr " Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua."
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Ko’ã kookie ndoikói gueteri"
 
 #: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Ko’ã ñe’ẽñemi ndojojoguái"
 
 #: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318
 msgid "Working…"
-msgstr ""
+msgstr "Omba’apohína…"
 
 #: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
@@ -786,19 +786,19 @@ msgstr ""
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Mba'epytyvõrã ndoikói, eha’ãjey upéi"
 
 #: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
-msgstr ""
+msgstr "Puruha ojekuaa’ỹva"
 
 #: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Juajuha ñemoĩporãha ndoikói"
 
 #: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Kuaaukaha noikóiva"
 
 #: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
