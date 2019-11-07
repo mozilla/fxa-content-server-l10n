@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-06 13:00+0000\n"
+"PO-Revision-Date: 2019-11-07 16:30+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -818,15 +818,15 @@ msgstr "Ñeha'ãha OAuth ndoikói: %(param)s"
 
 #: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
-msgstr ""
+msgstr "Noñemoneĩri"
 
 #: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
-msgstr ""
+msgstr "Mbotovepyre"
 
 #: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Token oiko’ỹva"
 
 #: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
@@ -834,19 +834,19 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
 msgid "no message"
-msgstr ""
+msgstr "ñe’ẽmondo’ỹ"
 
 #: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149 .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Ndojejuhúi ta’ãha OAuth: %(param)s"
 
 #: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Ñe’ẽmondo oiko’ỹva mba’e’oka okaygua guive"
 
 #: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Ojavy oikévo mba’e’oka okayguápe"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
@@ -878,19 +878,19 @@ msgstr ""
 
 #: .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Tog̃uahẽ marandu pyahu Mozilla ha Firefox rehegua."
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (jehayhupyre)"
 
 #: .es5/lib/strings.js:41 .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (jehayhupyre)"
 
 #: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Kundaharape IP: %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
