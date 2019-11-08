@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-28 14:10+0000\n"
-"PO-Revision-Date: 2019-11-07 17:39+0000\n"
+"PO-Revision-Date: 2019-11-08 14:31+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1723,7 +1723,7 @@ msgstr ""
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
-msgstr ""
+msgstr "Tekorosãrã ayvu"
 
 #: .es5/templates/settings/two_step_authentication.mustache:22
 msgid "Confirm"
@@ -1735,11 +1735,11 @@ msgstr ""
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
-msgstr ""
+msgstr "Ñandutiveve mba’eguasuvéva"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:2
 msgid "Account recovery"
-msgstr ""
+msgstr "Mba'ete jeguerujey"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
@@ -1747,15 +1747,15 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
-msgstr ""
+msgstr "Mba’eñemi jeguerujey"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:10
 msgid "Not set"
-msgstr ""
+msgstr "Noñembohekóiva"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:13
 msgid "Generate"
-msgstr ""
+msgstr "Moheñói"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:14
 msgid ""
