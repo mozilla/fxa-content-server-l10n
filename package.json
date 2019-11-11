@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "grunt": "1.0.2",
-    "grunt-l10n-lint": "0.0.1",
+    "grunt-l10n-lint": "0.0.3",
     "load-grunt-tasks": "4.0.0",
     "time-grunt": "1.2.1"
   }
