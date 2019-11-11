@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 14:10+0000\n"
+"POT-Creation-Date: 2019-11-11 11:33+0000\n"
 "PO-Revision-Date: 2019-10-28 18:46+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195 .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
 msgstr "Пароль скінуты"
 
-#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль паспяхова скінуты. Увайдзіце для працягу."
 
@@ -27,7 +27,7 @@ msgstr "Пароль паспяхова скінуты. Увайдзіце дл�
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175
 msgid "Sign in"
 msgstr "Увайсці"
 
@@ -101,7 +101,7 @@ msgstr "Злучана"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Невядомы ўліковы запіс. <a href=\"/signup\">Зарэгістравацца</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 msgid "Account no longer exists. Recreate it?"
 msgstr "Уліковы запіс больш не існуе. Стварыць ізноў?"
 
@@ -210,6 +210,7 @@ msgid "Subscribed successfully"
 msgstr "Паспяхова падпісаны"
 
 #: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
+#: .es5/views/settings/delete_account.js:238
 msgid "Account deleted successfully"
 msgstr "Уліковы запіс паспяхова выдалены"
 
@@ -217,20 +218,20 @@ msgstr "Уліковы запіс паспяхова выдалены"
 msgid "Display name updated"
 msgstr "Адлюстраванае імя абноўлена"
 
-#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
+#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103 .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
 msgstr "Другі адрас эл.пошты выдалены"
 
 #: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
-#: .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/mixins/upgrade-session-mixin.js:96 .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149
 msgid "Verification email sent"
 msgstr "Ліст пацверджання высланы"
 
-#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
+#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166 .es5/views/settings/emails.js:167
 msgid "Primary email set to %(email)s"
 msgstr "Асноўным адрасам эл.пошты ўсталяваны %(email)s"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179 .es5/views/settings/emails.js:180
 msgid "Secondary email"
 msgstr "Дадатковая эл.пошта"
 
@@ -243,22 +244,23 @@ msgid "New recovery codes generated"
 msgstr "Згенераваны новыя коды аднаўлення"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
+#: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
 msgstr "Двухэтапная аўтарызацыя ўключана"
 
-#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
+#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Скарыстайцеся кодам %(code)s для настаўлення двухэтапнай аўтарызацыі ў падтрыманых праграмах."
 
-#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
 msgstr "Двухэтапная аўтарызацыя выдалена"
 
-#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
+#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
 msgstr "Двухэтапная аўтарызацыя"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
+#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
 msgstr "Аднаўленне ўліковага запісу"
 
@@ -775,7 +777,7 @@ msgstr "Адсутнічае канфігурацыя"
 msgid "Invalid configuration"
 msgstr "Некарэктная канфігурацыя"
 
-#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
+#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34 .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "Вы мелі на ўвазе <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
@@ -868,7 +870,9 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -938,7 +942,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -1086,6 +1091,7 @@ msgstr "Адрас эл.пошты пацверджаны"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 #: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
+#: .es5/templates/sms_send.mustache:1
 msgid "Success"
 msgstr "Поспех"
 
@@ -1138,7 +1144,7 @@ msgstr "Увайдзіце, каб працягнуць"
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
 msgstr "Пароль"
 
@@ -1151,7 +1157,8 @@ msgstr "Забылі пароль?"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up_password.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай прыватнасці</a>."
 
@@ -1221,6 +1228,7 @@ msgstr "Прыняць"
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
+#: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Cancel"
 msgstr "Скасаваць"
 
@@ -1368,7 +1376,7 @@ msgid "Create a Firefox Account"
 msgstr "Стварыць уліковы запіс Firefox"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "Паўтарыць пароль"
 
@@ -1392,6 +1400,7 @@ msgstr "Атрымліваць апошнія навіны пра Mozilla і Fir
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
 #: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "Стварыць уліковы запіс"
 
@@ -1403,19 +1412,20 @@ msgstr "Ужо маеце ўліковы запіс? Увайсці"
 msgid "Mistyped email?"
 msgstr "Няправільна набраны адрас пошты?"
 
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12 .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Адпраўце Firefox прама на ваш смартфон і ўвайдзіце ў сістэму, каб завяршыць устаноўку"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
 msgstr "Нумар мабільнага тэлефона"
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:4
 msgid "Send"
 msgstr "Адправіць"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
@@ -1454,7 +1464,7 @@ msgstr "Служба сінхранізацыі не з'яўляецца ста�
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Вы мусіце ўсталяваць Firefox і сінхранізаваць па меншай меры дзве прылады для абароны ад страты дадзеных, калі вам трэба аднавіць іх, але вы забылі свой пароль."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
+#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
 msgstr "Зразумела"
 
@@ -1530,15 +1540,15 @@ msgstr "Старая або замененая прылада"
 msgid "Duplicate device"
 msgstr "Дублікат прылады"
 
-#: .es5/templates/settings/client_disconnect.mustache:7
+#: .es5/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "Не ўказваць"
 
-#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
+#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:9
 msgid "Disconnect"
 msgstr "Адлучыць"
 
-#: .es5/templates/settings/client_disconnect.mustache:10
+#: .es5/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "Адлучэнне прайшло паспяхова"
 
@@ -1628,8 +1638,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
-" выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як "
+"вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1805,7 +1815,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце знайсці "
 "яго пазней."
@@ -2010,7 +2021,7 @@ msgstr "Цяпер атрымайце Firefox на ўсіх астатніх п�
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "Увайдзіце на іншых прыладах, каб атрымаць усе прадукты, веды і магчымасці прыватнасці Firefox."
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
 msgid "Why sign in on another device?"
 msgstr "Навошта ўваходзіць на іншай прыладзе?"
 
@@ -2075,7 +2086,7 @@ msgid "Test new Firefox products"
 msgstr "Выпрабоўвайце новыя прадукты Firefox"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Практычныя веды ў вашай уваходнай пошце. Падпішыцеся на больш:"
 
@@ -2134,7 +2145,8 @@ msgstr "Неправераны карыстальнік або сеанс"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
+msgstr ""
+"Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -2355,6 +2367,62 @@ msgstr "Хочаце адмяніць платную падпіску? Пера�
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
 msgstr "Ваша паведамленне адпраўлена ў службу падтрымкі"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Need another code? Resend"
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:3
+msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:4
+msgid "Suspicious"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:5
+msgid "Lost or stolen"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:6
+msgid "Old or replaced"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Sign up to get more features:"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Sync your bookmarks, passwords, and more on every device."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Send larger files securely and privately."
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:13
+msgid "Choose what to sync:"
+msgstr ""
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Код рэгістрацыі пратэрмінаваны або нядзейсны"

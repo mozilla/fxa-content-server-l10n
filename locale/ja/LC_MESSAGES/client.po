@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 14:10+0000\n"
+"POT-Creation-Date: 2019-11-11 11:33+0000\n"
 "PO-Revision-Date: 2019-10-15 11:09+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429765208.0\n"
 
-#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195
+#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195 .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
 msgstr "パスワードをリセット"
 
-#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211
+#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "パスワードのリセットが完了しました。続けるにはログインしてください。"
 
@@ -28,7 +28,7 @@ msgstr "パスワードのリセットが完了しました。続けるにはロ
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175
 msgid "Sign in"
 msgstr "ログイン"
 
@@ -103,7 +103,7 @@ msgstr "接続済み"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">ユーザー登録</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67
+#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 msgid "Account no longer exists. Recreate it?"
 msgstr "アカウントはもう存在しません。再度作成しますか？"
 
@@ -212,6 +212,7 @@ msgid "Subscribed successfully"
 msgstr "購読を開始しました"
 
 #: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
+#: .es5/views/settings/delete_account.js:238
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
@@ -219,20 +220,20 @@ msgstr "アカウントの削除が完了しました"
 msgid "Display name updated"
 msgstr "表示名が更新されました"
 
-#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103
+#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103 .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
 msgstr "予備アドレスが削除されました"
 
 #: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
-#: .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/mixins/upgrade-session-mixin.js:96 .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149
 msgid "Verification email sent"
 msgstr "確認メールを送信しました"
 
-#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166
+#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166 .es5/views/settings/emails.js:167
 msgid "Primary email set to %(email)s"
 msgstr "主要アドレスが %(email)s に設定されました"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179
+#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179 .es5/views/settings/emails.js:180
 msgid "Secondary email"
 msgstr "予備アドレス"
 
@@ -245,22 +246,23 @@ msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
+#: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
 msgstr "2 段階認証が有効化されました"
 
-#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135
+#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "コード %(code)s を使って対応アプリケーション内で 2 段階認証を設定してください。"
 
-#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153
+#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
 msgstr "2 段階認証が削除されました"
 
-#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194
+#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
 msgstr "2 段階認証"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84
+#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
 msgstr "アカウントの回復"
 
@@ -777,7 +779,7 @@ msgstr "見当たらない設定"
 msgid "Invalid configuration"
 msgstr "無効な設定"
 
-#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34
+#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34 .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr "もしかして <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> ではありませんか？"
 
@@ -1093,6 +1095,7 @@ msgstr "メールアドレスが確認されました"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 #: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
+#: .es5/templates/sms_send.mustache:1
 msgid "Success"
 msgstr "成功"
 
@@ -1146,7 +1149,7 @@ msgstr "ログインして続ける"
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
 msgstr "パスワード"
 
@@ -1159,7 +1162,8 @@ msgstr "パスワードをお忘れですか？"
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:14
+#: .es5/templates/sign_up_password.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "続けることで、<a id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
 
@@ -1229,6 +1233,7 @@ msgstr "承認"
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
+#: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -1377,7 +1382,7 @@ msgid "Create a Firefox Account"
 msgstr "Firefox アカウントの作成"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "パスワードを再入力してください"
 
@@ -1401,6 +1406,7 @@ msgstr "Mozilla と Firefox に関する最新情報を入手"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
 #: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
+#: .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "アカウントを作成"
 
@@ -1412,19 +1418,20 @@ msgstr "アカウントをお持ちですか？ ログイン"
 msgid "Mistyped email?"
 msgstr "アドレスを打ち間違えた場合"
 
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12
+#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12 .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Firefox をお使いのスマートフォンへ直接送り、ログインして設定を完了しましょう"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6
+#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
 msgstr "携帯電話番号"
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:4
 msgid "Send"
 msgstr "送信"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8
+#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS サービスは特定の国でのみ利用可能です。SMS およびデータ料金がかかる場合があります。メールまたは SMS の受信者による同意が必要です。<a %(escapedLearnMoreAttributes)s>詳細はこちら</a>"
@@ -1461,7 +1468,7 @@ msgstr "Sync サービスは恒久的なバックアップではなく、保存�
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "少なくとも 2 台の端末上で Firefox をインストールし同期することで、万が一データを復元する必要があり、その際にパスワードを忘れてしまっていた場合でも、データを失わずに済みます。"
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11
+#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
 msgstr "了解"
 
@@ -1537,15 +1544,15 @@ msgstr "古いもしくは交換された端末"
 msgid "Duplicate device"
 msgstr "端末を複製"
 
-#: .es5/templates/settings/client_disconnect.mustache:7
+#: .es5/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "回答しない"
 
-#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13
+#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:9
 msgid "Disconnect"
 msgstr "接続解除"
 
-#: .es5/templates/settings/client_disconnect.mustache:10
+#: .es5/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "接続が解除されました"
 
@@ -2014,7 +2021,7 @@ msgstr "Firefox をどこでも使えるようにしましょう。"
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
 msgstr "他の端末からログインして、Firefox の製品、情報、プライバシー機能のすべてを使いこなしましょう。"
 
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7
+#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
 msgid "Why sign in on another device?"
 msgstr "別の端末でログインする理由"
 
@@ -2079,7 +2086,7 @@ msgid "Test new Firefox products"
 msgstr "新しい Firefox 製品をテストする"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
@@ -2359,6 +2366,62 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Need another code? Resend"
+msgstr ""
+
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:3
+msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:4
+msgid "Suspicious"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:5
+msgid "Lost or stolen"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:6
+msgid "Old or replaced"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Sign up to get more features:"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Sync your bookmarks, passwords, and more on every device."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Send larger files securely and privately."
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:13
+msgid "Choose what to sync:"
 msgstr ""
 
 #~ msgid "%(email)s registered."
