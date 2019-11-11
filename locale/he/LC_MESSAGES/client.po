@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-06 20:01+0000\n"
+"PO-Revision-Date: 2019-11-11 16:40+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -871,9 +871,7 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
@@ -941,8 +939,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "יש להזין את מפתח השחזור החד פעמי ששמרת במקום בטוח כדי לקבל גישה לחשבון Firefox שלך."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">הערה:</span> איפוס הססמה ללא שמירת מפתח שחזור החשבון יגרור מחיקה של חלק מהנתונים שלך (כולל נתונים מסונכרנים כמו היסטוריה וסימניות)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1778,8 +1775,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">לתשומת לבך: </span>ססמת חשבון ה־Firefox שלך מצפינה את נתוני ה־Firefox שלך. רק הססמה או מפתח השחזור שלך יכולים לגשת לנתונים שלך. <a %(escapedLearnMoreLinkAttributes)s>מידע נוסף</"
-"a>"
+"<span class=\"note\">לתשומת לבך: </span>ססמת חשבון ה־Firefox שלך מצפינה את נתוני ה־Firefox שלך. רק הססמה או מפתח השחזור שלך יכולים לגשת לנתונים שלך. <a %(escapedLearnMoreLinkAttributes)s>מידע "
+"נוסף</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1806,8 +1803,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "שלב 2 מתוך 2: שמירת מפתח שחזור"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">לתשומת לבך: </span>אם שכחת את הססמה שלך, מפתח זה נדרש כדי לקבל גישה לנתונים שלך. יש לשמור את מפתח השחזור במקום בטוח שבו יהיה קל למצוא אותו מאוחר יותר."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2346,7 +2342,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "מתקשה בהזנת הקוד?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
@@ -2354,7 +2350,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "ההודעה שלך נשלחה לתמיכה"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
@@ -2370,47 +2366,47 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "ניתוק מ־Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "הסיבה לניתוק %(deviceName)s מ־Sync היא מכיוון שהמכשיר הזה:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "חשוד"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "אבוד או נגנב"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "ישן או הוחלף"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "כפול"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "הרשמה לקבלת תכונות נוספות:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "סנכרון הסימניות שלך, הססמאות ועוד בכל מכשיר."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "גישה מאובטחת לססמאות השמורות ב־Firefox מכל מקום &mdash; גם מחוץ לדפדפן."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "שליחת קבצים גדולים באופן מאובטח ופרטי."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "נא לבחור את הפריטים שיסונכרנו:"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s נרשם."
@@ -2532,12 +2528,8 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "נדרשת תמיכה בעוגיות ואחסון מקומי."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "המשך התהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של שירותי הענן של "
-#~ "Firefox."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "המשך התהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של שירותי הענן של Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "שירותי הענן של Firefox"
@@ -2656,14 +2648,14 @@ msgstr ""
 #~ msgstr "כניסה"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>מוטב לזכור:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>לתשומת לבך:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
@@ -2737,11 +2729,9 @@ msgstr ""
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
-#~ "\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "מחיקה"
@@ -2965,11 +2955,8 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "כבר יש ברשותך חשבון? נא להתחבר אליו."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של Firefox cloud services."
 
 #~ msgid "Password changed"
 #~ msgstr "הססמה שונתה"
