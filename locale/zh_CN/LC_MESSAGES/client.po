@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-11 23:30+0000\n"
+"PO-Revision-Date: 2019-11-11 23:56+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -2351,7 +2351,7 @@ msgstr "选择性同步"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "需要另一组码？重新发送"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
@@ -2391,7 +2391,7 @@ msgstr "与您的所有设备同步标签页、书签、密码等等。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "在任何地方访问保存在 Firefox 的密码 &mdash; 即使在浏览器之外。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
