@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-06 17:50+0000\n"
+"PO-Revision-Date: 2019-11-12 17:36+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -513,44 +513,44 @@ msgstr ""
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Emoneĩ ñanduti veve tuichavéva"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Ñandutiveve hechajey"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Emoneĩ ñandutiveve mokõiguáva"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Embojevyjey ne ñe’ẽñemi"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Ñe’ẽñemi hekopyahúva"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Tembiapo ivaikuaáva jehechapyre"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
-msgstr ""
+msgstr "Mba’ete ñangareko"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Mba’ete moneĩmbyre"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
-msgstr ""
+msgstr "Emoinge ambue mba’e’oka"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Ñanduti veve tuichavéva hekopyahúva"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
@@ -574,24 +574,24 @@ msgstr ""
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
-msgstr ""
+msgstr "Emoheñói ayvu"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Ñe’ẽñemi hekopyahu eipurúvo mba’eñemi jeguerujeyrã"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Emoheñói mba’eñemi jeguerujeyrã pyahu"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Kuatiarogue ojejuhu'ỹva"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
@@ -601,11 +601,11 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Ñepyrũ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 Javy"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
@@ -615,7 +615,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 Javy"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -629,23 +629,23 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Henyhẽhína"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox Accounts oikotevẽ JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Maranduí ñemiguáva"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Mba'epytyvõrã ñemboguata"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox oikotevẽ mbohekopyahu"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -657,4 +657,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Emboguejy tembiapo ipyahuvéva"
