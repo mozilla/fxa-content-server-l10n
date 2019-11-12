@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-12 16:51+0000\n"
+"PO-Revision-Date: 2019-11-12 17:05+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -247,11 +247,11 @@ msgstr "Heñóima ayvu jeguerujeyrãva pyahu"
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
-msgstr "Ijurujáma jeguata ñemoneĩ"
+msgstr "Ijurujáma mokõi jeku’épe ñemoneĩ"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Eipuru ayvu %(code)s emboheko hag̃ua ñemoneĩ mokõi jey tembipuru’ípe."
+msgstr "Eipuru ayvu %(code)s emboheko hag̃ua ñemoneĩ mokõi jeku’épe tembipuru’ípe."
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
@@ -259,32 +259,32 @@ msgstr "Ñemoneĩ mokõi jeýpe mboguepyre"
 
 #: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Emoneĩ mokõi jeku’épe"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
-msgstr ""
+msgstr "Mba’ete jeguerujey"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Ijurujáma mba’ete jeguerujey"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Ojeheja mba’ete jeguerujey"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Firefox mba’eñemi jeguerujeyrã"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ojejoko ne mba’ete tekorosãrã"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr ""
+msgstr "Ñe’ẽñemi mbojevyjey"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
@@ -292,7 +292,7 @@ msgstr "avave"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr " Jehechajey ramovegua: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -324,7 +324,7 @@ msgstr "Monguatiapyre"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Noñembokuatiái. Ikatúpa ejapo nde pópe."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
