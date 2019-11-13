@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 20:39+0000\n"
+"PO-Revision-Date: 2019-11-13 23:29+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -16,15 +16,15 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "Queden pocos códigos de recuperación"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Decatémonos de que tas quedándote ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "Decatémonos de que tas quedándote ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Vas precisar introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "Vas precisar introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Si nun fuesti tu, revoca la clave."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
@@ -257,7 +257,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Calca'l botón dientro d'una hora pa crear una contraseña. La solicitú vieno del preséu de darréu:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
@@ -325,11 +325,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Confirmar l'aniciu de sesión"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Si ye asina, equí ta'l códigu de verificación:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
@@ -369,7 +369,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Si ye asina, usa esti códigu de verificación:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -462,15 +462,15 @@ msgstr ""
 
 #: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s en %(uaOS)s"
 
 #: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (estimóse)"
 
 #: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimóse)"
 
 #: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimóse)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
@@ -567,11 +567,11 @@ msgstr ""
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Queda 1 códigu de recuperación"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Queden %(numberRemaining)s códigos de recuperación"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
