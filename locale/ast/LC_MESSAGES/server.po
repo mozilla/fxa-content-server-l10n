@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 20:12+0000\n"
+"PO-Revision-Date: 2019-11-13 20:31+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr "Camudóse con ésitu la contraseña"
+msgstr "La contraseña camudó con ésitu"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Esto ye un corréu automatizáu. Si nun camudesti la contraseña na to cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s"
+msgstr "Esto ye un corréu automatizáu. Si nun camudesti la contraseña de la to cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -84,11 +84,11 @@ msgstr "Pa más información, visita %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Deteutemos una actividá sospechosa na to cuenta de Firefox. La to cuenta quiciabes tea comprometida."
+msgstr "Deteutemos una actividá sospechosa na to cuenta de Firefox. Quiciabes tea comprometida."
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Pa evitar más accesos non autorizaos a la to cuenta de Firefox, reaniciemos la to contraseña y avisámoste como precaución."
+msgstr "Pa evitar más accesos non autorizaos nel futuru, reafitemos la so contraseña y avisámoste por precaución."
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
@@ -102,12 +102,12 @@ msgstr "Primero, camuda la contraseña de la to cuenta de Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Segundo, si Firefox atroxa contraseñes de sitios, deberíes de camudar eses contraseñes tamién. Los atacantes quiciabes tengan accesu a elles, asina que deberíes comprobar eses cuentes por actividá "
+"Segundo, si Firefox atroxa les contraseñes de sitios, deberíes de camudales tamién. Los atacantes quiciabes tengan accesu a elles, asina que deberíes comprobar si eses cuentes tuvieron una actividá "
 "sospechosa."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr "Deprendi cómo ver qué contraseñes ta atroxando Firefox pa ti."
+msgstr "Deprendi cómo ver les contraseñes que ta atroxando Firefox."
 
 #: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
 msgid "Best,"
@@ -273,15 +273,15 @@ msgstr "¿Yes tu aniciando sesión?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr "Si ye asina, esti'l códigu d'autorización que precises:"
+msgstr "Si ye asina, esti ye'l códigu d'autorización que precises:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Si nun ye asina, ayuda a defendemos d'intrusos ya <a %(reportSignInLinkAttributes)s>informa d'ellos.</a>"
+msgstr "Si non, ayuda a defendenos d'intrusos ya <a %(reportSignInLinkAttributes)s>informa d'ellos.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr "Si nun ye asina, ayuda a defendemos d'intrusos ya informa d'ellos."
+msgstr "Si non, ayuda a defendenos d'intrusos ya informa d'ellos."
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -297,7 +297,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
-msgstr "¿Entá tas ende?"
+msgstr "¿Entá tas ehí?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
@@ -325,7 +325,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
 msgid "Confirm sign-in"
-msgstr "Confirmar aniciu de sesión"
+msgstr ""
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "Verificar corréu: "
+msgstr ""
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
 msgid "Verify secondary email"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Féxose una solicitú pa usar %(email)s como cuenta secundaria de corréu dende la cuenta de Firefox de darréu:"
+msgstr "Solicitóse usar %(email)s como cuenta secundaria de corréu dende la cuenta de Firefox de darréu:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -377,11 +377,11 @@ msgstr "3... 2... 1... Syncroniza"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Confirma que recibiesti esti corréu y ayudarémoste a instalar y sincronizar Firefox en tolos tos preseos entamando per:"
+msgstr "Confirma que recibiesti esti corréu y vamos ayudate a instalar y sincronizar Firefox con tolos tos preseos apenzando per:"
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Namái confirmalu, ayudarémoste a instalar y coneutar Firefox en polo menos otro preséu."
+msgstr "Namái confirmalu, vamos ayudate a instalar y coneutar Firefox con otru preséu polo menos."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -389,24 +389,24 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Pa más información, por favor visita'l <a %(supportLinkAttributes)s>Sofitu de Mozilla</a>."
+msgstr "Pa más información, visita'l <a %(supportLinkAttributes)s>Sofitu de Mozilla</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Esto ye un corréu automatizáu. Si nun amestesti un preséu nuevu a la to cuenta de Firefox, deberíes camudar la to contraseña nel intre en %(passwordChangeLink)s"
+msgstr "Esto ye un corréu automatizáu. Si nun amestesti un preséu nuevu a la to cuenta de Firefox, deberíes camudar la contraseña nel intre en %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
 #: lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Esto ye un corréu automatizáu. Si lu recibes por error, nun se rique aición dala."
+msgstr "Esto ye un corréu automatizáu. Si lu recibes por error, nun faigas nada."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Esto ye un corréu automatizáu; Si nun autoricesti esta aición, entós <a %(resetLinkAttributes)s>reanicia la to contraseña, por favor</a>."
+msgstr "Esto ye un corréu automatizáu. Si nun autoricesti esta aición, entós <a %(resetLinkAttributes)s>reanicia la to contraseña, por favor</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta. por favor camuda la contraseña."
+msgstr "Si sospeches que daquién ta tentando d'acceder a la to cuenta. camuda la contraseña."
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -414,7 +414,7 @@ msgstr "Direición IP: %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr "Xestionar cuenta:"
+msgstr ""
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -458,27 +458,27 @@ msgstr ""
 
 #: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s en %(uaOS)s %(uaOSVersion)s"
+msgstr ""
 
 #: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaBrowser)s en %(uaOS)s"
+msgstr ""
 
 #: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (estimóse)"
+msgstr ""
 
 #: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (estimao)"
+msgstr ""
 
 #: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (estimóse)"
+msgstr ""
 
 #: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (estimao)"
+msgstr ""
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
@@ -539,7 +539,7 @@ msgstr ""
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
 msgid "Manage account"
-msgstr "Xestionar cuenta"
+msgstr ""
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
@@ -547,7 +547,7 @@ msgstr ""
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
-msgstr "Coneutar otru preséu"
+msgstr ""
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
