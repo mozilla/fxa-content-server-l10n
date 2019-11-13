@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2017-10-16 16:35+0000\n"
+"PO-Revision-Date: 2019-11-13 20:12+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
 msgid "For more information, please visit %(supportUrl)s"
-msgstr "Pa más información, visita %(supportUrl)s por favor"
+msgstr "Pa más información, visita %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -620,7 +620,7 @@ msgstr "Fallu 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "Sirvidor ocupáu, volvi tentalo ceo"
+msgstr "El sirvidor ta ocupáu, volvi tentalo dempués"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -634,7 +634,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Les cuentes de Firefox riquen JavaScript."
+msgstr "Cuentes de Firefox rique JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
@@ -642,7 +642,7 @@ msgstr "Avisu de privacidá"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr "Términos del Serviciu"
+msgstr "Términos del serviciu"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -698,8 +698,7 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
+#~ msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aniciar sesión en Sync"
@@ -783,11 +782,11 @@ msgstr ""
 #~ msgstr "Reaniciar contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier "
-#~ "preséu coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
+#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
+#~ "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Hai una selmana que creasti la to cuenta de Firefox pero enxamás nun la verifiquesti. Tábemos esmolecíos. Confirma esta direición de corréu p'activar la to cuenta y saber que tas bien."
@@ -809,8 +808,7 @@ msgstr ""
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de "
-#~ "Firefox."
+#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Data y hora:"
