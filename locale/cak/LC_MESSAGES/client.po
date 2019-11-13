@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 22:11+0000\n"
+"PO-Revision-Date: 2019-11-13 22:28+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2205,7 +2205,7 @@ msgstr "We natzïj chik rik'in re taqoya'l re' rik'in jub'a' man xkekolotäj ta 
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "K'ayew,  k'o k'ayewal rik'in ri qaq'inoj. Yojsamäj richin niqab'än rutzil, takuyu' chi qe ruma yatrutz'ila'. K'a xtatojtob'ej jub'a' na chik."
 
 #: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
 msgid "Other"
@@ -2257,7 +2257,7 @@ msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Man jikïl ta o xik'o ruq'ijul ri b'itz'ib'"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2277,7 +2277,7 @@ msgstr "Titz'ib'äx rub'itz'ib' jikib'anem"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Tatz'ib'aj ri rub'itz'ib' jikib'anem xtaq pa ri %(escapedEmail)s pa 20 ch'utiramaj."
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
@@ -2325,15 +2325,15 @@ msgstr "Ri tz'ib'anïk b'i'aj e'atojon xkeyuj el"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Tajikib'a' awi' &mdash;, man takamuluj kokisaxik ri ewan taq atzij."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Xtaq ri atzijol chi ke ri to'onel molaj"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Titz'ib'äx chik B'i'aj"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Invalid or expired verification code"
@@ -2345,63 +2345,64 @@ msgstr "Tatz'ib'aj ri rub'itz'ib' jikib'anem xtaq pa %(escapedEmail)s pa 5 ch'ut
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "¿La atq'aton?"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "¿La k'ayew xatz'ib'aj ri b'itz'ib'?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "¿La nakanoj nayüj jun tojon tz'ib'an b'i'aj? Jät pa <a href=\"/subscriptions\">Kenuk'samajïx taq Tz'ib'anïk B'i'aj</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Xtaq ri atzijol chi ke ri To'onel Molaj"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Cha'on taq ximoj"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "¿La nawjo' chik jun b'itz'ib'? Titaq chik"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Rajowaxik chawe re ewan tzij re' richin yatok pa jun tzij ewan rusik'ixik, ri ayakon kan qik'in.<br/>Toq nitzolïx chik nuq'ajuj chi yesach ri taq tzij achi'el ewan taq tzij chuqa' taq yaketal."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Tichup pa Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Xatchuputäj %(deviceName)s pa Sync ruma chi re okisab'äl re':"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Q'ab'axel"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Sachon o eleq'an"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Ri'j o k'exon"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Kamulun"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Tatz'ib'aj ab'i' richin nik'oje' ch'aqa' chik taq b'anikil awik'in:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Ke'axima' ri taq ayaketal, ewan taq tzij chuqa' ch'aqa' chik pa ri awokisab'al."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
