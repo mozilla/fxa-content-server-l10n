@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-12 09:25+0000\n"
+"PO-Revision-Date: 2019-11-13 07:15+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -2402,19 +2402,19 @@ msgstr "Daptar pikeun muka fitur lianna:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Singkeun marka buku, kecap sandi, jeung nu lianna dina sakabéh paranti."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Muka kecap sandi anu disimpen di Firefox di mana baé sacara aman &mdash; kaasup di luar broserna."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Kirim berkas gedé kalayan aman jeung nyamuni."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Pilih anu rék disingkronkeun:"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Sandi daptarna kadaluwarsa atawa teu bener"
