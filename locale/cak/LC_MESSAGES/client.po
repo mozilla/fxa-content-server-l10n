@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 22:28+0000\n"
+"PO-Revision-Date: 2019-11-13 22:37+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2406,15 +2406,15 @@ msgstr "Ke'axima' ri taq ayaketal, ewan taq tzij chuqa' ch'aqa' chik pa ri awoki
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Jikïl ke'atz'ib'aj ri ewan taq tzij e'ayakon pa xab'akuchi' &mdash; achi'el toq man at k'o ta pa ri okik'amaya'l."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Ke'ataqa' nïm taq yakb'äl rik'in jikomal chuqa' ichinanem."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Tacha' achike naxïm:"
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s xtz'ib'äx rub'i'."
