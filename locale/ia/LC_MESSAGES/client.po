@@ -2053,7 +2053,7 @@ msgstr "Navigator Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr "Viagia sur Internet con protection, sur omne dispositivo."
+msgstr "Viagia sur Internet con protection, sur omne apparato."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2275,7 +2275,7 @@ msgstr "Activar le synchronisation"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr "Non synchronisar iste dispositivo"
+msgstr "Non synchronisar iste apparato"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
