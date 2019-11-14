@@ -1689,7 +1689,7 @@ msgstr "Activar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Amiesta una capa adicional de seguranza a la cuenta riquiendo códigos de seguranza dende una d'(escapedTotpSupportAttributes)s>estes aplicaciones d'autenticación</a>."
+msgstr "Amiesta una capa adicional de seguranza a la cuenta riquiendo códigos de seguranza dende una <a %(escapedTotpSupportAttributes)s>estes aplicaciones d'autenticación</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
