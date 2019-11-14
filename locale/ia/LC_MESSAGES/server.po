@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-14 15:21+0000\n"
+"PO-Revision-Date: 2019-11-14 16:12+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -217,7 +217,7 @@ msgstr "Authentication a duo passos disactivate"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Tu ha disactivate con successo le authentication a duo passos sur tu Conto Firefox ab le sequente apparato:"
+msgstr "Tu ha disactivate con successo le authentication a duo passos sur tu conto Firefox ab le sequente apparato:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
