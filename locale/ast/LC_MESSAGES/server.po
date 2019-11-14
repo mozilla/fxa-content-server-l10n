@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 23:52+0000\n"
+"PO-Revision-Date: 2019-11-13 23:57+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -588,7 +588,7 @@ msgstr ""
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "Cuentes de Firefox"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -638,7 +638,7 @@ msgstr "Cargando"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Cuentes de Firefox rique JavaScript."
+msgstr "Firefox Accounts rique JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
@@ -659,6 +659,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox Accounts usa carauterístiques que nun\n"
+"                        tán sofitaes na to versión de Firefox. Baxa ya instala\n"
+"                        la última versión de Firefox pa siguir, por favor.\n"
+"                        continue."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
