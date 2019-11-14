@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-14 13:50+0000\n"
+"PO-Revision-Date: 2019-11-14 13:56+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -853,7 +853,7 @@ msgstr "Error durante le accopulamento al dispositivo remote"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr "Connexion al apparato remote claudite, per favor reproba"
+msgstr "Connexion al dispositivo remote claudite, per favor reproba"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
