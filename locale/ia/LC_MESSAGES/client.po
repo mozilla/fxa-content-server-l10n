@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-14 13:56+0000\n"
+"PO-Revision-Date: 2019-11-14 15:15+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -62,7 +62,7 @@ msgstr "Tu contrasigno ha essite reinitialisate"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Pro terminar le configuration, insere le nove contrasigno in tu altere dispositivos Firefox."
+msgstr "Pro terminar le configuration, insere le nove contrasigno in tu altere apparatos Firefox."
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
@@ -559,7 +559,7 @@ msgstr "Codice de recuperation non trovate"
 
 #: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230
 msgid "Unavailable device command"
-msgstr "Commando del dispositivo non disponibile"
+msgstr "Commando de apparato non disponibile"
 
 #: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234
 msgid "Recovery key not found"
@@ -611,7 +611,7 @@ msgstr "Systema indisponibile, retenta plus tarde"
 
 #: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
-msgstr "Iste dispositivo de usator non es plus supportate"
+msgstr "Iste puncto terminal non es plus supportate"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
@@ -849,11 +849,11 @@ msgstr "Message non valide ab le apparato remote"
 
 #: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
-msgstr "Error durante le accopulamento al dispositivo remote"
+msgstr "Error durante le accopulamento al apparato remote"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
-msgstr "Connexion al dispositivo remote claudite, per favor reproba"
+msgstr "Connexion al apparato remote claudite, per favor reproba"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
@@ -899,7 +899,7 @@ msgstr "Addresse IP: %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Pro securitate additional, confirma iste apertura de session ante de synchronisar con iste dispositivo:"
+msgstr "Pro securitate additional, confirma iste apertura de session ante de synchronisar con iste apparato:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -1101,15 +1101,15 @@ msgstr "Aperi session a iste Firefox pro completar le configuration"
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 #: .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
-msgstr "Adder altere dispositivos?"
+msgstr "Adder altere apparatos?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Aperi session a Firefox sur un altere dispositivo pro completar le configuration"
+msgstr "Aperi session a Firefox sur un altere apparato pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Adder ancora dispositivos? Aperi session te a Firefox sur un altere dispositivo pro completar le configuration"
+msgstr "Adder ancora apparatos? Aperi session in Firefox sur un altere apparato pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1121,7 +1121,7 @@ msgstr "Aperi session a Firefox pro iOS pro completar le configuration"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
-msgstr "Proque es necessari plus de un dispositivo?"
+msgstr "Proque es necessari plus de un apparato?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1386,12 +1386,12 @@ msgstr "Non perde iste contrasigno. Si tu debe reinitialisar lo, tu pote perder 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 msgstr ""
-"<span>Non reusa tu contrasigno de e-mail</span>Si alcuno cognosce le contrasigno de tu adresse de e-mail, ille pote approbar tu apertura de session in Firefox sur un nove dispositivo e acceder a tu "
+"<span>Non reusa tu contrasigno de e-mail</span>Si alcuno cognosce le contrasigno de tu adresse de e-mail, ille pote approbar tu apertura de session in Firefox sur un nove apparato e acceder a tu "
 "datos."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "<span>Rememora tu contrasigno</span>Si tu debe reinitialisar tu contrasigno, tu perdera omne datos de Sync que non es sur un de tu dispositivos."
+msgstr "<span>Rememora tu contrasigno</span>Si tu debe reinitialisar tu contrasigno, tu perdera omne datos de Sync que non es sur un de tu apparatos."
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1457,11 +1457,11 @@ msgstr "Proque synchronisar plure apparatos?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Le servicio Sync non es un copia de reserva permanente, ma un maniera simple e secur de transferer le marcapaginas, chronologia e contrasignos inter tu dispositivos."
+msgstr "Le servicio Sync non es un copia de reserva permanente, ma un maniera simple e secur de transferer le marcapaginas, chronologia e contrasignos inter tu apparatos."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Tu deberea installar Firefox e synchronisar al minus duo dispositivos pro proteger contra le perdita de tu datos in caso que es necessari restaurar los ma tu ha oblidate tu contrasigno."
+msgstr "Tu deberea installar Firefox sur al minus duo apparatos e synchronisar inter illos. Isto te permitte recuperar tu datos in caso que tu oblida tu contrasigno."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
@@ -1509,7 +1509,7 @@ msgstr "Cambiar"
 
 #: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Quando tu ha terminate, usa tu nove contrasigno pro aperir session in tote tu dispositivos."
+msgstr "Quando tu ha terminate, usa tu nove contrasigno pro aperir session in tote tu apparatos."
 
 #: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
 msgid "Old password"
@@ -1525,19 +1525,19 @@ msgstr "Tu datos de navigation restara in %(deviceName)s, ma illo non plus esser
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr "Dispositivo suspecte"
+msgstr "Apparato suspecte"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr "Dispositivo perdite o robate"
+msgstr "Apparato perdite o robate"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr "Dispositivo obsolete o reimplaciate"
+msgstr "Apparato obsolete o reimplaciate"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr "Dispositivo duplicate"
+msgstr "Apparato duplicate"
 
 #: .es5/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
@@ -1553,7 +1553,7 @@ msgstr "Disconnexion succedite"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr "Dispositivos e applicationes"
+msgstr "Apparatos e applicationes"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
@@ -1561,7 +1561,7 @@ msgstr "Monstrar"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Dispositivo actual"
+msgstr "Apparato actual"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1646,7 +1646,7 @@ msgstr "Elige le nomine que tu vole facer apparer in Firefox e quando tu gere tu
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Un adresse de e-mail secundari es un adresse additional pro reciper notificationes de securitate e pro confirmar nove dispositivos."
+msgstr "Un adresse de e-mail secundari es un adresse additional pro reciper notificationes de securitate e pro confirmar nove apparatos."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -1686,7 +1686,7 @@ msgstr "Generar nove codices de recuperation"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "Ecce tu codices de recuperation a uso unic. Immagazina los in un loco secur in caso que tu perde le accesso a tu dispositivo mobile. Iste codices non essera monstrate un altere vice."
+msgstr "Ecce tu codices de recuperation a uso unic. Immagazina los in un loco secur in caso que tu perde le accesso a tu apparato mobile. Iste codices non essera monstrate un altere vice."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1881,15 +1881,15 @@ msgstr "Desira tu probar Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comenci
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr "Approbar un nove dispositivo <small>pro %(email)s</small>"
+msgstr "Approbar un nove apparato <small>pro %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
-msgstr "Approbar dispositivo"
+msgstr "Approbar apparato"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
 msgid "Device connected"
-msgstr "Dispositivo connectite"
+msgstr "Apparato connectite"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1897,7 +1897,7 @@ msgstr "Tu es ora synchronisate con:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr "Gerer dispositivos"
+msgstr "Gerer apparatos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
@@ -2017,11 +2017,11 @@ msgstr "Ora obtene Firefox ubique."
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr "Aperi session sur tu altere dispositivos pro beneficiar de tote le productos, cognoscentias e functiones de vita private de Firefox."
+msgstr "Aperi session sur tu altere apparatos pro beneficiar de tote le productos, cognoscentias e functiones de vita private de Firefox."
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
 msgid "Why sign in on another device?"
-msgstr "Proque aperir session sur un altere dispositivo?"
+msgstr "Proque aperir session sur un altere apparato?"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
