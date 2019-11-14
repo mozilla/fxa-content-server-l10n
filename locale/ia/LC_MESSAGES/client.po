@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-14 15:15+0000\n"
+"PO-Revision-Date: 2019-11-14 17:56+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -547,11 +547,11 @@ msgstr "Iste codice de verification ha expirate"
 
 #: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
-msgstr "Un jeton TOTP pro iste conto existe jam"
+msgstr "Un token TOTP jam existe pro iste conto"
 
 #: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222
 msgid "TOTP token not found"
-msgstr "Jeton TOTP non trovate"
+msgstr "Token TOTP non trovate"
 
 #: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226
 msgid "Recovery code not found"
@@ -591,7 +591,7 @@ msgstr "Plano incognite pro le subscription."
 
 #: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
-msgstr "Jeton de pagamento pro le subscription non valide."
+msgstr "Token de pagamento non valide pro le subscription."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
@@ -708,11 +708,11 @@ msgstr "Iste conto non existe plus."
 
 #: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Proprietate invalide in jeton de reprisa: %(property)s"
+msgstr "Proprietate invalide in le token de reprisa: %(property)s"
 
 #: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
-msgstr "Proprietate mancante in jeton de reprisa: %(property)s"
+msgstr "Proprietate mancante in le token de reprisa: %(property)s"
 
 #: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
@@ -829,7 +829,7 @@ msgstr "Non consentite"
 
 #: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr "Jeton expirate"
+msgstr "Token expirate"
 
 #: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
@@ -869,7 +869,7 @@ msgstr "Error de processamento de imagines"
 
 #: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
-msgstr "Jeton non valide"
+msgstr "Token non valide"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
