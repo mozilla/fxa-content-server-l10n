@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 12:31+0000\n"
+"PO-Revision-Date: 2019-11-15 12:53+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -232,19 +232,19 @@ msgstr "Eikéma ha eñepyrũkuaáma eikundaha kyhyje’ỹre ha tekorosãme."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Eipuru Firefox tuichaháicha eñepyrũvo tembiapo opaite mba’e’oka eikundahahápe."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Embojuaju ambue mba'e'oka:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "¿Ereko porandu? Eike %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
-msgstr ""
+msgstr "Ñanduti veve mokõiguáva mbojuajupyre"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -252,7 +252,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "¿Eguerujeýke ne ñe’ẽñemi?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
 msgid "Create new password"
-msgstr ""
+msgstr "Emoheñói ñe’ẽñemi pyahu"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "¿Ndépa emoñepyrũve tembiapo?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
@@ -292,11 +292,11 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Ñanduti veve ñemoneĩ:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "¿Eime gueteri?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
@@ -308,7 +308,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Emyandy Firefox apopyre aty"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
