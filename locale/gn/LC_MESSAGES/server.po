@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 11:52+0000\n"
+"PO-Revision-Date: 2019-11-15 12:12+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Eikuaa mba’eichagua ñe’ẽñemípa oñongatu Firefox."
 
 #: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
 msgid "Best,"
@@ -126,7 +126,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Nandéiramo, <a %(revokeAccountRecoveryLinkAttributes)s>eikutu ko’ápe.</a>"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
@@ -134,11 +134,11 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Nandéiramo, eipe’a mba’eñemi."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Ijurujáma mokõi jeku’épe ñemoneĩ"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -164,19 +164,19 @@ msgstr ""
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Eipuru ayvu jeguerujeyrã"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Eipuru porã jeguerujeyrãva amo mba’e’o’ka guive:"
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Eipuru ayvu jeguerujeyrã"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Oñemoheñói ayvu jeguerujeyrã pyahu"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Oguéma ayvu jeguerujeyrã mba’ete"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Oguéma ñandutiveve mokõiguáva"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -208,7 +208,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Ojepe’áma ñemoneĩ mokõi jeku’e pegua"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
