@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 16:31+0000\n"
+"PO-Revision-Date: 2019-11-15 16:39+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2270,31 +2270,31 @@ msgstr "Tembiapo ramovegua"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Tembiaporã rekorosã"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Tembiaporã réra"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Heñoipyre amo"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Tembiaporã mboguete"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Eguevi ñembohekópe"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "¿Mba’e eporanduséva oréve?"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "Apañuãi ñemoha’ãnga"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
