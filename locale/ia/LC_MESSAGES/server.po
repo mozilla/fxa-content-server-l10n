@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 11:33+0000\n"
+"POT-Creation-Date: 2019-11-15 08:01+0000\n"
 "PO-Revision-Date: 2019-11-14 16:12+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Nos ha constatate que te resta pauc codices de recuperation. Considera g
 msgid "Generate codes:"
 msgstr "Generar codices:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1062
 msgid "New sign-in to %(clientName)s"
 msgstr "Nove authentication a %(clientName)s"
 
@@ -117,7 +117,7 @@ msgstr "Cordialmente,"
 msgid "The Firefox Accounts team"
 msgstr "Le equipa de contos Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1469
 msgid "Account recovery key generated"
 msgstr "Clave de recuperation del conto generate"
 
@@ -177,7 +177,7 @@ msgstr "Tu ha consumite un codice de recuperation ab le sequente apparato:"
 msgid "Consumed recovery code"
 msgstr "Codice de recuperation consumite"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1336
 msgid "New recovery codes generated"
 msgstr "Nove codices de recuperation generate"
 
@@ -185,7 +185,7 @@ msgstr "Nove codices de recuperation generate"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Tu ha generate con successo nove codices de recuperation ab le sequente apparato:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1515
 msgid "Account recovery key removed"
 msgstr "Clave de recuperation del conto removite"
 
@@ -201,7 +201,7 @@ msgstr "Iste clave de recuperation pote non plus esser usate pro recuperar tu co
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Tu ha removite con successo un clave de recuperation de conto pro tu conto de Firefox ab le sequente apparato:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1216
 msgid "Secondary email removed"
 msgstr "E-mail secundari removite"
 
@@ -247,7 +247,7 @@ msgstr "Connecter un altere apparato:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Questiones? Visita %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1144
 msgid "Secondary email added"
 msgstr "Adresse de e-mail secundari addite"
 
@@ -264,7 +264,7 @@ msgstr "Debe tu reinitialisar tu contrasigno?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Clicca sur le button in le proxime hora pro crear un nove contrasigno. Le requesta proveni del apparato sequente:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:912
 msgid "Create new password"
 msgstr "Crear le nove contrasigno"
 
@@ -328,7 +328,7 @@ msgstr "Confirma tu conto e tira le maximo de Firefox ubicunque tu aperi session
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Pro ulterior securitate, per favor confirma iste apertura de session ab le sequente apparato:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:664
 msgid "Confirm sign-in"
 msgstr "Confirmar apertura de session"
 
@@ -485,108 +485,108 @@ msgstr "%(stateCode)s, %(country)s (estimate)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimate)"
 
-#: lib/senders/email.js:421
+#: lib/senders/email.js:426
 msgid "Finish creating your account"
 msgstr "Termina le creation de tu conto"
 
-#: lib/senders/email.js:422 lib/senders/email.js:550
+#: lib/senders/email.js:427 lib/senders/email.js:555
 msgid "Confirm email"
 msgstr "Confirmar email"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:494
 msgid "Verification code: %(code)s"
 msgstr "Codice de verification: %(code)s"
 
-#: lib/senders/email.js:530
+#: lib/senders/email.js:535
 msgid "Reminder: Finish creating your account"
 msgstr "Rememoration: Termina le creation de tu conto"
 
-#: lib/senders/email.js:532
+#: lib/senders/email.js:537
 msgid "Final reminder: Activate your account"
 msgstr "Rememoration final: Activa tu conto"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:592
 msgid "Account authorization code"
 msgstr "Codice de autorisation del conto"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirmar apertura de session a %(clientName)s"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:706
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Codice pro aperir session in %(serviceName)s"
 
-#: lib/senders/email.js:766
+#: lib/senders/email.js:771
 msgid "Confirm primary email"
 msgstr "Confirmar e-mail primari"
 
-#: lib/senders/email.js:767 lib/senders/email.js:826
+#: lib/senders/email.js:772 lib/senders/email.js:831
 msgid "Verify email"
 msgstr "Verificar le email"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:830
 msgid "Confirm secondary email"
 msgstr "Confirmar e-mail secundari"
 
-#: lib/senders/email.js:906
+#: lib/senders/email.js:911
 msgid "Reset your password"
 msgstr "Reinitialisa tu contrasigno"
 
-#: lib/senders/email.js:948 lib/senders/email.js:986
+#: lib/senders/email.js:953 lib/senders/email.js:991
 msgid "Password updated"
 msgstr "Contrasigno actualisate"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1021
 msgid "Suspicious activity detected"
 msgstr "Activitate suspecte detegite"
 
-#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
-#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
+#: lib/senders/email.js:1063 lib/senders/email.js:1145 lib/senders/email.js:1181 lib/senders/email.js:1217 lib/senders/email.js:1251 lib/senders/email.js:1294 lib/senders/email.js:1337
+#: lib/senders/email.js:1380 lib/senders/email.js:1470 lib/senders/email.js:1516
 msgid "Manage account"
 msgstr "Gerer le conto"
 
-#: lib/senders/email.js:1094
+#: lib/senders/email.js:1099
 msgid "Account confirmed"
 msgstr "Conto confirmate"
 
-#: lib/senders/email.js:1097
+#: lib/senders/email.js:1102
 msgid "Connect another device"
 msgstr "Connecte un altere apparato"
 
-#: lib/senders/email.js:1175
+#: lib/senders/email.js:1180
 msgid "Primary email updated"
 msgstr "E-mail primari actualisate"
 
-#: lib/senders/email.js:1245
+#: lib/senders/email.js:1250
 msgid "Two-step verification enabled"
 msgstr "Verification a duo passos activate"
 
-#: lib/senders/email.js:1288
+#: lib/senders/email.js:1293
 msgid "Two-step verification is off"
 msgstr "Verification a duo passos disactivate"
 
-#: lib/senders/email.js:1374
+#: lib/senders/email.js:1379
 msgid "Recovery code used"
 msgstr "Codice de recuperation usate"
 
-#: lib/senders/email.js:1427
+#: lib/senders/email.js:1432
 msgid "1 recovery code remaining"
 msgstr "1 codice de recuperation restante"
 
-#: lib/senders/email.js:1429
+#: lib/senders/email.js:1434
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s codices de recuperation restante"
 
-#: lib/senders/email.js:1432
+#: lib/senders/email.js:1437
 msgid "Generate codes"
 msgstr "Generar codices"
 
-#: lib/senders/email.js:1556
+#: lib/senders/email.js:1561
 msgid "Password updated using recovery key"
 msgstr "Contrasigno actualisate con clave de recuperation"
 
-#: lib/senders/email.js:1557
+#: lib/senders/email.js:1562
 msgid "Create new recovery key"
 msgstr "Crear nove clave de recuperation"
 
@@ -982,14 +982,15 @@ msgstr "Discargar ultime version"
 #~ msgstr "Remontar le contrasigno"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
-#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
+#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr ""
+#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"

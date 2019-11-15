@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 11:33+0000\n"
+"POT-Creation-Date: 2019-11-15 08:01+0000\n"
 "PO-Revision-Date: 2019-10-17 00:40+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Det er få gjenoppretingskodar att. Tenk på å generere nye kodar for �
 msgid "Generate codes:"
 msgstr "Generer kodar:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1062
 msgid "New sign-in to %(clientName)s"
 msgstr "Ny inloggning på %(clientName)s"
 
@@ -117,7 +117,7 @@ msgstr "Venleg helsing"
 msgid "The Firefox Accounts team"
 msgstr "Teamet for Firefox-kontoar"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1469
 msgid "Account recovery key generated"
 msgstr "Gjenopprettingsnykel for konto generert"
 
@@ -177,7 +177,7 @@ msgstr "Du har brukt ein oppattbyggingskode frå følgjande eining:"
 msgid "Consumed recovery code"
 msgstr "Brukt gjenopprettingskode"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1336
 msgid "New recovery codes generated"
 msgstr "Nye gjenopprettingskodar generert"
 
@@ -185,7 +185,7 @@ msgstr "Nye gjenopprettingskodar generert"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Du har generert nye gjenopprettingskodar frå følgjande eining:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1515
 msgid "Account recovery key removed"
 msgstr "Gjenopprettingsnykel for konto fjerna"
 
@@ -201,7 +201,7 @@ msgstr "Denne gjenopprettingsnykelen kan ikkje lenger brukast til å gjenopprett
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Du har fjerna ein nykel for kontogjenoppretting, for Firefox-kontoen din, frå følgjande eining:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1216
 msgid "Secondary email removed"
 msgstr "Sekundær e-postadesse fjerna"
 
@@ -245,7 +245,7 @@ msgstr "Kople til ei anna eining:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Har du spørsmål? Gå til %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1144
 msgid "Secondary email added"
 msgstr "Sekundær e-post lagt til"
 
@@ -261,7 +261,7 @@ msgstr "Treng du å tilbakestille passordet ditt?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Trykk på knappen innan den neste timen for å lage eit nytt passord. Førespurnaden kom frå følgjande eining:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:912
 msgid "Create new password"
 msgstr "Lag nytt passord"
 
@@ -325,7 +325,7 @@ msgstr "Stadfest kontoen din og få det meste ut av Firefox overalt der du logga
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "For ekstra sikkerheit, ver snill og stadfest denne innlogginga frå følgjande eining:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:664
 msgid "Confirm sign-in"
 msgstr "Stadfest innlogging"
 
@@ -482,108 +482,108 @@ msgstr "%(stateCode)s, %(country)s (estimert)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimert)"
 
-#: lib/senders/email.js:421
+#: lib/senders/email.js:426
 msgid "Finish creating your account"
 msgstr "Fullfør opprettinga av kontoen din"
 
-#: lib/senders/email.js:422 lib/senders/email.js:550
+#: lib/senders/email.js:427 lib/senders/email.js:555
 msgid "Confirm email"
 msgstr "Stadfest e-postadressa"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:494
 msgid "Verification code: %(code)s"
 msgstr "Stadfestingskode: %(code)s"
 
-#: lib/senders/email.js:530
+#: lib/senders/email.js:535
 msgid "Reminder: Finish creating your account"
 msgstr "Påminning: Fullfør opprettinga av kontoen din"
 
-#: lib/senders/email.js:532
+#: lib/senders/email.js:537
 msgid "Final reminder: Activate your account"
 msgstr "Siste påminning: Aktiver kontoen din"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:592
 msgid "Account authorization code"
 msgstr "Godkjenningskode for konto"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Stadfest ny innlogging til %(clientName)s"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:706
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Innloggingskode for %(serviceName)s"
 
-#: lib/senders/email.js:766
+#: lib/senders/email.js:771
 msgid "Confirm primary email"
 msgstr "Stadfest primær e-postadresse"
 
-#: lib/senders/email.js:767 lib/senders/email.js:826
+#: lib/senders/email.js:772 lib/senders/email.js:831
 msgid "Verify email"
 msgstr "Stadfest e-post"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:830
 msgid "Confirm secondary email"
 msgstr "Stadfest sekundær e-postadresse"
 
-#: lib/senders/email.js:906
+#: lib/senders/email.js:911
 msgid "Reset your password"
 msgstr "Tilbakestill passord"
 
-#: lib/senders/email.js:948 lib/senders/email.js:986
+#: lib/senders/email.js:953 lib/senders/email.js:991
 msgid "Password updated"
 msgstr "Passord oppdatert"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1021
 msgid "Suspicious activity detected"
 msgstr "Mistenkt aktivitet oppdaga"
 
-#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
-#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
+#: lib/senders/email.js:1063 lib/senders/email.js:1145 lib/senders/email.js:1181 lib/senders/email.js:1217 lib/senders/email.js:1251 lib/senders/email.js:1294 lib/senders/email.js:1337
+#: lib/senders/email.js:1380 lib/senders/email.js:1470 lib/senders/email.js:1516
 msgid "Manage account"
 msgstr "Handter kontoen"
 
-#: lib/senders/email.js:1094
+#: lib/senders/email.js:1099
 msgid "Account confirmed"
 msgstr "Konto stadfesta"
 
-#: lib/senders/email.js:1097
+#: lib/senders/email.js:1102
 msgid "Connect another device"
 msgstr "Kople til ei anna eining"
 
-#: lib/senders/email.js:1175
+#: lib/senders/email.js:1180
 msgid "Primary email updated"
 msgstr "Primær e-postadresse oppdatert"
 
-#: lib/senders/email.js:1245
+#: lib/senders/email.js:1250
 msgid "Two-step verification enabled"
 msgstr "Tostegs-verifisering aktivert"
 
-#: lib/senders/email.js:1288
+#: lib/senders/email.js:1293
 msgid "Two-step verification is off"
 msgstr "Tostegs-verifisering er slått av"
 
-#: lib/senders/email.js:1374
+#: lib/senders/email.js:1379
 msgid "Recovery code used"
 msgstr "Oppattbyggingskode brukt"
 
-#: lib/senders/email.js:1427
+#: lib/senders/email.js:1432
 msgid "1 recovery code remaining"
 msgstr "1 oppattbyggingskode att"
 
-#: lib/senders/email.js:1429
+#: lib/senders/email.js:1434
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s oppattgyggingskodar att"
 
-#: lib/senders/email.js:1432
+#: lib/senders/email.js:1437
 msgid "Generate codes"
 msgstr "Generer kodar"
 
-#: lib/senders/email.js:1556
+#: lib/senders/email.js:1561
 msgid "Password updated using recovery key"
 msgstr "Passord oppdatert ved hjelp av oppattbyggingsnykel"
 
-#: lib/senders/email.js:1557
+#: lib/senders/email.js:1562
 msgid "Create new recovery key"
 msgstr "Lag ny gjenopprettingsnykel"
 

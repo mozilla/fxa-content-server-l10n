@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 11:33+0000\n"
+"POT-Creation-Date: 2019-11-15 08:01+0000\n"
 "PO-Revision-Date: 2019-10-11 10:38+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "We hebben gemerkt dat u nog weinig herstelcodes hebt. Overweeg nieuwe co
 msgid "Generate codes:"
 msgstr "Codes genereren:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1057
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1062
 msgid "New sign-in to %(clientName)s"
 msgstr "Nieuwe aanmelding bij %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Vriendelijke groeten,"
 msgid "The Firefox Accounts team"
 msgstr "Het Firefox Accounts-team"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1464
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1469
 msgid "Account recovery key generated"
 msgstr "Sleutel voor accountherstel gegenereerd"
 
@@ -178,7 +178,7 @@ msgstr "U hebt een herstelcode verbruikt vanaf het volgende apparaat:"
 msgid "Consumed recovery code"
 msgstr "Verbruikte herstelcode"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1331
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1336
 msgid "New recovery codes generated"
 msgstr "Nieuwe herstelcodes gegenereerd"
 
@@ -186,7 +186,7 @@ msgstr "Nieuwe herstelcodes gegenereerd"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "U hebt nieuwe herstelcodes gegenereerd vanaf het volgende apparaat:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1515
 msgid "Account recovery key removed"
 msgstr "Sleutel voor accountherstel verwijderd"
 
@@ -202,7 +202,7 @@ msgstr "Deze herstelsleutel kan niet meer worden gebruikt om uw account te herst
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "U hebt met succes een sleutel voor accountherstel voor uw Firefox-account verwijderd vanaf het volgende apparaat:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1211
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1216
 msgid "Secondary email removed"
 msgstr "Secundair e-mailadres verwijderd"
 
@@ -246,7 +246,7 @@ msgstr "Nog een apparaat koppelen:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Hebt u vragen? Bezoek %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1144
 msgid "Secondary email added"
 msgstr "Secundair e-mailadres toegevoegd"
 
@@ -263,7 +263,7 @@ msgstr "Dient u uw wachtwoord opnieuw in te stellen?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klik binnen een uur op de knop om een nieuw wachtwoord aan te maken. De aanvraag is afkomstig van het volgende apparaat:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:907
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:912
 msgid "Create new password"
 msgstr "Nieuw wachtwoord aanmaken"
 
@@ -327,7 +327,7 @@ msgstr "Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit F
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Bevestig deze aanmelding vanaf het volgende apparaat omwille van extra beveiliging:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:659
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:664
 msgid "Confirm sign-in"
 msgstr "Aanmelding bevestigen"
 
@@ -484,108 +484,108 @@ msgstr "%(stateCode)s, %(country)s (geschat)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (geschat)"
 
-#: lib/senders/email.js:421
+#: lib/senders/email.js:426
 msgid "Finish creating your account"
 msgstr "Aanmaken van uw account voltooien"
 
-#: lib/senders/email.js:422 lib/senders/email.js:550
+#: lib/senders/email.js:427 lib/senders/email.js:555
 msgid "Confirm email"
 msgstr "E-mailadres bevestigen"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:494
 msgid "Verification code: %(code)s"
 msgstr "Verificatiecode: %(code)s"
 
-#: lib/senders/email.js:530
+#: lib/senders/email.js:535
 msgid "Reminder: Finish creating your account"
 msgstr "Herinnering: voltooi het aanmaken van uw account"
 
-#: lib/senders/email.js:532
+#: lib/senders/email.js:537
 msgid "Final reminder: Activate your account"
 msgstr "Laatste herinnering: activeer uw account"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:592
 msgid "Account authorization code"
 msgstr "Accountautorisatiecode"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Nieuwe aanmelding bij %(clientName)s bevestigen"
 
-#: lib/senders/email.js:701
+#: lib/senders/email.js:706
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Aanmeldcode voor %(serviceName)s"
 
-#: lib/senders/email.js:766
+#: lib/senders/email.js:771
 msgid "Confirm primary email"
 msgstr "Primair e-mailadres bevestigen"
 
-#: lib/senders/email.js:767 lib/senders/email.js:826
+#: lib/senders/email.js:772 lib/senders/email.js:831
 msgid "Verify email"
 msgstr "E-mailadres verifiëren"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:830
 msgid "Confirm secondary email"
 msgstr "Secundair e-mailadres bevestigen"
 
-#: lib/senders/email.js:906
+#: lib/senders/email.js:911
 msgid "Reset your password"
 msgstr "Herinitialiseer uw wachtwoord"
 
-#: lib/senders/email.js:948 lib/senders/email.js:986
+#: lib/senders/email.js:953 lib/senders/email.js:991
 msgid "Password updated"
 msgstr "Wachtwoord bijgewerkt"
 
-#: lib/senders/email.js:1016
+#: lib/senders/email.js:1021
 msgid "Suspicious activity detected"
 msgstr "Verdachte activiteit gedetecteerd"
 
-#: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
-#: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
+#: lib/senders/email.js:1063 lib/senders/email.js:1145 lib/senders/email.js:1181 lib/senders/email.js:1217 lib/senders/email.js:1251 lib/senders/email.js:1294 lib/senders/email.js:1337
+#: lib/senders/email.js:1380 lib/senders/email.js:1470 lib/senders/email.js:1516
 msgid "Manage account"
 msgstr "Account beheren"
 
-#: lib/senders/email.js:1094
+#: lib/senders/email.js:1099
 msgid "Account confirmed"
 msgstr "Account bevestigd"
 
-#: lib/senders/email.js:1097
+#: lib/senders/email.js:1102
 msgid "Connect another device"
 msgstr "Nog een apparaat koppelen"
 
-#: lib/senders/email.js:1175
+#: lib/senders/email.js:1180
 msgid "Primary email updated"
 msgstr "Primair e-mailadres bijgewerkt"
 
-#: lib/senders/email.js:1245
+#: lib/senders/email.js:1250
 msgid "Two-step verification enabled"
 msgstr "Verificatie in twee stappen ingeschakeld"
 
-#: lib/senders/email.js:1288
+#: lib/senders/email.js:1293
 msgid "Two-step verification is off"
 msgstr "Verificatie in twee stappen uitgeschakeld"
 
-#: lib/senders/email.js:1374
+#: lib/senders/email.js:1379
 msgid "Recovery code used"
 msgstr "Herstelcode gebruikt"
 
-#: lib/senders/email.js:1427
+#: lib/senders/email.js:1432
 msgid "1 recovery code remaining"
 msgstr "1 herstelcode resterend"
 
-#: lib/senders/email.js:1429
+#: lib/senders/email.js:1434
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s herstelcodes resterend"
 
-#: lib/senders/email.js:1432
+#: lib/senders/email.js:1437
 msgid "Generate codes"
 msgstr "Codes genereren"
 
-#: lib/senders/email.js:1556
+#: lib/senders/email.js:1561
 msgid "Password updated using recovery key"
 msgstr "Wachtwoord bijgewerkt met herstelsleutel"
 
-#: lib/senders/email.js:1557
+#: lib/senders/email.js:1562
 msgid "Create new recovery key"
 msgstr "Nieuwe herstelsleutel genereren"
 

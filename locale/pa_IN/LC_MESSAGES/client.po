@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 11:33+0000\n"
+"POT-Creation-Date: 2019-11-15 08:01+0000\n"
 "PO-Revision-Date: 2019-10-19 04:44+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,314 +15,371 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444737687.0\n"
 
-#: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195 .es5/views/confirm_reset_password.js:199
+#: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
+#: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
 #. submit button
-#. header text
-#: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
-#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
-#: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175
+#: .es5/views/force_auth.js:175 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
 
-#: .es5/views/permissions.js:63 .es5/views/permissions.js:41
+#: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (ਲਾਜ਼ਮੀ)"
 
-#: .es5/views/permissions.js:68 .es5/views/permissions.js:45
+#: .es5/views/permissions.js:45
 msgid "Email address"
 msgstr "ਈਮੇਲ ਸਿਰਨਾਵਾਂ"
 
-#: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
-#: .es5/views/settings/display_name.js:169
+#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:169
 msgid "Display name"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ"
 
-#: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
+#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "ਖਾਤੇ ਦੀ ਤਸਵੀਰ"
 
-#: .es5/views/ready.js:79 .es5/views/ready.js:56
+#: .es5/views/ready.js:56
 msgid "Welcome back"
 msgstr "ਫਿਰ ਜੀ ਆਇਆਂ ਨੂੰ"
 
-#: .es5/views/ready.js:80 .es5/views/ready.js:57
+#: .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox ਸਿੰਕ ਪਲਾਂ 'ਚ ਮੁੜ ਚਾਲੂ ਹੋਵੇਗਾ"
 
-#: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
 msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੇੱਟ ਕੀਤਾ ਜਾ ਚੁੱਕਿਆ ਹੈ"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "ਆਪਣੇ ਹੋਰ ਫਾਇਰਫਾਕਸ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦਰਜ ਕਰਕੇ ਸੈਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
 
-#: .es5/views/ready.js:93 .es5/views/ready.js:70
+#: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਤਬਦੀਲੀਆਂ ਕਰਨ ਲਈ ਤਬਦੀਲ ਕਰਨ ਤਿਆਰ ਹੋ।"
 
-#: .es5/views/ready.js:95 .es5/views/ready.js:72
+#: .es5/views/ready.js:72
 msgid "Primary email verified"
 msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕੀਤੀ"
 
-#: .es5/views/ready.js:98 .es5/views/ready.js:75
+#: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "ਹੁਣਾ ਖਾਤਾ ਸੂਚਨਾਵਾਂ ਨੂੰ %(secondaryEmailVerified)s 'ਤੇ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
 
-#: .es5/views/ready.js:100 .es5/views/ready.js:77
+#: .es5/views/ready.js:77
 msgid "Secondary email verified"
 msgstr "ਸਹਾਇਕ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕੀਤੀ"
 
-#: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
+#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "ਸਾਈਨ ਇਨ ਦੀ ਪੁਸ਼ਟੀ"
 
-#: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
-#: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
+#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
-#: .es5/views/ready.js:110 .es5/views/ready.js:87
+#: .es5/views/ready.js:87
 msgid "Account verified"
 msgstr "ਖਾਤੇ ਦੀ ਜਾਂਚ ਪੂਰੀ ਹੋਈ"
 
-#: .es5/views/ready.js:115 .es5/views/ready.js:92
+#: .es5/views/ready.js:92
 msgid "Connected"
 msgstr "ਕਨੈਕਟ ਹੈ"
 
-#: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
+#: .es5/views/reset_password.js:112 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
+#: .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:88
 msgid "Account no longer exists. Recreate it?"
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮੁੜ-ਬਣਾਉਣਾ ਹੈ?"
 
-#: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298 .es5/views/sign_up.js:264
+#: .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਈਨ ਇਨ</a>"
 
-#: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73 .es5/views/settings/change_password.js:377
+#: .es5/views/support.js:82
+msgid "Please Select One"
+msgstr "ਪਹਿਲਾਂ ਇੱਕ ਚੁਣੋ"
+
+#: .es5/views/support.js:229 .es5/templates/support.mustache:5
+msgid "Other"
+msgstr "ਹੋਰ"
+
+#: .es5/views/support.js:230
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/support.js:232
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_up.mustache:8 .es5/templates/sign_up_password.mustache:7 .es5/templates/settings/delete_account.mustache:20
+msgid "Password"
+msgstr "ਪਾਸਵਰਡ"
+
+#: .es5/views/settings/change_password.js:88
+msgid "Change..."
+msgstr "...ਬਦਲੋ"
+
+#: .es5/views/settings/change_password.js:219
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
+
+#: .es5/views/settings/change_password.js:229
+msgid "Old password"
+msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
+
+#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in_password.mustache:9
+msgid "Forgot password?"
+msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
+
+#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+msgid "New password"
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
+
+#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਦਾਖਲ ਕਰੋ"
+
+#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+msgid "Change"
+msgstr "ਬਦਲੋ"
+
+#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
+#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
 
-#: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
+#: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫਸੋਸ ਹੋਇਆ। ਤੁਹਾਨੂੰ ਆਪਣੇ Firefox Account ਦਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਆਪਣੇ ਡਾਟਾ ਨੂੰ ਰਿਮੋਟਲੀ ਮਿਟਾਉਣ ਬਾਰੇ ਡਿਵਾਈਸ ਨਿਰਮਾਤਾ ਤੋਂ ਜਾਣਕਾਰੀ ਲੱਭੋ।"
 
-#: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
+#: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
-#: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
-msgid "Last sync %(translatedTimeAgo)s"
-msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s"
+#: .es5/views/settings/clients.js:61
+msgid "Last seen %(translatedTimeAgo)s"
+msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
-msgid "Last sync over %(translatedTimeAgo)s"
-msgstr "ਆਖਰੀ ਵਾਰ ਸਿੰਕ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਕੀਤਾ"
+#: .es5/views/settings/clients.js:62
+msgid "Last seen over %(translatedTimeAgo)s"
+msgstr ""
 
-#: .es5/views/settings/clients.js:88 .es5/views/settings/clients.js:65
-msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ ਆਖਰੀ ਸਿੰਕ %(translatedTimeAgo)s"
+#: .es5/views/settings/clients.js:65
+msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:66
-msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਵਾਰ"
+#: .es5/views/settings/clients.js:66
+msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
 
-#: .es5/views/settings/clients.js:92 .es5/views/settings/clients.js:69
-msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCountry)s, %(translatedState)s, %(translatedCity)s ਦੇ ਨੇੜੇ ਤੇੜੇ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਸਿੰਕ"
+#: .es5/views/settings/clients.js:69
+msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
-msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s %(translatedCity)s %(translatedState)s %(translatedCountry)s ਦੇ ਨੇੜੇ ਕੀਤਾ ਗਿਆ"
+#: .es5/views/settings/clients.js:70
+msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
 
-#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:75
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ"
 
-#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:76
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਗਰਗਮੀਂ"
 
-#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:79
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
 
-#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:80
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਰਗਰਮੀਂ"
 
-#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:83
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s, ਦੇ ਨੇੜੇ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
 
-#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:84
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ %(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ ਸੀ"
 
-#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:89
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
+#: .es5/views/settings/clients.js:90
 msgid "Over %(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s ਉੱਤੇ"
 
-#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:93
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
+#: .es5/views/settings/clients.js:94
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ"
 
-#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
+#: .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ  %(translatedTimeAgo)s ਉੱਤੇ"
 
-#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
+#: .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
 msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
+#: .es5/views/settings/clients.js:138
 msgid "Web Session"
 msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
 
-#: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
-msgid "Last sync time unknown"
-msgstr "ਆਖਰੀ ਸਿੰਕ ਸਮੇਂ ਅਣਜਾਣ"
+#: .es5/views/settings/clients.js:149
+msgid "Last seen time unknown"
+msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਣ ਸਮਾਂ ਅਣਪਛਾਤਾ ਹੈ"
 
-#: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
-msgid "Subscribed successfully"
-msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"
-
-#: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
 #: .es5/views/settings/delete_account.js:238
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
 
-#: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66 .es5/views/settings/display_name.js:225
+#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
+msgid "Change…"
+msgstr "…ਬਦਲੋ"
+
+#: .es5/views/settings/display_name.js:97 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
+msgid "Add…"
+msgstr "…ਜੋੜੋ"
+
+#: .es5/views/settings/display_name.js:164
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
+
+#: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ"
 
-#: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103 .es5/views/settings/emails.js:104
+#: .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
 
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
-#: .es5/views/mixins/upgrade-session-mixin.js:96 .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149
+#: .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "ਤਸਦੀਕੀ ਲਈ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 
-#: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166 .es5/views/settings/emails.js:167
+#: .es5/views/settings/emails.js:167
 msgid "Primary email set to %(email)s"
 msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ %(email)s ਲਈ ਸੈੱਟ ਕੀਤਾ ਗਿਆ"
 
-#: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179 .es5/views/settings/emails.js:180
+#: .es5/views/settings/emails.js:180 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23
 msgid "Secondary email"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ"
 
-#: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
+#: .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
 msgstr "ਫਾਇਰਫਾਕਸ ਰਿਕਵਰੀ ਕੋਡ"
 
-#: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
+#: .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
 msgstr "ਨਵਾਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕੀਤਾ ਗਿਆ"
 
-#: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
-#: .es5/views/settings/two_step_authentication.js:170
+#: .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
 msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਯੋਗ ਕਰਨ ਦੇ ਦੋ-ਕਦਮ"
 
-#: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
+#: .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪ੍ਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨ ਲਈ ਕੋਡ %(code)s ਦੀ ਵਰਤੋਂ ਕਰੋ।"
 
-#: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
+#: .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
 msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਹਟਾਈ ਗਈ"
 
-#: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
+#: .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
 msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ"
 
-#: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
+#: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
 msgstr "ਖਾਤਾ ਬਹਾਲੀ"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
 msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਸਮਰੱਥ ਕੀਤੀ"
 
-#: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
+#: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
 msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਵਾਪਸ ਲਈ ਗਈ"
 
-#: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
+#: .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
 msgstr "ਫਾਇਰਫਾਕਸ ਰਿਕਵਰੀ ਕੁੰਜੀ"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
 msgid "Your account has been locked for security reasons"
 msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
-#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 msgid "Reset password"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "ਆਖਰੀ ਵਾਰ ਜਾਂਚਿਆ: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
 msgstr "Gmail ਖੋਲ੍ਹੋ"
 
-#: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
 msgstr "Hotmail ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
 msgstr "Yahoo ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
 msgstr "Outlook ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "Restmail ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "ਈਮੇਲ ਮੁੜ ਭੇਜੀ। ਬਿਨਾਂ ਕਿਸੀ ਸਮੱਸਿਆ ਦੇ ਈਮੇਲ ਪ੍ਰਾਪਤੀ ਲਈ accounts@firefox.com ਨੂੰ ਆਪਣੇ ਸੰਪਰਕਾਂ ਵਿਚ ਜੋੜੋ।"
 
-#: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
 msgstr "ਕਾਪੀ ਕੀਤਾ"
 
-#: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
 msgstr "ਕਾਪੀ ਕਰਨ ਲਈ ਅਸਫ਼ਲ। ਖੁਦ ਕਾਪੀ ਕਰੋ।"
 
@@ -330,574 +387,623 @@ msgstr "ਕਾਪੀ ਕਰਨ ਲਈ ਅਸਫ਼ਲ। ਖੁਦ ਕਾਪੀ 
 msgid "Downloaded"
 msgstr "ਡਾਊਨਲੋਡ ਕੀਤਾ"
 
-#: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
 msgstr "ਛਾਪਿਆ"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
-#: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
+#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
 msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕਾਮਯਾਬੀ ਨਾਲ ਹੋ ਗਈ ਹੈ"
 
-#: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ ਗਿਆ"
 
-#: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
-msgid "Open tabs"
-msgstr "ਟੈਬਾਂ ਨੂੰ ਖੋਲ੍ਹੋ"
+#: .es5/models/support-form.js:25
+msgid "General inquiries"
+msgstr "ਆਮ ਸਵਾਲ"
 
-#: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
+#: .es5/models/support-form.js:25
+msgid "Payment & billing"
+msgstr "ਭੁਗਤਾਨ ਤੇ ਬਿੱਲਿੰਗ"
+
+#: .es5/models/support-form.js:25
+msgid "Connection issues"
+msgstr "ਕਨੈਕਸ਼ਨ ਮਸਲੇ"
+
+#: .es5/models/support-form.js:25
+msgid "Getting started"
+msgstr "ਸ਼ੁਰੂ ਕਰੀਏ"
+
+#: .es5/models/support-form.js:25
+msgid "Account issues"
+msgstr "ਖਾਤਾ ਮਸਲੇ"
+
+#: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66
-msgid "Add-ons"
-msgstr "ਐਡ-ਆਨ"
-
-#: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:62
-msgid "Logins"
-msgstr "ਲਾਗਇਨ"
-
-#: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:58
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:62
+msgid "Logins and Passwords"
+msgstr "ਲਾਗਇਨ ਅਤੇ ਪਾਸਵਰਡ"
+
+#: .es5/models/sync-engines.js:66
+msgid "Add-ons"
+msgstr "ਐਡ-ਆਨ"
+
+#: .es5/models/sync-engines.js:70
+msgid "Open Tabs"
+msgstr "ਟੈਬਾਂ ਖੋਲ੍ਹੋ"
+
+#: .es5/models/sync-engines.js:74
 msgid "Preferences"
 msgstr "ਮੇਰੀਆਂ-ਪਸੰਦਾਂ"
 
-#: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
+#: .es5/models/sync-engines.js:82
 msgid "Addresses"
 msgstr "ਪਤੇ"
 
-#: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
-msgid "Credit cards"
-msgstr "ਕ੍ਰੈਡਿਟ ਕਾਰਡ"
+#: .es5/models/sync-engines.js:90
+msgid "Credit Cards"
+msgstr "ਕਰੈਡਿਟ ਕਾਰਡ"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72
+#: .es5/models/reliers/browser.js:72
 msgid "Firefox Sync"
 msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
 
-#: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115 .es5/models/auth_brokers/base.js:114
+#: .es5/models/reliers/browser.js:75
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਜਾਂਚ"
 
-#: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
+#: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਰੀਸੈੱਟ ਕੀਤਾ ਗਿਆ"
 
-#: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
-#: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
 msgid "Unexpected error"
 msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
-#: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤਾ, ਉਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "ਤੁਸੀਂ ਕਾਫੀ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ %(retryAfterLocalized)s ਨਾਲ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
 msgstr "ਗਲਤ ਟੋਕਨ"
 
-#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
+#: .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਸਮਾਂ-ਮੋਹਰ"
 
-#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਮੌਜੂਦਾ ਸਮਾਂ"
 
-#: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
+#: .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
-#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:58
 msgid "Unknown account"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ"
 
-#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
 msgstr "ਗਲਤ ਈਮੇਲ ਕੇਸ"
 
-#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "ਗਲਤ ਪਾਸਵਰਡ"
 
-#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:70
 msgid "Unverified account"
 msgstr "ਨਾ-ਜਾਂਚਿਆ ਖਾਤਾ"
 
-#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
 msgstr "ਗਲਤ ਜਾਂਚ ਕੋਡ"
 
-#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
 msgstr "ਬੇਨਤੀ ਭਾਗ ਵਿੱਚ ਗਲਤ JSON"
 
-#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
 msgstr "ਅਸਮਰੱਥ ਪੈਰਾਮੀਟਰ: %(param)s"
 
-#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
 msgstr "ਲਾਪਤਾ ਪੈਰਾਮੀਟਰ: %(param)s"
 
-#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
 msgstr "ਗਲਤ ਬੇਨਤੀ ਦਸਤਖਤ"
 
-#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
+#: .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
 msgstr "ਗੁੰਮ ਸਮੱਗਰੀ-ਲੰਬਾਈ ਸਿਰਲੇਖ"
 
-#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
+#: .es5/lib/auth-errors.js:98
 msgid "Request body too large"
 msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 
-#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
 msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਬੇਨਤੀ ਨੂੰ ਬਲੌਕ ਕੀਤਾ ਗਿਆ ਸੀ"
 
-#: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:499
+#: .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:499
 msgid "Invalid authorization code"
 msgstr "ਅਯੋਗ ਅਧਿਕਾਰ ਕੋਡ"
 
-#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
+#: .es5/lib/auth-errors.js:129
 msgid "Invalid phone number"
 msgstr "ਗ਼ਲਤ ਫ਼ੋਨ ਨੰਬਰ"
 
-#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:133
 msgid "Cannot send to this country"
 msgstr "ਇਸ ਦੇਸ਼ ਲਈ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਦਾ"
 
-#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
+#: .es5/lib/auth-errors.js:142
 msgid "Could not send a message to this number"
 msgstr "ਇਸ ਨੰਬਰ ਤੇ ਇੱਕ ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਿਆ"
 
-#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:146
 msgid "Your email was just returned"
 msgstr "ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਫ ਵਾਪਸ ਕੀਤਾ ਗਿਆ ਸੀ"
 
-#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:150
 msgid "Your email was just returned. Mistyped email?"
 msgstr "ਹੁਣੇ-ਹੁਣੇ ਤੁਹਾਡਾ ਈਮੇਲ ਵਾਪਸ ਆਇਆ। ਈਮੇਲ ਗਲਤ ਟਾਈਪ ਹੋ ਗਿਆ?"
 
-#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:154
 msgid "Unable to deliver email"
 msgstr "ਈਮੇਲ ਪਹੁੰਚਾਉਣ ਵਿਚ ਅਸਮਰੱਥ"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:158
+#: .es5/lib/auth-errors.js:158
 msgid "This email was already verified by another user"
 msgstr "ਇਹ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਤਸਦੀਕ ਕੀਤੀ ਗਈ ਸੀ"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162
+#: .es5/lib/auth-errors.js:162
 msgid "Secondary email must be different than your account email"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
+#: .es5/lib/auth-errors.js:174
 msgid "Primary account email required for sign-in"
 msgstr "ਸਾਈਨ-ਇਨ ਕਰਨ ਲਈ ਪ੍ਰਾਇਮਰੀ ਖਾਤੇ ਦਾ ਈਮੇਲ ਲੋੜੀਂਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
+#: .es5/lib/auth-errors.js:178
 msgid "Address in use by another account"
 msgstr "ਇਕ ਹੋਰ ਖਾਤੇ ਦੁਆਰਾ ਵਰਤਿਆ ਪਤਾ"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:182
+#: .es5/lib/auth-errors.js:182
 msgid "Primary account email required for reset"
 msgstr "ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਪ੍ਰਾਇਮਰੀ ਖਾਤਾ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:186
+#: .es5/lib/auth-errors.js:186
 msgid "Invalid signin code"
 msgstr "ਗਲਤ ਸਾਈਨਇਨ ਕੋਡ"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
+#: .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
 msgstr "ਇੱਕ ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਨੂੰ ਇੱਕ ਪੜਤਾਲੇ ਈਮੇਲ ਵਿੱਚ ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
+#: .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਨੂੰ ਐਸੇ ਈਮੇਲ ਵਿਚ ਤਬਦੀਲ ਕਰਨ ਵਿਚ ਅਸਮਰੱਥ, ਜੋ ਇਸ ਖਾਤੇ ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹੈ"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
+#: .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
 msgstr "ਇਹ ਈਮੇਲ ਵਰਤਮਾਨ ਵਿੱਚ ਲੌਗਇਨ ਕਰਨ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
+#: .es5/lib/auth-errors.js:206
 msgid "Failed to send email"
 msgstr "ਈਮੇਲ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
+#: .es5/lib/auth-errors.js:210
 msgid "Valid code required"
 msgstr "ਢੁੱਕਵਾਂ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
+#: .es5/lib/auth-errors.js:214
 msgid "This verification code has expired"
 msgstr "ਇਹ ਪੁਸ਼ਟੀਕਰਨ ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:218
 msgid "A TOTP token already exists for this account"
 msgstr "ਇਸ ਖਾਤੇ ਲਈ ਪਹਿਲਾਂ ਹੀ TOTP ਟੋਕਨ ਮੌਜੂਦ ਹੈ"
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:222
 msgid "TOTP token not found"
 msgstr "TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:226
 msgid "Recovery code not found"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ ਨਹੀਂ ਲੱਭਾ"
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:230
 msgid "Unavailable device command"
 msgstr "ਡਿਵਾਈਸ ਕਮਾਂਡ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:234
 msgid "Recovery key not found"
 msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਲੱਭੀ"
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:238
 msgid "Invalid recovery key"
 msgstr "ਗਲਤ ਰਿਕਵਰੀ ਕੁੰਜੀ"
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:242
 msgid "This request requires two step authentication enabled on your account."
 msgstr "ਇਸ ਬੇਨਤੀ ਲਈ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਦੋ ਪੜਾਵੀ ਪ੍ਰਮਾਣਿਕਤਾ ਨੂੰ ਸਮਰੱਥ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:246
 msgid "Failed due to a conflicting request, please try again."
 msgstr "ਕਿਸੇ ਵਿਰੋਧੀ ਬੇਨਤੀ ਦੇ ਕਾਰਨ ਅਸਫਲ, ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:250
 msgid "Unknown customer for subscription."
 msgstr "ਮੈਂਬਰੀ ਲਈ ਅਣਪਛਾਤਾ ਗਾਹਕ।"
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:254
 msgid "Unknown subscription."
 msgstr "ਅਣਪਛਾਤੀ ਮੈਂਬਰੀ।"
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:258
 msgid "Unknown plan for subscription."
 msgstr "ਮੈਂਬਰੀ ਲਈ ਅਣਪਛਾਤਾ ਪਲੈਨ।"
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:262
 msgid "Invalid payment token for subscription."
 msgstr "ਮੈਂਬਰੀ ਲਈ ਗਲਤ ਭੁਗਤਾਨ ਟੋਕਨ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
+#: .es5/lib/auth-errors.js:266
+msgid "Subscription has already been cancelled"
+msgstr "ਮੈਂਬਰੀ ਪਹਿਲਾਂ ਹੀ ਰੱਦ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ"
+
+#: .es5/lib/auth-errors.js:270
+msgid "Update was rejected, please try again"
+msgstr "ਅੱਪਡੇਟ ਨੂੰ ਰੱਦ ਕੀਤਾ ਗਿਆ, ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: .es5/lib/auth-errors.js:274
+msgid "Invalid or expired verification code"
+msgstr ""
+
 #: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
 msgid "Server busy, try again soon"
 msgstr "ਸਰਵਰ ਰੁੱਝਿਆ ਹੈ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:282
 msgid "Feature not enabled"
 msgstr "ਵਿਸ਼ੇਸ਼ਤਾ ਯੋਗ ਨਹੀਂ ਹੈ"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
-#: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
-#: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
-#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:47 .es5/lib/profile-errors.js:67
 msgid "System unavailable, try again soon"
 msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:294
 msgid "This endpoint is no longer supported"
 msgstr "ਇਹ ਅੰਤ ਬਿੰਦੂ ਹੁਣ ਸਹਾਇਕ ਨਹੀਂ ਰਿਹਾ"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:302
 msgid "Login attempt cancelled"
 msgstr "ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਰੱਦ ਕੀਤੀ"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:306
 msgid "Session expired. Sign in to continue."
 msgstr "ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:310
 msgid "Cookies are still disabled"
 msgstr "ਕੂਕੀਜ਼ ਹਾਲੇ ਤੱਕ ਬੰਦ ਹਨ"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:314
 msgid "Passwords do not match"
 msgstr "ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:318
 msgid "Working…"
 msgstr "...ਕੰਮ ਜਾਰੀ ਹੈ"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:322
 msgid "Could not get Privacy Notice"
 msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:326
 msgid "Could not get Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330
+#: .es5/lib/auth-errors.js:330
 msgid "Your new password must be different"
 msgstr "ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:334 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ ਲੰਮਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338
+#: .es5/lib/auth-errors.js:338
 msgid "Valid password required"
 msgstr "ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
-#: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
+#: .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 msgid "Valid email required"
 msgstr "ਠੀਕ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:354
 msgid "A usable image was not found"
 msgstr "ਵਰਤੋਂਯੋਗ ਚਿੱਤਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:358
 msgid "Could not initialize camera"
 msgstr "ਕੈਮਰਾ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362
+#: .es5/lib/auth-errors.js:362
 msgid "Valid URL required"
 msgstr "ਠੀਕ URL ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
+#: .es5/lib/auth-errors.js:378
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "ਤੁਹਾਡੀ ਤਸਦੀਕ ਈਮੇਲ ਵਾਪਿਸ ਪਰਤ ਆਈ ਹੈ। ਕੀ ਈਮੇਲ ਗਲਤ ਲਿਖਿਆ ਸੀ?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386
+#: .es5/lib/auth-errors.js:386
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ਠੀਕ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ। firefox.com ਈਮੇਲ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:394
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕੇਵਲ ਮਨਜ਼ੂਰੀ ਪ੍ਰਾਪਤ ਸਾਈਟਾਂ ਉੱਤੇ IFRAME ਵਿੱਚ ਹੀ ਰੱਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:414 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "ਜਾਂਚ ਲਿੰਕ ਨੁਕਾਸਿਆ"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:422
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ਤਸਵੀਰ ਦਾ ਪਸਾਰ ਘੱਟੋੇ ਘੱਟ 100x100 ਪਿਕਸਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ।"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:426
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS ਦੇ Firefox ਲਈ ਸਾਈਨ-ਅੱਪ ਜਲਦ ਆ ਰਿਹਾ ਹੈ ।"
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:438
 msgid "You must enter your age to sign up"
 msgstr "ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442
+#: .es5/lib/auth-errors.js:442
 msgid "You must enter a valid age to sign up"
 msgstr "ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਢੁੱਕਵੀਂ ਉਮਰ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:458
 msgid "Account no longer exists."
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:462
 msgid "Invalid property in resume token: %(property)s"
 msgstr "ਟੋਕਨ ਫਿਰ ਤੋਂ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਯੋਗ ਜਾਇਦਾਦ: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:466
 msgid "Missing property in resume token: %(property)s"
 msgstr "ਟੋਕਨ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਸੰਪੱਤੀ ਲਾਪਤਾ ਹੈ: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:470
 msgid "Invalid data attribute: %(property)s"
 msgstr "ਅਵੈਧ ਡਾਟਾ ਵਿਸ਼ੇਸ਼ਤਾ: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474
+#: .es5/lib/auth-errors.js:474
 msgid "Missing data attribute: %(property)s"
 msgstr "ਲਾਪਤਾ ਡਾਟਾ ਵਿਸ਼ੇਸ਼ਤਾ: %(property)s"
 
-#: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:491
 msgid "This is a required field"
 msgstr "ਇਹ ਖੇਤਰ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:495
 msgid "Authorization code required"
 msgstr "ਪਰਮਾਣਿਤ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499 .es5/lib/auth-errors.js:503
+#: .es5/lib/auth-errors.js:503 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "ਨੁਕਸਾਨਿਆ ਲਿੰਕ"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526
+#: .es5/lib/auth-errors.js:526
 msgid "Phone number required"
 msgstr "ਫੋਨ ਨੰਬਰ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:545
 msgid "Two-step authentication code required"
 msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:549
 msgid "Invalid two-step authentication code"
 msgstr "ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:553
 msgid "Recovery code required"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:557
 msgid "Invalid recovery code"
 msgstr "ਗ਼ਲਤ ਰਿਕਰਵੀ ਕੋਡ"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:571
 msgid "Recovery key required"
 msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਾਜ਼ਮੀ ਹੈ"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575
+#: .es5/lib/auth-errors.js:575
 msgid "Please enter verification code"
 msgstr "ਤਸਦੀਕ ਕੋਡ ਦਰਜ ਕਰੋ"
 
-#: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
-msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr "ਦੋ-ਪੜਾਵੀ ਪ੍ਰਮਾਣਿਕਤਾ ਵਾਲੇ ਖਾਤੇ ਇਸ ਸਮੇਂ ਪੇਅਰ ਕਰਨ ਨੂੰ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹਨ"
+#: .es5/lib/auth-errors.js:587
+msgid "Invalid redirect"
+msgstr ""
 
-#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
+#: .es5/lib/config-loader.js:118
 msgid "Missing configuration"
 msgstr "ਗੁੰਮ ਸੰਰਚਨਾ"
 
-#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
+#: .es5/lib/config-loader.js:122
 msgid "Invalid configuration"
 msgstr "ਗ਼ਲਤ ਸੰਰਚਨਾ"
 
-#: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34 .es5/lib/mailcheck.js:32
+#: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr ""
 
-#: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
-msgid "Please try again later"
-msgstr "ਮੁੜ ਕੋਸਿਸ਼ ਕਰੋ"
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "ਨਵੇਂ ਫਾਇਰਫਾਕਸ ਉਤਪਾਦਾਂ ਦੀ ਜਾਂਚ ਕਰੋ"
 
-#: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
-msgid "Service unavailable, try again soon"
-msgstr "ਸੇਵਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ, ਛੇਤੀ ਹੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+#: .es5/lib/newsletters.js:29
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "ਮੋਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਲਵੋ"
 
-#: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਈ ਰੱਖਣ ਲਈ ਕਾਰਵਾਈ ਕਰੋ"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "ਆਨਲਾਈਨ ਵੱਧ ਸੁਰੱਖਿਅਤ ਅਤੇ ਸਮਝਦਾਰ ਬਣੋ"
+
+#: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
 msgstr "ਅਣਜਾਣ ਕਲਾਇਟ"
 
-#: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
 msgstr "ਗਲਤ redirect_uri"
 
-#: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
 msgstr "ਗਲਤ ਦਾਅਵਾ"
 
-#: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
 msgstr "ਅਣਜਾਣ ਕੋਡ"
 
-#: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
 msgstr "ਗਲਤ ਕੋਡ"
 
-#: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
 msgstr "ਮਿਆਦ ਪੁੱਗਿਆ ਕੋਡ"
 
-#: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "ਅਣਅਧਿਕਾਰਤ OAuth ਮਾਪਦੰਡ  :%(param)s"
 
-#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
 msgid "Unauthorized"
 msgstr "ਨਾ-ਪਰਮਾਣਿਤ ਹੈ"
 
-#: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
 msgstr "ਲੁਕਵਾਂ"
 
-#: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
 msgstr "ਟੋਕਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ"
 
-#: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
+#: .es5/lib/oauth-errors.js:153
 msgid "no message"
 msgstr "ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ"
 
-#: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149 .es5/lib/oauth-errors.js:157
+#: .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth ਦਾ ਮਾਪਦੰਡ :%(param)s ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋ ਰਿਹਾ  "
 
-#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "ਵਰਤੋਂਕਾਰ ਸਾਇਨ ਇਨ ਨਹੀਂ ਹੈ"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "ਵੱਖਰੇ ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਸਾਇਨ ਇਨ ਕੀਤਾ"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਵਰਤੋਂਕਾਰ ਜਾਂ ਸ਼ੈਸ਼ਨ"
+
+#: .es5/lib/pairing-channel-client-errors.js:45
 msgid "Invalid message from the remote device"
 msgstr "ਰਿਮੋਟ ਡਿਵਾਈਸ ਤੋਂ ਗਲਤ ਸੁਨੇਹਾ"
 
-#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
+#: .es5/lib/pairing-channel-client-errors.js:53
 msgid "Error pairing to remote device"
 msgstr "ਰਿਮੋਟ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕਰਨ ਲਈ ਗ਼ਲਤੀ"
 
-#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
+#: .es5/lib/pairing-channel-client-errors.js:57
 msgid "Connection to remote device closed, please try again"
 msgstr "ਰਿਮੋਟ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਸ਼ਨ ਬੰਦ ਕੀਤਾ, ਮੁੜ ਕੋਸਿਸ਼ ਕਰੋ"
 
-#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "ਮੰਗ ਕੀਤੇ ਮੁੱਖ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਗਲਤ ਹੈ: %(param)s"
 
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:35
 msgid "Unsupported image provider"
 msgstr "ਗ਼ੈਰ-ਸਹਾਇਕ ਚਿੱਤਰ ਦੇਣ ਵਾਲਾ"
 
-#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:39
 msgid "Image processing error"
 msgstr "ਚਿੱਤਰ ਕਾਰਵਾਈ ਗਲਤੀ"
 
-#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
+#: .es5/lib/profile-errors.js:51
 msgid "Invalid Token"
 msgstr "ਅਢੁੱਕਵਾਂ ਟੋਕਨ"
 
-#: .es5/lib/strings.js:26 .es5/lib/strings.js:25
+#: .es5/lib/strings.js:25
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
-#: .es5/lib/strings.js:33 .es5/lib/strings.js:31
+#: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">ਮਦਦ</a>"
 
-#: .es5/lib/strings.js:37 .es5/lib/strings.js:34
+#: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ।"
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
 
-#: .es5/lib/strings.js:41 .es5/lib/strings.js:37 .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ਅੰਦਾਜ਼ਨ)"
 
-#: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
+#: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
 msgstr "IP ਸਿਰਨਾਵਾਂ: %(ip)s"
 
-#: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
+#: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "ਵਾਧਾ ਕੀਤੀ ਸੁਰੱਖਿਆ ਲਈ, ਇਸ ਡਿਵਾਈਸ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਇਸ ਸਾਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ:"
 
@@ -929,11 +1035,9 @@ msgstr "ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ"
 msgid "Reset password with recovery key"
 msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਾਲ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
-#: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:4 .es5/templates/sign_in.mustache:3
-#: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
-#: .es5/templates/confirm_signup_code.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
@@ -970,23 +1074,17 @@ msgstr "ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ �
 msgid "Learn more"
 msgstr "ਹੋਰ ਜਾਣੋ"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
-msgid "%(email)s registered"
-msgstr "%(email)s ਰਜਿਸਟਰ ਹੈ"
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Sync these everywhere you sign in:"
+msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਕਰੋ, ਉੱਥੇ ਇਹ ਸਿੰਕ ਕਰੋ:"
 
-#: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ"
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24 .es5/templates/choose_what_to_sync.mustache:14
-msgid "Save selections"
-msgstr "ਚੋਣ ਨੂੰ ਸੰਭਾਲੋ"
-
-#: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
-#: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
-#: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14 .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Back"
-msgstr "ਪਿੱਛੇ"
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "ਇਹ ਡਿਵਾਈਸ ਸਿੰਕ ਨਾ ਕਰੋ"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1012,14 +1110,6 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "ਤੁਸੀਂ ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵਰਤ ਕੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਹਾਲ ਕਰ ਲਿਆ ਹੈ। ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ ਉੱਤੇ ਸਟੋਰ ਕਰਨ ਲਈ ਇੱਕ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ।"
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
-msgid "New password"
-msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
-
-#: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/views/settings/change_password.js:262
-msgid "Re-enter password"
-msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਦਾਖਲ ਕਰੋ"
-
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
 msgstr "ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ"
@@ -1044,28 +1134,30 @@ msgstr "ਨਵਾਂ ਜਾਂਚ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲ�
 msgid "Verification error"
 msgstr "ਜਾਂਚ ਗਲਤੀ"
 
-#: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:3
+#: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
 msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਪੁਸ਼ਟੀ"
 
-#: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:5
+#: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
 msgstr "ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
-#: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11 .es5/templates/confirm.mustache:7
+#: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr "&nbsp; %(escapedEmail)s ਨੂੰ ਭੇਜੇ ਗਏ ਤਸਦੀਕੀ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੇਖੋ"
 
-#: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13 .es5/templates/confirm.mustache:9
+#: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
-#: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_signup_code.mustache:8
-#: .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
 msgid "Not in inbox or spam folder? Resend"
 msgstr "ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:7 .es5/templates/tos.mustache:2
+msgid "Back"
+msgstr "ਪਿੱਛੇ"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1075,11 +1167,31 @@ msgstr "ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਲਈ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ %(email)s ਵਾਲੇ ਈ-ਮੇਲ ਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
+msgid "Enter verification code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5
+msgid "Enter 6-digit code"
+msgstr "6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ"
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9
+msgid "Verify"
+msgstr "ਤਸਦੀਕ ਕਰੋ"
+
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Need another code? Resend"
+msgstr ""
+
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
+#: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
 msgstr "ਫਾਇਰਫਾਕਸ ਕਨੈਕਟ ਹੈ"
 
@@ -1087,9 +1199,7 @@ msgstr "ਫਾਇਰਫਾਕਸ ਕਨੈਕਟ ਹੈ"
 msgid "Email verified"
 msgstr "ਈਮੇਲ ਤਸਦੀਕ ਕੀਤੀ"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
-#: .es5/templates/sms_send.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "ਕਾਮਯਾਬ"
 
@@ -1097,8 +1207,7 @@ msgstr "ਕਾਮਯਾਬ"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
-#: .es5/templates/sms_send.mustache:10
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
 msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸਾਂ ਜੋੜੀਆਂ ਜਾ ਰਹੀਆਂ?"
 
@@ -1118,7 +1227,7 @@ msgstr "ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਐਂਡ�
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਾਇਨ ਚੁਣੋ"
 
-#: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
 msgstr "ਇਕ ਤੋਂ ਵੱਧ ਯੰਤਰ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?"
 
@@ -1134,44 +1243,24 @@ msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟਾਂ ਤੱਕ ਪਹੁੰ
 msgid "Try again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
+#: .es5/templates/force_auth.mustache:4
 msgid "Sign in to continue"
 msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
-#: .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:14 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:10
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
-#: .es5/templates/settings/delete_account.mustache:20 .es5/templates/sign_up_password.mustache:7
-msgid "Password"
-msgstr "ਪਾਸਵਰਡ"
-
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
-#: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
-#: .es5/templates/sign_in_password.mustache:11 .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:16
-msgid "Forgot password?"
-msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
-
-#: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
-#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
-#: .es5/templates/sign_up.mustache:20 .es5/templates/sign_up_password.mustache:17 .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:14
-#: .es5/templates/sign_up_password.mustache:18
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
+#: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "ਆਪਣਾ ਈਮੇਲ ਦਾਖਲ ਕਰੋ"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
-#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7
 msgid "Email"
 msgstr "ਈਮੇਲ"
 
-#: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
-#: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "ਜਾਰੀ ਰੱਖੋ"
 
@@ -1179,13 +1268,11 @@ msgstr "ਜਾਰੀ ਰੱਖੋ"
 msgid "Legal"
 msgstr "ਕਾਨੂੰਨੀ"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
-#: .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
-#: .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
 msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ"
 
@@ -1219,26 +1306,19 @@ msgstr "%(serviceName)s ਤੁਹਾਡੇ ਖਾਤੇ ਤੋਂ ਅੱਗੇ �
 msgid "Accept"
 msgstr "ਮਨਜ਼ੂਰ"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
-#: .es5/templates/settings/delete_account.mustache:6 .es5/templates/settings/display_name.mustache:8 .es5/templates/settings/emails.mustache:29
-#: .es5/templates/settings/two_step_authentication.mustache:17 .es5/templates/settings/two_step_authentication.mustache:23 .es5/templates/settings/upgrade_session.mustache:10
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3 .es5/views/settings/display_name.js:185 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/support.mustache:11
-#: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
-#: .es5/templates/settings/client_disconnect.mustache:10
-msgid "Cancel"
-msgstr "ਰੱਦ ਕਰੋ"
+#: .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+msgid "Start browsing"
+msgstr "ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:9
+#: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!"
 
-#: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11 .es5/templates/ready.mustache:10
+#: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
 msgstr "ਨਵੀਂ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ"
 
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12 .es5/templates/ready.mustache:11
+#: .es5/templates/ready.mustache:11
 msgid "Continue to my account"
 msgstr "ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
@@ -1254,7 +1334,7 @@ msgstr "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਪਹੁੰਚ �
 msgid "Report activity"
 msgstr "ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7 .es5/templates/sign_in_token_code.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?"
 
@@ -1268,21 +1348,51 @@ msgstr ""
 msgid "Begin reset"
 msgstr "ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+msgid "Recent Activity"
+msgstr "ਤਾਜ਼ਾ ਸਰਗਰਮੀ"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "ਸੁਰੱਖਿਆ ਘਟਨਾਵਾਂ"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "ਘਟਨਾ ਦਾ ਨਾਂ"
+
+#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+msgid "Verified"
+msgstr "ਤਸਦੀਕ ਕੀਤਾ"
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "ਬਣਾਇਆ"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "ਘਟਨਾਵਾਂ ਹਟਾਓ"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ"
+
+#: .es5/templates/settings.mustache:1
+msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+msgstr ""
+
+#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
 
-#: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:4
 msgid "Sign out"
 msgstr "ਸਾਈਨ ਆਉਟ"
 
-#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
-#: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
-#: .es5/templates/sign_in_totp_code.mustache:7
+#: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
 msgstr "ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 
-#: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
+#: .es5/templates/sign_in.mustache:15
 msgid "Create an account"
 msgstr "ਖਾਤਾ ਬਣਾਓ"
 
@@ -1314,13 +1424,9 @@ msgstr "ਰਿਕਵਰੀ ਕੋਡ ਭਰੋ, ਜੋ ਕਿ ਤੁਸੀਂ �
 msgid "Enter 10-digit recovery code"
 msgstr "10-ਅੰਕਾਂ ਦਾ ਰਿਕਵਰੀ ਕੋਡ ਦਿਓ"
 
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9 .es5/templates/confirm_signup_code.mustache:7
-msgid "Verify"
-msgstr "ਤਸਦੀਕ ਕਰੋ"
-
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Use security code"
-msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਵਰਤੋਂ"
+#: .es5/templates/sign_in_recovery_code.mustache:8
+msgid "Are you locked out?"
+msgstr ""
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1338,10 +1444,6 @@ msgstr "ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ"
 msgid "Check your email for the code sent to %(email)s."
 msgstr "%(email)s ਉੱਤੇ ਭੇਜੇ ਗਈ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
-#: .es5/templates/sign_in_token_code.mustache:4
-msgid "Enter code"
-msgstr "ਕੋਡ ਦਿਓ"
-
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
 msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
@@ -1350,13 +1452,9 @@ msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr ""
 
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
-msgid "Enter 6-digit code"
-msgstr "6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Use recovery code"
-msgstr "ਰਿਕਵਰੀ ਕੋਡ ਵਰਤੋ"
+#: .es5/templates/sign_in_totp_code.mustache:8
+msgid "Trouble entering code?"
+msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1366,83 +1464,98 @@ msgstr "%(email)s ਨੂੰ ਭੇਜੇ ਗਏ ਪਰਮਾਣਕਿਤਾ ਕ�
 msgid "Enter authorization code"
 msgstr "ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦਿਓ"
 
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up.mustache:3
-#: .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
 
-#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "ਪਾਸਵਰਡ ਦੁਹਰਾਉ"
 
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
-msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "ਇਹ ਪਾਸਵਰਡ ਗੁਆ ਨਾ ਦਿਓ। ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਪਈ ਤਾਂ ਤੁਸੀਂ ਸਿੰਕ ਕੀਤਾ ਡਾਟਾ ਗੁਆ ਦਿਓਗੇ।"
-
-#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
-msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
-#: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
-msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+#: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:10
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ‘ਚ ਲਵੋ। ਹੋਰ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:"
 
-#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/lib/newsletters.js:29
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "ਮੋਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਲਵੋ"
-
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
-#: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
-#: .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "ਖਾਤਾ ਬਣਾਓ"
 
-#: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:16
+#: .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
 msgstr "ਖਾਤਾ ਹੈ? ਸਾਇਨ ਇਨ ਕਰੋ"
 
-#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16 .es5/templates/sign_up_password.mustache:20 .es5/templates/sign_up_password.mustache:19
-msgid "Mistyped email?"
-msgstr "ਈਮੇਲ ਗਲਤ ਲਿਖੀ?"
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Change email"
+msgstr "ਈਮੇਲ ਬਦਲੋ"
 
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12 .es5/templates/sms_send.mustache:2
+#: .es5/templates/sign_up_password.mustache:13
+msgid "Choose what to sync:"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਿੱਧਾ ਆਪਣੇ ਸਮਾਰਟ-ਫੋਨ ਉੱਤੇ ਭੇਜੋ ਅਤੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:3
+#: .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
 msgstr "ਮੋਬਾਈਲ ਫ਼ੋਨ ਨੰਬਰ"
 
-#: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
-#: .es5/templates/sms_send.mustache:4
+#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "ਭੇਜੋ"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
+#: .es5/templates/sms_send.mustache:5
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "ਆਪਣੇ ਸਮਾਰਟ-ਫ਼ੋਨ ‘ਤੇ ਫਾਇਰਫਾਕਸ ਇੰਸਟਾਲ ਕਰੋ ਅਤੇ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ"
+#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr "ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਿਓ ਕਰੀਏ?"
 
-#: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+#: .es5/templates/sms_sent.mustache:1
+msgid "Check your texts"
+msgstr "ਆਪਣੀ ਲਿਖਤ ਦੀ ਜਾਂਚ ਕਰੋ"
 
-#: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+#: .es5/templates/sms_sent.mustache:3
+msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+msgstr "ਫਾਇਰਫਾਕਸ ਐਪ ਲਈ ਲਿੰਕ %(escapedPhoneNumber)s ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ ਸੀ"
 
-#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "ਜੇ ਤੁਸੀਂ ਲਿਖਤ ਸੁਨੇਹੇ ਸਿੱਧੇ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਐਪਾਂ ਨੂੰ ਖੁਦ ਵੀ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ।"
+#: .es5/templates/sms_sent.mustache:4
+msgid "Wrong number?"
+msgstr "ਨੰਬਰ ਗਲਤ ਹੈ?"
 
-#: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17 .es5/templates/sms_sent.mustache:6
+#: .es5/templates/sms_sent.mustache:5
+msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+msgstr "ਜੇ ਤੁਸੀਂ SMS ਸੁਨੇਹਾ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਐਪ ਸਟੋਰ ਨੂੰ “ਫਾਇਰਫਾਕਸ” ਲਈ ਵੀ ਲੱਭ ਸਕਦੇ ਹੋ।"
+
+#: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
 msgstr "ਹਾਲੇ ਵੀ ਆਇਆ? ਮੁੜ-ਭੇਜੋ"
+
+#: .es5/templates/support.mustache:2
+msgid "Contact Us"
+msgstr "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
+
+#: .es5/templates/support.mustache:3
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:6
+msgid "What do you need help with?"
+msgstr "ਕੀ ਤੁਹਾਨੂੰ ਕਿਸੇ ਚੀਜ਼ ਲਈ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?"
+
+#: .es5/templates/support.mustache:8
+msgid "Subject (optional)"
+msgstr "ਵਿਸ਼ਾ (ਚੋਣਵਾਂ)"
+
+#: .es5/templates/support.mustache:9
+msgid "Description of issue"
+msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1456,19 +1569,17 @@ msgstr "ਸਿੰਕ ਸੇਵਾ ਸਥਾਈ ਬੈਕਅੱਪ ਨਹੀਂ �
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "ਆਪਣੇ ਡਾਟਾ ਖਰਾਬ ਹੋਣ ਤੋਂ ਬਚਾਉਣ ਲਈ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਨੂੰ ਘੱਟੋ ਘੱਟ ਦੋ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਇੰਸਟਾਲ ਅਤੇ ਸਿੰਕ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਬਹਾਲ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋਵੋ।"
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
 msgstr "ਸਮਝੇ"
 
-#: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
-#: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4 .es5/views/settings/display_name.js:90
-msgid "Change…"
-msgstr "…ਬਦਲੋ"
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr ""
 
-#: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/views/settings/display_name.js:97
-msgid "Add…"
-msgstr "…ਜੋੜੋ"
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr ""
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1486,61 +1597,56 @@ msgstr "ਕੈਮਰਾ"
 msgid "Clear"
 msgstr "ਸਾਫ਼ ਕਰੋ"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
-#: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/recovery_codes.mustache:16
+#: .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
 msgstr "ਮੁਕੰਮਲ"
 
-#: .es5/templates/settings/avatar_crop.mustache:1 .es5/templates/settings/avatar_crop.mustache:2
+#: .es5/templates/settings/avatar_crop.mustache:1
+msgid "Avatar"
+msgstr "ਅਵਤਾਰ"
+
+#: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "ਆਪਣੀ ਤਸਵੀਰ ਨੂੰ ਲੋੜ ਮੁਤਾਬਕ ਰੱਖੋ ਅਤੇ ਘੁੰਮਾਓ"
 
-#: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
-#: .es5/templates/settings/avatar_crop.mustache:3 .es5/views/settings/change_password.js:273
-msgid "Change"
-msgstr "ਬਦਲੋ"
-
-#: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
-
-#: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
-msgid "Old password"
-msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
-
 #: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync?"
-msgstr "ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨਾ ਹੈ?"
+msgid "Disconnect from Sync"
+msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
 msgstr "%(deviceName)s ਉੱਤੇ ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ ਤਾਂ ਰਹੇਗਾ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਹੁਣ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
-msgid "Suspicious device"
-msgstr "ਸ਼ੱਕੀ ਡਿਵਾਈਸ"
+msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Lost or stolen device"
-msgstr "ਡਿਵਾਈਸ ਗੁੰਮ ਜਾਂ ਚੋਰੀ ਹੋਇਆ"
+msgid "Suspicious"
+msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Old or replaced device"
-msgstr "ਪੁਰਾਣਾ ਜਾਂ ਬਦਲਿਆ ਗਿਆ ਡਿਵਾਈਸ"
+msgid "Lost or stolen"
+msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "ਡੁਪਲੀਕੇਟ ਡਿਵਾਈਸ"
+msgid "Old or replaced"
+msgstr ""
 
-#: .es5/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:8
+#: .es5/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate"
+msgstr ""
+
+#: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "ਦੱਸਣਾ ਨਹੀਂ ਹੈ"
 
-#: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:9
+#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
-#: .es5/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:11
+#: .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "ਡਿਸ-ਕਨੈਕਸ਼ਨ ਸਫ਼ਲ ਹੈ"
 
@@ -1594,55 +1700,48 @@ msgstr "ਚੀਜ਼ ਗੁਆਚ ਗਈਆਂ ਜਾਂ ਡੁਪਲੀਕੇ�
 msgid "Refresh status"
 msgstr "ਹਾਲਤ ਤਾਜ਼ਾ ਕਰੋ"
 
-#: .es5/templates/settings/communication_preferences.mustache:3 .es5/lib/strings.js:43 .es5/templates/settings/communication_preferences.mustache:1
+#: .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
 msgstr "ਈਮੇਲ ਪਸੰਦ"
 
-#: .es5/templates/settings/communication_preferences.mustache:7
-msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਸੁਰੱਖਿਆ, ਸਾਡੀ ਨੀਤੀ ਵਿੱਚ ਬਦਲਾਅ, ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਈਮੇਲ ਨਾਲ ਸਬੰਧਿਤ ਸੰਚਾਰ ਮਿਲੇਗਾ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਹੈ।"
-
-#: .es5/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr "ਇਸ ਤੋਂ ਇਲਾਵਾ, ਤੁਸੀਂ ਮੌਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਤੋਂ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਦੇ ਨਾਲ ਪ੍ਰਚਾਰ ਸੰਬੰਧੀ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਮੈਂਬਰੀ ਲੈ ਸਕਦੇ ਹੋ।"
-
-#: .es5/templates/settings/communication_preferences.mustache:9
-msgid "Subscribe"
-msgstr "ਮੈਂਬਰ ਬਣੋ"
-
-#: .es5/templates/settings/communication_preferences.mustache:11
-msgid "Manage preferences"
-msgstr "ਪਸੰਦਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
-
-#: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
-#: .es5/templates/settings/delete_account.mustache:19 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "ਖਾਤਾ ਹਟਾਓ"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
+#: .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
 msgstr "…ਨੂੰ ਹਟਾਓ"
 
-#: .es5/templates/settings/delete_account.mustache:3
-msgid ""
-"If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-"lose access to it everywhere."
+#: .es5/templates/settings/delete_account.mustache:4
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
 msgstr ""
 
-#: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
+#: .es5/templates/settings/delete_account.mustache:7
+msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:16
+msgid "Please acknowledge that by deleting your account:"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:17
+msgid "Any paid subscriptions you have will be cancelled"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:18
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:19
+msgid "Reactivating with this email may not restore your saved information"
+msgstr ""
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
 msgstr ""
 
-#: .es5/templates/settings/emails.mustache:9
-msgid "verified"
-msgstr "ਤਸਦੀਕ ਕੀਤਾ"
-
 #: .es5/templates/settings/emails.mustache:11
-msgid "verification required"
+msgid "Verification required"
 msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
@@ -1685,6 +1784,14 @@ msgstr "ਕਾਪੀ ਕਰੋ"
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
 msgstr "ਪਰਿੰਟ ਕਰੋ"
+
+#: .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "ਮੈਂਬਰੀ"
+
+#: .es5/templates/settings/subscription.mustache:2
+msgid "Manage…"
+msgstr "…ਬੰਦੋਬਸਤ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1837,9 +1944,45 @@ msgstr "ਅਣਪਛਾਤਾ ਟਿਕਾਣਾ"
 msgid "IP address: %(ipAddress)s"
 msgstr "IP ਸਿਰਨਾਵਾਂ: %(ipAddress)s"
 
+#: .es5/templates/partial/firefox-family-services.mustache:1
+msgid "Sign up to get more features:"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:2
+msgid "Firefox browser"
+msgstr "ਫਾਇਰਫਾਕਸ ਬਰਾਊਜ਼ਰ"
+
+#: .es5/templates/partial/firefox-family-services.mustache:3
+msgid "Sync your bookmarks, passwords, and more on every device."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Firefox Lockwise"
+msgstr "ਫਾਇਰਫਾਕਸ ਲਾਕਨਾਈਜ਼"
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Firefox Monitor"
+msgstr "ਫਾਇਰਫਾਕਸ ਨਿਗਰਾਨ"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Get a lookout for data breaches."
+msgstr "ਡਾਟਾ ਸੰਨ੍ਹ ਲੱਗਣ ਦਾ ਪਤਾ ਲਾਓ।"
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Send"
+msgstr "ਫਾਇਰਫਾਕਸ ਭੇਜੋ"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Send larger files securely and privately."
+msgstr ""
+
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Your Firefox Account password"
-msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ"
+msgid "Stay safe &mdash; don't reuse passwords."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1849,17 +1992,21 @@ msgstr "ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ �
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "ਇਸ <a %(escapedCommonPasswordLinkAttrs)s>ਆਮ ਪਾਸਵਰਡ ਦੀ ਸੂਚੀ ਨਾਲ ਮਿਲਦਾ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ</a>"
 
-#: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-msgstr "ਆਦਰਸ਼ ਰਹੋ ਅਤੇ ਸੁਰੱਖਿਅਤ ਹੋਵੋ & mdash; ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਕਿਤੇ ਵੀ ਨਾ ਵਰਤੋਂ।"
-
-#: .es5/templates/partial/password-strength-balloon.mustache:12
-msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "ਇਹ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖੋ ਅਤੇ ਇਸ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਸਾਡੇ ਸਰਵਰਾਂ ਤੋਂ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
-
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "ਪਾਸਵਰਡ ਵੇਖੋ"
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1906,7 +2053,7 @@ msgid "Show code"
 msgstr "ਕੋਡ ਵੇਖਾਓ"
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Get App"
+msgid "Get app"
 msgstr "ਐਪ ਲਵੋ"
 
 #: .es5/templates/pair/success.mustache:3
@@ -1929,483 +2076,170 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
 
-#: .es5/templates/settings/emails.mustache:9 .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "ਤਸਦੀਕ ਕੀਤਾ"
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "ਮੈਂਬਰੀ"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "…ਬੰਦੋਬਸਤ"
-
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Get the most out of your account"
-msgstr "ਆਪਣੇ ਖਾਤੇ ਦਾ ਪੂਰਾ ਪੂਰਾ ਫਾਇਦਾ ਲਵੋ"
-
-#: .es5/templates/choose_what_to_sync.mustache:8
-msgid "Sync these everywhere you sign in"
-msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕਰੋ, ਓਥੇ ਇਹਨਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ"
-
-#: .es5/templates/choose_what_to_sync.mustache:12
-msgid "Practical knowledge is coming to your inbox"
-msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿੱਚ ਆ ਰਿਹਾ ਹੈ"
-
-#: .es5/templates/choose_what_to_sync.mustache:13
-msgid "Sign up for more:"
-msgstr "ਹੋਰ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰੋ:"
-
-#: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
-msgid "Be safer and smarter online"
-msgstr "ਆਨਲਾਈਨ ਵੱਧ ਸੁਰੱਖਿਅਤ ਅਤੇ ਸਮਝਦਾਰ ਬਣੋ"
-
-#: .es5/templates/choose_what_to_sync.mustache:17
-msgid "Invite me to test new Mozilla products"
-msgstr "ਮੈਨੂੰ ਨਵੇਂ ਮੋਜ਼ੀਲਾ ਉਤਪਾਦਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਸੱਦਾ ਦਿਓ"
-
-#: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਈ ਰੱਖਣ ਲਈ ਕਾਰਵਾਈ ਕਰੋ"
-
-#: .es5/templates/confirm.mustache:4 .es5/templates/confirm.mustache:3
-msgid "One last step"
-msgstr "ਬੱਸ ਆਖਰੀ ਪੜਾਅ"
-
-#: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
-msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr "ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰਕ ਲਈ %(escapedEmail)s ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਅਸੀਂ ਤੁਹਾਨੂੰ ਰਾਹ ਉੱਤੇ ਪਾਵਾਂਗੇ।"
-
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr "<span class=\"service\">ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ</span> ‘ਚ ਸਾਈਨ ਇਨ ਕਰੋ"
-
-#: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
-msgid "Create your Firefox account"
-msgstr "ਆਪਣਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
-
-#: .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:5
-msgid "Change email"
-msgstr "ਈਮੇਲ ਬਦਲੋ"
-
-#: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:2
-msgid "You did it! You’re signed in."
-msgstr "ਤੁਸੀਂ ਕਰ ਲਿਆ! ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਹੋ।"
-
-#: .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:4
-msgid "Now get Firefox everywhere else."
-msgstr "ਫਾਇਰਫਾਕਸ ਨੂੰ ਹਰ ਦੂਜੀ ਥਾਂ ਲਵੋ।"
-
-#: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
-msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
-
-#: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
-msgid "Why sign in on another device?"
-msgstr "ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਿਓ ਕਰੀਏ?"
-
-#: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
-msgid "Start browsing"
-msgstr "ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "ਆਪਣੀ ਲਿਖਤ ਦੀ ਜਾਂਚ ਕਰੋ"
-
-#: .es5/templates/sms_sent.mustache:5 .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "ਫਾਇਰਫਾਕਸ ਐਪ ਲਈ ਲਿੰਕ %(escapedPhoneNumber)s ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ ਸੀ"
-
-#: .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "ਨੰਬਰ ਗਲਤ ਹੈ?"
-
-#: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "ਜੇ ਤੁਸੀਂ SMS ਸੁਨੇਹਾ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਐਪ ਸਟੋਰ ਨੂੰ “ਫਾਇਰਫਾਕਸ” ਲਈ ਵੀ ਲੱਭ ਸਕਦੇ ਹੋ।"
-
-#: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Get more from these features:"
-msgstr "ਇਹਨਾਂ ਫੀਚਰਾਂ ਤੋਂ ਹੋਰ ਲਵੋ:"
-
-#: .es5/templates/partial/firefox-family-services.mustache:2
-msgid "Firefox browser"
-msgstr "ਫਾਇਰਫਾਕਸ ਬਰਾਊਜ਼ਰ"
-
-#: .es5/templates/partial/firefox-family-services.mustache:3
-msgid "Travel the internet with protection, on every device."
-msgstr "ਹਰੇਕ ਡਿਵਾਈਸ ਉੱਤੇ ਸੁਰੱਖਿਆ ਦੇ ਨਾਲ ਇੰਟਰਨੈੱਟ ਨੂੰ ਵਰਤੋਂ।"
-
-#: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Firefox Lockwise"
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਕਨਾਈਜ਼"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Keep your passwords protected and portable."
-msgstr "ਆਪਣੇ ਪਾਸਵਰਡ ਸੁਰੱਖਿਅਤ ਅਤੇ ਕਿਤੇ ਵੀ ਵਰਤੋਂਯੋਗ ਬਣਾਓ।"
-
-#: .es5/templates/partial/firefox-family-services.mustache:6
-msgid "Firefox Monitor"
-msgstr "ਫਾਇਰਫਾਕਸ ਨਿਗਰਾਨ"
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Get a lookout for data breaches."
-msgstr "ਡਾਟਾ ਸੰਨ੍ਹ ਲੱਗਣ ਦਾ ਪਤਾ ਲਾਓ।"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "ਫਾਇਰਫਾਕਸ ਭੇਜੋ"
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Share large files without prying eyes."
-msgstr "ਪਲਕਾਂ ਦੇ ਓਹਲੇ ਓਹਲੇ ਵੱਡੀਆਂ ਫਾਈਲਾਂ ਸਾਂਝੀਆਂ ਕਰੋ।"
-
-#: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "ਨਵੇਂ ਫਾਇਰਫਾਕਸ ਉਤਪਾਦਾਂ ਦੀ ਜਾਂਚ ਕਰੋ"
-
-#: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
-#: .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up_password.mustache:10
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ‘ਚ ਲਵੋ। ਹੋਰ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:"
-
-#: .es5/templates/pair/index.mustache:4
-msgid "Get app"
-msgstr "ਐਪ ਲਵੋ"
-
-#: .es5/lib/auth-errors.js:266
-msgid "Subscription has already been cancelled"
-msgstr "ਮੈਂਬਰੀ ਪਹਿਲਾਂ ਹੀ ਰੱਦ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ"
-
-#: .es5/lib/auth-errors.js:270
-msgid "Update was rejected, please try again"
-msgstr "ਅੱਪਡੇਟ ਨੂੰ ਰੱਦ ਕੀਤਾ ਗਿਆ, ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "ਅਵਤਾਰ"
-
-#: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82
-msgid "Please Select One"
-msgstr "ਪਹਿਲਾਂ ਇੱਕ ਚੁਣੋ"
-
-#: .es5/models/sync-engines.js:62
-msgid "Logins and Passwords"
-msgstr "ਲਾਗਇਨ ਅਤੇ ਪਾਸਵਰਡ"
-
-#: .es5/models/sync-engines.js:70
-msgid "Open Tabs"
-msgstr "ਟੈਬਾਂ ਖੋਲ੍ਹੋ"
-
-#: .es5/models/sync-engines.js:90
-msgid "Credit Cards"
-msgstr "ਕਰੈਡਿਟ ਕਾਰਡ"
-
-#: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
-msgid "Invalid redirect"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
-msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
-
-#: .es5/lib/oauth-errors.js:181
-msgid "User is not signed in"
-msgstr "ਵਰਤੋਂਕਾਰ ਸਾਇਨ ਇਨ ਨਹੀਂ ਹੈ"
-
-#: .es5/lib/oauth-errors.js:186
-msgid "A different user is signed in"
-msgstr "ਵੱਖਰੇ ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਸਾਇਨ ਇਨ ਕੀਤਾ"
-
-#: .es5/lib/oauth-errors.js:191
-msgid "Unverified user or session"
-msgstr "ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਵਰਤੋਂਕਾਰ ਜਾਂ ਸ਼ੈਸ਼ਨ"
-
-#: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
-#: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr ""
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
-
-#: .es5/templates/subscription_terms.mustache:1
-msgid "Subscription Platform Terms of Service"
-msgstr ""
-
-#: .es5/templates/support.mustache:2
-msgid "Contact Us"
-msgstr "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
-
-#: .es5/templates/support.mustache:3 .es5/templates/support.mustache:6
-msgid "What do you need help with?"
-msgstr "ਕੀ ਤੁਹਾਨੂੰ ਕਿਸੇ ਚੀਜ਼ ਲਈ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?"
-
-#: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
-msgid "General inquiries"
-msgstr "ਆਮ ਸਵਾਲ"
-
-#: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "ਭੁਗਤਾਨ ਤੇ ਬਿੱਲਿੰਗ"
-
-#: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
-msgid "Connection issues"
-msgstr "ਕਨੈਕਸ਼ਨ ਮਸਲੇ"
-
-#: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
-msgid "Getting started"
-msgstr "ਸ਼ੁਰੂ ਕਰੀਏ"
-
-#: .es5/templates/support.mustache:8 .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "ਖਾਤਾ ਮਸਲੇ"
-
-#: .es5/templates/support.mustache:9 .es5/templates/support.mustache:8
-msgid "Subject (optional)"
-msgstr "ਵਿਸ਼ਾ (ਚੋਣਵਾਂ)"
-
-#: .es5/templates/support.mustache:10
-msgid "Description of Issue"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:7
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:14 .es5/templates/settings/delete_account.mustache:16
-msgid "Please acknowledge that by deleting your account:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any subscriptions you have will be cancelled"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
-msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:17 .es5/templates/settings/delete_account.mustache:19
-msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
-
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
-msgid "Other"
-msgstr "ਹੋਰ"
-
-#: .es5/views/support.js:216 .es5/views/support.js:230
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
-
-#: .es5/views/support.js:218 .es5/views/support.js:232
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
-
-#: .es5/views/settings/change_password.js:88
-msgid "Change..."
-msgstr "...ਬਦਲੋ"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:62
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:66
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:70
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:149
-msgid "Last seen time unknown"
-msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਣ ਸਮਾਂ ਅਣਪਛਾਤਾ ਹੈ"
-
-#: .es5/models/reliers/browser.js:75
-msgid "Firefox"
-msgstr "Firefox"
-
-#: .es5/lib/auth-errors.js:274
-msgid "Expired or invalid code"
-msgstr ""
-
-#: .es5/templates/choose_what_to_sync.mustache:1
-msgid "Sync these everywhere you sign in:"
-msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਕਰੋ, ਉੱਥੇ ਇਹ ਸਿੰਕ ਕਰੋ:"
-
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Enable Sync"
-msgstr "ਸਿੰਕ ਸਮਰੱਥ ਕਰੋ"
-
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
-msgid "Don’t sync this device"
-msgstr "ਇਹ ਡਿਵਾਈਸ ਸਿੰਕ ਨਾ ਕਰੋ"
-
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
-#: .es5/templates/confirm_signup_code.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
-
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
-msgid "Recent Activity"
-msgstr "ਤਾਜ਼ਾ ਸਰਗਰਮੀ"
-
-#: .es5/templates/security_events.mustache:2
-msgid "Security Events"
-msgstr "ਸੁਰੱਖਿਆ ਘਟਨਾਵਾਂ"
-
-#: .es5/templates/security_events.mustache:3
-msgid "Event Name"
-msgstr "ਘਟਨਾ ਦਾ ਨਾਂ"
-
-#: .es5/templates/security_events.mustache:5
-msgid "Created At"
-msgstr "ਬਣਾਇਆ"
-
-#: .es5/templates/security_events.mustache:7
-msgid "Delete events"
-msgstr "ਘਟਨਾਵਾਂ ਹਟਾਓ"
-
-#: .es5/templates/security_events.mustache:8
-msgid "Back to settings"
-msgstr "ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ"
-
-#: .es5/templates/support.mustache:3
-msgid "What are you contacting us about?"
-msgstr ""
-
-#: .es5/templates/support.mustache:9
-msgid "Description of issue"
-msgstr ""
-
-#: .es5/templates/would-you-like-to-sync.mustache:1
-msgid "Would you like to sync this device to your account?"
-msgstr ""
-
-#: .es5/templates/would-you-like-to-sync.mustache:2
-msgid "Sync this device"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:15 .es5/templates/settings/delete_account.mustache:17
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
-
-#: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to support"
-msgstr ""
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr ""
-
-#: .es5/lib/auth-errors.js:274
-msgid "Invalid or expired verification code"
-msgstr ""
-
-#: .es5/templates/confirm_signup_code.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:8
-msgid "Are you locked out?"
-msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:8
-msgid "Trouble entering code?"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr ""
-
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Sync selections"
-msgstr ""
-
-#: .es5/templates/confirm_signup_code.mustache:8
-msgid "Need another code? Resend"
-msgstr ""
-
-#: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:3
-msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr ""
-
-#: .es5/templates/sign_up_password.mustache:13
-msgid "Choose what to sync:"
-msgstr ""
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ ਸਿੰਕ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਕੀਤਾ"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ ਆਖਰੀ ਸਿੰਕ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਵਾਰ"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s, %(translatedState)s, %(translatedCity)s ਦੇ ਨੇੜੇ ਤੇੜੇ %(translatedTimeAgo)s ਚਿਰ ਪਹਿਲਾਂ ਆਖਰੀ ਸਿੰਕ"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ਪਿਛਲਾ ਸਿੰਕ %(translatedTimeAgo)s %(translatedCity)s %(translatedState)s %(translatedCountry)s ਦੇ ਨੇੜੇ ਕੀਤਾ ਗਿਆ"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "ਆਖਰੀ ਸਿੰਕ ਸਮੇਂ ਅਣਜਾਣ"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"
+
+#~ msgid "Open tabs"
+#~ msgstr "ਟੈਬਾਂ ਨੂੰ ਖੋਲ੍ਹੋ"
+
+#~ msgid "Logins"
+#~ msgstr "ਲਾਗਇਨ"
+
+#~ msgid "Credit cards"
+#~ msgstr "ਕ੍ਰੈਡਿਟ ਕਾਰਡ"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "ਦੋ-ਪੜਾਵੀ ਪ੍ਰਮਾਣਿਕਤਾ ਵਾਲੇ ਖਾਤੇ ਇਸ ਸਮੇਂ ਪੇਅਰ ਕਰਨ ਨੂੰ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹਨ"
+
+#~ msgid "Please try again later"
+#~ msgstr "ਮੁੜ ਕੋਸਿਸ਼ ਕਰੋ"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "ਸੇਵਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ, ਛੇਤੀ ਹੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "%(email)s ਰਜਿਸਟਰ ਹੈ"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ"
+
+#~ msgid "Save selections"
+#~ msgstr "ਚੋਣ ਨੂੰ ਸੰਭਾਲੋ"
+
+#~ msgid "Use security code"
+#~ msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਵਰਤੋਂ"
+
+#~ msgid "Enter code"
+#~ msgstr "ਕੋਡ ਦਿਓ"
+
+#~ msgid "Use recovery code"
+#~ msgstr "ਰਿਕਵਰੀ ਕੋਡ ਵਰਤੋ"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "ਇਹ ਪਾਸਵਰਡ ਗੁਆ ਨਾ ਦਿਓ। ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਪਈ ਤਾਂ ਤੁਸੀਂ ਸਿੰਕ ਕੀਤਾ ਡਾਟਾ ਗੁਆ ਦਿਓਗੇ।"
+
+#~ msgid "Mistyped email?"
+#~ msgstr "ਈਮੇਲ ਗਲਤ ਲਿਖੀ?"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "ਆਪਣੇ ਸਮਾਰਟ-ਫ਼ੋਨ ‘ਤੇ ਫਾਇਰਫਾਕਸ ਇੰਸਟਾਲ ਕਰੋ ਅਤੇ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "ਜੇ ਤੁਸੀਂ ਲਿਖਤ ਸੁਨੇਹੇ ਸਿੱਧੇ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਐਪਾਂ ਨੂੰ ਖੁਦ ਵੀ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨਾ ਹੈ?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "ਸ਼ੱਕੀ ਡਿਵਾਈਸ"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "ਡਿਵਾਈਸ ਗੁੰਮ ਜਾਂ ਚੋਰੀ ਹੋਇਆ"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "ਪੁਰਾਣਾ ਜਾਂ ਬਦਲਿਆ ਗਿਆ ਡਿਵਾਈਸ"
+
+#~ msgid "Duplicate device"
+#~ msgstr "ਡੁਪਲੀਕੇਟ ਡਿਵਾਈਸ"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਸੁਰੱਖਿਆ, ਸਾਡੀ ਨੀਤੀ ਵਿੱਚ ਬਦਲਾਅ, ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਈਮੇਲ ਨਾਲ ਸਬੰਧਿਤ ਸੰਚਾਰ ਮਿਲੇਗਾ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਹੈ।"
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "ਇਸ ਤੋਂ ਇਲਾਵਾ, ਤੁਸੀਂ ਮੌਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਤੋਂ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਦੇ ਨਾਲ ਪ੍ਰਚਾਰ ਸੰਬੰਧੀ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਮੈਂਬਰੀ ਲੈ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Subscribe"
+#~ msgstr "ਮੈਂਬਰ ਬਣੋ"
+
+#~ msgid "Manage preferences"
+#~ msgstr "ਪਸੰਦਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
+
+#~ msgid "verified"
+#~ msgstr "ਤਸਦੀਕ ਕੀਤਾ"
+
+#~ msgid "verification required"
+#~ msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "ਆਦਰਸ਼ ਰਹੋ ਅਤੇ ਸੁਰੱਖਿਅਤ ਹੋਵੋ & mdash; ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਕਿਤੇ ਵੀ ਨਾ ਵਰਤੋਂ।"
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "ਇਹ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖੋ ਅਤੇ ਇਸ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਸਾਡੇ ਸਰਵਰਾਂ ਤੋਂ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
+
+#~ msgid "Get App"
+#~ msgstr "ਐਪ ਲਵੋ"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "ਆਪਣੇ ਖਾਤੇ ਦਾ ਪੂਰਾ ਪੂਰਾ ਫਾਇਦਾ ਲਵੋ"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕਰੋ, ਓਥੇ ਇਹਨਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ"
+
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿੱਚ ਆ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Sign up for more:"
+#~ msgstr "ਹੋਰ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰੋ:"
+
+#~ msgid "Invite me to test new Mozilla products"
+#~ msgstr "ਮੈਨੂੰ ਨਵੇਂ ਮੋਜ਼ੀਲਾ ਉਤਪਾਦਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਸੱਦਾ ਦਿਓ"
+
+#~ msgid "One last step"
+#~ msgstr "ਬੱਸ ਆਖਰੀ ਪੜਾਅ"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰਕ ਲਈ %(escapedEmail)s ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਅਸੀਂ ਤੁਹਾਨੂੰ ਰਾਹ ਉੱਤੇ ਪਾਵਾਂਗੇ।"
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "<span class=\"service\">ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ</span> ‘ਚ ਸਾਈਨ ਇਨ ਕਰੋ"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "ਆਪਣਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "ਤੁਸੀਂ ਕਰ ਲਿਆ! ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਹੋ।"
+
+#~ msgid "Now get Firefox everywhere else."
+#~ msgstr "ਫਾਇਰਫਾਕਸ ਨੂੰ ਹਰ ਦੂਜੀ ਥਾਂ ਲਵੋ।"
+
+#~ msgid "Get more from these features:"
+#~ msgstr "ਇਹਨਾਂ ਫੀਚਰਾਂ ਤੋਂ ਹੋਰ ਲਵੋ:"
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "ਹਰੇਕ ਡਿਵਾਈਸ ਉੱਤੇ ਸੁਰੱਖਿਆ ਦੇ ਨਾਲ ਇੰਟਰਨੈੱਟ ਨੂੰ ਵਰਤੋਂ।"
+
+#~ msgid "Keep your passwords protected and portable."
+#~ msgstr "ਆਪਣੇ ਪਾਸਵਰਡ ਸੁਰੱਖਿਅਤ ਅਤੇ ਕਿਤੇ ਵੀ ਵਰਤੋਂਯੋਗ ਬਣਾਓ।"
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "ਪਲਕਾਂ ਦੇ ਓਹਲੇ ਓਹਲੇ ਵੱਡੀਆਂ ਫਾਈਲਾਂ ਸਾਂਝੀਆਂ ਕਰੋ।"
+
+#~ msgid "Enable Sync"
+#~ msgstr "ਸਿੰਕ ਸਮਰੱਥ ਕਰੋ"
 
 #~ msgid "Refresh"
 #~ msgstr "ਤਾਜ਼ਾ ਕਰੋ"
