@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 14:13+0000\n"
+"PO-Revision-Date: 2019-11-15 14:33+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -385,7 +385,7 @@ msgstr "Ñanduti veve mokõiguáva ojehechajeýva apañuãi'ỹre"
 
 #: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Ñe’ẽñemi jeguerujey apañuãi'ỹre"
 
 #: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
@@ -394,11 +394,11 @@ msgstr "Jejavy eha’arõ’ỹva"
 
 #: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Pe juajuha eiporavóva ehechajey hag̃ua mba’ete ndoikovéima."
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Eipuruse heta jeýma. Eha’ãjey ag̃ave."
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
@@ -410,47 +410,47 @@ msgstr "Kuaaukaha noikóiva"
 
 #: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Mba’ejerure teraguapygua aravo papaha ndoikói"
 
 #: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Ayvu sapy’agua mba’ejerure teraguapygua ndoikói"
 
 #: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
 msgid "Account already exists"
-msgstr ""
+msgstr "Mba’ete oĩmavoi"
 
 #: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
 msgid "Unknown account"
-msgstr ""
+msgstr "Puruha ojekuaa’ỹva"
 
 #: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Mba’ete ñanduti vevegua ndoikói"
 
 #: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
 msgid "Incorrect password"
-msgstr ""
+msgstr "Ñe’ẽñemi oiko’ỹva"
 
 #: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
 msgid "Unverified account"
-msgstr ""
+msgstr "Mba’ete jehechapyre'ỹva"
 
 #: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Ayvu jehechajeyrã ndoikói"
 
 #: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON oiko’ỹva mba’ejerure retépe"
 
 #: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Ta’ãha oiko’ỹva: %(param)s"
 
 #: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Ndaipóri ta’ãha: %(param)s"
 
 #: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
