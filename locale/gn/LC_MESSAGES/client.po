@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 12:44+0000\n"
+"PO-Revision-Date: 2019-11-15 13:38+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -67,7 +67,7 @@ msgstr "Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka Fir
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Emoambuekuaáma nde Firefox mba’etépe."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
@@ -104,7 +104,7 @@ msgstr "Mba’ete ojekuaa’ỹva. <a href=\"/signup\">Mboheraguapy</a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Pe mba’ete ndaiporivéima. ¿Emoheñoisejeýpa?"
 
 #: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298 .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
