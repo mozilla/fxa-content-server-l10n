@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 13:13+0000\n"
+"PO-Revision-Date: 2019-11-15 13:30+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -429,67 +429,67 @@ msgstr "Ñemboguata ha jeheja purureko"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Ñemigua purureko"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Ñemboheraguapy jeheja"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Embohekopyahu marandu kuatiañemugua"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Ñemboguata ha jeheja purureko:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Ñemigua purureko:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Ñemboheraguapy jeheja:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Embohekopyahu marandu kuatiañemugua:"
 
 #: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-pe"
 
 #: lib/senders/email.js:223
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s-pe"
 
 #: lib/senders/email.js:249
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (jehayhupyre)"
 
 #: lib/senders/email.js:256
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s, (jehayhupyre)"
 
 #: lib/senders/email.js:261
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (jehayhupyre)"
 
 #: lib/senders/email.js:266
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (jehayhupyre)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Emoheñoimava’erã mba’ete"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
-msgstr ""
+msgstr "Ñandutiveve ñemoneĩ"
 
 #: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Ayvu rechajeyrã: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
