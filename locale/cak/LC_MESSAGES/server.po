@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 22:39+0000\n"
+"PO-Revision-Date: 2019-11-15 00:11+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -237,7 +237,7 @@ msgstr "Xatikirisaj yan qa ri amolojri'ïl, wakami yatikïr ütz natz'ët rupam.
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Jeb'ël tawokisaj ri Firefox rik'in natikirisaj molojri'ïl pa ronojel ri taq awokisab'al richin yatok pa k'amaya'l."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
@@ -245,7 +245,7 @@ msgstr "Tokisäx jun chik okisab'äl:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "¿La k'o ak'utunik? Tatz'eta' %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1139
 msgid "Secondary email added"
@@ -289,7 +289,7 @@ msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwa ri nachanela' chuq
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Jujun kan q'ij xatz'ük jun rub'i' ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
