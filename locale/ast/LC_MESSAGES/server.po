@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 23:57+0000\n"
+"PO-Revision-Date: 2019-11-15 12:55+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1510
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Desanicióse la clave de recuperación de la cuenta"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
@@ -229,7 +229,7 @@ msgstr "Afáyate na familia de Firefox"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Rexistréstite y yá tas preparáu p'apenzar a esplorar de mou seguru."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
@@ -301,7 +301,7 @@ msgstr "¿Entá tas ehí?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Hai cuasi una selmana que creesti una cuenta de Firefox pero enxamás la verifiquesti. Tiénesnos esmolecíos."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
@@ -430,7 +430,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Avisu de privacidá"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
@@ -446,7 +446,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Avisu de privacidá:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
@@ -615,6 +615,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"¡Ai, meca! Equí asocedió daqué malo. Yá sabemos\n"
+"                    d'ello y tamos trabayando n'igualo."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -661,8 +663,7 @@ msgid ""
 msgstr ""
 "Firefox Accounts usa carauterístiques que nun\n"
 "                        tán sofitaes na to versión de Firefox. Baxa ya instala\n"
-"                        la última versión de Firefox pa siguir, por favor.\n"
-"                        continue."
+"                        la última versión de Firefox pa siguir, por favor."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
