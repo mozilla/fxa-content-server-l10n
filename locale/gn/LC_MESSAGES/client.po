@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 14:33+0000\n"
+"PO-Revision-Date: 2019-11-15 14:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -454,15 +454,15 @@ msgstr "Ndaipóri ta’ãha: %(param)s"
 
 #: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Teraguapy mba’ejerure ndoikói"
 
 #: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Ndaipóri myakãha content-length"
 
 #: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
 msgid "Request body too large"
-msgstr ""
+msgstr "Pe mba’ejerure rete ipukueterei"
 
 #: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
 msgid "The request was blocked for security reasons"
@@ -2130,31 +2130,31 @@ msgstr ""
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Mba'epytyvõrã ñemboguata teraguapy rendag̃ua"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr ""
+msgstr "Eñe’ẽ orendive"
 
 #: .es5/templates/support.mustache:3 .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "¿Mba’éicha ikatu roipytyvõ?"
 
 #: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "Porandu tuichaháicha"
 
 #: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Jepyme’ẽ ha ñembokuatiañemu"
 
 #: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Apañuãi jeikegua"
 
 #: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Jeku’e ñepyrũ"
 
 #: .es5/templates/support.mustache:8 .es5/models/support-form.js:25
 msgid "Account issues"
