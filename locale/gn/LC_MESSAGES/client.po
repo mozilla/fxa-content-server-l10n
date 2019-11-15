@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 16:06+0000\n"
+"PO-Revision-Date: 2019-11-15 16:31+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1020,31 +1020,31 @@ msgstr "¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Ñandutiveve ypygua ha hechapyre"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Tembiapo ñepyrũ moneĩmbyre"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Juajuha hechajeyha ndoikovéima"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Eikutu ápe og̃uahẽ hag̃ua ndéve juajuha pyahu eguerujey hag̃ua"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Ojavy jehechajey"
 
 #: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Emoneĩ ne mba’ete"
 
 #: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Emoneĩ ne rembiapo ñepyrũ"
 
 #: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11 .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -2266,7 +2266,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Tembiapo ramovegua"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -2350,7 +2350,7 @@ msgstr "Ñembojuehe jeporavopy"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "¿Eikotevẽ ambue ayvu? Emondojey"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
