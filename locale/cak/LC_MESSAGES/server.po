@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 22:49+0000\n"
+"PO-Revision-Date: 2019-11-15 22:59+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -567,15 +567,15 @@ msgstr "Xchup ri jikib'anem pa ka'i'-xak"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
-msgstr ""
+msgstr "Xokisäx rub'itz'ib' koloj"
 
 #: lib/senders/email.js:1427
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 rub'itz'ib' koloj k'o"
 
 #: lib/senders/email.js:1429
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s rub'itz'ib' koloj e k'o"
 
 #: lib/senders/email.js:1432
 msgid "Generate codes"
@@ -583,7 +583,7 @@ msgstr "Ketz'uk taq b'itz'ib'"
 
 #: lib/senders/email.js:1556
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Xk'ex ewan tzij toq xokisäx ri ruxe'el tzij richin koloj"
 
 #: lib/senders/email.js:1557
 msgid "Create new recovery key"
@@ -603,6 +603,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Man xilitäj ta ri ruxaq xak'utuj.\n"
+"                    xapon yan rutzijol qik'in chuqa' xtiqanük' xab'achike ximonel xk'apitäj."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -617,6 +619,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"¡K'ayew!, xk'ulwachitäj jun k'ayewal. Xya' yan\n"
+"                    rutzijol chi qe ruma ri' toq tajin niqab'än rutzil."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -631,6 +635,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"K'ïy yojkanon qichin ruma ri' toq tajin yojsamäj chi ri\n"
+"                    q'inoj nisamäj achi'el rub'anon pe."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -659,6 +665,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Ri Rub'i' taq Rutaqoya'l Firefox yekokisaj taq b'anikil ri\n"
+"                        man nuk'äm ta ri' rik'in ri ruwäch Firefox. Tab'ana' utzil\n"
+"                        taqasaj chuqa' tayaka' ri ruk'isib'äl ruwäch Firefox richin\n"
+"                        yasamäj chik el."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
