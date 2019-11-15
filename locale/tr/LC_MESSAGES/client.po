@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-11 13:40+0000\n"
+"PO-Revision-Date: 2019-11-15 19:03+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -2362,15 +2362,15 @@ msgstr "Mesajınız destek ekibimize gönderildi"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Sync seçimleri"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Başka bir koda mı ihtiyacınız var? Yeniden gönder"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Sakladığınız şifrelenmiş verilere erişmek için bu parolaya ihtiyacınız olacak.<br/>Bu parolayı sıfırlarsanız kayıtlı parolalar ve yer imleri gibi verilerinizi kaybedebilirsiniz."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
@@ -2406,7 +2406,7 @@ msgstr "Sekmelerinizi, yer imlerinizi ve daha fazlasını tüm cihazlarınızda 
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Firefox’a kaydettiğiniz parolalara her yerden güvenle erişin: tarayıcı dışından bile."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
