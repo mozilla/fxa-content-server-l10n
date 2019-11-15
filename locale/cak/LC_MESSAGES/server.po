@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 00:19+0000\n"
+"PO-Revision-Date: 2019-11-15 22:49+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -389,7 +389,7 @@ msgstr "Toq xajikib'a' yan, yatqato' richin nayäk chuqa' nawokisaxj ri Firefox 
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ruyonil nitaq re taqoya'l re'; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(passwordChangeLinkAttributes)s>tajala' ri ewan atzij</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -426,39 +426,39 @@ msgstr "Ichinan Runa'oj Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Cloud Rojqanem Samaj"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Rojqanem chuqa' ruq'atik na'ojil"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Ichinan na'oj"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Ruq'atik tz'ib'anïk b'i'aj"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Tik'ex ri wetamab'al richin wujil"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Rojqanem chuqa' ruq'atik na'ojil:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Ichinan na'oj:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Ruq'atik tz'ib'anïk b'i'aj:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Tik'ex ri wetamab'al richin wujil:"
 
 #: lib/senders/email.js:218
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -486,7 +486,7 @@ msgstr "%(country)s (q'ijun)"
 
 #: lib/senders/email.js:421
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Tak'isa' runuk'ik ri rub'i' ataqoya'l"
 
 #: lib/senders/email.js:422 lib/senders/email.js:550
 msgid "Confirm email"
@@ -494,19 +494,19 @@ msgstr "Tijikib'äx taqoya'l"
 
 #: lib/senders/email.js:489
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Rub'itz'ib' jikib'anem: %(code)s"
 
 #: lib/senders/email.js:530
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Runataxik: Tak'isa' runuk'ik ri rub'i' ataqoya'l"
 
 #: lib/senders/email.js:532
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Ruk'isib'äl runataxik: Tatz'ija' ri rub'i' ataqoya'l"
 
 #: lib/senders/email.js:587
 msgid "Account authorization code"
-msgstr ""
+msgstr "Rub'itz'ib' ruya'oj q'ij ri rub'i' taqoya'l"
 
 #: lib/senders/email.js:656
 msgid "Confirm new sign-in to %(clientName)s"
@@ -514,31 +514,31 @@ msgstr "Tijikib'äx ri k'ak'a' rutikirisaxik molojri'ïl %(clientName)s"
 
 #: lib/senders/email.js:701
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Rub'itz'ib' tikirisanïk molojri'ïl richin %(serviceName)s"
 
 #: lib/senders/email.js:766
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Tijikib'äx ri nab'ey taqoya'l"
 
 #: lib/senders/email.js:767 lib/senders/email.js:826
 msgid "Verify email"
-msgstr ""
+msgstr "Tinik'öx taqoya'l"
 
 #: lib/senders/email.js:825
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Tijikib'äx ruka'n taqoya'l"
 
 #: lib/senders/email.js:906
 msgid "Reset your password"
-msgstr ""
+msgstr "Tatzolij ri ewan atzij"
 
 #: lib/senders/email.js:948 lib/senders/email.js:986
 msgid "Password updated"
-msgstr ""
+msgstr "Xk'extäj ri ewan tzij"
 
 #: lib/senders/email.js:1016
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Xilitäj q'eleb'el samaj"
 
 #: lib/senders/email.js:1058 lib/senders/email.js:1140 lib/senders/email.js:1176 lib/senders/email.js:1212 lib/senders/email.js:1246 lib/senders/email.js:1289 lib/senders/email.js:1332
 #: lib/senders/email.js:1375 lib/senders/email.js:1465 lib/senders/email.js:1511
@@ -547,7 +547,7 @@ msgstr "Tinuk'samajïx rub'i' taqoya'l"
 
 #: lib/senders/email.js:1094
 msgid "Account confirmed"
-msgstr ""
+msgstr "Xjikib'äx rub'i' taqoya'l"
 
 #: lib/senders/email.js:1097
 msgid "Connect another device"
@@ -555,15 +555,15 @@ msgstr "Tokisäx jun chik okisaxel"
 
 #: lib/senders/email.js:1175
 msgid "Primary email updated"
-msgstr ""
+msgstr "Xk'ex ri nab'ey taqoya'l"
 
 #: lib/senders/email.js:1245
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Xtzij ri jikib'anem pa ka'i'-xak"
 
 #: lib/senders/email.js:1288
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Xchup ri jikib'anem pa ka'i'-xak"
 
 #: lib/senders/email.js:1374
 msgid "Recovery code used"
