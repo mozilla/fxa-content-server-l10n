@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 00:11+0000\n"
+"PO-Revision-Date: 2019-11-15 00:19+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -293,7 +293,7 @@ msgstr "Jujun kan q'ij xatz'ük jun rub'i' ataqoya'l richin Firefox, xa xe chi m
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Tajikib'a' wakami richin yatok pa jun na'ob'äl nichajin chuqa' nuto' ri awichinanem, nuya' k'atzinel etamab'äl chawe chuqa' yatrukamelaj."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
@@ -313,15 +313,15 @@ msgstr "Tajikib'a' ri rochochib'al taqoya'l richin natzïj ri rub'i' ataqoya'l k
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Ke'atzija' ronojel ri taq rutikojil ri Firefox ach'ala'il"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Tajikib'a' ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri Firefox rik'in natikirisaj molojri'ïl xab'akuchi':"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Tajikib'a' ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri Firefox xab'akuchi'."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -333,11 +333,11 @@ msgstr "Tijikib'äx rutikirisaxik molojri'ïl"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "We nawajo', ja rub'itz'ib' jikib'anïk re':"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Xtik'is ruq'ijul pa 5 ch'utiramaj."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -369,11 +369,11 @@ msgstr "Toq xtinik'öx re ochochib'äl re' xtuchäp kik'ulik taq rutzijol jikoma
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "¿La ja rat ri xutz'ib'aj rub'i'?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "We ja rat, tawokisaj re rub'itz'ib' jikib'anïk re':"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
