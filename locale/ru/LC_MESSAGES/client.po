@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-16 11:51+0000\n"
+"PO-Revision-Date: 2019-11-16 11:54+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -2409,15 +2409,15 @@ msgstr "Синхронизируйте свои закладки, пароли �
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Получите безопасный доступ к паролям, сохранённым в Firefox, из любого места &mdash; даже за пределами браузера."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Безопасно и приватно отправляйте большие файлы."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Выберите, что синхронизировать:"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Просроченный или некорректный код регистрации"
