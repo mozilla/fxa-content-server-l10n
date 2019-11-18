@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-13 01:27+0000\n"
+"PO-Revision-Date: 2019-11-18 03:31+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -2374,7 +2374,7 @@ msgstr "¿Necesitas otro código? Reenviar"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Necesitas esta contraseña para acceder a todo dato cifrado que almacenes con nosotros.<br/>Resetearla podría traducirse en la pérdida de datos como contraseñas y marcadores."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
@@ -2382,23 +2382,23 @@ msgstr "Desconectarse de Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Estás desconectando %(deviceName)s de Sync porque este dispositivo:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Es sospechoso"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Ha sido robado o extraviado"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Es antiguo o ha sido reemplazado"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Está duplicado"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
@@ -2410,7 +2410,7 @@ msgstr "Sincroniza tus marcadores, contraseñas y más desde todos tus dispositi
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Accede de forma segura a contraseñas guardadas en Firefox desde cualquier parte &mdash; incluso fuera del navegador."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
