@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-15 12:55+0000\n"
+"PO-Revision-Date: 2019-11-18 09:12+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -1689,7 +1689,7 @@ msgstr "Activar…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Amiesta una capa adicional de seguranza a la cuenta riquiendo códigos de seguranza dende una <a %(escapedTotpSupportAttributes)s>estes aplicaciones d'autenticación</a>."
+msgstr "Amiesta una capa adicional de seguranza a la cuenta riquiendo códigos d'una <a %(escapedTotpSupportAttributes)s>d'estes aplicaciones d'autenticación</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
