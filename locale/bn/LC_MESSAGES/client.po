@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-19 16:52+0000\n"
+"PO-Revision-Date: 2019-11-19 17:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn\n"
@@ -188,11 +188,11 @@ msgstr "%(translatedCountry)s তে %(translatedTimeAgo)s আগে"
 
 #: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s আগে %(translatedCity)s, %(translatedState)s, %(translatedCountry)s এর কাছে"
 
 #: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s আগে %(translatedCity)s, %(translatedState)s, %(translatedCountry)s এর কাছে"
 
 #: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
 msgid "Web Session, %(userAgent)s"
@@ -251,7 +251,7 @@ msgstr "টু-স্টেপ অথেনটিকেশন সক্রিয়
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "সমর্থিত অ্যাপ্লিকেশনে টু-স্টেপ অথেনটিকেশন সেট আপ করতে %(code)s কোড ব্যবহার করুন।"
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
@@ -316,7 +316,7 @@ msgstr "Restmail খুলুন"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "ইমেইল পুনরায় পাঠানো হয়েছে। নির্বিঘ্নে ডেলিভারি নিশ্চিত করতে আপনার কন্টাক্টে accounts@firefox.com যোগ করুন।"
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -522,11 +522,11 @@ msgstr "অকার্যকর সাইনইন কোড"
 
 #: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "যাচাই হয়নি এমন ইমেইলে প্রধান ইমেইল পরিবর্তন করা যাবে না"
 
 #: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "এই অ্যাকাউন্টের সাথে সম্পর্কিত নয় এমন ইমেইলকে প্রধান ইমেইলে পরিবর্তন করা যাবে না"
 
 #: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
 msgid "This email can not currently be used to login"
@@ -768,7 +768,7 @@ msgstr "দয়া করে যাচাই কোড লিখুন"
 
 #: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "টু-স্টেপ অথেনটিকেশন বিশিষ্ট অ্যাকাউন্ট এই মুহূর্তে পেয়ারিং সমর্থন করে না"
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
 msgid "Missing configuration"
@@ -788,7 +788,7 @@ msgstr "অনুগ্রহ করে পরে আবার চেষ্ট�
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "সেবা প্রদান করা যাচ্ছে না, শীঘ্রই আবার চেষ্টা করুন"
 
 #: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -936,11 +936,11 @@ msgstr "%(serviceName)sতে চালিয়ে যান"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Firefox Account এর নিয়ন্ত্রণ পুনরায় ফিরে পেতে দয়া করে আপনার এককালীন পুনরুদ্ধার কী টি প্রবেশ করুন যেটি আপনি নিরাপদ জায়্যগায় রেখেছিলেন।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
+msgstr "<span class=\"note\">নোটঃ</span> যদি আপনি আপনার পাসওয়ার্ড পরিবর্তন করেন এবং কোন পুনরুদ্ধার কী সংরক্ষণ না করেন, আপনার কিছু ডাটা মুছে যাবে (সার্ভারে সিঙ্ক করা ডাটাসহ যেমন ইতিহাস ও বুকমার্ক)।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
