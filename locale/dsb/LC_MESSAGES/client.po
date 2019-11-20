@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-10-28 21:46+0000\n"
+"PO-Revision-Date: 2019-11-20 18:51+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -871,9 +871,7 @@ msgid "Invalid Token"
 msgstr "Njepłaśiwy token"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -943,8 +941,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Pšosym zapódajśo wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju Firefox měł."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane "
 "serwerowe daty ako historiju a cytańske znamjenja)."
@@ -1636,8 +1633,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Jolic toś to konto za nałoženja Mozilla a słužby ako AMO, Pocket a Screenshots wužywaśo, wy měł se nejpjerwjej pśizjawiś a skłaźone wósobinske daty wótwónoźeś. Gaž how swójo konto wulašujośo, "
-"móžośo se pśistup k njomu wšuźi zgubiś."
+"Jolic toś to konto za nałoženja Mozilla a słužby ako AMO, Pocket a Screenshots wužywaśo, wy měł se nejpjerwjej pśizjawiś a skłaźone wósobinske daty wótwónoźeś. Gaž how swójo konto wulašujośo, móžośo"
+" se pśistup k njomu wšuźi zgubiś."
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1813,8 +1810,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Kšac 2 z 2: Wótnowjeński kluc składowaś"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">GLĚDAJŚO: </span>Jolic swójo gronidło zabydnjośo, jo toś ten kluc trěbny, aby zasej pśistup k swójim datam dojśpił. Składujśo swój wótnowjeński kluc na wěstem městnje, źož "
 "móžośo jen lažko zasej namakaś."
@@ -2143,8 +2139,7 @@ msgstr "Njewobkšuśony wužywaŕ abo njewobkšuśone pósejźenje"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr ""
-"Pókšacujśo, aby zwólił do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosć</a>."
+msgstr "Pókšacujśo, aby zwólił do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosć</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -2369,59 +2364,59 @@ msgstr "Waša powěsć jo se pósłała na team pomocy"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Wuběrki za synchronizaciju"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Trjebaśo drugi kod? Znowego pósłaś"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Trjebaśo toś to gronidło za pśistup ku koděrowanym datam, kótarež pla nas składujośo.<br/>Gaž slědk stajaśo, se snaź daty ako gronidło a cytańske znamjenja zgubuju."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Ze Sync źěliś"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Źěliśo %(deviceName)s ze Sync, dokulaž toś ten rěd jo:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Suspektny"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Zgubjony abo kšadnjony"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Stary abo wuměnjony"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Dwójny"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Registrěrujśo se, aby wěcej funkcijow dostał:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Synchronizěrujśo swóje cytańske znamjenja, gronidła a wěcej na kuždem rěźe."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Mějśo wšuźi wěsty pśistup ku gronidłam, kótarež su w Firefox skłaźone &ndash; samo zwenka wobglědowaka."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Sćelśo wětše dataje wěsće a priwatnje."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Wubjeŕśo, což cośo synchronizěrowaś:"
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Spadnoeny abo njepłaśiwy registrěrowański kod"
@@ -2561,9 +2556,7 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookieje a lokalny składowak stej trěbnej."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pšawidłow "
 #~ "priwatnosći</a> mrokowsłužbow Firefox."
@@ -2610,8 +2603,7 @@ msgstr ""
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-słužba jo jano US-ameriske telefonowe numery k dispoziciji. Mógo kosty za SMS a daty nastaś. Dostawaŕ mejlki abo SMS musy wobjadny byś. <a %(escapedLearnMoreAttributes)s>Dalšne informacije</"
-#~ "a>"
+#~ "SMS-słužba jo jano US-ameriske telefonowe numery k dispoziciji. Mógo kosty za SMS a daty nastaś. Dostawaŕ mejlki abo SMS musy wobjadny byś. <a %(escapedLearnMoreAttributes)s>Dalšne informacije</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Snaź pózdźej"
@@ -2623,8 +2615,8 @@ msgstr ""
 #~ msgstr "Cogodla dwa rěda (abo wěcej) synchronizěrowaś?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync wam zmóžnja, cytańske znamjenja, historiju a gronidła, kótarež składujośo na jadnom rěźe Firefox, z drugimi rědami Firefox źěliś. Pśizjawśo se pla Firefox na swójom telefonje abo tableśe a "
 #~ "wšykno, což sćo we Firefox za desktop składł, se zjewijo."
@@ -2633,8 +2625,8 @@ msgstr ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync njejo myslony ako trawne zawěsćenje – zmóžnja jano źělić, což jo se lokalnje składło. Jolic sćo swójo gronidło slědk stajił a waše daty njejsu se na nanejmjenjej jadnom rěźe składli, mógał "
-#~ "wy wšykne daty zgubiś, kótarež su ze starym gronidłom zwězane. Togodla wy měł Firefox instalěrowaś a Sync na wěcej ako jadnom rěźe wužywaś."
+#~ "Sync njejo myslony ako trawne zawěsćenje – zmóžnja jano źělić, což jo se lokalnje składło. Jolic sćo swójo gronidło slědk stajił a waše daty njejsu se na nanejmjenjej jadnom rěźe składli, mógał wy "
+#~ "wšykne daty zgubiś, kótarež su ze starym gronidłom zwězane. Togodla wy měł Firefox instalěrowaś a Sync na wěcej ako jadnom rěźe wužywaś."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2739,18 +2731,18 @@ msgstr ""
 #~ msgstr "Pśizjawiś"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše "
-#~ "daty z wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše "
-#~ "daty z wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
+#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše daty z "
+#~ "wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše daty z "
+#~ "wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Pominajśo wěstotne kody z jadnogo z <a %(escapedTotpSupportAttributes)s>toś tych awtentifikaciskich nałoženjow</a>, aby pśidał swójomu kontoju wěstotnu rowninu."
@@ -2872,19 +2864,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Nastajenja Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Pytaśo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Zachopśo how</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Maśo konto z druheju e-mailoweju adresu? <a href=\"%(signinUri)s\">Pśizjawśo se</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> k dispoziciji."
+#~ "Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Slědny raz aktiwny: %(translatedTimeAgo)s"
@@ -3073,8 +3064,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć "
-#~ "zmóžnili, ako na pśikład zasejspóznawanje w nowem pósejźenju."
+#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć zmóžnili, "
+#~ "ako na pśikład zasejspóznawanje w nowem pósejźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox buźo skóro na iOS!"
@@ -3219,16 +3210,12 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby "
 #~ "%(serviceName)s (%(serviceUri)s)."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">wuzjawjenja "
 #~ "priwatnosći </a> mrokowsłužbow Firefox."
