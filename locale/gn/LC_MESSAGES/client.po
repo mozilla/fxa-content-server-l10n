@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-11-21 14:31+0000\n"
+"PO-Revision-Date: 2019-11-21 14:50+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2085,23 +2085,23 @@ msgstr "Avatar"
 
 #: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82
 msgid "Please Select One"
-msgstr ""
+msgstr "Eiporavo peteĩ"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Tembiapo ñepyrũ ha Ñe’ẽñemi"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Tendayke ijurujáva"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Kuatia'atã ñemurã"
 
 #: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Ñemondojey ndoikói"
 
 #: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
@@ -2218,19 +2218,19 @@ msgstr "Tembiapo ramovegua ojapóma %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovegua %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:66
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovegua ojapóma %(translatedTimeAgo)s amo %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovegua %(translatedTimeAgo)s %(translatedCity)s ykére, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:70
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Tembiapo ramovegua ojapóma %(translatedTimeAgo)s %(translatedCity)s ykére, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:149
 msgid "Last seen time unknown"
