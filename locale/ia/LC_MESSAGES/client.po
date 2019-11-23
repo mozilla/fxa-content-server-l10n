@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-23 01:22+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2019-11-23 22:25+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -1473,7 +1473,7 @@ msgstr "Repete le contrasigno"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Iste contrasigno es necessari pro acceder al datos cryptate que tu immagazina in nostre systemas.<br/>Si tu reinitialisa le contrasigno, tu pote perder datos como contrasignos e marcapaginas."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1958,7 +1958,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Accede con securitate al contrasignos memorisate in Firefox, non importa ubi tu es &mdash; mesmo foras del navigator."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
