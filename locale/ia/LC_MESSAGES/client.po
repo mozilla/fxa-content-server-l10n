@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-23 22:25+0000\n"
+"PO-Revision-Date: 2019-11-24 22:39+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -915,7 +915,7 @@ msgstr "Non autorisate"
 
 #: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
-msgstr "Non consentite"
+msgstr "Prohibite"
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
@@ -976,7 +976,7 @@ msgstr "Token non valide"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Per continuar, tu consenti al <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e al <a id=\"service-pp\" href=\"%(privacyUri)s\">declaration de confidentialitate</a> de "
+"Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">declaration de confidentialitate</a> de "
 "%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
