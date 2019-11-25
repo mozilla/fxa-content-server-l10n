@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-25 12:53+0000\n"
+"PO-Revision-Date: 2019-11-25 13:10+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -605,7 +605,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:196
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Ndaikatúi eipuru ñanduti veve eñepyrũ hag̃ua tembiapo"
 
 #: .es5/lib/auth-errors.js:204
 msgid "Failed to send email"
@@ -617,11 +617,11 @@ msgstr "Eikotevẽ ayvu oikóva"
 
 #: .es5/lib/auth-errors.js:212
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Ko ayvu jehechajeyrã ndoikovéima"
 
 #: .es5/lib/auth-errors.js:216
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Oĩma token TOTP ko mba’etépe g̃uarã"
 
 #: .es5/lib/auth-errors.js:220
 msgid "TOTP token not found"
@@ -669,15 +669,15 @@ msgstr "Token jehepyme’ẽ oiko’ỹva eñemboheraguapy hag̃ua."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Ñemboheraguapy ojejokóma"
 
 #: .es5/lib/auth-errors.js:268
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Oñemboyke ñemboheko, ikatpupa eha’ãjey"
 
 #: .es5/lib/auth-errors.js:272
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Ayvu jehechajeyrã tembiapo ñepyrũgua ndoikovéima"
 
 #: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:477
 msgid "Server busy, try again soon"
@@ -726,7 +726,7 @@ msgstr "Ndaikatúi eike Mba'epytyvõrã ñemboguatápe"
 
 #: .es5/lib/auth-errors.js:328
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Ne ñe’ẽñemi pyahu iñambueva’erã"
 
 #: .es5/lib/auth-errors.js:332 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
@@ -774,15 +774,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:424
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Eipurupotaitéma Firefox Account Firefox iOS peg̃uarã"
 
 #: .es5/lib/auth-errors.js:436
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Emoinge nde arytee eñemboheraguapykuévo"
 
 #: .es5/lib/auth-errors.js:440
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Emoinge nde arytee eñemboheraguapykuévo"
 
 #: .es5/lib/auth-errors.js:456
 msgid "Account no longer exists."
