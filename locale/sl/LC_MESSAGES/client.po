@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-22 07:03+0000\n"
+"PO-Revision-Date: 2019-11-22 08:29+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -184,7 +184,7 @@ msgstr "Nazadnje viden %(translatedTimeAgo)s v državi %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Nazadnje viden pred več kot %(translatedTimeAgo)s v državi %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -252,7 +252,7 @@ msgstr "Spletna seja"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Čas zadnjega obiska neznan"
 
 #: .es5/views/settings/delete_account.js:240
 msgid "Account deleted successfully"
@@ -1179,7 +1179,7 @@ msgstr "Potrdi"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Potrebujete še eno kodo? Ponovno pošlji"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1418,7 +1418,7 @@ msgstr "Vnesite 10-mestno kodo za obnovitev"
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Se ne morete prijaviti?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1446,7 +1446,7 @@ msgstr "Odprite svojo aplikacijo za overitev in vnesite dobljeno varnostno kodo.
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Imate težave pri vnosu kode?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1470,7 +1470,7 @@ msgstr "Ponovite geslo"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "To geslo potrebujete za dostop do šifriranih podatkov, ki jih hranite pri nas.<br/>Ponastavitev pomeni morebitno izgubo podatkov, kot so gesla in zaznamki."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1602,7 +1602,7 @@ msgstr "Po potrebi nastavite položaj ali obrnite sliko"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Prekini povezavo s Syncom"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1610,7 +1610,7 @@ msgstr "Podatki brskanja bodo ostali na %(deviceName)s, vendar se ne bodo več s
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Prekinjate povezavo med %(deviceName)s in Syncom, ker je ta naprava:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -1618,7 +1618,7 @@ msgstr "Sumljiv"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "izgubljena ali ukradena"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
@@ -1939,7 +1939,7 @@ msgstr "IP-naslov: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Prijavite se za več funkcij:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -1955,7 +1955,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Varno dostopajte do gesel, shranjenih v Firefoxu kjerkoli &mdash; tudi izven brskalnika."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
