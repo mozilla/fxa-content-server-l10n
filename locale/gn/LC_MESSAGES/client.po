@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-26 17:33+0000\n"
+"PO-Revision-Date: 2019-11-26 17:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1278,15 +1278,15 @@ msgstr "¡Emboguejy Firefox iOS peg̃uarã!"
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "¡Emboguejy Firefox Android peg̃uarã!"
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Emboguejy Firefox pumbyrýpe g̃uarã."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Ejerure ñemoneĩ"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
@@ -1302,7 +1302,7 @@ msgstr "Eikundaha ñepyrũ"
 
 #: .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
-msgstr ""
+msgstr "¡Ne mba’ete oĩmbáma!"
 
 #: .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
@@ -1326,7 +1326,7 @@ msgstr "Emomarandu tembiaporã"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "¿Mba’ére oiko ko’ãva?"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
@@ -1400,7 +1400,7 @@ msgstr "Eipuru ambuéva mba’ete"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Emoinge ayvu jeguerujeyrã"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Emoinge ayvu jeguerujeyrã 10 taíva"
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
@@ -1416,7 +1416,7 @@ msgstr "¿Rejehejáma okápe?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Aguyje neñangarekóre"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1424,7 +1424,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Emoneĩ ko jeike"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1460,7 +1460,7 @@ msgstr "Ñanduti veve moambue"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
-msgstr ""
+msgstr "Emoingejey ñe’ẽñemi"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
@@ -1484,7 +1484,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Pumbyry popegua papapy"
 
 #: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
 msgid "Send"
@@ -1517,7 +1517,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "¿Nog̃uahẽi? Emondojey"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
