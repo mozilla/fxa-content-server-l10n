@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-27 02:09+0000\n"
+"PO-Revision-Date: 2019-11-27 12:28+0000\n"
 "Last-Translator: José Manuel <triki2014jm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: trs\n"
@@ -71,7 +71,7 @@ msgstr "Si kuentâ hia korreô ganatsi"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Nej nuguan’ atāj snan’ānj sa huā rayi’î kuentâ nan nī gan’an hìaj riña %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:77
 msgid "Secondary email verified"
