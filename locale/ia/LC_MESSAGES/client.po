@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-25 03:42+0000\n"
+"PO-Revision-Date: 2019-11-27 18:36+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1613,7 +1613,7 @@ msgstr "Tu datos de navigation restara in %(deviceName)s, ma illo non plus esser
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Tu va disconnecter %(deviceName)s de Sync perque iste apparato es:"
+msgstr "Tu disconnecte %(deviceName)s de Sync perque iste apparato es:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
