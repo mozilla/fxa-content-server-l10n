@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-27 12:28+0000\n"
+"PO-Revision-Date: 2019-11-27 13:28+0000\n"
 "Last-Translator: José Manuel <triki2014jm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: trs\n"
@@ -75,39 +75,39 @@ msgstr "Nej nuguan’ atāj snan’ānj sa huā rayi’î kuentâ nan nī gan’
 
 #: .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Ngà natsi kuentâ nikò’o"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Ngà gayi’ì hia sesiûn"
 
 #: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Ngà huā chrūn daran’anj ‘iát da’ garasunt %(serviceName)s"
 
 #: .es5/views/ready.js:87
 msgid "Account verified"
-msgstr ""
+msgstr "Ngà natsi kuênta"
 
 #: .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Huā konektadoj"
 
 #: .es5/views/reset_password.js:112
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Sê kuentâ ni’in huin. <a href=\"/signup\">Nutà’ si yugui man </a>"
 
 #: .es5/views/sign_up_password.js:88
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Nitāj si huā kuentâ nan gà’. Girī ñût man ruhuâ raj?"
 
 #: .es5/views/support.js:84
 msgid "Please Select One"
-msgstr ""
+msgstr "Gi’iaj sunūj u nī naguīt ‘ngoj"
 
 #: .es5/views/support.js:231 .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "A’ngoj"
 
 #: .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
