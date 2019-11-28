@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:01+0000\n"
-"PO-Revision-Date: 2019-11-21 08:38+0000\n"
+"PO-Revision-Date: 2019-11-28 02:20+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -564,15 +564,15 @@ msgstr "Péripikasi dua léngkah dipareuman"
 
 #: lib/senders/email.js:1379
 msgid "Recovery code used"
-msgstr ""
+msgstr "Sandi pemulihan dipaké"
 
 #: lib/senders/email.js:1432
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Sandi pemulihan kari 1"
 
 #: lib/senders/email.js:1434
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Sandi pemulihan kari %(numberRemaining)s"
 
 #: lib/senders/email.js:1437
 msgid "Generate codes"
@@ -580,7 +580,7 @@ msgstr "Pangjieunkeun kodeu"
 
 #: lib/senders/email.js:1561
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Kecap sandi diropéa maké konci pemulihan"
 
 #: lib/senders/email.js:1562
 msgid "Create new recovery key"
