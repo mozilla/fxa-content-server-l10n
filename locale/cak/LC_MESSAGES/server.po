@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-29 22:21+0000\n"
+"PO-Revision-Date: 2019-11-29 22:50+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -249,19 +249,19 @@ msgstr "¿La k'o ak'utunik? Tatz'eta' %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
-msgstr ""
+msgstr "Man tiq'at taqoya'l"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr ""
+msgstr "Ka'i' relik taq xak yatikito' richin yatzolin pan ataqoya'l richin ye'achajij ri taq atzij we nawajo' natzolij ri ewan atzij."
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "Tab'ana' runuk'ulem jun ruka'n taqoya'l: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Yatruto' richin yatok chupam we man yatikïr ta chik yatok pan ataqoya'l."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
