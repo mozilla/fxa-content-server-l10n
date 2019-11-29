@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-09-22 13:16+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Por favor, introduce el código de verificación"
 msgid "Invalid redirect"
 msgstr "Redirección no válida"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Falta la configuración"
@@ -859,6 +863,10 @@ msgstr "Falta la configuración"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Configuración no válida"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "¿Correo incorrecto?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Escribe tu correo"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Correo electrónico"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Continuar"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>NOTA:</span> Cuando restableces la contraseña, restableces también tu cuenta. Puede que pierdas parte de tu información personal (historial, contraseñas y marcadores). Esto ocurre porque "
 "ciframos tus datos con tu contraseña para proteger tu privacidad."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Correo electrónico"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2150,9 +2158,6 @@ msgstr "¿Has usado la cámara del sistema? Tienes que conectarla desde una apli
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "¿Ya tienes una cuenta? Inicia sesión"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "¿Correo incorrecto?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Instala Firefox en tu teléfono móvil e inicia sesión para completar la configuración"

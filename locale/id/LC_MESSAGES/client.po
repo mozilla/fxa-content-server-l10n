@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-25 14:20+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Silakan masukan kode verifikasi"
 msgid "Invalid redirect"
 msgstr ""
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Konfigurasi tidak ditemukan"
@@ -859,6 +863,10 @@ msgstr "Konfigurasi tidak ditemukan"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Konfigurasi tidak valid"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Salah ketik surel?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Masukkan surel Anda"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Email"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Lanjutkan"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>CATATAN:</span> Ketika Anda menyetel ulang kata sandi, akun Anda pun akan disetel ulang. Anda mungkin kehilangan beberapa informasi pribadi (termasuk riwayat, markah dan kata sandi). Ini "
 "dikarenakan kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Email"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2152,9 +2160,6 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Sudah memiliki akun? Masuk"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Salah ketik surel?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Pasang Firefox pada ponsel pintar Anda dan masuk untuk melengkapi persiapan"

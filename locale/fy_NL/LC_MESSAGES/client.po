@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-14 22:50+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Fier ferifikaasjekoade yn"
 msgid "Invalid redirect"
 msgstr "Unjildige trochferwizing"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Konfiguraasje mist"
@@ -859,6 +863,10 @@ msgstr "Konfiguraasje mist"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Ferkearde konfiguraasje"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Typflater yn e-mailadres?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"
 msgid "Enter your email"
 msgstr "Fier jo e-mailadres yn"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "E-mailadres"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Trochgean"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>NOAT:</span> wannear't jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt "
 "trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-mailadres"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2152,9 +2160,6 @@ msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppe
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Hawwe jo in account? Oanmelde"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Typflater yn e-mailadres?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"

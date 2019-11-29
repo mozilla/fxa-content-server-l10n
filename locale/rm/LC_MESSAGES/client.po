@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-20 10:45+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,6 +853,10 @@ msgstr "Endatescha per plaschair il code da verificaziun"
 msgid "Invalid redirect"
 msgstr "Renviament nunvalid"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Configuraziun manca"
@@ -860,6 +864,10 @@ msgstr "Configuraziun manca"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Configuraziun nunvalida"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Betg endatà endretg l'adressa dad e-mail?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1255,11 +1263,7 @@ msgstr "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\">cu
 msgid "Enter your email"
 msgstr "Endatescha tia adressa dad e-mail"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "E-Mail"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Cuntinuar"
@@ -1345,6 +1349,10 @@ msgid ""
 msgstr ""
 "<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
 "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-Mail"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2159,9 +2167,6 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Has ti in conto? T'annunzia"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Betg endatà endretg l'adressa dad e-mail?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Installescha Firefox sin tes telefonin e t'annunzia per cumplettar l'installaziun"

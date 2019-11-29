@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-24 08:25+0000\n"
 "Last-Translator: Selyan Slimane Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -851,6 +851,10 @@ msgstr "Ma ulac aɣilif sekcem tangalt n usenqed"
 msgid "Invalid redirect"
 msgstr "Awelleh arameɣtu"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Tawila tettwattu"
@@ -858,6 +862,10 @@ msgstr "Tawila tettwattu"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Tawila mačči d tameɣtut"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Tucḍa deg imayl?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1252,11 +1260,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Sekcem imayl inek"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Imayl"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Kemmel"
@@ -1342,6 +1346,10 @@ msgid ""
 msgstr ""
 "<span>Tamawt:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
 "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Imayl"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2147,9 +2155,6 @@ msgstr ""
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Ɣur-k amiḍan? Kcem"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Tucḍa deg imayl?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Sebded Firefox ɣeṛ tiliɣṛi-ik sakin qqen akken ad tkemleḍ asbeded"

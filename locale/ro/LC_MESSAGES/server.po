@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-08-24 21:17+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Am observat că mai ai doar câteva coduri de recuperare disponibile. Te
 msgid "Generate codes:"
 msgstr "Generează coduri:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1062
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1073
 msgid "New sign-in to %(clientName)s"
 msgstr "O nouă autentificare în %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Toate cele bune,"
 msgid "The Firefox Accounts team"
 msgstr "Echipa Conturi Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1469
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1616
 msgid "Account recovery key generated"
 msgstr "Cheie de recuperare a contului generată"
 
@@ -180,7 +180,7 @@ msgstr "Ai consumat cu succes un cod de recuperare de pe următorul dispozitiv:"
 msgid "Consumed recovery code"
 msgstr "Cod de recuperare consumat"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1336
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1483
 msgid "New recovery codes generated"
 msgstr "Coduri noi de recuperare generate"
 
@@ -188,7 +188,7 @@ msgstr "Coduri noi de recuperare generate"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Ai generat cu succes coduri noi de recuperare de pe următorul dispozitiv:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1515
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1662
 msgid "Account recovery key removed"
 msgstr "Cheie de recuperare a contului eliminată"
 
@@ -204,7 +204,7 @@ msgstr "Această cheie de recuperare nu mai poate fi folosită pentru recuperare
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Ai eliminat cu succes o cheie de recuperare a contului tău Firefox de pe următorul dispozitiv:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1216
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
 msgid "Secondary email removed"
 msgstr "E-mail secundar eliminat"
 
@@ -248,7 +248,59 @@ msgstr "Conectează un alt dispozitiv:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Ai întrebări? Intră pe %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1144
+#: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
+msgid "Avoid account lockout"
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
+msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.html:3
+msgid "Set up a secondary email: "
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
+msgid "Helps you get back in if you lose access to your email."
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.html:5
+msgid " Create a recovery key: "
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
+msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.txt:3
+msgid "Set up a secondary email:"
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddBoth.txt:5
+msgid "Create a recovery key:"
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
+msgid "Protect your data with a recovery key"
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
+msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
+msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
+msgid "Protect yourself from being locked out"
+msgstr ""
+
+#: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
+msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+msgstr ""
+
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
 msgstr "E-mail secundar adăugat"
 
@@ -266,7 +318,7 @@ msgstr "Trebuie să îți resetați parola?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Dă clic pe buton în următoarea oră pentru a crea o nouă parolă. Solicitarea a venit de pe următorul dispozitiv:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:912
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:923
 msgid "Create new password"
 msgstr "Creează o parolă nouă"
 
@@ -330,7 +382,7 @@ msgstr "Confirmă-ți contul și obține maximul de la Firefox oriunde te autent
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Pentru un plus de securitate, te rugăm să confirmi această autentificare de pe următorul dispozitiv:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:664
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:675
 msgid "Confirm sign-in"
 msgstr "Confirmă autentificarea"
 
@@ -463,132 +515,152 @@ msgstr "Anulează abonamentul:"
 msgid "Update billing information:"
 msgstr "Actualizează informațiile de facturare:"
 
-#: lib/senders/email.js:218
+#: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s pe %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:223
+#: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s pe %(uaOS)s"
 
-#: lib/senders/email.js:249
+#: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:256
+#: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:261
+#: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (locație estimată)"
 
-#: lib/senders/email.js:266
+#: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (locație estimată)"
 
-#: lib/senders/email.js:426
+#: lib/senders/email.js:437
 msgid "Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:427 lib/senders/email.js:555
+#: lib/senders/email.js:438 lib/senders/email.js:566
 msgid "Confirm email"
 msgstr "Confirmă adresa de e-mail"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:505
 msgid "Verification code: %(code)s"
 msgstr "Cod de verificare: %(code)s"
 
-#: lib/senders/email.js:535
+#: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
 msgstr ""
 
-#: lib/senders/email.js:537
+#: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
 msgstr ""
 
-#: lib/senders/email.js:592
+#: lib/senders/email.js:603
 msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:672
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirmă noua autentificare în %(clientName)s"
 
-#: lib/senders/email.js:706
+#: lib/senders/email.js:717
 msgid "Sign-in code for %(serviceName)s"
 msgstr ""
 
-#: lib/senders/email.js:771
+#: lib/senders/email.js:782
 msgid "Confirm primary email"
 msgstr ""
 
-#: lib/senders/email.js:772 lib/senders/email.js:831
+#: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
 msgstr ""
 
-#: lib/senders/email.js:830
+#: lib/senders/email.js:841
 msgid "Confirm secondary email"
 msgstr ""
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:922
 msgid "Reset your password"
 msgstr "Resetează-ți parola"
 
-#: lib/senders/email.js:953 lib/senders/email.js:991
+#: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"
 msgstr ""
 
-#: lib/senders/email.js:1021
+#: lib/senders/email.js:1032
 msgid "Suspicious activity detected"
 msgstr ""
 
-#: lib/senders/email.js:1063 lib/senders/email.js:1145 lib/senders/email.js:1181 lib/senders/email.js:1217 lib/senders/email.js:1251 lib/senders/email.js:1294 lib/senders/email.js:1337
-#: lib/senders/email.js:1380 lib/senders/email.js:1470 lib/senders/email.js:1516
+#: lib/senders/email.js:1074 lib/senders/email.js:1173 lib/senders/email.js:1328 lib/senders/email.js:1364 lib/senders/email.js:1398 lib/senders/email.js:1441 lib/senders/email.js:1484
+#: lib/senders/email.js:1527 lib/senders/email.js:1617 lib/senders/email.js:1663
 msgid "Manage account"
 msgstr "Gestionează contul"
 
-#: lib/senders/email.js:1099
+#: lib/senders/email.js:1127
 msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1102
+#: lib/senders/email.js:1130
 msgid "Connect another device"
 msgstr "Conectează alt dispozitiv"
 
-#: lib/senders/email.js:1180
-msgid "Primary email updated"
+#: lib/senders/email.js:1208
+msgid "Set up account recovery"
+msgstr ""
+
+#: lib/senders/email.js:1209
+msgid "Open account settings"
+msgstr ""
+
+#: lib/senders/email.js:1249
+msgid "Set up recovery email"
 msgstr ""
 
 #: lib/senders/email.js:1250
+msgid "Add a secondary email"
+msgstr ""
+
+#: lib/senders/email.js:1290 lib/senders/email.js:1291
+msgid "Get a recovery key"
+msgstr ""
+
+#: lib/senders/email.js:1327
+msgid "Primary email updated"
+msgstr ""
+
+#: lib/senders/email.js:1397
 msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1293
+#: lib/senders/email.js:1440
 msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1379
+#: lib/senders/email.js:1526
 msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1432
+#: lib/senders/email.js:1579
 msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1434
+#: lib/senders/email.js:1581
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1437
+#: lib/senders/email.js:1584
 msgid "Generate codes"
 msgstr "Generează coduri"
 
-#: lib/senders/email.js:1561
+#: lib/senders/email.js:1708
 msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1562
+#: lib/senders/email.js:1709
 msgid "Create new recovery key"
 msgstr "Creează o cheie nouă de recuperare"
 

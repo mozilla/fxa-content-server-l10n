@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-28 19:39+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,6 +853,10 @@ msgstr "Mesedez sartu egiaztatze kodea"
 msgid "Invalid redirect"
 msgstr ""
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Konfigurazioa falta da"
@@ -860,6 +864,10 @@ msgstr "Konfigurazioa falta da"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Konfigurazio baliogabea"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Gaizki idatzitako helbidea?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1255,11 +1263,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "Idatzi zure helbide elektronikoa"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Helbide elektronikoa"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Jarraitu"
@@ -1345,6 +1349,10 @@ msgid ""
 msgstr ""
 "<span>OHARRA:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna babesteko "
 "enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Helbide elektronikoa"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2147,9 +2155,6 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Baduzu kontua? Hasi saioa"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Gaizki idatzitako helbidea?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Inatalatu Firefox zure telefonoan eta hasi saioa konfigurazioa amaitzeko"

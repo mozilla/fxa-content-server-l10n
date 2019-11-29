@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-08-11 09:55+0000\n"
 "Last-Translator: Sahithi <sahithi@swecha.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -851,6 +851,10 @@ msgstr "దయచేసి ధృవీకరణ కోడ్ను నమోద
 msgid "Invalid redirect"
 msgstr ""
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "ఆకృతీకరణలు తప్పినది"
@@ -858,6 +862,10 @@ msgstr "ఆకృతీకరణలు తప్పినది"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "ఈమెయిలు తప్పుగా టైపుచేసారా?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1247,11 +1255,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "మీ ఈమెయిల్ ప్రవేశపెట్టండి"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "ఈమెయిలు"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "కొనసాగించు"
@@ -1335,6 +1339,10 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "ఈమెయిలు"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2110,9 +2118,6 @@ msgstr ""
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "ఖాతా ఉందా? ప్రవేశించండి"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "ఈమెయిలు తప్పుగా టైపుచేసారా?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxని మీ స్మార్టుఫోనులో స్థాపించుకుని, ప్రవేశించండి"

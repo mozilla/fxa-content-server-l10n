@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-11 23:56+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,6 +853,10 @@ msgstr "请输入验证码"
 msgid "Invalid redirect"
 msgstr "无效重定向"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "缺少配置"
@@ -860,6 +864,10 @@ msgstr "缺少配置"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "无效配置"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "邮件地址输错？"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1249,11 +1257,7 @@ msgstr "继续操作则表示，您同意我们的<a id=\"fxa-tos\" href=\"/lega
 msgid "Enter your email"
 msgstr "请输入您的电子邮件地址"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "电子邮件地址"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "继续"
@@ -1337,6 +1341,10 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr "<span>注意：</span>当您重置密码后，账户亦随之重置。 您可能会丢失一些个人信息（包括历史记录、书签和密码）。 这是因为我们使用您的密码加密您的数据以保护您的隐私。"
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "电子邮件地址"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2139,9 +2147,6 @@ msgstr "您使用了系统的相机？配对必须通过 Firefox 应用完成。
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "已有账户？登录"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "邮件地址输错？"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "在您的智能手机上安装 Firefox 并登录以完成设置"

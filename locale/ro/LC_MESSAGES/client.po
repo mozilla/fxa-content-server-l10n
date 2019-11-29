@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-21 17:05+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -862,6 +862,10 @@ msgstr "Te rugăm să introduci un cod de verificare"
 msgid "Invalid redirect"
 msgstr "Redirecționare nevalidă"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Configurație lipsă"
@@ -869,6 +873,10 @@ msgstr "Configurație lipsă"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Configurație nevalidă"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Sigur ai scris corect adresa?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1264,11 +1272,7 @@ msgstr "Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">T
 msgid "Enter your email"
 msgstr "Introdu adresa de e-mail"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "E-mail"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Continuă"
@@ -1354,6 +1358,10 @@ msgid ""
 msgstr ""
 "<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-ți "
 "proteja confidențialitatea."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-mail"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2164,9 +2172,6 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Ai un cont? Autentifică-te"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Sigur ai scris corect adresa?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Instalează Firefox pe smartphone și conectează-te pentru a încheia configurarea"

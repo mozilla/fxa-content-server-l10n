@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-21 18:09+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -854,6 +854,10 @@ msgstr "कृपया सत्यापन कोड दर्ज करे�
 msgid "Invalid redirect"
 msgstr "अमान्य पुनर्निर्देश"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "खराब विन्यास"
@@ -861,6 +865,10 @@ msgstr "खराब विन्यास"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "अवैध विन्यास"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "गलत लिखा गया ईमेल?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1252,11 +1260,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "अपना ईमेल प्रविष्ट करें"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "ईमेल"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "जारी रखें"
@@ -1342,6 +1346,10 @@ msgid ""
 msgstr ""
 "<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता की सुरक्षा के लिए "
 "आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "ईमेल"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2146,9 +2154,6 @@ msgstr ""
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "खाता है? साइन इन कीजिये"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "गलत लिखा गया ईमेल?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "अपने स्मार्टफ़ोन पर Firefox संस्थापित करें और सेट-अप को पूरा करने के लिए साइन इन करें"

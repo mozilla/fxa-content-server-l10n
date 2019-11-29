@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-13 22:37+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Tatz'ib'aj jikib'anel b'itz'ib'"
 msgid "Invalid redirect"
 msgstr "Man okel ta nitaq chik"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Xsach nuk'ulem"
@@ -859,6 +863,10 @@ msgstr "Xsach nuk'ulem"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Me'okel nuk'ulem"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "¿La sachoj re taqoya'l re'?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Roj
 msgid "Enter your email"
 msgstr "Tatz'ib'aj ri ataqoya'l"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Taqoya'l"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Titikïr chik el"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>CH'UTITZIJOL:</span> Toq natzolij ri ewan atzij, natzolij chuqa' ri rub'i' ataqoya'l. Rik'in jub'a' nasäch jun peraj chi re ri awetamab'al (natab'äl, ewan taq tzij chuqa' taq yaketal). "
 "Nik'ulwachitäj ruma qewan kisik'ixik ri taq atzij rik'in ri ewan atzij richin niqachajij ri iwinanem."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Taqoya'l"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2152,9 +2160,6 @@ msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun rucho
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "¿La k'o chik jun rub'i' ataqoya'l? Tatikirisaj molojri'ïl"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "¿La sachoj re taqoya'l re'?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Tayaka' ri Firefox pa ri k'wayel awoyonib'al chuqa' tatikirisaj molojri'ïl richin natz'aqatisaj runuk'ulem"
