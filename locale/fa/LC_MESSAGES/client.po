@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-02 23:41+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "لطفا کد تاییدیه رو وارد کنید"
 msgid "Invalid redirect"
 msgstr "مسیر غیرمعتبر"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "پیکربندی موجود نیست"
@@ -859,6 +863,10 @@ msgstr "پیکربندی موجود نیست"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "پیکربندی نامعتبر"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "رایانامه را اشتباه وارد کردید؟"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/t
 msgid "Enter your email"
 msgstr "ایمیل خود را وارد کنید"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "پست الکترونیکی"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "ادامه"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>NOTE:</span> وقتی که شما کلمه عبور را بازیابی می‌کنید،‌ حساب کاربری خود را از نو راه اندازی می‌کنید. ممکن است تعدادی از اطلاعات شخصی نظیر( تاریخچه، نشانک‌ها، و کلمه های عبور) خود را از دست بدهید. "
 "علت این کار رمزنگاری تمامی اطلاعات شما به وسیله کلمه عبور جهت حفظ حریم شخصی شماست."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "پست الکترونیکی"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2154,9 +2162,6 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "حساب دارید؟ وارد شوید"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "رایانامه را اشتباه وارد کردید؟"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "فایرفاکس را روی تلفن هوشمند خود نصب کنید و برای تکمیل برپاسازی وارد حساب خود شوید"

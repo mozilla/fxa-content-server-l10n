@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-13 19:48+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -852,6 +852,10 @@ msgstr "Indtast bekræftelseskode"
 msgid "Invalid redirect"
 msgstr "Ugyldig omdirigering"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Manglende konfiguration"
@@ -859,6 +863,10 @@ msgstr "Manglende konfiguration"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Ugyldig konfiguration"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Forkert indtastet mailadresse?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1252,11 +1260,7 @@ msgstr "Ved at fortsætte accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">
 msgid "Enter your email"
 msgstr "Indtast din mailadresse"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Mailadresse"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Fortsæt"
@@ -1342,6 +1346,10 @@ msgid ""
 msgstr ""
 "<span>BEMÆRK:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi "
 "krypterer dine data med din adgangskode for at beskytte dit privatliv."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Mailadresse"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2150,9 +2158,6 @@ msgstr "Brugte du systemets kamera? Du skal parre ved hjælp af en Firefox-app."
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Har du en konto? Log ind"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Forkert indtastet mailadresse?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Installer Firefox på din smartphone og log ind for at færdiggøre opsætningen"

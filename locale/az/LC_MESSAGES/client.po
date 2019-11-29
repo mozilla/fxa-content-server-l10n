@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-07-11 11:03+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Lütfən təsdiq kodunu daxil edin"
 msgid "Invalid redirect"
 msgstr ""
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Əksik konfiqurasiya"
@@ -859,6 +863,10 @@ msgstr "Əksik konfiqurasiya"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Səhv konfiqurasiya"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "E-poçtu səhv yazmısınız?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1254,11 +1262,7 @@ msgstr ""
 msgid "Enter your email"
 msgstr "E-poçtunuzu daxil edin"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "E-poçt"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Davam et"
@@ -1344,6 +1348,10 @@ msgid ""
 msgstr ""
 "<span>QEYD:</span> Parolu sıfırladığınız zaman hesabınızı da sıfırlamış olacaqsınız. Bəzi məxfi məlumatlarınızı (tarixçə, əlfəcinlər, parollar və s.) itirə bilərsiz. Bunun səbəbi təhlükəsizliyiniz "
 "üçün məlumatlarınızı parolunuz ilə şifrələyirik."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-poçt"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2148,9 +2156,6 @@ msgstr "Sistem kamerasını işlətdiniz? Firefox tətbiqi içindən qoşmalıs�
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Hesabınız var? Daxil olun"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "E-poçtu səhv yazmısınız?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Tam quraşdırma üçün Firefox-u mobil cihazınızda da qurun və daxil olun"

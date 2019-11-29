@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-10-23 15:18+0000\n"
 "Last-Translator: SeulGi Choi (Chase) <cs09gi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "확인 코드를 입력하세요"
 msgid "Invalid redirect"
 msgstr "잘못된 리디렉션"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "누락된 설정"
@@ -859,6 +863,10 @@ msgstr "누락된 설정"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "잘못된 설정"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "이메일을 잘못 입력했나요?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1252,11 +1260,7 @@ msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 �
 msgid "Enter your email"
 msgstr "이메일을 입력"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "이메일"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "계속"
@@ -1342,6 +1346,10 @@ msgid ""
 msgstr ""
 "<span>안내:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 때"
 "문입니다."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "이메일"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2145,9 +2153,6 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "계정을 가지고 계신가요? 로그인"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "이메일을 잘못 입력했나요?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "스마트폰에 Firefox를 설치하고 로그인 하여 설치 완료"

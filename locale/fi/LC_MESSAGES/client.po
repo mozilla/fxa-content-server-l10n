@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 08:01+0000\n"
+"POT-Creation-Date: 2019-11-29 08:01+0000\n"
 "PO-Revision-Date: 2019-11-17 14:34+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,6 +852,10 @@ msgstr "Kirjoita kelvollinen vahvistuskoodi"
 msgid "Invalid redirect"
 msgstr "Virheellinen uudelleenohjaus"
 
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Puuttuvat asetukset"
@@ -859,6 +863,10 @@ msgstr "Puuttuvat asetukset"
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Virheelliset asetukset"
+
+#: .es5/lib/email-domain-validator.js:36
+msgid "Mistyped email?"
+msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
@@ -1253,11 +1261,7 @@ msgstr "Jatkamalla hyväksyt <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehd
 msgid "Enter your email"
 msgstr "Kirjoita sähköpostiosoitteesi"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7
-msgid "Email"
-msgstr "Sähköpostiosoite"
-
-#: .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/index.mustache:5 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4
 msgid "Continue"
 msgstr "Jatka"
@@ -1343,6 +1347,10 @@ msgid ""
 msgstr ""
 "<span>HUOMAA:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historian, kirjanmerkit ja salasanat). Syynä on se, että tietosi "
 "salataan salasanallasi yksityisyytesi suojelemiseksi."
+
+#: .es5/templates/reset_password.mustache:7 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Sähköpostiosoite"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
@@ -2149,9 +2157,6 @@ msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sov
 
 #~ msgid "Have an account? Sign in"
 #~ msgstr "Onko sinulla jo tili? Kirjaudu sisään"
-
-#~ msgid "Mistyped email?"
-#~ msgstr "Kirjoititko sähköpostiosoitteesi väärin?"
 
 #~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 #~ msgstr "Asenna Firefox älypuhelimeesi ja viimeistele asennus kirjautumalla"
