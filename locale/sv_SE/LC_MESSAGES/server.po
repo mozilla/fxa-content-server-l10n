@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-29 15:52+0000\n"
+"PO-Revision-Date: 2019-11-29 15:55+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -261,7 +261,7 @@ msgstr "Konfigurera en sekundär e-postadress: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Hjälper dig att komma tillbaka om du tappar åtkomst till din e-post."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
@@ -269,7 +269,7 @@ msgstr " Skapa en återställningsnyckel: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "Firefox skyddar dina data genom att ta bort dina synkroniserade data om du återställer ditt lösenord. En återställningsnyckel återställer den."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
@@ -285,19 +285,19 @@ msgstr "Skydda din data med en återställningsnyckel"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Återställ dina synkroniserade data och fortsätt precis där du slutade med en unik återställningsnyckel."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Annars, skyddar Firefox dina data genom att ta bort dem när ditt lösenord återställs."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Skydda dig från att bli låst ute"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Genom att lägga till ett sekundär e-postadress hjälper det dig att komma tillbaka till ditt konto om du är låst ute och inte har åtkomst till din e-post."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
