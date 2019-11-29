@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-29 22:50+0000\n"
+"PO-Revision-Date: 2019-11-29 23:05+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -270,34 +270,36 @@ msgstr " Titz'uk jun kolonel ewan tzij: "
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
 msgstr ""
+"Ri Firefox yeruchajij ri taq atzij rik'in yeruyüj ri ximon taq atzij we natzolij ri ewan atzij. Jun ruk'u'x rutzij kolonem nutzolij.  Firefox protege sus datos borrando sus datos sincronizados si "
+"restablece su contraseña. Una clave de recuperación lo restaura."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Tab'ana' runuk'ulem jun ruka'n taqoya'l: "
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Titz'uk jun kolonel ewan tzij:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Ke'achajij ri taq atzij rik'in jun ruk'u'x rutzij kolonem"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Ke'atzolij ri ximon taq atzij chuqa' yachapa' chik akuchi' aya'on kan rik'in jun ruyonil ruk'u'x rutzijo kolonem."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "We man ke ta ri', ri Firefox yeruchajij ri yujun taq atzij toq nitzolïx ri ewan atzij."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Tachajij awi' richin man yatq'at ta"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Rik'in ri rutz'aqatisaxik jun ruka'n taqoya'l, yato' richin yatzolin pan rub'i' ataqoya'l we q'aton chuqa' man yatikïr ta yatok chupam ri ataqoya'l."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -607,23 +609,23 @@ msgstr "Tokisäx jun chik okisaxel"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Tib'an runuk'ulem ri rukolik rub'i' taqoya'l"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Tijaq runuk'ulem rub'i' taqoya'l"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Tib'an runuk'ulem rutaqoya'l koloj"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Titz'aqatisäx jun ruka'n taqoya'l"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Tik'ul jun ruk'u'x rutzij koloj"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
