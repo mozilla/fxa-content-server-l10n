@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-30 04:31+0000\n"
+"PO-Revision-Date: 2019-11-30 04:51+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -257,47 +257,47 @@ msgstr "Duo simple passos te adjuta a recuperar le accesso a tu conto e proteger
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "Configurar un adresse de e-mail secundari: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Te lassa re-entrar si tu perde le accesso a tu adresse de e-mail."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr " Crear un clave de recuperation: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "Pro le protection de tu datos, Firefox rade tu datos synchronisate si tu reinitialisa tu contrasigno. Un clave de recuperation restaura tu datos."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Configurar un adresse de e-mail secundari:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Crear un clave de recuperation:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Protege tu datos con un clave de recuperation"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Restaura tu datos synchronisate e reprende le travalio con un clave unic de recuperation."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Alteremente, Firefox protege tu datos per rader los al reinitialisation de tu contrasigno."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Protege te de esser excludite de tu conto"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Adder un adresse de e-mail secundari te adjuta a recuperar le accesso a tu conto si tu te trova excludite e non pote acceder a tu posta."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -608,11 +608,11 @@ msgstr "Connecte un altere apparato"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Configurar le recuperation del conto"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Aperir le parametros del conto"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
