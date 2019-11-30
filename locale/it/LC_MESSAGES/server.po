@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-30 15:50+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2019-11-30 17:11+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -296,11 +296,11 @@ msgstr "In caso di reimpostazione della password senza la chiave di recupero, Fi
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Una chiave di riserva per il tuo account"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Impostando un indirizzo email secondario, potrai accedere al tuo account anche in caso tu rimanga tagliato fuori dall’account email principale."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
