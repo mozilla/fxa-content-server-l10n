@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-02 11:51+0000\n"
+"PO-Revision-Date: 2019-12-02 12:04+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -257,43 +257,43 @@ msgstr "Skonfiguruj drugi adres e-mail: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Pomaga wejść na konto, jeśli stracisz dostęp do swojej poczty."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr " Utwórz klucz odzyskiwania: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "Firefox chroni Twoje dane, usuwając zsynchronizowane dane po zmianie hasła. Klucz odzyskiwania je przywraca."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Skonfiguruj drugi adres e-mail:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Utwórz klucz odzyskiwania:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Chroń swoje dane za pomocą klucza odzyskiwania"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Przywróć zsynchronizowane dane i od razu wróć do pracy za pomocą unikalnego klucza odzyskiwania."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Bez niego Firefox chroni Twoje dane, usuwając je po zmianie hasła."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Zabezpiecz się przed blokadą konta"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Dodanie drugiego adresu e-mail pomaga wrócić do konta w razie jego blokady i braku dostępu do swojej poczty."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -603,23 +603,23 @@ msgstr "Połącz inne urządzenie"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Skonfiguruj odzyskiwanie konta"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Otwórz ustawienia konta"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Skonfiguruj e-mail odzyskiwania"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Dodaj drugi adres e-mail"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Uzyskaj klucz odzyskiwania"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
