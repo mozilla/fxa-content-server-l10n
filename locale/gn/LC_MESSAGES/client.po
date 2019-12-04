@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-04 14:24+0000\n"
+"PO-Revision-Date: 2019-12-04 14:48+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -369,7 +369,7 @@ msgstr "Embojuruja Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Ñanduti veve mondojeypyre. Embojuaju accounts@firefox.com ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -477,7 +477,7 @@ msgstr "Eipuruse heta jeýma. Eha’ãjey ag̃ave."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Eha’ã hetaiterei jeýma. Eha’ã ág̃a %(retryAfterLocalized)s-pe."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
@@ -601,7 +601,7 @@ msgstr "Ndaikatúi emoambue ñanduti veve ypyguáva peteĩ ñanduti veve ojehech
 
 #: .es5/lib/auth-errors.js:192 .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Ndaikatúi emoambue ñanduti veve peteĩ ñanduti veve ndaha’éiva ko mba’ete rehegua."
 
 #: .es5/lib/auth-errors.js:196
 msgid "This email can not currently be used to login"
@@ -754,11 +754,11 @@ msgstr "Eikotevẽ URL oikóva"
 
 #: .es5/lib/auth-errors.js:376
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ne ñanduti veve jehechajeyrã oujey. ¿Ikatu ehaivai oimeraẽva tai?"
 
 #: .es5/lib/auth-errors.js:384
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Emoinge ñanduti veve oikóva. firefox.com nome’ẽi ñanduti veve."
 
 #: .es5/lib/auth-errors.js:392
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
