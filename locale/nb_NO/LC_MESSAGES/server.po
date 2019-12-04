@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-04 19:09+0000\n"
+"PO-Revision-Date: 2019-12-04 19:51+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -21,11 +21,11 @@ msgstr "Kun få gjenopprettelseskoder igjen"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utelåst fra kontoen din."
+msgstr "Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utestengt fra kontoen din."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utelåst fra kontoen din."
+msgstr "Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utestengt fra kontoen din."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
@@ -292,11 +292,11 @@ msgstr "Ellers beskytter Firefox dataene dine ved å slette dem om passordet dit
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr "Beskytt deg fra å bli utelåst"
+msgstr "Beskytt deg mot å bli utestengt fra kontoen din"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr "Ved å legge til en sekundær e-postadresse hjelper det deg å få tilbake tilgang til kontoen din hvis du er utelåst og ikke får tilgang til e-posten din."
+msgstr "Ved å legge til en sekundær e-postadresse hjelper det deg å få tilbake tilgang til kontoen din hvis du er utestengt og ikke får tilgang til din e-postkonto."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
