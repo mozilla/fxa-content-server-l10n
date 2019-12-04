@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-04 14:48+0000\n"
+"PO-Revision-Date: 2019-12-04 15:01+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -762,7 +762,7 @@ msgstr "Emoinge ñanduti veve oikóva. firefox.com nome’ẽi ñanduti veve."
 
 #: .es5/lib/auth-errors.js:392
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox Accounts ikatu emoĩ IFRAME-pe añoite kuatiarogue moneĩmbyrépe."
 
 #: .es5/lib/auth-errors.js:412 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
