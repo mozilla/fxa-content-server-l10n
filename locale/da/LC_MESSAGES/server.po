@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-05 10:31+0000\n"
+"PO-Revision-Date: 2019-12-05 10:32+0000\n"
 "Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -294,7 +294,7 @@ msgstr "Beskyt dig selv mod at blive låst ude"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Hvis du tilføjer en sekundær mailadresse, kan du få adgang til din konto igen, hvis du bliver låst ude og ikke kan få adgang til din mail."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -604,7 +604,7 @@ msgstr "Forbind andre enheder"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Opsæt kontogenoprettelse"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
