@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-05 15:35+0000\n"
+"PO-Revision-Date: 2019-12-05 16:24+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -622,15 +622,15 @@ msgstr "Abrir configuración de la cuenta"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Configurar correo electrónico de recuperación"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Agregar correo electrónico secundario"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Obtener clave de recuperación"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
