@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-05 14:04+0000\n"
+"PO-Revision-Date: 2019-12-05 15:35+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -618,7 +618,7 @@ msgstr "Configurar recuperación de la cuenta"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Abrir configuración de la cuenta"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
