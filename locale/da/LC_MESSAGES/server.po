@@ -608,19 +608,19 @@ msgstr ""
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Åbn kontoindstillinger"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Opsæt mailadresse til genoprettelse"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Tilføj en sekundær mailadresse"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Få en genoprettelsesnøgle"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
