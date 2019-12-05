@@ -619,11 +619,11 @@ msgstr "E-mailadres foar werstel ynstelle"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "In sekundêr e-mailadres tafoegje"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Untfang in werstelkaai"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
