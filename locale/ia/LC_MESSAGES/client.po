@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-30 16:29+0000\n"
+"PO-Revision-Date: 2019-12-06 05:30+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1588,7 +1588,7 @@ msgstr "Prende un photo"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr "Inviar"
+msgstr "Incargar"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
