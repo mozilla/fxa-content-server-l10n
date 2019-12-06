@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-04 15:01+0000\n"
+"PO-Revision-Date: 2019-12-06 13:50+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -806,7 +806,7 @@ msgstr "Mba’ekuaarã rekome’ẽ oĩmba’ỹva: %(property)s"
 
 #: .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:539 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eipuru."
 
 #: .es5/lib/auth-errors.js:489
 msgid "This is a required field"
@@ -854,7 +854,7 @@ msgstr "Ñemondojey ndoikói"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "¿Ñanduti veve ojehaivai? %(domain)s noikuave’ẽi ñanduti veve."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -866,7 +866,7 @@ msgstr "Ñemboheko ndoikói"
 
 #: .es5/lib/email-domain-validator.js:36
 msgid "Mistyped email?"
-msgstr ""
+msgstr "¿Ñanduti veve ojehaivai?"
 
 #: .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
