@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-10-21 18:09+0000\n"
+"POT-Creation-Date: 2019-12-06 08:01+0000\n"
+"PO-Revision-Date: 2019-12-01 07:08+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -99,7 +99,7 @@ msgstr "कनेक्ट हुआ"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
-#: .es5/views/sign_up_password.js:88
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है। इसका पुनः निर्माण करे?"
 
@@ -1623,19 +1623,19 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "संदिग्ध"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "खोया या चोरी हो गया"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "पुराना या बदला हुआ"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "दूसरा"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"

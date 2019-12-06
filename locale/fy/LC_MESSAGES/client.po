@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-14 22:50+0000\n"
+"POT-Creation-Date: 2019-12-06 08:01+0000\n"
+"PO-Revision-Date: 2019-12-05 10:02+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -97,7 +97,7 @@ msgstr "Ferbûn"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
-#: .es5/views/sign_up_password.js:88
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 
@@ -854,7 +854,7 @@ msgstr "Unjildige trochferwizing"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Hawwe jo it e-mailadres ferkeard typt? %(domain)s biedt gjin e-mail oan."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-10-21 18:03+0000\n"
+"POT-Creation-Date: 2019-12-06 08:01+0000\n"
+"PO-Revision-Date: 2019-12-01 07:04+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <Singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -603,23 +603,23 @@ msgstr "अन्य उपकरण से जोड़े"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "खाता पुनर्प्राप्ति सेट करें"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "खाता सेटिंग खोलें"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "पुनर्प्राप्ति ईमेल सेट करें"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "एक द्वितीयक ईमेल जोड़ें"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "पुनर्प्राप्ति कुंजी प्राप्त करें"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
