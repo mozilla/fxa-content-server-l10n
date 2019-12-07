@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-11-29 09:46+0000\n"
-"Last-Translator: Wannaphong Phatthiyaphaibun <wannaphong@yahoo.com>\n"
+"PO-Revision-Date: 2019-12-07 09:38+0000\n"
+"Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -949,7 +949,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "ผู้ใช้หรือเซสชั่นไม่ได้รับการยืนยัน"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1483,7 +1483,7 @@ msgstr "ความรู้ที่เป็นประโยชน์กำ
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "เลือกสิ่งที่ต้องการซิงค์:"
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
@@ -1572,7 +1572,7 @@ msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "ซิงค์อุปกรณ์นี้"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1940,7 +1940,7 @@ msgstr "ที่อยู่ IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "ลงทะเบียนเพื่อรับคุณลักษณะเพิ่มเติม:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -1956,7 +1956,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "เข้าถึงรหัสผ่านที่บันทึกใน Firefox อย่างปลอดภัย ทุกที่ &mdash; แม้จะเป็นนอกเบราว์เซอร์"
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -1972,7 +1972,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "ส่งไฟล์ขนาดใหญ่อย่างปลอดภัยและเป็นส่วนตัว"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
