@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-05-19 10:32+0000\n"
+"PO-Revision-Date: 2019-12-08 10:11+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -239,11 +239,11 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "سوالات ہیں؟ %(supportUrl)s ملاحظہ کریں"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
-msgstr ""
+msgstr "اکاؤنٹ لاک آؤٹ سے بچیں"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
@@ -251,11 +251,11 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "ثانوی ای میل مرتب کریں: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "اگر آپ نے اپنے ای میل تک رسائی کھو دی ہے تو آپ کو واپس آنے میں مدد ملتی ہے۔"
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
@@ -415,11 +415,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "کیا یہ آپ ہیں جو سائن اپ کر رہے ہیں؟"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "اگر ہاں تو ، یہ توثیقی کوڈ استعمال کریں:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -476,15 +476,15 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "شرائط اور منسوخی کی پالیسی"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "رازداری کا نوٹس"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "رکنیت منسوخ کریں"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
@@ -564,19 +564,19 @@ msgstr ""
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"
-msgstr ""
+msgstr "بنیادی ای میل کی تصدیق کریں"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr ""
+msgstr "ای میل کی توثیق کریں"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "ثانوی ای میل کی تصدیق کریں"
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
-msgstr ""
+msgstr "اپنا پاس ورڈ دوبارہ سیٹ کریں"
 
 #: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"
@@ -584,7 +584,7 @@ msgstr ""
 
 #: lib/senders/email.js:1032
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "مشکوک سرگرمی کا پتہ چلا ہے"
 
 #: lib/senders/email.js:1074 lib/senders/email.js:1173 lib/senders/email.js:1328 lib/senders/email.js:1364 lib/senders/email.js:1398 lib/senders/email.js:1441 lib/senders/email.js:1484
 #: lib/senders/email.js:1527 lib/senders/email.js:1617 lib/senders/email.js:1663
@@ -613,7 +613,7 @@ msgstr ""
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "ایک ثانوی ای میل شامل کریں"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
@@ -832,8 +832,7 @@ msgstr "تازہ ترین ڈاؤن لوڈ کریں"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
