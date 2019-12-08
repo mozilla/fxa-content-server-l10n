@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-08 10:11+0000\n"
+"PO-Revision-Date: 2019-12-08 10:21+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -133,7 +133,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "اگر یہ آپ نہیں تھے تو ، کلید منسوخ کریں۔"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Firefox کے خاندان میں خوش آمدید"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -235,7 +235,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "اہک اور آلہ جوڑیں:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "ثانوی ای میل مرتب کریں:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
