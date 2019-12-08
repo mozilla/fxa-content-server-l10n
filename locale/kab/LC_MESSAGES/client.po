@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-05 08:37+0000\n"
-"Last-Translator: Selyan Slimane Amiri <selyan.kab@gmail.com>\n"
+"PO-Revision-Date: 2019-12-08 19:40+0000\n"
+"Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -1485,7 +1485,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Fren ayen ara temtawiḍ:"
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
