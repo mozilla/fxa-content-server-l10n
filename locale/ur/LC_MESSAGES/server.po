@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-09 14:10+0000\n"
+"PO-Revision-Date: 2019-12-09 14:23+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -32,7 +32,7 @@ msgstr "کوڈ تخلیق کریں:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1073
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s میں نیا سائن ان"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1616
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "اکاؤنٹ کی بازیابی کی کلید بنادی گئی"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "استعمال شدہ بازیافت کا کوڈ"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1483
 msgid "New recovery codes generated"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "دو قدمی توثیق غیر فعال ہوگئ"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "ہر ایک سائن ان پر سیکیورٹی کوڈز کی ضرورت نہیں ہوگی۔"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
@@ -625,11 +625,11 @@ msgstr ""
 
 #: lib/senders/email.js:1397
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "دو قدمی توثیق فعال ہوگئی"
 
 #: lib/senders/email.js:1440
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "دو قدمی توثیق بند ہے"
 
 #: lib/senders/email.js:1526
 msgid "Recovery code used"
