@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-09 13:52+0000\n"
+"PO-Revision-Date: 2019-12-09 13:59+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -1347,15 +1347,15 @@ msgstr "ریسٹ شروع کریں"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "حالیہ سرگرمی"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "سلامتی کے واقعات"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "واقعہ کا نام"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1415,7 +1415,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "10 ہندسوں کا بازیافت کوڈ درج کریں"
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
@@ -1463,7 +1463,7 @@ msgstr "ایک Firefox اکاؤنٹ بنائیں"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
-msgstr ""
+msgstr "ای میل تبدیل کریں"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
@@ -1784,7 +1784,7 @@ msgstr "بندوبست کریں…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "دو قدمی تصدیق"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
@@ -1974,7 +1974,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "آپ کا ای میل پتہ نہیں ہونا چاہئے"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"

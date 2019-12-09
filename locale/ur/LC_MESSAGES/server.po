@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-08 10:21+0000\n"
+"PO-Revision-Date: 2019-12-09 14:10+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -496,15 +496,15 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "رازداری کا نوٹس:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "رکنیت منسوخ کریں:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "بلنگ کی معلومات کیتازہ کاری کریں:"
 
 #: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -593,7 +593,7 @@ msgstr "اکاؤنٹ بندوبست کریں"
 
 #: lib/senders/email.js:1127
 msgid "Account confirmed"
-msgstr ""
+msgstr "اکاؤنٹ کی تصدیق ہوگئی"
 
 #: lib/senders/email.js:1130
 msgid "Connect another device"
@@ -601,7 +601,7 @@ msgstr "اہک اور آلہ جوڑیں"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "اکاؤنٹ کی بازیابی مرتب کریں"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "بازیابی کی ای میل مرتب کریں"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
@@ -617,7 +617,7 @@ msgstr "ایک ثانوی ای میل شامل کریں"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "بازیافت کی کلید حاصل کریں"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
@@ -716,7 +716,7 @@ msgstr "خدمت کی شرائط"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox  کی تازہ کاری  درکار  ہے"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
