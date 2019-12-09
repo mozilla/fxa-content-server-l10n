@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-10-25 15:42+0000\n"
-"Last-Translator: नरेंद्र पेटकर - narendrapetkar <n.v.petkar@gmail.com>\n"
+"PO-Revision-Date: 2019-12-09 08:49+0000\n"
+"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -102,11 +102,11 @@ msgstr "खाते अस्तित्वात नाही.पुन्ह
 
 #: .es5/views/support.js:84
 msgid "Please Select One"
-msgstr ""
+msgstr "कृपया एक निवडा"
 
 #: .es5/views/support.js:231 .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "इतर"
 
 #: .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -123,7 +123,7 @@ msgstr "पासवर्ड"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "बदला..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -408,11 +408,11 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "सुरू करा"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "खाते समस्या"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -452,7 +452,7 @@ msgstr "Firefox समकालन"
 
 #: .es5/models/reliers/browser.js:82
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -733,11 +733,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:336
 msgid "Valid password required"
-msgstr ""
+msgstr "वैध पासवर्ड गरजेचे आहे"
 
 #: .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:396
 msgid "Valid email required"
-msgstr ""
+msgstr "वैध ईमेल गरजेचे आहे"
 
 #: .es5/lib/auth-errors.js:352
 msgid "A usable image was not found"
@@ -781,7 +781,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:440
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "साईन अप करण्यासाठी वैध वय प्रविष्ट करणे आवश्यक आहे"
 
 #: .es5/lib/auth-errors.js:456
 msgid "Account no longer exists."
@@ -980,9 +980,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -1048,8 +1046,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1900,8 +1897,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
