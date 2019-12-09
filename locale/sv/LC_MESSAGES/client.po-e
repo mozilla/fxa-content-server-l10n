@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 11:33+0000\n"
-"PO-Revision-Date: 2019-10-29 15:43+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2019-12-09 17:57+0000\n"
+"PO-Revision-Date: 2019-11-29 13:57+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Lösenordet återställt. Logga in för att fortsätta."
 #: .es5/views/force_auth.js:191 .es5/views/sign_in.js:138 .es5/views/sign_in.js:141 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_password.mustache:7 .es5/views/force_auth.js:170 .es5/views/sign_in.js:105
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175
+#: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175 .es5/views/force_auth.js:193
 msgid "Sign in"
 msgstr "Logga in"
 
@@ -103,6 +103,7 @@ msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot existerar inte längre. Återskapa det?"
 
@@ -146,59 +147,59 @@ msgstr "Senaste synk %(translatedTimeAgo)s nära %(translatedCity)s, %(translate
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Senaste synk över %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75
+#: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75 .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Senast aktiv %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76
+#: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76 .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
 msgstr "Senast aktiv över %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79
+#: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79 .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Senast aktiv %(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80
+#: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80 .es5/views/settings/clients.js:79
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Senast aktiv över %(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83
+#: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83 .es5/views/settings/clients.js:82
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Senast aktiv %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84
+#: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:83
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Senast aktiv över %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89
+#: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90
+#: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90 .es5/views/settings/clients.js:89
 msgid "Over %(translatedTimeAgo)s"
 msgstr "Över %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93
+#: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:92
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94
+#: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94 .es5/views/settings/clients.js:93
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Över %(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97
+#: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97 .es5/views/settings/clients.js:96
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "%(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98
+#: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:97
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Över %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134
+#: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134 .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
 msgstr "Webbsession, %(userAgent)s"
 
-#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138
+#: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138 .es5/views/settings/clients.js:135
 msgid "Web Session"
 msgstr "Webbsession"
 
@@ -211,7 +212,7 @@ msgid "Subscribed successfully"
 msgstr "Prenumeration startad"
 
 #: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
-#: .es5/views/settings/delete_account.js:238
+#: .es5/views/settings/delete_account.js:238 .es5/views/settings/delete_account.js:240
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -277,7 +278,7 @@ msgstr "Kontoåterställning återkallad"
 msgid "Firefox Recovery Key"
 msgstr "Firefox återställningsnyckel"
 
-#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121
+#: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
 msgstr "Ditt konto har låsts av säkerhetsskäl"
 
@@ -375,7 +376,7 @@ msgstr "Adresser"
 msgid "Credit cards"
 msgstr "Kreditkort"
 
-#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72
+#: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72 .es5/models/reliers/browser.js:79
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -389,6 +390,7 @@ msgstr "Lösenordet har återställts"
 
 #: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
+#: .es5/lib/oauth-errors.js:30 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "Oväntat fel"
 
@@ -404,365 +406,373 @@ msgstr "Du har försökt för många gånger. Försök igen senare."
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Du har försökt för många gånger. Försök igen om %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:47 .es5/lib/oauth-errors.js:65 .es5/lib/auth-errors.js:42 .es5/lib/oauth-errors.js:58 .es5/lib/auth-errors.js:40
 msgid "Invalid token"
 msgstr "Ogiltig token"
 
-#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46
+#: .es5/lib/auth-errors.js:51 .es5/lib/auth-errors.js:46 .es5/lib/auth-errors.js:44
 msgid "Invalid timestamp in request signature"
 msgstr "Ogiltig tidsstämpel i förfrågansignatur"
 
-#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50
+#: .es5/lib/auth-errors.js:55 .es5/lib/auth-errors.js:50 .es5/lib/auth-errors.js:48
 msgid "Invalid nonce in request signature"
 msgstr "Ogiltig nonce i förfrågansignatur"
 
 #: .es5/lib/auth-errors.js:59 .es5/lib/auth-errors.js:171 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:54 .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:166 .es5/lib/auth-errors.js:170
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:168
 msgid "Account already exists"
 msgstr "Kontot finns redan"
 
-#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58
+#: .es5/lib/auth-errors.js:63 .es5/lib/auth-errors.js:58 .es5/lib/auth-errors.js:56
 msgid "Unknown account"
 msgstr "Okänt konto"
 
-#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62
+#: .es5/lib/auth-errors.js:67 .es5/lib/auth-errors.js:62 .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
 msgstr "Felaktigt e-postformat"
 
-#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66
+#: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66 .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
 msgstr "Fel lösenord"
 
-#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70
+#: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70 .es5/lib/auth-errors.js:68
 msgid "Unverified account"
 msgstr "Overifierat konto"
 
-#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74
+#: .es5/lib/auth-errors.js:79 .es5/lib/auth-errors.js:74 .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
 msgstr "Ogiltig verifieringskod"
 
-#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78
+#: .es5/lib/auth-errors.js:83 .es5/lib/auth-errors.js:78 .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
 msgstr "Ogiltig JSON i förfrågan"
 
-#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82
+#: .es5/lib/auth-errors.js:87 .es5/lib/auth-errors.js:82 .es5/lib/auth-errors.js:80
 msgid "Invalid parameter: %(param)s"
 msgstr "Ogiltig parameter: %(param)s"
 
-#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86
+#: .es5/lib/auth-errors.js:91 .es5/lib/auth-errors.js:86 .es5/lib/auth-errors.js:84
 msgid "Missing parameter: %(param)s"
 msgstr "Saknad parameter: %(param)s"
 
-#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90
+#: .es5/lib/auth-errors.js:95 .es5/lib/auth-errors.js:90 .es5/lib/auth-errors.js:88
 msgid "Invalid request signature"
 msgstr "Ogiltig förfrågansignatur"
 
-#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94
+#: .es5/lib/auth-errors.js:99 .es5/lib/auth-errors.js:94 .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
 msgstr "Saknad content-length-rubrik"
 
-#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98
+#: .es5/lib/auth-errors.js:103 .es5/lib/auth-errors.js:98 .es5/lib/auth-errors.js:96
 msgid "Request body too large"
 msgstr "Förfrågan är för stor"
 
-#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59
+#: .es5/lib/auth-errors.js:121 .es5/lib/profile-errors.js:63 .es5/lib/auth-errors.js:117 .es5/lib/profile-errors.js:59 .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
 msgstr "Begäran har blockerats av säkerhetsskäl"
 
 #: .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:484 .es5/lib/auth-errors.js:125 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:499
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:497
 msgid "Invalid authorization code"
 msgstr "Ogiltig behörighetskod"
 
-#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129
+#: .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:129 .es5/lib/auth-errors.js:127
 msgid "Invalid phone number"
 msgstr "Ogiltigt telefonnummer"
 
-#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133
+#: .es5/lib/auth-errors.js:137 .es5/lib/auth-errors.js:133 .es5/lib/auth-errors.js:131
 msgid "Cannot send to this country"
 msgstr "Kan inte skicka till detta land"
 
-#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142
+#: .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:142 .es5/lib/auth-errors.js:140
 msgid "Could not send a message to this number"
 msgstr "Kan inte skicka ett meddelande till detta nummer"
 
-#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146
+#: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
 msgstr "Din e-post kom precis tillbaka"
 
-#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150
+#: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Din e-post kom precis tillbaka. Stämmer e-postadressen?"
 
-#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154
+#: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
 msgstr "Det gick inte att leverera e-post"
 
-#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:158
+#: .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:159 .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
 msgstr "Denna e-postadress har redan verifierats av en annan användare"
 
-#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162
+#: .es5/lib/auth-errors.js:167 .es5/lib/auth-errors.js:163 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:160
 msgid "Secondary email must be different than your account email"
 msgstr "Sekundär e-post måste vara annorlunda än för ditt konto"
 
-#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174
+#: .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:175 .es5/lib/auth-errors.js:174 .es5/lib/auth-errors.js:172
 msgid "Primary account email required for sign-in"
 msgstr "E-postadress för primärkonto krävs för inloggning"
 
-#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178
+#: .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:179 .es5/lib/auth-errors.js:178 .es5/lib/auth-errors.js:176
 msgid "Address in use by another account"
 msgstr "Adress som används av ett annat konto"
 
-#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:182
+#: .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:183 .es5/lib/auth-errors.js:182 .es5/lib/auth-errors.js:180
 msgid "Primary account email required for reset"
 msgstr "Primär e-postadress krävs för återställning"
 
-#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:186
+#: .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:187 .es5/lib/auth-errors.js:186 .es5/lib/auth-errors.js:184
 msgid "Invalid signin code"
 msgstr "Ogiltig inloggningskod"
 
-#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190
+#: .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:191 .es5/lib/auth-errors.js:190 .es5/lib/auth-errors.js:188
 msgid "Can not change primary email to an unverified email"
 msgstr "Det går inte att ändra primär e-post till en overifierad e-post"
 
-#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202
+#: .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:195 .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:194 .es5/lib/auth-errors.js:202 .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Det går inte att ändra primär e-post till en e-post som inte hör till det här kontot"
 
-#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198
+#: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:196
 msgid "This email can not currently be used to login"
 msgstr "Den här e-postadressen kan inte användas för att logga in"
 
-#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206
+#: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206 .es5/lib/auth-errors.js:204
 msgid "Failed to send email"
 msgstr "Misslyckades med att skicka e-post"
 
-#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210
+#: .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:210 .es5/lib/auth-errors.js:208
 msgid "Valid code required"
 msgstr "Giltig kod krävs"
 
-#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214
+#: .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:215 .es5/lib/auth-errors.js:214 .es5/lib/auth-errors.js:212
 msgid "This verification code has expired"
 msgstr "Denna verifieringskod har upphört"
 
-#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218
+#: .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:219 .es5/lib/auth-errors.js:218 .es5/lib/auth-errors.js:216
 msgid "A TOTP token already exists for this account"
 msgstr "Ett TOTP-token finns redan för det här kontot"
 
-#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222
+#: .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:223 .es5/lib/auth-errors.js:222 .es5/lib/auth-errors.js:220
 msgid "TOTP token not found"
 msgstr "TOTP-token hittades inte"
 
-#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226
+#: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:224
 msgid "Recovery code not found"
 msgstr "Återställningskoden hittades inte"
 
-#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230
+#: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:228
 msgid "Unavailable device command"
 msgstr "Ej tillgängligt enhetskommando"
 
-#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234
+#: .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:234 .es5/lib/auth-errors.js:232
 msgid "Recovery key not found"
 msgstr "Återställningsnyckel hittades inte"
 
-#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:238
+#: .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:239 .es5/lib/auth-errors.js:238 .es5/lib/auth-errors.js:236
 msgid "Invalid recovery key"
 msgstr "Ogiltig återställningsnyckel"
 
-#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242
+#: .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:243 .es5/lib/auth-errors.js:242 .es5/lib/auth-errors.js:240
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Den här förfrågan kräver tvåstegsautentisering aktiverat på ditt konto."
 
-#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246
+#: .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:247 .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:244
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Misslyckades på grund av en motstridigt förfrågan, försök igen."
 
-#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250
+#: .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:251 .es5/lib/auth-errors.js:250 .es5/lib/auth-errors.js:248
 msgid "Unknown customer for subscription."
 msgstr "Okänd kund för prenumeration."
 
-#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254
+#: .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:255 .es5/lib/auth-errors.js:254 .es5/lib/auth-errors.js:252
 msgid "Unknown subscription."
 msgstr "Okänd prenumeration."
 
-#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258
+#: .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:259 .es5/lib/auth-errors.js:258 .es5/lib/auth-errors.js:256
 msgid "Unknown plan for subscription."
 msgstr "Okänd plan för prenumeration."
 
-#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262
+#: .es5/lib/auth-errors.js:267 .es5/lib/auth-errors.js:263 .es5/lib/auth-errors.js:262 .es5/lib/auth-errors.js:260
 msgid "Invalid payment token for subscription."
 msgstr "Ogiltigt betalningstecken för prenumeration."
 
 #: .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:268 .es5/lib/auth-errors.js:465 .es5/lib/auth-errors.js:469 .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:475
-#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479
+#: .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:479 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:477
 msgid "Server busy, try again soon"
 msgstr "Servern upptagen, försök igen senare"
 
-#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282
+#: .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:272 .es5/lib/auth-errors.js:278 .es5/lib/auth-errors.js:282 .es5/lib/auth-errors.js:280
 msgid "Feature not enabled"
 msgstr "Funktionen är inte aktiverad"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:288 .es5/lib/marketing-email-errors.js:35 .es5/lib/marketing-email-errors.js:93 .es5/lib/oauth-errors.js:123 .es5/lib/profile-errors.js:47
 #: .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:71 .es5/lib/auth-errors.js:276 .es5/lib/auth-errors.js:284 .es5/lib/marketing-email-errors.js:30 .es5/lib/marketing-email-errors.js:87
 #: .es5/lib/oauth-errors.js:117 .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:67 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125 .es5/lib/auth-errors.js:282
-#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:296 .es5/lib/profile-errors.js:41
+#: .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Systemet är inte tillgängligt, försök igen senare"
 
-#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:292
 msgid "This endpoint is no longer supported"
 msgstr "Den här slutpunkten stöds inte längre"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:300
 msgid "Login attempt cancelled"
 msgstr "Inloggningsförsök avbryts"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306
+#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:304
 msgid "Session expired. Sign in to continue."
 msgstr "Sessionen har förfallit. Logga in för att fortsätta."
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:308
 msgid "Cookies are still disabled"
 msgstr "Kakor är fortfarande inaktiverade"
 
-#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314
+#: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:312
 msgid "Passwords do not match"
 msgstr "Lösenorden överensstämmer inte"
 
-#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318
+#: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:316
 msgid "Working…"
 msgstr "Arbetar…"
 
-#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322
+#: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:320
 msgid "Could not get Privacy Notice"
 msgstr "Kunde inte hämta sekretesspolicy"
 
-#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326
+#: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:324
 msgid "Could not get Terms of Service"
 msgstr "Kunde inte hämta tjänstevillkoren"
 
-#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330
+#: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:328
 msgid "Your new password must be different"
 msgstr "Det måste vara ett nytt lösenord"
 
 #: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
+#: .es5/lib/auth-errors.js:332
 msgid "Must be at least 8 characters"
 msgstr "Måste vara minst 8 tecken"
 
-#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338
+#: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:336
 msgid "Valid password required"
 msgstr "Giltigt lösenord krävs"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
 #: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
+#: .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:396
 msgid "Valid email required"
 msgstr "Giltig e-postadress krävs"
 
-#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354
+#: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:352
 msgid "A usable image was not found"
 msgstr "En användbar bild hittades inte"
 
-#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358
+#: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:356
 msgid "Could not initialize camera"
 msgstr "Kunde inte initiera kameran"
 
-#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362
+#: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362 .es5/lib/auth-errors.js:360
 msgid "Valid URL required"
 msgstr "Giltig URL krävs"
 
-#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378
+#: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:376
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Ditt verifieringsmeddelande har returnerats. Skrivit fel e-post?"
 
-#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386
+#: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:384
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Ange en giltig e-postadress. firefox.com erbjuder inte e-post."
 
-#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394
+#: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:392
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-konton kan endast placeras i en IFRAME på godkända webbplatser"
 
 #: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
+#: .es5/lib/auth-errors.js:412
 msgid "Verification link damaged"
 msgstr "Verifieringslänk är trasig"
 
-#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422
+#: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:420
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Bildens dimensioner måste minst vara 100x100px"
 
-#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426
+#: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426 .es5/lib/auth-errors.js:424
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrering kommer snart till Firefox för iOS"
 
-#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438
+#: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:436
 msgid "You must enter your age to sign up"
 msgstr "Du måste ange din ålder för att registrera dig"
 
-#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442
+#: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:440
 msgid "You must enter a valid age to sign up"
 msgstr "Du måste ange en giltig ålder för att registrera dig"
 
-#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458
+#: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:456
 msgid "Account no longer exists."
 msgstr "Kontot existerar inte längre."
 
-#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462
+#: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:460
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ogiltig egenskap i resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466
+#: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:464
 msgid "Missing property in resume token: %(property)s"
 msgstr "Saknad egenskap i resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470
+#: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:468
 msgid "Invalid data attribute: %(property)s"
 msgstr "Ogiltigt dataattribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474
+#: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474 .es5/lib/auth-errors.js:472
 msgid "Missing data attribute: %(property)s"
 msgstr "Saknat dataattribut: %(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
-#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541
+#: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:539
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Den bekräftelselänken har redan använts och kan bara användas en gång."
 
-#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491
+#: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:489
 msgid "This is a required field"
 msgstr "Det här är ett obligatoriskt fält"
 
-#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495
+#: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:493
 msgid "Authorization code required"
 msgstr "Behörighetskod krävs"
 
 #: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499 .es5/lib/auth-errors.js:503
+#: .es5/lib/auth-errors.js:501
 msgid "Link damaged"
 msgstr "Länk skadad"
 
-#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526
+#: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526 .es5/lib/auth-errors.js:524
 msgid "Phone number required"
 msgstr "Telefonnummer krävs"
 
-#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545
+#: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:543
 msgid "Two-step authentication code required"
 msgstr "Tvåstegsautentiseringskod krävs"
 
-#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549
+#: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:547
 msgid "Invalid two-step authentication code"
 msgstr "Ogiltig tvåstegsautentiseringskod"
 
-#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553
+#: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:551
 msgid "Recovery code required"
 msgstr "Återställningskod krävs"
 
-#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557
+#: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:555
 msgid "Invalid recovery code"
 msgstr "Ogiltig återställningskod"
 
-#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:569
 msgid "Recovery key required"
 msgstr "Återställningsnyckel krävs"
 
-#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575
+#: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575 .es5/lib/auth-errors.js:573
 msgid "Please enter verification code"
 msgstr "Ange verifieringskod"
 
@@ -770,11 +780,11 @@ msgstr "Ange verifieringskod"
 msgid "Accounts with two-step authentication do not support pairing at this time"
 msgstr "Konton med tvåstegsautentisering stöder inte parning vid denna tidpunkt"
 
-#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118
+#: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118 .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Saknar konfiguration"
 
-#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122
+#: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122 .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
 msgstr "Ogiltig konfiguration"
 
@@ -818,7 +828,7 @@ msgstr "Upphörd kod"
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Ogiltig OAuth-parameter: %(param)s"
 
-#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27
+#: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
 msgstr "Obehörig"
 
@@ -842,31 +852,31 @@ msgstr "inget meddelande"
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Saknad OAuth-parameter: %(param)s"
 
-#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45
+#: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45 .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
 msgstr "Ogiltigt meddelande från fjärrenheten"
 
-#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53
+#: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53 .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
 msgstr "Fel vid parning med fjärrenhet"
 
-#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57
+#: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57 .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
 msgstr "Anslutning till fjärrenhet stängd, försök igen"
 
-#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31
+#: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31 .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ogiltig parameter i förfrågan: %(param)s"
 
-#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35
+#: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
 msgstr "Bildleverantören stöds inte"
 
-#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39
+#: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:37
 msgid "Image processing error"
 msgstr "Bildbehandlingsfel"
 
-#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51
+#: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
 msgstr "Ogiltig token"
 
@@ -1168,13 +1178,13 @@ msgid "Enter your email"
 msgstr "Ange din e-postadress"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
-#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9
+#: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "E-post"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
-#: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5
+#: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/index.mustache:5
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -1408,6 +1418,7 @@ msgid "Have an account? Sign in"
 msgstr "Har du ett konto? Logga in"
 
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16 .es5/templates/sign_up_password.mustache:20 .es5/templates/sign_up_password.mustache:19
+#: .es5/lib/email-domain-validator.js:36
 msgid "Mistyped email?"
 msgstr "Skrev du fel e-postadress?"
 
@@ -2092,11 +2103,11 @@ msgstr "Praktisk kunskap kommer till din inkorg. Registrera dig för mer:"
 msgid "Get app"
 msgstr "Hämta app"
 
-#: .es5/lib/auth-errors.js:266
+#: .es5/lib/auth-errors.js:266 .es5/lib/auth-errors.js:264
 msgid "Subscription has already been cancelled"
 msgstr "Prenumerationen har redan annullerats"
 
-#: .es5/lib/auth-errors.js:270
+#: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:268
 msgid "Update was rejected, please try again"
 msgstr "Uppdateringen avvisades, försök igen"
 
@@ -2104,7 +2115,7 @@ msgstr "Uppdateringen avvisades, försök igen"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82
+#: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82 .es5/views/support.js:84
 msgid "Please Select One"
 msgstr "Välj en"
 
@@ -2120,7 +2131,7 @@ msgstr "Öppna flikar"
 msgid "Credit Cards"
 msgstr "Kreditkort"
 
-#: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587
+#: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:585
 msgid "Invalid redirect"
 msgstr "Ogiltig omdirigering"
 
@@ -2214,15 +2225,15 @@ msgstr "Återaktivering med det här e-postadressen kanske inte återställer di
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
 msgstr "Hmm, vi har problem med vårt system. Vi arbetar med att fixa det åt dig och ber om ursäkt för besväret. Försök igen senare."
 
-#: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229
+#: .es5/views/support.js:215 .es5/templates/support.mustache:5 .es5/views/support.js:229 .es5/views/support.js:231
 msgid "Other"
 msgstr "Annat"
 
-#: .es5/views/support.js:216 .es5/views/support.js:230
+#: .es5/views/support.js:216 .es5/views/support.js:230 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
 
-#: .es5/views/support.js:218 .es5/views/support.js:232
+#: .es5/views/support.js:218 .es5/views/support.js:232 .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b> för <b>%(escapedSelectedPlan)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
 
@@ -2230,35 +2241,35 @@ msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopi
 msgid "Change..."
 msgstr "Ändra..."
 
-#: .es5/views/settings/clients.js:61
+#: .es5/views/settings/clients.js:61 .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
 msgstr "Senast sedd %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:62
+#: .es5/views/settings/clients.js:62 .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
 msgstr "Senast sedd över %(translatedTimeAgo)s"
 
-#: .es5/views/settings/clients.js:65
+#: .es5/views/settings/clients.js:65 .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Senast sedd %(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:66
+#: .es5/views/settings/clients.js:66 .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr "Senast sedd över %(translatedTimeAgo)s i %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:69
+#: .es5/views/settings/clients.js:69 .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Senast sedd %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:70
+#: .es5/views/settings/clients.js:70 .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr "Senast sedd över %(translatedTimeAgo)s nära %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
-#: .es5/views/settings/clients.js:149
+#: .es5/views/settings/clients.js:149 .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
 msgstr "Senast sedd tid okänd"
 
-#: .es5/models/reliers/browser.js:75
+#: .es5/models/reliers/browser.js:75 .es5/models/reliers/browser.js:82
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -2342,7 +2353,7 @@ msgstr "Ditt meddelande skickades till support"
 msgid "Back to Subscriptions"
 msgstr "Tillbaka till prenumerationer"
 
-#: .es5/lib/auth-errors.js:274
+#: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:272
 msgid "Invalid or expired verification code"
 msgstr "Ogiltig eller upphörd verifieringskod"
 
@@ -2368,59 +2379,63 @@ msgstr "Ditt meddelande skickades till Support"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Synkroniseringsval"
 
-#: .es5/templates/confirm_signup_code.mustache:8
+#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Behöver du en annan kod? Skicka igen"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Du behöver det här lösenordet för att få åtkomst till krypterad information som du lagrar hos oss.<br/>En återställning innebär att data som lösenord och bokmärken förloras."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Koppla bort från Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Du kopplar bort %(deviceName)s från Sync eftersom den här enheten är:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Misstänkt"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Förlorad eller stulen"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Gammal eller utbytt"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicera"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Registrera dig för att få tillgång till fler funktioner:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Synkronisera dina bokmärken, lösenord och mer på alla enheter."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Få åtkomst till lösenord som sparats i Firefox var som helst &mdash; även utanför webbläsaren."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Skicka större filer säkert och privat."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Välj vad som ska synkroniseras:"
+
+#: .es5/lib/auth-errors.js:597
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Felaktig e-postadress? %(domain)s erbjuder inte e-post."
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Upphörd eller ogiltig registreringskod"
