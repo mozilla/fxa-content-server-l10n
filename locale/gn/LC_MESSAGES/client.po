@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 08:01+0000\n"
-"PO-Revision-Date: 2019-12-06 13:55+0000\n"
+"PO-Revision-Date: 2019-12-09 17:10+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1006,7 +1006,7 @@ msgstr "Kundaharape IP: %(ip)s"
 
 #: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Tekorosãverã, emoneĩ tembiapo ñepyrũ embojuehe hag̃ua ko mba’e’oka ndive:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -1018,7 +1018,7 @@ msgstr "500 Javy"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "¡Ups! Ha’ete oikóva apañuãi. Ko’ág̃a roikuaáma ha rohecháma mba’éichapa romoĩporãta."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -1044,7 +1044,7 @@ msgstr "Emba’apo %(serviceName)s ndive"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Emoinge mba’eñemi jeguerujeyrã peteĩjeýnte ojepurúva eñongatúva tenda hekorosãvape eikejey hag̃ua nde Firefox mba’etépe."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
