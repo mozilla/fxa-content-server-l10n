@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 13:12+0000\n"
+"PO-Revision-Date: 2019-12-10 13:26+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -561,7 +561,7 @@ msgstr "Emoneĩ jeike pyahu %(clientName)s-pe"
 
 #: lib/senders/email.js:717
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Tembiapo ñepyrũ ayvu %(serviceName)s peg̃uarã"
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"
@@ -602,23 +602,23 @@ msgstr "Emoinge ambue mba’e’oka"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Emboheko mba’ete jeguerujey"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Eike mba’ete ñembohekópe"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Emboheko ñanduti veve jeguerujey"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Embojuaju ñanduti veve mokõiháva"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Ereko mba’eñemi jeguerujeyrã"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
@@ -626,23 +626,23 @@ msgstr "Ñanduti veve tuichavéva hekopyahúva"
 
 #: lib/senders/email.js:1397
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Ijurujáma ñemoneĩ mokõi jeku’egua"
 
 #: lib/senders/email.js:1440
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Jehechajey mokõi jeku’egua ndoikovéima"
 
 #: lib/senders/email.js:1526
 msgid "Recovery code used"
-msgstr ""
+msgstr "Ojepuru ayvu jeguerujeyrã"
 
 #: lib/senders/email.js:1579
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "Opyta 1 ayvu jeguerujeyrã"
 
 #: lib/senders/email.js:1581
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "Opyta %(numberRemaining)s ayvu jeguerujeyrã hembýva"
 
 #: lib/senders/email.js:1584
 msgid "Generate codes"
@@ -691,7 +691,7 @@ msgstr "502 Javy"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Ko mohendahavusu ojepuru, eha’ãjey uperire"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
