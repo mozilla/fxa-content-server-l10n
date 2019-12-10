@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 11:18+0000\n"
+"PO-Revision-Date: 2019-12-10 12:12+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1364,7 +1364,7 @@ msgstr "Eipuru ayvu jeguerujeyrãva"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Ehechajey ne ñanduti vevépe ayvu ñemoneĩva mondopyre %(email)s-pe."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1382,7 +1382,7 @@ msgstr "Emoingejey ñe’ẽñemi"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Ani ehundi ko ñe’ẽñemi. Eguerujeyséramo, ikatu ehundi umi ñembojuehe mba’ekuaarã."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1404,7 +1404,7 @@ msgstr "Emoheñói mba’ete"
 
 #: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "¿Erekóma mba’ete? Eñepyrũ tembiapo"
 
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16 .es5/templates/sign_up_password.mustache:20 .es5/templates/sign_up_password.mustache:19
 #: .es5/lib/email-domain-validator.js:36
