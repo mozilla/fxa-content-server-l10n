@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 17:10+0000\n"
+"PO-Revision-Date: 2019-12-10 17:20+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1903,7 +1903,7 @@ msgstr "Opáma pe ñemboheko rape."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Eike pe ayvu moha’ãngaha Firefox rembipuru’ípe ha emoha’ãnga pe ayvu."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -1915,11 +1915,11 @@ msgstr "Tembipuru’i jeguereko"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Eike hekopete."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Emoneĩ jeike <small> %(email)s</small> peg̃uarã"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
@@ -1999,11 +1999,11 @@ msgstr "Ñanduti veve moambue"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:2
 msgid "You did it! You’re signed in."
-msgstr ""
+msgstr "¡Ejapóma! Eñepyrũma tembiapo."
 
 #: .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:4
 msgid "Now get Firefox everywhere else."
-msgstr ""
+msgstr "Egueraha Firefox mayma ehohápe."
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
