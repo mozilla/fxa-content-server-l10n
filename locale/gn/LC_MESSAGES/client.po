@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 15:04+0000\n"
+"PO-Revision-Date: 2019-12-10 16:50+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -117,11 +117,11 @@ msgstr "Emoambue hekoitépe ñe'ẽñemi"
 
 #: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Rombyasyeterei. Emoambue ñe’ẽñemi ne mba’ete Firefox pegua ha eheka marandu ne mba’e’oka apohare ha eikuaa mba’éichapa ikatu emboguete ne mba’ekuaarã oka guive."
 
 #: .es5/views/settings/client_disconnect.js:43 .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Rombyasyeterei. Ha’éramo mba’e’oka ejerovia’ỹha, emombueva’erã ñe’ẽñemi ne mba’ete Firefox pegua ha opaite ñe’ẽñemi eñongatúva Firefox-pe."
 
 #: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
@@ -1000,7 +1000,7 @@ msgstr "Juajuha eguerujey hag̃ua ñe’ẽñemi oñembyai"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
