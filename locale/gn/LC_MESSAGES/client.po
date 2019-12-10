@@ -1,4 +1,4 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -1435,7 +1435,7 @@ msgstr "Emohenda Firefox ne pumbyry ha’evévape ha eike embohekopa hag̃ua"
 
 #: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Tembipuru’i juajuha mondopyre %(escapedPhoneNumber)s.<a %(escapedBackLinkAttrs)s¿Papapy&nbsp;javypyre?</a>"
+msgstr "Tembipuru’i juajuha mondopyre %(escapedPhoneNumber)s.<a %(escapedBackLinkAttrs)s>¿Papapy&nbsp;javypyre?</a>"
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
