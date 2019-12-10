@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 11:08+0000\n"
+"PO-Revision-Date: 2019-12-10 11:18+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1296,11 +1296,11 @@ msgstr "Rombyasy. Rojokóma ne&nbsp;mba’ete."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Ko ñanduti veve ñemoneĩgua romondóva %(email)s-pe nog̃uahẽi ha rojokóma ne mba’ete romo’ã hag̃ua ne mba’ekuaarã Firefox pegua."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Ko ñanduti veve oikóramo, <a %(escapedSupportLinkAttrs)s>emombe’u oréve</a> ha ikatúta roipytyvõ ijurujajey hag̃ua ne mba’ete."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1324,7 +1324,7 @@ msgstr "Hechajey"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Eipuru tekorosã ayvu"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
