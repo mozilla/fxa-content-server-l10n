@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 12:51+0000\n"
+"PO-Revision-Date: 2019-12-10 13:12+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -408,7 +408,7 @@ msgstr "Ehechajey ñanduti veve mokõiháva"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Ojejerure ojepuru hag̃ua %(email)s ñanduti veve mokõháva ambue Firefox mba’etépe g̃uarã:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -420,7 +420,7 @@ msgstr "¿Ndépa eñemboheguapy?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Upéicharõ, eipuru ko ayvu rechajeyrã:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi."
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -545,19 +545,19 @@ msgstr "Ayvu rechajeyrã: %(code)s"
 
 #: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Mandu’arã: Emoheñoimba ne mba’ete"
 
 #: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Mandu’arã paha: emyandy ne mba’ete"
 
 #: lib/senders/email.js:603
 msgid "Account authorization code"
-msgstr ""
+msgstr "Ayvu ñemoneĩva mba’ete rehegua"
 
 #: lib/senders/email.js:672
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Emoneĩ jeike pyahu %(clientName)s-pe"
 
 #: lib/senders/email.js:717
 msgid "Sign-in code for %(serviceName)s"
