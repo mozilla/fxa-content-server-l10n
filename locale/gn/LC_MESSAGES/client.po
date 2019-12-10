@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 16:50+0000\n"
+"PO-Revision-Date: 2019-12-10 17:10+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1077,7 +1077,7 @@ msgstr "Ñanduti jeguerujeyrã mondopyre"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Emoheñói hag̃ua ñe’ẽñemi pyahu, eikutu juajuha oúva %(email)s-pe 60 aravo'i oútavape."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1132,7 +1132,7 @@ msgstr "Orekova’erã kookie ha ñembyatyha"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Emyandy umi kookie ha pe mbyatyha pypegua kundahárape eikekuaa hag̃ua Firefox Accounts-pe. Ejapóramo hendýta tembiapoite nemomandu’átava tembiapo pa’ũme."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1162,7 +1162,7 @@ msgstr "¿Nderesarái ne ñe’ẽñemi?"
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:14
 #: .es5/templates/sign_up_password.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Eku’évo, emoneĩ ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\">Mba'epytyvõrã ñemboguata</a> ha <a id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi purureko</a>."
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Emoneĩ mba’e’oka pyahu <small> %(email)s</small> peg̃uarã"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -1891,15 +1891,15 @@ msgstr "Mba'e'oka ñangarekoha"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Emoneĩva’erã <small>ambue ne mba’e’oka guive</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Ndoikói nde jeike"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Opáma pe ñemboheko rape."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
