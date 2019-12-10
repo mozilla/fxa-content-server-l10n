@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 12:28+0000\n"
+"PO-Revision-Date: 2019-12-10 14:52+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1507,7 +1507,7 @@ msgstr "Moambue"
 
 #: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Emohu’ãvove, eipuru ne ñe’ẽñemi pyahu eñepyrũ hag̃ua tembiapo opaite ne mba’e’okápe."
 
 #: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
 msgid "Old password"
@@ -1515,11 +1515,11 @@ msgstr "Ñe’ẽñemi itujáva"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "¿Esẽ Sync-gui?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Ne kundaha mba’ekuaarã opytáta %(deviceName)s-pe, hákatu ndojuehemo’ãvéima ne mba’etére."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1672,11 +1672,11 @@ msgstr "JEHAIPY:"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Heñóivo ayvu jeguerujeyrã pyahu opaite ayvu ypyguáva ndoikovéima. Eñongatu ayvu pyahu tenda hekorosãvape."
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Emoheñói ayvu jeguerujeyrã pyahu"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
@@ -1729,7 +1729,7 @@ msgstr "Emyengovia ayvu jeguerujey"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Emoha’ãnga QR ayvu ne rembipuru’i jeguerujeyrãpe ha emoinge pe ayvu rekorosã ome’ẽva."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
