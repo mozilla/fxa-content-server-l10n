@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-11 10:52+0000\n"
+"PO-Revision-Date: 2019-12-11 10:53+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2067,7 +2067,7 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Share large files without prying eyes."
-msgstr ""
+msgstr "Emoherakuã marandurenda tuicháva oñema’ẽ’ỹre hese."
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
