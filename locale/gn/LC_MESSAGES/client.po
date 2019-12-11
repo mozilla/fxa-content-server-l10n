@@ -1,4 +1,4 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -1851,7 +1851,7 @@ msgstr "Ndaha’éi ne ñanduti veve kundaharape"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Ndaikatúi ojokupyty <a %(escapedCommonPasswordLinkAttrs)sñe’ẽñemi hetáva rysýi</a>"
+msgstr "Ndaikatúi ojokupyty <a %(escapedCommonPasswordLinkAttrs)s>ñe’ẽñemi hetáva rysýi</a>"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
