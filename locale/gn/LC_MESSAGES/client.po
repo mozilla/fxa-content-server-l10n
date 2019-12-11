@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-11 10:32+0000\n"
+"PO-Revision-Date: 2019-12-11 10:52+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1867,7 +1867,7 @@ msgstr "Ñe'ẽñemi jehechauka"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "¿Ehekápa Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Eñepyrũ ko'ápe</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
@@ -1931,7 +1931,7 @@ msgstr "Eike eipurúvo tembipuru’i"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru’i rupive."
 
 #: .es5/templates/settings/emails.mustache:9 .es5/templates/security_events.mustache:4
 msgid "Verified"
@@ -1983,11 +1983,11 @@ msgstr "Jeku’e paha"
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:9
 msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-msgstr ""
+msgstr "Embojuruja %(escapedEmail)s ou hag̃ua juajuha moneĩmbyre ha ikatúma eku’ejey."
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-msgstr ""
+msgstr "Eñepyrũ tembiapo <span class=\"service\">ne mba’ete Firefox-pe</span>"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up_password.mustache:2 .es5/templates/sign_up_password.mustache:1
 msgid "Create your Firefox account"
@@ -2007,7 +2007,7 @@ msgstr "Egueraha Firefox mayma ehohápe."
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-msgstr ""
+msgstr "Eñepyrũ tembiapo ambue mba’e’okápe ha eike opaite apopyre, marandu ha tembiapoite ñemiguáva Firefox mba’évape."
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
 msgid "Why sign in on another device?"
@@ -2023,7 +2023,7 @@ msgstr "Ehechajey ne moñe’ẽrã"
 
 #: .es5/templates/sms_sent.mustache:5 .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Oñemondo juajuha Firefox rembipuru’ígui %(escapedPhoneNumber)s-pe"
 
 #: .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
@@ -2035,7 +2035,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
-msgstr ""
+msgstr "Erekove ko’ã tembiapoitégui:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2043,7 +2043,7 @@ msgstr "Firefox kundahára"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Travel the internet with protection, on every device."
-msgstr ""
+msgstr "Eikundaha tekorosãme ñandutípe, opaite mba’e’okápe."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2051,7 +2051,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr ""
+msgstr "Eguereko ne ñe’ẽñemi ñemo’ãme ha eraha nendive."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
