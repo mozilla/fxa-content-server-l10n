@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-09 08:51+0000\n"
+"PO-Revision-Date: 2019-12-11 18:10+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -254,51 +254,51 @@ msgstr "Kerülje a fiókja zárolását"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr ""
+msgstr "Két egyszerű lépés segít visszatérni a fiókjába és megóvni az adatait, ha vissza kell állítania a jelszavát."
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "Másodlagos e-mail cím beállítása: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Segít Önnek, hogy visszalépjen, ha elveszti a hozzáférést az elsődleges e-mail címéhez."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr " Helyreállítási kulcs létrehozása: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "A Firefox megvédi adatait azáltal, hogy törli a szinkronizált adatokat, ha visszaállítja a jelszavát. A helyreállítási kulcs visszaállítja azt."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Másodlagos e-mail cím beállítása:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Helyreállítási kulcs létrehozása:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Védje adatait egy helyreállítási kulccsal"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Állítsa helyre a szinkronizált adatokat egy egyedi helyreállítási kulccsal, és folytassa ott, ahol abbahagyta."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Ellenkező esetben a Firefox megvédi adatait azáltal, hogy törli azokat a jelszó visszaállításakor."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Védje meg magát attól, hogy kizárja magát"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Egy másodlagos e-mail cím hozzáadása segít visszatérnie a fiókjába, ha kizárta magát és nem éri el az e-mail fiókját."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -887,8 +887,8 @@ msgstr "Legfrissebb letöltése"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a "
-#~ "href='%(iosUrl)s'>Firefox for iOS</a> böngészőjét is."
+#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a href='%(iosUrl)s'>Firefox "
+#~ "for iOS</a> böngészőjét is."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Jelentkezzen be a Syncbe"
@@ -1056,8 +1056,8 @@ msgstr "Legfrissebb letöltése"
 #~ msgstr "Jelszó visszaállítása"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Néhány napja létrehozott egy Firefox fiókot, de nem erősítette meg. A megerősített fiókkal elérheti lapjait, könyvjelzőit, jelszavait és előzményeit bármely eszközéről. A fiók aktiválásához "
 #~ "egyszerűen erősítse meg ezt az e-mail címet."
@@ -1088,11 +1088,10 @@ msgstr "Legfrissebb letöltése"
 #~ "Sikeresen eltávolítottuk a következő másodlagos e-mail címe a Firefox fiókjából: %(secondaryEmail)s. A biztonsági értesítések és a bejelentkezési megerősítések nem lesznek többé kiküldve erre a "
 #~ "címre."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre "
-#~ "kézbesítve lesznek."
+#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre kézbesítve "
+#~ "lesznek."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Ahogy kérte, itt egy hivatkozás a Firefox telepítéséről a mobileszközére: %(link)s"
