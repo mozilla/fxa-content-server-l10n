@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-13 13:51+0000\n"
+"PO-Revision-Date: 2019-12-13 14:05+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1640,7 +1640,7 @@ msgstr "Eiporavo téra ejehechataha Firefox-pe ha eñangarekokuévo ne mba’et�
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Ñanduti veve mokõiháva ha’e ambue kundaharape og̃uahẽ hag̃ua marandu’i tekorosãrã ha emoneĩ ambue mba’e’oka."
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
@@ -1749,7 +1749,7 @@ msgstr "Moneĩ"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
+msgstr "Ehecha mboyve térã emoambue ko vorépe, eikotevẽ ehechajey ne ñanduti veve kundaharape."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -1761,7 +1761,7 @@ msgstr "Mba'ete jeguerujey"
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:6
 msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr ""
+msgstr "Emoheñói mba’eñemi jeguerujeyrã eikekuaa hag̃ua ne rechaukaha, ñe’ẽñemi ha mba’ekuaarã ojuehéva Firefox mba’éva nderesaráirõ ne ñe’ẽñemígui."
 
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:7
 msgid "Recovery key"
@@ -1799,7 +1799,7 @@ msgstr "¿Emboguesépa añetehápe?"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "Ndaikatúi eipuru mba’eñemi jeguerujeyrã eike hag̃ua ne mba’ekuaarãme eguerujeýramo ne ñe’ẽñemi."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
