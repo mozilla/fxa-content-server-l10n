@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-02-04 06:39+0000\n"
-"Last-Translator: narendrapetkar <n.v.petkar@gmail.com>\n"
+"PO-Revision-Date: 2019-12-14 12:19+0000\n"
+"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -597,7 +597,7 @@ msgstr ""
 
 #: lib/senders/email.js:1130
 msgid "Connect another device"
-msgstr ""
+msgstr "अन्य डिव्हाईस जोडा"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
