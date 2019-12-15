@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-13 09:41+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
+"PO-Revision-Date: 2019-12-15 19:08+0000\n"
+"Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -202,11 +202,11 @@ msgstr "Uspešno ste odstranili obnovitveni ključ za svoj Firefox Račun z nasl
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
 msgid "Secondary email removed"
-msgstr "Drugi e-poštni naslov odstranjen"
+msgstr "Pomožni e-poštni naslov odstranjen"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Uspešno ste odstranili %(secondaryEmail)s kot drugi e-poštni naslov svojega Firefox Računa. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov."
+msgstr "Uspešno ste odstranili %(secondaryEmail)s kot pomožni e-poštni naslov svojega Firefox Računa. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
@@ -246,7 +246,7 @@ msgstr "Imate vprašanja? Obiščite %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
-msgstr ""
+msgstr "Izognite se zaklepu računa"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
@@ -254,7 +254,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "Nastavite pomožni e-poštni naslov: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
@@ -262,7 +262,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr " Ustvari obnovitveni ključ: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
@@ -270,7 +270,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Nastavite pomožni e-poštni naslov:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
@@ -286,7 +286,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "V nasprotnem primeru Firefox zaščiti vaše podatke tako, da jih ob ponastavitvi gesla izbriše."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
@@ -294,15 +294,15 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Pomožni e-poštni naslov vam lahko pomaga, če izgubite dostop do računa in nimate dostopa do svoje e-pošte."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
-msgstr "Drugi e-poštni naslov dodan"
+msgstr "Pomožni e-poštni naslov dodan"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Uspešno ste potrdili %(secondaryEmail)s kot drugi e-poštni naslov svojega Firefox Računa. Varnostna obvestila in potrditve prijav bodo zdaj poslane na oba e-poštna naslova."
+msgstr "Uspešno ste potrdili %(secondaryEmail)s kot pomožni e-poštni naslov svojega Firefox Računa. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -398,7 +398,7 @@ msgstr "Poslan je bil zahtevek za spremembo računa z naslednje naprave:"
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje drugega e-poštnega naslova."
+msgstr "Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova."
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
@@ -406,11 +406,11 @@ msgstr "Potrdi e-poštni naslov: "
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
 msgid "Verify secondary email"
-msgstr "Potrdi drugi e-poštni naslov"
+msgstr "Potrdi pomožni e-poštni naslov"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Poslana je bila zahteva za uporabo %(email)s kot drugi e-poštni naslov naslednjega Firefox Računa:"
+msgstr "Poslana je bila zahteva za uporabo %(email)s kot pomožni e-poštni naslov naslednjega Firefox Računa:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -575,7 +575,7 @@ msgstr "Potrdi e-poštni naslov"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
-msgstr "Potrdi drugi e-poštni naslov"
+msgstr "Potrdi pomožni e-poštni naslov"
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
@@ -604,7 +604,7 @@ msgstr "Poveži drugo napravo"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Nastavi obnovitev računa"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
@@ -616,11 +616,11 @@ msgstr "Nastavi obnovitveno e-pošto"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Dodaj pomožni e-poštni naslov"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Pridobi obnovitveni ključ"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
