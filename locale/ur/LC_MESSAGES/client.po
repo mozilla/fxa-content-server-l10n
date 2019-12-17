@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-16 17:35+0000\n"
+"PO-Revision-Date: 2019-12-17 09:29+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -324,7 +324,7 @@ msgstr "نقل شدہ"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "نقل کرنے میں ناکام رہا۔ براہ کرم دستی طور پر نقل کریں۔"
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
@@ -534,7 +534,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:203 .es5/lib/auth-errors.js:199 .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:196
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "اس ای میل کو فی الحال لاگ ان کرنے کے لئے استعمال نہیں کیا جاسکتا ہے"
 
 #: .es5/lib/auth-errors.js:211 .es5/lib/auth-errors.js:207 .es5/lib/auth-errors.js:206 .es5/lib/auth-errors.js:204
 msgid "Failed to send email"
@@ -1736,7 +1736,7 @@ msgstr "کوڈ اسکین نہیں کر سک رہے؟"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "اپنی توثیقی ایپ میں دستی طور پر اس خفیہ کلید کو داخل کریں:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
