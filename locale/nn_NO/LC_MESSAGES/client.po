@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-17 13:10+0000\n"
+"PO-Revision-Date: 2019-12-17 13:26+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -2374,11 +2374,11 @@ msgstr "Meldinga di er sendt til support"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Synkroniser vala"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Treng du ein annan kode? Send på nytt"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
