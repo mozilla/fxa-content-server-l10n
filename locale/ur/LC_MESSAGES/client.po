@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-17 09:29+0000\n"
+"PO-Revision-Date: 2019-12-17 10:16+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -204,7 +204,7 @@ msgstr "ویب سیشن"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "آخری ہمہ وقت سازی کا وقت نامعلوم"
 
 #: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
@@ -267,7 +267,7 @@ msgstr "اکاؤنٹ بازیافت"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "اکاؤنٹ کی بازیابی کوفعال بنا دیا گیا"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
@@ -493,7 +493,7 @@ msgstr "آپ کی ای میل ابھی واپس آ گئی"
 
 #: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "آپ کا ای میل واپس آگیا۔ کیا آپ نے ای میل غلت ٹائپ کی تھا؟"
 
 #: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
