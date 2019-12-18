@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-18 16:50+0000\n"
-"Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
+"PO-Revision-Date: 2019-12-18 17:09+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
 "MIME-Version: 1.0\n"
@@ -2133,7 +2133,7 @@ msgstr "Puruhára térã tembiapo jehechajey’ỹva"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">>Ñemigua marandu’i</a>."
+msgstr "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Ñemigua marandu’i</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -2321,7 +2321,7 @@ msgstr "Umi ñemboheraguapy rehepyme’ẽva opytareíta"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Eñemohekorosã &mdash; ani eipurujey ne ñe’ẽñemi."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
@@ -2337,7 +2337,7 @@ msgstr "Ayvu jehechajeyrã tembiapo ñepyrũgua ndoikovéima"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Ikatúiko, ehai 5 aravo’i mboyve ayvu jeguerujeyrã oñemondopyre %(escapedEmail)s-pe."
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
@@ -2349,7 +2349,7 @@ msgstr "¿Apañuãi emoinge hag̃ua ayvu?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "¿Ejokose jehepyme’ẽ mboheraguapy? Eike <a href=\"/subscriptions\">Mboheraguapy ñangareko</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -2373,7 +2373,7 @@ msgstr "Sync-gui ñesẽ"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Esẽhína %(deviceName)s Sync mba’évagui ko mba’e’oka ha’ére:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -2397,15 +2397,15 @@ msgstr "Eñemboheraguapy eguerekove hag̃ua tembiapoite:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Embojuehe techaukaha, ñe’ẽñemi ha hetave opaite ne mba’e’okápe."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Eike tekorosãme oimeraẽva tenda guive ñe’ẽñemi ñongatupyre Firefox pegua &mdash; ikatu kundaháragui okápe."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Emondo marandurenda tuicháva tekorosã ha ñemíme."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
