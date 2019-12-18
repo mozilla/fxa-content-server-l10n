@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-18 16:27+0000\n"
+"PO-Revision-Date: 2019-12-18 16:50+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1701,7 +1701,7 @@ msgstr "Myandy…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Embojuaju tekorosãve ne mba’etépe ejerurévo tekorosã ayvu peteĩva <a %(escapedTotpSupportAttributes)s>ko’ã tembipuru’i ñemoneĩrãvape</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -2031,7 +2031,7 @@ msgstr "¿Papapy jejavýva?"
 
 #: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Nog̃uahẽiramo peteĩ SMS, ikatu eheka avei “Firefox” rembipuru’i ñemuhápe."
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Get more from these features:"
@@ -2076,7 +2076,7 @@ msgstr "Eipuuru Firefox apopyre pyahu"
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:12 .es5/templates/sign_up.mustache:11
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Romondo ndéve marandu ñepyrũguáva. Eñemboheraguapy eikuaave hag̃ua:"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
@@ -2116,7 +2116,7 @@ msgstr "Ñemondojey ndoikói"
 
 #: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Ndaikatúi eguereko mba'epytyvõrã ñemboguata teraguapy rendag̃ua"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2133,11 +2133,11 @@ msgstr "Puruhára térã tembiapo jehechajey’ỹva"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr ""
+msgstr "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">>Ñemigua marandu’i</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Ko kuatia’atã ndoikovéima. Embohekopyahu <a %(escapedCcExpiredLinkAttrs)s>ápe</a>."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
@@ -2189,7 +2189,7 @@ msgstr "Nemandu’áke emboguéramo ne mba’ete:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Ojejokopaitéta opaite ne ñemboheraguapy"
 
 #: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
@@ -2197,7 +2197,7 @@ msgstr "Ikatu okañy marandu ha hetamba’e ñongatupyre Mozilla apopyrépe"
 
 #: .es5/templates/settings/delete_account.mustache:17 .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Eipurujeýrõ ko ñanduti veve rupi ikatu eguerujey marandu ñongatupyre"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
