@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 17:39+0000\n"
+"PO-Revision-Date: 2019-12-19 19:46+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1981,7 +1981,7 @@ msgstr "Praktické rady do vaší e-mailové schránky"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
-msgstr ""
+msgstr "Přihlaste se o více odběrům:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -1989,7 +1989,7 @@ msgstr "Zjistěte vše potřebné online"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
-msgstr ""
+msgstr "Pozvěte mne k vyzkoušení nových produktů Mozilly"
 
 #: .es5/templates/choose_what_to_sync.mustache:19 .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
@@ -2134,7 +2134,7 @@ msgstr "Neplatné přesměrování"
 
 #: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Nepodařilo se získat podmínky používání služby pro předplatné"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -2159,7 +2159,7 @@ msgstr "Platnost vaší platební karty vypršela. Aktualizujte jí <a %(escaped
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Podmínky používání služby pro předplatné"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2195,7 +2195,7 @@ msgstr "Předmět (volitelné)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Popis problému"
 
 #: .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -2207,7 +2207,7 @@ msgstr "Potvrďte prosím, že smazáním účtu:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Všechna předplatná, která máte, budou zrušena"
 
 #: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
@@ -2271,7 +2271,7 @@ msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Starý nebo neplatný kód"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2291,7 +2291,7 @@ msgstr "Zadejte ověřovací kód"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Zadejte prosím ověřovací kód, který bude během 20 minut doručen na adresu %(escapedEmail)s."
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
