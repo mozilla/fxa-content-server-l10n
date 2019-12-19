@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-11-28 02:20+0000\n"
+"PO-Revision-Date: 2019-10-01 07:36+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -571,7 +571,7 @@ msgstr "Puguhkeun surél utama"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr "Péripikasi surél"
+msgstr "Pastikeun surél"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
