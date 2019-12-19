@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-15 07:04+0000\n"
+"PO-Revision-Date: 2019-12-19 15:32+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -40,7 +40,7 @@ msgstr "پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ کامیابی کے ساتھ مندرجہ ذیل آلہ سے تبدیل کردیا گیا تھا:"
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -52,11 +52,11 @@ msgstr "آپ کے اکاؤنٹ کا پاس ورڈ تبدیل کیا گیا تھ�
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "ہمہ وقت سازی کو دوبارہ شروع کرنے کیلئے آپ کو دوسرے آلات پر اپنا نیا پاس ورڈ درج کرنے کی ضرورت ہوگی۔"
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "ہمہ وقت سازی کو دوبارہ شروع کرنے کیلئے آپ کو دوسرے آلات پر اپنا نیا پاس ورڈ درج کرنے کی ضرورت ہوگی۔"
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "کچھ دن پہلے آپ نے Firefox اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔"
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -532,7 +532,7 @@ msgstr ""
 
 #: lib/senders/email.js:437
 msgid "Finish creating your account"
-msgstr ""
+msgstr "اپنا اکاؤنٹ بنانا ختم کریں"
 
 #: lib/senders/email.js:438 lib/senders/email.js:566
 msgid "Confirm email"
@@ -548,7 +548,7 @@ msgstr ""
 
 #: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "آخری یاد دہانی: اپنا اکاؤنٹ چالو کریں"
 
 #: lib/senders/email.js:603
 msgid "Account authorization code"
