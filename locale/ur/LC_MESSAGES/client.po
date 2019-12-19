@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-17 10:16+0000\n"
+"PO-Revision-Date: 2019-12-19 15:09+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -271,7 +271,7 @@ msgstr "اکاؤنٹ کی بازیابی کوفعال بنا دیا گیا"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "اکاؤنٹ کی بازیابی منسوخ کردی گئی"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
@@ -753,7 +753,7 @@ msgstr "فون نمبر درکار پے"
 
 #: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:543
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "دو قدمی تصدیق درکار ہے"
 
 #: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:547
 msgid "Invalid two-step authentication code"
@@ -1724,7 +1724,7 @@ msgstr "اہل بنائیں"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "بازیابی کوڈ کو تبدیل کریں"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1786,7 +1786,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "اپنی بازیابی کی کلید کو دیکھنے کے لئے اپنا پاس ورڈ درج کریں۔"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1794,7 +1794,7 @@ msgstr "پاس ورڈ داخل کریں"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
 msgid "Are you sure you want to revoke?"
-msgstr ""
+msgstr "کیا آپ واقعی منسوخ کرنا چاہتے ہیں؟"
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
@@ -1810,7 +1810,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "ہو گیا ، بازیابی کی کلید محفوظ ہوگئی پے"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1966,7 +1966,7 @@ msgstr "مزید کے لئے سائن اپ کریں:"
 
 #: .es5/templates/choose_what_to_sync.mustache:15 .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr " آن لائن محفوظ اور ہوشیار رہیں"
 
 #: .es5/templates/choose_what_to_sync.mustache:17
 msgid "Invite me to test new Mozilla products"
@@ -2010,7 +2010,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:16 .es5/templates/sms_sent.mustache:8 .es5/templates/sms_send.mustache:9 .es5/templates/sms_sent.mustache:7 .es5/templates/sms_send.mustache:6
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "کسی دوسرے آلہ پر سائن ان کیوں کریں؟"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/sms_sent.mustache:9 .es5/templates/ready.mustache:2 .es5/templates/sms_send.mustache:10 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -2160,7 +2160,7 @@ msgstr "ادائیگی اور بلنگ"
 
 #: .es5/templates/support.mustache:6 .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "کنکشن کے مسائل"
 
 #: .es5/templates/support.mustache:7 .es5/models/support-form.js:25
 msgid "Getting started"
@@ -2184,7 +2184,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:14 .es5/templates/settings/delete_account.mustache:16
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "برائے مہربانی اپنا اکاؤنٹ حذف کرکے اسے تسلیم کری‏ں:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
@@ -2328,7 +2328,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "رکنیت پر واپس جائیں"
 
 #: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:272
 msgid "Invalid or expired verification code"
@@ -2368,7 +2368,7 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "ھمہ وقت سازی سے منقطع کریں"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
