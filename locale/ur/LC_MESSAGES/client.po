@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-19 15:26+0000\n"
+"PO-Revision-Date: 2019-12-21 14:02+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:227 .es5/lib/auth-errors.js:226 .es5/lib/auth-errors.js:224
 msgid "Recovery code not found"
-msgstr ""
+msgstr "بازیابی کا کوڈ نہیں ملا"
 
 #: .es5/lib/auth-errors.js:235 .es5/lib/auth-errors.js:231 .es5/lib/auth-errors.js:230 .es5/lib/auth-errors.js:228
 msgid "Unavailable device command"
@@ -1958,7 +1958,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:12
 msgid "Practical knowledge is coming to your inbox"
-msgstr ""
+msgstr "عملی علم آپ کے داخلی صندوق میں آرہا ہے"
 
 #: .es5/templates/choose_what_to_sync.mustache:13
 msgid "Sign up for more:"
@@ -2018,7 +2018,7 @@ msgstr "براؤزنگ کا آغاز کریں"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "اپنے متن کی بڑتال کریں"
 
 #: .es5/templates/sms_sent.mustache:5 .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
