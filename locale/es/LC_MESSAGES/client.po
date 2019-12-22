@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-22 18:38+0000\n"
+"PO-Revision-Date: 2019-12-22 19:04+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -2192,7 +2192,7 @@ msgstr "Asunto (opcional)"
 
 #: .es5/templates/support.mustache:10
 msgid "Description of Issue"
-msgstr ""
+msgstr "Descripción del problema"
 
 #: .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:7
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -2204,7 +2204,7 @@ msgstr "Ten en cuenta que al eliminar tu cuenta:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Se cancelará cualquier suscripción que tengas"
 
 #: .es5/templates/settings/delete_account.mustache:16 .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
@@ -2270,7 +2270,7 @@ msgstr "Firefox"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Expired or invalid code"
-msgstr ""
+msgstr "Código inválido o caducado"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
@@ -2278,7 +2278,7 @@ msgstr "Sincroniza sea donde sea que inicies sesión:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
-msgstr ""
+msgstr "Habilitar Sync"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -2290,7 +2290,7 @@ msgstr "Introducir código de verificación"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "Introduce el código de verificación que se envió a %(escapedEmail)s en los próximos 20 minutos."
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
@@ -2342,7 +2342,7 @@ msgstr "Mantente a salvo &mdash; no reutilices las contraseñas."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Se envió tu mensaje al equipo de ayuda"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
@@ -2358,79 +2358,79 @@ msgstr "Introduce el código de verificación que se envió a %(escapedEmail)s e
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "¿Estás bloqueado?"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "¿Tienes problemas para introducir el código?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "¿Quiere cancelar una suscripción pagada? Ve a <a href=\"/subscriptions\">Administrar suscripciones</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Se envió tu mensaje al equipo de ayuda"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Selecciones de sincronización"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "¿Necesitas otro código? Reenviar"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros. <br/>Si la restableces, significa que podrías perder datos como contraseñas y marcadores."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Desconectar de Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Estás desconectando %(deviceName)s de Sync porque este dispositivo:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Es sospechoso"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Lo han robado o está perdido"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Es viejo o se ha reemplazado"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Es un duplicado"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Regístrate para obtener más funciones:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Sincroniza tus marcadores, contraseñas y mucho más en cada dispositivo."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Accede de forma segura a las contraseñas guardadas en Firefox en cualquier lugar $mdash; incluso fuera del navegador."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Envía archivos más grandes de forma segura y privada."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Elige qué quieres sincronizar:"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "¿Correo electrónico mal escrito? %(domain)s no ofrece correo electrónico."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registrado."
