@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-18 17:07+0000\n"
+"PO-Revision-Date: 2019-12-23 15:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -122,7 +122,7 @@ msgstr "Mba’eñemi jeguerujeyrã mba’ete ipyahúvape"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Emoheñói porã mba’eñemi jeguerujeyrã Firefox Account peg̃uarã eipurúvo ko tenondevegua mba’e’oka:"
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -130,7 +130,7 @@ msgstr "Nandéiramo, <a %(revokeAccountRecoveryLinkAttributes)s>eikutu ko’ápe
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Emoheñói porã mba’eñemi jeguerujeyrã Firefox Account peg̃uarã eipurúvo ko tenondevegua mba’e’oka:"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
@@ -142,7 +142,7 @@ msgstr "Ijurujáma mokõi jeku’épe ñemoneĩ"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Emoheñói porã jeguerujeyrã mokõi jeku’egua nde Firefox Account peg̃uarã tenondevegua mba’e’oka guive:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
