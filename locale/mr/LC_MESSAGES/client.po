@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-14 12:18+0000\n"
-"Last-Translator: Nilima Chavan <sanchitac067@gmail.com>\n"
+"PO-Revision-Date: 2019-12-18 15:57+0000\n"
+"Last-Translator: Pranav Deshpande <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "खाता सत्यापित"
 
 #: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "जोडले"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -1084,7 +1084,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "हे Firefox जोडलेले आहे"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
