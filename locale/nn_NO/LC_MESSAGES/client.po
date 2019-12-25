@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-17 13:26+0000\n"
+"PO-Revision-Date: 2019-12-25 17:34+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -2382,7 +2382,7 @@ msgstr "Treng du ein annan kode? Send på nytt"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Du treng dette passordet for å få tilgang til alle krypterte data du lagrar hos oss.<br/>Ei tilbakestilling tyder å miste data som passord og bokmerke."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
@@ -2390,19 +2390,19 @@ msgstr "Kople frå Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Du koplar %(deviceName)s frå Sync fordi denne eininga er:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Mistenkjeleg"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Mista eller stole"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Gammal eller erstatta"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
@@ -2414,23 +2414,23 @@ msgstr "Registrer deg for å få tilgang til fleire funksjonar:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Synkroniser bokmerka dine, passord og meir, på kvar eining."
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Få sikker tilgang til passord som er lagra i Firefox i frå kvar som helst &mdash; sjølv utanfor nettlesaren."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Send større filer sikkert og privat."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Vel kva som skal synkroniserast:"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Skrivefeil i e-postadresse? %(domain)s tilbyr ikkje e-post."
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Gått ut eller ugyldig registreringskode"
