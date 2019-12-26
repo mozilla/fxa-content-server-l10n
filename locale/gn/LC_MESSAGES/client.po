@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-18 17:09+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"PO-Revision-Date: 2019-12-26 14:09+0000\n"
+"Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
 "MIME-Version: 1.0\n"
@@ -951,6 +951,8 @@ msgstr "Emoinge mba’eñemi jeguerujeyrã peteĩjeýnte ojepurúva eñongatúva
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">JEHAIPY:</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’ete mba’eñemi jeguerujeyrã, oguekuaa ne mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva "
+"tambiasakue ha techaukaha)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
