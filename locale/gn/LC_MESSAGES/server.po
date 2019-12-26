@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 14:53+0000\n"
+"PO-Revision-Date: 2019-12-26 15:02+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -453,7 +453,7 @@ msgstr "Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýp
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Kóva ha'e ñanduti veve ijeheguíva; neremoneĩriramo ko mba’e, <a %(resetLinkAttributes)s>eguerujey ne ñe’ẽñemi</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -670,6 +670,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Ndojejuhúi kuatiarogue jerurepyre\n"
+"                    romoĩporã juajuha ikatúva oñembyai."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
