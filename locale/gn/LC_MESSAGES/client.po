@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 14:31+0000\n"
+"PO-Revision-Date: 2019-12-26 14:36+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2367,7 +2367,7 @@ msgstr "¿Eikotevẽ ambue ayvu? Emondojey"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Eikotevẽ ñe’ẽñemi eike hag̃ua mba’ekuaarã papapy embyatýva orendivépe. <br/>Eguerujeýramo, he’ise oguekuaaha ndehegui mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha."
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
