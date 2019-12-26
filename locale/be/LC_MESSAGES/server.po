@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-17 17:21+0000\n"
+"PO-Revision-Date: 2019-12-26 16:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -247,11 +247,11 @@ msgstr "Ёсць пытанні? Наведайце %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
-msgstr ""
+msgstr "Пазбегніце блакавання ўліковага запісу"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr ""
+msgstr "Два простыя крокі дапамогуць вам вярнуцца ў свой уліковы запіс і абараніць свае звесткі, калі вам спатрэбіцца скінуць пароль."
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
