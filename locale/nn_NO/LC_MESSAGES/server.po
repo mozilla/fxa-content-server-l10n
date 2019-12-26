@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 19:13+0000\n"
+"PO-Revision-Date: 2019-12-26 19:33+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -64,19 +64,19 @@ msgstr "Om du ikkje endra det, tilbakestill passordet ditt no på %(resetLink)s"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "Kontopassordet ditt vart tilbakestilt med ein gjenopprettingsnykel"
+msgstr "Kontopassordet ditt vart tilbakestilt med ein gjenopprettingsnøkkel"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Du har tilbakestilt passordet ditt ved hjelp av ein gjenopprettingsnykel frå følgjande eining:"
+msgstr "Du har tilbakestilt passordet ditt ved hjelp av ein gjenopprettingsnøkkel frå følgjande eining:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
-msgstr "Du må generere ein ny gjenopprettingsnykel."
+msgstr "Du må generere ein ny gjenopprettingsnøkkel."
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:4
 msgid "Create new recovery key:"
-msgstr "Lag ny gjenopprettingsnykel:"
+msgstr "Lag ny gjenopprettingsnøkkel:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
 msgid "For more information, please visit %(supportUrl)s"
@@ -119,11 +119,11 @@ msgstr "Teamet for Firefox-kontoar"
 
 #: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1616
 msgid "Account recovery key generated"
-msgstr "Gjenopprettingsnykel for konto generert"
+msgstr "Gjenopprettingsnøkkel for konto generert"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Du har oppretta ein nykel for kontogjenoppretting for Firefox-kontoen din ved hjelp av følgjande eining:"
+msgstr "Du har oppretta ein nøkkel for kontogjenoppretting for Firefox-kontoen din ved hjelp av følgjande eining:"
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -131,11 +131,11 @@ msgstr "Dersom dette ikkje var deg, <a %(revokeAccountRecoveryLinkAttributes)s>k
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Du har oppretta ein nykel for kontogjenoppretting for Firefox-kontoen din frå følgjande eining:"
+msgstr "Du har oppretta ein nøkkel for kontogjenoppretting for Firefox-kontoen din frå følgjande eining:"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr "Viss dette ikkje var deg, tilbakekall nykelen."
+msgstr "Viss dette ikkje var deg, tilbakekall nøkkelen."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
@@ -187,11 +187,11 @@ msgstr "Du har generert nye gjenopprettingskodar frå følgjande eining:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1662
 msgid "Account recovery key removed"
-msgstr "Gjenopprettingsnykel for konto fjerna"
+msgstr "Gjenopprettingsnøkkel for konto fjerna"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Du har fjerna ein nykel for kontogjenoppretting for Firefox-kontoen din ved hjelp av følgjande eining:"
+msgstr "Du har fjerna ein nøkkel for kontogjenoppretting for Firefox-kontoen din ved hjelp av følgjande eining:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
