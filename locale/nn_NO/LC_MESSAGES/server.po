@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 19:33+0000\n"
+"PO-Revision-Date: 2019-12-26 19:34+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -195,11 +195,11 @@ msgstr "Du har fjerna ein nøkkel for kontogjenoppretting for Firefox-kontoen di
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
-msgstr "Denne gjenopprettingsnykelen kan ikkje lenger brukast til å gjenopprette kontoen din."
+msgstr "Denne gjenopprettingsnøkkelen kan ikkje lenger brukast til å gjenopprette kontoen din."
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Du har fjerna ein nykel for kontogjenoppretting, for Firefox-kontoen din, frå følgjande eining:"
+msgstr "Du har fjerna ein nøkkel for kontogjenoppretting, for Firefox-kontoen din, frå følgjande eining:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
 msgid "Secondary email removed"
@@ -653,11 +653,11 @@ msgstr "Generer kodar"
 
 #: lib/senders/email.js:1708
 msgid "Password updated using recovery key"
-msgstr "Passord oppdatert ved hjelp av oppattbyggingsnykel"
+msgstr "Passord oppdatert ved hjelp av gjenopprettingsnøkkel"
 
 #: lib/senders/email.js:1709
 msgid "Create new recovery key"
-msgstr "Lag ny gjenopprettingsnykel"
+msgstr "Lag ny gjenopprettingsnøkkel"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
