@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-25 17:41+0000\n"
+"PO-Revision-Date: 2019-12-26 19:13+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -155,7 +155,7 @@ msgstr "Du har aktivert tostegs-verifisering på Firefox-kontoen din. Sikkerheit
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr "Ny primær e-post"
+msgstr "Ny primær e-postadresse"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -391,7 +391,7 @@ msgstr "Den går ut om 5 minutt."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr "Stadfest primær e-post"
+msgstr "Verifiser primær e-postadresse"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -403,11 +403,11 @@ msgstr "Når denne e-postadressa er stadfesta, vil endringar i kontoen som å le
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "Stadfest e-post: "
+msgstr "Verifiser e-postadresse: "
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
 msgid "Verify secondary email"
-msgstr "Stadfest sekundær e-post"
+msgstr "Verifiser sekundær e-postadresse"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -572,7 +572,7 @@ msgstr "Stadfest primær e-postadresse"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr "Stadfest e-post"
+msgstr "Verifiser e-postadresse"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
