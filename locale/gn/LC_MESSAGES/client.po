@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 14:36+0000\n"
+"PO-Revision-Date: 2019-12-27 14:13+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1016,7 +1016,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Egueruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
 msgid "New password"
@@ -1388,7 +1388,7 @@ msgstr "Ani ehundi ko ñe’ẽñemi. Eguerujeyséramo, ikatu ehundi umi ñemboj
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Ani eipuru ne ñanduti veve ñe’ẽñemi</span> Oĩramo oikuaáva ne ñanduti veve ñe’ẽñemi, ikatu omoñepyrũ tembiapo Firefox-pe mba’e’oka pyahúgui ha oike ne mba’ekuaarãme."
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
