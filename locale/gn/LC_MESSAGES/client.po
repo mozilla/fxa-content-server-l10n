@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-27 14:13+0000\n"
+"PO-Revision-Date: 2019-12-27 14:32+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1461,7 +1461,7 @@ msgstr "Pe Sync mba’epuru ndaha’éi ñongatupyre hekorosãva, ha’e embohas
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Emohendava’erã Firefox ha embojuehe michĩvéramo mokõi mba’e’oka emo’ã hag̃ua ha ani mba’ekuaarã okañy eguerusejeýramo ha nderesarái ñe’ẽñemígui."
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
@@ -1607,7 +1607,7 @@ msgstr "Ñanduti veve jerohoryvéva"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-msgstr ""
+msgstr "Og̃uahẽta marandu’i tekorosã ha mba’ete rembiapoite rehegua, umi ñemoambue pururekópe ha avei ñanduti veve ñepyrũrãva ne pytyvõ hag̃ua eipuru porã hag̃ua Firefox mba’ete."
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
@@ -1809,7 +1809,7 @@ msgstr "Jeku’e 2 guive 2 peve: eñongatu ne mba’eñemi jeguerujeyrã"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
+msgstr "<span class=\"note\">JEHAIPY:</span> nderasaráirõ ñe’ẽñemígui, eikotevẽta ko mba’eñemi eikejey hag̃ua ne mba’ekuaarãme. Eñongatu tenda hekorosãvape, eikekuaa hag̃ua pya’ete."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2211,7 +2211,7 @@ msgstr "Ambue"
 
 #: .es5/views/support.js:216 .es5/views/support.js:230 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Aguyjémante eñe’ẽ haguére Mozilla Pytyvõha ndive <b>%(escapedLowercaseTopic)s</b> rehegua. Ñañomongetáta ñanduti veve rupive vokoiete."
 
 #: .es5/views/support.js:218 .es5/views/support.js:232 .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
