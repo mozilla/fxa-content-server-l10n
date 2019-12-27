@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-27 14:32+0000\n"
+"PO-Revision-Date: 2019-12-27 14:36+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2215,7 +2215,7 @@ msgstr "Aguyjémante eñe’ẽ haguére Mozilla Pytyvõha ndive <b>%(escapedLow
 
 #: .es5/views/support.js:218 .es5/views/support.js:232 .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Aguyje eñe’ẽ haguére Mozilla Support ndive <b>%(escapedLowercaseTopic)s</b> rehegua <b>%(escapedSelectedPlan)s</b> peg̃uarã. Ñañomongetáta ñanduti veve rupive vokoiete."
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."

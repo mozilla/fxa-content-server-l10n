@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 15:02+0000\n"
+"PO-Revision-Date: 2019-12-27 14:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -292,7 +292,7 @@ msgstr "Eñemo’ãke ani hag̃ua ejejoko"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Embojuaju ñanduti veve mokõiháva oipytyvõ oujeývo ne mba’etépe ejoko mba’éramo ha ndaikatúi eike ne ñanduti vevépe."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna."
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
