@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-19 19:46+0000\n"
+"PO-Revision-Date: 2019-12-29 16:42+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1292,7 +1292,7 @@ msgstr "Odhlášení"
 #: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
-msgstr "Přihlásit se s jiným účtem"
+msgstr "Použít jiný účet"
 
 #: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
 msgid "Create an account"
