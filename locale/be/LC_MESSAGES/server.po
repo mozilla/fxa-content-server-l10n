@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-26 16:54+0000\n"
+"PO-Revision-Date: 2019-12-29 09:33+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -259,35 +259,35 @@ msgstr "Укажыце альтэрнатыўную электронную по�
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Дапамагае вам вярнуцца, калі вы страціце доступ да электроннай пошты."
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr " Стварыце ключ аднаўлення: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "Firefox абараняе вашы звесткі, выдаляючы сінхранізаваныя дадзеныя, калі вы скідаеце пароль. Ключ аднаўлення іх аднаўляе."
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Укажыце альтэрнатыўную электронную пошту:"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Стварыце ключ аднаўлення:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Абараніце свае дадзеныя з дапамогай ключа аднаўлення"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Аднаўляйце сінхранізаваныя дадзеныя і працягвайце з таго месца, дзе спыніліся, з дапамогай унікальнага ключа аднаўлення."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "У іншым выпадку, Firefox абараняе вашы дадзеныя, сціраючы іх пры скідзе пароля."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"

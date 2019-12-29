@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-11-29 19:16+0000\n"
+"PO-Revision-Date: 2019-12-29 09:24+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -42,7 +42,7 @@ msgstr "Адрас эл.пошты"
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
 #: .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr "Адлюстроўнае імя"
+msgstr "Бачнае імя"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
@@ -217,7 +217,7 @@ msgstr "Уліковы запіс паспяхова выдалены"
 
 #: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66 .es5/views/settings/display_name.js:225
 msgid "Display name updated"
-msgstr "Адлюстраванае імя абноўлена"
+msgstr "Бачнае імя абноўлена"
 
 #: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103 .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
@@ -880,9 +880,7 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -952,8 +950,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -1649,8 +1646,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як "
-"вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+"Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
+" выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1826,8 +1823,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце знайсці "
 "яго пазней."
@@ -2156,8 +2152,7 @@ msgstr "Неправераны карыстальнік або сеанс"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr ""
-"Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
+msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
