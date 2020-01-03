@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-03 04:12+0000\n"
+"PO-Revision-Date: 2020-01-03 04:20+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -264,7 +264,7 @@ msgstr "回復用キーを作成: "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "パスワードがリセットされると、Firefox が同期データを消去してデータを保護します。回復用キーでそのデータを復元します。"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
@@ -276,7 +276,7 @@ msgstr "回復用キーを作成:"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "回復用キーでデータを保護する"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
@@ -296,7 +296,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
-msgstr "予備アドレスが追加されました"
+msgstr "予備のメールアドレスが追加されました"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -416,7 +416,7 @@ msgstr "確認が済み次第、このアドレスにセキュリティ通知や
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "これはあなたが登録しようとしているアカウントですか？"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -477,7 +477,7 @@ msgstr "Firefox Cloud 利用規約"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "利用規約とキャンセルポリシー"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
@@ -493,7 +493,7 @@ msgstr "支払い情報を更新"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "利用規約とキャンセルポリシー:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -537,7 +537,7 @@ msgstr "アカウント作成を完了してください"
 
 #: lib/senders/email.js:438 lib/senders/email.js:566
 msgid "Confirm email"
-msgstr ""
+msgstr "メールアドレス確認"
 
 #: lib/senders/email.js:505
 msgid "Verification code: %(code)s"
@@ -545,11 +545,11 @@ msgstr "確認コード: %(code)s"
 
 #: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "通知: アカウント作成を完了してください"
 
 #: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "最終通知：アカウントを有効にしてください"
 
 #: lib/senders/email.js:603
 msgid "Account authorization code"
@@ -565,36 +565,36 @@ msgstr "%(serviceName)s のログインコード"
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"
-msgstr ""
+msgstr "優先メールアドレス確認"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr ""
+msgstr "メールアドレスの確認"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "予備メールアドレスの確認"
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
-msgstr ""
+msgstr "パスワードをリセットしました"
 
 #: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"
-msgstr ""
+msgstr "パスワードを更新しました"
 
 #: lib/senders/email.js:1032
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "疑わしいアクティビティが検出されました"
 
 #: lib/senders/email.js:1074 lib/senders/email.js:1173 lib/senders/email.js:1328 lib/senders/email.js:1364 lib/senders/email.js:1398 lib/senders/email.js:1441 lib/senders/email.js:1484
 #: lib/senders/email.js:1527 lib/senders/email.js:1617 lib/senders/email.js:1663
 msgid "Manage account"
-msgstr "アカウントを管理"
+msgstr "アカウント管理"
 
 #: lib/senders/email.js:1127
 msgid "Account confirmed"
-msgstr ""
+msgstr "アカウントを確認しました"
 
 #: lib/senders/email.js:1130
 msgid "Connect another device"
@@ -650,7 +650,7 @@ msgstr "コードを生成"
 
 #: lib/senders/email.js:1708
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "回復用キーでパスワードが更新されました"
 
 #: lib/senders/email.js:1709
 msgid "Create new recovery key"
