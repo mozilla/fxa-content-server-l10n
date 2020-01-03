@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 17:57+0000\n"
+"POT-Creation-Date: 2020-01-03 08:01+0000\n"
 "PO-Revision-Date: 2019-12-15 18:44+0000\n"
 "Last-Translator: Đặng Duy Thanh <thanhdd.it@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Chúng tôi nhận thấy rằng bạn sắp hết mã khôi phục. Vui
 msgid "Generate codes:"
 msgstr "Tạo mã:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1073
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1123
 msgid "New sign-in to %(clientName)s"
 msgstr "Đăng nhập mới vào %(clientName)s"
 
@@ -117,7 +117,7 @@ msgstr "Trân trọng,"
 msgid "The Firefox Accounts team"
 msgstr "Nhóm Tài khoản Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1666
 msgid "Account recovery key generated"
 msgstr "Đã tạo khóa khôi phục tài khoản"
 
@@ -176,7 +176,7 @@ msgstr "Bạn đã sử dụng thành công mã khôi phục từ thiết bị s
 msgid "Consumed recovery code"
 msgstr "Đã sử dụng mã phục hồi"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1483
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1533
 msgid "New recovery codes generated"
 msgstr "Đã tạo mã khôi phục mới"
 
@@ -184,7 +184,7 @@ msgstr "Đã tạo mã khôi phục mới"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Bạn đã tạo thành công mã khôi phục mới từ thiết bị sau:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1662
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1712
 msgid "Account recovery key removed"
 msgstr "Đã xóa khóa khôi phục tài khoản"
 
@@ -200,7 +200,7 @@ msgstr "Khóa khôi phục này không còn được sử dụng để khôi ph�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Bạn đã xóa thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1413
 msgid "Secondary email removed"
 msgstr "Đã xóa email phụ"
 
@@ -296,7 +296,7 @@ msgstr "Bảo vệ bạn khỏi bị khóa"
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr "Thêm một thư điện tử phụ sẽ giúp lấy lại tài khoản của bạn nếu bạn bị khóa và không thể truy cập thư điện tử."
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1222
 msgid "Secondary email added"
 msgstr "Đã thêm email phụ"
 
@@ -312,7 +312,7 @@ msgstr "Cần đặt lại mật khẩu của bạn?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Vui lòng nhấp vào nút trong vòng một giờ để đặt mật khẩu mới. Yêu cầu này được thực hiện từ thiết bị sau:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:923
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:973
 msgid "Create new password"
 msgstr "Tạo mật khẩu mới"
 
@@ -376,7 +376,7 @@ msgstr "Xác nhận tài khoản của bạn và tận dụng tối đa Firefox 
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Để tăng cường bảo mật, vui lòng xác nhận đăng nhập này từ thiết bị sau:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:675
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:677
 msgid "Confirm sign-in"
 msgstr "Xác nhận lần đăng nhập này"
 
@@ -404,17 +404,25 @@ msgstr "Sau khi được xác minh, các thay đổi tài khoản như thêm ema
 msgid "Verify email: "
 msgstr "Xác nhận email: "
 
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
+#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
 msgstr "Xác nhận email phụ"
 
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
+#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
 msgstr "Yêu cầu sử dụng %(email)s làm địa chỉ email phụ được tạo từ Tài khoản Firefox sau:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
 msgstr "Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận."
+
+#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
+msgid "Use this verification code:"
+msgstr ""
+
+#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
+msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -509,152 +517,152 @@ msgstr "Hủy đăng ký:"
 msgid "Update billing information:"
 msgstr "Cập nhật thông tin thanh toán:"
 
-#: lib/senders/email.js:229
+#: lib/senders/email.js:231
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s trên %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:234
+#: lib/senders/email.js:236
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s trên %(uaOS)s"
 
-#: lib/senders/email.js:260
+#: lib/senders/email.js:262
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:269
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:274
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:277
+#: lib/senders/email.js:279
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ước tính)"
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:439
 msgid "Finish creating your account"
 msgstr "Kết thúc việc tạo tài khoản của bạn"
 
-#: lib/senders/email.js:438 lib/senders/email.js:566
+#: lib/senders/email.js:440 lib/senders/email.js:568
 msgid "Confirm email"
 msgstr "Xác nhận email"
 
-#: lib/senders/email.js:505
+#: lib/senders/email.js:507
 msgid "Verification code: %(code)s"
 msgstr "Mã xác minh: %(code)s"
 
-#: lib/senders/email.js:546
+#: lib/senders/email.js:548
 msgid "Reminder: Finish creating your account"
 msgstr "Nhắc nhở: Hoàn tất tạo tài khoản của bạn"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:550
 msgid "Final reminder: Activate your account"
 msgstr "Lời nhắc cuối cùng: Kích hoạt tài khoản của bạn"
 
-#: lib/senders/email.js:603
+#: lib/senders/email.js:605
 msgid "Account authorization code"
 msgstr "Mã ủy quyền tài khoản"
 
-#: lib/senders/email.js:672
+#: lib/senders/email.js:674
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
-#: lib/senders/email.js:717
+#: lib/senders/email.js:719
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Mã đăng nhập cho %(serviceName)s"
 
-#: lib/senders/email.js:782
+#: lib/senders/email.js:784
 msgid "Confirm primary email"
 msgstr "Xác nhận email chính"
 
-#: lib/senders/email.js:783 lib/senders/email.js:842
+#: lib/senders/email.js:785 lib/senders/email.js:844 lib/senders/email.js:912
 msgid "Verify email"
 msgstr "Xác nhận Email"
 
-#: lib/senders/email.js:841
+#: lib/senders/email.js:843 lib/senders/email.js:911
 msgid "Confirm secondary email"
 msgstr "Xác nhận email phụ"
 
-#: lib/senders/email.js:922
+#: lib/senders/email.js:972
 msgid "Reset your password"
 msgstr "Đặt lại mật khẩu của bạn"
 
-#: lib/senders/email.js:964 lib/senders/email.js:1002
+#: lib/senders/email.js:1014 lib/senders/email.js:1052
 msgid "Password updated"
 msgstr "Đã cập nhật mật khẩu"
 
-#: lib/senders/email.js:1032
+#: lib/senders/email.js:1082
 msgid "Suspicious activity detected"
 msgstr "Phát hiện hoạt động đáng ngờ"
 
-#: lib/senders/email.js:1074 lib/senders/email.js:1173 lib/senders/email.js:1328 lib/senders/email.js:1364 lib/senders/email.js:1398 lib/senders/email.js:1441 lib/senders/email.js:1484
-#: lib/senders/email.js:1527 lib/senders/email.js:1617 lib/senders/email.js:1663
+#: lib/senders/email.js:1124 lib/senders/email.js:1223 lib/senders/email.js:1378 lib/senders/email.js:1414 lib/senders/email.js:1448 lib/senders/email.js:1491 lib/senders/email.js:1534
+#: lib/senders/email.js:1577 lib/senders/email.js:1667 lib/senders/email.js:1713
 msgid "Manage account"
 msgstr "Quản lý tài khoản"
 
-#: lib/senders/email.js:1127
+#: lib/senders/email.js:1177
 msgid "Account confirmed"
 msgstr "Tài khoản đã xác minh"
 
-#: lib/senders/email.js:1130
+#: lib/senders/email.js:1180
 msgid "Connect another device"
 msgstr "Kết nối với thiết bị khác"
 
-#: lib/senders/email.js:1208
+#: lib/senders/email.js:1258
 msgid "Set up account recovery"
 msgstr "Thiết lập phục hồi tài khoản"
 
-#: lib/senders/email.js:1209
+#: lib/senders/email.js:1259
 msgid "Open account settings"
 msgstr "Mở cài đặt tài khoản"
 
-#: lib/senders/email.js:1249
+#: lib/senders/email.js:1299
 msgid "Set up recovery email"
 msgstr "Thiết lập thư điện tử khôi phục"
 
-#: lib/senders/email.js:1250
+#: lib/senders/email.js:1300
 msgid "Add a secondary email"
 msgstr "Thêm một thư điện tử phụ"
 
-#: lib/senders/email.js:1290 lib/senders/email.js:1291
+#: lib/senders/email.js:1340 lib/senders/email.js:1341
 msgid "Get a recovery key"
 msgstr "Nhận khóa khôi phục"
 
-#: lib/senders/email.js:1327
+#: lib/senders/email.js:1377
 msgid "Primary email updated"
 msgstr "Email chính đã xác minh"
 
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1447
 msgid "Two-step verification enabled"
 msgstr "Đã bật xác thực hai bước"
 
-#: lib/senders/email.js:1440
+#: lib/senders/email.js:1490
 msgid "Two-step verification is off"
 msgstr "Đã tắt xác thực hai bước"
 
-#: lib/senders/email.js:1526
+#: lib/senders/email.js:1576
 msgid "Recovery code used"
 msgstr "Mã khôi phục đã sử dụng"
 
-#: lib/senders/email.js:1579
+#: lib/senders/email.js:1629
 msgid "1 recovery code remaining"
 msgstr "1 mã khôi phục còn lại"
 
-#: lib/senders/email.js:1581
+#: lib/senders/email.js:1631
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s mã khôi phục còn lại"
 
-#: lib/senders/email.js:1584
+#: lib/senders/email.js:1634
 msgid "Generate codes"
 msgstr "Tạo mã"
 
-#: lib/senders/email.js:1708
+#: lib/senders/email.js:1758
 msgid "Password updated using recovery key"
 msgstr "Đã cập nhật mật khẩu bằng khóa khôi phục"
 
-#: lib/senders/email.js:1709
+#: lib/senders/email.js:1759
 msgid "Create new recovery key"
 msgstr "Tạo khóa khôi phục mới"
 
