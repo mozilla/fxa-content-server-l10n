@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-03 06:11+0000\n"
+"PO-Revision-Date: 2020-01-03 06:12+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -2234,7 +2234,7 @@ msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:62 .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ਵਾਰ ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ"
 
 #: .es5/views/settings/clients.js:65 .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -2278,7 +2278,7 @@ msgstr "ਇਹ ਡਿਵਾਈਸ ਸਿੰਕ ਨਾ ਕਰੋ"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
