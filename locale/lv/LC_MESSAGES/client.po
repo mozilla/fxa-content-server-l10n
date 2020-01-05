@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-03-12 15:35+0000\n"
-"Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
+"PO-Revision-Date: 2020-01-05 23:41+0000\n"
+"Last-Translator: Jānis Marks Gailis (Jean-Marc) <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "Mums ir nepatīkami šo dzirdēt. Ja jūs šai iekārtai neuzticaties, j
 
 #: .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:61
 msgid "Last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Pēdējā sinhronizācija %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:85 .es5/views/settings/clients.js:62
 msgid "Last sync over %(translatedTimeAgo)s"
@@ -247,7 +247,7 @@ msgstr ""
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Divpakāpju autentifikācija ieslēgta"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -332,7 +332,7 @@ msgstr "Lejupielādēts"
 
 #: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Izdrukāts"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 #: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
@@ -880,9 +880,7 @@ msgid "Invalid Token"
 msgstr "Nederīgs žetons"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Turpinot, jūs piekrītat <a id=\"service-tos\" href=\"%(termsUri)s\">pakalpojuma lietošanas noteikumiem</a> un %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">privātuma "
 "politikai</a>."
@@ -952,8 +950,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
@@ -1810,8 +1807,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2480,12 +2476,10 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Sīkdatnes un lokālā krātuve ir nepieciešamas."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Turpinot, jūs piekrītat <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">pakalpojuma noteikumiem</a> un Firefox mākoņa pakalpojumu <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">privātuma atrunai</a>."
+#~ "Turpinot, jūs piekrītat <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">pakalpojuma noteikumiem</a> un Firefox mākoņa pakalpojumu <a id=\"fxa-pp\" href=\"/legal/privacy\" "
+#~ "tabindex=\"-1\">privātuma atrunai</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox mākoņa pakalpojumi"
@@ -2586,19 +2580,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Sync iestatījumi"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Meklē Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Sāc šeit</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Jums ir konts ar citu epastu? <a href=\"%(signinUri)s\">Ieejiet</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ir pieejams uz <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> un <a href="
-#~ "\"%(linkLinux)s\">GNU/Linux</a>."
+#~ "Firefox ir pieejams uz <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> un <a "
+#~ "href=\"%(linkLinux)s\">GNU/Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Pēdējoreiz aktīvs: %(translatedTimeAgo)s"
