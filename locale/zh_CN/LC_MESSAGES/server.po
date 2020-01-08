@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-11-29 12:57+0000\n"
-"Last-Translator: passionforlife <eloli@foxmail.com>\n"
+"PO-Revision-Date: 2020-01-08 14:52+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -49,23 +49,23 @@ msgstr "这是一封自动发送的邮件。如果您没有更改您 Firefox 账
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
-msgstr "您的账号密码已更改"
+msgstr "您的密码已变更"
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "您需要将您的新密码输入到其他设备以继续同步。"
+msgstr "您必须在其他设备上输入新密码才能继续同步。"
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "您需要将您的新密码输入到其他设备以继续同步。"
+msgstr "您必须在其他设备上输入新密码才能继续同步。"
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "如果这次更改并非由您所做，请立即于 %(resetLink)s 重置您的密码"
+msgstr "如果不是您更改的密码，请立即到 %(resetLink)s 重置您的密码"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "已使用救援密钥重置密码"
+msgstr "您的密码已通过救援密钥重置"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
@@ -73,7 +73,7 @@ msgstr "您已使用下列设备中的救援密钥成功重置密码："
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
-msgstr "您必须生成新的救援密钥。"
+msgstr "现在，需要重新生成一组密钥。"
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:4
 msgid "Create new recovery key:"
@@ -81,15 +81,15 @@ msgstr "生成新的救援密钥："
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
 msgid "For more information, please visit %(supportUrl)s"
-msgstr "更多信息请访问 %(supportUrl)s"
+msgstr "详细信息请见 %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "我们在您的 Firefox 账户存在可疑活动。您的账户可能已被盗用。"
+msgstr "我们侦测到您的 Firefox 账户有可疑行为。可能是您被盗号了。"
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "为了防止进一步地未经授权地访问您的 Firefox 账号，我们重置了您的密码并现在通知您以作为预防措施。"
+msgstr "为了避免您的 Firefox 账户未经您的许可下再被盗用，我们已经重置了您的密码，并特此通知您。"
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
@@ -97,7 +97,7 @@ msgstr "您应该做什么？"
 
 #: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
 msgid "First, change your Firefox Account password."
-msgstr "首先，更改您 Firefox 账户的密码。"
+msgstr "首先，请更换您 Firefox 账户的密码。"
 
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
@@ -134,7 +134,7 @@ msgstr "您已使用下列设备，成功生成新的 Firefox 账户救援密钥
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr "若不是您操作的，请注销该密钥。"
+msgstr "若不是您操作的，请撤销该密钥。"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
@@ -732,10 +732,9 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox 账户所使用的功能，\n"
-"                        您的 Firefox 版本不支持。请\n"
-"                        下载并安装最新版本的 Firefox 以\n"
-"                        继续。"
+"Firefox 账户服务使用了一些新功能，\n"
+"                        您所安装的 Firefox 版本太旧，不支持。\n"
+"                        请先更新到最新版 Firefox 再继续。"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -1042,8 +1041,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1070,8 +1069,7 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1155,9 +1153,7 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
-#~ "电子邮件地址，以激活您的账号。"
+#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"
