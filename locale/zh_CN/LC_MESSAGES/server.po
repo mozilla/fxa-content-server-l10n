@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-08 14:52+0000\n"
+"PO-Revision-Date: 2020-01-08 14:56+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -134,7 +134,7 @@ msgstr "您已使用下列设备，成功生成新的 Firefox 账户救援密钥
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr "若不是您操作的，请撤销该密钥。"
+msgstr "若不是您操作的，请吊销该密钥。"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
@@ -288,15 +288,15 @@ msgstr "否则 Firefox 会清除所有同步数据，以确保您的数据安全
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr "保护自己，不被锁定"
+msgstr "保护自己，不让自己被锁在门外"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr "添加次要邮箱有助于拿回您的帐户，避免被锁住无法使用的情况。"
+msgstr "绑定次要邮箱有利于您在忘记密码的情况下取回您的账户，避免被锁住无法使用的情况。"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
-msgstr "次要邮件地址已添加"
+msgstr "次要邮件地址已绑定"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -304,7 +304,7 @@ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账户的次�
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr "需要重置您的密码？"
+msgstr "需要重置您的密码吗？"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
