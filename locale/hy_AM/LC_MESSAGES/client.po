@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-10 19:39+0000\n"
-"Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
+"PO-Revision-Date: 2019-12-10 07:29+0000\n"
+"Last-Translator: arshakabrahamyan03 <arshakabrahamyan03@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
 "MIME-Version: 1.0\n"
@@ -197,19 +197,19 @@ msgstr "%(translatedTimeAgo)s֊ում %(translatedCity)s-ին, %(translatedState
 
 #: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134 .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Ցանցային աշխատաշրջան, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138 .es5/views/settings/clients.js:135
 msgid "Web Session"
-msgstr ""
+msgstr "Ցանցային աշխատաշրջան"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
-msgstr ""
+msgstr "Վերջին համաժամեցման ժամանակն անհայտ է"
 
 #: .es5/views/settings/communication_preferences.js:153 .es5/views/settings/communication_preferences.js:132
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Հաջողությամբ բաժանորդագրվել է"
 
 #: .es5/views/settings/delete_account.js:71 .es5/views/settings/delete_account.js:54 .es5/views/settings/delete_account.js:210 .es5/views/settings/delete_account.js:227
 #: .es5/views/settings/delete_account.js:238 .es5/views/settings/delete_account.js:240
@@ -218,49 +218,49 @@ msgstr "Հաշիվը հեռացվել է"
 
 #: .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:66 .es5/views/settings/display_name.js:225
 msgid "Display name updated"
-msgstr ""
+msgstr "Ցուցադրման անունը թարմացվել է"
 
 #: .es5/views/settings/emails.js:129 .es5/views/settings/emails.js:103 .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստը ջնջվեց"
 
 #: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:172 .es5/views/mixins/upgrade-session-mixin.js:113 .es5/views/settings/emails.js:133 .es5/views/settings/emails.js:148
 #: .es5/views/mixins/upgrade-session-mixin.js:96 .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "Հաստատուման էլ֊փոստը ուղարկվել է"
 
 #: .es5/views/settings/emails.js:188 .es5/views/settings/emails.js:166 .es5/views/settings/emails.js:167
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Առաջնային էլ֊փոստը սահմանվել է %(email)s"
 
 #: .es5/views/settings/emails.js:198 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/views/settings/emails.js:179 .es5/views/settings/emails.js:180
 msgid "Secondary email"
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստ"
 
 #: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox-ի վերականգնման կոդեր"
 
 #: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Ստեղծվել են նոր վերականգնման կոդեր"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Երկքայլ վավերացումը միացված է"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Օգտագործեք կոդը %(code)s աջակցված ծրագրերում երկքայլ վավերացումը տեղակայելու համար։"
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Երկքայլ վավերացումը հեռացվեց"
 
 #: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Երկքայլ վավերացում"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
