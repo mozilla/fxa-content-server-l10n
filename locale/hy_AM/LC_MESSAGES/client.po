@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 07:29+0000\n"
+"PO-Revision-Date: 2019-12-06 08:45+0000\n"
 "Last-Translator: arshakabrahamyan03 <arshakabrahamyan03@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
@@ -264,68 +264,68 @@ msgstr "Երկքայլ վավերացում"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
-msgstr ""
+msgstr "Հաշվի վերականգնում"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Հաշվի վերականգնումը միացվեց"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Հաշվի վերականգնումն անջատվեց"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Firefox֊ի վերականգնման բանալի"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ձեր հաշիվը արգելափակվել է անվտանգության նկատառումներից ելնելով"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr ""
+msgstr "Վերատեղադրել գաղտնաբառը"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "չկա"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Վերջին ստուգվածը․ %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Բացել Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Բացել Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Բացել Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Բացել Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Բացել Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Փոստը նորից ուղարկվեց։ Ձեր կապորդում ավելացրեք accounts@firefox.com սահուն առաքում ապահովելու համար։"
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Պատճենվել է"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Չհաջողվեց պատճենել։ Խնդրում ենք պատճենել ձեռքով։"
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
