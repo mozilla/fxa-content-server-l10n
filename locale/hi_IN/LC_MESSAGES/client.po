@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-07-23 15:47+0000\n"
-"Last-Translator: ravi <ravi.103151@gmail.com>\n"
+"PO-Revision-Date: 2020-01-10 16:22+0000\n"
+"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -1830,11 +1830,11 @@ msgstr "%(OS)s पर %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s, (अनुमानित)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (अनुमानित)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
