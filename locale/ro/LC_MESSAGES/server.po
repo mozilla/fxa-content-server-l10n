@@ -646,11 +646,11 @@ msgstr "Cod de recuperare folosit"
 
 #: lib/senders/email.js:1579
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 cod de recuperare rămas"
 
 #: lib/senders/email.js:1581
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s (de) coduri de recuperare rămase"
 
 #: lib/senders/email.js:1584
 msgid "Generate codes"
@@ -658,7 +658,7 @@ msgstr "Generează coduri"
 
 #: lib/senders/email.js:1708
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Parolă actualizată folosind o cheie de recuperare"
 
 #: lib/senders/email.js:1709
 msgid "Create new recovery key"
