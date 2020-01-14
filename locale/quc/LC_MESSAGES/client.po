@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-11-02 18:26+0000\n"
-"Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
+"PO-Revision-Date: 2020-01-14 17:10+0000\n"
+"Last-Translator: elenatambriz <elenatambriz@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quc\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195 .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
-msgstr ""
+msgstr "K'ak'wok retokib'al"
 
 #: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Utz xub'an k'ak'wok retokib'al. Chamajij kemchak chech ub'anik na."
 
 #. submit button
 #. header text
@@ -34,40 +34,40 @@ msgstr "Chamajij kemchak"
 
 #: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(ya'b'al b'e b'i'aj)taq (kajawatajik)"
 
 #: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Kemriqonib'al rech taqoqxa'nib'al"
 
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
 #: .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr ""
+msgstr "Uk'utik B'i'aj"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr ""
+msgstr "Wachib'al rech kemb'i'aj"
 
 #: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr ""
+msgstr "Utz atzalijik loq"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync kunitz'arisaj na chanim"
 
 #: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Xk'ak'arisax uwokik le aretokib'al "
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Chatz'aqatisaj ujeqik ruk' uch'apik k'ak' retokib'al pa le jun chi wiqkemchakub'al rech Firefox."
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "La jamal awach chech ub'anik taq k'exonem chanim chech le akemb'i'aj rech Firefox."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
