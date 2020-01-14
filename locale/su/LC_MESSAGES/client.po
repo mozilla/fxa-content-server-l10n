@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-11-28 02:24+0000\n"
+"PO-Revision-Date: 2020-01-14 08:59+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -881,9 +881,7 @@ msgid "Invalid Token"
 msgstr "Token teu sah"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -953,8 +951,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prak asupkeun konci pamulangan sakali nu disimpen ku anjeun di tempat nu aman pikeun meunangkeun deui aksés ka Firefox Account anjeun."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\"> CATETAN:</span> Mun anjeun nyetél sandi anjeun sarta teu boga konci pamulangan akun nu kasimpen, sawaréh data anjeun bakal kapupus (kaasup singkronan sérver kayaning jujutan "
 "jeung markah)."
@@ -1646,8 +1643,8 @@ msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
-"Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus "
-"anjeun mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
+"Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus anjeun"
+" mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1823,8 +1820,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Léngkah 2 ti 2: Simpen konci Pamulangan"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">CATETAN: </span>Mun anjeun poho sandi, ieu konci diperlukeun pikeun meunangkeun deui aksés ka data anjeun. Simpen konci pamulangan anjeun di tempat nu aman, tempat nu gampang "
 "kapanggih ku anjeun engkéna."
@@ -2153,8 +2149,7 @@ msgstr "Pamaké atawa sési henteu kapéripikasi"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up.mustache:20
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-msgstr ""
-"Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</a>."
+msgstr "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</a>."
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -2162,7 +2157,7 @@ msgstr "Kartu kiridit anjeun geus kadaluwarsa. Mangga anyarkeun <a %(escapedCcEx
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
-msgstr ""
+msgstr "Katangtuan Layanan Platform Pendaptaran"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -2434,7 +2429,7 @@ msgstr "Pilih anu rék disingkronkeun:"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Salah ketik surél? %(domain)s teu nyadiakeun surél."
 
 #~ msgid "Expired or invalid signup code"
 #~ msgstr "Sandi daptarna kadaluwarsa atawa teu bener"
