@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-15 01:52+0000\n"
+"PO-Revision-Date: 2020-01-15 01:55+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -2327,31 +2327,31 @@ msgstr "Porque nos está a contactar?"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "Descrição do problema"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Deseja sincronizar este dispositivo com a sua conta?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sincronizar este dispositivo"
 
 #: .es5/templates/settings/delete_account.mustache:15 .es5/templates/settings/delete_account.mustache:17
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Quaisquer subscrições pagas que tenha serão canceladas"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Mantenha-se seguro e não reutilize palavras-passe."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to support"
-msgstr ""
+msgstr "Sua mensagem foi enviada para o suporte"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Voltar para Subscrições"
 
 #: .es5/lib/auth-errors.js:274 .es5/lib/auth-errors.js:272
 msgid "Invalid or expired verification code"
@@ -2359,31 +2359,31 @@ msgstr "Código de confirmação inválido ou expirado"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Por favor, digite dentro de 5 minutos o código de confirmação que foi enviado para %(escapedEmail)s."
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Está bloqueado?"
 
 #: .es5/templates/sign_in_totp_code.mustache:8
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Problemas ao inserir o código?"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "Deseja cancelar uma subscrição paga? Aceda a <a href=\"/subscriptions\">Gerir subscrições</a>."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "A sua mensagem foi enviada para o suporte"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Seleções de sincronização"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Precisa de outro código? Reenviar"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
