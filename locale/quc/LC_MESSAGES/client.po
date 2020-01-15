@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-14 17:10+0000\n"
+"PO-Revision-Date: 2020-01-15 22:29+0000\n"
 "Last-Translator: elenatambriz <elenatambriz@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quc\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:195 .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
-msgstr "K'ak'wok retokib'al"
+msgstr "K'ak' uwokik retokib'al"
 
 #: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Utz xub'an k'ak'wok retokib'al. Chamajij kemchak chech ub'anik na."
+msgstr "Utz xub'an k'ak' uwokik retokib'al. Chamajij kemchak chech ub'anik na."
 
 #. submit button
 #. header text
