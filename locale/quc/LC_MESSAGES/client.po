@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-15 22:29+0000\n"
+"PO-Revision-Date: 2020-01-15 22:48+0000\n"
 "Last-Translator: elenatambriz <elenatambriz@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quc\n"
@@ -71,36 +71,36 @@ msgstr "La jamal awach chech ub'anik taq k'exonem chanim chech le akemb'i'aj rec
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Q'atutal uk'u'x taqoqxa'nib'al"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Ub'ixikil rech kemb'i'aj xuquje' ktaq na b'ik chech %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Q'atum ukab' taqoqxa'nib'al"
 
 #: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Suk'um ub'ixik umajixik kemchak"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 #: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Utz chik kakoj %(serviceName)s"
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
-msgstr ""
+msgstr "Qat'utal kemb'i'aj"
 
 #: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "T'iqitalik"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Kemb'i'aj man eta'matal taj. <a href=\"/signup\">Utz'ib'axik ib'</a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 #: .es5/views/sign_up_password.js:87
