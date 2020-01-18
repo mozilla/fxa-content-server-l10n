@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-10 07:34+0000\n"
+"PO-Revision-Date: 2019-12-06 10:22+0000\n"
 "Last-Translator: arshakabrahamyan03 <arshakabrahamyan03@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
@@ -400,7 +400,7 @@ msgstr "Ձեր էլ֊փոստը հաստատելու համար սեղմված �
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Դուք շատ եք փորձել։ Կրկին փորձեք ավելի ուշ։"
 
 #: .es5/lib/auth-errors.js:37 .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
