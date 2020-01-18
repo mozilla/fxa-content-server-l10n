@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-06 11:46+0000\n"
-"Last-Translator: arshakabrahamyan03 <arshakabrahamyan03@mail.ru>\n"
+"PO-Revision-Date: 2020-01-18 14:15+0000\n"
+"Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
 "MIME-Version: 1.0\n"
@@ -612,329 +612,331 @@ msgstr "Առանձնահատկությունը միացված չէ"
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:296 .es5/lib/profile-errors.js:41
 #: .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Համակարգն անհասանելի է, նորից փորձեք"
 
 #: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:290 .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:292
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Այս վերջնակետն այլևս չի ապահովվում"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:300
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Մուտքի փորձը չեղարկվեց"
 
 #: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:302 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:304
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Աշխատաշրջանն ավարտված է․ Մուտք գործեք` շարունակելու համար:"
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:306 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:308
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Տեղեկանիշները դեռևս անջատված են"
 
 #: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:312
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Գաղտնաբառերը չեն համապատասխանում"
 
 #: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:316
 msgid "Working…"
-msgstr ""
+msgstr "Աշխատանքային…"
 
 #: .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:320
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Հնարավոր չէ ստանալ գաղտնիության ծանուցում"
 
 #: .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:312 .es5/lib/auth-errors.js:322 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:324
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Ծառայության պայմանները չկարողացան ստանալ"
 
 #: .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:316 .es5/lib/auth-errors.js:326 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:328
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Ձեր նոր գաղտնաբառը պետք է տարբեր լինի"
 
 #: .es5/lib/auth-errors.js:324 .es5/templates/partial/password-strength-balloon.mustache:3 .es5/lib/auth-errors.js:320 .es5/lib/auth-errors.js:330 .es5/lib/auth-errors.js:334
 #: .es5/lib/auth-errors.js:332
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Պետք է լինի առնվազն 8 նիշ"
 
 #: .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:324 .es5/lib/auth-errors.js:334 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:336
 msgid "Valid password required"
-msgstr ""
+msgstr "Պահանջվում է վավեր գաղտնաբառ"
 
 #: .es5/lib/auth-errors.js:332 .es5/lib/auth-errors.js:370 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:328 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:372
 #: .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:338 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:342 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:398
 #: .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:396
 msgid "Valid email required"
-msgstr ""
+msgstr "Անհրաժեշտ է վավեր Էլ֊փոստ"
 
 #: .es5/lib/auth-errors.js:343 .es5/lib/auth-errors.js:340 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:350 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:352
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Օգտագործված պատկեր չի գտնվել"
 
 #: .es5/lib/auth-errors.js:347 .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:356
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Ֆոտոխցիկը հնարավոր չէ նախաձեռնել"
 
 #: .es5/lib/auth-errors.js:351 .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:358 .es5/lib/auth-errors.js:362 .es5/lib/auth-errors.js:360
 msgid "Valid URL required"
-msgstr ""
+msgstr "Անհրաժեշտ է վավեր URL"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:376
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ձեր հաստատման Էլ․նամակը նոր է վերադարձվել։Սխալ էլ․"
 
 #: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:384
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Մուտքագրեք վավեր էլփոստի հասցե։ firefox.com֊ը էլփոստ չի առաջարկում։"
 
 #: .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:380 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:390 .es5/lib/auth-errors.js:394 .es5/lib/auth-errors.js:392
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox֊ի հաշիվները կարող են տեղադրվել միայն հաստատված կայքերի IFRAME֊ի մեջ"
 
 #: .es5/lib/auth-errors.js:401 .es5/templates/complete_sign_up.mustache:11 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:404 .es5/lib/auth-errors.js:410 .es5/lib/auth-errors.js:414
 #: .es5/lib/auth-errors.js:412
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Վավերացման հղումը վնասվել է"
 
 #: .es5/lib/auth-errors.js:409 .es5/lib/auth-errors.js:408 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:418 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:420
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Պատկերի չափերը պետք է լինեն առնվազն 100x100px"
 
 #: .es5/lib/auth-errors.js:413 .es5/lib/auth-errors.js:412 .es5/lib/auth-errors.js:416 .es5/lib/auth-errors.js:422 .es5/lib/auth-errors.js:426 .es5/lib/auth-errors.js:424
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Գրանցումը շուտով պատրաստվում է Firefox֊ի՝ iOS֊ի համար "
 
 #: .es5/lib/auth-errors.js:424 .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:434 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:436
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Գրանցվելու համար պետք է մուտքագրեք ձեր տարիքը"
 
 #: .es5/lib/auth-errors.js:428 .es5/lib/auth-errors.js:432 .es5/lib/auth-errors.js:438 .es5/lib/auth-errors.js:442 .es5/lib/auth-errors.js:440
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Գրանցվելու համար դուք պետք է մուտքագրեք  վավեր տարիքը"
 
 #: .es5/lib/auth-errors.js:443 .es5/lib/auth-errors.js:444 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:454 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:456
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Հաշիվն այլևս գոյություն չունի։"
 
 #: .es5/lib/auth-errors.js:447 .es5/lib/auth-errors.js:448 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:458 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:460
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Վերադառնման անվավեր գույք․%(property)s"
 
 #: .es5/lib/auth-errors.js:451 .es5/lib/auth-errors.js:452 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:462 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:464
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Ինքնակենսագրականում նշվող գույքը բացակայում է․ %(property)s"
 
 #: .es5/lib/auth-errors.js:455 .es5/lib/auth-errors.js:456 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:466 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:468
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Անվավեր տվյալների հատկորոշիչ․%(property)s"
 
 #: .es5/lib/auth-errors.js:459 .es5/lib/auth-errors.js:460 .es5/lib/auth-errors.js:464 .es5/lib/auth-errors.js:470 .es5/lib/auth-errors.js:474 .es5/lib/auth-errors.js:472
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Տվյալների հատկանիշը բացակայում է․%(property)s"
 
 #: .es5/lib/auth-errors.js:472 .es5/lib/auth-errors.js:526 .es5/templates/complete_sign_up.mustache:4 .es5/lib/auth-errors.js:473 .es5/lib/auth-errors.js:527 .es5/lib/auth-errors.js:477
 #: .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:483 .es5/lib/auth-errors.js:537 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:539
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Այդ հաստատման հղումն արդեն օգտագործվել է, և այն կարող է օգտագործվել միայն մեկ անգամ։"
 
 #: .es5/lib/auth-errors.js:476 .es5/lib/auth-errors.js:477 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:487 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:489
 msgid "This is a required field"
-msgstr ""
+msgstr "Սա պահանջվող դաշտ է"
 
 #: .es5/lib/auth-errors.js:480 .es5/lib/auth-errors.js:481 .es5/lib/auth-errors.js:485 .es5/lib/auth-errors.js:491 .es5/lib/auth-errors.js:495 .es5/lib/auth-errors.js:493
 msgid "Authorization code required"
-msgstr ""
+msgstr "Պահանջվում է կոդի նույնականացում"
 
 #: .es5/lib/auth-errors.js:488 .es5/templates/report_sign_in.mustache:1 .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:499 .es5/lib/auth-errors.js:503
 #: .es5/lib/auth-errors.js:501
 msgid "Link damaged"
-msgstr ""
+msgstr "Հղումը վնասվել է"
 
 #: .es5/lib/auth-errors.js:511 .es5/lib/auth-errors.js:512 .es5/lib/auth-errors.js:516 .es5/lib/auth-errors.js:522 .es5/lib/auth-errors.js:526 .es5/lib/auth-errors.js:524
 msgid "Phone number required"
-msgstr ""
+msgstr "Պահանջվում է հեռախոսի համարը"
 
 #: .es5/lib/auth-errors.js:530 .es5/lib/auth-errors.js:531 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:541 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:543
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Պահանջվում է երկաստիճան վավերացման կոդ"
 
 #: .es5/lib/auth-errors.js:534 .es5/lib/auth-errors.js:535 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:545 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:547
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Անվավեր 2֊քայլ հաստատման կոդ"
 
 #: .es5/lib/auth-errors.js:538 .es5/lib/auth-errors.js:539 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:549 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:551
 msgid "Recovery code required"
-msgstr ""
+msgstr "Պահանջվում է վերականգնման ծածկագիր"
 
 #: .es5/lib/auth-errors.js:542 .es5/lib/auth-errors.js:543 .es5/lib/auth-errors.js:547 .es5/lib/auth-errors.js:553 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:555
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Վերականգնման անվավեր կոդ"
 
 #: .es5/lib/auth-errors.js:554 .es5/lib/auth-errors.js:557 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:567 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:569
 msgid "Recovery key required"
-msgstr ""
+msgstr "Վերականգնման բանալին անհրաժեշտ է"
 
 #: .es5/lib/auth-errors.js:558 .es5/lib/auth-errors.js:561 .es5/lib/auth-errors.js:565 .es5/lib/auth-errors.js:571 .es5/lib/auth-errors.js:575 .es5/lib/auth-errors.js:573
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Մուտքագրեք հաստատման կոդը"
 
 #: .es5/lib/auth-errors.js:562 .es5/lib/auth-errors.js:565
 msgid "Accounts with two-step authentication do not support pairing at this time"
-msgstr ""
+msgstr "Երկքայլ վավերացում ունեցող հաշիվները այս պահին չեն աջակցում զուգավորմանը"
 
 #: .es5/lib/config-loader.js:125 .es5/lib/config-loader.js:118 .es5/lib/config-loader.js:117
 msgid "Missing configuration"
-msgstr ""
+msgstr "Առաջարկվող  կարգավորում"
 
 #: .es5/lib/config-loader.js:129 .es5/lib/config-loader.js:122 .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Անվավեր կարգավորում"
 
 #: .es5/lib/mailcheck.js:42 .es5/lib/mailcheck.js:34 .es5/lib/mailcheck.js:32
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Նկատի ունեք  <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: .es5/lib/marketing-email-errors.js:51 .es5/lib/marketing-email-errors.js:46
 msgid "Please try again later"
-msgstr ""
+msgstr "Կրիկին ձորձեք ավելի ուշ"
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
-msgstr ""
+msgstr "Ծառայությունն անհասանելի է, կրկին փորձեք"
 
 #: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
-msgstr ""
+msgstr "Անհայտ հաճախորդ"
 
 #: .es5/lib/oauth-errors.js:45 .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Սխալ redirect_uri"
 
 #: .es5/lib/oauth-errors.js:49 .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Անվավեր պնդում"
 
 #: .es5/lib/oauth-errors.js:53 .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
-msgstr ""
+msgstr "Անհայտ կոդ"
 
 #: .es5/lib/oauth-errors.js:57 .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
-msgstr ""
+msgstr "Սխալ կոդ"
 
 #: .es5/lib/oauth-errors.js:61 .es5/lib/oauth-errors.js:54
 msgid "Expired code"
-msgstr ""
+msgstr "Ժամկետանց ծածկագիր"
 
 #: .es5/lib/oauth-errors.js:69 .es5/lib/oauth-errors.js:91 .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Անվավեր OAuth կարգավորում․%(param)s"
 
 #: .es5/lib/oauth-errors.js:77 .es5/lib/profile-errors.js:31 .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:27 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
-msgstr ""
+msgstr "Չթույլատրված"
 
 #: .es5/lib/oauth-errors.js:81 .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
-msgstr ""
+msgstr "Արգելված"
 
 #: .es5/lib/oauth-errors.js:95 .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Ժամկետը ավարտվում է"
 
 #: .es5/lib/oauth-errors.js:131 .es5/lib/oauth-errors.js:125 .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Ինչ որ բան այնպես չգնաց․Խնդրում ենք փակել այս ներդիրը և կրկին փորձել։"
 
 #: .es5/lib/oauth-errors.js:150 .es5/lib/oauth-errors.js:145 .es5/lib/oauth-errors.js:153
 msgid "no message"
-msgstr ""
+msgstr "Ոչ մի հաղորդագրություն"
 
 #: .es5/lib/oauth-errors.js:154 .es5/lib/oauth-errors.js:149 .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth հարաչափը բացակայում է․ %(param)s"
 
 #: .es5/lib/pairing-channel-client-errors.js:47 .es5/lib/pairing-channel-client-errors.js:45 .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Հեռավոր սարքից անվավեր հաղորդագրություն"
 
 #: .es5/lib/pairing-channel-client-errors.js:55 .es5/lib/pairing-channel-client-errors.js:53 .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Սխալ հեռավոր սարքին զուգակցվելիս"
 
 #: .es5/lib/pairing-channel-client-errors.js:59 .es5/lib/pairing-channel-client-errors.js:57 .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Միացումը հեռավոր սարքին փակ է, կրկին փորձեք"
 
 #: .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:31 .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Հայցվող մարմնում անվավեր հարաչափ․ %(param)s"
 
 #: .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:35 .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Պատկերների չաջակցված մատակարար"
 
 #: .es5/lib/profile-errors.js:43 .es5/lib/profile-errors.js:39 .es5/lib/profile-errors.js:37
 msgid "Image processing error"
-msgstr ""
+msgstr "Պատկերի մշակման սխալ"
 
 #: .es5/lib/profile-errors.js:55 .es5/lib/profile-errors.js:51 .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
-msgstr ""
+msgstr "Անվավեր նշագիր"
 
 #: .es5/lib/strings.js:26 .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Շարունակելով,դուք համաձայն եք <a id=\"service-tos\" href=\"%(termsUri)s\"> Ծառայությունների մատուցման պայմաններին<a id=\"service-pp\" href=\"%(privacyUri)s\"> Գաղտնիության ծանուցումներին </a> "
+"և%(serviceName)s (%serviceUri)s)."
 
 #: .es5/lib/strings.js:33 .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Օգնություն</a>"
 
 #: .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Ստացեք վերջին նորությունները Mozilla֊ի և Firefox֊ի մասին։"
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5 .es5/lib/strings.js:36 .es5/lib/strings.js:33
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (նախահաշվային)"
 
 #: .es5/lib/strings.js:41 .es5/lib/strings.js:37 .es5/lib/strings.js:34
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (նախահաշվային)"
 
 #: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP հասցե՝ %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Լրացուցիչ անվտանգության համար, հաստատեք այս մուտքի համակարգը՝ այս սարքի հետ համաժամեցվելու համար․"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Վատ հարցում"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 սխալ"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Հարգելիս, ինչ-որ բան այստեղ չհաջողվեց։Մեզ տեղեկացրել են և կաշխատենք շտկել խնդիրը։"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Վերականգնել գաղտնաբառի հղումը ավարտվել է"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Ձեր գաղտնաբառը վերականգնելու համար սեղմած հղումը լրացել է։"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Ստացեք նոր հղում"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5 .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Վերականգնեք գաղտնաբառը, օգտագորելով վերականգնման բանալին"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2 .es5/templates/reset_password.mustache:2
 #: .es5/templates/sign_in.mustache:1 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
@@ -942,57 +944,59 @@ msgstr ""
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "Շարունակեք %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել միանգամյա օգտագործման վերականգնման բանալին, որը դուք պահել եք անվտանգ վայրում՝ ձեր Firefox հաշիվ մուտք գործելու համար։ "
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\"> ՈՒՇԱԴՐՈՒԹՅՈՒՆ․ </span> Եթե դուք վերականգնում եք ձեր գաղտնաբառը և չունեք հաշվի վերականգնման բանալին, ձեր տվյալների որոշ մասը կջնջվի (ներառյալ համաժամեցված սպասարկչի տվյալները, "
+"ինչպիսիք են պատմությունը և էջանիշերը)։ "
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Մուտքագրեք վերականգնման բանալին"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Հաստատեք վերականգնման բանալին"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:13
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Վերականգնման բանալին չունե՞ք։"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Հնարավոր չէ հաշիվ ստեղծել"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Firefox&nbsp; հաշիվ ստեղծելու համար դուք պետք է բավարարեք տարիքային որոշակի պահանջներ։"
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Իմանալ ավելին"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/choose_what_to_sync.mustache:2
 msgid "%(email)s registered"
-msgstr ""
+msgstr "%(email)s գրանցված"
 
 #: .es5/templates/choose_what_to_sync.mustache:2 .es5/templates/sign_up.mustache:18 .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/sign_up.mustache:20 .es5/templates/sign_up.mustache:24
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Ընտրեք ինչը համաժամեցնել"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/choose_what_to_sync.mustache:24 .es5/templates/choose_what_to_sync.mustache:14
 msgid "Save selections"
-msgstr ""
+msgstr "Պահպանել ընտրությունները"
 
 #: .es5/templates/choose_what_to_sync.mustache:6 .es5/templates/confirm.mustache:12 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/choose_what_to_sync.mustache:25 .es5/templates/confirm.mustache:19 .es5/templates/choose_what_to_sync.mustache:15 .es5/templates/confirm.mustache:18
 #: .es5/templates/subscription_terms.mustache:2 .es5/templates/confirm.mustache:14 .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Back"
-msgstr ""
+msgstr "Նախորդը"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
