@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-18 14:15+0000\n"
+"PO-Revision-Date: 2020-01-18 18:10+0000\n"
 "Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
@@ -1000,151 +1000,153 @@ msgstr "Նախորդը"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Վերականգնված գաղտնաբառի հղումը վնասված է"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Այն հղումը, որի վրա դուք կտտացրել եք, բացակայում է նիշերին, և այն կարող է կոռումպացված լինել ձեր էլ․փոստի հաճախորդի կողմից։ Զգուշորեն պատճենեք հասցեն և կրկին փորձեք։"
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Մուտքագրեք նոր գաղտնաբառ"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
+"<span> ՀԻՇՈՒՄ։ Կարող եք կորցնել ձեր անձնական տեղեկությունները (ներառյալ պատմությունը, էջանիշերը և գաղտնաբառերը)։Դա այն պատճառով է, որ մենք գաղտնագրում ենք ձեր տվյալները ձեր գացտնաբառով՝ ձեր "
+"գաղտնիությունը պաշտպանելու համար։"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Դուք հաջողությամբ վերականգնել եք ձեր հաշիվը՝ օգտագործելով ձեր վերականգնման ստեղնը։ Ստեղծեք նոր գաղտնաբառ՝ ձեր տվյալներն ապահովելու և այն անվտանգ վայրում պահելու համար։"
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
 msgid "New password"
-msgstr ""
+msgstr "Նոր գաղտնաբառ"
 
 #: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/views/settings/change_password.js:262
 msgid "Re-enter password"
-msgstr ""
+msgstr "Կրկին մուտքագրեք գաղտնաբառը"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Հիշո՞ւմ եք գաղտնաբառը։ Մուտք գործել"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Առաջնային Էլ․Փոստն արդեն հաստատված է։"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Մուտքն արդեն հաստատվել է"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Ստուգման հղումը լրացել է"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Կտտացրեք այստեղ՝ նոր հաստատման հղում ստանալու համար։"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Ստուգման սխալ"
 
 #: .es5/templates/confirm.mustache:1 .es5/templates/confirm.mustache:6 .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Հաստատեք ձեր հաշիվը"
 
 #: .es5/templates/confirm.mustache:3 .es5/templates/confirm.mustache:8 .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Հաստատեք այս մուտքը"
 
 #: .es5/templates/confirm.mustache:5 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:11 .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Ստուգեք ձեր Էլ․փոստը՝ուղարկված հաստատման հղման համար՝ուղարկված &nbsp; դեպի %(escapedEmail)s֊ի "
 
 #: .es5/templates/confirm.mustache:7 .es5/templates/confirm.mustache:14 .es5/templates/confirm.mustache:13 .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Ստուգեք ձեր էլ․Փոստը՝ %(escapedEmail)s֊ին ուղարկված մուտքի հաստատման հղման համար։ "
 
 #: .es5/templates/confirm.mustache:10 .es5/templates/confirm.mustache:11 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6 .es5/templates/confirm.mustache:17
 #: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_token_code.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Ներբեռնման կամ լցոնի թղթապանակում չե՞ք։ Ուղարկել նորից"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Ուղարկված էլ․Փոստը վերակայեք"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Հաջորդ ժամվա ընթացքում կտտացրեք %(email)s հասցեին ուղարկված հղմանը՝ նոր գաղտնաբառ ստեղծելու համար։"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Կապակցել այլ սարքի"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Այս Firefox֊ը միացված է"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Էլ․ փոստը հաստատված է"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/sms_sent.mustache:5 .es5/templates/pair/auth_complete.mustache:2
 #: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:4 .es5/templates/sms_sent.mustache:14 .es5/templates/sms_send.mustache:3 .es5/templates/sms_sent.mustache:2
 #: .es5/templates/sms_send.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Հաջողվեց"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Մուտք գործեք այս Firefox֊ը՝ կարգավորումը կատարելու համար"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:5
 #: .es5/templates/sms_send.mustache:10
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Դեռ ավելացնո՞ւմ եք սարքեր։"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Կարգավորումը լրացնելու համար մուտք գործեք  Firefox֊ը այլ սարքի"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Դեռ սարքեր ավելացնո՞ւմ եք։ Կարգավորումը լրացնելու համար մուտք գործեք Firefox֊ը այլ սարքի"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Կարգավորումը ավարտելու համար մուտք գործեք Firefox Android֊ի համար"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Կարգավորումը լրացնելու համար մուտք գործեք  Firefox֊ի iOS"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Ինչու է պահանջվում մեկից ավելի սարք?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Պահանջվում է թխուկներ և տեղային հիշողություն"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr " Խնդրում ենք միացնել ձեր զննարկիչի բլիթները և տեղական պահուստը՝Firefox հաշիվներին մուտք ունենալու համար։ Եթե դրանք միացնեք, զննարկիչը կկարողանա հիշել ձեր նիշերը։"
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Կրկին փորձեք"
 
 #: .es5/templates/force_auth.mustache:4 .es5/templates/force_auth.mustache:6
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Մուտք գործեք՝ շարունակելու համար"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in.mustache:4 .es5/templates/sign_in.mustache:12 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up.mustache:8
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/settings/change_password.mustache:1 .es5/templates/settings/delete_account.mustache:4 .es5/templates/force_auth.mustache:8
@@ -1152,13 +1154,13 @@ msgstr ""
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
 #: .es5/templates/settings/delete_account.mustache:20 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
-msgstr ""
+msgstr "Գաղտնաբառ"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
 #: .es5/templates/sign_in_password.mustache:11 .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:16
 msgid "Forgot password?"
-msgstr ""
+msgstr "Մոռացե՞լ եք գաղտնաբառը։"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
@@ -1166,66 +1168,66 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:14 .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:14
 #: .es5/templates/sign_up_password.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Առաջ անցնելով, Դուք համաձայոնւմ եք <a id=\"fxa-tos\" href=\"/legal/terms\">Ծառայության պայմաններին</a> և <a id=\"fxa-pp\" href=\"/legal/privacy\">Գաղտնիության ծանուցմանը</a>։"
 
 #: .es5/templates/index.mustache:1 .es5/templates/index.mustache:4 .es5/templates/index.mustache:3 .es5/templates/index.mustache:6
 msgid "Enter your email"
-msgstr ""
+msgstr "Մուտքագրեք ձեր Էլ․ փոստը"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:7 .es5/templates/sign_in.mustache:11 .es5/templates/sign_up.mustache:7 .es5/templates/index.mustache:7
 #: .es5/templates/sign_in.mustache:13 .es5/templates/sign_up.mustache:9 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr ""
+msgstr "Էլ. փոստ"
 
 #: .es5/templates/index.mustache:7 .es5/templates/ready.mustache:4 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/choose_what_to_sync.mustache:22 .es5/templates/index.mustache:9 .es5/templates/choose_what_to_sync.mustache:12
 #: .es5/templates/ready.mustache:6 .es5/templates/index.mustache:6 .es5/templates/ready.mustache:5 .es5/templates/index.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Շարունակել"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Օրինական"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:4 .es5/templates/tos.mustache:1 .es5/templates/settings.mustache:7 .es5/templates/support.mustache:13
 #: .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12
 msgid "Terms of Service"
-msgstr ""
+msgstr "Ծառայության պայմանները"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:5 .es5/templates/settings.mustache:8 .es5/templates/support.mustache:14
 #: .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Գաղտնիության ծանուցում"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Ստացեք համաժամեցման ամբողջ փորձը։"
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Ներբեռնել Firefox֊ը iOS֊ի համար"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Ներբեռնել Firefox֊ը Android֊ի համար"
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Ներբեռնեք Firefox֊ը բջջային սարքերի համար։"
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Թույլտվության խնդրանք"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s֊ը ցանկանում է հետևյալ տեղեկությունները ձեր հաշվից։"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Ընդունել"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:3 .es5/templates/settings/change_password.mustache:9
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/communication_preferences.mustache:5 .es5/templates/settings/communication_preferences.mustache:10
@@ -1236,476 +1238,484 @@ msgstr ""
 #: .es5/templates/settings/delete_account.mustache:20 .es5/views/settings/change_password.js:276 .es5/templates/support.mustache:10 .es5/templates/settings/delete_account.mustache:22
 #: .es5/templates/settings/client_disconnect.mustache:10
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:9
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Ձեր հաշիվը պատրաստ է։"
 
 #: .es5/templates/ready.mustache:9 .es5/templates/ready.mustache:11 .es5/templates/ready.mustache:10
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Ստեղծեք վերականգնման նոր բանալին"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:12 .es5/templates/ready.mustache:11
 msgid "Continue to my account"
-msgstr ""
+msgstr "Շարունակեք իմ հաշվին"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Հայտարարե՞լ եք չարտոնված մուտքի մասին։"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Դուք ստացաք նամակ ձեր հաշիվ մուտք գործելու փորձի մասին։ Ցանկանու՞մ եք հաղորդել այս գործունեության մասին որպես կասկածելի։"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Հաղորդել գործունեության մասին"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/sign_in_unblock.mustache:7 .es5/templates/sign_in_token_code.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Ինչու՞ է սա տեղի ունենում։"
 
 #: .es5/templates/reset_password.mustache:5
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>ՆՇՈՒՄ․</span> Երբ դուք կորցնում եք ձեր գաղտնաբառը, դուք նաև կորցնում եք ձեր անձնական էջը (ներառյալ պատմությունը, էջանիշները և գաղտնաբառերը).Երբ մենք գաղտնագրում ենք ձեր տվյալները ձեր "
+"գաղտնաբառով դա նրա համար է որ ձեր գաղտնիությունը պաշտպանենք․"
 
 #: .es5/templates/reset_password.mustache:8
 msgid "Begin reset"
-msgstr ""
+msgstr "Սկսեք վերակայել"
 
 #: .es5/templates/settings.mustache:1 .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox֊ի հաշիվներ"
 
 #: .es5/templates/settings.mustache:2 .es5/templates/settings.mustache:4
 msgid "Sign out"
-msgstr ""
+msgstr "Դուրս գրվել"
 
 #: .es5/templates/sign_in.mustache:5 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in_password.mustache:8 .es5/templates/sign_in_recovery_code.mustache:8
 #: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
-msgstr ""
+msgstr "Օգտագործեք այլ հաշիվ"
 
 #: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
 msgid "Create an account"
-msgstr ""
+msgstr "Ստեղծել հաշիվ"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Ներողություն․Մենք փակել ենք ձեր &nbsp; հաշիվը։"
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Մենք ուղարկեցինք հաստատման էլ․Փոստը, որը մենք ուղարկել ենք %(email)s֊ով, և մենք փակել ենք ձեր հաշիվը Firefox֊ի ձեր տվյալները պաշտպանելու համար։"
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Եթե սա վավեր էլփոստի հասցէ է, <a %(escapedSupportLinkAttrs)s> տեղեկացրեք մեզ </a> և մենք կարող ենք օգնել ձեր հաշիվը բացելու համար։"
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Այլևս չունե՞ք այդ Էլ․ փոստը։ Նոր հաշիվ բացել"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Մուտքագրեք վերականգնման ծածկագիրը"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել վերականգնման կոդ, որը ձեզ տրամադրվել է տեղադրման ընթացքում։"
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Մուտքագրեք վերականգնման 10 նիշանոց ծածկագիր"
 
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/sign_in_totp_code.mustache:6 .es5/templates/settings/upgrade_session.mustache:9 .es5/templates/confirm_signup_code.mustache:7
 msgid "Verify"
-msgstr ""
+msgstr "Հաստատել"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Use security code"
-msgstr ""
+msgstr "Օգտագործեք անվտանգության կոդը"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Շնորհակալություն զգոնության համար"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Մեր թիմին ծանուցել են։ Նմանատիպ զեկույցները օգնում են մեզ զերծ մնալ ներխուժումներից։"
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Լիազորեք այս մուտքը"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Ստուգեք ձեր էլ․փոստը՝ %(email)s հասցեին ուղարկված կոդի համար։"
 
 #: .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter code"
-msgstr ""
+msgstr "Մուտքագրել կոդ"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Մուտքագրեք անվտանգության կոդ"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Բացեք ձեր նույնականացման ծրագիրը և մուտքագրեք իր տրամադրած անվտանգության կոդը։"
 
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Մուտքագրեք 6 նիշանոց կոդ"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
-msgstr ""
+msgstr "Օգտագործեք վերականգնման կոդը"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Ստուգեք ձեր էլ․Փոստը՝ %(email)s հասցեին ուղարկված թույլտվության կոդի համար։"
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Մուտքագրեք թույլտվության կոդը"
 
 #: .es5/templates/sign_up.mustache:1 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:1 .es5/templates/sign_up_password.mustache:4 .es5/templates/sign_up.mustache:3
 #: .es5/templates/sign_up.mustache:6 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:3 .es5/templates/sign_up_password.mustache:6
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Ստեղծել Firefox հաշիվ"
 
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
-msgstr ""
+msgstr "Պատճենել գաղտնաբառը"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr ""
+msgstr "Չկորցնեք այս գաղտնաբառը։ Եթե ցանկանում եք վերատեղադրել այն, Դուք կարող եք կորցնել համաժամեցման տվյալները։"
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-msgstr ""
+msgstr "<span>Չվերօգտագործել Ձեր էլ. փոստի գաղտնաբառը</span>Եթե ինչ֊որ մեկը գիտի Ձեր էլ֊փոստի գաղտնաբառը, ապա նրանք կարող են հաստատել Ձեր Firefox-ի մուտքը նոր սարքում և մուտք գործել Ձեր տվյալներ։"
 
 #: .es5/templates/sign_up.mustache:12 .es5/templates/sign_up.mustache:14
 msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "<span>Հիշել Ձեր գաղտնաբառը</span>Եթե Դուք պետք է վերատեղադրեք Ձեր գաղտնաբառը, Դուք կկորցնեք բոլոր համաժամեցրած տվյալները, որոնք տեղակայված չեն Ձեր սարքերից մեկում։"
 
 #: .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:8 .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:13 .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Ստացեք վերջին նորությունները Mozilla֊ի և Firefox֊ի մասին"
 
 #: .es5/templates/sign_up.mustache:16 .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up.mustache:18 .es5/templates/sign_up_password.mustache:15 .es5/templates/sign_up.mustache:22
 #: .es5/templates/sign_up_password.mustache:19 .es5/templates/sign_up_password.mustache:18 .es5/templates/sign_up.mustache:14 .es5/templates/sign_up_password.mustache:12
 #: .es5/templates/sign_up_password.mustache:13 .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
-msgstr ""
+msgstr "Ստեղծել հաշիվ"
 
 #: .es5/templates/sign_up.mustache:21 .es5/templates/sign_up.mustache:23 .es5/templates/sign_up.mustache:27 .es5/templates/sign_up.mustache:16
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Ունե՞ք հաշիվ։ Մուտք գործեք"
 
 #: .es5/templates/sign_up_password.mustache:11 .es5/templates/sign_up_password.mustache:16 .es5/templates/sign_up_password.mustache:20 .es5/templates/sign_up_password.mustache:19
 #: .es5/lib/email-domain-validator.js:36
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Սխա՞լ էլ. փոստ։"
 
 #: .es5/templates/sms_send.mustache:1 .es5/templates/sms_send.mustache:7 .es5/templates/sms_send.mustache:3 .es5/templates/sms_send.mustache:12 .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Firefox֊ը ուղղակիորեն ուղարկեք ձեր սմարթֆոնին և մուտք գործեք՝ լրացնելու գործընթացը"
 
 #: .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:13 .es5/templates/sms_send.mustache:6 .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Բջջային հեռախոսի համարը"
 
 #: .es5/templates/sms_send.mustache:9 .es5/templates/sms_send.mustache:14 .es5/templates/support.mustache:12 .es5/templates/sms_send.mustache:7 .es5/templates/support.mustache:11
 #: .es5/templates/sms_send.mustache:4
 msgid "Send"
-msgstr ""
+msgstr "Ուղարկել"
 
 #: .es5/templates/sms_send.mustache:10 .es5/templates/sms_send.mustache:15 .es5/templates/sms_send.mustache:8 .es5/templates/sms_send.mustache:5
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS ծառայությունը մատչելի է միայն որոշ երկրներում։ SMS&amp; տվյալների գները կարող են կիրառվել։Էլ․Փոստով կամ SMS֊ով նախատեսված ստացողը պետք է համաձայնություն ունենա։ "
+"%(escapedLearnMoreAttributes)s>Իմացեք ավելին</a>"
 
 #: .es5/templates/sms_sent.mustache:1 .es5/templates/sms_sent.mustache:6 .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:15
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Տեղակայեք Firefox Ձեր խելախոսում և մուտք գործեք՝ տեղակայումը ավարտելու համար"
 
 #: .es5/templates/sms_sent.mustache:2 .es5/templates/sms_sent.mustache:11
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ծրագրի հղումը ուղարկվել է %(escapedPhoneNumber)s-ին։ <a %(escapedBackLinkAttrs)s>Սխա՞լ&nbsp;համար։</a>"
 
 #: .es5/templates/sms_sent.mustache:3 .es5/templates/sms_sent.mustache:12
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ծրագրի հղումը վերաուղարկվել է %(escapedPhoneNumber)s-ին։ <a %(escapedBackLinkAttrs)s>Սխա՞լ&nbsp;համար։</a>"
 
 #: .es5/templates/sms_sent.mustache:7 .es5/templates/sms_sent.mustache:16
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Եթե Դուք չեք ստացել գրույթային հաղորդագրությունը, Դուք կարող եք նաև ձեռքով ներբեռնել ծրագրերը։"
 
 #: .es5/templates/sms_sent.mustache:8 .es5/templates/sms_sent.mustache:17 .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Չի՞ ժամանել։ Կրկին ուղարկել"
 
 #: .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Ինչո՞ւ համաժամեցնել բազմաթիվ սարքեր:"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Համաժամեցման ծառայությունը մշտական պահոց չէ, այն պարզապես անվտանգ միջոց է ձեր սարքերի միջև պահված էջանիշերի, պատմության և գաղտնաբառերի փոխանակման համար։"
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Ձեր տվյալները կորցնելուց պաշտպանվելու համար դուք պետք է տեղադրեք Firefox և համաժամեցնեք առնվազն երկու սարքի, եթե անհրաժեշտ է վերականգնել երբ մոռացել եք ձեր գաղտնաբառը։"
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:11 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
-msgstr ""
+msgstr "Հասկացա"
 
 #: .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/change_password.mustache:2 .es5/templates/settings/communication_preferences.mustache:4
 #: .es5/templates/settings/display_name.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4 .es5/views/settings/display_name.js:90
 msgid "Change…"
-msgstr ""
+msgstr "Փոփոխել…"
 
 #: .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/display_name.mustache:4 .es5/templates/settings/emails.mustache:5 .es5/views/settings/display_name.js:97
 msgid "Add…"
-msgstr ""
+msgstr "Ավելացնել…"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Վերցրեք նկարը"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Վերբեռնել"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Խցիկ"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Մաքրել"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/communication_preferences.mustache:12 .es5/templates/settings/emails.mustache:26
 #: .es5/templates/settings/recovery_codes.mustache:16 .es5/templates/settings/upgrade_session.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:16
 msgid "Done"
-msgstr ""
+msgstr "Պատրաստ է"
 
 #: .es5/templates/settings/avatar_crop.mustache:1 .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Տեղադրեք և պտտեք ձեր նկարը ըստ անհրաժեշտության"
 
 #: .es5/templates/settings/avatar_crop.mustache:2 .es5/templates/settings/change_password.mustache:8 .es5/templates/settings/display_name.mustache:7 .es5/views/settings/display_name.js:183
 #: .es5/templates/settings/avatar_crop.mustache:3 .es5/views/settings/change_password.js:273
 msgid "Change"
-msgstr ""
+msgstr "Փոփոխել"
 
 #: .es5/templates/settings/change_password.mustache:3 .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Ավարտելուց հետո, Ձեր բոլոր սարքերում մուտք գրծելու համար օգտագործեք նոր գաղտնաբառը։"
 
 #: .es5/templates/settings/change_password.mustache:4 .es5/views/settings/change_password.js:229
 msgid "Old password"
-msgstr ""
+msgstr "Հին գաղտնաբառ"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Անջատե՞լ համաժամեցումից։"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Դիտարկումների տվյալները կմնան ձեր սարքում, բայց այն չի համաժամեցվի ձեր հաշվի հետ։"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Կասկածելի սարք"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Կորած կամ գողացված սարք"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Հին կամ վերատեղադրված սարք"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Կրկնօրինակված սարք"
 
 #: .es5/templates/settings/client_disconnect.mustache:7 .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
-msgstr ""
+msgstr "Փոխարենը մի ասեք"
 
 #: .es5/templates/settings/client_disconnect.mustache:8 .es5/templates/settings/clients.mustache:13 .es5/templates/settings/client_disconnect.mustache:9
 msgid "Disconnect"
-msgstr ""
+msgstr "Կապախզել"
 
 #: .es5/templates/settings/client_disconnect.mustache:10 .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Անջատումը հաջող է"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Սարքեր և ծրագրեր"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
-msgstr ""
+msgstr "Ցուցադրել"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Ընթացիկ սարքը"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Անջատել…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Ընթացիկ նստաշրջան"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "Հետ կանչել"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox֊ից iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Ոչ մեկը կապակցված չէ"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3
 msgid "Download"
-msgstr ""
+msgstr "Ներբեռնել"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox֊ը  Android֊ի համար"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Կարող եք կրկնօրինակել իրերը։"
 
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
-msgstr ""
+msgstr "Թարմացրեք կարգավիճակը"
 
 #: .es5/templates/settings/communication_preferences.mustache:3 .es5/lib/strings.js:43 .es5/templates/settings/communication_preferences.mustache:1
 msgid "Email preferences"
-msgstr ""
+msgstr "Էլ. փոստի նախընտրություններ"
 
 #: .es5/templates/settings/communication_preferences.mustache:7
 msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 msgstr ""
+"Դուք կստանաք հաղորդակցություններ Ձեր հաշվի անվտանգության, մեր քաղաքականության փոփոխություններին, Ձեր հաշվի գործառության և սկզբնական էլ֊փոստերի վերաբերյալ, որոնք կօգնեն Ձեզ ստանալ առավելագույնը Ձեր "
+"Firefox-ի հաշվից։"
 
 #: .es5/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-msgstr ""
+msgstr "Բացի այդ, դուք կարող եք բաժանորդագրվել վերջին Mozilla-ի և Firefox-ի նորությունների հետ գովազդային էլ. փոստեր ստանալու համար։"
 
 #: .es5/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
-msgstr ""
+msgstr "Բաժանորդագրվել"
 
 #: .es5/templates/settings/communication_preferences.mustache:11
 msgid "Manage preferences"
-msgstr ""
+msgstr "Նախընտրությունների կառավարում"
 
 #: .es5/templates/settings/delete_account.mustache:1 .es5/templates/settings/delete_account.mustache:5 .es5/templates/settings/delete_account.mustache:2
 #: .es5/templates/settings/delete_account.mustache:19 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
-msgstr ""
+msgstr "Ջնջել հաշիվը"
 
 #: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
-msgstr ""
+msgstr "Ջնջում…"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid ""
 "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
 "lose access to it everywhere."
 msgstr ""
+"Եթե դուք օգտագործում եք այս հաշիվը Mozilla-ի ծրագրերի և ծառայությունների համար, ինչպիսիք են՝ AMO-ն, Pocket-ը և Screenshots-ը Դուք նախ պետք է մուտք գործեք և հեռացնեք բոլոր պահպանած անձնական "
+"տեղեկությունները։ Եթե Դուք այստեղ ջնջեք Ձեր հաշիվը, Դուք կարող եք ամենուր կորցնել դրա մատչումը։"
 
 #: .es5/templates/settings/display_name.mustache:5 .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Ընտրեք այն անունը, որը կցանկանայիք հայտնվեր Firefox֊ում և Ձեր հաշիվը կառավարելիս։"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Երկրորդային Էլ․փոստը լրացուցիչ հասցէ է անվտանգության ծանուցումներ ստանալու և նոր սարքեր հաստատելու համար։"
 
 #: .es5/templates/settings/emails.mustache:9
 msgid "verified"
-msgstr ""
+msgstr "հաստատված"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "verification required"
-msgstr ""
+msgstr "հաստատման դիմում"
 
 #: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
 msgid "Make primary"
-msgstr ""
+msgstr "Դարձնել առաջնային"
 
 #: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
 msgid "Remove"
-msgstr ""
+msgstr "Հեռացնել"
 
 #: .es5/templates/settings/emails.mustache:28
 msgid "Add"
-msgstr ""
+msgstr "Ավելացնել"
 
 #: .es5/templates/settings/recovery_codes.mustache:2
 msgid "Recovery codes"
-msgstr ""
+msgstr "Վերականգնման կոդեր"
 
 #: .es5/templates/settings/recovery_codes.mustache:3 .es5/templates/settings/recovery_codes.mustache:6 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
-msgstr ""
+msgstr "ՆՇՈՒՄ․"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "Վերականգնման նոր կոդեր ստեղծելով՝ նախորդ բոլոր ծածկագրերն անվավեր կդառնան։Խնդրում ենք պահպանել նոր կոդերը անվտանգ վայրում։"
 
 #: .es5/templates/settings/recovery_codes.mustache:5 .es5/templates/settings/recovery_codes.mustache:9
 msgid "Generate new recovery codes"
-msgstr ""
+msgstr "Ստեղծեք վերականգնման նոր կոդեր"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr ""
+msgstr "Սրանք ձեր մեկանգմայա օգտագործման վերականգնման կոդերն են։Պահպանեք դրանք անվտանգ տեղում այն դեպքում, երբ դուք կկորցնեք մուտքը բջջային սարք։Դուք այլևս չեք կարողանա տեսնել այս կոդերը։"
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
 msgid "Copy"
-msgstr ""
+msgstr "Պատճենել"
 
 #: .es5/templates/settings/recovery_codes.mustache:12 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 msgid "Print"
-msgstr ""
+msgstr "Տպել"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
-msgstr ""
+msgstr "Երկաստիճան վավերացում"
 
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
-msgstr ""
+msgstr "Միացնել…"
 
 #: .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Ձեր հաշվին ավելացրեք անվտանգության մի շերտ՝ պահանջելով անվտանգության կոդեր <a %(escapedTotpSupportAttributes)s> այս նույնականացման ծրագրերից </a>։"
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
