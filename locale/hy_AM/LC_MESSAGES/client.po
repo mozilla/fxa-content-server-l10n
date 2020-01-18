@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-06 08:46+0000\n"
+"PO-Revision-Date: 2019-12-10 07:34+0000\n"
 "Last-Translator: arshakabrahamyan03 <arshakabrahamyan03@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
@@ -346,47 +346,47 @@ msgstr "Հաշիվը հաջողությամբ հաստատվեց"
 
 #: .es5/models/sync-engines.js:59 .es5/models/sync-engines.js:54 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70
 msgid "Open tabs"
-msgstr ""
+msgstr "Բացել ներդիրները"
 
 #: .es5/models/sync-engines.js:63 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:54
 msgid "Bookmarks"
-msgstr ""
+msgstr "Էջանիշեր"
 
 #: .es5/models/sync-engines.js:67 .es5/models/sync-engines.js:62 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66
 msgid "Add-ons"
-msgstr ""
+msgstr "Հավելումներ"
 
 #: .es5/models/sync-engines.js:71 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58 .es5/models/sync-engines.js:62
 msgid "Logins"
-msgstr ""
+msgstr "Մուտքանուններ"
 
 #: .es5/models/sync-engines.js:75 .es5/models/sync-engines.js:70 .es5/models/sync-engines.js:66 .es5/models/sync-engines.js:58
 msgid "History"
-msgstr ""
+msgstr "Պատմություն"
 
 #: .es5/models/sync-engines.js:79 .es5/models/sync-engines.js:74
 msgid "Preferences"
-msgstr ""
+msgstr "Նախընտրություններ"
 
 #: .es5/models/sync-engines.js:87 .es5/models/sync-engines.js:82
 msgid "Addresses"
-msgstr ""
+msgstr "Հասցեներ"
 
 #: .es5/models/sync-engines.js:95 .es5/models/sync-engines.js:90
 msgid "Credit cards"
-msgstr ""
+msgstr "Բանկային քարտեր"
 
 #: .es5/models/reliers/sync.js:81 .es5/models/reliers/sync.js:71 .es5/models/reliers/browser.js:72 .es5/models/reliers/browser.js:79
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox֊ի համաժամեցում"
 
 #: .es5/models/auth_brokers/base.js:143 .es5/models/auth_brokers/base.js:113 .es5/models/auth_brokers/base.js:115 .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստը հաջողությամբ հաստատվեց"
 
 #: .es5/models/auth_brokers/web.js:44 .es5/models/auth_brokers/web.js:36 .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Գաղտնաբառը հաջողությամբ վերատեղադրվեց"
 
 #: .es5/lib/auth-errors.js:31 .es5/lib/marketing-email-errors.js:27 .es5/lib/oauth-errors.js:35 .es5/lib/pairing-channel-client-errors.js:19 .es5/lib/profile-errors.js:67 .es5/lib/profile-errors.js:75
 #: .es5/lib/auth-errors.js:26 .es5/lib/marketing-email-errors.js:22 .es5/lib/oauth-errors.js:28 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:63 .es5/lib/profile-errors.js:71
@@ -396,7 +396,7 @@ msgstr "Անսպասելի սխալ"
 
 #: .es5/lib/auth-errors.js:32 .es5/templates/complete_sign_up.mustache:7 .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Ձեր էլ֊փոստը հաստատելու համար սեղմված հղումը սպառվել է։"
 
 #: .es5/lib/auth-errors.js:33 .es5/lib/profile-errors.js:25 .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
