@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-18 18:10+0000\n"
-"Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
+"PO-Revision-Date: 2019-11-13 06:48+0000\n"
+"Last-Translator: sed.gevorgyan11 <sed.gevorgyan11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
 "MIME-Version: 1.0\n"
@@ -1719,39 +1719,39 @@ msgstr "Ձեր հաշվին ավելացրեք անվտանգության մի �
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr ""
+msgstr "Ընթացիկ կարգավիճակը"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
-msgstr ""
+msgstr "Միացնել"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr ""
+msgstr "Անջատել"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr ""
+msgstr "Անջատել"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
-msgstr ""
+msgstr "Միացնել"
 
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
-msgstr ""
+msgstr "Փոխարինեք վերականգնման ծածկագրերը"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Տեսածրեք QR ծածկագիրը ձեր նույնականացման ծրագրում և ապա մուտքագրեք իր տրամադրած անվտանգության կոդը։"
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Չե՞ք կարող կոդավորել։"
 
 #: .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Manually enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Ձեռքով մուտքագրեք այս գաղտնի բանալին ձեր նույնականացման ծրագրի մեջ․"
 
 #: .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Security code"
