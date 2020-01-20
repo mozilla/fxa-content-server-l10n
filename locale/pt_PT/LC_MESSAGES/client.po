@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-20 14:33+0000\n"
+"PO-Revision-Date: 2020-01-20 14:34+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -2427,15 +2427,15 @@ msgstr "Aceda com segurança e em qualquer lugar às palavras-passe guardadas no
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Envie ficheiros grandes com segurança e privacidade."
 
 #: .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Escolha o que sincronizar:"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "E-mail incorreto? %(domain)s não fornece e-mail."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s registado."
