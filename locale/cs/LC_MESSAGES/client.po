@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-19 03:24+0000\n"
+"PO-Revision-Date: 2020-01-20 21:10+0000\n"
 "Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -490,11 +490,11 @@ msgstr "Na toto číslo nelze zprávu odeslat"
 
 #: .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:146 .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr "Váš e-mail se vrátil"
+msgstr "Odeslaná e-mailová zpráva se právě vrátila zpět"
 
 #: .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:150 .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Váš e-mail se vrátil. Nezadali jste chybnou adresu?"
+msgstr "Odeslaná e-mailová zpráva se právě vrátila zpět. Nezadali jste chybnou adresu?"
 
 #: .es5/lib/auth-errors.js:158 .es5/lib/auth-errors.js:154 .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
@@ -679,7 +679,7 @@ msgstr "Je vyžadována platná URL"
 
 #: .es5/lib/auth-errors.js:366 .es5/lib/auth-errors.js:364 .es5/lib/auth-errors.js:368 .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:378 .es5/lib/auth-errors.js:376
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Váš e-mail pro ověření se vrátil. Nezadali jste chybný e-mail?"
+msgstr "Odeslaná ověřovací e-mailová zpráva se právě vrátila zpět. Nezadali jste chybnou adresu?"
 
 #: .es5/lib/auth-errors.js:374 .es5/lib/auth-errors.js:372 .es5/lib/auth-errors.js:376 .es5/lib/auth-errors.js:382 .es5/lib/auth-errors.js:386 .es5/lib/auth-errors.js:384
 msgid "Enter a valid email address. firefox.com does not offer email."
