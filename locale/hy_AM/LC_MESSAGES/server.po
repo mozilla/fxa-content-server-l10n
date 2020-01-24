@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-12-09 12:18+0000\n"
-"Last-Translator: sed.gevorgyan11 <sed.gevorgyan11@gmail.com>\n"
+"PO-Revision-Date: 2020-01-24 19:03+0000\n"
+"Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
 "MIME-Version: 1.0\n"
@@ -162,563 +162,573 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Դուք հաջողությամբ փոխել եք ձեր առաջնային էլ֊փոստը %(email)s։ Այս հասցեն այժմ ձեր օգտանունն է՝ ձեր Firefox-ի հաշիվ մուտք գործելու, ինչպես նաև, որպես անվտանգության ծանուցումների ստանալու և մուտք "
+"գործման հաստատումների համար։"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Վերականգնման կոդը օգտագործված է"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Դուք հետևյալ սարքից հաջողությամբ օգտագործեծիք վերականգնման կոդը․"
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Օգտագործված վերականգնման կոդ"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1483
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Վերականգնման նոր կոդեր են ստեղծվել"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Դուք հետևյալ սարքից հաջողությամբ ստեղծել եք վերակնագնման նոր կոդեր․"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1662
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Հաշվի վերականգնման ստեղնը հեռացվեց"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Դուք, հետևյալ սարքը օգտագործելով, Ձեր Firefox-ի հաշվի համար հաջողությամբ հեռացրել եք հաշվի վերականգնման ստեղնը․"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Վերականգնման այս ստեղնը այլևս չի կարող օգտագործվել ձեր հաշիվը վերականգնելու համար։"
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Դուք հետևյալ սարքից Ձեր Firefox-ի հաշվի համար հաջողությամբ հեռացրել եք հաշվի վերականգնման ստեղնը․"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստը հեռացվեց"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Դուք Ձեր Firefox հաշվից հաջողությամբ հեռացրիք %(secondaryEmail)s֊ը որպես երկրորդային էլ֊փոստ։ Անվտանգության ծանուցումները և մուտքի հաստատումները այլևս չեն ուղարկվի այս հասցեին։"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr ""
+msgstr "Երկքայլ վավերացումն անջատվել է"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Դուք հետևյալ սարքից Ձեր Firefox-ի հաշվում հաջողությամբ անջատել եք երկքայլ վավերացումը․"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Յուրաքանչյուր մուտքի ժամանակ անվտանգության կոդեր այլևս չեն պահանջվի։"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Դուք հաջողությամբ անջատել եք Firefox֊ի հաշվի երկքայլանի վավերացումը։ Յուրաքանչյուր մուտքի ժամանակ անվտանգության կոդեր այլևս չեն պահանջվի։"
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Բարի գալուստ Firefox֊ի ընտանիք"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Դուք մուտք եք գործել և պատրաստ եք սկսել ապահով և անվտանգ ուսումնասիրում։"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Հիմա Firefox֊ից ստացեք ամեն ինչ, մուտք գործելով բոլոր զննարկած սարքերում։"
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Կապակցել այլ սարքի․"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Հարցեր ունե՞ք։ Այցելեք %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
-msgstr ""
+msgstr "Խուսափեք հաշվի արգելափակումից"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr ""
+msgstr "Երկու պարզ քայլերը կօգնեն Ձեզ վերադառնալ հաշիվ և պաշտպանել Ձեր տվյալները, եթե պետք է վերատեղադրել Ձեր գաղտնաբառը։"
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
-msgstr ""
+msgstr "Տեղակայեք երկրորդային էլ֊փոստ․ "
 
 #: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
 msgid "Helps you get back in if you lose access to your email."
-msgstr ""
+msgstr "Օգնում է վերադառնալ, եթե Դուք կորցնում եք Ձեր էլ֊փոստի հասանելիությունը։"
 
 #: lib/senders/templates/postVerifyAddBoth.html:5
 msgid " Create a recovery key: "
-msgstr ""
+msgstr "Ստեղծել վերականգման ստեղն․ "
 
 #: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
 msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr ""
+msgstr "Firefox-ը պաշտպանում է Ձեր տվյալները ջնջելով Ձեր համաժամեցրած տվյալները, եթե դուք վերատեղադրում եք գաղտնաբառը։ Վերկանգման ստեղնը վերականգնում է այն։"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:3
 msgid "Set up a secondary email:"
-msgstr ""
+msgstr "Տեղակայել երկրորդային էլ֊փոստ․"
 
 #: lib/senders/templates/postVerifyAddBoth.txt:5
 msgid "Create a recovery key:"
-msgstr ""
+msgstr "Ստեղծել վերականգման ստեղն․"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Վերականգնման ստեղնով պաշտպանել Ձեր տվյալները"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Վերականգնել Ձեր համաժամեցրած տվյալները և վերականգնման վերցրեք այնտեղից, որտեղ այն մնացել է վերականգնման եզակի ստեղնի հետ։"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Հակառակ դեպքում, Firefox-ը պաշտպանում է Ձեր տվյալները՝ ջնջելով այն, երբ Ձեր գաղտնաբառը վերատեղադրվել է։"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Պաշտպանեք Ձեզ արգելափակվելուց"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստի ավելացումը կօգնի վերադառնալ Ձեր հաշիվ, եթե Դուք արգելափակվել եք և չեք կարողանում մուտք գործել Ձեր էլ֊փոստ։"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1172
 msgid "Secondary email added"
-msgstr ""
+msgstr "Երկրորդային էլ֊փոստը ավելացվել է"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
+"Դուք հաջողությամբ հաստատել եք %(secondaryEmail)s-ը` որպես երկրորդային էլ-փոստ Ձեր Firefox-ի հաշվի համար: Անվտանգության ծանուցումները և մուտքի հաստատումները այժմ կուղարկվեն էլ-փոստի երկու "
+"էլ֊հասցեներին:"
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Պե՞տք է վերատեղադրել Ձեր գաղտնաբառը։"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Հաջորդ ժամվա ընթացքում սեղմեք կոճակը նոր գաղտնաբառ ստեղծելու համար։ Դիմումը եկել է հետևյալ սարքից․"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:923
 msgid "Create new password"
-msgstr ""
+msgstr "Ստեղծել նոր գաղտնաբառ"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Շնորհակալություն Firefox ընտրելու համար։ Կարող եք տեղակայել Firefox֊ը ձեր բջջայինի համար այստեղ․ %(link)s"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Դու՞ք եք մուտք գործել։"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Եթե այո, ապա Ձեզ հարկավոր է լիազորման կոդ․"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և <a %(reportSignInLinkAttributes)s> զեկուցեք դա մեզ: </a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և դա զեկուցեք մեզ այդ մասին։"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Մի քանի օր առաջ դուք ստեղծել եք Firefox-ի հաշիվ, բայց այն չեք հաստատել։"
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Հաստատեք հիմա և ստացեք տեխնոլոգիա, որը պայքարում է և պաշտպանում է ձեր գաղտնիությունը, զինում է ձեզ գործնական գիտելիքներով որին դուք արժանի եք․"
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Հաստատել էլ֊փոստը․"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Դեռ այստե՞ղ է։"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Գրեթե մեկ շաբաթ առաջ դուք ստեղծեցիք Firefox-ի հաշիվ, բայց երբեք չհաստատեցիք։ Մենք անհանգստանում ենք Ձեզ համար։"
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Հատատեք այս էլ֊փոստի հասցեն՝ ձեր հաշիվը գործունացնելու համար և տեղեկացրեք մեզ, որ լավ եք։"
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Գործունացրեք Firefox֊ի ընտանիքի արտադրանքները"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Հաստատեք Ձեր հաշիվը և առավելագույնը օգտվեք Firefox֊ից՝ ամենուր, որտեղ մուտք եք գործել, սկսելով՝․"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Հաստատեք Ձեր հաշիվը և առավելագույնը օգտվեք Firefox-ից`ամենուր, որտեղ մուտք եք գործել։"
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Ավելացված անվտանգության համար, հետևյալ սարքից հաստատեք այս մուտքը․"
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:675
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Հաստատեք մուտքը"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Եթե այո, ապա սա հաստատման կոդն է․"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Այն ավարտվում է 5 րոպեի ընթացքում։"
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr ""
+msgstr "Հաստատեք առաջնային էլ֊փոստը"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Հերևյալ սարքից հաշվի փոփոխություն կատարելու դիմում է կատարվել․"
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Հաշվի հաստատվելուց հետո, հաշվի փոփոխությունները՝ երկրորդային Էլ֊փոստի ավելացումը, այս սարքի համար հասանելի կլինեն։"
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr ""
+msgstr "Հաստատել էլ֊փոստը․ "
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Ստուգել երկրորդային էլ․փոստը"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "որպես երկրորդային %(email)s էլ-փոստի հասցե օգտագործելու հարցումը կատարվել է հետևյալ Firefox հաշվից."
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Հաստատվելուց հետո այս հասցեն կսկսի ստանալ անվտանգության ծանուցումներ և հաստատումներ։"
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Դու՞ք եք գրանցվել։"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Եթե այո, ապա օգտագործեք հաստատման այս ծածկագիրը․"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Պատրաստել, սահմանել, համաժամեցնել"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Հաստատեք, որ ստացել եք այս էլ֊փոստը, և մենք կօգնենք ձեզ տեղադրել և համաժամեցնել Firefox-ը ձեր բոլոր սարքերում սկսելով."
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Հաստատվելուց հետո մենք կօգնենք ձեզ տեղադրել և միացնել Firefox֊ը առնվազն մեկ այլ սարքի վրա։"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Այս էլ․փոստը ավտոմատ կերպով ստեղծվում է, եթե դուք չեք կատարել այս գործողությունը, ապա խնդրում ենք <a %(passwordChangeLinkAttributes)s> փոխեք ձեր գաղտնաբառը </a>:"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Լրացուցիչ տեղեկության համար, այցելեք <a %(supportLinkAttributes)s>Mozilla Աջակցում </a>։"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Ձեր Էլ֊փոստը ինքնաշխատացվել է; եթե դուք չեք ավելացրել նոր սարք Firefox- ի ձեր հաշվում, դուք պետք է անմիջապես փոխեք ձեր գաղտնաբառը %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
 #: lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։"
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Այս էլ․փոստը ավտոմատ կերպով ստեղծվում է․ եթե դուք չեք կատարել այս գործողությունը, <a %(resetLinkAttributes)s> ապա խնդրում ենք փոխեք ձեր գաղտնաբառը </a>։"
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Եթե կասկածում եք, որ ինչ-որ մեկը փորձում է հասանելիություն ստանալ ձեր հաշիվ, ապա փոխեք ձեր գաղտնաբառը։"
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP հասցե․ %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr ""
+msgstr "Կառավարել հաշիվը․"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla գաղտնիության քաղաքականություն"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Cloud ծառայությունների մատուցման պայմաններ"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Պայմանները և չեղյալ հայտարարման քաղաքականությունը"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Privacy notice"
-msgstr ""
+msgstr "Գաղտնիության ծանուցում"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Կառավարել բաժանորդագրությունները"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Թարմացրեք վճարման մասին տեղեկությունները"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Պայմանները և չեղյալ հայտարարման քաղաքականությունը."
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Գաղտնիության ծանուցում"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Կառավարել բաժանորդագրությունները"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Թարմացրեք վճարման մասին տեղեկությունները․"
 
 #: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ի վրա"
 
 #: lib/senders/email.js:234
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s֊ի վրա"
 
 #: lib/senders/email.js:260
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (Նախահաշվարկային)"
 
 #: lib/senders/email.js:267
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (նախահաշվարկային)"
 
 #: lib/senders/email.js:272
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (նախահաշվարկային)"
 
 #: lib/senders/email.js:277
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (նախահաշվարկային)"
 
 #: lib/senders/email.js:437
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Ավարտեք ձեր հաշիվը"
 
 #: lib/senders/email.js:438 lib/senders/email.js:566
 msgid "Confirm email"
-msgstr ""
+msgstr "Հաստատեք էլ․փոստը"
 
 #: lib/senders/email.js:505
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Ստուգման կոդ՝ %(code)s"
 
 #: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Հիշեցում․ Գործունացրեք Ձեր հաշվի ստեղծումը"
 
 #: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Վերջնական հիշեցում․ Գործունացրեք Ձեր հաշիվը"
 
 #: lib/senders/email.js:603
 msgid "Account authorization code"
-msgstr ""
+msgstr "Հաշվի թույլտվության կոդ"
 
 #: lib/senders/email.js:672
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Հաստատեք նոր մուտքը %(clientName)s֊ով։"
 
 #: lib/senders/email.js:717
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Մուտքի կոդ %(serviceName)s համար"
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Հաստատեք առաջնային էլ․փոստը"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr ""
+msgstr "Հաստատեք էլ֊փոտը"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Հաստատեք երկրորդական էլ․փոստը"
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
-msgstr ""
+msgstr "Նշեք ձեր գաղտնաբառը"
 
 #: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"
-msgstr ""
+msgstr "Գաղտնաբառը թարմացվել է"
 
 #: lib/senders/email.js:1032
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Հայտնաբերվել է կասկածելի գործողություն"
 
 #: lib/senders/email.js:1074 lib/senders/email.js:1173 lib/senders/email.js:1328 lib/senders/email.js:1364 lib/senders/email.js:1398 lib/senders/email.js:1441 lib/senders/email.js:1484
 #: lib/senders/email.js:1527 lib/senders/email.js:1617 lib/senders/email.js:1663
 msgid "Manage account"
-msgstr ""
+msgstr "Կառավարել հաշիվը"
 
 #: lib/senders/email.js:1127
 msgid "Account confirmed"
-msgstr ""
+msgstr "Հաշիվը հաստատված է"
 
 #: lib/senders/email.js:1130
 msgid "Connect another device"
-msgstr ""
+msgstr "Կապակցել այլ սարքի"
 
 #: lib/senders/email.js:1208
 msgid "Set up account recovery"
-msgstr ""
+msgstr "Տեղակայել հաշվի վերականգնում"
 
 #: lib/senders/email.js:1209
 msgid "Open account settings"
-msgstr ""
+msgstr "Բացել հաշվի կարգավորումները"
 
 #: lib/senders/email.js:1249
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Տեղակայել վերականգման էլ֊փոստ"
 
 #: lib/senders/email.js:1250
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Ավելացնել երկրորդային էլ֊փոստ"
 
 #: lib/senders/email.js:1290 lib/senders/email.js:1291
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Ստացեք վերականգման ստեղնը"
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
-msgstr ""
+msgstr "Առաջնային էլ֊փոստը թարմացվել է"
 
 #: lib/senders/email.js:1397
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Երկքայլ հաստատումը միացված է"
 
 #: lib/senders/email.js:1440
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Երկքայլ հաստատումը անջատված է"
 
 #: lib/senders/email.js:1526
 msgid "Recovery code used"
-msgstr ""
+msgstr "Վերականգնման կոդը օգտագործվել է"
 
 #: lib/senders/email.js:1579
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 վերականգնման կոդ է մնացել"
 
 #: lib/senders/email.js:1581
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s մնացած վերականգնման կոդերը"
 
 #: lib/senders/email.js:1584
 msgid "Generate codes"
-msgstr ""
+msgstr "Ստեղծեք կոդեր"
 
 #: lib/senders/email.js:1708
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Գաղտնաբառը թարմացվել է վերականգնման ստեղն օգտագործելով"
 
 #: lib/senders/email.js:1709
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Ստեղծեք նոր վերականգնման ստեղն"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox֊ի հաշիվներ"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Էջը չի գտնվել"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Ձեր դիմած էջը չի գտնվել։ Մենք \n"
+"                    կծանուցենք և կուղղենք բոլոր հղումները, որոնք կարող են կոտրվել։"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Սկիզբ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Սխալ 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Վայ, ինչ֊որ բան սխալ է ընթացել։ Մենք\n"
+"                    կծանուցենք և կաշխատենք ուղղելու համար։"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Սխալ 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Սպասարկիչը զբաղված է, կրկին փորձեք"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Մենք ներկայումս գտնվում ենք ծանր ճնշման տակ և աշխատում ենք \n"
+"                    հնարավորինս շուտ վերադարձնել համակարգը նորմալ վիճակին"
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Բեռնում"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox֊ի հաշիվները պահանջում են JavaScript․"
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Գաղտնիության դրույթներ"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Ծառայության պայմանները"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Պահանջվում է Firefox֊ի թարմացում"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -727,7 +737,11 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox֊ի հաշիվները օգտագործում են իրենց հատկությունները, որոնք\n"
+"                        ձեր Firefox-ի տարբերակում չեն աջակցվում։\n"
+"                        Ներբեռնեք և տեղադրեք Firefox-ի ամենավերջին տարբերակը\n"
+"                        շարունակելու համար։"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Ներբեռնել ամենավերջինը"
