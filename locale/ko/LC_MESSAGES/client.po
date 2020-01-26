@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-17 05:34+0000\n"
+"PO-Revision-Date: 2020-01-26 22:12+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1519,7 +1519,7 @@ msgstr "Sync 연결을 끊으시겠습니까?"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "브라우징 데이터는 %(deviceName)s 장비에 남지만 계정과 동기화되지는 않습니다."
+msgstr "브라우징 데이터는 %(deviceName)s에 남지만, 더 이상 계정과 동기화되지는 않습니다."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -2369,19 +2369,19 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Sync 연결 끊기"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "%(deviceName)s 기기를 다음과 같은 이유로 Sync 연결을 끊으려 합니다:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "의심스러움"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "분실 또는 도난 당함"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
@@ -2389,7 +2389,7 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "중복됨"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
