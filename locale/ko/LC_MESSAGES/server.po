@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 22:59+0000\n"
+"PO-Revision-Date: 2020-01-26 23:42+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -138,7 +138,7 @@ msgstr "본인이 한 행동이 아니라면, 키 발급을 취소하세요."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr "2단계 인증이 활성화되었습니다"
+msgstr "2단계 인증을 사용합니다"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -208,7 +208,7 @@ msgstr "Firefox 계정에서 %(secondaryEmail)s을 보조 이메일에서 삭제
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr "2단계 인증이 비활성화되었습니다"
+msgstr "2단계 인증을 사용하지 않습니다"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -220,7 +220,7 @@ msgstr "더이상 로그인할 때마다 보안 코드를 입력하지 않아도
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Firefox 계정의 2단계 인증이 성공적으로 비활성화되었습니다. 더이상 로그인할 때마다 보안 코드를 입력하지 않아도 됩니다."
+msgstr "Firefox 계정의 2단계 인증이 성공적으로 비활성화되었습니다. 더 이상 로그인할 때마다 보안 코드를 입력하지 않아도 됩니다."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
@@ -356,11 +356,11 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "이 이메일 주소를 확인하여 계정을 활성화하고 정상 사용자임을 알려주세요."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Firefox 제품군 활성화"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
