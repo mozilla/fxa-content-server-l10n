@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 22:31+0000\n"
+"PO-Revision-Date: 2020-01-26 22:45+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -285,7 +285,7 @@ msgstr "보안상의 이유로 계정 잠김"
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr "암호 초기화"
+msgstr "비밀번호 초기화"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
@@ -433,7 +433,7 @@ msgstr "잘못된 이메일"
 
 #: .es5/lib/auth-errors.js:71 .es5/lib/auth-errors.js:66 .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
-msgstr "맞지 않는 암호"
+msgstr "잘못된 비밀번호"
 
 #: .es5/lib/auth-errors.js:75 .es5/lib/auth-errors.js:70 .es5/lib/auth-errors.js:68
 msgid "Unverified account"
@@ -632,7 +632,7 @@ msgstr "쿠키가 여전히 꺼져있음"
 
 #: .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:310 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:312
 msgid "Passwords do not match"
-msgstr "암호가 일치하지 않음"
+msgstr "비밀번호가 일치하지 않음"
 
 #: .es5/lib/auth-errors.js:308 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:314 .es5/lib/auth-errors.js:318 .es5/lib/auth-errors.js:316
 msgid "Working…"
@@ -922,7 +922,7 @@ msgstr "아, 뭔가가 잘 못 되었습니다. 이 상황을 인지했으며 �
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "암호 재설정 링크 만료"
+msgstr "비밀번호 재설정 링크가 만료됨"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
@@ -996,7 +996,7 @@ msgstr "뒤로"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "암호 재설정 링크 문제 있음"
+msgstr "비밀번호 재설정 링크에 문제 있음"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1004,7 +1004,7 @@ msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언�
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr "새 암호 생성"
+msgstr "새 비밀번호 생성"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -1018,11 +1018,11 @@ msgstr "복구 키를 이용해 성공적으로 계정을 복구했습니다. �
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/settings/change_password.mustache:6 .es5/views/settings/change_password.js:248
 msgid "New password"
-msgstr "새 암호"
+msgstr "새 비밀번호"
 
 #: .es5/templates/complete_reset_password.mustache:14 .es5/templates/settings/change_password.mustache:7 .es5/views/settings/change_password.js:262
 msgid "Re-enter password"
-msgstr "암호 재입력"
+msgstr "비밀번호 재입력"
 
 #: .es5/templates/complete_reset_password.mustache:17 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:9
 msgid "Remember password? Sign in"
@@ -1081,7 +1081,7 @@ msgstr "새로운 비밀번호를 생성을 위해 %(email)s 이메일로 보낸
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr "다른 기기에 연결"
+msgstr "다른 기기 연결"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:2 .es5/templates/sms_send.mustache:4
 msgid "This Firefox is connected"
@@ -1148,13 +1148,13 @@ msgstr "계속하려면 로그인"
 #: .es5/templates/sign_up_password.mustache:9 .es5/templates/settings/delete_account.mustache:18 .es5/views/settings/change_password.js:85 .es5/templates/sign_up_password.mustache:6
 #: .es5/templates/settings/delete_account.mustache:20 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
-msgstr "암호"
+msgstr "비밀번호"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in.mustache:6 .es5/templates/sign_in.mustache:15 .es5/templates/sign_in_password.mustache:9
 #: .es5/templates/settings/change_password.mustache:5 .es5/templates/force_auth.mustache:10 .es5/templates/sign_in.mustache:8 .es5/templates/sign_in.mustache:17
 #: .es5/templates/sign_in_password.mustache:11 .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:9 .es5/templates/sign_in.mustache:16
 msgid "Forgot password?"
-msgstr "암호를 잊어버리셨습니까?"
+msgstr "비밀번호를 잊으셨습니까?"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/index.mustache:6 .es5/templates/sign_in.mustache:16 .es5/templates/sign_up.mustache:13 .es5/templates/sign_up_password.mustache:7
 #: .es5/templates/force_auth.mustache:11 .es5/templates/index.mustache:8 .es5/templates/sign_in.mustache:18 .es5/templates/sign_up.mustache:15 .es5/templates/sign_up_password.mustache:12
@@ -1378,11 +1378,11 @@ msgstr "Firefox 계정 생성"
 #: .es5/templates/sign_up.mustache:9 .es5/templates/sign_up_password.mustache:6 .es5/templates/sign_up.mustache:11 .es5/templates/sign_up_password.mustache:11
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/sign_up_password.mustache:7 .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
-msgstr "암호 재입력"
+msgstr "비밀번호 재입력"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up.mustache:12 .es5/templates/sign_up_password.mustache:8
 msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-msgstr "이 암호를 잃어버리지 마십시오. 이를 재설정하면 Sync 데이터를 잃을수도 있습니다."
+msgstr "이 비밀번호를 잃어버리지 마세요. 비밀번호를 재설정하면 Sync 데이터를 잃을수도 있습니다."
 
 #: .es5/templates/sign_up.mustache:11 .es5/templates/sign_up.mustache:13
 msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
@@ -1851,7 +1851,7 @@ msgstr "이메일 주소가 아니어야 함"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "<a %(escapedCommonPasswordLinkAttrs)s>흔한 암호 목록</a>과 일치하지 않아야 함"
+msgstr "<a %(escapedCommonPasswordLinkAttrs)s>흔한 비밀번호 목록</a>과 일치하지 않아야 함"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
@@ -1859,7 +1859,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:12
 msgid "Remember this password &mdash; resetting it erases your data from our servers."
-msgstr "이 암호를 기억하세요. 재실정시 서버에있는 사용자의 데이터가 지워집니다."
+msgstr "이 비밀번호를 기억하세요 &mdash; 재실정시 서버에 있는 사용자의 데이터가 지워집니다."
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -1871,7 +1871,7 @@ msgstr "Firefox Sync를 찾고 계신가요? <a %(escapedSyncSuggestionAttrs)s>�
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr "<small>%(email)s</small>의 새 장치 승인"
+msgstr "<small>%(email)s</small>의 새 기기 승인"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -2051,7 +2051,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Keep your passwords protected and portable."
-msgstr "암호를 보호하고 항상 가지고 다니세요."
+msgstr "비밀번호를 보호하고 항상 가지고 다니세요."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2100,7 +2100,7 @@ msgstr "하나를 선택하십시오"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr "로그인 및 암호"
+msgstr "로그인과 비밀번호"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
