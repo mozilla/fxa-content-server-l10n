@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 22:48+0000\n"
+"PO-Revision-Date: 2020-01-26 22:59+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -69,7 +69,7 @@ msgstr "복구 키로 계정 비밀번호가 재설정되었습니다"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "다음 기기에서 발급한 복구 키로 암호를 재설정했습니다:"
+msgstr "다음 기기에서 복구 키를 사용하여 비밀번호를 성공적으로 재설정했습니다:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
@@ -304,11 +304,11 @@ msgstr "Firefox 계정에서 %(secondaryEmail)s을 보조 이메일로 확인했
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr "암호 초기화가 필요하신가요?"
+msgstr "비밀번호를 재설정하시겠습니까?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "새 비밀번호를 만들려면 다음 시간 안에 버튼을 클릭하세요. 요청은 다음 기기에서 온 것입니다:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:923
 msgid "Create new password"
@@ -577,7 +577,7 @@ msgstr ""
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
-msgstr "암호 재설정"
+msgstr "비밀번호 재설정"
 
 #: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"

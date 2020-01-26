@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 22:45+0000\n"
+"PO-Revision-Date: 2020-01-26 23:01+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -325,7 +325,7 @@ msgstr "복사됨"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr "복사하지 못했습니다. 수동으로 복사하십시오."
+msgstr "복사에 실패했습니다. 수동으로 복사하세요."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
@@ -798,7 +798,7 @@ msgstr "나중에 다시 시도하세요"
 
 #: .es5/lib/marketing-email-errors.js:83 .es5/lib/marketing-email-errors.js:78
 msgid "Service unavailable, try again soon"
-msgstr "서비스 사용이 불가합니다, 잠시 후 다시 시도하십시오"
+msgstr "서비스를 이용할 수 없습니다. 잠시 후 다시 시도하세요"
 
 #: .es5/lib/oauth-errors.js:41 .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
