@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-27 00:14+0000\n"
+"PO-Revision-Date: 2020-01-27 03:31+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -300,7 +300,7 @@ msgstr "보조 이메일 주소를 추가했습니다"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Firefox 계정에서 %(secondaryEmail)s을 보조 이메일로 확인했습니다. 앞으로 보안 알림과 로그인 확인은 이 이메일로 전송됩니다."
+msgstr "Firefox 계정에서 %(secondaryEmail)s을 보조 이메일로 검증했습니다. 이제 보안 알림 및 로그인 확인은 두 이메일 주소로 전송됩니다."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -352,7 +352,7 @@ msgstr "아직 계신가요?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "거의 일주일 전에 Firefox 계정을 만들었지만 검증하지 않았습니다. 저희는 사용자가 걱정됩니다."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
@@ -388,7 +388,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr "기본 이메일 확인"
+msgstr "기본 이메일 검증"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -400,11 +400,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "이메일 인증: "
+msgstr "이메일 검증: "
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1
 msgid "Verify secondary email"
-msgstr "보조 이메일 인증"
+msgstr "보조 이메일 검증"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -412,7 +412,7 @@ msgstr "다음 Firefox 계정으로부터 %(email)s 이메일을 보조 이메�
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "인증이 되면 이 주소로 보안 알림과 확인을 받기 시작합니다."
+msgstr "검증이 되면 이 주소로 보안 알림 및 확인을 받기 시작합니다."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
