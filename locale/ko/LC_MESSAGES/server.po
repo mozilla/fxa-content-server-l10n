@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 23:42+0000\n"
+"PO-Revision-Date: 2020-01-27 00:14+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -240,7 +240,7 @@ msgstr "다른 기기 연결:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "질문이 있으십니까? %(supportUrl)s를 방문하세요"
 
 #: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
 msgid "Avoid account lockout"
@@ -372,7 +372,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "추가 보안을 위하여, 다음 기기에서 발생한 로그인을 확인해주십시오:"
+msgstr "추가 보안을 위해, 다음 기기의 이 로그인을 확인해주세요:"
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:675
 msgid "Confirm sign-in"
