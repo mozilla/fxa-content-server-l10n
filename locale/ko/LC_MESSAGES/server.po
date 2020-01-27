@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-27 03:31+0000\n"
+"PO-Revision-Date: 2020-01-27 03:36+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -380,7 +380,7 @@ msgstr "로그인 확인"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "그렇다면 검증 코드는 다음과 같습니다:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
@@ -396,7 +396,7 @@ msgstr "다음 기기에서 계정 변경을 수행하라는 요청이 있었습
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "검증이 되면 이 기기에서 보조 이메일 추가와 같은 계정 변경이 가능합니다."
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
@@ -420,7 +420,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "그렇다면 이 검증 코드를 사용하세요:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -541,7 +541,7 @@ msgstr "이메일 확인"
 
 #: lib/senders/email.js:505
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "검증 코드: %(code)s"
 
 #: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
@@ -569,7 +569,7 @@ msgstr ""
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr ""
+msgstr "이메일 검증"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
