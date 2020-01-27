@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 23:51+0000\n"
+"PO-Revision-Date: 2020-01-27 00:11+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1312,7 +1312,7 @@ msgstr "복구 코드 입력"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "설정하는동안 제공된 복구 코드를 입력하십시오."
+msgstr "설정하는동안 제공된 복구 코드를 입력하세요."
 
 #: .es5/templates/sign_in_recovery_code.mustache:5
 msgid "Enter 10-digit recovery code"
@@ -1352,7 +1352,7 @@ msgstr "보안 코드 입력"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "인증앱을 열고 제공된 보안 코드를 입력하십시오."
+msgstr "인증 앱을 열고 제공된 보안 코드를 입력하세요."
 
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
@@ -1680,7 +1680,7 @@ msgstr "새 복구 코드 생성"
 
 #: .es5/templates/settings/recovery_codes.mustache:7
 msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-msgstr "한 번만 사용할 수 있는 복구 코드입니다. 모바일 기기에 접근할 수 없는 상황에도 사용할 수 있는 안전한 장소에 보관하십시오. 이 코드는 다시 볼 수 없습니다."
+msgstr "한 번만 사용할 수 있는 복구 코드입니다. 모바일 기기에 접근하지 못할 경우에 대비해 안전한 장소에 보관하세요. 이 코드는 다시 볼 수 없습니다."
 
 #: .es5/templates/settings/recovery_codes.mustache:11 .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6
@@ -1907,7 +1907,7 @@ msgstr "FIrefox에서 코드 스캐너를 열고 준비가 되면 코드를 보�
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr "코드 보이기"
+msgstr "코드 표시"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get App"
@@ -2088,7 +2088,7 @@ msgstr "구독이 이미 취소되었습니다"
 
 #: .es5/lib/auth-errors.js:270 .es5/lib/auth-errors.js:268
 msgid "Update was rejected, please try again"
-msgstr "업데이트가 거부되었습니다, 다시 시도하십시오"
+msgstr "업데이트가 거부되었습니다, 다시 시도하세요"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
@@ -2096,7 +2096,7 @@ msgstr "아바타"
 
 #: .es5/views/support.js:67 .es5/views/support.js:80 .es5/views/support.js:82 .es5/views/support.js:84
 msgid "Please Select One"
-msgstr "하나를 선택하십시오"
+msgstr "하나를 선택하세요"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
@@ -2137,7 +2137,7 @@ msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "신용 카드가 만료되었습니다. <a %(escapedCcExpiredLinkAttrs)s>여기</a>에서 이를 업데이트하십시오."
+msgstr "신용 카드가 만료되었습니다. <a %(escapedCcExpiredLinkAttrs)s>여기</a>에서 이를 업데이트 하세요."
 
 #: .es5/templates/subscription_terms.mustache:1
 msgid "Subscription Platform Terms of Service"
@@ -2265,11 +2265,11 @@ msgstr "동기화 사용"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr "이 기기를 동기화하지 마십시오"
+msgstr "이 기기를 동기화하지 마세요"
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/confirm_signup_code.mustache:4
 msgid "Enter verification code"
-msgstr "인증 코드를 입력하십시오"
+msgstr "인증 코드를 입력하세요"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
@@ -2337,7 +2337,7 @@ msgstr "유효하지 않거나 만료된 인증 코드"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "5분 이내 %(escapedEmail)s로 전송된 인증 코드를 입력하십시오."
+msgstr "5분 이내에 %(escapedEmail)s로 전송된 인증 코드를 입력하세요."
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
