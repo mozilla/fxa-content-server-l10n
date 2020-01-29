@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 14:21+0000\n"
+"PO-Revision-Date: 2020-01-29 16:11+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -220,7 +220,7 @@ msgstr "Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Embogue porã ñemoneĩ mokõi jeyguáva Firefox Account pegua. Ndojejeruremo’ãvéima tekorosã ayvu emoñepyrũjeývo tembiapo."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
@@ -248,7 +248,7 @@ msgstr "Emboyke mba’ete jejoko"
 
 #: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
 msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr ""
+msgstr "Mokõi jeku’e hasy’ỹva nepytyvõta eguevijey hag̃ua ne mba’etépe ha emo’ã ne mba’ekuaarã erujeysérõ ne ñe’ẽñemi."
 
 #: lib/senders/templates/postVerifyAddBoth.html:3
 msgid "Set up a secondary email: "
