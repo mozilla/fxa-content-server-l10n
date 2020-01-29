@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 16:44+0000\n"
+"PO-Revision-Date: 2020-01-29 04:42+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -492,19 +492,19 @@ msgstr "حدّث معلومات الفوترة"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "الشروط وتنويه الإلغاء:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "تنويه الخصوصية:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "لإلغاء الاشتراك:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "لتحديث معلومات الفوترة:"
 
 #: lib/senders/email.js:229
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -532,27 +532,27 @@ msgstr "%(country)s (تقريبًا)"
 
 #: lib/senders/email.js:437
 msgid "Finish creating your account"
-msgstr ""
+msgstr "أنهِ إنشاء حسابك"
 
 #: lib/senders/email.js:438 lib/senders/email.js:566
 msgid "Confirm email"
-msgstr ""
+msgstr "أكّد عنوان البريد"
 
 #: lib/senders/email.js:505
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "رمز التأكيد: %(code)s"
 
 #: lib/senders/email.js:546
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "تذكير: أنهِ إنشاء حسابك"
 
 #: lib/senders/email.js:548
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "تذكير أخير: فعّل حسابك"
 
 #: lib/senders/email.js:603
 msgid "Account authorization code"
-msgstr ""
+msgstr "رمز تخويل الحساب"
 
 #: lib/senders/email.js:672
 msgid "Confirm new sign-in to %(clientName)s"
@@ -564,23 +564,23 @@ msgstr ""
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"
-msgstr ""
+msgstr "أكّد البريد الإلكتروني الأولي"
 
 #: lib/senders/email.js:783 lib/senders/email.js:842
 msgid "Verify email"
-msgstr ""
+msgstr "أكّد البريد"
 
 #: lib/senders/email.js:841
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "أكّد البريد الإلكتروني الثانوي"
 
 #: lib/senders/email.js:922
 msgid "Reset your password"
-msgstr ""
+msgstr "صفّر كلمة السر"
 
 #: lib/senders/email.js:964 lib/senders/email.js:1002
 msgid "Password updated"
-msgstr ""
+msgstr "تحدّثت كلمة السر"
 
 #: lib/senders/email.js:1032
 msgid "Suspicious activity detected"
@@ -593,7 +593,7 @@ msgstr "أدِر الحساب"
 
 #: lib/senders/email.js:1127
 msgid "Account confirmed"
-msgstr ""
+msgstr "تأكّد الحساب"
 
 #: lib/senders/email.js:1130
 msgid "Connect another device"
@@ -621,7 +621,7 @@ msgstr ""
 
 #: lib/senders/email.js:1327
 msgid "Primary email updated"
-msgstr ""
+msgstr "تحدّث البريد الإلكتروني الأولي"
 
 #: lib/senders/email.js:1397
 msgid "Two-step verification enabled"
@@ -716,7 +716,7 @@ msgstr "شروط الخدمة"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "تحديث Firefox مطلوب"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-26 16:43+0000\n"
+"PO-Revision-Date: 2020-01-29 04:39+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1947,7 +1947,7 @@ msgstr ""
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
-msgstr ""
+msgstr "التأكيد مطلوب"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -2161,7 +2161,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4 .es5/models/support-form.js:25
 msgid "General inquiries"
-msgstr ""
+msgstr "تساؤلات عامة"
 
 #: .es5/templates/support.mustache:5 .es5/models/support-form.js:25
 msgid "Payment & billing"
@@ -2285,7 +2285,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "آخر نشاط"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -2297,7 +2297,7 @@ msgstr "اسم الحدث"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "تاريخ الإنشاء"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
