@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 11:51+0000\n"
+"PO-Revision-Date: 2020-01-29 11:59+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -89,7 +89,7 @@ msgstr "Rohecha tembiapo ivaikuaaha nde Firefox mba’etépe. Ne mba’ete ikatu
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Emboyke hag̃ua emoneĩ’ỹva jeike ne mba’etépe Firefox pegua, roguerujey ne mba’ete ha, kyhyjerãramo, upevarã romomarandu."
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
