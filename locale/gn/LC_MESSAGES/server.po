@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 14:10+0000\n"
+"PO-Revision-Date: 2020-01-29 14:21+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -412,7 +412,7 @@ msgstr "Ojejerure ojepuru hag̃ua %(email)s ñanduti veve mokõháva ambue Firef
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Ojehechajey vove, ko mba’ete oñepyrũta omog̃uahẽ marandu’i tekorosã ha ñemoneĩ rehegua."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -428,7 +428,7 @@ msgstr "Ema’ẽ, oĩma, embojuehe"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Emoneĩ og̃uahẽre ndéve ñanduti veve ha roipytyvõta emohenda ha embojuehe hag̃ua Firefox opaite ne mba’e’okápe, roñepyrũvo ko:"
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -702,6 +702,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Romba’apo ropytu’u’ỹre jahejápa\n"
+"                    pe apopyvusu oikojey hag̃ua pya’emi."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
