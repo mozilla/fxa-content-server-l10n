@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 12:41+0000\n"
+"PO-Revision-Date: 2020-01-29 13:02+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -308,7 +308,7 @@ msgstr "¿Eguerujeýke ne ñe’ẽñemi?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:923
 msgid "Create new password"
@@ -328,7 +328,7 @@ msgstr "Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a %(reportSignInLinkAttributes)s>oremomarandu.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
@@ -336,7 +336,7 @@ msgstr "Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomara
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Nda’areiete emoheñói hague mba’ete Firefox-pe, hákatu neremoneĩri."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
