@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 13:02+0000\n"
+"PO-Revision-Date: 2020-01-29 14:10+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -440,11 +440,11 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Eñemomaranduve hag̃ua, eike <a %(supportLinkAttributes)s>Mozilla Ñepytyvõ</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Kóva ha’e ñanduti veve ijeheguíva; nerembojoajúi rire ne mba’e’oka Firefox Account-pe, emoambuéke pya’eterei ñe’ẽñemi %(passwordChangeLink)s rupive"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
 #: lib/senders/templates/layouts/subscription.txt:1
@@ -686,6 +686,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Épa, peteĩva oĩvai\n"
+"                    roñeha’ãma romyatyrõ hag̃ua."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
