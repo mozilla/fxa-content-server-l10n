@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 12:33+0000\n"
+"PO-Revision-Date: 2020-01-29 12:41+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -196,7 +196,7 @@ msgstr "Ko mba’eñemi jeguerujeyrã ndoikovéima erujey hag̃ua ne mba’ete."
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Embogue porã pe mba’eñemi jeguerujeyrã Firefox Account pegua eipurúvo ko tenondevegua mba’e’oka:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1363
 msgid "Secondary email removed"
@@ -212,7 +212,7 @@ msgstr "Ojepe’áma ñemoneĩ mokõi jeku’e pegua"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Embogue porã ñemoneĩ mokõi jeyguáva Firefox Account pegua tenondevegua mba’e’oka guive:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
@@ -280,7 +280,7 @@ msgstr "Emo’ã ne mba’ekuaarã mba’eñemi jeguerujeyrã ndive"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Eguerujey mba’ekuaarã mbojuehepyre ha ejapyhyjey eheja haguégui mba’eñemi jeguerujeyrã ndive."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
