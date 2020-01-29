@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 12:09+0000\n"
+"PO-Revision-Date: 2020-01-29 12:33+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -45,7 +45,7 @@ msgstr "Oñemoambue hekoitépe nde Firefox Account ñe’ẽñemi peteĩva mba�
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Kóva ha’e ñanduti veve ijeheguíva; neremoambuéi rire ne mba’ete Firefox pegua, eguerujeýke pya’eterei %(resetLink)s rupive"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -150,7 +150,7 @@ msgstr "Ko’ág̃a guive ojejeturéta ne rembipuru’i ayvu rekorosã ñemoneĩ
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Emyandy porã pe ñemoneĩ mokõi jeyguáva ne mba’ete Firefox peguápe. Ko’ág̃a ojejeruréta ayvu rekorosãrã ne tembipuru’i ñemoneĩ emoñepyrũjeývo tembiapó."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
