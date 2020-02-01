@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-23 06:38+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2020-02-01 16:45+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1285,7 +1285,7 @@ msgstr "退出"
 #: .es5/templates/sign_in_totp_code.mustache:8 .es5/templates/sign_in.mustache:7 .es5/templates/sign_in.mustache:10 .es5/templates/sign_in_password.mustache:10
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use a different account"
-msgstr "使用另一个账户"
+msgstr "换个账户登录"
 
 #: .es5/templates/sign_in.mustache:14 .es5/templates/sign_in.mustache:16 .es5/templates/sign_in.mustache:15
 msgid "Create an account"
@@ -1357,7 +1357,7 @@ msgstr "请打开您的身份验证应用，并输入其提供的安全码。"
 
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
-msgstr "请输入六位验证码"
+msgstr "请输入 6 位验证码"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Use recovery code"
