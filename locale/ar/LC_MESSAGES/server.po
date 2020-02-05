@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 04:42+0000\n"
+"PO-Revision-Date: 2020-02-05 19:14+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -319,7 +319,7 @@ msgstr "شكرا لاختيارك فَيَرفُكس! يمكنك تنزيل فَ
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr "هل هذا أنت من تلج؟"
+msgstr "هل هذا أنت من تُحاول الولوج؟"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
@@ -379,11 +379,11 @@ msgstr "أكّد الولوج"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "لو كنت، فإليك رمز التأكيد:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "ستنقضي صلاحيته خلال خمس دقائق."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -435,7 +435,7 @@ msgstr "ما إن تؤكّده سنساعدك في تثبيت وربط فَيَ�
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "هذا بريد إلكتروني آلي. إن لم تكن قد استوثقت هذا الإجراء <a %(passwordChangeLinkAttributes)s>فرجاءً غيّر كلمة السر</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -452,7 +452,7 @@ msgstr "هذا بريد إلكتروني الآلي، إذا تلقيته لوج
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(resetLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a>."
+msgstr "هذا بريد إلكتروني آلي. إن لم تكن قد استوثقت هذا الإجراء <a %(resetLinkAttributes)s>فرجاءً صفّر كلمة السر</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -460,7 +460,7 @@ msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
-msgstr "عنوان الـIP: %(ip)s"
+msgstr "عنوان IP:‏ %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
@@ -472,7 +472,7 @@ msgstr "سياسة موزيلا للخصوصيّة"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "شروط استخدام Firefox السحابية"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Terms and cancellation policy"
@@ -560,7 +560,7 @@ msgstr "أكِّد الولوج الجديد إلى %(clientName)s"
 
 #: lib/senders/email.js:717
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "رمز ولوج %(serviceName)s"
 
 #: lib/senders/email.js:782
 msgid "Confirm primary email"

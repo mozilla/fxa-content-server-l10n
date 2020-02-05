@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-29 04:39+0000\n"
+"PO-Revision-Date: 2020-02-05 19:13+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -901,7 +901,7 @@ msgstr "%(country)s (تقريبًا)"
 
 #: .es5/lib/strings.js:42 .es5/lib/strings.js:38 .es5/lib/strings.js:35
 msgid "IP address: %(ip)s"
-msgstr "عنوان الـIP: %(ip)s"
+msgstr "عنوان IP:‏ %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/lib/strings.js:39 .es5/lib/strings.js:36
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -1125,7 +1125,7 @@ msgstr "لج إلى فَيَرفُكس لـiOS لإكمال الإعداد"
 
 #: .es5/templates/connect_another_device.mustache:31 .es5/templates/sms_send.mustache:11 .es5/templates/sms_send.mustache:19
 msgid "Why is more than one device required?"
-msgstr "لماذا يتطلب أكثر من جهاز واحد؟"
+msgstr "لماذا أكثر من جهاز واحد؟"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -2369,7 +2369,7 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "هل تريد رمزًا آخر؟ اطلب إعادة الإرسال"
 
 #: .es5/templates/sign_up.mustache:10 .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
