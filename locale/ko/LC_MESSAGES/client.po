@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-06 23:21+0000\n"
+"PO-Revision-Date: 2020-02-06 23:25+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1069,7 +1069,7 @@ msgstr "%(escapedEmail)s로 전송된 로그인 확인 링크를 확인하시기
 #: .es5/templates/confirm.mustache:18 .es5/templates/confirm.mustache:16 .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_signup_code.mustache:8
 #: .es5/templates/sign_in_token_code.mustache:6
 msgid "Not in inbox or spam folder? Resend"
-msgstr "메일함과 스팸메일함에도 없나요? 다시 받기"
+msgstr "받은편지함 또는 스팸함에 없나요? 다시 보내기"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
