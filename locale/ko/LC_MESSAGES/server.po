@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2019-10-05 19:40+0000\n"
-"Last-Translator: Jonathan Joseph Chiarella <jonathan.chiarella@gmail.com>\n"
+"PO-Revision-Date: 2020-02-06 23:15+0000\n"
+"Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -17,15 +17,15 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "복구 코드가 얼마 남지 않았습니다"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 사용 불가능한 상황을 피하기 위해 새 코드 생성을 권장합니다."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 사용 불가능한 상황을 피하기 위해 새 코드 생성을 권장합니다."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
@@ -180,7 +180,7 @@ msgstr "새로운 복구 코드가 생성되었습니다"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "다음 기기에서 새 복구 코드를 성공적으로 생성했습니다:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1662
 msgid "Account recovery key removed"
