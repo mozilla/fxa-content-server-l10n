@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-07 14:52+0000\n"
+"PO-Revision-Date: 2020-02-07 16:24+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1308,7 +1308,7 @@ msgstr "Të raportohet hyrja e paautorizuar?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Morët një email rreth përpjekjesh hyrje te llogaria juaj. Do të donit ta raportonit këtë veprimtari si të dyshimtë?"
+msgstr "Morët një email rreth përpjekjesh hyrjeje te llogaria juaj. Do të donit ta raportonit këtë veprimtari si të dyshimtë?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
