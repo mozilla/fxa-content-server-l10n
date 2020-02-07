@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-01 16:45+0000\n"
+"PO-Revision-Date: 2020-02-07 04:27+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1952,7 +1952,7 @@ msgstr "管理…"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Get the most out of your account"
-msgstr "更有效地用好您的账户"
+msgstr "畅享您的账户的智能技术"
 
 #: .es5/templates/choose_what_to_sync.mustache:8
 msgid "Sync these everywhere you sign in"

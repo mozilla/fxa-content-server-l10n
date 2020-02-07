@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-08 14:56+0000\n"
+"PO-Revision-Date: 2020-02-07 04:28+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -232,7 +232,7 @@ msgstr "您已登录，可安全地开始探索。"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "现在到其他设备上登录，发挥 Firefox 的最大功能。"
+msgstr "现在到其他设备上登录，畅享 Firefox 的智能技术。"
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
@@ -364,11 +364,11 @@ msgstr "激活 Firefox 系列产品"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "确认您的账户，即可在任何登录的设备中，发挥 Firefox 的最大功能："
+msgstr "确认您的账户，即可在任何登录的设备中，畅享 Firefox 的智能技术："
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "确认您的账户，即可在任何登录的设备中，发挥 Firefox 的最大功能。"
+msgstr "确认您的账户，即可在任何登录的设备中，畅享 Firefox 的智能技术。"
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
