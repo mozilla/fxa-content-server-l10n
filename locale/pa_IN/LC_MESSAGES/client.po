@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-01-03 06:12+0000\n"
+"PO-Revision-Date: 2020-02-09 05:30+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1337,7 +1337,7 @@ msgstr "ਤੁਹਾਡੀ ਸਾਵਧਾਨੀ ਲਈ ਤੁਹਾਡਾ ਧ�
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "ਸਾਡੀ ਟੀਮ ਨੂੰ ਜਾਣਕਾਰੀ ਦਿੱਤੀ ਜਾ ਚੁੱਕੀ ਹੈ। ਇਸ ਵਰਗੀਆਂ ਰਿਪੋਰਟਾਂ ਸਾਨੂੰ ਘੁਸਪੈਠੀਆਂ ਤੋਂ ਬਚਾਉਣ ਲਈ ਮਦਦ ਕਰਦੀਆਂ ਹਨ।"
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1357,7 +1357,7 @@ msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_totp_code.mustache:4
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤੇ ਸੁਰੱਖਿਆ ਕੋਡ ਲਿਖੋ।"
 
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4
 msgid "Enter 6-digit code"
@@ -1900,7 +1900,7 @@ msgstr "ਡਿਵਾਈਸਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "ਹੁਣ <small>ਤੁਹਾਡੇ ਹੋਰ ਡਿਵਾਈਸ ਤੋਂ</small> ਤੋਂ ਮਨਜ਼ੂਰੀ ਚਾਹੀਦੀ ਹੈ"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -2121,7 +2121,7 @@ msgstr "ਕਰੈਡਿਟ ਕਾਰਡ"
 
 #: .es5/lib/auth-errors.js:583 .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:585
 msgid "Invalid redirect"
-msgstr ""
+msgstr "ਅਢੁੱਕਵਾਂ ਰੀ-ਡਿਰੈਕਟ"
 
 #: .es5/lib/auth-errors.js:587 .es5/lib/auth-errors.js:591
 msgid "Could not get Subscription Platform Terms of Service"
