@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-06 23:25+0000\n"
+"PO-Revision-Date: 2020-02-09 04:34+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -942,7 +942,7 @@ msgstr "복구 키로 비밀번호 재설정하기"
 #: .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_up.mustache:4 .es5/templates/sign_up_password.mustache:5 .es5/templates/sign_up_password.mustache:4
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s(으)로 계속 진행"
+msgstr "%(serviceName)s(으)로 이동"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
