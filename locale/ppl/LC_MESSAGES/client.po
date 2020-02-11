@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 22:51+0000\n"
+"PO-Revision-Date: 2020-02-11 23:01+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -248,7 +248,7 @@ msgstr "Yankwik codigo ipal talajsilis mutitanijtuk"
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Tepepetalis ukpa muwelitijtuk"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -276,20 +276,20 @@ msgstr "Talajsili ipal mutapujka te kiski yek"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Codigo ipal talajsilis Firefox"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/lib/auth-errors.js:125 .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:121 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Mutapujka mutzakwilijtuk ika muita tesajsay"
 
 #: .es5/views/mixins/account-reset-mixin.js:54 .es5/templates/complete_reset_password.mustache:16 .es5/templates/reset_password.mustache:1 .es5/templates/reset_password.mustache:4
 #: .es5/views/mixins/account-reset-mixin.js:47
 msgid "Reset password"
-msgstr ""
+msgstr "Shikchiwa taketzalis ichtaka uksenpa"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:36 .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "te kanaj"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
