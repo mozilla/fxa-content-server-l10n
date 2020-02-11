@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 03:49+0000\n"
+"PO-Revision-Date: 2020-02-11 04:10+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -92,15 +92,15 @@ msgstr "Tiwelia tikwi %(serviceName)s"
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
-msgstr ""
+msgstr "Tikpepetaketa mutapujka"
 
 #: .es5/views/ready.js:115 .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Musalujtuk"
 
 #: .es5/views/reset_password.js:129 .es5/views/sign_in.js:231 .es5/views/reset_password.js:112 .es5/views/sign_in.js:195 .es5/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Te muishmati ne tapujtuk. <a href=\"/signup\"> kitalij itukay </a>"
 
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 #: .es5/views/sign_up_password.js:87
