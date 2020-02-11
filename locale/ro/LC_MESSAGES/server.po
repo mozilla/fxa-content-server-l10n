@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 23:22+0000\n"
+"PO-Revision-Date: 2020-02-11 23:28+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -444,7 +444,7 @@ msgstr "Odată confirmat, te vom ajuta să instalezi și să te conectezi la Fir
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Acesta este un mesaj trimis automat prin e-mail; dacă nu ai autorizat această acțiune, <a %(passwordChangeLinkAttributes)s>schimbă-ți parola</a>."
+msgstr "Acesta este un e-mail automat; dacă nu tu ai autorizat această acțiune, <a %(passwordChangeLinkAttributes)s>te rugăm să-ți modifici parola</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -452,16 +452,16 @@ msgstr "Pentru mai multe informații te rugăm să vizitezi <a %(supportLinkAttr
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Acesta este un mesaj automat; dacă nu tu ai adăugat un dispozitiv nou la contul Firefox, trebuie să modifici imediat parola la adresa %(passwordChangeLink)s"
+msgstr "Acesta este un e-mail automat; dacă nu tu ai adăugat un dispozitiv nou la contul Firefox, trebuie să modifici imediat parola la adresa %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
 #: lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Acesta este un mesaj automat; dacă l-ai primit din greșeală, nu este necesară nicio acțiune."
+msgstr "Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este necesară nicio acțiune."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Acesta este un mesaj automat; dacă nu tu ai autorizat această acțiune, atunci <a %(resetLinkAttributes)s>te rugăm să îți resetezi parola</a>."
+msgstr "Acesta este un e-mail automat; dacă nu tu ai autorizat această acțiune, atunci <a %(resetLinkAttributes)s>te rugăm să îți resetezi parola</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
