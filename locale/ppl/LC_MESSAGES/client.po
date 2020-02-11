@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 23:11+0000\n"
+"PO-Revision-Date: 2020-02-11 23:21+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -317,7 +317,7 @@ msgstr "Shiktapu Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Titani mutitanijtuk ukpa. Shikishtili accounts@firefox.com mutenutzal pal tikwikwi yek muchi."
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
