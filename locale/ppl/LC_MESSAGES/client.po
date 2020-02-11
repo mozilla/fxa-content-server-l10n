@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 22:34+0000\n"
+"PO-Revision-Date: 2020-02-11 22:51+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -268,11 +268,11 @@ msgstr "Talajsilis ipal mutapujka"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:82 .es5/views/settings/account_recovery/confirm_password.js:65
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Tikwelitiat ne talajsilis ipal mutapujka"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:73 .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Talajsili ipal mutapujka te kiski yek"
 
 #: .es5/views/settings/account_recovery/recovery_key.js:65 .es5/views/settings/account_recovery/recovery_key.js:51
 msgid "Firefox Recovery Key"
