@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 04:10+0000\n"
+"PO-Revision-Date: 2020-02-11 04:20+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -105,7 +105,7 @@ msgstr "Te muishmati ne tapujtuk. <a href=\"/signup\"> kitalij itukay </a>"
 #: .es5/views/sign_up.js:112 .es5/views/sign_up.js:76 .es5/views/sign_up.js:81 .es5/views/sign_up.js:67 .es5/views/sign_up_password.js:80 .es5/views/sign_up_password.js:82
 #: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Tapujtuk tea nemi. Tikneki tikchiwa uksepa?"
 
 #: .es5/views/sign_up.js:331 .es5/views/sign_up.js:288 .es5/views/sign_up.js:296 .es5/views/sign_up.js:298 .es5/views/sign_up.js:264
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
