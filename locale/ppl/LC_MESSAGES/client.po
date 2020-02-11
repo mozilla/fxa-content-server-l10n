@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 19:41+0000\n"
+"PO-Revision-Date: 2020-02-11 19:51+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -145,63 +145,63 @@ msgstr "Dajdato muyankwilijtiwit %(translatedTimeAgo)s inawak %(translatedCity)s
 
 #: .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:70
 msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Dajdato muyankwilitiwit achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:75 .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Nemik nikan an %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:99 .es5/views/settings/clients.js:76 .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Nemik nikan achka an %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:102 .es5/views/settings/clients.js:79 .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Nemik nikan an %(translatedTimeAgo)s tik %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:103 .es5/views/settings/clients.js:80 .es5/views/settings/clients.js:79
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Nemik nikan achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:106 .es5/views/settings/clients.js:83 .es5/views/settings/clients.js:82
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Nemik nikan an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:107 .es5/views/settings/clients.js:84 .es5/views/settings/clients.js:83
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Nemik nikan achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:112 .es5/views/settings/clients.js:89 .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:113 .es5/views/settings/clients.js:90 .es5/views/settings/clients.js:89
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Achka an %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:116 .es5/views/settings/clients.js:93 .es5/views/settings/clients.js:92
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s tik %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:117 .es5/views/settings/clients.js:94 .es5/views/settings/clients.js:93
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:120 .es5/views/settings/clients.js:97 .es5/views/settings/clients.js:96
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:121 .es5/views/settings/clients.js:98 .es5/views/settings/clients.js:97
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:156 .es5/views/settings/clients.js:134 .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Tanamikilis ipal tzawalamat, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:158 .es5/views/settings/clients.js:138 .es5/views/settings/clients.js:135
 msgid "Web Session"
-msgstr ""
+msgstr "Tanamikilis ipal tzawalamat"
 
 #: .es5/views/settings/clients.js:173 .es5/views/settings/clients.js:153 .es5/views/settings/clients.js:149
 msgid "Last sync time unknown"
