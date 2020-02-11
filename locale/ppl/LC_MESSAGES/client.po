@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 01:13+0000\n"
+"PO-Revision-Date: 2020-02-11 01:22+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -47,15 +47,15 @@ msgstr "Shikneshti ne itukay"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr ""
+msgstr "Itilkwil ne mutapujka"
 
 #: .es5/views/ready.js:79 .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr ""
+msgstr "Yek timukweptuk"
 
 #: .es5/views/ready.js:80 .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync tekitis uksenpa nemanha"
 
 #: .es5/views/ready.js:84 .es5/views/ready.js:89 .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
