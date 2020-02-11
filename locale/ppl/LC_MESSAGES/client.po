@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 23:01+0000\n"
+"PO-Revision-Date: 2020-02-11 23:11+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -248,19 +248,19 @@ msgstr "Yankwik codigo ipal talajsilis mutitanijtuk"
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
 msgid "Two-step authentication enabled"
-msgstr "Tepepetalis ukpa muwelitijtuk"
+msgstr "Tepepetalis unpa muwelitijtuk"
 
 #: .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:135 .es5/views/settings/two_step_authentication.js:136
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Shikwi ne codigo %(code)s pal tikwelitia ne tepepetalis unpa, semaya kan weli muchiwa."
 
 #: .es5/views/settings/two_step_authentication.js:166 .es5/views/settings/two_step_authentication.js:153 .es5/views/settings/two_step_authentication.js:154
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Tepepetalis unpa muishtijtuk"
 
 #: .es5/views/settings/two_step_authentication.js:207 .es5/views/settings/two_step_authentication.js:194 .es5/views/settings/two_step_authentication.js:195
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Tepepetalis unpa"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:100 .es5/views/settings/account_recovery/account_recovery.js:84 .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
@@ -293,27 +293,27 @@ msgstr "te kanaj"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:40 .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Tikpepetaket ka %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:26 .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Shiktapu Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:31 .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Shiktapu Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:36 .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Shiktapu Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:41 .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Shiktapu Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:46 .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Shiktapu Restmail"
 
 #: .es5/views/mixins/resend-mixin.js:11 .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
