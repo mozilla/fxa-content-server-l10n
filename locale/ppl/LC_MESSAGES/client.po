@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 23:21+0000\n"
+"PO-Revision-Date: 2020-02-11 23:26+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -321,24 +321,24 @@ msgstr "Titani mutitanijtuk ukpa. Shikishtili accounts@firefox.com mutenutzal pa
 
 #: .es5/views/mixins/save-options-mixin.js:63 .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Muishkupintuk"
 
 #: .es5/views/mixins/save-options-mixin.js:65 .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Te welik muishkupina. Shikishkupina tajasan."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Mutemultijtuk"
 
 #: .es5/views/mixins/save-options-mixin.js:89 .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Tamakishtijtuk"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:94 .es5/models/auth_brokers/base.js:139 .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:109
 #: .es5/models/auth_brokers/base.js:111 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Ne achtu itukay mucorreo mupepetatuk yek"
 
 #: .es5/views/behaviors/settings.js:13 .es5/models/auth_brokers/web.js:40 .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:33 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
