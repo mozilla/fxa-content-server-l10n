@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 19:10+0000\n"
+"PO-Revision-Date: 2020-02-11 19:15+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: .es5/views/settings/change_password.js:91 .es5/views/settings/change_password.js:73 .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Tikpataka mutaketzalis ichtaka"
 
 #: .es5/views/settings/client_disconnect.js:42 .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
