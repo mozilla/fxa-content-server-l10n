@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 01:25+0000\n"
+"PO-Revision-Date: 2020-02-11 03:40+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -63,19 +63,19 @@ msgstr "Tikpatak mutaketzalis ichtaka"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Shitajshiti nujme iwan ne yankwik taketzalis ichtaka kan tikwi Firefox."
 
 #: .es5/views/ready.js:93 .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Tiwelia titajshitia tik mutapujka ipal Firefox."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Ne wey itukay mucorreo nemi yek"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Ne tanawatilis ipal mutapujka tiktaniat %(secondaryEmailVerified)s nusan."
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
