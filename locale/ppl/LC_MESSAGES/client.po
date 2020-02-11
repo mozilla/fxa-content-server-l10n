@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 00:56+0000\n"
+"PO-Revision-Date: 2020-02-11 01:13+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -21,7 +21,7 @@ msgstr "Shikchiwa mutaketzalis ichtaka uksenpa"
 
 #: .es5/views/confirm_reset_password.js:227 .es5/views/confirm_reset_password.js:211 .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Mutaketzalis ichtaka mupatak. Shu shiktali mutkay."
 
 #. submit button
 #. header text
@@ -30,20 +30,20 @@ msgstr ""
 #: .es5/views/sign_in.js:109 .es5/lib/strings.js:44 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_in_password.mustache:6
 #: .es5/templates/sign_in_password.mustache:9 .es5/lib/strings.js:41 .es5/views/sign_in.js:82 .es5/views/sign_in.js:86 .es5/views/force_auth.js:175 .es5/views/force_auth.js:193
 msgid "Sign in"
-msgstr ""
+msgstr "Shiktali mutukay"
 
 #: .es5/views/permissions.js:63 .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "Muneki %(permissionName)s"
 
 #: .es5/views/permissions.js:68 .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Itukay ne mucorreo"
 
 #: .es5/views/permissions.js:72 .es5/templates/settings/display_name.mustache:1 .es5/templates/settings/display_name.mustache:6 .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78
 #: .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr ""
+msgstr "Shikneshti ne itukay"
 
 #: .es5/views/permissions.js:75 .es5/templates/settings/avatar.mustache:1 .es5/views/permissions.js:52
 msgid "Account picture"
