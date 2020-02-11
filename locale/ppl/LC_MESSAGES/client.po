@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 03:40+0000\n"
+"PO-Revision-Date: 2020-02-11 03:49+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -71,7 +71,7 @@ msgstr "Tiwelia titajshitia tik mutapujka ipal Firefox."
 
 #: .es5/views/ready.js:95 .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr "Ne wey itukay mucorreo nemi yek"
+msgstr "Tikpepetaketa ne itukay mucorreo"
 
 #: .es5/views/ready.js:98 .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -79,16 +79,16 @@ msgstr "Ne tanawatilis ipal mutapujka tiktaniat %(secondaryEmailVerified)s nusan
 
 #: .es5/views/ready.js:100 .es5/views/ready.js:77
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Ne ukse itukay mucorreo nemi yek"
 
 #: .es5/views/ready.js:105 .es5/templates/connect_another_device.mustache:6 .es5/views/ready.js:82
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Tiktalijtuk mutukay yek!"
 
 #: .es5/views/ready.js:106 .es5/views/ready.js:111 .es5/views/ready.js:116 .es5/templates/ready.mustache:3 .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 #: .es5/templates/ready.mustache:5 .es5/templates/ready.mustache:4
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Tiwelia tikwi %(serviceName)s"
 
 #: .es5/views/ready.js:110 .es5/views/ready.js:87
 msgid "Account verified"
