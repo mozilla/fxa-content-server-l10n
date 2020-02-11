@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-11 21:12+0000\n"
+"PO-Revision-Date: 2020-02-11 21:18+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -239,11 +239,11 @@ msgstr "Ukse itukay mucorreo"
 
 #: .es5/views/settings/recovery_codes.js:78 .es5/views/settings/recovery_codes.js:61
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Codigo ipal talajsilis Firefox"
 
 #: .es5/views/settings/recovery_codes.js:105 .es5/views/settings/recovery_codes.js:94
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Yankwik codigo ipal talajsilis mutitanijtuk"
 
 #: .es5/views/settings/recovery_codes.js:152 .es5/views/settings/two_step_authentication.js:182 .es5/views/settings/recovery_codes.js:148 .es5/views/settings/two_step_authentication.js:169
 #: .es5/views/settings/two_step_authentication.js:170
