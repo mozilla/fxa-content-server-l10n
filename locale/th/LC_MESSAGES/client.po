@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-23 08:31+0000\n"
+"PO-Revision-Date: 2020-02-23 08:36+0000\n"
 "Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -2216,7 +2216,7 @@ msgstr "อื่น ๆ"
 
 #: .es5/views/support.js:216 .es5/views/support.js:230 .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
 #: .es5/views/support.js:218 .es5/views/support.js:232 .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
@@ -2264,7 +2264,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Sync these everywhere you sign in:"
-msgstr ""
+msgstr "ซิงค์สิ่งเหล่านี้ทุกที่ที่คุณลงชื่อเข้าใช้:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Enable Sync"
@@ -2280,7 +2280,7 @@ msgstr "ใส่รหัสตรวจสอบ"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-msgstr ""
+msgstr "โปรดป้อนรหัสยืนยันที่ส่งไปยัง %(escapedEmail)s ภายใน 20 นาที"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
@@ -2308,7 +2308,7 @@ msgstr "กลับสู่การตั้งค่า"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "คุณกำลังติดต่อเราเกี่ยวกับอะไร?"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
@@ -2316,7 +2316,7 @@ msgstr "คำอธิบายของปัญหา"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "คุณต้องการซิงค์อุปกรณ์นี้กับบัญชีของคุณหรือไม่?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -2344,7 +2344,7 @@ msgstr "รหัสยืนยันไม่ถูกต้องหรือ
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "โปรดป้อนรหัสยืนยันที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
 
 #: .es5/templates/sign_in_recovery_code.mustache:8
 msgid "Are you locked out?"
@@ -2376,11 +2376,11 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "ตัดการเชื่อมต่อจาก Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "คุณกำลังตัดการเชื่อมต่อ %(deviceName)s จาก Sync เนื่องจากอุปกรณ์นี้:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -2404,7 +2404,7 @@ msgstr "ลงทะเบียนเพื่อรับคุณลักษ
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "ซิงค์ที่คั่นหน้า, รหัสผ่าน และอื่น ๆ ของคุณบนอุปกรณ์ทุกเครื่อง"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
