@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 19:21+0000\n"
+"PO-Revision-Date: 2020-02-24 19:26+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -746,7 +746,7 @@ msgstr "הססמה החדשה אינה יכולה להיות זהה לססמה �
 
 #: .es5/lib/auth-errors.js:336 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr "ססמה צריכה להיות באורך של שמונה תווים לפחות"
+msgstr "על הססמה להיות באורך של 8 תווים לפחות"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Valid password required"
@@ -2059,7 +2059,7 @@ msgstr "שליחת קבצים גדולים באופן מאובטח ופרטי."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הסיסמה במקומות שונים."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
