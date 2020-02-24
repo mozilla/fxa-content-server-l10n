@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 20:24+0000\n"
+"PO-Revision-Date: 2020-02-24 21:17+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2059,7 +2059,7 @@ msgstr "שליחת קבצים גדולים באופן מאובטח ופרטי."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הסיסמה במקומות שונים."
+msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה במקומות שונים."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
