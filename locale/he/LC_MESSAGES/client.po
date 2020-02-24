@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 18:52+0000\n"
+"PO-Revision-Date: 2020-02-24 19:03+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1830,7 +1830,7 @@ msgstr "נא להקליד את המפתח הסודי הזה ליישומון ה�
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי שחזור שיהיו באפשרותך להזין."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -1987,7 +1987,7 @@ msgstr "אימות ססמה"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "נא לאמת את הססמה שלך עבור %(escapedEmail)s כדי לייצר את מפתח השחזור שלך."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
