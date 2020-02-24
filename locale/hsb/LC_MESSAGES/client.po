@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 16:51+0000\n"
+"PO-Revision-Date: 2020-02-24 16:57+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -333,7 +333,7 @@ msgstr "Waše synchronizowanske daty su škitane"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
+msgstr "Jeli hižo k swojemu kontu přistup nimaće, móžeće swoje synchronizowanske daty wobnowić."
 
 #: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
