@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 19:11+0000\n"
+"PO-Revision-Date: 2020-02-24 19:21+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1006,11 +1006,11 @@ msgstr "קבלו את החדשות העדכניות ביותר על Mozilla ו־
 
 #: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "‏%(city)s,‏ %(country)s (מוערך)"
+msgstr "‏%(city)s,‏ %(country)s (משוער)"
 
 #: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (מוערך)"
+msgstr "%(country)s (משוער)"
 
 #: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
@@ -1480,7 +1480,7 @@ msgstr "יצירת חשבון Firefox"
 
 #: .es5/templates/sign_up_password.mustache:3
 msgid "Change email"
-msgstr "שינוי דוא״ל"
+msgstr "שינוי כתובת דוא״ל"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"

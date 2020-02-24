@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 19:12+0000\n"
+"PO-Revision-Date: 2020-02-24 19:13+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -537,7 +537,7 @@ msgstr "‏%(stateCode)s,‏ %(country)s (משוער)"
 
 #: lib/senders/email.js:279
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (מוערך)"
+msgstr "%(country)s (משוער)"
 
 #: lib/senders/email.js:439
 msgid "Finish creating your account"
