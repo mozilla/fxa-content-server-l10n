@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 18:20+0000\n"
+"PO-Revision-Date: 2020-02-24 18:31+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -401,7 +401,7 @@ msgstr "ההעתקה נכשלה. נא להעתיק ידנית."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "הוּרד"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
@@ -1802,11 +1802,11 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "כדי להבטיח שתהיה לך אפשרות לקבל שוב גישה לחשבון שלך במקרה שמכשירך יאבד, נא להכניס אחד מקודי השחזור ששמרת."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "קוד שחזור"
 
 #: .es5/templates/settings/recovery_codes.mustache:19
 msgid "Confirm"
@@ -1822,11 +1822,11 @@ msgstr "ניהול…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "הזנת הקוד באופן ידני"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1834,7 +1834,7 @@ msgstr ""
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "מוכן"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1954,7 +1954,7 @@ msgstr "זהו, מפתח השחזור נשמר"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "הוספת כתובת דוא״ל משנית"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
