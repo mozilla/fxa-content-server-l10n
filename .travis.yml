@@ -20,7 +20,6 @@ notifications:
     recipients:
       - pmo@mozilla.com
       - rfk@mozilla.com
-      - stomlinson@mozilla.com
       - vfilippov@mozilla.com
       - wclouser@mozilla.com
     on_success: change
