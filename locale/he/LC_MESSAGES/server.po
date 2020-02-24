@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 19:13+0000\n"
+"PO-Revision-Date: 2020-02-24 19:41+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -517,7 +517,7 @@ msgstr "עדכון פרטי החיוב:"
 
 #: lib/senders/email.js:231
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s על %(uaOS)s ‏%(uaOSVersion)s"
+msgstr "%(uaBrowser)s על %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:236
 msgid "%(uaBrowser)s on %(uaOS)s"
