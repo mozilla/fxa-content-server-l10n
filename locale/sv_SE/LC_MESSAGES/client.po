@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 17:26+0000\n"
+"PO-Revision-Date: 2020-02-24 19:04+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -329,11 +329,11 @@ msgstr "Kontoåterställning återkallad"
 
 #: .es5/views/post_verify/verified.js:47
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Dina synkroniseringsdata är skyddade"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
+msgstr "Om du tappar åtkomst till ditt konto kan du återställa dina synkroniseringsdata."
 
 #: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -341,7 +341,7 @@ msgstr "Börja surfa"
 
 #: .es5/views/post_verify/verified.js:52
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Kontoaviseringar kommer nu också att skickas till %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
