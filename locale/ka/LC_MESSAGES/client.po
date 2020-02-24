@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-24 17:12+0000\n"
+"PO-Revision-Date: 2020-02-24 17:16+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1990,23 +1990,23 @@ msgstr "თქვენი დასინქრონებული მონ�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "ვინაიდან, ეს მონაცემები გადამწყვეტია თქვენი უსაფრთხოებისთვის, Firefox წაშლის მათ თქვენი პაროლის განულების შემთხვევაში, რათა გარეშე პირებმა ვერ შეძლონ მათი მოპოვება."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "აღდგენის გასაღების მიღება"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "პაროლის დადასტურება"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "გთხოვთ, დაადასტუროთ თქვენი პაროლი ანგარიშზე %(escapedEmail)s, აღდგენის გასაღების შესაქმნელად."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "აღდგენის გასაღების შენახვა"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
