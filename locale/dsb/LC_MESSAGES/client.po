@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 11:13+0000\n"
+"PO-Revision-Date: 2020-02-25 11:16+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1984,23 +1984,23 @@ msgstr "Waše synchronizěrowane daty mógu teke wót was skłaźone gronidła w
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Dokulaž toś te daty su wažne za wašu wěstotu, Firefox je wulašujo, aby was šćitał, gaž se waše gronidło slědk staja, aby pśistupoju pśez drugich luźi zajźował."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Wótnowjeński kluc wobstaraś"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Gronidło wobkšuśiś"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Pšosym wobkšuśćo swójo gronidło za %(escapedEmail)s, aby swój wótnowjeński kluc napórał."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Wótnowjeński kluc składowaś"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
