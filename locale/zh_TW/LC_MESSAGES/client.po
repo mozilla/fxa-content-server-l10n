@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 03:17+0000\n"
+"PO-Revision-Date: 2020-02-25 04:30+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1776,7 +1776,7 @@ msgstr "產生新的救援碼"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "請將這些單次使用的救援碼保存在安全的地方，以備行動裝置不在手邊時使用。"
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1794,15 +1794,15 @@ msgstr "取消設定"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "確認救援碼"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "為了確保在遺失裝置的情況下能夠正常登入帳號，請輸入任一組儲存的救援碼。"
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "救援碼"
 
 #: .es5/templates/settings/recovery_codes.mustache:19
 msgid "Confirm"
@@ -1818,19 +1818,19 @@ msgstr "管理…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "手動輸入代碼"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "請在驗證程式輸入下列安全金鑰:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "完成後，就會自動開始產生救援金鑰讓您登入。"
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "準備完成"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1948,11 +1948,11 @@ msgstr "完成，已儲存救援金鑰"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "加入次要電子郵件地址"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "加入次要信箱可幫助您拿回帳號，避免 %(escapedEmail)s 被鎖住無法使用的情況。"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1961,31 +1961,31 @@ msgstr "之後再寄"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "使用救援金鑰保護您的資料"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "您同步的資料當中，可能會包含儲存的密碼。"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "由於這些資料相當重要，Firefox 會在重設密碼後刪除它們，避免被其他人存取。"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "取得救援金鑰"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "確認密碼"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "請輸入 %(escapedEmail)s 的密碼進行，以產生救援金鑰。"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "儲存救援金鑰"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
