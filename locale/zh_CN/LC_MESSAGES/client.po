@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 05:18+0000\n"
+"PO-Revision-Date: 2020-02-25 05:28+0000\n"
 "Last-Translator: bli <bli@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1777,7 +1777,7 @@ msgstr "生成新的救援码"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "请妥善保管以下这些仅能使用一次的救援码，以便您在没有移动设备时使用。"
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
