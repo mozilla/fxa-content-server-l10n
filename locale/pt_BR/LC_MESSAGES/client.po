@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 10:30+0000\n"
+"PO-Revision-Date: 2020-02-25 10:35+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1981,23 +1981,23 @@ msgstr "Seus dados sincronizados podem incluir senhas salvas."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Como essas informações são críticas para sua segurança, o Firefox as exclui para proteger você quando sua senha é redefinida, para impedir que outras pessoas acessem."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Obter uma chave de recuperação"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirmar senha"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Confirme sua senha de %(escapedEmail)s para gerar sua chave de recuperação."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Salvar chave de recuperação"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
