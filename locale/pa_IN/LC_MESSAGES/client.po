@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 15:33+0000\n"
+"PO-Revision-Date: 2020-02-25 15:39+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -185,15 +185,15 @@ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTi
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ%(translatedTimeAgo)s ਪਹਿਲਾਂ ਵੇਖੇ"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜਏ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
@@ -330,11 +330,11 @@ msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਵਾਪਸ ਲਈ ਗਈ"
 
 #: .es5/views/post_verify/verified.js:47
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "ਤੁਹਾਡਾ ਸਿੰਕ ਡਾਟਾ ਸੁਰੱਖਿਅਤ ਹੈ"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
+msgstr "ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਡਾਟੇ ਲਈ ਪਹੁੰਚ ਗੁਆ ਲਈ ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਕਰ ਸਕੋਗੇ।"
 
 #: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -342,7 +342,7 @@ msgstr "ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
 
 #: .es5/views/post_verify/verified.js:52
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "ਖਾਤਾ ਸੂਚਨਾਵਾਂ ਨੂੰ ਹੁਣ %(secondaryEmail)s ਨੂੰ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
@@ -694,7 +694,7 @@ msgstr "ਅੱਪਡੇਟ ਨੂੰ ਰੱਦ ਕੀਤਾ ਗਿਆ, ਮੁੜ
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "ਅਯੋਗ ਜਾਂ ਮਿਆਦ ਪੁੱਗਾ ਤਸਦੀਕੀ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
 msgid "Server busy, try again soon"
@@ -1097,7 +1097,7 @@ msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "ਸਿੰਕ ਚੋਣਾਂ"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -1522,7 +1522,7 @@ msgstr "ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਾਈਨ ਇ�
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "ਹੁਣੇ ਨਹੀਂ"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1765,7 +1765,7 @@ msgstr "ਜੋੜੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੋਡ ਸੰਭਾਲੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1773,7 +1773,7 @@ msgstr "ਸੂਚਨਾ:"
 
 #: .es5/templates/settings/recovery_codes.mustache:3
 msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr ""
+msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕਰਦਿਆਂ ਪਿਛਲੇ ਸਾਰੇ ਕੋਡ ਨਕਾਰਾ ਹੋ ਜਾਣਗੇ। ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਨਵੇਂ ਕੋਡਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ 'ਤੇ ਸਾਂਭ ਕੇ ਰੱਖੋ।"
 
 #: .es5/templates/settings/recovery_codes.mustache:4
 msgid "Generate new recovery codes"
@@ -1795,11 +1795,11 @@ msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1807,7 +1807,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੋਡ"
 
 #: .es5/templates/settings/recovery_codes.mustache:19
 msgid "Confirm"
@@ -1823,7 +1823,7 @@ msgstr "…ਬੰਦੋਬਸਤ"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "ਕੋਡ ਖੁਦ ਭਰੋ"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "ਤਿਆਰ"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1980,11 +1980,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਵੋ"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
@@ -1992,7 +1992,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2060,7 +2060,7 @@ msgstr "ਵੱਡੀਆਂ ਫਾਇਲਾਂ ਸੁਰੱਖਿਅਤ ਅਤੇ
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "ਸੁਰੱਖਿਅਤ ਰੱਖੋ ਅਤੇ ਪਾਸਵਰਡ ਮੁੜ ਨਾ ਵਰਤੋਂ।"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2084,7 +2084,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "ਮੈਂਬਰੀ ਤੇ ਵਾਪਸ ਜਾਓ"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
