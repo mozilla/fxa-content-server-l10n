@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 05:11+0000\n"
+"PO-Revision-Date: 2020-02-25 05:18+0000\n"
 "Last-Translator: bli <bli@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1799,7 +1799,7 @@ msgstr "确认救援码"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的救援码中的任意一个。"
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
