@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 18:41+0000\n"
+"PO-Revision-Date: 2020-02-25 18:45+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1526,7 +1526,7 @@ msgstr "Навошта ўваходзіць на іншай прыладзе?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Не зараз"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1749,7 +1749,7 @@ msgstr "Паўторнае падключэнне на гэту электрон
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Другі адрас эл.пошты - гэта дадатковы адрас для атрымання абвестак бяспекі і пацверджання новых прылад."
+msgstr "Другі адрас электроннай пошты — гэта дадатковы адрас для атрымання абвестак бяспекі і пацвярджэння новых прылад."
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
