@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 01:04+0000\n"
+"PO-Revision-Date: 2020-02-25 01:09+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Keman titami, shikwi ne yankwik taketzalis ichtaka pal tiktalia mutukay ka nujme."
 
 #: .es5/views/settings/change_password.js:229
 msgid "Old password"
