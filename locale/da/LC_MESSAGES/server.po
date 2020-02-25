@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-24 17:57+0000\n"
+"PO-Revision-Date: 2020-02-24 17:56+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -122,7 +122,7 @@ msgstr "Genoprettelsesnøgle til konto oprettet"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Du har oprettet en genoprettelseskode til din Firefox-konto med følgende enhed:"
+msgstr "Du har oprettet en genoprettelsesnøgle til din Firefox-konto med følgende enhed:"
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
