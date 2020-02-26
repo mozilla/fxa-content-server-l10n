@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-26 00:40+0000\n"
+"PO-Revision-Date: 2020-02-26 22:11+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -333,7 +333,7 @@ msgstr "Synkroniseringsdataene dine er beskyttet"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
+msgstr "Hvis du mister tilgangen til kontoen din, vil du kunne gjenopprette dine synkroniserte data."
 
 #: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -341,11 +341,11 @@ msgstr "Begynn å surfe"
 
 #: .es5/views/post_verify/verified.js:52
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Varsler vedrørende kontoen vil nå også bli sendt til %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Fortsett til %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -1528,7 +1528,7 @@ msgstr "Hvorfor logge inn på en annen enhet?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Ikke nå"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1771,7 +1771,7 @@ msgstr "Legg til"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Lagre gjenopprettingskoder"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1801,19 +1801,19 @@ msgstr "Skriv ut"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Avbryt konfigurasjon"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "Bekreft en gjenopprettingskode"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Angi en av de lagrede gjenopprettingskodene for å sikre at du kan få tilgang til kontoen din igjen, hvis du mister en enhet."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Gjenopprettingskode"
 
 #: .es5/templates/settings/recovery_codes.mustache:19
 msgid "Confirm"
@@ -1829,7 +1829,7 @@ msgstr "Behandle…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "Skriv inn kode manuelt"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
