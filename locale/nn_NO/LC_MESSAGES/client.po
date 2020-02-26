@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 14:58+0000\n"
+"PO-Revision-Date: 2020-02-26 18:03+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1988,7 +1988,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Stadfest passordet"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
