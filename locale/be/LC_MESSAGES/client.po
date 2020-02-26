@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 18:45+0000\n"
+"PO-Revision-Date: 2020-02-26 20:38+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Код аднаўлення"
 
 #: .es5/templates/settings/recovery_codes.mustache:19
 msgid "Confirm"
@@ -1839,7 +1839,7 @@ msgstr ""
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Гатова"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
