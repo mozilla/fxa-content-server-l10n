@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2019-12-12 15:17+0000\n"
+"PO-Revision-Date: 2020-02-26 23:12+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -419,11 +419,11 @@ msgstr "Once verified, this address will begin receiving security notifications 
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Use this verification code:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -1056,11 +1056,11 @@ msgstr "Download latest"
 #~ msgstr "Reset password"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1081,8 +1081,7 @@ msgstr "Download latest"
 #~ msgstr "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr ""
-#~ "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
+#~ msgstr "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Date & Time:"
@@ -1160,8 +1159,8 @@ msgstr "Download latest"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox "
-#~ "passwords, bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 
 #~ msgid "env"
 #~ msgstr "env"
