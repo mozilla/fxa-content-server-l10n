@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-26 17:10+0000\n"
+"PO-Revision-Date: 2020-02-26 17:21+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -329,7 +329,7 @@ msgstr "Ojeheja mba’ete jeguerujey"
 
 #: .es5/views/post_verify/verified.js:47
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Ne mba’ekuaarã ñembojuehegua oñemo’ã"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
@@ -345,7 +345,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Emba’apo %(serviceName)s ndive"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -1985,7 +1985,7 @@ msgstr "Ereko ayvu jeguerujeyrã"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Emoneĩ ñe’ẽñemi"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
