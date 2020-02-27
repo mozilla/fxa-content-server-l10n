@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-26 22:13+0000\n"
+"PO-Revision-Date: 2020-02-27 06:31+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1963,11 +1963,11 @@ msgstr "Ferdig, gjenopprettingsnøkkel lagret"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Legg til en sekundær e-postadresse"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Hvis du legger til en sekundær e-postadresse, kan du få tilbake tilgang til kontoen din hvis du er utestengt og ikke får tilgang til %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1976,7 +1976,7 @@ msgstr "Kanskje senere"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Beskytt dine data med en gjenopprettingsnøkkel"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
