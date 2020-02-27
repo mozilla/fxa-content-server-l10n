@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-27 08:31+0000\n"
+"PO-Revision-Date: 2020-02-25 08:21+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -345,7 +345,7 @@ msgstr "Iber akun ogé ayeuna bakal dikirim ka %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Laju ka %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -1525,7 +1525,7 @@ msgstr "Naha asup di parangkat séjén?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Moal waka"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
