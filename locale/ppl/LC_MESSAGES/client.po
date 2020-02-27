@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-27 02:20+0000\n"
+"PO-Revision-Date: 2020-02-27 02:29+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -144,7 +144,7 @@ msgstr "Yankwik taketalis ichtaka"
 
 #: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr ""
+msgstr "Taketzalis ichtaka uksenpa"
 
 #: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
@@ -156,27 +156,27 @@ msgstr ""
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Shikajkawa"
 
 #: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
-msgstr "Tikpataka mutaketzalis ichtaka"
+msgstr "Tikpataka ne taketzalis ichtaka"
 
 #: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Te tiknekiskiat ma ini panu. Shikpata ne taketzalis ichtaka ipal mutapujka Firefox wan shikishtemu ken tiweliskia tikpupua mudajdato nujme, ka wejka, kan tikwij."
+msgstr "Te tiknekiskiat ma ini panu. Shikpata ne taketzalis ichtaka ipal mutapujka Firefox wan shikishtemu ken tiweliskia tikpupua mudajdato ka nujme, kan tikwij."
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Te tiknekiskiat ma ini panu. Su ini se tanuska tesu seguro, shikpata ne taketzalis ichtaka ipal mutapujka Firefox, wan nusan shikpata muchi taketzalis ichtaka tikwij tik Firefox."
+msgstr "Te tiknekiskiat ma ini panu. Su ini tanuska tesu seguro, shikpata ne taketzalis ichtaka ipal mutapujka Firefox, wan nusan shikpata muchi taketzalis ichtaka tikwij tik Firefox."
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "tikitzki an %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Tikitzki achka an %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
