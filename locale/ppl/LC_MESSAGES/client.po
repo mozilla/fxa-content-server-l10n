@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-25 01:09+0000\n"
+"PO-Revision-Date: 2020-02-27 02:20+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ppl\n"
@@ -111,11 +111,11 @@ msgstr "Ukse"
 
 #: .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Padiush tinechnawatia tik Tepaliwilis Mozilla ipanpa <b>%(escapedLowercaseTopic)s</b>. Timetznutzasket iwan se titanti."
 
 #: .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Padiush tinechnawatia tik Tepalewilis Mozilla ipanpa <b>%(escapedLowercaseTopic)s</b> ika <b>%(escapedSelectedPlan)s</b>. Timetznutzasket iwan se titanti."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -124,7 +124,7 @@ msgstr "Taketzalis ichtaka"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Tikpata..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -136,11 +136,11 @@ msgstr ""
 
 #: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
-msgstr ""
+msgstr "Tikelkaw ne taketzalis ichtaka?"
 
 #: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
-msgstr ""
+msgstr "Yankwik taketalis ichtaka"
 
 #: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
