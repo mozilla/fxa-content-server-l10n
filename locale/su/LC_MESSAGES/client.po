@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-26 07:29+0000\n"
+"PO-Revision-Date: 2020-02-27 08:31+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -329,11 +329,11 @@ msgstr "Pamulangan akun dicabut"
 
 #: .es5/views/post_verify/verified.js:47
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Data singkron anjeun kajaga"
 
 #: .es5/views/post_verify/verified.js:48
 msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
+msgstr "Lamun anjeun leungiteun aksés ka akun anjeun, anjeun bakal bisa mulangkeun data singkron anjeun."
 
 #: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -341,7 +341,7 @@ msgstr "Mitembeyan nyungsi"
 
 #: .es5/views/post_verify/verified.js:52
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Iber akun ogé ayeuna bakal dikirim ka %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
