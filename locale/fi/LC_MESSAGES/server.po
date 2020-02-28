@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 17:57+0000\n"
+"POT-Creation-Date: 2020-02-28 18:33+0000\n"
 "PO-Revision-Date: 2020-02-24 18:21+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet 
 msgid "Generate codes:"
 msgstr "Luo koodeja:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1123
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1122
 msgid "New sign-in to %(clientName)s"
 msgstr "Uusi kirjautuminen: %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Terveisin"
 msgid "The Firefox Accounts team"
 msgstr "Firefox Accounts -tiimi"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1666
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1636
 msgid "Account recovery key generated"
 msgstr "Tilin palautusavain luotu"
 
@@ -178,7 +178,7 @@ msgstr "Olet käyttänyt turvallisuuskoodin laitteella:"
 msgid "Consumed recovery code"
 msgstr "Käytetty palautuskoodi"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1533
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1503
 msgid "New recovery codes generated"
 msgstr "Uudet palautuskoodit on luotu"
 
@@ -186,7 +186,7 @@ msgstr "Uudet palautuskoodit on luotu"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Olet luonut uudet palautuskoodit laitteella:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1712
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1682
 msgid "Account recovery key removed"
 msgstr "Tilin palautusavain poistettu"
 
@@ -202,7 +202,7 @@ msgstr "Tätä palautusavainta ei voi enää käyttää tilisi palauttamiseen."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Olet poistanut tilin palautusavaimen Firefox-tililtäsi laitteella:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1413
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1383
 msgid "Secondary email removed"
 msgstr "Toissijainen sähköposti poistettiin"
 
@@ -246,38 +246,6 @@ msgstr "Yhdistä toinen laite:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Kysymyksiä? Käy sivulla %(supportUrl)s"
 
-#: lib/senders/templates/postVerifyAddBoth.html:1 lib/senders/templates/postVerifyAddBoth.txt:1
-msgid "Avoid account lockout"
-msgstr "Vältä tilisi ulkopuolelle jäämistä"
-
-#: lib/senders/templates/postVerifyAddBoth.html:2 lib/senders/templates/postVerifyAddBoth.txt:2
-msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-msgstr "Kaksi yksinkertaista toimenpidettä helpottaa tilin saamista takaisin ja tietojen suojaamista, jos sinun täytyy nollata salasanasi."
-
-#: lib/senders/templates/postVerifyAddBoth.html:3
-msgid "Set up a secondary email: "
-msgstr "Aseta toissijainen sähköpostiosoite: "
-
-#: lib/senders/templates/postVerifyAddBoth.html:4 lib/senders/templates/postVerifyAddBoth.txt:4
-msgid "Helps you get back in if you lose access to your email."
-msgstr "Auttaa sinua pääsemään takaisin sisään, jos menetät pääsyn sähköpostiisi."
-
-#: lib/senders/templates/postVerifyAddBoth.html:5
-msgid " Create a recovery key: "
-msgstr " Luo palautusavain: "
-
-#: lib/senders/templates/postVerifyAddBoth.html:6 lib/senders/templates/postVerifyAddBoth.txt:6
-msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-msgstr "Firefox suojaa tietosi poistamalla synkronoidut tiedot, jos vaihdat salasanasi. Palautusavain palauttaa ne."
-
-#: lib/senders/templates/postVerifyAddBoth.txt:3
-msgid "Set up a secondary email:"
-msgstr "Aseta toissijainen sähköpostiosoite:"
-
-#: lib/senders/templates/postVerifyAddBoth.txt:5
-msgid "Create a recovery key:"
-msgstr "Luo palautusavain:"
-
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
 msgstr "Suojaa tietosi palautusavaimella"
@@ -298,7 +266,7 @@ msgstr "Suojaa itsesi vahinkolukittautumiselta"
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr "Toissijaisen sähköpostin lisääminen auttaa pääsemään takaisin tilillesi, jos et pääse sisään tai sähköpostiisi."
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1222
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1219
 msgid "Secondary email added"
 msgstr "Toissijainen sähköpostiosoite lisätty"
 
@@ -315,7 +283,7 @@ msgstr "Tarvitseeko sinun nollata salasanasi?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:973
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:972
 msgid "Create new password"
 msgstr "Luo uusi salasana"
 
@@ -379,7 +347,7 @@ msgstr "Vahvista tilisi ja ota kaikki hyöty irti Firefoxista kaikkialla missä 
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:677
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:676
 msgid "Confirm sign-in"
 msgstr "Vahvista kirjautuminen"
 
@@ -520,152 +488,144 @@ msgstr "Peru tilaus:"
 msgid "Update billing information:"
 msgstr "Päivitä laskutustiedot:"
 
-#: lib/senders/email.js:231
+#: lib/senders/email.js:230
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:236
+#: lib/senders/email.js:235
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s"
 
-#: lib/senders/email.js:262
+#: lib/senders/email.js:261
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:269
+#: lib/senders/email.js:268
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:274
+#: lib/senders/email.js:273
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:279
+#: lib/senders/email.js:278
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (arvio)"
 
-#: lib/senders/email.js:439
+#: lib/senders/email.js:438
 msgid "Finish creating your account"
 msgstr "Viimeistele tilisi luominen"
 
-#: lib/senders/email.js:440 lib/senders/email.js:568
+#: lib/senders/email.js:439 lib/senders/email.js:567
 msgid "Confirm email"
 msgstr "Vahvista sähköposti"
 
-#: lib/senders/email.js:507
+#: lib/senders/email.js:506
 msgid "Verification code: %(code)s"
 msgstr "Vahvistuskoodi: %(code)s"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:547
 msgid "Reminder: Finish creating your account"
 msgstr "Muistutus: viimeistele tilisi luominen"
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:549
 msgid "Final reminder: Activate your account"
 msgstr "Viimeinen muistutus: aktivoi tilisi"
 
-#: lib/senders/email.js:605
+#: lib/senders/email.js:604
 msgid "Account authorization code"
 msgstr "Tilin valtuuskoodi"
 
-#: lib/senders/email.js:674
+#: lib/senders/email.js:673
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Vahvista uusi kirjautuminen: %(clientName)s"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:718
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Kirjautumiskoodi palveluun %(serviceName)s"
 
-#: lib/senders/email.js:784
+#: lib/senders/email.js:783
 msgid "Confirm primary email"
 msgstr "Vahvista ensisijainen sähköpostiosoite"
 
-#: lib/senders/email.js:785 lib/senders/email.js:844 lib/senders/email.js:912
+#: lib/senders/email.js:784 lib/senders/email.js:843 lib/senders/email.js:911
 msgid "Verify email"
 msgstr "Vahvista sähköpostiosoite"
 
-#: lib/senders/email.js:843 lib/senders/email.js:911
+#: lib/senders/email.js:842 lib/senders/email.js:910
 msgid "Confirm secondary email"
 msgstr "Vahvista toissijainen sähköpostiosoite"
 
-#: lib/senders/email.js:972
+#: lib/senders/email.js:971
 msgid "Reset your password"
 msgstr "Nollaa salasanasi"
 
-#: lib/senders/email.js:1014 lib/senders/email.js:1052
+#: lib/senders/email.js:1013 lib/senders/email.js:1051
 msgid "Password updated"
 msgstr "Salasana päivitetty"
 
-#: lib/senders/email.js:1082
+#: lib/senders/email.js:1081
 msgid "Suspicious activity detected"
 msgstr "Epäilyttävää toimintaa havaittu"
 
-#: lib/senders/email.js:1124 lib/senders/email.js:1223 lib/senders/email.js:1378 lib/senders/email.js:1414 lib/senders/email.js:1448 lib/senders/email.js:1491 lib/senders/email.js:1534
-#: lib/senders/email.js:1577 lib/senders/email.js:1667 lib/senders/email.js:1713
+#: lib/senders/email.js:1123 lib/senders/email.js:1220 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1418 lib/senders/email.js:1461 lib/senders/email.js:1504
+#: lib/senders/email.js:1547 lib/senders/email.js:1637 lib/senders/email.js:1683
 msgid "Manage account"
 msgstr "Hallinnoi tiliä"
 
-#: lib/senders/email.js:1177
+#: lib/senders/email.js:1174
 msgid "Account confirmed"
 msgstr "Tili vahvistettu"
 
-#: lib/senders/email.js:1180
+#: lib/senders/email.js:1177
 msgid "Connect another device"
 msgstr "Yhdistä toinen laite"
 
-#: lib/senders/email.js:1258
-msgid "Set up account recovery"
-msgstr "Aseta tilin palautus"
-
 #: lib/senders/email.js:1259
-msgid "Open account settings"
-msgstr "Avaa tilin asetukset"
-
-#: lib/senders/email.js:1299
 msgid "Set up recovery email"
 msgstr "Aseta palautusosoite"
 
-#: lib/senders/email.js:1300
+#: lib/senders/email.js:1260
 msgid "Add a secondary email"
 msgstr "Lisää toissijainen sähköpostiosoite"
 
-#: lib/senders/email.js:1340 lib/senders/email.js:1341
+#: lib/senders/email.js:1310 lib/senders/email.js:1311
 msgid "Get a recovery key"
 msgstr "Hanki palautusavain"
 
-#: lib/senders/email.js:1377
+#: lib/senders/email.js:1347
 msgid "Primary email updated"
 msgstr "Ensisijainen sähköpostiosoite päivitetty"
 
-#: lib/senders/email.js:1447
+#: lib/senders/email.js:1417
 msgid "Two-step verification enabled"
 msgstr "Kaksivaiheinen vahvistus otettu käyttöön"
 
-#: lib/senders/email.js:1490
+#: lib/senders/email.js:1460
 msgid "Two-step verification is off"
 msgstr "Kaksivaiheinen vahvistus on pois käytöstä"
 
-#: lib/senders/email.js:1576
+#: lib/senders/email.js:1546
 msgid "Recovery code used"
 msgstr "Palautuskoodi käytetty"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1599
 msgid "1 recovery code remaining"
 msgstr "1 palautuskoodi jäljellä"
 
-#: lib/senders/email.js:1631
+#: lib/senders/email.js:1601
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s palautuskoodia jäljellä"
 
-#: lib/senders/email.js:1634
+#: lib/senders/email.js:1604
 msgid "Generate codes"
 msgstr "Luo koodeja"
 
-#: lib/senders/email.js:1758
+#: lib/senders/email.js:1728
 msgid "Password updated using recovery key"
 msgstr "Salasana päivitetty palautusavainta käyttäen"
 
-#: lib/senders/email.js:1759
+#: lib/senders/email.js:1729
 msgid "Create new recovery key"
 msgstr "Luo uusi palautusavain"
 
@@ -752,6 +712,36 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lataa viimeisin"
+
+#~ msgid "Avoid account lockout"
+#~ msgstr "Vältä tilisi ulkopuolelle jäämistä"
+
+#~ msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
+#~ msgstr "Kaksi yksinkertaista toimenpidettä helpottaa tilin saamista takaisin ja tietojen suojaamista, jos sinun täytyy nollata salasanasi."
+
+#~ msgid "Set up a secondary email: "
+#~ msgstr "Aseta toissijainen sähköpostiosoite: "
+
+#~ msgid "Helps you get back in if you lose access to your email."
+#~ msgstr "Auttaa sinua pääsemään takaisin sisään, jos menetät pääsyn sähköpostiisi."
+
+#~ msgid " Create a recovery key: "
+#~ msgstr " Luo palautusavain: "
+
+#~ msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
+#~ msgstr "Firefox suojaa tietosi poistamalla synkronoidut tiedot, jos vaihdat salasanasi. Palautusavain palauttaa ne."
+
+#~ msgid "Set up a secondary email:"
+#~ msgstr "Aseta toissijainen sähköpostiosoite:"
+
+#~ msgid "Create a recovery key:"
+#~ msgstr "Luo palautusavain:"
+
+#~ msgid "Set up account recovery"
+#~ msgstr "Aseta tilin palautus"
+
+#~ msgid "Open account settings"
+#~ msgstr "Avaa tilin asetukset"
 
 #~ msgid "Account verified!"
 #~ msgstr "Tili on vahvistettu!"
@@ -1030,11 +1020,11 @@ msgstr "Lataa viimeisin"
 #~ msgstr "Nollaa salasana"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa tiliin"
-#~ " yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
+#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa "
+#~ "tiliin yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
@@ -1127,8 +1117,8 @@ msgstr "Lataa viimeisin"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida Firefoxin"
-#~ " salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
+#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida "
+#~ "Firefoxin salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "env"
 #~ msgstr "env"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-21 08:01+0000\n"
+"POT-Creation-Date: 2020-02-28 18:33+0000\n"
 "PO-Revision-Date: 2020-02-09 04:34+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr "기본 이메일 검증됨"
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "계정 알림은 이제 %(secondaryEmailVerified)s로도 보내집니다."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:55
+#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:57
 msgid "Secondary email verified"
 msgstr "보조 이메일 검증됨"
 
@@ -254,7 +254,7 @@ msgstr "웹 세션"
 msgid "Last seen time unknown"
 msgstr ""
 
-#: .es5/views/settings/delete_account.js:240
+#: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -327,23 +327,23 @@ msgstr "계정 복구를 사용합니다"
 msgid "Account recovery revoked"
 msgstr "계정 복구 취소됨"
 
-#: .es5/views/post_verify/verified.js:47
+#: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:48
-msgid "If you lose access to your account, youll be able to restore your sync data."
+#: .es5/views/post_verify/verified.js:50
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "탐색 시작"
 
-#: .es5/views/post_verify/verified.js:52
+#: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:53
+#: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
 msgstr ""
 
@@ -434,6 +434,14 @@ msgstr "시작하기"
 #: .es5/models/support-form.js:25
 msgid "Account issues"
 msgstr "계정 문제"
+
+#: .es5/models/support-form.js:25
+msgid "Firefox Private Network Android App"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "Firefox Private Network Windows App"
+msgstr ""
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1056,7 +1064,7 @@ msgstr "복구 키로 비밀번호 재설정하기"
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s(으)로 이동"
 
@@ -1073,7 +1081,8 @@ msgstr "<span class=\"note\">참고:</span> 비밀번호를 재설정하고 계�
 msgid "Enter recovery key"
 msgstr "복구 키 입력"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr "복구 키 확인"
 
@@ -1175,7 +1184,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "받은편지함 또는 스팸함에 없나요? 다시 보내기"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2
-#: .es5/templates/settings/recovery_codes.mustache:20
+#: .es5/templates/settings/recovery_codes.mustache:20 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "뒤로"
 
@@ -1813,7 +1822,7 @@ msgstr ""
 msgid "Recovery code"
 msgstr ""
 
-#: .es5/templates/settings/recovery_codes.mustache:19
+#: .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "확인"
 
@@ -1992,6 +2001,10 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
