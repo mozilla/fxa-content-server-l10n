@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2019-12-05 10:02+0000\n"
+"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"PO-Revision-Date: 2020-02-28 12:14+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -73,7 +73,7 @@ msgstr "Primêr e-mailadres ferifiearre"
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Accountmeldingen wurde no ek nei %(secondaryEmailVerified)s ferstjoerd."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:55
+#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:57
 msgid "Secondary email verified"
 msgstr "Sekundêr e-mailadres ferifiearre"
 
@@ -254,7 +254,7 @@ msgstr "Websesje"
 msgid "Last seen time unknown"
 msgstr "Lêst sjoen: ûnbekend"
 
-#: .es5/views/settings/delete_account.js:240
+#: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
 msgstr "Account mei sukses fuortsmiten"
 
@@ -327,25 +327,25 @@ msgstr "Accountwerstel ynskeakele"
 msgid "Account recovery revoked"
 msgstr "Accountwerstel útskeakele"
 
-#: .es5/views/post_verify/verified.js:47
+#: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
+msgstr "Jo syngronisearre gegevens binne befeilige"
+
+#: .es5/views/post_verify/verified.js:50
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:48
-msgid "If you lose access to your account, youll be able to restore your sync data."
-msgstr ""
-
-#: .es5/views/post_verify/verified.js:49 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Begjinne mei sneupjen"
 
-#: .es5/views/post_verify/verified.js:52
+#: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Accountmeldingen wurde no ek nei %(secondaryEmail)s ferstjoerd."
 
-#: .es5/views/post_verify/verified.js:53
+#: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Trochgean nei %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -434,6 +434,14 @@ msgstr "Oan it wurk"
 #: .es5/models/support-form.js:25
 msgid "Account issues"
 msgstr "Accountproblemen"
+
+#: .es5/models/support-form.js:25
+msgid "Firefox Private Network Android App"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "Firefox Private Network Windows App"
+msgstr ""
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1056,7 +1064,7 @@ msgstr "Wachtwurd opnij ynstelle mei werstelkaai"
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Trochgean nei %(serviceName)s"
 
@@ -1075,7 +1083,8 @@ msgstr ""
 msgid "Enter recovery key"
 msgstr "Fier werstelkaai yn"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr "Befêstigje werstelkaai"
 
@@ -1177,7 +1186,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2
-#: .es5/templates/settings/recovery_codes.mustache:20
+#: .es5/templates/settings/recovery_codes.mustache:20 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Tebek"
 
@@ -1530,7 +1539,7 @@ msgstr "Wêrom oanmelde op in oar apparaat?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "No net"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1773,7 +1782,7 @@ msgstr "Tafoegje"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Werstelkoaden bewarje"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1789,7 +1798,7 @@ msgstr "Nije werstelkoaden generearje"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as jo jo mobyl apparaat net hawwe."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1803,21 +1812,21 @@ msgstr "Ofdrukke"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Konfiguraasje annulearje"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "Befêstigje in werstelkoade"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Fier yn gefal fan in ferlern apparaat ien fan jo bewarre werstelkoaden yn, om derfoar te soargjen dat jo wer tagong krije kinne ta jo account."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Werstelkoade"
 
-#: .es5/templates/settings/recovery_codes.mustache:19
+#: .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Befêstigje"
 
@@ -1831,19 +1840,19 @@ msgstr "Beheare…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "Koade hânmjittich ynfiere"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Fier dizze geheime kaai yn yn jo app foar autentikaasje:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Nei foltôgjen wurde befeiligingskoaden foar jo generearre dy't jo ynfiere kinne."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Klear"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1966,11 +1975,11 @@ msgstr "Klear, werstelkaai bewarre"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "In sekundêr e-mailadres tafoegje"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "It tafoegjen fan in sekundêr e-mailadres helpt jo oan tagong ta jo account, as jo bûtensluten binne en net mear by %(escapedEmail)s kinne."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1979,31 +1988,37 @@ msgstr "Miskien letter"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Beskermje jo gegevens mei in werstelkaai"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Jo syngronisearre gegevens kinne bewarre wachtwurden befetsje."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
+"Omdat dizze ynformaasje fan krusjaal belang is foar jo feilichheid, smyt Firefox dizze fuort om jo te beskermjen wannear't jo wachtwurd opnij ynsteld wurdt, om te foar te kommen dat oaren der "
+"tagong ta krije."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Untfang in werstelkaai"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Befêstigje wachtwurd"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "Befêstigje jo wachtwurd foar %(escapedEmail)s om jo werstelkaai te generearjen."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Werstelkaai bewarje"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2164,6 +2179,9 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "If you lose access to your account, youll be able to restore your sync data."
+#~ msgstr "As jo tagong ta jo account ferlieze, kinne jo jo syngronisearre gegevens werstelle."
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
