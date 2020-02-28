@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-28 11:51+0000\n"
+"PO-Revision-Date: 2020-02-28 12:03+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -341,7 +341,7 @@ msgstr "Eikundaha ñepyrũ"
 
 #: .es5/views/post_verify/verified.js:52
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Ñandutiveve marandu’i ko’ág̃a oñemondóta avei %(secondaryEmail)s-pe."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Continue to %(serviceName)s "
@@ -1828,11 +1828,11 @@ msgstr "Emoinge ayvu nde poitépe"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Emoĩmba vove, oñepyrũta omoheñói ayvu rekorosãrã eikekuaa hag̃ua."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -1956,7 +1956,7 @@ msgstr "Oĩma, eñongatúma mba’eñemi jeguerujey"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Embojuaju ñanduti veve mokõiháva"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -1993,7 +1993,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Eñongatu ayvu jeguerujeyrã"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
