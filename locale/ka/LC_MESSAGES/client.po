@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-09 17:57+0000\n"
-"PO-Revision-Date: 2020-02-24 17:16+0000\n"
+"PO-Revision-Date: 2020-02-28 16:36+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -163,7 +163,7 @@ msgstr "პაროლი წარმატებით შეიცვალ�
 
 #: .es5/views/settings/client_disconnect.js:30
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "სამწუხაროა. შეცვალეთ Firefox-ანგარიშის პაროლი და მოიძიეთ ინფორმაცია თქვენი მოწყობილობის მწარმოებლისგან, თუ როგორ შეიძლება წაიშალოს მონაცემები დისტანციურად."
+msgstr "სამწუხაროა. შეცვალეთ Firefox-ანგარიშის პაროლი და მოიძიეთ ინფორმაცია თქვენი მოწყობილობის მწარმოებლისგან, თუ როგორ შეიძლება წაიშალოს მონაცემები დაშორებულად."
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
