@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-21 08:01+0000\n"
-"PO-Revision-Date: 2020-02-26 08:06+0000\n"
-"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2020-02-26 14:44+0000\n"
+"Last-Translator: Hercules de Kruikhandelaar <m@vdm.nu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "Account bestaat niet meer. Opnieuw aanmaken?"
 
 #: .es5/views/support.js:84
 msgid "Please Select One"
-msgstr "Selecteer een"
+msgstr "Selecteer een optie"
 
 #: .es5/views/support.js:231 .es5/templates/support.mustache:5
 msgid "Other"
@@ -1842,7 +1842,7 @@ msgstr "Na voltooiing worden beveiligingscodes voor u gegenereerd die u kunt inv
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Gereed"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1964,11 +1964,11 @@ msgstr "Gereed, herstelsleutel opgeslagen"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Een secundair e-mailadres toevoegen"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Het toevoegen van een secundair e-mailadres helpt u aan toegang tot uw account, als u bent buitengesloten en niet meer bij %(escapedEmail)s kunt."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1977,31 +1977,33 @@ msgstr "Misschien later"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Bescherm uw gegevens met een herstelsleutel"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Uw gesynchroniseerde gegevens kunnen opgeslagen wachtwoorden bevatten."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
+"Omdat deze informatie van cruciaal belang is voor uw veiligheid, verwijdert Firefox deze om u te beschermen wanneer uw wachtwoord opnieuw wordt ingesteld, om te voorkomen dat anderen er toegang toe "
+"krijgen."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Ontvang een herstelsleutel"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Bevestig wachtwoord"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Bevestig uw wachtwoord voor %(escapedEmail)s om uw herstelsleutel te genereren."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Herstelsleutel opslaan"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
