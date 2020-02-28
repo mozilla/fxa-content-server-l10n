@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-25 10:35+0000\n"
+"PO-Revision-Date: 2020-02-28 20:00+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -333,7 +333,7 @@ msgstr "Seus dados sincronizados estão protegidos"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Se você perder o acesso à sua conta, poderá restaurar seus dados sincronizados."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -437,11 +437,11 @@ msgstr "Problemas com a conta"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Aplicativo Firefox Private Network para Android"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Aplicativo Firefox Private Network para Windows"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1001,9 +1001,7 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao continuar, você concorda com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1073,8 +1071,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Insira a chave de recuperação de uso único que você armazenou em um local seguro para recuperar o acesso à sua Conta Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Se você redefinir sua senha e não tiver salva uma chave de recuperação de conta, alguns dos seus dados serão apagados (incluindo dados sincronizados no servidor, "
 "como histórico e favoritos)."
@@ -1367,8 +1364,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTA:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados "
-"com a sua senha para proteger sua privacidade."
+"<span>NOTA:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados com"
+" a sua senha para proteger sua privacidade."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1961,8 +1958,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Etapa 2 de 2: Salve a chave de recuperação"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">NOTA: </span>Se você esquecer sua senha, esta chave é necessária para recuperar o acesso aos seus dados. Salve sua chave de recuperação num local seguro e onde possa encontrar "
 "facilmente depois."
@@ -2010,7 +2006,7 @@ msgstr "Confirme sua senha de %(escapedEmail)s para gerar sua chave de recupera�
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Digite sua chave de recuperação para confirmar que você salvou uma cópia."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
@@ -2306,8 +2302,8 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgstr "Gerenciar preferências"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
 #~ "Se você utiliza essa conta para aplicativos e serviços da Mozilla, como AMO, Pocket e Screenshots, primeiro inicie a sessão e remova qualquer informações pessoais salvas. Uma vez que exclua sua "
 #~ "conta aqui, você poderá perder o acesso a ela em todos os lugares."
@@ -2393,8 +2389,8 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 #~ msgstr ""
-#~ "Ao continuar, você declara que concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">Política de privacidade</a>."
+#~ "Ao continuar, você declara que concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Política"
+#~ " de privacidade</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Termos do serviço da plataforma de inscrições"
@@ -2558,9 +2554,7 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies e armazenamento local são necessários."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Política de "
 #~ "privacidade</a> dos serviços na nuvem do Firefox."
@@ -2617,11 +2611,11 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgstr "Por que sincronizar dois (ou mais!) dispositivos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "O Sync permite que você compartilhe os favoritos, histórico e senhas que você salva no Firefox em um dispositivo com o Firefox em outros dispositivos. Identifique-se no Firefox em seu telefone "
-#~ "ou tablet e tudo o que você salvou no Firefox para computador aparecerá."
+#~ "O Sync permite que você compartilhe os favoritos, histórico e senhas que você salva no Firefox em um dispositivo com o Firefox em outros dispositivos. Identifique-se no Firefox em seu telefone ou "
+#~ "tablet e tudo o que você salvou no Firefox para computador aparecerá."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2733,15 +2727,15 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgstr "Entrar"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>LEMBRE-SE:</span> Se você redefinir sua senha, alguns dos seus dados serão apagados (incluindo dados sincronizados como histórico e favoritos). Isso por que nós criptografamos seus dados "
-#~ "com sua senha para proteger sua privacidade."
+#~ "<span>LEMBRE-SE:</span> Se você redefinir sua senha, alguns dos seus dados serão apagados (incluindo dados sincronizados como histórico e favoritos). Isso por que nós criptografamos seus dados com "
+#~ "sua senha para proteger sua privacidade."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>OBS:</span> Se você redefinir sua senha, alguns dos seus dados serão apagados (incluindo dados sincronizados como histórico e favoritos). Isso por que nós criptografamos seus dados com sua "
 #~ "senha para proteger sua privacidade."
@@ -2869,20 +2863,18 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(signinUri)s\">Entre</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última atividade: %(translatedTimeAgo)s"
@@ -3109,8 +3101,8 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar "
-#~ "seu usuário entre uma sessão e outra."
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar seu "
+#~ "usuário entre uma sessão e outra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "O Firefox estará disponível em breve para iOS!"
@@ -3253,16 +3245,12 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Já tem uma conta? Entre."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Política de "
 #~ "privacidade</a> dos serviços na nuvem do Firefox."
