@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2019-12-19 15:34+0000\n"
-"Last-Translator: عمر <um.qshi@gmail.com>\n"
+"PO-Revision-Date: 2020-02-29 12:04+0000\n"
+"Last-Translator: Shahbaz - محمد شہباز عالم <shahbazalam17feb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr "اہک اور آلہ جوڑیں:"
+msgstr "ایک اور آلہ جوڑیں:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -573,7 +573,7 @@ msgstr "اکاؤنٹ کی تصدیق ہوگئی"
 
 #: lib/senders/email.js:1177
 msgid "Connect another device"
-msgstr "اہک اور آلہ جوڑیں"
+msgstr "ایک اور آلہ جوڑیں"
 
 #: lib/senders/email.js:1259
 msgid "Set up recovery email"
@@ -815,8 +815,7 @@ msgstr "تازہ ترین ڈاؤن لوڈ کریں"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
