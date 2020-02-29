@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-29 12:03+0000\n"
+"PO-Revision-Date: 2020-02-29 12:12+0000\n"
 "Last-Translator: Shahbaz - محمد شہباز عالم <shahbazalam17feb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -729,7 +729,7 @@ msgstr "سیشن زائدالمدت ہو گیا ہے۔ جاری رکھنے کے 
 
 #: .es5/lib/auth-errors.js:312
 msgid "Cookies are still disabled"
-msgstr "کوکیس ابھی بھی نااہل ہیں"
+msgstr "کوکیز ابھی بھی نااہل ہیں"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Passwords do not match"
@@ -1258,7 +1258,7 @@ msgstr "ایک سے زائد آلہ کی ضرورت کیوں ہے؟"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr "مقامی ذخیرہ اور کوکیس درکار ہیں"
+msgstr "مقامی ذخیرہ اور کوکیز درکار ہیں"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
