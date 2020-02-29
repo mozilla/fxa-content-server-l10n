@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-29 11:33+0000\n"
+"PO-Revision-Date: 2020-02-29 11:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1847,7 +1847,7 @@ msgstr "Wpisz ten tajny klucz w aplikacji uwierzytelniania:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Po ukończeniu zacznie generować kody zabezpieczeń, które należy podać."
+msgstr "Po ukończeniu zacznie tworzyć kody zabezpieczeń, które należy podać."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -1975,7 +1975,7 @@ msgstr "Dodaj drugi adres e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Dodanie drugiego adresu e-mail pomaga wrócić do konta w razie jego blokady i braku dostępu do adresu %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1984,35 +1984,35 @@ msgstr "Może później"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Chroń swoje dane za pomocą klucza odzyskiwania"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Synchronizowane dane mogą zawierać zachowane hasła."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Ponieważ te informacje mają kluczowe znaczenie dla Twojego bezpieczeństwa, Firefox usuwa je podczas zmiany hasła, aby uniemożliwić innym osobom dostęp do nich."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Uzyskaj klucz odzyskiwania"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Potwierdź hasło"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Proszę potwierdzić hasło do konta %(escapedEmail)s, aby utworzyć klucz odzyskiwania."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Wpisz klucz odzyskiwania, aby potwierdzić, że zachowano kopię."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Zachowaj klucz odzyskiwania"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
