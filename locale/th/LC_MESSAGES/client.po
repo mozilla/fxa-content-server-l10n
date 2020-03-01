@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-23 08:35+0000\n"
+"PO-Revision-Date: 2020-02-23 08:36+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1557,7 +1557,7 @@ msgstr "ติดต่อเรา"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "คุณกำลังติดต่อเราเกี่ยวกับอะไร?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1589,7 +1589,7 @@ msgstr "เข้าใจแล้ว"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "คุณต้องการซิงค์อุปกรณ์นี้กับบัญชีของคุณหรือไม่?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1626,7 +1626,7 @@ msgstr "จัดตำแหน่งและหมุนรูปภาพข
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "ตัดการเชื่อมต่อจาก Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1634,7 +1634,7 @@ msgstr "ข้อมูลการเรียกดูของคุณจะ
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "คุณกำลังตัดการเชื่อมต่อ %(deviceName)s จาก Sync เนื่องจากอุปกรณ์นี้:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -2043,7 +2043,7 @@ msgstr "เบราว์เซอร์ Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "ซิงค์ที่คั่นหน้า, รหัสผ่าน และอื่น ๆ ของคุณบนอุปกรณ์ทุกเครื่อง"
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
