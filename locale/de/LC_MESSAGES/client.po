@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-29 08:43+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2020-03-01 11:06+0000\n"
+"Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1996,12 +1996,12 @@ msgstr "Schützen Sie Ihre Daten mit einem Wiederherstellungsschlüssel"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr "Ihre synchronisierten Daten können von Ihnen gespeicherte Kennwörter enthalten."
+msgstr "Ihre synchronisierten Daten können von Ihnen gespeicherte Passwörter enthalten."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
-"Da diese Daten für Ihre Sicherheit von entscheidender Bedeutung sind, löscht Firefox sie, um Sie beim Zurücksetzen Ihres Kennworts zu schützen und zu verhindern, dass andere Personen darauf "
+"Da diese Daten für Ihre Sicherheit von entscheidender Bedeutung sind, löscht Firefox sie, um Sie beim Zurücksetzen Ihres Passworts zu schützen und zu verhindern, dass andere Personen darauf "
 "zugreifen."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
