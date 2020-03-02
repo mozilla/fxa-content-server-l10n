@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-02 22:19+0000\n"
+"PO-Revision-Date: 2020-03-02 22:29+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -127,7 +127,7 @@ msgstr "Camudar…"
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Namái qu'acabes, usa la contraseña nueva p'aniciar sesión en tolos preseos de to."
+msgstr "Namás qu'acabes, usa la contraseña nueva p'aniciar sesión en tolos preseos de to."
 
 #: .es5/views/settings/change_password.js:229
 msgid "Old password"
@@ -1029,7 +1029,7 @@ msgstr "Pa más seguranza, confirma esti aniciu de sesión p'apenzar a sincroniz
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Solicitú incorreuta"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
@@ -1266,7 +1266,7 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Retentar"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1280,7 +1280,7 @@ msgstr ""
 #: .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
-msgstr ""
+msgstr "Siguir"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1322,7 +1322,7 @@ msgstr ""
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Aceutar"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
@@ -1508,7 +1508,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Númberu telefónicu"
 
 #: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
 msgid "Send"
@@ -1525,7 +1525,7 @@ msgstr "¿Por qué aniciar sesión n'otru preséu?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Agora non"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -2001,11 +2001,11 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "¿Qué edá tienes?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(family)s en %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -2013,7 +2013,7 @@ msgstr "%(city)s, %(region)s, %(country)s (estimóse)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (estimóse)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
@@ -2025,7 +2025,7 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "Direición IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
