@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-02 13:22+0000\n"
+"PO-Revision-Date: 2020-03-02 13:32+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -705,7 +705,7 @@ msgstr "Chaidh an t-ùrachadh a dhiùltadh, feuch ris a-rithist"
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Tha an còd dearbhaidh mì-dhligheach no dh’fhalbh an ùine air"
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
 msgid "Server busy, try again soon"
@@ -882,7 +882,7 @@ msgstr "Ath-stiùireadh mì-dhligheach"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Bheil mearachd sa phost-d? Cha doir %(domain)s seachad post-d."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -966,15 +966,15 @@ msgstr "Paramadair OAuth a dhìth: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Cha do rinn an cleachdaiche clàradh a-steach"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Tha cleachdaiche eile air clàradh a-steach"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Cleachdaiche no seisean gun dearbhadh"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1107,15 +1107,15 @@ msgstr "Barrachd fiosrachaidh"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Tagh na tha thu airson sioncronachadh:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Sioncronaich na chaidh a thaghadh"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Na sioncronaich an t-uidheam seo"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1203,11 +1203,11 @@ msgstr "Briog air a’ cheangal a chur sinn gu %(email)s taobh a-staigh uair a t
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Cuir a-steach an còd dearbhaidh"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Cuir a-steach an còd dearbhaidh a chaidh a chur gu %(escapedEmail)s am broinn 5 mionaidean."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1221,7 +1221,7 @@ msgstr "Dearbh"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "A bheil còd ùr a dhìth ort? Cuir às ùr"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1384,15 +1384,15 @@ msgstr "Tòisich air an ath-shuidheachadh"
 
 #: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
 msgid "Recent Activity"
-msgstr ""
+msgstr "Gnìomhachd o chionn goirid"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Tèarainteachd"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Ainm an tachartais"
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
@@ -1400,19 +1400,19 @@ msgstr "Air a dhearbhadh"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Air a chruthachadh"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Sguabadh às"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Air ais gu na roghainnean"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Dh’fhalbh an ùine air a’ chairt-chreidis agad. Ùraich e <a %(escapedCcExpiredLinkAttrs)s>an-seo</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1456,7 +1456,7 @@ msgstr "Cuir a-steach an còd aisig deich-àireamhach"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "An deach a ghlas ort?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1484,7 +1484,7 @@ msgstr "Fosgail an aplacaid dearbhaidh agad is cuir a-steach an còd tèaraintea
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "A bheil duilgheadasan agad le bhith a’ cur a-steach a’ chòd?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1509,6 +1509,8 @@ msgstr "Cuir am facal-faire a-steach a-rithist"
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Feumaidh tu am facal-faire seo airson cothrom fhaighinn air dàta crioptaichte agad san stòras againn.<br/>Ma nì thu ath-shuidheachadh, tha teans gun caill thu dàta mar fhaclan-faire agus comharran-"
+"lìn."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1543,7 +1545,7 @@ msgstr "Carson a chlàraichinn a-steach air uidheam eile?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Chan ann an-dràsta"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
