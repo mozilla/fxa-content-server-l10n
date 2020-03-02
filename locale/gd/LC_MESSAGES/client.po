@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-02 13:32+0000\n"
+"PO-Revision-Date: 2020-03-02 13:33+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1561,7 +1561,7 @@ msgstr "Àireamh cheàrr?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Mur eil thu a’ faighinn na teachdaireachd SMS, feuch is dèan lorg ann an stòr nan aplacaidean airson “Firefox.”"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1573,7 +1573,7 @@ msgstr "Cuir fios thugainn"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Dè mu dhèidhinn tha thu a’ cur fios thugainn?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
