@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-02 08:08+0000\n"
+"PO-Revision-Date: 2020-03-02 08:30+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -437,11 +437,11 @@ msgstr "Kontoproblemer"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Android-app for Firefox Private Network"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Windows-app for Firefox Private Network"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1796,7 +1796,7 @@ msgstr "Opprett nye gjenopprettingskoder"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Lagre disse engangskoder på et trygt sted, i tilfelle du mister tilgang til mobilenheten din."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
