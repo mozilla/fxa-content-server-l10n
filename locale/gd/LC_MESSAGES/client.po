@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-03 12:56+0000\n"
+"PO-Revision-Date: 2020-03-03 13:18+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1653,23 +1653,23 @@ msgstr "Bidh an dàta brabhsaidh agad air %(deviceName)s fhathast ach cha dèan 
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Tha thu a’ dì-cheangal %(deviceName)s on t-sioncronachadh a chionn ’s gu bheil an t-uidheam seo:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Mì-earbsach"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Air chall no air ghoid"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Aosta no fhuair thu fear ùr ’na àite"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "’Na dhùblachadh"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
