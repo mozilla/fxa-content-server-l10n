@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-03 10:08+0000\n"
+"PO-Revision-Date: 2020-03-03 10:20+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1791,7 +1791,7 @@ msgstr "Emoheñói ayvu jeguerujeyrã pyahu"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1813,7 +1813,7 @@ msgstr "Emoneĩ ayvu jeguerujeyrãva"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Eikekuaajey hag̃ua ne mba’etépe, okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã ñongatupyre."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
@@ -1969,7 +1969,7 @@ msgstr "Embojuaju ñanduti veve mokõiháva"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Embojuaju ñanduti veve mokõiháva oipytyvõ oujeývo ne mba’etépe ojejoko mba’éramo ha ndaikatúi eike %(escapedEmail)s-pe."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
