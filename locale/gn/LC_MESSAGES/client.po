@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-03 10:39+0000\n"
+"PO-Revision-Date: 2020-03-03 10:43+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2002,7 +2002,7 @@ msgstr "Emoneĩ ne ñe’ẽñemi %(escapedEmail)s omoheñói hag̃ua ne mba’e
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Emoinge ne mba’eñemi jeguerujeyrã emoneĩ hag̃ua eñongatu hague."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
