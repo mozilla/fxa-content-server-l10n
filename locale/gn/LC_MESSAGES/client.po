@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-03 10:03+0000\n"
+"PO-Revision-Date: 2020-03-03 10:08+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -437,11 +437,11 @@ msgstr "Mba'ete apañuãi"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Android Firefox Private Network rembipuru’i"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Firefox Private Network Windows rembipuru’i"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
