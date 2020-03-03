@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-23 08:36+0000\n"
+"PO-Revision-Date: 2020-03-03 11:27+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -114,7 +114,7 @@ msgstr "ขอบคุณสำหรับการติดต่อฝ่า
 
 #: .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> สำหรับ <b>%(escapedSelectedPlan)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
