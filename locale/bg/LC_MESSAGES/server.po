@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-05 09:48+0000\n"
-"Last-Translator: :stoyan <stoyan@gmx.com>\n"
+"PO-Revision-Date: 2020-03-01 12:28+0000\n"
+"Last-Translator: Пламен <plamen_mbx@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Ако вие не я сменили, моля, сменете своята парола сега, посещавайки %(resetLink)s"
+msgstr "Ако вие не сте я сменили, моля, сменете своята парола сега, посещавайки %(resetLink)s"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
