@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-05 15:02+0000\n"
+"PO-Revision-Date: 2020-03-05 15:19+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1847,11 +1847,11 @@ msgstr "Ingresá esta clave secreta en tu aplicación de autenticación:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Una vez completado, va a generar códigos de seguridad para que los ingreses."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Listo"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1973,7 +1973,7 @@ msgstr "Hecho, clave de recuperación guardada"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Agregar una dirección de correo electrónico secundaria"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
