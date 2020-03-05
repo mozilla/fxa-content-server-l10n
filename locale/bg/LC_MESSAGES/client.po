@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-02 09:01+0000\n"
+"PO-Revision-Date: 2020-03-05 09:41+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -39,7 +39,7 @@ msgstr "Имейл адрес"
 
 #: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr "Наименование"
+msgstr "Име"
 
 #: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -124,7 +124,7 @@ msgstr "Парола"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Промяна…"
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -172,7 +172,7 @@ msgstr "Много съжаляваме. Ако на това устройств
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последно видян %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последно видян преди повече от %(translatedTimeAgo)s в %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -269,7 +269,7 @@ msgstr "Добавяне…"
 
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Изберете наименование, което бихте искали да се показва при управлението на сметката."
+msgstr "Въведете име, което бихте искали да се показва във Firefox и при управление на сметката."
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -473,7 +473,7 @@ msgstr "Адреси"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Банкови карти"
 
 #: .es5/models/reliers/browser.js:84
 msgid "Firefox"
