@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-05 14:41+0000\n"
+"PO-Revision-Date: 2020-03-05 14:50+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -443,7 +443,7 @@ msgstr "Aplicación Android Firefox Private Network"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Aplicación Firefox Private Network para Windows"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1538,7 +1538,7 @@ msgstr "¿Por qué iniciar sesión en otro dispositivo?"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Ahora no"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1781,7 +1781,7 @@ msgstr "Agregar"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Guardar códigos de recuperación"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
