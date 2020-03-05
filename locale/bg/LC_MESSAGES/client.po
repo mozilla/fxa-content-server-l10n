@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1927,7 +1927,7 @@ msgid ""
 "more</a>"
 msgstr ""
 "<span class=\"note\">ЗАБЕЛЕЖКА:</span>Паролата на Firefox Account шифрова данните от Firefox. Само тя или ключ за възстановяване могат да ви осигурят достъп то тези данни. "
-"%(escapedLearnMoreLinkAttributes)sНаучете повече</a>"
+"<a %(escapedLearnMoreLinkAttributes)s>Научете повече</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
