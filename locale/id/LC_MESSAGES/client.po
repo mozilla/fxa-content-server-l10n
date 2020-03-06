@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2019-10-25 14:20+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1831,8 +1831,8 @@ msgid "Confirm"
 msgstr "Konfirmasi"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Langganan"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2177,6 +2177,9 @@ msgstr "Pasangkan menggunakan aplikasi"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam aplikasi Firefox."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Langganan"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"

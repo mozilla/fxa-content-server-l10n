@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2020-02-25 15:39+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1824,8 +1824,8 @@ msgid "Confirm"
 msgstr "ਪੁਸ਼ਟੀ"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "ਮੈਂਬਰੀ"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2166,6 +2166,9 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid "Subscriptions"
+#~ msgstr "ਮੈਂਬਰੀ"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਡਾਟੇ ਲਈ ਪਹੁੰਚ ਗੁਆ ਲਈ ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਕਰ ਸਕੋਗੇ।"

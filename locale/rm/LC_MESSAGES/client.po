@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2019-10-20 10:45+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1834,8 +1834,8 @@ msgid "Confirm"
 msgstr "Confermar"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Abunaments"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2180,6 +2180,9 @@ msgstr "Associar cun agid dad ina app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad ina app da Firefox."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Abunaments"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Conto exista gia. <a href=\"/signin\">S'annunziar</a>"

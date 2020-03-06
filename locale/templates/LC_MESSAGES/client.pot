@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -2116,7 +2116,7 @@ msgid "Confirm"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
+msgid "Subscriptions & Payments"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2

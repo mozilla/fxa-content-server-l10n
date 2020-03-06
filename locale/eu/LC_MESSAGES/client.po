@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2019-10-28 19:39+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1832,8 +1832,8 @@ msgid "Confirm"
 msgstr "Berretsi"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Harpidetzak"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2178,6 +2178,9 @@ msgstr "Parekatzea aplikazioa erabiliz"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Harpidetzak"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"

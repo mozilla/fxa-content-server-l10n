@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2019-04-02 00:02+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "S'ha detectat que us queden pocs codis de recuperació. Considereu gener
 msgid "Generate codes:"
 msgstr "Genera codis:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1122
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1117
 msgid "New sign-in to %(clientName)s"
 msgstr "Inici de sessió nou al %(clientName)s"
 
@@ -118,7 +118,7 @@ msgstr "Cordialment,"
 msgid "The Firefox Accounts team"
 msgstr "L'equip de comptes del Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1636
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1631
 msgid "Account recovery key generated"
 msgstr "S'ha generat una clau de recuperació del compte"
 
@@ -178,7 +178,7 @@ msgstr "Heu utilitzat un codi de recuperació des del següent dispositiu:"
 msgid "Consumed recovery code"
 msgstr "S'ha utilitzat un codi de recuperació"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1503
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1498
 msgid "New recovery codes generated"
 msgstr "S'han generat nous codis de recuperació"
 
@@ -186,7 +186,7 @@ msgstr "S'han generat nous codis de recuperació"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Heu generat nous codis de recuperació des del següent dispositiu:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1682
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1677
 msgid "Account recovery key removed"
 msgstr "S'ha eliminat una clau de recuperació del compte"
 
@@ -202,7 +202,7 @@ msgstr "Aquesta clau de recuperació ja no es pot utilitzar per recuperar el vos
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Heu eliminat una clau de recuperació del vostre compte del Firefox des del següent dispositiu:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1383
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1378
 msgid "Secondary email removed"
 msgstr "S'ha eliminat l'adreça electrònica secundària"
 
@@ -266,7 +266,7 @@ msgstr ""
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr ""
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1219
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1214
 msgid "Secondary email added"
 msgstr "S'ha afegit l'adreça electrònica secundària"
 
@@ -283,7 +283,7 @@ msgstr "Necessiteu reiniciar la vostra contrasenya?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Feu clic al botó durant la pròxima hora per crear una nova contrasenya. La sol·licitud prové del següent dispositiu:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:972
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:967
 msgid "Create new password"
 msgstr "Crea una nova contrasenya"
 
@@ -427,8 +427,7 @@ msgstr "Per rebre més informació, visiteu <a %(supportLinkAttributes)s>Mozilla
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Aquest és un missatge automàtic; si no heu afegit cap dispositiu nou al vostre compte del Firefox, canvieu la contrasenya immediatament des de %(passwordChangeLink)s"
 
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
-#: lib/senders/templates/layouts/subscription.txt:1
+#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Aquest és un missatge automàtic; si l'heu rebut per error, no cal que feu res."
 
@@ -454,22 +453,6 @@ msgstr "Política de privadesa de Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "Terms and cancellation policy"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "Privacy notice"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Cancel subscription"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Update billing information"
 msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:2
@@ -556,76 +539,76 @@ msgstr ""
 msgid "Confirm secondary email"
 msgstr ""
 
-#: lib/senders/email.js:971
+#: lib/senders/email.js:966
 msgid "Reset your password"
 msgstr "Reinicia la contrasenya"
 
-#: lib/senders/email.js:1013 lib/senders/email.js:1051
+#: lib/senders/email.js:1008 lib/senders/email.js:1046
 msgid "Password updated"
 msgstr ""
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1076
 msgid "Suspicious activity detected"
 msgstr ""
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1220 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1418 lib/senders/email.js:1461 lib/senders/email.js:1504
-#: lib/senders/email.js:1547 lib/senders/email.js:1637 lib/senders/email.js:1683
+#: lib/senders/email.js:1118 lib/senders/email.js:1215 lib/senders/email.js:1343 lib/senders/email.js:1379 lib/senders/email.js:1413 lib/senders/email.js:1456 lib/senders/email.js:1499
+#: lib/senders/email.js:1542 lib/senders/email.js:1632 lib/senders/email.js:1678
 msgid "Manage account"
 msgstr "Gestiona el compte"
 
-#: lib/senders/email.js:1174
+#: lib/senders/email.js:1169
 msgid "Account confirmed"
 msgstr ""
 
-#: lib/senders/email.js:1177
+#: lib/senders/email.js:1172
 msgid "Connect another device"
 msgstr "Connecteu un altre dispositiu"
 
-#: lib/senders/email.js:1259
+#: lib/senders/email.js:1254
 msgid "Set up recovery email"
 msgstr ""
 
-#: lib/senders/email.js:1260
+#: lib/senders/email.js:1255
 msgid "Add a secondary email"
 msgstr ""
 
-#: lib/senders/email.js:1310 lib/senders/email.js:1311
+#: lib/senders/email.js:1305 lib/senders/email.js:1306
 msgid "Get a recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1347
+#: lib/senders/email.js:1342
 msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1417
+#: lib/senders/email.js:1412
 msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1460
+#: lib/senders/email.js:1455
 msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1546
+#: lib/senders/email.js:1541
 msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1599
+#: lib/senders/email.js:1594
 msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1601
+#: lib/senders/email.js:1596
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1599
 msgid "Generate codes"
 msgstr "Genera codis"
 
-#: lib/senders/email.js:1728
+#: lib/senders/email.js:1723
 msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1724
 msgid "Create new recovery key"
 msgstr "Crea una clau de recuperació"
 

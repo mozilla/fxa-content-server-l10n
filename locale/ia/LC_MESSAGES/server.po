@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2020-02-24 22:44+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Nos ha constatate que te resta pauc codices de recuperation. Considera g
 msgid "Generate codes:"
 msgstr "Generar codices:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1122
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1117
 msgid "New sign-in to %(clientName)s"
 msgstr "Nove authentication a %(clientName)s"
 
@@ -117,7 +117,7 @@ msgstr "Cordialmente,"
 msgid "The Firefox Accounts team"
 msgstr "Le equipa de contos Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1636
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1631
 msgid "Account recovery key generated"
 msgstr "Clave de recuperation del conto generate"
 
@@ -177,7 +177,7 @@ msgstr "Tu ha consumite un codice de recuperation ab le sequente apparato:"
 msgid "Consumed recovery code"
 msgstr "Codice de recuperation consumite"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1503
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1498
 msgid "New recovery codes generated"
 msgstr "Nove codices de recuperation generate"
 
@@ -185,7 +185,7 @@ msgstr "Nove codices de recuperation generate"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Tu ha generate con successo nove codices de recuperation ab le sequente apparato:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1682
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1677
 msgid "Account recovery key removed"
 msgstr "Clave de recuperation del conto removite"
 
@@ -201,7 +201,7 @@ msgstr "Iste clave de recuperation pote non plus esser usate pro recuperar tu co
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Tu ha removite con successo un clave de recuperation de conto pro tu conto de Firefox ab le sequente apparato:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1383
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1378
 msgid "Secondary email removed"
 msgstr "E-mail secundari removite"
 
@@ -267,7 +267,7 @@ msgstr "Protege te de esser excludite de tu conto"
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr "Adder un adresse de e-mail secundari te adjuta a recuperar le accesso a tu conto si tu te trova excludite e non pote acceder a tu posta."
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1219
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1214
 msgid "Secondary email added"
 msgstr "Adresse de e-mail secundari addite"
 
@@ -284,7 +284,7 @@ msgstr "Debe tu reinitialisar tu contrasigno?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Clicca sur le button in le proxime hora pro crear un nove contrasigno. Le requesta proveni del apparato sequente:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:972
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:967
 msgid "Create new password"
 msgstr "Crear le nove contrasigno"
 
@@ -428,8 +428,7 @@ msgstr "Pro ulterior information, visita <a %(supportLinkAttributes)s>Mozilla Su
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Iste message ha essite inviate automaticamente. Si tu non ha addite un nove apparato a tu conto Firefox, tu debe cambiar immediatemente tu contrasigno a %(passwordChangeLink)s"
 
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
-#: lib/senders/templates/layouts/subscription.txt:1
+#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari."
 
@@ -456,22 +455,6 @@ msgstr "Politica de confidentialitate de Mozilla"
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
 msgstr "Terminos de servicio de Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "Terms and cancellation policy"
-msgstr "Terminos e politica de cancellation"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "Privacy notice"
-msgstr "Aviso de confidentialitate"
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Cancel subscription"
-msgstr "Cancellar subscription"
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Update billing information"
-msgstr "Actualisar le informationes de factura"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -557,76 +540,76 @@ msgstr "Verificar le email"
 msgid "Confirm secondary email"
 msgstr "Confirmar e-mail secundari"
 
-#: lib/senders/email.js:971
+#: lib/senders/email.js:966
 msgid "Reset your password"
 msgstr "Reinitialisa tu contrasigno"
 
-#: lib/senders/email.js:1013 lib/senders/email.js:1051
+#: lib/senders/email.js:1008 lib/senders/email.js:1046
 msgid "Password updated"
 msgstr "Contrasigno actualisate"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1076
 msgid "Suspicious activity detected"
 msgstr "Activitate suspecte detegite"
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1220 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1418 lib/senders/email.js:1461 lib/senders/email.js:1504
-#: lib/senders/email.js:1547 lib/senders/email.js:1637 lib/senders/email.js:1683
+#: lib/senders/email.js:1118 lib/senders/email.js:1215 lib/senders/email.js:1343 lib/senders/email.js:1379 lib/senders/email.js:1413 lib/senders/email.js:1456 lib/senders/email.js:1499
+#: lib/senders/email.js:1542 lib/senders/email.js:1632 lib/senders/email.js:1678
 msgid "Manage account"
 msgstr "Gerer le conto"
 
-#: lib/senders/email.js:1174
+#: lib/senders/email.js:1169
 msgid "Account confirmed"
 msgstr "Conto confirmate"
 
-#: lib/senders/email.js:1177
+#: lib/senders/email.js:1172
 msgid "Connect another device"
 msgstr "Connecte un altere apparato"
 
-#: lib/senders/email.js:1259
+#: lib/senders/email.js:1254
 msgid "Set up recovery email"
 msgstr "Configurar un adresse de recuperation"
 
-#: lib/senders/email.js:1260
+#: lib/senders/email.js:1255
 msgid "Add a secondary email"
 msgstr "Adder un adresse secundari"
 
-#: lib/senders/email.js:1310 lib/senders/email.js:1311
+#: lib/senders/email.js:1305 lib/senders/email.js:1306
 msgid "Get a recovery key"
 msgstr "Obtener un clave de recuperation"
 
-#: lib/senders/email.js:1347
+#: lib/senders/email.js:1342
 msgid "Primary email updated"
 msgstr "E-mail primari actualisate"
 
-#: lib/senders/email.js:1417
+#: lib/senders/email.js:1412
 msgid "Two-step verification enabled"
 msgstr "Verification a duo passos activate"
 
-#: lib/senders/email.js:1460
+#: lib/senders/email.js:1455
 msgid "Two-step verification is off"
 msgstr "Verification a duo passos disactivate"
 
-#: lib/senders/email.js:1546
+#: lib/senders/email.js:1541
 msgid "Recovery code used"
 msgstr "Codice de recuperation usate"
 
-#: lib/senders/email.js:1599
+#: lib/senders/email.js:1594
 msgid "1 recovery code remaining"
 msgstr "1 codice de recuperation restante"
 
-#: lib/senders/email.js:1601
+#: lib/senders/email.js:1596
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s codices de recuperation restante"
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1599
 msgid "Generate codes"
 msgstr "Generar codices"
 
-#: lib/senders/email.js:1728
+#: lib/senders/email.js:1723
 msgid "Password updated using recovery key"
 msgstr "Contrasigno actualisate con clave de recuperation"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1724
 msgid "Create new recovery key"
 msgstr "Crear nove clave de recuperation"
 
@@ -714,6 +697,18 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Discargar ultime version"
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Terminos e politica de cancellation"
+
+#~ msgid "Privacy notice"
+#~ msgstr "Aviso de confidentialitate"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Cancellar subscription"
+
+#~ msgid "Update billing information"
+#~ msgstr "Actualisar le informationes de factura"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Evita de esser excludite de tu conto"

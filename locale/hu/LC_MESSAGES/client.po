@@ -1830,8 +1830,8 @@ msgid "Confirm"
 msgstr "Megerősítés"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Előfizetések"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2175,6 +2175,9 @@ msgstr "Párosítás egy alkalmazás segítségével"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Használta a rendszerkamerát? Párosítania kell egy Firefox alkalmazásból."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Előfizetések"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Ha elveszíti hozzáférését a fiókjához, akkor vissza fogja tudni állítani a szinkronizálási adatokat."

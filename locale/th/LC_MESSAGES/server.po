@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2019-12-07 09:38+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "เราได้สังเกตว่ารหัสการกู
 msgid "Generate codes:"
 msgstr "สร้างรหัส:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1122
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1117
 msgid "New sign-in to %(clientName)s"
 msgstr "มีการลงชื่อเข้าใช้ใหม่ที่ %(clientName)s"
 
@@ -115,7 +115,7 @@ msgstr "ขอแสดงความนับถือ"
 msgid "The Firefox Accounts team"
 msgstr "ทีมบัญชี Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1636
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1631
 msgid "Account recovery key generated"
 msgstr "กุญแจกู้คืนบัญชีถูกสร้างแล้ว"
 
@@ -173,7 +173,7 @@ msgstr "คุณได้ใช้รหัสการกู้คืนจา
 msgid "Consumed recovery code"
 msgstr "ใช้รหัสการกู้คืนแล้ว"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1503
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1498
 msgid "New recovery codes generated"
 msgstr "สร้างรหัสการกู้คืนใหม่แล้ว"
 
@@ -181,7 +181,7 @@ msgstr "สร้างรหัสการกู้คืนใหม่แล
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "คุณได้สร้างรหัสการกู้คืนจากอุปกรณ์ดังต่อไปนี้เรียบร้อยแล้ว:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1682
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1677
 msgid "Account recovery key removed"
 msgstr "กุญแจกู้คืนบัญชีถูกลบแล้ว"
 
@@ -197,7 +197,7 @@ msgstr "กุญแจกู้คืนนี้ไม่สามารถใ
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "คุณได้เอาคีย์การกู้คืนบัญชีสำหรับ Firefox Account ของคุณจากอุปกรณ์ต่อไปนี้สำเร็จแล้ว:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1383
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1378
 msgid "Secondary email removed"
 msgstr "อีเมลสำรองถูกลบแล้ว"
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr ""
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1219
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1214
 msgid "Secondary email added"
 msgstr "เพิ่มอีเมลสำรองแล้ว"
 
@@ -277,7 +277,7 @@ msgstr "ต้องการตั้งรหัสผ่านของคุ
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "คลิกปุ่มภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่ คำขอมาจากอุปกรณ์ต่อไปนี้:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:972
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:967
 msgid "Create new password"
 msgstr "สร้างรหัสผ่านใหม่"
 
@@ -421,8 +421,7 @@ msgstr "สำหรับข้อมูลเพิ่มเติม โป�
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่ได้เพิ่มอุปกรณ์ใหม่ไปยังบัญชี Firefox ของคุณ คุณควรเปลี่ยนรหัสผ่านของคุณในทันทีที่ %(passwordChangeLink)s"
 
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
-#: lib/senders/templates/layouts/subscription.txt:1
+#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร"
 
@@ -449,22 +448,6 @@ msgstr "นโยบายความเป็นส่วนตัวของ
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
 msgstr "ข้อกำหนดในการให้บริการของ Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "Terms and cancellation policy"
-msgstr "ข้อกำหนดและนโยบายการยกเลิก"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "Privacy notice"
-msgstr "ประกาศความเป็นส่วนตัว"
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Cancel subscription"
-msgstr "ยกเลิกการบอกรับ"
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Update billing information"
-msgstr "อัปเดตข้อมูลการเรียกเก็บเงิน"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -550,76 +533,76 @@ msgstr "ยืนยันอีเมล"
 msgid "Confirm secondary email"
 msgstr "ยืนยันอีเมลสำรอง"
 
-#: lib/senders/email.js:971
+#: lib/senders/email.js:966
 msgid "Reset your password"
 msgstr "ตั้งรหัสผ่านใหม่"
 
-#: lib/senders/email.js:1013 lib/senders/email.js:1051
+#: lib/senders/email.js:1008 lib/senders/email.js:1046
 msgid "Password updated"
 msgstr "รหัสผ่านได้ถูกเปลี่ยนแล้ว"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1076
 msgid "Suspicious activity detected"
 msgstr "ตรวจพบกิจกรรมที่น่าสงสัย"
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1220 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1418 lib/senders/email.js:1461 lib/senders/email.js:1504
-#: lib/senders/email.js:1547 lib/senders/email.js:1637 lib/senders/email.js:1683
+#: lib/senders/email.js:1118 lib/senders/email.js:1215 lib/senders/email.js:1343 lib/senders/email.js:1379 lib/senders/email.js:1413 lib/senders/email.js:1456 lib/senders/email.js:1499
+#: lib/senders/email.js:1542 lib/senders/email.js:1632 lib/senders/email.js:1678
 msgid "Manage account"
 msgstr "จัดการบัญชี"
 
-#: lib/senders/email.js:1174
+#: lib/senders/email.js:1169
 msgid "Account confirmed"
 msgstr "ยืนยันบัญชีแล้ว"
 
-#: lib/senders/email.js:1177
+#: lib/senders/email.js:1172
 msgid "Connect another device"
 msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
-#: lib/senders/email.js:1259
+#: lib/senders/email.js:1254
 msgid "Set up recovery email"
 msgstr ""
 
-#: lib/senders/email.js:1260
+#: lib/senders/email.js:1255
 msgid "Add a secondary email"
 msgstr ""
 
-#: lib/senders/email.js:1310 lib/senders/email.js:1311
+#: lib/senders/email.js:1305 lib/senders/email.js:1306
 msgid "Get a recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1347
+#: lib/senders/email.js:1342
 msgid "Primary email updated"
 msgstr "อีเมลหลักได้รับการปรับปรุงแล้ว"
 
-#: lib/senders/email.js:1417
+#: lib/senders/email.js:1412
 msgid "Two-step verification enabled"
 msgstr "เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
 
-#: lib/senders/email.js:1460
+#: lib/senders/email.js:1455
 msgid "Two-step verification is off"
 msgstr "การยืนยันแบบสองขั้นตอนปิดอยู่"
 
-#: lib/senders/email.js:1546
+#: lib/senders/email.js:1541
 msgid "Recovery code used"
 msgstr "ได้ใช้รหัสการกู้คืนแล้ว"
 
-#: lib/senders/email.js:1599
+#: lib/senders/email.js:1594
 msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1601
+#: lib/senders/email.js:1596
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1599
 msgid "Generate codes"
 msgstr "สร้างรหัส"
 
-#: lib/senders/email.js:1728
+#: lib/senders/email.js:1723
 msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1724
 msgid "Create new recovery key"
 msgstr "สร้างรหัสการกู้คืนใหม่"
 
@@ -699,6 +682,18 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "ดาวน์โหลดรุ่นล่าสุด"
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "ข้อกำหนดและนโยบายการยกเลิก"
+
+#~ msgid "Privacy notice"
+#~ msgstr "ประกาศความเป็นส่วนตัว"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "ยกเลิกการบอกรับ"
+
+#~ msgid "Update billing information"
+#~ msgstr "อัปเดตข้อมูลการเรียกเก็บเงิน"
 
 #~ msgid "Set up a secondary email: "
 #~ msgstr "ตั้งบัญชีอีเมลสำรอง: "

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2020-02-28 08:12+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1829,8 +1829,8 @@ msgid "Confirm"
 msgstr "Konfirmasi"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Balangganan"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2175,6 +2175,9 @@ msgstr "Adumaniskeun maké aplikasi"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplikasi Firefox."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Balangganan"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Lamun anjeun leungiteun aksés ka akun anjeun, anjeun bakal bisa mulangkeun data singkron anjeun."

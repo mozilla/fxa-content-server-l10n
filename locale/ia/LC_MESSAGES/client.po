@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2020-02-24 22:43+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1832,8 +1832,8 @@ msgid "Confirm"
 msgstr "Confirmar"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Subscriptiones"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2178,6 +2178,9 @@ msgstr "Accopulamento per un application"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un application de Firefox."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Subscriptiones"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Si tu perde le accesso a tu conto, tu potera restaurar tu datos synchronisate."
