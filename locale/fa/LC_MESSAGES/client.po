@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-06 23:42+0000\n"
+"PO-Revision-Date: 2020-03-06 23:48+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -1818,7 +1818,7 @@ msgstr "تایید یک کلید بازیابی"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "برای اطمینان از اینکه به حساب خود، در صورت گم شدن دستگاه تلفنتان، دسترسی داشته باشید، لطفا یکی از کدهای بازآوری خود را وارد کنید."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
@@ -1838,11 +1838,11 @@ msgstr "مدیریت…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "ورود کد به شکل دستی"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "این کلید مخفی را در برنامه احراز هویت خود وارد کنید:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1850,7 +1850,7 @@ msgstr ""
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "آماده"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
