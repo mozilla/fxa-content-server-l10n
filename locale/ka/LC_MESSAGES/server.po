@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
 "PO-Revision-Date: 2020-02-24 17:18+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "ჩვენ შევამჩნიეთ, რომ აღდგე�
 msgid "Generate codes:"
 msgstr "კოდების შექმნა:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1122
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1117
 msgid "New sign-in to %(clientName)s"
 msgstr "ახალი შესვლა %(clientName)s"
 
@@ -115,7 +115,7 @@ msgstr "საუკეთესო სურვილებით,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox-ანგარიშების გუნდი"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1636
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1631
 msgid "Account recovery key generated"
 msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
 
@@ -175,7 +175,7 @@ msgstr "თქვენ წარმატებით გამოიყენ�
 msgid "Consumed recovery code"
 msgstr "გამოყენებული აღდგენის კოდი"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1503
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1498
 msgid "New recovery codes generated"
 msgstr "შექმნილია აღდგენის ახალი კოდები"
 
@@ -183,7 +183,7 @@ msgstr "შექმნილია აღდგენის ახალი კ
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი კოდები შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1682
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1677
 msgid "Account recovery key removed"
 msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
 
@@ -199,7 +199,7 @@ msgstr "ეს აღდგენის გასაღები აღარ �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1383
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1378
 msgid "Secondary email removed"
 msgstr "დამატებითი ელფოსტა მოცილებულია"
 
@@ -265,7 +265,7 @@ msgstr "თავი დაიცავით ანგარიშის ჩა
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr "დამატებითი ელფოსტის მითითება, დაგეხმარებათ ანგარიშის დაბრუნება, თუ ანგარიში ჩაგეკეტებათ და არ გექნებათ წვდომა მთავარ ელფოსტასთან."
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1219
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1214
 msgid "Secondary email added"
 msgstr "ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
 
@@ -282,7 +282,7 @@ msgstr "გესაჭიროებათ პაროლის განუ�
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:972
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:967
 msgid "Create new password"
 msgstr "შეიყვანეთ ახალი პაროლი"
 
@@ -426,8 +426,7 @@ msgstr "ვრცლად, იხილეთ <a %(supportLinkAttributes)s>Mozi
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "ეს არის ავტომატური შეტყობინება; თუ ახალი მოწყობილობა თქვენ არ დაგიმატებიათ Firefox-ანგარიშზე, მაშინ გირჩევთ, ახლავე შეცვალოთ პაროლი ბმულზე %(passwordChangeLink)s"
 
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.html:2
-#: lib/senders/templates/layouts/subscription.txt:1
+#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო."
 
@@ -454,22 +453,6 @@ msgstr "Mozilla-ს პირადი მონაცემების და�
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
 msgstr "Firefox Cloud-ის მომსახურების პირობები"
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "Terms and cancellation policy"
-msgstr "პირობები და გაუქმების დებულება"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "Privacy notice"
-msgstr "პირადი მონაცემების დაცვის განაცხადი"
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Cancel subscription"
-msgstr "გამოწერის გაუქმება"
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Update billing information"
-msgstr "ანგარიშსწორების მონაცემების განახლება"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -555,76 +538,76 @@ msgstr "ელფოსტის დამოწმება"
 msgid "Confirm secondary email"
 msgstr "დამატებითი ელფოსტის დამოწმება"
 
-#: lib/senders/email.js:971
+#: lib/senders/email.js:966
 msgid "Reset your password"
 msgstr "პაროლის განულება"
 
-#: lib/senders/email.js:1013 lib/senders/email.js:1051
+#: lib/senders/email.js:1008 lib/senders/email.js:1046
 msgid "Password updated"
 msgstr "პაროლი განახლდა"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1076
 msgid "Suspicious activity detected"
 msgstr "აღმოჩენილია საეჭვო მოქმედება"
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1220 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1418 lib/senders/email.js:1461 lib/senders/email.js:1504
-#: lib/senders/email.js:1547 lib/senders/email.js:1637 lib/senders/email.js:1683
+#: lib/senders/email.js:1118 lib/senders/email.js:1215 lib/senders/email.js:1343 lib/senders/email.js:1379 lib/senders/email.js:1413 lib/senders/email.js:1456 lib/senders/email.js:1499
+#: lib/senders/email.js:1542 lib/senders/email.js:1632 lib/senders/email.js:1678
 msgid "Manage account"
 msgstr "ანგარიშის მართვა"
 
-#: lib/senders/email.js:1174
+#: lib/senders/email.js:1169
 msgid "Account confirmed"
 msgstr "ანგარიში დამოწმებულია"
 
-#: lib/senders/email.js:1177
+#: lib/senders/email.js:1172
 msgid "Connect another device"
 msgstr "მოწყობილობის დამატება"
 
-#: lib/senders/email.js:1259
+#: lib/senders/email.js:1254
 msgid "Set up recovery email"
 msgstr "აღდგენის ელფოსტის გამართვა"
 
-#: lib/senders/email.js:1260
+#: lib/senders/email.js:1255
 msgid "Add a secondary email"
 msgstr "დამატებითი ელფოსტის მითითება"
 
-#: lib/senders/email.js:1310 lib/senders/email.js:1311
+#: lib/senders/email.js:1305 lib/senders/email.js:1306
 msgid "Get a recovery key"
 msgstr "აღდგენის გასაღების მიღება"
 
-#: lib/senders/email.js:1347
+#: lib/senders/email.js:1342
 msgid "Primary email updated"
 msgstr "მთავარი ელფოსტა განახლებულია"
 
-#: lib/senders/email.js:1417
+#: lib/senders/email.js:1412
 msgid "Two-step verification enabled"
 msgstr "ორსაფეხურიანი დამოწმება ჩართულია"
 
-#: lib/senders/email.js:1460
+#: lib/senders/email.js:1455
 msgid "Two-step verification is off"
 msgstr "ორსაფეხურიანი დამოწმება გამორთულია"
 
-#: lib/senders/email.js:1546
+#: lib/senders/email.js:1541
 msgid "Recovery code used"
 msgstr "აღდგენის კოდი გამოყენებულია"
 
-#: lib/senders/email.js:1599
+#: lib/senders/email.js:1594
 msgid "1 recovery code remaining"
 msgstr "1 აღდგენის კოდია დარჩენილი"
 
-#: lib/senders/email.js:1601
+#: lib/senders/email.js:1596
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s აღდგენის კოდია დარჩენილი"
 
-#: lib/senders/email.js:1604
+#: lib/senders/email.js:1599
 msgid "Generate codes"
 msgstr "კოდების შექმნა"
 
-#: lib/senders/email.js:1728
+#: lib/senders/email.js:1723
 msgid "Password updated using recovery key"
 msgstr "პაროლი განახლებულია აღდგენის კოდის გამოყენებით"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1724
 msgid "Create new recovery key"
 msgstr "აღდგენის ახალი გასაღების შექმნა"
 
@@ -712,6 +695,18 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "უახლესის ჩამოტვირთვა"
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "პირობები და გაუქმების დებულება"
+
+#~ msgid "Privacy notice"
+#~ msgstr "პირადი მონაცემების დაცვის განაცხადი"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "გამოწერის გაუქმება"
+
+#~ msgid "Update billing information"
+#~ msgstr "ანგარიშსწორების მონაცემების განახლება"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "აირიდეთ ანგარიშის ჩაკეტვა"

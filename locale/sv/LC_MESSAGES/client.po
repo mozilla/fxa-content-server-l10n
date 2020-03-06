@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-02-24 19:08+0000\n"
+"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"PO-Revision-Date: 2020-03-01 09:30+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -333,7 +333,7 @@ msgstr "Dina synkroniseringsdata är skyddade"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Om du tappar åtkomst till ditt konto kan du återställa dina synkroniseringsdata."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -437,11 +437,11 @@ msgstr "Kontoproblem"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Android-app för Firefox Private Network"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Windows-app för Firefox Private Network"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1830,8 +1830,8 @@ msgid "Confirm"
 msgstr "Bekräfta"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Prenumerationer"
+msgid "Subscriptions & Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2011,7 +2011,7 @@ msgstr "Bekräfta ditt lösenord för %(escapedEmail)s för att generera din åt
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Ange din återställningsnyckel för att bekräfta att du har sparat en kopia."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
@@ -2176,6 +2176,9 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Prenumerationer"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Om du tappar åtkomst till ditt konto kan du återställa dina synkroniseringsdata."
