@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-07 22:42+0000\n"
+"PO-Revision-Date: 2020-03-07 22:48+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1725,7 +1725,7 @@ msgstr "삭제…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr ""
+msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">구독 관리</a>로 이동하십시오."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1737,7 +1737,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "모든 유료 구독이 취소됩니다"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1819,7 +1819,7 @@ msgstr "확인"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr ""
+msgstr "구독 및 결제"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2090,7 +2090,7 @@ msgstr "메시지가 지원 팀에 전송되었습니다"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "구독으로 돌아가기"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
