@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-07 00:10+0000\n"
+"PO-Revision-Date: 2020-03-07 00:17+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -341,11 +341,11 @@ msgstr "Tichap okem pa k'amaya'l"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Ri taq rutzijol rub'i' taqoya'l xketaq pa %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Tik'oje' na pa %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
