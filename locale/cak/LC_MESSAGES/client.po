@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-07 00:17+0000\n"
+"PO-Revision-Date: 2020-03-07 00:29+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -437,11 +437,11 @@ msgstr "Ruk'ayewal Rub'i' Taqoya'l"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Firefox Private Network Android Chokoy"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Firefox Private Network Windows Chokoy"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -1535,7 +1535,7 @@ msgstr "¿Achike ruma toq k'o chi nintikirisaj molojri'ïl pa jun chik okisab'ä
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Not now"
-msgstr ""
+msgstr "Wakami mani"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1778,7 +1778,7 @@ msgstr "Titz'aqatisäx"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Keyak ri kolonel taq b'itz'ib'"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1808,11 +1808,11 @@ msgstr "Titz'ajb'äx"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Tiq'at runuk'ulem"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "Tijikib'äx ri kolonel b'itz'ib'"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
