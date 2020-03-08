@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-08 09:37+0000\n"
+"PO-Revision-Date: 2020-03-08 09:55+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1728,7 +1728,7 @@ msgstr "ลบ…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "กำลังคิดจะยกเลิกการบอกรับแบบเสียค่าใช้จ่ายหรือเปล่า? ไปที่ <a href=\"/subscriptions\">จัดการการบอกรับ</a>"
+msgstr "กำลังคิดจะยกเลิกการบอกรับสมาชิกแบบเสียค่าใช้จ่ายหรือเปล่า? ไปที่ <a href=\"/subscriptions\">จัดการการบอกรับสมาชิก</a>"
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1740,7 +1740,7 @@ msgstr "โปรดรับทราบการลบบัญชีของ
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr "การบอกรับแบบเสียค่าใช้จ่ายใด ๆ ที่คุณมีจะถูกยกเลิก"
+msgstr "การบอกรับสมาชิกแบบเสียค่าใช้จ่ายใด ๆ ที่คุณมีจะถูกยกเลิก"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -2071,7 +2071,7 @@ msgstr "ส่งไฟล์ขนาดใหญ่อย่างปลอด
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "ปลอดภัยอยู่เสมอและอย่าใช้รหัสผ่านซ้ำ"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2087,7 +2087,7 @@ msgstr "แสดงรหัสผ่าน"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "อืมม์ เรากำลังมีปัญหากับระบบของเรา เรากำลังทำการซ่อมแซมให้คุณและขออภัยในความไม่สะดวก โปรดลองอีกครั้งในภายหลัง"
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -2095,7 +2095,7 @@ msgstr "ข้อความของคุณถูกส่งไปยัง
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "กลับไปยังการบอกรับสมาชิก"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
