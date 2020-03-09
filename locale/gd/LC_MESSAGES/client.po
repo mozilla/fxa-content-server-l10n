@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 16:51+0000\n"
+"PO-Revision-Date: 2020-03-09 16:57+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -2158,7 +2158,7 @@ msgstr "Chaidh crìoch a chur air an t-suidheachadh."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Fosgail sganair nan còd san aplacaid Firefox agad is leig an còd ris nuair a bhios tu deiseil."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
