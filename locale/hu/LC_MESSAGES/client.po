@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 18:33+0000\n"
-"PO-Revision-Date: 2020-03-06 08:33+0000\n"
+"PO-Revision-Date: 2020-03-09 11:42+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -1831,7 +1831,7 @@ msgstr "Megerősítés"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr ""
+msgstr "Előfizetések és fizetések"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1990,7 +1990,7 @@ msgstr "Védje adatait egy helyreállítási kulccsal"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "A szinkronizált adatok tartalmazhatnak mentett jelszavakat."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
