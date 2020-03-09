@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 10:40+0000\n"
+"PO-Revision-Date: 2020-03-09 10:42+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1755,7 +1755,7 @@ msgstr "Cheangail thu an cunntas Firefox ri bathar Mozilla a chumas tèarainte t
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Dearbh gu bheil thu airson an cunntas agad a sguabadh às:"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
