@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 10:42+0000\n"
+"PO-Revision-Date: 2020-03-09 11:22+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1759,15 +1759,15 @@ msgstr "Dearbh gu bheil thu airson an cunntas agad a sguabadh às:"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Thèid crìoch a chur air fo-sgrìobhadh air airgead sam bith a tha agad"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Dh’fhaoidte gun caill thu fiosrachadh is gleusan a shàbhail thu am broinn bathar Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Dh’fhaoidte nach till am fiosrachadh a shàbhail thu ma chuireas tu an gnìomh às ùr e leis a’ phost-d seo"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1791,7 +1791,7 @@ msgstr "Cuir ris"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Sàbhail na còdan aisig"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1807,7 +1807,7 @@ msgstr "Aisig còdan aisig ùra"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Cùm na còdan aon turais seo ann an àite sàbhailte airson ’s gum bi iad ri do làimh nuair nach bi an t-uidheam mobile agad."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
