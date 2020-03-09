@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 17:12+0000\n"
+"PO-Revision-Date: 2020-03-09 17:18+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -251,19 +251,19 @@ msgstr "Dìon an dàta agad le iuchair aisig"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Aisig an dàta sioncronaichte agad is cùm a’ dol far an robh thu leis an iuchair aisig àraidh agad."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Air neo sguabaidh Firefox an dàta agad às gus do dhìon nuair a nithear ath-shuidheachadh facail-fhaire."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Dèan cinnteach nach tèid do ghlasadh a-mach"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Ma chuireas tu post-d eile ris, gheibh thu cothrom air a’ chunntas agad a-rithist leis ma thèid do ghlasadh a-mach is mur am faigh cothrom air a’ phost-d agad."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1214
 msgid "Secondary email added"
@@ -307,11 +307,11 @@ msgstr "Mur e, cuidich leinn ’nar strì an aghaidh luchd-foill is cuir aithisg
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do rinn thu a dhearbhadh gu ruige seo."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Dearbh an-dràsta e ’s faigh cothrom air teicneolas a dhìonas do phrìobhaideachd, a bheir fiosrachadh feumail dhut agus aig a bheil suim is urram dhut."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
@@ -331,7 +331,7 @@ msgstr "Dearbh an seòladh puist-d gus an cunntas agad a ghnìomhachadh agus air
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Gnìomhaich teaghlach bathar Firefox"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
