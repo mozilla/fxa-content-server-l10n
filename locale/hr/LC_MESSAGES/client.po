@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 20:02+0000\n"
+"PO-Revision-Date: 2020-03-10 20:13+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -179,19 +179,19 @@ msgstr "Posljednji puta viđeno prije više od %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednji puta viđeno %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednji puta viđeno prije više od %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednji puta viđeno %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednji puta viđeno prije više od %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
@@ -243,7 +243,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Mrežna sesija, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:135
 msgid "Web Session"
@@ -268,7 +268,7 @@ msgstr "Dodaj …"
 
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Odaberi ime koje želiš prikazati u Firefoxu i prilikom upravljanja računom."
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
@@ -292,7 +292,7 @@ msgstr "Sekundarna adresa e-pošte"
 
 #: .es5/views/settings/recovery_codes.js:77
 msgid "Two-step authentication enabled"
-msgstr "Provjera autentičnosti u dva koraka je omogućena"
+msgstr "Aktivirana je dvofaktorska autentifikacija"
 
 #: .es5/views/settings/recovery_codes.js:110
 msgid "Firefox Recovery Codes"
@@ -304,15 +304,15 @@ msgstr "Stvoreni su novi kodovi za oporavak"
 
 #: .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Upotrijebi kȏd %(code)s za postavljanje dvofaktorske autentifikacije u podržanim programima."
 
 #: .es5/views/settings/two_step_authentication.js:161
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Dvofaktorska autentifikacija je uklonjena"
 
 #: .es5/views/settings/two_step_authentication.js:197
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Dvofaktorska autentifikacija"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
@@ -324,15 +324,15 @@ msgstr "Oporavak računa je omogućen"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Oporavak računa je opozvan"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Tvoji podaci sinkronizacije su zaštićeni"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Ako izgubiš pristup svom računu, moći ćeš vratiti podatke sinkronizacije."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
