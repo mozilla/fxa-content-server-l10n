@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 17:12+0000\n"
+"PO-Revision-Date: 2020-03-10 17:15+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1537,7 +1537,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Krivi broj?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -1545,7 +1545,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Nije stiglo? Pošalji ponovno"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
 msgid "Got it"
-msgstr ""
+msgstr "Razumijem"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1589,32 +1589,32 @@ msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sinkroniziraj ovaj uređaj"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Snimi sliku"
 
 #: .es5/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Prenesi"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/upgrade_session.mustache:8
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
-msgstr ""
+msgstr "Gotovo"
 
 #: .es5/templates/settings/avatar_crop.mustache:1
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
@@ -1634,72 +1634,72 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Sumnjivo"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Izgubljeno ili ukradeno"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Staro ili zamijenjeno"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplikat"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
-msgstr ""
+msgstr "Ne želim reći"
 
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr ""
+msgstr "Prekini vezu"
 
 #: .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Prekid veze je uspio"
 
 #: .es5/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Uređaji i aplikacije"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
-msgstr ""
+msgstr "Prikaži"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr ""
+msgstr "Trenutni uređaj"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Prekini vezu…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr ""
+msgstr "Trenutna sesija"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
-msgstr ""
+msgstr "Opozovi"
 
 #: .es5/templates/settings/clients.mustache:18
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox za iOS"
 
 #: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
 msgid "None connected"
-msgstr ""
+msgstr "Ništa nije povezano"
 
 #: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
-msgstr ""
+msgstr "Preuzmi"
 
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox za Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
