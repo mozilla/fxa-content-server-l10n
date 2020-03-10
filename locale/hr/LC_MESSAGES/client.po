@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 19:48+0000\n"
+"PO-Revision-Date: 2020-03-10 20:02+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1132,7 +1132,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr "Sjećate se lozinke? Prijavite se"
+msgstr "Sjećaš se lozinke? Prijavi se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1148,7 +1148,7 @@ msgstr "Poveznica za potvrdu je istekla"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr "Kliknite ovdje za primanje nove poveznice za potvrdu"
+msgstr "Pritisni ovdje za primanje nove poveznice za potvrdu"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
@@ -1156,11 +1156,11 @@ msgstr "Greška tijekom potvrđivanja"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr "Potvrdite svoj račun"
+msgstr "Potvrdi svoj račun"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr "Potvrdite ovu prijavu"
+msgstr "Potvrdi ovu prijavu"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1200,7 +1200,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr "Unesite šesteroznamenkasti kôd"
+msgstr "Upiši šesteroznamenkasti kȏd"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
@@ -1209,11 +1209,11 @@ msgstr "Potvrdi"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr "Trebate drugi kôd? Pošalji ponovno"
+msgstr "Trebaš drugi kȏd? Pošalji ponovo"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr "Povežite drugi uređaj"
+msgstr "Poveži jedan drugi uređaj"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
@@ -1234,7 +1234,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
-msgstr "Još dodajete uređaje?"
+msgstr "Još uvijek dodaješ uređaje?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -1266,7 +1266,7 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Pokušaj ponovno"
+msgstr "Pokušaj ponovo"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
-msgstr "Unesite adresu e-pošte"
+msgstr "Upiši adresu e-pošte"
 
 #: .es5/templates/index.mustache:3 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
@@ -1330,7 +1330,7 @@ msgstr "Nastavi na moj račun"
 
 #: .es5/templates/ready.mustache:12
 msgid "Your account is ready!"
-msgstr "Vaš račun je spreman!"
+msgstr "Tvoj račun je spreman!"
 
 #: .es5/templates/ready.mustache:13
 msgid "Generate a new recovery key"
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
-msgstr "Unesite 10-znamenkasti kôd za oporavak"
+msgstr "Upiši deseteroznamenkasti kȏd za oporavak"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1460,7 +1460,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr "Unesite sigurnosni kôd"
+msgstr "Upiši sigurnosni kȏd"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
@@ -1500,7 +1500,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
-msgstr "Stvorite račun"
+msgstr "Otvori račun"
 
 #: .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1545,11 +1545,11 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr "Nije stiglo? Pošalji ponovno"
+msgstr "Nije stiglo? Pošalji ponovo"
 
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
-msgstr "Kontaktirajte nas"
+msgstr "Kontaktiraj nas"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
@@ -1670,15 +1670,15 @@ msgstr "Prikaži"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Trenutni uređaj"
+msgstr "Trenutačni uređaj"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Prekini vezu…"
+msgstr "Prekini vezu …"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
-msgstr "Trenutna sesija"
+msgstr "Trenutačna sesija"
 
 #: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
 msgid "Revoke"
