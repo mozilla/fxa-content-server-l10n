@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 16:33+0000\n"
+"PO-Revision-Date: 2020-03-10 16:41+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -540,7 +540,7 @@ msgstr "Netočni kôd za potvrdu"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Nevažeći JSON u tijelu zahtjeva"
 
 #: .es5/lib/auth-errors.js:80
 msgid "Invalid parameter: %(param)s"
@@ -592,7 +592,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Nije moguće dostaviti e-poštu"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
@@ -616,7 +616,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:184
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Netočan kôd za prijavu"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Can not change primary email to an unverified email"
@@ -708,12 +708,12 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:284
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Značajka nije omogućena"
 
 #: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:300 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sustav nije dostupan, pokušajte ubrzo ponovno"
 
 #: .es5/lib/auth-errors.js:296
 msgid "This endpoint is no longer supported"
@@ -757,23 +757,23 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:340
 msgid "Valid password required"
-msgstr ""
+msgstr "Potrebna je važeća lozinka"
 
 #: .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:400
 msgid "Valid email required"
-msgstr ""
+msgstr "Potrebna je važeća adresa e-pošte"
 
 #: .es5/lib/auth-errors.js:356
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Nije pronađena iskoristiva slika"
 
 #: .es5/lib/auth-errors.js:360
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Nije moguće inicijalizirati kameru"
 
 #: .es5/lib/auth-errors.js:364
 msgid "Valid URL required"
-msgstr ""
+msgstr "Potreban je važeći URL"
 
 #: .es5/lib/auth-errors.js:380
 msgid "Your verification email was just returned. Mistyped email?"
@@ -809,7 +809,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:460
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Račun više ne postoji."
 
 #: .es5/lib/auth-errors.js:464
 msgid "Invalid property in resume token: %(property)s"
@@ -909,7 +909,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
-msgstr ""
+msgstr "Nepoznati klijent"
 
 #: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
@@ -925,7 +925,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
-msgstr ""
+msgstr "Netočan kôd"
 
 #: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
