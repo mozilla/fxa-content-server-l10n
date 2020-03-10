@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 16:52+0000\n"
+"PO-Revision-Date: 2020-03-10 17:04+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -288,19 +288,19 @@ msgstr "Primarna adresa e-pošte je %(email)s"
 
 #: .es5/views/settings/emails.js:180 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundarna adresa e-pošte"
 
 #: .es5/views/settings/recovery_codes.js:77
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Provjera autentičnosti u dva koraka je omogućena"
 
 #: .es5/views/settings/recovery_codes.js:110
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Kôdovi za oporavak Firefoxa"
 
 #: .es5/views/settings/recovery_codes.js:143
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Stvoreni su novi kôdovi za oporavak"
 
 #: .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -336,7 +336,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
-msgstr ""
+msgstr "Započnite s pretraživanjem"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -344,23 +344,23 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Nastavite na %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Vaš račun je zaključan iz sigurnosnih razloga"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Ponovno postavi lozinku"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "nema"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Posljednja provjera: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -664,7 +664,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:236
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Nevažeći ključ za oporavak"
 
 #: .es5/lib/auth-errors.js:240 .es5/lib/auth-errors.js:248
 msgid "This request requires two step authentication enabled on your account."
@@ -680,7 +680,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:256
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Nepoznata pretplata."
 
 #: .es5/lib/auth-errors.js:260
 msgid "Unknown plan for subscription."
@@ -704,7 +704,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Poslužitelj je zauzet, ubrzo pokušajte ponovno"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Feature not enabled"
@@ -729,11 +729,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:312
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kolačići još su uvijek onemogućeni"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Lozinke se ne podudaraju"
 
 #: .es5/lib/auth-errors.js:320
 msgid "Working…"
@@ -921,7 +921,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
-msgstr ""
+msgstr "Nepoznati kôd"
 
 #: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
@@ -997,7 +997,7 @@ msgstr ""
 
 #: .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
-msgstr ""
+msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP adresa: %(ip)s"
 
 #: .es5/lib/strings.js:39
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -1029,11 +1029,11 @@ msgstr ""
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Loš zahtjev"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Greška 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -1049,7 +1049,7 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Primi novu poveznicu"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with recovery key"
@@ -1073,20 +1073,20 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Unesi ključ za oporavak"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Potvrdi ključ za oporavak"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Nemate ključ za oporavak?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Nije moguće stvoriti račun"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
@@ -1094,23 +1094,23 @@ msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Saznaje više"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Odaberite što će se sinkronizirati:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Odabir sinkronizacije"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Ne sinkroniziraj ovaj uređaj"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Poveznica za ponovno postavljanje lozinke je oštećena"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1132,35 +1132,35 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Sjećate se lozinke? Prijavite se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Primarna adresa e-pošte već je potvrđena"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Prijava je već potvrđena"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Poveznica za potvrdu je istekla"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Kliknite ovdje za primanje nove poveznice za potvrdu"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Greška tijekom potvrđivanja"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Potvrdite svoj račun"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Potvrdite ovu prijavu"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1178,7 +1178,7 @@ msgstr ""
 #: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2
 #: .es5/templates/settings/recovery_codes.mustache:20 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
-msgstr ""
+msgstr "Natrag"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1266,7 +1266,7 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Pokušaj ponovno"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1274,25 +1274,25 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
-msgstr ""
+msgstr "Unesite adresu e-pošte"
 
 #: .es5/templates/index.mustache:3 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Pravno"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
-msgstr ""
+msgstr "Uvjeti korištenja"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Politika privatnosti"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1322,7 +1322,7 @@ msgstr ""
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Prihvati"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr ""
+msgstr "E-pošta"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1380,7 +1380,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
 msgid "Verified"
-msgstr ""
+msgstr "Potvrđeno"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1500,7 +1500,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
-msgstr ""
+msgstr "Stvorite račun"
 
 #: .es5/templates/sms_send.mustache:2
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1508,11 +1508,11 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:3
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Broj mobitela"
 
 #: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
 msgid "Send"
-msgstr ""
+msgstr "Pošalji"
 
 #: .es5/templates/sms_send.mustache:5
 msgid ""
