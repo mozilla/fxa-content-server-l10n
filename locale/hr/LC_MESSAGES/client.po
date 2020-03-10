@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 19:23+0000\n"
+"PO-Revision-Date: 2020-03-10 19:30+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -492,11 +492,11 @@ msgstr "Neočekivana greška"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "Poveznica za potvrdu e-pošte koju ste kliknuli je istekla."
+msgstr "Poveznica za potvrdu e-pošte koju si pritisnuo/la je istekla."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr "Pokušali ste previše puta. Pokušajte ponovno kasnije."
+msgstr "Previše pokušaja. Pokušaj kasnije ponovo."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
@@ -536,11 +536,11 @@ msgstr "Nepotvrđeni račun"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
-msgstr "Netočni kôd za potvrdu"
+msgstr "Netočni kȏd za potvrdu"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
-msgstr "Nevažeći JSON u tijelu zahtjeva"
+msgstr "Nevažeći JSON u tekstu zahtjeva"
 
 #: .es5/lib/auth-errors.js:80
 msgid "Invalid parameter: %(param)s"
@@ -616,7 +616,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:184
 msgid "Invalid signin code"
-msgstr "Netočan kôd za prijavu"
+msgstr "Netočan kȏd za prijavu"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Can not change primary email to an unverified email"
@@ -704,16 +704,16 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
 msgid "Server busy, try again soon"
-msgstr "Poslužitelj je zauzet, ubrzo pokušajte ponovno"
+msgstr "Poslužitelj je zauzet, pokušaj ponovo malo kasnije"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Feature not enabled"
-msgstr "Značajka nije omogućena"
+msgstr "Funkcija nije aktivirana"
 
 #: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:300 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
-msgstr "Sustav nije dostupan, pokušajte ubrzo ponovno"
+msgstr "Sustav nije dostupan, pokušaj ponovo malo kasnije"
 
 #: .es5/lib/auth-errors.js:296
 msgid "This endpoint is no longer supported"
@@ -729,7 +729,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:312
 msgid "Cookies are still disabled"
-msgstr "Kolačići još su uvijek onemogućeni"
+msgstr "Kolačići su još uvijek deaktivirani"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Passwords do not match"
@@ -765,7 +765,7 @@ msgstr "Potrebna je važeća adresa e-pošte"
 
 #: .es5/lib/auth-errors.js:356
 msgid "A usable image was not found"
-msgstr "Nije pronađena iskoristiva slika"
+msgstr "Nije pronađena slika, koja bi se mogla koristiti"
 
 #: .es5/lib/auth-errors.js:360
 msgid "Could not initialize camera"
@@ -893,7 +893,7 @@ msgstr "Pogrešno upisana adresa e-pošte?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr "Isprobajte nove Firefoxove proizvode"
+msgstr "Isprobaj nove Firefox proizvode"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -921,15 +921,15 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
-msgstr "Nepoznati kôd"
+msgstr "Nepoznat kȏd"
 
 #: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
-msgstr "Netočan kôd"
+msgstr "Netočan kȏd"
 
 #: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
-msgstr "Kôd je istekao"
+msgstr "Kȏd je istekao"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
