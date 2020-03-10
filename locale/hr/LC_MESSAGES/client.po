@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-10 16:41+0000\n"
+"PO-Revision-Date: 2020-03-10 16:52+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -38,7 +38,7 @@ msgstr "Adresa e-pošte"
 
 #: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:169
 msgid "Display name"
-msgstr "Ime za prikaz"
+msgstr "Prikazano ime"
 
 #: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -62,27 +62,27 @@ msgstr ""
 
 #: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Sada ste spremni mijenjati Vaš račun za Firefox."
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Primarna adresa e-pošte je potvrđena"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Obavijesti o računu sada će biti slane i na %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:57
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Sekundarna adresa e-pošte je potvrđena"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Prijava je potvrđena"
 
 #: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4 .es5/templates/ready.mustache:10
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Sada ste spremni koristiti %(serviceName)s"
 
 #: .es5/views/ready.js:87
 msgid "Account verified"
@@ -171,11 +171,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednji puta viđeno %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednji puta viđeno prije više od %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -247,24 +247,24 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:135
 msgid "Web Session"
-msgstr ""
+msgstr "Mrežna sesija"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Nije poznato kada je zadnji puta viđeno"
 
 #: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Račun je uspješno izbrisan"
 
 #: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
-msgstr ""
+msgstr "Promijeni…"
 
 #: .es5/views/settings/display_name.js:97 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Dodaj…"
 
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -272,19 +272,19 @@ msgstr ""
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
-msgstr ""
+msgstr "Prikazano ime je ažurirano"
 
 #: .es5/views/settings/emails.js:104
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Sekundarna adresa e-pošte je uklonjena"
 
 #: .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
-msgstr ""
+msgstr "Poslana je e-pošta za potvrdu"
 
 #: .es5/views/settings/emails.js:167
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Primarna adresa e-pošte je %(email)s"
 
 #: .es5/views/settings/emails.js:180 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
@@ -929,7 +929,7 @@ msgstr "Netočan kôd"
 
 #: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
-msgstr ""
+msgstr "Kôd je istekao"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
@@ -937,19 +937,19 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
-msgstr ""
+msgstr "Neautorizirano"
 
 #: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
-msgstr ""
+msgstr "Zabranjeno"
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Token je istekao"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Nešto je pošlo po zlu. Zatvorite ovu karticu i pokušajte ponovno."
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
@@ -1200,33 +1200,33 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Unesite šesteroznamenkasti kôd"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
-msgstr ""
+msgstr "Potvrdi"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Trebate drugi kôd? Pošalji ponovno"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Povežite drugi uređaj"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Ovaj Firefox je povezan"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "E-pošta je potvrđena"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
-msgstr ""
+msgstr "Uspjeh"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1234,7 +1234,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Još dodajete uređaje?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
