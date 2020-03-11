@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-11 20:11+0000\n"
+"PO-Revision-Date: 2020-03-11 19:57+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -111,7 +111,7 @@ msgstr "Iné"
 
 #: .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli <b>%(escapedLowercaseTopic)s</b>. Čo najskôr vás budeme kontaktovať e-mailom."
+msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli problému <b>%(escapedLowercaseTopic)s</b>. Čo najskôr vás budeme kontaktovať e-mailom."
 
 #: .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
