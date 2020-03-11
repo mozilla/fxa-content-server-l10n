@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 15:00+0000\n"
+"PO-Revision-Date: 2020-03-11 14:31+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -176,11 +176,11 @@ msgstr "Последно видян %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последно видян преди повече от %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последно видян %(translatedTimeAgo)s в %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -188,11 +188,11 @@ msgstr "Последно видян преди повече от %(translatedTim
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Последно видян %(translatedTimeAgo)s около %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Последно видян преди повече от %(translatedTimeAgo)s около %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
@@ -649,11 +649,11 @@ msgstr "За този профил вече съществува TOTP токен
 
 #: .es5/lib/auth-errors.js:220
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Токенът TOTP не е намерен"
 
 #: .es5/lib/auth-errors.js:224
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Кодът за възстановяване не е намерен"
 
 #: .es5/lib/auth-errors.js:228
 msgid "Unavailable device command"
@@ -661,7 +661,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:232
 msgid "Recovery key not found"
-msgstr ""
+msgstr "Ключът за възстановяване не е намерен"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Invalid recovery key"
@@ -878,7 +878,7 @@ msgstr "Невалидно пренасочване"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Сгрешен имейл? %(domain)s не предлага имейли."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -902,7 +902,7 @@ msgstr "Получавайте последните новини за Mozilla и
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Вземете мерки, за да поддържате интернет здрав"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -962,15 +962,15 @@ msgstr "Липсващ OAuth параметър: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Потребителят не е вписан"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Друг потребител е вписан"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Непроверен потребител или сесия"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1085,7 +1085,7 @@ msgstr "Потвърдете ключа за възстановяване"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Нямате ключ за възстановяване?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
