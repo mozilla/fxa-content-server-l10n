@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
 "PO-Revision-Date: 2019-09-29 14:07+0000\n"
 "Last-Translator: Rimas Kudelis <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -322,7 +322,7 @@ msgstr "Dvipakopis atpažinimas"
 msgid "Account Recovery"
 msgstr "Paskyros atkūrimas"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Paskyros atkūrimas įjungtas"
 
@@ -1226,11 +1226,11 @@ msgstr "Patvirtinti"
 msgid "Need another code? Resend"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Prijungti kitą įrenginį"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "„Firefox“ naršyklė prijungta"
 
@@ -1238,7 +1238,7 @@ msgstr "„Firefox“ naršyklė prijungta"
 msgid "Email verified"
 msgstr "El. pašto adresas patvirtintas"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Atlikta sėkmingai"
@@ -1247,7 +1247,7 @@ msgstr "Atlikta sėkmingai"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Prisijunkite prie šios „Firefox“ naršyklės, kad užbaigtumėte diegimą"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "Norite pridėti daugiau įrenginių?"
 
@@ -1519,29 +1519,35 @@ msgstr "Į jūsų pašto dėžutę atkeliaus praktinių žinių. Prisijungę gau
 msgid "Create account"
 msgstr "Kurti paskyrą"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
+#: .es5/templates/sms_send.mustache:5
+msgid "Sync this browser with your phone"
+msgstr ""
 
-#: .es5/templates/sms_send.mustache:3
+#: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
 msgstr "Mobiliojo telefono numeris"
 
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Siųsti"
 
-#: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS paslauga teikiama ne visose šalyse. Gali būti taikomi SMS ir duomenų perdavimo mokesčiai. Būtinas el. laiško ar SMS gavėjo sutikimas. <a %(escapedLearnMoreAttributes)s>Sužinoti daugiau</a> "
 
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Kodėl prisijungti kitame įrenginyje?"
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Kodėl verta sinchronizuoti kelis įrenginius?"
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr ""
 
@@ -1565,6 +1571,10 @@ msgstr "Jei negaunate SMS pranešimo, galite savo programų parduotuvėje paieš
 msgid "Didn't arrive? Resend"
 msgstr "Negavote? Nusiųskite iš naujo"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr "Kodėl prisijungti kitame įrenginyje?"
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr ""
@@ -1584,10 +1594,6 @@ msgstr ""
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr ""
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Kodėl verta sinchronizuoti kelis įrenginius?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1991,6 +1997,10 @@ msgstr ""
 msgid "Maybe later"
 msgstr "Gal vėliau"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
+
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
@@ -2182,6 +2192,14 @@ msgstr "Susieti naudojant programą"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS paslauga teikiama ne visose šalyse. Gali būti taikomi SMS ir duomenų perdavimo mokesčiai. Būtinas el. laiško ar SMS gavėjo sutikimas. <a %(escapedLearnMoreAttributes)s>Sužinoti daugiau</a> "
 
 #~ msgid "Subscriptions"
 #~ msgstr "Prenumeratos"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-01 09:30+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"PO-Revision-Date: 2020-03-06 18:36+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -319,7 +319,7 @@ msgstr "Tvåstegsautentisering"
 msgid "Account Recovery"
 msgstr "Kontoåterställning"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Kontoåterställning aktiverad"
 
@@ -1221,11 +1221,11 @@ msgstr "Verifiera"
 msgid "Need another code? Resend"
 msgstr "Behöver du en annan kod? Skicka igen"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Anslut en annan enhet"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "Firefox är ansluten"
 
@@ -1233,7 +1233,7 @@ msgstr "Firefox är ansluten"
 msgid "Email verified"
 msgstr "E-post verifierad"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Klart"
@@ -1242,7 +1242,7 @@ msgstr "Klart"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Logga in till Firefox för att slutföra konfigurationen"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "Lägger du fortfarande till enheter?"
 
@@ -1514,29 +1514,35 @@ msgstr "Praktisk kunskap kommer till din inkorg. Registrera dig för mer:"
 msgid "Create account"
 msgstr "Skapa konto"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Skicka Firefox direkt till din smartphone och logga in för att slutföra konfigurationen"
+#: .es5/templates/sms_send.mustache:5
+msgid "Sync this browser with your phone"
+msgstr ""
 
-#: .es5/templates/sms_send.mustache:3
+#: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
 msgstr "Mobiltelefonnummer"
 
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Skicka"
 
-#: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS-tjänsten är endast tillgänglig i vissa länder. SMS &amp; datapriser kan tillämpas. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
 
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Varför logga in på en annan enhet?"
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Varför synkronisera flera enheter?"
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr "Inte nu"
 
@@ -1560,6 +1566,10 @@ msgstr "Om du inte får SMS-meddelandet kan du även söka i appbutiken efter �
 msgid "Didn't arrive? Resend"
 msgstr "Kom det inte fram? Skicka igen"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr "Varför logga in på en annan enhet?"
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr "Kontakta oss"
@@ -1579,10 +1589,6 @@ msgstr "Ämne (valfritt)"
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr "Beskrivning av problem"
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Varför synkronisera flera enheter?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1831,7 +1837,7 @@ msgstr "Bekräfta"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr ""
+msgstr "Prenumerationer & betalningar"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1984,6 +1990,10 @@ msgstr "Genom att lägga till ett sekundär e-post hjälper det dig att få åtk
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Kanske senare"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2176,6 +2186,14 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Skicka Firefox direkt till din smartphone och logga in för att slutföra konfigurationen"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS-tjänsten är endast tillgänglig i vissa länder. SMS &amp; datapriser kan tillämpas. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
 
 #~ msgid "Subscriptions"
 #~ msgstr "Prenumerationer"
