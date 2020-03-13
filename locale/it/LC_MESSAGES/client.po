@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-09 16:53+0000\n"
+"PO-Revision-Date: 2020-03-13 10:34+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -697,7 +697,7 @@ msgstr "Token di pagamento non valido per la sottoscrizione."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Subscription has already been cancelled"
-msgstr "La sottoscrizione è già stata cancellata"
+msgstr "L’abbonamento è già stato cancellato"
 
 #: .es5/lib/auth-errors.js:272
 msgid "Update was rejected, please try again"
