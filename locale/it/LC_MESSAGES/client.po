@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-13 10:34+0000\n"
+"PO-Revision-Date: 2020-03-13 10:35+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -681,19 +681,19 @@ msgstr "Operazione non riuscita a causa di conflitto tra richieste, riprova."
 
 #: .es5/lib/auth-errors.js:252
 msgid "Unknown customer for subscription."
-msgstr "Cliente sconosciuto per la sottoscrizione."
+msgstr "Cliente sconosciuto per l’abbonamento."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Unknown subscription."
-msgstr "Sottoscrizione sconosciuta."
+msgstr "Abbonamento sconosciuto."
 
 #: .es5/lib/auth-errors.js:260
 msgid "Unknown plan for subscription."
-msgstr "Piano sconosciuto per la sottoscrizione."
+msgstr "Piano sconosciuto per l’abbonamento."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Invalid payment token for subscription."
-msgstr "Token di pagamento non valido per la sottoscrizione."
+msgstr "Token di pagamento non valido per l’abbonamento."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Subscription has already been cancelled"
@@ -1740,7 +1740,7 @@ msgstr "Elimina…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "Vuoi interrompere una sottoscrizione a pagamento? Vai a <a href=\"/subscriptions\">Gestione sottoscrizioni</a>."
+msgstr "Vuoi interrompere un abbonamento a pagamento? Vai a <a href=\"/subscriptions\">Gestione abbonamenti</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -2109,7 +2109,7 @@ msgstr "Il tuo messaggio è stato inviato alla sezione Supporto"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr "Torna alle sottoscrizioni"
+msgstr "Torna agli abbonamenti"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
