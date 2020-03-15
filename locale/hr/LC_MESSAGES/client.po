@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-14 11:50+0000\n"
+"PO-Revision-Date: 2020-03-15 13:12+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -195,19 +195,19 @@ msgstr "Posljednji puta viđeno prije više od %(translatedTimeAgo)s blizu grada
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednja aktivnost %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posljednja aktivnost prije više od %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Posljednja aktivnost prije više od %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:89
 msgid "Over %(translatedTimeAgo)s"
