@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-16 20:11+0000\n"
+"PO-Revision-Date: 2020-03-16 20:17+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1521,7 +1521,7 @@ msgstr "Quer sincronizar seu celular?"
 
 #: .es5/templates/sms_send.mustache:10
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Envie um link por SMS para instalar o Firefox no seu celular."
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
@@ -1533,7 +1533,7 @@ msgstr "Enviar"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Taxas de dados e SMS podem ser cobradas. É necessário consentimento do destinatário. <a %(escapedLearnMoreAttributes)s>Saiba mais</a>"
 
 #: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1989,7 +1989,7 @@ msgstr "Talvez mais tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Usar um e-mail diferente"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
