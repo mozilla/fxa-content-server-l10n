@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-16 19:12+0000\n"
+"PO-Revision-Date: 2020-03-16 19:14+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1519,11 +1519,11 @@ msgstr "Sincronice este navegador con su teléfono"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "¿Te gustaría sincronizar tu teléfono?"
 
 #: .es5/templates/sms_send.mustache:10
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Envíá un enlace por SMS para instalar Firefox en tu teléfono."
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
@@ -1535,7 +1535,7 @@ msgstr "Enviar"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "SMS &amp; se pueden aplicar tarifas de datos. Se requiere el consentimiento del destinatario. <a %(escapedLearnMoreAttributes)s>Conocer más</a>"
 
 #: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
