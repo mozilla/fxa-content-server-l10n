@@ -57,7 +57,7 @@ workflows:
   send-pr:
     triggers:
       - schedule:
-          cron: "0 8 * * 5" # At 08:00 on Fridays”
+          cron: "0 16 * * 5" # At 09:00 PDT on Fridays
           filters:
             branches:
               only: master
