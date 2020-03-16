@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
 "PO-Revision-Date: 2020-03-10 00:25+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,7 +319,7 @@ msgstr "Xác thực hai bước"
 msgid "Account Recovery"
 msgstr "Khôi phục tài khoản"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Đã bật khôi phục tài khoản"
 
@@ -681,9 +681,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:260
 msgid "Unknown plan for subscription."
@@ -1003,7 +1001,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1073,7 +1073,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -1220,11 +1221,11 @@ msgstr "Xác nhận"
 msgid "Need another code? Resend"
 msgstr "Cần mã khác? Gửi lại"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Kết nối với thiết bị khác"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "Firefox đã kết nối"
 
@@ -1232,7 +1233,7 @@ msgstr "Firefox đã kết nối"
 msgid "Email verified"
 msgstr "Email đã xác minh"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Thành công"
@@ -1241,7 +1242,7 @@ msgstr "Thành công"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Đăng nhập vào Firefox để hoàn tất thiết lập"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "Vẫn đang thêm thiết bị?"
 
@@ -1366,8 +1367,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
-" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
+"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1513,29 +1514,35 @@ msgstr "Kiến thức thực tế đang đến với hộp thư đến của b�
 msgid "Create account"
 msgstr "Tạo tài khoản"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Gửi Firefox trực tiếp đến điện thoại thông minh của bạn và đăng nhập để hoàn tất thiết lập"
+#: .es5/templates/sms_send.mustache:5
+msgid "Sync this browser with your phone"
+msgstr ""
 
-#: .es5/templates/sms_send.mustache:3
+#: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
 msgstr "Số điện thoại di động"
 
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Gửi"
 
-#: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Dịch vụ SMS chỉ khả dụng ở một số quốc gia nhất định. SMS &amp; tốc độ dữ liệu có thể được áp dụng. Người nhận của email hoặc SMS phải đồng ý. <a %(escapedLearnMoreAttributes)s>Tìm hiểu thêm</a>"
 
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Tại sao đăng nhập trên thiết bị khác?"
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Tại sao đồng bộ hóa nhiều thiết bị?"
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr "Không phải bây giờ"
 
@@ -1559,6 +1566,10 @@ msgstr "Nếu bạn không nhận được tin nhắn SMS, bạn cũng có thể
 msgid "Didn't arrive? Resend"
 msgstr "Không nhận được? Gửi lại"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr "Tại sao đăng nhập trên thiết bị khác?"
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr "Liên hệ với chúng tôi"
@@ -1578,10 +1589,6 @@ msgstr "Chủ đề (không bắt buộc)"
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr "Mô tả vấn đề"
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Tại sao đồng bộ hóa nhiều thiết bị?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1961,7 +1968,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Bước 2 của 2: Lưu khóa khôi phục"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ dàng "
 "tìm thấy nó sau này."
@@ -1982,6 +1990,10 @@ msgstr "Thêm một email phụ giúp bạn quay lại tài khoản của mình 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Có lẽ để sau"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2175,6 +2187,14 @@ msgstr "Ghép nối bằng ứng dụng"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ trong ứng dụng Firefox."
 
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Gửi Firefox trực tiếp đến điện thoại thông minh của bạn và đăng nhập để hoàn tất thiết lập"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Dịch vụ SMS chỉ khả dụng ở một số quốc gia nhất định. SMS &amp; tốc độ dữ liệu có thể được áp dụng. Người nhận của email hoặc SMS phải đồng ý. <a %(escapedLearnMoreAttributes)s>Tìm hiểu thêm</a>"
+
 #~ msgid "Subscriptions"
 #~ msgstr "Đăng ký"
 
@@ -2297,8 +2317,8 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Bạn sẽ nhận được thông tin liên lạc liên quan đến bảo mật tài khoản của bạn, các thay đổi đối với chính sách của chúng tôi, chức năng của tài khoản và email ban đầu để giúp bạn tận dụng tối đa Tài "
-#~ "khoản Firefox của mình."
+#~ "Bạn sẽ nhận được thông tin liên lạc liên quan đến bảo mật tài khoản của bạn, các thay đổi đối với chính sách của chúng tôi, chức năng của tài khoản và email ban đầu để giúp bạn tận dụng tối đa "
+#~ "Tài khoản Firefox của mình."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Ngoài ra, bạn có thể đăng ký nhận email quảng cáo với những tin tức mới nhất từ ​​Mozilla và Firefox."
@@ -2310,11 +2330,11 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ msgstr "Quản lý tùy chỉnh"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
-#~ " ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
+#~ "Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của "
+#~ "mình ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #~ msgid "verified"
 #~ msgstr "đã xác nhận"
@@ -2395,7 +2415,9 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ msgstr "Không thể nhận điều khoản dịch vụ nền tảng đăng ký"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Thông báo bảo mật</a>."
+#~ msgstr ""
+#~ "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Thông báo bảo mật</"
+#~ "a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Điều khoản dịch vụ nền tảng đăng ký"

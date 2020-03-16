@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
 "PO-Revision-Date: 2018-10-28 19:55+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,7 +319,7 @@ msgstr "Аутентификација у два корака"
 msgid "Account Recovery"
 msgstr "Опоравак налога"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr ""
 
@@ -1220,11 +1220,11 @@ msgstr "Потврди"
 msgid "Need another code? Resend"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Повежи други уређај"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "Овај Firefox је повезан"
 
@@ -1232,7 +1232,7 @@ msgstr "Овај Firefox је повезан"
 msgid "Email verified"
 msgstr "Адреса е-поште је потврђена"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Успешно"
@@ -1241,7 +1241,7 @@ msgstr "Успешно"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Пријавите се на овај Firefox да бисте завршили подешавање"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "И даље додајете уређаје?"
 
@@ -1513,29 +1513,35 @@ msgstr ""
 msgid "Create account"
 msgstr "Направи налог"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Пошаљите Firefox право на ваш паметни телефон и пријавите се да завршите подешавање"
-
-#: .es5/templates/sms_send.mustache:3
-msgid "Mobile phone number"
-msgstr "Број мобилног телефона"
-
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
-msgid "Send"
-msgstr "Пошаљи"
-
 #: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-"SMS услуга је могућа само у одређеним државама. SMS &amp; услуге се могу наплатити. Прималац е-поште или SMS поруке мора бити сагласан са тиме. <a %(escapedLearnMoreAttributes)s>Сазнајте више</a>"
-
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
+msgid "Sync this browser with your phone"
 msgstr ""
 
 #: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
+msgid "Mobile phone number"
+msgstr "Број мобилног телефона"
+
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
+msgid "Send"
+msgstr "Пошаљи"
+
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Зашто синхронизовати више уређаја?"
+
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr ""
 
@@ -1559,6 +1565,10 @@ msgstr ""
 msgid "Didn't arrive? Resend"
 msgstr "Није стигла? Пошаљи поново"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr ""
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr ""
@@ -1578,10 +1588,6 @@ msgstr ""
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr ""
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Зашто синхронизовати више уређаја?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1984,6 +1990,10 @@ msgstr ""
 msgid "Maybe later"
 msgstr "Можда касније"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
+
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
@@ -2175,6 +2185,14 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Пошаљите Firefox право на ваш паметни телефон и пријавите се да завршите подешавање"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS услуга је могућа само у одређеним државама. SMS &amp; услуге се могу наплатити. Прималац е-поште или SMS поруке мора бити сагласан са тиме. <a %(escapedLearnMoreAttributes)s>Сазнајте више</a>"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Налог већ постоји. <a href=\"/signin\">Пријави се</a>"

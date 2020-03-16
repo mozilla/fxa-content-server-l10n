@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
 "PO-Revision-Date: 2019-10-28 19:39+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -320,7 +320,7 @@ msgstr "Bi urratseko autentifikazioa"
 msgid "Account Recovery"
 msgstr "Kontua berreskuratzea"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Kontu berreskuratzea gaitua"
 
@@ -1222,11 +1222,11 @@ msgstr "Egiaztatu"
 msgid "Need another code? Resend"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Konektatu beste gailu bat"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "Firefox hau konektatuta dago"
 
@@ -1234,7 +1234,7 @@ msgstr "Firefox hau konektatuta dago"
 msgid "Email verified"
 msgstr "Helbide elektronikoa egiaztatuta"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "Dena ondo"
@@ -1243,7 +1243,7 @@ msgstr "Dena ondo"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Konfigurazioa osatzeko, hasi saioa Firefox honetan"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "Gailuak gehitzeko dituzu oraindik?"
 
@@ -1515,30 +1515,35 @@ msgstr ""
 msgid "Create account"
 msgstr "Sortu kontua"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Bidali Firefox zuzenean zure telefonora eta hasi saioa konfigurazioa amaitzeko"
-
-#: .es5/templates/sms_send.mustache:3
-msgid "Mobile phone number"
-msgstr "Mugikorreko telefono-zenbakia"
-
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
-msgid "Send"
-msgstr "Bidali"
-
 #: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-"SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide gehiago</"
-"a>"
-
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
+msgid "Sync this browser with your phone"
 msgstr ""
 
 #: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
+msgid "Mobile phone number"
+msgstr "Mugikorreko telefono-zenbakia"
+
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
+msgid "Send"
+msgstr "Bidali"
+
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Zergatik sinkronizatu hainbat gailu?"
+
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr ""
 
@@ -1562,6 +1567,10 @@ msgstr ""
 msgid "Didn't arrive? Resend"
 msgstr "Ez da iritsi? Birbidali"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr ""
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr ""
@@ -1581,10 +1590,6 @@ msgstr ""
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr ""
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Zergatik sinkronizatu hainbat gailu?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1987,6 +1992,10 @@ msgstr ""
 msgid "Maybe later"
 msgstr "Geroago agian"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
+
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
@@ -2178,6 +2187,15 @@ msgstr "Parekatzea aplikazioa erabiliz"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Bidali Firefox zuzenean zure telefonora eta hasi saioa konfigurazioa amaitzeko"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+#~ "gehiago</a>"
 
 #~ msgid "Subscriptions"
 #~ msgstr "Harpidetzak"

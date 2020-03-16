@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 08:01+0000\n"
+"POT-Creation-Date: 2020-03-13 08:02+0000\n"
 "PO-Revision-Date: 2020-01-21 23:13+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -320,7 +320,7 @@ msgstr "2 段階認証"
 msgid "Account Recovery"
 msgstr "アカウントの回復"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65
+#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "アカウントの回復が有効になりました"
 
@@ -1224,11 +1224,11 @@ msgstr "確認"
 msgid "Need another code? Resend"
 msgstr "別のコードが必要ですか？ 再送信します"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "他の端末を接続"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
 msgstr "この Firefox は接続されています"
 
@@ -1236,7 +1236,7 @@ msgstr "この Firefox は接続されています"
 msgid "Email verified"
 msgstr "メールアドレスが確認されました"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_send.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Success"
 msgstr "成功"
@@ -1245,7 +1245,7 @@ msgstr "成功"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "この Firefox へログインして設定を完了してください"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
 msgid "Still adding devices?"
 msgstr "他にも端末を追加しますか？"
 
@@ -1519,28 +1519,35 @@ msgstr "実用的な知識が受信トレイに届きます。登録して詳細
 msgid "Create account"
 msgstr "アカウントを作成"
 
-#: .es5/templates/sms_send.mustache:2
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Firefox をお使いのスマートフォンへ直接送り、ログインして設定を完了しましょう"
+#: .es5/templates/sms_send.mustache:5
+msgid "Sync this browser with your phone"
+msgstr ""
 
-#: .es5/templates/sms_send.mustache:3
+#: .es5/templates/sms_send.mustache:7
+msgid "Would you like to sync your phone?"
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:10
+msgid "Send a link by SMS to install Firefox on your phone."
+msgstr ""
+
+#: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
 msgstr "携帯電話番号"
 
-#: .es5/templates/sms_send.mustache:4 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "送信"
 
-#: .es5/templates/sms_send.mustache:5
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS サービスは特定の国でのみ利用可能です。SMS およびデータ料金がかかる場合があります。メールまたは SMS の受信者による同意が必要です。<a %(escapedLearnMoreAttributes)s>詳細はこちら</a>"
+#: .es5/templates/sms_send.mustache:13
+msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
 
-#: .es5/templates/sms_send.mustache:6 .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "別の端末でログインする理由"
+#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "なぜ複数の端末を同期するのですか？"
 
-#: .es5/templates/sms_send.mustache:7
+#: .es5/templates/sms_send.mustache:15
 msgid "Not now"
 msgstr ""
 
@@ -1564,6 +1571,10 @@ msgstr "SMS メッセージが受信できない場合は、アプリストア�
 msgid "Didn't arrive? Resend"
 msgstr "届いていない場合は、再送信してください"
 
+#: .es5/templates/sms_sent.mustache:7
+msgid "Why sign in on another device?"
+msgstr "別の端末でログインする理由"
+
 #: .es5/templates/support.mustache:2
 msgid "Contact Us"
 msgstr "お問い合わせ"
@@ -1583,10 +1594,6 @@ msgstr "件名 (任意)"
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
 msgstr "お問い合わせ内容の詳細"
-
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "なぜ複数の端末を同期するのですか？"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1987,6 +1994,10 @@ msgstr ""
 msgid "Maybe later"
 msgstr "後で考えます"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
+
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
@@ -2178,6 +2189,13 @@ msgstr "アプリを使用してペアリング"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "システムカメラを使用しましたか？ Firefox アプリ内からペアリングする必要があります。"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Firefox をお使いのスマートフォンへ直接送り、ログインして設定を完了しましょう"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS サービスは特定の国でのみ利用可能です。SMS およびデータ料金がかかる場合があります。メールまたは SMS の受信者による同意が必要です。<a %(escapedLearnMoreAttributes)s>詳細はこちら</a>"
 
 #~ msgid "Subscriptions"
 #~ msgstr "購読"
