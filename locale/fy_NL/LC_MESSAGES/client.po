@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-17 07:54+0000\n"
+"PO-Revision-Date: 2020-03-17 07:55+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1521,7 +1521,7 @@ msgstr "Wolle jo jo telefoan syngronisearje?"
 
 #: .es5/templates/sms_send.mustache:10
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Ferstjoer in keppeling per sms om Firefox op jo telefoan te ynstallearjen."
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
@@ -1533,7 +1533,7 @@ msgstr "Ferstjoere"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Kosten foar sms en data binne mooglik fan tapassing. De ynstimming fan de ûntfanger is fereaske. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
 
 #: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1989,7 +1989,7 @@ msgstr "Miskien letter"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "In oar e-mailadres brûke"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
