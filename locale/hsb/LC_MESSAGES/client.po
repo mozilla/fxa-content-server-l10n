@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-17 09:49+0000\n"
+"PO-Revision-Date: 2020-03-17 09:58+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1533,7 +1533,7 @@ msgstr "Pósłać"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Za SMS a datowe raty móža popłatki nastać. Přihłosowanje přijimarja je trěbne. <a %(escapedLearnMoreAttributes)s>Dalše informacije</a>"
 
 #: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1989,7 +1989,7 @@ msgstr "Snano pozdźišo"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Druhu e-mejlowu adresu wužiwać"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
