@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-17 13:42+0000\n"
+"PO-Revision-Date: 2020-03-17 13:49+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1519,7 +1519,7 @@ msgstr "¿Embojuehesépa ne pumbyry?"
 
 #: .es5/templates/sms_send.mustache:10
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Emondo juajuha SMS rupi emohenda hag̃ua Firefox ne pumbyrýpe."
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
@@ -1985,7 +1985,7 @@ msgstr "Ikatu ag̃amieve"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Emoambue ñanduti veve jepuru"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
