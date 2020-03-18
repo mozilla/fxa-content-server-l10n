@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-17 11:00+0000\n"
-"Last-Translator: YD <ygda+fx@free.fr>\n"
+"PO-Revision-Date: 2020-03-18 13:45+0000\n"
+"Last-Translator: goofy <goofy@framasoft.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1518,7 +1518,7 @@ msgstr "Créer un compte"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Synchroniser ce navigateur avec votre téléphone"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
@@ -1526,7 +1526,7 @@ msgstr "Voulez-vous synchroniser votre téléphone ?"
 
 #: .es5/templates/sms_send.mustache:10
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Envoyer un lien par SMS pour installer Firefox sur votre téléphone."
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Mobile phone number"
