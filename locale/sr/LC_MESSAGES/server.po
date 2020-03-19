@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2018-09-01 11:34+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"PO-Revision-Date: 2020-03-19 14:57+0000\n"
+"Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -226,23 +226,23 @@ msgstr "Успешно сте онемогућили аутентификаци�
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Добродошли у Firefox породицу"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Пријављени сте и спремни сте да истражујете сигурно и безбедно."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Извуците максимум из Firefox-а пријављивањем свугде где прегледате."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Повежите други уређај:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Имате питања? Посетите %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
@@ -306,15 +306,15 @@ msgstr "Ако нисте, помозите нам да одбијемо уље�
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Пре неколико дана сте направили Firefox налог, али га нисте и потврдили."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Потврдите сада и усвојите технологију која се бори за ваша права, штити вашу приватност и даје вам корисно знање и поштовање које заслужујете."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Потврдите своју е-пошту:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -322,23 +322,23 @@ msgstr "Још увек сте овде?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Пре скоро недељу дана направили сте Firefox налог, али га никада нисте и потврдили. Забринути смо за вас."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Потврдите ову е-адресу да бисте активирали свој налог и јавите нам да сте добро."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Активирајте Firefox породицу производа"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Потврдите свој налог и извуците максимум из Firefox-а пријављивањем на било ком уређају:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Потврдите ваш налог и максимално искористите Firefox где год да се пријавите."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -450,7 +450,7 @@ msgstr "Mozilla полиса приватности"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Cloud услови коришћења"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -498,7 +498,7 @@ msgstr ""
 
 #: lib/senders/email.js:439 lib/senders/email.js:567
 msgid "Confirm email"
-msgstr ""
+msgstr "Потврдите своју е-пошту"
 
 #: lib/senders/email.js:506
 msgid "Verification code: %(code)s"
@@ -623,6 +623,8 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Није могуће пронаћи страницу коју желите да отворите. Примили смо ово обавештење\n"
+"                    и поправићемо прекинуту везу."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -637,6 +639,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Леле, изгледа да је дошло до грешке. Ми смо обавештени\n"
+"                    и покушаћемо да поправимо то."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -651,6 +655,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Тренутно имамо велики број посетилаца и радимо на томе\n"
+"                    да вратимо систем у нормалан рад што пре."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -670,7 +676,7 @@ msgstr "Услови коришћења"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Потребно је ажурирање Firefox-а"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -679,10 +685,14 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox налози користе функције које\n"
+"                        нису подржане на вашој верзији Firefox-а. Преузмите\n"
+"                        и инсталирајте најновију верзију Firefox-а како би могли\n"
+"                        наставити."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Преузмите најновију верзију"
 
 #~ msgid "Account verified!"
 #~ msgstr "Налог је потврђен!"
@@ -716,8 +726,7 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Успешно сте повезали први уређај на Firefox налог. Сада можете да се пријавите на Sync са другог уређаја, укључујући Firefox за <a href='%(androidUrl)s'>Android</a> и <a href='%(iosUrl)s'>iOS</"
-#~ "a>."
+#~ "Успешно сте повезали први уређај на Firefox налог. Сада можете да се пријавите на Sync са другог уређаја, укључујући Firefox за <a href='%(androidUrl)s'>Android</a> и <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -847,8 +856,8 @@ msgstr ""
 #~ msgstr "Ресетуј лозинку"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји претраге на повезаном уређају. Једноставно "
 #~ "потврдите ову адресу е-поште да активирате налог."
@@ -874,8 +883,7 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Верификујте адресу за Firefox налоге"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Успешно сте верификовали %(secondaryEmail)s као секундарну адресу вашег Firefox налога. Безбедносне нотификације и потврде пријава ће бити достављене на ове адресе."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -960,8 +968,8 @@ msgstr ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, "
-#~ "забелешке и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
+#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, забелешке"
+#~ " и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
 
 #~ msgid "env"
 #~ msgstr "env"
