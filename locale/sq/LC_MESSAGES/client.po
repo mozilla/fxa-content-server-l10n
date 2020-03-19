@@ -2070,7 +2070,7 @@ msgstr "Ju lutemi, ripohoni fjalëkalimin tuaj për %(escapedEmail)s që të pro
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Që të ripohoni se keni ruajtur një kopje, jepni kyçin tuaj të rimarrjes."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
