@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-20 15:05+0000\n"
+"PO-Revision-Date: 2020-03-20 15:11+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -2108,7 +2108,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
-msgstr ""
+msgstr "Odobri novi uređaj <small>za %(email)s</small>"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid "Approve device"
@@ -2120,7 +2120,7 @@ msgstr "Uređaj je povezan"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Sada sinkroniziraš s:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
@@ -2128,7 +2128,7 @@ msgstr "Upravljaj uređajima"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Sada je potrebno odobrenje <small>od drugog uređaja</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
@@ -2136,11 +2136,11 @@ msgstr "Uparivanje nije uspjelo"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Proces postavljanja je prekinut."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Otvori skener koda u Firefox aplikaciji i prikaži kȏd kad je spreman."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
@@ -2168,4 +2168,4 @@ msgstr "Upari pomoću aplikacije"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
