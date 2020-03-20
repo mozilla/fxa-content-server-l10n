@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-02-25 01:18+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "遇到订阅相关的问题？我们的支持团队在此为您答疑："
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -450,6 +462,34 @@ msgstr "Mozilla 隐私政策"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Firefox Cloud 服务条款"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "条款及取消政策"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "取消订阅"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "更新结算信息"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "条款及取消政策："
@@ -607,6 +647,14 @@ msgstr "已使用救援码更新密码"
 msgid "Create new recovery key"
 msgstr "生成新的救援密钥"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -691,17 +739,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "下载最新版本"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "条款及取消政策"
-
 #~ msgid "Privacy notice"
 #~ msgstr "隐私声明"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "取消订阅"
-
-#~ msgid "Update billing information"
-#~ msgstr "更新结算信息"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "避免账户锁定"
@@ -909,9 +948,6 @@ msgstr "下载最新版本"
 
 #~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
 #~ msgstr "若您还未下载 %(product)s，快来开始使用订阅服务中包含的完整功能："
-
-#~ msgid "Questions about your subscription? Our support team is here to help you:"
-#~ msgstr "遇到订阅相关的问题？我们的支持团队在此为您答疑："
 
 #~ msgid "Welcome to Secure Proxy!"
 #~ msgstr "欢迎使用 Secure Proxy！"

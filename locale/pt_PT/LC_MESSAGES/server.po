@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-02-26 16:03+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -456,6 +468,34 @@ msgstr "Política de privacidade da Mozilla"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Termos de Serviço do Firefox Cloud"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "Termos e política de cancelamento"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "Cancelar subscrição"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "Atualizar a informação de faturação"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "Termos e política de cancelamento:"
@@ -613,6 +653,14 @@ msgstr "Palavra-passe atualizada utilizando o código de recuperação"
 msgid "Create new recovery key"
 msgstr "Criar nova chave de recuperação"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -698,17 +746,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "Transferir a mais recente"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Termos e política de cancelamento"
-
 #~ msgid "Privacy notice"
 #~ msgstr "Política de privacidade"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Cancelar subscrição"
-
-#~ msgid "Update billing information"
-#~ msgstr "Atualizar a informação de faturação"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Evite o bloqueio da conta"

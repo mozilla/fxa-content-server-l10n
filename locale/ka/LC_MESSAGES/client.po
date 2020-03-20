@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-03-17 18:01+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,19 +274,19 @@ msgstr "აირჩიეთ სახელი, რომელიც გს�
 msgid "Display name updated"
 msgstr "გამოსაჩენი სახელი განახლებულია"
 
-#: .es5/views/settings/emails.js:104
+#: .es5/views/settings/emails.js:106
 msgid "Secondary email removed"
 msgstr "დამატებითი ელფოსტა მოცილებულია"
 
-#: .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "დადასტურების წერილი გაგზავნილია ფოსტაზე"
 
-#: .es5/views/settings/emails.js:167
+#: .es5/views/settings/emails.js:173
 msgid "Primary email set to %(email)s"
 msgstr "ელფოსტის მთავარ მისამართად დაყენებულია %(email)s"
 
-#: .es5/views/settings/emails.js:180 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "დამატებითი ელფოსტა"
 
@@ -1000,7 +1000,9 @@ msgid "Invalid Token"
 msgstr "უმართებულო სიტყვა-ნიშანი"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "თუ განაგრძობთ, თქვენ ეთანხმებით <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებსა</a> და <a id=\"service-pp\" href=\"%(privacyUri)s\">პირადი მონაცემების დაცვის განაცხადს</a>, "
 "%(serviceName)s (%(serviceUri)s) მომსახურების შესახებ."
@@ -1070,7 +1072,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "გთხოვთ, მიუთითოთ ერთჯერადი აღდგენის გასაღები, რომელსაც უსაფრთხო ადგილას ინახავდით, თქვენს Firefox-ანგარიშთან წვდომის აღსადგენად."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">შენიშვნა:</span> თუ აღდგენის გასაღები არ გაქვთ შენახული და მის გარეშე გაანულებთ პაროლს, თქვენი მონაცემების ნაწილი დაიკარგება (მათ შორის სერვერზე დასინქრონებული ისტორია და "
 "სანიშნები)."
@@ -1129,8 +1132,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>დაიხსომეთ:</span> პაროლის განულებისას, ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ ჩვენ"
-" თქვენს მონაცემებს ვშიფრავთ თქვენი პაროლის მეშვეობით, პირადი მონაცემების ხელშეუხებლობის უზრუნველსაყოფად."
+"<span>დაიხსომეთ:</span> პაროლის განულებისას, ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ "
+"ჩვენ თქვენს მონაცემებს ვშიფრავთ თქვენი პაროლის მეშვეობით, პირადი მონაცემების ხელშეუხებლობის უზრუნველსაყოფად."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1229,16 +1232,15 @@ msgstr "ეს Firefox უკვე დაკავშირებულია"
 msgid "Email verified"
 msgstr "ელფოსტა დამოწმებულია"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
-#: .es5/templates/pair/auth_complete.mustache:2
-msgid "Success"
-msgstr "შესრულდა"
+#: .es5/templates/connect_another_device.mustache:9
+msgid "Complete your set-up"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "შედით ამ Firefox-ში გამართვის დასასრულებლად"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:9
 msgid "Still adding devices?"
 msgstr "კიდევ ამატებთ მოწყობილობებს?"
 
@@ -1329,6 +1331,10 @@ msgstr "%(serviceName)s ითხოვს თქვენი ანგარი
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "დათანხმება"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "შესრულდა"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
@@ -1518,33 +1524,41 @@ msgstr "დაასინქრონეთ ეს ბრაუზერი ტ
 msgid "Would you like to sync your phone?"
 msgstr "გსურთ, დასინქრონება ტელეფონთან?"
 
-#: .es5/templates/sms_send.mustache:10
+#: .es5/templates/sms_send.mustache:11
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "გააგზავნეთ Firefox პირდაპირ თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
+
+#: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
 msgstr "გაგზავნეთ ბმული SMS-ით, Firefox-ის თქვენს ტელეფონზე დასაყენებლად."
 
-#: .es5/templates/sms_send.mustache:11
+#: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
 msgstr "ტელეფონის ნომერი"
 
-#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:15 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "გაგზავნა"
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS და მონაცემთა გადაცემის ღირებულება შეიძლება ჩამოგეჭრათ. მიმღების თანხმობაა საჭირო. <a %(escapedLearnMoreAttributes)s>იხილეთ ვრცლად</a>"
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+#: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
 msgstr "რა საჭიროა რამდენიმე მოწყობილობაზე სინქრონიზაცია?"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:18
 msgid "Not now"
 msgstr "ახლა არა"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
 msgstr "შეამოწმეთ თქვენი ტექსტები"
+
+#: .es5/templates/sms_sent.mustache:2
+msgid "We've sent you a text message"
+msgstr ""
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1964,7 +1978,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 ნაბიჯი 2-იდან: შეინახეთ აღდგენის გასაღები"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">შენიშვნა: </span>თუ პაროლი დაგავიწყდებათ, ეს გასაღები საჭირო იქნება თქვენს მონაცემებთან წვდომის დასაბრუნებლად. შეინახეთ თქვენი აღდგენის გასაღები უსაფრთხო ადგილას, რომ მომავალში "
 "ადვილად შეძლოთ მისი მონახვა."
@@ -2126,9 +2141,13 @@ msgstr "დაამოწმეთ ახალი მოწყობილო�
 msgid "Approve device"
 msgstr "მოწყობილობის დამოწმება"
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "მოწყობილობა დაკავშირებულია"
+
+#: .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2151,16 +2170,24 @@ msgid "The setup process was terminated."
 msgstr "გამართვის მიმდინარეობა შეწყვეტილია."
 
 #: .es5/templates/pair/index.mustache:2
+msgid "Scan to connect another device"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
 msgstr "გახსენით კოდის წამკითხავი თქვენს Firefox პროგრამაში და აჩვენეთ კოდი, როცა მზად იქნებით."
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/index.mustache:4
 msgid "Show code"
 msgstr "კოდის ჩვენება"
 
-#: .es5/templates/pair/index.mustache:4
+#: .es5/templates/pair/index.mustache:5
 msgid "Get app"
 msgstr "გადმოწერეთ"
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -2182,9 +2209,6 @@ msgstr "მიერთება აპლიკაციის გამოყ�
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "სისტემის კამერას იყენებდით? მიერთებაა საჭირო Firefox-ის აპლიკაციიდან."
 
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "გააგზავნეთ Firefox პირდაპირ თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
-
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
@@ -2198,11 +2222,11 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ msgstr "თუ დაკარგავთ წვდომას თქვენს ანგარიშთან, შეგეძლებათ დასინქრონებული მონაცემების აღდგენა."
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "თუ ამ ანგარიშს იყენებთ Mozilla-ს ისეთი მომსახურებებისთვის, როგორიცაა AMO, Pocket და Screenshots, პირველ რიგში უნდა შეხვიდეთ ანგარიშზე და წაშალო ყველა დამახსოვრებული პირადი მონაცემი. აქედან ანგარიშის"
-#~ " წაშლის შედეგად, მასთან წვდომას დაკარგავთ ყველა ადგილიდან."
+#~ "თუ ამ ანგარიშს იყენებთ Mozilla-ს ისეთი მომსახურებებისთვის, როგორიცაა AMO, Pocket და Screenshots, პირველ რიგში უნდა შეხვიდეთ ანგარიშზე და წაშალო ყველა დამახსოვრებული პირადი მონაცემი. აქედან "
+#~ "ანგარიშის წაშლის შედეგად, მასთან წვდომას დაკარგავთ ყველა ადგილიდან."
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "ასეთი ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
@@ -2573,10 +2597,12 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "ჩართული უნდა იყოს ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "გაგრძელების შემთხვევაში, თქვენ ეთანხმებით Firefox ღრუბლოვანი მომსახურებების <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">გამოყენების პირობებს</a> და <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\" tabindex=\"-1\">პირადი მონაცემების დებულებას</a>."
+#~ "გაგრძელების შემთხვევაში, თქვენ ეთანხმებით Firefox ღრუბლოვანი მომსახურებების <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">გამოყენების პირობებს</a> და <a id=\"fxa-pp\" href=\"/legal/"
+#~ "privacy\" tabindex=\"-1\">პირადი მონაცემების დებულებას</a>."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox ღრუბლოვანი მომსახურებები"
@@ -2630,8 +2656,8 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
 #~ "Firefox-ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
@@ -2640,8 +2666,8 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან ერთად, "
-#~ "შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
+#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან "
+#~ "ერთად, შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2746,15 +2772,15 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ msgstr "შესვლა"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>დაიმახსოვრეთ:</span> პაროლის განულების შემთხვევაში, ცალკეული მონაცემები წაიშლება (მათ შორის, სერვერზე არსებული დასინქრონებული პაროლები, სანიშნები და ა.შ.). ეს იმიტომ, რომ ყველა თქვენი მონაცემი"
-#~ " იშიფრება თქვენი პაროლით, თქვენივე პირადი მონაცემების უსაფრთხოებისთვის."
+#~ "<span>დაიმახსოვრეთ:</span> პაროლის განულების შემთხვევაში, ცალკეული მონაცემები წაიშლება (მათ შორის, სერვერზე არსებული დასინქრონებული პაროლები, სანიშნები და ა.შ.). ეს იმიტომ, რომ ყველა თქვენი "
+#~ "მონაცემი იშიფრება თქვენი პაროლით, თქვენივე პირადი მონაცემების უსაფრთხოებისთვის."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>შენიშვნა:</span> პაროლის განულების შემთხვევაში, ცალკეული მონაცემები წაიშლება (მათ შორის, სერვერზე არსებული დასინქრონებული პაროლები, სანიშნები და ა.შ.). ეს იმიტომ, რომ ყველა თქვენი მონაცემი "
 #~ "იშიფრება თქვენი პაროლით, თქვენივე პირადი მონაცემების უსაფრთხოებისთვის."
@@ -2871,11 +2897,11 @@ msgstr "სისტემის კამერას იყენებდი�
 #~ msgstr "სხვა ელ-ფოსტაზე გაქვთ ანგარიში? <a href=\"%(signinUri)s\">შესვლა</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> სისტემებზე."
+#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a href="
+#~ "\"%(linkLinux)s\">Linux</a> სისტემებზე."
 
 #~ msgid "Delete"
 #~ msgstr "წაშლა"

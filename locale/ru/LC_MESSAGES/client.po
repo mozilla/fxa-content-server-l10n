@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-03-07 11:53+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -276,19 +276,19 @@ msgstr "Выберите имя, которое вы хотели бы виде�
 msgid "Display name updated"
 msgstr "Отображаемое имя обновлено"
 
-#: .es5/views/settings/emails.js:104
+#: .es5/views/settings/emails.js:106
 msgid "Secondary email removed"
 msgstr "Дополнительный адрес эл. почты удалён"
 
-#: .es5/views/settings/emails.js:134 .es5/views/settings/emails.js:149 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "Письмо подтверждения отправлено"
 
-#: .es5/views/settings/emails.js:167
+#: .es5/views/settings/emails.js:173
 msgid "Primary email set to %(email)s"
 msgstr "Основным адресом электронной почты является %(email)s"
 
-#: .es5/views/settings/emails.js:180 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Дополнительный адрес эл. почты"
 
@@ -1234,16 +1234,15 @@ msgstr "Этот Firefox подключен"
 msgid "Email verified"
 msgstr "Адрес электронной почты подтверждён"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/ready.mustache:1 .es5/templates/sms_sent.mustache:2 .es5/templates/post_verify/verified.mustache:1
-#: .es5/templates/pair/auth_complete.mustache:2
-msgid "Success"
-msgstr "Сделано"
+#: .es5/templates/connect_another_device.mustache:9
+msgid "Complete your set-up"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Войти в Firefox на этом устройстве, чтобы завершить настройку"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:8
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:9
 msgid "Still adding devices?"
 msgstr "Всё ещё добавляете устройства?"
 
@@ -1334,6 +1333,10 @@ msgstr "%(serviceName)s хочет получить следующую инфо�
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Принять"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Сделано"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
@@ -1523,33 +1526,41 @@ msgstr ""
 msgid "Would you like to sync your phone?"
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:10
+#: .es5/templates/sms_send.mustache:11
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Отправьте Firefox прямо на ваш смартфон и войдите, чтобы завершить настройку"
+
+#: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:11
+#: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
 msgstr "Номер мобильного телефона"
 
-#: .es5/templates/sms_send.mustache:12 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:15 .es5/templates/support.mustache:11
 msgid "Send"
 msgstr "Отправить"
 
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
+#: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
 msgstr "Зачем синхронизировать несколько устройств?"
 
-#: .es5/templates/sms_send.mustache:15
+#: .es5/templates/sms_send.mustache:18
 msgid "Not now"
 msgstr "Не сейчас"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
 msgstr "Проверьте SMS сообщения"
+
+#: .es5/templates/sms_sent.mustache:2
+msgid "We've sent you a text message"
+msgstr ""
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -2132,9 +2143,13 @@ msgstr "Подтвердить новое устройство <small>для %(e
 msgid "Approve device"
 msgstr "Подтвердить устройство"
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1 .es5/templates/pair/success.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Устройство подключено"
+
+#: .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2157,16 +2172,24 @@ msgid "The setup process was terminated."
 msgstr "Процесс настройки был прерван."
 
 #: .es5/templates/pair/index.mustache:2
+msgid "Scan to connect another device"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
 msgstr "Откройте сканер кодов в вашем приложении Firefox и покажите код, когда будете готовы."
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/index.mustache:4
 msgid "Show code"
 msgstr "Показать код"
 
-#: .es5/templates/pair/index.mustache:4
+#: .es5/templates/pair/index.mustache:5
 msgid "Get app"
 msgstr "Загрузить приложение"
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr ""
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -2187,9 +2210,6 @@ msgstr "Сопряжение с помощью приложения"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Вы использовали системную камеру? Вы должны выполнить сопряжение в приложении Firefox."
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Отправьте Firefox прямо на ваш смартфон и войдите, чтобы завершить настройку"
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
