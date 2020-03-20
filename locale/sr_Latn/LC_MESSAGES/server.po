@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2018-09-01 11:34+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+"PO-Revision-Date: 2020-03-19 14:57+0000\n"
+"Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,24 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438060065.0\n"
+
+#: lib/senders/templates/downloadSubscription.html:1
+#: lib/senders/templates/downloadSubscription.txt:1
+msgid ""
+"If you haven't already downloaded %(productName)s, let's get started using "
+"all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid ""
+"Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s"
+"\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid ""
+"Questions about your subscription? Our support team is here to help you:"
+msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1
 #: lib/senders/templates/lowRecoveryCodes.txt:1
@@ -358,25 +376,25 @@ msgstr ""
 #: lib/senders/templates/verificationReminderFirst.html:1
 #: lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Dobrodošli u Firefox porodicu"
 
 #: lib/senders/templates/postVerify.html:2
 #: lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Prijavljeni ste i spremni ste da istražujete sigurno i bezbedno."
 
 #: lib/senders/templates/postVerify.html:3
 #: lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Izvucite maksimum iz Firefox-a prijavljivanjem svugde gde pregledate."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Povežite drugi uređaj:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Imate pitanja? Posetite %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1
 #: lib/senders/templates/postVerifyAddRecoveryKey.txt:1
@@ -477,6 +495,7 @@ msgstr "Ako niste, pomozite nam da odbijemo uljeza i prijavite nam to."
 #: lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
 msgstr ""
+"Pre nekoliko dana ste napravili Firefox nalog, ali ga niste i potvrdili."
 
 #: lib/senders/templates/verificationReminderFirst.html:3
 #: lib/senders/templates/verificationReminderFirst.txt:3
@@ -484,12 +503,14 @@ msgid ""
 "Confirm now and get technology that fights for and protects your privacy, "
 "arms you with practical knowledge, and the respect you deserve."
 msgstr ""
+"Potvrdite sada i usvojite tehnologiju koja se bori za vaša prava, štiti vašu "
+"privatnost i daje vam korisno znanje i poštovanje koje zaslužujete."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4
 #: lib/senders/templates/verificationReminderSecond.txt:4
 #: lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Potvrdite svoju e-poštu:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1
 #: lib/senders/templates/verificationReminderSecond.txt:1
@@ -502,6 +523,8 @@ msgid ""
 "Almost a week ago you created a Firefox Account but never verified it. We’re "
 "worried about you."
 msgstr ""
+"Pre skoro nedelju dana napravili ste Firefox nalog, ali ga nikada niste i "
+"potvrdili. Zabrinuti smo za vas."
 
 #: lib/senders/templates/verificationReminderSecond.html:3
 #: lib/senders/templates/verificationReminderSecond.txt:3
@@ -509,21 +532,26 @@ msgid ""
 "Confirm this email address to activate your account and let us know you're "
 "okay."
 msgstr ""
+"Potvrdite ovu e-adresu da biste aktivirali svoj nalog i javite nam da ste "
+"dobro."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Aktivirajte Firefox porodicu proizvoda"
 
 #: lib/senders/templates/verify.html:2
 msgid ""
 "Confirm your account and get the most out of Firefox everywhere you sign in "
 "starting with:"
 msgstr ""
+"Potvrdite svoj nalog i izvucite maksimum iz Firefox-a prijavljivanjem na "
+"bilo kom uređaju:"
 
 #: lib/senders/templates/verify.txt:2
 msgid ""
 "Confirm your account and get the most out of Firefox everywhere you sign in."
 msgstr ""
+"Potvrdite vaš nalog i maksimalno iskoristite Firefox gde god da se prijavite."
 
 #: lib/senders/templates/verifyLogin.html:2
 #: lib/senders/templates/verifyLogin.txt:2
@@ -715,6 +743,38 @@ msgstr "Mozilla polisa privatnosti"
 #: lib/senders/templates/layouts/fxa.html:3
 #: lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
+msgstr "Firefox Cloud uslovi korišćenja"
+
+#: lib/senders/templates/layouts/subscription.html:2
+msgid ""
+"You're receiving this email because %(email)s has a Firefox account and you "
+"signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid ""
+"Manage your Firefox account settings by visiting your <a "
+"%(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
 msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:2
@@ -763,7 +823,7 @@ msgstr ""
 
 #: lib/senders/email.js:439 lib/senders/email.js:567
 msgid "Confirm email"
-msgstr ""
+msgstr "Potvrdite svoju e-poštu"
 
 #: lib/senders/email.js:506
 msgid "Verification code: %(code)s"
@@ -877,6 +937,14 @@ msgstr ""
 msgid "Create new recovery key"
 msgstr "Napravite novi ključ za oporavak"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
@@ -895,6 +963,9 @@ msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Nije moguće pronaći stranicu koju želite da otvorite. Primili smo ovo "
+"obaveštenje\n"
+"                    i popravićemo prekinutu vezu."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -910,6 +981,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Lele, izgleda da je došlo do greške. Mi smo obavešteni\n"
+"                    i pokušaćemo da popravimo to."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -924,6 +997,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"Trenutno imamo veliki broj posetilaca i radimo na tome\n"
+"                    da vratimo sistem u normalan rad što pre."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -945,7 +1020,7 @@ msgstr "Uslovi korišćenja"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Potrebno je ažuriranje Firefox-a"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -955,10 +1030,15 @@ msgid ""
 "to\n"
 "                        continue."
 msgstr ""
+"Firefox nalozi koriste funkcije koje\n"
+"                        nisu podržane na vašoj verziji Firefox-a. Preuzmite\n"
+"                        i instalirajte najnoviju verziju Firefox-a kako bi "
+"mogli\n"
+"                        nastaviti."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Preuzmite najnoviju verziju"
 
 #~ msgid "Account verified!"
 #~ msgstr "Nalog je potvrđen!"

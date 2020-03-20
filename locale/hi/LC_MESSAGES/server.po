@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2019-01-30 18:38+0000\n"
 "Last-Translator: Anshita Laddha <laddha.anshita@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438539709.0\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -451,6 +463,34 @@ msgstr "Mozilla गोपनीयता नीति"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Firefox क्लाउड सेवा की शर्तें"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "शर्तें और रद्द करने की नीति"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "सदस्यता रद्द करें"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "बिलिंग जानकारी को सामयिक करें"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "शर्तें और रद्द करने की नीति:"
@@ -608,6 +648,14 @@ msgstr ""
 msgid "Create new recovery key"
 msgstr "नई पुनर्प्राप्ति कुंजी बनाएं"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -683,17 +731,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "नवीनतम डाउनलोड करें"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "शर्तें और रद्द करने की नीति"
-
 #~ msgid "Privacy notice"
 #~ msgstr "गोपनीयता सूचना"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "सदस्यता रद्द करें"
-
-#~ msgid "Update billing information"
-#~ msgstr "बिलिंग जानकारी को सामयिक करें"
 
 #~ msgid "Set up account recovery"
 #~ msgstr "खाता पुनर्प्राप्ति सेट करें"

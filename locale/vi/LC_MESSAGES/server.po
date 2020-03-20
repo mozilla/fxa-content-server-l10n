@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-02-25 01:12+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "Có câu hỏi về đăng ký của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -452,6 +464,34 @@ msgstr "Chính sách bảo mật của Mozilla"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Điều khoản dịch vụ của Firefox Cloud"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "Điều khoản và chính sách hủy bỏ"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "Hủy đăng ký"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "Cập nhật thông tin thanh toán"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "Điều khoản và chính sách hủy bỏ:"
@@ -609,6 +649,14 @@ msgstr "Đã cập nhật mật khẩu bằng khóa khôi phục"
 msgid "Create new recovery key"
 msgstr "Tạo khóa khôi phục mới"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -694,17 +742,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "Tải xuống"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Điều khoản và chính sách hủy bỏ"
-
 #~ msgid "Privacy notice"
 #~ msgstr "Thông báo bảo mật"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Hủy đăng ký"
-
-#~ msgid "Update billing information"
-#~ msgstr "Cập nhật thông tin thanh toán"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Tránh khóa tài khoản"
@@ -919,9 +958,6 @@ msgstr "Tải xuống"
 
 #~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
 #~ msgstr "Nếu bạn chưa tải xuống %(product)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn:"
-
-#~ msgid "Questions about your subscription? Our support team is here to help you:"
-#~ msgstr "Có câu hỏi về đăng ký của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:"
 
 #~ msgid "Welcome to Secure Proxy!"
 #~ msgstr "Chào mừng bạn đến với Secure Proxy!"

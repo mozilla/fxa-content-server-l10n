@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-02-24 16:48+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481448.0\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "Maće prašenja wo swojim abonemenće? Naš team pomocy je tu, zo by wam pomhał:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -455,6 +467,34 @@ msgstr "Prawidła priwatnosće Mozilla"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Wužiwanske wuměnjenja za Firefox Cloud"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "Wuměnjenja a wotwołanske prawidła"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "Abonement wupowědźić"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "Płaćenske informacije aktualizować"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "Wuměnjenja a wotwołanske prawidła:"
@@ -612,6 +652,14 @@ msgstr "Hesło je so z pomocu wobnowjenskeho kluča zaktualizowało"
 msgid "Create new recovery key"
 msgstr "Nowy wobnowjenski kluč wutworić"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -698,17 +746,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "Najnowšu sćahnyć"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Wuměnjenja a wotwołanske prawidła"
-
 #~ msgid "Privacy notice"
 #~ msgstr "Zdźělenka priwatnosće"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Abonement wupowědźić"
-
-#~ msgid "Update billing information"
-#~ msgstr "Płaćenske informacije aktualizować"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Wuzamknjenje z konta wobeńć"
@@ -922,9 +961,6 @@ msgstr "Najnowšu sćahnyć"
 
 #~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
 #~ msgstr "Jeli njejsće hišće %(product)s sćahnył, móžeće nětko wšě funkcije swojeho abonementa wužiwać:"
-
-#~ msgid "Questions about your subscription? Our support team is here to help you:"
-#~ msgstr "Maće prašenja wo swojim abonemenće? Naš team pomocy je tu, zo by wam pomhał:"
 
 #~ msgid "Welcome to Secure Proxy!"
 #~ msgstr "Witajće k wěstemu proksy!"

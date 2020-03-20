@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2020-03-01 05:29+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440954004.0\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "Întrebări despre abonament? Echipa noastră de asistență este aici pentru a te ajuta:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -458,6 +470,34 @@ msgstr "Politica de confidențialitate Mozilla"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Termenii de utilizare a serviciului Firefox Cloud"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "Termeni și politica de anulare"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "Anulează abonamentul"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "Actualizează informațiile de facturare"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "Termeni și politica de anulare:"
@@ -615,6 +655,14 @@ msgstr "Parolă actualizată folosind o cheie de recuperare"
 msgid "Create new recovery key"
 msgstr "Creează o cheie nouă de recuperare"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -700,17 +748,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "Descarcă cea mai recentă versiune"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Termeni și politica de anulare"
-
 #~ msgid "Privacy notice"
 #~ msgstr "Declarație de confidențialitate"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Anulează abonamentul"
-
-#~ msgid "Update billing information"
-#~ msgstr "Actualizează informațiile de facturare"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Evită blocarea accesului în cont"
@@ -912,9 +951,6 @@ msgstr "Descarcă cea mai recentă versiune"
 
 #~ msgid "Confirm email "
 #~ msgstr "Confirmă e-mailul "
-
-#~ msgid "Questions about your subscription? Our support team is here to help you:"
-#~ msgstr "Întrebări despre abonament? Echipa noastră de asistență este aici pentru a te ajuta:"
 
 #~ msgid "Welcome to Secure Proxy!"
 #~ msgstr "Bun venit la Secure Proxy!"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
 "PO-Revision-Date: 2019-12-29 09:33+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
+
+#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
+msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr "Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -453,6 +465,34 @@ msgstr "Палітыка прыватнасці Mozilla"
 msgid "Firefox Cloud Terms of Service"
 msgstr "Умовы выкарыстання Firefox Cloud"
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr "Умовы і палітыка адмовы ад паслуг"
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr "Ануляваць падпіску"
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr "Абнавіць плацежную інфармацыю"
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr "Умовы і палітыка адмовы ад паслуг:"
@@ -610,6 +650,14 @@ msgstr "Пароль зменены пры дапамозе ключа адна�
 msgid "Create new recovery key"
 msgstr "Стварыць новы ключ аднаўлення"
 
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
+msgstr ""
+
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
@@ -695,17 +743,8 @@ msgstr ""
 msgid "Download latest"
 msgstr "Сцягнуць найноўшую версію"
 
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Умовы і палітыка адмовы ад паслуг"
-
 #~ msgid "Privacy notice"
 #~ msgstr "Паведамленне аб прыватнасці"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Ануляваць падпіску"
-
-#~ msgid "Update billing information"
-#~ msgstr "Абнавіць плацежную інфармацыю"
 
 #~ msgid "Avoid account lockout"
 #~ msgstr "Пазбегніце блакавання ўліковага запісу"
@@ -919,9 +958,6 @@ msgstr "Сцягнуць найноўшую версію"
 
 #~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
 #~ msgstr "Калі вы яшчэ не сцягвалі %(product)s, распачніце выкарыстоўваць усе магчымасці, якія ўваходзяць у вашу падпіску:"
-
-#~ msgid "Questions about your subscription? Our support team is here to help you:"
-#~ msgstr "Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:"
 
 #~ msgid "Welcome to Secure Proxy!"
 #~ msgstr "Сардэчна запрашаем у бяспечны проксі!"

@@ -9,7 +9,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-13 08:02+0000\n"
+"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+
+#: lib/senders/templates/downloadSubscription.html:1
+#: lib/senders/templates/downloadSubscription.txt:1
+msgid ""
+"If you haven't already downloaded %(productName)s, let's get started using "
+"all the features included in your subscription:"
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.html:2
+msgid ""
+"Questions about your subscription? Our <a "
+"href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+msgstr ""
+
+#: lib/senders/templates/downloadSubscription.txt:2
+msgid "Questions about your subscription? Our support team is here to help you:"
+msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1
 #: lib/senders/templates/lowRecoveryCodes.txt:1
@@ -634,6 +651,38 @@ msgstr ""
 msgid "Firefox Cloud Terms of Service"
 msgstr ""
 
+#: lib/senders/templates/layouts/subscription.html:2
+msgid ""
+"You're receiving this email because %(email)s has a Firefox account and you "
+"signed up for %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:3
+msgid ""
+"Manage your Firefox account settings by visiting your <a "
+"%(accountSettingsLinkAttributes)s>account page</a>."
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
+msgid "Terms and cancellation policy"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:5
+msgid "Cancel subscription"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:6
+msgid "Update billing information"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:7
+msgid "Legal"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:8
+msgid "Privacy"
+msgstr ""
+
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
 msgstr ""
@@ -803,6 +852,14 @@ msgstr ""
 
 #: lib/senders/email.js:1724
 msgid "Create new recovery key"
+msgstr ""
+
+#: lib/senders/email.js:1785
+msgid "Welcome to %(productName)s!"
+msgstr ""
+
+#: lib/senders/email.js:1786
+msgid "Download %(productName)s"
 msgstr ""
 
 #: server/templates/pages/src/404.html:1
