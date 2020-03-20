@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-20 20:01+0000\n"
+"PO-Revision-Date: 2020-03-20 20:15+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -21,7 +21,7 @@ msgstr "Neremboguejýiramo gueteri %(productName)s, ñañepyrũ jaipuru opaite t
 
 #: lib/senders/templates/downloadSubscription.html:2
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "¿Porandu ne mboheraguapy rehegua? Ore <a href=\"%(subscriptionSupportUrl)s\">aty pytyvõha</a> oĩ ápe nepytyvõ hag̃ua."
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -473,7 +473,7 @@ msgstr "Og̃uahẽ ko ñanduti veve %(email)s oguereko rupi mba’ete Firefox-pe
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Eñangareko ne mba’ete Firefox pegua ñemboheko eikévo <a %(accountSettingsLinkAttributes)s> kuatiarogue mba’etéva</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
