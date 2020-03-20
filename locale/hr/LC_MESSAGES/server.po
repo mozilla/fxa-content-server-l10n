@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-20 15:24+0000\n"
+"PO-Revision-Date: 2020-03-20 15:29+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -651,7 +651,7 @@ msgstr "Poslužitelj je zauzet, pokušaj ponovo malo kasnije"
 msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
-msgstr ""
+msgstr "Trenutačno smo preopterećeni, ali radimo na tome da vratimo sustav u normalno stanje što prije moguće."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -687,4 +687,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Preuzmi najnoviju"
