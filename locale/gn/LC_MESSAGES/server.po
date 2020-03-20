@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-20 19:33+0000\n"
+"PO-Revision-Date: 2020-03-20 19:43+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ápe nepytyvõ hag̃ua:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -654,11 +654,11 @@ msgstr "Emoheñói mba’eñemi jeguerujeyrã pyahu"
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "¡Eg̃uahẽporãite %(productName)s-pe!"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Emboguejy %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
