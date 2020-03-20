@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-20 15:13+0000\n"
+"PO-Revision-Date: 2020-03-20 15:24+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -475,19 +475,19 @@ msgstr "%(uaBrowser)s na %(uaOS)s"
 
 #: lib/senders/email.js:261
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:268
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:273
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (procijenjeno)"
 
 #: lib/senders/email.js:278
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (procijenjeno)"
 
 #: lib/senders/email.js:438
 msgid "Finish creating your account"
@@ -609,39 +609,43 @@ msgstr ""
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox računi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Stranica nije pronađena"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been\n"
 "                    notified and will fix any links that may be broken."
 msgstr ""
+"Stranica koju tražiš nije pronađena. Dobili smo\n"
+"                    obavijest o tome i ispravit ćemo pokvarene poveznice."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Početna stranica"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Greška 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"Joj, došlo je do neke greške. Dobili smo\n"
+"                    obavijest o grešci i pokušat ćemo je ispraviti."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Greška 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Poslužitelj je zauzet, pokušaj ponovo malo kasnije"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -651,23 +655,23 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Učitavanje"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox računi zahtijeva JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Politika privatnosti"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr ""
+msgstr "Uvjeti pružanja usluge"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Potrebno je nadograditi Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -676,6 +680,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox računi koristi funkcije, koje nisu\n"
+"                        podržane u tvojoj verziji Firefoxa. Preuzmi i\n"
+"                        instaliraj najnoviju verziju Firefoxa i\n"
+"                        nastavi."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
