@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-20 14:52+0000\n"
+"PO-Revision-Date: 2020-03-20 15:05+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -215,7 +215,7 @@ msgstr "Zadnja aktivnost %(translatedTimeAgo)s blizu grada %(translatedCity)s, %
 
 #: .es5/views/settings/clients.js:83
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Zadnja aktivnost preko %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr "Zadnja aktivnost prije više od %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
@@ -227,19 +227,19 @@ msgstr "Preko %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:92
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:93
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Preko %(translatedTimeAgo)s u %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:96
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:97
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Prije više od %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
@@ -977,23 +977,23 @@ msgstr ""
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Greška pri uparivanju na udaljeni uređaj"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Veza s udaljenim uređajem je zatvorena, pokušaj ponovo"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Nevažeći parametar u glavnom tekstu zahtjeva: %(param)s"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Nepodržan pružatelj slika"
 
 #: .es5/lib/profile-errors.js:37
 msgid "Image processing error"
-msgstr ""
+msgstr "Greška u obrađivanju slike"
 
 #: .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
@@ -1013,11 +1013,11 @@ msgstr ""
 
 #: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (procijenjeno)"
 
 #: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (procijenjeno)"
 
 #: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
@@ -2144,27 +2144,27 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Show code"
-msgstr ""
+msgstr "Prikaži kȏd"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Get app"
-msgstr ""
+msgstr "Nabavi aplikaciju"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Uparivanje je uspjelo."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Potvrdi uparivanje <small>za %(email)s</small>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Potvrdi uparivanje"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Upari pomoću aplikacije"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
