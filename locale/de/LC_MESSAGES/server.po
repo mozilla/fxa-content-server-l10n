@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-20 19:44+0000\n"
+"PO-Revision-Date: 2020-03-20 19:45+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -472,7 +472,7 @@ msgstr "Sie erhalten diese E-Mail, weil %(email)s über ein Firefox-Konto verfü
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Verwalten Sie Ihre Firefox-Kontoeinstellungen, indem Sie Ihre <a %(accountSettingsLinkAttributes)s>Kontoseite</a> besuchen."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -488,11 +488,11 @@ msgstr "Zahlungsinformationen aktualisieren"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Rechtliches"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Datenschutz"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -653,11 +653,11 @@ msgstr "Neuen Wiederherstellungsschlüssel erzeugen"
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "Willkommen bei %(productName)s!"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s herunterladen"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
