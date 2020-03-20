@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-20 19:47+0000\n"
+"PO-Revision-Date: 2020-03-20 20:01+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Neremboguejýiramo gueteri %(productName)s, ñañepyrũ jaipuru opaite tembiapoite oĩva ne mboheraguapýpe:"
 
 #: lib/senders/templates/downloadSubscription.html:2
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
