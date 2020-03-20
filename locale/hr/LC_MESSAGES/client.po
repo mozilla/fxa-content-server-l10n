@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 08:01+0000\n"
-"PO-Revision-Date: 2020-03-20 14:06+0000\n"
+"PO-Revision-Date: 2020-03-20 14:52+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -215,7 +215,7 @@ msgstr "Zadnja aktivnost %(translatedTimeAgo)s blizu grada %(translatedCity)s, %
 
 #: .es5/views/settings/clients.js:83
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Zadnja aktivnost preko %(translatedTimeAgo)s blizu grada %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
@@ -223,7 +223,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:89
 msgid "Over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Preko %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:92
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
