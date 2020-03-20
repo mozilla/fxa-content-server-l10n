@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 08:02+0000\n"
-"PO-Revision-Date: 2020-03-20 00:14+0000\n"
+"PO-Revision-Date: 2020-03-20 00:15+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1535,7 +1535,7 @@ msgstr "Enviar"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Podem ser aplicados custos de SMS e de dados. É necessário o consentimento do destinatário. <a %(escapedLearnMoreAttributes)s>Saber mais</a>"
 
 #: .es5/templates/sms_send.mustache:14 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1991,7 +1991,7 @@ msgstr "Talvez mais tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Utilizar um e-mail diferente"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
