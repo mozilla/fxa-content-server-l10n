@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-20 17:21+0000\n"
-"Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
+"PO-Revision-Date: 2020-03-20 17:27+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -472,7 +472,7 @@ msgstr "Você está recebendo este e-mail porque %(email)s tem uma Conta Firefox
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Gerencie as configurações da sua Conta Firefox visitando a <a%(accountSettingsLinkAttributes)s>página da conta</a>."
+msgstr "Gerencie as configurações da sua Conta Firefox visitando a <a %(accountSettingsLinkAttributes)s>página da conta</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
