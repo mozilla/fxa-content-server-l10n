@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 00:34+0000\n"
+"PO-Revision-Date: 2020-03-21 00:35+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -470,7 +470,7 @@ msgstr "Términos del servicio de Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Estás recibiendo este correo porque %(email)s tiene una cuenta de Firefox y te has registrado para %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
