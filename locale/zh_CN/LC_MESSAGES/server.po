@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 01:48+0000\n"
+"PO-Revision-Date: 2020-03-21 02:10+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -464,11 +464,11 @@ msgstr "Firefox Cloud 服务条款"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "您收到此电子邮件是因为 %(email)s 绑定有 Firefox 账户，且系您本人为 %(productName)s 所注册。"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "您可以通过访问<a %(accountSettingsLinkAttributes)s>账户页面</a>管理 Firefox 的账户设置。"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
