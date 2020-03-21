@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-01-07 11:45+0000\n"
+"PO-Revision-Date: 2020-03-21 20:26+0000\n"
 "Last-Translator: Quentí <quentinantonin@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: oc\n"
@@ -30,7 +30,7 @@ msgstr "Connexion"
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (obligatòri)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
@@ -119,11 +119,11 @@ msgstr ""
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
-msgstr ""
+msgstr "Senhal"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Modificar…"
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -131,23 +131,23 @@ msgstr ""
 
 #: .es5/views/settings/change_password.js:229
 msgid "Old password"
-msgstr ""
+msgstr "Ancian senhal"
 
 #: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
-msgstr ""
+msgstr "Senhal doblidat ?"
 
 #: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
-msgstr ""
+msgstr "Senhal novèl"
 
 #: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr ""
+msgstr "Tornatz picar lo senhal :"
 
 #: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
-msgstr ""
+msgstr "Modificar"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
@@ -155,7 +155,7 @@ msgstr ""
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Anullar"
 
 #: .es5/views/settings/change_password.js:377
 msgid "Password changed successfully"
@@ -260,11 +260,11 @@ msgstr ""
 #: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
-msgstr ""
+msgstr "Modificar…"
 
 #: .es5/views/settings/display_name.js:97 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Apondre…"
 
 #: .es5/views/settings/display_name.js:164
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -288,19 +288,19 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr ""
+msgstr "Adreça electronica segondària"
 
 #: .es5/views/settings/recovery_codes.js:77
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Validacion en doas estapas activada"
 
 #: .es5/views/settings/recovery_codes.js:110
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Còdes de secors de Firefox"
 
 #: .es5/views/settings/recovery_codes.js:143
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Còdes de secors novèls generats"
 
 #: .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -312,23 +312,23 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:197
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Validacion en doas estaps"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
-msgstr ""
+msgstr "Recuperacion del compte"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Recuperacion de compte activada"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Recuperacion del compte anullada"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Vòstras donadas de sincronizacion son protegidas"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
@@ -392,7 +392,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Copiats"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
@@ -400,11 +400,11 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Telecargats"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Imprimits"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
@@ -424,15 +424,15 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "Connection issues"
-msgstr ""
+msgstr "Problèmas de connexion"
 
 #: .es5/models/support-form.js:25
 msgid "Getting started"
-msgstr ""
+msgstr "Per començar"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Problèmas de compte"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
@@ -1000,9 +1000,7 @@ msgid "Invalid Token"
 msgstr "Geston invalid"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -1070,8 +1068,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1968,8 +1965,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
