@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-02-25 09:02+0000\n"
-"Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
+"PO-Revision-Date: 2020-03-20 19:40+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Si vous n’avez pas encore téléchargé %(productName)s, commençons à utiliser toutes les fonctionnalités incluses dans votre abonnement :"
 
 #: lib/senders/templates/downloadSubscription.html:2
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Des questions sur votre abonnement ? Notre <a href=\"%(subscriptionSupportUrl)s\">équipe d’assistance</a> est là pour vous aider."
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -286,8 +286,8 @@ msgstr "Adresse électronique secondaire ajoutée"
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"L’adresse électronique secondaire %(secondaryEmail)s de votre compte Firefox a été vérifiée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées "
-"aux deux adresses électroniques."
+"L’adresse électronique secondaire %(secondaryEmail)s de votre compte Firefox a été vérifiée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux"
+" deux adresses électroniques."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -733,8 +733,7 @@ msgid ""
 "                        continue."
 msgstr ""
 "\n"
-"                        Les comptes Firefox utilisent des fonctionnalités qui ne sont pas prises en charge par votre version de Firefox. Veuillez télécharger et installer la dernière version de "
-"Firefox pour continuer."
+"                        Les comptes Firefox utilisent des fonctionnalités qui ne sont pas prises en charge par votre version de Firefox. Veuillez télécharger et installer la dernière version de Firefox pour continuer."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -1082,8 +1081,8 @@ msgstr "Télécharger la dernière version"
 #~ msgstr "Réinitialiser le mot de passe"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Il y a quelques jours, vous avez créé un compte Firefox, mais ne l’avez jamais confirmé. Un compte confirmé vous permet d’accéder à vos onglets, vos marque-pages, vos mots de passe et votre "
 #~ "historique depuis n’importe quel appareil connecté à ce compte. Confirmez simplement cette adresse électronique pour activer votre compte."
@@ -1115,8 +1114,7 @@ msgstr "Télécharger la dernière version"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s n’est plus une adresse secondaire de votre compte Firefox. Les notifications de sécurité et les confirmations de connexion ne seront plus envoyées à cette adresse."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Vous avez correctement ajouté %(secondaryEmail)s en tant qu’adresse électronique secondaire pour votre compte Firefox. Désormais, les notifications de sécurité et les confirmations de connexion "
 #~ "seront envoyées aux deux adresses."
@@ -1126,8 +1124,8 @@ msgstr "Télécharger la dernière version"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Vous êtes-vous connecté à votre compte Firefox depuis ces lieux au cours des 60 derniers jours ? Si ces lieux ne correspondent pas à vos connexions, quelqu’un a peut-être pu accéder à votre "
-#~ "compte Firefox."
+#~ "Vous êtes-vous connecté à votre compte Firefox depuis ces lieux au cours des 60 derniers jours ? Si ces lieux ne correspondent pas à vos connexions, quelqu’un a peut-être pu accéder à votre compte "
+#~ "Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Date et heure :"
@@ -1288,16 +1286,14 @@ msgstr "Télécharger la dernière version"
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Ceci est un message automatique ; si vous n'avez pas ajouté de nouvel appareil à votre compte Firefox, vous devriez changer votre mot de passe immédiatement sur <a href='%(resetLink)s'>"
-#~ "%(resetLink)s</a>."
+#~ "Ceci est un message automatique ; si vous n'avez pas ajouté de nouvel appareil à votre compte Firefox, vous devriez changer votre mot de passe immédiatement sur <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Ceci est un message automatique ; si vous n'avez pas changé le mot de passe de votre compte Firefox, vous devriez le réinitialiser immédiatement sur <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Ceci est un message automatique ; si vous n'avez pas changé le mot de passe de votre compte Firefox, vous devriez le réinitialiser immédiatement sur <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Ceci est un message automatique ; si vous n'avez pas réinitialisé le mot de passe de votre compte Firefox, vous devriez le faire immédiatement sur <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Ceci est un message automatique ; si vous n'avez pas réinitialisé le mot de passe de votre compte Firefox, vous devriez le faire immédiatement sur <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Un nouvel appareil est désormais synchronisé avec votre compte Firefox"
