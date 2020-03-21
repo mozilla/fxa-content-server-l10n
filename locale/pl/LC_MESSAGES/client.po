@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 09:42+0000\n"
+"PO-Revision-Date: 2020-03-21 09:47+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1517,11 +1517,11 @@ msgstr "Utwórz konto"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Synchronizuj tę przeglądarkę z telefonem"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Czy chcesz synchronizować swój telefon?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1529,7 +1529,7 @@ msgstr "Wyślij Firefoksa bezpośrednio do telefonu i zaloguj się, aby dokońc
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Wyślij odnośnik SMS-em, aby zainstalować Firefoksa na telefonie."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
@@ -1541,7 +1541,7 @@ msgstr "Wyślij"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Mogą obowiązywać stawki za wiadomości SMS i transmisję danych. Wymagana jest zgoda odbiorcy. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1557,7 +1557,7 @@ msgstr "Sprawdź SMS-y"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Wysłaliśmy Ci wiadomość SMS"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1569,7 +1569,7 @@ msgstr "Nie ten numer?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Jeśli nie wiadomość SMS nie doszła, to możesz także poszukać „Firefox” w sklepie z aplikacjami."
+msgstr "Jeśli wiadomość SMS nie doszła, to możesz także poszukać „Firefox” w sklepie z aplikacjami."
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -2000,7 +2000,7 @@ msgstr "Może później"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Użyj innego adresu e-mail"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2144,7 +2144,7 @@ msgstr "Połączono urządzenie"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Pomyślnie połączono"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2168,7 +2168,7 @@ msgstr "Proces konfiguracji został przerwany."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Zeskanuj, aby połączyć inne urządzenie"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2184,7 +2184,7 @@ msgstr "Pobierz aplikację"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Pomyślnie powiązano urządzenie"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
