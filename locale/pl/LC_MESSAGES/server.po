@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 09:51+0000\n"
+"PO-Revision-Date: 2020-03-21 09:53+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -465,7 +465,7 @@ msgstr "Regulamin usługi Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Otrzymujesz tę wiadomość, ponieważ na adres %(email)s zarejestrowano konto Firefoksa i zapisano się na %(productName)s."
+msgstr "Otrzymujesz tę wiadomość, ponieważ na adres %(email)s zarejestrowano konto Firefoksa i zapisano się na usługę %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -650,11 +650,11 @@ msgstr "Utwórz nowy klucz odzyskiwania"
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "Witamy w programie %(productName)s"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Pobierz program %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
