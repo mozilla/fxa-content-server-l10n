@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-22 03:01+0000\n"
+"PO-Revision-Date: 2020-03-22 03:02+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -1539,7 +1539,7 @@ msgstr "Отправить"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "За SMS и передачу данных может взиматься плата. Получатель должен быть согласен на получение сообщения. <a %(escapedLearnMoreAttributes)s>Подробнее</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1555,7 +1555,7 @@ msgstr "Проверьте SMS сообщения"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Мы отправили вам текстовое сообщение"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1990,7 +1990,7 @@ msgstr "Добавьте альтернативный адрес электро�
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Добавление альтернативной электронной почты поможет вам восстановить свой аккаунт, если он будет заблокирован и вы не можете получить доступ к %(escapedEmail)s."
+msgstr "Добавление альтернативной электронной почты поможет вам восстановить свой аккаунт, если он будет заблокирован и вы не сможете получить доступ к %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1999,7 +1999,7 @@ msgstr "Возможно позже"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Используйте другой адрес электронной почты"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2143,7 +2143,7 @@ msgstr "Устройство подключено"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Успешно подключено"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2167,7 +2167,7 @@ msgstr "Процесс настройки был прерван."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Сканировать для подключения другого устройства"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2183,7 +2183,7 @@ msgstr "Загрузить приложение"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Устройство успешно сопряжено"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
