@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 15:21+0000\n"
+"PO-Revision-Date: 2020-03-21 15:23+0000\n"
 "Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -2192,7 +2192,7 @@ msgstr "Obtenir l’appli"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "L’appareil a été couplé"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
