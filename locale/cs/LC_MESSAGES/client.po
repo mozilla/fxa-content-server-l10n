@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-22 10:41+0000\n"
+"PO-Revision-Date: 2020-03-22 10:51+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -297,7 +297,7 @@ msgstr "Dvoufázové ověřování zapnuto"
 
 #: .es5/views/settings/recovery_codes.js:110
 msgid "Firefox Recovery Codes"
-msgstr "Kódy pro obnovu"
+msgstr "Obnovovací kódy"
 
 #: .es5/views/settings/recovery_codes.js:143
 msgid "New recovery codes generated"
@@ -1833,7 +1833,7 @@ msgstr "Potvrdit obnovovací klíč"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "V případě ztráty svého zařízení, můžete opět získat přístup ke svému účtu zadáním jednoho z obnovovacích kódů."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
@@ -1987,11 +1987,11 @@ msgstr "Hotovo, obnovovací klíč byl uložen"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Přidat záložní e-mailovou adresu"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Přidání záložní e-mailové adresy vám pomůže v situaci, kdy ztratíte přístup ke své e-mailové schránce %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2008,11 +2008,11 @@ msgstr "Chraňte svá data obnovovacím klíčem"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Vaše synchronizovaná data mohou obsahovat vaše uložená hesla."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Protože jsou tato data velmi důležitá pro vaši bezpečnost, Firefox je pro vaši ochranu při obnově hesla smaže, aby k nim nikdo jiný nemohl získat přístup."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -2024,11 +2024,11 @@ msgstr "Potvrdit heslo"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Pro vygenerování obnovovacího klíče potvrďte heslo pro svůj účet %(escapedEmail)s."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Potvrďte uložení kopie svého obnovovacího klíče jeho zadáním."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
@@ -2168,7 +2168,7 @@ msgstr "Nastavování bylo ukončeno."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Naskenujte pro připojení dalšího zařízení"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
