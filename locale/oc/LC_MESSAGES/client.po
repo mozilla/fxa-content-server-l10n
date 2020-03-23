@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 20:26+0000\n"
+"PO-Revision-Date: 2020-03-23 19:18+0000\n"
 "Last-Translator: Quentí <quentinantonin@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: oc\n"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Adreça electronica principala verificada"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -74,7 +74,7 @@ msgstr ""
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:57
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Adreça electronica segondària verificada"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -90,11 +90,11 @@ msgstr "Compte verificat"
 
 #: .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Connectat"
 
 #: .es5/views/reset_password.js:112
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Compte desconegut. <a href=\"/signup\">Crear un compte</a>"
 
 #: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
@@ -195,19 +195,19 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Darrièra activitat %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Darrièra activitat fa mai de %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Darrièra activitat %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Darrièra activitat fa mai de %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:88
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:89
 msgid "Over %(translatedTimeAgo)s"
@@ -272,19 +272,19 @@ msgstr ""
 
 #: .es5/views/settings/display_name.js:225
 msgid "Display name updated"
-msgstr ""
+msgstr "Nom afichat mes a jorn"
 
 #: .es5/views/settings/emails.js:106
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Adreça electronica segondària suprimiada"
 
 #: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
-msgstr ""
+msgstr "Corrièr electronic de verificacion mandat"
 
 #: .es5/views/settings/emails.js:173
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "L’adreça electronica principala es %(email)s"
 
 #: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:161
 msgid "Two-step authentication removed"
-msgstr ""
+msgstr "Validacion en doas estapas desactivada"
 
 #: .es5/views/settings/two_step_authentication.js:197
 msgid "Two-step Authentication"
