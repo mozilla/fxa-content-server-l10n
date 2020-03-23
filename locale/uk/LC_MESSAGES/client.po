@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-23 11:41+0000\n"
+"PO-Revision-Date: 2020-03-23 11:47+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -677,23 +677,23 @@ msgstr "Не вдалося, у зв'язку з конфліктним запи
 
 #: .es5/lib/auth-errors.js:252
 msgid "Unknown customer for subscription."
-msgstr "Невідомий клієнт для підписки."
+msgstr "Невідомий клієнт для передплати."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Unknown subscription."
-msgstr "Невідома підписка."
+msgstr "Невідома передплата."
 
 #: .es5/lib/auth-errors.js:260
 msgid "Unknown plan for subscription."
-msgstr "Невідомий план підписки."
+msgstr "Невідомий план передплати."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Invalid payment token for subscription."
-msgstr "Недійсний платіжний токен для підписки."
+msgstr "Недійсний платіжний токен для передплати."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Subscription has already been cancelled"
-msgstr "Підписку вже було скасовано"
+msgstr "Передплату вже було скасовано"
 
 #: .es5/lib/auth-errors.js:272
 msgid "Update was rejected, please try again"
