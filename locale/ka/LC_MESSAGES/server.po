@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-02-24 17:18+0000\n"
+"PO-Revision-Date: 2020-03-23 20:12+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "თუ ჯერ კიდევ არ ჩამოგიტვირთავთ %(productName)s, დაიწყეთ ყველა იმ შესაძლებლობით სარგებლობა, რასაც თქვენი გამოწერა შეიცავს:"
 
 #: lib/senders/templates/downloadSubscription.html:2
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი<a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -468,11 +468,11 @@ msgstr "Firefox Cloud-ის მომსახურების პირო�
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s Firefox-ანგარიშზეა მიბმული და გამოწერილი გაქვთ %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "თქვენი Firefox-ანგარიშის პარამეტრების სამართავად, ეწვიეთ თქვენი <a %(accountSettingsLinkAttributes)s>ანგარიშის გვერდს</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -488,11 +488,11 @@ msgstr "ანგარიშსწორების მონაცემე�
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "სამართლებრივი"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "პირადულობა"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -653,11 +653,11 @@ msgstr "აღდგენის ახალი გასაღების შ
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "მოგესალმებათ %(productName)s!"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "ჩამოტვირთეთ %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -784,8 +784,8 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox-ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</"
-#~ "a> და <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
+#~ "თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox-ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</a> და"
+#~ " <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "თქვენ წარმატებით დაუკავშირეთ თქვენი პირველი მოწყობილობა Firefox-ანგარიშს. ახლა უკვე შეგიძლიათ Sync-ში შესვლა, სხვა მოწყობილობიდან, მათ შორის Firefox-ის Android და iOS ვერსიებიდან."
@@ -1081,11 +1081,11 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ msgstr "პაროლის აღდგენა"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნებზე, პაროლებსა და ისტორიაზე, "
-#~ "ნებისმიერი დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
+#~ "რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნებზე, პაროლებსა და ისტორიაზე, ნებისმიერი "
+#~ "დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "ერთი კვირის წინ Firefox ანგარიში შექმენით, რომელიც არ დაგიმოწმებიათ. ვღელავთ თქვენზე. დაადასტურეთ ეს ელფოსტა თქვენი ანგარიშის ასამოქმედებლად და გვაცნობეთ, რომ ყველაფერი რიგზეა."
@@ -1111,8 +1111,7 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s ელფოსტის მისამართი ამოღებულია Firefox ანგარიშის დამატებითი მისამართებიდან. უსაფრთხოების შეტყობინებები და შესვლების დადასტურებები, ამ მისამართზე აღარ მოგივათ."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "თქვენ წარმატებით დაამოწმეთ %(secondaryEmail)s ელ-ფოსტის დამატებით მისამართად Firefox ანგარიშზე. უსაფრთხოების შეტყობინებებს და შესვლის დასადასტურებელ მოთხოვნებს, ახლა უკვე ორივე ფოსტაზე მიიღებთ."
 
@@ -1195,8 +1194,8 @@ msgstr "უახლესის ჩამოტვირთვა"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ "
-#~ "დაასინქრონოთ თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
+#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ დაასინქრონოთ "
+#~ "თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
 
 #~ msgid "env"
 #~ msgstr "env"
