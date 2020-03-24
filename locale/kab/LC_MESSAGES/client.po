@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-24 16:53+0000\n"
+"PO-Revision-Date: 2020-03-24 17:05+0000\n"
 "Last-Translator: K_ahina <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -833,7 +833,7 @@ msgstr "Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwe
 
 #: .es5/lib/auth-errors.js:493
 msgid "This is a required field"
-msgstr "Urti-agi yettwasra"
+msgstr "Urti-a ilaq"
 
 #: .es5/lib/auth-errors.js:497
 msgid "Authorization code required"
@@ -877,7 +877,7 @@ msgstr "Awelleh arameɣtu"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Imayl d arameɣtu? %(domain)s ur d-yettak ara imayl."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -965,7 +965,7 @@ msgstr "Aseqdac ur iqqin ara"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Aseqdac-nniḍen iqqen"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
