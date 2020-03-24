@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-21 16:53+0000\n"
+"PO-Revision-Date: 2020-03-24 18:54+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2174,11 +2174,11 @@ msgstr "הצגת קוד"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Get app"
-msgstr ""
+msgstr "קבלת היישומון"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr "המכשיר הותאם בהצלחה"
+msgstr "צימוד המכשיר בוצע בהצלחה"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
