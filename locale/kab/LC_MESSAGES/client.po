@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-24 16:33+0000\n"
+"PO-Revision-Date: 2020-03-24 16:41+0000\n"
 "Last-Translator: K_ahina <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -328,11 +328,11 @@ msgstr "Tiririt n umiḍan tattwaḥwi"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Amtawi n yisefka-k ittummesten"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Ma ur tezmireḍ ara ad tkecmeḍ ɣer umiḍan-ik, tzemreḍ ad t-terreḍ amtawi n yisefka-k."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -436,7 +436,7 @@ msgstr "Uguren n umiḍan"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Asnas Android n uẓeṭṭa uslig n Firefox"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
