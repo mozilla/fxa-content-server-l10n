@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-24 13:27+0000\n"
+"PO-Revision-Date: 2020-03-24 15:13+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -468,7 +468,7 @@ msgstr "Tjenestevilkår for Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Du mottar denne e-postmeldingen fordi %(email)s har en Firefox-konto og du registrerte deg for %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -488,11 +488,11 @@ msgstr "Oppdater faktureringsinformasjon"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Juridisk"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Personvern"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -653,11 +653,11 @@ msgstr "Opprett ny gjenopprettingsnøkkel"
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "Velkommen til %(productName)s!"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Last ned %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
