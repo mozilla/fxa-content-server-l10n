@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-22 10:51+0000\n"
-"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
+"PO-Revision-Date: 2020-03-23 19:11+0000\n"
+"Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -1424,7 +1424,7 @@ msgstr "Omlouváme se, váš&nbsp;účet byl uzamčen."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Potvrzovací e-mail, který jsme poslali na %(email)s, nebyl doručen. Abychom chránili vaše data Firefoxu, váš účet jsme uzamkli."
+msgstr "Potvrzovací e-mail, který jsme poslali na adresu %(email)s, se vrátil zpět. Abychom ochránili vaše data, váš účet jsme uzamkli."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
