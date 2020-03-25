@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 11:14+0000\n"
+"PO-Revision-Date: 2020-03-25 11:33+0000\n"
 "Last-Translator: Mikeyy <mihovil@miho.im>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -556,7 +556,7 @@ msgstr "Nevažeći potpis zahtjeva"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Nedostaje zaglavlje duljine sadržaja"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
@@ -584,11 +584,11 @@ msgstr "Nije bilo moguće poslati poruku na ovaj broj"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Upravo je vraćena vaša poruka e-pošte"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Upravo je vraćena vaša poruka e-pošte. Pogrešna adresa e-pošte?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
@@ -596,11 +596,11 @@ msgstr "Nije moguće dostaviti e-poštu"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Ova e-pošta se već koristi od strane drugog korisnika"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundarna e-pošta mora biti različita od e-pošte računa"
 
 #: .es5/lib/auth-errors.js:172
 msgid "Primary account email required for sign-in"
@@ -608,7 +608,7 @@ msgstr "Za prijavu potrebna je primarna adresa e-pošte"
 
 #: .es5/lib/auth-errors.js:176
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adresa se koristi od strane drugog računa"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for reset"
@@ -620,15 +620,15 @@ msgstr "Netočan kȏd za prijavu"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Nije moguće izmijeniti primarnu e-poštu u neprovjerenu adresu e-pošte"
 
 #: .es5/lib/auth-errors.js:192 .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Nije moguće izmijeniti primarnu e-poštu u adresu e-pošte koja ne pripada ovom računu"
 
 #: .es5/lib/auth-errors.js:196
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Ova e-pošta se trenutno ne može koristiti za prijavu"
 
 #: .es5/lib/auth-errors.js:204
 msgid "Failed to send email"
@@ -640,23 +640,23 @@ msgstr "Potreban je važeći kôd"
 
 #: .es5/lib/auth-errors.js:212
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Ovaj kontrolni kôd je istekao"
 
 #: .es5/lib/auth-errors.js:216
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Za ovaj račun već postoji TOTP token"
 
 #: .es5/lib/auth-errors.js:220
 msgid "TOTP token not found"
-msgstr ""
+msgstr "TOTP token nije pronađen"
 
 #: .es5/lib/auth-errors.js:224
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Kôd za oporavak nije pronađen"
 
 #: .es5/lib/auth-errors.js:228
 msgid "Unavailable device command"
-msgstr ""
+msgstr "Nedostupna naredba uređaja"
 
 #: .es5/lib/auth-errors.js:232
 msgid "Recovery key not found"
@@ -668,11 +668,11 @@ msgstr "Nevažeći ključ za oporavak"
 
 #: .es5/lib/auth-errors.js:240 .es5/lib/auth-errors.js:248
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Ovaj zahtjev zahtjeva omogućenu dvostupanjsku autorizaciju za vaš račun."
 
 #: .es5/lib/auth-errors.js:244
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "Nije uspjelo zbog sukobljenih zahtjeva, molimo pokušajte ponovno."
 
 #: .es5/lib/auth-errors.js:252
 msgid "Unknown customer for subscription."
