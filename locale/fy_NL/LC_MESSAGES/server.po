@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 09:43+0000\n"
+"PO-Revision-Date: 2020-03-25 09:45+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -469,11 +469,11 @@ msgstr "Brûkersbetingsten Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Jo ûntfange dit berjocht omdat %(email)s in Firefox-account hat en jo oanmeld binne foar %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Behear de ynstellingen fan jo Firefox-account op jo <a %(accountSettingsLinkAttribut)s>accountside</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -489,11 +489,11 @@ msgstr "Fakturaasjegegevens bywurkje"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Juridysk"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Privacy"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -654,11 +654,11 @@ msgstr "Nije werstelkaai generearje"
 
 #: lib/senders/email.js:1785
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "Wolkom by %(productName)s!"
 
 #: lib/senders/email.js:1786
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s downloade"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
