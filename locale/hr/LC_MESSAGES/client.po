@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 12:04+0000\n"
+"PO-Revision-Date: 2020-03-25 12:13+0000\n"
 "Last-Translator: Mikeyy <mihovil@miho.im>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1190,7 +1190,7 @@ msgstr "Poslana je e-pošta za ponovno postavljanje"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Kliknite na poveznicu poslanu na %(email)s unutar sat vremena kako biste stvorili novu lozinku."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1229,7 +1229,7 @@ msgstr "E-pošta je potvrđena"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Završite postavljanje"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1241,23 +1241,23 @@ msgstr "Još uvijek dodaješ uređaje?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Prijavite se u Firefox na drugom uređaju kako biste završili postavljanje"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Još uvijek dodajete uređaj? Prijavite se u Firefox na drugom uređaju kako biste završili postavljanje"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Prijavite se u Firefox za Android kako biste završili postavljanje"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Prijavite se u Firefox za iOS kako biste završili postavljanje"
 
 #: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Zašto je potrebno više od jednog uređaja?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1265,7 +1265,7 @@ msgstr "Potrebni su kolačići i lokalna pohrana"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Omogućite kolačiće i lokalnu pohranu u svom pregledniku za pristup Firefox Accounts. To će omogućiti funkcionalnost poput pamćenja između sesija."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1273,7 +1273,7 @@ msgstr "Pokušaj ponovo"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Nastavljanjem pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\">Uvjete korištenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\">Politiku privatnosti</a>."
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
@@ -1321,7 +1321,7 @@ msgstr "Zahtjev za dozvolom"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s želi sljedeće informacije iz vašeg računa:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
@@ -1349,7 +1349,7 @@ msgstr "Prijaviti neautoriziranu prijavu?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Primili ste poruku o pokušaju pristupa vašem računu. Želite li prijaviti ovu aktivnost kao sumnjivu?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1364,6 +1364,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
+"<span>NAPOMENA:</span> Kada resetirate vašu lozinku, resetirate i vaš račun. Možete izgubiti neke od svojih privatnih podataka (uključujući povijest, zabilješke i lozinke). Ovo će se desiti iz "
+"razloga što mi kriptiramo vaše podatke s vašom lozinkom kako bismo zaštitili vašu privatnost."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
