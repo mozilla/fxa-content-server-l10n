@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 11:12+0000\n"
+"PO-Revision-Date: 2020-03-25 11:14+0000\n"
 "Last-Translator: Mikeyy <mihovil@miho.im>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -167,7 +167,7 @@ msgstr "Žao nam je zbog toga. Trebate promijeniti Firefox Account lozinku i pot
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Žao nam je zbog toga. Ukoliko je ovo uređaj kojem ne vjerujete, trebate promijeniti svoju Firefox Account lozinku i promijeniti sve lozinke spremljene u Firefoxu."
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
