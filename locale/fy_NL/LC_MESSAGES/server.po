@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 09:45+0000\n"
-"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
+"PO-Revision-Date: 2020-03-25 16:03+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
 "MIME-Version: 1.0\n"
@@ -473,7 +473,7 @@ msgstr "Jo ûntfange dit berjocht omdat %(email)s in Firefox-account hat en jo o
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Behear de ynstellingen fan jo Firefox-account op jo <a %(accountSettingsLinkAttribut)s>accountside</a>."
+msgstr "Behear de ynstellingen fan jo Firefox-account op jo <a %(accountSettingsLinkAttributes)s>accountside</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
