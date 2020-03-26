@@ -1581,11 +1581,11 @@ msgstr "Kontaktiraj nas"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Za što nas kontaktiraš?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Za što ti treba pomoć?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
