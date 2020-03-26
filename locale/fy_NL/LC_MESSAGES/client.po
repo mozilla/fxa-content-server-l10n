@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-25 09:42+0000\n"
+"PO-Revision-Date: 2020-03-26 10:37+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -2174,7 +2174,7 @@ msgstr "Scanne om in oar apparaat te ferbinen"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Iepenje de koadeskanner yn jo Firefox-app en lit de koade sjen wannear't jo ree binne."
+msgstr "Iepenje de koadescanner yn jo Firefox-app en lit de koade sjen wannear't jo ree binne."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
