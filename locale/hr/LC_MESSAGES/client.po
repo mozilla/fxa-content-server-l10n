@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-26 14:06+0000\n"
+"PO-Revision-Date: 2020-03-26 14:23+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1465,7 +1465,7 @@ msgstr "Autoriziraj ovu prijavu"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Provjeri svoju e-poštu za kôd poslan na %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1485,7 +1485,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Unesi autorizacijski kôd"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Create a Firefox Account"
