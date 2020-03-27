@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-27 20:55+0000\n"
+"PO-Revision-Date: 2020-03-27 21:07+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -339,7 +339,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Kuatia papapy: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
@@ -358,7 +358,7 @@ msgstr "Oútava kuatia: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Kuatia papapy: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
