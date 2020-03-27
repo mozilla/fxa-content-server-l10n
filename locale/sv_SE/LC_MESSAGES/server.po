@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-27 21:50+0000\n"
+"PO-Revision-Date: 2020-03-27 21:57+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -321,23 +321,23 @@ msgstr "Hjälp oss att förbättra våra tjänster genom att göra denna <a %(ca
 
 #: lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Hjälp oss att förbättra våra tjänster genom att ta göra en kort undersökning:"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Tack för att du prenumererar på %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Din betalning behandlas för närvarande och det kan ta upp till fyra arbetsdagar att slutföra."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr ""
+msgstr "Du får ett separat e-postmeddelande med nedladdningsinstruktioner för hur du börjar använda %(productName)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:4 lib/senders/templates/subscriptionFirstInvoice.txt:3
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
@@ -351,16 +351,16 @@ msgstr "Debiteras $%(invoiceTotal)s den %(invoiceDateOnly)s"
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(cardType)s-kort upphör om %(lastFour)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Nästa faktura: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Fakturanummer: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -717,15 +717,15 @@ msgstr "Skapa ny återställningsnyckel"
 
 #: lib/senders/email.js:1854
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Din prenumeration på %(productName)s har avbrutits"
 
 #: lib/senders/email.js:1932
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Betalning mottagen för %(productName)s"
 
 #: lib/senders/email.js:2014
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Betalning bekräftad för %(productName)s"
 
 #: lib/senders/email.js:2067
 msgid "Welcome to %(productName)s!"
