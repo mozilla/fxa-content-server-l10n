@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
 "PO-Revision-Date: 2019-12-22 19:04+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1755,8 +1755,8 @@ msgid "Delete…"
 msgstr "Eliminar…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "¿Quiere cancelar una suscripción pagada? Ve a <a href=\"/subscriptions\">Administrar suscripciones</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1849,7 +1849,7 @@ msgid "Confirm"
 msgstr "Confirmar"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
+msgid "Subscriptions &amp; Payments"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
@@ -2209,6 +2209,9 @@ msgstr "Conectarse mediante una aplicación"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de Firefox."
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "¿Quiere cancelar una suscripción pagada? Ve a <a href=\"/subscriptions\">Administrar suscripciones</a>."
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"

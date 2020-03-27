@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
 "PO-Revision-Date: 2020-03-07 00:29+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1754,8 +1754,8 @@ msgid "Delete…"
 msgstr "Tiyuj…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "¿La nakanoj nayüj jun tojon tz'ib'an b'i'aj? Jät pa <a href=\"/subscriptions\">Kenuk'samajïx taq Tz'ib'anïk B'i'aj</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1848,7 +1848,7 @@ msgid "Confirm"
 msgstr "Tijikib'äx"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
+msgid "Subscriptions &amp; Payments"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
@@ -2209,6 +2209,9 @@ msgstr "Tok rik'in jun chokoy"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy Firefox."
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "¿La nakanoj nayüj jun tojon tz'ib'an b'i'aj? Jät pa <a href=\"/subscriptions\">Kenuk'samajïx taq Tz'ib'anïk B'i'aj</a>."
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
