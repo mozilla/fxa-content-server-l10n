@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-27 18:33+0000\n"
+"PO-Revision-Date: 2020-03-27 18:37+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -715,15 +715,15 @@ msgstr "Create new recovery key"
 
 #: lib/senders/email.js:1854
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Your %(productName)s subscription has been cancelled"
 
 #: lib/senders/email.js:1932
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "%(productName)s payment received"
 
 #: lib/senders/email.js:2014
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "%(productName)s payment confirmed"
 
 #: lib/senders/email.js:2067
 msgid "Welcome to %(productName)s!"
