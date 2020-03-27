@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
 "PO-Revision-Date: 2020-03-09 17:09+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1766,8 +1766,8 @@ msgid "Delete…"
 msgstr "Sguab às…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "A bheil thu airson crìoch a chur air fo-sgrìobhadh air airgead? Tadhail air <a href=\"/subscriptions\">Stiùirich na fo-sgrìobhaidhean</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1860,8 +1860,8 @@ msgid "Confirm"
 msgstr "Dearbh"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Fo-sgrìobhaidhean ⁊ pàigheadh"
+msgid "Subscriptions &amp; Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2224,6 +2224,12 @@ msgstr "Paidhrich slighe aplacaid"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "An do chleachd thu camara an t-siostaim? Feumaidh tu paidhreachadh o bhroinn aplacaid Firefox."
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "A bheil thu airson crìoch a chur air fo-sgrìobhadh air airgead? Tadhail air <a href=\"/subscriptions\">Stiùirich na fo-sgrìobhaidhean</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Fo-sgrìobhaidhean ⁊ pàigheadh"
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-16 17:40+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"PO-Revision-Date: 2020-03-21 09:06+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1235,7 +1235,7 @@ msgstr "E-post verifierad"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Slutför din installation"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1559,7 +1559,7 @@ msgstr "Kontrollera dina texter"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Vi har skickat ett textmeddelande"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1753,8 +1753,8 @@ msgid "Delete…"
 msgstr "Ta bort…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "Vill du avsluta en betald prenumeration? Gå till <a href=\"/subscriptions\">Hantera prenumerationer</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1847,8 +1847,8 @@ msgid "Confirm"
 msgstr "Bekräfta"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Prenumerationer & betalningar"
+msgid "Subscriptions &amp; Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2148,7 +2148,7 @@ msgstr "Enhet ansluten"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Ansluten"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2172,7 +2172,7 @@ msgstr "Installationsprocessen avslutades."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Skanna för att ansluta en annan enhet"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2188,7 +2188,7 @@ msgstr "Hämta app"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Enheten har parats ihop"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -2209,6 +2209,12 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "Vill du avsluta en betald prenumeration? Gå till <a href=\"/subscriptions\">Hantera prenumerationer</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Prenumerationer & betalningar"
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"

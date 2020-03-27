@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
 "PO-Revision-Date: 2019-04-09 04:00+0000\n"
 "Last-Translator: Ratko Vujanović <arheopterics@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2067,7 +2067,7 @@ msgstr "Izbriši…"
 #: .es5/templates/settings/delete_account.mustache:4
 msgid ""
 "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions"
-"\">Manage Subscriptions</a>."
+"\">Subscriptions &amp; Payments</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -2190,7 +2190,7 @@ msgid "Confirm"
 msgstr "Potvrdi"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
+msgid "Subscriptions &amp; Payments"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
