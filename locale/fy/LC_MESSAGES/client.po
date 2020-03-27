@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 16:01+0000\n"
-"PO-Revision-Date: 2020-03-17 07:55+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"PO-Revision-Date: 2020-03-26 10:37+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1235,7 +1235,7 @@ msgstr "E-mailadres ferifiearre"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Foltôgje jo ynstellingen"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1559,7 +1559,7 @@ msgstr "Kontrolearje jo sms-berjochten"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Wy hawwe jo in sms stjoerd"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1753,8 +1753,8 @@ msgid "Delete…"
 msgstr "Fuortsmite…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-msgstr "Wolle jo in betelle abonnemint annulearje? Gean nei <a href=\"/subscriptions\">Behear abonneminten</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1847,8 +1847,8 @@ msgid "Confirm"
 msgstr "Befêstigje"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonneminten en betellingen"
+msgid "Subscriptions &amp; Payments"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2150,7 +2150,7 @@ msgstr "Apparaat ferbûn"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Mei sukses ferbûn"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2174,11 +2174,11 @@ msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Scanne om in oar apparaat te ferbinen"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Iepenje de koadeskanner yn jo Firefox-app en lit de koade sjen wannear't jo ree binne."
+msgstr "Iepenje de koadescanner yn jo Firefox-app en lit de koade sjen wannear't jo ree binne."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
@@ -2190,7 +2190,7 @@ msgstr "App downloade"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Apparaat mei sukses keppele"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -2211,6 +2211,12 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "Wolle jo in betelle abonnemint annulearje? Gean nei <a href=\"/subscriptions\">Behear abonneminten</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonneminten en betellingen"
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
