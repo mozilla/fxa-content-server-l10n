@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 10:50+0000\n"
+"PO-Revision-Date: 2020-03-28 10:59+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1537,7 +1537,7 @@ msgstr "Azen"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Izmer ad ttwasmersen kra n yidrimen i yisefka SMS. Issefka win ara d-iremsen ad yeqbel aya. <a %(escapedLearnMoreAttributes)s>Issin ugar</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1545,7 +1545,7 @@ msgstr "Ayɣer illaq ad mtawiγ aṭas n ibenkan?"
 
 #: .es5/templates/sms_send.mustache:18
 msgid "Not now"
-msgstr ""
+msgstr "Mačči tura"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1553,7 +1553,7 @@ msgstr "Senqeḍ aḍris-inek"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Nuzen-ak-d izen SMS"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1561,11 +1561,11 @@ msgstr "Aseɣwen ɣer usnas Firefox yettwazen ɣer %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Yir uṭṭun?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Ma yella ur d-rmiseḍ ara izen SMS, tzemreḍ daɣen ad tnadiḍ “Firefox” deg App Store neɣ Google Play."
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1581,11 +1581,11 @@ msgstr "Nermes-aɣ-d"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Acuɣer i aɣ-d-neremseḍ?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Amek i nezmer ad ak-d-nmudd tallelt?"
 
 #: .es5/templates/support.mustache:8
 msgid "Subject (optional)"
@@ -1609,7 +1609,7 @@ msgstr "Awi-t"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Tebɣi ad temtawiḍ asagu-a d umiḍan-ik?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1646,7 +1646,7 @@ msgstr "Sers u dewweṛ tawlaft inek akken tebɣiḍ"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Ffeɣ seg Syn"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1654,23 +1654,23 @@ msgstr "Isefka yinek n tunigin ad qqimen di %(deviceName)s, acukan amtawi akked 
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Ad tsuffɣeḍ %(deviceName)s seg Synch acku asagu-a:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Yella ccek"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Iṛuḥ neɣ yettwaker"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "D aqbuṛ neɣ ittwabeddel"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Llan sin"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
@@ -1748,7 +1748,7 @@ msgstr "Kkes…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "Tettnadiḍ ad tesfesxeḍ amulteɣ s lexlaṣ? Ddu ɣer <a href=\"/subscriptions\">LExlas &amp; n ujerred</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
