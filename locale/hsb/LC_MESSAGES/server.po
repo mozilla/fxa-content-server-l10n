@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 12:03+0000\n"
+"PO-Revision-Date: 2020-03-28 12:19+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -312,18 +312,20 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Smy waš abonement %(productName)s wotskazali. Waše kónčne płaćenje %(invoiceTotal)s $ je so %(invoiceDateOnly)s zapłaćiło. Waša słužba hač do kónca wašeje aktualneje wotličenskeje doby dale dźe, tuž"
+" do %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Prošu wobdźělće so na tutym <a %(cancellationSurveyLinkAttributes)s>krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby poplěpšić."
 
 #: lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby poplěpšić:"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Wulki dźak, zo sće %(productName)s abonował!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
