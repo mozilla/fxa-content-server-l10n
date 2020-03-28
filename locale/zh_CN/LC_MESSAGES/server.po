@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 11:07+0000\n"
-"Last-Translator: passionforlife <eloli@foxmail.com>\n"
+"PO-Revision-Date: 2020-03-28 19:35+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -310,7 +310,7 @@ msgstr "您的 %(productName)s 订阅已经取消，最后一次付款日期在 
 
 #: lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "请填写这份%(cancellationSurveyLinkAttributes)s简短问卷</a>，帮助我们改善服务质量："
+msgstr "请填写这份<a %(cancellationSurveyLinkAttributes)s简短问卷</a>，帮助我们改善服务质量："
 
 #: lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
