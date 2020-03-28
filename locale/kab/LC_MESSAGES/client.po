@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 10:43+0000\n"
+"PO-Revision-Date: 2020-03-28 10:50+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1213,7 +1213,7 @@ msgstr "Senqed"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Tesriḍ tangalt-nniden? Ales tuzna"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1229,7 +1229,7 @@ msgstr "Imayl yettwasenqed"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Fak tawila-ik"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1273,7 +1273,7 @@ msgstr "Ɛreḍ tikelt nniḍen"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> ."
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
@@ -1405,7 +1405,7 @@ msgstr "Uɣal ɣer iɣewwaṛen"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "Takarḍa-ik n usmad temmut. Maulac aɣilif, leqqem-itt <a %(escapedCcExpiredLinkAttrs)s>dagi</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1449,7 +1449,7 @@ msgstr "Sekcem tangalt n tririt s 10-izwilen"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Ur tezmireḍ ara ad tkecmeḍ?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1477,7 +1477,7 @@ msgstr "Ldi asnas n usesteb sakin sekcem tangalt n tɣellist i d-imudd."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Ugur deg usekcem n tengalt?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1501,11 +1501,11 @@ msgstr "Sekcem tikelt nniḍen awal uffir"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Tesriḍ awal-a uffir akken ad tkecmeḍ ɣer yisefka iwgelhanen akken ad teskelseḍ ɣur-neɣ.<br/>Awennez-is izmer ad d-yeglu s usruḥu n yisefka am wawalen uffiren neɣ ticraḍ n yisebtar."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Rmes timussniwin yelhan srid deg tebwadt-ik n urmas. Multeɣ akken ad tissineḍ ugar:"
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
@@ -1513,11 +1513,11 @@ msgstr "Rnu amiḍan"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Mtawi iminig-a akked tiliɣri-ik"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Tebɣiḍ ad temtawiḍ tiliɣri-ik?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1525,7 +1525,7 @@ msgstr "Azen Firefox srid ɣeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ a
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Azen aseɣwen s SMS akken ad tesbeddeḍ Firefox ɣef tiliɣri-ik."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
