@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-27 21:57+0000\n"
-"Last-Translator: Gabriela <gmontagu@gmail.com>\n"
+"PO-Revision-Date: 2020-03-29 03:32+0000\n"
+"Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -348,12 +348,12 @@ msgstr "Tu suscripción se renovará automáticamente cada período de facturaci
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Número de factura: <b>% (invoiceNumber)s</b>"
+msgstr "Número de factura: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Se cobró $% (invoiceTotal)s en % (invoiceDateOnly)s"
+msgstr "Se cobró $%(invoiceTotal)s en %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -728,11 +728,11 @@ msgstr "Se canceló tu suscripción de %(productName)s."
 
 #: lib/senders/email.js:1932
 msgid "%(productName)s payment received"
-msgstr "Pago recibido de% (productName) s"
+msgstr "Pago recibido de %(productName)s"
 
 #: lib/senders/email.js:2014
 msgid "%(productName)s payment confirmed"
-msgstr "Pago de% (productName) s confirmado"
+msgstr "Pago de %(productName)s confirmado"
 
 #: lib/senders/email.js:2067
 msgid "Welcome to %(productName)s!"
