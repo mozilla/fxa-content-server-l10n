@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-27 18:39+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2020-03-30 19:25+0000\n"
+"Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -599,7 +599,7 @@ msgstr "%(country)s (angenähert)"
 
 #: lib/senders/email.js:483
 msgid "Finish creating your account"
-msgstr "Beenden Sie die Erstellung Ihres Kontos"
+msgstr "Erstellung Ihres Kontos abschließen"
 
 #: lib/senders/email.js:484 lib/senders/email.js:612
 msgid "Confirm email"
@@ -611,7 +611,7 @@ msgstr "Bestätigungscode: %(code)s"
 
 #: lib/senders/email.js:592
 msgid "Reminder: Finish creating your account"
-msgstr "Erinnerung: Beenden Sie die Erstellung Ihres Kontos"
+msgstr "Erinnerung: Erstellung Ihres Kontos abschließen"
 
 #: lib/senders/email.js:594
 msgid "Final reminder: Activate your account"
