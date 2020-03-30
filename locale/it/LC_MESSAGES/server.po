@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-30 08:48+0000\n"
+"PO-Revision-Date: 2020-03-30 08:50+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -310,7 +310,7 @@ msgstr "Grazie per aver scelto Firefox! Ti ricordiamo che puoi installare la ver
 
 #: lib/senders/templates/subscriptionCancellation.html:1 lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Ci mancherai."
 
 #: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
