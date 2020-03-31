@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 21:05+0000\n"
+"PO-Revision-Date: 2020-03-31 21:10+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1756,19 +1756,19 @@ msgstr "Teqqneḍ amiḍan-ik Firefrox ɣer yifarisen n Mozilla ara k-iḥ€rze
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Ma tekkseḍ amiḍan-ik ad tqebleḍ:"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Yal ajerred slexlaṣ i tesɛiḍ ad yeḥbes"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Izmer ad tesṛuḥeḍ talɣut akked timahilin deg yifarisen n Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1792,7 +1792,7 @@ msgstr "Rnu"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Sekles tingalin n usellek"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1808,7 +1808,7 @@ msgstr "Sirew tingalin n tririt timaynutin"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Ḥrez tingalin n useqdec asuf deg umḍiq aɣelsan i wass mi ara teḥwaǧeḍ anekcum ɣer yibenk-ik aziraz."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1822,15 +1822,15 @@ msgstr "Siggez"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Sefsex asebeddi"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "Sentem tangalt n tririt"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Akken ad temneḍ tzemreḍ ad tkecmeḍ ɣer umiḍan-ik ticki tṛuḥ tiliɣri-ik, sekcem ma ulac aɣilif, yiwet seg tengalin n usellek yettwaskelsen."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
