@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 22:25+0000\n"
+"PO-Revision-Date: 2020-03-31 22:34+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -263,19 +263,19 @@ msgstr "Mmesten isefka-ik s tsarut n tririt"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr ""
+msgstr "Err-d isefka-ik yemtawin daɣen awi-tt sekra wanida telliḍ s tsarut n tririt tasuft."
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
 msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr ""
+msgstr "Ma ulac, Firefox ad immesten isefka-ik s usfaḍ-nsen ma yella awal-ik uffir yules awennez."
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "Ur sṛuḥuy ara anekcum ɣer umiḍan-ik"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr ""
+msgstr "Tansa n yimayl tis snat ad k-teǧǧ ad tkecmeḍ ɣer umiḍan-ik ma yella ur tezmireḍ ara ad teqqneḍ daɣen ma yella ur tesɛiḍ ara anekcum ɣer tnaka-ik n yimayl."
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1259
 msgid "Secondary email added"
@@ -303,37 +303,39 @@ msgstr "Tanemmirt imi tferneḍ Firefox! Tzemreḍ ad tesbeddeḍ Firefox aziraz
 
 #: lib/senders/templates/subscriptionCancellation.html:1 lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Neḥzen imi tṛuḥeḍ"
 
 #: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Nsefsex ajerred-ik %(productName)s. Axelleṣ-ik aneggaru n $%(invoiceTotal)s yeḍra-d deg %(invoiceDateOnly)s. Ameẓlu-ik ad ikemmel arma d taggar n twala n ufter, win ara yilin deg "
+"%(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a %(cancellationSurveyLinkAttributes)s>tefrant-a wezzilen</a>."
 
 #: lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Tanemmirt ɣef ujerred ɣer %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr ""
+msgstr "Ad tremseḍ imayl-nniden ɣef iwellihen n usader, akken daɣen ad tebduḍ aseqdec n %(productName)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:4 lib/senders/templates/subscriptionFirstInvoice.txt:3
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
@@ -384,7 +386,7 @@ msgstr "Kra n wussan aya terniḍ amiḑan Firefox, dacu mazal ur t-tsentmeḍ a
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
