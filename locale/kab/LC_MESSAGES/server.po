@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 21:53+0000\n"
+"PO-Revision-Date: 2020-03-31 21:55+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -689,7 +689,7 @@ msgstr "Asesteb s snat n tarrayin yensa"
 
 #: lib/senders/email.js:1586
 msgid "Recovery code used"
-msgstr ""
+msgstr "Tangalt n usellek tettwaseqdec"
 
 #: lib/senders/email.js:1639
 msgid "1 recovery code remaining"
@@ -705,7 +705,7 @@ msgstr "Sirew tingalin"
 
 #: lib/senders/email.js:1768
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Awal uffir ibeddel s tsarut n tririt"
 
 #: lib/senders/email.js:1769
 msgid "Create new recovery key"
@@ -713,23 +713,23 @@ msgstr "Rnu tasarutt n tririt tamaynut"
 
 #: lib/senders/email.js:1854
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
 #: lib/senders/email.js:1932
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Lexlaṣ n %(productName)s yettwarmes"
 
 #: lib/senders/email.js:2014
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
 #: lib/senders/email.js:2067
 msgid "Welcome to %(productName)s!"
-msgstr ""
+msgstr "Ansuf deg %(productName)s!"
 
 #: lib/senders/email.js:2068
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Sader %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
