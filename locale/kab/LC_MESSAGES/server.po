@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 21:55+0000\n"
+"PO-Revision-Date: 2020-03-31 22:25+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -16,15 +16,15 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Ma yella ur tessadreḍ ara yakan %(productName)s, bdu aseqdec n tmahilin i yellan deg ujerred-ik:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Isteqsiyen ɣer ujerred-ik? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -243,11 +243,11 @@ msgstr "Ansuf ɣer twacult Firefox"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
-msgstr ""
+msgstr "Aql-ak teqqneḍ ɣer umiḍan-ik daɣen tzemreḍ ad tebduḍ tunigin s tɣellist."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr ""
+msgstr "Tura, faṛes seg tuget n tegnatin seg Firefox s tuqqna sekra wanida telliḍ neɣ tettinigeḍ."
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
@@ -259,7 +259,7 @@ msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Mmesten isefka-ik s tsarut n tririt"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
