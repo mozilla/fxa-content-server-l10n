@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 21:10+0000\n"
+"PO-Revision-Date: 2020-03-31 21:15+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1834,7 +1834,7 @@ msgstr "Akken ad temneḍ tzemreḍ ad tkecmeḍ ɣer umiḍan-ik ticki tṛuḥ
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Tangalt n usellek"
 
 #: .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1842,7 +1842,7 @@ msgstr "Sentem"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions &amp; Payments"
-msgstr ""
+msgstr "Ajerred d uxelleṣ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1850,19 +1850,19 @@ msgstr "Sefrek…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "Sekcem tangalt s ufus"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Sekcem tasarut-a tabaḍnit ɣer usnas n usesteb:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Ticki yemmed, tingalin n tɣellist ara taruḍ ad bdunt ad ttlalent."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Ihegga"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1982,7 +1982,7 @@ msgstr "Immed, Tasarutt n tririt tettwasekles"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Rnu tansa imayl tis snat"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
