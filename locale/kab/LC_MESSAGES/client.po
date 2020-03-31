@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 21:33+0000\n"
+"PO-Revision-Date: 2020-03-31 21:43+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1986,7 +1986,7 @@ msgstr "Rnu tansa imayl tis snat"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Tansa n yimayl tis snat ad k-teǧǧ ad tkecmeḍ ɣer umiḍan-ik ma yella ur tezmireḍ ara ad teqqneḍ daɣen ma yella ur tesɛiḍ ara anekcum ɣer %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1995,7 +1995,7 @@ msgstr "Ahat ticki"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "Seqdec imayl-nniḍen"
+msgstr "Seqdec tansa n yimayl-nniḍen"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2019,15 +2019,15 @@ msgstr "Sentem awal uffir"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Ma ulac aɣilif, sentem awal-ik uffir i %(escapedEmail)s akken ad teslaleḍ tasarut-ik n tririt."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Sekcem tasarut-ik n tririt akken ad tsentmeḍ asekles n unɣal."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Sekles tasarut n tririt"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2059,7 +2059,7 @@ msgstr "Tansa IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "Jerred akken ad tkecmeḍ ɣer wugar n tmahilin:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2067,7 +2067,7 @@ msgstr "Iminig Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Mtawi ticraḍ-ik n yisebtar, awalen uffiren d wayen-nniden deg yibenk-ik."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -2075,7 +2075,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Kcem s wudem aɣelsan ɣer wawalen uffiren i teskelseḍ deg Firefox neɣ sekra wanida i telliḍ, ula beṛṛa n yiminig."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2083,7 +2083,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Awi ilɣa ticki tella trewla n yisefka."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
@@ -2091,11 +2091,11 @@ msgstr "Firefox Send"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Send larger files securely and privately."
-msgstr ""
+msgstr "Azen ifuyla meqqren s wudem aɣelsan, abaḍni."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Qqim deg tɣellist &mdash; -ik uffiren."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2115,7 +2115,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "IZen-ik yettwazen ɣer tallelt"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
