@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 12:53+0000\n"
+"PO-Revision-Date: 2020-03-31 13:07+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -304,25 +304,27 @@ msgstr "Firefox’u seçtiğiniz için teşekkürler! Firefox’un mobil uygulam
 
 #: lib/senders/templates/subscriptionCancellation.html:1 lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Ayrılık sevdaya dahil"
 
 #: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"%(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s $ tutarındaki son ödemenizi %(invoiceDateOnly)s tarihinde almıştık. Ödediğiniz dönemin son günü olan %(serviceLastActiveDateOnly)s "
+"tarihine kadar hizmetiniz devam edecektir."
 
 #: lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Hizmetlerimizi iyileştirebilmemiz için bu <a %(cancellationSurveyLinkAttributes)s>kısa ankete</a> katılmanızı rica ederiz."
 
 #: lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "%(productName)s abonesi olduğunuz için teşekkür ederiz!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -348,7 +350,7 @@ msgstr "%(invoiceDateOnly)s tarihinde %(invoiceTotal)s $ tahsil edildi"
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(lastFour)s ile biten %(cardType)s kartı"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -730,7 +732,7 @@ msgstr ""
 
 #: lib/senders/email.js:2068
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s uygulamasını indirin"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
