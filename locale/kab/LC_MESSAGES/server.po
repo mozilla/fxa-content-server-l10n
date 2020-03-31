@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-31 22:34+0000\n"
+"PO-Revision-Date: 2020-03-31 22:53+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -398,23 +398,23 @@ msgstr "Aqla-k da?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Imalas aya, terniḍ amiḍan Firefox, maca ur ǧǧin tsentmeḍ-t. Ihi aql-aɣ netqelleq."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Rmed tawacult n yifarisen Firefox"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ, bdu s:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -426,7 +426,7 @@ msgstr "Sentem tuqqna"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Ma ih, att-a tengalt n usenqed:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
@@ -462,11 +462,11 @@ msgstr "Ticki ittwasenqed, tansa-yagi ad s-yaweḍ isentam akked ilγa n tγelli
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Seqdec tangalt-a n usenqed:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Aya ad yemmet deg 5 n tesdatin. Ticki ittwasenqed, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -474,7 +474,7 @@ msgstr "D kečč i d-yessutren ajerred-agi?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Ma ih, seqdec tangalt-a n usenqed:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -526,15 +526,15 @@ msgstr "Tasertit tabaḍnit n Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Tiwtilin n useqdec n Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Tremseḍ-d izen-a acku %(email)s igber amiḍan Firefox daɣen tjerrdeḍ ɣer umulteɣ n %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Sefrek iɣewwaṛen n umiḍan-ik Firefox s tirza ɣer <a %(accountSettingsLinkAttributes)s>usebter n umiḍan-ik</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
