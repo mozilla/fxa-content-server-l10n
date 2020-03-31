@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 10:38+0000\n"
+"PO-Revision-Date: 2020-03-31 21:53+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -337,26 +337,26 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Uṭṭun n tfaturt: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "$%(invoiceTotal)s yettwafter deg %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "Takarḍa %(cardType)s tettfak s %(lastFour)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Uṭṭun n tfaturt: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -536,7 +536,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Tiwtilin akked tsertit n usefsex"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
@@ -544,19 +544,19 @@ msgstr "Sefsex ajerred"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Aleqqem n telɣut n ufeter"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Usḍif"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Tabaḍnit"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Tiwtilin akked tsertit n usefsex:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -564,11 +564,11 @@ msgstr "Tasertit n tbaḍnit:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Sefsex ajerred:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Aleqqem n telɣut n ufeter:"
 
 #: lib/senders/email.js:266
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -596,7 +596,7 @@ msgstr "%(country)s (ahat)"
 
 #: lib/senders/email.js:483
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Fak timerna n umiḍan-ik"
 
 #: lib/senders/email.js:484 lib/senders/email.js:612
 msgid "Confirm email"
@@ -604,19 +604,19 @@ msgstr "Sentem imayl"
 
 #: lib/senders/email.js:551
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Tangalt n usenqed: %(code)s"
 
 #: lib/senders/email.js:592
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Asmekti: Fak timerna n umiḍan-ik"
 
 #: lib/senders/email.js:594
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Asmekti aneggaru: Rmed amiḍan-ik"
 
 #: lib/senders/email.js:649
 msgid "Account authorization code"
-msgstr ""
+msgstr "Tangalt n tsiregt n umiḍan"
 
 #: lib/senders/email.js:718
 msgid "Confirm new sign-in to %(clientName)s"
@@ -624,11 +624,11 @@ msgstr "Sentem tuqqna tamaynut ɣer %(clientName)s"
 
 #: lib/senders/email.js:763
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Tangalt n tuqqna i %(serviceName)s"
 
 #: lib/senders/email.js:828
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Sentem tansa tagejdant"
 
 #: lib/senders/email.js:829 lib/senders/email.js:888 lib/senders/email.js:956
 msgid "Verify email"
@@ -636,7 +636,7 @@ msgstr "Seqed tansa-inek imayl"
 
 #: lib/senders/email.js:887 lib/senders/email.js:955
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Sentem tansa tis snat"
 
 #: lib/senders/email.js:1011
 msgid "Reset your password"
@@ -648,7 +648,7 @@ msgstr "Awal uffir yettuleqqem"
 
 #: lib/senders/email.js:1121
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Armud anida yella ccek yettwaf"
 
 #: lib/senders/email.js:1163 lib/senders/email.js:1260 lib/senders/email.js:1388 lib/senders/email.js:1424 lib/senders/email.js:1458 lib/senders/email.js:1501 lib/senders/email.js:1544
 #: lib/senders/email.js:1587 lib/senders/email.js:1677 lib/senders/email.js:1723
@@ -665,7 +665,7 @@ msgstr "Qqen ibenk-nniḍen"
 
 #: lib/senders/email.js:1299
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Swel tansa n yimayl n tririt"
 
 #: lib/senders/email.js:1300
 msgid "Add a secondary email"
@@ -673,7 +673,7 @@ msgstr "Rnu imayl wis sin"
 
 #: lib/senders/email.js:1350 lib/senders/email.js:1351
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Awi tasarut n tririt"
 
 #: lib/senders/email.js:1387
 msgid "Primary email updated"
@@ -681,11 +681,11 @@ msgstr "Imayl amezwaru ittuleqqem"
 
 #: lib/senders/email.js:1457
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Asesteb s snat n tarrayin yermed"
 
 #: lib/senders/email.js:1500
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Asesteb s snat n tarrayin yensa"
 
 #: lib/senders/email.js:1586
 msgid "Recovery code used"
