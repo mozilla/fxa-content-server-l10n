@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-04-01 07:43+0000\n"
+"PO-Revision-Date: 2020-04-01 07:40+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1230,7 +1230,7 @@ msgstr "E-pošta potrjena"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Dokončajte svojo nastavitev"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1514,7 +1514,7 @@ msgstr "Ustvari račun"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Sinhronizirajte ta brskalnik s telefonom"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
@@ -1843,7 +1843,7 @@ msgstr "Potrdi"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions &amp; Payments"
-msgstr ""
+msgstr "Naročnine in plačila"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
