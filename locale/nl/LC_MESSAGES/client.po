@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-30 05:41+0000\n"
-"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2020-04-01 18:33+0000\n"
+"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -1847,7 +1847,7 @@ msgstr "Bevestigen"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions &amp; Payments"
-msgstr "Abonnementen & amp; betalingen"
+msgstr "Abonnementen &amp; betalingen"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
