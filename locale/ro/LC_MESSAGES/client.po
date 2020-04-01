@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-04-01 06:08+0000\n"
+"PO-Revision-Date: 2020-04-01 14:35+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1567,7 +1567,7 @@ msgstr "Verifică mesajele telefonice"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Ți-am trimis un mesaj text"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
