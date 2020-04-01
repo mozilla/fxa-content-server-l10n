@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-04-01 14:35+0000\n"
+"PO-Revision-Date: 2020-04-01 14:36+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1762,7 +1762,7 @@ msgstr "Șterge…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "Vrei să anulezi un abonament cu plată? Intră pe <a href=\"/subscriptions\">Abonamente și plăți</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1856,7 +1856,7 @@ msgstr "Confirmă"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions &amp; Payments"
-msgstr ""
+msgstr "Abonamente și plăți"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2154,7 +2154,7 @@ msgstr "Dispozitiv conectat"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Conectare realizată cu succes"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2178,7 +2178,7 @@ msgstr "Procesul de configurare a fost întrerupt."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Scanează pentru a conecta alt dispozitiv"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2194,7 +2194,7 @@ msgstr "Obține aplicația"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Dispozitiv asociat cu succes"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
