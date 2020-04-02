@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-04-02 19:33+0000\n"
+"PO-Revision-Date: 2020-04-02 19:38+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1517,11 +1517,11 @@ msgstr "Crear un conto"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Synchronisa iste navigator con tu telephono"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Vole tu synchronisar tu telephono?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1529,7 +1529,7 @@ msgstr "Invia FIrefox directemente a tu telephono e authentica te pro completar 
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Inviar un ligamine per SMS pro installar Firefox sur tu telephono."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
@@ -1557,7 +1557,7 @@ msgstr "Reguarda tu messages de texto"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Nos te ha inviate un message de texto"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -2145,7 +2145,7 @@ msgstr "Apparato connectite"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Connectite con successo"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
