@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"POT-Creation-Date: 2020-04-03 16:02+0000\n"
 "PO-Revision-Date: 2020-03-22 03:09+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "Мы заметили, что у вас осталось мало код
 msgid "Generate codes:"
 msgstr "Сгенерировать коды:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1162
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1164
 msgid "New sign-in to %(clientName)s"
 msgstr "Новый вход в %(clientName)s"
 
@@ -130,7 +130,7 @@ msgstr "Всего наилучшего,"
 msgid "The Firefox Accounts team"
 msgstr "Команда Аккаунтов Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1676
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1678
 msgid "Account recovery key generated"
 msgstr "Сгенерирован ключ восстановления аккаунта"
 
@@ -190,7 +190,7 @@ msgstr "Вы успешно использовали код восстановл
 msgid "Consumed recovery code"
 msgstr "Использованный код восстановления"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1543
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1545
 msgid "New recovery codes generated"
 msgstr "Сгенерированы новые коды восстановления"
 
@@ -198,7 +198,7 @@ msgstr "Сгенерированы новые коды восстановлен�
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Вы успешно сгенерировали новые коды восстановления со следующего устройства:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1722
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1724
 msgid "Account recovery key removed"
 msgstr "Ключ восстановления аккаунта удалён"
 
@@ -214,7 +214,7 @@ msgstr "Этот ключ восстановления больше не мож�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Вы успешно удалили ключ восстановления аккаунта для вашего Аккаунта Firefox из следующего устройства:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1423
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1425
 msgid "Secondary email removed"
 msgstr "Удалена альтернативная эл. почта"
 
@@ -278,7 +278,7 @@ msgstr "Защитите себя от блокировки"
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
 msgstr "Добавление альтернативной электронной почты поможет восстановить ваш аккаунт, если он будет заблокирован и вы не можете получить доступ к своей электронной почте."
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1259
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1261
 msgid "Secondary email added"
 msgstr "Добавлена альтернативная эл. почта"
 
@@ -296,7 +296,7 @@ msgstr "Нужно сбросить свой пароль?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Щёлкните по кнопке в течение следующего часа, чтобы создать новый пароль. Запрос пришел со следующего устройства:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1012
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1014
 msgid "Create new password"
 msgstr "Создать новый пароль"
 
@@ -304,22 +304,27 @@ msgstr "Создать новый пароль"
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Спасибо, что выбрали Firefox! Вы можете установить Firefox для мобильных устройств отсюда: %(link)s"
 
-#: lib/senders/templates/subscriptionCancellation.html:1 lib/senders/templates/subscriptionCancellation.txt:1
+#: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
+#: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
+msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionCancellation.html:3
+msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
+msgid "Please help us improve our services by taking this short survey:"
 msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionCancellation.html:3
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
 msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
@@ -421,7 +426,7 @@ msgstr "Подтвердите свой аккаунт и получите ма�
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход со следующего устройства:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:721
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:723
 msgid "Confirm sign-in"
 msgstr "Подтвердить вход"
 
@@ -573,164 +578,164 @@ msgstr "Отменить подписку:"
 msgid "Update billing information:"
 msgstr "Обновить платёжную информацию:"
 
-#: lib/senders/email.js:266
+#: lib/senders/email.js:268
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:271
+#: lib/senders/email.js:273
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:299
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (приблизительно)"
 
-#: lib/senders/email.js:304
+#: lib/senders/email.js:306
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизительно)"
 
-#: lib/senders/email.js:309
+#: lib/senders/email.js:311
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (приблизительно)"
 
-#: lib/senders/email.js:314
+#: lib/senders/email.js:316
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизительно)"
 
-#: lib/senders/email.js:483
+#: lib/senders/email.js:485
 msgid "Finish creating your account"
 msgstr "Завершите создание вашего аккаунта"
 
-#: lib/senders/email.js:484 lib/senders/email.js:612
+#: lib/senders/email.js:486 lib/senders/email.js:614
 msgid "Confirm email"
 msgstr "Подтвердить электронную почту"
 
-#: lib/senders/email.js:551
+#: lib/senders/email.js:553
 msgid "Verification code: %(code)s"
 msgstr "Код подтверждения: %(code)s"
 
-#: lib/senders/email.js:592
+#: lib/senders/email.js:594
 msgid "Reminder: Finish creating your account"
 msgstr "Напоминание: Завершите создание вашего аккаунта"
 
-#: lib/senders/email.js:594
+#: lib/senders/email.js:596
 msgid "Final reminder: Activate your account"
 msgstr "Последнее напоминание: Активируйте ваш аккаунт"
 
-#: lib/senders/email.js:649
+#: lib/senders/email.js:651
 msgid "Account authorization code"
 msgstr "Код авторизации аккаунта"
 
-#: lib/senders/email.js:718
+#: lib/senders/email.js:720
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Подтвердите новый вход в %(clientName)s"
 
-#: lib/senders/email.js:763
+#: lib/senders/email.js:765
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Код для входа в %(serviceName)s"
 
-#: lib/senders/email.js:828
+#: lib/senders/email.js:830
 msgid "Confirm primary email"
 msgstr "Подтвердите основную электронную почту"
 
-#: lib/senders/email.js:829 lib/senders/email.js:888 lib/senders/email.js:956
+#: lib/senders/email.js:831 lib/senders/email.js:890 lib/senders/email.js:958
 msgid "Verify email"
 msgstr "Подтвердить почту"
 
-#: lib/senders/email.js:887 lib/senders/email.js:955
+#: lib/senders/email.js:889 lib/senders/email.js:957
 msgid "Confirm secondary email"
 msgstr "Подтвердите альтернативную электронную почту"
 
-#: lib/senders/email.js:1011
+#: lib/senders/email.js:1013
 msgid "Reset your password"
 msgstr "Восстановить ваш пароль"
 
-#: lib/senders/email.js:1053 lib/senders/email.js:1091
+#: lib/senders/email.js:1055 lib/senders/email.js:1093
 msgid "Password updated"
 msgstr "Пароль изменён"
 
-#: lib/senders/email.js:1121
+#: lib/senders/email.js:1123
 msgid "Suspicious activity detected"
 msgstr "Обнаружена подозрительная активность"
 
-#: lib/senders/email.js:1163 lib/senders/email.js:1260 lib/senders/email.js:1388 lib/senders/email.js:1424 lib/senders/email.js:1458 lib/senders/email.js:1501 lib/senders/email.js:1544
-#: lib/senders/email.js:1587 lib/senders/email.js:1677 lib/senders/email.js:1723
+#: lib/senders/email.js:1165 lib/senders/email.js:1262 lib/senders/email.js:1390 lib/senders/email.js:1426 lib/senders/email.js:1460 lib/senders/email.js:1503 lib/senders/email.js:1546
+#: lib/senders/email.js:1589 lib/senders/email.js:1679 lib/senders/email.js:1725
 msgid "Manage account"
 msgstr "Управление аккаунтом"
 
-#: lib/senders/email.js:1214
+#: lib/senders/email.js:1216
 msgid "Account confirmed"
 msgstr "Аккаунт подтверждён"
 
-#: lib/senders/email.js:1217
+#: lib/senders/email.js:1219
 msgid "Connect another device"
 msgstr "Подсоединить другое устройство"
 
-#: lib/senders/email.js:1299
+#: lib/senders/email.js:1301
 msgid "Set up recovery email"
 msgstr "Настройте восстановление по электронной почте"
 
-#: lib/senders/email.js:1300
+#: lib/senders/email.js:1302
 msgid "Add a secondary email"
 msgstr "Добавьте альтернативную электронную почту"
 
-#: lib/senders/email.js:1350 lib/senders/email.js:1351
+#: lib/senders/email.js:1352 lib/senders/email.js:1353
 msgid "Get a recovery key"
 msgstr "Получите ключ восстановления"
 
-#: lib/senders/email.js:1387
+#: lib/senders/email.js:1389
 msgid "Primary email updated"
 msgstr "Основная электронная почта изменена"
 
-#: lib/senders/email.js:1457
+#: lib/senders/email.js:1459
 msgid "Two-step verification enabled"
 msgstr "Двухэтапная авторизация включена"
 
-#: lib/senders/email.js:1500
+#: lib/senders/email.js:1502
 msgid "Two-step verification is off"
 msgstr "Двухэтапная авторизация отключена"
 
-#: lib/senders/email.js:1586
+#: lib/senders/email.js:1588
 msgid "Recovery code used"
 msgstr "Использован код восстановления"
 
-#: lib/senders/email.js:1639
+#: lib/senders/email.js:1641
 msgid "1 recovery code remaining"
 msgstr "Остался 1 код восстановления"
 
-#: lib/senders/email.js:1641
+#: lib/senders/email.js:1643
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Осталось %(numberRemaining)s кодов восстановления"
 
-#: lib/senders/email.js:1644
+#: lib/senders/email.js:1646
 msgid "Generate codes"
 msgstr "Сгенерировать коды"
 
-#: lib/senders/email.js:1768
+#: lib/senders/email.js:1770
 msgid "Password updated using recovery key"
 msgstr "Пароль изменён с использованием ключа восстановления"
 
-#: lib/senders/email.js:1769
+#: lib/senders/email.js:1771
 msgid "Create new recovery key"
 msgstr "Создать новый ключ восстановления"
 
-#: lib/senders/email.js:1854
+#: lib/senders/email.js:1850 lib/senders/email.js:1924
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:1932
+#: lib/senders/email.js:2004
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2014
+#: lib/senders/email.js:2086
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2067
+#: lib/senders/email.js:2139
 msgid "Welcome to %(productName)s!"
 msgstr "Добро пожаловать в %(productName)s!"
 
-#: lib/senders/email.js:2068
+#: lib/senders/email.js:2140
 msgid "Download %(productName)s"
 msgstr "Загрузить %(productName)s"
 
