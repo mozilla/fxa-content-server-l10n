@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"POT-Creation-Date: 2020-04-03 16:02+0000\n"
 "PO-Revision-Date: 2020-03-07 22:48+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,7 @@ msgstr "변경"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -275,19 +275,19 @@ msgstr "Firefox 또는 계정 관리시 표시할 이름을 선택해주세요."
 msgid "Display name updated"
 msgstr "표시 이름 갱신됨"
 
-#: .es5/views/settings/emails.js:106
+#: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
 msgstr "보조 이메일 삭제됨"
 
-#: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:161 .es5/views/settings/emails.js:178 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "검증 이메일 보냄"
 
-#: .es5/views/settings/emails.js:173
+#: .es5/views/settings/emails.js:200
 msgid "Primary email set to %(email)s"
 msgstr "주 이메일을 %(email)s로 설정"
 
-#: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:221 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "보조 이메일"
 
@@ -515,7 +515,7 @@ msgstr "요청 서명에 잘못된 타임스탬프"
 msgid "Invalid nonce in request signature"
 msgstr "요청 서명이 유효하지 않음"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:172
 msgid "Account already exists"
 msgstr "계정이 이미 존재함"
 
@@ -567,7 +567,7 @@ msgstr "요청 본문이 너무 큼"
 msgid "The request was blocked for security reasons"
 msgstr "보안상의 이유로 요청이 차단 되었습니다"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:505
 msgid "Invalid authorization code"
 msgstr "잘못된 인증 코드"
 
@@ -603,280 +603,284 @@ msgstr "이미 다른 사용자에 의해 검증된 이메일입니다"
 msgid "Secondary email must be different than your account email"
 msgstr "보조 이메일은 계정 이메일과 달라야 합니다"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:168
+msgid "You have reached the maximum allowed secondary emails"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:176
 msgid "Primary account email required for sign-in"
 msgstr "로그인을 위한 기본 계정 이메일"
 
-#: .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:180
 msgid "Address in use by another account"
 msgstr "다른 계정에서 사용중인 주소"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for reset"
 msgstr "재설정을 위한 기본 계정 이메일"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Invalid signin code"
 msgstr "유효하지않은 로그인 코드"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Can not change primary email to an unverified email"
 msgstr "기본 이메일을 검증되지 않은 이메일로 변경할 수 없음"
 
-#: .es5/lib/auth-errors.js:192 .es5/lib/auth-errors.js:200
+#: .es5/lib/auth-errors.js:196 .es5/lib/auth-errors.js:204
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "기본 이메일을 이 계정에 속하지 않은 이메일로 변경할 수 없음"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "This email can not currently be used to login"
 msgstr "이 이메일은 현재 로그인할 때 사용할 수 없음"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "Failed to send email"
 msgstr "이메일 전송 실패"
 
-#: .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:212
 msgid "Valid code required"
 msgstr "유효한 코드가 필요함"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "This verification code has expired"
 msgstr "이 검증 코드는 만료됨"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "A TOTP token already exists for this account"
 msgstr "이 계정에 대한 TOTP 토큰이 이미 존재합니다"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "TOTP token not found"
 msgstr "TOTP 토큰을 찾을 수 없습니다"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "Recovery code not found"
 msgstr "복구 코드를 찾을 수 없습니다"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "Unavailable device command"
 msgstr "사용할 수 없는 기기 명령"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery key not found"
 msgstr "복구 키를 찾을 수 없음"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Invalid recovery key"
 msgstr "유효하지 않은 복구 키"
 
-#: .es5/lib/auth-errors.js:240 .es5/lib/auth-errors.js:248
+#: .es5/lib/auth-errors.js:244 .es5/lib/auth-errors.js:252
 msgid "This request requires two step authentication enabled on your account."
 msgstr "이 요청은 사용자의 계정에서 2단계 인증을 활성화해야 합니다."
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Failed due to a conflicting request, please try again."
 msgstr "충돌된 요청으로 인해 실패했습니다. 다시 시도하세요."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Unknown customer for subscription."
 msgstr "알 수 없는 구독자."
 
-#: .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:260
 msgid "Unknown subscription."
 msgstr "알 수 없는 구독."
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown plan for subscription."
 msgstr "알 수 없는 구독 플랜."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Invalid payment token for subscription."
 msgstr "구독용 결제 토큰이 잘못되었습니다."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Subscription has already been cancelled"
 msgstr "구독이 이미 취소되었습니다"
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Update was rejected, please try again"
 msgstr "업데이트가 거부되었습니다, 다시 시도하세요"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Invalid or expired verification code"
 msgstr "유효하지 않거나 만료된 검증 코드"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:485
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Feature not enabled"
 msgstr "기능이 활성화되지 않음"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:300 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:304 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300
 msgid "This endpoint is no longer supported"
 msgstr "더 이상 지원하지 않음"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "Login attempt cancelled"
 msgstr "로그인 시도 취소됨"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312
 msgid "Session expired. Sign in to continue."
 msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Cookies are still disabled"
 msgstr "쿠키가 여전히 꺼져있음"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Passwords do not match"
 msgstr "비밀번호가 일치하지 않음"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Working…"
 msgstr "진행중..."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Could not get Privacy Notice"
 msgstr "개인 정보 보호 정책을 가져올 수 없음"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Could not get Terms of Service"
 msgstr "서비스 약관을 가져올 수 없음"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Your new password must be different"
 msgstr "새 비밀번호는 이전의 비밀번호와 달라야 합니다"
 
-#: .es5/lib/auth-errors.js:336 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:340 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "최소 8글자 이상 입력해야 합니다"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Valid password required"
 msgstr "올바른 비밀번호가 필요합니다"
 
-#: .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:404
 msgid "Valid email required"
 msgstr "올바른 이메일이 필요합니다"
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:360
 msgid "A usable image was not found"
 msgstr "사용 할 이미지를 찾을 수 없습니다"
 
-#: .es5/lib/auth-errors.js:360
+#: .es5/lib/auth-errors.js:364
 msgid "Could not initialize camera"
 msgstr "카메라를 초기화 할 수 없습니다"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "Valid URL required"
 msgstr "올바른 URL 입력이 필요합니다"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:384
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "검증 이메일이 반송되었습니다. 이메일을 잘못 입력하셨나요?"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "올바른 이메일 주소를 입력해 주세요. firefox.com은 이메일을 제공하지 않습니다."
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: .es5/lib/auth-errors.js:416 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:420 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "검증 링크가 손상됨"
 
-#: .es5/lib/auth-errors.js:424
+#: .es5/lib/auth-errors.js:428
 msgid "The image dimensions must be at least 100x100px"
 msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS용 Firefox를 위한 회원가입이 곧 제공됩니다"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "You must enter your age to sign up"
 msgstr "회원가입을 하려면 나이를 기입해야 합니다"
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:448
 msgid "You must enter a valid age to sign up"
 msgstr "회원가입을 하려면 유효한 나이를 입력해야 합니다."
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:464
 msgid "Account no longer exists."
 msgstr "계정이 더이상 존재하지 않습니다."
 
-#: .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:468
 msgid "Invalid property in resume token: %(property)s"
 msgstr "토큰 내 유효하지 않은 속성: %(property)s"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Missing property in resume token: %(property)s"
 msgstr "토큰 내 누락된 속성: %(property)s"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid data attribute: %(property)s"
 msgstr "올바르지 않은 데이터 속성: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing data attribute: %(property)s"
 msgstr "누락된 데이터 속성: %(property)s"
 
-#: .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:543 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:547 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "이 승인 링크는 이미 사용되었습니다."
 
-#: .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:497
 msgid "This is a required field"
 msgstr "필수 필드입니다"
 
-#: .es5/lib/auth-errors.js:497
+#: .es5/lib/auth-errors.js:501
 msgid "Authorization code required"
 msgstr "인증 코드 필요"
 
-#: .es5/lib/auth-errors.js:505 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:509 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "손상된 링크"
 
-#: .es5/lib/auth-errors.js:528
+#: .es5/lib/auth-errors.js:532
 msgid "Phone number required"
 msgstr "전화번호를 입력하세요"
 
-#: .es5/lib/auth-errors.js:547
+#: .es5/lib/auth-errors.js:551
 msgid "Two-step authentication code required"
 msgstr "2단계 인증 코드 필요"
 
-#: .es5/lib/auth-errors.js:551
+#: .es5/lib/auth-errors.js:555
 msgid "Invalid two-step authentication code"
 msgstr "잘못된 2단계 인증 코드"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Recovery code required"
 msgstr "복구 코드 필요"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid recovery code"
 msgstr "잘못된 복구 코드"
 
-#: .es5/lib/auth-errors.js:573
+#: .es5/lib/auth-errors.js:577
 msgid "Recovery key required"
 msgstr "복구 키가 필요함"
 
-#: .es5/lib/auth-errors.js:577
+#: .es5/lib/auth-errors.js:581
 msgid "Please enter verification code"
 msgstr "검증 코드를 입력하세요"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
 msgstr "잘못된 리디렉션"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr ""
 
@@ -1635,7 +1639,7 @@ msgstr "카메라"
 msgid "Clear"
 msgstr "지우기"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "완료"
@@ -1733,7 +1737,7 @@ msgstr "Android용 Firefox"
 msgid "Missing or duplicate items?"
 msgstr "누락되었거나 중복된 항목이 있나요?"
 
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
 msgstr "상태 새로고침"
@@ -1790,7 +1794,15 @@ msgstr "주 이메일로 사용"
 msgid "Remove"
 msgstr "삭제"
 
-#: .es5/templates/settings/emails.mustache:28
+#: .es5/templates/settings/emails.mustache:24
+msgid "Refresh"
+msgstr "새로고침"
+
+#: .es5/templates/settings/emails.mustache:25
+msgid "Add email"
+msgstr ""
+
+#: .es5/templates/settings/emails.mustache:30
 msgid "Add"
 msgstr "추가"
 
@@ -1845,8 +1857,8 @@ msgid "Confirm"
 msgstr "확인"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions &amp; Payments"
-msgstr ""
+msgid "Subscriptions & Payments"
+msgstr "구독 및 결제"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2208,9 +2220,6 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
 #~ msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">구독 관리</a>로 이동하십시오."
 
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "구독 및 결제"
-
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "SMS 서비스는 특정 국가에서만 사용가능합니다. SMS와 데이터 요금이 적용될 수 있습니다. 이메일 또는 SMS 수신자가 동의해야합니다. <a %(escapedLearnMoreAttributes)s>자세히 알아보기</a>"
@@ -2432,9 +2441,6 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s 메일이 등록되었습니다."
-
-#~ msgid "Refresh"
-#~ msgstr "새로고침"
 
 #~ msgid "Communication preferences"
 #~ msgstr "통신 설정"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"POT-Creation-Date: 2020-04-03 16:02+0000\n"
 "PO-Revision-Date: 2020-03-28 12:01+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,7 @@ msgstr "Změnić"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -275,19 +275,19 @@ msgstr "Wubjerće mjeno, kotrež ma so w Firefox jewić a hdyž swoje konto rjad
 msgid "Display name updated"
 msgstr "Zwobraznjenske mjeno zaktualizowane"
 
-#: .es5/views/settings/emails.js:106
+#: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
 msgstr "Sekundarna e-mejlowa adresa wotstronjena"
 
-#: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:161 .es5/views/settings/emails.js:178 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "Wobkrućenska e-mejl je so pósłała"
 
-#: .es5/views/settings/emails.js:173
+#: .es5/views/settings/emails.js:200
 msgid "Primary email set to %(email)s"
 msgstr "Primarna e-mejlowa adresa na %(email)s stajena"
 
-#: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:221 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Druha e-mejlowa adresa"
 
@@ -515,7 +515,7 @@ msgstr "Njepłaćiwy časowy kołk w naprašowanskej signaturje"
 msgid "Invalid nonce in request signature"
 msgstr "Njepłaćiwy nonce w naprašowanskej signaturje"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:172
 msgid "Account already exists"
 msgstr "Konto hižo eksistuje"
 
@@ -567,7 +567,7 @@ msgstr "Naprašowanske ćěleso je předołhe"
 msgid "The request was blocked for security reasons"
 msgstr "Naprašowanje je so z přičinow wěstoty zablokowało"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:505
 msgid "Invalid authorization code"
 msgstr "Njepłaćiwy awtorizowanski kod"
 
@@ -603,280 +603,284 @@ msgstr "Tuta e-mejl je so hižo wot druheho wužiwarja wobkrućiła"
 msgid "Secondary email must be different than your account email"
 msgstr "Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:168
+msgid "You have reached the maximum allowed secondary emails"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:176
 msgid "Primary account email required for sign-in"
 msgstr "Primarna e-mejlowa adresa je trěbna za přizjewjenje"
 
-#: .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:180
 msgid "Address in use by another account"
 msgstr "Adresa so wot druheho konta wužiwa"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for reset"
 msgstr "Primarna e-mejlowa adresa je trěbna za wróćostajenje"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Invalid signin code"
 msgstr "Njepłaćiwy přizjewjenski kod"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Can not change primary email to an unverified email"
 msgstr "Primarna e-mejlowa adresa njeda so do njewobkrućeneje e-mejloweje adresy změnić"
 
-#: .es5/lib/auth-errors.js:192 .es5/lib/auth-errors.js:200
+#: .es5/lib/auth-errors.js:196 .es5/lib/auth-errors.js:204
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Primarna e-mejlowa adresa njeda so do e-mejloweje adresy změnić, kotraž k tutomu kontu njesłuša"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "This email can not currently be used to login"
 msgstr "Tuta e-mejlowa adresa njeda so tuchwilu za přizjewjenje wužiwać"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "Failed to send email"
 msgstr "E-mejlowa adresa njeda so słać"
 
-#: .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:212
 msgid "Valid code required"
 msgstr "Płaćiwy kod trěbny"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "This verification code has expired"
 msgstr "Tutón přepruwowanski kod je spadnył"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "A TOTP token already exists for this account"
 msgstr "TOTP-token za tute konto hižo eksistuje"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "TOTP token not found"
 msgstr "TOTP-token njeje so namakał"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "Recovery code not found"
 msgstr "Wobnowjenski kod njeje so namakał"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "Unavailable device command"
 msgstr "Gratowy přikaz k dispoziciji njeje"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery key not found"
 msgstr "Wobnowjenski kluč njeje so namakał"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Invalid recovery key"
 msgstr "Njepłaćiwy wobnowjenski kluč"
 
-#: .es5/lib/auth-errors.js:240 .es5/lib/auth-errors.js:248
+#: .es5/lib/auth-errors.js:244 .es5/lib/auth-errors.js:252
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Za tute naprašowanje dyrbi dwukročelowa awtentifikacija zmóžnjena być."
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Njeje so přećiwneho naprašowanja dla poradźiło, spytajće prošu hišće raz."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Unknown customer for subscription."
 msgstr "Njeznaty kupc za abonement."
 
-#: .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:260
 msgid "Unknown subscription."
 msgstr "Njeznaty abonement."
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown plan for subscription."
 msgstr "Njeznaty plan za abonement."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Invalid payment token for subscription."
 msgstr "Njepłaćiwy płaćenski token za abonement."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Subscription has already been cancelled"
 msgstr "Abonement je hižo wupowědźeny"
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Update was rejected, please try again"
 msgstr "Aktualizacija je so wotpokazała, prošu spytajće hišće raz"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Invalid or expired verification code"
 msgstr "Njepłaćiwy abo spadnjeny wobkrućenski kod"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:485
 msgid "Server busy, try again soon"
 msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Feature not enabled"
 msgstr "Funkcija zmóžnjena njeje"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:300 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:304 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300
 msgid "This endpoint is no longer supported"
 msgstr "Tutón kónčny dypk so hižo njepodpěruje"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "Login attempt cancelled"
 msgstr "Přizjewjenski pospyt přetorhnjeny"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312
 msgid "Session expired. Sign in to continue."
 msgstr "Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował."
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Cookies are still disabled"
 msgstr "Placki su hišće znjemóžnjene"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Passwords do not match"
 msgstr "Hesle jenakej njejstej"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Working…"
 msgstr "Je hišće w dźěle…"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Could not get Privacy Notice"
 msgstr "Zdźělenka priwatnosće njeje so namakała"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Could not get Terms of Service"
 msgstr "Wužiwanske wuměnjenja njejsu so namakali"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Your new password must be different"
 msgstr "Waše nowe hesło dyrbi druhe być"
 
-#: .es5/lib/auth-errors.js:336 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:340 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Dyrbi znajmjeńša 8 znamješkow dołhe być"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Valid password required"
 msgstr "Płaćiwe hesło trěbne"
 
-#: .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:404
 msgid "Valid email required"
 msgstr "Płaćiwa e-mejlowa adresa trěbna"
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:360
 msgid "A usable image was not found"
 msgstr "Wužiwajomny wobraz njeje so namakał"
 
-#: .es5/lib/auth-errors.js:360
+#: .es5/lib/auth-errors.js:364
 msgid "Could not initialize camera"
 msgstr "Kamera njeda so inicializować"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "Valid URL required"
 msgstr "Płaćiwy URL trěbny"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:384
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Zapodajće płaćiwu e-mejlowu adresu. firefox.com e-mejlowe adresy njeposkića."
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić"
 
-#: .es5/lib/auth-errors.js:416 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:420 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Wobkrućenski wotkaz wobškodźeny"
 
-#: .es5/lib/auth-errors.js:424
+#: .es5/lib/auth-errors.js:428
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wotměraj wobraza dyrbitej znajmjeńša 100x100px być"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bórze registrowanje za Firefox za iOS přińdźe"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "You must enter your age to sign up"
 msgstr "Dyrbiće swoju starobu zapodać, zo byšće so registrował"
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:448
 msgid "You must enter a valid age to sign up"
 msgstr "Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował"
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:464
 msgid "Account no longer exists."
 msgstr "Konto hižo njeeksistuje."
 
-#: .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:468
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Njepłaćiwa kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Missing property in resume token: %(property)s"
 msgstr "Falowaca kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid data attribute: %(property)s"
 msgstr "Njepłaćiwy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing data attribute: %(property)s"
 msgstr "Falowacy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:543 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:547 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tutón wobkrućenski wotkaz je so hižo wužił a da so jenož jónkróć wužiwać."
 
-#: .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:497
 msgid "This is a required field"
 msgstr "To je trěbne polo"
 
-#: .es5/lib/auth-errors.js:497
+#: .es5/lib/auth-errors.js:501
 msgid "Authorization code required"
 msgstr "Awtorizowanski kod trěbny"
 
-#: .es5/lib/auth-errors.js:505 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:509 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Wotkaz je wobškodźeny"
 
-#: .es5/lib/auth-errors.js:528
+#: .es5/lib/auth-errors.js:532
 msgid "Phone number required"
 msgstr "Telefonowe čisło trěbne"
 
-#: .es5/lib/auth-errors.js:547
+#: .es5/lib/auth-errors.js:551
 msgid "Two-step authentication code required"
 msgstr "Dwukročelowa awtentifikacija trěbna"
 
-#: .es5/lib/auth-errors.js:551
+#: .es5/lib/auth-errors.js:555
 msgid "Invalid two-step authentication code"
 msgstr "Njepłaćiwy kod za dwukročelowu awtentifikacija"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Recovery code required"
 msgstr "Wobnowjenski kod trěbny"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid recovery code"
 msgstr "Njepłaćiwy wobnowjenski kod"
 
-#: .es5/lib/auth-errors.js:573
+#: .es5/lib/auth-errors.js:577
 msgid "Recovery key required"
 msgstr "Wobnowjenski kluč trěbny"
 
-#: .es5/lib/auth-errors.js:577
+#: .es5/lib/auth-errors.js:581
 msgid "Please enter verification code"
 msgstr "Prošu zapodajće wobkrućenski kod"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
 msgstr "Njepłaćiwe dalesposrědkowanje"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "E-mejlowa adresa zapisana? %(domain)s e-mejlowu słužbu njeposkića."
 
@@ -1001,7 +1005,9 @@ msgid "Invalid Token"
 msgstr "Njepłaćiwy token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Přez to, zo pokročujeće, zwoliće do <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłow priwatnosće</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1071,10 +1077,11 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prošu zapodajće wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup na swoje konto Firefox měł."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a nimaće składowany kontowy wobnowjenski kluč, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty kaž"
-" historiju a zapołožki)."
+"<span class=\"note\">KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a nimaće składowany kontowy wobnowjenski kluč, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty "
+"kaž historiju a zapołožki)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
@@ -1634,7 +1641,7 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Zhašeć"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "Hotowo"
@@ -1732,7 +1739,7 @@ msgstr "Firefox za Android"
 msgid "Missing or duplicate items?"
 msgstr "Falowace abo dwójne elementy?"
 
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
 msgstr "Status aktualizować"
@@ -1789,7 +1796,15 @@ msgstr "K primarnej adresy činić"
 msgid "Remove"
 msgstr "Wotstronić"
 
-#: .es5/templates/settings/emails.mustache:28
+#: .es5/templates/settings/emails.mustache:24
+msgid "Refresh"
+msgstr "Aktualizować"
+
+#: .es5/templates/settings/emails.mustache:25
+msgid "Add email"
+msgstr ""
+
+#: .es5/templates/settings/emails.mustache:30
 msgid "Add"
 msgstr "Přidać"
 
@@ -1844,7 +1859,7 @@ msgid "Confirm"
 msgstr "Wobkrućić"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions &amp; Payments"
+msgid "Subscriptions & Payments"
 msgstr "Abonementy a płaćenja"
 
 #: .es5/templates/settings/subscription.mustache:2
@@ -1976,10 +1991,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Krok 2 z 2: Wobnowjenski kluč składować"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
-"<span class=\"note\">KEDŹBU: </span>Jeli swoje hesło zabudźeće, je tutón kluč trěbny, zo byšće zaso přistup na swoje daty dóstał. Składujće swój wobnowjenski kluč na wěstym městnje, hdźež móžeće jón"
-" lochko zaso namakać."
+"<span class=\"note\">KEDŹBU: </span>Jeli swoje hesło zabudźeće, je tutón kluč trěbny, zo byšće zaso přistup na swoje daty dóstał. Składujće swój wobnowjenski kluč na wěstym městnje, hdźež móžeće "
+"jón lochko zaso namakać."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2206,17 +2222,17 @@ msgstr "Z nałoženjom koplować"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować."
 
+#~ msgid "Subscriptions &amp; Payments"
+#~ msgstr "Abonementy a płaćenja"
+
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
 #~ msgstr "Chceće zapłaćeny abonement wotskazać? Dźiće k <a href=\"/subscriptions\">Abonementy rjadować</a>."
-
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "Abonementy a płaćenja"
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-słužba je jenož we wěstych krajach k dispoziciji. Za SMS a datowe přenjesenje móža popłatki nastać. Přijimar e-mejlki abo SMS dyrbi do toho přihłosować. <a %(escapedLearnMoreAttributes)s>Dalše "
-#~ "informacije</a>"
+#~ "SMS-słužba je jenož we wěstych krajach k dispoziciji. Za SMS a datowe přenjesenje móža popłatki nastać. Přijimar e-mejlki abo SMS dyrbi do toho přihłosować. <a "
+#~ "%(escapedLearnMoreAttributes)s>Dalše informacije</a>"
 
 #~ msgid "Subscriptions"
 #~ msgstr "Abonementy"
@@ -2353,11 +2369,11 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgstr "Nastajenja rjadować"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Jeli tute konto za nałoženja Mozilla a słužby kaž AMO, Pocket a Screenshots wužiwaće, wy měł so najprjedy přizjewić a składowane wosobinske daty wotstronić. Hdyž tu swoje konto zhašeće, móžeće so "
-#~ "přistup na njo wšudźe zhubić."
+#~ "Jeli tute konto za nałoženja Mozilla a słužby kaž AMO, Pocket a Screenshots wužiwaće, wy měł so najprjedy přizjewić a składowane wosobinske daty wotstronić. Hdyž tu swoje konto zhašeće, móžeće "
+#~ "so přistup na njo wšudźe zhubić."
 
 #~ msgid "verified"
 #~ msgstr "wobkrućeny"
@@ -2438,7 +2454,9 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgstr "Wužiwanske wuměnjenja abonementoweje platformy njedachu so wotwołać"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosće</a> zwolił."
+#~ msgstr ""
+#~ "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosće</a> "
+#~ "zwolił."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Wužiwanske wuměnjenja abonementoweje platformy"
@@ -2469,9 +2487,6 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s je zregistrowana."
-
-#~ msgid "Refresh"
-#~ msgstr "Aktualizować"
 
 #~ msgid "Communication preferences"
 #~ msgstr "Komunikaciske nastajenja"
@@ -2602,7 +2617,9 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Placki a lokalny składowak stej trěbnej."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">prawidłow "
 #~ "priwatnosće</a> mróčelowych słužbow Firefox."
@@ -2659,18 +2676,18 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgstr "Čehodla dwaj grataj (abo wjace) synchronizować?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync wam zmóžnja, zapołožki, historiju a hesła, kotrež na jednym graće Firefox składujeće, z druhimi gratami Firefox dźělić. Přizjewće so pola Firefox na swojim telefonje abo tableće a wšitko, štož "
-#~ "sće we Firefox za desktop składował, so zjewi."
+#~ "Sync wam zmóžnja, zapołožki, historiju a hesła, kotrež na jednym graće Firefox składujeće, z druhimi gratami Firefox dźělić. Přizjewće so pola Firefox na swojim telefonje abo tableće a wšitko, "
+#~ "štož sće we Firefox za desktop składował, so zjewi."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync jako trajne zawěsćenje mysleny njeje – zmóžnja jenož dźělić, štož je so lokalnje składowało. Jeli sće swoje hesło wróćo stajił a waše daty njejsu so na znajmjeńša jednym graće składowali, móhł "
-#~ "wy wšě daty zhubić, kotrež su ze starym hesłom zwjazane. Tohodla wy měł Firefox instalować a Sync na wjace hač jednym graće wužiwać."
+#~ "Sync jako trajne zawěsćenje mysleny njeje – zmóžnja jenož dźělić, štož je so lokalnje składowało. Jeli sće swoje hesło wróćo stajił a waše daty njejsu so na znajmjeńša jednym graće składowali, "
+#~ "móhł wy wšě daty zhubić, kotrež su ze starym hesłom zwjazane. Tohodla wy měł Firefox instalować a Sync na wjace hač jednym graće wužiwać."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2775,15 +2792,15 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgstr "Přizjewić"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>KEDŹBU:</span> Jeli swoje hesło wróćo stajeće, so někotre z wašich datow zhašeja (inkluziwnje sychronizowane serwerowe daty kaž historija a zapołožki). Tohodla waše daty z wašim hesłom "
 #~ "zaklučujemy, zo bychmy wašu priwatnosć škitali."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>KEDŹBU:</span> Jeli swoje hesło wróćo stajeće, so někotre z wašich datow zhašeja (inkluziwnje sychronizowane serwerowe daty kaž historija a zapołožki). Tohodla waše daty z wašim hesłom "
 #~ "zaklučujemy, zo bychmy wašu priwatnosć škitali."
@@ -2908,18 +2925,19 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgid "Sync preferences"
 #~ msgstr "Nastajenja Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Pytaće Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Započńće tu</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Maće konto z druhej e-mejlowej adresu? <a href=\"%(signinUri)s\">Přizjewće so</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox je za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
+#~ "Firefox je za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> k dispoziciji."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Posledni raz aktiwny: %(translatedTimeAgo)s"
@@ -3025,7 +3043,8 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Waše konto je so z wěstotnych přičinow zawrěło. Zo byšće aktiwity ze swojim kontom přewjedł, wobkrućće prošu swoje konto hišće raz, kliknjo na wobkrućenski wotkaz, kotryž je so na %(email)s pósłał"
+#~ "Waše konto je so z wěstotnych přičinow zawrěło. Zo byšće aktiwity ze swojim kontom přewjedł, wobkrućće prošu swoje konto hišće raz, kliknjo na wobkrućenski wotkaz, kotryž je so na %(email)s "
+#~ "pósłał"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registrowanje je so znjemóžniło"
@@ -3109,8 +3128,8 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Prošu zmóžńće placki w swojim wobhladowaku, kotrež su trěbne za Firefox Accounts. Placki su małe datowe elementy, kotrež so we wašim wobhladowaku składuja, zo bychu wěstu funkcionalnosć zmóžnili, "
-#~ "kaž na přikład zasospóznawanje w nowym posedźenju."
+#~ "Prošu zmóžńće placki w swojim wobhladowaku, kotrež su trěbne za Firefox Accounts. Placki su małe datowe elementy, kotrež so we wašim wobhladowaku składuja, zo bychu wěstu funkcionalnosć "
+#~ "zmóžnili, kaž na přikład zasospóznawanje w nowym posedźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox budźe bórze na iOS!"
@@ -3246,8 +3265,8 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
 #~ msgstr ""
-#~ "Z wěstotnych přičinow budu so wšě waše synchronizaciske daty z našich serwerow hašeć, hdyž swoje hesło wróćo stajeće. Nowe synchronizaciske zawěsćenje wutwori so z wašich lokalnych přehladowanskich "
-#~ "datow."
+#~ "Z wěstotnych přičinow budu so wšě waše synchronizaciske daty z našich serwerow hašeć, hdyž swoje hesło wróćo stajeće. Nowe synchronizaciske zawěsćenje wutwori so z wašich lokalnych "
+#~ "přehladowanskich datow."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Sće přizjewjeny jako"
@@ -3255,10 +3274,16 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maće hižo konto? Přizjewće so."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zdźělenki "
 #~ "priwatnosće </a> mróčelowych słužbow Firefox."

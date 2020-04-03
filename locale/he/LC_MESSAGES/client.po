@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"POT-Creation-Date: 2020-04-03 16:02+0000\n"
 "PO-Revision-Date: 2020-03-28 17:20+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,7 @@ msgstr "שינוי"
 
 #: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:29 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -275,19 +275,19 @@ msgstr "נא לבחור את השם שיוצג ב־Firefox בעת ניהול ה�
 msgid "Display name updated"
 msgstr "שם התצוגה עודכן"
 
-#: .es5/views/settings/emails.js:106
+#: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
 msgstr "כתובת הדוא״ל המשנית הוסרה"
 
-#: .es5/views/settings/emails.js:136 .es5/views/settings/emails.js:151 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:161 .es5/views/settings/emails.js:178 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "נשלחה הודעת דוא״ל לאימות"
 
-#: .es5/views/settings/emails.js:173
+#: .es5/views/settings/emails.js:200
 msgid "Primary email set to %(email)s"
 msgstr "כתובת הדוא״ל הראשית הוגדרה ל־%(email)s"
 
-#: .es5/views/settings/emails.js:186 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:221 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "כתובת דוא״ל משנית"
 
@@ -515,7 +515,7 @@ msgstr "חתימת זמן לא חוקית בחתימת הבקשה"
 msgid "Invalid nonce in request signature"
 msgstr "צופן חד־פעמי שגוי בחתימת הבקשה"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:172
 msgid "Account already exists"
 msgstr "חשבון זה כבר קיים"
 
@@ -567,7 +567,7 @@ msgstr "גוף הבקשה גדול מדי"
 msgid "The request was blocked for security reasons"
 msgstr "הבקשה נחסמה מסיבות אבטחה"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:505
 msgid "Invalid authorization code"
 msgstr "קוד הרשאה שגוי"
 
@@ -603,280 +603,284 @@ msgstr "כתובת זו כבר אומתה על ידי משתמש אחר"
 msgid "Secondary email must be different than your account email"
 msgstr "כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:168
+msgid "You have reached the maximum allowed secondary emails"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:176
 msgid "Primary account email required for sign-in"
 msgstr "נדרשת כתובת דוא״ל ראשית כדי להיכנס"
 
-#: .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:180
 msgid "Address in use by another account"
 msgstr "הכתובת בשימוש ע״י חשבון אחר"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for reset"
 msgstr "נדרשת כתובת דוא״ל ראשית כדי לאפס"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Invalid signin code"
 msgstr "קוד כניסה לא תקין"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Can not change primary email to an unverified email"
 msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה מאומתת"
 
-#: .es5/lib/auth-errors.js:192 .es5/lib/auth-errors.js:200
+#: .es5/lib/auth-errors.js:196 .es5/lib/auth-errors.js:204
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה שייכת לחשבון זה"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "This email can not currently be used to login"
 msgstr "לא ניתן להשתמש כרגע בכתובת הדוא״ל הזאת להתחברות"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "Failed to send email"
 msgstr "כישלון בשליחת דוא״ל"
 
-#: .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:212
 msgid "Valid code required"
 msgstr "נדרש קוד תקף"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "This verification code has expired"
 msgstr "קוד אימות זה פג"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "A TOTP token already exists for this account"
 msgstr "אסימון TOTP כבר קיים עבור משתמש זה"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "TOTP token not found"
 msgstr "אסימון TOTP לא נמצא"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "Recovery code not found"
 msgstr "קוד השחזור לא נמצא"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "Unavailable device command"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery key not found"
 msgstr "מפתח השחזור לא נמצא"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Invalid recovery key"
 msgstr "מפתח שחזור שגוי"
 
-#: .es5/lib/auth-errors.js:240 .es5/lib/auth-errors.js:248
+#: .es5/lib/auth-errors.js:244 .es5/lib/auth-errors.js:252
 msgid "This request requires two step authentication enabled on your account."
 msgstr "בקשה זו דורשת הפעלת אימות דו־שלבי עבור החשבון שלך."
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Failed due to a conflicting request, please try again."
 msgstr "נכשל עקב בקשה סותרת, נא לנסות שוב."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Unknown customer for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:260
 msgid "Unknown subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown plan for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Invalid payment token for subscription."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Subscription has already been cancelled"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Update was rejected, please try again"
 msgstr "העדכון נדחה, נא לנסות שוב"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Invalid or expired verification code"
 msgstr "קוד אימות לא חוקי או שפג תוקפו"
 
-#: .es5/lib/auth-errors.js:280 .es5/lib/auth-errors.js:481
+#: .es5/lib/auth-errors.js:284 .es5/lib/auth-errors.js:485
 msgid "Server busy, try again soon"
 msgstr "השרת עמוס, נא לנסות שוב במועד מאוחר יותר"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Feature not enabled"
 msgstr "התכונה אינה מופעלת"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:300 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:304 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "המערכת אינה זמינה, נא לנסות שוב במועד מאוחר יותר"
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:300
 msgid "This endpoint is no longer supported"
 msgstr "נקודת קצה זו אינה נתמכת יותר"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "Login attempt cancelled"
 msgstr "ניסיון ההתחברות בוטל"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:312
 msgid "Session expired. Sign in to continue."
 msgstr "נא להתחבר כדי להמשיך"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Cookies are still disabled"
 msgstr "עוגיות עדיין מנוטרלות"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Passwords do not match"
 msgstr "הססמאות אינן תואמות"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Working…"
 msgstr "בעבודה…"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Could not get Privacy Notice"
 msgstr "לא ניתן לקבל את הצהרת הפרטיות"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Could not get Terms of Service"
 msgstr "לא ניתן לקבל את תנאי השירות"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Your new password must be different"
 msgstr "הססמה החדשה אינה יכולה להיות זהה לססמה הישנה"
 
-#: .es5/lib/auth-errors.js:336 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:340 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "על הססמה להיות באורך של 8 תווים לפחות"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Valid password required"
 msgstr "נדרשת ססמה חוקית"
 
-#: .es5/lib/auth-errors.js:344 .es5/lib/auth-errors.js:384 .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:348 .es5/lib/auth-errors.js:388 .es5/lib/auth-errors.js:404
 msgid "Valid email required"
 msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:360
 msgid "A usable image was not found"
 msgstr "לא נמצאה תמונה שמישה"
 
-#: .es5/lib/auth-errors.js:360
+#: .es5/lib/auth-errors.js:364
 msgid "Could not initialize camera"
 msgstr "לא ניתן לאתחל מצלמה"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "Valid URL required"
 msgstr "נדרשת כתובת חוקית"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:384
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "הודעת האימות שלך לא הגיעה ליעדה. האם כתובת הדוא״ל הוקלדה בצורה שגויה?"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "עליך להזין כתובת דואר אלקטרוני תקינה. firefox.com לא מציע שירותי דוא״ל."
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ניתן להציב את Firefox Accounts לתוך IFRAME רק באתרים מורשים"
 
-#: .es5/lib/auth-errors.js:416 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:420 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "קישור האימות פגום"
 
-#: .es5/lib/auth-errors.js:424
+#: .es5/lib/auth-errors.js:428
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ממדי התמונה חייבים להיות לפחות 100×100 פיקסלים"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "הרשמה מגיעה בקרוב ל־Firefox עבור iOS"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "You must enter your age to sign up"
 msgstr "עליך להכניס את גילך כדי להשלים את ההרשמה"
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:448
 msgid "You must enter a valid age to sign up"
 msgstr "עליך להקליד גיל תקני כדי להירשם"
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:464
 msgid "Account no longer exists."
 msgstr "החשבון כבר לא קיים."
 
-#: .es5/lib/auth-errors.js:464
+#: .es5/lib/auth-errors.js:468
 msgid "Invalid property in resume token: %(property)s"
 msgstr "מאפיין שגוי באסימון ההמשך: %(property)s"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Missing property in resume token: %(property)s"
 msgstr "מאפיין חסר באסימון ההמשך: %(property)s"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid data attribute: %(property)s"
 msgstr "מאפיין הנתונים שגוי: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing data attribute: %(property)s"
 msgstr "מאפיין הנתונים חסר: %(property)s"
 
-#: .es5/lib/auth-errors.js:489 .es5/lib/auth-errors.js:543 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:493 .es5/lib/auth-errors.js:547 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת."
 
-#: .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:497
 msgid "This is a required field"
 msgstr "זהו שדה חובה"
 
-#: .es5/lib/auth-errors.js:497
+#: .es5/lib/auth-errors.js:501
 msgid "Authorization code required"
 msgstr "נדרש קוד הרשאה"
 
-#: .es5/lib/auth-errors.js:505 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:509 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "קישור פגום"
 
-#: .es5/lib/auth-errors.js:528
+#: .es5/lib/auth-errors.js:532
 msgid "Phone number required"
 msgstr "נדרש מספר טלפון"
 
-#: .es5/lib/auth-errors.js:547
+#: .es5/lib/auth-errors.js:551
 msgid "Two-step authentication code required"
 msgstr "נדרש קוד לאימות דו־שלבי"
 
-#: .es5/lib/auth-errors.js:551
+#: .es5/lib/auth-errors.js:555
 msgid "Invalid two-step authentication code"
 msgstr "קוד אימות דו־שלבי לא תקין"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Recovery code required"
 msgstr "נדרש קוד שחזור"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid recovery code"
 msgstr "קוד שחזור שגוי"
 
-#: .es5/lib/auth-errors.js:573
+#: .es5/lib/auth-errors.js:577
 msgid "Recovery key required"
 msgstr "נדרש מפתח שחזור"
 
-#: .es5/lib/auth-errors.js:577
+#: .es5/lib/auth-errors.js:581
 msgid "Please enter verification code"
 msgstr "נא להקליד את קוד האימות"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
 msgstr "הפנייה לא חוקית"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "האם הייתה לך טעות בהקלדת הדוא״ל? %(domain)s לא מציע שירותי דוא״ל."
 
@@ -1001,7 +1005,9 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
@@ -1069,7 +1075,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "יש להזין את מפתח השחזור החד פעמי ששמרת במקום בטוח כדי לקבל גישה לחשבון Firefox שלך."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">הערה:</span> איפוס הססמה ללא שמירת מפתח שחזור החשבון יגרור מחיקה של חלק מהנתונים שלך (כולל נתונים מסונכרנים כמו היסטוריה וסימניות)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1630,7 +1637,7 @@ msgstr "מצלמה"
 msgid "Clear"
 msgstr "מחיקה"
 
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:26 .es5/templates/settings/upgrade_session.mustache:8
+#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "סיום"
@@ -1728,7 +1735,7 @@ msgstr "Firefox עבור אנדרואיד"
 msgid "Missing or duplicate items?"
 msgstr "פריטים חסרים או כפולים?"
 
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/emails.mustache:24 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
+#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
 msgid "Refresh status"
 msgstr "רענון מצב"
@@ -1785,7 +1792,15 @@ msgstr "הפיכה לראשי"
 msgid "Remove"
 msgstr "הסרה"
 
-#: .es5/templates/settings/emails.mustache:28
+#: .es5/templates/settings/emails.mustache:24
+msgid "Refresh"
+msgstr "רענון"
+
+#: .es5/templates/settings/emails.mustache:25
+msgid "Add email"
+msgstr ""
+
+#: .es5/templates/settings/emails.mustache:30
 msgid "Add"
 msgstr "הוספה"
 
@@ -1840,7 +1855,7 @@ msgid "Confirm"
 msgstr "אישור"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions &amp; Payments"
+msgid "Subscriptions & Payments"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
@@ -1944,8 +1959,8 @@ msgid ""
 "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 "more</a>"
 msgstr ""
-"<span class=\"note\">לתשומת לבך: </span>ססמת חשבון ה־Firefox שלך מצפינה את נתוני ה־Firefox שלך. רק הססמה או מפתח השחזור שלך יכולים לגשת לנתונים שלך. <a %(escapedLearnMoreLinkAttributes)s>מידע "
-"נוסף</a>"
+"<span class=\"note\">לתשומת לבך: </span>ססמת חשבון ה־Firefox שלך מצפינה את נתוני ה־Firefox שלך. רק הססמה או מפתח השחזור שלך יכולים לגשת לנתונים שלך. <a %(escapedLearnMoreLinkAttributes)s>מידע נוסף</"
+"a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1972,7 +1987,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "שלב 2 מתוך 2: שמירת מפתח שחזור"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">לתשומת לבך: </span>אם שכחת את הססמה שלך, מפתח זה נדרש כדי לקבל גישה לנתונים שלך. יש לשמור את מפתח השחזור במקום בטוח שבו יהיה קל למצוא אותו מאוחר יותר."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2334,8 +2350,8 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgstr "ניהול העדפות"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "אם חשבון זה משמש אותך לטובת יישומים ושירותים מבית Mozilla כגון AMO,‏ Pocket ו־Screenshots, עליך תחילה להיכנס ולהסיר פרטים אישיים שנשמרו. לאחר מחיקת החשבון כאן יתכן שלא תהיה לך עוד גישה אליו משום "
 #~ "מקום."
@@ -2396,9 +2412,6 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s נרשם."
-
-#~ msgid "Refresh"
-#~ msgstr "רענון"
 
 #~ msgid "Communication preferences"
 #~ msgstr "העדפות תקשורת"
@@ -2514,8 +2527,12 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "נדרשת תמיכה בעוגיות ואחסון מקומי."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "המשך התהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של שירותי הענן של Firefox."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "המשך התהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של שירותי הענן של "
+#~ "Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "שירותי הענן של Firefox"
@@ -2631,14 +2648,14 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgstr "כניסה"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>מוטב לזכור:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>לתשומת לבך:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
 
@@ -2712,9 +2729,11 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "מחיקה"
@@ -2938,8 +2957,11 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "כבר יש ברשותך חשבון? נא להתחבר אליו."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של Firefox cloud services."
 
 #~ msgid "Password changed"
 #~ msgstr "הססמה שונתה"
