@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 16:05+0000\n"
-"PO-Revision-Date: 2020-03-28 12:01+0000\n"
+"PO-Revision-Date: 2020-04-03 16:57+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -317,7 +317,7 @@ msgstr "Dwukročelowa awtentifikacija"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
-msgstr "Wobnowjenski kluč"
+msgstr "Kontowe wobnowjenje"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
