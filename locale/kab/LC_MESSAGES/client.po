@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-03-31 22:21+0000\n"
+"POT-Creation-Date: 2020-03-27 16:05+0000\n"
+"PO-Revision-Date: 2020-04-03 16:18+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1760,7 +1760,7 @@ msgstr "Tettnadiḍ ad tesfesxeḍ amulteɣ s lexlaṣ? Ddu ɣer <a href=\"/subs
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Teqqneḍ amiḍan-ik Firefrox ɣer yifarisen n Mozilla ara k-iḥ€rzen d aɣelsan daɣen ara k-yeǧǧen ad tesnerniḍ tiffursa-ik deg web:"
+msgstr "Teqqneḍ amiḍan-ik Firefrox ɣer yifarisen n Mozilla ara k-iḥerzen d aɣelsan daɣen ara k-yeǧǧen ad tesnerniḍ tiffursa-ik deg web:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
