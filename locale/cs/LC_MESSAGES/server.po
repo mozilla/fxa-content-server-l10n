@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-04 09:37+0000\n"
-"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
+"PO-Revision-Date: 2020-04-07 16:36+0000\n"
+"Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -372,7 +372,7 @@ msgstr "Obdrželi jsme vaši poslední platbu za produkt %(productName)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr "Poznáváte toto přihlášení?"
+msgstr "Jste to vy, kdo se přihlašuje?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
@@ -476,7 +476,7 @@ msgstr "Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou ad
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr "Poznáváte toto přihlášení?"
+msgstr "Jste to vy, kdo se přihlašuje?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -604,7 +604,7 @@ msgstr "%(country)s (odhad)"
 
 #: lib/senders/email.js:485
 msgid "Finish creating your account"
-msgstr "Dokončit vytvoření účtu"
+msgstr "Dokončit vytváření účtu"
 
 #: lib/senders/email.js:486 lib/senders/email.js:614
 msgid "Confirm email"
