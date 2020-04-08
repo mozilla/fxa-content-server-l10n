@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-06 02:01+0000\n"
+"PO-Revision-Date: 2020-04-08 02:37+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1248,11 +1248,11 @@ msgstr "Continuar adicionando dispositivos?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Identifique-se no Firefox em um outro dispositivo para concluir a configuração"
+msgstr "Identifique-se no Firefox em outro dispositivo para concluir a configuração"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Ainda adicionando dispositivos? Identifique-se no Firefox em um outro dispositivo para concluir a configuração"
+msgstr "Ainda adicionando dispositivos? Identifique-se no Firefox em outro dispositivo para concluir a configuração"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
