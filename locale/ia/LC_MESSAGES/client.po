@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-08 01:50+0000\n"
+"PO-Revision-Date: 2020-04-08 01:56+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -606,7 +606,7 @@ msgstr "Le adresse de e-mail secundari debe esser differente del adresse de e-ma
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Tu ha attingite le maxime numero de emails secundari"
 
 #: .es5/lib/auth-errors.js:176
 msgid "Primary account email required for sign-in"
@@ -1756,7 +1756,7 @@ msgstr "Deler…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "Cerca tu annullar un subscription pagate? Va a <a href=\"/subscriptions\">Gerer abonamentos</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
