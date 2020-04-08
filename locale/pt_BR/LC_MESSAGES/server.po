@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-06 02:04+0000\n"
+"PO-Revision-Date: 2020-04-08 02:23+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -376,15 +376,15 @@ msgstr "Foi você que entrou?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr "Se sim, aqui está o código de autorização que você precisa:"
+msgstr "Se foi você, esse é o código de autorização que você precisa:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Se não, ajude-nos a afastar os intrusos e <a %(reportSignInLinkAttributes)s>nos informe.</a>"
+msgstr "Senão, ajude-nos a evitar intrusos e <a %(reportSignInLinkAttributes)s>nos informe</a>."
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr "Se não, ajude-nos a afastar os intrusos e nos informe."
+msgstr "Senão, ajude-nos a evitar intrusos e nos informe."
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
