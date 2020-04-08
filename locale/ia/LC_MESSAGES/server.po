@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-02-24 22:44+0000\n"
-"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
+"PO-Revision-Date: 2020-04-08 01:52+0000\n"
+"Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Si tu non ha jam discargate %(productName)s, que nos comencia per tote le functionalitates includite in tu subscription:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Questiones re tu subscription? Nostre <a href=\"%(subscriptionSupportUrl)s\">equipa de supporto</a> es ci pro te adjutar."
 
 #: lib/senders/templates/downloadSubscription.txt:2
 msgid "Questions about your subscription? Our support team is here to help you:"
@@ -307,7 +307,7 @@ msgstr "Gratias pro seliger Firefox! Tu pote installar Firefox pro mobile hic: %
 #: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Nos displace que tu vade"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -1161,15 +1161,14 @@ msgstr "Discargar ultime version"
 #~ msgstr "Remontar le contrasigno"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
-#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
+#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"
