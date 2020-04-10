@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-10 14:19+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2020-03-22 15:18+0000\n"
+"Last-Translator: Teemu <teemu.kaiturinmaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -1234,7 +1234,7 @@ msgstr "Sähköposti vahvistettu"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Suorita asennus loppuun"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1542,7 +1542,7 @@ msgstr "Lähetä"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Tekstiviestin &amp; lähettämisestä voidaan laskuttaa. Tarvitaan vastaanottajan suostumus. <a %(escapedLearnMoreAttributes)s>Lue lisää</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1835,7 +1835,7 @@ msgstr "Tulosta"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Peruuta käyttöönotto"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
@@ -1843,7 +1843,7 @@ msgstr "Vahvista palautuskoodi"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Anna jokin tallennetuista palautuskoodeista, jotta voit palauttaa tilisi käyttöoikeuden laitteen kadotessa."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
@@ -1871,7 +1871,7 @@ msgstr "Kirjoita tämä salainen avain todennussovellukseesi:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Asennettuna oikein se alkaa tuottaa turvakoodeja, joita sinun tulee antaa."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -1999,7 +1999,7 @@ msgstr "Lisää toissijainen sähköpostiosoite"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Toissijaisen sähköpostin lisääminen auttaa pääsemään takaisin tilillesi, jos et pääse sisään tai sähköpostiisi %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
