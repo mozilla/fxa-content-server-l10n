@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
+"POT-Creation-Date: 2020-04-10 16:02+0000\n"
 "PO-Revision-Date: 2020-01-21 23:13+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -106,15 +106,15 @@ msgstr "アカウントはもう存在しません。再度作成しますか？
 msgid "Please Select One"
 msgstr "いずれか一つを選んでください"
 
-#: .es5/views/support.js:231 .es5/templates/support.mustache:5
+#: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "その他"
 
-#: .es5/views/support.js:232
+#: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> について Mozilla サポートにお問い合わせいただき、ありがとうございます。可能な限り速やかにメールで連絡いたします。"
 
-#: .es5/views/support.js:234
+#: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedPlan)s</b> の <b>%(escapedLowercaseTopic)s</b> について Mozilla サポートにお問い合わせいただき、ありがとうございます。可能な限り速やかにメールで連絡いたします。"
 

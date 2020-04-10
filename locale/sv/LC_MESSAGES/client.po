@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-03-27 21:50+0000\n"
+"POT-Creation-Date: 2020-04-10 16:02+0000\n"
+"PO-Revision-Date: 2020-04-03 17:21+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -105,15 +105,15 @@ msgstr "Kontot existerar inte längre. Återskapa det?"
 msgid "Please Select One"
 msgstr "Välj en"
 
-#: .es5/views/support.js:231 .es5/templates/support.mustache:5
+#: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Annat"
 
-#: .es5/views/support.js:232
+#: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
 
-#: .es5/views/support.js:234
+#: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b> för <b>%(escapedSelectedPlan)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
 
@@ -605,7 +605,7 @@ msgstr "Sekundär e-post måste vara annorlunda än för ditt konto"
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Du har nått maximalt tillåtna sekundära e-postadresser"
 
 #: .es5/lib/auth-errors.js:176
 msgid "Primary account email required for sign-in"
@@ -1802,7 +1802,7 @@ msgstr "Uppdatera"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "Lägg till e-post"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"

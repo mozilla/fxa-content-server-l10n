@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
+"POT-Creation-Date: 2020-04-10 16:02+0000\n"
 "PO-Revision-Date: 2020-03-20 12:02+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,15 +107,15 @@ msgstr "खाता अब मौजूद नहीं है। इसका 
 msgid "Please Select One"
 msgstr "कृपया एक का चयन करें"
 
-#: .es5/views/support.js:231 .es5/templates/support.mustache:5
+#: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "अन्य"
 
-#: .es5/views/support.js:232
+#: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
 
-#: .es5/views/support.js:234
+#: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedPlan)s</b> के लिए <b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
 

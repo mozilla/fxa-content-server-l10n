@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
+"POT-Creation-Date: 2020-04-10 16:02+0000\n"
 "PO-Revision-Date: 2020-03-22 03:02+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -106,15 +106,15 @@ msgstr "Аккаунт больше не существует. Пересозд�
 msgid "Please Select One"
 msgstr "Пожалуйста, выберите один"
 
-#: .es5/views/support.js:231 .es5/templates/support.mustache:5
+#: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Прочее"
 
-#: .es5/views/support.js:232
+#: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
 
-#: .es5/views/support.js:234
+#: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedPlan)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
 

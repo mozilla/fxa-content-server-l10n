@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-03 16:02+0000\n"
+"POT-Creation-Date: 2020-04-10 16:02+0000\n"
 "PO-Revision-Date: 2019-10-27 18:49+0000\n"
 "Last-Translator: Akmal <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,15 +104,15 @@ msgstr "Bu hisob endi yoʻq. Qayta yaratasizmi?"
 msgid "Please Select One"
 msgstr "Bittasini tanlang"
 
-#: .es5/views/support.js:231 .es5/templates/support.mustache:5
+#: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Boshqa"
 
-#: .es5/views/support.js:232
+#: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b>  savoli boʻyicha Mozilla yordam jamoasiga murojaat qilganingiz uchun rahmat. Biz siz bilan elektron pochta orqali tezda bogʻlanamiz."
 
-#: .es5/views/support.js:234
+#: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "<b>%(escapedSelectedPlan)s</b> uchun <b>%(escapedLowercaseTopic)s</b> savoli boʻyicha Mozilla yordam jamoasiga murojaat qilganingiz uchun rahmat. Biz siz bilan elektron pochta orqali tezda "
