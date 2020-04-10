@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-08 08:54+0000\n"
+"PO-Revision-Date: 2020-04-10 14:19+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -333,7 +333,7 @@ msgstr "Synkronoimasi tiedot on suojattu"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Jos menetät pääsyn tilillesi, voit kuitenkin palauttaa synkronoidut tietosi."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -1530,7 +1530,7 @@ msgstr "Lähetä Firefox suoraan älypuhelimeesi ja viimeistele asennus kirjautu
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Lähetä linkki tekstiviestitse, jotta voit asentaa Firefoxin myös puhelimeesi."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
