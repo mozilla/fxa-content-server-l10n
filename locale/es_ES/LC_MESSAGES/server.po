@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-12 16:05+0000\n"
+"PO-Revision-Date: 2020-04-12 16:08+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -359,20 +359,20 @@ msgstr "Cobrado $%(invoiceTotal)s el %(invoiceDateOnly)s"
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "Tarjeta %(cardType)s terminada en %(lastFour)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Próxima factura: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Número de factura: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "Hemos recibido tu último pago por %(productName)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -725,15 +725,15 @@ msgstr "Crea una clave de recuperación nueva"
 
 #: lib/senders/email.js:1850 lib/senders/email.js:1924
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Tu suscripción a %(productName)s ha sido cancelada"
 
 #: lib/senders/email.js:2004
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Pago recibido para %(productName)s"
 
 #: lib/senders/email.js:2086
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Pago confirmado para %(productName)s"
 
 #: lib/senders/email.js:2139
 msgid "Welcome to %(productName)s!"
