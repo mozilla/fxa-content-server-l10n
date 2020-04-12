@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-03-22 18:42+0000\n"
+"PO-Revision-Date: 2020-04-12 16:05+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -287,8 +287,8 @@ msgstr "Se agregó una cuenta secundaria"
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Has verificado correctamente %(secondaryEmail)s como correo electrónico secundario para tu cuenta de Firefox. Las notificaciones de seguridad y confirmación de inicio de sesión ahora se entregarán "
-"a las dos direcciones de correo electrónico."
+"Has verificado correctamente %(secondaryEmail)s como correo electrónico secundario para tu cuenta de Firefox. Las notificaciones de seguridad y confirmación de inicio de sesión ahora se entregarán a"
+" las dos direcciones de correo electrónico."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -309,50 +309,52 @@ msgstr "¡Gracias por elegir Firefox! Puedes instalar Firefox para móviles aqu�
 #: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Lamentamos que te vayas"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Has eliminado recientemente tu cuenta de Firefox. Como resultado, hemos cancelado tu suscripción a %(productName)s. Tu último pago por $%(invoiceTotal)s fue realizado el %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Por favor, ayúdanos a mejorar nuestros servicios contestando esta <a %(cancellationSurveyLinkAttributes)s>breve encuesta</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:"
 
 #: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Hemos cancelado tu suscripción a %(productName)s. Tu último pago de $%(invoiceTotal)s fue realizado el %(invoiceDateOnly)s. Tu servicio continuará hasta el término del periodo de facturación actual,"
+" que es %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "¡Gracias por suscribirte a %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Tu pago está siendo procesado y podría tardar hasta cuatro días hábiles en completarse."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr ""
+msgstr "Recibirás otro correo electrónico con instrucciones de descarga y para empezar a usar %(productName)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:4 lib/senders/templates/subscriptionFirstInvoice.txt:3
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Número de factura: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Cobrado $%(invoiceTotal)s el %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -866,12 +868,11 @@ msgstr "Descargar la última versión"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Has conectado con éxito tu primer dispositivo a tu cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde otros dispositivos, incluidos Firefox para <a %(androidLinkAttributes)s>Android</"
-#~ "a> e <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Has conectado con éxito tu primer dispositivo a tu cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde otros dispositivos, incluidos Firefox para <a %(androidLinkAttributes)s>Android</a> e "
+#~ "<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-#~ msgstr ""
-#~ "Has conectado correctamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluidos Firefox para Android y Firefox para iOS."
+#~ msgstr "Has conectado correctamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluidos Firefox para Android y Firefox para iOS."
 
 #~ msgid "Sign in to Sync:"
 #~ msgstr "Iniciar sesión en Sync:"
@@ -991,15 +992,15 @@ msgstr "Descargar la última versión"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a "
-#~ "href='%(androidUrl)s'>Android</a> y <a href='%(iosUrl)s'>iOS</a>."
+#~ "Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a>"
+#~ " y <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> "
-#~ "o <a href='%(iosUrl)s'>Firefox para iOS</a>."
+#~ "Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a"
+#~ " href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Iniciar sesión en Sync"
@@ -1149,16 +1150,15 @@ msgstr "Descargar la última versión"
 #~ msgstr "Restablecer contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Hace unos días creaste una cuenta de Firefox, pero nunca la confirmaste. Confirmar una cuenta te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 #~ "conectado a ella. Para activarla solo tienes que confirmar tu correo."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Hace una semana creaste una cuenta de Firefox, pero no llegaste a verificarla. Estamos preocupados por ti. Confirma esta dirección de correo para activar tu cuenta y hacernos saber que estás "
-#~ "bien."
+#~ "Hace una semana creaste una cuenta de Firefox, pero no llegaste a verificarla. Estamos preocupados por ti. Confirma esta dirección de correo para activar tu cuenta y hacernos saber que estás bien."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Para mayor seguridad, confirma este inicio de sesión para que comience la sincronización con este dispositivo:"
@@ -1180,14 +1180,13 @@ msgstr "Descargar la última versión"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Has eliminado con éxito %(secondaryEmail)s como correo electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y las confirmaciones de inicio de sesión ya no se enviarán "
-#~ "a esta dirección."
+#~ "Has eliminado con éxito %(secondaryEmail)s como correo electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y las confirmaciones de inicio de sesión ya no se enviarán a "
+#~ "esta dirección."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Se ha comprobado correctamente la cuenta %(secondaryEmail)s como correo secundario para tu Cuenta de Firefox. Ahora, las notificaciones de seguridad y confirmaciones de inicio de sesión se "
-#~ "enviarán a las dos direcciones."
+#~ "Se ha comprobado correctamente la cuenta %(secondaryEmail)s como correo secundario para tu Cuenta de Firefox. Ahora, las notificaciones de seguridad y confirmaciones de inicio de sesión se enviarán "
+#~ "a las dos direcciones."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Aquí está el enlace solicitado para instalar Firefox en tu dispositivo móvil: %(link)s"
