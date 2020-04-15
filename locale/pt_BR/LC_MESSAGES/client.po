@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-08 02:37+0000\n"
+"PO-Revision-Date: 2020-04-15 17:20+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1356,7 +1356,7 @@ msgstr "Relatar acesso não autorizado?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Você recebeu um e-mail sobre tentativas de acesso à sua conta. Gostaria de relatar esta atividade como suspeita?"
+msgstr "Você recebeu um e-mail de tentativa de acesso à sua conta. Gostaria de denunciar esta atividade como suspeita?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
