@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-16 16:26+0000\n"
+"PO-Revision-Date: 2020-04-16 17:04+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -111,11 +111,11 @@ msgstr "Lainnya"
 
 #: .es5/views/support.js:232
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Terima kasih telah menghubungi Dukungan Mozilla tentang <b>%(escapedLowercaseTopic)s</b>. Kami akan menghubungi Anda via surel secepatnya."
 
 #: .es5/views/support.js:234
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Terima kasih telah menghubungi Dukungan Mozilla tentang <b>%(escapedLowercaseTopic)s</b> untuk <b>%(escapedSelectedPlan)s</b>. Kami akan menghubungi Anda via surel secepatnya."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
