@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 20:32+0000\n"
+"PO-Revision-Date: 2020-04-17 20:39+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Ви успішно змінили %(productNameOld)s s на %(productNameNew)s."
+msgstr "Ви успішно перейшли з %(productNameOld)s на %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -801,7 +801,7 @@ msgstr ""
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Ви перейшли на %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
