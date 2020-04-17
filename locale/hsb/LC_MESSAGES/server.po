@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 18:30+0000\n"
+"PO-Revision-Date: 2020-04-17 18:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Sće wuspěšnje wot %(productNameOld)s do %(productNameNew)s přeměnił."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -387,11 +387,11 @@ msgstr "Čisło zličbowanki: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Waša kreditna karta bórze spadnje"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Kreditna karta, z kotrejž płaćenja za %(productName)s přewjedźeće, bórze spadnje."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
