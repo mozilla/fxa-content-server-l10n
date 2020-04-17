@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 20:12+0000\n"
+"PO-Revision-Date: 2020-04-17 20:20+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -402,19 +402,19 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Перепрошуємо, у нас виникли труднощі з вашим платежем"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "У нас виникли труднощі з отриманням вашого останнього платежу за користування %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Допоможіть нам виправити це, <a href=\"%(updateBillingUrl)s\">оновивши платіжну інформацію</a> впродовж трьох днів."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
