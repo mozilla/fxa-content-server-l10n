@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 20:40+0000\n"
+"PO-Revision-Date: 2020-04-17 21:28+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -421,7 +421,7 @@ msgstr "<a href=\"%(updateBillingUrl)s\">Aktualizujće swoje płaćenske informa
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Je nam žel, ale jeli w běhu třoch dnjow wot was ničo njesłyšimy, zubijće přistup k %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
@@ -448,6 +448,8 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Započinajo z wašej přichodnej zličbowanku so waš popłatk wot %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změni. Potom dyrbiće tež jónkróćny popłatk "
+"%(paymentProrated)s $ płaćić, zo by so wyši popłatk za zbytk %(productPaymentCycle)s wotbłyšćował."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
