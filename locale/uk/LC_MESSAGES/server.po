@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 20:39+0000\n"
+"PO-Revision-Date: 2020-04-17 20:50+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -398,7 +398,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
