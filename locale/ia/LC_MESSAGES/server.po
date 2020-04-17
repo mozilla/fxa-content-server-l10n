@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 18:02+0000\n"
+"PO-Revision-Date: 2020-04-17 18:03+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -406,7 +406,7 @@ msgstr "Displacente, nos ha problemas con tu pagamento"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Nos ha habite problemas con tu ultime pagamento pro %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
