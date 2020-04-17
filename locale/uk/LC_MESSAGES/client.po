@@ -982,7 +982,7 @@ msgstr "Неперевірений користувач або сеанс"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Недійсний id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
