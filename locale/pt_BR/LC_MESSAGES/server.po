@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 16:42+0000\n"
+"PO-Revision-Date: 2020-04-17 16:53+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -332,17 +332,19 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Você mudou com sucesso de %(productNameOld)s para %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"A partir da próxima fatura, sua cobrança será alterada de US$%(paymentAmountOld)s por %(productPaymentCycle)s para US$%(paymentAmountNew)s. Nesse momento, você também receberá um crédito único de "
+"US$%(paymentProrated)s para refletir a cobrança menor pelo restante desse %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr ""
+msgstr "Se houver um novo software necessário instalar para usar o %(productNameNew)s, você receberá um e-mail separado com instruções de como baixar."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
@@ -410,7 +412,7 @@ msgstr "Ocorreu um problema com seu pagamento mais recente pelo %(productName)s.
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Pode ser que seu cartão de crédito tenha expirado, ou que a forma de pagamento atual esteja desatualizada."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
@@ -426,7 +428,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Obrigado por ser um assinante!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -434,11 +436,11 @@ msgstr "Recebemos seu último pagamento pelo %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Obrigado por atualizar!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Você atualizou com sucesso de %(productNameOld)s para %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -797,19 +799,19 @@ msgstr "Criar nova chave de recuperação"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Você atualizou para %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Você mudou para %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Validade do cartão de crédito de %(productName)s expirando em breve"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Falha no pagamento de %(productName)s"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -825,7 +827,7 @@ msgstr "Pagamento de %(productName)s confirmado"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Boas-vindas ao %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
