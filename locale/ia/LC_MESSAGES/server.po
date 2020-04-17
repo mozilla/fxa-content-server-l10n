@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 16:02+0000\n"
-"PO-Revision-Date: 2020-04-17 10:04+0000\n"
+"PO-Revision-Date: 2020-04-17 10:13+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -345,12 +345,12 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:2
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Numero de factura : <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "%(invoiceTotal)s $ facturate le %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -721,15 +721,15 @@ msgstr "Crear nove clave de recuperation"
 
 #: lib/senders/email.js:1850 lib/senders/email.js:1924
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Tu abonamento a %(productName)s ha essite cancellate"
 
 #: lib/senders/email.js:2004
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Pagamento de %(productName)s recepite"
 
 #: lib/senders/email.js:2086
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Pagamento de %(productName)s confirmate"
 
 #: lib/senders/email.js:2139
 msgid "Welcome to %(productName)s!"
