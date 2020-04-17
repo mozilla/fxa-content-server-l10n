@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 17:12+0000\n"
+"PO-Revision-Date: 2020-04-17 17:18+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -332,11 +332,11 @@ msgstr "您已成功從 %(productNameOld)s 切換到 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr ""
+msgstr "若需要安裝新軟體才能使用 %(productNameNew)s，我們會將下載方式用另一封電子郵件發送給您。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
@@ -438,7 +438,7 @@ msgstr "您已成功從 %(productNameOld)s 升級到 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將向您一次收取剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s，以反應較高的收費金額。"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
