@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 14:04+0000\n"
+"PO-Revision-Date: 2020-04-18 14:09+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -421,7 +421,7 @@ msgstr "<a href=\"%(updateBillingUrl)s\">Aktualizěrujśo swóje płaśeńske in
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Jo nam luto, ale jolic w běgu tśich dnjow wót was nic njesłyšymy, zgubijośo pśistup k %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
