@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 11:33+0000\n"
+"PO-Revision-Date: 2020-04-18 11:40+0000\n"
 "Last-Translator: K_ahina <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -401,19 +401,19 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr "Suref-aɣ, nesɛa uguren akked uxelleṣ-ik"
+msgstr "Suref-aɣ, nesɛa uguren akked lexlaṣ-ik"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "Nemmuger-d ugur akked uxelleṣ-ik aneggaru n %(productName)s."
+msgstr "Nemmuger-d ugur akked lexlaṣ-ik aneggaru n %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n uxelleṣ iɛedda-tt wakud."
+msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n lexlaṣ iɛedda-tt wakud."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "Ɛiwen-aɣ ad as-d-naf tifrat s <a href=\"%(updateBillingUrl)s\"> uleqqem n telɣut n uxelleṣ-ik </a> deg kraḍ n wussan."
+msgstr "Ɛiwen-aɣ ad as-d-naf tifrat s <a href=\"%(updateBillingUrl)s\"> uleqqem n telɣut n lexlaṣ-ik </a> deg kraḍ n wussan."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
@@ -421,7 +421,7 @@ msgstr "S usḥissef, ma ur aɣ-d-yuwiḍ ara kra sɣur-k deg kraḍ n wussan, a
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n uxelleṣ-ik deg kraḍ n wussan."
+msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n lexlaṣ-ik deg kraḍ n wussan."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -804,11 +804,11 @@ msgstr "Tbeddleḍ ɣer %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Takarḍa n usmad i %(productName)s qrib ad temmet"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Axelleṣ n %(productName)s yecceḍ"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -824,7 +824,7 @@ msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Ansuf ɣer %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
@@ -913,7 +913,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr "Sider aneggaru"
+msgstr "Sader aneggaru"
 
 #~ msgid "Welcome to %(productName)s!"
 #~ msgstr "Ansuf deg %(productName)s!"
