@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 12:13+0000\n"
+"PO-Revision-Date: 2020-04-18 12:17+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -339,8 +339,8 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა $%(paymentAmountOld)s თითოეული %(productPaymentCycle)s მონაკვეთისთვის შეიცვლება და იქნება $%(paymentAmountNew)s. იმ დროისთვის, ასევე მოგეცემათ ერთჯერადი სესხი "
-"$%(paymentProrated)s-ის, შემცირებული გადასახადის ასასახად ნაშთისთვის %(productPaymentCycle)s მონაკვეთში."
+"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა $%(paymentAmountOld)s თითოეული %(productPaymentCycle)s მონაკვეთისთვის შეიცვლება და იქნება $%(paymentAmountNew)s. იმ დროისთვის, ასევე მოგეცემათ ერთჯერადი თანხა "
+"$%(paymentProrated)s-ის, შემცირებული გადასახადის ასასახად ნაშთზე %(productPaymentCycle)s მონაკვეთში."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -447,6 +447,8 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა $%(paymentAmountOld)s თითოეული %(productPaymentCycle)s მონაკვეთისთვის შეიცვლება და იქნება $%(paymentAmountNew)s. იმ დროისთვის, ასევე ჩამოგეჭრებათ ერთჯერადად "
+"თანხა $%(paymentProrated)s-ის, გაზრდილი გადასახადის ასასახად ნაშთზე %(productPaymentCycle)s მონაკვეთში."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -799,19 +801,19 @@ msgstr "აღდგენის ახალი გასაღების შ
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "განახლების შედეგად მიიღეთ %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "გადართვის შედეგად მიიღეთ %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "%(productName)s-ისთვის საკრედიტო ბარათის ვადა იწურება"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "%(productName)s გადახდა ვერ მოხერხდა"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -827,7 +829,7 @@ msgstr "%(productName)s გადახდა დამოწმებული�
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "მოგესალმებათ %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
