@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 13:44+0000\n"
+"PO-Revision-Date: 2020-04-18 14:04+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -340,10 +340,12 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změnijo. Pótom teke jadnorazowe pśipisanje "
+"%(paymentProrated)s $ na konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr ""
+msgstr "Jolic musyśo nowu softwaru instalěrowaś, aby %(productNameNew)s wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
@@ -387,35 +389,35 @@ msgstr "Numer zliceńki: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Waša kreditowa kórta skóro spadnjo"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Kreditowa kórta, z kótarejuž płaśenja za %(productName)s pśewjeźośo, skóro spadnjo."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Aby se pśetergnjenja swójeje słužby wobinuł, <a href=\"%(updateBillingUrl)s\">aktualizěrujśo pšosym swóje płaśeńske informacije</a> tak skóro ako móžno."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Bóžko mamy problemy z wašym płaśenim"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Sym měli problem z wašym nejnowšym płaśenim za %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Waša kreditowa kórta jo se snaź spadnuła, abo waša aktualna płaśeńska metoda  jo zestarjona."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "<a href=\"%(updateBillingUrl)s\">Aktualizěrujśo swóje płaśeńske informacije</a> w běgu tśich dnjow, aby nam pomagał problem rozwězaś."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
@@ -423,11 +425,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Aktualizěrujśo swóje płaśeńske informacije w běgu tśich dnjow, aby nam pomagał problem rozwězaś:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Wjeliki źěk, až sćo abonent!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -435,11 +437,11 @@ msgstr "Smy dostali waše nejnowše płaśenje za %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Wjeliki źěk za aktualizěrowanje!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Sćo wuspěšnje aktualizěrował wót %(productNameOld)s do %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -798,19 +800,19 @@ msgstr "Nowy wótnowjeński kluc napóraś"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Sćo aktualizěrował na %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Sćo pśejšeł k %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Kreditowa kórta za %(productName)s skóro spadnjo"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Płaśenje %(productName)s njejo se raźiło"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -826,7 +828,7 @@ msgstr "Płaśenje %(productName)s wobkšuśone"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Witajśo k %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
