@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 23:30+0000\n"
+"PO-Revision-Date: 2020-04-18 03:50+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -424,11 +424,11 @@ msgstr "Es posible que tu tarjeta de crédito haya vencido o que tu método de p
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Ayudanos a solucionarlo <a href=\"%(updateBillingUrl)s\"> actualizando tu información de pago </a> en un plazo de tres días."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Si no tenemos noticias tuyas dentro de los tres días, vas a perder el acceso a% (productName) s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
