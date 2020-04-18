@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 11:52+0000\n"
+"PO-Revision-Date: 2020-04-18 11:55+0000\n"
 "Last-Translator: K_ahina <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1233,7 +1233,7 @@ msgstr "Qqen ibenk nniḍen"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
 msgid "This Firefox is connected"
-msgstr "Firefox-agi ittwaqen"
+msgstr "Firefox-a ittwaqqen"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1850,7 +1850,7 @@ msgstr "Sentem tangalt n tririt"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Akken ad temneḍ tzemreḍ ad tkecmeḍ ɣer umiḍan-ik ticki tṛuḥ tiliɣri-ik, sekcem ma ulac aɣilif, yiwet seg tengalin n usellek yettwaskelsen."
+msgstr "Akken ad tḍemneḍ tzemreḍ ad tkecmeḍ ɣer umiḍan-ik ticki truḥ tiliɣri-ik, sekcem ma ulac aɣilif, yiwet seg tengalin n usellek yettwaskelsen."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
