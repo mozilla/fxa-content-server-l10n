@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-06 02:57+0000\n"
+"PO-Revision-Date: 2020-04-18 15:45+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -327,17 +327,17 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
-"thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+"Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
+" thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Bạn đã chuyển thành công từ %(productNameOld)s sang %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -442,8 +442,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
