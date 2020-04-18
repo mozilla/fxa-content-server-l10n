@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 11:55+0000\n"
-"Last-Translator: K_ahina <kahinamessaoudi03@gmail.com>\n"
+"PO-Revision-Date: 2020-04-18 15:39+0000\n"
+"Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -981,7 +981,7 @@ msgstr "Aseqdac neɣ tiɣimit ur tettwasenqed ara"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint d armeɣtu"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
