@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-03-22 00:02+0000\n"
-"Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
+"PO-Revision-Date: 2020-04-19 03:51+0000\n"
+"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -117,9 +117,7 @@ msgstr "まず、Firefox アカウントのパスワードを変更します。"
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビ"
-"ティがないか確認してください。"
+msgstr "次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビティがないか確認してください。"
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -273,7 +271,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
 msgid "Protect yourself from being locked out"
-msgstr ""
+msgstr "ロックアウトから身を守ります"
 
 #: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
 msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
@@ -332,8 +330,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -359,7 +357,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "請求書番号: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
@@ -438,8 +436,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -480,7 +478,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "このメールアドレスを確認してアカウントを有効にし、問題がないことをお知らせください。"
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
@@ -544,7 +542,7 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "この確認コードは 5 分で使用期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。"
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -628,11 +626,11 @@ msgstr "支払い情報を更新"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "法的通知"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "プライバシー"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -761,11 +759,11 @@ msgstr ""
 
 #: lib/senders/email.js:1467
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "2 段階認証が有効です"
 
 #: lib/senders/email.js:1510
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "2 段階認証が設定されていません"
 
 #: lib/senders/email.js:1596
 msgid "Recovery code used"
@@ -825,7 +823,7 @@ msgstr ""
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s をダウンロード"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -855,6 +853,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been\n"
 "                    notified and will get working on a fix."
 msgstr ""
+"申し訳ありませんが、何か問題が発生しました。\n"
+"                    サーバー管理者が通知を受け取り、修正に取りかかります。"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -869,6 +869,8 @@ msgid ""
 "We are currently under heavy strain and are working to\n"
 "                    return the system to normal as soon as possible."
 msgstr ""
+"現在サーバーに過度な負担が掛かっており、\n"
+"                    できる限り早くシステムを正常な状態に戻すべく取り組んでいます。"
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -967,14 +969,12 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の Firefox など他の端末から Sync へログインできます。"
+#~ msgstr "あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の Firefox など他の端末から Sync へログインできます。"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
+#~ msgstr "あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Sync へログイン"
@@ -1100,16 +1100,12 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgstr "パスワードをリセット"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
-#~ msgstr ""
-#~ "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスでき"
-#~ "るようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
+#~ msgstr "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無"
-#~ "事を知らせてください。"
+#~ msgstr "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "念のため、この端末との同期を開始する前にログインを確認してください:"
@@ -1132,8 +1128,7 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "あなたの Firefox アカウントの予備アドレス %(secondaryEmail)s を削除しました。セキュリティ通知やログイン確認は今後このアドレスには送られなくなります。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s を Firefox アカウントの予備アドレスとして確認できました。今後はセキュリティ通知やログイン確認を両方のメールアドレスにお送りします。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1218,8 +1213,8 @@ msgstr "最新バージョンをダウンロードする"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。"
-#~ "Firefox のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。Firefox "
+#~ "のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #~ msgid "env"
 #~ msgstr "env"

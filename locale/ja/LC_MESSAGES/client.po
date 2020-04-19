@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-19 03:40+0000\n"
+"PO-Revision-Date: 2020-04-19 03:47+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1524,11 +1524,11 @@ msgstr "アカウントを作成"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "このブラウザーを携帯端末と同期"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "携帯端末と同期しますか？"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1536,7 +1536,7 @@ msgstr "Firefox をお使いのスマートフォンへ直接送り、ログイ�
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "SMS でリンクを送信して、Firefox を携帯端末にインストールします。"
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
@@ -1811,7 +1811,7 @@ msgstr "追加"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "回復用コードを保存"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1827,7 +1827,7 @@ msgstr "新しい回復用コードを生成"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "これらのワンタイム使用のコードは、モバイルデバイスを持っていない場合に備えて安全な場所に保管してください。"
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1841,19 +1841,19 @@ msgstr "印刷"
 
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "セットアップをキャンセル"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "回復用コードを確認"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかの回復用コードを入力してください。"
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "回復用コード"
 
 #: .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1869,15 +1869,15 @@ msgstr "管理…"
 
 #: .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "手動でコードを入力"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "この秘密キーを認証アプリに入力してください:"
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "完了すると、入力するセキュリティコードの生成が開始されます。"
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -1999,7 +1999,7 @@ msgstr "完了、回復用キーが保存されました"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "予備のメールアドレスを追加"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -2012,15 +2012,15 @@ msgstr "後で考えます"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "別のメールアドレスを使用"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "回復用キーでデータを保護する"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "同期データには、保存したパスワードを含めることができます。"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
@@ -2028,7 +2028,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "回復用キーを取得"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
