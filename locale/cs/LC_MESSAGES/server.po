@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-20 06:19+0000\n"
+"PO-Revision-Date: 2020-04-20 08:18+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Úspěšně jste přepnuli z %(productNameOld)s na %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -342,7 +342,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr ""
+msgstr "Pokud je pro používání produktu %(productNameNew)s potřeba instalace dodatečného softwaru, pošleme vám samostatný e-mail s pokyny, jak ho stáhnout."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
@@ -386,47 +386,47 @@ msgstr "Číslo dokladu: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Platnost vaší platební karty brzy vyprší"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Platnost vaší platební karty, kterou používáte k platbě za %(productName)s, brzy vyprší."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, <a href=\"%(updateBillingUrl)s\">aktualizujte včas své platební údaje</a>."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Je nám to líto, ale s vaší platbou máme problémy"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "S vaší poslední platbou za %(productName)s se vyskytly problémy."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Pomozte nám to vyřešit a <a href=\"%(updateBillingUrl)s\">aktualizujte své platební údaje</a> během tří dnů."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Bohužel jsme od vás do tří dnů nedostali žádné informace, proto ztratíte k produktu %(productName)s přístup."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Pomozte nám to vyřešit a aktualizujte své platební údaje během tří dnů:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Děkujeme, že využíváte naše předplatné."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -434,11 +434,11 @@ msgstr "Obdrželi jsme vaši poslední platbu za produkt %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Děkujeme za povýšení vašeho předplatného."
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Úspěšně jste povýšili z %(productNameOld)s na %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -797,19 +797,19 @@ msgstr "Vytvořit nový obnovovací klíč"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Úspěšně jste povýšili na %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Úspěšně jste přepnuli na %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Platnost platební karty pro %(productName)s brzy vyprší"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Platba produktu %(productName)s se nezdařila"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -825,7 +825,7 @@ msgstr "Platba za produkt %(productName)s potvrzena"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Vítá vás %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
