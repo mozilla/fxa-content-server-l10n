@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-20 18:31+0000\n"
+"PO-Revision-Date: 2020-04-20 18:35+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -424,7 +424,7 @@ msgstr "Segítsen nekünk kijavítani azáltal, hogy három napon belül <a href
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "Sajnos nem kaptunk három napon belül visszajelzést, így elveszti a hozzáférést a %(productName)s termékhez."
+msgstr "Sajnos nem kaptunk három napon belül visszajelzést, így elveszti a hozzáférést a(z) %(productName)s termékhez."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
@@ -805,19 +805,19 @@ msgstr "Új helyreállítási kulcs létrehozása"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Frissített erre: %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Váltott erre: %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "A(z) %(productName)s termékhez tartozó bankkártya hamarosan lejár"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "A(z) %(productName)s befizetése sikertelen"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -833,7 +833,7 @@ msgstr "A(z) %(productName)s befizetése megerősítve"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Üdvözli a(z) %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
