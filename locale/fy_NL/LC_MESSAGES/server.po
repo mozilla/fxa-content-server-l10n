@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-20 18:04+0000\n"
+"PO-Revision-Date: 2020-04-20 18:12+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -411,27 +411,27 @@ msgstr "Sorry, wy hawwe problemen mei jo betelling"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Wy hiene in probleem mei jo lêste betelling foar %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Miskien is jo creditcard ferrûn, of jo aktuele betellingsmetoade is ferâldere."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Help ús dit te werstellen troch binnen trije dagen <a href=\"%(updateBillingUrl)s\">jo betellingsgegevens by te wurkjen</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "As wy net binnen trije dagen fan jo hearre, ferlieze jo spitigernôch jo tagong ta %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Help ús dit te werstellen troch binnen trije dagen jo betellingsgegevens by te wurkjen:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Tank dat jo abonnee binne!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -439,17 +439,19 @@ msgstr "Wy hawwe jo lêste betelling foar %(productName)s ûntfongen."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Tank foar it opwurdearjen!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Jo binne mei sukses opwurdearre fan %(productNameOld)s nei %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Fan jo folgjende faktuer ôf wizigje jo kosten fan $%(paymentAmountOld)s per %(productPaymentCycle)s nei $%(paymentAmountNew)s. Der wurdt jo dan ek ien kear in bedrach fan $%(paymentProrated)s yn "
+"rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -802,19 +804,19 @@ msgstr "Nije werstelkaai generearje"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Jo hawwe opwurdearre nei %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Jo binne oerskeakele nei %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "De betelling foar %(productName)s is mislearre"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -830,7 +832,7 @@ msgstr "De betelling foar %(productName)s is befêstige"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Wolkom by %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
