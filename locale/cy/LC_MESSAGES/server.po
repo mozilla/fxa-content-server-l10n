@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-20 07:31+0000\n"
+"PO-Revision-Date: 2020-04-20 07:41+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -333,15 +333,15 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Rydych wedi newid yn llwyddiannus o %(productNameOld)s i %(productNameNew)s."
+msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddiannus."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn cael credyd am y tro o $%(paymentProrated)s i "
-"adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
+"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o "
+"$%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -393,43 +393,43 @@ msgstr "Mae eich cerdyn credyd ar fin dod i ben"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am %(productName)s ar fin dod i ben."
+msgstr "Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am %(productName)s ar fin dod i ben."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a href=\"%(updateBillingUrl)s\"> diweddarwch eich manylion talu </a> cyn gynted â phosibl."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu </a> cyn gynted â phosibl."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Mae'n ddrwg gennym, rydym yn cael trafferth gyda'ch taliad"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Rydym wedi cael anhawster gyda'ch taliad diweddaraf am %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn annilys."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Helpwch ni i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">diweddaru eich manylion talu</a> o fewn tridiau."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Yn anffodus, os na fyddwn yn clywed gennych o fewn tridiau, byddwch yn colli mynediad at %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Helpwch ni i'w drwsio trwy ddiweddaru'ch manylion talu o fewn tridiau:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Diolch am fod yn danysgrifiwr!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -437,17 +437,19 @@ msgstr "Rydym wedi derbyn eich taliad diweddaraf am %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Diolch am uwchraddio!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o "
+"$%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -800,19 +802,19 @@ msgstr "Creu allwedd adfer newydd"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Rydych wedi newid i %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Methodd taliad %(productName)s"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -828,7 +830,7 @@ msgstr "Cadarnhawyd taliad am %(productName)s"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Croeso i %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
