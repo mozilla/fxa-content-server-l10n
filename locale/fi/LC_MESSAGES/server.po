@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-08 08:56+0000\n"
+"PO-Revision-Date: 2020-04-20 06:29+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Kysymyksiä tilaukseesi liittyen? <a href=\"%(subscriptionSupportUrl)s\">Tukitiimimme</a> auttaa sinua."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
@@ -317,7 +317,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionCancellation.html:3
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Auta meitä parantamaan palveluitamme täyttämällä <a %(cancellationSurveyLinkAttributes)s>lyhyt kysely</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
@@ -335,8 +335,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -385,7 +385,7 @@ msgstr "Laskun numero: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Luottokorttisi vanhenee pian"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
@@ -401,7 +401,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Valitettavasti maksusi kanssa ilmeni ongelmia"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
@@ -425,7 +425,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Kiitos siitä, että olet tilaaja!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -433,7 +433,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Kiitos, että päivitit!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
@@ -441,8 +441,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -1224,11 +1224,11 @@ msgstr "Lataa viimeisin"
 #~ msgstr "Nollaa salasana"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa "
-#~ "tiliin yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
+#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa tiliin"
+#~ " yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
@@ -1321,8 +1321,8 @@ msgstr "Lataa viimeisin"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida "
-#~ "Firefoxin salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
+#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida Firefoxin"
+#~ " salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "env"
 #~ msgstr "env"
