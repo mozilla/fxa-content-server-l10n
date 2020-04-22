@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-21 14:00+0000\n"
+"PO-Revision-Date: 2020-04-22 12:53+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -892,7 +892,7 @@ msgstr "Zásady ochrany osobních údajů"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr "Podmínky využívání služby"
+msgstr "Podmínky poskytování služby"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
