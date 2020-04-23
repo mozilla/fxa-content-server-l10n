@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-23 10:00+0000\n"
+"PO-Revision-Date: 2020-04-23 10:06+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -997,7 +997,7 @@ msgstr "Përdorues ose sesion i paverifikuar"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint i pavlefshëm"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1816,7 +1816,7 @@ msgstr "Fshijeni…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "Po shihni të anuloni një pajtim me pagesë? Shkoni te <a href=\"/subscriptions\">Pajtime &amp; Pagesa</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1860,7 +1860,7 @@ msgstr "Rifreskoje"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "Shtoni email"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
