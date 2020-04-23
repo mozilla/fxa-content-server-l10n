@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-23 10:30+0000\n"
+"PO-Revision-Date: 2020-04-23 10:45+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -799,35 +799,35 @@ msgstr "Krijo kyç të ri rimarrjeje"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "E përmirësuat me %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "U hodhët në %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Kartë krediti për %(productName)s që skadon së shpejti"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Pagesa për %(productName)s dështoi"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Pajtimi juaj për %(productName)s është anuluar"
 
 #: lib/senders/email.js:2252
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Pagesa për %(productName)s u mor"
 
 #: lib/senders/email.js:2334
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Pagesa për %(productName)s u ripohua"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Mirë se vini te %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
