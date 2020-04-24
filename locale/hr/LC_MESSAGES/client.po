@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-24 10:41+0000\n"
+"PO-Revision-Date: 2020-04-24 10:47+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -981,7 +981,7 @@ msgstr "Nepotvrđeni korisnik ili sesija"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Nevažeći id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1800,11 +1800,11 @@ msgstr "Ukloni"
 
 #: .es5/templates/settings/emails.mustache:24
 msgid "Refresh"
-msgstr ""
+msgstr "Osvježi"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "Dodaj e-poštu"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
