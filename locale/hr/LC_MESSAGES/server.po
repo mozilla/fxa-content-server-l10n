@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-24 10:46+0000\n"
+"PO-Revision-Date: 2020-04-24 10:59+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -178,27 +178,27 @@ msgstr ""
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Kôd za oporavak je iskorišten"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Uspješno je iskorišten jedan kôd za oporavak na sljedećem uređaju:"
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
-msgstr ""
+msgstr "Iskorišteni kodovi za oporavak"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1553
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Novi kodovi za oporavak su stvoreni"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Uspješno su stvoreni novi kodove za oporavak na sljedećem uređaju:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1732
 msgid "Account recovery key removed"
-msgstr ""
+msgstr "Ključ za oporavak računa je uklonjen"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
