@@ -347,8 +347,6 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"A partire dalla prossima fattura, il tuo pagamento sarà modificato da $%(paymentAmountOld)s per %(productPaymentCycle)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditato un importo una "
-"tantum di $%(paymentProrated)s per riflettere la tariffa più bassa per il resto di questo %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
