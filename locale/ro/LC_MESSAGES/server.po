@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-25 03:31+0000\n"
+"PO-Revision-Date: 2020-04-25 03:37+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -343,7 +343,7 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Începând cu următoarea factură, tariful se va schimba de la $%(paymentAmountOld)s per %(productPaymentCycle)s la $%(paymentAmountNew)s. Tot atunci vei primi un credit unic de $%(paymentProrated)s "
+"Începând cu următoarea factură, tariful se va schimba de la %(paymentAmountOld)s $ pe %(productPaymentCycle)s la %(paymentAmountNew)s $. Tot atunci vei primi un credit unic de %(paymentProrated)s $ "
 "care să reflecte tariful mai mic pentru restul acestei %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -408,31 +408,31 @@ msgstr "Pentru a preveni orice întrerupere a serviciului, actualizează-ți inf
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Ne pare rău, întâmpinăm probleme cu plata ta"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Am întâmpinat o problemă cu ultima ta plată pentru %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Ajută-ne să rezolvăm problema prin <a href=\"%(updateBillingUrl)s\">actualizarea informațiilor tale pentru plăți</a> în termen de trei zile."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Din păcate, dacă nu primim de la tine nicio informare în termen de trei zile, vei pierde accesul la %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Ajută-ne să rezolvăm problema prin actualizarea informațiilor tale pentru plăți în termen de trei zile:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Îți mulțumim că te-ai abonat!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -440,17 +440,19 @@ msgstr "Am primit ultima plată pentru %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Îți mulțumim că ai trecut la noua versiune!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Ai trecut cu succes de la %(productNameOld)s la %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Începând cu următoarea factură, tariful se va schimba de la %(paymentAmountOld)s $ pe %(productPaymentCycle)s la %(paymentAmountNew)s $. Tot atunci vei primi un credit unic de %(paymentProrated)s $ "
+"care să reflecte tariful mai mare pentru restul acestei %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -803,19 +805,19 @@ msgstr "Creează o cheie nouă de recuperare"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Ai trecut la versiunea nouă de %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Ai trecut la %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Cardul de credit pentru %(productName)s va expira în curând"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Plata pentru %(productName)s a eșuat"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
@@ -831,7 +833,7 @@ msgstr "Plată confirmată pentru %(productName)s"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Bine ai venit la %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
