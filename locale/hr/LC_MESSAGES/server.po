@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-25 12:24+0000\n"
+"PO-Revision-Date: 2020-04-25 12:31+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -83,56 +83,56 @@ msgstr "Lozinka tvog računa ponovno je postavljena pomoću ključa za oporavak"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr ""
+msgstr "Tvoja je zaporka uspješno ponovno postavljena koristeći ključ za oporavak na sljedećem uređaju:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
-msgstr ""
+msgstr "Morat ćeš generirati novi ključ za oporavak."
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:4
 msgid "Create new recovery key:"
-msgstr ""
+msgstr "Stvori novi ključ za oporavak:"
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Za više informacija, posjeti %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Prepoznali smo sumnjivu aktivnost na tvom računu za Firefox. Tvoj je račun možda ugrožen."
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Kako bismo spriječili daljnji neovlašteni pristup tvom računu za Firefox, ponovno smo postavili tvoju lozinku i obavještavamo te o tome kao mjeru opreza."
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Što trebaš učiniti?"
 
 #: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Prvo, promijeni lozinku svog računa za Firefox."
 
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
+msgstr "Drugo, ako su u Firefoxu pohranjene lozinke za web stranice, trebaš promijeniti i te lozinke. Napadači možda imaju pristup tim lozinkama, pa trebaš provjeriti te račune za sumnjivu aktivnost."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Saznaj kako vidjeti koje lozinke Firefox sprema za tebe."
 
 #: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Lijep pozdrav,"
 
 #: lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Tim za Firefox račune"
 
 #: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1686
 msgid "Account recovery key generated"
-msgstr ""
+msgstr "Stvoren je ključ za oporavak računa"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
