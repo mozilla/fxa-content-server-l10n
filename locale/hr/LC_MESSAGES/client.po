@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-24 10:47+0000\n"
+"PO-Revision-Date: 2020-04-25 12:05+0000\n"
 "Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -2181,7 +2181,7 @@ msgstr "Proces postavljanja je prekinut."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Skeniraj za povezivanje drugog uređaja"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
