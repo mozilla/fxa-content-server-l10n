@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-26 02:21+0000\n"
+"PO-Revision-Date: 2020-04-26 02:31+0000\n"
 "Last-Translator: Bald3mar <baldemarls@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mix\n"
@@ -55,7 +55,7 @@ msgstr "Firefox Sync kunchatu tsa ku nkitsai"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Ndu tsa'a tu'un se'e"
 
 #: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -67,7 +67,7 @@ msgstr ""
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr ""
+msgstr "Korreo va'a"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -91,23 +91,23 @@ msgstr ""
 
 #: .es5/views/ready.js:92
 msgid "Connected"
-msgstr ""
+msgstr "Ita'an"
 
 #: .es5/views/reset_password.js:112
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Sivi va'á. <a href=\"/signup\">Registro</a>"
 
 #: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Ko'ó Kuenta inka. ¿A kunu iin ña tsa'a?"
 
 #: .es5/views/support.js:84
 msgid "Please Select One"
-msgstr ""
+msgstr "Sa'a ña mani, Katsi iin"
 
 #: .es5/views/support.js:223 .es5/templates/support.mustache:5
 msgid "Other"
-msgstr ""
+msgstr "Inka"
 
 #: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
