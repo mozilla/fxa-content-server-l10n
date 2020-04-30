@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-25 03:37+0000\n"
+"PO-Revision-Date: 2020-04-30 06:28+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -476,7 +476,7 @@ msgstr "Acum câteva zile ai creat un cont Firefox, dar nu l-ai confirmat."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Confirmă-l acum și obține tehnologia care luptă pentru și îți protejează intimitatea, te înarmează cu cunoștințe practice și îți acordă respectul pe care îl meriți."
+msgstr "Confirmă-l acum și obține tehnologia care luptă pentru și îți protejează viața privată, îți oferă cunoștințe practice și îți acordă respectul pe care îl meriți."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
