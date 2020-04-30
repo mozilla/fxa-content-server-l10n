@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-30 22:53+0000\n"
+"PO-Revision-Date: 2020-04-30 23:05+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1407,15 +1407,15 @@ msgstr "Потврђено"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Створен"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Избришите догађаје"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Назад на подешавања"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
@@ -1463,7 +1463,7 @@ msgstr "Унесите десетоцифрени код"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Не можете да се пријавите?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1491,7 +1491,7 @@ msgstr "Отворите вашу апликацију за аутентифик
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Проблеми с уносом кода?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1515,7 +1515,7 @@ msgstr "Поновите лозинку"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Ова вам је лозинка потребна за приступ шифрованим подацима које чувате код нас.<br/>Поништавање исте може резултовати губитком података попут лозинки и обележивача."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1527,11 +1527,11 @@ msgstr "Направи налог"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "Синхронизујте овај прегледач с вашим мобилним телефоном"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Желите ли да синхронизујете ваш мобилни телефон?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1539,7 +1539,7 @@ msgstr "Пошаљите Firefox право на ваш паметни теле�
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Пошаљите везу за инсталирање Firefox-а на ваш мобилни телефон SMS поруком."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
@@ -1551,7 +1551,7 @@ msgstr "Пошаљи"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Можда ће се примењивати накнаде за SMS и промет података. Потребна је сагласност примаоца. <a%(escapedLearnMoreAttributes)s>Сазнајте више</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1559,7 +1559,7 @@ msgstr "Зашто синхронизовати више уређаја?"
 
 #: .es5/templates/sms_send.mustache:18
 msgid "Not now"
-msgstr ""
+msgstr "Не сада"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1567,7 +1567,7 @@ msgstr "Проверите ваше поруке"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Послали смо вам текстуалну поруку"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1595,7 +1595,7 @@ msgstr "Контактирајте нас"
 
 #: .es5/templates/support.mustache:3
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Због чега нас контактирате?"
 
 #: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
@@ -1607,7 +1607,7 @@ msgstr "Предмет (опционално)"
 
 #: .es5/templates/support.mustache:9
 msgid "Description of issue"
-msgstr ""
+msgstr "Опис проблема"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1623,11 +1623,11 @@ msgstr "Важи"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Желите ли да синхронизујете овај уређај с вашим налогом?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Синхронизујте овај уређај"
 
 #: .es5/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1660,7 +1660,7 @@ msgstr "Позиционирајте и ротирајте вашу слику �
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Прекини везу са Sync-ом"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
