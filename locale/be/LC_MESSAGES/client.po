@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-26 18:09+0000\n"
+"PO-Revision-Date: 2020-04-30 19:12+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -2027,11 +2027,11 @@ msgstr "Абараніце свае дадзеныя з дапамогай кл�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Вашы сінхранізаваныя звесткі могуць утрымліваць паролі, якія вы захавалі."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Паколькі гэта інфармацыя крытычна важная для вашай бяспекі, Firefox выдаляе яе, каб абараніць вас, калі ваш пароль будзе скінуты, каб не дазволіць іншым людзям атрымаць доступ да яе."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
