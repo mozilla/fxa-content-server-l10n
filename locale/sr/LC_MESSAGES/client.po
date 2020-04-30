@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-30 19:36+0000\n"
+"PO-Revision-Date: 2020-04-30 21:20+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -111,11 +111,11 @@ msgstr "Остало"
 
 #: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Хвала вам што сте се обратили Mozilla подршци у вези <b>%(escapedLowercaseTopic)s</b>. Контактираћемо вас е-поштом што је пре могуће."
 
 #: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Хвала вам што сте се обратили Mozilla подршци у вези <b>%(escapedLowercaseTopic)s</b> за <b>%(escapedSelectedPlan)s</b>. Контактираћемо вас е-поштом што је пре могуће."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -124,7 +124,7 @@ msgstr "Лозинка"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Промени..."
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -172,27 +172,27 @@ msgstr "Жао нам је што се то догодило. Ако не вер
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последњи пут виђен пре %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последњи пут виђен пре више од %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последњи пут виђен пре %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Последњи пут виђен пре више од %(translatedTimeAgo)s у %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Последњи пут виђен пре %(translatedTimeAgo)s близу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Последњи пут виђен пре више од %(translatedTimeAgo)s близу %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
@@ -252,7 +252,7 @@ msgstr "Веб сесије"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Време последњег виђења није познато"
 
 #: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
@@ -329,7 +329,7 @@ msgstr "Опоравак налога је опозван"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Ваши синхронизовани подаци су заштићени"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
