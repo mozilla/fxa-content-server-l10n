@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-30 21:20+0000\n"
+"PO-Revision-Date: 2020-04-30 21:31+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -333,7 +333,7 @@ msgstr "Ваши синхронизовани подаци су заштићен
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Ако изгубите приступ свом налогу, моћи ћете да опоравите синхронизоване податке."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -341,11 +341,11 @@ msgstr "Почните прегледати"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Обавештења о налогу ће сада бити слана на %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Наставите на %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -437,11 +437,11 @@ msgstr "Проблеми с налогом"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Андроид апликација за приватну Firefox мрежу"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Windows апликација за приватну Firefox мрежу"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -477,7 +477,7 @@ msgstr "Кредитне картице"
 
 #: .es5/models/reliers/browser.js:84
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -605,11 +605,11 @@ msgstr "Секундарна адреса мора бити другачија �
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Достигли сте максималан број секундарних адреса е-поште"
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Ова адреса е-поште већ постоји на вашем налогу"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -709,7 +709,7 @@ msgstr "Ажурирање је одбијено, покушајте понов�
 
 #: .es5/lib/auth-errors.js:284
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Неважећи или истекао верификациони код"
 
 #: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
 msgid "Server busy, try again soon"
@@ -886,7 +886,7 @@ msgstr "Неважеће преусмеравање"
 
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Нетачно унета адреса е-поште? %(domain)s не нуди адресу."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -982,7 +982,7 @@ msgstr "Непроверени корисник или сесија"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Неважећи id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
