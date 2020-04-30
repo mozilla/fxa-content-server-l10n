@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-30 23:05+0000\n"
+"PO-Revision-Date: 2020-04-30 23:13+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1551,7 +1551,7 @@ msgstr "Пошаљи"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Можда ће се примењивати накнаде за SMS и промет података. Потребна је сагласност примаоца. <a%(escapedLearnMoreAttributes)s>Сазнајте више</a>"
+msgstr "Можда ће се примењивати накнаде за SMS и промет података. Потребна је сагласност примаоца. <a %(escapedLearnMoreAttributes)s>Сазнајте више</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1660,7 +1660,7 @@ msgstr "Позиционирајте и ротирајте вашу слику �
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr "Прекини везу са Sync-ом"
+msgstr "Отпоји од Sync-а"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1668,23 +1668,23 @@ msgstr "Ваши подаци прегледања ће остати на %(devi
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Отпајате %(deviceName)s од Sync-а зато што је овај уређај:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Сумњив"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Изгубљен или украден"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Стар или замењен"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Дупликат"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
@@ -1762,7 +1762,7 @@ msgstr "Избриши…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "Гледате да откажете плаћену претплату? Идите на страницу <a href=\"/subscriptions\">претплате и исплате</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1774,7 +1774,7 @@ msgstr "Брисањем налога признајете да:"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Све плаћене претплате биће отказане"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1806,7 +1806,7 @@ msgstr "Освежи"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "Додајте адресу е-поште"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -1814,7 +1814,7 @@ msgstr "Додај"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Сачувајте кодове за опоравак"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1830,7 +1830,7 @@ msgstr "Генериши нове кодове за опоравак"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Држите кодове за једнократну употребу на сигурном месту, у случају да немате ваш мобилни уређај."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
