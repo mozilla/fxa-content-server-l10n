@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-30 19:12+0000\n"
+"PO-Revision-Date: 2020-05-01 18:18+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -328,11 +328,11 @@ msgstr "Аднаўленне ўліковага запісу адклікана"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Вашы сінхранізаваныя дадзеныя абаронены"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Калі вы страціце доступ да свайго ўліковага запісу, вы зможаце аднавіць сінхранізаваныя звесткі."
 
 #: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -340,7 +340,7 @@ msgstr "Пачаць агляданне"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Абвесткі ўліковага запісу будуць таксама дасылацца на %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
