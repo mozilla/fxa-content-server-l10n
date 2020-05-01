@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-22 12:09+0000\n"
+"PO-Revision-Date: 2020-05-01 23:11+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1804,7 +1804,7 @@ msgstr "Oppdater"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "Legg til e-post"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
