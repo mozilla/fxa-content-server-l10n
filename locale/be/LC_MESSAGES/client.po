@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-01 18:18+0000\n"
+"PO-Revision-Date: 2020-05-02 16:43+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -34,7 +34,7 @@ msgstr "%(permissionName)s (абавязкова)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Адрас эл.пошты"
+msgstr "Адрас электроннай пошты"
 
 #: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:169
 msgid "Display name"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Гэты адрас электроннай пошты ўжо прысутнічае ў вашым уліковым запісе"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -1243,7 +1243,7 @@ msgstr "Адрас эл.пошты пацверджаны"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Завяршыце наладу"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -2019,7 +2019,7 @@ msgstr "Магчыма пазней"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Выкарыстайце іншую электронную пошту"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2163,7 +2163,7 @@ msgstr "Прылада злучана"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Паспяхова падключана"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2187,7 +2187,7 @@ msgstr "Працэс усталявання быў спынены."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Скануйце, каб падключыць іншую прыладу"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2203,7 +2203,7 @@ msgstr "Атрымаць праграму"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Прылада паспяхова спалучана"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
