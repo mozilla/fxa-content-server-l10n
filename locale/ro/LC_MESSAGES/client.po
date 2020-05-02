@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-01 05:23+0000\n"
+"PO-Revision-Date: 2020-05-02 06:56+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1720,7 +1720,7 @@ msgstr "Afișează"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Dispozitivul actual"
+msgstr "Dispozitiv actual"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
@@ -1912,7 +1912,7 @@ msgstr "Adaugă un plus de securitate la contul tău prin solicitarea codurilor 
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
-msgstr "Starea actuală"
+msgstr "Stare actuală"
 
 #: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
 msgid "Enabled"
