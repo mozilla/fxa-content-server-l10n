@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-02 23:13+0000\n"
+"PO-Revision-Date: 2020-05-02 23:34+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -184,23 +184,23 @@ msgstr "Sakkitii yiyeede %(translatedTimeAgo)s nder %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii yiyeede e %(translatedTimeAgo)s nder %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii yiyeede %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Sakkitii yiyeede e %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
-msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
+msgstr "Sakkitii saasde %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Jahdingol wattan dow %(translatedTimeAgo)s"
+msgstr "Sakkitii saasde %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: .es5/views/settings/recovery_codes.js:110
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Kod keɓtugol Firefox"
 
 #: .es5/views/settings/recovery_codes.js:143
 msgid "New recovery codes generated"
