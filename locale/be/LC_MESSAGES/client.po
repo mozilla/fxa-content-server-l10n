@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-02 16:43+0000\n"
+"PO-Revision-Date: 2020-05-02 16:44+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -276,7 +276,7 @@ msgstr "Бачнае імя абноўлена"
 
 #: .es5/views/settings/emails.js:129
 msgid "Secondary email removed"
-msgstr "Другі адрас эл.пошты выдалены"
+msgstr "Другі адрас электроннай пошты выдалены"
 
 #: .es5/views/settings/emails.js:161 .es5/views/settings/emails.js:178 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
