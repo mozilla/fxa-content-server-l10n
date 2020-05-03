@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 19:11+0000\n"
+"PO-Revision-Date: 2020-05-03 19:16+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -224,7 +224,7 @@ msgstr "Успешно сте уклонили %(secondaryEmail)s, секунд�
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr "Верификација у два корака онемогућена"
+msgstr "Аутентификација у два корака онемогућена"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
@@ -653,7 +653,7 @@ msgstr "Откажите претплату:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Ажурирајте податке о плаћању:"
 
 #: lib/senders/email.js:276
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -713,15 +713,15 @@ msgstr "Код за пријаву у %(serviceName)s"
 
 #: lib/senders/email.js:838
 msgid "Confirm primary email"
-msgstr "Потврдите примарну адресу"
+msgstr "Потврдите примарну адресу е-поште"
 
 #: lib/senders/email.js:839 lib/senders/email.js:898 lib/senders/email.js:966
 msgid "Verify email"
-msgstr "Верификујте адресу"
+msgstr "Верификујте адресу е-поште"
 
 #: lib/senders/email.js:897 lib/senders/email.js:965
 msgid "Confirm secondary email"
-msgstr "Потврдите секундарну адресу"
+msgstr "Потврдите секундарну адресу е-поште"
 
 #: lib/senders/email.js:1021
 msgid "Reset your password"
@@ -750,39 +750,39 @@ msgstr "Повежите други уређај"
 
 #: lib/senders/email.js:1309
 msgid "Set up recovery email"
-msgstr ""
+msgstr "Подесите адресу е-поште за опоравак"
 
 #: lib/senders/email.js:1310
 msgid "Add a secondary email"
-msgstr ""
+msgstr "Додајте секундарну адресу е-поште"
 
 #: lib/senders/email.js:1360 lib/senders/email.js:1361
 msgid "Get a recovery key"
-msgstr ""
+msgstr "Добијте кључ за опоравак"
 
 #: lib/senders/email.js:1397
 msgid "Primary email updated"
-msgstr ""
+msgstr "Примарна адреса е-поште је ажурирана"
 
 #: lib/senders/email.js:1467
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Верификација у два корака омогућена"
 
 #: lib/senders/email.js:1510
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Аутентификација у два корака онемогућена"
 
 #: lib/senders/email.js:1596
 msgid "Recovery code used"
-msgstr ""
+msgstr "Код за опоравак је искоришћен"
 
 #: lib/senders/email.js:1649
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 код за опоравак је преостао"
 
 #: lib/senders/email.js:1651
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s кодова за опоравак је преостало"
 
 #: lib/senders/email.js:1654
 msgid "Generate codes"
@@ -790,7 +790,7 @@ msgstr "Генериши кодове"
 
 #: lib/senders/email.js:1778
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Лозинка је ажурирана помоћу кључа за опоравак"
 
 #: lib/senders/email.js:1779
 msgid "Create new recovery key"
