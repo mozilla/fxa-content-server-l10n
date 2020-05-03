@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 18:53+0000\n"
+"PO-Revision-Date: 2020-05-03 19:04+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -513,7 +513,7 @@ msgstr "Ако је одговор да, изволите верификацио
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Истиче за 5 минута."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -545,19 +545,19 @@ msgstr "Једном када је верификујете, адреса ће �
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Искористите овај верификациони код:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Истиче за 5 минута. Једном када верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Да ли сте се ово ви пријавили?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Ако је одговор да, изволите верификациони код:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -585,15 +585,15 @@ msgstr "Ово је аутоматска е-пошта; уколико нист�
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Ово је аутоматска е-пошта; ако сте је грешком примили, ни једна радња није потребна."
+msgstr "Ово је аутоматска е-пошта; ако сте је грешком примили, ниједна радња није потребна."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Ово је аутоматска е-пошта; Уколико нисте овластили ову радњу, онда је потребно <a %(resetLinkAttributes)s>да ресетујете лозинку</a>."
+msgstr "Ово је аутоматска е-пошта; уколико нисте овластили ову радњу, онда је потребно <a %(resetLinkAttributes)s>да ресетујете лозинку</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Ако сумњате да неко покушава да приступи вашем налогу, молимо вас да промените лозинку."
+msgstr "Ако сумњате да неко покушава да приступи вашем налогу, промените лозинку."
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -601,7 +601,7 @@ msgstr "IP адреса: %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr "Управљај налогом:"
+msgstr "Управљајте налогом:"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -689,19 +689,19 @@ msgstr "Потврдите своју е-пошту"
 
 #: lib/senders/email.js:561
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Верификациони код: %(code)s"
 
 #: lib/senders/email.js:602
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Опомена: завршите прављење вашег налога"
 
 #: lib/senders/email.js:604
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Последња опомена: активирајте ваш налог"
 
 #: lib/senders/email.js:659
 msgid "Account authorization code"
-msgstr ""
+msgstr "Код за ауторизацију налога"
 
 #: lib/senders/email.js:728
 msgid "Confirm new sign-in to %(clientName)s"
@@ -709,44 +709,44 @@ msgstr "Потврдите ново пријављивање на %(clientName)s
 
 #: lib/senders/email.js:773
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Код за пријаву у %(serviceName)s"
 
 #: lib/senders/email.js:838
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Потврдите примарну адресу"
 
 #: lib/senders/email.js:839 lib/senders/email.js:898 lib/senders/email.js:966
 msgid "Verify email"
-msgstr ""
+msgstr "Верификујте адресу"
 
 #: lib/senders/email.js:897 lib/senders/email.js:965
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Потврдите секундарну адресу"
 
 #: lib/senders/email.js:1021
 msgid "Reset your password"
-msgstr "Ресетуј лозинку"
+msgstr "Ресетујте лозинку"
 
 #: lib/senders/email.js:1063 lib/senders/email.js:1101
 msgid "Password updated"
-msgstr ""
+msgstr "Лозинка је ажурирана"
 
 #: lib/senders/email.js:1131
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Откривена је сумњива радња"
 
 #: lib/senders/email.js:1173 lib/senders/email.js:1270 lib/senders/email.js:1398 lib/senders/email.js:1434 lib/senders/email.js:1468 lib/senders/email.js:1511 lib/senders/email.js:1554
 #: lib/senders/email.js:1597 lib/senders/email.js:1687 lib/senders/email.js:1733
 msgid "Manage account"
-msgstr "Управљај налогом"
+msgstr "Управљајте налогом"
 
 #: lib/senders/email.js:1224
 msgid "Account confirmed"
-msgstr ""
+msgstr "Налог је потврђен"
 
 #: lib/senders/email.js:1227
 msgid "Connect another device"
-msgstr "Повежи други уређај"
+msgstr "Повежите други уређај"
 
 #: lib/senders/email.js:1309
 msgid "Set up recovery email"
@@ -798,31 +798,31 @@ msgstr "Направите нови кључ за опоравак"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Ажурирали сте на %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Пребацили сте се на %(productNameNew)s"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Кредитна картица за %(productName)s ускоро истиче"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "%(productName)s уплата није успела"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Ваш %(productName)s претплата је отказана"
 
 #: lib/senders/email.js:2252
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "%(productName)s уплата је примљена"
 
 #: lib/senders/email.js:2334
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "%(productName)s уплата је потврђена"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
