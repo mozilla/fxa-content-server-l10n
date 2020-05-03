@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 19:04+0000\n"
+"PO-Revision-Date: 2020-05-03 19:11+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -573,7 +573,7 @@ msgstr "Једном када потврдите, помоћићемо вам д
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ово је аутоматска е-пошта; уколико нисте овластили ову радњу, онда је потребно <a %(passwordChangeLinkAttributes)s>да промените лозинку</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -613,43 +613,43 @@ msgstr "Firefox Cloud услови коришћења"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Примили сте ову поруку зато што %(email)s има Firefox налог и претплатили сте се на %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Управљајте вашим подешавањима Firefox налога тако што ћете посетити <a %(accountSettingsLinkAttributes)s>страницу налога</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Услови и полиса отказивања"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Откажите претплату"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Ажурирајте податке о плаћању"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Правне информације"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Приватност"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Услови и полиса отказивања:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Политика приватности:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Откажите претплату:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
@@ -681,7 +681,7 @@ msgstr "%(country)s (процењено)"
 
 #: lib/senders/email.js:493
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Завршите прављење вашег налога"
 
 #: lib/senders/email.js:494 lib/senders/email.js:622
 msgid "Confirm email"
