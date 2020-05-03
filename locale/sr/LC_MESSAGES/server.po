@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 18:37+0000\n"
+"PO-Revision-Date: 2020-05-03 18:53+0000\n"
 "Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -52,7 +52,7 @@ msgstr "Ново пријављивање на клијенту %(clientName)s"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr "Промена лозинке је успешна"
+msgstr "Лозинка је успешно промењена"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -60,7 +60,7 @@ msgstr "Лозинка вашег Firefox налога је успешно пр�
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Ово је аутоматска е-пошта; Уколико нисте ви променили лозинку вашег Firefox налога, требало би да је одмах ресетујете на %(resetLink)s"
+msgstr "Ово је аутоматска е-пошта; уколико нисте ви променили лозинку вашег Firefox налога, требало би да је одмах ресетујете на %(resetLink)s"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -100,7 +100,7 @@ msgstr "За више информација, посетите %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Открили смо сумљиву активност на вашем Firefox налогу. Налог вам је можда угрожен."
+msgstr "Открили смо сумњиву активност на вашем Firefox налогу. Налог вам је можда угрожен."
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -108,7 +108,7 @@ msgstr "Да спречимо будући неовлашћен приступ �
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
-msgstr "Шта треба да радим?"
+msgstr "Шта треба да урадите?"
 
 #: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
 msgid "First, change your Firefox Account password."
@@ -117,8 +117,7 @@ msgstr "Прво, промените лозинку Firefox налога."
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"Друго, ако Firefox бележи лозинке веб сајтова, требали бисте да промените и те лозинке. Нападачи можда имају све лозинке, требали бисте да проверите да ли има сумљивих активност на другим налозима."
+msgstr "Друго, ако Firefox бележи лозинке веб страница, требало би да их промените. Нападачи можда имају све лозинке, па треба да проверите да ли има сумњивих активности на другим налозима."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -506,7 +505,7 @@ msgstr "За додатну безбедност, молимо вас да по�
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:731
 msgid "Confirm sign-in"
-msgstr "Потврди пријаву"
+msgstr "Потврдите пријаву"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
@@ -530,11 +529,11 @@ msgstr "Једном када потврдите, измене налога ка
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "Верификуј адресу: "
+msgstr "Верификујте адресу:"
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
-msgstr "Верификуј секундарну адресу"
+msgstr "Верификујте секундарну адресу"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -542,7 +541,7 @@ msgstr "Захтев за коришћење %(email)s као секундарн
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Једном када је верификујете, адреса ће добијати безбедносне нотификације и потврде о пријавама."
+msgstr "Једном када је верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама."
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
@@ -578,11 +577,11 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "За више информација, посетите <a %(supportLinkAttributes)s>Mozilla подршка</a> сајт."
+msgstr "За више информација, посетите страницу <a %(supportLinkAttributes)s>Mozilla подршке</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Ово је аутоматска е-пошта; Уколико нисте додали ниједан уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
+msgstr "Ово је аутоматска е-пошта; уколико нисте додали ниједан уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
