@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 01:14+0000\n"
+"PO-Revision-Date: 2020-05-03 01:21+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -878,11 +878,11 @@ msgstr "Coktirgal keɓtugol ina naamnaa"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Tiiɗno naatnu kod ƴeewtagol"
 
 #: .es5/lib/auth-errors.js:597
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Ɓenningol moƴƴaani"
 
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
