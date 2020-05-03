@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 01:03+0000\n"
+"PO-Revision-Date: 2020-05-03 01:14+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:284
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Kod ƴeewtorɗo oo moƴƴaani walla o buntii"
 
 #: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
 msgid "Server busy, try again soon"
@@ -814,7 +814,7 @@ msgstr "Maa naatnaa duuɓi maa nde mbinndito-ɗaa"
 
 #: .es5/lib/auth-errors.js:452
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Ala e sago naat-naa duuɓi moƴƴi ngam winnditaade"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Account no longer exists."
@@ -866,15 +866,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:563
 msgid "Recovery code required"
-msgstr ""
+msgstr "Kod keɓtugol ina naamnaa"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Kod keɓtugol moƴƴaani"
 
 #: .es5/lib/auth-errors.js:581
 msgid "Recovery key required"
-msgstr ""
+msgstr "Coktirgal keɓtugol ina naamnaa"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Please enter verification code"
