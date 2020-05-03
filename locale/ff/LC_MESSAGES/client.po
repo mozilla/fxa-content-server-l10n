@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 00:51+0000\n"
+"PO-Revision-Date: 2020-05-03 01:03+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -437,11 +437,11 @@ msgstr "Caɗeele Konte"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Jaaɓnirgal Android ngal laylaytol keeringol Firefox"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Jaaɓnirgal Windows ngal laylaytol keeringol Firefox"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -453,7 +453,7 @@ msgstr "Aslol"
 
 #: .es5/models/sync-engines.js:62
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Ceŋorɗe & Pinle"
 
 #: .es5/models/sync-engines.js:66
 msgid "Add-ons"
@@ -461,7 +461,7 @@ msgstr "Ɓeyditte"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr ""
+msgstr "Uddit tabbe"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -473,11 +473,11 @@ msgstr "Ñiiɓirɗe"
 
 #: .es5/models/sync-engines.js:90
 msgid "Credit Cards"
-msgstr ""
+msgstr "Karte banke"
 
 #: .es5/models/reliers/browser.js:84
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Oo iimeel ina woodi e konte maa kisa"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -661,7 +661,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:232
 msgid "Recovery code not found"
-msgstr ""
+msgstr "Kod keɓtugol yiytaaka"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Unavailable device command"
@@ -669,11 +669,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Recovery key not found"
-msgstr ""
+msgstr "Coktirgal keɓtugol yiytaaka"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "Coktirgal keɓtugol moƴƴaani"
 
 #: .es5/lib/auth-errors.js:248 .es5/lib/auth-errors.js:256
 msgid "This request requires two step authentication enabled on your account."
@@ -689,7 +689,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Lulnagol anndaaka"
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown plan for subscription."
