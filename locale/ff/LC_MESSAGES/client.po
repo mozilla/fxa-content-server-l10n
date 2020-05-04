@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-03 01:27+0000\n"
+"PO-Revision-Date: 2020-05-02 23:30+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -200,7 +200,7 @@ msgstr "Sakkitii saasde %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Sakkitii saasde %(translatedTimeAgo)s"
+msgstr "Sakkitii seŋaade e %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
