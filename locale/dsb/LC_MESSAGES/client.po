@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 13:42+0000\n"
+"PO-Revision-Date: 2020-05-04 18:27+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -462,7 +462,7 @@ msgstr "Dodanki"
 
 #: .es5/models/sync-engines.js:70
 msgid "Open Tabs"
-msgstr "Wócynjone rejtarki"
+msgstr "Wócynjone rejtariki"
 
 #: .es5/models/sync-engines.js:74
 msgid "Preferences"
@@ -959,7 +959,7 @@ msgstr "Token jo spadnjony"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtark a wopytajśo hyšći raz."
+msgstr "Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz."
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
