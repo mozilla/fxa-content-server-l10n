@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2018-12-03 12:26+0000\n"
+"PO-Revision-Date: 2015-10-16 08:03+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1438,7 +1438,7 @@ msgstr "Conturi Firefox"
 
 #: .es5/templates/settings.mustache:4
 msgid "Sign out"
-msgstr "Deconectează-te"
+msgstr "Deconectare"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
