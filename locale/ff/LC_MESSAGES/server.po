@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-05 00:20+0000\n"
+"PO-Revision-Date: 2020-05-05 00:32+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -458,7 +458,7 @@ msgstr "So wonaa aan wallu-min falaade wijjittooɓe tee jaŋtano min."
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Waɗii balɗe seeɗa a sosiino konte Firefox, kono a teeŋtinaani ɗe abada."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -466,7 +466,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Teeŋtin iimeel:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -490,11 +490,11 @@ msgstr ""
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Teeŋtin konte maa etee heɓ ko ɓuri moƴƴude e Firefox kala nokku ceŋiɗaa."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Ngam kisal ɓeydingal, tiiɗno teeŋtin ngol ceŋagol e ngol kaɓirgol:"
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:731
 msgid "Confirm sign-in"
