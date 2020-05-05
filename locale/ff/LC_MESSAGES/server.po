@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-05 00:32+0000\n"
+"PO-Revision-Date: 2020-05-05 00:40+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -506,7 +506,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Ɗuum gasat e nder hojomaaji 5."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -546,7 +546,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Ko aan woni binndittoɗo ɗoo oo?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -618,7 +618,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Haaytin binnditagol"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
@@ -626,11 +626,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Laawol"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Suturo"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -642,7 +642,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Haaytin binnditagol:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
@@ -678,7 +678,7 @@ msgstr ""
 
 #: lib/senders/email.js:494 lib/senders/email.js:622
 msgid "Confirm email"
-msgstr ""
+msgstr "Teeŋtin iimeel"
 
 #: lib/senders/email.js:561
 msgid "Verification code: %(code)s"
