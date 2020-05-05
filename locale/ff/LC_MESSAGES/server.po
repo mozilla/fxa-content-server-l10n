@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-05 00:40+0000\n"
+"PO-Revision-Date: 2020-05-05 00:45+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -722,7 +722,7 @@ msgstr "Firlit finnde maa"
 
 #: lib/senders/email.js:1063 lib/senders/email.js:1101
 msgid "Password updated"
-msgstr ""
+msgstr "Finnde hesɗitinaama"
 
 #: lib/senders/email.js:1131
 msgid "Suspicious activity detected"
@@ -735,7 +735,7 @@ msgstr "Yiil konte"
 
 #: lib/senders/email.js:1224
 msgid "Account confirmed"
-msgstr ""
+msgstr "Konte teeŋtinaama"
 
 #: lib/senders/email.js:1227
 msgid "Connect another device"
@@ -819,11 +819,11 @@ msgstr ""
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "A jaɓɓaama e %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Aawto %(productName)s"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -870,7 +870,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Nana loowa"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -886,7 +886,7 @@ msgstr "Sarɗiiji Carwe"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Kesɗitingol Firefox ina naamnaa"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
