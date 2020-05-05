@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-05 06:42+0000\n"
+"PO-Revision-Date: 2020-05-05 06:46+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -436,7 +436,7 @@ msgstr "Takk for at du oppgraderer!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Du har oppgradert fra %(productNameOld)s til %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -807,23 +807,23 @@ msgstr "Betalingskort for %(productName)s utløper snart"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Betaling for %(productName)s mislyktes"
 
 #: lib/senders/email.js:2098 lib/senders/email.js:2172
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Ditt abonnement på %(productName)s har blit avbrutt"
 
 #: lib/senders/email.js:2252
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Betaling for %(productName)s motatt"
 
 #: lib/senders/email.js:2334
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Betaling for %(productName)s bekreftet"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Velkommen til %(productName)s"
 
 #: lib/senders/email.js:2393
 msgid "Download %(productName)s"
