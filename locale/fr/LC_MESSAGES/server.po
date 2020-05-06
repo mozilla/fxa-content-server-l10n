@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-25 10:35+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2020-05-04 21:37+0000\n"
+"Last-Translator: jbuckley <jbuckley@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -306,7 +306,7 @@ msgstr "Créer un nouveau mot de passe"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Merci d’avoir choisi Firefox ! Vous pouvez installer Firefox pour mobiles ici : %(link)s"
+msgstr "Merci d'avoir choisi Firefox ! Vous pouvez installer Firefox pour mobiles ici : %(link)s"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
 #: lib/senders/templates/subscriptionCancellation.txt:1
