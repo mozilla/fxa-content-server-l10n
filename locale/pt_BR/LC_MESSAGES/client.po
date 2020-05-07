@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-17 16:35+0000\n"
+"PO-Revision-Date: 2020-05-07 03:58+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2192,7 +2192,7 @@ msgstr "Digitalize para conectar outro dispositivo"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Abra o leitor de código no seu app Firefox e mostre o código quando estiver pronto."
+msgstr "Abra o leitor de código QR no app Firefox do seu dispositivo. Quando estiver pronto, clique abaixo para mostrar o código."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
