@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 07:19+0000\n"
+"PO-Revision-Date: 2020-05-07 14:10+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -155,11 +155,11 @@ msgstr "Якщо це були не ви, відхиліть ключ."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr "Двохетапну перевірку увімкнено"
+msgstr "Двоетапну перевірку увімкнено"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Ви успішно увімкнули двохетапну перевірку в обліковому записі Firefox з такого пристрою:"
+msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox з такого пристрою:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -167,7 +167,7 @@ msgstr "Відтепер при кожному вході будуть вима�
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Ви успішно увімкнули двохетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході будуть вимагатися коди безпеки з вашого пристрою авторизації."
+msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході будуть вимагатися коди безпеки з вашого пристрою авторизації."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -227,11 +227,11 @@ msgstr "Ви успішно вилучили додаткову адресу %(s
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr "Двохетапну перевірку вимкнено"
+msgstr "Двоетапну перевірку вимкнено"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Ви успішно вимкнули двохетапну перевірку облікового запису Firefox з такого пристрою:"
+msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox з такого пристрою:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
@@ -239,7 +239,7 @@ msgstr "Тепер коди безпеки більше не будуть вим
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Ви успішно вимкнули двохетапну перевірку облікового запису Firefox. Тепер коди безпеки більше не будуть вимагатися при кожному вході."
+msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Тепер коди безпеки більше не будуть вимагатися при кожному вході."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
@@ -769,11 +769,11 @@ msgstr "Основну адресу електронної пошти оновл
 
 #: lib/senders/email.js:1467
 msgid "Two-step verification enabled"
-msgstr "Двохетапну перевірку увімкнено"
+msgstr "Двоетапну перевірку увімкнено"
 
 #: lib/senders/email.js:1510
 msgid "Two-step verification is off"
-msgstr "Двохетапна перевірка вимкнена"
+msgstr "Двоетапна перевірка вимкнена"
 
 #: lib/senders/email.js:1596
 msgid "Recovery code used"
