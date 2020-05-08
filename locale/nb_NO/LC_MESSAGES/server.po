@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-07 19:58+0000\n"
+"PO-Revision-Date: 2020-05-08 07:22+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -331,7 +331,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Du har byttet fra %(productNameOld)s til %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -350,7 +350,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Takk for at du abonnerer på %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
