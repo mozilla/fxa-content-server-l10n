@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2019-12-29 09:33+0000\n"
+"PO-Revision-Date: 2020-05-09 18:52+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -177,8 +177,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
-"і пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
+" пацвярджэння ўваходаў."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -333,8 +333,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -383,7 +383,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Тэрмін дзеяння крэдытнай карты хутка скончыцца"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
@@ -439,8 +439,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -633,7 +633,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Прыватнасць"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"

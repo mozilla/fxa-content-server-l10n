@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-09 18:41+0000\n"
+"PO-Revision-Date: 2020-05-09 18:48+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1551,7 +1551,7 @@ msgstr "Адправіць"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Могуць прымяняцца тарыфы за SMS і перадачу дадзеных. Згода атрымальніка абавязковая. <a %(escapedLearnMoreAttributes)s>Падрабязней</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1880,7 +1880,7 @@ msgstr "Увядзіце гэты сакрэтны ключ у праграму 
 
 #: .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Пасля завяршэння ён пачне генераваць коды бяспекі для ўвядзення."
 
 #: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
@@ -2043,7 +2043,7 @@ msgstr "Пацвердзіце пароль"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Пацвердзіце ваш пароль для %(escapedEmail)s, каб стварыць ключ аднаўлення."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
