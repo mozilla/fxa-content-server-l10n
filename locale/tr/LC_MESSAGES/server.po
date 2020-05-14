@@ -616,7 +616,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "<a %(accountSettingsLinkAttributes)s>Hesap sayfanızı</a> ziyaret ederek Firefox hesabı ayarlarınızı yönetebilirsiniz."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -805,7 +805,7 @@ msgstr ""
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "%(productName)s için kredi kartının kullanım süresi yakında doluyor"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
