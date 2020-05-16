@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-16 21:23+0000\n"
+"PO-Revision-Date: 2020-05-16 21:31+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1533,7 +1533,7 @@ msgstr "Želiš li sinkronizirati svoj mobilni uređaj?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Pošalji Firefox izravno na svoj pametni telefon i prijavi se za dovršavanje postavljanja"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
@@ -1621,7 +1621,7 @@ msgstr "Razumijem"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Želiš li sinkronizirati ovaj uređaj s tvojim računom?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1654,7 +1654,7 @@ msgstr "Avatar"
 
 #: .es5/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Odredi mjesto i okreni sliku prema potrebi"
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
@@ -1662,11 +1662,11 @@ msgstr "Prekini vezu sa Syncom"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Tvoji podaci o pretraživanju ostat će na %(deviceName)s, ali se više neće sinkronizirati s tvojim računom."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Odspajaš %(deviceName)s od sinkronizacije, jer je ovaj uređaj:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -1739,7 +1739,7 @@ msgstr "Firefox za Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Nedostajući ili duplicirani predmeti?"
 
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
