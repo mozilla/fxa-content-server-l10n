@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-16 21:08+0000\n"
+"PO-Revision-Date: 2020-05-16 21:23+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1433,7 +1433,7 @@ msgstr "Nažalost, zaključali smo tvoj&nbsp;račun."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Potvrdni e-mail koji smo poslali na %(email)s je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje Firefox podatke."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
@@ -1453,7 +1453,7 @@ msgstr "Unesi kôd za oporavak"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Upiši kȏd za obnavljanje, koji je bio dostavljen tijekom postavljanja."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
@@ -1465,11 +1465,11 @@ msgstr "Ne možeš pristupiti računu?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Hvala ti na opreznosti"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Naš tim je obaviješten. Ovakvi nam izvještaji pomažu obraniti se od napadača."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1485,7 +1485,7 @@ msgstr "Upiši sigurnosni kȏd"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Otvori program za autentifikaciju i upiši ponuđen sigurnosni kod."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
@@ -1493,7 +1493,7 @@ msgstr "Problemi s unosom kôda?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Pregledaj e-poštu za autorizacijskim kodom koji je poslan na %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
