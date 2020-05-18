@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-18 02:51+0000\n"
+"PO-Revision-Date: 2020-05-18 03:02+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1759,11 +1759,11 @@ msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">�
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "웹에서 안전하고 생산성을 유지할 수 있도록 Firefox 계정을 Mozilla 제품에 연결했습니다:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "계정을 삭제하기 전 다음 사항에 유의하세요:"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
@@ -1771,7 +1771,7 @@ msgstr "모든 유료 구독이 취소됩니다"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Mozilla 제품에 포함된 기능이나 저장한 정보를 잃을 수 있습니다"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
@@ -1799,7 +1799,7 @@ msgstr "새로고침"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "이메일 추가"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -1807,7 +1807,7 @@ msgstr "추가"
 
 #: .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "복구 코드 저장"
 
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
@@ -1823,7 +1823,7 @@ msgstr "새 복구 코드 생성"
 
 #: .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "모바일 기기가 없을 때를 대비해 이 일회용 코드를 안전한 장소에 보관하세요."
 
 #: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
@@ -1845,7 +1845,7 @@ msgstr "복구 코드 확인"
 
 #: .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "기기를 잃어버렸을 때 계정에 다시 접근할 수 있도록 저장한 복구 코드 중 하나를 입력하세요."
 
 #: .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
