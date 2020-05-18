@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-18 03:13+0000\n"
+"PO-Revision-Date: 2020-05-18 03:26+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -389,7 +389,7 @@ msgstr "Firefox 복구 키"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "메일이 재전송되었습니다. 원활한 전송을 위해 연락처에 accounts@firefox.com 메일을 추가해주세요."
+msgstr "이메일이 재전송되었습니다. 원활한 전송을 위해 연락처에 accounts@firefox.com을 추가해주세요."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -1358,7 +1358,7 @@ msgstr "승인되지 않은 로그인을 보고하시겠습니까?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "계정에 접속하려는 시도에 대한 메일을 받았습니다. 의심스러운 활동으로 보고하시겠습니까?"
+msgstr "계정에 접속하려는 시도에 대한 이메일을 받았습니다. 의심스러운 활동으로 보고하시겠습니까?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
