@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-18 02:23+0000\n"
+"PO-Revision-Date: 2020-05-18 02:43+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -437,11 +437,11 @@ msgstr "계정 문제"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Android App"
-msgstr ""
+msgstr "Firefox 개인 네트워크 Android 앱"
 
 #: .es5/models/support-form.js:25
 msgid "Firefox Private Network Windows App"
-msgstr ""
+msgstr "Firefox 개인 네트워크 Windows 앱"
 
 #: .es5/models/sync-engines.js:54
 msgid "Bookmarks"
@@ -605,11 +605,11 @@ msgstr "보조 이메일은 계정 이메일과 달라야 합니다"
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "등록 가능한 최대 보조 이메일 갯수에 도달하였습니다"
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "이 이메일은 이미 계정에 등록되어 있습니다"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -886,7 +886,7 @@ msgstr "잘못된 리디렉션"
 
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 이메일을 제공하지 않습니다."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -982,7 +982,7 @@ msgstr "검증되지 않은 사용자 또는 세션"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "잘못된 id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1111,11 +1111,11 @@ msgstr "자세히 보기"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "동기화할 대상 선택:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "동기화 선택"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -1222,7 +1222,7 @@ msgstr "검증"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "다른 코드가 필요하신가요? 다시 보내기"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1238,7 +1238,7 @@ msgstr "이메일 검증됨"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "설정 완료"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1456,7 +1456,7 @@ msgstr "10자리 숫자 복구 코드 입력"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "접근이 불가능한 상태이신가요?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1484,7 +1484,7 @@ msgstr "인증 앱을 열고 제공된 보안 코드를 입력하세요."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "코드 입력에 문제가 있으신가요?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1508,7 +1508,7 @@ msgstr "비밀번호 재입력"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 비밀번호가 필요합니다.<br/>재설정은 저장된 비밀번호나 북마크가 사라질 수 있음을 뜻합니다."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1520,11 +1520,11 @@ msgstr "계정 생성"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Sync this browser with your phone"
-msgstr ""
+msgstr "이 브라우저를 휴대전화와 동기화"
 
 #: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "휴대전화와 동기화하시겠습니까?"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1532,7 +1532,7 @@ msgstr "Firefox를 스마트폰에 전송하고, 로그인하여 설정을 완�
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "SMS로 링크를 전송하여 휴대전화에 Firefox를 설치하세요."
 
 #: .es5/templates/sms_send.mustache:14
 msgid "Mobile phone number"
@@ -1544,7 +1544,7 @@ msgstr "보내기"
 
 #: .es5/templates/sms_send.mustache:16
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "SMS 및 데이터 요금이 부과될 수 있습니다. 전송에 동의가 필요합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
 
 #: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1552,7 +1552,7 @@ msgstr "왜 여러 개의 기기를 동기화하나요?"
 
 #: .es5/templates/sms_send.mustache:18
 msgid "Not now"
-msgstr ""
+msgstr "나중에"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
