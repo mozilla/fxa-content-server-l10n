@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-18 03:02+0000\n"
+"PO-Revision-Date: 2020-05-18 03:12+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1127,7 +1127,7 @@ msgstr "비밀번호 재설정 링크에 문제 있음"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
+msgstr "클릭한 링크에 빠진 글자가 있습니다, 이메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1775,7 +1775,7 @@ msgstr "Mozilla 제품에 포함된 기능이나 저장한 정보를 잃을 수 
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "이 이메일로 다시 활성화하면 저장된 정보가 복원되지 않을 수 있습니다"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -2008,7 +2008,7 @@ msgstr "나중에요"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "다른 이메일 사용"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2152,7 +2152,7 @@ msgstr "기기 연결됨"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "성공적으로 연결됨"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2168,7 +2168,7 @@ msgstr "<small>다른 기기로부터</small> 승인이 필요합니다."
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr "페어링에 실패함"
+msgstr "페어링에 실패했습니다"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
@@ -2176,7 +2176,7 @@ msgstr "설정 과정이 종료되었습니다."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "스캔하여 다른 기기와 연결"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2192,11 +2192,11 @@ msgstr "앱 받기"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "기기가 성공적으로 페어링되었습니다"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr "성공적으로 페어링되었습니다."
+msgstr "페어링에 성공했습니다."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
