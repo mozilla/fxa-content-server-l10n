@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-24 16:46+0000\n"
-"Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
+"PO-Revision-Date: 2020-05-18 15:50+0000\n"
+"Last-Translator: YD <ygda+fx@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1931,7 +1931,7 @@ msgstr "Remplacer les codes de secours"
 
 #: .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Scannez le QR code depuis l’application d’authentification puis saisissez le code de sécurité fourni."
+msgstr "Scannez le code QR depuis l’application d’authentification puis saisissez le code de sécurité fourni."
 
 #: .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
