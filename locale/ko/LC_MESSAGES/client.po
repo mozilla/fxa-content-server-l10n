@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-18 03:12+0000\n"
+"PO-Revision-Date: 2020-05-18 03:13+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1342,7 +1342,7 @@ msgstr "성공"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
-msgstr "내 계정으로 계속"
+msgstr "내 계정으로 이동"
 
 #: .es5/templates/ready.mustache:12
 msgid "Your account is ready!"
