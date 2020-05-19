@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-19 18:04+0000\n"
+"PO-Revision-Date: 2020-05-19 18:13+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -111,11 +111,11 @@ msgstr "Goɗɗo"
 
 #: .es5/views/support.js:224
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "A jaaraama e jokkondiral maa e Wallitorde Mozilla baɗte <b>%(escapedLowercaseTopic)s</b>. Ma min njokkondir e maa e iimeel ko yaajtii."
 
 #: .es5/views/support.js:226
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "A jaaraama e jokkondiral maa e Wallitorde Mozilla baɗte <b>%(escapedLowercaseTopic)s</b> ngam <b>%(escapedSelectedPlan)s</b>. Ma min njokkondir e maa e iimeel ko yaajtii."
 
 #: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -124,7 +124,7 @@ msgstr "Finnde"
 
 #: .es5/views/settings/change_password.js:88
 msgid "Change..."
-msgstr ""
+msgstr "Waylu…"
 
 #: .es5/views/settings/change_password.js:219
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -252,7 +252,7 @@ msgstr "Rogere Geese"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Sahaa o wattindii yiyeede anndaaka"
 
 #: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
