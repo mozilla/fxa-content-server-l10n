@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-19 18:34+0000\n"
+"PO-Revision-Date: 2020-05-19 18:44+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -657,7 +657,7 @@ msgstr "Seede TOTP ina woodi ngam ɗee konte kisa"
 
 #: .es5/lib/auth-errors.js:228
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Seede TOTP yiytaaka"
 
 #: .es5/lib/auth-errors.js:232
 msgid "Recovery code not found"
@@ -681,7 +681,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:252
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "Hoorima sabu naamnal luurngal, tiiɗno eto goɗngol."
 
 #: .es5/lib/auth-errors.js:260
 msgid "Unknown customer for subscription."
@@ -693,7 +693,7 @@ msgstr "Lulnagol anndaaka"
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Feere lulnagol anndaaka"
 
 #: .es5/lib/auth-errors.js:272
 msgid "Invalid payment token for subscription."
@@ -701,7 +701,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:276
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Lulnagol haaytinaama kisa"
 
 #: .es5/lib/auth-errors.js:280
 msgid "Update was rejected, please try again"
