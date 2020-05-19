@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-19 18:13+0000\n"
+"PO-Revision-Date: 2020-05-19 18:20+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -301,7 +301,7 @@ msgstr "Kod keɓtugol Firefox"
 
 #: .es5/views/settings/recovery_codes.js:143
 msgid "New recovery codes generated"
-msgstr ""
+msgstr "Koduuji kebtugol kesi njeñtinaama"
 
 #: .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -329,7 +329,7 @@ msgstr "Keɓtugol konte riiwtaama"
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Keɓe maa jahdingol ko deenaaɗe"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
