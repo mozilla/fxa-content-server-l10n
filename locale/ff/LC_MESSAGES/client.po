@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-19 18:20+0000\n"
+"PO-Revision-Date: 2020-05-19 18:34+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -653,7 +653,7 @@ msgstr "Oo kod ƴeewtorɗo buntii"
 
 #: .es5/lib/auth-errors.js:224
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Seede TOTP ina woodi ngam ɗee konte kisa"
 
 #: .es5/lib/auth-errors.js:228
 msgid "TOTP token not found"
