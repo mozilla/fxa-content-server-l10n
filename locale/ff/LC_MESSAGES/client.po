@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-19 18:44+0000\n"
+"PO-Revision-Date: 2020-05-19 18:53+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -705,7 +705,7 @@ msgstr "Lulnagol haaytinaama kisa"
 
 #: .es5/lib/auth-errors.js:280
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Hesɗitinal salaama, tiiɗno eto kadi goɗngol"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Invalid or expired verification code"
@@ -910,7 +910,7 @@ msgstr "Heɓ kabaruuji cakkitiiɗi baɗte Mozilla e Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Daro ngam reende cellal Enternet oo"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -978,7 +978,7 @@ msgstr "Kuutoro goɗɗo seŋiima"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Kuutoro walla yamre teeŋtinaaka"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
