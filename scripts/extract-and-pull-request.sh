@@ -6,6 +6,7 @@ rm -rf workspace
 mkdir workspace
 cd workspace
 git clone https://github.com/mozilla/fxa
+cd fxa/packages/fxa-shared && npm ci && cd ../../..
 cd fxa/packages/fxa-auth-server && npm ci && cd ../../..
 cd fxa/packages/fxa-content-server && npm ci && cd ../../..
 cd ..
