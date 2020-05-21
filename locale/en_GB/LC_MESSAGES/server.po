@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-17 16:01+0000\n"
+"POT-Creation-Date: 2020-05-21 00:27+0000\n"
 "PO-Revision-Date: 2020-05-01 15:40+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,15 @@ msgstr ""
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 msgstr "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:5
+#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Questions about your subscription? Our support team is here to help you:"
 
@@ -45,7 +46,7 @@ msgstr "We have noticed that you are running low on recovery codes. Please consi
 msgid "Generate codes:"
 msgstr "Generate codes:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1172
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1163
 msgid "New sign-in to %(clientName)s"
 msgstr "New sign-in to %(clientName)s"
 
@@ -131,7 +132,7 @@ msgstr "Best,"
 msgid "The Firefox Accounts team"
 msgstr "The Firefox Accounts team"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1686
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
 msgid "Account recovery key generated"
 msgstr "Account recovery key generated"
 
@@ -191,7 +192,7 @@ msgstr "You have successfully consumed a recovery code from the following device
 msgid "Consumed recovery code"
 msgstr "Consumed recovery code"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1553
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
 msgid "New recovery codes generated"
 msgstr "New recovery codes generated"
 
@@ -199,7 +200,7 @@ msgstr "New recovery codes generated"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "You have successfully generated new recovery codes from the following device:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1732
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
 msgid "Account recovery key removed"
 msgstr "Account recovery key removed"
 
@@ -215,7 +216,7 @@ msgstr "This recovery key can no longer be used to recover your account."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1433
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
 msgid "Secondary email removed"
 msgstr "Secondary email removed"
 
@@ -259,27 +260,7 @@ msgstr "Connect another device:"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Have questions? Visit %(supportUrl)s"
 
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
-msgid "Protect your data with a recovery key"
-msgstr "Protect your data with a recovery key"
-
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
-msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr "Restore your synchronised data and pick up right where you left off with a unique recovery key."
-
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
-msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr "Otherwise, Firefox protects your data by erasing it when your password is reset."
-
-#: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
-msgid "Protect yourself from being locked out"
-msgstr "Protect yourself from being locked out"
-
-#: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
-msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1269
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
 msgid "Secondary email added"
 msgstr "Secondary email added"
 
@@ -296,7 +277,7 @@ msgstr "Need to reset your password?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Click the button within the next hour to create a new password. The request came from the following device:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1022
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1013
 msgid "Create new password"
 msgstr "Create new password"
 
@@ -304,16 +285,16 @@ msgstr "Create new password"
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
+#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
 msgstr "Sorry to see you go"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
+#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 msgstr "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionCancellation.html:3
+#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
 msgstr "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
 
@@ -321,7 +302,7 @@ msgstr "Please help us improve our services by taking this <a %(cancellationSurv
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Please help us improve our services by taking this short survey:"
 
-#: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
+#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
@@ -329,23 +310,23 @@ msgstr ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 
-#: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
+#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 msgstr "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
+#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
+#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 msgstr "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
+#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
 msgstr "Your subscription will automatically renew each billing period unless you choose to cancel."
@@ -425,6 +406,16 @@ msgstr "Unfortunately, if we don’t hear from you within three days, you’ll l
 msgid "Help us fix it by updating your payment information within three days:"
 msgstr "Help us fix it by updating your payment information within three days:"
 
+#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
+msgid "Thank you for reactivating your %(productName)s subscription!"
+msgstr ""
+
+#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
+msgid ""
+"Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+"automatically renew each billing period unless you choose to cancel."
+msgstr ""
+
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
 msgstr "Thank you for being a subscriber!"
@@ -443,11 +434,11 @@ msgstr "You have successfully upgraded from %(productNameOld)s to %(productNameN
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -505,7 +496,7 @@ msgstr "Confirm your account and get the most out of Firefox everywhere you sign
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "For added security, please confirm this sign-in from the following device:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:731
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:722
 msgid "Confirm sign-in"
 msgstr "Confirm sign-in"
 
@@ -626,18 +617,22 @@ msgid "Terms and cancellation policy"
 msgstr "Terms and cancellation policy"
 
 #: lib/senders/templates/layouts/subscription.html:5
+msgid "Reactivate subscription"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
 msgstr "Cancel subscription"
 
-#: lib/senders/templates/layouts/subscription.html:6
+#: lib/senders/templates/layouts/subscription.html:7
 msgid "Update billing information"
 msgstr "Update billing information"
 
-#: lib/senders/templates/layouts/subscription.html:7
+#: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
 msgstr "Legal"
 
-#: lib/senders/templates/layouts/subscription.html:8
+#: lib/senders/templates/layouts/subscription.html:9
 msgid "Privacy"
 msgstr "Privacy"
 
@@ -657,180 +652,172 @@ msgstr "Cancel subscription:"
 msgid "Update billing information:"
 msgstr "Update billing information:"
 
-#: lib/senders/email.js:276
+#: lib/senders/email.js:267
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:281
+#: lib/senders/email.js:272
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s on %(uaOS)s"
 
-#: lib/senders/email.js:307
+#: lib/senders/email.js:298
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (estimated)"
 
-#: lib/senders/email.js:314
+#: lib/senders/email.js:305
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimated)"
 
-#: lib/senders/email.js:319
+#: lib/senders/email.js:310
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (estimated)"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:315
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimated)"
 
-#: lib/senders/email.js:493
+#: lib/senders/email.js:484
 msgid "Finish creating your account"
 msgstr "Finish creating your account"
 
-#: lib/senders/email.js:494 lib/senders/email.js:622
+#: lib/senders/email.js:485 lib/senders/email.js:613
 msgid "Confirm email"
 msgstr "Confirm email"
 
-#: lib/senders/email.js:561
+#: lib/senders/email.js:552
 msgid "Verification code: %(code)s"
 msgstr "Verification code: %(code)s"
 
-#: lib/senders/email.js:602
+#: lib/senders/email.js:593
 msgid "Reminder: Finish creating your account"
 msgstr "Reminder: Finish creating your account"
 
-#: lib/senders/email.js:604
+#: lib/senders/email.js:595
 msgid "Final reminder: Activate your account"
 msgstr "Final reminder: Activate your account"
 
-#: lib/senders/email.js:659
+#: lib/senders/email.js:650
 msgid "Account authorization code"
 msgstr "Account authorisation code"
 
-#: lib/senders/email.js:728
+#: lib/senders/email.js:719
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirm new sign-in to %(clientName)s"
 
-#: lib/senders/email.js:773
+#: lib/senders/email.js:764
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Sign-in code for %(serviceName)s"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:829
 msgid "Confirm primary email"
 msgstr "Confirm primary email"
 
-#: lib/senders/email.js:839 lib/senders/email.js:898 lib/senders/email.js:966
+#: lib/senders/email.js:830 lib/senders/email.js:889 lib/senders/email.js:957
 msgid "Verify email"
 msgstr "Verify email"
 
-#: lib/senders/email.js:897 lib/senders/email.js:965
+#: lib/senders/email.js:888 lib/senders/email.js:956
 msgid "Confirm secondary email"
 msgstr "Confirm secondary email"
 
-#: lib/senders/email.js:1021
+#: lib/senders/email.js:1012
 msgid "Reset your password"
 msgstr "Reset your password"
 
-#: lib/senders/email.js:1063 lib/senders/email.js:1101
+#: lib/senders/email.js:1054 lib/senders/email.js:1092
 msgid "Password updated"
 msgstr "Password updated"
 
-#: lib/senders/email.js:1131
+#: lib/senders/email.js:1122
 msgid "Suspicious activity detected"
 msgstr "Suspicious activity detected"
 
-#: lib/senders/email.js:1173 lib/senders/email.js:1270 lib/senders/email.js:1398 lib/senders/email.js:1434 lib/senders/email.js:1468 lib/senders/email.js:1511 lib/senders/email.js:1554
-#: lib/senders/email.js:1597 lib/senders/email.js:1687 lib/senders/email.js:1733
+#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
+#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
 msgid "Manage account"
 msgstr "Manage account"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1200
 msgid "Account confirmed"
 msgstr "Account confirmed"
 
-#: lib/senders/email.js:1227
+#: lib/senders/email.js:1203
 msgid "Connect another device"
 msgstr "Connect another device"
 
-#: lib/senders/email.js:1309
-msgid "Set up recovery email"
-msgstr "Set up recovery email"
-
-#: lib/senders/email.js:1310
-msgid "Add a secondary email"
-msgstr "Add a secondary email"
-
-#: lib/senders/email.js:1360 lib/senders/email.js:1361
-msgid "Get a recovery key"
-msgstr "Get a recovery key"
-
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1281
 msgid "Primary email updated"
 msgstr "Primary email updated"
 
-#: lib/senders/email.js:1467
+#: lib/senders/email.js:1351
 msgid "Two-step verification enabled"
 msgstr "Two-step verification enabled"
 
-#: lib/senders/email.js:1510
+#: lib/senders/email.js:1394
 msgid "Two-step verification is off"
 msgstr "Two-step verification is off"
 
-#: lib/senders/email.js:1596
+#: lib/senders/email.js:1480
 msgid "Recovery code used"
 msgstr "Recovery code used"
 
-#: lib/senders/email.js:1649
+#: lib/senders/email.js:1533
 msgid "1 recovery code remaining"
 msgstr "1 recovery code remaining"
 
-#: lib/senders/email.js:1651
+#: lib/senders/email.js:1535
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s recovery codes remaining"
 
-#: lib/senders/email.js:1654
+#: lib/senders/email.js:1538
 msgid "Generate codes"
 msgstr "Generate codes"
 
-#: lib/senders/email.js:1778
+#: lib/senders/email.js:1662
 msgid "Password updated using recovery key"
 msgstr "Password updated using recovery key"
 
-#: lib/senders/email.js:1779
+#: lib/senders/email.js:1663
 msgid "Create new recovery key"
 msgstr "Create new recovery key"
 
-#: lib/senders/email.js:1858
+#: lib/senders/email.js:1726
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "You have upgraded to %(productNameNew)s"
 
-#: lib/senders/email.js:1925
+#: lib/senders/email.js:1789
 msgid "You have switched to %(productNameNew)s"
 msgstr "You have switched to %(productNameNew)s"
 
-#: lib/senders/email.js:1979
+#: lib/senders/email.js:1846
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Credit card for %(productName)s expiring soon"
 
-#: lib/senders/email.js:2033
+#: lib/senders/email.js:1896
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s payment failed"
 
-#: lib/senders/email.js:2098 lib/senders/email.js:2172
+#: lib/senders/email.js:1946 lib/senders/email.js:2006
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Your %(productName)s subscription has been cancelled"
 
-#: lib/senders/email.js:2252
+#: lib/senders/email.js:2072
+msgid "%(productName)s subscription reactivated"
+msgstr ""
+
+#: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
 msgstr "%(productName)s payment received"
 
-#: lib/senders/email.js:2334
+#: lib/senders/email.js:2212
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s payment confirmed"
 
-#: lib/senders/email.js:2392
+#: lib/senders/email.js:2280
 msgid "Welcome to %(productName)s"
 msgstr "Welcome to %(productName)s"
 
-#: lib/senders/email.js:2393
+#: lib/senders/email.js:2281
 msgid "Download %(productName)s"
 msgstr "Download %(productName)s"
 
@@ -918,6 +905,30 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Download latest"
+
+#~ msgid "Protect your data with a recovery key"
+#~ msgstr "Protect your data with a recovery key"
+
+#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+#~ msgstr "Restore your synchronised data and pick up right where you left off with a unique recovery key."
+
+#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+#~ msgstr "Otherwise, Firefox protects your data by erasing it when your password is reset."
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Protect yourself from being locked out"
+
+#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+#~ msgstr "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+
+#~ msgid "Set up recovery email"
+#~ msgstr "Set up recovery email"
+
+#~ msgid "Add a secondary email"
+#~ msgstr "Add a secondary email"
+
+#~ msgid "Get a recovery key"
+#~ msgstr "Get a recovery key"
 
 #~ msgid "Welcome to %(productName)s!"
 #~ msgstr "Welcome to %(productName)s!"
@@ -1256,11 +1267,11 @@ msgstr "Download latest"
 #~ msgstr "Reset password"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1281,7 +1292,8 @@ msgstr "Download latest"
 #~ msgstr "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
+#~ msgstr ""
+#~ "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognise these locations, someone else may have accessed your Firefox Account."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Date & Time:"
@@ -1359,8 +1371,8 @@ msgstr "Download latest"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox passwords, "
-#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can synchronise your Firefox "
+#~ "passwords, bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 
 #~ msgid "env"
 #~ msgstr "env"
