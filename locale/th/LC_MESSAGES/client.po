@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-22 22:21+0000\n"
+"PO-Revision-Date: 2020-05-22 22:25+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -251,7 +251,7 @@ msgstr "เว็บเซสชัน"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "ไม่ทราบเวลาที่เห็นล่าสุด"
 
 #: .es5/views/settings/delete_account.js:212
 msgid "Account deleted successfully"
@@ -328,7 +328,7 @@ msgstr "เพิกถอนการกู้คืนบัญชีแล้
 
 #: .es5/views/post_verify/verified.js:49
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "ข้อมูลการซิงค์ของคุณได้รับการปกป้อง"
 
 #: .es5/views/post_verify/verified.js:50
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
@@ -344,7 +344,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:55
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -604,11 +604,11 @@ msgstr "อีเมลสำรองต้องแตกต่างจาก
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "คุณมีอีเมลสำรองสูงสุดถึงจำนวนสูงสุดที่อนุญาตแล้ว"
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "มีอีเมลนี้บนบัญชีของคุณแล้ว"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -885,7 +885,7 @@ msgstr "การเปลี่ยนเส้นทางไม่ถูกต
 
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "พิมพ์อีเมลผิด? %(domain)s ไม่มีบริการอีเมล"
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -981,7 +981,7 @@ msgstr "ผู้ใช้หรือเซสชั่นไม่ได้ร
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint ไม่ถูกต้อง"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1223,7 +1223,7 @@ msgstr "ยืนยัน"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "ต้องการรหัสอื่นหรือไม่? ส่งใหม่"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1459,7 +1459,7 @@ msgstr "ป้อนรหัสการกู้คืน 10 หลัก"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "คุณถูกล็อกหรือไม่?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
