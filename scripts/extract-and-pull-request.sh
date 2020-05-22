@@ -4,12 +4,8 @@ set -e
 
 rm -rf workspace
 mkdir workspace
-cd workspace
-git clone https://github.com/mozilla/fxa
-cd fxa/packages/fxa-shared && npm ci && cd ../../..
-cd fxa/packages/fxa-auth-server && npm ci && cd ../../..
-cd fxa/packages/fxa-content-server && npm ci && cd ../../..
-cd ..
+(cd workspace && git clone --depth 1 https://github.com/mozilla/fxa)
+(cd workspace/fxa && yarn workspaces focus fxa-content-server fxa-auth-server)
 
 # random release number, avoids collision with old trains or branches
 r=$(( $RANDOM + $RANDOM + 1000 ))
