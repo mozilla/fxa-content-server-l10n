@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-17 16:01+0000\n"
+"POT-Creation-Date: 2020-05-22 18:30+0000\n"
 "PO-Revision-Date: 2020-01-24 19:03+0000\n"
 "Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,15 @@ msgstr ""
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 msgstr ""
 
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:5
+#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr ""
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr ""
 
@@ -45,7 +46,7 @@ msgstr "Մենք նկատեցինք, որ ձեր վերականգնման կոդ
 msgid "Generate codes:"
 msgstr "Ստեղծեք կոդեր․"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1172
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1163
 msgid "New sign-in to %(clientName)s"
 msgstr "Նոր մուտք դեպի %(clientName)s"
 
@@ -132,7 +133,7 @@ msgstr "Լավագույնը,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox-ի հաշիվների թիմը"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1686
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
 msgid "Account recovery key generated"
 msgstr "Ստեղծվեց հաշվի վերականգնման ստեղն"
 
@@ -192,7 +193,7 @@ msgstr "Դուք հետևյալ սարքից հաջողությամբ օգտագ
 msgid "Consumed recovery code"
 msgstr "Օգտագործված վերականգնման կոդ"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1553
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
 msgid "New recovery codes generated"
 msgstr "Վերականգնման նոր կոդեր են ստեղծվել"
 
@@ -200,7 +201,7 @@ msgstr "Վերականգնման նոր կոդեր են ստեղծվել"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Դուք հետևյալ սարքից հաջողությամբ ստեղծել եք վերակնագնման նոր կոդեր․"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1732
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
 msgid "Account recovery key removed"
 msgstr "Հաշվի վերականգնման ստեղնը հեռացվեց"
 
@@ -216,7 +217,7 @@ msgstr "Վերականգնման այս ստեղնը այլևս չի կարող 
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Դուք հետևյալ սարքից Ձեր Firefox-ի հաշվի համար հաջողությամբ հեռացրել եք հաշվի վերականգնման ստեղնը․"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1433
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
 msgid "Secondary email removed"
 msgstr "Երկրորդային էլ֊փոստը հեռացվեց"
 
@@ -260,27 +261,7 @@ msgstr "Կապակցել այլ սարքի․"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Հարցեր ունե՞ք։ Այցելեք %(supportUrl)s"
 
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
-msgid "Protect your data with a recovery key"
-msgstr "Վերականգնման ստեղնով պաշտպանել Ձեր տվյալները"
-
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
-msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-msgstr "Վերականգնել Ձեր համաժամեցրած տվյալները և վերականգնման վերցրեք այնտեղից, որտեղ այն մնացել է վերականգնման եզակի ստեղնի հետ։"
-
-#: lib/senders/templates/postVerifyAddRecoveryKey.html:3 lib/senders/templates/postVerifyAddRecoveryKey.txt:3
-msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-msgstr "Հակառակ դեպքում, Firefox-ը պաշտպանում է Ձեր տվյալները՝ ջնջելով այն, երբ Ձեր գաղտնաբառը վերատեղադրվել է։"
-
-#: lib/senders/templates/postVerifyAddSecondary.html:1 lib/senders/templates/postVerifyAddSecondary.txt:1
-msgid "Protect yourself from being locked out"
-msgstr "Պաշտպանեք Ձեզ արգելափակվելուց"
-
-#: lib/senders/templates/postVerifyAddSecondary.html:2 lib/senders/templates/postVerifyAddSecondary.txt:2
-msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-msgstr "Երկրորդային էլ֊փոստի ավելացումը կօգնի վերադառնալ Ձեր հաշիվ, եթե Դուք արգելափակվել եք և չեք կարողանում մուտք գործել Ձեր էլ֊փոստ։"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1269
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
 msgid "Secondary email added"
 msgstr "Երկրորդային էլ֊փոստը ավելացվել է"
 
@@ -298,7 +279,7 @@ msgstr "Պե՞տք է վերատեղադրել Ձեր գաղտնաբառը։"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Հաջորդ ժամվա ընթացքում սեղմեք կոճակը նոր գաղտնաբառ ստեղծելու համար։ Դիմումը եկել է հետևյալ սարքից․"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1022
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1013
 msgid "Create new password"
 msgstr "Ստեղծել նոր գաղտնաբառ"
 
@@ -306,16 +287,16 @@ msgstr "Ստեղծել նոր գաղտնաբառ"
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Շնորհակալություն Firefox ընտրելու համար։ Կարող եք տեղակայել Firefox֊ը ձեր բջջայինի համար այստեղ․ %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
+#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
 msgstr ""
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
+#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 msgstr ""
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionCancellation.html:3
+#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
 msgstr ""
 
@@ -323,27 +304,27 @@ msgstr ""
 msgid "Please help us improve our services by taking this short survey:"
 msgstr ""
 
-#: lib/senders/templates/subscriptionCancellation.html:2 lib/senders/templates/subscriptionCancellation.txt:2
+#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
 
-#: lib/senders/templates/subscriptionDowngrade.html:1 lib/senders/templates/subscriptionDowngrade.txt:1
+#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 msgstr ""
 
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:2
+#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
+#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 msgstr ""
 
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
+#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
 msgstr ""
@@ -421,6 +402,16 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
+msgid "Thank you for reactivating your %(productName)s subscription!"
+msgstr ""
+
+#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
+msgid ""
+"Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+"automatically renew each billing period unless you choose to cancel."
 msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
@@ -501,7 +492,7 @@ msgstr "Հաստատեք Ձեր հաշիվը և առավելագույնը օգ�
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Ավելացված անվտանգության համար, հետևյալ սարքից հաստատեք այս մուտքը․"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:731
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:722
 msgid "Confirm sign-in"
 msgstr "Հաստատեք մուտքը"
 
@@ -622,18 +613,22 @@ msgid "Terms and cancellation policy"
 msgstr "Պայմանները և չեղյալ հայտարարման քաղաքականությունը"
 
 #: lib/senders/templates/layouts/subscription.html:5
+msgid "Reactivate subscription"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
 msgstr "Կառավարել բաժանորդագրությունները"
 
-#: lib/senders/templates/layouts/subscription.html:6
+#: lib/senders/templates/layouts/subscription.html:7
 msgid "Update billing information"
 msgstr "Թարմացրեք վճարման մասին տեղեկությունները"
 
-#: lib/senders/templates/layouts/subscription.html:7
+#: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
 msgstr ""
 
-#: lib/senders/templates/layouts/subscription.html:8
+#: lib/senders/templates/layouts/subscription.html:9
 msgid "Privacy"
 msgstr ""
 
@@ -653,180 +648,172 @@ msgstr "Կառավարել բաժանորդագրությունները"
 msgid "Update billing information:"
 msgstr "Թարմացրեք վճարման մասին տեղեկությունները․"
 
-#: lib/senders/email.js:276
+#: lib/senders/email.js:267
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ի վրա"
 
-#: lib/senders/email.js:281
+#: lib/senders/email.js:272
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s %(uaOS)s֊ի վրա"
 
-#: lib/senders/email.js:307
+#: lib/senders/email.js:298
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (Նախահաշվարկային)"
 
-#: lib/senders/email.js:314
+#: lib/senders/email.js:305
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (նախահաշվարկային)"
 
-#: lib/senders/email.js:319
+#: lib/senders/email.js:310
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (նախահաշվարկային)"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:315
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (նախահաշվարկային)"
 
-#: lib/senders/email.js:493
+#: lib/senders/email.js:484
 msgid "Finish creating your account"
 msgstr "Ավարտեք ձեր հաշիվը"
 
-#: lib/senders/email.js:494 lib/senders/email.js:622
+#: lib/senders/email.js:485 lib/senders/email.js:613
 msgid "Confirm email"
 msgstr "Հաստատեք էլ․փոստը"
 
-#: lib/senders/email.js:561
+#: lib/senders/email.js:552
 msgid "Verification code: %(code)s"
 msgstr "Ստուգման կոդ՝ %(code)s"
 
-#: lib/senders/email.js:602
+#: lib/senders/email.js:593
 msgid "Reminder: Finish creating your account"
 msgstr "Հիշեցում․ Գործունացրեք Ձեր հաշվի ստեղծումը"
 
-#: lib/senders/email.js:604
+#: lib/senders/email.js:595
 msgid "Final reminder: Activate your account"
 msgstr "Վերջնական հիշեցում․ Գործունացրեք Ձեր հաշիվը"
 
-#: lib/senders/email.js:659
+#: lib/senders/email.js:650
 msgid "Account authorization code"
 msgstr "Հաշվի թույլտվության կոդ"
 
-#: lib/senders/email.js:728
+#: lib/senders/email.js:719
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Հաստատեք նոր մուտքը %(clientName)s֊ով։"
 
-#: lib/senders/email.js:773
+#: lib/senders/email.js:764
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Մուտքի կոդ %(serviceName)s համար"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:829
 msgid "Confirm primary email"
 msgstr "Հաստատեք առաջնային էլ․փոստը"
 
-#: lib/senders/email.js:839 lib/senders/email.js:898 lib/senders/email.js:966
+#: lib/senders/email.js:830 lib/senders/email.js:889 lib/senders/email.js:957
 msgid "Verify email"
 msgstr "Հաստատեք էլ֊փոտը"
 
-#: lib/senders/email.js:897 lib/senders/email.js:965
+#: lib/senders/email.js:888 lib/senders/email.js:956
 msgid "Confirm secondary email"
 msgstr "Հաստատեք երկրորդական էլ․փոստը"
 
-#: lib/senders/email.js:1021
+#: lib/senders/email.js:1012
 msgid "Reset your password"
 msgstr "Նշեք ձեր գաղտնաբառը"
 
-#: lib/senders/email.js:1063 lib/senders/email.js:1101
+#: lib/senders/email.js:1054 lib/senders/email.js:1092
 msgid "Password updated"
 msgstr "Գաղտնաբառը թարմացվել է"
 
-#: lib/senders/email.js:1131
+#: lib/senders/email.js:1122
 msgid "Suspicious activity detected"
 msgstr "Հայտնաբերվել է կասկածելի գործողություն"
 
-#: lib/senders/email.js:1173 lib/senders/email.js:1270 lib/senders/email.js:1398 lib/senders/email.js:1434 lib/senders/email.js:1468 lib/senders/email.js:1511 lib/senders/email.js:1554
-#: lib/senders/email.js:1597 lib/senders/email.js:1687 lib/senders/email.js:1733
+#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
+#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
 msgid "Manage account"
 msgstr "Կառավարել հաշիվը"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1200
 msgid "Account confirmed"
 msgstr "Հաշիվը հաստատված է"
 
-#: lib/senders/email.js:1227
+#: lib/senders/email.js:1203
 msgid "Connect another device"
 msgstr "Կապակցել այլ սարքի"
 
-#: lib/senders/email.js:1309
-msgid "Set up recovery email"
-msgstr "Տեղակայել վերականգման էլ֊փոստ"
-
-#: lib/senders/email.js:1310
-msgid "Add a secondary email"
-msgstr "Ավելացնել երկրորդային էլ֊փոստ"
-
-#: lib/senders/email.js:1360 lib/senders/email.js:1361
-msgid "Get a recovery key"
-msgstr "Ստացեք վերականգման ստեղնը"
-
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1281
 msgid "Primary email updated"
 msgstr "Առաջնային էլ֊փոստը թարմացվել է"
 
-#: lib/senders/email.js:1467
+#: lib/senders/email.js:1351
 msgid "Two-step verification enabled"
 msgstr "Երկքայլ հաստատումը միացված է"
 
-#: lib/senders/email.js:1510
+#: lib/senders/email.js:1394
 msgid "Two-step verification is off"
 msgstr "Երկքայլ հաստատումը անջատված է"
 
-#: lib/senders/email.js:1596
+#: lib/senders/email.js:1480
 msgid "Recovery code used"
 msgstr "Վերականգնման կոդը օգտագործվել է"
 
-#: lib/senders/email.js:1649
+#: lib/senders/email.js:1533
 msgid "1 recovery code remaining"
 msgstr "1 վերականգնման կոդ է մնացել"
 
-#: lib/senders/email.js:1651
+#: lib/senders/email.js:1535
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s մնացած վերականգնման կոդերը"
 
-#: lib/senders/email.js:1654
+#: lib/senders/email.js:1538
 msgid "Generate codes"
 msgstr "Ստեղծեք կոդեր"
 
-#: lib/senders/email.js:1778
+#: lib/senders/email.js:1662
 msgid "Password updated using recovery key"
 msgstr "Գաղտնաբառը թարմացվել է վերականգնման ստեղն օգտագործելով"
 
-#: lib/senders/email.js:1779
+#: lib/senders/email.js:1663
 msgid "Create new recovery key"
 msgstr "Ստեղծեք նոր վերականգնման ստեղն"
 
-#: lib/senders/email.js:1858
+#: lib/senders/email.js:1726
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1925
+#: lib/senders/email.js:1789
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1979
+#: lib/senders/email.js:1846
 msgid "Credit card for %(productName)s expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2033
+#: lib/senders/email.js:1896
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2098 lib/senders/email.js:2172
+#: lib/senders/email.js:1946 lib/senders/email.js:2006
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2252
+#: lib/senders/email.js:2072
+msgid "%(productName)s subscription reactivated"
+msgstr ""
+
+#: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2334
+#: lib/senders/email.js:2212
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2392
+#: lib/senders/email.js:2280
 msgid "Welcome to %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2393
+#: lib/senders/email.js:2281
 msgid "Download %(productName)s"
 msgstr ""
 
@@ -914,6 +901,30 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Ներբեռնել ամենավերջինը"
+
+#~ msgid "Protect your data with a recovery key"
+#~ msgstr "Վերականգնման ստեղնով պաշտպանել Ձեր տվյալները"
+
+#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+#~ msgstr "Վերականգնել Ձեր համաժամեցրած տվյալները և վերականգնման վերցրեք այնտեղից, որտեղ այն մնացել է վերականգնման եզակի ստեղնի հետ։"
+
+#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+#~ msgstr "Հակառակ դեպքում, Firefox-ը պաշտպանում է Ձեր տվյալները՝ ջնջելով այն, երբ Ձեր գաղտնաբառը վերատեղադրվել է։"
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Պաշտպանեք Ձեզ արգելափակվելուց"
+
+#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+#~ msgstr "Երկրորդային էլ֊փոստի ավելացումը կօգնի վերադառնալ Ձեր հաշիվ, եթե Դուք արգելափակվել եք և չեք կարողանում մուտք գործել Ձեր էլ֊փոստ։"
+
+#~ msgid "Set up recovery email"
+#~ msgstr "Տեղակայել վերականգման էլ֊փոստ"
+
+#~ msgid "Add a secondary email"
+#~ msgstr "Ավելացնել երկրորդային էլ֊փոստ"
+
+#~ msgid "Get a recovery key"
+#~ msgstr "Ստացեք վերականգման ստեղնը"
 
 #~ msgid "Privacy notice"
 #~ msgstr "Գաղտնիության ծանուցում"
