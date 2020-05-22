@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
@@ -6,9 +6,9 @@ rm -rf workspace
 mkdir workspace
 cd workspace
 git clone https://github.com/mozilla/fxa
-cd fxa/packages/fxa-shared && npm ci && cd ../../..
-cd fxa/packages/fxa-auth-server && npm ci && cd ../../..
-cd fxa/packages/fxa-content-server && npm ci && cd ../../..
+cd fxa/packages/fxa-shared && yarn install --immutable  && cd ../../..
+cd fxa/packages/fxa-auth-server && yarn install --immutable && cd ../../..
+cd fxa/packages/fxa-content-server && yarn install --immutable && cd ../../..
 cd ..
 
 # random release number, avoids collision with old trains or branches
