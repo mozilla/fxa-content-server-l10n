@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-22 12:53+0000\n"
-"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
+"PO-Revision-Date: 2020-05-19 22:10+0000\n"
+"Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -1669,7 +1669,7 @@ msgstr "Soukromá data na zařízení %(deviceName)s zůstanou, ale už se nadá
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Zařízení %(deviceName)s odpojujete od Syncu, protože:"
+msgstr "Zařízení %(deviceName)s odpojujete od Syncu, protože je:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
@@ -1709,7 +1709,7 @@ msgstr "Zobrazit"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
-msgstr "Aktuální zařízení"
+msgstr "Současné zařízení"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
