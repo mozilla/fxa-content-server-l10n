@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-18 16:07+0000\n"
-"Last-Translator: jb <jb@bernardooliveira.com>\n"
+"PO-Revision-Date: 2020-05-25 09:57+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -2111,7 +2111,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr "Fique de olho nas falhas de segurança de dados."
+msgstr "Fique de olho nas violações de dados."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"
