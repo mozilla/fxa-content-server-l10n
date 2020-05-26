@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-01-03 17:34+0000\n"
+"PO-Revision-Date: 2020-05-26 16:40+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr "El compte s'ha bloquejat per raons de seguretat"
+msgstr "El compte s'ha blocat per raons de seguretat"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
@@ -565,7 +565,7 @@ msgstr "El cos de la sol·licitud és massa gran"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
-msgstr "La sol·licitud s'ha bloquejat per raons de seguretat"
+msgstr "La sol·licitud s'ha blocat per raons de seguretat"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:509
 msgid "Invalid authorization code"
@@ -1013,9 +1013,7 @@ msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -1083,8 +1081,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1989,8 +1986,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2446,12 +2442,10 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avís de privadesa</a> "
-#~ "dels serveis en el núvol del Firefox."
+#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avís de privadesa</a> dels "
+#~ "serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
