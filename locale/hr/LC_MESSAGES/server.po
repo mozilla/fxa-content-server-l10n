@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-25 12:31+0000\n"
-"Last-Translator: Hmxhmx <hmxhmx.at.wiki@gmail.com>\n"
+"PO-Revision-Date: 2020-05-27 20:01+0000\n"
+"Last-Translator: Ivan <ivan.mas342@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Dvofaktorska autentifikacija je omogućena"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Nova primarna adresa e-pošte"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -250,15 +250,15 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4
 msgid "Connect another device:"
-msgstr ""
+msgstr "Poveži drugi uređaj:"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Imaš pitanja? Posjeti %(supportUrl)s"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:1 lib/senders/templates/postVerifyAddRecoveryKey.txt:1
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Zaštiti svoje podatke ključem za oporavak"
 
 #: lib/senders/templates/postVerifyAddRecoveryKey.html:2 lib/senders/templates/postVerifyAddRecoveryKey.txt:2
 msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
@@ -278,7 +278,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1269
 msgid "Secondary email added"
-msgstr ""
+msgstr "Dodana je sekundarna adresa e-pošte"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -294,16 +294,16 @@ msgstr ""
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1022
 msgid "Create new password"
-msgstr ""
+msgstr "Stvori novu lozinku"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Hvala na odabiru Firefoxa! Firefox za mobilne uređaje možeš instalirati ovdje: %(link)s"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:1 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:1
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Žao nam je što odlaziš"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -465,7 +465,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Potvrdi adresu e-pošte:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -481,7 +481,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Aktiviraj obitelj proizvoda Firefox"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
@@ -497,19 +497,19 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:731
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Potvrdi prijavu"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Ako je odgovor da, ovo je kôd za potvrdu:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Istječe za 5 minuta."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr ""
+msgstr "Potvrdi primarnu adresu e-pošte"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -521,11 +521,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr ""
+msgstr "Potvrdi adresu e-pošte:"
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Potvrdi sekundarnu adresu e-pošte"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -553,7 +553,7 @@ msgstr ""
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Priprema, pozor, sinkroniziraj"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -597,7 +597,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozillina politika privatnosti"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
@@ -617,23 +617,23 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Otkaži pretplatu"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Update billing information"
-msgstr ""
+msgstr "Ažuriraj podatke za naplatu"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Legal"
-msgstr ""
+msgstr "Pravno"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Privacy"
-msgstr ""
+msgstr "Privatnost"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Uvjeti i pravila otkazivanja:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -641,11 +641,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Otkaži pretplatu:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "Ažuriraj podatke za naplatu:"
 
 #: lib/senders/email.js:276
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -673,15 +673,15 @@ msgstr "%(country)s (procijenjeno)"
 
 #: lib/senders/email.js:493
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Završi stvaranje računa"
 
 #: lib/senders/email.js:494 lib/senders/email.js:622
 msgid "Confirm email"
-msgstr ""
+msgstr "Potvrdi adresu e-pošte"
 
 #: lib/senders/email.js:561
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Verifikacijski kôd: %(code)s"
 
 #: lib/senders/email.js:602
 msgid "Reminder: Finish creating your account"
@@ -709,11 +709,11 @@ msgstr ""
 
 #: lib/senders/email.js:839 lib/senders/email.js:898 lib/senders/email.js:966
 msgid "Verify email"
-msgstr ""
+msgstr "Potvrdi e-poštu"
 
 #: lib/senders/email.js:897 lib/senders/email.js:965
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Potvrdi sekundarnu e-poštu"
 
 #: lib/senders/email.js:1021
 msgid "Reset your password"
@@ -730,11 +730,11 @@ msgstr ""
 #: lib/senders/email.js:1173 lib/senders/email.js:1270 lib/senders/email.js:1398 lib/senders/email.js:1434 lib/senders/email.js:1468 lib/senders/email.js:1511 lib/senders/email.js:1554
 #: lib/senders/email.js:1597 lib/senders/email.js:1687 lib/senders/email.js:1733
 msgid "Manage account"
-msgstr ""
+msgstr "Upravljanje računom"
 
 #: lib/senders/email.js:1224
 msgid "Account confirmed"
-msgstr ""
+msgstr "Račun je potvrđen"
 
 #: lib/senders/email.js:1227
 msgid "Connect another device"

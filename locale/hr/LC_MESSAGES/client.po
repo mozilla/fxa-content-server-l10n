@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-27 19:51+0000\n"
+"PO-Revision-Date: 2020-05-27 19:53+0000\n"
 "Last-Translator: Ivan <ivan.mas342@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -2113,7 +2113,7 @@ msgstr "Šalji velike datoteke sigurno i privatno."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Održi svoju sigurnost &mdash; ne koristi istu lozinku više puta."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2133,7 +2133,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Tvoja je poruka poslana Podršci"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
@@ -2141,7 +2141,7 @@ msgstr "Natrag na Pretplate"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Tražiš Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Započni ovdje</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
