@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-28 12:53+0000\n"
+"PO-Revision-Date: 2020-05-28 12:54+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -794,7 +794,7 @@ msgstr "Lag ny gjenopprettingsnøkkel"
 
 #: lib/senders/email.js:1858
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Du har oppgradert til %(productNameNew)s"
 
 #: lib/senders/email.js:1925
 msgid "You have switched to %(productNameNew)s"
@@ -802,7 +802,7 @@ msgstr ""
 
 #: lib/senders/email.js:1979
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Betalingskort for %(productName)s går ut snart"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: lib/senders/email.js:2252
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Betaling for %(productName)s motatt"
 
 #: lib/senders/email.js:2334
 msgid "%(productName)s payment confirmed"
