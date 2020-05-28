@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-05-01 23:11+0000\n"
+"PO-Revision-Date: 2020-05-28 12:53+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -818,7 +818,7 @@ msgstr ""
 
 #: lib/senders/email.js:2334
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Betaling for %(productName)s stadfesta"
 
 #: lib/senders/email.js:2392
 msgid "Welcome to %(productName)s"
