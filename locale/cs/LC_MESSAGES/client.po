@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-17 16:01+0000\n"
+"POT-Creation-Date: 2020-05-29 16:04+0000\n"
 "PO-Revision-Date: 2020-05-19 22:10+0000\n"
 "Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,10 +24,14 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Heslo bylo úspěšně obnoveno. Pro pokračování se přihlaste."
 
 #. submit button
-#: .es5/views/force_auth.js:193 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/views/force_auth.js:197 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
 msgstr "Přihlášení"
+
+#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód %(code)s."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -37,7 +41,7 @@ msgstr "%(permissionName)s (vyžadováno)"
 msgid "Email address"
 msgstr "E-mailová adresa"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:78 .es5/views/settings/display_name.js:169
+#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
 msgid "Display name"
 msgstr "Zobrazované jméno"
 
@@ -73,7 +77,7 @@ msgstr "Hlavní e-mail ověřen"
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Upozornění o účtu budou odesílána na %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:57
+#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
 msgstr "Záložní e-mail byl ověřen"
 
@@ -101,56 +105,56 @@ msgstr "Neznámý účet. <a href=\"/signup\">Registrace</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Účet už neexistuje. Chcete ho znovu vytvořit?"
 
-#: .es5/views/support.js:84
+#: .es5/views/support.js:86
 msgid "Please Select One"
 msgstr "Vyberte prosím jednu z možností"
 
-#: .es5/views/support.js:223 .es5/templates/support.mustache:5
+#: .es5/views/support.js:234 .es5/templates/support.mustache:6
 msgid "Other"
 msgstr "Jiné"
 
-#: .es5/views/support.js:224
+#: .es5/views/support.js:235
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b>. Brzy od nás obdržíte e-mailem odpověď."
 
-#: .es5/views/support.js:226
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedPlan)s</b>. Brzy od nás obdržíte e-mailem odpověď."
+#: .es5/views/support.js:237
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
 
-#: .es5/views/settings/change_password.js:85 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+#: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Heslo"
 
-#: .es5/views/settings/change_password.js:88
+#: .es5/views/settings/change_password.js:92
 msgid "Change..."
 msgstr "Změnit…"
 
-#: .es5/views/settings/change_password.js:219
+#: .es5/views/settings/change_password.js:223
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "Jakmile skončíte, použijte nové heslo pro přihlášení všech svých zařízení."
 
-#: .es5/views/settings/change_password.js:229
+#: .es5/views/settings/change_password.js:233
 msgid "Old password"
 msgstr "Staré heslo"
 
-#: .es5/views/settings/change_password.js:242 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+#: .es5/views/settings/change_password.js:247 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Zapomněli jste heslo?"
 
-#: .es5/views/settings/change_password.js:248 .es5/templates/complete_reset_password.mustache:13
+#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13
 msgid "New password"
 msgstr "Nové heslo"
 
-#: .es5/views/settings/change_password.js:262 .es5/templates/complete_reset_password.mustache:14
+#: .es5/views/settings/change_password.js:267 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Zopakujte heslo"
 
-#: .es5/views/settings/change_password.js:273 .es5/views/settings/display_name.js:183 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:278 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Změnit"
 
-#: .es5/views/settings/change_password.js:276 .es5/views/settings/display_name.js:185 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:10
+#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -158,7 +162,7 @@ msgstr "Změnit"
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: .es5/views/settings/change_password.js:377
+#: .es5/views/settings/change_password.js:380
 msgid "Password changed successfully"
 msgstr "Heslo bylo úspěšně změněno"
 
@@ -254,58 +258,46 @@ msgstr "Webová relace"
 msgid "Last seen time unknown"
 msgstr "Čas poslední synchronizace není znám"
 
-#: .es5/views/settings/delete_account.js:212
+#: .es5/views/settings/delete_account.js:208
 msgid "Account deleted successfully"
 msgstr "Účet byl úspěšně smazán"
 
-#: .es5/views/settings/display_name.js:90 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
+#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
 msgid "Change…"
 msgstr "Změnit…"
 
-#: .es5/views/settings/display_name.js:97 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
+#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Přidat…"
 
-#: .es5/views/settings/display_name.js:164
+#: .es5/views/settings/display_name.js:168
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Nastavte si jméno, které chcete, aby se zobrazovalo ve Firefoxu při správě vašeho účtu."
 
-#: .es5/views/settings/display_name.js:225
+#: .es5/views/settings/display_name.js:229
 msgid "Display name updated"
 msgstr "Zobrazované jméno aktualizováno"
 
-#: .es5/views/settings/emails.js:129
+#: .es5/views/settings/emails.js:127
 msgid "Secondary email removed"
 msgstr "Záložní e-mail byl smazán"
 
-#: .es5/views/settings/emails.js:161 .es5/views/settings/emails.js:178 .es5/views/mixins/upgrade-session-mixin.js:96
+#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
 msgid "Verification email sent"
 msgstr "E-mail s ověřením byl odeslán"
 
-#: .es5/views/settings/emails.js:200
+#: .es5/views/settings/emails.js:198
 msgid "Primary email set to %(email)s"
 msgstr "Hlavní e-mail byl nastaven na %(email)s"
 
-#: .es5/views/settings/emails.js:221 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Záložní adresa"
 
-#: .es5/views/settings/recovery_codes.js:77
-msgid "Two-step authentication enabled"
-msgstr "Dvoufázové ověřování zapnuto"
-
-#: .es5/views/settings/recovery_codes.js:110
-msgid "Firefox Recovery Codes"
-msgstr "Obnovovací kódy"
-
-#: .es5/views/settings/recovery_codes.js:143
+#: .es5/views/settings/recovery_codes.js:66
 msgid "New recovery codes generated"
 msgstr "Vygenerovány nové obnovovací kódy"
-
-#: .es5/views/settings/two_step_authentication.js:143
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód %(code)s."
 
 #: .es5/views/settings/two_step_authentication.js:161
 msgid "Two-step authentication removed"
@@ -327,23 +319,23 @@ msgstr "Obnova účtu je povolena"
 msgid "Account recovery revoked"
 msgstr "Obnova účtu je zrušena"
 
-#: .es5/views/post_verify/verified.js:49
+#: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
 msgstr "Vaše synchronizovaná data jsou chráněna"
 
-#: .es5/views/post_verify/verified.js:50
+#: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Pokud ztratíte přístup ke svému účtu, budete moci obnovit svá synchronizovaná data."
 
-#: .es5/views/post_verify/verified.js:51 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
 msgstr "Začít prohlížet"
 
-#: .es5/views/post_verify/verified.js:54
+#: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "Upozornění o účtu budou posílána také na adresu %(secondaryEmail)s."
 
-#: .es5/views/post_verify/verified.js:55
+#: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
 msgstr "Pokračovat na %(serviceName)s"
 
@@ -383,6 +375,14 @@ msgstr "Otevřít Outlook"
 msgid "Open Restmail"
 msgstr "Otevřít Restmail"
 
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Obnovovací kódy"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Dvoufázové ověřování zapnuto"
+
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Recovery Key"
 msgstr "Obnovovací klíč"
@@ -416,66 +416,58 @@ msgid "Account verified successfully"
 msgstr "Účet byl úspěšně ověřen"
 
 #: .es5/models/support-form.js:25
-msgid "General inquiries"
-msgstr "Všeobecné informace"
-
-#: .es5/models/support-form.js:25
 msgid "Payment & billing"
 msgstr "Platba a fakturace"
-
-#: .es5/models/support-form.js:25
-msgid "Connection issues"
-msgstr "Problémy s připojením"
-
-#: .es5/models/support-form.js:25
-msgid "Getting started"
-msgstr "Začínáme"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
 msgstr "Problémy s účtem"
 
 #: .es5/models/support-form.js:25
-msgid "Firefox Private Network Android App"
-msgstr "Aplikace Firefox Private Network pro Android"
+msgid "Technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Firefox Private Network Windows App"
-msgstr "Aplikace Firefox Private Network pro Windows"
+msgid "Provide feedback / request features"
+msgstr ""
 
-#: .es5/models/sync-engines.js:54
+#: .es5/models/support-form.js:25
+msgid "Not listed"
+msgstr ""
+
+#: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
 msgstr "Záložky"
 
-#: .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:62
 msgid "History"
 msgstr "Historie"
 
-#: .es5/models/sync-engines.js:62
+#: .es5/models/sync-engines.js:66
 msgid "Logins and Passwords"
 msgstr "Přihlašovací údaje"
 
-#: .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:70
 msgid "Add-ons"
 msgstr "Doplňky"
 
-#: .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
 msgstr "Otevřené panely"
 
-#: .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:78
 msgid "Preferences"
 msgstr "Předvolby"
 
-#: .es5/models/sync-engines.js:82
+#: .es5/models/sync-engines.js:86
 msgid "Addresses"
 msgstr "Adresy"
 
-#: .es5/models/sync-engines.js:90
+#: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
 msgstr "Platební karty"
 
-#: .es5/models/reliers/browser.js:84
+#: .es5/models/reliers/browser.js:88
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -896,7 +888,7 @@ msgstr "Chybějící konfigurace"
 msgid "Invalid configuration"
 msgstr "Neplatná konfigurace"
 
-#: .es5/lib/email-domain-validator.js:36
+#: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
 msgstr "Spletli jste e-mail?"
 
@@ -1013,7 +1005,9 @@ msgid "Invalid Token"
 msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">podmínkami poskytování služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">zásadami ochrany osobních údajů</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1071,10 +1065,12 @@ msgid "Reset password with recovery key"
 msgstr "Obnovit heslo pomocí obnovovacího klíče"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Pokračovat na %(serviceName)s"
 
@@ -1083,7 +1079,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu Firefoxu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou "
 "smazána."
@@ -1142,8 +1139,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu"
-" soukromí vaše data heslem šifrujeme."
+"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
+"ochranu soukromí vaše data heslem šifrujeme."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1194,8 +1191,9 @@ msgstr "Pro potvrzení přihlášení prosím klepněte na odkaz, který jsme za
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Žádný email jste neobdrželi? Znovu odeslat"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2
-#: .es5/templates/settings/recovery_codes.mustache:20 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Zpět"
 
@@ -1234,7 +1232,7 @@ msgstr "Potřebujete další kód? Poslat znovu"
 msgid "Connect another device"
 msgstr "Připojit další zařízení"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Tento Firefox je připojen"
 
@@ -1250,7 +1248,8 @@ msgstr "Dokončit nastavení"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Pro dokončení nastavení se přihlaste k Firefoxu"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:9
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Stále přidáváte zařízení?"
 
@@ -1294,21 +1293,111 @@ msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">po
 msgid "Enter your email"
 msgstr "Zadejte svou e-mailovou adresu"
 
-#: .es5/templates/index.mustache:3 .es5/templates/ready.mustache:5 .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/recovery_codes.mustache:13 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Pokračovat"
+
+#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+msgid "Save recovery codes"
+msgstr "Uložit obnovovací kódy"
+
+#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Stáhnout"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
+#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Zkopírovat"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Vytisknout"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
+msgid "Cancel setup"
+msgstr "Zrušit nastavení"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr "V případě ztráty svého zařízení, můžete opět získat přístup ke svému účtu zadáním jednoho z obnovovacích kódů."
+
+#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+msgid "Recovery code"
+msgstr "Obnovovací kód"
+
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Potvrzení"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při přihlášení budou požadovány jednorázové kódy z <a %(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+msgid "Enter code manually"
+msgstr "Zadejte kód ručně"
+
+#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Naskenujte ve své ověřovací aplikaci QR kód a poté zadejte vygenerovaný bezpečnostní kód."
+
+#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+msgid "Can’t scan code?"
+msgstr "Nemůžete kód naskenovat?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "Po dokončení bude aplikace generovat bezpečnostní kódy, které můžete zadat."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+msgid "Security code"
+msgstr "Bezpečnostní kód"
+
+#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+msgid "Ready"
+msgstr "Hotovo"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
 msgstr "Práva"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:12 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Podmínky poskytování služby"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Zásady ochrany osobních údajů"
 
@@ -1527,38 +1616,30 @@ msgid "Create account"
 msgstr "Vytvořit účet"
 
 #: .es5/templates/sms_send.mustache:5
-msgid "Sync this browser with your phone"
-msgstr "Synchronizujte tento prohlížeč se svým telefonem"
-
-#: .es5/templates/sms_send.mustache:7
 msgid "Would you like to sync your phone?"
 msgstr "Chcete synchronizovat svůj telefon?"
 
-#: .es5/templates/sms_send.mustache:11
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Odešlete Firefox přímo do vašeho chytrého telefonu a přihlaste se pro dokončení nastavení"
-
-#: .es5/templates/sms_send.mustache:13
+#: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
 msgstr "Nechte si poslat odkaz k instalaci Firefoxu SMSkou na svůj telefon."
 
-#: .es5/templates/sms_send.mustache:14
+#: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
 msgstr "Číslo mobilního telefonu"
 
-#: .es5/templates/sms_send.mustache:15 .es5/templates/support.mustache:11
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
 msgid "Send"
 msgstr "Odeslat"
 
-#: .es5/templates/sms_send.mustache:16
+#: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "Vyžadujte souhlas příjemce. Mohou být účtovány poplatky za SMS nebo mobilní data. <a %(escapedLearnMoreAttributes)s>Zjistit více</a>"
 
-#: .es5/templates/sms_send.mustache:17 .es5/templates/why_connect_another_device.mustache:1
+#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
 msgstr "Proč synchronizovat více zařízení?"
 
-#: .es5/templates/sms_send.mustache:18
+#: .es5/templates/sms_send.mustache:13
 msgid "Not now"
 msgstr "Teď ne"
 
@@ -1598,15 +1679,19 @@ msgstr "Kontaktujte nás"
 msgid "What are you contacting us about?"
 msgstr "Za jakým účelem nás kontaktujete?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:4
+msgid "Firefox Account"
+msgstr ""
+
+#: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
 msgstr "S čím potřebujete pomoc?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
 msgstr "Předmět (volitelné)"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:10
 msgid "Description of issue"
 msgstr "Popis problému"
 
@@ -1731,11 +1816,6 @@ msgstr "Firefox pro iOS"
 msgid "None connected"
 msgstr "Nepřipojeno"
 
-#: .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
-msgid "Download"
-msgstr "Stáhnout"
-
 #: .es5/templates/settings/clients.mustache:21
 msgid "Firefox for Android"
 msgstr "Firefox pro Android"
@@ -1813,10 +1893,6 @@ msgstr "Přidat e-mail"
 msgid "Add"
 msgstr "Přidat"
 
-#: .es5/templates/settings/recovery_codes.mustache:1
-msgid "Save recovery codes"
-msgstr "Uložit obnovovací kódy"
-
 #: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
 msgid "NOTE:"
 msgstr "POZNÁMKA:"
@@ -1829,39 +1905,9 @@ msgstr "Vytvořením nových záložních kódů zneplatníte všechny dříve v
 msgid "Generate new recovery codes"
 msgstr "Vygenerovat nové obnovovací kódy"
 
-#: .es5/templates/settings/recovery_codes.mustache:5
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení."
-
-#: .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10 .es5/templates/settings/account_recovery/recovery_key.mustache:4
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
-msgid "Copy"
-msgstr "Zkopírovat"
-
-#: .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
-msgid "Print"
-msgstr "Vytisknout"
-
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
-msgid "Cancel setup"
-msgstr "Zrušit nastavení"
-
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
 msgstr "Potvrdit obnovovací klíč"
-
-#: .es5/templates/settings/recovery_codes.mustache:17
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "V případě ztráty svého zařízení, můžete opět získat přístup ke svému účtu zadáním jednoho z obnovovacích kódů."
-
-#: .es5/templates/settings/recovery_codes.mustache:18
-msgid "Recovery code"
-msgstr "Obnovovací kód"
-
-#: .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "Potvrzení"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
@@ -1871,21 +1917,9 @@ msgstr "Předplatné a platby"
 msgid "Manage…"
 msgstr "Správa…"
 
-#: .es5/templates/settings/totp_secret.mustache:1
-msgid "Enter code manually"
-msgstr "Zadejte kód ručně"
-
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
 msgstr "Zadejte tento bezpečnostní kód do své ověřovací aplikace:"
-
-#: .es5/templates/settings/totp_secret.mustache:3
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Po dokončení bude aplikace generovat bezpečnostní kódy, které můžete zadat."
-
-#: .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
-msgid "Ready"
-msgstr "Hotovo"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -1894,10 +1928,6 @@ msgstr "Dvoufázové ověřování"
 #: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
 msgid "Enable…"
 msgstr "Zapnout…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:6
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při přihlášení budou požadovány jednorázové kódy z <a %(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
 
 #: .es5/templates/settings/two_step_authentication.mustache:7
 msgid "Current status"
@@ -1922,18 +1952,6 @@ msgstr "Zapnout"
 #: .es5/templates/settings/two_step_authentication.mustache:14
 msgid "Replace recovery codes"
 msgstr "Vytvořit nové záložní kódy"
-
-#: .es5/templates/settings/two_step_authentication.mustache:18
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Naskenujte ve své ověřovací aplikaci QR kód a poté zadejte vygenerovaný bezpečnostní kód."
-
-#: .es5/templates/settings/two_step_authentication.mustache:19
-msgid "Can’t scan code?"
-msgstr "Nemůžete kód naskenovat?"
-
-#: .es5/templates/settings/two_step_authentication.mustache:20
-msgid "Security code"
-msgstr "Bezpečnostní kód"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
@@ -1996,7 +2014,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Krok 2 ze 2: Uložte si obnovovací klíč"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">Poznámka:</span> Pokud zapomenete své heslo, tento klíč budete potřebovat pro opětovné získání přístupu k synchronizovaným datům. Uložte si obnovovací klíč na bezpečném místě, "
 "kde ho ale později dokážete najít."
@@ -2013,14 +2032,114 @@ msgstr "Přidat záložní e-mailovou adresu"
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Přidání záložní e-mailové adresy vám pomůže v situaci, kdy ztratíte přístup ke své e-mailové schránce %(escapedEmail)s."
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Možná později"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
 msgstr "Použít jiný e-mail"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
+msgid "Use SMS instead"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
+msgid "I'll do this later, send me a reminder"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "Connect your mobile device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "with a QR code we've created just for you"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "Sign into your account"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2226,6 +2345,30 @@ msgstr "Spárovat pomocí aplikace"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit z Firefoxu."
 
+#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+#~ msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedPlan)s</b>. Brzy od nás obdržíte e-mailem odpověď."
+
+#~ msgid "General inquiries"
+#~ msgstr "Všeobecné informace"
+
+#~ msgid "Connection issues"
+#~ msgstr "Problémy s připojením"
+
+#~ msgid "Getting started"
+#~ msgstr "Začínáme"
+
+#~ msgid "Firefox Private Network Android App"
+#~ msgstr "Aplikace Firefox Private Network pro Android"
+
+#~ msgid "Firefox Private Network Windows App"
+#~ msgstr "Aplikace Firefox Private Network pro Windows"
+
+#~ msgid "Sync this browser with your phone"
+#~ msgstr "Synchronizujte tento prohlížeč se svým telefonem"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Odešlete Firefox přímo do vašeho chytrého telefonu a přihlaste se pro dokončení nastavení"
+
 #~ msgid "Subscriptions &amp; Payments"
 #~ msgstr "Předplatné a Platby"
 
@@ -2320,7 +2463,8 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr "Toto heslo neztraťte. Při jeho obnově může dojít ke ztrátě vašich synchronizovaných dat."
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Nepoužívejte stejné heslo jako k e-mailu</span>Pokud někdo zjistí heslo k vaší e-mailové schránce, může potvrdit přihlášení na svém zařízení a získat tak přístup k uloženým informacím."
+#~ msgstr ""
+#~ "<span>Nepoužívejte stejné heslo jako k e-mailu</span>Pokud někdo zjistí heslo k vaší e-mailové schránce, může potvrdit přihlášení na svém zařízení a získat tak přístup k uloženým informacím."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Zapamatujte si své heslo</span>Pokud budete potřebovat své heslo obnovit, přijdete o synchronizovaná data, která nejsou uložena na žádném z vašich zařízení."
@@ -2370,8 +2514,8 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr "Správa nastavení"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "Pokud tento účet používáte k přihlášení se k jiným službám a aplikacím Mozilly (jako je např. AMO, Pocket nebo Screenshots), smažte v nich před odstraněním tohoto účtu své osobní údaje. Po "
 #~ "odstranění účtu již nebude možné se k těmto službám přihlásit."
@@ -2455,7 +2599,9 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr "Nepodařilo se získat podmínky používání služby pro předplatné"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zásadami ochrany osobních údajů</a>."
+#~ msgstr ""
+#~ "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zásadami ochrany osobních "
+#~ "údajů</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Podmínky používání služby pro předplatné"
@@ -2613,10 +2759,12 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Požadovány cookies a local storage."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami ochrany osobních údajů</a> "
-#~ "cloudových služeb Firefoxu."
+#~ "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami ochrany osobních údajů</"
+#~ "a> cloudových služeb Firefoxu."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Cloudové služby Firefoxu"
@@ -2670,8 +2818,8 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr "Proč synchronizovat dvě (nebo i více!) zařízení?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Díky službě Sync sdílet hesla, záložky a historii, které vytvoříte ve Firefoxu na jednom zařízení, s Firefoxem na všech ostatních zařízeních. Přihlaste se ke službě Firefox Sync na svém telefonu "
 #~ "nebo tabletu, a hned uvidíte vše, co jste si uložili ve Firefoxu na svém počítači."
@@ -2783,18 +2931,18 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr "Přihlásit se"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>PAMATUJTE:</span> Pokud obnovíte heslo, některá data mohou být nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v "
 #~ "zájmu vaší bezpečnosti tato data šifrujeme vaším heslem."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>POZNÁMKA:</span> Pokud obnovíte heslo, některá data budou nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v zájmu "
-#~ "vaší bezpečnosti tato data šifrujeme vaším heslem."
+#~ "<span>POZNÁMKA:</span> Pokud obnovíte heslo, některá data budou nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v "
+#~ "zájmu vaší bezpečnosti tato data šifrujeme vaším heslem."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při přihlášení budou požadovány jednorázové kódy z <a %(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
@@ -2910,18 +3058,19 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgid "Sync preferences"
 #~ msgstr "Předvolby Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Hledáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začněte zde</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Máte účet s jinou e-mailovou adresou? <a href=\"%(signinUri)s\">Přihlaste se</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Naposledy aktivní: %(translatedTimeAgo)s"
@@ -3290,12 +3439,16 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Máte již účet? Přihlaste se."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmínkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami o ochraně osobních "
 #~ "údajů</a> služeb Firefox cloud."
