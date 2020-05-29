@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-21 17:35+0000\n"
+"PO-Revision-Date: 2020-05-29 13:59+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -112,7 +112,7 @@ msgstr "¿Mba'e rejapokuaa?"
 
 #: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
 msgid "First, change your Firefox Account password."
-msgstr "Ñepyrũrã emombue ñe’ẽñemi Firefox mba’ete pegua."
+msgstr "Ñepyrũrã emoambue ñe’ẽñemi Firefox mba’ete pegua."
 
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 16:01+0000\n"
-"PO-Revision-Date: 2020-04-21 14:11+0000\n"
+"PO-Revision-Date: 2020-05-29 13:59+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -168,7 +168,7 @@ msgstr "Rombyasyeterei. Emoambue ñe’ẽñemi ne mba’ete Firefox pegua ha eh
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Rombyasyeterei. Ha’éramo mba’e’oka ejerovia’ỹha, emombueva’erã ñe’ẽñemi ne mba’ete Firefox pegua ha opaite ñe’ẽñemi eñongatúva Firefox-pe."
+msgstr "Rombyasyeterei. Ha’éramo mba’e’oka ejerovia’ỹha, emoambueva’erã ñe’ẽñemi ne mba’ete Firefox pegua ha opaite ñe’ẽñemi eñongatúva Firefox-pe."
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
