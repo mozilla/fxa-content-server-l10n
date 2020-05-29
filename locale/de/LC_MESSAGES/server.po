@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-04-17 17:31+0000\n"
+"PO-Revision-Date: 2020-05-29 18:38+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -179,8 +179,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Sie haben Ihre Primär-E-Mail-Adresse zu %(email)s geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem Firefox-Konto, sowie zum Erhalt von Sicherheitsbenachrichtigungen "
-"und Anmeldebestätigungen."
+"Sie haben Ihre Primär-E-Mail-Adresse zu %(email)s geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem Firefox-Konto, sowie zum Erhalt von Sicherheitsbenachrichtigungen und"
+" Anmeldebestätigungen."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -319,8 +319,8 @@ msgstr "Sie haben erfolgreich von %(productNameOld)s zu %(productNameNew)s gewec
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von %(paymentAmountOld)s $ pro %(productPaymentCycle)s auf %(paymentAmountNew)s $. Zu diesem Zeitpunkt erhalten Sie außerdem eine einmalige "
 "Gutschrift in Höhe von %(paymentProrated)s $, um die niedrigere Gebühr für den Rest dieser %(productPaymentCycle)s widerzuspiegeln."
@@ -411,13 +411,15 @@ msgstr "Helfen Sie uns, das Problem zu beheben, indem Sie Ihre Zahlungsinformati
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Vielen Dank, dass Sie Ihr Abonnement von %(productName)s erneuert haben!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt %(invoiceTotal)s$ am %(nextInvoiceDateOnly)s für die %(cardType)s-Karte, die auf %(lastFour)s endet. Ihr "
+"Abonnement wird automatisch jede Abrechnungsperiode erneuert, es sei denn, sie stornieren es vorher."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -437,11 +439,11 @@ msgstr "Sie haben erfolgreich von %(productNameOld)s zum neuen %(productNameNew)
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von %(paymentAmountOld)s $ pro %(productPaymentCycle)s auf %(paymentAmountNew)s $. Zu diesem Zeitpunkt wird Ihnen außerdem eine einmalige Gebühr "
-"in Höhe von %(paymentProrated)s $ berechnet, um die höhere Gebühr für den Rest dieser %(productPaymentCycle)s widerzuspiegeln."
+"Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von %(paymentAmountOld)s $ pro %(productPaymentCycle)s auf %(paymentAmountNew)s $. Zu diesem Zeitpunkt wird Ihnen außerdem eine einmalige Gebühr in"
+" Höhe von %(paymentProrated)s $ berechnet, um die höhere Gebühr für den Rest dieser %(productPaymentCycle)s widerzuspiegeln."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -621,7 +623,7 @@ msgstr "AGB und Widerrufsbelehrung"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Abonnement erneuern"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -806,7 +808,7 @@ msgstr "Ihr Abonnement für %(productName)s wurde gekündigt"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Abonnement von %(productName)s erneuert"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -838,6 +840,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Die angeforderte Seite wurde nicht gefunden. Wir wurden informiert\n"
+"          und werden alle möglicherweise defekten Links reparieren."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -852,6 +856,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Oje, da ist etwas schiefgegangen. Wir wurden benachrichtigt und\n"
+"          machen uns an die Behebung des Problems."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -866,6 +872,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Wir stehen derzeit unter hoher Belastung und arbeiten daran,\n"
+"          das System baldmöglichst wie gewohnt zur Verfügung zu stellen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -1115,15 +1123,15 @@ msgstr "Neueste Version herunterladen"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Sie haben erfolgreich Ihr erstes Gerät mit Ihrem Firefox-Konto verbunden. Jetzt können Sie sich von anderen Geräten bei Sync anmelden, darunter auch Firefox für <a href='%(androidUrl)s'>Android</"
-#~ "a> und <a href='%(iosUrl)s'>iOS</a>."
+#~ "Sie haben erfolgreich Ihr erstes Gerät mit Ihrem Firefox-Konto verbunden. Jetzt können Sie sich von anderen Geräten bei Sync anmelden, darunter auch Firefox für <a href='%(androidUrl)s'>Android</a> "
+#~ "und <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sie haben erfolgreich Ihr erstes Gerät mit Ihrem Firefox-Konto verbunden. Um das meiste aus Sync herauszuholen, stellen Sie Verbindungen zu <a href='%(androidUrl)s'>Firefox für Android</a> oder "
-#~ "<a href='%(iosUrl)s'>Firefox für iOS</a> her, falls vorhanden."
+#~ "Sie haben erfolgreich Ihr erstes Gerät mit Ihrem Firefox-Konto verbunden. Um das meiste aus Sync herauszuholen, stellen Sie Verbindungen zu <a href='%(androidUrl)s'>Firefox für Android</a> oder <a "
+#~ "href='%(iosUrl)s'>Firefox für iOS</a> her, falls vorhanden."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Bei Sync anmelden"
@@ -1291,16 +1299,16 @@ msgstr "Neueste Version herunterladen"
 #~ msgstr "Passwort zurücksetzen"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Vor einigen Tagen haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Mit einem verifizierten Konto können Sie mit jedem damit verbundenen Gerät auf Ihre Tabs, Lesezeichen, Passwörter "
-#~ "und Chronik zugreifen. Bestätigen Sie einfach diese E-Mail-Adresse, um Ihr Konto zu aktivieren."
+#~ "Vor einigen Tagen haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Mit einem verifizierten Konto können Sie mit jedem damit verbundenen Gerät auf Ihre Tabs, Lesezeichen, Passwörter und "
+#~ "Chronik zugreifen. Bestätigen Sie einfach diese E-Mail-Adresse, um Ihr Konto zu aktivieren."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, es aber nie verifiziert. Wir machen uns Sorgen um Sie. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, "
-#~ "dass es Ihnen gut geht."
+#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, es aber nie verifiziert. Wir machen uns Sorgen um Sie. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass "
+#~ "es Ihnen gut geht."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Bestätigen Sie bitte diese Anmeldung zur Erhöhung der Sicherheit, um die Synchronisation mit diesem Gerät zu beginnen:"
@@ -1325,8 +1333,7 @@ msgstr "Neueste Version herunterladen"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Sie haben %(secondaryEmail)s erfolgreich als Zweit-E-Mail-Adresse Ihres Firefox-Kontos entfernt. Sicherheitshinweise und Anmeldebestätigungen werden nicht mehr an diese Adresse geschickt."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Sie haben %(secondaryEmail)s erfolgreich als Zweit-E-Mail-Adresse Ihres Firefox-Kontos verifiziert. Sicherheitsinformationen und Anmeldebestätigungen werden ab sofort an beide E-Mail-Adressen "
 #~ "verschickt."
@@ -1336,8 +1343,8 @@ msgstr "Neueste Version herunterladen"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Haben Sie sich in den letzten 60 Tagen von einem der folgenden Standorte in Ihr Firefox-Konto eingeloggt? Wenn Sie diese Standorte nicht kennen, hat sich möglicherweise eine andere Person "
-#~ "Zugriff zu Ihrem Firefox-Konto verschafft."
+#~ "Haben Sie sich in den letzten 60 Tagen von einem der folgenden Standorte in Ihr Firefox-Konto eingeloggt? Wenn Sie diese Standorte nicht kennen, hat sich möglicherweise eine andere Person Zugriff zu"
+#~ " Ihrem Firefox-Konto verschafft."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum und Uhrzeit:"
@@ -1415,8 +1422,8 @@ msgstr "Neueste Version herunterladen"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Wir machen uns Sorgen um Sie. Firefox gibt es für Windows, Mac, Linux, Android und iOS. Damit können Sie über alle "
-#~ "Geräte hinweg Ihre Passwörter, Lesezeichen und Chronik synchronisieren. Bestätigen Sie Ihre E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass es Ihnen gut geht."
+#~ "Vor einer Woche haben Sie ein Firefox-Konto erstellt, aber nie verifiziert. Wir machen uns Sorgen um Sie. Firefox gibt es für Windows, Mac, Linux, Android und iOS. Damit können Sie über alle Geräte "
+#~ "hinweg Ihre Passwörter, Lesezeichen und Chronik synchronisieren. Bestätigen Sie Ihre E-Mail-Adresse, um Ihr Konto zu aktivieren und uns zu zeigen, dass es Ihnen gut geht."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1504,8 +1511,7 @@ msgstr "Neueste Version herunterladen"
 #~ msgstr "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht geändert haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht zurückgesetzt haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
+#~ msgstr "Dies ist eine automatische E-Mail; wenn Sie das Passwort Ihres Firefox-Kontos nicht zurückgesetzt haben, sollten Sie es umgehend unter <a href='%(resetLink)s'>%(resetLink)s</a> zurücksetzen."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Ein neues Gerät wird nun mit Ihrem Firefox-Konto synchronisiert"
