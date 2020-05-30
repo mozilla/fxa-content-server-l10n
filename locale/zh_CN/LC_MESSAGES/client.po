@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 11:51+0000\n"
+"PO-Revision-Date: 2020-05-30 11:56+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -120,7 +120,7 @@ msgstr "感谢您就 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持�
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "感谢您就 <b>%(escapedSelectedProduct)s</b> 中的 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持联系。我们将尽快通过电子邮件与您联系。"
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -1367,7 +1367,7 @@ msgstr "输入完成后，将自动生成供您输入的安全码。"
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "在您的身份验证应用中输入此密钥。"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -2060,7 +2060,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "在设备之间同步 Firefox"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
