@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-29 19:50+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2020-05-29 23:00+0000\n"
+"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -429,7 +429,7 @@ msgstr "Tekniske problemer"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Giv feedback eller foreslå funktioner"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
@@ -1350,7 +1350,7 @@ msgstr "Tilføj et ekstra sikkerhedslag til din konto ved at kræve sikkerhedsko
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Skan godkendelseskode"
 
 #: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
@@ -2049,7 +2049,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Tilmeld %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2057,7 +2057,7 @@ msgstr "Enhed forbundet!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Forbind én til"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
 msgid "Use SMS instead"
@@ -2065,7 +2065,7 @@ msgstr "Brug SMS i stedet"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Jeg er færdig for nærværende"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
@@ -2081,7 +2081,7 @@ msgstr "Kom i gang"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Jeg gør det senere - send mig en påmindelse"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera"
