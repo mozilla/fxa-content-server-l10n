@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 00:39+0000\n"
+"PO-Revision-Date: 2020-05-30 00:52+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -416,6 +416,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Ваш цикл платежів та їхній розмір залишаться незмінними. Наступна оплата становитиме %(invoiceTotal)s з картки %(cardType)s, останні 4 цифри номера якої %(lastFour)s та відбудеться "
+"%(nextInvoiceDateOnly)s. Ваша передплата автоматично продовжуватиметься на встановлений розрахунковий період, доки ви не вирішите її скасувати."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -619,7 +621,7 @@ msgstr "Умови та політика відмови від послуг"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Поновити передплату"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -804,7 +806,7 @@ msgstr "Вашу передплату на %(productName)s було скасов
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Передплату %(productName)s поновлено"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -836,6 +838,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Запитану вами сторінку не знайдено. Ми отримали сповіщення та\n"
+"          виправимо усі пошкоджені посилання."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -850,6 +854,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Ой, щось пішло не так. Ми отримали сповіщення і\n"
+"          почнемо працювати над виправленням."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -864,6 +870,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Ми зараз перевантажені й працюємо над якнайшвидшим\n"
+"          поверненням системи до нормального стану."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
