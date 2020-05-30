@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 14:21+0000\n"
+"PO-Revision-Date: 2020-05-30 14:28+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1322,7 +1322,7 @@ msgstr "取消設定"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "確認救援碼"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -2027,15 +2027,15 @@ msgstr "使用另一組 E-Mail"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "註冊後還有更多功能"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "將發送實用小知識給您。"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "將發送關於下列項目的實用小知識給您:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -2059,11 +2059,11 @@ msgstr "先這樣，我完成了"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "在不同裝置間同步 Firefox"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "與行動裝置上的 Firefox 同步書籤、瀏覽紀錄、密碼，過程只要幾分鐘就能搞定。"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2107,23 +2107,23 @@ msgstr "在裝置上安裝 Firefox，並且開啟它"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "登入帳號"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1.</span> 開啟裝置上的相機應用程式"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2.</span> 拿相機對著 QR Code 掃描，然後點擊出現的超連結"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3.</span> 在裝置上安裝 Firefox，並且開啟它"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4.</span> 登入帳號"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"

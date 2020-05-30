@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-04-17 17:18+0000\n"
+"PO-Revision-Date: 2020-05-30 14:29+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -311,11 +311,9 @@ msgstr "您已成功從 %(productNameOld)s 切換到 %(productNameNew)s。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
-"從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s 以餘額的方式一次"
-"儲值到您的帳號，以反應較低的收費金額。"
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -403,13 +401,13 @@ msgstr "請於三天內更新付款資訊:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "感謝您重新開始訂閱 %(productName)s！"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "您的帳務週期與付款內容將保持原樣，下次將於 %(nextInvoiceDateOnly)s，對卡號末四碼為 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主動取消之前，將自動持續訂閱。"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -429,11 +427,9 @@ msgstr "您已成功從 %(productNameOld)s 升級到 %(productNameNew)s。"
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
-"從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將向您一次收取剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s，以反應"
-"較高的收費金額。"
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將向您一次收取剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s，以反應較高的收費金額。"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -613,7 +609,7 @@ msgstr "條款及取消政策"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "重新啟用訂閱"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -798,7 +794,7 @@ msgstr "已取消您的 %(productName)s 產品訂閱"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "已重新開始訂閱 %(productName)s"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -829,7 +825,7 @@ msgstr "找不到頁面"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr ""
+msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查修正網頁內容。"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -843,7 +839,7 @@ msgstr "錯誤 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "抱歉，有些東西怪怪的，我們已經記錄下來，並將會進行修復。"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -857,7 +853,7 @@ msgstr "伺服器忙碌中，請稍後再試"
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
-msgstr ""
+msgstr "目前有大量使用者連線中，超過我們的伺服器的負荷能力。我們將盡快讓伺服器恢復正常。"
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -1264,8 +1260,8 @@ msgstr "下載最新版本"
 #~ msgstr "重設密碼"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr "您在幾天前註冊了 Firefox 帳號，但沒有完成驗證。驗證帳號後您將可以在所有連結起來的裝置間開啟分頁、書籤、密碼、瀏覽紀錄等等資料。只要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1292,8 +1288,7 @@ msgstr "下載最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已成功移除 Firefox 帳號的次要電子郵件地址 %(secondaryEmail)s。我們不會再寄出安全性通知與登入確認信到該信箱。"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功將 %(secondaryEmail)s 驗證為您的 Firefox 帳號的次要電子郵件地址。安全性通知與登入確認郵件將寄送到您的所有信箱。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1377,9 +1372,7 @@ msgstr "下載最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只"
-#~ "要確認此電子郵件地址即可啟用帳號。"
+#~ msgstr "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "env"
 #~ msgstr "env"
