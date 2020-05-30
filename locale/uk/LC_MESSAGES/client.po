@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 09:50+0000\n"
+"PO-Revision-Date: 2020-05-30 10:02+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -2097,7 +2097,7 @@ msgstr "Готовий до сканування"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "Connect your mobile device"
-msgstr "Під'єднаєте ваш мобільний пристрій"
+msgstr "Під'єднайте свій мобільний пристрій"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "with a QR code we've created just for you"
@@ -2109,7 +2109,7 @@ msgstr "Відкрийте програму камери на вашому пр�
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "Наведіть камеру на QR-код та торкніться посилання, яке з'явиться"
+msgstr "Наведіть камеру на QR-код і торкніться посилання, яке з'явиться"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Install Firefox and open it on your device"
@@ -2125,7 +2125,7 @@ msgstr "<span class=\"number\">1</span>Відкрийте програму ка�
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Наведіть камеру на QR-код та торкніться посилання, яке з'явиться"
+msgstr "<span class=\"number\">2</span>Наведіть камеру на QR-код і торкніться посилання, яке з'явиться"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
