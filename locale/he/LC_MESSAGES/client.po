@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 21:52+0000\n"
+"PO-Revision-Date: 2020-05-30 21:45+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -429,7 +429,7 @@ msgstr "בעיות טכניות"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "מתן משוב / בקשת תכונות"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
