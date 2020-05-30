@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 12:06+0000\n"
-"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2020-05-30 08:30+0000\n"
+"Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -629,7 +629,7 @@ msgstr "Termini e condizioni di annullamento"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Rinnova l'abbonamento"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -814,7 +814,7 @@ msgstr "Il tuo abbonamento a %(productName)s è stato annullato"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Abbonamento a %(productName)s rinnovato"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
