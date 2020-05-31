@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 21:41+0000\n"
+"PO-Revision-Date: 2020-05-31 21:50+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -118,7 +118,7 @@ msgstr "გმადლობთ, რომ ისარგებლეთ Mozil
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "გმადლობთ, რომ ისარგებლეთ Mozilla-ს მხარდაჭერით საკითხზე <b>%(escapedLowercaseTopic)s</b> <b>%(escapedSelectedProduct)s</b>-თვის. დაგიკავშირდებით ელფოსტაზე, რაც შეიძლება მოკლე ხანში."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
