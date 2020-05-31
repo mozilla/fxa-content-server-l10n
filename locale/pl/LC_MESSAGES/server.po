@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 11:11+0000\n"
+"PO-Revision-Date: 2020-05-31 11:16+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -618,7 +618,7 @@ msgstr "Regulamin i zasady anulowania"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Ponownie aktywuj subskrypcję"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -803,7 +803,7 @@ msgstr "Subskrypcja %(productName)s została anulowana"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Ponownie aktywowano subskrypcję %(productName)s"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -835,6 +835,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Nie odnaleziono żądanej strony. Powiadomiono administratora,\n"
+"          który naprawi błędne odnośniki."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -849,6 +851,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Coś się nie powiodło. Zostaliśmy o tym powiadomieni\n"
+"          i zaraz się tym zajmiemy."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -863,6 +867,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Serwer używa obecnie za dużo zasobów. Pracujemy\n"
+"          nad jak najszybszym naprawieniem problemu."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
