@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-04-17 18:26+0000\n"
+"PO-Revision-Date: 2020-05-31 07:57+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -317,8 +317,8 @@ msgstr "Tu ha cambiate con successo ab %(productNameOld)s a %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -433,8 +433,8 @@ msgstr "Tu ha promovite con successo ab %(productNameOld)s a %(productNameNew)s.
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -831,7 +831,7 @@ msgstr "Pagina non trovate"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr ""
+msgstr "Le pagina requestate non ha essite trovate. Nos ha recipite notification e va reparar qualcunque ligamines rupte."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -1282,15 +1282,14 @@ msgstr "Discargar ultime version"
 #~ msgstr "Remontar le contrasigno"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo "
-#~ "connectite a illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
+#~ "Qualque dies retro tu creava un conto Firefox, ma non lo verificava. Un conto verificate te permitte acceder a tu schedas, marcapaginas, contrasignos e chronologia sur omne dispositivo connectite a "
+#~ "illo. Simplemente confirma iste adresse de e-mail pro activar tu conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
+#~ msgstr "Un septimana retro tu creava un conto Firefox, ma non lo verificava. Nos es preoccupate pro te. Iste message es pro rememorar te a confirmar iste adresse de e-posta a fin de activar tu conto."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Pro securitate additional, confirma iste authentication pro comenciar le synchronisation con iste apparato:"

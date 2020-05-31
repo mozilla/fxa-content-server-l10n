@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 07:52+0000\n"
+"PO-Revision-Date: 2020-05-31 07:56+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1373,7 +1373,7 @@ msgstr "Un vice complete, illo comenciara a generar codices de securitate que tu
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Scribe iste clave secrete in tu app de authentication:"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1679,7 +1679,7 @@ msgstr "Proque contacta tu nos?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Conto Firefox"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2056,7 +2056,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Apparato connexe!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
@@ -2080,7 +2080,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Comenciar"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
@@ -2096,7 +2096,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Preste a scander"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "Connect your mobile device"
@@ -2120,7 +2120,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "Accede a tu conto"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
