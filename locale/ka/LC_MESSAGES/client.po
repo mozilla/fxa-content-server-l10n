@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 21:32+0000\n"
+"PO-Revision-Date: 2020-05-31 21:41+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1371,11 +1371,11 @@ msgstr "დასრულების შემდეგ, დაიწყებ
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "აკრიფეთ საიდუმლო კოდი შესვლის დასამოწმებელ პროგრამაში."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "გსურთ სანაცვლოდ QR-კოდი წააკითხოთ?"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1677,7 +1677,7 @@ msgstr "რის თაობაზე გვიკავშირდები�
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox-ანგარიში"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2038,103 +2038,103 @@ msgstr "სხვა ელფოსტის გამოყენება"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "შექმენით ანგარიში, მეტის მისაღებად"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "გამოსადეგი ცოდნა, თქვენს საფოსტო ყუთში."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "მიიღეთ გამოსადეგი ცოდნა, თქვენს საფოსტო ყუთში:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "გამოიწერეთ %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "მოწყობილობა დაკავშირებულია!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "სხვა მოწყობილობის დაკავშირება"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
 msgid "Use SMS instead"
-msgstr ""
+msgstr "სანაცვლოდ SMS-ის გამოყენება"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "ახლავე მოვრჩები"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "დაასინქრონეთ Firefox მოწყობილობებს შორის"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "დაასინქრონეთ სანიშნები, ისტორია და პაროლები Firefox-სთან, თქვენს მობილურ მოწყობილობებზე. მხოლოდ რამდენიმე წუთს გასტანს."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "დაიწყეთ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "მოგვიანებით გავაკეთებ, შეხსენება გამომიგზავნეთ"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera"
-msgstr ""
+msgstr "ჩამოტვირთეთ Firefox თქვენი კამერით"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Firefox-ის დაყენება და დასინქრონება სულ მცირე ორ მოწყობილობაზე, დაგიცავთ მონაცემების დაკარგვისგან."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "მზადაა წასაკითხად"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "Connect your mobile device"
-msgstr ""
+msgstr "დააკავშირეთ თქვენი მობილური მოწყობილობა"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "with a QR code we've created just for you"
-msgstr ""
+msgstr "QR-კოდი, შექმნილია მხოლოდ თქვენთვის"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "გახსენით კამერის პროგრამა თქვენს მოწყობილობაზე"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "მიუშვირეთ კამერა QR-კოდს და შეეხეთ გამოსახულ ბმულს"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "დააყენეთ Firefox და გახსენით თქვენს მოწყობილობაზე"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "შედით თქვენს ანგარიშზე"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>გახსენით კამერის პროგრამა თქვენს მოწყობილობაზე"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>მიუშვირეთ კამერა QR-კოდს და შეეხეთ გამოსახულ ბმულს"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>დააყენეთ Firefox და გახსენით თქვენს მოწყობილობაზე"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>შედით თქვენს ანგარიშზე"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
