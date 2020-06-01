@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 08:15+0000\n"
+"PO-Revision-Date: 2020-06-01 14:26+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -430,11 +430,11 @@ msgstr "Problemas technic"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Forni commentarios / requesta functionalitates"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Non listate"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
