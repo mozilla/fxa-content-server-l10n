@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 14:57+0000\n"
+"PO-Revision-Date: 2020-06-01 15:13+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2076,7 +2076,7 @@ msgstr "Synchronisar Firefox inter apparatos"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Synchronisar marcapaginas, chronologia e contrasignos Firefox sur tu apparatos mobile. Isto emplea solo alcun minutas."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2084,11 +2084,11 @@ msgstr "Comenciar"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Io lo facera plus tarde, invia me un memento"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera"
-msgstr ""
+msgstr "Discarga Firefox con tu camera"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
