@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 09:21+0000\n"
+"PO-Revision-Date: 2020-06-01 09:26+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -417,6 +417,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s i'r cerdyn %(cardType)s sy'n dod i ben yn %(lastFour)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad "
+"yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -620,7 +622,7 @@ msgstr "Polisi telerau a chanslo"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Ailgychwyn tanysgrifiad"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -805,7 +807,7 @@ msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "ail-gychwynnwyd tanysgrifiad %(productName)s"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -837,6 +839,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Heb ganfod y dudalen y gwnaethoch ofyn amdani. Rydym wedi cael gwybod ac\n"
+"          yn trwsio unrhyw ddolenni a allai fod wedi cael eu torri."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -851,6 +855,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Aeth rhywbeth o'i le fanna. Rydym wedi cael gwybod ac\n"
+"          yn gweithio i'w drwsio."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -865,6 +871,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Ar hyn o bryd rydym dan straen sylweddol ac yn gweithio i adfer\n"
+"          y system cyn gynted â phosibl."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
