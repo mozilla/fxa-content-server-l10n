@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 07:39+0000\n"
+"PO-Revision-Date: 2020-06-01 07:51+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -419,6 +419,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Tu termino de facturation e pagamento remanera identic. Tu amonta successive sera $%(invoiceTotal)s sur le carta %(cardType)s finiente in %(lastFour)s le %(nextInvoiceDateOnly)s. Tu subscription "
+"sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -441,6 +443,8 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"A comenciar con tu factura successive, tu amonta cambiara de $%(paymentAmountOld)s per %(productPaymentCycle)s a $%(paymentAmountNew)s. In ille tempore te sera alsi debitate una tantum "
+"$%(paymentProrated)s pro reflecter le major amonta pro le resto de iste %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -608,11 +612,11 @@ msgstr "Terminos de servicio de Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Tu recipe iste email perque %(email)s ha un Conto Firefox e tu te inscribeva a %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Gere le parametros de tu conto Firefox visitante tu <a %(accountSettingsLinkAttributes)s>pagina de conto</a>."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -620,7 +624,7 @@ msgstr "Terminos e politica de cancellation"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reactivar subscription"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -805,7 +809,7 @@ msgstr "Tu abonamento a %(productName)s ha essite cancellate"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Subscription a %(productName)s reactivate"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
