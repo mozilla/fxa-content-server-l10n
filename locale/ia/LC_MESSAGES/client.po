@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 07:56+0000\n"
+"PO-Revision-Date: 2020-06-01 08:15+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -118,7 +118,7 @@ msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escap
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escapedLowercaseTopic)s</b> pro <b>%(escapedSelectedProduct)s</b>. Nos te contactara via e-mail le plus tosto possibile."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
