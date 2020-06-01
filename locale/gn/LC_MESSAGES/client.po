@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 13:30+0000\n"
+"PO-Revision-Date: 2020-06-01 13:41+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1370,11 +1370,11 @@ msgstr "Emoĩmba vove, oñepyrũta omoheñói ayvu rekorosãrã eikekuaa hag̃ua
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Ehai ko mba’eñemi ne rembipuru’i ñemoneĩgua"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "¿Emoha’ãnga QR ayvu hendaguépe?"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1676,7 +1676,7 @@ msgstr "¿Mba’e eporanduséva oréve?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox mba’ete"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2035,7 +2035,7 @@ msgstr "Emoambue ñanduti veve jepuru"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Eñemboheraguapy erekove hag̃ua"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
