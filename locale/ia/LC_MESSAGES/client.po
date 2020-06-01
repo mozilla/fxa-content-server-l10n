@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 16:10+0000\n"
+"PO-Revision-Date: 2020-06-01 16:18+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2128,15 +2128,15 @@ msgstr "<span class=\"number\">1</span>Aperi le app photo-camera sur tu apparato
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span classe=\"numero\">2</span>Puncta le camera al codice QR e tocca le ligamine que appare"
+msgstr "<span class=\"number\">2</span>Puncta le camera al codice QR e tocca le ligamine que appare"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span classe=\"numero\">3</span>Installa Firefox e aperi lo sur tu apparato"
+msgstr "<span class=\"number\">3</span>Installa Firefox e aperi lo sur tu apparato"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span classe=\"numero\">4</span>Accede a tu conto"
+msgstr "<span class=\"number\">4</span>Accede a tu conto"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
