@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 15:41+0000\n"
+"PO-Revision-Date: 2020-05-30 15:46+0000\n"
 "Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -429,7 +429,7 @@ msgstr "Problemi con l’account"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr "Problemi tecnici"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
@@ -2072,7 +2072,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Ho finito per ora"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
@@ -2100,19 +2100,19 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Pronto per la scansione"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "Connect your mobile device"
-msgstr ""
+msgstr "Collega il tuo dispositivo mobile"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "with a QR code we've created just for you"
-msgstr ""
+msgstr "con un codice QR creato esclusivamente per te"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Apri l’app della fotocamera sul tuo dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
@@ -2124,11 +2124,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "Accedi al tuo account"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Apri l’app della fotocamera sul tuo dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
@@ -2140,7 +2140,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Accedi al tuo account"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
