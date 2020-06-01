@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 09:21+0000\n"
+"PO-Revision-Date: 2020-06-01 09:34+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -2050,7 +2050,7 @@ msgstr "Derbyniwch wybodaeth ymarferol yn eich blwch derbyn am:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr "Tanysgrifio i %(email)s"
+msgstr "Tanysgrifiwch i %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2074,7 +2074,7 @@ msgstr "Cydweddu Firefox rhwng dyfeisiau"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Synciwch nodau tudalen, hanes, a chyfrineiriau i Firefox ar eich dyfeisiau symudol. Dim ond ychydig funudau y mae'n eu cymryd."
+msgstr "Cydweddwch nodau tudalen, hanes, a chyfrineiriau i Firefox ar eich dyfeisiau symudol. Dim ond ychydig funudau y mae'n ei gymryd."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"

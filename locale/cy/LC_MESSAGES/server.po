@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 09:26+0000\n"
+"PO-Revision-Date: 2020-06-01 09:35+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -410,7 +410,7 @@ msgstr "Helpwch ni i'w drwsio trwy ddiweddaru'ch manylion talu o fewn tridiau:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Diolch am ail-greu eich tanysgrifiad %(productName)s"
+msgstr "Diolch am ail-agor eich tanysgrifiad %(productName)s"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -622,7 +622,7 @@ msgstr "Polisi telerau a chanslo"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr "Ailgychwyn tanysgrifiad"
+msgstr "Ailgychwyn y tanysgrifiad"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -807,7 +807,7 @@ msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr "ail-gychwynnwyd tanysgrifiad %(productName)s"
+msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
