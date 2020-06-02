@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-04 18:27+0000\n"
+"PO-Revision-Date: 2020-06-02 14:27+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -120,6 +120,7 @@ msgstr "Wjeliki źěk, až sćo se wobrośił pśez <b>%(escapedLowercaseTopic)s
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Wjeliki źěk, až sćo se wobrośił pśez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b> na pomoc Mozilla. Stajijomy se pśez wašu e-mailowu adresu tak skóro ako móžno do zwiska."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -425,7 +426,7 @@ msgstr "Problemy z wužywarskim kontom"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Techniske problemy"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
@@ -1005,9 +1006,7 @@ msgid "Invalid Token"
 msgstr "Njepłaśiwy token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -1079,8 +1078,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Pšosym zapódajśo wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju Firefox měł."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane "
 "serwerowe daty ako historiju a cytańske znamjenja)."
@@ -1331,7 +1329,7 @@ msgstr "Instalaciju pśetergnuś"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Wótnowjeński kod wobkšuśiś"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1375,7 +1373,7 @@ msgstr "Gaž proces jo dokóńcony, se wěstotne kody napóraju, kótarež móž
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Zapišćo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1681,7 +1679,7 @@ msgstr "Cogodla stajaśo se z nami do zwiska?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Konto Firefox"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2014,8 +2012,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Kšac 2 z 2: Wótnowjeński kluc składowaś"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">GLĚDAJŚO: </span>Jolic swójo gronidło zabydnjośo, jo toś ten kluc trěbny, aby zasej pśistup k swójim datam dojśpił. Składujśo swój wótnowjeński kluc na wěstem městnje, źož "
 "móžośo jen lažko zasej namakaś."
@@ -2043,11 +2040,11 @@ msgstr "Drugu e-mailowu adresu wužywaś"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Registrěrujśo se za wěcej"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Praktiska wěda do wašogo postowego kašćika pśiźo."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
@@ -2059,11 +2056,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Rěd jo zwězany!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Z drugim zwězaś"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
 msgid "Use SMS instead"
@@ -2075,7 +2072,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Firefox mjazy rědami synchronizěrowaś"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -2083,7 +2080,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Prědne kšace"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
@@ -2099,7 +2096,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Gótowy za skannowanje"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "Connect your mobile device"
@@ -2123,7 +2120,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "Pśizjawśo se pla swójogo konta"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -2504,8 +2501,7 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Dostanjośo powěźeńki nastupajucy wašu kontowu wěstotu, změny na našych pšawidłach, funkcionalnosći wašogo konta a zachopnych mejlkach, aby my wam pomagali, nejwěcej z wašogo konta Firefox "
-#~ "wuwónoźeł."
+#~ "Dostanjośo powěźeńki nastupajucy wašu kontowu wěstotu, změny na našych pšawidłach, funkcionalnosći wašogo konta a zachopnych mejlkach, aby my wam pomagali, nejwěcej z wašogo konta Firefox wuwónoźeł."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Móžośo mimo togo e-mejlki z nejnowšymi powěsćami wó Mozilla a Firefox aboněrowaś."
@@ -2517,11 +2513,11 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgstr "Nastajenja zastojaś"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Jolic toś to konto za nałoženja Mozilla a słužby ako AMO, Pocket a Screenshots wužywaśo, wy měł se nejpjerwjej pśizjawiś a skłaźone wósobinske daty wótwónoźeś. Gaž how swójo konto wulašujośo, "
-#~ "móžośo se pśistup k njomu wšuźi zgubiś."
+#~ "Jolic toś to konto za nałoženja Mozilla a słužby ako AMO, Pocket a Screenshots wužywaśo, wy měł se nejpjerwjej pśizjawiś a skłaźone wósobinske daty wótwónoźeś. Gaž how swójo konto wulašujośo, móžośo"
+#~ " se pśistup k njomu wšuźi zgubiś."
 
 #~ msgid "verified"
 #~ msgstr "wokšuśony"
@@ -2602,8 +2598,7 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgstr "Wužywańske wuměnjenja abonementoweje platformy njedaju se wótwołaś"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Pókšacujśo, aby zwólił do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosć</a>."
+#~ msgstr "Pókšacujśo, aby zwólił do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pokazki priwatnosć</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Wužywańske wuměnjenja abonementoweje platformy"
@@ -2764,9 +2759,7 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookieje a lokalny składowak stej trěbnej."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pšawidłow "
 #~ "priwatnosći</a> mrokowsłužbow Firefox."
@@ -2813,8 +2806,7 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-słužba jo jano US-ameriske telefonowe numery k dispoziciji. Mógo kosty za SMS a daty nastaś. Dostawaŕ mejlki abo SMS musy wobjadny byś. <a %(escapedLearnMoreAttributes)s>Dalšne informacije</"
-#~ "a>"
+#~ "SMS-słužba jo jano US-ameriske telefonowe numery k dispoziciji. Mógo kosty za SMS a daty nastaś. Dostawaŕ mejlki abo SMS musy wobjadny byś. <a %(escapedLearnMoreAttributes)s>Dalšne informacije</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "Wótkaz k nałoženjeju na %(escapedPhoneNumber)s pósłany. <a %(escapedBackLinkAttrs)s>Sćo wopacny numer zapódał?</a>"
@@ -2823,8 +2815,8 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgstr "Cogodla dwa rěda (abo wěcej) synchronizěrowaś?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync wam zmóžnja, cytańske znamjenja, historiju a gronidła, kótarež składujośo na jadnom rěźe Firefox, z drugimi rědami Firefox źěliś. Pśizjawśo se pla Firefox na swójom telefonje abo tableśe a "
 #~ "wšykno, což sćo we Firefox za desktop składł, se zjewijo."
@@ -2833,8 +2825,8 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync njejo myslony ako trawne zawěsćenje – zmóžnja jano źělić, což jo se lokalnje składło. Jolic sćo swójo gronidło slědk stajił a waše daty njejsu se na nanejmjenjej jadnom rěźe składli, mógał "
-#~ "wy wšykne daty zgubiś, kótarež su ze starym gronidłom zwězane. Togodla wy měł Firefox instalěrowaś a Sync na wěcej ako jadnom rěźe wužywaś."
+#~ "Sync njejo myslony ako trawne zawěsćenje – zmóžnja jano źělić, což jo se lokalnje składło. Jolic sćo swójo gronidło slědk stajił a waše daty njejsu se na nanejmjenjej jadnom rěźe składli, mógał wy "
+#~ "wšykne daty zgubiś, kótarež su ze starym gronidłom zwězane. Togodla wy měł Firefox instalěrowaś a Sync na wěcej ako jadnom rěźe wužywaś."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2939,18 +2931,18 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgstr "Pśizjawiś"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše "
-#~ "daty z wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše "
-#~ "daty z wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
+#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše daty z "
+#~ "wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>GLĚDAJŚO:</span> Jolic swójo gronidło slědk stajaśo, se někotare z wašych datow wulašuju (inkluziwnje sychronizěrowane serwerowe daty ako historija a cytgańske znamjenja). Togodla waše daty z "
+#~ "wašym gronidłom koděrujomy, aby šćitali wašu priwatnosć."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Pominajśo wěstotne kody z jadnogo z <a %(escapedTotpSupportAttributes)s>toś tych awtentifikaciskich nałoženjow</a>, aby pśidał swójomu kontoju wěstotnu rowninu."
@@ -3072,19 +3064,18 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgid "Sync preferences"
 #~ msgstr "Nastajenja Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Pytaśo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Zachopśo how</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Maśo konto z druheju e-mailoweju adresu? <a href=\"%(signinUri)s\">Pśizjawśo se</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> k dispoziciji."
+#~ "Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Slědny raz aktiwny: %(translatedTimeAgo)s"
@@ -3273,8 +3264,8 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć "
-#~ "zmóžnili, ako na pśikład zasejspóznawanje w nowem pósejźenju."
+#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć zmóžnili, "
+#~ "ako na pśikład zasejspóznawanje w nowem pósejźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox buźo skóro na iOS!"
@@ -3419,16 +3410,12 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby "
 #~ "%(serviceName)s (%(serviceUri)s)."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">wuzjawjenja "
 #~ "priwatnosći </a> mrokowsłužbow Firefox."
