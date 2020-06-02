@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 16:51+0000\n"
+"PO-Revision-Date: 2020-06-02 16:57+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -2105,39 +2105,39 @@ msgstr "Csatlakoztassa a mobileszközét"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "with a QR code we've created just for you"
-msgstr ""
+msgstr "egy QR-kóddal, amelyet Önnek állítottunk elő"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Nyissa meg a kamera alkalmazást az eszközén"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Mutasson a kamerával a QR-kódra, és koppintson a megjelenő hivatkozásra"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Telepítse a Firefoxot, és nyissa meg az eszközén"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
-msgstr ""
+msgstr "Jelentkezzen be ebbe a fiókjába"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Nyissa meg a kamera alkalmazást az eszközén"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Mutasson a kamerával a QR-kódra, és koppintson a megjelenő hivatkozásra"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Telepítse a Firefoxot, és nyissa meg az eszközén"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Jelentkezzen be a fiókjába"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
