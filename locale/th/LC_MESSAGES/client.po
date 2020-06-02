@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 13:58+0000\n"
+"PO-Revision-Date: 2020-06-02 14:09+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1625,7 +1625,7 @@ msgstr "ส่ง"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "อาจมีค่าบริการ SMS และข้อมูลมือถือเพิ่มเติม โดยต้องได้รับความยินยอมจากผู้รับ <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1641,7 +1641,7 @@ msgstr "ตรวจสอบข้อความของคุณ"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "เราได้ส่งข้อความถึงคุณแล้ว"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1835,7 +1835,7 @@ msgstr "ลบ…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr ""
+msgstr "ต้องการยกเลิกการบอกรับแบบชำระเงินหรือไม่? ไปที่ <a href=\"/subscriptions\">การบอกรับและการชำระเงิน</a>"
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -2019,7 +2019,7 @@ msgstr "เพิ่มอีเมลสำรองแล้ว"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "การเพิ่มอีเมลสำรองช่วยให้คุณกลับเข้าสู่บัญชีของคุณได้หากคุณถูกล็อกและไม่สามารถเข้าถึง %(escapedEmail)s"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2140,7 +2140,7 @@ msgstr "ข้อมูลที่ซิงค์ของคุณอาจม
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "เนื่องจากข้อมูลนี้สำคัญต่อความปลอดภัยของคุณ Firefox จึงลบเพื่อปกป้องคุณเมื่อรหัสผ่านของคุณถูกตั้งค่าใหม่เพื่อป้องกันไม่ให้คนอื่นเข้าถึงได้"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -2152,11 +2152,11 @@ msgstr "ยืนยันรหัสผ่าน"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "โปรดยืนยันรหัสผ่านของคุณสำหรับ %(escapedEmail)s เพื่อสร้างรหัสการกู้คืนของคุณ"
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "ป้อนรหัสการกู้คืนของคุณเพื่อยืนยันว่าคุณได้บันทึกสำเนาไว้"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
