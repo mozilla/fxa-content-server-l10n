@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 13:51+0000\n"
+"PO-Revision-Date: 2020-06-02 13:58+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1609,11 +1609,11 @@ msgstr "สร้างบัญชี"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "คุณต้องการซิงค์โทรศัพท์ของคุณหรือไม่?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "ส่งลิงก์ทาง SMS เพื่อติดตั้ง Firefox บนโทรศัพท์ของคุณ"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1839,7 +1839,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "คุณได้เชื่อมต่อบัญชี Firefox ของคุณกับผลิตภัณฑ์ Mozilla ที่ช่วยให้คุณปลอดภัยและทำงานได้อย่างมีประสิทธิภาพบนเว็บแล้ว:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
@@ -1851,11 +1851,11 @@ msgstr "การบอกรับสมาชิกแบบเสียค่
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "การเปิดใช้งานอีเมลนี้ใหม่อาจไม่คืนค่าข้อมูลที่บันทึกไว้ของคุณ"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1879,7 +1879,7 @@ msgstr "เรียกใหม่"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "เพิ่มอีเมล"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -1903,7 +1903,7 @@ msgstr "ยืนยันรหัสกู้คืน"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr ""
+msgstr "การบอกรับและการชำระเงิน"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -1911,7 +1911,7 @@ msgstr "จัดการ…"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "ป้อนคีย์ลับนี้ลงในแอปตรวจสอบความถูกต้องของคุณ:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -2015,7 +2015,7 @@ msgstr "เรียบร้อย รหัสการกู้คืนไ�
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "เพิ่มอีเมลสำรองแล้ว"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -2028,7 +2028,7 @@ msgstr "ไว้ภายหลัง"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "ใช้อีเมลอื่น"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
@@ -2136,7 +2136,7 @@ msgstr "ปกป้องข้อมูลของคุณด้วยกุ
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "ข้อมูลที่ซิงค์ของคุณอาจมีรหัสผ่านที่คุณได้บันทึกไว้"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
@@ -2160,7 +2160,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "บันทึกคีย์การกู้คืน"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2272,7 +2272,7 @@ msgstr "อุปกรณ์ที่เชื่อมต่อแล้ว"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "เชื่อมต่อสำเร็จแล้ว"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2296,7 +2296,7 @@ msgstr "กระบวนการตั้งค่าถูกยกเลิ
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "สแกนเพื่อเชื่อมต่ออุปกรณ์อื่น"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2312,7 +2312,7 @@ msgstr "รับแอพ"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "จับคู่อุปกรณ์สำเร็จแล้ว"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
