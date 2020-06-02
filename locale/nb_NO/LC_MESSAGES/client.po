@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 18:36+0000\n"
+"PO-Revision-Date: 2020-06-02 19:24+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -2105,7 +2105,7 @@ msgstr "Koble til din mobile enhet"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "with a QR code we've created just for you"
-msgstr "med en QR-kode vi har laget akkurat for deg"
+msgstr "med en QR-kode vi har laget for deg"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Open the camera app on your device"
