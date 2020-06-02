@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 22:20+0000\n"
+"PO-Revision-Date: 2020-06-02 22:32+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -329,7 +329,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Takk for at du abonnerer på %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -346,29 +346,29 @@ msgstr "Fakturanummer: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Belasta $%(invoiceTotal)s den %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(cardType)s-kort som sluttar på %(lastFour)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Neste faktura: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Fakturanummer: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Betalingskortet ditt er i ferd med å gå ut"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Betalingskortet du brukar for å utføre betalingar for %(productName)s, er i ferd med å gå ut."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
@@ -380,31 +380,31 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Beklagar, vi har problem med betalinga di"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Vi hadde eit problem med den siste betalinga di for %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Hjelp oss med å fikse det ved å <a href=\"%(updateBillingUrl)s\">oppdatere betalingsinformasjonen din</a> i løpet av tre dagar."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Dersom vi ikkje høyrer frå deg innan tre dagar, vil du dessverre miste tilgangen til %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Hjelp oss med å løyse problemet ved å oppdatere betalingsinformasjonen din innan tre dagar:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Takk for at du reaktiverer abonnementet på %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -414,7 +414,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Takk for at du abonnerer!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
