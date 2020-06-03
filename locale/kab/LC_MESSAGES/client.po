@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-03 21:31+0000\n"
+"PO-Revision-Date: 2020-06-03 21:39+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1369,7 +1369,7 @@ msgstr "Ticki yemmed, tingalin n tɣellist ara taruḍ ad bdunt ad ttlalent."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Aru tasarut-a tabaḍnit deg usnas n usesteb."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1675,7 +1675,7 @@ msgstr "Acuɣer i aɣ-d-neremseḍ?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Amiḍan Firefox"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2034,11 +2034,11 @@ msgstr "Seqdec tansa n yimayl-nniḍen"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Jerred akken ad twaliḍ ugar"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Timussniwin i ilaqen wwḍent-d ɣer tbewwaḍt-inek n urmas."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
