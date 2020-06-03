@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 14:29+0000\n"
+"PO-Revision-Date: 2020-06-03 15:01+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -410,7 +410,7 @@ msgstr "Aktualizěrujśo swóje płaśeńske informacije w běgu tśich dnjow, a
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Wjeliki źěk, až sćo zasej zaktiwěrował swój abonement %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -620,7 +620,7 @@ msgstr "Wuměnjenja a wótwołańske pšawidła"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Abonement zasej aktiwěrowaś"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -805,7 +805,7 @@ msgstr "Waš abonement %(productName)s jo se wótskazał"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Abonement %(productName)s jo se zasej zaktiwěrował"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
