@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 14:32+0000\n"
+"PO-Revision-Date: 2020-06-03 19:52+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -430,11 +430,11 @@ msgstr "Techniske problemy"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Měnjenja pósłać / funkcije požadać"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Njenalistowany"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1353,7 +1353,7 @@ msgstr "Požadajće wěstotne kody z jednoho z <a %(escapedTotpSupportAttributes
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Awtentificiski kod skenować"
 
 #: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
@@ -1377,7 +1377,7 @@ msgstr "Zapisajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "QR-kod město toho skenować?"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -2048,11 +2048,11 @@ msgstr "Praktiska wěda do wašeho póstoweho kašćika přińdźe."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Wobstarajće so praktisku wědu do swojeho póstoweho kašćika wo:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Za %(email)s abonować"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2064,11 +2064,11 @@ msgstr "Z druhim gratom zwjazać"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
 msgid "Use SMS instead"
-msgstr ""
+msgstr "SMS město toho wužiwać"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Sym nětko hotowy"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
@@ -2076,7 +2076,7 @@ msgstr "Firefox mjez gratami synchronizować"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Synchronizujće zapołožki, historiju a hesła Firefox na swojich mobilnych gratach. Traje jenož mało mjeńšin."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2084,11 +2084,11 @@ msgstr "Prěnje kroki"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Budu to pózdźišo činić, sćelće mi dopomnjeće"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera"
-msgstr ""
+msgstr "Sćehńće Firefox ze swojej kameru"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
