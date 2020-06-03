@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-03 14:59+0000\n"
+"PO-Revision-Date: 2020-06-03 15:11+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -430,11 +430,11 @@ msgstr "Techniske problemy"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Měnjenja pósłaś / funkcije pominaś"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Njenalicony"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -2076,7 +2076,7 @@ msgstr "Firefox mjazy rědami synchronizěrowaś"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Synchronizěrujśo cytańske znamjenja, historiju a gronidła Firefox na swójich mobilnych rědach. Trajo jano mało minutow."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2092,7 +2092,7 @@ msgstr "Ześěgniśo Firefox ze swójeju kameru"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Instalěrowanje Firefox a sycnhronizěrowanje mjazy najnejmjenjej dwěma rědoma teke pśed zgubjenim wašych datow."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -2112,7 +2112,7 @@ msgstr "Wócyńśo nałoženje kamery na swójom rěźe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Póstajśo kameru na QR-kod a pótusniśo wótkaz, kótaryž se pokazujo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Install Firefox and open it on your device"
@@ -2128,7 +2128,7 @@ msgstr "<span class=\"number\">1</span>Wócyńśo nałoženje kamery na swójom 
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Měŕśo kameru na QR-kod a pótusniśo wótkaz, kótaryž se pokazujo"
+msgstr "<span class=\"number\">2</span>Póstajśo kameru na QR-kod a pótusniśo wótkaz, kótaryž se pokazujo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
