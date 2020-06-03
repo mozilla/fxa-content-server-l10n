@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-03 09:42+0000\n"
+"PO-Revision-Date: 2020-06-03 09:47+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -441,6 +441,8 @@ msgid ""
 "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Frå og med den neste rekninga di, vil kostnaden endrast frå $%(paymentAmountOld)s per %(productPaymentCycle)s til $%(paymentAmountNew)s. På det tidspunktet vil du også bli belasta med eit "
+"eingongsbeløp på $%(paymentProrated)s for å reflektere den høgare kostnaden for resten av denne %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -544,7 +546,7 @@ msgstr "Bruk denne stadfestingskoden:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Den går ut om 5 minutter. Når e-postadressa er verifisert, vil den begynne å få tryggingsvarsel og stadfestingar."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -608,11 +610,11 @@ msgstr "Brukarvilkår for Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Du får denne e-postmeldinga fordi %(email)s har ein Firefox-konto og du har meldt deg på %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Handter innstillingane for Firefox-kontoen din ved å gå til din <a %(accountSettingsLinkAttributes)s>kontosida</a> di."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
@@ -869,6 +871,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Vi er for tida under stor belastning og arbeider for at systemet\n"
+"          snarast råd skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
