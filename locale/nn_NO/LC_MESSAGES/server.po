@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-03 07:08+0000\n"
+"PO-Revision-Date: 2020-06-03 07:09+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -298,7 +298,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Hjelp oss med å forbetre tenestene våre ved å delta i denne <a %(cancellationSurveyLinkAttributes)s>korte undersøkinga</a>."
+msgstr "Hjelp oss med å forbetre tenestene våre ved å vere med i denne <a %(cancellationSurveyLinkAttributes)s>korte undersøkinga</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
