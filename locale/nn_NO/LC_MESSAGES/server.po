@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-02 22:33+0000\n"
+"PO-Revision-Date: 2020-06-03 06:42+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -789,15 +789,15 @@ msgstr "Betalingskort for %(productName)s går ut snart"
 
 #: lib/senders/email.js:1896
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Betaling for %(productName)s var mislykka"
 
 #: lib/senders/email.js:1946 lib/senders/email.js:2006
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Abonnement ditt på %(productName)s har vorte annulert"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "%(productName)s-abonnement reaktiveret"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
