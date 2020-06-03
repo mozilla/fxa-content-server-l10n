@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-29 18:59+0000\n"
+"PO-Revision-Date: 2020-06-03 09:02+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -289,7 +289,7 @@ msgstr "Takk for at du valgte Firefox! Du kan installere Firefox for mobil her: 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr "Beklager å se deg avslutte abonnementet"
+msgstr "Det er synd å se deg forlate oss"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -298,7 +298,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Hjelp oss med å forbedre tjenestene våre ved å ta denne <a %(cancellationSurveyLinkAttributes)s>korte undersøkelsen</a>."
+msgstr "Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a %(cancellationSurveyLinkAttributes)s>korte undersøkelsen</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
@@ -856,7 +856,7 @@ msgid ""
 "          will get working on a fix."
 msgstr ""
 "Å nei, noe gikk galt. Vi har blitt informert og\n"
-"          vil gå i gang med å finne med en løsning."
+"          vil gå i gang med å finne en løsning."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
