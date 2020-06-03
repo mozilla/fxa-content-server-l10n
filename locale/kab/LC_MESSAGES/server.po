@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-03 19:34+0000\n"
+"PO-Revision-Date: 2020-06-03 19:47+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -408,7 +408,7 @@ msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n lexlaṣ-ik deg kraḍ 
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Tanemmirt imi tulseḍ ajerred ɣer %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -618,7 +618,7 @@ msgstr "Tiwtilin akked tsertit n usefsex"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Ales armad n ujerred"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -803,7 +803,7 @@ msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
 #: lib/senders/email.js:2072
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Ajerred n %(productName)s yettwarmed"
 
 #: lib/senders/email.js:2140
 msgid "%(productName)s payment received"
@@ -851,6 +851,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Ah, yella wayen ur nteddu ara akken iwata.Neṭṭef-d ulɣu\n"
+"          aql-aɣ nteddu ad nseɣti ayagi."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
