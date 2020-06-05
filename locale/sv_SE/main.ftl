@@ -33,6 +33,7 @@ card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsin
 
 ## settings
 
+settings-home = Startsida för konton
 settings-subscriptions = Prenumerationer och betalningar
 
 ## legal footer
@@ -54,9 +55,31 @@ day-based-plan-details-amount =
         [one] { $productName } faktureras { $amount } dagligen
        *[other] { $productName } faktureras { $amount } var { $intervalCount } dag
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faktureras { $amount } varje vecka{ $productName }
+       *[other] { $productName } faktureras { $amount } var { $intervalCount } vecka
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faktureras { $amount } varje månad
+       *[other] { $productName } faktureras { $amount } var { $intervalCount } månad
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faktureras { $amount } varje år
+       *[other] { $productName } faktureras { $amount } var { $intervalCount } år
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problem med att ladda planer
+product-profile-error =
+    .title = Problem med att ladda profil
 
 ## payment legal blurb
 
@@ -136,6 +159,18 @@ plan-price-week =
         [one] { $amount } varje vecka
        *[other] { $amount } var { $intervalCount } vecka
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } varje månad
+       *[other] { $amount } var { $intervalCount } månad
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } varje år
+       *[other] { $amount } var { $intervalCount } år
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -145,6 +180,7 @@ plan-price-week =
 
 ##
 
+pay-update-change-btn = Ändra
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -167,9 +203,15 @@ reactivate-success-button = Stäng
 
 ## plan-details
 
+plan-details-show-button = Visa detaljer
+plan-details-hide-button = Dölj detaljer
+plan-details-total-label = Totalt
 
 ## payment confirmation
 
+payment-confirmation-heading-bak = Tack!
+payment-confirmation-subheading = Ett bekräftelsemeddelande har skickats till
+payment-confirmation-order-heading = Orderdetaljer
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
