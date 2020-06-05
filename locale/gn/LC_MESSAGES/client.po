@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 14:20+0000\n"
+"PO-Revision-Date: 2020-06-05 14:31+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2107,11 +2107,11 @@ msgstr "Embojuruja ta’ãngamýi rembipuru’i ne mba’e’okápe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Emoma’ẽ ta’ãngamýi pe QR ayvúre ha eikutu juajuha iñapysẽva"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Emohenda Firefox ha embojuruja ne mba’e’okápe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "Sign into your account"
