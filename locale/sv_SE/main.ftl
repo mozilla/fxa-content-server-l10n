@@ -103,16 +103,39 @@ product-plan-upgrade-heading = Granska din uppgradering
 sub-update-failed = Planuppdatering misslyckades
 sub-update-title = Faktureringsinformation
 sub-update-card-ending = Kortet slutar på { $last }
+sub-update-card-exp = Förfaller { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Din plan kommer att ändras omedelbart och du kommer att debiteras ett justerat
+    belopp för resten av din faktureringscykel. Från och med { $startingDate }
+    debiteras du hela beloppet.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Bekräfta uppgraderingen
+sub-update-indicator =
+    .aria-label = uppgraderingsindikator
+sub-update-current-plan-label = Nuvarande plan
+sub-update-new-plan-label = Ny plan
+sub-update-total-label = Ny summa
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dagligen
+       *[other] { $amount } var { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } varje vecka
+       *[other] { $amount } var { $intervalCount } vecka
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
