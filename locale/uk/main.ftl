@@ -122,6 +122,8 @@ plan-price-week =
 
 ##
 
+pay-update-card-exp = Термін дії закінчується { $expirationDate }
+pay-update-change-btn = Змінити
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -146,6 +148,37 @@ plan-price-week =
 
 ## payment confirmation
 
+payment-confirmation-amount = { $amount } на { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } щоденно
+        [few] { $amount } що { $intervalCount } дні
+       *[many] { $amount } що { $intervalCount } днів
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } щотижнево
+        [few] { $amount } що { $intervalCount } тижні
+       *[many] { $amount } що { $intervalCount } днів
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } щомісячно
+        [few] { $amount } що { $intervalCount } місяці
+       *[many] { $amount } що { $intervalCount } місяців
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } щорічно
+        [few] { $amount } що { $intervalCount } роки
+       *[many] { $amount } що { $intervalCount } років
+    }
+payment-confirmation-cc-preview = останні цифри номера картки { $last4 }
+payment-confirmation-download-button = Продовжити завантаження
