@@ -36,6 +36,8 @@ privacy = Aviso de confidentialitate
 
 ## Product route
 
+product-profile-error =
+    .title = Problema a cargar le profilo
 product-plan-not-found = Plano non trovate
 
 ## payment legal blurb
@@ -112,9 +114,12 @@ reactivate-success-button = Clauder
 
 sub-item-missing-msg = Retenta plus tarde.
 sub-item-cancel-sub = Cancellar subscription
+account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Actualisation del informationes de factura...
+sub-route-idx-contact = Contactar assistentia
 sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
 
 ## subscription create
@@ -122,11 +127,15 @@ sub-billing-update-success = Tu informationes de facturation ha essite  actualis
 
 ## plan-details
 
+plan-details-header = Detalios del producto
+plan-details-show-button = Monstrar le detalios
+plan-details-hide-button = Celar le detalios
 plan-details-total-label = Total
 
 ## payment confirmation
 
 payment-confirmation-alert = Clicca ci pro discargar
+payment-confirmation-mobile-alert = Le app non se aperi? <a>Clicca hic</a>
 payment-confirmation-heading = Gratias { $displayName }!
 payment-confirmation-heading-bak = Gratias
 payment-confirmation-subheading = Un email de confirmation ha essite inviate a
