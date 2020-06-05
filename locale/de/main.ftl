@@ -145,39 +145,141 @@ payment-validate-zip-short = Die Postleitzahl ist zu kurz
 
 sub-redirect-ready = Ihr Dauerauftrag ist bereit
 sub-redirect-copy = Bitte nehmen Sie sich einen Moment Zeit, um uns Ihre Erfahrungen mitzuteilen.
+sub-redirect-skip-survey = Nein danke, ich will nur zu meinem Produkt.
 
 ## fields
 
+default-input-error = Dieses Feld ist erforderlich
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Überprüfen Sie Ihr Upgrade
+sub-update-failed = Aktualisierung des Plans fehlgeschlagen
+sub-update-title = Abrechnungsdaten
+sub-update-card-ending = Karte endet auf { $last }
+sub-update-card-exp = Läuft ab im { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Ihr Plan wird sofort geändert und für den Rest des Abrechungszeitraums wird
+    ein geänderter Betrag berechnet. Ab dem { $startingDate } wird der 
+    volle Betrag berechnet.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>täglich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Tage mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>wöchentlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Wochen mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>monatlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Monate mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>jährlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+    }
 
 ##
 
+sub-update-submit = Upgrade bestätigen
+sub-update-indicator =
+    .aria-label = Upgrade-Anzeige
+sub-update-current-plan-label = Derzeitiger Plan
+sub-update-new-plan-label = Neuer Plan
+sub-update-total-label = Neue Summe
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } pro Tag
+       *[other] { $amount } alle { $intervalCount } Tage
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } pro Woche
+       *[other] { $amount } alle { $intervalCount } Wochen
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } pro Monat
+       *[other] { $amount } alle { $intervalCount } Monate
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } pro Jahr
+       *[other] { $amount } alle { $intervalCount } Jahre
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Es werden Ihnen täglich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+       *[other] Es werden Ihnen alle { $intervalCount } Tage { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Es werden Ihnen wöchentlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+       *[other] Es werden Ihnen alle { $intervalCount } Wochen { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Es werden Ihnen monatlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+       *[other] Es werden Ihnen alle { $intervalCount } Monate { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Es werden Ihnen jährlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+       *[other] Es werden Ihnen alle { $intervalCount } Jahre { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+    }
 
 ##
 
+pay-update-card-exp = Läuft ab im { $expirationDate }
 pay-update-change-btn = Ändern
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Möchten Sie weiterhin { $name } verwenden?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Ihr Zugriff auf { $name } und Ihr Abrechnungszeitraum sowie die
+    Zahlung bleiben bestehen. Ihre nächste Abbuchung beträgt
+    { $amount } am { $endDate } für die Karte mit der Endung { $last }.
+reactivate-confirm-button = Dauerauftrag erneuern
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Sie haben Ihren Dauerauftrag am { $date } gekündigt.
+reactivate-panel-copy = Sie verlieren am <strong>{ $date }</ strong> den Zugriff auf { $name }.
+reactivate-success-copy = Vielen Dank! Sie sind startklar.
 reactivate-success-button = Schließen
 
 ## subscription item
