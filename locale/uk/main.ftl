@@ -23,12 +23,17 @@ basic-error-message = Щось пішло не так. Будь ласка, сп
 
 ## settings
 
+settings-subscriptions = Передплати й платежі
 
 ## legal footer
 
+terms = Умовами використання
+privacy = Повідомлення про приватність
 
 ## plan details
 
+product-plan-details-heading = Налаштуймо вашу передплату
+product-plan-details-heading = Налаштуймо вашу передплату
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
