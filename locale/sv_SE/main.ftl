@@ -33,16 +33,27 @@ card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsin
 
 ## settings
 
+settings-subscriptions = Prenumerationer och betalningar
 
 ## legal footer
 
+terms = Användarvillkor
+privacy = Sekretesspolicy
 
 ## plan details
 
+product-plan-details-heading = Låt oss ställa in ditt prenumeration
+product-plan-details-heading = Låt oss ställa in ditt prenumeration
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faktureras { $amount } dagligen
+       *[other] { $productName } faktureras { $amount } var { $intervalCount } dag
+    }
 
 ## Product route
 
@@ -52,6 +63,13 @@ card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsin
 
 ## payment form
 
+payment-name =
+    .placeholder = Fullständigt namn
+    .label = Namnet som det står på ditt kort
+payment-ccn =
+    .label = Kortnummer
+payment-exp =
+    .label = Utgångsdatum
 payment-cvc =
     .label = CVC
 payment-zip =
@@ -71,6 +89,8 @@ payment-validate-zip-short = Postnummer är för kort
 
 ## subscription redirect
 
+sub-redirect-ready = Din prenumeration är klar
+sub-redirect-copy = Ta en stund för att berätta om din upplevelse.
 
 ## fields
 
