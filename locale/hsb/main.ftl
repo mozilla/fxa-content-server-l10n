@@ -204,6 +204,43 @@ payment-confirmation-heading-bak = Wulki dźak!
 payment-confirmation-subheading = Wobkrućenska mejlka je so pósłała na
 payment-confirmation-order-heading = Skazanske podrobnosće
 payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
+payment-confirmation-billing-heading = Zličbowanka do
+payment-confirmation-details-heading = Płaćenske podrobnosće
+payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } kóždy dźeń
+        [two] { $amount } kóždej { $intervalCount } dnjej
+        [few] { $amount } kóžde { $intervalCount } dny
+       *[other] { $amount } kóžde { $intervalCount } dnjow
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } kóždy tydźeń
+        [two] { $amount } kóždej { $intervalCount } njedźeli
+        [few] { $amount } kóžde { $intervalCount } njedźele
+       *[other] { $amount } kóžde { $intervalCount } njedźel
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } kóždy měsac
+        [two] { $amount } kóždej { $intervalCount } měsacaj
+        [few] { $amount } kóžde { $intervalCount } měsacy
+       *[other] { $amount } kóžde { $intervalCount } měsacow
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } kóžde lěto
+        [two] { $amount } kóždej { $intervalCount } lěće
+        [few] { $amount } kóžde { $intervalCount } lěta
+       *[other] { $amount } kóžde { $intervalCount } lět
+    }
+payment-confirmation-cc-preview = kónči so na { $last4 }
+payment-confirmation-download-button = Dale k sćehnjenju
