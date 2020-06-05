@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 18:33+0000\n"
+"PO-Revision-Date: 2020-06-05 18:36+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -409,11 +409,11 @@ msgstr "Impresso"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "E-mail principal verificado com sucesso"
+msgstr "E-mail principal validado com sucesso"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
-msgstr "Conta verificada com sucesso"
+msgstr "Conta validada com sucesso"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
@@ -473,7 +473,7 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "E-mail secundário verificado com sucesso"
+msgstr "E-mail secundário validado com sucesso"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -485,7 +485,7 @@ msgstr "Erro inesperado"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "O link que clicou para verificar o seu e-mail expirou."
+msgstr "O link que você clicou para verificar seu e-mail expirou."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -525,7 +525,7 @@ msgstr "Senha incorreta"
 
 #: .es5/lib/auth-errors.js:68
 msgid "Unverified account"
-msgstr "Conta não verificada"
+msgstr "Conta não validada"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
@@ -589,7 +589,7 @@ msgstr "Não foi possível entregar o e-mail"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr "Este e-mail já foi verificado por outro usuário"
+msgstr "Este e-mail já foi validado por outro usuário"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Secondary email must be different than your account email"
@@ -621,7 +621,7 @@ msgstr "Código de acesso inválido"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Can not change primary email to an unverified email"
-msgstr "Não é possível alterar o e-mail principal para um e-mail não verificado"
+msgstr "Não é possível alterar o e-mail principal para um e-mail não validado"
 
 #: .es5/lib/auth-errors.js:200 .es5/lib/auth-errors.js:208
 msgid "Can not change primary email to an email that does not belong to this account"
@@ -970,7 +970,7 @@ msgstr "Um usuário diferente está acessando"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr "Usuário ou sessão não verificado"
+msgstr "Usuário ou sessão não validado"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
