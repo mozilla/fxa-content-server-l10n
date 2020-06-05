@@ -286,12 +286,42 @@ reactivate-success-button = Schließen
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem beim Laden der Daueraufträge
+sub-item-missing-msg = Bitte versuchen Sie es später erneut.
+sub-item-no-such-plan = Für diesen Dauerauftrag existiert kein solcher Plan.
+sub-item-cancel-sub = Dauerauftrag entfernen
+sub-item-stay-sub = Dauerauftrag erhalten
+sub-item-cancel-msg =
+    Nach { $period }, dem letzten Tag Ihres Abrechnungszeitraums
+    können Sie { $name } nicht mehr verwenden.
+sub-item-cancel-confirm =
+    Am { $period } meinen Zugriff beenden und meine in { $name }
+    gespeicherten Daten entfernen
+account-activated = Ihr Konto ist aktiviert, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Zahlungsinformationen werden aktualisiert…
+sub-route-idx-reactivating = Die Erneuerung des Dauerauftrages ist fehlgeschlagen
+sub-route-idx-cancel-failed = Die Kündigung des Dauerauftrages ist fehlgeschlagen
+sub-route-idx-contact = Hilfe kontaktieren
+sub-route-idx-cancel-msg-title = Es tut uns leid, dass Sie uns verlassen
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ihr Dauerauftrag für { $name } wurde gekündigt.
+    <br />
+          Sie haben weiterhin Zugang zu { $name } bis zum { $date }.
+sub-route-idx-cancel-aside = Habe Fragen? Besuchen Sie die <a>{ -brand-name-mozilla }-Hilfe</a>.
+sub-subscription-error =
+    .title = Problem beim Laden der Daueraufträge
+sub-customer-error =
+    .title = Problem beim Laden des Kunden
+sub-billing-update-success = Ihre Zahlungsinformationen wurden erfolgreich aktualisiert
 
 ## subscription create
 
+sub-guarantee = 30 Tage Geld-zurück-Garantie
 
 ## plan-details
 
@@ -302,6 +332,8 @@ plan-details-total-label = Gesamt
 
 ## payment confirmation
 
+payment-confirmation-alert = Zum Download klicken Sie hier
+payment-confirmation-mobile-alert = Die App öffnet sich nicht? <a>Klicken Sie hier</a>
 payment-confirmation-heading = Vielen Dank, { $displayName }!
 payment-confirmation-heading-bak = Vielen Dank!
 payment-confirmation-subheading = Eine Bestätigungs-E-Mail wurde gesendet an
@@ -338,3 +370,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } alle { $intervalCount } Jahre
     }
 payment-confirmation-cc-preview = endet auf { $last4 }
+payment-confirmation-download-button = Weiter zum Download
