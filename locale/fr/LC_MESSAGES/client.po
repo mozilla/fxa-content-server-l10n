@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 00:30+0000\n"
-"Last-Translator: Teodor P. <teo0321@gmail.com>\n"
+"PO-Revision-Date: 2020-06-05 02:52+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -436,7 +436,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Non listé"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
