@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 18:17+0000\n"
+"PO-Revision-Date: 2020-06-05 18:33+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -71,7 +71,7 @@ msgstr "Agora você está pronto para fazer alterações em sua Conta Firefox."
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr "E-mail principal verificado"
+msgstr "E-mail principal validado"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -79,7 +79,7 @@ msgstr "As notificações da conta também serão enviadas para %(secondaryEmail
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr "E-mail secundário verificado"
+msgstr "E-mail secundário validado"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -91,7 +91,7 @@ msgstr "Agora você está pronto para usar o %(serviceName)s."
 
 #: .es5/views/ready.js:87
 msgid "Account verified"
-msgstr "Conta verificada"
+msgstr "Conta validada"
 
 #: .es5/views/ready.js:92
 msgid "Connected"
@@ -1952,7 +1952,7 @@ msgstr "Substituir códigos de recuperação"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Antes que possa ver ou fazer alterações nessa seção, você precisa confirmar seu endereço de e-mail."
+msgstr "Antes que possa ver ou fazer alterações nessa seção, você precisa validar seu endereço de e-mail."
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"
@@ -2099,7 +2099,7 @@ msgstr "Pronto para digitalizar"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Conecte seu dispositivo móvel</h1><p>com um código QR que criamos só para você</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
