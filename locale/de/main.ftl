@@ -100,9 +100,43 @@ reactivate-success-button = Schließen
 plan-details-header = Produktdetails
 plan-details-show-button = Details anzeigen
 plan-details-hide-button = Details ausblenden
+plan-details-total-label = Gesamt
 
 ## payment confirmation
 
+payment-confirmation-heading = Vielen Dank, { $displayName }!
+payment-confirmation-heading-bak = Vielen Dank!
+payment-confirmation-subheading = Eine Bestätigungs-E-Mail wurde gesendet an
+payment-confirmation-order-heading = Bestelldetails
+payment-confirmation-invoice-number = Rechnung #{ $invoiceNumber }
+payment-confirmation-billing-heading = Rechnung an:
+payment-confirmation-details-heading = Zahlungsdetails
+payment-confirmation-amount = { $amount } pro { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } täglich
+       *[other] { $amount } alle { $intervalCount } Tage
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } wöchentlich
+       *[other] { $amount } alle { $intervalCount } Wochen
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } monatlich
+       *[other] { $amount } alle { $intervalCount } Monate
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } jährlich
+       *[other] { $amount } alle { $intervalCount } Jahre
+    }
+payment-confirmation-cc-preview = endet auf { $last4 }
