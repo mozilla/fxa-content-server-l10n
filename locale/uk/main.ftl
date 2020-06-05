@@ -64,6 +64,12 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Скасувати
+payment-update-btn = Оновити
+payment-pay-btn = Сплатити зараз
+payment-validate-name-error = Будь ласка, введіть своє ім’я
+payment-validate-zip-required = Поштовий індекс обовʼязковий
+payment-validate-zip-short = Поштовий індекс закороткий
 
 ## subscription redirect
 
