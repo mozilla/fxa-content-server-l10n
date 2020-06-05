@@ -89,10 +89,30 @@ sub-update-card-exp = Термін дії закінчується { $cardExpMon
 
 ##
 
+sub-update-submit = Підтвердити оновлення
+sub-update-indicator =
+    .aria-label = статус оновлення
+sub-update-current-plan-label = Поточний тарифний план
+sub-update-new-plan-label = Новий тарифний план
+sub-update-total-label = Нова сума
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } щоденно
+        [few] { $amount } що { $intervalCount } дні
+       *[many] { $amount } що { $intervalCount } днів
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } щотижнево
+        [few] { $amount } що { $intervalCount } тижні
+       *[many] { $amount } що { $intervalCount } тижнів
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
