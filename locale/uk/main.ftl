@@ -73,12 +73,16 @@ payment-validate-zip-short = Поштовий індекс закороткий
 
 ## subscription redirect
 
+sub-redirect-copy = Будь ласка, знайдіть хвилинку, щоб розповісти про свій досвід.
 
 ## fields
 
+default-input-error = Це поле обов'язкове
 
 ## subscription upgrade
 
+sub-update-card-ending = Останні цифри номеру картки { $last }
+sub-update-card-exp = Термін дії закінчується { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
