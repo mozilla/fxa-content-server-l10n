@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2020-03-02 22:29+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2054,7 +2054,7 @@ msgstr ""
 msgid "Connect another one"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
 msgstr ""
 
@@ -2079,7 +2079,7 @@ msgid "I'll do this later, send me a reminder"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera"
+msgid "Download Firefox with your camera app"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
@@ -2091,42 +2091,38 @@ msgid "Ready to scan"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "Connect your mobile device"
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "with a QR code we've created just for you"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Open the camera app on your device"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr ""
 

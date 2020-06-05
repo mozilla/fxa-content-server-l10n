@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2020-05-30 00:52+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "Всього найкращого,"
 msgid "The Firefox Accounts team"
 msgstr "Команда облікових записів Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "Ключ відновлення облікового запису згенеровано"
 
@@ -194,7 +194,7 @@ msgstr "Ви успішно використали код відновлення
 msgid "Consumed recovery code"
 msgstr "Використаний код відновлення"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "Нові коди відновлення згенеровано"
 
@@ -202,7 +202,7 @@ msgstr "Нові коди відновлення згенеровано"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Ви успішно згенерували нові коди відновлення з такого пристрою:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "Ключ відновлення облікового запису вилучено"
 
@@ -218,7 +218,7 @@ msgstr "Цей ключ більше не можна використати дл
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Ви успішно вилучили ключ відновлення облікового запису Firefox з такого пристрою:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "Альтернативну електронну пошту видалено"
 
@@ -242,27 +242,27 @@ msgstr "Тепер коди безпеки більше не будуть вим
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Тепер коди безпеки більше не будуть вимагатися при кожному вході."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Ласкаво просимо до сімейства Firefox"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Ви ввійшли і тепер готові розпочати подорож Інтернетом безпечно та захищено."
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Тепер отримайте повну віддачу від Firefox, виконавши вхід на всіх пристроях."
+msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "Під'єднати інший пристрій:"
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Є питання? Відвідайте %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "Альтернативну електронну пошту додано"
 
@@ -317,11 +317,11 @@ msgstr "Ви успішно перейшли з %(productNameOld)s на %(produc
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час вам буде надано одноразовий кредит розміром "
-"$%(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycle)s."
+"Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час вам буде надано одноразовий кредит розміром $"
+"%(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -437,8 +437,8 @@ msgstr "Ви успішно оновили передплату з %(productName
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час з вас буде стягнуто одноразовий платіж "
 "розміром $%(paymentProrated)s, щоб застосувати підвищену суму оплати на залишок цього %(productPaymentCycle)s."
@@ -458,6 +458,10 @@ msgstr "Якщо ні, допоможіть нам не допустити зл�
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас."
+
+#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Ласкаво просимо до сімейства Firefox"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -566,6 +570,10 @@ msgstr "Підтвердьте, що ви отримали цей лист, і �
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Одразу після підтвердження ми допоможемо вам встановити і під'єднати Firefox принаймні на одному іншому пристрої."
+
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -735,92 +743,88 @@ msgstr "Пароль оновлено"
 msgid "Suspicious activity detected"
 msgstr "Виявлено підозрілу активність"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
-#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
+#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "Керування обліковим записом"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "Обліковий запис підтверджено"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "Під'єднати інший пристрій"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "Основну адресу електронної пошти оновлено"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "Двоетапну перевірку увімкнено"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "Двоетапна перевірка вимкнена"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "Використано код відновлення"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "Залишився 1 код відновлення"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Залишилось %(numberRemaining)s кодів відновлення"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "Генерувати коди"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "Пароль оновлено з використанням ключа відновлення"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "Створити новий ключ відновлення"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Ви передплатили %(productNameNew)s"
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr "Ви перейшли на %(productNameNew)s"
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Незабаром, закінчується термін дії кредитної картки для оплати за %(productName)s"
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr "Не вдалося оплатити %(productName)s"
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Вашу передплату на %(productName)s було скасовано"
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
 msgstr "Передплату %(productName)s поновлено"
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr "Платіж за %(productName)s отримано"
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr "Платіж за %(productName)s підтверджено"
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr "Вітаємо в %(productName)s"
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr "Завантажити %(productName)s"
 
@@ -908,6 +912,21 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Завантажити найновішу версію"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Ви ввійшли і тепер готові розпочати подорож Інтернетом безпечно та захищено."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Тепер отримайте повну віддачу від Firefox, виконавши вхід на всіх пристроях."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Під'єднати інший пристрій:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Обліковий запис підтверджено"
+
+#~ msgid "Connect another device"
+#~ msgstr "Під'єднати інший пристрій"
 
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "Захистіть свої дані за допомогою ключа відновлення"
@@ -997,8 +1016,8 @@ msgstr "Завантажити найновішу версію"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</a>"
-#~ " та <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a "
+#~ "%(androidLinkAttributes)s>Android</a> та <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для Android та iOS."
@@ -1124,15 +1143,15 @@ msgstr "Завантажити найновішу версію"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для <a href='%(androidUrl)s'>Android</a> "
-#~ "та <a href='%(iosUrl)s'>iOS</a>."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для <a href='%(androidUrl)s'>Android</"
+#~ "a> та <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> чи "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> "
+#~ "чи <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Увійти до Синхронізації"
@@ -1168,11 +1187,11 @@ msgstr "Завантажити найновішу версію"
 #~ msgstr "Вітаємо знову."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на будь-"
-#~ "якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
+#~ "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на "
+#~ "будь-якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
 
 #~ msgid "Verify Email"
 #~ msgstr "Підтвердити адресу електронної пошти"
@@ -1237,8 +1256,8 @@ msgstr "Завантажити найновішу версію"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Чи входили ви в обліковий запис Firefox з будь-якого із зазначених розташувань упродовж останніх 60 днів? Якщо ви не впізнаєте ці розташування, хтось інший міг отримати доступ до вашого облікового "
-#~ "запису Firefox."
+#~ "Чи входили ви в обліковий запис Firefox з будь-якого із зазначених розташувань упродовж останніх 60 днів? Якщо ви не впізнаєте ці розташування, хтось інший міг отримати доступ до вашого "
+#~ "облікового запису Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата і час:"
@@ -1316,8 +1335,8 @@ msgstr "Завантажити найновішу версію"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої паролі, "
-#~ "закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
+#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої "
+#~ "паролі, закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
 
 #~ msgid "env"
 #~ msgstr "env"

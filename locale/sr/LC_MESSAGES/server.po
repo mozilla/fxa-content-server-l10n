@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2020-05-29 21:36+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,7 +132,7 @@ msgstr "Најбоље,"
 msgid "The Firefox Accounts team"
 msgstr "Тим Firefox налога"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "Кључ за опоравак налога генерисан"
 
@@ -191,7 +191,7 @@ msgstr "Успешно сте искористили код за опорава�
 msgid "Consumed recovery code"
 msgstr "Искоришћени код за опоравак"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "Нови кодови за опоравак су генерисани"
 
@@ -199,7 +199,7 @@ msgstr "Нови кодови за опоравак су генерисани"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Успешно сте генерисали нове кодове за опоравак са уређаја:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "Кључ за опоравак налога уклоњен"
 
@@ -215,7 +215,7 @@ msgstr "Кључ за опоравак не може бити више иско�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Успешно сте уклонили кључ за опоравак налога за ваш Firefox налог из следећег уређаја:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "Уклоњена је секундарна адреса е-поште"
 
@@ -239,27 +239,27 @@ msgstr "Безбедносни кодови из ваше апликације �
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Успешно сте онемогућили аутентификацију у два корака на вашем Firefox налогу. Безбедносни кодови из ваше апликације за аутентификацију од сада неће више бити потребни за приступање."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Добродошли у Firefox породицу"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Пријављени сте и спремни сте да истражујете сигурно и безбедно."
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Извуците максимум из Firefox-а пријављивањем свугде где прегледате."
+msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "Повежите други уређај:"
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Имате питања? Посетите %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "Секундарна адреса додата"
 
@@ -314,8 +314,8 @@ msgstr "Успешно сте се пребацили са %(productNameOld)s н
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ћете добити и једнократни кредит у износу %(paymentProrated)s$ који ће "
 "одразити ниже накнаде за остатак периода %(productPaymentCycle)s."
@@ -413,8 +413,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
-"Ваш циклус наплате и плаћања остаће исти. Следећи рачун ће износити %(invoiceTotal)s$ на %(cardType)s картици која завршава с %(lastFour)s на %(nextInvoiceDateOnly)s. Ваша претплата ће се аутоматски"
-" обнављати сваки циклус наплате уколико га претходно не откажете."
+"Ваш циклус наплате и плаћања остаће исти. Следећи рачун ће износити %(invoiceTotal)s$ на %(cardType)s картици која завршава с %(lastFour)s на %(nextInvoiceDateOnly)s. Ваша претплата ће се "
+"аутоматски обнављати сваки циклус наплате уколико га претходно не откажете."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -434,8 +434,8 @@ msgstr "Успешно сте ажурирали са %(productNameOld)s на %(
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ће се наплаћивати и једнократна накнада у износу %(paymentProrated)s$ "
 "који ће одразити више накнаде за остатак периода %(productPaymentCycle)s."
@@ -455,6 +455,10 @@ msgstr "Ако нисте, помозите нам да одбијемо уље�
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ако нисте, помозите нам да одбијемо уљеза и пријавите нам то."
+
+#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Добродошли у Firefox породицу"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -563,6 +567,10 @@ msgstr "Потврдите да сте примили е-пошту и помо�
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Једном када потврдите, помоћићемо вам да инсталирате и повежете Firefox на барем један уређај."
+
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -732,92 +740,88 @@ msgstr "Лозинка је ажурирана"
 msgid "Suspicious activity detected"
 msgstr "Откривена је сумњива радња"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
-#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
+#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "Управљајте налогом"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "Налог је потврђен"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "Повежите други уређај"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "Примарна адреса е-поште је ажурирана"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "Верификација у два корака омогућена"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "Аутентификација у два корака онемогућена"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "Код за опоравак је искоришћен"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "1 код за опоравак је преостао"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s кодова за опоравак је преостало"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "Генериши кодове"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "Лозинка је ажурирана помоћу кључа за опоравак"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "Направите нови кључ за опоравак"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Ажурирали сте на %(productNameNew)s"
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr "Пребацили сте се на %(productNameNew)s"
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Кредитна картица за %(productName)s ускоро истиче"
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s уплата није успела"
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ваш %(productName)s претплата је отказана"
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s претплата је поново активирана"
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr "%(productName)s уплата је примљена"
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s уплата је потврђена"
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr "Добродошли у %(productName)s"
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr "Преузмите %(productName)s"
 
@@ -906,6 +910,21 @@ msgstr ""
 msgid "Download latest"
 msgstr "Преузмите најновију верзију"
 
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Пријављени сте и спремни сте да истражујете сигурно и безбедно."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Извуците максимум из Firefox-а пријављивањем свугде где прегледате."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Повежите други уређај:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Налог је потврђен"
+
+#~ msgid "Connect another device"
+#~ msgstr "Повежите други уређај"
+
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "Заштитите ваше податке уз код за опоравак"
 
@@ -983,7 +1002,8 @@ msgstr "Преузмите најновију верзију"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Успешно сте повезали први уређај на Firefox налог. Сада можете да се пријавите на Sync са другог уређаја, укључујући Firefox за <a href='%(androidUrl)s'>Android</a> и <a href='%(iosUrl)s'>iOS</a>."
+#~ "Успешно сте повезали први уређај на Firefox налог. Сада можете да се пријавите на Sync са другог уређаја, укључујући Firefox за <a href='%(androidUrl)s'>Android</a> и <a href='%(iosUrl)s'>iOS</"
+#~ "a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1113,8 +1133,8 @@ msgstr "Преузмите најновију верзију"
 #~ msgstr "Ресетуј лозинку"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји претраге на повезаном уређају. Једноставно "
 #~ "потврдите ову адресу е-поште да активирате налог."
@@ -1140,7 +1160,8 @@ msgstr "Преузмите најновију верзију"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Верификујте адресу за Firefox налоге"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Успешно сте верификовали %(secondaryEmail)s као секундарну адресу вашег Firefox налога. Безбедносне нотификације и потврде пријава ће бити достављене на ове адресе."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1225,8 +1246,8 @@ msgstr "Преузмите најновију верзију"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, забелешке"
-#~ " и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
+#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, "
+#~ "забелешке и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
 
 #~ msgid "env"
 #~ msgstr "env"

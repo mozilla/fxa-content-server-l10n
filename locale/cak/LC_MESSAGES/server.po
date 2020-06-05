@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2019-11-29 23:05+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgstr "Rutzil iwäch,"
 msgid "The Firefox Accounts team"
 msgstr "Rumolaj Rutaqoya'l Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "Xtz'uk kolonel ewan rutzij rub'i' taqoya'l"
 
@@ -193,7 +193,7 @@ msgstr "Xawokisaj jun kolonel b'itz'ib' pa re okisaxel re':"
 msgid "Consumed recovery code"
 msgstr "Okisan kolonel bitz'ib'"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "K'ak'a' kolonel taq b'itz'ib' xetz'uk"
 
@@ -201,7 +201,7 @@ msgstr "K'ak'a' kolonel taq b'itz'ib' xetz'uk"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Ütz xe'atz'ük k'ak'a' kolonel taq b'itz'ib' pa re okisaxel re':"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "Xyuj ri kolonel ewan rutzij rub'i' taqoya'l"
 
@@ -217,7 +217,7 @@ msgstr "Man tikirel ta chik nokisäx re kolonel ewan tzij re' richin naköl ri r
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Ütz xub'än xayüj jun kolonel ewan rutzij ri rub'i' ataqoya'l richin Firefox pa re okisab'äl re':"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "Xyuj ri ruka'n taqoya'l"
 
@@ -243,27 +243,27 @@ msgstr "Man xkek'utüx ta chik pe ri kib'itz'ib' jikomal toq xtatikirisaj molojr
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Ütz xub'än xachüp ri rujikib'axik pa ka'i' xak ri Rub'i' Ataqoya'l richin Firefox. Man xtik'utüx ta chik pe ri kib'itz'ib' jikomal toq xtatikirisaj molojri'ïl."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Ütz apetik pa Firefox ach'alalri'ïl"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Xatikirisaj yan qa ri amolojri'ïl, wakami yatikïr ütz natz'ët rupam."
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Jeb'ël tawokisaj ri Firefox rik'in natikirisaj molojri'ïl pa ronojel ri taq awokisab'al richin yatok pa k'amaya'l."
+msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "Tokisäx jun chik okisab'äl:"
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "¿La k'o ak'utunik? Tatz'eta' %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "Xtz'aqatisäx ri ruka'n taqoya'l"
 
@@ -452,6 +452,10 @@ msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwäch ri nachanela' c
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwa ri nachanela' chuqa' ke'asujuj pe."
 
+#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Ütz apetik pa Firefox ach'alalri'ïl"
+
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
 msgstr "Jujun kan q'ij xatz'ük jun rub'i' ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta."
@@ -559,6 +563,10 @@ msgstr "Tajikib'a' chi xak'ül re taqoya'l re' richin yatqato' richin nayäk chu
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Toq xajikib'a' yan, yatqato' richin nayäk chuqa' nawokisaxj ri Firefox pa jun chik rutz'aqat okisaxel."
+
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -728,92 +736,88 @@ msgstr "Xk'extäj ri ewan tzij"
 msgid "Suspicious activity detected"
 msgstr "Xilitäj q'eleb'el samaj"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
-#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
+#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "Tinuk'samajïx rub'i' taqoya'l"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "Xjikib'äx rub'i' taqoya'l"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "Tokisäx jun chik okisaxel"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "Xk'ex ri nab'ey taqoya'l"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "Xtzij ri jikib'anem pa ka'i'-xak"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "Xchup ri jikib'anem pa ka'i'-xak"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "Xokisäx rub'itz'ib' koloj"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "1 rub'itz'ib' koloj k'o"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s rub'itz'ib' koloj e k'o"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "Ketz'uk taq b'itz'ib'"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "Xk'ex ewan tzij toq xokisäx ri ruxe'el tzij richin koloj"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "Titz'uk k'ak'a' kolonel ewan tzij"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr ""
 
@@ -895,6 +899,21 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Tiqasäx ri ruk'isib'äl ruwäch"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Xatikirisaj yan qa ri amolojri'ïl, wakami yatikïr ütz natz'ët rupam."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Jeb'ël tawokisaj ri Firefox rik'in natikirisaj molojri'ïl pa ronojel ri taq awokisab'al richin yatok pa k'amaya'l."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Tokisäx jun chik okisab'äl:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Xjikib'äx rub'i' taqoya'l"
+
+#~ msgid "Connect another device"
+#~ msgstr "Tokisäx jun chik okisaxel"
 
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "Ke'achajij ri taq atzij rik'in jun ruk'u'x rutzij kolonem"

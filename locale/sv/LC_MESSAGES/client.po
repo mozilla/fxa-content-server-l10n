@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-04-18 03:09+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"PO-Revision-Date: 2020-05-31 21:51+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -119,7 +119,7 @@ msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopi
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b> för <b>%(escapedSelectedProduct)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -425,15 +425,15 @@ msgstr "Kontoproblem"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Tekniska problem"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Ge återkoppling / föreslå funktioner"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Inte listad"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1331,7 +1331,7 @@ msgstr "Avbryt konfiguration"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Bekräfta återställningskod"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1347,7 +1347,7 @@ msgstr "Bekräfta"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Aktivera tvåstegsautentisering"
 
 #: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1355,7 +1355,7 @@ msgstr "Lägg till ett säkerhetslager till ditt konto genom att kräva säkerhe
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Skanna autentiseringskod"
 
 #: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
@@ -1375,11 +1375,11 @@ msgstr "När det är klart kommer det att generera säkerhetskoder som du kan an
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Skriv den hemliga nyckeln i din autentiseringsapp."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Skanna QR-kod istället?"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1681,7 +1681,7 @@ msgstr "Varför kontaktar du oss?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox-konto"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2043,103 +2043,99 @@ msgstr "Använd en annan e-postadress"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Registrera dig för mer"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Praktisk kunskap kommer till din inkorg."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Få praktisk kunskap i din inkorg om:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Prenumerera %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Enheten ansluten!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Anslut en annan"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:11
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Använd SMS istället"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Jag är klar för nu"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Synkronisera Firefox mellan enheter"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Synkronisera bokmärken, historik och lösenord till Firefox på dina mobila enheter. Det tar bara några minuter."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Kom igång"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Jag gör det senare, skicka mig en påminnelse"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera"
+msgid "Download Firefox with your camera app"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Att installera Firefox och synkronisera mellan minst två enheter skyddar också mot dataförlust."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Redo att skanna"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "Connect your mobile device"
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "with a QR code we've created just for you"
-msgstr ""
+msgid "Open the camera app on your device"
+msgstr "Öppna kameraappen på din enhet"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Open the camera app on your device"
-msgstr ""
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Rikta kameran mot QR-koden och tryck på länken som visas"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgid "Install Firefox and open it on your device"
+msgstr "Installera Firefox och öppna den på din enhet"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Install Firefox and open it on your device"
-msgstr ""
+msgid "Sign into your account"
+msgstr "Logga in på ditt konto"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "Sign into your account"
-msgstr ""
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr "<span class=\"number\">1</span>Öppna kameraappen på din enhet"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr "<span class=\"number\">2</span>Rikta kameran mot QR-koden och tryck på länken som visas"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr "<span class=\"number\">3</span>Installera Firefox och öppna den på din enhet"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Logga in på ditt konto"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2344,6 +2340,15 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Download Firefox with your camera"
+#~ msgstr "Ladda ner Firefox med din kamera"
+
+#~ msgid "Connect your mobile device"
+#~ msgstr "Anslut din mobila enhet"
+
+#~ msgid "with a QR code we've created just for you"
+#~ msgstr "med en QR-kod vi har skapat just för dig"
 
 #~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 #~ msgstr "Tack för att du kontaktade Mozilla Support om <b>%(escapedLowercaseTopic)s</b> för <b>%(escapedSelectedPlan)s</b>. Vi kommer att kontakta dig via e-post så snart som möjligt."
