@@ -77,21 +77,35 @@ payment-cancel-btn = Přetorhnyć
 payment-update-btn = Aktualizować
 payment-pay-btn = Nětko płaćić
 payment-validate-name-error = Prošu zapodajće swoje mjeno
+payment-validate-zip-required = Póstowe wodźenske čisło je trěbne
+payment-validate-zip-short = Póstowe wodźenske čisło je překrótke
 
 ## subscription redirect
 
+sub-redirect-ready = Waš abonement je hotowy
 
 ## fields
 
+default-input-error = Tute polo je trěbne
 
 ## subscription upgrade
 
+sub-update-failed = Aktualizowanje plana njeje so poradźiło
+sub-update-title = Wotličenske informacije
+sub-update-card-ending = Karta kónči so na { $last }
+sub-update-card-exp = Spadnje { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Aktualizaciju wobkrućić
+sub-update-indicator =
+    .aria-label = aktualizowanske zwobraznjenje
+sub-update-current-plan-label = Aktualny plan
+sub-update-new-plan-label = Nowy plan
+sub-update-total-label = Nowa suma
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
