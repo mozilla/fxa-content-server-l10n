@@ -47,6 +47,17 @@ product-plan-details-heading = Налаштуймо вашу передплат�
 
 ## payment form
 
+payment-name =
+    .placeholder = Повне ім'я
+    .label = Імʼя, зазначене на вашій картці
+payment-ccn =
+    .label = Номер картки
+payment-exp =
+    .label = Закінчення дії
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Поштовий індекс
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
