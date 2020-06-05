@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 18:32+0000\n"
+"PO-Revision-Date: 2020-06-05 22:12+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -481,7 +481,7 @@ msgstr "Ainda está aí?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Há quase uma semana você criou uma Conta Firefox, mas nunca a confirmou. Estamos preocupados com você."
+msgstr "Há quase uma semana você criou uma Conta Firefox, mas nunca a validou. Estamos preocupados com você."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
@@ -525,7 +525,7 @@ msgstr "Uma solicitação para efetuar uma alteração na conta foi feita a part
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Uma vez verificado, será possível realizar alterações na conta nesse dispositivo, como adicionar um e-mail secundário."
+msgstr "Uma vez validado, será possível realizar alterações na conta nesse dispositivo, como adicionar um e-mail secundário."
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
@@ -541,7 +541,7 @@ msgstr "Foi feita uma solicitação para usar %(email)s como endereço de e-mail
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Uma vez verificado, este endereço começará a receber notificações de segurança e confirmações."
+msgstr "Uma vez validado, este endereço começará a receber notificações de segurança e confirmações."
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
@@ -549,7 +549,7 @@ msgstr "Use este código de verificação:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Ele expira em 5 minutos. Uma vez verificado, este endereço começará a receber notificações e confirmações de segurança."
+msgstr "Ele expira em 5 minutos. Uma vez validado, este endereço começará a receber notificações e confirmações de segurança."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
