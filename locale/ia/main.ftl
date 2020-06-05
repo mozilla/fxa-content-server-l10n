@@ -16,12 +16,16 @@ document =
 
 ## app error dialog
 
+general-error-heading = Error general del application
 
 ## settings
 
+settings-subscriptions = Abonamentos e pagamentos
 
 ## legal footer
 
+terms = Terminos de servicio
+privacy = Aviso de confidentialitate
 
 ## plan details
 
@@ -32,12 +36,19 @@ document =
 
 ## Product route
 
+product-plan-not-found = Plano non trovate
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-ccn =
+    .label = Numero de carta
+payment-exp =
+    .label = Expiration
+payment-cvc =
+    .label = CVC
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -65,6 +76,12 @@ sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-update-submit = Confirmar le promotion
+sub-update-indicator =
+    .aria-label = indicator de promotion
+sub-update-current-plan-label = Plano actual
+sub-update-new-plan-label = Nove plano
+sub-update-total-label = Nove total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -78,6 +95,7 @@ sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+pay-update-card-exp = Expira le { $expirationDate }
 pay-update-change-btn = Cambiar
 
 ## reactivate
