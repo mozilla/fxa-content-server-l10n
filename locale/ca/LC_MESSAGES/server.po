@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 13:04+0000\n"
-"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
+"PO-Revision-Date: 2019-06-25 00:46+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -244,7 +244,7 @@ msgstr "Heu inhabilitat l'autenticació en dos passos per al compte del Firefox.
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Us donem la benvinguda a la família Firefox"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "You're signed in and ready to start exploring safely and securely."
@@ -478,7 +478,7 @@ msgstr ""
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
-msgstr ""
+msgstr "Activeu la família de productes Firefox"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
