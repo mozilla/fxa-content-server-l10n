@@ -146,6 +146,7 @@ sub-item-cancel-sub = Скасувати передплату
 
 ## subscription route index
 
+sub-route-idx-cancel-aside = Маєте запитання? Відвідайте <a>підтримку { -brand-name-mozilla }</a>.
 
 ## subscription create
 
