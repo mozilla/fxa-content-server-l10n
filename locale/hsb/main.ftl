@@ -134,6 +134,14 @@ plan-price-month =
         [few] { $amount } kóžde { $intervalCount } měsacy
        *[other] { $amount } kóžde { $intervalCount } měsacow
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } kóžde lěto
+        [two] { $amount } kóždej { $intervalCount } lěće
+        [few] { $amount } kóžde { $intervalCount } lěta
+       *[other] { $amount } kóžde { $intervalCount } lět
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -143,30 +151,59 @@ plan-price-month =
 
 ##
 
+pay-update-card-exp = Spadnje { $expirationDate }
+pay-update-change-btn = Změnić
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Chceće { $name } dale wužiwać?
+reactivate-confirm-button = Abonoment wobnowić
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Sće { $date } swój abonement wupowědźił.
+reactivate-success-button = Začinić
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Zmylk při čitanju abonementow
+sub-item-missing-msg = Prošu spytaj pozdźišo hišće raz.
+sub-item-no-such-plan = Žadyn plan za tutón abonement.
+sub-item-cancel-sub = Abonement wupowědźić
+sub-item-stay-sub = Dale abonować
+account-activated = Waše onto jo zmóžnjene, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Wotličenske informacije so aktualizuja...
+sub-route-idx-contact = Pomoc kontaktować
+sub-route-idx-cancel-msg-title = Je nam žel, zo nas wopušćeće
+sub-subscription-error =
+    .title = Zmylk při čitanju abonementow
+sub-customer-error =
+    .title = Zmylk při čitanju kupca
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = Produktowe podrobnosće
+plan-details-show-button = Podrobnosće pokazać
+plan-details-hide-button = Podrobnosće schować
+plan-details-total-label = Dohromady
 
 ## payment confirmation
 
+payment-confirmation-alert = Klikńće, zo byšće sćahnył
+payment-confirmation-heading = Wulki dźak, { $displayName }!
+payment-confirmation-heading-bak = Wulki dźak!
+payment-confirmation-subheading = Wobkrućenska mejlka je so pósłała na
+payment-confirmation-order-heading = Skazanske podrobnosće
+payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
