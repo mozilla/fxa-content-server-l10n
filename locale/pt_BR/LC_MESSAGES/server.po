@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 22:12+0000\n"
+"PO-Revision-Date: 2020-06-05 22:13+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -750,7 +750,7 @@ msgstr "Gerenciar conta"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Conta validada. Agora sincronize outro dispositivo para concluir a configuração"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"

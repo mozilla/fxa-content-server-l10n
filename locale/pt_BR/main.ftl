@@ -5,6 +5,11 @@
 
 ## branding
 
+project-brand = Contas Firefox
+-brand-name-mozilla = Mozilla
+-brand-name-firefox = Firefox
+document =
+    .title = Contas Firefox
 
 ## general-aria
 
