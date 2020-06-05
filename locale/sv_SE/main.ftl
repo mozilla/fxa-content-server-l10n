@@ -91,12 +91,18 @@ payment-validate-zip-short = Postnummer är för kort
 
 sub-redirect-ready = Din prenumeration är klar
 sub-redirect-copy = Ta en stund för att berätta om din upplevelse.
+sub-redirect-skip-survey = Nej tack, ta mig till min produkt.
 
 ## fields
 
+default-input-error = Fältet är obligatoriskt
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Granska din uppgradering
+sub-update-failed = Planuppdatering misslyckades
+sub-update-title = Faktureringsinformation
+sub-update-card-ending = Kortet slutar på { $last }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
