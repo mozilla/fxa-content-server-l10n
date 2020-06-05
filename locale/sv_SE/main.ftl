@@ -5,14 +5,26 @@
 
 ## branding
 
+project-brand = Firefox-konton
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+document =
+    .title = Firefox-konton
 
 ## general-aria
 
+close-aria =
+    .aria-label = Stäng modal
 
 ## app error dialog
 
+general-error-heading = Allmänt applikationsfel
+basic-error-message = Något gick fel. Vänligen försök igen.
+payment-error-1 = Hmm. Det gick inte att godkänna din betalning. Försök igen eller kontakta din kortutgivare.
+payment-error-2 = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
+expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
+insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
+withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
 
 ## settings
 
