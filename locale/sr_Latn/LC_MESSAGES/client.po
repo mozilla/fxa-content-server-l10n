@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-04-30 23:41+0000\n"
-"Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"PO-Revision-Date: 2020-05-29 22:34+0000\n"
+"Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -144,6 +144,9 @@ msgid ""
 "%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
 "contact you via email as soon as possible."
 msgstr ""
+"Hvala vam što ste se obratili Mozilla podršci u vezi <b>"
+"%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b>. "
+"Kontaktiraćemo vas e-poštom što je pre moguće."
 
 #: .es5/views/settings/change_password.js:89
 #: .es5/templates/force_auth.mustache:4
@@ -533,15 +536,15 @@ msgstr "Problemi s nalogom"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Tehnički problemi"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Šaljite povratne informacije / sugerišite funkcije"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Nije na listi"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1596,7 +1599,7 @@ msgstr "Otkažite postavljanje"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Potvrdite kod za oporavak"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 #: .es5/templates/settings/recovery_codes.mustache:17
@@ -1620,7 +1623,7 @@ msgstr "Potvrdi"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Omogućite autentifikaciju u dva koraka"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 #: .es5/templates/settings/two_step_authentication.mustache:6
@@ -1634,7 +1637,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Skenirajte autentifikacijski kod"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 #: .es5/templates/settings/totp_secret.mustache:1
@@ -1664,11 +1667,11 @@ msgstr "Kada završi, počeće da stvara sigurnosne kodove za unos."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Unesite ovaj tajni ključ u vašu aplikaciju za autentifikaciju."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Ipak skenirati QR kod?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 #: .es5/templates/settings/two_step_authentication.mustache:20
@@ -2032,7 +2035,7 @@ msgstr "Zbog čega nas kontaktirate?"
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox nalog"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2469,59 +2472,61 @@ msgstr "Koristite drugu adresu e-pošte"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Pretplatite se za više"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Praktično znanje dolazi u vašu poštu."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Dobijte praktično znanje u poštu u vezi:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Pretplatite se za %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Uređaj je povezan!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Povežite drugi uređaj"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:11
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Koristite SMS umesto"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Za sada smo gotovi"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Sinhronizujte Firefox između uređaja"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid ""
 "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
 "only takes a few minutes."
 msgstr ""
+"Sinhronizujte obeleživače, istoriju i lozinke na Firefox na vašim mobilnim "
+"uređajima. Potrebno je samo nekoliko minuta."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Započnite"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Uradiću to kasnije, pošalji mi podsetnik"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera"
+msgid "Download Firefox with your camera app"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
@@ -2529,53 +2534,58 @@ msgid ""
 "Installing Firefox and syncing between at least two devices also protects "
 "against losing your data."
 msgstr ""
+"Instaliranje Firefox-a i sinhronizacija između najmanje dva uređaja takođe "
+"štiti od gubitka podataka."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Spreman za skeniranje"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "Connect your mobile device"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "with a QR code we've created just for you"
-msgstr ""
+msgid "Open the camera app on your device"
+msgstr "Otvorite aplikaciju za kameru na vašem uređaju"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Open the camera app on your device"
-msgstr ""
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Usmerite kameru na QR kod i dodirnite vezu koja se pojavi"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgid "Install Firefox and open it on your device"
+msgstr "Instalirajte Firefox i otvorite ga na vašem uređaju"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Install Firefox and open it on your device"
-msgstr ""
+msgid "Sign into your account"
+msgstr "Prijavite se u vaš nalog"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "Sign into your account"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr ""
+"<span class=\"number\">1</span>Otvorite aplikaciju za kameru na vašem uređaju"
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid ""
 "<span class=\"number\">2</span>Point the camera at the QR code and tap the "
 "link that appears"
 msgstr ""
+"<span class=\"number\">2</span>Usmerite kameru na QR kod i dodirnite vezu "
+"koja se pojavi"
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid ""
 "<span class=\"number\">3</span>Install Firefox and open it on your device"
 msgstr ""
+"<span class=\"number\">3</span>Instalirajte Firefox i otvorite ga na vašem "
+"uređaju"
 
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:10
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Prijavite se u vaš nalog"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
@@ -2816,6 +2826,15 @@ msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
 "Da li ste koristili sistemsku kameru? Morate da se uparite u okviru Firefox "
 "aplikacije."
+
+#~ msgid "Download Firefox with your camera"
+#~ msgstr "Preuzmite Firefox vašom kamerom"
+
+#~ msgid "Connect your mobile device"
+#~ msgstr "Povežite vaš mobilni uređaj"
+
+#~ msgid "with a QR code we've created just for you"
+#~ msgstr "koristeći QR kod koji smo osmislili samo za vas"
 
 #~ msgid ""
 #~ "Thank you for reaching out to Mozilla Support about <b>"

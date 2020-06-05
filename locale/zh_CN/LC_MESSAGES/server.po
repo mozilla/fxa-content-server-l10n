@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2020-05-30 15:00+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,7 +132,7 @@ msgstr "祝好，"
 msgid "The Firefox Accounts team"
 msgstr "Firefox 账户团队"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "已生成新的救援密钥"
 
@@ -190,7 +190,7 @@ msgstr "您已成功在下列设备上使用救援码登录："
 msgid "Consumed recovery code"
 msgstr "用过的救援码"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "已生成新的救援码"
 
@@ -198,7 +198,7 @@ msgstr "已生成新的救援码"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "您已成功用下列设备生成新的救援码："
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "已移除账户救援密钥"
 
@@ -214,7 +214,7 @@ msgstr "将无法再使用该救援密钥来救援您的账户。"
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "您已使用下列设备，成功移除 Firefox 账户救援密钥："
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "已移除次要邮箱"
 
@@ -238,27 +238,27 @@ msgstr "现在起，无需安全码即可登录。"
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "您已成功禁用 Firefox 账户的两步验证。现在起，无需安全码即可登录。"
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "欢迎来到 Firefox 大家庭"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "您已登录，可安全地开始探索。"
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "现在到其他设备上登录，畅享 Firefox 的智能技术。"
+msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "连接其他设备："
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "有任何问题？请访问 %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "次要邮件地址已绑定"
 
@@ -311,9 +311,11 @@ msgstr "您已成功从 %(productNameOld)s 切换至 %(productNameNew)s。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s 以余额的形式一次性返还到您的账户，以反映较低的收费金额。"
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+msgstr ""
+"从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s 以余额"
+"的形式一次性返还到您的账户，以反映较低的收费金额。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -427,9 +429,11 @@ msgstr "您已成功从 %(productNameOld)s 升级至 %(productNameNew)s。"
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s，以反映较高的收费金额。"
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+msgstr ""
+"从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 $"
+"%(paymentProrated)s，以反映较高的收费金额。"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -446,6 +450,10 @@ msgstr "如果不是，请帮助我们防范入侵者，<a %(reportSignInLinkAtt
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "如果不是，请帮助我们防范入侵者，向我们报告此事例。"
+
+#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "欢迎来到 Firefox 大家庭"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -554,6 +562,10 @@ msgstr "确认您已收到这封邮件，我们将帮助您在您的所有设备
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "完成身份验证后，我们会协助您安装并连接其他设备上的 Firefox。"
+
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -723,92 +735,88 @@ msgstr "密码已更新"
 msgid "Suspicious activity detected"
 msgstr "检测到可疑活动"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
-#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
+#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "管理账号"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "账户已确认"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "把其他设备也绑定上吧"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "主邮箱已更新"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "已启用两步验证"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "已关闭两步验证"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "已使用救援码"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "剩余 1 组救援码"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "剩余 %(numberRemaining)s 组救援码"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "生成救援码"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "已使用救援码更新密码"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "生成新的救援密钥"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "您已升级至 %(productNameNew)s"
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr "您已切换至 %(productNameNew)s"
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "订阅 %(productName)s 所用信用卡即将过期"
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s 付款失败"
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "已取消您的 %(productName)s 产品订阅"
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
 msgstr "已重新激活 %(productName)s 个订阅"
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr "已收到 %(productName)s 付款"
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr "已确认 %(productName)s 付款"
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr "欢迎使用 %(productName)s"
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr "下载 %(productName)s"
 
@@ -889,6 +897,21 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "下载最新版本"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "您已登录，可安全地开始探索。"
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "现在到其他设备上登录，畅享 Firefox 的智能技术。"
+
+#~ msgid "Connect another device:"
+#~ msgstr "连接其他设备："
+
+#~ msgid "Account confirmed"
+#~ msgstr "账户已确认"
+
+#~ msgid "Connect another device"
+#~ msgstr "把其他设备也绑定上吧"
 
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "使用救援密钥保护您的数据"
@@ -1269,8 +1292,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1297,7 +1320,8 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1381,7 +1405,9 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
+#~ msgstr ""
+#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
+#~ "电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
 "PO-Revision-Date: 2020-06-03 19:47+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgstr "S tegmatt,"
 msgid "The Firefox Accounts team"
 msgstr "Tarbaɛt n imiḍanen n Firefox"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "Tasarutt n tririt n umiḍan tettusirew"
 
@@ -178,8 +178,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked usentem"
-" n tuqna."
+"Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked "
+"usentem n tuqna."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -193,7 +193,7 @@ msgstr "Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:"
 msgid "Consumed recovery code"
 msgstr "Teččiḍ tangalt n tririt"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
 
@@ -201,7 +201,7 @@ msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "Tasarutt n tririt n umiḍan tettwakkes"
 
@@ -217,7 +217,7 @@ msgstr "Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr 
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "Imay wis sin ittwakkes"
 
@@ -241,27 +241,27 @@ msgstr "Tingalin n tririt uir zgint laqent yal tuqqna."
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
 msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tingalin n tɣelllist ur laqent ara yal atuqqna."
 
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1 lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Ansuf ɣer twacult Firefox"
+#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Aql-ak teqqneḍ ɣer umiḍan-ik daɣen tzemreḍ ad tebduḍ tunigin s tɣellist."
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Tura, faṛes seg tuget n tegnatin seg Firefox s tuqqna sekra wanida telliḍ neɣ tettinigeḍ."
+msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "Qqen ibenk-nniḍen:"
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "Imay wis sin ittwarna"
 
@@ -316,8 +316,8 @@ msgstr "Tbeddleḍ akken iwata seg %(productNameOld)s ɣer %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken ad "
 "tban ssuma meẓẓiyen i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
@@ -434,8 +434,8 @@ msgstr "Yedda lqem-ik akken iwata seg %(productNameOld)s ɣer %(productNameNew)s
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken ad "
 "tban ssuma meqqren i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
@@ -455,6 +455,10 @@ msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAtt
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
+
+#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Ansuf ɣer twacult Firefox"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -563,6 +567,10 @@ msgstr "Ini-yaq-d ma yella tremseḍ-d izen-agi udiq ak-d-nefk afus deg usebded 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
+
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -732,92 +740,88 @@ msgstr "Awal uffir yettuleqqem"
 msgid "Suspicious activity detected"
 msgstr "Armud anida yella ccek yettwaf"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246 lib/senders/email.js:1282 lib/senders/email.js:1318 lib/senders/email.js:1352 lib/senders/email.js:1395 lib/senders/email.js:1438
-#: lib/senders/email.js:1481 lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
+#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "Sefrek amiḍan"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "Amiḍan ittwasentem"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "Qqen ibenk-nniḍen"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "Imayl amezwaru ittuleqqem"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "Asesteb s snat n tarrayin yermed"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "Asesteb s snat n tarrayin yensa"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "Tangalt n usellek tettwaseqdec"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "Qqiment-d 1 n tigalin n usellek"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s tigalin n usellek id-yeqqimen"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "Sirew tingalin"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "Awal uffir ibeddel s tsarut n tririt"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "Rnu tasarutt n tririt tamaynut"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Tleqqmeḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr "Tbeddleḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Takarḍa n usmad i %(productName)s qrib ad temmet"
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr "Axelleṣ n %(productName)s yecceḍ"
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
 msgstr "Ajerred n %(productName)s yettwarmed"
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr "Lexlaṣ n %(productName)s yettwarmes"
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr "Ansuf ɣer %(productName)s"
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr "Sader %(productName)s"
 
@@ -905,6 +909,21 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Sader aneggaru"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Aql-ak teqqneḍ ɣer umiḍan-ik daɣen tzemreḍ ad tebduḍ tunigin s tɣellist."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Tura, faṛes seg tuget n tegnatin seg Firefox s tuqqna sekra wanida telliḍ neɣ tettinigeḍ."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Qqen ibenk-nniḍen:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Amiḍan ittwasentem"
+
+#~ msgid "Connect another device"
+#~ msgstr "Qqen ibenk-nniḍen"
 
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "Mmesten isefka-ik s tsarut n tririt"
@@ -1132,11 +1151,11 @@ msgstr "Sader aneggaru"
 #~ msgstr "Wennez awal uffir"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
-#~ " ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+#~ "Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
+#~ "yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Tezri dduṛt aya seg mi ternid amiḍan Firefox, acukan weṛgin tesneqdeṭ. Ihi aqlaɣ nettxemmim fell-ak. Sentem tansa agi imayl akken ad tremdeḍ amiḍan inek udiɣ anẓeṛ d akken kulec iteddu."
@@ -1162,7 +1181,8 @@ msgstr "Sader aneggaru"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Tuksa n imayl wis sin %(secondaryEmail)s ittwakkes akken iwata seg umiḍan-ik Firefox. ilγa n teγlist akked unekcum ur ttwaznen ara sya γer zdat γer tansa-agi."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Asenqed n %(secondaryEmail)s idda akken iwata am imayl wis sin i wemiḍan-ik Firafox. Ilγa n tγellist akked isentam n tuqna ad ttwaznen γer i sin n tansiwin sya d assawen."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

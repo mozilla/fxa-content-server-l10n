@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-29 16:04+0000\n"
-"PO-Revision-Date: 2020-05-03 19:16+0000\n"
-"Last-Translator: Isidora Barad Dur <barad.dur@yahoo.com>\n"
+"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"PO-Revision-Date: 2020-05-29 21:36+0000\n"
+"Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -216,7 +216,7 @@ msgid "The Firefox Accounts team"
 msgstr "Tim Firefox naloga"
 
 #: lib/senders/templates/postAddAccountRecovery.html:1
-#: lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
 msgid "Account recovery key generated"
 msgstr "Ključ za oporavak naloga generisan"
 
@@ -310,7 +310,7 @@ msgid "Consumed recovery code"
 msgstr "Iskorišćeni kod za oporavak"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1
-#: lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1437
+#: lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
 msgid "New recovery codes generated"
 msgstr "Novi kodovi za oporavak su generisani"
 
@@ -322,7 +322,7 @@ msgstr "Uspešno ste generisali nove kodove za oporavak sa uređaja:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1
 #: lib/senders/templates/postRemoveAccountRecovery.txt:1
-#: lib/senders/email.js:1616
+#: lib/senders/email.js:1619
 msgid "Account recovery key removed"
 msgstr "Ključ za oporavak naloga uklonjen"
 
@@ -349,7 +349,7 @@ msgstr ""
 "sledećeg uređaja:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1
-#: lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1317
+#: lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
 msgid "Secondary email removed"
 msgstr "Uklonjena je sekundarna adresa e-pošte"
 
@@ -394,31 +394,31 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:1
 #: lib/senders/templates/postVerify.txt:1
-#: lib/senders/templates/verificationReminderFirst.html:1
-#: lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Dobrodošli u Firefox porodicu"
+msgid "Firefox Account verified. You're almost there."
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:2
 #: lib/senders/templates/postVerify.txt:2
-msgid "You're signed in and ready to start exploring safely and securely."
-msgstr "Prijavljeni ste i spremni ste da istražujete sigurno i bezbedno."
+msgid "Next sync between your devices!"
+msgstr ""
 
 #: lib/senders/templates/postVerify.html:3
 #: lib/senders/templates/postVerify.txt:3
-msgid "Now get the most of Firefox by signing in everywhere you browse."
-msgstr "Izvucite maksimum iz Firefox-a prijavljivanjem svugde gde pregledate."
+msgid ""
+"Sync privately keeps your bookmarks, passwords and other Firefox data the "
+"same across all your devices."
+msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4
-msgid "Connect another device:"
-msgstr "Povežite drugi uređaj:"
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+msgid "Setup next device"
+msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Imate pitanja? Posetite %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1
-#: lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
 msgid "Secondary email added"
 msgstr "Sekundarna adresa dodata"
 
@@ -674,7 +674,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionReactivation.html:1
 #: lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Hvala vam što ste se ponovo aktivirali vašu %(productName)s pretplatu!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2
 #: lib/senders/templates/subscriptionReactivation.txt:2
@@ -684,6 +684,10 @@ msgid ""
 "%(nextInvoiceDateOnly)s. Your subscription will automatically renew each "
 "billing period unless you choose to cancel."
 msgstr ""
+"Vaš ciklus naplate i plaćanja ostaće isti. Sledeći račun će iznositi "
+"%(invoiceTotal)s$ na %(cardType)s kartici koja završava s %(lastFour)s na "
+"%(nextInvoiceDateOnly)s. Vaša pretplata će se automatski obnavljati svaki "
+"ciklus naplate ukoliko ga prethodno ne otkažete."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -742,6 +746,11 @@ msgstr ""
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ako niste, pomozite nam da odbijemo uljeza i prijavite nam to."
+
+#: lib/senders/templates/verificationReminderFirst.html:1
+#: lib/senders/templates/verificationReminderFirst.txt:1
+msgid "Welcome to the Firefox family"
+msgstr "Dobrodošli u Firefox porodicu"
 
 #: lib/senders/templates/verificationReminderFirst.html:2
 #: lib/senders/templates/verificationReminderFirst.txt:2
@@ -928,6 +937,10 @@ msgstr ""
 "Jednom kada potvrdite, pomoćićemo vam da instalirate i povežete Firefox na "
 "barem jedan uređaj."
 
+#: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+msgstr ""
+
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
@@ -1022,7 +1035,7 @@ msgstr "Uslovi i polisa otkazivanja"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Ponovo aktivirajte pretplatu"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -1136,95 +1149,91 @@ msgstr "Lozinka je ažurirana"
 msgid "Suspicious activity detected"
 msgstr "Otkrivena je sumnjiva radnja"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1246
-#: lib/senders/email.js:1282 lib/senders/email.js:1318
-#: lib/senders/email.js:1352 lib/senders/email.js:1395
-#: lib/senders/email.js:1438 lib/senders/email.js:1481
-#: lib/senders/email.js:1571 lib/senders/email.js:1617
+#: lib/senders/email.js:1164 lib/senders/email.js:1249
+#: lib/senders/email.js:1285 lib/senders/email.js:1321
+#: lib/senders/email.js:1355 lib/senders/email.js:1398
+#: lib/senders/email.js:1441 lib/senders/email.js:1484
+#: lib/senders/email.js:1574 lib/senders/email.js:1620
 msgid "Manage account"
 msgstr "Upravljajte nalogom"
 
 #: lib/senders/email.js:1200
-msgid "Account confirmed"
-msgstr "Nalog je potvrđen"
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr ""
 
-#: lib/senders/email.js:1203
-msgid "Connect another device"
-msgstr "Povežite drugi uređaj"
-
-#: lib/senders/email.js:1281
+#: lib/senders/email.js:1284
 msgid "Primary email updated"
 msgstr "Primarna adresa e-pošte je ažurirana"
 
-#: lib/senders/email.js:1351
+#: lib/senders/email.js:1354
 msgid "Two-step verification enabled"
 msgstr "Verifikacija u dva koraka omogućena"
 
-#: lib/senders/email.js:1394
+#: lib/senders/email.js:1397
 msgid "Two-step verification is off"
 msgstr "Autentifikacija u dva koraka onemogućena"
 
-#: lib/senders/email.js:1480
+#: lib/senders/email.js:1483
 msgid "Recovery code used"
 msgstr "Kod za oporavak je iskorišćen"
 
-#: lib/senders/email.js:1533
+#: lib/senders/email.js:1536
 msgid "1 recovery code remaining"
 msgstr "1 kod za oporavak je preostao"
 
-#: lib/senders/email.js:1535
+#: lib/senders/email.js:1538
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s kodova za oporavak je preostalo"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1541
 msgid "Generate codes"
 msgstr "Generiši kodove"
 
-#: lib/senders/email.js:1662
+#: lib/senders/email.js:1665
 msgid "Password updated using recovery key"
 msgstr "Lozinka je ažurirana pomoću ključa za oporavak"
 
-#: lib/senders/email.js:1663
+#: lib/senders/email.js:1666
 msgid "Create new recovery key"
 msgstr "Napravite novi ključ za oporavak"
 
-#: lib/senders/email.js:1726
+#: lib/senders/email.js:1729
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Ažurirali ste na %(productNameNew)s"
 
-#: lib/senders/email.js:1789
+#: lib/senders/email.js:1792
 msgid "You have switched to %(productNameNew)s"
 msgstr "Prebacili ste se na %(productNameNew)s"
 
-#: lib/senders/email.js:1846
+#: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Kreditna kartica za %(productName)s uskoro ističe"
 
-#: lib/senders/email.js:1896
+#: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s uplata nije uspela"
 
-#: lib/senders/email.js:1946 lib/senders/email.js:2006
+#: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Vaš %(productName)s pretplata je otkazana"
 
-#: lib/senders/email.js:2072
+#: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "%(productName)s pretplata je ponovo aktivirana"
 
-#: lib/senders/email.js:2140
+#: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
 msgstr "%(productName)s uplata je primljena"
 
-#: lib/senders/email.js:2212
+#: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s uplata je potvrđena"
 
-#: lib/senders/email.js:2280
+#: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
 msgstr "Dobrodošli u %(productName)s"
 
-#: lib/senders/email.js:2281
+#: lib/senders/email.js:2284
 msgid "Download %(productName)s"
 msgstr "Preuzmite %(productName)s"
 
@@ -1246,6 +1255,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Stranica koju ste tražili nije pronađena. Mi smo obavešteni o tome\n"
+"          i popravićemo neispravne veze."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -1261,6 +1272,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Nešto je pošlo naopako ovde. Mi smo obavešteni\n"
+"          i pokušaćemo da popravimo to."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -1275,6 +1288,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Trenutno smo pod jakim naporom i trudimo se da vratimo\n"
+"          sistem u normalu što je pre moguće."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -1315,6 +1330,22 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Preuzmite najnoviju verziju"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Prijavljeni ste i spremni ste da istražujete sigurno i bezbedno."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr ""
+#~ "Izvucite maksimum iz Firefox-a prijavljivanjem svugde gde pregledate."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Povežite drugi uređaj:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Nalog je potvrđen"
+
+#~ msgid "Connect another device"
+#~ msgstr "Povežite drugi uređaj"
 
 #~ msgid "Protect your data with a recovery key"
 #~ msgstr "Zaštitite vaše podatke uz kod za oporavak"
