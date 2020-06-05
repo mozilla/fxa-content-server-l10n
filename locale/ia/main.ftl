@@ -78,6 +78,7 @@ sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+pay-update-change-btn = Cambiar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -96,15 +97,21 @@ sub-item-cancel-sub = Cancellar subscription
 
 ## subscription route index
 
+sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Clicca ci pro discargar
+payment-confirmation-heading = Gratias { $displayName }!
+payment-confirmation-heading-bak = Gratias
+payment-confirmation-subheading = Un email de confirmation ha essite inviate a
 payment-confirmation-order-heading = Detalios del ordine
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturate a
@@ -113,5 +120,17 @@ payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } quotidian
+       *[other] { $amount } cata { $intervalCount } dies
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } septimanalmente
+       *[other] { $amount } cata { $intervalCount } septimanas
+    }
 payment-confirmation-cc-preview = que fini in { $last4 }
 payment-confirmation-download-button = Continuar a discargar
