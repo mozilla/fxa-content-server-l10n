@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 22:02+0000\n"
+"PO-Revision-Date: 2020-06-05 19:20+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -245,7 +245,7 @@ msgstr "Du har inaktiverat tvåstegsautentisering på ditt Firefox-konto. Säker
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Firefox-konto verifierat. Du är nästan klar."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -318,8 +318,8 @@ msgstr "Du har lyckats byta från %(productNameOld)s till %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Från och med din nästa räkning kommer din avgift att ändras från $%(paymentAmountOld)s per %(productPaymentCycle)s till $%(paymentAmountNew)s. Vid den tidpunkten kommer du också att få en "
 "engångskredit på $%(paymentProrated)s för att återspegla den lägre avgiften för resten av denna %(productPaymentCycle)s."
@@ -438,8 +438,8 @@ msgstr "Du har uppgraderat från %(productNameOld)s till %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Från och med din nästa räkning kommer din avgift att ändras från %(paymentAmountOld)s per %(productPaymentCycle)s till $%(paymentAmountNew)s. Vid den tidpunkten debiteras du också en engångsavgift "
 "på $%(paymentProrated)s för att återspegla den högre avgiften för återstoden av denna %(productPaymentCycle)s."
@@ -1314,11 +1314,11 @@ msgstr "Ladda ner senaste"
 #~ msgstr "Återställ lösenordet"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "För några dagar sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Ett verifierat konto låter dig öppna dina flikar, bokmärken, lösenord och historik på alla enheter ansluten "
-#~ "till den. Bekräfta denna e-postadress för att aktivera ditt konto."
+#~ "För några dagar sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Ett verifierat konto låter dig öppna dina flikar, bokmärken, lösenord och historik på alla enheter ansluten till "
+#~ "den. Bekräfta denna e-postadress för att aktivera ditt konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "För en vecka sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Vi är oroliga för dig. Bekräfta denna e-postadress för att aktivera ditt konto och låt oss veta du är okej."
@@ -1343,19 +1343,17 @@ msgstr "Ladda ner senaste"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Du har framgångsrikt tagit bort %(secondaryEmail)s som en sekundär e-postadress till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till "
-#~ "den här adressen."
+#~ "Du har framgångsrikt tagit bort %(secondaryEmail)s som en sekundär e-postadress till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den "
+#~ "här adressen."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har verifierat %(secondaryEmail)s som en sekundär e-post till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "På begäran, här är en länk för att installera Firefox på din mobila enhet: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr ""
-#~ "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
+#~ msgstr "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum och tid:"
