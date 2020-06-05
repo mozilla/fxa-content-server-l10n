@@ -145,9 +145,15 @@ pay-update-change-btn = Змінити
 
 ## plan-details
 
+plan-details-hide-button = Приховати подробиці
 
 ## payment confirmation
 
+payment-confirmation-alert = Натисніть тут, щоб завантажити
+payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
+payment-confirmation-heading = Дякуємо { $displayName }!
+payment-confirmation-heading-bak = Дякуємо!
+payment-confirmation-order-heading = Подробиці замовлення
 payment-confirmation-amount = { $amount } на { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
