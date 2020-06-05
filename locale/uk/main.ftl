@@ -131,11 +131,18 @@ pay-update-change-btn = Змінити
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Ви скасували передплату { $date }.
+reactivate-panel-copy = Ви втратите доступ до { $name } <strong>{ $date }</strong>.
+reactivate-success-button = Закрити
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Не вдається завантажити передплати
+sub-item-missing-msg = Будь ласка, спробуйте знову пізніше.
+sub-item-no-such-plan = Такого тарифного плану для цієї передплати не існує.
+sub-item-cancel-sub = Скасувати передплату
 
 ## subscription route index
 
