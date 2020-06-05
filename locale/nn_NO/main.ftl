@@ -107,15 +107,24 @@ account-activated = Kontoen din er aktivert, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
+sub-route-idx-contact = Kontakt support
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = Produktdetaljar
+plan-details-show-button = Vis detaljar
+plan-details-hide-button = Skjul detaljar
 
 ## payment confirmation
 
+payment-confirmation-alert = Trykk her for å laste ned
+payment-confirmation-heading = Tusen takk { $displayName }!
+payment-confirmation-heading-bak = Tusen takk!
+payment-confirmation-subheading = Ein stadfestings e-post er sendt til
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
