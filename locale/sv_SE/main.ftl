@@ -25,6 +25,11 @@ payment-error-2 = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med
 expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
 insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
+charge-exceeds-source-limit = Det ser ut som att denna transaktion överskred din dagliga kreditgräns. Prova ett annat kort eller om 24 timmar.
+instant-payouts-unsupported = Det ser ut som att ditt betalkort inte är inställt för omedelbara betalningar. Prova ett annat betalkort eller kreditkort.
+duplicate-transaction = Hmm. Det verkar som om en identisk transaktion just skickades. Kolla in din betalningshistorik.
+coupon-expired = Det ser ut som att kampanjkoden har gått ut.
+card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsinformation och försök igen.
 
 ## settings
 
