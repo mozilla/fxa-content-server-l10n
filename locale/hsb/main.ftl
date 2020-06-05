@@ -110,6 +110,30 @@ sub-update-total-label = Nowa suma
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } kóždy dźeń
+        [two] { $amount } kóždej { $intervalCount } dnjej
+        [few] { $amount } kóžde { $intervalCount } dny
+       *[other] { $amount } kóžde { $intervalCount } dnjow
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } kóždy tydźeń
+        [two] { $amount } kóždej { $intervalCount } njedźeli
+        [few] { $amount } kódźe { $intervalCount } njedźele
+       *[other] { $amount } kóžde { $intervalCount } njedźel
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } kóždy měsać
+        [two] { $amount } kóždej { $intervalCount } měsacaj
+        [few] { $amount } kóžde { $intervalCount } měsacy
+       *[other] { $amount } kóžde { $intervalCount } měsacow
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
