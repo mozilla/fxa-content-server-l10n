@@ -52,6 +52,8 @@ product-plan-details-heading = 来设置订阅吧
 
 ## Product route
 
+product-plan-error =
+    .title = 方案内容载入出错
 product-profile-error =
     .title = 个人资料载入出错
 product-customer-error =
@@ -129,6 +131,7 @@ sub-update-total-label = 新方案金额
 
 ##
 
+pay-update-card-exp = 有效期 { $expirationDate }
 pay-update-change-btn = 更改
 
 ## reactivate
@@ -138,6 +141,7 @@ reactivate-confirm-button = 重新订阅
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = 您已于 { $date } 取消订阅。
 reactivate-success-button = 关闭
 
 ## subscription item
@@ -146,6 +150,7 @@ reactivate-success-button = 关闭
 
 sub-item-missing = 加载订阅信息时出现问题
 sub-item-missing-msg = 请稍后再试。
+sub-item-no-such-plan = 该订阅无此类方案。
 sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
 account-activated = 您的账户已激活，<userEl/>
@@ -169,11 +174,14 @@ sub-guarantee = 30 天退款保证
 
 ## plan-details
 
+plan-details-header = 产品详细信息
 plan-details-show-button = 显示详细信息
 plan-details-hide-button = 隐藏详细信息
+plan-details-total-label = 总计
 
 ## payment confirmation
 
+payment-confirmation-alert = 点此下载
 payment-confirmation-heading = 感谢 { $displayName }！
 payment-confirmation-heading-bak = 感谢您！
 payment-confirmation-order-heading = 订单详细信息
