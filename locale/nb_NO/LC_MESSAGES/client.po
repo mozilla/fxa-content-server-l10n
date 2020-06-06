@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 08:15+0000\n"
+"PO-Revision-Date: 2020-06-06 20:39+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1211,7 +1211,7 @@ msgstr "Skriv inn bekreftelseskode"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Skriv inn bekreftelseskoden som ble sendt til %(escapedEmail)s innen 5 minutt."
+msgstr "Skriv inn bekreftelseskoden som ble sendt til %(escapedEmail)s, innen 5 minutt."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -2233,7 +2233,7 @@ msgstr "Send større filer sikkert og privat."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr "Vær trygg &mdash; gjenbruk ikke passord."
+msgstr "Beskytt deg selv &mdash; ikke bruk samme passord flere ganger."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
