@@ -42,24 +42,44 @@ privacy = הצהרת פרטיות
 
 ## payment legal blurb
 
+payment-legal-copy = ‏{ -brand-name-mozilla } משתמש ב־Stripe לצורך עיבוד תשלומים מאובטח.
+payment-legal-link = הצגת <a>מדיניות הפרטיות של Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = שם מלא
+    .label = השם כפי שמופיע על הכרטיס
+payment-ccn =
+    .label = מספר כרטיס
+payment-exp =
+    .label = תפוגה
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = מיקוד
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = ביטול
+payment-update-btn = עדכון
+payment-validate-name-error = נא להכניס את השם שלך
+payment-validate-zip-short = המיקוד קצר מדי
 
 ## subscription redirect
 
+sub-redirect-ready = המינוי שלך מוכן
 
 ## fields
 
+default-input-error = שדה זה נדרש
 
 ## subscription upgrade
 
+sub-update-failed = עדכון התוכנית נכשל
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -83,17 +103,31 @@ privacy = הצהרת פרטיות
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = רוצה להמשיך להשתמש ב־{ $name }?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = סגירה
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = בעיה בטעינת מינויים
+sub-item-missing-msg = נא לנסות שוב מאוחר יותר.
+sub-item-no-such-plan = אין תוכנית כזו למנוי הזה.
+sub-item-cancel-msg =
+    לא תהיה לך עוד אפשרות להשתמש ב־{ $name } אחרי
+    { $period }, היום האחרון של מחזור החיוב שלך.
+account-activated = החשבון שלך מופעל, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = בתהליך עדכון פרטי החיוב...
+sub-route-idx-reactivating = הפעלת המינוי מחדש נכשלה
+sub-route-idx-cancel-failed = ביטול המינוי נכשל
+sub-route-idx-contact = יצירת קשר עם התמיכה
+sub-route-idx-cancel-msg-title = עצוב לנו שבחרת לעזוב
 
 ## subscription create
 
