@@ -66,6 +66,7 @@ year-based-plan-details-amount =
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } bruker Stripe for sikker betalingsprosessering.
 
 ## payment form
 
