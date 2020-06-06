@@ -25,25 +25,65 @@ insufficient-funds-error = Úgy tűnik, hogy a bankkártyáján kevés a fedezet
 withdrawal-count-limit-exceeded-error = Úgy tűnik, hogy ez a tranzakció túllép a hitelkeretén. Próbálkozzon egy másik kártyával.
 charge-exceeds-source-limit = Úgy tűnik, hogy ez a tranzakció túllép a napi hitelkeretén. Próbálkozzon egy másik kártyával vagy 24 óra múlva.
 instant-payouts-unsupported = Úgy tűnik, hogy a bankkártyája nincs beállítva azonnali fizetésekhez. Próbálkozzon egy másik kártyával.
+coupon-expired = Úgy tűnik, hogy a promóciós kód lejárt.
 
 ## settings
 
+settings-subscriptions = Előfizetések és fizetések
 
 ## legal footer
 
+terms = A szolgáltatás feltételei
+privacy = Adatvédelmi nyilatkozat
 
 ## plan details
 
+product-plan-details-heading = Állítsuk be az előfizetését
+product-plan-details-heading = Állítsuk be az előfizetését
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, naponta { $amount } számlázva
+       *[other] { $productName }, { $intervalCount } naponta { $amount } számlázva
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, hetente { $amount } számlázva
+       *[other] { $productName }, { $intervalCount } hetente { $amount } számlázva
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, havonta { $amount } számlázva
+       *[other] { $productName }, { $intervalCount } havonta { $amount } számlázva
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, évente { $amount } számlázva
+       *[other] { $productName }, { $intervalCount } évente { $amount } számlázva
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Probléma az előfizetések betöltésekor
+product-profile-error =
+    .title = Probléma a profil betöltésekor
+product-customer-error =
+    .title = Probléma az ügyfél betöltésekor
+product-plan-not-found = Az előfizetés nem található
+product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
 ## payment legal blurb
 
+payment-legal-copy = A { -brand-name-mozilla } a Stripe-ot használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link = Tekintse meg a <a>Stripe adatvédelmi irányelveit</a>.
 
 ## payment form
 
