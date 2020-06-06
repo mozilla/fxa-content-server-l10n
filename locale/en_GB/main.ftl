@@ -133,38 +133,138 @@ payment-confirm-year =
 
 ##
 
+payment-cancel-btn = Cancel
+payment-update-btn = Update
+payment-pay-btn = Pay now
+payment-validate-name-error = Please enter your name
+payment-validate-zip-required = Post code is required
+payment-validate-zip-short = Post code is too short
 
 ## subscription redirect
 
+sub-redirect-ready = Your subscription is ready
+sub-redirect-copy = Please take a moment to tell us about your experience.
+sub-redirect-skip-survey = No thanks, just take me to my product.
 
 ## fields
 
+default-input-error = This field is required
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Review your upgrade
+sub-update-failed = Plan update failed
+sub-update-title = Billing information
+sub-update-card-ending = Card Ending { $last }
+sub-update-card-exp = Expires { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Your plan will change immediately, and you’ll be charged an adjusted
+    amount for the rest of your billing cycle. Starting { $startingDate }
+    you’ll be charged the full amount.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } daily</strong>, according to payment terms, until I cancel my subscription.
+       *[other] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } days</strong>, according to payment terms, until I cancel my subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } weekly</strong>, according to payment terms, until I cancel my subscription.
+       *[other] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } weeks</strong>, according to payment terms, until I cancel my subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } monthly</strong>, according to payment terms, until I cancel my subscription.
+       *[other] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } months</strong>, according to payment terms, until I cancel my subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } yearly</strong>, according to payment terms, until I cancel my subscription.
+       *[other] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } years</strong>, according to payment terms, until I cancel my subscription.
+    }
 
 ##
 
+sub-update-submit = Confirm upgrade
+sub-update-indicator =
+    .aria-label = upgrade indicator
+sub-update-current-plan-label = Current plan
+sub-update-new-plan-label = New plan
+sub-update-total-label = New total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } daily
+       *[other] { $amount } every { $intervalCount } days
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } weekly
+       *[other] { $amount } every { $intervalCount } weeks
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } monthly
+       *[other] { $amount } every { $intervalCount } months
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } yearly
+       *[other] { $amount } every { $intervalCount } years
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] You are billed { $amount } daily for { $name }. Your next payment occurs on { $date }.
+       *[other] You are billed { $amount } every { $intervalCount } days for { $name }. Your next payment occurs on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] You are billed { $amount } weekly for { $name }. Your next payment occurs on { $date }.
+       *[other] You are billed { $amount } every { $intervalCount } weeks for { $name }. Your next payment occurs on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] You are billed { $amount } monthly for { $name }. Your next payment occurs on { $date }.
+       *[other] You are billed { $amount } every { $intervalCount } months for { $name }. Your next payment occurs on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] You are billed { $amount } yearly for { $name }. Your next payment occurs on { $date }.
+       *[other] You are billed { $amount } every { $intervalCount } years for { $name }. Your next payment occurs on { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Expires { $expirationDate }
+pay-update-change-btn = Change
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Want to keep using { $name }?
 
 ##  $date (Date) - Last day of product access
 
