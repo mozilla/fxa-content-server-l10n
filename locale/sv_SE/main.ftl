@@ -183,6 +183,12 @@ sub-update-confirm-month =
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje månad</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
        *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } månad</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje år</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } år</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
 
 ##
 
