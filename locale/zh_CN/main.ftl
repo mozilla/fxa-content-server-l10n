@@ -19,6 +19,7 @@ close-aria =
 ## app error dialog
 
 basic-error-message = 出问题了，请稍后再试。
+coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
 
 ## settings
@@ -62,6 +63,8 @@ payment-zip =
 
 payment-cancel-btn = 取消
 payment-update-btn = 更新
+payment-validate-name-error = 请输入您的名字
+payment-validate-zip-short = 邮政编码太短
 
 ## subscription redirect
 
@@ -91,6 +94,7 @@ sub-update-title = 账单信息
 
 ##
 
+pay-update-change-btn = 更改
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -98,23 +102,31 @@ sub-update-title = 账单信息
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = 关闭
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = 请稍后再试。
+sub-item-cancel-sub = 取消订阅
+sub-item-stay-sub = 保持订阅
 
 ## subscription route index
 
+sub-route-idx-updating = 正在更新账单信息...
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-show-button = 显示详细信息
+plan-details-hide-button = 隐藏详细信息
 
 ## payment confirmation
 
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = 前往下载
