@@ -10,9 +10,12 @@
 
 ## general-aria
 
+close-aria =
+    .aria-label = Lat att modal
 
 ## app error dialog
 
+basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 
 ## settings
 
