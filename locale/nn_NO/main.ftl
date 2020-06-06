@@ -125,6 +125,7 @@ payment-confirmation-alert = Trykk her for å laste ned
 payment-confirmation-heading = Tusen takk { $displayName }!
 payment-confirmation-heading-bak = Tusen takk!
 payment-confirmation-subheading = Ein stadfestings e-post er sendt til
+payment-confirmation-order-heading = Ordredetaljar
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
