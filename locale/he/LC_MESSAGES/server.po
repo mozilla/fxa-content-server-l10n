@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 22:12+0000\n"
+"PO-Revision-Date: 2020-06-06 22:21+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "אם עוד לא הורדת את %(productName)s, בואו נתחיל להשתמש בכל התכונות הכלולות במנוי שלך:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "שאלות לגבי המנוי שלך? <a href=\"%(subscriptionSupportUrl)s\">צוות התמיכה</a> שלנו כאן כדי לעזור לך."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "שאלות לגבי המנוי שלך? צוות התמיכה שלנו כאן כדי לעזור לך:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -240,11 +240,11 @@ msgstr "ניטרלת בהצלחה את האימות הדו־שלבי בחשבו�
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "חשבון ה־Firefox אומת. כמעט סיימת."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "עכשיו ניתן לסנכרן בין המכשירים שלך!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
@@ -252,7 +252,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "הגדרת המכשיר הבא"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -285,7 +285,7 @@ msgstr "תודה שבחרת ב־Firefox! באפשרותך להתקין את Fire
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "מצטערים לראות שבחרת לעזוב"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -313,8 +313,8 @@ msgstr "עברת בהצלחה מ־%(productNameOld)s ל־%(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -429,8 +429,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -1063,8 +1063,7 @@ msgstr "הורדת העדכני ביותר"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כדי להפיק את המיטב מ־Sync, כדאי לחבר כל <a href='%(androidUrl)s'>Firefox עבור Android</a> או <a href='%(iosUrl)s'>Firefox עבור iOS</a>."
+#~ msgstr "חיברת בהצלחה את המכשיר הראשון שלך לחשבון ה־Firefox שלך. כדי להפיק את המיטב מ־Sync, כדאי לחבר כל <a href='%(androidUrl)s'>Firefox עבור Android</a> או <a href='%(iosUrl)s'>Firefox עבור iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "התחברות ל־Sync"
@@ -1178,15 +1177,14 @@ msgstr "הורדת העדכני ביותר"
 #~ msgstr "איפוס ססמה"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "לפני מספר ימים יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו. חשבון מאומת מאפשר גישה ללשוניות, סימניות, ססמאות ולהיסטוריה שלך מכל התקן המחובר אליו. כל שעליך לעשות זה לאמת את כתובת הדואר "
-#~ "האלקטרוני שלך כדי להפעיל את החשבון."
+#~ "לפני מספר ימים יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו. חשבון מאומת מאפשר גישה ללשוניות, סימניות, ססמאות ולהיסטוריה שלך מכל התקן המחובר אליו. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני"
+#~ " שלך כדי להפעיל את החשבון."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "לפני כשבוע יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו.  אנחנו מודאגים לגביך. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני שלך כדי להפעיל את החשבון, כדי שנדע שהכול מתפקד כשורה אצלך."
+#~ msgstr "לפני כשבוע יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו.  אנחנו מודאגים לגביך. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני שלך כדי להפעיל את החשבון, כדי שנדע שהכול מתפקד כשורה אצלך."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם התקן זה:"
@@ -1203,8 +1201,7 @@ msgstr "הורדת העדכני ביותר"
 #~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 #~ msgstr "זוהי הודעת דוא״ל אוטומטית, אם קיבלת אותה בטעות ולא אישרת את הפעולה הזאת עדיף <a %(passwordChangeLinkAttributes)s>להחליף את הססמה שלך</a>."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "אימתת בהצלחה את %(secondaryEmail)s ככתובת דוא״ל משנית לחשבון ה־Firefox שלך. התרעות אבטחה ואימות כניסה יישלחו מעתה לשתי כתובות הדוא״ל."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
