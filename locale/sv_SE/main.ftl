@@ -106,6 +106,31 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } dagligen</strong>, enligt betalningsvillkor, tills jag avbryter min prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } dag</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje vecka</strong>, enligt betalningsvillkor, tills jag avbryter min prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } vecka</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje månad</strong>, enligt betalningsvillkor, tills jag avbryter min prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } månad</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje år</strong>, enligt betalningsvillkor, tills jag avbryter min prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } år</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+payment-confirm = Jag godkänner Mozilla, tillverkare av Firefox-produkter, att debitera min betalningsmetod <strong>${ $amount } per{ $interval }</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
 
 ##
 
@@ -140,6 +165,24 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } dagligen</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } dag</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje vecka</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } vecka</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje månad</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+       *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } månad</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
+    }
 
 ##
 
@@ -311,13 +354,14 @@ payment-confirmation-amount-week =
 #  $intervalCount (Number) - The interval between payments, in months.
 payment-confirmation-amount-month =
     { $intervalCount ->
-        [one] { $amount } månader
-       *[other] { $amount } varje { $intervalCount } månader
+        [one] { $amount } varje månad
+       *[other] { $amount } var { $intervalCount } månad
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirmation-amount-year =
     { $intervalCount ->
-        [one] { $amount } årligen
-       *[other] { $amount } varje { $intervalCount } år
+        [one] { $amount } varje år
+       *[other] { $amount } var { $intervalCount } år
     }
 payment-confirmation-cc-preview = slutar på { $last4 }
+payment-confirmation-download-button = Fortsätt till nedladdning
