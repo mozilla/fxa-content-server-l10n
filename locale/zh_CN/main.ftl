@@ -18,7 +18,10 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
+payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡行联系。
+payment-error-2 = 呃，您的付款授权有问题。请与您的发卡行联系。
 coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
 
