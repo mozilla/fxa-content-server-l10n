@@ -32,9 +32,18 @@ document =
 
 ## Product route
 
+product-plan-error =
+    .title = Ugur deg usali n yiɣawasen
+product-profile-error =
+    .title = Ugur deg usali n umaɣnu
+product-customer-error =
+    .title = Ugur deg usali n umsaɣ
+product-plan-not-found = Ur yettwaf ara uɣawas
+product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } seqdec Stripe i usesfer aɣelsan n yiselliken.
 payment-legal-link = Senqed <a>tasertit tabaḍnit n Stripe</a>.
 
 ## payment form
