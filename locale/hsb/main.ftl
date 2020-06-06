@@ -24,6 +24,8 @@ payment-error-1 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał.
 payment-error-2 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
 expired-card-error = Zda so, kaž by waše kreditna karty spadnyła. Spytajće druhu kartu.
 insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
+withdrawal-count-limit-exceeded-error = Zda so, kaž byšće z tutej transakciju swój kartowy limit překročał. Spytajće druhu kartu.
+charge-exceeds-source-limit = Zda so, kaž byšće z tutej transakciju swój wšědny kartowy limit překročał. Spytajće druhu kartu abo za 24 hodźin.
 
 ## settings
 
