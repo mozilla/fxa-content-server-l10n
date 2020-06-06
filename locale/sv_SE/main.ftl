@@ -80,9 +80,15 @@ product-plan-error =
     .title = Problem med att ladda planer
 product-profile-error =
     .title = Problem med att ladda profil
+product-customer-error =
+    .title = Problem med att ladda kund
+product-plan-not-found = Plan hittades inte
+product-no-such-plan = Ingen sådan plan för denna produkt.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } använder Stripe för säker betalningshantering.
+payment-legal-link = Se <a>Stripes sekretesspolicy</a>.
 
 ## payment form
 
@@ -177,9 +183,34 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Du faktureras { $amount } dagligen för { $name }. Din nästa betalning sker den { $date }.
+       *[other] Du faktureras { $amount } var { $intervalCount } dag för { $name }. Din nästa betalning sker den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Du faktureras { $amount } varje vecka för { $name }. Din nästa betalning sker den { $date }.
+       *[other] Du faktureras { $amount } var { $intervalCount } vecka för { $name }. Din nästa betalning sker den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Du faktureras { $amount } varje månad för { $name }. Din nästa betalning sker den { $date }.
+       *[other] Du faktureras { $amount } var { $intervalCount } månad för { $name }. Din nästa betalning sker den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Du faktureras { $amount } varje år för { $name }. Din nästa betalning sker den { $date }.
+       *[other] Du faktureras { $amount } var { $intervalCount } år för { $name }. Din nästa betalning sker den { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Upphör { $expirationDate }
 pay-update-change-btn = Ändra
 
 ## reactivate
@@ -212,6 +243,10 @@ plan-details-total-label = Totalt
 payment-confirmation-heading-bak = Tack!
 payment-confirmation-subheading = Ett bekräftelsemeddelande har skickats till
 payment-confirmation-order-heading = Orderdetaljer
+payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Faktureras till
+payment-confirmation-details-heading = Betalningsinformation
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
