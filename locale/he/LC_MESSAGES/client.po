@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 22:11+0000\n"
+"PO-Revision-Date: 2020-06-06 23:22+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -325,7 +325,7 @@ msgstr "נתוני הסנכרון שלך מוגנים"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "אם תאבד הגישה לחשבון שלך, יהיה באפשרותך לשחזר את הנתונים המסונכרנים."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -681,19 +681,19 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown subscription."
-msgstr ""
+msgstr "מינוי לא מוכר."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "תוכנית לא מוכרת למינוי."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "אסימון תשלום לא חוקי למינוי."
 
 #: .es5/lib/auth-errors.js:276
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "המינוי כבר בוטל"
 
 #: .es5/lib/auth-errors.js:280
 msgid "Update was rejected, please try again"
