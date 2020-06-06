@@ -22,6 +22,7 @@ basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 
 ## legal footer
 
+terms = Tenestevilkår
 
 ## plan details
 
