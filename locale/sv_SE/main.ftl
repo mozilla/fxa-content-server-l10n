@@ -230,19 +230,49 @@ reactivate-confirm-button = Prenumerera igen
 
 reactivate-panel-date = Du avbröt ditt prenumeration den { $date }.
 reactivate-panel-copy = Du förlorar åtkomsten till { $name } den <strong>{ $date }</strong>.
+reactivate-success-copy = Tack! Du är klar.
 reactivate-success-button = Stäng
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem med att ladda prenumerationer
+sub-item-missing-msg = Försök igen senare.
+sub-item-no-such-plan = Ingen sådan plan för denna prenumeration.
 sub-item-cancel-sub = Avbryt prenumeration
+sub-item-stay-sub = Behåll din prenumeration
+sub-item-cancel-msg =
+    Du kommer inte längre att kunna använda { $name } efter
+    { $period }, den sista dagen i din faktureringscykel.
+sub-item-cancel-confirm =
+    Avbryt min åtkomst och min sparade information för
+    { $name } den { $period }
+account-activated = Ditt konto är aktiverat, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Uppdaterar faktureringsinformation...
+sub-route-idx-reactivating = Återaktivering av prenumerationen misslyckades
+sub-route-idx-cancel-failed = Avbrytande av prenumeration misslyckades
+sub-route-idx-contact = Kontakta supporten
+sub-route-idx-cancel-msg-title = Vi tycker det är tråkigt att du lämnar oss.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Din prenumeration { $name } har avbrutits.
+          <br />
+          Du har fortfarande åtkomst till { $name } ända tills { $date }.
+sub-route-idx-cancel-aside = Har du frågor? Besök <a>{ -brand-name-mozilla } Support</a>.
+sub-subscription-error =
+    .title = Problem med att ladda prenumerationer
+sub-customer-error =
+    .title = Problem med att ladda kund
+sub-billing-update-success = Din faktureringsinformation har uppdaterats
 
 ## subscription create
 
+sub-guarantee = 30-dagars återbetalningsgaranti
 
 ## plan-details
 
@@ -266,3 +296,28 @@ payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } dagligen
+       *[other] { $amount } var { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } varje vecka
+       *[other] { $amount } var { $intervalCount } vecka
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } månader
+       *[other] { $amount } varje { $intervalCount } månader
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } årligen
+       *[other] { $amount } varje { $intervalCount } år
+    }
+payment-confirmation-cc-preview = slutar på { $last4 }
