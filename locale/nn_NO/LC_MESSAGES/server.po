@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 08:30+0000\n"
+"PO-Revision-Date: 2020-06-06 08:52+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -251,7 +251,7 @@ msgstr "Synkroniser einingane dine no!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Synkronisering held bokmerka, passorda og andre Firefox-data like på alle einingane dine."
+msgstr "Privat synkronisering held bokmerke, passord og andre Firefox-data heilt like på alle einingane dine."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
