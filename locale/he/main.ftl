@@ -128,15 +128,35 @@ sub-route-idx-reactivating = הפעלת המינוי מחדש נכשלה
 sub-route-idx-cancel-failed = ביטול המינוי נכשל
 sub-route-idx-contact = יצירת קשר עם התמיכה
 sub-route-idx-cancel-msg-title = עצוב לנו שבחרת לעזוב
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    המינוי שלך ל־{ $name } בוטל.
+          <br />
+          תהיה לך עדיין גישה ל־{ $name } עד { $date }.
+sub-route-idx-cancel-aside = יש שאלות? ניתן לבקר ב<a>{ -brand-name-mozilla }תמיכה</a>.
+sub-subscription-error =
+    .title = בעיה בטעינת מינויים
+sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = פרטי מוצר
+plan-details-show-button = הצגת פרטים
+plan-details-hide-button = הסתרת פרטים
+plan-details-total-label = סה״כ
 
 ## payment confirmation
 
+payment-confirmation-alert = נא ללחוץ כאן להורדה
+payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
+payment-confirmation-heading = תודה רבה { $displayName }!
+payment-confirmation-heading-bak = תודה רבה!
+payment-confirmation-subheading = הודעת דוא״ל לאישור נשלחה אל
+payment-confirmation-order-heading = פרטי הזמנה
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
