@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 19:40+0000\n"
+"PO-Revision-Date: 2020-06-06 19:57+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -252,7 +252,7 @@ msgstr "Přichodna synchronizacija mjez gratami!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Priwatna synchronizacija waše zapołožki, hesła a druhe daty Firefox na wšěch wašich gratach jenake dźerži."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
@@ -574,7 +574,7 @@ msgstr "Hdyž je wobkrućena, budźemy wam pomhać, Firefox na znajmjeńša jedn
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Abo instalujće na <a %(cadLinkAttributes)s>druhim graće</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -751,7 +751,7 @@ msgstr "Konto rjadować"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Konto je přepruwowane. Synchronizujće nětko druhi grat, zo byšće konfiguraciju zakónčił."
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
