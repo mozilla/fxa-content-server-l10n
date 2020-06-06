@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 08:19+0000\n"
+"PO-Revision-Date: 2020-06-06 08:24+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -244,7 +244,7 @@ msgstr "Du har deaktivert totrinns-verifisering på din Firefox-konto. Sikkerhet
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr "Firefox-konto bekreftet. Du er nesten der."
+msgstr "Firefox-konto bekreftet. Du er nesten klar."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -751,7 +751,7 @@ msgstr "Behandle konto"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Kontoen bekreftet. Synkroniser nå en annen enhet for å fullføre installasjonen"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
