@@ -52,6 +52,12 @@ product-plan-details-heading = 来设置订阅吧
 
 ## Product route
 
+product-profile-error =
+    .title = 个人资料载入出错
+product-customer-error =
+    .title = 客户资料载入出错
+product-plan-not-found = 找不到方案内容
+product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
@@ -94,6 +100,7 @@ default-input-error = 此字段必填
 ## subscription upgrade
 
 product-plan-upgrade-heading = 确认升级内容
+sub-update-failed = 方案更新失败
 sub-update-title = 账单信息
 sub-update-card-ending = 卡尾号 { $last }
 sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
@@ -104,6 +111,11 @@ sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 ##
 
 sub-update-submit = 确认升级
+sub-update-indicator =
+    .aria-label = 升级指标
+sub-update-current-plan-label = 目前方案
+sub-update-new-plan-label = 新方案
+sub-update-total-label = 新方案金额
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -122,6 +134,7 @@ pay-update-change-btn = 更改
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = 重新订阅
 
 ##  $date (Date) - Last day of product access
 
@@ -131,13 +144,19 @@ reactivate-success-button = 关闭
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = 加载订阅信息时出现问题
 sub-item-missing-msg = 请稍后再试。
 sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
+account-activated = 您的账户已激活，<userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = 正在更新账单信息...
+sub-route-idx-reactivating = 重新激活订阅失败
+sub-route-idx-cancel-failed = 订阅取消失败
+sub-route-idx-contact = 联系用户支持
+sub-route-idx-cancel-msg-title = 很抱歉看到您离开
 sub-subscription-error =
     .title = 加载订阅信息时出现问题
 sub-customer-error =
@@ -157,6 +176,7 @@ plan-details-hide-button = 隐藏详细信息
 
 payment-confirmation-heading = 感谢 { $displayName }！
 payment-confirmation-heading-bak = 感谢您！
+payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人：
 payment-confirmation-details-heading = 付款详情
