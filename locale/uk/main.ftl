@@ -46,30 +46,30 @@ product-plan-details-heading = Налаштуймо вашу передплат�
 #  $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
-        [one] Передплата { $productName } у розмірі { $amount } стягується щоденно
-        [few] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } дні
-       *[many] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } днів
+        [one] Передплата { $productName } розміром { $amount } стягується щодня
+        [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } дні
+       *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } днів
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
-        [one] Передплата { $productName } у розмірі { $amount } стягується щотижня
-        [few] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } тижні
-       *[many] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } тижнів
+        [one] Передплата { $productName } розміром { $amount } стягується щотижня
+        [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } тижні
+       *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } тижнів
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
-        [one] Передплата { $productName } у розмірі { $amount } стягується щомісяця
-        [few] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } місяці
-       *[many] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } місяців
+        [one] Передплата { $productName } розміром { $amount } стягується щомісяця
+        [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } місяці
+       *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } місяців
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
-        [one] Передплата { $productName } у розмірі { $amount } стягується щорічно
-        [few] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } роки
-       *[many] Передплата { $productName } у розмірі { $amount } стягується кожні { $intervalCount } років
+        [one] Передплата { $productName } розміром { $amount } стягується щорічно
+        [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } роки
+       *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } років
     }
 
 ## Product route
@@ -191,16 +191,30 @@ sub-update-total-label = Нова сума
 #  $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
-        [one] { $amount } щоденно
-        [few] { $amount } що { $intervalCount } дні
-       *[many] { $amount } що { $intervalCount } днів
+        [one] { $amount } щодня
+        [few] { $amount } кожні { $intervalCount } дні
+       *[many] { $amount } кожні { $intervalCount } днів
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
-        [one] { $amount } щотижнево
-        [few] { $amount } що { $intervalCount } тижні
-       *[many] { $amount } що { $intervalCount } тижнів
+        [one] { $amount } щотижня
+        [few] { $amount } кожні { $intervalCount } тижні
+       *[many] { $amount } кожні { $intervalCount } тижнів
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } щомісяця
+        [few] { $amount } кожні { $intervalCount } місяці
+       *[many] { $amount } кожні { $intervalCount } місяців
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } щороку
+        [few] { $amount } кожні { $intervalCount } роки
+       *[many] { $amount } кожні { $intervalCount } років
     }
 
 ## payment update
@@ -258,30 +272,30 @@ payment-confirmation-amount = { $amount } на { $interval }
 #  $intervalCount (Number) - The interval between payments, in days.
 payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $amount } щоденно
-        [few] { $amount } що { $intervalCount } дні
-       *[many] { $amount } що { $intervalCount } днів
+        [one] { $amount } щодня
+        [few] { $amount } кожні { $intervalCount } дні
+       *[many] { $amount } кожні { $intervalCount } днів
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirmation-amount-week =
     { $intervalCount ->
-        [one] { $amount } щотижнево
-        [few] { $amount } що { $intervalCount } тижні
-       *[many] { $amount } що { $intervalCount } днів
+        [one] { $amount } щотижня
+        [few] { $amount } кожні { $intervalCount } тижні
+       *[many] { $amount } кожні { $intervalCount } тижнів
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 payment-confirmation-amount-month =
     { $intervalCount ->
-        [one] { $amount } щомісячно
-        [few] { $amount } що { $intervalCount } місяці
-       *[many] { $amount } що { $intervalCount } місяців
+        [one] { $amount } щомісяця
+        [few] { $amount } кожні { $intervalCount } місяці
+       *[many] { $amount } кожні { $intervalCount } місяців
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirmation-amount-year =
     { $intervalCount ->
-        [one] { $amount } щорічно
-        [few] { $amount } що { $intervalCount } роки
-       *[many] { $amount } що { $intervalCount } років
+        [one] { $amount } щороку
+        [few] { $amount } кожні { $intervalCount } роки
+       *[many] { $amount } кожні { $intervalCount } років
     }
 payment-confirmation-cc-preview = останні цифри номера картки { $last4 }
 payment-confirmation-download-button = Продовжити завантаження
