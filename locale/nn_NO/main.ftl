@@ -5,8 +5,11 @@
 
 ## branding
 
+project-brand = Firefox-kontoar
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+document =
+    .title = Firefox-kontoar
 
 ## general-aria
 
