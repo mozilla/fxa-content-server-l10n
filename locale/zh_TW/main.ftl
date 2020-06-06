@@ -174,6 +174,18 @@ sub-update-confirm-week =
         [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每週持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
        *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 週對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每個月持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 個月對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每年持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 年對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
 
 ##
 
@@ -196,10 +208,13 @@ sub-update-total-label = 新方案金額
 
 ##
 
+pay-update-card-exp = 到期於 { $expirationDate }
+pay-update-change-btn = 變更
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = 想要繼續使用 { $name } 嗎？
 reactivate-confirm-button = 重新訂閱
 
 ##  $date (Date) - Last day of product access
@@ -214,6 +229,7 @@ reactivate-success-button = 關閉
 
 sub-item-missing = 載入訂閱資訊時發生問題
 sub-item-missing-msg = 請稍候再試。
+sub-item-no-such-plan = 此訂閱內容無此方案。
 sub-item-cancel-sub = 取消訂閱
 sub-item-stay-sub = 保持訂閱
 account-activated = <userEl/>，已啟用您的帳號
@@ -249,6 +265,7 @@ payment-confirmation-alert = 點擊此處下載
 payment-confirmation-mobile-alert = 應用程式沒有出現嗎？<a>請點擊此處</a>
 payment-confirmation-heading = 感謝 { $displayName }！
 payment-confirmation-heading-bak = 感謝您！
+payment-confirmation-subheading = 已將確認信發送至
 payment-confirmation-order-heading = 訂單詳細資訊
 payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人:
