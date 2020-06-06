@@ -22,6 +22,8 @@ general-error-heading = Powšitkowny nałoženski zmylk
 basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 payment-error-1 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
 payment-error-2 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
+expired-card-error = Zda so, kaž by waše kreditna karty spadnyła. Spytajće druhu kartu.
+insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 
 ## settings
 
