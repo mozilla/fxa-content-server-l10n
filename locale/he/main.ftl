@@ -18,6 +18,7 @@ document =
 
 general-error-heading = שגיאת יישום כללית
 basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
+expired-card-error = נראה שפג תוקף הכרטיס אשראי שלך. נא לנסות כרטיס אחר.
 
 ## settings
 

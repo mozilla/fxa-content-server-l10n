@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 22:30+0000\n"
+"PO-Revision-Date: 2020-06-06 22:34+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -427,7 +427,7 @@ msgstr "תודה ששידרגת!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "שידרגת בהצלחה מ־%(productNameOld)s ל־%(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -621,7 +621,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "הפעלת המינוי מחדש"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -629,7 +629,7 @@ msgstr "ביטול מינוי"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Update billing information"
-msgstr ""
+msgstr "עדכון פרטי החיוב"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
@@ -649,7 +649,7 @@ msgstr "הצהרת פרטיות:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "ביטול מינוי:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
@@ -790,11 +790,11 @@ msgstr ""
 
 #: lib/senders/email.js:1849
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "תוקף כרטיס האשראי עבור %(productName)s יפוג בקרוב"
 
 #: lib/senders/email.js:1899
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "התשלום עבור %(productName)s נכשל"
 
 #: lib/senders/email.js:1949 lib/senders/email.js:2009
 msgid "Your %(productName)s subscription has been cancelled"
@@ -802,7 +802,7 @@ msgstr "התשלום שלך עבור %(productName)s בוטל"
 
 #: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "המינוי עבור %(productName)s הופעל מחדש"
 
 #: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
@@ -810,7 +810,7 @@ msgstr "התשלום עבור %(productName)s התקבל"
 
 #: lib/senders/email.js:2215
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "התשלום עבור %(productName)s אומת"
 
 #: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
@@ -862,6 +862,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"אנחנו כרגע תחת עומס כבד ופועלים כדי להחזיר\n"
+"          את המערכת לפעילות רגילה במהירות האפשרית."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
