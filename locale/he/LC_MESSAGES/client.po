@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 23:22+0000\n"
+"PO-Revision-Date: 2020-05-30 22:14+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1904,7 +1904,7 @@ msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr ""
+msgstr "מינויים ותשלומים"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2033,7 +2033,7 @@ msgstr "שימוש בדוא״ל שונה"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "הרשמה לעוד"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
@@ -2069,7 +2069,7 @@ msgstr "סנכרון Firefox בין מכשירים"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "סנכרון סימניות, היסטוריה וססמאות ל־Firefox שבמכשירים הניידים שלך. זה לוקח רק כמה דקות."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2085,7 +2085,7 @@ msgstr "הורדת Firefox באמצעות יישומון המצלמה שלך"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "התקנת Firefox וסנכרון בין שני מכשירים לפחות מגן גם מפני אובדן הנתונים שלך."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
