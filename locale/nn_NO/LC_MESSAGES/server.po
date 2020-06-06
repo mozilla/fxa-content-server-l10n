@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 08:22+0000\n"
+"PO-Revision-Date: 2020-06-06 08:30+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -243,7 +243,7 @@ msgstr "Du har deaktivert tostegs-verifisering på Firefox-kontoen din. Sikkerhe
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Firefox-konto stadfesta. Du er nesten klar."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -251,11 +251,11 @@ msgstr "Synkroniser einingane dine no!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Synkronisering held bokmerka, passorda og andre Firefox-data like på alle einingane dine."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "Konfigurer neste eining"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -751,7 +751,7 @@ msgstr "Handter kontoen"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Kontoen stadfesta. Synkroniser no ei anna eining for å fullføre installasjonen"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
