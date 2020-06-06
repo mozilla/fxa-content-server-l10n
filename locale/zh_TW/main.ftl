@@ -49,6 +49,30 @@ product-plan-details-heading = 來設定訂閱吧
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每天收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 天收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每週收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 週收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每個月收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 個月收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每年收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 年收取 { $amount }
+    }
 
 ## Product route
 
@@ -63,6 +87,7 @@ product-no-such-plan = 此產品無此方案。
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } 使用 Stripe 來安全地處理交易款項。
 payment-legal-link = 請參考 <a>Stripe 的隱私權保護政策</a>。
 
 ## payment form
@@ -81,6 +106,31 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每天持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 天對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每週持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 週對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每個月持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 個月對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每年持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 年對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+payment-confirm = 我同意 Firefox 產品的製造商 Mozilla 依照付款條件，<strong>每 { $interval } 持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
 
 ##
 
@@ -94,6 +144,8 @@ payment-validate-zip-short = 郵遞區號太短
 ## subscription redirect
 
 sub-redirect-ready = 訂閱內容準備完成
+sub-redirect-copy = 請花一點時間告訴我們您的體驗如何。
+sub-redirect-skip-survey = 不用了謝謝，直接帶我去看我的產品。
 
 ## fields
 
