@@ -225,6 +225,7 @@ reactivate-success-button = Stäng
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-sub = Avbryt prenumeration
 
 ## subscription route index
 
@@ -234,12 +235,16 @@ reactivate-success-button = Stäng
 
 ## plan-details
 
+plan-details-header = Produktinformation
 plan-details-show-button = Visa detaljer
 plan-details-hide-button = Dölj detaljer
 plan-details-total-label = Totalt
 
 ## payment confirmation
 
+payment-confirmation-alert = Klicka här för att ladda ner
+payment-confirmation-mobile-alert = Öppnades ingen app? <a>Klicka här</a>
+payment-confirmation-heading = Tack { $displayName }!
 payment-confirmation-heading-bak = Tack!
 payment-confirmation-subheading = Ett bekräftelsemeddelande har skickats till
 payment-confirmation-order-heading = Orderdetaljer
