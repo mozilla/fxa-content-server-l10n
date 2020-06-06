@@ -63,6 +63,7 @@ product-no-such-plan = 此產品無此方案。
 
 ## payment legal blurb
 
+payment-legal-link = 請參考 <a>Stripe 的隱私權保護政策</a>。
 
 ## payment form
 
@@ -92,6 +93,7 @@ payment-validate-zip-short = 郵遞區號太短
 
 ## subscription redirect
 
+sub-redirect-ready = 訂閱內容準備完成
 
 ## fields
 
@@ -102,6 +104,8 @@ default-input-error = 此欄位必填
 product-plan-upgrade-heading = 確認升級內容
 sub-update-failed = 方案更新失敗
 sub-update-title = 帳務資訊
+sub-update-card-ending = 卡號結尾: { $last }
+sub-update-card-exp = { $cardExpMonth }/{ $cardExpYear } 到期
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -135,6 +139,7 @@ reactivate-confirm-button = 重新訂閱
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = 您已於 { $date } 取消訂閱方案。
 reactivate-success-copy = 處理完成，感謝您！
 reactivate-success-button = 關閉
 
@@ -154,15 +159,38 @@ sub-route-idx-updating = 正在更新帳務資訊…
 sub-route-idx-reactivating = 重新訂閱失敗
 sub-route-idx-cancel-failed = 訂閱取消失敗
 sub-route-idx-contact = 聯絡支援團隊
+sub-route-idx-cancel-msg-title = 很抱歉看到您離開
+sub-route-idx-cancel-aside = 有問題嗎？請到 <a>{ -brand-name-mozilla } Support</a>。
+sub-subscription-error =
+    .title = 載入訂閱資訊時發生問題
+sub-customer-error =
+    .title = 載入客戶資料時發生問題
+sub-billing-update-success = 成功更新帳務資訊！
 
 ## subscription create
 
+sub-guarantee = 30 天內保證退款
 
 ## plan-details
 
+plan-details-header = 產品詳細資訊
+plan-details-show-button = 顯示詳細資訊
+plan-details-hide-button = 隱藏詳細資訊
+plan-details-total-label = 總計
 
 ## payment confirmation
 
+payment-confirmation-alert = 點擊此處下載
+payment-confirmation-mobile-alert = 應用程式沒有出現嗎？<a>請點擊此處</a>
+payment-confirmation-heading = 感謝 { $displayName }！
+payment-confirmation-heading-bak = 感謝您！
+payment-confirmation-order-heading = 訂單詳細資訊
+payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
+payment-confirmation-billing-heading = 付款人:
+payment-confirmation-details-heading = 付款詳細資訊
+payment-confirmation-amount = 每 { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = 卡號末四碼: { $last4 }
+payment-confirmation-download-button = 前往下載
