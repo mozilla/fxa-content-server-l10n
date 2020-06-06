@@ -158,9 +158,22 @@ sub-update-failed = 方案更新失敗
 sub-update-title = 帳務資訊
 sub-update-card-ending = 卡號結尾: { $last }
 sub-update-card-exp = { $cardExpMonth }/{ $cardExpYear } 到期
+sub-update-copy = 您的方案內容會立刻變更，且會向您收取剩餘帳務週期的差額。自 { $startingDate } 起將會向您收取全額。
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每天持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 天對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [1] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每週持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
+       *[other] 我同意 { -brand-name-firefox } 產品的製造商 { -brand-name-mozilla } 依照付款條件，<strong>每 { $intervalCount } 週對我的付款方式收取 { $amount } 一次</strong>，直到我主動取消訂閱為止。
+    }
 
 ##
 
